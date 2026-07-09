@@ -1,0 +1,58 @@
+---
+const { quiz } = Astro.props;
+---
+{quiz && (
+  <section class="quiz" id="quiz" aria-label="Practice quiz">
+    <h2>✏️ Practice: {quiz.title}</h2>
+    <p class="meta">Level {quiz.level} · {quiz.items.length} questions · instant feedback</p>
+    {quiz.items.map((item, i) => (
+      <div class="q" data-answer={item.answer} data-expl={JSON.stringify(item.explanations)}>
+        <p class="q-text">{i + 1}. {item.question}</p>
+        <div class="opts">
+          {item.options.map((opt, j) => (
+            <button type="button" class="opt" data-idx={j}>{opt}</button>
+          ))}
+        </div>
+        <p class="expl" hidden></p>
+      </div>
+    ))}
+    <p class="quiz-score" id="quiz-score"></p>
+  </section>
+)}
+<script>
+  const quizEl = document.getElementById('quiz');
+  if (quizEl) {
+    let answered = 0;
+    let correct = 0;
+    const total = quizEl.querySelectorAll('.q').length;
+    quizEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('.opt');
+      if (!btn || btn.disabled) return;
+      const q = btn.closest('.q');
+      const answer = Number(q.dataset.answer);
+      const chosen = Number(btn.dataset.idx);
+      const expl = JSON.parse(q.dataset.expl);
+      q.querySelectorAll('.opt').forEach((b) => {
+        b.disabled = true;
+        if (Number(b.dataset.idx) === answer) b.classList.add('correct');
+      });
+      const explEl = q.querySelector('.expl');
+      explEl.hidden = false;
+      if (chosen === answer) {
+        correct++;
+        explEl.classList.add('good');
+        explEl.textContent = '✅ ' + expl[chosen];
+      } else {
+        btn.classList.add('wrong');
+        explEl.classList.add('bad');
+        explEl.textContent = '❌ ' + expl[chosen];
+      }
+      answered++;
+      if (answered === total) {
+        const s = document.getElementById('quiz-score');
+        s.style.display = 'block';
+        s.textContent = `Your score: ${correct}/${total}` + (correct === total ? ' — perfect! 🎉' : correct >= total * 0.7 ? ' — well done!' : ' — review the lesson above and try again.');
+      }
+    });
+  }
+</script>

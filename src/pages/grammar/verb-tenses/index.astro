@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'verb-tenses');
+const planned = [
+  'Present Simple', 'Present Continuous', 'Present Perfect Continuous',
+  'Past Simple', 'Past Continuous', 'Past Perfect',
+  'Past Perfect Continuous', 'Future Simple (will / going to)', 'Future Continuous',
+  'Future Perfect', 'Present Perfect vs Past Simple',
+];
+---
+<Base
+  title="English Verb Tenses — lessons and exercises | HubESOL"
+  description="All 12 English verb tenses explained simply, with interactive exercises and printable resources. From A2 to C1."
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Verb Tenses</p>
+  <h1>Verb Tenses</h1>
+  <p>
+    The 12 English tenses, one clear lesson each — how to form them, when to use them,
+    the mistakes everyone makes, and a quiz to check yourself.
+  </p>
+  <div class="cards">
+    {lessons.map((l) => (
+      <a class="card" href={`/grammar/${l.slug}/`}>
+        <h3>{l.data.title}</h3>
+        <p><span class="badge">{l.data.level}</span>{l.data.description}</p>
+      </a>
+    ))}
+    {planned.map((t) => (
+      <span class="card soon"><h3>{t} <span class="badge">soon</span></h3></span>
+    ))}
+  </div>
+</Base>

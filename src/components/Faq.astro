@@ -1,0 +1,14 @@
+---
+const { faq } = Astro.props;
+---
+{faq.length > 0 && (
+  <section class="faq">
+    <h2>Frequently asked questions</h2>
+    {faq.map((item) => (
+      <details>
+        <summary>{item.q}</summary>
+        <p>{item.a}</p>
+      </details>
+    ))}
+  </section>
+)}

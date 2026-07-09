@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+const { title, description, jsonld = [] } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonical} />
+    {jsonld.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
+  </head>
+  <body>
+    <header class="site">
+      <div class="inner">
+        <a class="logo" href="/">Hub<span>ESOL</span></a>
+        <nav class="main">
+          <a href="/grammar/">Grammar</a>
+          <a href="/#newsletter">Newsletter</a>
+        </nav>
+      </div>
+    </header>
+    <main><slot /></main>
+    <footer class="site">
+      <div class="inner">
+        © {new Date().getFullYear()} HubESOL — Free English grammar lessons and exercises.
+      </div>
+    </footer>
+  </body>
+</html>

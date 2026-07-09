@@ -1,0 +1,16 @@
+---
+const { objectives, title } = Astro.props;
+---
+{objectives.length > 0 && (
+  <section class="teacher">
+    <h2>👩‍🏫 For teachers</h2>
+    <p><strong>CEFR objectives for “{title}”:</strong></p>
+    <ul>
+      {objectives.map((o) => <li>{o}</li>)}
+    </ul>
+    <p>
+      Lesson Pack (printable worksheet + answer key + one-page summary) — coming soon.
+      <a href="/#newsletter">Join the newsletter</a> to get it first, free.
+    </p>
+  </section>
+)}

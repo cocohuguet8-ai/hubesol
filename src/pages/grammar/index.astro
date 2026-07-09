@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const lessons = await getCollection('lessons', ({ data }) => !data.draft);
+const hubs = {};
+for (const l of lessons) {
+  (hubs[l.data.hub] ??= { slug: l.data.hubSlug, items: [] }).items.push(l);
+}
+---
+<Base
+  title="English Grammar — all topics | HubESOL"
+  description="Every English grammar topic on HubESOL: lessons, interactive exercises and printable resources, organised by hub."
+>
+  <h1>English Grammar</h1>
+  <p>Pick a topic. Every lesson includes a quick answer, full explanation and an interactive quiz.</p>
+  {Object.entries(hubs).map(([hub, { slug, items }]) => (
+    <section>
+      <h2><a href={`/grammar/${slug}/`}>{hub}</a></h2>
+      <ul>
+        {items.map((l) => (
+          <li>
+            <a href={`/grammar/${l.slug}/`}>{l.data.title}</a>
+            <span class="meta"> — {l.data.level}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
