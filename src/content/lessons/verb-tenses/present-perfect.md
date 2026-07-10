@@ -45,7 +45,7 @@ The past participle is the verb + *-ed* for regular verbs (*worked, played*) and
 
 Use it when *when* is not important — only the experience matters.
 
-- I**'ve visited** Japan twice.
+- **I've visited** Japan twice.
 - **Have** you ever **tried** sushi?
 
 > ⚠️ Typical error: ~~I have visited Japan in 2022.~~ → If you say *when*, use the past simple: *I visited Japan in 2022.*
@@ -54,8 +54,8 @@ Use it when *when* is not important — only the experience matters.
 
 The action is finished, but the result is important now.
 
-- She**'s lost** her keys. (= she can't open the door **now**)
-- I**'ve just finished** the report. (= it's ready **now**)
+- **She's lost** her keys. (= she can't open the door **now**)
+- **I've just finished** the report. (= it's ready **now**)
 
 > ⚠️ Typical error: ~~She has lost her keys yesterday.~~ → *Yesterday* is finished time → *She lost her keys yesterday.*
 
@@ -63,8 +63,8 @@ The action is finished, but the result is important now.
 
 Use *since* (starting point) or *for* (period).
 
-- We**'ve lived** here **since 2020**.
-- He**'s worked** at the school **for ten years**.
+- **We've lived** here **since 2020**.
+- **He's worked** at the school **for ten years**.
 
 > ⚠️ Typical error: ~~I live here since 2020.~~ → With *since/for* + a situation that continues, English needs the present perfect: *I've lived here since 2020.*
 
@@ -82,6 +82,6 @@ Use *since* (starting point) or *for* (period).
 
 **1. Using the present perfect with finished time.** The number-one error for Spanish, Catalan, French and Italian speakers, because their languages allow it. If the time is finished (*yesterday, last week, in 2019, this morning* — when the morning is over), use the past simple.
 
-**2. Confusing *since* and *for*.** *Since* + starting point; *for* + duration. Quick test: if you can replace it with a number of days/years, it's *for*.
+**2. Confusing *since* and *for*.** *Since* + starting point; *for* + duration. **Pro tip:** if you can replace it with a number of days/years, it's *for*.
 
 **3. Confusing *been* and *gone*.** *Been* = went and came back (experience). *Gone* = went and is still there.
