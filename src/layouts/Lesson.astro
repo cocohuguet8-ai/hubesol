@@ -70,7 +70,17 @@ if (quiz) {
 
   <div class="answer-box">
     <span class="label">Quick answer</span>
-    {d.answerBox}
+    {d.answerPoints && d.answerPoints.length > 0 ? (
+      <>
+        {d.answerLead && <p class="answer-lead">{d.answerLead}</p>}
+        <ol class="answer-points">
+          {d.answerPoints.map((p) => <li>{p}</li>)}
+        </ol>
+        {d.answerNote && <p class="answer-note">{d.answerNote}</p>}
+      </>
+    ) : (
+      <p>{d.answerBox}</p>
+    )}
   </div>
 
   <div class="prose"><slot /></div>

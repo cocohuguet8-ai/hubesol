@@ -83,6 +83,46 @@ a { color: var(--accent); }
   display: block;
   margin-bottom: 0.4rem;
 }
+.answer-box p { margin: 0.3rem 0 0; }
+.answer-box .answer-lead { margin: 0; font-weight: 500; }
+.answer-box ol.answer-points {
+  list-style: none;
+  counter-reset: ap;
+  margin: 0.7rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+.answer-box ol.answer-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  line-height: 1.5;
+}
+.answer-box ol.answer-points li::before {
+  counter-increment: ap;
+  content: counter(ap);
+  flex: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.1rem;
+  border-radius: 7px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.answer-box .answer-note {
+  margin: 0.8rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid rgba(79, 70, 229, 0.18);
+  font-size: 0.97rem;
+  color: var(--accent-ink);
+}
 
 /* Prose: auto-numbered section headings */
 .prose { counter-reset: h2; }

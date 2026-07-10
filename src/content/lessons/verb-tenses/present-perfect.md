@@ -5,6 +5,12 @@ level: "B1"
 hub: "Verb Tenses"
 hubSlug: "verb-tenses"
 answerBox: "The present perfect (have/has + past participle) connects the past with now. Use it for: (1) experiences at an unspecified time — I've been to Rome; (2) recent actions with a result now — She's lost her keys; (3) situations that started in the past and continue — We've lived here since 2020. Never use it with finished-time expressions like yesterday or in 2019 — use the past simple instead."
+answerLead: "The present perfect (have/has + past participle) connects the past with now. Use it for:"
+answerPoints:
+  - "Experiences at an unspecified time — I've been to Rome."
+  - "Recent actions with a result now — She's lost her keys."
+  - "Situations that started in the past and continue — We've lived here since 2020."
+answerNote: "Never use it with finished-time expressions like yesterday or in 2019 — use the past simple instead."
 quiz: "present-perfect-quiz-1"
 faq:
   - q: "What is the difference between the present perfect and the past simple?"
