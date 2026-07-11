@@ -1,0 +1,82 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'verb-tenses');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`verb-tenses/${s}`);
+
+const rows = [
+  { name: 'Past Simple', slug: 'past-simple', use: 'Finished actions at a finished time', ex: 'I worked yesterday.' },
+  { name: 'Past Continuous', slug: 'past-continuous', use: 'An action in progress in the past', ex: 'I was working at six.' },
+  { name: 'Past Perfect', slug: 'past-perfect', use: 'An action before another past action', ex: 'I had worked before she called.' },
+  { name: 'Past Perfect Continuous', slug: 'past-perfect-continuous', use: 'How long an action had lasted before a past point', ex: 'I had been working for hours.' },
+];
+
+const faq = [
+  { q: 'How many past tenses are there in English?', a: 'Four: past simple, past continuous, past perfect and past perfect continuous. Each describes the past from a slightly different angle.' },
+  { q: 'What is the difference between the past simple and the past continuous?', a: 'The past simple is for completed actions (I cooked dinner); the past continuous is for an action in progress at a past moment (I was cooking when he arrived).' },
+  { q: 'When do I use the past perfect?', a: 'Use the past perfect for an action that happened before another past action: When I arrived, they had already left.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Verb Tenses', item: 'https://hubesol.com/grammar/verb-tenses/' },
+    { '@type': 'ListItem', position: 3, name: 'Past Tenses', item: 'https://hubesol.com/grammar/verb-tenses/past-tenses/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base
+  title="Past Tenses — the 4 past tenses in English | HubESOL"
+  description="The four English past tenses — simple, continuous, perfect and perfect continuous — with when to use each, an example, and links to full lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › <a href="/grammar/verb-tenses/">Verb Tenses</a> › Past Tenses</p>
+  <h1>Past Tenses</h1>
+  <p class="meta">The four English past tenses at a glance — what each one is for, with a lesson and quiz for every one.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">English has four past tenses, each with a different job:</p>
+    <ol class="answer-points">
+      <li>Past simple — a finished action (I worked).</li>
+      <li>Past continuous — in progress in the past (I was working).</li>
+      <li>Past perfect — before another past action (I had worked).</li>
+      <li>Past perfect continuous — how long, before a past point (I had been working).</li>
+    </ol>
+    <p class="answer-note">The one to master first is the past simple; add the past continuous to tell stories, and the past perfect to show what happened earlier.</p>
+  </div>
+
+  <table>
+    <tr><th>Tense</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/verb-tenses/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Which past tense?</h2>
+  <ul>
+    <li>A <strong>finished action</strong> at a finished time? → past simple (<em>I called her yesterday</em>).</li>
+    <li>An action <strong>in progress</strong> at a past moment? → past continuous (<em>I was calling her at six</em>).</li>
+    <li>Something that happened <strong>even earlier</strong>? → past perfect (<em>She had already left</em>).</li>
+  </ul>
+  <p>A common exam contrast is <a href="/grammar/verb-tenses/present-perfect-vs-past-simple/">present perfect vs past simple</a> — well worth reviewing.</p>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>

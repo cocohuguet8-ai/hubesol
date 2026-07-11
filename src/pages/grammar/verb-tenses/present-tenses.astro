@@ -1,0 +1,82 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'verb-tenses');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`verb-tenses/${s}`);
+
+const rows = [
+  { name: 'Present Simple', slug: 'present-simple', use: 'Habits, routines and permanent facts', ex: 'I work in Girona.' },
+  { name: 'Present Continuous', slug: 'present-continuous', use: 'Actions happening around now', ex: "I'm working from home today." },
+  { name: 'Present Perfect', slug: 'present-perfect', use: 'Past actions with a link to now', ex: "I've worked here since 2020." },
+  { name: 'Present Perfect Continuous', slug: 'present-perfect-continuous', use: 'How long an action has lasted up to now', ex: "I've been working all morning." },
+];
+
+const faq = [
+  { q: 'How many present tenses are there in English?', a: 'Four: present simple, present continuous, present perfect and present perfect continuous. Each looks at the present in a different way.' },
+  { q: 'What is the difference between the present simple and present continuous?', a: 'The present simple is for habits and facts (I work here); the present continuous is for actions happening now or temporary situations (I am working today).' },
+  { q: 'Is the present perfect a present or a past tense?', a: 'It is a present tense in form (have/has + participle) that connects a past action to the present moment, which is why it belongs with the present tenses.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Verb Tenses', item: 'https://hubesol.com/grammar/verb-tenses/' },
+    { '@type': 'ListItem', position: 3, name: 'Present Tenses', item: 'https://hubesol.com/grammar/verb-tenses/present-tenses/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base
+  title="Present Tenses — the 4 present tenses in English | HubESOL"
+  description="The four English present tenses — simple, continuous, perfect and perfect continuous — with when to use each, an example, and links to full lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › <a href="/grammar/verb-tenses/">Verb Tenses</a> › Present Tenses</p>
+  <h1>Present Tenses</h1>
+  <p class="meta">The four English present tenses at a glance — what each one is for, with a lesson and quiz for every one.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">English has four present tenses, each with a different job:</p>
+    <ol class="answer-points">
+      <li>Present simple — habits and facts (I work).</li>
+      <li>Present continuous — happening now (I'm working).</li>
+      <li>Present perfect — the past linked to now (I've worked).</li>
+      <li>Present perfect continuous — how long, up to now (I've been working).</li>
+    </ol>
+    <p class="answer-note">Not sure which? The two you'll use most are the present simple and present continuous — see the contrast below.</p>
+  </div>
+
+  <table>
+    <tr><th>Tense</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/verb-tenses/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Which present tense?</h2>
+  <ul>
+    <li>Is it a <strong>habit or a fact</strong>? → present simple (<em>I check my email every day</em>).</li>
+    <li>Is it <strong>happening now</strong> or temporary? → present continuous (<em>I'm checking my email</em>).</li>
+    <li>Does a past action <strong>matter now</strong>? → present perfect (<em>I've checked my email</em>).</li>
+  </ul>
+  <p>The classic confusion is <a href="/grammar/verb-tenses/present-simple-vs-present-continuous/">present simple vs present continuous</a> — start there.</p>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
