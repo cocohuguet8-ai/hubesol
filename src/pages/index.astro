@@ -42,34 +42,90 @@ const jsonld = [{
   <section class="newsletter" id="newsletter">
     <h2 style="margin-top:0">📬 Get the free cheat sheets</h2>
     <p>One short email every two weeks: a grammar tip, a common mistake, and a printable PDF. No spam.</p>
-    <form
-      id="newsletter-form"
-      action="https://assets.mailerlite.com/jsonp/2503284/forms/192676874647766152/subscribe"
-      method="post"
-      target="ml_iframe"
-    >
-      <input type="email" name="fields[email]" placeholder="your@email.com" autocomplete="email" required />
-      <input type="hidden" name="ml-submit" value="1" />
-      <input type="hidden" name="anticsrf" value="true" />
-      <button class="btn" type="submit">Subscribe free</button>
-    </form>
-    <p id="newsletter-thanks" style="display:none; margin-top:0.7rem; font-weight:600; color:var(--accent-ink)">
-      Thanks! Check your inbox to confirm your subscription. ✦
-    </p>
-    <iframe name="ml_iframe" title="newsletter" style="display:none" aria-hidden="true"></iframe>
+
+    <style is:inline>
+      #mlb2-43628639 .ml-form-embedWrapper { background: transparent; margin: 0; }
+      #mlb2-43628639 .ml-form-embedBody { padding: 0; }
+      #mlb2-43628639 .ml-form-embedContent { display: none; }
+      #mlb2-43628639 .ml-form-formContent { margin: 0; }
+      #mlb2-43628639 form { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 0; }
+      #mlb2-43628639 .ml-form-fieldRow { margin: 0; flex: 1; min-width: 14rem; }
+      #mlb2-43628639 .ml-form-fieldRow input {
+        background: #fff !important; color: #12141a !important;
+        border: 1.5px solid #e7e9ef !important; border-radius: 9px !important;
+        font-family: "Inter", system-ui, sans-serif !important; font-size: 1rem !important;
+        line-height: 1.5 !important; padding: 0.6rem 0.9rem !important;
+        width: 100% !important; box-sizing: border-box !important;
+      }
+      #mlb2-43628639 .ml-form-fieldRow input:focus { border-color: #4f46e5 !important; outline: none; }
+      #mlb2-43628639 .ml-form-fieldRow input::placeholder { color: #9aa0ac !important; }
+      #mlb2-43628639 .ml-form-embedSubmit { margin: 0; float: none; width: auto; }
+      #mlb2-43628639 .ml-form-embedSubmit button {
+        background: #4f46e5 !important; color: #fff !important; border: none !important;
+        border-radius: 9px !important; font-family: "Inter", system-ui, sans-serif !important;
+        font-weight: 600 !important; font-size: 1rem !important; line-height: 1.5 !important;
+        padding: 0.6rem 1.2rem !important; width: auto !important; cursor: pointer;
+      }
+      #mlb2-43628639 .ml-form-embedSubmit button:hover { background: #3730b0 !important; }
+      #mlb2-43628639 .ml-form-successBody { padding: 0; }
+      #mlb2-43628639 .ml-form-successContent h4 {
+        font-family: "Space Grotesk", system-ui, sans-serif !important; color: #3730b0 !important;
+        font-size: 1.15rem !important; font-weight: 600 !important; margin: 0 0 0.3rem !important;
+      }
+      #mlb2-43628639 .ml-form-successContent p {
+        font-family: "Inter", system-ui, sans-serif !important; color: #12141a !important; margin: 0 !important;
+      }
+      #mlb2-43628639 .ml-form-embedSubmitLoad { display: inline-block; width: 20px; height: 20px; }
+      #mlb2-43628639 .ml-form-embedSubmitLoad:after {
+        content: " "; display: block; width: 11px; height: 11px; margin: 1px; border-radius: 50%;
+        border: 4px solid #fff; border-color: #fff #fff #fff transparent;
+        animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+      }
+      @keyframes ml-form-embedSubmitLoad { 0% { transform: rotate(0); } 100% { transform: rotate(360deg); } }
+      #mlb2-43628639 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+      #mlb2-43628639 .ml-error input { border-color: #dc2626 !important; }
+    </style>
+
+    <div id="mlb2-43628639" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-43628639">
+      <div class="ml-form-align-center">
+        <div class="ml-form-embedWrapper embedForm">
+          <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2503284/forms/192676874647766152/subscribe" data-code="" method="post" target="_blank">
+              <div class="ml-form-formContent">
+                <div class="ml-form-fieldRow ml-last-item">
+                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                    <input aria-label="email" aria-required="true" type="email" class="form-control" name="fields[email]" placeholder="your@email.com" autocomplete="email" />
+                  </div>
+                </div>
+              </div>
+              <input type="hidden" name="ml-submit" value="1" />
+              <div class="ml-form-embedSubmit">
+                <button type="submit" class="primary">Subscribe free</button>
+                <button disabled="disabled" style="display:none;" type="button" class="loading"><div class="ml-form-embedSubmitLoad"></div><span class="sr-only">Loading...</span></button>
+              </div>
+              <input type="hidden" name="anticsrf" value="true" />
+            </form>
+          </div>
+          <div class="ml-form-successBody row-success" style="display:none">
+            <div class="ml-form-successContent">
+              <h4>Almost there!</h4>
+              <p>Check your inbox to confirm your subscription. ✦</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <script is:inline>
-    (function () {
-      var form = document.getElementById('newsletter-form');
-      if (!form) return;
-      form.addEventListener('submit', function () {
-        // The POST goes to the hidden iframe (no page reload). Show our own thank-you.
-        setTimeout(function () {
-          form.style.display = 'none';
-          document.getElementById('newsletter-thanks').style.display = 'block';
-        }, 300);
-      });
-    })();
+    function ml_webform_success_43628639() {
+      var $ = ml_jQuery || jQuery;
+      $('.ml-subscribe-form-43628639 .row-success').show();
+      $('.ml-subscribe-form-43628639 .row-form').hide();
+    }
+  </script>
+  <script is:inline src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
+  <script is:inline>
+    fetch("https://assets.mailerlite.com/jsonp/2503284/forms/192676874647766152/takel");
   </script>
 </Base>
