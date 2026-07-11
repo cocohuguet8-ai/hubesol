@@ -31,6 +31,8 @@ related:
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
   - { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
+  - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
+  - { title: "Past Simple vs Past Continuous", href: "/grammar/verb-tenses/past-simple-vs-past-continuous/" }
 draft: false
 ---
 
