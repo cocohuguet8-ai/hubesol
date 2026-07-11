@@ -33,6 +33,7 @@ related:
   - { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
   - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
   - { title: "Past Simple vs Past Continuous", href: "/grammar/verb-tenses/past-simple-vs-past-continuous/" }
+  - { title: "Past Perfect", href: "/grammar/verb-tenses/past-perfect/" }
 draft: false
 ---
 

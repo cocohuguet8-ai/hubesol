@@ -31,6 +31,8 @@ related:
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
   - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
   - { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
+  - { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
+  - { title: "Present Perfect vs Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-vs-present-perfect-continuous/" }
 ---
 
 ## How to form the present perfect
