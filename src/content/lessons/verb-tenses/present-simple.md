@@ -29,6 +29,7 @@ related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
+  - { title: "Present Continuous", href: "/grammar/verb-tenses/present-continuous/" }
 draft: false
 ---
 
