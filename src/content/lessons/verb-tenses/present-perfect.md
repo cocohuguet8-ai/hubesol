@@ -29,6 +29,7 @@ related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
+  - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
 ---
 
 ## How to form the present perfect
