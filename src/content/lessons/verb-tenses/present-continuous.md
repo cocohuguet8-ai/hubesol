@@ -30,6 +30,8 @@ related:
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
   - { title: "Present Simple vs Present Continuous", href: "/grammar/verb-tenses/present-simple-vs-present-continuous/" }
+  - { title: "Stative Verbs", href: "/grammar/verb-tenses/stative-verbs/" }
+  - { title: "Present Continuous for the Future", href: "/grammar/verb-tenses/present-continuous-future/" }
 draft: false
 ---
 
