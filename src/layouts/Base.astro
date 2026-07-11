@@ -26,7 +26,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <body>
     <header class="site">
       <div class="inner">
-        <a class="logo" href="/">Hub<span>ESOL</span></a>
+        <a class="logo" href="/" aria-label="HubESOL home">
+          <svg class="logo-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#4f46e5"/><path d="M9 8.5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8l-4 3.2V20.5H9a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2Z" fill="#fff"/><path d="M11.5 14.3l2.6 2.6 5-5.2" fill="none" stroke="#4f46e5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="logo-text">Hub<span>ESOL</span></span>
+        </a>
         <nav class="main">
           <a href="/grammar/">Grammar</a>
           <a href="/#newsletter">Newsletter</a>
