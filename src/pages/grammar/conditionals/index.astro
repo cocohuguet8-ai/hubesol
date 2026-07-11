@@ -14,6 +14,13 @@ const rows = [
   { name: 'Mixed Conditionals', slug: 'mixed-conditionals', use: 'Two different time frames combined', ex: "If I had studied medicine, I'd be a doctor now." },
 ];
 
+const related = [
+  { name: 'First vs Second Conditional', slug: 'first-vs-second-conditional', note: 'Real future or imaginary?' },
+  { name: 'Second vs Third Conditional', slug: 'second-vs-third-conditional', note: 'Unreal present or unreal past?' },
+  { name: 'Wishes: I wish / if only', slug: 'wishes-i-wish-if-only', note: 'Regrets and things you\'d change' },
+  { name: 'Unless, as long as, provided that', slug: 'unless-as-long-as-provided', note: 'Conditional linkers beyond ‘if’' },
+];
+
 const faq = [
   { q: 'How many conditionals are there in English?', a: 'Four main ones — zero, first, second and third — plus "mixed" conditionals that combine time frames.' },
   { q: 'What is the difference between the first and second conditional?', a: 'The first is for a real, likely future (If I have time, I\'ll help). The second is for imaginary or unlikely situations (If I had time, I\'d help).' },
@@ -69,6 +76,17 @@ const jsonld = [
     <li>Is it <strong>imaginary or unlikely now</strong>? → <a href="/grammar/conditionals/second-conditional/">second conditional</a> (<em>If I were rich, I'd travel</em>).</li>
     <li>Is it an <strong>imagined past</strong>? → <a href="/grammar/conditionals/third-conditional/">third conditional</a> (<em>If I had known, I'd have helped</em>).</li>
   </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/conditionals/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
