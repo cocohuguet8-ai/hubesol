@@ -1,0 +1,82 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'verb-tenses');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`verb-tenses/${s}`);
+
+const rows = [
+  { name: 'Future Simple (will)', slug: 'future-simple', use: 'Predictions, decisions, promises', ex: "I'll work tomorrow." },
+  { name: 'Future Continuous', slug: 'future-continuous', use: 'An action in progress in the future', ex: "I'll be working at six." },
+  { name: 'Future Perfect', slug: 'future-perfect', use: 'Finished by a point in the future', ex: "I'll have worked by then." },
+  { name: 'Future Perfect Continuous', slug: 'future-perfect-continuous', use: 'How long, by a future point', ex: "I'll have been working for a year." },
+];
+
+const faq = [
+  { q: 'How many ways are there to talk about the future in English?', a: 'Several: will, be going to, the present continuous for arrangements, and the present simple for timetables — plus the future continuous and future perfect for more specific meanings.' },
+  { q: 'What is the difference between will and going to?', a: 'Use will for instant decisions, promises and general predictions; use going to for plans decided before now and predictions based on evidence.' },
+  { q: 'Can the present tenses talk about the future?', a: 'Yes. The present continuous is used for arrangements (I\'m meeting her at six) and the present simple for timetables (The train leaves at 6).' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Verb Tenses', item: 'https://hubesol.com/grammar/verb-tenses/' },
+    { '@type': 'ListItem', position: 3, name: 'Future Tenses', item: 'https://hubesol.com/grammar/verb-tenses/future-tenses/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base
+  title="Future Tenses — how to talk about the future in English | HubESOL"
+  description="The English future tenses and forms — will, going to, future continuous and future perfect — with when to use each, an example, and links to full lessons."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › <a href="/grammar/verb-tenses/">Verb Tenses</a> › Future Tenses</p>
+  <h1>Future Tenses</h1>
+  <p class="meta">All the ways to talk about the future in English, and the four future tenses — with a lesson and quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">English has several ways to talk about the future:</p>
+    <ol class="answer-points">
+      <li>will — decisions, promises, predictions (I'll help).</li>
+      <li>be going to — plans and evidence (I'm going to travel).</li>
+      <li>present continuous — arrangements (I'm meeting her at six).</li>
+      <li>present simple — timetables (The train leaves at six).</li>
+    </ol>
+    <p class="answer-note">The most important choice for learners is will vs going to — see the contrast below.</p>
+  </div>
+
+  <table>
+    <tr><th>Tense</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/verb-tenses/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Will, going to, or a present tense?</h2>
+  <ul>
+    <li>Deciding <strong>now</strong>, promising or predicting? → <a href="/grammar/verb-tenses/future-simple/">will</a> (<em>I'll call you</em>).</li>
+    <li>A <strong>plan</strong> or something you can see coming? → <a href="/grammar/verb-tenses/future-going-to/">going to</a> (<em>I'm going to travel</em>).</li>
+    <li>A fixed <strong>arrangement</strong> with a time? → present continuous (<em>I'm meeting her at six</em>).</li>
+  </ul>
+  <p>The key contrast to learn first is <a href="/grammar/verb-tenses/will-vs-going-to/">will vs going to</a>.</p>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
