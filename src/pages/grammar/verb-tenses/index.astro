@@ -1,33 +1,136 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+
 const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'verb-tenses');
-const planned = [
-  'Present Simple', 'Present Continuous', 'Present Perfect Continuous',
-  'Past Simple', 'Past Continuous', 'Past Perfect',
-  'Past Perfect Continuous', 'Future Simple (will / going to)', 'Future Continuous',
-  'Future Perfect', 'Present Perfect vs Past Simple',
+const pub = new Set(lessons.map((l) => l.slug)); // e.g. 'verb-tenses/present-simple'
+const isLive = (s) => pub.has(`verb-tenses/${s}`);
+
+const groups = [
+  {
+    time: 'Present',
+    rows: [
+      { name: 'Present Simple', slug: 'present-simple', use: 'Facts, habits and routines', ex: 'I work here.' },
+      { name: 'Present Continuous', slug: 'present-continuous', use: 'Actions happening around now', ex: "I'm working now." },
+      { name: 'Present Perfect', slug: 'present-perfect', use: 'Past actions linked to now', ex: "I've worked here for years." },
+      { name: 'Present Perfect Continuous', slug: 'present-perfect-continuous', use: 'How long, up to now', ex: "I've been working all day." },
+    ],
+  },
+  {
+    time: 'Past',
+    rows: [
+      { name: 'Past Simple', slug: 'past-simple', use: 'Finished actions at a finished time', ex: 'I worked yesterday.' },
+      { name: 'Past Continuous', slug: 'past-continuous', use: 'An action in progress in the past', ex: 'I was working at six.' },
+      { name: 'Past Perfect', slug: 'past-perfect', use: 'An action before another past action', ex: 'I had worked before she called.' },
+      { name: 'Past Perfect Continuous', slug: 'past-perfect-continuous', use: 'How long, before a past point', ex: 'I had been working for hours.' },
+    ],
+  },
+  {
+    time: 'Future',
+    rows: [
+      { name: 'Future Simple (will)', slug: 'future-simple', use: 'Predictions and instant decisions', ex: "I'll work tomorrow." },
+      { name: 'Future Continuous', slug: 'future-continuous', use: 'An action in progress in the future', ex: "I'll be working at six." },
+      { name: 'Future Perfect', slug: 'future-perfect', use: 'Finished by a point in the future', ex: "I'll have worked by then." },
+      { name: 'Future Perfect Continuous', slug: 'future-perfect-continuous', use: 'How long, by a future point', ex: "I'll have been working for a year." },
+    ],
+  },
+];
+
+const faq = [
+  { q: 'How many tenses are there in English?', a: 'English has 12 tenses: three times (present, past and future), each in four aspects (simple, continuous, perfect and perfect continuous).' },
+  { q: 'Which English tense should I learn first?', a: 'Start with the present simple and past simple — they cover most everyday communication — then add the present continuous and present perfect.' },
+  { q: 'What is the difference between simple and continuous tenses?', a: 'Simple tenses state a fact or a completed action (I work). Continuous tenses stress that an action is in progress (I am working).' },
+  { q: 'Are the present perfect and past simple the same?', a: 'No. The past simple is for finished time (I saw him yesterday); the present perfect links the past to now (I have seen that film).' },
+];
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+      { '@type': 'ListItem', position: 2, name: 'Verb Tenses', item: 'https://hubesol.com/grammar/verb-tenses/' },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'The 12 English verb tenses',
+    itemListElement: groups.flatMap((g) => g.rows).filter((r) => isLive(r.slug)).map((r, i) => ({
+      '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/verb-tenses/${r.slug}/`,
+    })),
+  },
 ];
 ---
 <Base
-  title="English Verb Tenses — lessons and exercises | HubESOL"
-  description="All 12 English verb tenses explained simply, with interactive exercises and printable resources. From A2 to C1."
+  title="English Verb Tenses — the 12 tenses explained | HubESOL"
+  description="All 12 English verb tenses in one place: how each one works, when to use it, and an example — with clear lessons, quizzes and printable resources."
+  jsonld={jsonld}
 >
   <p class="crumbs"><a href="/grammar/">Grammar</a> › Verb Tenses</p>
-  <h1>Verb Tenses</h1>
+  <h1>English Verb Tenses</h1>
+  <p class="meta">The complete map of the 12 English tenses — how each one works, when to use it, and the mistakes to avoid, with a lesson and quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">English builds its 12 tenses from three times and four aspects:</p>
+    <ol class="answer-points">
+      <li>Simple — a fact or a completed action (I work).</li>
+      <li>Continuous — an action in progress (I am working).</li>
+      <li>Perfect — a link to an earlier point (I have worked).</li>
+      <li>Perfect continuous — how long, up to a point (I have been working).</li>
+    </ol>
+    <p class="answer-note">Combine the three times with the four aspects and you get all 12 tenses below.</p>
+  </div>
+
+  {groups.map((g) => (
+    <>
+      <h2>{g.time} tenses</h2>
+      <table>
+        <tr><th>Tense</th><th>Use it for</th><th>Example</th></tr>
+        {g.rows.map((r) => (
+          <tr>
+            <td>
+              {isLive(r.slug)
+                ? <a href={`/grammar/verb-tenses/${r.slug}/`}>{r.name}</a>
+                : <span>{r.name} <span class="badge">soon</span></span>}
+            </td>
+            <td>{r.use}</td>
+            <td>{r.ex}</td>
+          </tr>
+        ))}
+      </table>
+    </>
+  ))}
+
+  <h2>How the system works</h2>
   <p>
-    The 12 English tenses, one clear lesson each — how to form them, when to use them,
-    the mistakes everyone makes, and a quiz to check yourself.
+    There are only <strong>three times</strong> (present, past, future) and <strong>four aspects</strong>
+    (simple, continuous, perfect, perfect continuous). Every English tense is one time combined with one
+    aspect — 3 × 4 = 12. Once you can see the pattern, the names stop being scary: <em>past</em> +
+    <em>continuous</em> = past continuous, <em>future</em> + <em>perfect</em> = future perfect, and so on.
   </p>
-  <div class="cards">
-    {lessons.map((l) => (
-      <a class="card" href={`/grammar/${l.slug}/`}>
-        <h3>{l.data.title}</h3>
-        <p><span class="badge">{l.data.level}</span>{l.data.description}</p>
-      </a>
-    ))}
-    {planned.map((t) => (
-      <span class="card soon"><h3>{t} <span class="badge">soon</span></h3></span>
+
+  <h2>Common confusions</h2>
+  <p>Most tense mistakes come from a handful of contrasts. Start with these:</p>
+  <ul>
+    <li><strong>Present perfect vs past simple</strong> — finished time or a link to now? See <a href="/grammar/verb-tenses/present-perfect/">present perfect</a> and <a href="/grammar/verb-tenses/past-simple/">past simple</a>.</li>
+    <li><strong>Present simple vs present continuous</strong> — a habit or something happening now? See <a href="/grammar/verb-tenses/present-simple/">present simple</a> and <a href="/grammar/verb-tenses/present-continuous/">present continuous</a>.</li>
+    <li><strong>Simple vs continuous</strong> — a fact, or an action in progress?</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (
+      <details>
+        <summary>{f.q}</summary>
+        <p>{f.a}</p>
+      </details>
     ))}
   </div>
 </Base>
