@@ -42,10 +42,34 @@ const jsonld = [{
   <section class="newsletter" id="newsletter">
     <h2 style="margin-top:0">📬 Get the free cheat sheets</h2>
     <p>One short email every two weeks: a grammar tip, a common mistake, and a printable PDF. No spam.</p>
-    <!-- TODO: replace action with your MailerLite/Brevo form endpoint -->
-    <form action="#" method="post">
-      <input type="email" name="email" placeholder="your@email.com" required />
+    <form
+      id="newsletter-form"
+      action="https://assets.mailerlite.com/jsonp/2503284/forms/192676874647766152/subscribe"
+      method="post"
+      target="ml_iframe"
+    >
+      <input type="email" name="fields[email]" placeholder="your@email.com" autocomplete="email" required />
+      <input type="hidden" name="ml-submit" value="1" />
+      <input type="hidden" name="anticsrf" value="true" />
       <button class="btn" type="submit">Subscribe free</button>
     </form>
+    <p id="newsletter-thanks" style="display:none; margin-top:0.7rem; font-weight:600; color:var(--accent-ink)">
+      Thanks! Check your inbox to confirm your subscription. ✦
+    </p>
+    <iframe name="ml_iframe" title="newsletter" style="display:none" aria-hidden="true"></iframe>
   </section>
+
+  <script is:inline>
+    (function () {
+      var form = document.getElementById('newsletter-form');
+      if (!form) return;
+      form.addEventListener('submit', function () {
+        // The POST goes to the hidden iframe (no page reload). Show our own thank-you.
+        setTimeout(function () {
+          form.style.display = 'none';
+          document.getElementById('newsletter-thanks').style.display = 'block';
+        }, 300);
+      });
+    })();
+  </script>
 </Base>
