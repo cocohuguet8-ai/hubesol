@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'conditionals');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`conditionals/${s}`);
+
+const rows = [
+  { name: 'Zero Conditional', slug: 'zero-conditional', use: 'General truths and facts', ex: 'If you heat ice, it melts.' },
+  { name: 'First Conditional', slug: 'first-conditional', use: 'A real, likely future', ex: "If it rains, I'll stay home." },
+  { name: 'Second Conditional', slug: 'second-conditional', use: 'An imaginary present or future', ex: "If I won the lottery, I'd travel." },
+  { name: 'Third Conditional', slug: 'third-conditional', use: 'An imagined, different past', ex: 'If I had studied, I would have passed.' },
+  { name: 'Mixed Conditionals', slug: 'mixed-conditionals', use: 'Two different time frames combined', ex: "If I had studied medicine, I'd be a doctor now." },
+];
+
+const faq = [
+  { q: 'How many conditionals are there in English?', a: 'Four main ones — zero, first, second and third — plus "mixed" conditionals that combine time frames.' },
+  { q: 'What is the difference between the first and second conditional?', a: 'The first is for a real, likely future (If I have time, I\'ll help). The second is for imaginary or unlikely situations (If I had time, I\'d help).' },
+  { q: 'Why do conditionals use past tenses for the present?', a: 'In the second and third conditionals, a past tense signals that the situation is imaginary, not that it happened in the past.' },
+  { q: 'Can I put the if-clause second?', a: 'Yes. "I\'ll help if I can" = "If I can, I\'ll help." Use a comma only when the if-clause comes first.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Conditionals', item: 'https://hubesol.com/grammar/conditionals/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'English conditionals', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/conditionals/${r.slug}/` })) },
+];
+---
+<Base
+  title="Conditionals — the English if clauses explained | HubESOL"
+  description="All the English conditionals in one place: zero, first, second, third and mixed — how each one works, when to use it, and an example, with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Conditionals</p>
+  <h1>Conditionals</h1>
+  <p class="meta">The English "if" clauses — from general truths to imagined pasts. What each conditional is for, with a lesson and quiz for every one.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">English has four main conditionals (plus mixed ones), each imagining a condition and its result:</p>
+    <ol class="answer-points">
+      <li>Zero — always true (If you heat ice, it melts).</li>
+      <li>First — a real future (If it rains, I'll stay home).</li>
+      <li>Second — an unreal present (If I won, I'd travel).</li>
+      <li>Third — an unreal past (If I had known, I'd have helped).</li>
+    </ol>
+    <p class="answer-note">The tense in the if-clause signals how real the situation is: present = real, past = imaginary, past perfect = an imagined past.</p>
+  </div>
+
+  <table>
+    <tr><th>Conditional</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/conditionals/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Which conditional?</h2>
+  <ul>
+    <li>Is it <strong>always true</strong>? → <a href="/grammar/conditionals/zero-conditional/">zero conditional</a> (<em>If you press this, it beeps</em>).</li>
+    <li>Is it a <strong>real, likely future</strong>? → <a href="/grammar/conditionals/first-conditional/">first conditional</a> (<em>If it rains, I'll stay in</em>).</li>
+    <li>Is it <strong>imaginary or unlikely now</strong>? → <a href="/grammar/conditionals/second-conditional/">second conditional</a> (<em>If I were rich, I'd travel</em>).</li>
+    <li>Is it an <strong>imagined past</strong>? → <a href="/grammar/conditionals/third-conditional/">third conditional</a> (<em>If I had known, I'd have helped</em>).</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
