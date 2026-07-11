@@ -28,6 +28,7 @@ teacherObjectives:
 related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
+  - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
 ---
 
 ## How to form the present perfect
