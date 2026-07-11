@@ -27,6 +27,7 @@ teacherObjectives:
   - "Can use since/for, just/already/yet and ever/never appropriately."
 related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
+  - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
 ---
 
 ## How to form the present perfect
