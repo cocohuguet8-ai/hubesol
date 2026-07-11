@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'modal-verbs');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`modal-verbs/${s}`);
+
+const rows = [
+  { name: 'Can, Could & Be able to', slug: 'can-could-ability', use: 'Ability and possibility', ex: 'She can swim. Could you help?' },
+  { name: 'Must & Have to', slug: 'must-have-to-obligation', use: 'Obligation and necessity', ex: 'You must stop. I have to work.' },
+  { name: 'Should & Ought to', slug: 'should-ought-to-advice', use: 'Advice and recommendations', ex: 'You should rest.' },
+  { name: 'May, Might & Could', slug: 'may-might-could-probability', use: 'Possibility and probability', ex: 'It may rain later.' },
+  { name: 'Modal Perfects', slug: 'modal-perfects', use: 'Guessing and regret about the past', ex: 'She must have left. I should have called.' },
+];
+
+const related = [
+  { name: 'Must vs Have to', slug: 'must-vs-have-to', note: 'Personal obligation or external rule?' },
+  { name: "Can't vs Mustn't", slug: 'cant-vs-mustnt', note: 'Impossibility or prohibition?' },
+];
+
+const faq = [
+  { q: 'What are modal verbs?', a: 'Helper verbs like can, could, must, should, may, might and will that add meaning — ability, obligation, possibility, advice — to a main verb. They are followed by the base verb (can swim, must go).' },
+  { q: 'Do modal verbs change with he/she/it?', a: 'No. Modals have one form for every subject: she can, he must, it might — never "she cans" or "he musts".' },
+  { q: 'What comes after a modal verb?', a: 'The base verb with no "to": you should rest, they might come. The exceptions are "ought to" and "have to", which keep "to".' },
+  { q: 'How do I talk about the past with modals?', a: 'Use a modal perfect: modal + have + past participle (She must have left; I should have called).' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Modal Verbs', item: 'https://hubesol.com/grammar/modal-verbs/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'English modal verbs', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/modal-verbs/${r.slug}/` })) },
+];
+---
+<Base
+  title="Modal Verbs — can, must, should, might explained | HubESOL"
+  description="All the English modal verbs in one place: ability, obligation, advice and possibility — how each one works, when to use it, and an example, with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Modal Verbs</p>
+  <h1>Modal Verbs</h1>
+  <p class="meta">Can, could, must, should, may, might — the helper verbs for ability, obligation, advice and possibility, with a lesson and quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">Modal verbs add meaning to a main verb. The main groups are:</p>
+    <ol class="answer-points">
+      <li>Ability — can, could, be able to (She can swim).</li>
+      <li>Obligation — must, have to (You must stop).</li>
+      <li>Advice — should, ought to (You should rest).</li>
+      <li>Possibility — may, might, could (It may rain).</li>
+    </ol>
+    <p class="answer-note">Modals never change form (she can, he must) and are followed by the base verb. For the past, use a modal perfect: modal + have + past participle.</p>
+  </div>
+
+  <table>
+    <tr><th>Modal group</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/modal-verbs/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Which modal?</h2>
+  <ul>
+    <li>Talking about <strong>ability</strong>? → <a href="/grammar/modal-verbs/can-could-ability/">can, could, be able to</a> (<em>She can drive</em>).</li>
+    <li>Talking about <strong>obligation or rules</strong>? → <a href="/grammar/modal-verbs/must-have-to-obligation/">must, have to</a> (<em>You must wear a helmet</em>).</li>
+    <li>Giving <strong>advice</strong>? → <a href="/grammar/modal-verbs/should-ought-to-advice/">should, ought to</a> (<em>You should see a doctor</em>).</li>
+    <li>Talking about <strong>possibility</strong>? → <a href="/grammar/modal-verbs/may-might-could-probability/">may, might, could</a> (<em>It might snow</em>).</li>
+    <li>Guessing or regretting the <strong>past</strong>? → <a href="/grammar/modal-verbs/modal-perfects/">modal perfects</a> (<em>She must have left</em>).</li>
+  </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/modal-verbs/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/conditionals/">All the conditionals</a></li>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
