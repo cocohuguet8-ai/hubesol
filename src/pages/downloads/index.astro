@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Downloads', item: 'https://hubesol.com/downloads/' },
+  ] },
+];
+---
+<Base
+  title="Free downloads — grammar cheat sheets & lesson packs | HubESOL"
+  description="Free printable English grammar downloads: the 12 English tenses one-page cheat sheet and printable lesson packs for every topic. Free to use with attribution."
+  jsonld={jsonld}
+>
+  <p class="crumbs">Downloads</p>
+  <h1>Free downloads</h1>
+  <p class="meta">Printable, classroom-ready and free to use with attribution. No sign-up needed to download.</p>
+
+  <section class="pack-group">
+    <h2>Cheat sheets</h2>
+    <ul class="pack-list">
+      <li>
+        <span>
+          <a href="/grammar/verb-tenses/">The 12 English Tenses — One-Page Cheat Sheet</a>
+          <span class="lvl">A1–C1 · 1 page</span>
+        </span>
+        <a class="dl" href="/downloads/12-english-tenses-cheat-sheet.pdf" download>⬇︎ Cheat sheet (PDF)</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="pack-group">
+    <h2>Lesson packs</h2>
+    <p>Every lesson has a free printable pack — a one-page summary, a worksheet, and an answer key.</p>
+    <p><a class="btn" href="/teachers/lesson-packs/">Browse all lesson packs →</a></p>
+  </section>
+
+  <section class="newsletter" id="newsletter-cta" style="margin-top:2.4rem">
+    <h2 style="margin-top:0">Get new printables first</h2>
+    <p>
+      <a href="/#newsletter">Join the free newsletter</a> — one short email every two weeks with a
+      grammar tip, a common mistake, and a new printable PDF.
+    </p>
+  </section>
+</Base>
