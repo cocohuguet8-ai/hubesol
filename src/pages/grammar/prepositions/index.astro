@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'prepositions');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`prepositions/${s}`);
+
+const rows = [
+  { name: 'Prepositions of Time: at/on/in', slug: 'prepositions-of-time', use: 'When something happens', ex: 'at 6, on Monday, in July' },
+  { name: 'Prepositions of Place: at/on/in', slug: 'prepositions-of-place', use: 'Where something is', ex: 'at home, on the wall, in the box' },
+  { name: 'Prepositions of Movement', slug: 'prepositions-of-movement', use: 'Direction and movement', ex: 'to school, into the room, across the road' },
+  { name: 'In, On, At: time vs place', slug: 'in-on-at-time-vs-place', use: 'The big three, side by side', ex: 'in July / in the box; at 6 / at home' },
+  { name: 'Dependent Prepositions', slug: 'dependent-prepositions', use: 'Fixed verb/adjective + preposition', ex: 'interested in, good at, depend on' },
+];
+
+const faq = [
+  { q: 'What are prepositions?', a: 'Small words that show the relationship between things — usually of time, place or movement: at 6 o\'clock, on the table, to the station. Some are fixed after certain verbs and adjectives (depend on, good at).' },
+  { q: 'When do I use at, on and in for time?', a: 'at for clock times and points (at 6, at night), on for days and dates (on Monday, on 3 May), in for longer periods (in July, in 2025, in the morning).' },
+  { q: 'When do I use at, on and in for place?', a: 'at for a point (at the door), on for a surface or line (on the wall, on the bus), in for an enclosed space or area (in the box, in London).' },
+  { q: 'What are dependent prepositions?', a: 'Prepositions fixed to a particular verb or adjective: interested in, good at, depend on, afraid of. They must be learned as a set.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Prepositions', item: 'https://hubesol.com/grammar/prepositions/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'English prepositions', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/prepositions/${r.slug}/` })) },
+];
+---
+<Base
+  title="Prepositions — at, on, in and more explained | HubESOL"
+  description="English prepositions in one place: at/on/in for time and place, prepositions of movement, and dependent prepositions — how each works, when to use it, with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Prepositions</p>
+  <h1>Prepositions</h1>
+  <p class="meta">at, on, in — and the little words of time, place and movement. When each one is right, with the fixed verb and adjective pairs, and a quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">Prepositions show time, place or movement. The big three:</p>
+    <ol class="answer-points">
+      <li>at — a point: at 6, at the door.</li>
+      <li>on — a surface, day or date: on the table, on Monday.</li>
+      <li>in — an enclosed space or longer period: in the box, in July.</li>
+    </ol>
+    <p class="answer-note">Some prepositions are fixed after a verb or adjective (depend on, good at) — learn those as a set.</p>
+  </div>
+
+  <table>
+    <tr><th>Topic</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/prepositions/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Where do I start?</h2>
+  <ul>
+    <li>Saying <strong>when</strong> something happens? → <a href="/grammar/prepositions/prepositions-of-time/">prepositions of time</a> (<em>at 6, on Monday, in July</em>).</li>
+    <li>Saying <strong>where</strong> something is? → <a href="/grammar/prepositions/prepositions-of-place/">prepositions of place</a> (<em>at home, on the wall, in the box</em>).</li>
+    <li>Talking about <strong>direction</strong>? → <a href="/grammar/prepositions/prepositions-of-movement/">prepositions of movement</a> (<em>to, into, across</em>).</li>
+    <li>Which of <strong>in, on, at</strong>? → <a href="/grammar/prepositions/in-on-at-time-vs-place/">in, on, at side by side</a>.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/articles/">Articles: a, an, the</a></li>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
