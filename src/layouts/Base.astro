@@ -11,6 +11,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script is:inline>
+      try { if (localStorage.getItem('hubesol-teacher') === 'off') document.documentElement.classList.add('no-teacher'); } catch (e) {}
+    </script>
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -32,6 +35,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         </a>
         <nav class="main">
           <a href="/grammar/">Grammar</a>
+          <a href="/teachers/lesson-packs/">Teachers</a>
           <a href="/#newsletter">Newsletter</a>
         </nav>
       </div>
@@ -40,7 +44,22 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <footer class="site">
       <div class="inner">
         © {new Date().getFullYear()} HubESOL — Free English grammar lessons and exercises.
+        <span style="margin-left:1rem">·</span>
+        <label class="tmode" style="margin-left:1rem"><input type="checkbox" id="tmode-toggle" /> Teacher mode</label>
       </div>
     </footer>
+    <script is:inline>
+      (function () {
+        var el = document.getElementById('tmode-toggle');
+        if (!el) return;
+        var off = false;
+        try { off = localStorage.getItem('hubesol-teacher') === 'off'; } catch (e) {}
+        el.checked = !off;
+        el.addEventListener('change', function () {
+          try { localStorage.setItem('hubesol-teacher', el.checked ? 'on' : 'off'); } catch (e) {}
+          document.documentElement.classList.toggle('no-teacher', !el.checked);
+        });
+      })();
+    </script>
   </body>
 </html>

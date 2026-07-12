@@ -7,6 +7,7 @@ import TeacherBlock from '../components/TeacherBlock.astro';
 const { lesson, quiz } = Astro.props;
 const d = lesson.data;
 const url = new URL(Astro.url.pathname, Astro.site).href;
+const packHref = `/packs/${lesson.slug.split('/').pop()}-lesson-pack.pdf`;
 
 const jsonld = [
   {
@@ -87,7 +88,7 @@ if (quiz) {
 
   <Quiz quiz={quiz} />
   <Faq faq={d.faq} />
-  <TeacherBlock objectives={d.teacherObjectives} title={d.title} />
+  <TeacherBlock objectives={d.teacherObjectives} title={d.title} packHref={packHref} />
 
   {d.related.length > 0 && (
     <section>

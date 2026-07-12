@@ -1,0 +1,76 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft);
+
+// group by hub, preserving a sensible hub order
+const hubOrder = ['Verb Tenses', 'Conditionals', 'Modal Verbs', 'Reported Speech'];
+const hubs = {};
+for (const l of lessons) {
+  (hubs[l.data.hub] ??= { slug: l.data.hubSlug, items: [] }).items.push(l);
+}
+for (const h of Object.values(hubs)) {
+  h.items.sort((a, b) => a.data.title.localeCompare(b.data.title));
+}
+const orderedHubs = Object.keys(hubs).sort(
+  (a, b) => (hubOrder.indexOf(a) + 1 || 99) - (hubOrder.indexOf(b) + 1 || 99)
+);
+const total = lessons.length;
+
+const packHref = (l) => `/packs/${l.slug.split('/').pop()}-lesson-pack.pdf`;
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Teachers', item: 'https://hubesol.com/teachers/lesson-packs/' },
+  ] },
+];
+---
+<Base
+  title="Lesson Packs for teachers — free printable worksheets | HubESOL"
+  description="Free, printable English grammar Lesson Packs: a one-page summary, a worksheet, and an answer key with explanations for every lesson. Free to use in class with attribution."
+  jsonld={jsonld}
+>
+  <p class="crumbs">Teachers › Lesson Packs</p>
+  <h1>Lesson Packs for teachers</h1>
+  <p class="meta">
+    Every HubESOL lesson comes with a free, printable Lesson Pack — a one-page summary, a
+    ready-to-print worksheet, and an answer key with explanations. {total} packs and counting.
+  </p>
+
+  <div class="answer-box">
+    <span class="label">How to use them</span>
+    <p class="answer-lead">Each PDF has three parts:</p>
+    <ol class="answer-points">
+      <li>Summary — the quick answer, a form-at-a-glance table, and CEFR objectives.</li>
+      <li>Worksheet — the practice questions, formatted for paper (no answers).</li>
+      <li>Answer key — correct answers with short explanations, for you.</li>
+    </ol>
+    <p class="answer-note">Free to print and use in the classroom with attribution to hubesol.com.</p>
+  </div>
+
+  {orderedHubs.map((hub) => (
+    <section class="pack-group">
+      <h2><a href={`/grammar/${hubs[hub].slug}/`}>{hub}</a></h2>
+      <ul class="pack-list">
+        {hubs[hub].items.map((l) => (
+          <li>
+            <span>
+              <a href={`/grammar/${l.slug}/`}>{l.data.title}</a>
+              <span class="lvl">{l.data.level}</span>
+            </span>
+            <a class="dl" href={packHref(l)} download>⬇︎ Pack (PDF)</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+
+  <section>
+    <h2>Want new packs first?</h2>
+    <p>
+      <a href="/#newsletter">Join the newsletter</a> — one short email every two weeks with a
+      grammar tip, a common mistake, and a printable cheat sheet.
+    </p>
+  </section>
+</Base>

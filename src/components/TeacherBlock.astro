@@ -1,5 +1,5 @@
 ---
-const { objectives, title } = Astro.props;
+const { objectives, title, packHref } = Astro.props;
 ---
 {objectives.length > 0 && (
   <section class="teacher">
@@ -8,9 +8,12 @@ const { objectives, title } = Astro.props;
     <ul>
       {objectives.map((o) => <li>{o}</li>)}
     </ul>
-    <p>
-      Lesson Pack (printable worksheet + answer key + one-page summary) — coming soon.
-      <a href="/#newsletter">Join the newsletter</a> to get it first, free.
+    <p class="pack-cta">
+      <a class="btn" href={packHref} download>⬇︎ Download the Lesson Pack (PDF)</a>
+    </p>
+    <p class="pack-note">
+      Printable worksheet + answer key + one-page summary. Free to use and print in class with
+      attribution. <a href="/#newsletter">Join the newsletter</a> for new packs and cheat sheets.
     </p>
   </section>
 )}

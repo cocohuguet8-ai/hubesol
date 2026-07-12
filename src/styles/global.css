@@ -209,6 +209,25 @@ tbody tr:last-child td, table tr:last-child td { border-bottom: none; }
   background: var(--accent-soft);
 }
 .teacher h2 { margin-top: 0; }
+.teacher .pack-cta { margin: 0.9rem 0 0.5rem; }
+.teacher .pack-note { font-size: 0.85rem; color: var(--muted); margin: 0; }
+
+/* Teacher packs portal */
+.pack-group { margin: 1.6rem 0; }
+.pack-list { list-style: none; padding: 0; margin: 0.6rem 0; }
+.pack-list li {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  display: flex; justify-content: space-between; gap: 1rem;
+  align-items: baseline; flex-wrap: wrap;
+}
+.pack-list .lvl { color: var(--muted); font-size: 0.82rem; margin-left: 0.4rem; }
+.pack-list a.dl { white-space: nowrap; font-weight: 600; font-size: 0.9rem; }
+
+/* Teacher mode toggle */
+html.no-teacher .teacher { display: none; }
+.tmode { display: inline-flex; align-items: center; gap: 0.45rem; font-size: 0.85rem; color: var(--muted); cursor: pointer; user-select: none; }
+.tmode input { accent-color: var(--accent); }
 
 /* Hub cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 1rem; margin: 1.6rem 0; }
