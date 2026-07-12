@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'passive-voice');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`passive-voice/${s}`);
+
+const rows = [
+  { name: 'Passive Voice: the basics', slug: 'passive-voice-basics', use: 'How to form and use the passive', ex: 'The house was built in 1900.' },
+  { name: 'The Passive in All Tenses', slug: 'passive-all-tenses', use: 'Passive across the tenses', ex: 'It is made / was made / has been made.' },
+  { name: 'Active vs Passive', slug: 'active-vs-passive', use: 'Choosing active or passive', ex: 'They built it. → It was built.' },
+  { name: 'Causative: have/get something done', slug: 'causative-have-get-something-done', use: 'Arranging for others to do things', ex: 'I had my car repaired.' },
+  { name: 'Passive Reporting Structures', slug: 'passive-reporting-structures', use: 'It is said that… / He is said to…', ex: 'He is said to be rich.' },
+];
+
+const faq = [
+  { q: 'What is the passive voice?', a: 'A structure where the subject receives the action instead of doing it: The cake was eaten. It is formed with the verb "be" + the past participle. The doer (agent) is optional, added with "by".' },
+  { q: 'How do I form the passive?', a: 'Use the right tense of "be" + the past participle: is made, was made, has been made, will be made. The main verb never changes — only "be" carries the tense.' },
+  { q: 'When should I use the passive?', a: 'When the doer is unknown, obvious, or unimportant, or when you want to focus on the action or the receiver: My bike was stolen; English is spoken here.' },
+  { q: 'How do I show who did the action?', a: 'Add "by + agent": The novel was written by Orwell. Leave it out when the doer is unknown or irrelevant.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Passive Voice', item: 'https://hubesol.com/grammar/passive-voice/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'The English passive voice', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/passive-voice/${r.slug}/` })) },
+];
+---
+<Base
+  title="Passive Voice — be + past participle explained | HubESOL"
+  description="The English passive voice in one place: how to form it with be + past participle, when to use it, the passive in every tense, the causative, and reporting structures — with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Passive Voice</p>
+  <h1>Passive Voice</h1>
+  <p class="meta">When the action matters more than who does it — how to form the passive, use it across the tenses, and handle the causative and reporting structures, with a quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">The passive puts the receiver of the action first. The essentials:</p>
+    <ol class="answer-points">
+      <li>Form it with be + past participle — The window was broken.</li>
+      <li>Only "be" changes tense — is/was/has been/will be broken.</li>
+      <li>Add the doer with "by" only if it matters — …by the storm.</li>
+    </ol>
+    <p class="answer-note">Use the passive when the doer is unknown, obvious or unimportant, or to focus on the action.</p>
+  </div>
+
+  <table>
+    <tr><th>Topic</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/passive-voice/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Where do I start?</h2>
+  <ul>
+    <li>New to the passive? → <a href="/grammar/passive-voice/passive-voice-basics/">the basics</a> (<em>be + past participle</em>).</li>
+    <li>Need it in a specific <strong>tense</strong>? → <a href="/grammar/passive-voice/passive-all-tenses/">the passive in all tenses</a>.</li>
+    <li>Not sure whether to use <strong>active or passive</strong>? → <a href="/grammar/passive-voice/active-vs-passive/">active vs passive</a>.</li>
+    <li>Arranging for <strong>someone else</strong> to do something? → <a href="/grammar/passive-voice/causative-have-get-something-done/">have/get something done</a>.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/reported-speech/">All reported speech</a></li>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
