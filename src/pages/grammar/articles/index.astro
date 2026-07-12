@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'articles');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`articles/${s}`);
+
+const rows = [
+  { name: 'A vs An', slug: 'a-vs-an', use: 'Choosing a or an', ex: 'a car, an apple, an hour, a university' },
+  { name: 'A/An: the indefinite article', slug: 'indefinite-article-a-an', use: 'One of many, first mention, jobs', ex: 'I saw a dog. She is a nurse.' },
+  { name: 'The: the definite article', slug: 'definite-article-the', use: 'Something specific or already known', ex: 'the sun, the book I bought' },
+  { name: 'Zero Article', slug: 'zero-article', use: 'No article — general and uncountable', ex: 'I like music. Dogs are loyal.' },
+  { name: 'A/An vs The', slug: 'a-an-vs-the', use: 'Indefinite or definite?', ex: 'I bought a book. The book is great.' },
+];
+
+const faq = [
+  { q: 'What are articles in English?', a: 'Small words before a noun that show whether it is specific or general. There are two: the indefinite article a/an (one of many) and the definite article the (a specific one). Sometimes no article is used — the "zero article".' },
+  { q: 'When do I use a or an?', a: 'Use a before a consonant sound (a dog, a university) and an before a vowel sound (an apple, an hour). It follows the sound, not the letter.' },
+  { q: 'When do I use the?', a: 'Use the when the noun is specific or already known to the listener: the sun, the book I lent you, the best restaurant in town.' },
+  { q: 'When do I use no article?', a: 'Use no article (zero article) for uncountable and plural nouns talking in general: Water is essential; Dogs are loyal; I love music.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Articles', item: 'https://hubesol.com/grammar/articles/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'English articles', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/articles/${r.slug}/` })) },
+];
+---
+<Base
+  title="Articles — a, an, the and zero article explained | HubESOL"
+  description="English articles in one place: a vs an, the indefinite article, the definite article 'the', the zero article, and a/an vs the — how each works, when to use it, with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Articles</p>
+  <h1>Articles</h1>
+  <p class="meta">a, an, the — or nothing at all. When each article is right, with the sound rule, the specific-vs-general choice, and a quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">Articles show whether a noun is general or specific. The essentials:</p>
+    <ol class="answer-points">
+      <li>a/an — one of many, or first mention (I saw a cat).</li>
+      <li>the — a specific one the listener knows (the cat next door).</li>
+      <li>no article — plurals and uncountables in general (Cats are independent).</li>
+    </ol>
+    <p class="answer-note">Choose a/an by sound: a before a consonant sound, an before a vowel sound (an hour, a university).</p>
+  </div>
+
+  <table>
+    <tr><th>Topic</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/articles/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Which article?</h2>
+  <ul>
+    <li>Is it <strong>a specific one</strong> the listener knows? → <a href="/grammar/articles/definite-article-the/">the</a> (<em>the moon, the film we saw</em>).</li>
+    <li>Is it <strong>one of many</strong>, or a first mention? → <a href="/grammar/articles/indefinite-article-a-an/">a/an</a> (<em>a problem, an idea</em>).</li>
+    <li>Talking in <strong>general</strong> with a plural or uncountable noun? → <a href="/grammar/articles/zero-article/">no article</a> (<em>Books are great; Water is life</em>).</li>
+    <li>Just picking <strong>a or an</strong>? → <a href="/grammar/articles/a-vs-an/">a vs an</a> (it's about the sound).</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/passive-voice/">The passive voice</a></li>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>

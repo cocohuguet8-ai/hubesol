@@ -1,0 +1,127 @@
+{
+  "id": "a-vs-an-quiz-1",
+  "title": "A vs An",
+  "level": "A1",
+  "items": [
+    {
+      "question": "I'd like ___ apple, please.",
+      "options": ["a", "an", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "'Apple' starts with a vowel sound, so use 'an'.",
+        "Correct! 'An apple' — vowel sound.",
+        "'The' would mean a specific apple already known.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "She studies at ___ university.",
+      "options": ["an", "a", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "'University' starts with a 'you' sound, not a vowel sound.",
+        "Correct! 'A university' — the 'you' sound is a consonant sound.",
+        "'The university' would mean one specific university.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "We waited for ___ hour.",
+      "options": ["a", "an", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "The 'h' in 'hour' is silent, so it starts with a vowel sound.",
+        "Correct! 'An hour' — silent h means a vowel sound.",
+        "'The hour' would refer to a specific hour.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "He's ___ honest man.",
+      "options": ["a", "an", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "The 'h' in 'honest' is silent → vowel sound.",
+        "Correct! 'An honest man' — silent h.",
+        "'The honest man' would point to a specific one.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "That's ___ useful idea.",
+      "options": ["an", "a", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "'Useful' starts with a 'you' sound, not a vowel sound.",
+        "Correct! 'A useful idea' — the 'you' sound is a consonant sound.",
+        "'The useful idea' would point to a specific one.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "My uncle is ___ MP.",
+      "options": ["a", "an", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "'MP' is said 'em-pee', starting with a vowel sound.",
+        "Correct! 'An MP' — the letter M sounds like 'em'.",
+        "'The MP' would point to a specific one.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "They live in ___ European city.",
+      "options": ["an", "a", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "'European' starts with a 'you' sound, not a vowel sound.",
+        "Correct! 'A European city' — the 'you' sound.",
+        "'The European city' would point to a specific one.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "Correct this: 'She had an one-hour meeting.'",
+      "options": [
+        "She had a one-hour meeting.",
+        "She had an one-hour meeting.",
+        "She had one-hour meeting.",
+        "She had the one-hour meeting."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct! 'One' starts with a 'wun' sound (a consonant sound) → 'a'.",
+        "'An one-hour' is wrong — 'one' sounds like 'wun'.",
+        "A singular countable noun needs an article.",
+        "'The' would point to a specific meeting, changing the meaning."
+      ]
+    },
+    {
+      "question": "There's ___ umbrella by the door.",
+      "options": ["a", "an", "the", "—"],
+      "answer": 1,
+      "explanations": [
+        "'Umbrella' starts with an 'uh' vowel sound.",
+        "Correct! 'An umbrella' — vowel sound.",
+        "'The umbrella' would mean a specific known one.",
+        "A singular countable noun needs an article here."
+      ]
+    },
+    {
+      "question": "Which pair is correct?",
+      "options": [
+        "an hour, a university",
+        "a hour, an university",
+        "an university, a hour",
+        "a hour, a university"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct! 'An hour' (silent h) and 'a university' ('you' sound).",
+        "Both are reversed here.",
+        "Both are wrong here.",
+        "'A hour' is wrong — 'hour' has a silent h."
+      ]
+    }
+  ]
+}
