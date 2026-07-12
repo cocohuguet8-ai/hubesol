@@ -21,6 +21,10 @@ const faq = [
   { q: 'How do pronouns and time words change?', a: 'They shift to fit the new speaker and moment: I → she, my → her, now → then, today → that day, tomorrow → the next day, here → there.' },
 ];
 
+const related = [
+  { name: 'Changes in Reported Speech', slug: 'reported-speech-changes', note: 'Pronouns, time and place words' },
+];
+
 const jsonld = [
   { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
@@ -68,6 +72,17 @@ const jsonld = [
     <li>Reporting an <strong>order or request</strong>? → <a href="/grammar/reported-speech/reported-commands-requests/">commands &amp; requests</a> (<em>She told me to wait</em>).</li>
     <li>Not sure whether to use <strong>say or tell</strong>? → <a href="/grammar/reported-speech/say-vs-tell/">say vs tell</a>.</li>
   </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/reported-speech/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
