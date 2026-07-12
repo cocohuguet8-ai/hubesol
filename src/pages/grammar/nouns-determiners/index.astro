@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'nouns-determiners');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`nouns-determiners/${s}`);
+
+const rows = [
+  { name: 'Countable & Uncountable Nouns', slug: 'countable-uncountable-nouns', use: 'Nouns you can or can’t count', ex: 'two books; some water (not two waters)' },
+  { name: 'Some & Any', slug: 'some-any', use: 'Indefinite quantity', ex: 'some milk; any questions?' },
+  { name: 'Much, Many & A lot of', slug: 'much-many-a-lot-of', use: 'How much / how many', ex: 'much time, many people, a lot of both' },
+  { name: 'A few, A little & Enough', slug: 'a-few-a-little-enough', use: 'Small quantities and sufficiency', ex: 'a few friends, a little sugar, enough time' },
+  { name: 'This, That, These & Those', slug: 'this-that-these-those', use: 'Pointing to things (demonstratives)', ex: 'this book, those cars' },
+];
+
+const faq = [
+  { q: 'What are determiners?', a: 'Words that come before a noun to show quantity or which one: articles (a, the), demonstratives (this, those), and quantifiers (some, many, a few). They help define the noun.' },
+  { q: 'What is a countable and an uncountable noun?', a: 'Countable nouns have a plural and can be counted (one book, two books). Uncountable nouns have no plural and can’t be counted directly (water, information, advice) — use "some" or a unit (a glass of water).' },
+  { q: 'When do I use some or any?', a: 'Use "some" in positive sentences and offers/requests (I have some money; Would you like some tea?). Use "any" in negatives and most questions (I don’t have any money; Do you have any questions?).' },
+  { q: 'Much or many?', a: 'Use "much" with uncountable nouns (much time) and "many" with countable plurals (many people). "A lot of" works with both and is common in positive sentences.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Nouns & Determiners', item: 'https://hubesol.com/grammar/nouns-determiners/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'English nouns and determiners', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/nouns-determiners/${r.slug}/` })) },
+];
+---
+<Base
+  title="Nouns & Determiners — countable, some/any, much/many | HubESOL"
+  description="English nouns and determiners in one place: countable and uncountable nouns, some/any, much/many/a lot of, a few/a little, and this/that/these/those — with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Nouns &amp; Determiners</p>
+  <h1>Nouns &amp; Determiners</h1>
+  <p class="meta">Countable or uncountable? some or any? much or many? The words that go before a noun to show quantity and which one, with a quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">Determiners come before a noun to show quantity or which one. The essentials:</p>
+    <ol class="answer-points">
+      <li>Countable nouns can be counted (a book, two books); uncountable can’t (water, advice).</li>
+      <li>some (positives/offers) vs any (negatives/questions).</li>
+      <li>much + uncountable, many + countable, a lot of + both.</li>
+    </ol>
+    <p class="answer-note">Demonstratives point: this/these (near) vs that/those (far).</p>
+  </div>
+
+  <table>
+    <tr><th>Topic</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/nouns-determiners/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Where do I start?</h2>
+  <ul>
+    <li>Not sure if a noun is <strong>countable</strong>? → <a href="/grammar/nouns-determiners/countable-uncountable-nouns/">countable &amp; uncountable</a>.</li>
+    <li>Choosing <strong>some or any</strong>? → <a href="/grammar/nouns-determiners/some-any/">some &amp; any</a>.</li>
+    <li>Saying <strong>how much / how many</strong>? → <a href="/grammar/nouns-determiners/much-many-a-lot-of/">much, many &amp; a lot of</a>.</li>
+    <li>Pointing to things? → <a href="/grammar/nouns-determiners/this-that-these-those/">this, that, these &amp; those</a>.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/articles/">Articles: a, an, the</a></li>
+      <li><a href="/grammar/prepositions/">Prepositions</a></li>
+    </ul>
+  </section>
+</Base>
