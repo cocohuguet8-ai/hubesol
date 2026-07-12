@@ -1,0 +1,127 @@
+{
+  "id": "reported-questions-quiz-1",
+  "title": "Reported Questions",
+  "level": "B1",
+  "items": [
+    {
+      "question": "\"Where do you live?\" → She asked where ___.",
+      "options": ["do I live", "I lived", "did I live", "I live"],
+      "answer": 1,
+      "explanations": [
+        "Reported questions drop the auxiliary 'do'.",
+        "Correct! Statement order + backshift: 'She asked where I lived'.",
+        "'Did I live' keeps question word order.",
+        "'I live' isn't backshifted after 'asked'."
+      ]
+    },
+    {
+      "question": "\"Are you ready?\" → He asked ___ ready.",
+      "options": ["if I was", "was I", "if was I", "am I"],
+      "answer": 0,
+      "explanations": [
+        "Correct! Yes/no questions take 'if' + statement order: 'He asked if I was ready'.",
+        "'Was I' keeps question word order.",
+        "'If was I' has the words in the wrong order.",
+        "'Am I' isn't backshifted and keeps question order."
+      ]
+    },
+    {
+      "question": "\"What is your name?\" → She asked what ___.",
+      "options": ["is my name", "my name was", "was my name", "did my name"],
+      "answer": 1,
+      "explanations": [
+        "'Is' should backshift and follow statement order.",
+        "Correct! Statement order + backshift: 'She asked what my name was'.",
+        "'Was my name' keeps question word order.",
+        "'Did my name' makes no sense."
+      ]
+    },
+    {
+      "question": "\"Do you like coffee?\" → He asked ___ coffee.",
+      "options": ["if I liked", "do I like", "did I like", "if did I like"],
+      "answer": 0,
+      "explanations": [
+        "Correct! Yes/no questions take 'if' + backshift: 'He asked if I liked coffee'.",
+        "'Do I like' keeps the auxiliary and question order.",
+        "'Did I like' keeps question order.",
+        "'If did I like' wrongly keeps 'did'."
+      ]
+    },
+    {
+      "question": "\"Why did she leave?\" → They asked why ___.",
+      "options": ["did she leave", "she had left", "she left?", "she leaves"],
+      "answer": 1,
+      "explanations": [
+        "'Did she leave' keeps question order.",
+        "Correct! Statement order + backshift: 'They asked why she had left'.",
+        "A reported question has no question mark.",
+        "'She leaves' isn't the backshift of 'did leave'."
+      ]
+    },
+    {
+      "question": "\"Can you swim?\" → She asked ___ swim.",
+      "options": ["if I could", "can I", "if can I", "could I"],
+      "answer": 0,
+      "explanations": [
+        "Correct! Yes/no + backshift: 'She asked if I could swim'.",
+        "'Can I' keeps question order and doesn't backshift.",
+        "'If can I' has wrong order.",
+        "'Could I' keeps question order (subject after modal)."
+      ]
+    },
+    {
+      "question": "\"What are you doing?\" → He asked what ___.",
+      "options": ["are you doing", "I was doing", "was I doing", "am I doing"],
+      "answer": 1,
+      "explanations": [
+        "'Are you doing' keeps question order.",
+        "Correct! Statement order + backshift: 'He asked what I was doing'.",
+        "'Was I doing' keeps question order.",
+        "'Am I doing' isn't backshifted."
+      ]
+    },
+    {
+      "question": "Correct this: 'She asked me where did I work.'",
+      "options": [
+        "She asked me where I worked.",
+        "She asked me where did I work.",
+        "She asked me where I did work.",
+        "She asked me where do I work."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct! Drop 'did', use statement order + backshift: 'where I worked'.",
+        "'Where did I work' keeps question order.",
+        "'Where I did work' still keeps the auxiliary.",
+        "'Where do I work' keeps the auxiliary and present tense."
+      ]
+    },
+    {
+      "question": "\"Have you seen my keys?\" → He asked ___ his keys.",
+      "options": ["if I had seen", "have I seen", "did I see", "if have I seen"],
+      "answer": 0,
+      "explanations": [
+        "Correct! Yes/no + backshift: 'He asked if I had seen his keys'.",
+        "'Have I seen' keeps question order.",
+        "'Did I see' changes the tense wrongly.",
+        "'If have I seen' has wrong order."
+      ]
+    },
+    {
+      "question": "Which reported question is correct?",
+      "options": [
+        "She asked when the film started.",
+        "She asked when did the film start.",
+        "She asked when the film started?",
+        "She asked when does the film start."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct! Statement order, backshift, no question mark: 'She asked when the film started'.",
+        "This keeps question word order.",
+        "This wrongly adds a question mark.",
+        "This keeps the auxiliary 'does' and present tense."
+      ]
+    }
+  ]
+}

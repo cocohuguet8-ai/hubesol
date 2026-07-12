@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('lessons', ({ data }) => !data.draft && data.hubSlug === 'reported-speech');
+const pub = new Set(lessons.map((l) => l.slug));
+const isLive = (s) => pub.has(`reported-speech/${s}`);
+
+const rows = [
+  { name: 'Reported Statements & Backshift', slug: 'reported-statements-backshift', use: 'Reporting what someone said', ex: '"I\'m tired." → She said she was tired.' },
+  { name: 'Reported Questions', slug: 'reported-questions', use: 'Reporting questions', ex: '"Where do you live?" → She asked where I lived.' },
+  { name: 'Reported Commands & Requests', slug: 'reported-commands-requests', use: 'Reporting orders and requests', ex: '"Sit down." → He told me to sit down.' },
+  { name: 'Say vs Tell', slug: 'say-vs-tell', use: 'Choosing the right reporting verb', ex: 'She said hello. She told me a secret.' },
+  { name: 'Reporting Verbs', slug: 'reporting-verbs', use: 'Verbs like advise, suggest, promise', ex: 'He offered to help. She suggested leaving.' },
+];
+
+const faq = [
+  { q: 'What is reported speech?', a: 'Reported (or indirect) speech is telling someone what another person said without using their exact words: "I\'m busy" → She said she was busy. Direct speech uses quotation marks; reported speech does not.' },
+  { q: 'What is backshift?', a: 'When the reporting verb is in the past (said, told), the tense usually moves one step back: present simple → past simple, will → would, can → could. "I live here" → She said she lived there.' },
+  { q: 'Do I always have to backshift?', a: 'Not always. If what was said is still true or the reporting verb is present, you can keep the tense: She says she is tired. Backshift is normal after a past reporting verb.' },
+  { q: 'How do pronouns and time words change?', a: 'They shift to fit the new speaker and moment: I → she, my → her, now → then, today → that day, tomorrow → the next day, here → there.' },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Grammar', item: 'https://hubesol.com/grammar/' },
+    { '@type': 'ListItem', position: 2, name: 'Reported Speech', item: 'https://hubesol.com/grammar/reported-speech/' },
+  ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Reported speech in English', itemListElement: rows.filter((r) => isLive(r.slug)).map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: r.name, url: `https://hubesol.com/grammar/reported-speech/${r.slug}/` })) },
+];
+---
+<Base
+  title="Reported Speech — say, tell, backshift explained | HubESOL"
+  description="Reported (indirect) speech in English: how to report statements, questions and commands, backshift the tenses, and choose say or tell — with lessons and quizzes."
+  jsonld={jsonld}
+>
+  <p class="crumbs"><a href="/grammar/">Grammar</a> › Reported Speech</p>
+  <h1>Reported Speech</h1>
+  <p class="meta">How to tell someone what another person said — statements, questions and commands — with the tense, pronoun and time changes explained, and a quiz for each.</p>
+
+  <div class="answer-box">
+    <span class="label">Quick answer</span>
+    <p class="answer-lead">Reported speech tells what someone said without their exact words. The key changes are:</p>
+    <ol class="answer-points">
+      <li>Backshift the tense — "I'm tired" → She said she was tired.</li>
+      <li>Change pronouns — "I like your car" → He said he liked my car.</li>
+      <li>Change time and place words — now → then, here → there, tomorrow → the next day.</li>
+    </ol>
+    <p class="answer-note">Backshift is normal after a past reporting verb (said, told). Questions and commands change structure too — see the lessons below.</p>
+  </div>
+
+  <table>
+    <tr><th>Topic</th><th>Use it for</th><th>Example</th></tr>
+    {rows.map((r) => (
+      <tr>
+        <td>{isLive(r.slug) ? <a href={`/grammar/reported-speech/${r.slug}/`}>{r.name}</a> : <span>{r.name} <span class="badge">soon</span></span>}</td>
+        <td>{r.use}</td>
+        <td>{r.ex}</td>
+      </tr>
+    ))}
+  </table>
+
+  <h2>Where do I start?</h2>
+  <ul>
+    <li>Reporting what someone <strong>stated</strong>? → <a href="/grammar/reported-speech/reported-statements-backshift/">statements &amp; backshift</a> (<em>She said she was busy</em>).</li>
+    <li>Reporting a <strong>question</strong>? → <a href="/grammar/reported-speech/reported-questions/">reported questions</a> (<em>He asked where I lived</em>).</li>
+    <li>Reporting an <strong>order or request</strong>? → <a href="/grammar/reported-speech/reported-commands-requests/">commands &amp; requests</a> (<em>She told me to wait</em>).</li>
+    <li>Not sure whether to use <strong>say or tell</strong>? → <a href="/grammar/reported-speech/say-vs-tell/">say vs tell</a>.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+  </div>
+
+  <section>
+    <h2>Keep learning</h2>
+    <ul>
+      <li><a href="/grammar/modal-verbs/">All the modal verbs</a></li>
+      <li><a href="/grammar/verb-tenses/">All 12 verb tenses</a></li>
+    </ul>
+  </section>
+</Base>
