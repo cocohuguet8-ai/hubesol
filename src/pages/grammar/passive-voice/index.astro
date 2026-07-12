@@ -14,6 +14,10 @@ const rows = [
   { name: 'Passive Reporting Structures', slug: 'passive-reporting-structures', use: 'It is said that… / He is said to…', ex: 'He is said to be rich.' },
 ];
 
+const related = [
+  { name: 'The Get Passive', slug: 'get-passive', note: 'The informal passive with ‘get’' },
+];
+
 const faq = [
   { q: 'What is the passive voice?', a: 'A structure where the subject receives the action instead of doing it: The cake was eaten. It is formed with the verb "be" + the past participle. The doer (agent) is optional, added with "by".' },
   { q: 'How do I form the passive?', a: 'Use the right tense of "be" + the past participle: is made, was made, has been made, will be made. The main verb never changes — only "be" carries the tense.' },
@@ -68,6 +72,17 @@ const jsonld = [
     <li>Not sure whether to use <strong>active or passive</strong>? → <a href="/grammar/passive-voice/active-vs-passive/">active vs passive</a>.</li>
     <li>Arranging for <strong>someone else</strong> to do something? → <a href="/grammar/passive-voice/causative-have-get-something-done/">have/get something done</a>.</li>
   </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/passive-voice/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">

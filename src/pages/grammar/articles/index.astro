@@ -14,6 +14,10 @@ const rows = [
   { name: 'A/An vs The', slug: 'a-an-vs-the', use: 'Indefinite or definite?', ex: 'I bought a book. The book is great.' },
 ];
 
+const related = [
+  { name: 'The with Names & Places', slug: 'the-with-names-and-places', note: 'Countries, rivers, mountains and institutions' },
+];
+
 const faq = [
   { q: 'What are articles in English?', a: 'Small words before a noun that show whether it is specific or general. There are two: the indefinite article a/an (one of many) and the definite article the (a specific one). Sometimes no article is used — the "zero article".' },
   { q: 'When do I use a or an?', a: 'Use a before a consonant sound (a dog, a university) and an before a vowel sound (an apple, an hour). It follows the sound, not the letter.' },
@@ -68,6 +72,17 @@ const jsonld = [
     <li>Talking in <strong>general</strong> with a plural or uncountable noun? → <a href="/grammar/articles/zero-article/">no article</a> (<em>Books are great; Water is life</em>).</li>
     <li>Just picking <strong>a or an</strong>? → <a href="/grammar/articles/a-vs-an/">a vs an</a> (it's about the sound).</li>
   </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/articles/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">

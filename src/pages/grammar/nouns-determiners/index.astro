@@ -14,6 +14,10 @@ const rows = [
   { name: 'This, That, These & Those', slug: 'this-that-these-those', use: 'Pointing to things (demonstratives)', ex: 'this book, those cars' },
 ];
 
+const related = [
+  { name: 'All, Both, Every & Each', slug: 'all-both-every-each', note: 'Whole groups and individuals' },
+];
+
 const faq = [
   { q: 'What are determiners?', a: 'Words that come before a noun to show quantity or which one: articles (a, the), demonstratives (this, those), and quantifiers (some, many, a few). They help define the noun.' },
   { q: 'What is a countable and an uncountable noun?', a: 'Countable nouns have a plural and can be counted (one book, two books). Uncountable nouns have no plural and can’t be counted directly (water, information, advice) — use "some" or a unit (a glass of water).' },
@@ -68,6 +72,17 @@ const jsonld = [
     <li>Saying <strong>how much / how many</strong>? → <a href="/grammar/nouns-determiners/much-many-a-lot-of/">much, many &amp; a lot of</a>.</li>
     <li>Pointing to things? → <a href="/grammar/nouns-determiners/this-that-these-those/">this, that, these &amp; those</a>.</li>
   </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/nouns-determiners/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">

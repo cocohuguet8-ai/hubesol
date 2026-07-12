@@ -14,6 +14,11 @@ const rows = [
   { name: 'Dependent Prepositions', slug: 'dependent-prepositions', use: 'Fixed verb/adjective + preposition', ex: 'interested in, good at, depend on' },
 ];
 
+const related = [
+  { name: 'For, During & While', slug: 'for-during-while', note: 'How long, when, and two actions at once' },
+  { name: 'By vs Until', slug: 'by-vs-until', note: 'A deadline or a continuous period?' },
+];
+
 const faq = [
   { q: 'What are prepositions?', a: 'Small words that show the relationship between things — usually of time, place or movement: at 6 o\'clock, on the table, to the station. Some are fixed after certain verbs and adjectives (depend on, good at).' },
   { q: 'When do I use at, on and in for time?', a: 'at for clock times and points (at 6, at night), on for days and dates (on Monday, on 3 May), in for longer periods (in July, in 2025, in the morning).' },
@@ -68,6 +73,17 @@ const jsonld = [
     <li>Talking about <strong>direction</strong>? → <a href="/grammar/prepositions/prepositions-of-movement/">prepositions of movement</a> (<em>to, into, across</em>).</li>
     <li>Which of <strong>in, on, at</strong>? → <a href="/grammar/prepositions/in-on-at-time-vs-place/">in, on, at side by side</a>.</li>
   </ul>
+
+  {related.some((r) => isLive(r.slug)) && (
+    <section>
+      <h2>Related grammar points</h2>
+      <ul>
+        {related.filter((r) => isLive(r.slug)).map((r) => (
+          <li><a href={`/grammar/prepositions/${r.slug}/`}>{r.name}</a> — {r.note}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
