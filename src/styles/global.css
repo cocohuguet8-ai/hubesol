@@ -4,12 +4,13 @@
   --ink: #12141a;
   --muted: #5c6270;
   --bg: #f8faf9;
-  --soft: #f6f7fb;
-  --line: #e7e9ef;
+  --soft: #f1eae0;
+  --line: #e5ddd0;
   --accent: #1f5f4a;
   --accent-soft: #e3ede8;
   --accent-ink: #1b4332;
   --accent-warm: #e0a96d;
+  --accent-warm-ink: #a9662b;
   --ok: #0f766e;
   --ok-soft: #e4f5f2;
   --bad: #dc2626;
@@ -33,7 +34,7 @@ body {
 }
 
 /* Header / footer */
-header.site { border-bottom: 1px solid var(--line); background: #fff; position: sticky; top: 0; z-index: 20; backdrop-filter: saturate(1.2) blur(6px); }
+header.site { border-bottom: 1px solid var(--line); background: var(--bg); position: sticky; top: 0; z-index: 20; backdrop-filter: saturate(1.2) blur(6px); }
 header.site .inner { max-width: var(--max); margin: 0 auto; padding: 0.8rem 1rem; display: flex; align-items: center; gap: 1rem; }
 .logo { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
 .logo-mark { display: block; flex: none; }
@@ -55,8 +56,8 @@ a { color: var(--accent); }
 .badge {
   display: inline-block;
   background: transparent;
-  color: var(--accent);
-  border: 1.5px solid var(--accent);
+  color: var(--accent-warm-ink);
+  border: 1.5px solid var(--accent-warm-ink);
   font-weight: 700;
   font-size: 0.75rem;
   border-radius: 999px;
