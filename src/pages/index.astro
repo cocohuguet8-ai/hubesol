@@ -1,5 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
+const LEVELS = [
+  { code: 'A1', label: 'Beginner' },
+  { code: 'A2', label: 'Elementary' },
+  { code: 'B1', label: 'Intermediate' },
+  { code: 'B2', label: 'Upper-Int.' },
+  { code: 'C1', label: 'Advanced' },
+];
 const jsonld = [{
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -18,6 +25,16 @@ const jsonld = [{
     Short explanations, instant-feedback quizzes and printable resources —
     organised by <a href="/grammar/">topic</a> and CEFR level. Free, no sign-up needed.
   </p>
+
+  <h2>Browse by level</h2>
+  <div class="level-btn-grid">
+    {LEVELS.map((l) => (
+      <a class="level-btn" href={`/grammar/level/${l.code.toLowerCase()}/`}>
+        <span class="lvl-code">{l.code}</span>
+        <span class="lvl-label">{l.label}</span>
+      </a>
+    ))}
+  </div>
 
   <h2>Grammar hubs</h2>
   <div class="cards">
@@ -74,19 +91,19 @@ const jsonld = [{
         line-height: 1.5 !important; padding: 0.6rem 0.9rem !important;
         width: 100% !important; box-sizing: border-box !important;
       }
-      #mlb2-43628639 .ml-form-fieldRow input:focus { border-color: #4f46e5 !important; outline: none; }
+      #mlb2-43628639 .ml-form-fieldRow input:focus { border-color: #1f5f4a !important; outline: none; }
       #mlb2-43628639 .ml-form-fieldRow input::placeholder { color: #9aa0ac !important; }
       #mlb2-43628639 .ml-form-embedSubmit { margin: 0; float: none; width: auto; }
       #mlb2-43628639 .ml-form-embedSubmit button {
-        background: #4f46e5 !important; color: #fff !important; border: none !important;
+        background: #1f5f4a !important; color: #fff !important; border: none !important;
         border-radius: 9px !important; font-family: "Inter", system-ui, sans-serif !important;
         font-weight: 600 !important; font-size: 1rem !important; line-height: 1.5 !important;
         padding: 0.6rem 1.2rem !important; width: auto !important; cursor: pointer;
       }
-      #mlb2-43628639 .ml-form-embedSubmit button:hover { background: #3730b0 !important; }
+      #mlb2-43628639 .ml-form-embedSubmit button:hover { background: #1b4332 !important; }
       #mlb2-43628639 .ml-form-successBody { padding: 0; }
       #mlb2-43628639 .ml-form-successContent h4 {
-        font-family: "Space Grotesk", system-ui, sans-serif !important; color: #3730b0 !important;
+        font-family: "Space Grotesk", system-ui, sans-serif !important; color: #1b4332 !important;
         font-size: 1.15rem !important; font-weight: 600 !important; margin: 0 0 0.3rem !important;
       }
       #mlb2-43628639 .ml-form-successContent p {

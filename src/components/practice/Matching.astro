@@ -1,0 +1,203 @@
+---
+const { data } = Astro.props;
+const uid = 'mt';
+---
+{data && (
+  <section class="matching" id={uid} aria-label="Matching practice">
+    <h3>✏️ Practice: {data.title}</h3>
+    <p class="practice-sub">{data.subtitle}</p>
+
+    <div id={`${uid}-quizArea`}>
+      <div class="practice-progress-row">
+        <span id={`${uid}-progressText`}>0 of {data.pairs.length} matched</span>
+        <span id={`${uid}-scoreText`}>Attempts: 0</span>
+      </div>
+      <div class="practice-progress-track"><div class="practice-progress-fill" id={`${uid}-progressFill`} style="width:0%"></div></div>
+
+      <div class="practice-card">
+        <div class="matching-board">
+          <div>
+            <div class="matching-col-label">{data.leftLabel}</div>
+            <div class="matching-col" id={`${uid}-leftCol`}></div>
+          </div>
+          <div>
+            <div class="matching-col-label">{data.rightLabel} {data.rightLabelSub && <span class="matching-col-label-sub">{data.rightLabelSub}</span>}</div>
+            <div class="matching-col" id={`${uid}-rightCol`}></div>
+          </div>
+        </div>
+        <div class="practice-feedback" id={`${uid}-feedback`}></div>
+      </div>
+    </div>
+
+    <div class="practice-score-screen" id={`${uid}-scoreScreen`}>
+      <div class="practice-card">
+        <div class="practice-use-tag">Result</div>
+        <div class="practice-score-big" id={`${uid}-finalScore`}>{data.pairs.length}/{data.pairs.length}</div>
+        <div class="practice-score-label" id={`${uid}-finalLabel`}></div>
+        <div class="matching-review-header">
+          <span>{data.leftLabel}</span>
+          <span>{data.rightLabel} {data.rightLabelSub && <span class="matching-col-label-sub">{data.rightLabelSub}</span>}</span>
+        </div>
+        <div id={`${uid}-reviewList`}></div>
+        <div class="practice-actions">
+          <button type="button" class="practice-btn-primary" id={`${uid}-restartBtn`}>Play again</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({ pairs: data.pairs, reviewArrowPrefix: data.reviewArrowPrefix || '' })} />
+  </section>
+)}
+
+<script>
+  function initMatching() {
+    const uid = 'mt';
+    const dataEl = document.getElementById(`${uid}-data`);
+    if (!dataEl) return;
+    const payload = JSON.parse(dataEl.textContent);
+    const pairs = payload.pairs;
+    const reviewArrowPrefix = payload.reviewArrowPrefix;
+
+    const leftCol = document.getElementById(`${uid}-leftCol`);
+    const rightCol = document.getElementById(`${uid}-rightCol`);
+    const feedback = document.getElementById(`${uid}-feedback`);
+    const progressText = document.getElementById(`${uid}-progressText`);
+    const scoreText = document.getElementById(`${uid}-scoreText`);
+    const progressFill = document.getElementById(`${uid}-progressFill`);
+    const quizArea = document.getElementById(`${uid}-quizArea`);
+    const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
+    const restartBtn = document.getElementById(`${uid}-restartBtn`);
+
+    let matchedCount = 0, attempts = 0, selectedLeft = null;
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const t = a[i]; a[i] = a[j]; a[j] = t;
+      }
+      return a;
+    }
+
+    function init() {
+      matchedCount = 0; attempts = 0; selectedLeft = null;
+      quizArea.style.display = '';
+      scoreScreen.classList.remove('show');
+      feedback.className = 'practice-feedback';
+      feedback.textContent = '';
+      updateStats();
+
+      const lefts = shuffle(pairs.map((p) => ({ word: p.left, match: p.right, id: p.left })));
+      const rights = shuffle(pairs.map((p) => ({ word: p.right, match: p.left, id: p.left })));
+
+      leftCol.innerHTML = '';
+      lefts.forEach((item) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'matching-tile';
+        b.textContent = item.word;
+        b.dataset.id = item.id;
+        b.addEventListener('click', () => onLeftClick(item, b));
+        leftCol.appendChild(b);
+      });
+
+      rightCol.innerHTML = '';
+      rights.forEach((item) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'matching-tile';
+        b.textContent = item.word;
+        b.dataset.id = item.id;
+        b.addEventListener('click', () => onRightClick(item, b));
+        rightCol.appendChild(b);
+      });
+    }
+
+    function updateStats() {
+      progressText.textContent = matchedCount + ' of ' + pairs.length + ' matched';
+      scoreText.textContent = 'Attempts: ' + attempts;
+      progressFill.style.width = ((matchedCount / pairs.length) * 100) + '%';
+    }
+
+    function clearSelection() {
+      const sel = leftCol.querySelector('.selected');
+      if (sel) sel.classList.remove('selected');
+      selectedLeft = null;
+    }
+
+    function onLeftClick(item, el) {
+      if (el.classList.contains('matched')) return;
+      if (selectedLeft && selectedLeft.id === item.id) {
+        clearSelection();
+        return;
+      }
+      clearSelection();
+      selectedLeft = item;
+      el.classList.add('selected');
+    }
+
+    function onRightClick(item, el) {
+      if (el.classList.contains('matched')) return;
+      if (!selectedLeft) return;
+
+      attempts++;
+      const isMatch = selectedLeft.id === item.id;
+
+      if (isMatch) {
+        const leftEl = leftCol.querySelector('[data-id="' + item.id + '"]');
+        leftEl.classList.remove('selected');
+        leftEl.classList.add('matched');
+        el.classList.add('matched');
+        matchedCount++;
+        selectedLeft = null;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Correct.</b> "' + item.id + '" → "' + item.word + '".';
+      } else {
+        el.classList.add('wrongflash');
+        feedback.className = 'practice-feedback show bad';
+        feedback.innerHTML = '<b>Not quite.</b> "' + item.word + '" doesn\'t match "' + selectedLeft.word + '" — try another pair.';
+        setTimeout(() => { el.classList.remove('wrongflash'); }, 450);
+        const leftEl = leftCol.querySelector('[data-id="' + selectedLeft.id + '"]');
+        if (leftEl) leftEl.classList.remove('selected');
+        selectedLeft = null;
+      }
+
+      updateStats();
+
+      if (matchedCount === pairs.length) {
+        setTimeout(showScore, 500);
+      }
+    }
+
+    function showScore() {
+      quizArea.style.display = 'none';
+      scoreScreen.classList.add('show');
+      document.getElementById(`${uid}-finalScore`).textContent = attempts + ' attempts';
+      const label = document.getElementById(`${uid}-finalLabel`);
+      if (attempts === pairs.length) label.textContent = 'Perfect — every match first try.';
+      else if (attempts <= pairs.length + 2) label.textContent = 'Well done.';
+      else label.textContent = 'All matched.';
+
+      const list = document.getElementById(`${uid}-reviewList`);
+      list.innerHTML = '';
+      pairs.forEach((p) => {
+        const row = document.createElement('div');
+        row.className = 'practice-review-item';
+        const sent = document.createElement('span');
+        sent.className = 'rsent';
+        sent.textContent = p.left + ' ';
+        const arrow = document.createElement('span');
+        arrow.className = 'rarrow';
+        arrow.textContent = '→ ' + reviewArrowPrefix + p.right;
+        row.appendChild(sent);
+        row.appendChild(arrow);
+        list.appendChild(row);
+      });
+    }
+
+    restartBtn.addEventListener('click', init);
+    init();
+  }
+
+  if (document.getElementById('mt')) initMatching();
+</script>

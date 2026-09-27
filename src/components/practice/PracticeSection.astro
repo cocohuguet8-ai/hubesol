@@ -1,0 +1,20 @@
+---
+import GapFill from './GapFill.astro';
+import WordOrder from './WordOrder.astro';
+import Matching from './Matching.astro';
+import TimedMultipleChoice from './TimedMultipleChoice.astro';
+import ErrorCorrection from './ErrorCorrection.astro';
+import LevelCheck from './LevelCheck.astro';
+
+const { practice } = Astro.props;
+---
+{practice && (
+  <div class="practice-wrap" aria-label="Practice activities">
+    <GapFill tense={practice.tense} data={practice.gapFill} />
+    <WordOrder data={practice.wordOrder} orderAux={practice.grammar?.orderAux} />
+    <Matching data={practice.matching} />
+    <TimedMultipleChoice data={practice.timedMC} />
+    <ErrorCorrection data={practice.errorCorrection} />
+    <LevelCheck tense={practice.tense} lessonTitle={practice.lessonTitle} data={practice.levelCheck} orderAux={practice.grammar?.orderAux} />
+  </div>
+)}

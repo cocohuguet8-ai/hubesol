@@ -1,0 +1,183 @@
+---
+const { data } = Astro.props;
+const uid = 'ec';
+---
+{data && (
+  <section class="errorcorrection" id={uid} aria-label="Error correction practice">
+    <h3>✏️ Practice: {data.title}</h3>
+    <p class="practice-sub">{data.subtitle}</p>
+
+    <div id={`${uid}-quizArea`}>
+      <div class="practice-progress-row">
+        <span id={`${uid}-progressText`}>Sentence 1 of {data.items.length}</span>
+        <span id={`${uid}-scoreText`}>Found: 0</span>
+      </div>
+      <div class="practice-progress-track"><div class="practice-progress-fill" id={`${uid}-progressFill`} style="width:0%"></div></div>
+
+      <div class="practice-card">
+        <div class="practice-use-tag">Find the mistake</div>
+        <div class="errorcorrection-sentence" id={`${uid}-sentenceZone`}></div>
+        <div class="errorcorrection-reveal-row">
+          <button type="button" class="errorcorrection-link-btn" id={`${uid}-revealBtn`}>Reveal the mistake</button>
+        </div>
+        <div class="practice-feedback" id={`${uid}-feedback`}></div>
+        <div class="practice-actions" id={`${uid}-actionsRow`} style="display:none;">
+          <button type="button" class="practice-btn-primary" id={`${uid}-nextBtn`}>Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="practice-score-screen" id={`${uid}-scoreScreen`}>
+      <div class="practice-card">
+        <div class="practice-use-tag">Result</div>
+        <div class="practice-score-big" id={`${uid}-finalScore`}>0/{data.items.length}</div>
+        <div class="practice-score-label" id={`${uid}-finalLabel`}>Found without help.</div>
+        <div id={`${uid}-reviewList`}></div>
+        <div class="practice-restart-row">
+          <button type="button" class="practice-btn-primary" id={`${uid}-restartBtn`}>Play again</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({ items: data.items })} />
+  </section>
+)}
+
+<script>
+  function initErrorCorrection() {
+    const uid = 'ec';
+    const dataEl = document.getElementById(`${uid}-data`);
+    if (!dataEl) return;
+    const payload = JSON.parse(dataEl.textContent);
+    const items = payload.items;
+
+    let idx = 0, found = 0, answered = false;
+    let results = [];
+
+    const sentenceZone = document.getElementById(`${uid}-sentenceZone`);
+    const progressText = document.getElementById(`${uid}-progressText`);
+    const scoreText = document.getElementById(`${uid}-scoreText`);
+    const progressFill = document.getElementById(`${uid}-progressFill`);
+    const feedback = document.getElementById(`${uid}-feedback`);
+    const actionsRow = document.getElementById(`${uid}-actionsRow`);
+    const nextBtn = document.getElementById(`${uid}-nextBtn`);
+    const revealBtn = document.getElementById(`${uid}-revealBtn`);
+    const quizArea = document.getElementById(`${uid}-quizArea`);
+    const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
+    const restartBtn = document.getElementById(`${uid}-restartBtn`);
+
+    function startQuiz() {
+      idx = 0; found = 0; answered = false; results = [];
+      quizArea.style.display = '';
+      scoreScreen.classList.remove('show');
+      render();
+    }
+
+    function render() {
+      const it = items[idx];
+      answered = false;
+      progressText.textContent = 'Sentence ' + (idx + 1) + ' of ' + items.length;
+      scoreText.textContent = 'Found: ' + found;
+      progressFill.style.width = ((idx / items.length) * 100) + '%';
+      feedback.className = 'practice-feedback';
+      feedback.textContent = '';
+      actionsRow.style.display = 'none';
+      revealBtn.disabled = false;
+
+      sentenceZone.innerHTML = '';
+      it.tokens.forEach((word, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'errorcorrection-word';
+        b.textContent = word;
+        b.addEventListener('click', () => onWordClick(i, b));
+        sentenceZone.appendChild(b);
+      });
+    }
+
+    function onWordClick(i, btnEl) {
+      if (answered) return;
+      const it = items[idx];
+      if (i === it.errorIndex) {
+        lockIn(false);
+      } else {
+        btnEl.classList.add('wrongflash');
+        setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 450);
+      }
+    }
+
+    revealBtn.addEventListener('click', () => {
+      if (answered) return;
+      lockIn(true);
+    });
+
+    function lockIn(revealed) {
+      answered = true;
+      const it = items[idx];
+      const buttons = sentenceZone.querySelectorAll('.errorcorrection-word');
+      buttons.forEach((b) => { b.disabled = true; });
+      buttons[it.errorIndex].classList.add('correct-word');
+      revealBtn.disabled = true;
+
+      if (!revealed) found++;
+      scoreText.textContent = 'Found: ' + found;
+
+      const correctedTokens = it.tokens.slice();
+      correctedTokens[it.errorIndex] = it.correction;
+
+      feedback.className = 'practice-feedback show ' + (revealed ? 'revealed' : 'ok');
+      feedback.innerHTML = (revealed ? '<b>' + it.type + '.</b> ' : '<b>Found it — ' + it.type + '.</b> ')
+        + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
+
+      results.push({
+        original: it.tokens.join(' '),
+        corrected: correctedTokens.join(' '),
+        selfFound: !revealed
+      });
+
+      actionsRow.style.display = 'flex';
+    }
+
+    nextBtn.addEventListener('click', () => {
+      idx++;
+      if (idx >= items.length) {
+        showScore();
+      } else {
+        render();
+      }
+    });
+
+    function showScore() {
+      quizArea.style.display = 'none';
+      scoreScreen.classList.add('show');
+      document.getElementById(`${uid}-finalScore`).textContent = found + '/' + items.length;
+      const label = document.getElementById(`${uid}-finalLabel`);
+      if (found === items.length) label.textContent = 'Every mistake found without help.';
+      else label.textContent = 'Found without help — the rest show the correction:';
+
+      const list = document.getElementById(`${uid}-reviewList`);
+      list.innerHTML = '';
+      results.forEach((r) => {
+        const row = document.createElement('div');
+        row.className = 'practice-review-item';
+        const head = document.createElement('div');
+        head.className = 'rhead';
+        const sent = document.createElement('span');
+        sent.className = 'rsent';
+        sent.textContent = r.corrected;
+        const mark = document.createElement('span');
+        mark.className = 'rmark ' + (r.selfFound ? 'self' : 'revealed');
+        mark.textContent = r.selfFound ? 'Found' : 'Revealed';
+        head.appendChild(sent);
+        head.appendChild(mark);
+        row.appendChild(head);
+        list.appendChild(row);
+      });
+    }
+
+    restartBtn.addEventListener('click', startQuiz);
+    startQuiz();
+  }
+
+  if (document.getElementById('ec')) initErrorCorrection();
+</script>

@@ -13,5 +13,10 @@ const { Content } = await lesson.render();
 const quizModules = import.meta.glob('../../data/quizzes/*.json', { eager: true });
 const quizKey = `../../data/quizzes/${lesson.data.quiz}.json`;
 const quiz = lesson.data.quiz ? (quizModules[quizKey]?.default ?? quizModules[quizKey] ?? null) : null;
+
+const practiceModules = import.meta.glob('../../data/practice/*.json', { eager: true });
+const lessonSlug = lesson.slug.split('/').pop();
+const practiceKey = `../../data/practice/${lessonSlug}-practice.json`;
+const practice = practiceModules[practiceKey]?.default ?? practiceModules[practiceKey] ?? null;
 ---
-<Lesson lesson={lesson} quiz={quiz}><Content /></Lesson>
+<Lesson lesson={lesson} quiz={quiz} practice={practice}><Content /></Lesson>

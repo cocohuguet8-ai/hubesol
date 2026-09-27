@@ -1,0 +1,305 @@
+---
+const { data, orderAux } = Astro.props;
+const uid = 'wo';
+---
+{data && (
+  <section class="wordorder" id={uid} aria-label="Word order practice">
+    <h3>✏️ Practice: {data.title}</h3>
+    <p class="practice-sub">{data.subtitle}</p>
+
+    <div id={`${uid}-quizArea`}>
+      <div class="practice-progress-row">
+        <span id={`${uid}-progressText`}>Sentence 1 of {data.sentences.length}</span>
+        <span id={`${uid}-scoreText`}>Score: 0</span>
+      </div>
+      <div class="practice-progress-track"><div class="practice-progress-fill" id={`${uid}-progressFill`} style="width:0%"></div></div>
+
+      <div class="practice-card">
+        <div class="practice-use-tag" id={`${uid}-useTag`}></div>
+
+        <div class="wordorder-zone-label">Your sentence</div>
+        <div class="wordorder-answer-zone" id={`${uid}-answerZone`}><span class="wordorder-placeholder">Tap words below to build the sentence</span></div>
+
+        <div class="wordorder-zone-label">Words</div>
+        <div class="wordorder-tray" id={`${uid}-trayZone`}></div>
+
+        <div class="practice-actions">
+          <button type="button" class="practice-btn-secondary" id={`${uid}-clearBtn`}>Clear</button>
+          <button type="button" class="practice-btn-primary" id={`${uid}-checkBtn`} disabled>Check</button>
+          <button type="button" class="practice-btn-secondary" id={`${uid}-nextBtn`} style="display:none;">Next →</button>
+        </div>
+        <div class="practice-feedback" id={`${uid}-feedback`}></div>
+      </div>
+    </div>
+
+    <div class="practice-score-screen" id={`${uid}-scoreScreen`}>
+      <div class="practice-card">
+        <div class="practice-use-tag">Result</div>
+        <div class="practice-score-big" id={`${uid}-finalScore`}>0/{data.sentences.length}</div>
+        <div class="practice-score-label" id={`${uid}-finalLabel`}>Review your answers:</div>
+        <div id={`${uid}-reviewList`}></div>
+        <div class="practice-actions">
+          <button type="button" class="practice-btn-primary" id={`${uid}-restartBtn`}>Try again</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({ sentences: data.sentences, orderAux })} />
+  </section>
+)}
+
+<script>
+  function initWordOrder() {
+    const uid = 'wo';
+    const dataEl = document.getElementById(`${uid}-data`);
+    if (!dataEl) return;
+    const payload = JSON.parse(dataEl.textContent);
+    const questions = payload.sentences;
+    const orderAux = payload.orderAux;
+
+    let idx = 0, score = 0, answered = false;
+    let results = [];
+    let built = [];
+    let trayState = [];
+
+    const answerZone = document.getElementById(`${uid}-answerZone`);
+    const trayZone = document.getElementById(`${uid}-trayZone`);
+    const useTag = document.getElementById(`${uid}-useTag`);
+    const progressText = document.getElementById(`${uid}-progressText`);
+    const scoreText = document.getElementById(`${uid}-scoreText`);
+    const progressFill = document.getElementById(`${uid}-progressFill`);
+    const checkBtn = document.getElementById(`${uid}-checkBtn`);
+    const clearBtn = document.getElementById(`${uid}-clearBtn`);
+    const nextBtn = document.getElementById(`${uid}-nextBtn`);
+    const feedback = document.getElementById(`${uid}-feedback`);
+    const quizArea = document.getElementById(`${uid}-quizArea`);
+    const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
+    const restartBtn = document.getElementById(`${uid}-restartBtn`);
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const t = a[i]; a[i] = a[j]; a[j] = t;
+      }
+      return a;
+    }
+
+    function shuffleDistinct(arr, sameOrderCheck) {
+      if (arr.length < 2) return arr.slice();
+      let a = shuffle(arr);
+      let tries = 0;
+      while (sameOrderCheck(a, arr) && tries < 20) {
+        a = shuffle(arr);
+        tries++;
+      }
+      if (sameOrderCheck(a, arr)) {
+        const t = a[0]; a[0] = a[1]; a[1] = t;
+      }
+      return a;
+    }
+
+    function render() {
+      const q = questions[idx];
+      useTag.textContent = q.use;
+      progressText.textContent = 'Sentence ' + (idx + 1) + ' of ' + questions.length;
+      scoreText.textContent = 'Score: ' + score;
+      progressFill.style.width = ((idx / questions.length) * 100) + '%';
+
+      built = [];
+      trayState = shuffleDistinct(
+        q.tokens.map((w, i) => ({ word: w, id: i + '-' + Math.random() })),
+        (a, orig) => a.map((x) => x.word).join(' ') === orig.map((x) => x.word).join(' ')
+      );
+
+      answered = false;
+      checkBtn.disabled = true;
+      checkBtn.style.display = '';
+      nextBtn.style.display = 'none';
+      clearBtn.disabled = false;
+      feedback.className = 'practice-feedback';
+      feedback.textContent = '';
+      answerZone.className = 'wordorder-answer-zone';
+
+      drawTray();
+      drawAnswer();
+    }
+
+    function drawTray() {
+      trayZone.innerHTML = '';
+      trayState.forEach((item) => {
+        if (item.used) return;
+        const t = document.createElement('button');
+        t.type = 'button';
+        t.className = 'wordorder-tile';
+        t.textContent = item.word;
+        t.addEventListener('click', () => {
+          if (answered) return;
+          item.used = true;
+          built.push(item);
+          drawTray();
+          drawAnswer();
+        });
+        trayZone.appendChild(t);
+      });
+    }
+
+    function drawAnswer() {
+      answerZone.innerHTML = '';
+      if (built.length === 0) {
+        const ph = document.createElement('span');
+        ph.className = 'wordorder-placeholder';
+        ph.textContent = 'Tap words below to build the sentence';
+        answerZone.appendChild(ph);
+      } else {
+        built.forEach((item) => {
+          const t = document.createElement('button');
+          t.type = 'button';
+          t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
+          t.textContent = item.word;
+          if (!answered) {
+            t.addEventListener('click', () => {
+              item.used = false;
+              built = built.filter((b) => b !== item);
+              drawTray();
+              drawAnswer();
+            });
+          }
+          answerZone.appendChild(t);
+        });
+      }
+      const q = questions[idx];
+      checkBtn.disabled = answered || built.length !== q.tokens.length;
+    }
+
+    // diagnoseOrder — ported verbatim per style from the approved word-order
+    // prototypes. "literal" style (past-simple / past-perfect) names the
+    // actual missing auxiliary token and has a distinct "don't forget X"
+    // message when the auxiliary is missing entirely. "label" style
+    // (present-perfect / present-continuous) always names a fixed label
+    // like "have/has" and merges the missing/misplaced cases.
+    function diagnoseOrder(builtWords, correctWords) {
+      const words = orderAux.words;
+      const label = orderAux.label;
+      const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+      const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+
+      if (label === null) {
+        if (bIdx === -1 && cIdx !== -1) {
+          return "Don't forget \"" + correctWords[cIdx] + "\" in this sentence.";
+        }
+        if (bIdx !== cIdx) {
+          if (cIdx === 0) return "In a question, \"" + orderAux.primary + "\" comes first, before the subject.";
+          return "\"" + correctWords[cIdx] + "\" goes right after the subject, not somewhere else.";
+        }
+        return "Check the order of the words after \"" + correctWords[cIdx] + "\".";
+      }
+
+      if (bIdx !== cIdx) {
+        if (cIdx === 0) return "In a question, the auxiliary (" + label + ") comes first, before the subject.";
+        return "The auxiliary (" + label + ") goes right after the subject — not later in the sentence.";
+      }
+      return "Check the order of the words after the auxiliary.";
+    }
+
+    function checkAnswer() {
+      if (answered) return;
+      const q = questions[idx];
+      answered = true;
+
+      const builtWords = built.map((b) => b.word);
+      const isCorrect = builtWords.join(' ') === q.tokens.join(' ');
+
+      answerZone.classList.add(isCorrect ? 'correct' : 'wrong');
+      drawAnswer();
+
+      if (isCorrect) {
+        feedback.classList.add('show', 'ok');
+        feedback.innerHTML = '<b>Correct.</b> That\'s the right word order.';
+        score++;
+      } else {
+        feedback.classList.add('show', 'bad');
+        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, q.tokens)
+          + ' The correct sentence is: "' + q.tokens.join(' ') + '"';
+      }
+
+      results.push({ correct: isCorrect, sentence: q.tokens.join(' '), yours: builtWords.join(' ') });
+
+      checkBtn.style.display = 'none';
+      clearBtn.disabled = true;
+      nextBtn.style.display = '';
+      nextBtn.focus();
+      scoreText.textContent = 'Score: ' + score;
+    }
+
+    function clearAnswer() {
+      if (answered) return;
+      built.forEach((item) => { item.used = false; });
+      built = [];
+      drawTray();
+      drawAnswer();
+    }
+
+    function goNext() {
+      idx++;
+      if (idx >= questions.length) {
+        showScore();
+      } else {
+        render();
+      }
+    }
+
+    function showScore() {
+      quizArea.style.display = 'none';
+      scoreScreen.classList.add('show');
+      progressFill.style.width = '100%';
+      document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
+      const label = document.getElementById(`${uid}-finalLabel`);
+      if (score === questions.length) label.textContent = 'Perfect score! Review your answers:';
+      else if (score >= questions.length - 3) label.textContent = 'Well done. Review your answers:';
+      else label.textContent = 'Review your answers:';
+
+      const list = document.getElementById(`${uid}-reviewList`);
+      list.innerHTML = '';
+      results.forEach((r) => {
+        const row = document.createElement('div');
+        row.className = 'practice-review-item';
+
+        const head = document.createElement('div');
+        head.className = 'rhead';
+        const sent = document.createElement('span');
+        sent.className = 'rsent';
+        sent.textContent = r.sentence;
+        const mark = document.createElement('span');
+        mark.className = 'rmark ' + (r.correct ? 'ok' : 'bad');
+        mark.textContent = r.correct ? '✓' : '✗';
+        head.appendChild(sent);
+        head.appendChild(mark);
+        row.appendChild(head);
+
+        if (!r.correct) {
+          const yours = document.createElement('div');
+          yours.className = 'ryours';
+          yours.textContent = 'You wrote: ' + r.yours;
+          row.appendChild(yours);
+        }
+
+        list.appendChild(row);
+      });
+    }
+
+    checkBtn.addEventListener('click', checkAnswer);
+    clearBtn.addEventListener('click', clearAnswer);
+    nextBtn.addEventListener('click', goNext);
+    restartBtn.addEventListener('click', () => {
+      idx = 0; score = 0; answered = false; results = [];
+      scoreScreen.classList.remove('show');
+      quizArea.style.display = '';
+      render();
+    });
+
+    render();
+  }
+
+  if (document.getElementById('wo')) initWordOrder();
+</script>

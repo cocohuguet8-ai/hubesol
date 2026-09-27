@@ -3,8 +3,9 @@ import Base from './Base.astro';
 import Quiz from '../components/Quiz.astro';
 import Faq from '../components/Faq.astro';
 import TeacherBlock from '../components/TeacherBlock.astro';
+import PracticeSection from '../components/practice/PracticeSection.astro';
 
-const { lesson, quiz } = Astro.props;
+const { lesson, quiz, practice } = Astro.props;
 const d = lesson.data;
 const url = new URL(Astro.url.pathname, Astro.site).href;
 const packHref = `/packs/${lesson.slug.split('/').pop()}-lesson-pack.pdf`;
@@ -87,6 +88,7 @@ if (quiz) {
   <div class="prose"><slot /></div>
 
   <Quiz quiz={quiz} />
+  <PracticeSection practice={practice} />
   <Faq faq={d.faq} />
   <TeacherBlock objectives={d.teacherObjectives} title={d.title} packHref={packHref} />
 

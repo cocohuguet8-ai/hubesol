@@ -1,0 +1,56 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const LEVEL_DESCRIPTIONS = {
+  A1: 'Absolute beginner. The essential building blocks of English grammar.',
+  A2: 'Elementary. Everyday grammar for simple, everyday communication.',
+  B1: 'Intermediate. The core grammar most learners spend the longest on.',
+  B2: 'Upper-intermediate. More nuanced structures and common contrasts.',
+  C1: 'Advanced. Precision, style and the grammar native speakers rarely notice they use.',
+};
+
+export async function getStaticPaths() {
+  const lessons = await getCollection('lessons', ({ data }) => !data.draft);
+  const levels = [...new Set(lessons.map((l) => l.data.level))];
+  return levels.map((level) => ({
+    params: { level: level.toLowerCase() },
+    props: { level, lessons: lessons.filter((l) => l.data.level === level) },
+  }));
+}
+
+const { level, lessons } = Astro.props;
+
+const hubs = {};
+for (const l of lessons) {
+  (hubs[l.data.hub] ??= { slug: l.data.hubSlug, items: [] }).items.push(l);
+}
+---
+<Base
+  title={`${level} English Grammar — HubESOL`}
+  description={`All ${level}-level English grammar lessons on HubESOL. ${LEVEL_DESCRIPTIONS[level] ?? ''}`}
+>
+  <p class="crumbs">
+    <a href="/grammar/">Grammar</a> › Level {level}
+  </p>
+  <h1>{level} Grammar</h1>
+  <p class="meta"><span class="badge">{level}</span>{LEVEL_DESCRIPTIONS[level] ?? ''}</p>
+
+  <div class="practice-wrap">
+    {Object.entries(hubs).map(([hub, { slug, items }]) => (
+      <section>
+        <h3><a href={`/grammar/${slug}/`}>{hub}</a></h3>
+        <p class="practice-sub">{items.length} lesson{items.length === 1 ? '' : 's'} at {level}</p>
+        <div class="level-lesson-grid">
+          {items.map((l) => (
+            <a class="practice-card level-lesson-card" href={`/grammar/${l.slug}/`}>
+              <span class="practice-use-tag">{l.data.hub}</span>
+              <h4>{l.data.title}</h4>
+              <p>{l.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

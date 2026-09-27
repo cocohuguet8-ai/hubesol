@@ -1,0 +1,210 @@
+---
+const { data } = Astro.props;
+const uid = 'tm';
+---
+{data && (
+  <section class="timedmc" id={uid} aria-label="Timed multiple choice practice">
+    <h3>✏️ Practice: {data.title}</h3>
+    <p class="practice-sub">{data.subtitle}</p>
+
+    <div id={`${uid}-quizArea`}>
+      <div class="practice-progress-row">
+        <span id={`${uid}-progressText`}>Question 1 of {data.questions.length}</span>
+        <span id={`${uid}-scoreText`}>Score: 0</span>
+      </div>
+      <div class="practice-progress-track"><div class="practice-progress-fill" id={`${uid}-progressFill`} style="width:0%"></div></div>
+      <div class="timedmc-timer-track"><div class="timedmc-timer-fill" id={`${uid}-timerFill`} style="width:100%"></div></div>
+
+      <div class="practice-card">
+        <div class="practice-use-tag" id={`${uid}-useTag`}></div>
+        <div class="timedmc-question" id={`${uid}-questionText`}></div>
+        {data.showHintVerb && <div class="timedmc-hintv" id={`${uid}-hintText`}></div>}
+        <div class="timedmc-options" id={`${uid}-optionsList`}></div>
+        <div class="practice-feedback" id={`${uid}-feedback`}></div>
+        <div class="practice-actions" id={`${uid}-actionsRow`} style="display:none;">
+          <button type="button" class="practice-btn-primary" id={`${uid}-nextBtn`}>Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="practice-score-screen" id={`${uid}-scoreScreen`}>
+      <div class="practice-card">
+        <div class="practice-use-tag">Result</div>
+        <div class="practice-score-big" id={`${uid}-finalScore`}>0/{data.questions.length}</div>
+        <div class="practice-score-label" id={`${uid}-finalLabel`}></div>
+        <div id={`${uid}-reviewList`}></div>
+        <div class="practice-restart-row">
+          <button type="button" class="practice-btn-primary" id={`${uid}-restartBtn`}>Play again</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({ questions: data.questions, timeLimit: data.timeLimit, showHintVerb: !!data.showHintVerb })} />
+  </section>
+)}
+
+<script>
+  function initTimedMC() {
+    const uid = 'tm';
+    const dataEl = document.getElementById(`${uid}-data`);
+    if (!dataEl) return;
+    const payload = JSON.parse(dataEl.textContent);
+    const questions = payload.questions;
+    const TIME_LIMIT = payload.timeLimit;
+    const showHintVerb = payload.showHintVerb;
+
+    let current = 0, score = 0, answers = [], timerId = null, timeLeft = TIME_LIMIT, locked = false;
+
+    const progressText = document.getElementById(`${uid}-progressText`);
+    const scoreText = document.getElementById(`${uid}-scoreText`);
+    const progressFill = document.getElementById(`${uid}-progressFill`);
+    const timerFill = document.getElementById(`${uid}-timerFill`);
+    const useTag = document.getElementById(`${uid}-useTag`);
+    const questionText = document.getElementById(`${uid}-questionText`);
+    const hintText = showHintVerb ? document.getElementById(`${uid}-hintText`) : null;
+    const optionsList = document.getElementById(`${uid}-optionsList`);
+    const feedback = document.getElementById(`${uid}-feedback`);
+    const actionsRow = document.getElementById(`${uid}-actionsRow`);
+    const nextBtn = document.getElementById(`${uid}-nextBtn`);
+    const quizArea = document.getElementById(`${uid}-quizArea`);
+    const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
+    const restartBtn = document.getElementById(`${uid}-restartBtn`);
+
+    function startQuiz() {
+      current = 0; score = 0; answers = [];
+      quizArea.style.display = '';
+      scoreScreen.classList.remove('show');
+      showQuestion();
+    }
+
+    function showQuestion() {
+      locked = false;
+      const q = questions[current];
+      progressText.textContent = 'Question ' + (current + 1) + ' of ' + questions.length;
+      scoreText.textContent = 'Score: ' + score;
+      progressFill.style.width = ((current / questions.length) * 100) + '%';
+      useTag.textContent = q.use;
+      questionText.innerHTML = q.text;
+      if (hintText) hintText.textContent = q.hintVerb || '';
+      feedback.className = 'practice-feedback';
+      feedback.textContent = '';
+      actionsRow.style.display = 'none';
+
+      optionsList.innerHTML = '';
+      q.choices.forEach((choice, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'timedmc-opt';
+        b.textContent = choice;
+        b.addEventListener('click', () => selectAnswer(i, b));
+        optionsList.appendChild(b);
+      });
+
+      startTimer();
+    }
+
+    function startTimer() {
+      clearInterval(timerId);
+      timeLeft = TIME_LIMIT;
+      updateTimerBar();
+      timerId = setInterval(() => {
+        timeLeft--;
+        updateTimerBar();
+        if (timeLeft <= 0) {
+          clearInterval(timerId);
+          if (!locked) selectAnswer(-1, null);
+        }
+      }, 1000);
+    }
+
+    function updateTimerBar() {
+      const pct = Math.max(0, (timeLeft / TIME_LIMIT) * 100);
+      timerFill.style.width = pct + '%';
+      timerFill.classList.remove('warn', 'danger');
+      if (timeLeft <= 3) timerFill.classList.add('danger');
+      else if (timeLeft <= 7) timerFill.classList.add('warn');
+    }
+
+    function selectAnswer(index, btnEl) {
+      if (locked) return;
+      locked = true;
+      clearInterval(timerId);
+
+      const q = questions[current];
+      const isCorrect = index === q.correct;
+      const buttons = optionsList.querySelectorAll('.timedmc-opt');
+      buttons.forEach((b, i) => {
+        b.disabled = true;
+        if (i === q.correct) b.classList.add('correct-reveal');
+        if (i === index && index !== q.correct) b.classList.add('wrong-reveal');
+        if (i === index) b.classList.add('chosen');
+      });
+
+      answers.push({ q, chosenIndex: index, correct: isCorrect });
+
+      if (isCorrect) {
+        score++;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Correct.</b> ' + q.explain;
+      } else {
+        feedback.className = 'practice-feedback show bad';
+        if (index === -1) {
+          feedback.innerHTML = '<b>Time\'s up.</b> The answer was "' + q.choices[q.correct] + '". ' + q.explain;
+        } else {
+          const reason = q.wrongReasons[index] || '';
+          feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was "' + q.choices[q.correct] + '".';
+        }
+      }
+
+      scoreText.textContent = 'Score: ' + score;
+      actionsRow.style.display = 'flex';
+    }
+
+    nextBtn.addEventListener('click', () => {
+      current++;
+      if (current >= questions.length) {
+        showScore();
+      } else {
+        showQuestion();
+      }
+    });
+
+    function showScore() {
+      clearInterval(timerId);
+      quizArea.style.display = 'none';
+      scoreScreen.classList.add('show');
+      document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
+      const label = document.getElementById(`${uid}-finalLabel`);
+      if (score === questions.length) label.textContent = 'Perfect score.';
+      else if (score >= questions.length * 0.7) label.textContent = 'Solid result.';
+      else label.textContent = 'Worth another go.';
+
+      const list = document.getElementById(`${uid}-reviewList`);
+      list.innerHTML = '';
+      answers.forEach((a) => {
+        const row = document.createElement('div');
+        row.className = 'practice-review-item';
+        const qDiv = document.createElement('div');
+        qDiv.className = 'rq';
+        qDiv.innerHTML = a.q.text;
+        row.appendChild(qDiv);
+        const yourDiv = document.createElement('div');
+        if (a.correct) {
+          yourDiv.className = 'rcorrect';
+          yourDiv.textContent = 'Your answer: ' + a.q.choices[a.chosenIndex] + ' — correct';
+        } else {
+          yourDiv.className = 'ryour';
+          const yourText = a.chosenIndex === -1 ? 'No answer (time ran out)' : a.q.choices[a.chosenIndex];
+          yourDiv.textContent = 'Your answer: ' + yourText + '. Correct: ' + a.q.choices[a.q.correct];
+        }
+        row.appendChild(yourDiv);
+        list.appendChild(row);
+      });
+    }
+
+    restartBtn.addEventListener('click', startQuiz);
+    startQuiz();
+  }
+
+  if (document.getElementById('tm')) initTimedMC();
+</script>

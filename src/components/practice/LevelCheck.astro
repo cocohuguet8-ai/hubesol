@@ -1,0 +1,662 @@
+---
+const { tense, lessonTitle, data, orderAux } = Astro.props;
+const uid = 'lc';
+---
+{data && (
+  <section class="levelcheck" id={uid} aria-label="Level check" data-tense={tense}>
+    <h3>✏️ Level check: {data.title}</h3>
+    <p class="practice-sub">{data.subtitle}</p>
+
+    <div id={`${uid}-quizArea`}>
+      <div class="practice-progress-row">
+        <span id={`${uid}-progressText`}>Question 1 of {data.items.length}</span>
+        <span id={`${uid}-scoreText`}>Score: 0</span>
+      </div>
+      <div class="practice-progress-track"><div class="practice-progress-fill" id={`${uid}-progressFill`} style="width:0%"></div></div>
+
+      <div class="practice-card">
+        <div class="practice-use-tag" id={`${uid}-useTag`}></div>
+        <div id={`${uid}-questionBody`}></div>
+        <div class="practice-feedback" id={`${uid}-feedback`}></div>
+        <div class="practice-actions" id={`${uid}-actionsRow`}></div>
+      </div>
+    </div>
+
+    <div class="practice-score-screen" id={`${uid}-scoreScreen`}>
+      <div class="practice-card">
+        <div class="practice-use-tag">Result</div>
+        <div class="practice-score-big" id={`${uid}-finalScore`}>0/{data.items.length}</div>
+        <div class="practice-score-label" id={`${uid}-finalLabel`}></div>
+        <div class="levelcheck-score-time" id={`${uid}-finalTime`}></div>
+        <div id={`${uid}-catBreakdown`}></div>
+        <div class="levelcheck-weakest-note" id={`${uid}-weakestNote`}></div>
+        <div class="practice-restart-row">
+          <button type="button" class="practice-btn-primary" id={`${uid}-restartBtn`}>Try again</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({
+      tense, lessonTitle,
+      categoryLabels: data.categoryLabels, categoryOrder: data.categoryOrder,
+      items: data.items, orderAux
+    })} />
+  </section>
+)}
+
+<script>
+  function initLevelCheck() {
+    const uid = 'lc';
+    const dataEl = document.getElementById(`${uid}-data`);
+    if (!dataEl) return;
+    const payload = JSON.parse(dataEl.textContent);
+    const tense = payload.tense;
+    const lessonTitle = payload.lessonTitle;
+    const CAT_LABELS = payload.categoryLabels;
+    const CAT_ORDER = payload.categoryOrder;
+    const items = payload.items;
+    const orderAux = payload.orderAux;
+
+    function normalize(s) {
+      return s.toLowerCase().trim().replace(/\s+/g, ' ').replace(/[‘’]/g, "'");
+    }
+
+    let idx = 0, answered = false, startTime = null;
+    let catCorrect = {};
+    let results = [];
+
+    const progressText = document.getElementById(`${uid}-progressText`);
+    const scoreText = document.getElementById(`${uid}-scoreText`);
+    const progressFill = document.getElementById(`${uid}-progressFill`);
+    const useTag = document.getElementById(`${uid}-useTag`);
+    const questionBody = document.getElementById(`${uid}-questionBody`);
+    const feedback = document.getElementById(`${uid}-feedback`);
+    const actionsRow = document.getElementById(`${uid}-actionsRow`);
+    const quizArea = document.getElementById(`${uid}-quizArea`);
+    const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
+    const restartBtn = document.getElementById(`${uid}-restartBtn`);
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const t = a[i]; a[i] = a[j]; a[j] = t;
+      }
+      return a;
+    }
+
+    function shuffleDistinct(arr, sameOrderCheck) {
+      if (arr.length < 2) return arr.slice();
+      let a = shuffle(arr);
+      let tries = 0;
+      while (sameOrderCheck(a, arr) && tries < 20) {
+        a = shuffle(arr);
+        tries++;
+      }
+      if (sameOrderCheck(a, arr)) {
+        const t = a[0]; a[0] = a[1]; a[1] = t;
+      }
+      return a;
+    }
+
+    function totalScore() {
+      let t = 0;
+      CAT_ORDER.forEach((c) => { t += catCorrect[c]; });
+      return t;
+    }
+
+    const PAST_REGULAR_TAIL = /ed$/;
+
+    // ---- diagnoseFill: tense-keyed, ported verbatim per approved level-check prototype ----
+    function diagnoseFillPastSimple(rawText, it) {
+      const u = normalize(rawText);
+      const c = normalize(it.display);
+      if (!u) return "You left it blank — even a guess helps you learn the pattern.";
+      const uWords = u.split(' ').filter(Boolean);
+      const cWords = c.split(' ').filter(Boolean);
+      if (c === 'did') {
+        if (u === 'do' || u === 'does') return "Past simple questions always use <b>did</b>, not do/does.";
+        return "This needs the question auxiliary <b>did</b>.";
+      }
+      if (cWords[0] === "didn't") {
+        const negIssues = [];
+        if (u.indexOf("don't") === 0 || u.indexOf('dont') === 0) negIssues.push("Wrong tense: the past negative is <b>didn't</b>, not don't.");
+        else if (u.indexOf("doesn't") === 0 || u.indexOf('doesnt') === 0) negIssues.push("Wrong tense: the past negative is <b>didn't</b>, not doesn't.");
+        else if (uWords.indexOf('did') === -1 && uWords.indexOf("didn't") === -1) negIssues.push("Don't forget <b>didn't</b> before the verb.");
+        const negLast = uWords[uWords.length - 1] || '';
+        const cNegLast = cWords[cWords.length - 1] || '';
+        if (negLast !== cNegLast) negIssues.push("After \"didn't\", the verb goes back to its base form — check the verb itself.");
+        if (negIssues.length === 0) return "Check the negative form — it should be \"" + it.display + "\".";
+        return negIssues.join(' ');
+      }
+      const issues = [];
+      if (uWords[0] === 'did') {
+        issues.push("Don't add \"did\" here — in an affirmative sentence the past verb itself carries the tense: \"" + it.display + "\".");
+      }
+      const uLast = uWords[uWords.length - 1] || '';
+      if (uLast !== c) {
+        if (!PAST_REGULAR_TAIL.test(uLast) && PAST_REGULAR_TAIL.test(c)) {
+          issues.push("This is a regular verb in the past — check the -ed ending and its spelling.");
+        } else {
+          issues.push("Check the verb form — it should be \"" + it.display + "\".");
+        }
+      }
+      if (issues.length === 0) return "Check the verb form — it should be \"" + it.display + "\".";
+      return issues.join(' ');
+    }
+
+    function diagnoseFillPastPerfect(rawText, it) {
+      const u = normalize(rawText);
+      const c = normalize(it.display);
+      if (!u) return "You left it blank — even a guess helps you learn the pattern.";
+      const uWords = u.split(' ').filter(Boolean);
+      const cWords = c.split(' ').filter(Boolean);
+      if (c === 'had') {
+        if (u === 'has' || u === 'have') return "This needs the past auxiliary <b>had</b>, not has/have.";
+        return "This needs the question auxiliary <b>had</b>.";
+      }
+      if (cWords[0] === "hadn't") {
+        const negIssues = [];
+        if (u.indexOf("didn't") === 0 || u.indexOf('didnt') === 0) negIssues.push("Wrong tense: the past perfect negative is <b>hadn't</b>, not didn't.");
+        else if (u.indexOf("haven't") === 0 || u.indexOf('havent') === 0 || u.indexOf("hasn't") === 0 || u.indexOf('hasnt') === 0) negIssues.push("Wrong auxiliary: for an earlier past action, use <b>hadn't</b>, not haven't/hasn't.");
+        else if (uWords.indexOf('had') === -1 && uWords.indexOf("hadn't") === -1) negIssues.push("Don't forget <b>hadn't</b> before the past participle.");
+        const negLast = uWords[uWords.length - 1] || '';
+        const cNegLast = cWords[cWords.length - 1] || '';
+        if (negLast !== cNegLast && !PAST_REGULAR_TAIL.test(negLast) && PAST_REGULAR_TAIL.test(cNegLast)) {
+          negIssues.push("This is a regular verb — check the -ed ending on the past participle.");
+        } else if (negLast !== cNegLast) {
+          negIssues.push("Check the spelling of the past participle — it should be \"" + cNegLast + "\".");
+        }
+        if (negIssues.length === 0) return "Check the negative form — it should be \"" + it.display + "\".";
+        return negIssues.join(' ');
+      }
+      const issues = [];
+      if (uWords[0] === 'has' || uWords[0] === 'have') {
+        issues.push("Wrong auxiliary: an action before another past action needs <b>had</b>, not has/have.");
+      } else if (cWords[0] === 'had' && uWords.indexOf('had') === -1 && uWords.indexOf("'d") === -1 && uWords.indexOf('d') === -1) {
+        issues.push("Don't forget <b>had</b> before the past participle.");
+      }
+      const uLast = uWords[uWords.length - 1] || '';
+      const cLast = cWords[cWords.length - 1] || '';
+      if (uLast !== cLast) {
+        if (!PAST_REGULAR_TAIL.test(uLast) && PAST_REGULAR_TAIL.test(cLast)) {
+          issues.push("This is a regular verb — check the -ed ending on the past participle.");
+        } else {
+          issues.push("Check the spelling of the past participle — it should be \"" + cLast + "\".");
+        }
+      }
+      if (issues.length === 0) return "Check the verb form — it should be \"" + it.display + "\".";
+      return issues.join(' ');
+    }
+
+    const PP_AUX_WORDS = ["have", "has", "haven't", "hasn't"];
+    const PP_AUX_SWAP = { "have": "has", "has": "have", "haven't": "hasn't", "hasn't": "haven't" };
+    function ppLcParseAux(rawWords) {
+      for (let i = 0; i < rawWords.length; i++) {
+        const w = rawWords[i].toLowerCase();
+        if (PP_AUX_WORDS.indexOf(w) !== -1) {
+          return { aux: w, rest: rawWords.slice(0, i).concat(rawWords.slice(i + 1)).join(' ').toLowerCase() };
+        }
+      }
+      return { aux: null, rest: rawWords.join(' ').toLowerCase() };
+    }
+    function diagnoseFillPresentPerfect(userText, correctText) {
+      const userWords = userText.trim().split(/\s+/).filter(Boolean);
+      if (userWords.length === 0) return "You left it blank — the present perfect here needs an auxiliary (have/has) plus a past participle.";
+      const correctWords = correctText.split(/\s+/);
+      const u = ppLcParseAux(userWords);
+      const c = ppLcParseAux(correctWords);
+      const issues = [];
+      if (!u.aux) {
+        issues.push("Don't forget the auxiliary (" + c.aux + ") before the participle.");
+      } else if (u.aux !== c.aux) {
+        if (PP_AUX_SWAP[u.aux] === c.aux) {
+          issues.push("Subject-verb agreement: the auxiliary should be \"" + c.aux + "\", not \"" + u.aux + "\".");
+        } else {
+          issues.push("Check the auxiliary — it should be \"" + c.aux + "\".");
+        }
+      }
+      if (u.rest !== c.rest && c.rest) {
+        issues.push("Check the verb after the auxiliary — it should be \"" + c.rest + "\".");
+      }
+      if (issues.length === 0) return "Check the verb form — it should be \"" + correctText + "\".";
+      return issues.join(' ');
+    }
+
+    const PC_AUX_WORDS = ["am", "is", "are", "isn't", "aren't"];
+    const PC_AUX_SWAP_PAIRS = [["is", "are"], ["is", "am"], ["are", "am"], ["isn't", "aren't"]];
+    function pcLcParseAux(rawWords) {
+      for (let i = 0; i < rawWords.length; i++) {
+        const w = rawWords[i].toLowerCase();
+        if (PC_AUX_WORDS.indexOf(w) !== -1) {
+          return { aux: w, rest: rawWords.slice(0, i).concat(rawWords.slice(i + 1)).join(' ').toLowerCase() };
+        }
+      }
+      return { aux: null, rest: rawWords.join(' ').toLowerCase() };
+    }
+    function pcLcAuxSwapMatches(a, b) {
+      for (let i = 0; i < PC_AUX_SWAP_PAIRS.length; i++) {
+        const p = PC_AUX_SWAP_PAIRS[i];
+        if ((p[0] === a && p[1] === b) || (p[1] === a && p[0] === b)) return true;
+      }
+      return false;
+    }
+    function diagnoseFillPresentContinuous(userText, correctText) {
+      const userWords = userText.trim().split(/\s+/).filter(Boolean);
+      if (userWords.length === 0) return "You left it blank — present continuous needs am/is/are plus the -ing form.";
+      const correctWords = correctText.split(/\s+/);
+      const u = pcLcParseAux(userWords);
+      const c = pcLcParseAux(correctWords);
+      const issues = [];
+      if (!u.aux) {
+        issues.push("Don't forget the auxiliary (" + c.aux + ") before the -ing form.");
+      } else if (u.aux !== c.aux) {
+        if (pcLcAuxSwapMatches(u.aux, c.aux)) {
+          issues.push("Subject-verb agreement: the auxiliary should be \"" + c.aux + "\", not \"" + u.aux + "\".");
+        } else {
+          issues.push("Check the auxiliary — it should be \"" + c.aux + "\".");
+        }
+      }
+      if (u.rest !== c.rest && c.rest) {
+        if (u.rest.slice(-3) !== 'ing' && c.rest.slice(-3) === 'ing') {
+          issues.push("This needs the -ing form.");
+        } else {
+          issues.push("Check the spelling of the -ing form — it should be \"" + c.rest + "\".");
+        }
+      }
+      if (issues.length === 0) return "Check the verb form — it should be \"" + correctText + "\".";
+      return issues.join(' ');
+    }
+
+    // ---- diagnoseOrder: tense-keyed via orderAux, ported verbatim per approved level-check prototype ----
+    function diagnoseOrder(builtWords, correctWords) {
+      const words = orderAux.words;
+      const label = orderAux.label;
+      const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+      const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+      if (label === null) {
+        if (bIdx === -1 && cIdx !== -1) {
+          return "Don't forget \"" + correctWords[cIdx] + "\" in this sentence.";
+        }
+        if (bIdx !== cIdx) {
+          if (cIdx === 0) return "In a question, \"" + orderAux.primary + "\" comes first, before the subject.";
+          return "\"" + correctWords[cIdx] + "\" goes right after the subject, not somewhere else.";
+        }
+        return "Check the order of the words after \"" + correctWords[cIdx] + "\".";
+      }
+      if (bIdx !== cIdx) {
+        if (cIdx === 0) return "In a question, the auxiliary (" + label + ") comes first, before the subject.";
+        return "The auxiliary (" + label + ") goes right after the subject.";
+      }
+      return "Check the order of the words after the auxiliary.";
+    }
+
+    function startQuiz() {
+      idx = 0; answered = false; startTime = Date.now();
+      catCorrect = {};
+      CAT_ORDER.forEach((c) => { catCorrect[c] = 0; });
+      results = [];
+      quizArea.style.display = '';
+      scoreScreen.classList.remove('show');
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      answered = false;
+      const it = items[idx];
+      progressText.textContent = 'Question ' + (idx + 1) + ' of ' + items.length;
+      scoreText.textContent = 'Score: ' + totalScore();
+      progressFill.style.width = (idx / items.length * 100) + '%';
+      useTag.textContent = it.use;
+      feedback.className = 'practice-feedback';
+      feedback.textContent = '';
+      actionsRow.innerHTML = '';
+      questionBody.innerHTML = '';
+
+      if (it.type === 'fill') renderFill(it);
+      else if (it.type === 'order') renderOrder(it);
+      else if (it.type !== 'error') renderChoice(it);
+      else renderError(it);
+    }
+
+    // ---------- FILL ----------
+    function renderFill(it) {
+      const q = document.createElement('div');
+      q.className = 'levelcheck-question';
+      q.innerHTML = it.sentText.replace('{{blank}}', '<span class="levelcheck-blank">&nbsp;</span>') + ' <span class="levelcheck-hint-inline">(' + it.hint + ')</span>';
+      questionBody.appendChild(q);
+
+      const row = document.createElement('div');
+      row.className = 'levelcheck-fill-row';
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.id = `${uid}-fillInput`;
+      input.placeholder = 'type your answer';
+      input.autocomplete = 'off';
+      row.appendChild(input);
+      questionBody.appendChild(row);
+
+      const checkBtn = document.createElement('button');
+      checkBtn.className = 'practice-btn-primary';
+      checkBtn.textContent = 'Check';
+      checkBtn.addEventListener('click', () => checkFill(it, input));
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') checkFill(it, input); });
+      actionsRow.appendChild(checkBtn);
+      setTimeout(() => { input.focus(); }, 50);
+    }
+
+    function diagnoseFill(rawText, it) {
+      if (tense === 'past-simple') return diagnoseFillPastSimple(rawText, it);
+      if (tense === 'past-perfect') return diagnoseFillPastPerfect(rawText, it);
+      if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
+      if (tense === 'present-continuous') return diagnoseFillPresentContinuous(rawText, it.display);
+      return "Check the verb form — it should be \"" + it.display + "\".";
+    }
+
+    function checkFill(it, input) {
+      if (answered) return;
+      answered = true;
+      const raw = input.value;
+      const norm = normalize(raw);
+      const isCorrect = it.answers.indexOf(norm) !== -1;
+      input.disabled = true;
+      input.classList.add(isCorrect ? 'correct' : 'wrong');
+
+      if (isCorrect) {
+        catCorrect.fill++;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Correct.</b>';
+      } else {
+        feedback.className = 'practice-feedback show bad';
+        feedback.innerHTML = '<b>Not quite — the correct form is "' + it.display + '".</b> ' + diagnoseFill(raw, it);
+      }
+      results.push({ category: 'fill', correct: isCorrect, detail: it.sentText.replace('{{blank}}', it.display) });
+      scoreText.textContent = 'Score: ' + totalScore();
+      actionsRow.innerHTML = '';
+      appendNext();
+    }
+
+    // ---------- ORDER ----------
+    let orderBuilt = [], orderTray = [];
+    function renderOrder(it) {
+      orderBuilt = [];
+      orderTray = shuffleDistinct(
+        it.tokens.map((w, i) => ({ word: w, id: i + '-' + Math.random() })),
+        (a, orig) => a.map((x) => x.word).join(' ') === orig.map((x) => x.word).join(' ')
+      );
+
+      const zLabel1 = document.createElement('div');
+      zLabel1.className = 'wordorder-zone-label';
+      zLabel1.textContent = 'Your sentence';
+      questionBody.appendChild(zLabel1);
+
+      const zone = document.createElement('div');
+      zone.className = 'wordorder-answer-zone';
+      zone.id = `${uid}-orderZone`;
+      questionBody.appendChild(zone);
+
+      const zLabel2 = document.createElement('div');
+      zLabel2.className = 'wordorder-zone-label';
+      zLabel2.textContent = 'Words';
+      questionBody.appendChild(zLabel2);
+
+      const tray = document.createElement('div');
+      tray.className = 'wordorder-tray';
+      tray.id = `${uid}-orderTray`;
+      questionBody.appendChild(tray);
+
+      drawOrderTray(it);
+      drawOrderZone(it);
+
+      const clearBtn = document.createElement('button');
+      clearBtn.className = 'practice-btn-secondary';
+      clearBtn.textContent = 'Clear';
+      clearBtn.id = `${uid}-orderClear`;
+      clearBtn.addEventListener('click', () => {
+        orderBuilt.forEach((item) => { item.used = false; });
+        orderBuilt = [];
+        drawOrderTray(it);
+        drawOrderZone(it);
+      });
+
+      const checkBtn = document.createElement('button');
+      checkBtn.className = 'practice-btn-primary';
+      checkBtn.textContent = 'Check';
+      checkBtn.id = `${uid}-orderCheck`;
+      checkBtn.disabled = true;
+      checkBtn.addEventListener('click', () => checkOrder(it));
+
+      actionsRow.appendChild(clearBtn);
+      actionsRow.appendChild(checkBtn);
+    }
+
+    function drawOrderTray(it) {
+      const tray = document.getElementById(`${uid}-orderTray`);
+      tray.innerHTML = '';
+      orderTray.forEach((item) => {
+        if (item.used) return;
+        const t = document.createElement('button');
+        t.type = 'button';
+        t.className = 'wordorder-tile';
+        t.textContent = item.word;
+        t.addEventListener('click', () => {
+          if (answered) return;
+          item.used = true;
+          orderBuilt.push(item);
+          drawOrderTray(it);
+          drawOrderZone(it);
+        });
+        tray.appendChild(t);
+      });
+    }
+
+    function drawOrderZone(it) {
+      const zone = document.getElementById(`${uid}-orderZone`);
+      zone.innerHTML = '';
+      if (orderBuilt.length === 0) {
+        const ph = document.createElement('span');
+        ph.className = 'wordorder-placeholder';
+        ph.textContent = 'Tap words below to build the sentence';
+        zone.appendChild(ph);
+      } else {
+        orderBuilt.forEach((item) => {
+          const t = document.createElement('button');
+          t.type = 'button';
+          t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
+          t.textContent = item.word;
+          if (!answered) {
+            t.addEventListener('click', () => {
+              item.used = false;
+              orderBuilt = orderBuilt.filter((b) => b !== item);
+              drawOrderTray(it);
+              drawOrderZone(it);
+            });
+          }
+          zone.appendChild(t);
+        });
+      }
+      const checkBtn = document.getElementById(`${uid}-orderCheck`);
+      if (checkBtn) checkBtn.disabled = answered || orderBuilt.length !== it.tokens.length;
+    }
+
+    function checkOrder(it) {
+      if (answered) return;
+      answered = true;
+      const builtWords = orderBuilt.map((b) => b.word);
+      const isCorrect = builtWords.join(' ') === it.tokens.join(' ');
+      const zone = document.getElementById(`${uid}-orderZone`);
+      zone.classList.add(isCorrect ? 'correct' : 'wrong');
+      drawOrderZone(it);
+
+      if (isCorrect) {
+        catCorrect.order++;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Correct.</b> That\'s the right word order.';
+      } else {
+        feedback.className = 'practice-feedback show bad';
+        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: "' + it.tokens.join(' ') + '"';
+      }
+      results.push({ category: 'order', correct: isCorrect, detail: it.tokens.join(' ') });
+      scoreText.textContent = 'Score: ' + totalScore();
+      document.getElementById(`${uid}-orderClear`).disabled = true;
+      document.getElementById(`${uid}-orderCheck`).style.display = 'none';
+      appendNext();
+    }
+
+    // ---------- CHOICE (irregular / participle / ing / mc) ----------
+    function renderChoice(it) {
+      const q = document.createElement('div');
+      q.className = 'levelcheck-question';
+      let textHtml = it.text.replace('{{blank}}', '<span class="levelcheck-blank">&nbsp;</span>');
+      if (it.hintVerb) textHtml += ' <span class="levelcheck-hint-inline">' + it.hintVerb + '</span>';
+      q.innerHTML = textHtml;
+      questionBody.appendChild(q);
+
+      const opts = document.createElement('div');
+      opts.className = 'levelcheck-options';
+      questionBody.appendChild(opts);
+
+      const order = shuffle(it.choices.map((c, i) => i));
+      order.forEach((origIndex) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'levelcheck-opt';
+        b.textContent = it.choices[origIndex];
+        b.addEventListener('click', () => checkChoice(it, origIndex, b, opts));
+        opts.appendChild(b);
+      });
+    }
+
+    function checkChoice(it, chosenIndex, btnEl, opts) {
+      if (answered) return;
+      answered = true;
+      const isCorrect = chosenIndex === it.correct;
+      const buttons = opts.querySelectorAll('.levelcheck-opt');
+      buttons.forEach((b) => { b.disabled = true; });
+      Array.prototype.forEach.call(buttons, (b) => {
+        if (b.textContent === it.choices[it.correct]) b.classList.add('correct-reveal');
+      });
+      if (!isCorrect) btnEl.classList.add('wrong-reveal');
+
+      if (isCorrect) {
+        catCorrect[it.type]++;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Correct.</b>';
+      } else {
+        feedback.className = 'practice-feedback show bad';
+        const reason = it.wrongReasons[chosenIndex] || '';
+        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was "' + it.choices[it.correct] + '".';
+      }
+      results.push({ category: it.type, correct: isCorrect, detail: (it.text || it.sentText || '').replace('{{blank}}', it.choices[it.correct]) });
+      scoreText.textContent = 'Score: ' + totalScore();
+      appendNext();
+    }
+
+    // ---------- ERROR ----------
+    function renderError(it) {
+      const sentence = document.createElement('div');
+      sentence.className = 'errorcorrection-sentence';
+      sentence.id = `${uid}-errorSentence`;
+      it.tokens.forEach((word, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'errorcorrection-word';
+        b.textContent = word;
+        b.addEventListener('click', () => onErrorWordClick(it, i, b));
+        sentence.appendChild(b);
+      });
+      questionBody.appendChild(sentence);
+
+      const hint = document.createElement('div');
+      hint.className = 'levelcheck-error-hint';
+      hint.textContent = "Tap the word that's wrong.";
+      questionBody.appendChild(hint);
+    }
+
+    function onErrorWordClick(it, i, btnEl) {
+      if (answered) return;
+      if (i === it.errorIndex) {
+        answered = true;
+        const buttons = document.getElementById(`${uid}-errorSentence`).querySelectorAll('.errorcorrection-word');
+        buttons.forEach((b) => { b.disabled = true; });
+        btnEl.classList.add('correct-word');
+        catCorrect.error++;
+        const correctedTokens = it.tokens.slice();
+        correctedTokens[it.errorIndex] = it.correction;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Found it.</b> ' + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
+        results.push({ category: 'error', correct: true, detail: correctedTokens.join(' ') });
+        scoreText.textContent = 'Score: ' + totalScore();
+        appendNext();
+      } else {
+        btnEl.classList.add('wrongflash');
+        setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 400);
+      }
+    }
+
+    // ---------- shared "next" ----------
+    function appendNext() {
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'practice-btn-primary';
+      nextBtn.textContent = (idx === items.length - 1) ? 'See results →' : 'Next →';
+      nextBtn.addEventListener('click', () => {
+        idx++;
+        if (idx >= items.length) showScore();
+        else renderQuestion();
+      });
+      actionsRow.innerHTML = '';
+      actionsRow.appendChild(nextBtn);
+      nextBtn.focus();
+    }
+
+    function showScore() {
+      quizArea.style.display = 'none';
+      scoreScreen.classList.add('show');
+      const total = totalScore();
+      document.getElementById(`${uid}-finalScore`).textContent = total + '/' + items.length;
+
+      const pct = Math.round((total / items.length) * 100);
+      const label = document.getElementById(`${uid}-finalLabel`);
+      if (pct >= 90) label.textContent = 'Strong grasp of ' + lessonTitle + '.';
+      else if (pct >= 70) label.textContent = 'Solid, with a few gaps.';
+      else if (pct >= 50) label.textContent = 'Getting there — worth another pass through the lesson.';
+      else label.textContent = 'Needs more review before moving on.';
+
+      const seconds = Math.round((Date.now() - startTime) / 1000);
+      const mm = Math.floor(seconds / 60), ss = seconds % 60;
+      document.getElementById(`${uid}-finalTime`).textContent = 'Completed in ' + mm + ':' + (ss < 10 ? '0' : '') + ss;
+
+      const catDiv = document.getElementById(`${uid}-catBreakdown`);
+      catDiv.innerHTML = '';
+      const weakest = [];
+      CAT_ORDER.forEach((c) => {
+        const row = document.createElement('div');
+        row.className = 'levelcheck-cat-row';
+        const name = document.createElement('span');
+        name.className = 'levelcheck-cat-name';
+        name.textContent = CAT_LABELS[c];
+        const scoreEl = document.createElement('span');
+        const n = catCorrect[c];
+        scoreEl.className = 'levelcheck-cat-score' + (n <= 1 ? ' weak' : (n === 4 ? ' strong' : ''));
+        scoreEl.textContent = n + '/4';
+        row.appendChild(name);
+        row.appendChild(scoreEl);
+        catDiv.appendChild(row);
+        if (n <= 1) weakest.push(CAT_LABELS[c]);
+      });
+
+      const note = document.getElementById(`${uid}-weakestNote`);
+      if (weakest.length > 0) {
+        note.style.display = '';
+        note.innerHTML = '<b>Weakest area' + (weakest.length > 1 ? 's' : '') + ':</b> ' + weakest.join(', ') + '. Worth going back to those activities before retaking this check.';
+      } else {
+        note.style.display = 'none';
+      }
+    }
+
+    restartBtn.addEventListener('click', startQuiz);
+    startQuiz();
+  }
+
+  if (document.getElementById('lc')) initLevelCheck();
+</script>
