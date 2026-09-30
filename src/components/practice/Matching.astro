@@ -141,17 +141,18 @@ const uid = 'mt';
       if (!selectedLeft) return;
 
       attempts++;
-      const isMatch = selectedLeft.id === item.id;
+      // Match by the right-hand text, so repeated categories (e.g. several "Past Simple" tiles) all accept a correct pick
+      const isMatch = selectedLeft.match === item.word;
 
       if (isMatch) {
-        const leftEl = leftCol.querySelector('[data-id="' + item.id + '"]');
+        const leftEl = leftCol.querySelector('[data-id="' + selectedLeft.id + '"]');
         leftEl.classList.remove('selected');
         leftEl.classList.add('matched');
         el.classList.add('matched');
         matchedCount++;
         selectedLeft = null;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> "' + item.id + '" → "' + item.word + '".';
+        feedback.innerHTML = '<b>Correct.</b> "' + selectedLeft.word + '" → "' + item.word + '".';
       } else {
         el.classList.add('wrongflash');
         feedback.className = 'practice-feedback show bad';

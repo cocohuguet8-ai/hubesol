@@ -639,15 +639,15 @@
         "use": "Timetable",
         "text": "The train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at six.",
         "choices": [
-          "leave",
           "leaves",
+          "leave",
           "is leaving",
           "leaving"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Missing -s: with 'the train' (it), add -s — 'leaves', not 'leave'.",
           "",
+          "Missing -s: with 'the train' (it), add -s — 'leaves', not 'leave'.",
           "Wrong tense: a timetable is a fixed schedule — present simple, not continuous.",
           "Not a full verb form on its own."
         ],
@@ -658,15 +658,15 @@
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> meat.",
         "choices": [
           "don't eat",
-          "doesn't eats",
           "doesn't eat",
+          "doesn't eats",
           "not eats"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: with 'he', use 'doesn't', not 'don't'.",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays base form, 'eat' not 'eats'.",
           "",
+          "Double marking: 'doesn't' already carries the -s — the main verb stays base form, 'eat' not 'eats'.",
           "'Not' alone can't form a negative — you need 'doesn't'."
         ],
         "explain": "Negative habit with 'he' — doesn't + base verb."
@@ -694,16 +694,16 @@
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV every evening.",
         "choices": [
           "watchs",
-          "watches",
+          "is watching",
           "watchies",
-          "is watching"
+          "watches"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
           "Spelling: verbs ending in -ch add -es, not just -s — 'watches', not 'watchs'.",
-          "",
+          "Wrong tense: 'every evening' is a routine — present simple, not continuous.",
           "Spelling: -ch takes -es, not -ies (that rule is for consonant + y).",
-          "Wrong tense: 'every evening' is a routine — present simple, not continuous."
+          ""
         ],
         "explain": "Verbs ending in -ch add -es: watch → watches."
       },
@@ -711,15 +711,15 @@
         "use": "Spelling",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> English every week.",
         "choices": [
-          "studys",
           "studies",
+          "studys",
           "studies's",
           "study"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Spelling: after a consonant, -y changes to -ies — 'studies', not 'studys'.",
           "",
+          "Spelling: after a consonant, -y changes to -ies — 'studies', not 'studys'.",
           "Not a real form.",
           "Missing the -ies ending needed for 'he'."
         ],
@@ -730,15 +730,15 @@
         "text": "The museum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on Mondays.",
         "choices": [
           "don't open",
-          "doesn't opens",
           "doesn't open",
+          "doesn't opens",
           "not opens"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'the museum' is 'it' — use 'doesn't', not 'don't'.",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays base form.",
           "",
+          "Double marking: 'doesn't' already carries the -s — the main verb stays base form.",
           "'Not' alone can't form a negative here."
         ],
         "explain": "Negative timetable fact — doesn't + base verb."
@@ -748,15 +748,15 @@
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner together on Sundays.",
         "choices": [
           "has",
-          "have",
           "are having",
+          "have",
           "haves"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: 'we' takes no -s — 'have', not 'has'.",
-          "",
           "Wrong tense: 'on Sundays' is a routine, not happening right now.",
+          "",
           "Not a real word — the irregular form is 'has', never 'haves'."
         ],
         "explain": "A routine with 'we' — base verb, no -s."
@@ -767,15 +767,15 @@
         "choices": [
           "brush",
           "is brushing",
-          "brushes",
-          "brush's"
+          "brush's",
+          "brushes"
         ],
-        "correct": 2,
+        "correct": 3,
         "wrongReasons": [
           "Missing -s: with 'he', add -s — 'brushes', not 'brush'.",
           "Wrong tense: 'twice a day' is a routine, not happening right now.",
-          "",
-          "Not a real form — never add an apostrophe to a verb ending."
+          "Not a real form — never add an apostrophe to a verb ending.",
+          ""
         ],
         "explain": "'Twice a day' — a routine, plus -s for 'he'."
       },
@@ -783,15 +783,15 @@
         "use": "Fact",
         "text": "The Earth <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> around the Sun.",
         "choices": [
-          "move",
           "moves",
+          "move",
           "is moving",
           "moving"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Missing -s: with 'the Earth' (it), add -s — 'moves', not 'move'.",
           "",
+          "Missing -s: with 'the Earth' (it), add -s — 'moves', not 'move'.",
           "Wrong tense: this is a permanent fact, not happening right now.",
           "Not a full verb form on its own."
         ],
@@ -802,15 +802,15 @@
         "text": "The plane <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at noon tomorrow.",
         "choices": [
           "is leaving",
-          "leave",
           "leaves",
+          "leave",
           "leaving"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Wrong tense: fixed schedules use the present simple, even for tomorrow.",
-          "Missing -s: with 'the plane' (it), add -s.",
           "",
+          "Missing -s: with 'the plane' (it), add -s.",
           "Not a full verb form on its own."
         ],
         "explain": "A scheduled departure, even 'tomorrow' — present simple."
@@ -839,15 +839,15 @@
         "choices": [
           "Is",
           "Does",
-          "Do",
-          "Are"
+          "Are",
+          "Do"
         ],
-        "correct": 2,
+        "correct": 3,
         "wrongReasons": [
           "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
           "Subject-verb agreement: 'your parents' is plural — use 'do', not 'does'.",
-          "",
-          "Wrong aux: 'are' pairs with the -ing form, not the present simple."
+          "Wrong aux: 'are' pairs with the -ing form, not the present simple.",
+          ""
         ],
         "explain": "Plural subject 'your parents' — 'do' + base verb."
       },
@@ -855,15 +855,15 @@
         "use": "Spelling",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to three languages.",
         "choices": [
-          "speakes",
           "speaks",
+          "speakes",
           "speachs",
           "speak"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Spelling: 'speak' just adds -s — 'speaks', not 'speakes' (no -e- needed).",
           "",
+          "Spelling: 'speak' just adds -s — 'speaks', not 'speakes' (no -e- needed).",
           "That's not how 'speak' is spelled at all.",
           "Missing -s: with 'he', add -s."
         ],
@@ -874,15 +874,15 @@
         "text": "Birds <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> south in winter.",
         "choices": [
           "flies",
-          "is flying",
           "fly",
+          "is flying",
           "flys"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'birds' is plural — no -s, 'fly' not 'flies'.",
-          "Wrong tense: this is a general pattern, not happening right now.",
           "",
+          "Wrong tense: this is a general pattern, not happening right now.",
           "Spelling: this isn't the 3rd-person form anyway — but even so, 'birds' needs no -s."
         ],
         "explain": "Plural subject 'birds' — base verb, no -s."
@@ -893,15 +893,15 @@
         "choices": [
           "Is",
           "Do",
-          "Are",
-          "Does"
+          "Does",
+          "Are"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
           "Subject-verb agreement: 'the shop' is 'it' — use 'does', not 'do'.",
-          "Wrong aux: 'are' pairs with the -ing form.",
-          ""
+          "",
+          "Wrong aux: 'are' pairs with the -ing form."
         ],
         "explain": "'The shop' (it) — 'does' + base verb."
       },
@@ -911,15 +911,15 @@
         "choices": [
           "goes",
           "am going",
-          "go",
-          "going"
+          "going",
+          "go"
         ],
-        "correct": 2,
+        "correct": 3,
         "wrongReasons": [
           "Subject-verb agreement: with 'I', don't add -s — 'go', not 'goes'.",
           "Wrong tense: fixed days signal a routine, not something happening now.",
-          "",
-          "Not a full verb form on its own."
+          "Not a full verb form on its own.",
+          ""
         ],
         "explain": "A routine with 'I' — base verb, no -s."
       }
