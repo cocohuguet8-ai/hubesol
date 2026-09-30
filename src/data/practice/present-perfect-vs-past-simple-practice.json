@@ -1015,20 +1015,26 @@
       {
         "tokens": [
           "When",
-          "have you arrived?"
+          "have you arrived",
+          "at",
+          "the",
+          "station?"
         ],
         "errorIndex": 1,
-        "correction": "did you arrive?",
+        "correction": "did you arrive",
         "type": "Wrong tense",
         "message": "'When' asks for a specific time — it takes the past simple, not the present perfect."
       },
       {
         "tokens": [
           "When",
-          "has she left?"
+          "has she left",
+          "the",
+          "office",
+          "today?"
         ],
         "errorIndex": 1,
-        "correction": "did she leave?",
+        "correction": "did she leave",
         "type": "Wrong tense",
         "message": "'When' asks for a specific time — it takes the past simple, not the present perfect."
       },
@@ -1093,6 +1099,8 @@
       {
         "tokens": [
           "Did you finish",
+          "your",
+          "homework",
           "yet?"
         ],
         "errorIndex": 0,
@@ -1479,10 +1487,12 @@
         "use": "Wrong tense",
         "tokens": [
           "When",
-          "have you arrived?"
+          "have you arrived",
+          "in",
+          "London?"
         ],
         "errorIndex": 1,
-        "correction": "did you arrive?",
+        "correction": "did you arrive",
         "message": "'When' asks for a specific time — it takes the past simple."
       },
       {
