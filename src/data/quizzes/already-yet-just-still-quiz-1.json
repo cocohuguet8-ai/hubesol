@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "Have you finished your homework ___ ?",
-      "options": ["yet", "already", "just", "still"],
-      "answer": 0,
+      "options": ["already", "yet", "just", "still"],
+      "answer": 1,
       "explanations": [
-        "Correct! Questions use 'yet' at the end: 'finished yet?'",
         "'Already' is for positive statements.",
+        "Correct! Questions use 'yet' at the end: 'finished yet?'",
         "'Just' means a moment ago (positive).",
         "'Still' goes before the verb, not at the end."
       ]
@@ -27,34 +27,34 @@
     },
     {
       "question": "The film has ___ started — we're two minutes late.",
-      "options": ["just", "yet", "still", "already yet"],
-      "answer": 0,
+      "options": ["already yet", "yet", "still", "just"],
+      "answer": 3,
       "explanations": [
-        "Correct! A very short time ago takes 'just': 'has just started'.",
+        "'Already yet' is not correct.",
         "'Yet' is for negatives and questions.",
         "'Still' means it continues, not 'a moment ago'.",
-        "'Already yet' is not correct."
+        "Correct! A very short time ago takes 'just': 'has just started'."
       ]
     },
     {
       "question": "It's midday and she ___ hasn't got up.",
-      "options": ["still", "yet", "just", "already"],
-      "answer": 0,
+      "options": ["just", "yet", "still", "already"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Still' before 'hasn't' stresses it continues: 'she still hasn't got up'.",
-        "'Yet' goes at the end, not before 'hasn't'.",
         "'Just' means a moment ago.",
+        "'Yet' goes at the end, not before 'hasn't'.",
+        "Correct! 'Still' before 'hasn't' stresses it continues: 'she still hasn't got up'.",
         "'Already' is for positives."
       ]
     },
     {
       "question": "Where does 'yet' go? 'I haven't seen ___ .'",
-      "options": ["it yet", "yet it", "already it", "just it"],
-      "answer": 0,
+      "options": ["already it", "yet it", "it yet", "just it"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Yet' goes at the end: 'I haven't seen it yet'.",
-        "'Yet it' is the wrong order.",
         "'Already' is for positives.",
+        "'Yet it' is the wrong order.",
+        "Correct! 'Yet' goes at the end: 'I haven't seen it yet'.",
         "'Just' means a moment ago."
       ]
     },
@@ -71,51 +71,81 @@
     },
     {
       "question": "Are we there ___ ?",
-      "options": ["yet", "already", "just", "still"],
-      "answer": 0,
+      "options": ["already", "yet", "just", "still"],
+      "answer": 1,
       "explanations": [
-        "Correct! A question takes 'yet' at the end: 'Are we there yet?'",
         "'Already' is for positive surprise, not this question.",
+        "Correct! A question takes 'yet' at the end: 'Are we there yet?'",
         "'Just' means a moment ago.",
         "'Still' would go before the verb."
       ]
     },
     {
       "question": "He started an hour ago and he's ___ working.",
-      "options": ["still", "yet", "already not", "just not"],
-      "answer": 0,
+      "options": ["just not", "yet", "already not", "still"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Still working' = the action continues.",
+        "'Just not' is not correct here.",
         "'Yet' is for negatives and questions.",
         "'Already not' is not correct.",
-        "'Just not' is not correct here."
+        "Correct! 'Still working' = the action continues."
       ]
     },
     {
-      "question": "Correct this: 'I've finished yet my report.'",
+      "question": "Choose the correct version of: 'I've finished yet my report.'",
       "options": [
-        "I've already finished my report.",
-        "I've yet finished my report.",
         "I've finished my report yet.",
+        "I've yet finished my report.",
+        "I've already finished my report.",
         "I've still finished my report."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! A positive takes 'already' mid-sentence: 'already finished'.",
-        "'Yet' isn't used in positive statements.",
         "Ending with 'yet' here is still a positive, where 'yet' doesn't fit.",
+        "'Yet' isn't used in positive statements.",
+        "Correct! A positive takes 'already' mid-sentence: 'already finished'.",
         "'Still finished' doesn't make sense."
       ]
     },
     {
       "question": "Which adverb is used in NEGATIVES and QUESTIONS at the end?",
-      "options": ["yet", "already", "just", "still"],
-      "answer": 0,
+      "options": ["still", "already", "just", "yet"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Yet' is for negatives/questions, at the end.",
+        "'Still' goes before the verb.",
         "'Already' is for positive statements.",
         "'Just' is for positives, mid-sentence.",
-        "'Still' goes before the verb."
+        "Correct! 'Yet' is for negatives/questions, at the end."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Have you finished your homework ___? (up to now)",
+      "hint": "Type one word.",
+      "answers": ["yet"],
+      "explanation": "'Yet' goes at the end of questions and negatives.",
+      "common": [
+        {"answer": "already", "why": "'Already' is for positive sentences, usually before the main verb."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I haven't still finished the report.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I still haven't finished the report"],
+      "explanation": "'Still' goes before the negative auxiliary."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Don't worry, I've ___ called her. (a moment ago)",
+      "hint": "Type one word.",
+      "answers": ["just"],
+      "explanation": "'Just' = a very short time ago.",
+      "common": [
+        {"answer": "yet", "why": "'Yet' is not used in positive sentences."}
       ]
     }
   ]

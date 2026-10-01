@@ -5,99 +5,99 @@
   "items": [
     {
       "question": "It's very likely: If I ___ time tonight, I'll call you.",
-      "options": ["have", "had", "will have", "would have"],
-      "answer": 0,
+      "options": ["had", "have", "will have", "would have"],
+      "answer": 1,
       "explanations": [
-        "Correct! A likely future takes the first conditional: 'If I have time'.",
         "'Had' is the second conditional, for imaginary situations.",
+        "Correct! A likely future takes the first conditional: 'If I have time'.",
         "The if-clause never uses 'will'.",
         "'Would have' belongs to the third conditional."
       ]
     },
     {
       "question": "It's just a dream: If I ___ a castle, I'd invite everyone.",
-      "options": ["own", "owned", "will own", "have owned"],
-      "answer": 1,
+      "options": ["owned", "own", "will own", "have owned"],
+      "answer": 0,
       "explanations": [
-        "'Own' (present) is the first conditional, for likely situations.",
         "Correct! An imaginary situation takes the second conditional: 'If I owned a castle'.",
+        "'Own' (present) is the first conditional, for likely situations.",
         "The if-clause never uses 'will'.",
         "'Have owned' is present perfect, which doesn't fit here."
       ]
     },
     {
       "question": "If it rains tomorrow, we ___ the match.",
-      "options": ["cancel", "will cancel", "would cancel", "cancelled"],
-      "answer": 1,
+      "options": ["cancel", "would cancel", "will cancel", "cancelled"],
+      "answer": 2,
       "explanations": [
         "'Cancel' (present) is for the if-clause, not the result.",
-        "Correct! A real future result uses 'will': 'we'll cancel the match'.",
         "'Would cancel' is the second conditional, for imaginary situations.",
+        "Correct! A real future result uses 'will': 'we'll cancel the match'.",
         "'Cancelled' is past simple, used in the second conditional's if-clause."
       ]
     },
     {
       "question": "If I ___ you, I'd take the job.",
-      "options": ["am", "were", "will be", "had been"],
-      "answer": 1,
+      "options": ["am", "had been", "will be", "were"],
+      "answer": 3,
       "explanations": [
         "'Am' is present simple, but this is imaginary advice.",
-        "Correct! Advice uses the second conditional: 'If I were you'.",
+        "'Had been' is the third conditional, about the past.",
         "The if-clause never uses 'will'.",
-        "'Had been' is the third conditional, about the past."
+        "Correct! Advice uses the second conditional: 'If I were you'."
       ]
     },
     {
       "question": "Which is a real, likely plan?",
       "options": [
-        "If I had a day off, I'd sleep all day.",
         "If I have a day off next week, I'll visit my parents.",
+        "If I had a day off, I'd sleep all day.",
         "If I were free, I'd help you.",
         "If I won, I'd share the money."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "This is the second conditional — imaginary.",
         "Correct! First conditional = a real, likely plan: 'If I have a day off, I'll visit my parents'.",
+        "This is the second conditional — imaginary.",
         "This is the second conditional — imaginary.",
         "This is the second conditional — imaginary/unlikely."
       ]
     },
     {
       "question": "If she studies hard, she ___ the exam.",
-      "options": ["passes", "will pass", "would pass", "passed"],
-      "answer": 1,
+      "options": ["passes", "passed", "would pass", "will pass"],
+      "answer": 3,
       "explanations": [
         "'Passes' (present) is for the if-clause, not the result.",
-        "Correct! A likely result uses 'will': 'she'll pass the exam'.",
+        "'Passed' is past simple, used in the second conditional.",
         "'Would pass' is the second conditional, for imaginary situations.",
-        "'Passed' is past simple, used in the second conditional."
+        "Correct! A likely result uses 'will': 'she'll pass the exam'."
       ]
     },
     {
-      "question": "Correct this: 'If I had time now, I'll help you.'",
+      "question": "Choose the correct version of: 'If I had time now, I'll help you.'",
       "options": [
-        "If I had time now, I'd help you.",
         "If I have time now, I'd help you.",
+        "If I had time now, I'd help you.",
         "If I had time now, I helped you.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'Had' signals imaginary, so the result needs 'would': 'If I had time now, I'd help you'.",
         "This mixes present + would; keep the tenses matched.",
+        "Correct! 'Had' signals imaginary, so the result needs 'would': 'If I had time now, I'd help you'.",
         "'I helped you' is past simple, not the imagined result.",
         "It mixes a second-conditional if-clause with a first-conditional result."
       ]
     },
     {
       "question": "If you ___ me tomorrow, I'll send the file.",
-      "options": ["email", "emailed", "will email", "would email"],
-      "answer": 0,
+      "options": ["will email", "emailed", "email", "would email"],
+      "answer": 2,
       "explanations": [
-        "Correct! A likely future takes the present simple: 'If you email me tomorrow'.",
-        "'Emailed' is the second conditional, for imaginary situations.",
         "The if-clause never uses 'will'.",
+        "'Emailed' is the second conditional, for imaginary situations.",
+        "Correct! A likely future takes the present simple: 'If you email me tomorrow'.",
         "The if-clause never uses 'would'."
       ]
     },
@@ -113,19 +113,49 @@
       ]
     },
     {
-      "question": "Rewrite as imaginary: 'If I have money, I'll travel.' →",
+      "question": "Choose the imaginary (unreal) version of: 'If I have money, I'll travel.'",
       "options": [
-        "If I had money, I'd travel.",
-        "If I have money, I'd travel.",
         "If I had money, I'll travel.",
+        "If I have money, I'd travel.",
+        "If I had money, I'd travel.",
         "If I would have money, I'd travel."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! The imaginary version is the second conditional: 'If I had money, I'd travel'.",
-        "This mixes present + would; both halves must match.",
         "This mixes past + will; both halves must match.",
+        "This mixes present + would; both halves must match.",
+        "Correct! The imaginary version is the second conditional: 'If I had money, I'd travel'.",
         "The if-clause never uses 'would have'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If I ___ a million euros, I would buy a castle. (win)",
+      "hint": "It's just a dream. Use the past simple.",
+      "answers": ["won"],
+      "explanation": "An imaginary situation: if + past simple, would + verb.",
+      "common": [
+        {"answer": "win", "why": "For an imaginary situation we use the past simple in the if-clause: won."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If I had time tonight, I'll help you. (You think you will have time.)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["If I have time tonight, I'll help you", "If I have time tonight, I will help you"],
+      "explanation": "A likely situation needs the first conditional: if + present simple, will."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If I ___ you, I'd apologise.",
+      "hint": "Type one word.",
+      "answers": ["were"],
+      "explanation": "In the second conditional we use 'were' for all subjects.",
+      "common": [
+        {"answer": "was", "why": "In standard English we say 'If I were you'."}
       ]
     }
   ]

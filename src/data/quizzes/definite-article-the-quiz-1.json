@@ -5,24 +5,24 @@
   "items": [
     {
       "question": "___ earth goes around ___ sun.",
-      "options": ["The / the", "A / a", "— / —", "The / a"],
-      "answer": 0,
+      "options": ["— / —", "A / a", "The / the", "The / a"],
+      "answer": 2,
       "explanations": [
-        "Correct! Unique things take 'the': 'The earth goes around the sun'.",
-        "'A/a' is for non-specific, non-unique things.",
         "Unique things need 'the', not zero article.",
+        "'A/a' is for non-specific, non-unique things.",
+        "Correct! Unique things take 'the': 'The earth goes around the sun'.",
         "The sun is unique, so it takes 'the', not 'a'."
       ]
     },
     {
       "question": "I bought a jacket. ___ jacket was too small.",
-      "options": ["The", "A", "An", "—"],
-      "answer": 0,
+      "options": ["—", "A", "An", "The"],
+      "answer": 3,
       "explanations": [
-        "Correct! Second mention takes 'the': 'The jacket was too small'.",
+        "The jacket is now known, so it needs 'the'.",
         "'A jacket' would introduce a new one.",
         "'An' is for a vowel sound and would mean a new one.",
-        "The jacket is now known, so it needs 'the'."
+        "Correct! Second mention takes 'the': 'The jacket was too small'."
       ]
     },
     {
@@ -38,94 +38,124 @@
     },
     {
       "question": "She's ___ best student in the class.",
-      "options": ["the", "a", "an", "—"],
-      "answer": 0,
+      "options": ["a", "the", "an", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! Superlatives take 'the': 'the best student'.",
         "Superlatives don't take 'a'.",
+        "Correct! Superlatives take 'the': 'the best student'.",
         "Superlatives don't take 'an'.",
         "A superlative needs 'the'."
       ]
     },
     {
       "question": "They sailed down ___ Nile.",
-      "options": ["the", "a", "—", "an"],
-      "answer": 0,
+      "options": ["a", "the", "—", "an"],
+      "answer": 1,
       "explanations": [
-        "Correct! Rivers take 'the': 'the Nile'.",
         "Rivers don't take 'a'.",
+        "Correct! Rivers take 'the': 'the Nile'.",
         "Rivers take 'the', not zero article.",
         "Rivers don't take 'an'."
       ]
     },
     {
       "question": "My brother lives in ___ United States.",
-      "options": ["the", "a", "—", "an"],
-      "answer": 0,
+      "options": ["an", "a", "—", "the"],
+      "answer": 3,
       "explanations": [
-        "Correct! Plural/'united' country names take 'the': 'the United States'.",
+        "Countries don't take 'an'.",
         "Countries don't take 'a'.",
         "This name takes 'the', unlike France or Japan.",
-        "Countries don't take 'an'."
+        "Correct! Plural/'united' country names take 'the': 'the United States'."
       ]
     },
     {
       "question": "Which sentence is correct?",
       "options": [
-        "The dogs are loyal animals in general.",
         "Dogs are loyal animals.",
+        "The dogs are loyal animals in general.",
         "A dogs are loyal animals.",
         "The dog are loyal animals."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "For animals in general, don't use 'the'.",
         "Correct! General statements about a whole group take no article: 'Dogs are loyal'.",
+        "For animals in general, don't use 'the'.",
         "'A' can't go with a plural noun.",
         "'The dog are' mixes singular and plural."
       ]
     },
     {
       "question": "It was ___ first time I had seen snow.",
-      "options": ["the", "a", "an", "—"],
-      "answer": 0,
+      "options": ["an", "a", "the", "—"],
+      "answer": 2,
       "explanations": [
-        "Correct! Ordinals take 'the': 'the first time'.",
-        "Ordinals don't take 'a' here.",
         "Ordinals don't take 'an'.",
+        "Ordinals don't take 'a' here.",
+        "Correct! Ordinals take 'the': 'the first time'.",
         "'First' needs 'the'."
       ]
     },
     {
-      "question": "Correct this: 'Sun rises in the east.'",
+      "question": "Choose the correct version of: 'Sun rises in the east.'",
       "options": [
-        "The sun rises in the east.",
-        "A sun rises in the east.",
         "Sun rises in an east.",
+        "A sun rises in the east.",
+        "The sun rises in the east.",
         "The sun rises in a east."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! Unique things take 'the': 'The sun rises in the east'.",
-        "The sun is unique, so it takes 'the', not 'a'.",
         "'The east' is a specific direction; 'an east' is wrong.",
+        "The sun is unique, so it takes 'the', not 'a'.",
+        "Correct! Unique things take 'the': 'The sun rises in the east'.",
         "'A east' is wrong — use 'the east'."
       ]
     },
     {
       "question": "When do you use 'the'?",
       "options": [
-        "When the listener knows exactly which one you mean.",
         "When the noun is one of many.",
+        "When the listener knows exactly which one you mean.",
         "When talking about a group in general.",
         "When the noun is a job title."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'The' signals a specific, known noun.",
         "One of many usually takes a/an.",
+        "Correct! 'The' signals a specific, known noun.",
         "General statements often take no article.",
         "Jobs take a/an: 'She's a nurse'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "___ Nile is the longest river in Africa.",
+      "hint": "Type a, an or the.",
+      "answers": ["The"],
+      "explanation": "Rivers take 'the': the Nile.",
+      "common": [
+        {"answer": "a", "why": "Names of rivers take 'the', not 'a'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Sun is a star.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["The sun is a star"],
+      "explanation": "There is only one sun we all know, so 'the sun'."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "Nobody in the class is better than her. → She is ___ best student in the class.",
+      "hint": "Type a, an or the.",
+      "answers": ["the"],
+      "explanation": "Superlatives take 'the': the best.",
+      "common": [
+        {"answer": "a", "why": "With superlatives (best, worst, tallest) we use 'the'."}
       ]
     }
   ]

@@ -5,35 +5,35 @@
   "items": [
     {
       "question": "When I got to the station, the train ___.",
-      "options": ["left", "had left", "was leaving", "leaves"],
-      "answer": 1,
+      "options": ["left", "was leaving", "had left", "leaves"],
+      "answer": 2,
       "explanations": [
         "'Left' suggests it left as you arrived, but here it had gone before.",
-        "Correct! The earlier action (leaving first) takes the past perfect: 'had left'.",
         "'Was leaving' means it was in the middle of leaving as you arrived — a different meaning.",
+        "Correct! The earlier action (leaving first) takes the past perfect: 'had left'.",
         "'Leaves' is present simple, but this happened in the past."
       ]
     },
     {
       "question": "She ___ the door and ___ in.",
-      "options": ["had opened / had gone", "opened / went", "was opening / went", "opens / goes"],
-      "answer": 1,
+      "options": ["opened / went", "had opened / had gone", "was opening / went", "opens / goes"],
+      "answer": 0,
       "explanations": [
-        "This is a simple sequence, so the past perfect is unnecessary.",
         "Correct! A simple sequence of events takes the past simple: 'opened / went'.",
+        "This is a simple sequence, so the past perfect is unnecessary.",
         "'Was opening' describes an action in progress, not a completed step.",
         "'Opens / goes' are present forms, but this happened in the past."
       ]
     },
     {
       "question": "He was hungry because he ___ breakfast.",
-      "options": ["didn't eat", "hadn't eaten", "wasn't eating", "doesn't eat"],
-      "answer": 1,
+      "options": ["didn't eat", "doesn't eat", "wasn't eating", "hadn't eaten"],
+      "answer": 3,
       "explanations": [
         "'Didn't eat' is possible, but the past perfect makes clear the not-eating came before he was hungry.",
-        "Correct! The earlier reason takes the past perfect: 'hadn't eaten'.",
+        "'Doesn't eat' is present simple, but this was in the past.",
         "'Wasn't eating' describes an action in progress, not a completed earlier action.",
-        "'Doesn't eat' is present simple, but this was in the past."
+        "Correct! The earlier reason takes the past perfect: 'hadn't eaten'."
       ]
     },
     {
@@ -60,63 +60,90 @@
     },
     {
       "question": "They had ___ dinner before we arrived.",
-      "options": ["ate", "eaten", "eated", "eating"],
-      "answer": 1,
+      "options": ["eaten", "ate", "eated", "eating"],
+      "answer": 0,
       "explanations": [
-        "'Ate' is the past simple; after 'had' you need the past participle 'eaten'.",
         "Correct! After 'had' use the participle: 'eaten' (eat → ate → eaten).",
+        "'Ate' is the past simple; after 'had' you need the past participle 'eaten'.",
         "'Eated' isn't a word — 'eat' is irregular.",
         "'Eating' is the -ing form, not the participle needed after 'had'."
       ]
     },
     {
       "question": "'When I called, she had gone out' means she went out ___.",
-      "options": ["after my call", "before my call", "during my call", "because of my call"],
-      "answer": 1,
+      "options": ["after my call", "during my call", "before my call", "because of my call"],
+      "answer": 2,
       "explanations": [
         "The past perfect ('had gone') shows the earlier action, so it was before the call.",
-        "Correct! 'Had gone out' happened before the call.",
         "If she went out during the call, we'd use the past continuous ('was going out').",
+        "Correct! 'Had gone out' happened before the call.",
         "The sentence gives the order, not the reason."
       ]
     },
     {
       "question": "I recognised him at once — we ___ once before.",
-      "options": ["met", "had met", "meet", "were meeting"],
-      "answer": 1,
+      "options": ["met", "were meeting", "meet", "had met"],
+      "answer": 3,
       "explanations": [
         "'Met' loses the sense that the meeting happened earlier than the recognising.",
-        "Correct! An action earlier than another past action takes the past perfect: 'had met'.",
+        "'Were meeting' describes an action in progress, not a completed earlier action.",
         "'Meet' is present simple, but this happened in the past.",
-        "'Were meeting' describes an action in progress, not a completed earlier action."
+        "Correct! An action earlier than another past action takes the past perfect: 'had met'."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'They finished the project. Then the boss arrived.'",
+      "question": "Choose the sentence with the same meaning as: 'They finished the project. Then the boss arrived.'",
       "options": [
-        "When the boss arrived, they had finished the project.",
         "When the boss arrived, they finished the project.",
+        "When the boss arrived, they had finished the project.",
         "The boss arrived before they finished.",
         "They finished after the boss arrived."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! The finishing came first, so it's the past perfect: 'had finished'.",
         "'They finished' as the boss arrived suggests they finished at that moment, not before.",
+        "Correct! The finishing came first, so it's the past perfect: 'had finished'.",
         "'Before they finished' reverses the order — they finished first.",
         "'After the boss arrived' also reverses the order."
       ]
     },
     {
       "question": "First I ___ up, then I ___ to work.",
-      "options": ["had got / had gone", "got / went", "was getting / went", "get / go"],
-      "answer": 1,
+      "options": ["got / went", "had got / had gone", "was getting / went", "get / go"],
+      "answer": 0,
       "explanations": [
-        "This is a simple sequence, so the past perfect is unnecessary.",
         "Correct! A simple sequence takes the past simple: 'got / went'.",
+        "This is a simple sequence, so the past perfect is unnecessary.",
         "'Was getting' describes an action in progress, not a completed step.",
         "'Get / go' are present forms, but this happened in the past."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "By the time we arrived, the film ___. (start)",
+      "hint": "Type two words.",
+      "answers": ["had started"],
+      "explanation": "The earlier action: past perfect.",
+      "common": [
+        {"answer": "started", "why": "It started before we arrived: had started."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She had opened the door and had walked in.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She opened the door and walked in"],
+      "explanation": "A simple sequence uses the past simple."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "They had ate before we arrived.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["They had eaten before we arrived"],
+      "explanation": "Participle of 'eat' is 'eaten'."
     }
   ]
 }

@@ -16,45 +16,45 @@
     },
     {
       "question": "We ran to the platform and got there just ___ to catch it.",
-      "options": ["in time", "on time", "at time", "by time"],
-      "answer": 0,
+      "options": ["by time", "on time", "at time", "in time"],
+      "answer": 3,
       "explanations": [
-        "Correct! Early enough, not too late = 'in time'.",
+        "'By time' is not correct.",
         "'On time' means punctual, not 'just before it was too late'.",
         "'At time' is not correct.",
-        "'By time' is not correct."
+        "Correct! Early enough, not too late = 'in time'."
       ]
     },
     {
       "question": "Please be ___ for the meeting; it starts at ten sharp.",
-      "options": ["on time", "in time", "at time", "in the time"],
-      "answer": 0,
+      "options": ["in time", "on time", "at time", "in the time"],
+      "answer": 1,
       "explanations": [
-        "Correct! Punctual = 'on time'.",
         "'In time' means early enough, a slightly different idea.",
+        "Correct! Punctual = 'on time'.",
         "'At time' is not correct.",
         "'In the time' is not correct."
       ]
     },
     {
       "question": "There's a big surprise ___ of the film.",
-      "options": ["at the end", "in the end", "at end", "on the end"],
-      "answer": 0,
+      "options": ["at end", "in the end", "at the end", "on the end"],
+      "answer": 2,
       "explanations": [
-        "Correct! The finishing point takes 'at the end of'.",
-        "'In the end' means 'finally', not a place in the film.",
         "'At end' is missing 'the'.",
+        "'In the end' means 'finally', not a place in the film.",
+        "Correct! The finishing point takes 'at the end of'.",
         "'On the end' is not correct."
       ]
     },
     {
       "question": "We looked at many houses and ___ we bought the first one.",
-      "options": ["in the end", "at the end", "on the end", "at end"],
-      "answer": 0,
+      "options": ["on the end", "at the end", "in the end", "at end"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Finally' = 'in the end'.",
-        "'At the end' points to a finishing point, not 'finally'.",
         "'On the end' is not correct.",
+        "'At the end' points to a finishing point, not 'finally'.",
+        "Correct! 'Finally' = 'in the end'.",
         "'At end' is missing 'the'."
       ]
     },
@@ -71,40 +71,40 @@
     },
     {
       "question": "The bus is never ___ ; it's always five minutes late.",
-      "options": ["on time", "in time", "at time", "in the time"],
-      "answer": 0,
+      "options": ["in time", "on time", "at time", "in the time"],
+      "answer": 1,
       "explanations": [
-        "Correct! Punctual = 'on time'.",
         "'In time' means early enough, a different idea.",
+        "Correct! Punctual = 'on time'.",
         "'At time' is not correct.",
         "'In the time' is not correct."
       ]
     },
     {
       "question": "___ of the street, turn left.",
-      "options": ["At the end", "In the end", "On the end", "At end"],
-      "answer": 0,
+      "options": ["At end", "In the end", "On the end", "At the end"],
+      "answer": 3,
       "explanations": [
-        "Correct! A place/finishing point takes 'At the end of'.",
+        "'At end' is missing 'the'.",
         "'In the end' means finally.",
         "'On the end' is not correct.",
-        "'At end' is missing 'the'."
+        "Correct! A place/finishing point takes 'At the end of'."
       ]
     },
     {
-      "question": "Correct this: 'We got to the airport on time to catch the last flight.'",
+      "question": "Choose the correct version of: 'We got to the airport on time to catch the last flight.'",
       "options": [
-        "We got to the airport in time to catch the last flight.",
+        "The sentence is already correct.",
         "We got to the airport on time to catch the last flight.",
         "We got to the airport at time to catch the last flight.",
-        "The sentence is already correct."
+        "We got to the airport in time to catch the last flight."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'Early enough' = 'in time to catch it'.",
+        "The original uses 'on time' where 'in time' is needed.",
         "'On time' means punctual to a schedule, not this meaning.",
         "'At time' is not correct.",
-        "The original uses 'on time' where 'in time' is needed."
+        "Correct! 'Early enough' = 'in time to catch it'."
       ]
     },
     {
@@ -121,6 +121,36 @@
         "That's 'on time' (punctual).",
         "That's 'in the end' (finally).",
         "That's 'at the end' (the finishing point)."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "The film started ___, exactly at eight.",
+      "hint": "Type on time or in time.",
+      "answers": ["on time"],
+      "explanation": "'On time' means punctual, at the scheduled time.",
+      "common": [
+        {"answer": "in time", "why": "'In time' means early enough. Here the film started exactly at the planned time, so 'on time'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "We arrived on time to catch the last bus.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["We arrived in time to catch the last bus"],
+      "explanation": "'In time' means early enough, before it is too late."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "After a long discussion, we finally decided to stay. → ___ the end, we decided to stay.",
+      "hint": "Type one word.",
+      "answers": ["In"],
+      "explanation": "'In the end' means finally.",
+      "common": [
+        {"answer": "at", "why": "'At the end' needs 'of'. For 'finally' we say 'in the end'."}
       ]
     }
   ]

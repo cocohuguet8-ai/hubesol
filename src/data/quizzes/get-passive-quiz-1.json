@@ -5,23 +5,23 @@
   "items": [
     {
       "question": "My phone ___ stolen on the train. (informal)",
-      "options": ["got", "was got", "gets", "getting"],
-      "answer": 0,
+      "options": ["getting", "was got", "gets", "got"],
+      "answer": 3,
       "explanations": [
-        "Correct! Get passive = 'got' + participle: 'got stolen'.",
+        "'Getting stolen' can't stand alone here.",
         "'Was got' mixes be and get.",
         "'Gets stolen' is present, not this past event.",
-        "'Getting stolen' can't stand alone here."
+        "Correct! Get passive = 'got' + participle: 'got stolen'."
       ]
     },
     {
       "question": "They ___ married last summer.",
-      "options": ["got", "were got", "get", "gotten"],
-      "answer": 0,
+      "options": ["get", "were got", "got", "gotten"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Get married' is a set phrase: 'got married'.",
-        "'Were got married' is wrong.",
         "'Get married' is present; 'last summer' needs the past.",
+        "'Were got married' is wrong.",
+        "Correct! 'Get married' is a set phrase: 'got married'.",
         "'Gotten married' isn't standard British usage here."
       ]
     },
@@ -38,35 +38,35 @@
     },
     {
       "question": "He ___ hurt playing rugby.",
-      "options": ["got", "was got", "getting", "gets"],
-      "answer": 0,
+      "options": ["was got", "got", "getting", "gets"],
+      "answer": 1,
       "explanations": [
-        "Correct! A sudden event: 'got hurt'.",
         "'Was got hurt' mixes be and get.",
+        "Correct! A sudden event: 'got hurt'.",
         "'Getting hurt' can't stand alone here.",
         "'Gets hurt' is present, not this past event."
       ]
     },
     {
       "question": "I didn't ___ invited to the party.",
-      "options": ["get", "got", "was", "been"],
-      "answer": 0,
+      "options": ["got", "get", "was", "been"],
+      "answer": 1,
       "explanations": [
-        "Correct! Negatives use 'didn't' + base 'get': 'didn't get invited'.",
         "After 'didn't', use 'get', not 'got'.",
+        "Correct! Negatives use 'didn't' + base 'get': 'didn't get invited'.",
         "'Didn't was' is not correct.",
         "'Didn't been' is not correct."
       ]
     },
     {
       "question": "Hurry up and ___ dressed!",
-      "options": ["get", "got", "be got", "getting"],
-      "answer": 0,
+      "options": ["getting", "got", "be got", "get"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Get dressed' is a set phrase (imperative 'get').",
+        "'Getting dressed' isn't an imperative here.",
         "'Got dressed' is past, not an order.",
         "'Be got dressed' is wrong.",
-        "'Getting dressed' isn't an imperative here."
+        "Correct! 'Get dressed' is a set phrase (imperative 'get')."
       ]
     },
     {
@@ -87,28 +87,28 @@
     },
     {
       "question": "Careful, or you'll ___ lost in the old town.",
-      "options": ["get", "be got", "got", "getting"],
-      "answer": 0,
+      "options": ["got", "be got", "get", "getting"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Get lost' is a set phrase: 'you'll get lost'.",
-        "'Be got lost' is wrong.",
         "After 'will', use the base 'get', not 'got'.",
+        "'Be got lost' is wrong.",
+        "Correct! 'Get lost' is a set phrase: 'you'll get lost'.",
         "'Getting lost' doesn't follow 'will'."
       ]
     },
     {
-      "question": "Correct this: 'He was got promoted last year.'",
+      "question": "Choose the correct version of: 'He was got promoted last year.'",
       "options": [
-        "He got promoted last year.",
-        "He was got promoted last year.",
         "He did got promoted last year.",
+        "He was got promoted last year.",
+        "He got promoted last year.",
         "He gets promoted last year."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! Get passive: 'He got promoted' (or 'was promoted').",
-        "'Was got promoted' mixes be and get.",
         "'Did got' is wrong — use 'got' or 'did get'.",
+        "'Was got promoted' mixes be and get.",
+        "Correct! Get passive: 'He got promoted' (or 'was promoted').",
         "'Gets' is present, not last year."
       ]
     },
@@ -127,6 +127,33 @@
         "Legal writing uses the be passive.",
         "It's used in statements, questions and negatives alike."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He ___ fired last month. (informal passive)",
+      "hint": "Use the get passive. Type one word.",
+      "answers": ["got"],
+      "explanation": "Get passive: got + past participle.",
+      "common": [
+        {"answer": "was", "why": "'Was fired' is the be passive. The informal get passive is 'got fired'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Was he get hurt?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Did he get hurt"],
+      "explanation": "'Get' needs 'do' in questions: Did he get hurt?"
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "It was got broken.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["It got broken", "It was broken"],
+      "explanation": "Don't mix be and get: 'got broken' or 'was broken'."
     }
   ]
 }

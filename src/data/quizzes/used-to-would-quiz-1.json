@@ -27,60 +27,60 @@
     },
     {
       "question": "I ___ like vegetables when I was young.",
-      "options": ["didn't used to", "didn't use to", "don't used to", "wasn't used to"],
-      "answer": 1,
+      "options": ["didn't used to", "wasn't used to", "don't used to", "didn't use to"],
+      "answer": 3,
       "explanations": [
         "After 'didn't' you drop the -d: 'use to', not 'used to'.",
-        "Correct! The negative is 'didn't use to like'.",
+        "'Wasn't used to' means 'wasn't accustomed to', a different meaning.",
         "'Don't' is present tense; this is about the past.",
-        "'Wasn't used to' means 'wasn't accustomed to', a different meaning."
+        "Correct! The negative is 'didn't use to like'."
       ]
     },
     {
       "question": "Every winter, we ___ go skiing in the Pyrenees.",
-      "options": ["would", "are used to", "use to", "would have"],
-      "answer": 0,
+      "options": ["use to", "are used to", "would", "would have"],
+      "answer": 2,
       "explanations": [
-        "Correct! A repeated past action (a story) can take 'would': 'we would go skiing'.",
-        "'Are used to' means 'accustomed to', a different meaning.",
         "'Use to' (no -d) is only for negatives and questions after 'did'.",
+        "'Are used to' means 'accustomed to', a different meaning.",
+        "Correct! A repeated past action (a story) can take 'would': 'we would go skiing'.",
         "'Would have' is a conditional form, not a past habit."
       ]
     },
     {
       "question": "___ you ___ live in Madrid?",
-      "options": ["Did / use to", "Did / used to", "Do / use to", "Are / used to"],
-      "answer": 0,
+      "options": ["Are / used to", "Did / used to", "Do / use to", "Did / use to"],
+      "answer": 3,
       "explanations": [
-        "Correct! Questions use 'Did + subject + use to': 'Did you use to live…?'.",
+        "'Are you used to' means 'accustomed to', a different meaning.",
         "After 'did' drop the -d: 'use to', not 'used to'.",
         "'Do you use to' is present; this is about the past.",
-        "'Are you used to' means 'accustomed to', a different meaning."
+        "Correct! Questions use 'Did + subject + use to': 'Did you use to live…?'."
       ]
     },
     {
       "question": "I ___ getting up early now — it feels normal.",
-      "options": ["used to", "am used to", "would", "use to"],
-      "answer": 1,
+      "options": ["used to", "would", "am used to", "use to"],
+      "answer": 2,
       "explanations": [
         "'Used to + base verb' is a finished past habit, but here you mean 'accustomed'.",
-        "Correct! 'Be used to + -ing' means accustomed: 'I am used to getting up early'.",
         "'Would' describes past actions, not being accustomed now.",
+        "Correct! 'Be used to + -ing' means accustomed: 'I am used to getting up early'.",
         "'Use to' isn't correct here; use 'am used to'."
       ]
     },
     {
-      "question": "Correct this: 'My grandmother would have a big garden.'",
+      "question": "Choose the correct version of: 'My grandmother would have a big garden.'",
       "options": [
-        "My grandmother used to have a big garden.",
         "My grandmother would has a big garden.",
+        "My grandmother used to have a big garden.",
         "My grandmother use to have a big garden.",
         "My grandmother is used to have a big garden."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'Have a garden' is a past state, so use 'used to have'.",
         "'Would has' is grammatically wrong.",
+        "Correct! 'Have a garden' is a past state, so use 'used to have'.",
         "'Use to' (no -d) is only for negatives/questions after 'did'.",
         "'Is used to have' mixes structures and changes the meaning."
       ]
@@ -97,31 +97,58 @@
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'In the past I played the piano, but not anymore.'",
+      "question": "Choose the sentence with the same meaning as: 'In the past I played the piano, but not anymore.'",
       "options": [
-        "I used to play the piano.",
         "I would have played the piano.",
+        "I used to play the piano.",
         "I am used to playing the piano.",
         "I use to play the piano."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! A finished past habit takes 'used to': 'I used to play the piano'.",
         "'Would have played' is conditional, not a past habit.",
+        "Correct! A finished past habit takes 'used to': 'I used to play the piano'.",
         "'Am used to playing' means accustomed now, not a finished past habit.",
         "'Use to' (no -d) is only for negatives/questions after 'did'."
       ]
     },
     {
       "question": "He ___ cycle to work, but now he drives.",
-      "options": ["used to", "is used to", "use to", "would have"],
-      "answer": 0,
+      "options": ["use to", "is used to", "used to", "would have"],
+      "answer": 2,
       "explanations": [
-        "Correct! A finished past habit takes 'used to': 'He used to cycle to work'.",
-        "'Is used to' means accustomed now, but he doesn't cycle any more.",
         "'Use to' (no -d) is only for negatives/questions after 'did'.",
+        "'Is used to' means accustomed now, but he doesn't cycle any more.",
+        "Correct! A finished past habit takes 'used to': 'He used to cycle to work'.",
         "'Would have' is a conditional form."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "There ___ a castle on that hill. (past state)",
+      "hint": "Type three words.",
+      "answers": ["used to be"],
+      "explanation": "A past state uses 'used to', not 'would'.",
+      "common": [
+        {"answer": "would be", "why": "'Would' can't be used for past states."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I would have long hair when I was a child.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I used to have long hair when I was a child"],
+      "explanation": "A past state needs 'used to'."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Did you used to live here?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Did you use to live here"],
+      "explanation": "After 'did', 'use to' has no -d."
     }
   ]
 }

@@ -5,24 +5,24 @@
   "items": [
     {
       "question": "___ you help me with this box, please? (polite request)",
-      "options": ["Could", "Shall", "Let's", "May"],
-      "answer": 0,
+      "options": ["Shall", "Could", "Let's", "May"],
+      "answer": 1,
       "explanations": [
-        "Correct! A polite request: 'Could you help me?'",
         "'Shall you' is not used for requests.",
+        "Correct! A polite request: 'Could you help me?'",
         "'Let's' makes a suggestion, not a request to someone.",
         "'May you' is not used for requests."
       ]
     },
     {
       "question": "___ I carry that bag for you? (offer)",
-      "options": ["Shall", "Would", "Let's", "Why don't"],
-      "answer": 0,
+      "options": ["Why don't", "Would", "Let's", "Shall"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Shall I…?' offers to do something.",
+        "'Why don't' needs 'we' and a base verb.",
         "'Would I…?' isn't used to offer.",
         "'Let's' suggests doing it together.",
-        "'Why don't' needs 'we' and a base verb."
+        "Correct! 'Shall I…?' offers to do something."
       ]
     },
     {
@@ -38,33 +38,33 @@
     },
     {
       "question": "___ meeting at seven instead? (suggestion)",
-      "options": ["How about", "Why don't", "Shall I", "Let's to"],
-      "answer": 0,
+      "options": ["Shall I", "Why don't", "How about", "Let's to"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'How about' + -ing: 'How about meeting at seven?'",
-        "'Why don't' needs 'we' + base verb.",
         "'Shall I' offers to do it alone.",
+        "'Why don't' needs 'we' + base verb.",
+        "Correct! 'How about' + -ing: 'How about meeting at seven?'",
         "'Let's to' is incorrect."
       ]
     },
     {
       "question": "___ we share a taxi? (suggestion)",
-      "options": ["Why don't", "Shall I", "How about", "Would you"],
-      "answer": 0,
+      "options": ["How about", "Shall I", "Why don't", "Would you"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Why don't we + base verb': 'Why don't we share a taxi?'",
-        "'Shall I' offers to do it alone.",
         "'How about' takes -ing, not 'we share'.",
+        "'Shall I' offers to do it alone.",
+        "Correct! 'Why don't we + base verb': 'Why don't we share a taxi?'",
         "'Would you' is a request to someone else."
       ]
     },
     {
       "question": "___ you mind opening the window? (very polite request)",
-      "options": ["Would", "Shall", "Let's", "Why don't"],
-      "answer": 0,
+      "options": ["Shall", "Would", "Let's", "Why don't"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Would you mind…?' is a very polite request.",
         "'Shall you' isn't used.",
+        "Correct! 'Would you mind…?' is a very polite request.",
         "'Let's' is a suggestion.",
         "'Why don't' is a suggestion."
       ]
@@ -81,29 +81,24 @@
       ]
     },
     {
-      "question": "Correct this: 'How about go to the cinema?'",
+      "question": "Choose the correct version of: 'How about go to the cinema?'",
       "options": [
-        "How about going to the cinema?",
+        "The sentence is already correct.",
         "How about to go to the cinema?",
         "How about we go the cinema?",
-        "The sentence is already correct."
+        "How about going to the cinema?"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'How about' + -ing: 'How about going…?'",
+        "'How about go' needs the -ing form.",
         "'How about to go' is wrong.",
         "'How about we go the cinema' is missing 'to'.",
-        "'How about go' needs the -ing form."
+        "Correct! 'How about' + -ing: 'How about going…?'"
       ]
     },
     {
-      "question": "Correct this: 'Let's to start now.'",
-      "options": [
-        "Let's start now.",
-        "Let's to start now.",
-        "Let's starting now.",
-        "Let us to start now."
-      ],
+      "question": "Choose the correct version of: 'Let's to start now.'",
+      "options": ["Let's start now.", "Let's to start now.", "Let's starting now.", "Let us to start now."],
       "answer": 0,
       "explanations": [
         "Correct! 'Let's' + base verb: 'Let's start now'.",
@@ -115,17 +110,47 @@
     {
       "question": "Which is an OFFER (you do it)?",
       "options": [
-        "Shall I get you a drink?",
-        "Could you get me a drink?",
         "Why don't we get drinks?",
+        "Could you get me a drink?",
+        "Shall I get you a drink?",
         "Let's get drinks."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! 'Shall I…?' offers that you do it.",
-        "'Could you…?' asks the other person (request).",
         "'Why don't we…?' suggests doing it together.",
+        "'Could you…?' asks the other person (request).",
+        "Correct! 'Shall I…?' offers that you do it.",
         "'Let's…' suggests doing it together."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "___ I carry your bag? (an offer)",
+      "hint": "Type one word.",
+      "answers": ["Shall", "Can"],
+      "explanation": "Offers: Shall I / Can I.",
+      "common": [
+        {"answer": "Shall we", "why": "An offer uses 'I', not 'we'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "How about go to the cinema?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["How about going to the cinema"],
+      "explanation": "'How about' is followed by -ing."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "___ we go for a walk? (a suggestion)",
+      "hint": "Type one word.",
+      "answers": ["Shall"],
+      "explanation": "Suggestions together: Shall we…?",
+      "common": [
+        {"answer": "Can", "why": "For a suggestion together we use 'Shall we'."}
       ]
     }
   ]

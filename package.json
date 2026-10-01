@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/validate-practice.mjs && astro build",
+    "build": "npm run validate && astro build",
     "preview": "astro preview",
-    "validate": "node scripts/validate-practice.mjs"
+    "validate": "node scripts/validate-practice.mjs && node scripts/validate-quizzes.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",

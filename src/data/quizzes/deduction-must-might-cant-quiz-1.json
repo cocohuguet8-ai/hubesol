@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "The lights are on and I can hear music. Someone ___ be home.",
-      "options": ["must", "can't", "mustn't", "should"],
-      "answer": 0,
+      "options": ["can't", "must", "mustn't", "should"],
+      "answer": 1,
       "explanations": [
-        "Correct! Strong evidence = 'must be home'.",
         "'Can't be home' contradicts the evidence.",
+        "Correct! Strong evidence = 'must be home'.",
         "'Mustn't' is a prohibition, not a deduction.",
         "'Should be home' is weaker than the evidence suggests."
       ]
@@ -27,34 +27,34 @@
     },
     {
       "question": "That ___ be Sara — she's abroad this week.",
-      "options": ["can't", "must", "might", "mustn't"],
-      "answer": 0,
+      "options": ["might", "must", "can't", "mustn't"],
+      "answer": 2,
       "explanations": [
-        "Correct! It's impossible, so 'can't be Sara'.",
-        "'Must be' contradicts the evidence.",
         "'Might be' is too uncertain given the evidence.",
+        "'Must be' contradicts the evidence.",
+        "Correct! It's impossible, so 'can't be Sara'.",
         "'Mustn't' is a prohibition, not a deduction."
       ]
     },
     {
       "question": "She's been working all night. She ___ be exhausted.",
-      "options": ["must", "can't", "mustn't", "may not"],
-      "answer": 0,
+      "options": ["may not", "can't", "mustn't", "must"],
+      "answer": 3,
       "explanations": [
-        "Correct! You're almost sure, so 'must be exhausted'.",
+        "'May not be' is too uncertain here.",
         "'Can't be' contradicts the evidence.",
         "'Mustn't' is a prohibition.",
-        "'May not be' is too uncertain here."
+        "Correct! You're almost sure, so 'must be exhausted'."
       ]
     },
     {
       "question": "I'm not certain, but the keys ___ be in the car.",
-      "options": ["could", "must", "can't", "mustn't"],
-      "answer": 0,
+      "options": ["can't", "must", "could", "mustn't"],
+      "answer": 2,
       "explanations": [
-        "Correct! A possibility takes 'could be'.",
-        "'Must be' sounds too certain.",
         "'Can't be' means it's impossible.",
+        "'Must be' sounds too certain.",
+        "Correct! A possibility takes 'could be'.",
         "'Mustn't' is a prohibition."
       ]
     },
@@ -71,56 +71,86 @@
     },
     {
       "question": "Choose the correct form: 'She ___ tired.'",
-      "options": ["must be", "must to be", "must being", "must been"],
-      "answer": 0,
+      "options": ["must to be", "must be", "must being", "must been"],
+      "answer": 1,
       "explanations": [
-        "Correct! Modal + be: 'must be tired'.",
         "'Must to be' wrongly adds 'to'.",
+        "Correct! Modal + be: 'must be tired'.",
         "'Must being' uses the wrong form.",
         "'Must been' is missing 'have' and wrong here."
       ]
     },
     {
       "question": "Which modal means you're almost sure something is FALSE?",
-      "options": ["can't", "must", "might", "could"],
-      "answer": 0,
+      "options": ["could", "must", "might", "can't"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Can't' = almost certain it's false.",
+        "'Could' = it's possible.",
         "'Must' = almost certain it's true.",
         "'Might' = it's possible.",
-        "'Could' = it's possible."
+        "Correct! 'Can't' = almost certain it's false."
       ]
     },
     {
-      "question": "Correct this: 'That mustn't be the right answer.'",
+      "question": "Choose the correct version of: 'That mustn't be the right answer.'",
       "options": [
-        "That can't be the right answer.",
-        "That mustn't to be the right answer.",
         "That doesn't must be the right answer.",
+        "That mustn't to be the right answer.",
+        "That can't be the right answer.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! A negative deduction takes 'can't be'.",
-        "'Mustn't' is never used for deductions, and 'to' is wrong.",
         "'Doesn't must' is not correct English.",
+        "'Mustn't' is never used for deductions, and 'to' is wrong.",
+        "Correct! A negative deduction takes 'can't be'.",
         "'Mustn't' can't be used for a deduction."
       ]
     },
     {
       "question": "Deduction differs from obligation because it shows…",
       "options": [
-        "how certain you are about a fact.",
         "what the rules require.",
+        "how certain you are about a fact.",
         "what you are allowed to do.",
         "what you prefer."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Deduction = how sure you are something is true or false.",
         "Rules = obligation (must/have to).",
+        "Correct! Deduction = how sure you are something is true or false.",
         "Permission = can/may.",
         "Preference = would rather/prefer."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "She's been awake for 30 hours. She ___ be exhausted. (almost sure)",
+      "hint": "Type one word.",
+      "answers": ["must"],
+      "explanation": "'Must' = almost certain it's true.",
+      "common": [
+        {"answer": "might", "why": "'Might' is only possible. You're almost sure, so 'must'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "That mustn't be the right address.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["That can't be the right address"],
+      "explanation": "The negative of a deduction 'must' is 'can't'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I don't know where he is. He ___ be at the gym. (possible, not sure)",
+      "hint": "Type one word.",
+      "answers": ["might", "may", "could"],
+      "explanation": "Possible but uncertain: might, may or could.",
+      "common": [
+        {"answer": "must", "why": "'Must' means you're almost sure. You said you don't know."}
       ]
     }
   ]

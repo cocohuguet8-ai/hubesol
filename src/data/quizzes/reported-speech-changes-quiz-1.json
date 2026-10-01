@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "\"I'll see you tomorrow.\" (reported a week later) → He said he'd see me ___.",
-      "options": ["the next day", "tomorrow", "yesterday", "that day"],
-      "answer": 0,
+      "options": ["tomorrow", "the next day", "yesterday", "that day"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Tomorrow' shifts to 'the next day'.",
         "'Tomorrow' points to the wrong day now.",
+        "Correct! 'Tomorrow' shifts to 'the next day'.",
         "'Yesterday' points to the past.",
         "'That day' doesn't capture 'the day after'."
       ]
@@ -27,23 +27,23 @@
     },
     {
       "question": "\"I like your jacket.\" (said to me) → He said he liked ___ jacket.",
-      "options": ["my", "your", "his", "their"],
-      "answer": 0,
+      "options": ["their", "your", "his", "my"],
+      "answer": 3,
       "explanations": [
-        "Correct! Speaking to me, 'your' becomes 'my'.",
+        "'Their' refers to other people.",
         "'Your' still points to the wrong person.",
         "'His' would mean a third person's jacket.",
-        "'Their' refers to other people."
+        "Correct! Speaking to me, 'your' becomes 'my'."
       ]
     },
     {
       "question": "\"We're leaving now.\" → They said they were leaving ___.",
-      "options": ["then", "now", "here", "today"],
-      "answer": 0,
+      "options": ["here", "now", "then", "today"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Now' shifts to 'then'.",
-        "'Now' refers to the wrong moment when reported later.",
         "'Here' is a place word, not a time word.",
+        "'Now' refers to the wrong moment when reported later.",
+        "Correct! 'Now' shifts to 'then'.",
         "'Today' changes the meaning."
       ]
     },
@@ -60,39 +60,39 @@
     },
     {
       "question": "\"I made these myself.\" → He said he'd made ___ himself.",
-      "options": ["those", "these", "that", "them here"],
-      "answer": 0,
+      "options": ["that", "these", "those", "them here"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'These' shifts to 'those'.",
-        "'These' points to things near the reporter.",
         "'That' is singular; 'these' is plural.",
+        "'These' points to things near the reporter.",
+        "Correct! 'These' shifts to 'those'.",
         "'Them here' keeps 'here', which should shift."
       ]
     },
     {
       "question": "\"I'll finish this today.\" (reported the same day) → He said he'd finish it ___.",
-      "options": ["today", "the day before", "yesterday", "the next day"],
-      "answer": 0,
+      "options": ["the next day", "the day before", "yesterday", "today"],
+      "answer": 3,
       "explanations": [
-        "Correct! Reporting on the same day, 'today' can stay.",
+        "'The next day' points to the future.",
         "'The day before' changes the meaning to the past.",
         "'Yesterday' points to the wrong day.",
-        "'The next day' points to the future."
+        "Correct! Reporting on the same day, 'today' can stay."
       ]
     },
     {
       "question": "\"We visited them last week.\" → They said they'd visited them ___.",
-      "options": ["the week before", "last week", "the next week", "then"],
-      "answer": 0,
+      "options": ["last week", "the week before", "the next week", "then"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Last week' shifts to 'the week before'.",
         "'Last week' no longer points to the right time.",
+        "Correct! 'Last week' shifts to 'the week before'.",
         "'The next week' points forward, changing the meaning.",
         "'Then' is too vague here."
       ]
     },
     {
-      "question": "Correct this: 'She said she liked this restaurant here.'",
+      "question": "Choose the correct version of: 'She said she liked this restaurant here.'",
       "options": [
         "She said she liked that restaurant there.",
         "She said she liked this restaurant here.",
@@ -109,13 +109,43 @@
     },
     {
       "question": "In reported speech, 'now' usually becomes…",
-      "options": ["then", "today", "here", "the next day"],
-      "answer": 0,
+      "options": ["here", "today", "then", "the next day"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Now' → 'then'.",
-        "'Today' is a different time reference.",
         "'Here' is a place word.",
+        "'Today' is a different time reference.",
+        "Correct! 'Now' → 'then'.",
         "'The next day' is for 'tomorrow'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He said, \"I'll call you tomorrow.\" (reported a week later) → He said he'd call me ___.",
+      "hint": "Type the time words.",
+      "answers": ["the next day", "the following day"],
+      "explanation": "'Tomorrow' becomes 'the next day' (or 'the following day') in reported speech.",
+      "common": [
+        {"answer": "tomorrow", "why": "When you report it later, 'tomorrow' changes to 'the next day'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She said she liked this place here. (reported later)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She said she liked that place there"],
+      "explanation": "This → that and here → there in reported speech."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "\"I like my new job,\" Ana said. → Ana said she liked ___ new job.",
+      "hint": "Type one word.",
+      "answers": ["her"],
+      "explanation": "The pronoun changes to match the new speaker: my → her.",
+      "common": [
+        {"answer": "my", "why": "'My' becomes 'her' because we are reporting Ana's words."}
       ]
     }
   ]

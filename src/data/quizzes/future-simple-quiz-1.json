@@ -16,45 +16,45 @@
     },
     {
       "question": "I think it ___ tomorrow.",
-      "options": ["rains", "will rain", "is raining", "rained"],
-      "answer": 1,
+      "options": ["rains", "is raining", "will rain", "rained"],
+      "answer": 2,
       "explanations": [
         "'Rains' is present simple (a habit or fact), not a prediction.",
-        "Correct! A prediction with 'I think' takes will: 'it will rain'.",
         "'Is raining' is happening now, not a prediction about tomorrow.",
+        "Correct! A prediction with 'I think' takes will: 'it will rain'.",
         "'Rained' is past simple, but 'tomorrow' is in the future."
       ]
     },
     {
       "question": "Don't worry — she ___ late. She's very reliable.",
-      "options": ["won't be", "doesn't be", "isn't", "not will be"],
-      "answer": 0,
+      "options": ["not will be", "doesn't be", "isn't", "won't be"],
+      "answer": 3,
       "explanations": [
-        "Correct! The negative of will is won't: 'she won't be late'.",
+        "'Not will be' has the wrong word order. Use 'won't be'.",
         "'Doesn't be' isn't correct English. Use 'won't be'.",
         "'Isn't' is present, but this is a prediction about the future.",
-        "'Not will be' has the wrong word order. Use 'won't be'."
+        "Correct! The negative of will is won't: 'she won't be late'."
       ]
     },
     {
       "question": "___ you ___ me with this box, please?",
-      "options": ["Will / help", "Do / help", "Will / helping", "Are / help"],
-      "answer": 0,
+      "options": ["Do / help", "Will / help", "Will / helping", "Are / help"],
+      "answer": 1,
       "explanations": [
-        "Correct! A request uses Will + subject + base verb: 'Will you help me?'.",
         "'Do you help' is a present-simple question about habits, not a request for now.",
+        "Correct! A request uses Will + subject + base verb: 'Will you help me?'.",
         "After 'will' the verb is the base form: 'help', not 'helping'.",
         "'Are you help' mixes structures. Use 'Will you help?'."
       ]
     },
     {
       "question": "He ___ arrive at nine.",
-      "options": ["will", "wills", "is will", "will be"],
-      "answer": 0,
+      "options": ["is will", "wills", "will", "will be"],
+      "answer": 2,
       "explanations": [
-        "Correct! Will is the same for every subject and is followed by the base verb: 'He will arrive'.",
-        "Will never adds -s. It stays 'will' for he/she/it.",
         "'Is will' is not a valid form. Use 'will arrive'.",
+        "Will never adds -s. It stays 'will' for he/she/it.",
+        "Correct! Will is the same for every subject and is followed by the base verb: 'He will arrive'.",
         "'Will be arrive' would be wrong; 'will arrive' is correct here."
       ]
     },
@@ -71,28 +71,28 @@
     },
     {
       "question": "We ___ to Italy this summer — we booked the flights last week.",
-      "options": ["will go", "are going", "go", "went"],
-      "answer": 1,
+      "options": ["are going", "will go", "go", "went"],
+      "answer": 0,
       "explanations": [
-        "'Will go' is for a decision made now, but this plan was made before (you booked flights).",
         "Correct! A plan decided before now takes the present continuous or going to: 'are going'.",
+        "'Will go' is for a decision made now, but this plan was made before (you booked flights).",
         "'Go' is present simple, which doesn't fit a specific future plan.",
         "'Went' is past simple, but the trip is in the future."
       ]
     },
     {
       "question": "In 2050, most cars ___ themselves.",
-      "options": ["drive", "will drive", "are driving", "drove"],
-      "answer": 1,
+      "options": ["drive", "drove", "are driving", "will drive"],
+      "answer": 3,
       "explanations": [
         "'Drive' is present simple, not a prediction about 2050.",
-        "Correct! A prediction about the future takes will: 'will drive'.",
+        "'Drove' is past simple, but 2050 is in the future.",
         "'Are driving' is happening now, not a future prediction.",
-        "'Drove' is past simple, but 2050 is in the future."
+        "Correct! A prediction about the future takes will: 'will drive'."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'Perhaps I'll see you at the party.'",
+      "question": "Choose the sentence with the same meaning as: 'Perhaps I'll see you at the party.'",
       "options": [
         "I'll definitely see you at the party.",
         "I might see you at the party.",
@@ -109,14 +109,41 @@
     },
     {
       "question": "It's hot in here. — ___ I open a window?",
-      "options": ["Will", "Shall", "Do", "Am"],
-      "answer": 1,
+      "options": ["Shall", "Will", "Do", "Am"],
+      "answer": 0,
       "explanations": [
-        "'Will I' isn't used for offers about yourself; use 'Shall I?'.",
         "Correct! For an offer or suggestion with 'I', English uses 'Shall I…?'.",
+        "'Will I' isn't used for offers about yourself; use 'Shall I?'.",
         "'Do I open' is a present-simple question about habits, not an offer.",
         "'Am I open' isn't correct. The offer form is 'Shall I open…?'."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "The phone's ringing. — I ___ it! (instant decision)",
+      "hint": "Type two words.",
+      "answers": ["will answer", "'ll answer"],
+      "explanation": "Instant decisions: will.",
+      "common": [
+        {"answer": "am going to answer", "why": "You decide as you speak, so 'will'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She wills come tomorrow.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She will come tomorrow"],
+      "explanation": "'Will' never takes -s."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "In 2050, cars drive themselves.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["In 2050, cars will drive themselves"],
+      "explanation": "Predictions about the future use 'will'."
     }
   ]
 }

@@ -1,4 +1,4 @@
-name: Validate practice content
+name: Validate practice and quiz content
 on:
   push:
   pull_request:
@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/validate-practice.mjs
+      - run: npm run validate

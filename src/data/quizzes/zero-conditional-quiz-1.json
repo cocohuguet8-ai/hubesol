@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "If you heat ice, it ___.",
-      "options": ["will melt", "melts", "melted", "is melting"],
-      "answer": 1,
+      "options": ["will melt", "is melting", "melted", "melts"],
+      "answer": 3,
       "explanations": [
         "The zero conditional uses the present simple, not 'will', for a general truth.",
-        "Correct! A general truth takes the present simple in both clauses: 'it melts'.",
+        "'Is melting' is present continuous (now), not a general fact.",
         "'Melted' is past simple, but this is always true.",
-        "'Is melting' is present continuous (now), not a general fact."
+        "Correct! A general truth takes the present simple in both clauses: 'it melts'."
       ]
     },
     {
@@ -38,12 +38,12 @@
     },
     {
       "question": "If the traffic light ___ red, cars stop.",
-      "options": ["is", "will be", "was", "be"],
-      "answer": 0,
+      "options": ["was", "will be", "is", "be"],
+      "answer": 2,
       "explanations": [
-        "Correct! The if-clause uses the present simple: 'If the light is red'.",
-        "'Will be' can't follow 'if' in a zero conditional.",
         "'Was' is past simple, but this is a general rule.",
+        "'Will be' can't follow 'if' in a zero conditional.",
+        "Correct! The if-clause uses the present simple: 'If the light is red'.",
         "'Be' is the base form; it must agree: 'is'."
       ]
     },
@@ -60,12 +60,12 @@
     },
     {
       "question": "If people don't sleep, they ___ tired.",
-      "options": ["will feel", "feel", "felt", "are feeling"],
-      "answer": 1,
+      "options": ["will feel", "felt", "feel", "are feeling"],
+      "answer": 2,
       "explanations": [
         "As a general truth, the result takes the present simple, not 'will'.",
-        "Correct! A general truth uses the present simple: 'they feel tired'.",
         "'Felt' is past simple, but this is always true.",
+        "Correct! A general truth uses the present simple: 'they feel tired'.",
         "'Are feeling' is present continuous, not a general fact."
       ]
     },
@@ -82,45 +82,75 @@
     },
     {
       "question": "___ you touch fire, you get burned.",
-      "options": ["When", "Will", "Did", "Would"],
-      "answer": 0,
+      "options": ["Would", "Will", "Did", "When"],
+      "answer": 3,
       "explanations": [
-        "Correct! In the zero conditional, 'when' and 'if' are almost the same: 'When you touch fire, you get burned'.",
+        "'Would' belongs to the second conditional.",
         "'Will' isn't a linker to start this clause.",
         "'Did' would make it a past question, not a general truth.",
-        "'Would' belongs to the second conditional."
+        "Correct! In the zero conditional, 'when' and 'if' are almost the same: 'When you touch fire, you get burned'."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'When you touch fire, you get burned.'",
+      "question": "Choose the sentence with the same meaning as: 'When you touch fire, you get burned.'",
       "options": [
-        "If you touch fire, you get burned.",
         "If you touch fire, you will get burned.",
+        "If you touch fire, you get burned.",
         "If you touched fire, you got burned.",
         "You get burned when you will touch fire."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! For a general truth, 'when' = 'if', both with the present simple.",
         "'Will get burned' turns it into a first conditional about a specific future.",
+        "Correct! For a general truth, 'when' = 'if', both with the present simple.",
         "The past tenses describe one past event, not a general truth.",
         "'When you will touch' is wrong — no 'will' after when/if here."
       ]
     },
     {
-      "question": "Correct this: 'If you will mix red and white, you get pink.'",
+      "question": "Choose the correct version of: 'If you will mix red and white, you get pink.'",
       "options": [
-        "If you mix red and white, you get pink.",
+        "When you will mix red and white, you get pink.",
         "If you mixed red and white, you got pink.",
         "If you will mix red and white, you will get pink.",
-        "When you will mix red and white, you get pink."
+        "If you mix red and white, you get pink."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Both clauses of a zero conditional use the present simple: 'If you mix… you get…'.",
+        "'When you will mix' is wrong — no 'will' after when/if here.",
         "The past tenses describe one past event, not a general truth.",
         "The zero conditional never uses 'will' — this describes a fact.",
-        "'When you will mix' is wrong — no 'will' after when/if here."
+        "Correct! Both clauses of a zero conditional use the present simple: 'If you mix… you get…'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If you mix red and blue, you ___ purple. (get)",
+      "hint": "Use the present simple.",
+      "answers": ["get"],
+      "explanation": "Zero conditional: if + present simple, present simple.",
+      "common": [
+        {"answer": "will get", "why": "A general truth uses the present simple in both clauses."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If you don't water plants, they will die. (a general fact)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["If you don't water plants, they die"],
+      "explanation": "A general truth uses the present simple, not 'will'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "What ___ if you mix red and yellow? (happen)",
+      "hint": "Use the present simple.",
+      "answers": ["happens"],
+      "explanation": "A general truth: present simple, 'what happens'.",
+      "common": [
+        {"answer": "will happen", "why": "In the zero conditional both clauses use the present simple: happens."}
       ]
     }
   ]

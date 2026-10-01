@@ -5,12 +5,12 @@
   "items": [
     {
       "question": "I ___ my keys, so I can't open the door.",
-      "options": ["lost", "have lost", "was losing", "lose"],
-      "answer": 1,
+      "options": ["lost", "was losing", "have lost", "lose"],
+      "answer": 2,
       "explanations": [
         "'Lost' (past simple) is possible alone, but the result matters now ('I can't open the door'), which the present perfect shows best.",
-        "Correct! A recent action with a present result takes the present perfect: 'have lost'.",
         "'Was losing' (past continuous) describes an action in progress, but losing keys is instant.",
+        "Correct! A recent action with a present result takes the present perfect: 'have lost'.",
         "'Lose' is the base present form. The action is finished with a result now: 'have lost'."
       ]
     },
@@ -27,96 +27,123 @@
     },
     {
       "question": "___ you ever ___ a famous person?",
-      "options": ["Did / meet", "Have / met", "Have / meet", "Did / met"],
-      "answer": 1,
+      "options": ["Did / meet", "Did / met", "Have / meet", "Have / met"],
+      "answer": 3,
       "explanations": [
         "'Ever' with a life experience (no specific time) calls for the present perfect, not the past simple.",
-        "Correct! Experience questions use 'Have + subject + ever + past participle': 'Have you ever met…?'.",
+        "After 'did' we'd need the base form, and an unspecified experience takes the present perfect anyway.",
         "'Have' is right, but the past participle of 'meet' is 'met', not 'meet'.",
-        "After 'did' we'd need the base form, and an unspecified experience takes the present perfect anyway."
+        "Correct! Experience questions use 'Have + subject + ever + past participle': 'Have you ever met…?'."
       ]
     },
     {
       "question": "She ___ at this school since 2018.",
-      "options": ["worked", "has worked", "works", "was working"],
-      "answer": 1,
+      "options": ["has worked", "worked", "works", "was working"],
+      "answer": 0,
       "explanations": [
-        "'Worked' (past simple) suggests she doesn't work here now, but 'since 2018' says it continues.",
         "Correct! A situation that started in the past and continues takes the present perfect with 'since': 'has worked'.",
+        "'Worked' (past simple) suggests she doesn't work here now, but 'since 2018' says it continues.",
         "'Works' is a general present fact, but 'since 2018' links past to present, so use the present perfect.",
         "'Was working' (past continuous) can't combine with 'since 2018' here. Use 'has worked'."
       ]
     },
     {
       "question": "When ___ you ___ the news?",
-      "options": ["did / hear", "have / heard", "did / heard", "have / hear"],
-      "answer": 0,
+      "options": ["did / heard", "have / heard", "did / hear", "have / hear"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'When' asks for a specific time, so it takes the past simple: 'When did you hear…?'.",
-        "'When' needs a specific moment, so the present perfect doesn't fit here.",
         "After 'did' the verb is the base form: 'hear', not 'heard'.",
+        "'When' needs a specific moment, so the present perfect doesn't fit here.",
+        "Correct! 'When' asks for a specific time, so it takes the past simple: 'When did you hear…?'.",
         "'When have you hear' is not correct — 'when' requires the past simple: 'did you hear'."
       ]
     },
     {
       "question": "He ___ his leg last week, so he can't play now.",
-      "options": ["broke", "has broken", "breaks", "was breaking"],
-      "answer": 0,
+      "options": ["has broken", "broke", "breaks", "was breaking"],
+      "answer": 1,
       "explanations": [
-        "Correct! Even though there's a result now, 'last week' is a finished time, which forces the past simple: 'broke'.",
         "The result is present, but 'last week' is finished time — English uses the past simple: 'broke'.",
+        "Correct! Even though there's a result now, 'last week' is a finished time, which forces the past simple: 'broke'.",
         "'Breaks' is a present habit, which doesn't fit a single past event.",
         "'Was breaking' describes an action in progress; breaking a leg is instant. Use 'broke'."
       ]
     },
     {
       "question": "I ___ that film three times. It's my favourite.",
-      "options": ["saw", "have seen", "see", "had seen"],
-      "answer": 1,
+      "options": ["saw", "had seen", "see", "have seen"],
+      "answer": 3,
       "explanations": [
         "'Saw' needs a finished time. Here we count experiences up to now, so use the present perfect.",
-        "Correct! Experiences counted up to now ('three times') take the present perfect: 'have seen'.",
+        "'Had seen' is past perfect, used for an action before another past moment — not the case here.",
         "'See' is the base present form and can't express a repeated past experience.",
-        "'Had seen' is past perfect, used for an action before another past moment — not the case here."
+        "Correct! Experiences counted up to now ('three times') take the present perfect: 'have seen'."
       ]
     },
     {
       "question": "I've known her ___ ten years.",
-      "options": ["since", "for", "from", "during"],
-      "answer": 1,
+      "options": ["for", "since", "from", "during"],
+      "answer": 0,
       "explanations": [
-        "'Since' needs a starting point (since 2015). 'Ten years' is a period, so use 'for'.",
         "Correct! 'For' + a period of time (ten years). 'Since' would need a starting point.",
+        "'Since' needs a starting point (since 2015). 'Ten years' is a period, so use 'for'.",
         "'From' isn't used this way with the present perfect. The pattern is 'for' + period.",
         "'During' says when something happened inside a period, not how long. Duration takes 'for'."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'This is my first visit to Rome.'",
+      "question": "Choose the sentence with the same meaning as: 'This is my first visit to Rome.'",
       "options": [
         "I went to Rome once before.",
-        "I have never been to Rome before.",
         "I have been to Rome many times.",
+        "I have never been to Rome before.",
         "I didn't go to Rome."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
         "'Went once before' contradicts 'first visit' — it would be your second time.",
-        "Correct! A first visit means no previous experience: 'I have never been to Rome before.'",
         "'Many times' is the opposite of a first visit.",
+        "Correct! A first visit means no previous experience: 'I have never been to Rome before.'",
         "'Didn't go' says the visit never happened, but you are visiting now."
       ]
     },
     {
       "question": "___ you ___ your keys? We can't leave without them.",
-      "options": ["Did / lose", "Have / lost", "Have / lose", "Did / lost"],
-      "answer": 1,
+      "options": ["Did / lose", "Did / lost", "Have / lose", "Have / lost"],
+      "answer": 3,
       "explanations": [
         "There's no finished time, and the result matters now, so the present perfect fits better than the past simple.",
-        "Correct! An action with a present result and no stated time takes the present perfect: 'Have you lost…?'.",
+        "After 'did' we'd use the base form 'lose', but the present result calls for the present perfect here.",
         "'Have' is right, but you need the past participle 'lost', not 'lose'.",
-        "After 'did' we'd use the base form 'lose', but the present result calls for the present perfect here."
+        "Correct! An action with a present result and no stated time takes the present perfect: 'Have you lost…?'."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "We ___ to Paris last summer. (go)",
+      "hint": "Type the past simple.",
+      "answers": ["went"],
+      "explanation": "Finished time: past simple.",
+      "common": [
+        {"answer": "have gone", "why": "'Last summer' is finished time: went."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I have seen him yesterday.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I saw him yesterday"],
+      "explanation": "'Yesterday' needs the past simple."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "When have you arrived?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["When did you arrive"],
+      "explanation": "'When' questions take the past simple."
     }
   ]
 }

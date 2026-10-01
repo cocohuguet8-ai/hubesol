@@ -5,22 +5,22 @@
   "items": [
     {
       "question": "There's ___ milk in the fridge.",
-      "options": ["some", "any", "a", "much"],
-      "answer": 0,
+      "options": ["a", "any", "some", "much"],
+      "answer": 2,
       "explanations": [
-        "Correct! Positive sentence takes 'some': 'some milk'.",
-        "'Any' is for negatives and questions.",
         "'A milk' is wrong — milk is uncountable.",
+        "'Any' is for negatives and questions.",
+        "Correct! Positive sentence takes 'some': 'some milk'.",
         "'Much' fits questions/negatives, not this positive."
       ]
     },
     {
       "question": "I don't have ___ money.",
-      "options": ["any", "some", "a", "much of"],
-      "answer": 0,
+      "options": ["some", "any", "a", "much of"],
+      "answer": 1,
       "explanations": [
-        "Correct! Negative sentence takes 'any': 'any money'.",
         "'Some' isn't normally used in negatives.",
+        "Correct! Negative sentence takes 'any': 'any money'.",
         "'A money' is wrong — money is uncountable.",
         "'Much of' is not correct here."
       ]
@@ -38,44 +38,44 @@
     },
     {
       "question": "Are there ___ tickets left?",
-      "options": ["any", "some", "a", "much"],
-      "answer": 0,
+      "options": ["much", "some", "a", "any"],
+      "answer": 3,
       "explanations": [
-        "Correct! A normal question takes 'any': 'any tickets'.",
+        "'Much' is for uncountables; 'tickets' is countable.",
         "'Some' is used in offers, not neutral questions.",
         "'A tickets' mixes singular and plural.",
-        "'Much' is for uncountables; 'tickets' is countable."
+        "Correct! A normal question takes 'any': 'any tickets'."
       ]
     },
     {
       "question": "Can I have ___ water, please?",
-      "options": ["some", "any", "a", "many"],
-      "answer": 0,
+      "options": ["many", "any", "a", "some"],
+      "answer": 3,
       "explanations": [
-        "Correct! Requests use 'some': 'Can I have some water?'",
+        "'Many' is for countable plurals.",
         "'Any' is unusual in a request.",
         "'A water' is not standard.",
-        "'Many' is for countable plurals."
+        "Correct! Requests use 'some': 'Can I have some water?'"
       ]
     },
     {
       "question": "I saw ___ at the door but I'm not sure who.",
-      "options": ["someone", "anyone", "no one", "anybody's"],
-      "answer": 0,
+      "options": ["no one", "anyone", "someone", "anybody's"],
+      "answer": 2,
       "explanations": [
-        "Correct! Positive sentence takes 'someone'.",
-        "'Anyone' is for negatives/questions.",
         "'No one' means nobody was there.",
+        "'Anyone' is for negatives/questions.",
+        "Correct! Positive sentence takes 'someone'.",
         "'Anybody's' is a possessive form."
       ]
     },
     {
       "question": "We didn't buy ___ at the shop.",
-      "options": ["anything", "something", "nothing", "anythings"],
-      "answer": 0,
+      "options": ["something", "anything", "nothing", "anythings"],
+      "answer": 1,
       "explanations": [
-        "Correct! Negative sentence takes 'anything'.",
         "'Something' is for positives.",
+        "Correct! Negative sentence takes 'anything'.",
         "'Didn't buy nothing' is a double negative.",
         "'Anythings' isn't a word."
       ]
@@ -92,35 +92,60 @@
       ]
     },
     {
-      "question": "Correct this: 'Would you like any biscuits?'",
+      "question": "Choose the correct version of: 'Would you like any biscuits?'",
       "options": [
-        "Would you like some biscuits?",
         "Would you like a biscuits?",
+        "Would you like some biscuits?",
         "Would you like many biscuits?",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Offers use 'some': 'Would you like some biscuits?'",
         "'A biscuits' mixes singular and plural.",
+        "Correct! Offers use 'some': 'Would you like some biscuits?'",
         "'Many biscuits' changes the meaning to a large number.",
         "'Any' is unusual in an offer expecting yes."
       ]
     },
     {
       "question": "Which sentence type uses 'some'?",
-      "options": [
-        "Positive sentences and offers/requests.",
-        "Negatives only.",
-        "All questions.",
-        "Never in offers."
-      ],
-      "answer": 0,
+      "options": ["All questions.", "Negatives only.", "Positive sentences and offers/requests.", "Never in offers."],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Some' = positive sentences and offers/requests.",
-        "Negatives normally take 'any'.",
         "Most questions take 'any' (offers are the exception).",
+        "Negatives normally take 'any'.",
+        "Correct! 'Some' = positive sentences and offers/requests.",
         "Offers do use 'some'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I don't have ___ money.",
+      "hint": "Type some or any.",
+      "answers": ["any"],
+      "explanation": "Negative sentence, so 'any'.",
+      "common": [
+        {"answer": "some", "why": "In a negative sentence we use 'any'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Would you like any tea?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Would you like some tea"],
+      "explanation": "In an offer we use 'some'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I looked everywhere, but I couldn't find my keys ___.",
+      "hint": "Type something, anything or anywhere.",
+      "answers": ["anywhere"],
+      "explanation": "Negative sentence, so the 'any-' word: anywhere.",
+      "common": [
+        {"answer": "somewhere", "why": "After 'couldn't' we use the 'any-' word: anywhere."}
       ]
     }
   ]

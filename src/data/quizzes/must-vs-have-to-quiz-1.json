@@ -5,34 +5,34 @@
   "items": [
     {
       "question": "I keep oversleeping. I really ___ buy a louder alarm.",
-      "options": ["must", "have to", "had to", "must to"],
-      "answer": 0,
+      "options": ["must to", "have to", "had to", "must"],
+      "answer": 3,
       "explanations": [
-        "Correct! A personal feeling takes 'must': 'I must buy a louder alarm'.",
+        "Never add 'to' after 'must'.",
         "'Have to' suggests an outside rule; here it's your own feeling.",
         "'Had to' is past; this is present.",
-        "Never add 'to' after 'must'."
+        "Correct! A personal feeling takes 'must': 'I must buy a louder alarm'."
       ]
     },
     {
       "question": "At my company, we ___ clock in by nine.",
-      "options": ["must to", "have to", "must", "had to"],
-      "answer": 1,
+      "options": ["must to", "must", "have to", "had to"],
+      "answer": 2,
       "explanations": [
         "Never add 'to' after 'must'.",
-        "Correct! A workplace rule (from outside) takes 'have to': 'we have to clock in'.",
         "'Must' is possible, but 'have to' fits an external rule better.",
+        "Correct! A workplace rule (from outside) takes 'have to': 'we have to clock in'.",
         "'Had to' is past; this is a present rule."
       ]
     },
     {
       "question": "Yesterday the car broke down, so I ___ take the bus.",
-      "options": ["must", "have to", "had to", "must to"],
-      "answer": 2,
+      "options": ["had to", "have to", "must", "must to"],
+      "answer": 0,
       "explanations": [
-        "'Must' has no past form.",
-        "'Have to' is present; this is past ('yesterday').",
         "Correct! Past obligation takes 'had to': 'I had to take the bus'.",
+        "'Have to' is present; this is past ('yesterday').",
+        "'Must' has no past form.",
         "Never add 'to' after 'must'."
       ]
     },
@@ -73,54 +73,84 @@
       "question": "Which comes from an OUTSIDE rule?",
       "options": [
         "I must eat more vegetables.",
-        "You have to be 18 to vote.",
+        "We must tidy up soon.",
         "I must call my sister.",
-        "We must tidy up soon."
+        "You have to be 18 to vote."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanations": [
         "This is a personal feeling.",
-        "Correct! A law (from outside) takes 'have to': 'You have to be 18 to vote'.",
+        "This is the speaker's own sense of obligation.",
         "This is a personal feeling.",
-        "This is the speaker's own sense of obligation."
+        "Correct! A law (from outside) takes 'have to': 'You have to be 18 to vote'."
       ]
     },
     {
-      "question": "Correct this: 'Last week I must finish two reports.'",
+      "question": "Choose the correct version of: 'Last week I must finish two reports.'",
       "options": [
-        "Last week I had to finish two reports.",
-        "Last week I must to finish two reports.",
         "Last week I have to finish two reports.",
+        "Last week I must to finish two reports.",
+        "Last week I had to finish two reports.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! Past obligation takes 'had to': 'Last week I had to finish two reports'.",
-        "'Must to' is never correct.",
         "'Have to' is present; the sentence is about last week.",
+        "'Must to' is never correct.",
+        "Correct! Past obligation takes 'had to': 'Last week I had to finish two reports'.",
         "'Must' can't refer to the past."
       ]
     },
     {
       "question": "Passengers ___ fasten their seatbelts during take-off.",
-      "options": ["don't have to", "must", "mustn't", "must to"],
-      "answer": 1,
+      "options": ["don't have to", "mustn't", "must", "must to"],
+      "answer": 2,
       "explanations": [
         "'Don't have to' would make it optional.",
-        "Correct! A stated safety rule takes 'must': 'Passengers must fasten their seatbelts'.",
         "'Mustn't fasten' would forbid it.",
+        "Correct! A stated safety rule takes 'must': 'Passengers must fasten their seatbelts'.",
         "Never add 'to' after 'must'."
       ]
     },
     {
       "question": "The ticket is already paid, so you ___ bring any money.",
-      "options": ["mustn't", "don't have to", "must", "have to"],
-      "answer": 1,
+      "options": ["don't have to", "mustn't", "must", "have to"],
+      "answer": 0,
       "explanations": [
-        "'Mustn't bring money' would forbid bringing money.",
         "Correct! No necessity takes 'don't have to': 'You don't have to bring any money'.",
+        "'Mustn't bring money' would forbid bringing money.",
         "'Must bring' is an obligation.",
         "'Have to bring' is an obligation."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I really ___ exercise more. It's my own decision.",
+      "hint": "Type one word.",
+      "answers": ["must"],
+      "explanation": "Obligation that comes from the speaker: must.",
+      "common": [
+        {"answer": "have to", "why": "'Have to' is for outside rules. This is your own feeling."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I must work late yesterday.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I had to work late yesterday"],
+      "explanation": "'Must' has no past. Use 'had to'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "You ___ come if you're busy. It's optional.",
+      "hint": "Type three words.",
+      "answers": ["don't have to", "do not have to"],
+      "explanation": "Not necessary = don't have to.",
+      "common": [
+        {"answer": "mustn't", "why": "'Mustn't' means forbidden, not optional."}
       ]
     }
   ]

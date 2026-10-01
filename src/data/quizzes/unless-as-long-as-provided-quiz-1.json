@@ -5,22 +5,22 @@
   "items": [
     {
       "question": "___ you hurry, you'll miss the bus.",
-      "options": ["Unless", "As long as", "Provided that", "In case"],
-      "answer": 0,
+      "options": ["In case", "As long as", "Provided that", "Unless"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Unless you hurry' = 'if you don't hurry'.",
+        "'In case' is for precautions, not this condition.",
         "'As long as you hurry' would mean the opposite.",
         "'Provided that you hurry' would mean the opposite.",
-        "'In case' is for precautions, not this condition."
+        "Correct! 'Unless you hurry' = 'if you don't hurry'."
       ]
     },
     {
       "question": "You can borrow my car ___ you drive carefully.",
-      "options": ["unless", "as long as", "in case", "so that"],
-      "answer": 1,
+      "options": ["as long as", "unless", "in case", "so that"],
+      "answer": 0,
       "explanations": [
-        "'Unless you drive carefully' means the opposite of what's intended.",
         "Correct! 'As long as' states the condition: 'as long as you drive carefully'.",
+        "'Unless you drive carefully' means the opposite of what's intended.",
         "'In case' is for precautions, not this condition.",
         "'So that' expresses purpose, not a condition."
       ]
@@ -37,79 +37,79 @@
       ]
     },
     {
-      "question": "Rewrite: 'If you don't book now, you won't get a seat.'",
+      "question": "Choose the best rewrite of: 'If you don't book now, you won't get a seat.'",
       "options": [
-        "Unless you book now, you won't get a seat.",
         "Unless you don't book now, you won't get a seat.",
+        "Unless you book now, you won't get a seat.",
         "As long as you book now, you won't get a seat.",
         "In case you book now, you won't get a seat."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'Unless you book now' = 'if you don't book now'.",
         "This has a double negative — 'unless' already means 'if not'.",
+        "Correct! 'Unless you book now' = 'if you don't book now'.",
         "'As long as' reverses the meaning.",
         "'In case' changes the meaning to a precaution."
       ]
     },
     {
       "question": "We'll start on Monday ___ everyone agrees.",
-      "options": ["unless", "provided that", "in case", "even if"],
-      "answer": 1,
+      "options": ["unless", "in case", "provided that", "even if"],
+      "answer": 2,
       "explanations": [
         "'Unless everyone agrees' means the opposite.",
-        "Correct! 'Provided that everyone agrees' states the condition formally.",
         "'In case' is for precautions, not this condition.",
+        "Correct! 'Provided that everyone agrees' states the condition formally.",
         "'Even if' means the result happens regardless — the opposite here."
       ]
     },
     {
-      "question": "Fix this: 'Unless you don't call, I'll worry.'",
+      "question": "Choose the correct version of: 'Unless you don't call, I'll worry.'",
       "options": [
-        "Unless you call, I'll worry.",
+        "Unless you don't calling, I'll worry.",
         "Unless you will call, I'll worry.",
         "The sentence is already correct.",
-        "Unless you don't calling, I'll worry."
+        "Unless you call, I'll worry."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'Unless' already means 'if not', so drop the second negative: 'Unless you call'.",
+        "'Don't calling' is grammatically incorrect.",
         "'Unless' shouldn't be followed by 'will'.",
         "The double negative makes the meaning wrong.",
-        "'Don't calling' is grammatically incorrect."
+        "Correct! 'Unless' already means 'if not', so drop the second negative: 'Unless you call'."
       ]
     },
     {
       "question": "You can stay out late ___ you text me when you arrive.",
-      "options": ["unless", "as long as", "in case", "otherwise"],
-      "answer": 1,
+      "options": ["as long as", "unless", "in case", "otherwise"],
+      "answer": 0,
       "explanations": [
-        "'Unless' means 'if not', which reverses the meaning.",
         "Correct! 'As long as you text me' states the strict condition.",
+        "'Unless' means 'if not', which reverses the meaning.",
         "'In case' is for precautions, not this condition.",
         "'Otherwise' means 'if not', used differently."
       ]
     },
     {
       "question": "I won't say anything ___ you want me to.",
-      "options": ["unless", "as long as", "provided that", "in case"],
-      "answer": 0,
+      "options": ["as long as", "unless", "provided that", "in case"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Unless you want me to' = 'except if you want me to'.",
         "'As long as' would mean 'only on condition that', reversing the sense.",
+        "Correct! 'Unless you want me to' = 'except if you want me to'.",
         "'Provided that' also reverses the sense here.",
         "'In case' is for precautions, not this condition."
       ]
     },
     {
       "question": "Choose the correct verb: 'Provided that you ___ on time, you can join.'",
-      "options": ["arrive", "will arrive", "would arrive", "arrived"],
-      "answer": 0,
+      "options": ["arrived", "will arrive", "would arrive", "arrive"],
+      "answer": 3,
       "explanations": [
-        "Correct! Use the present simple after these linkers: 'provided that you arrive on time'.",
+        "'Arrived' (past) doesn't fit this real future.",
         "Don't use 'will' after 'provided that'.",
         "'Would arrive' belongs to the second conditional.",
-        "'Arrived' (past) doesn't fit this real future."
+        "Correct! Use the present simple after these linkers: 'provided that you arrive on time'."
       ]
     },
     {
@@ -126,6 +126,36 @@
         "'Even if' would remove the condition — not the meaning here.",
         "This misreads 'as long as' as a precaution.",
         "This reverses the meaning."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I won't go to the party ___ you come with me.",
+      "hint": "Type unless, as long as or in case.",
+      "answers": ["unless"],
+      "explanation": "'Unless' means 'if not': if you don't come with me.",
+      "common": [
+        {"answer": "as long as", "why": "'As long as' means 'only if'. Here the meaning is 'if not', so 'unless'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Unless you don't hurry, you'll miss the bus.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Unless you hurry, you'll miss the bus", "Unless you hurry, you will miss the bus"],
+      "explanation": "'Unless' already means 'if not', so no second negative."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "You can use my phone ___ you give it back tonight.",
+      "hint": "Type unless, as long as or in case.",
+      "answers": ["as long as", "provided that", "providing that"],
+      "explanation": "'As long as' means 'only if this condition is met'.",
+      "common": [
+        {"answer": "unless", "why": "'Unless' means 'if not'. Here the condition is positive, so 'as long as'."}
       ]
     }
   ]

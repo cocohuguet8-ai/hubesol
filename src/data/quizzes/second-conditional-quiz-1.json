@@ -5,12 +5,12 @@
   "items": [
     {
       "question": "If I ___ the lottery, I'd travel the world.",
-      "options": ["win", "won", "will win", "would win"],
-      "answer": 1,
+      "options": ["win", "will win", "won", "would win"],
+      "answer": 2,
       "explanations": [
         "'Win' (present simple) is for the first conditional, a real future.",
-        "Correct! An imaginary situation takes the past simple in the if-clause: 'If I won'.",
         "The if-clause never uses 'will'.",
+        "Correct! An imaginary situation takes the past simple in the if-clause: 'If I won'.",
         "The if-clause never uses 'would' — that goes in the result."
       ]
     },
@@ -27,100 +27,130 @@
     },
     {
       "question": "If I ___ rich, I'd buy an island.",
-      "options": ["would be", "were", "am", "will be"],
-      "answer": 1,
+      "options": ["would be", "will be", "am", "were"],
+      "answer": 3,
       "explanations": [
         "The if-clause doesn't use 'would'.",
-        "Correct! In the second conditional, use 'were' for all subjects: 'If I were rich'.",
+        "The if-clause never uses 'will'.",
         "'Am' is present simple, but this is an imaginary situation.",
-        "The if-clause never uses 'will'."
+        "Correct! In the second conditional, use 'were' for all subjects: 'If I were rich'."
       ]
     },
     {
       "question": "If I ___ you, I'd apologise.",
-      "options": ["was", "were", "am", "would be"],
-      "answer": 1,
+      "options": ["were", "was", "am", "would be"],
+      "answer": 0,
       "explanations": [
-        "'Was' is common in speech, but standard English uses 'were' here.",
         "Correct! The advice form is 'If I were you'.",
+        "'Was' is common in speech, but standard English uses 'were' here.",
         "'Am' is present simple, but this is hypothetical.",
         "The if-clause doesn't use 'would'."
       ]
     },
     {
       "question": "If she lived closer, she ___ visit more often.",
-      "options": ["will", "would", "would have", "can"],
-      "answer": 1,
+      "options": ["would", "will", "would have", "can"],
+      "answer": 0,
       "explanations": [
-        "'Will' belongs to the first conditional.",
         "Correct! The imaginary result uses 'would': 'she would visit'.",
+        "'Will' belongs to the first conditional.",
         "'Would have' belongs to the third conditional.",
         "'Can' doesn't fit the imaginary result here."
       ]
     },
     {
       "question": "If we ___ a bigger house, we'd have a garden.",
-      "options": ["have", "had", "will have", "would have"],
-      "answer": 1,
+      "options": ["have", "would have", "will have", "had"],
+      "answer": 3,
       "explanations": [
         "'Have' (present) is for real situations; this is imaginary.",
-        "Correct! The if-clause uses the past simple: 'If we had a bigger house'.",
+        "The if-clause never uses 'would'.",
         "The if-clause never uses 'will'.",
-        "The if-clause never uses 'would'."
+        "Correct! The if-clause uses the past simple: 'If we had a bigger house'."
       ]
     },
     {
-      "question": "Correct this: 'If I would have a car, I'd drive to work.'",
+      "question": "Choose the correct version of: 'If I would have a car, I'd drive to work.'",
       "options": [
-        "If I had a car, I'd drive to work.",
         "If I have a car, I'd drive to work.",
+        "If I had a car, I'd drive to work.",
         "If I would had a car, I'd drive to work.",
         "If I will have a car, I'd drive to work."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! The if-clause of a second conditional uses the past simple: 'If I had a car'.",
         "'If I have' is present simple — that's the first conditional.",
+        "Correct! The if-clause of a second conditional uses the past simple: 'If I had a car'.",
         "'Would had' is grammatically wrong.",
         "The if-clause never uses 'will'."
       ]
     },
     {
       "question": "If I had wings, I ___ fly everywhere.",
-      "options": ["will", "could", "would have", "can"],
-      "answer": 1,
+      "options": ["will", "would have", "could", "can"],
+      "answer": 2,
       "explanations": [
         "'Will' belongs to the first conditional.",
-        "Correct! 'Could' can replace 'would' in the result: 'I could fly'.",
         "'Would have' belongs to the third conditional.",
+        "Correct! 'Could' can replace 'would' in the result: 'I could fly'.",
         "'Can' is a real-future modal, not this imaginary result."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'I don't have money, so I can't travel.'",
+      "question": "Choose the sentence with the same meaning as: 'I don't have money, so I can't travel.'",
       "options": [
-        "If I had money, I'd travel.",
         "If I have money, I'll travel.",
+        "If I had money, I'd travel.",
         "If I had had money, I'd have travelled.",
         "I travel if I have money."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! An unreal present situation takes the second conditional: 'If I had money, I'd travel'.",
         "'If I have… I'll travel' is a real future (first conditional), not this imaginary case.",
+        "Correct! An unreal present situation takes the second conditional: 'If I had money, I'd travel'.",
         "'Had had… I'd have travelled' is the third conditional, about the past.",
         "'I travel if I have money' is a zero conditional (a habit)."
       ]
     },
     {
       "question": "It's very unlikely, but if I ___ president, I'd change the law.",
-      "options": ["am", "were", "will be", "would be"],
-      "answer": 1,
+      "options": ["were", "am", "will be", "would be"],
+      "answer": 0,
       "explanations": [
-        "'Am' is present simple, but this is an unlikely, imaginary situation.",
         "Correct! An unlikely situation takes 'were' for all subjects: 'if I were president'.",
+        "'Am' is present simple, but this is an unlikely, imaginary situation.",
         "The if-clause never uses 'will'.",
         "The if-clause never uses 'would'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If I ___ a car, I would drive to work. (have)",
+      "hint": "Use the past simple.",
+      "answers": ["had"],
+      "explanation": "Second conditional: if + past simple, would + verb.",
+      "common": [
+        {"answer": "have", "why": "For an unreal situation the if-clause uses the past simple: had."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If I would win, I'd be happy.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["If I won, I'd be happy", "If I won, I would be happy"],
+      "explanation": "We don't use 'would' in the if-clause."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "What ___ you do if you won the lottery?",
+      "hint": "Type would or will.",
+      "answers": ["would"],
+      "explanation": "Second conditional result clause: would + verb.",
+      "common": [
+        {"answer": "will", "why": "'Will' is for real, likely situations. 'If you won' is imaginary, so 'would'."}
       ]
     }
   ]

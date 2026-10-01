@@ -16,68 +16,68 @@
     },
     {
       "question": "Look at ___ birds in the sky over there.",
-      "options": ["those", "these", "this", "that"],
-      "answer": 0,
+      "options": ["these", "those", "this", "that"],
+      "answer": 1,
       "explanations": [
-        "Correct! Far + plural = 'those birds'.",
         "'These' is for near things.",
+        "Correct! Far + plural = 'those birds'.",
         "'This' is singular.",
         "'That' is singular."
       ]
     },
     {
       "question": "___ shoes I'm wearing are new.",
-      "options": ["These", "This", "That", "Those"],
-      "answer": 0,
+      "options": ["Those", "This", "That", "These"],
+      "answer": 3,
       "explanations": [
-        "Correct! Near + plural = 'these shoes'.",
+        "'Those' is far.",
         "'This' is singular.",
         "'That' is singular and far.",
-        "'Those' is far."
+        "Correct! Near + plural = 'these shoes'."
       ]
     },
     {
       "question": "Can you see ___ house on the hill?",
-      "options": ["that", "this", "these", "those"],
-      "answer": 0,
+      "options": ["these", "this", "that", "those"],
+      "answer": 2,
       "explanations": [
-        "Correct! Far + singular = 'that house'.",
-        "'This' is for near things.",
         "'These' is plural.",
+        "'This' is for near things.",
+        "Correct! Far + singular = 'that house'.",
         "'Those' is plural."
       ]
     },
     {
       "question": "___ is my sister, Anna. (introducing someone next to you)",
-      "options": ["This", "That", "These", "Those"],
-      "answer": 0,
+      "options": ["That", "This", "These", "Those"],
+      "answer": 1,
       "explanations": [
-        "Correct! We introduce a near person with 'This is…'.",
         "'That is' points to someone further away.",
+        "Correct! We introduce a near person with 'This is…'.",
         "'These' is plural.",
         "'Those' is plural."
       ]
     },
     {
       "question": "Whose keys are ___ on the far table?",
-      "options": ["those", "these", "this", "that"],
-      "answer": 0,
+      "options": ["this", "these", "those", "that"],
+      "answer": 2,
       "explanations": [
-        "Correct! Far + plural (as a pronoun) = 'those'.",
-        "'These' is for near things.",
         "'This' is singular.",
+        "'These' is for near things.",
+        "Correct! Far + plural (as a pronoun) = 'those'.",
         "'That' is singular."
       ]
     },
     {
       "question": "I love ___ song that's playing right now.",
-      "options": ["this", "these", "those", "that one's"],
-      "answer": 0,
+      "options": ["that one's", "these", "those", "this"],
+      "answer": 3,
       "explanations": [
-        "Correct! Something happening now/near = 'this song'.",
+        "'That one's' doesn't fit before 'song'.",
         "'These' is plural.",
         "'Those' is far and plural.",
-        "'That one's' doesn't fit before 'song'."
+        "Correct! Something happening now/near = 'this song'."
       ]
     },
     {
@@ -92,30 +92,60 @@
       ]
     },
     {
-      "question": "Correct this: 'This apples are sweet.'",
+      "question": "Choose the correct version of: 'This apples are sweet.'",
       "options": [
-        "These apples are sweet.",
+        "The sentence is already correct.",
         "This apples are sweet.",
         "That apples are sweet.",
-        "The sentence is already correct."
+        "These apples are sweet."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Plural noun needs a plural demonstrative: 'These apples'.",
+        "'This apples' mismatches number.",
         "'This' can't go with the plural 'apples'.",
         "'That' is also singular.",
-        "'This apples' mismatches number."
+        "Correct! Plural noun needs a plural demonstrative: 'These apples'."
       ]
     },
     {
       "question": "Which pair is NEAR + PLURAL?",
-      "options": ["these", "this", "that", "those"],
-      "answer": 0,
+      "options": ["that", "this", "these", "those"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'These' = near and plural.",
-        "'This' is near but singular.",
         "'That' is far and singular.",
+        "'This' is near but singular.",
+        "Correct! 'These' = near and plural.",
         "'Those' is far and plural."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Do you like ___ jacket here in my hands?",
+      "hint": "Type this, that, these or those.",
+      "answers": ["this"],
+      "explanation": "One thing, near me: 'this'.",
+      "common": [
+        {"answer": "that", "why": "'That' is for things far away. The jacket is in my hands, so 'this'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I love this books.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I love these books"],
+      "explanation": "'Books' is plural, so 'these'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Look at the mountains far away. Look at ___ mountains!",
+      "hint": "Type this, that, these or those.",
+      "answers": ["those"],
+      "explanation": "Many things, far away: 'those'.",
+      "common": [
+        {"answer": "these", "why": "'These' is for things near you. The mountains are far away, so 'those'."}
       ]
     }
   ]

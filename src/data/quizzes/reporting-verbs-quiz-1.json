@@ -5,83 +5,83 @@
   "items": [
     {
       "question": "\"I'll help you.\" → He offered ___ me.",
-      "options": ["to help", "helping", "help", "that help"],
-      "answer": 0,
+      "options": ["help", "helping", "to help", "that help"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Offer' takes a to-infinitive: 'He offered to help me'.",
-        "'Offer' doesn't take '-ing'.",
         "'Help' is missing 'to'.",
+        "'Offer' doesn't take '-ing'.",
+        "Correct! 'Offer' takes a to-infinitive: 'He offered to help me'.",
         "'Offer that' isn't the usual pattern."
       ]
     },
     {
       "question": "\"You should rest.\" → The doctor advised me ___.",
-      "options": ["to rest", "resting", "rest", "that rest"],
-      "answer": 0,
+      "options": ["that rest", "resting", "rest", "to rest"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Advise + object + to-infinitive': 'advised me to rest'.",
+        "'That rest' isn't correct here.",
         "'-ing' follows 'advise' only without an object (advised resting).",
         "'Rest' is missing 'to'.",
-        "'That rest' isn't correct here."
+        "Correct! 'Advise + object + to-infinitive': 'advised me to rest'."
       ]
     },
     {
       "question": "\"Let's leave early.\" → She suggested ___ early.",
-      "options": ["to leave", "leaving", "me to leave", "leave"],
-      "answer": 1,
+      "options": ["leaving", "to leave", "me to leave", "leave"],
+      "answer": 0,
       "explanations": [
-        "'Suggest' doesn't take a to-infinitive.",
         "Correct! 'Suggest + -ing': 'She suggested leaving early'.",
+        "'Suggest' doesn't take a to-infinitive.",
         "'Suggest me to leave' is a common error — never use an object + to-infinitive.",
         "'Leave' alone doesn't fit the pattern."
       ]
     },
     {
       "question": "\"No, I won't do it.\" → He refused ___ it.",
-      "options": ["to do", "doing", "do", "that do"],
-      "answer": 0,
+      "options": ["doing", "to do", "do", "that do"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Refuse' takes a to-infinitive: 'He refused to do it'.",
         "'Refuse' doesn't take '-ing'.",
+        "Correct! 'Refuse' takes a to-infinitive: 'He refused to do it'.",
         "'Do' is missing 'to'.",
         "'Refuse that' isn't the usual pattern."
       ]
     },
     {
       "question": "\"I'm sorry I'm late.\" → She apologised ___ late.",
-      "options": ["for being", "to be", "being", "that being"],
-      "answer": 0,
+      "options": ["that being", "to be", "being", "for being"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Apologise for + -ing': 'She apologised for being late'.",
+        "'That being' isn't correct here.",
         "'Apologise to be' is wrong.",
         "'Being' is missing the preposition 'for'.",
-        "'That being' isn't correct here."
+        "Correct! 'Apologise for + -ing': 'She apologised for being late'."
       ]
     },
     {
       "question": "\"Don't forget the meeting.\" → He reminded me ___ the meeting.",
-      "options": ["to attend", "attending", "attend", "of attend"],
-      "answer": 0,
+      "options": ["attending", "to attend", "attend", "of attend"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Remind + object + to-infinitive': 'reminded me to attend'.",
         "'-ing' doesn't follow 'remind + object' here.",
+        "Correct! 'Remind + object + to-infinitive': 'reminded me to attend'.",
         "'Attend' is missing 'to'.",
         "'Of attend' is not correct."
       ]
     },
     {
       "question": "\"It was me who broke it.\" → She admitted ___ it.",
-      "options": ["to break", "breaking", "break", "that break"],
-      "answer": 1,
+      "options": ["to break", "break", "breaking", "that break"],
+      "answer": 2,
       "explanations": [
         "'Admit' doesn't take a to-infinitive.",
-        "Correct! 'Admit + -ing': 'She admitted breaking it'.",
         "'Break' alone doesn't fit.",
+        "Correct! 'Admit + -ing': 'She admitted breaking it'.",
         "'That break' isn't correct here."
       ]
     },
     {
-      "question": "Correct this: 'He suggested me to call a taxi.'",
+      "question": "Choose the correct version of: 'He suggested me to call a taxi.'",
       "options": [
         "He suggested calling a taxi.",
         "He suggested me calling a taxi.",
@@ -109,13 +109,40 @@
     },
     {
       "question": "\"You really should apply for it.\" → She encouraged me ___ for it.",
-      "options": ["to apply", "applying", "apply", "for applying"],
-      "answer": 0,
+      "options": ["apply", "applying", "to apply", "for applying"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Encourage + object + to-infinitive': 'encouraged me to apply'.",
-        "'-ing' doesn't follow 'encourage + object'.",
         "'Apply' is missing 'to'.",
+        "'-ing' doesn't follow 'encourage + object'.",
+        "Correct! 'Encourage + object + to-infinitive': 'encouraged me to apply'.",
         "'For applying' is not the right pattern here."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "\"I'll help you,\" he said. → He offered ___ me.",
+      "hint": "Type the missing words.",
+      "answers": ["to help"],
+      "explanation": "Offer + to-infinitive."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "He suggested me to leave.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["He suggested leaving", "He suggested that I leave", "He suggested that I should leave"],
+      "explanation": "'Suggest' takes -ing or a that-clause, never object + to-infinitive."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He apologised ___ being late.",
+      "hint": "Type one word.",
+      "answers": ["for"],
+      "explanation": "Apologise for + -ing.",
+      "common": [
+        {"answer": "about", "why": "The pattern is 'apologise for', not 'apologise about'."}
       ]
     }
   ]

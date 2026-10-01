@@ -16,72 +16,72 @@
     },
     {
       "question": "If you study hard, you ___ the exam.",
-      "options": ["pass", "will pass", "passed", "would pass"],
-      "answer": 1,
+      "options": ["pass", "would pass", "passed", "will pass"],
+      "answer": 3,
       "explanations": [
         "'Pass' (present simple) is for the if-clause, not the result.",
-        "Correct! The result of a first conditional uses 'will': 'you'll pass'.",
+        "'Would pass' belongs to the second conditional, not this real future.",
         "'Passed' is past simple, used in the second conditional.",
-        "'Would pass' belongs to the second conditional, not this real future."
+        "Correct! The result of a first conditional uses 'will': 'you'll pass'."
       ]
     },
     {
       "question": "If I ___ time, I'll call you later.",
-      "options": ["will have", "have", "had", "would have"],
-      "answer": 1,
+      "options": ["will have", "had", "have", "would have"],
+      "answer": 2,
       "explanations": [
         "The if-clause never uses 'will' in the first conditional.",
-        "Correct! The condition uses the present simple: 'If I have time'.",
         "'Had' is past simple, which belongs to the second conditional.",
+        "Correct! The condition uses the present simple: 'If I have time'.",
         "'Would have' belongs to the third conditional."
       ]
     },
     {
       "question": "If we leave now, we ___ the train.",
-      "options": ["catch", "will catch", "caught", "would catch"],
-      "answer": 1,
+      "options": ["will catch", "catch", "caught", "would catch"],
+      "answer": 0,
       "explanations": [
-        "'Catch' (present simple) is for the if-clause, not the result.",
         "Correct! The result uses 'will': 'we'll catch the train'.",
+        "'Catch' (present simple) is for the if-clause, not the result.",
         "'Caught' is past simple, used in the second conditional.",
         "'Would catch' belongs to the second conditional."
       ]
     },
     {
       "question": "If you don't hurry, you ___ the bus.",
-      "options": ["will miss", "miss", "missed", "would miss"],
-      "answer": 0,
+      "options": ["miss", "will miss", "missed", "would miss"],
+      "answer": 1,
       "explanations": [
-        "Correct! A warning about a real future uses 'will': 'you'll miss the bus'.",
         "'Miss' (present simple) is for the if-clause, not the result.",
+        "Correct! A warning about a real future uses 'will': 'you'll miss the bus'.",
         "'Missed' is past simple, used in the second conditional.",
         "'Would miss' belongs to the second conditional."
       ]
     },
     {
       "question": "If she ___ me, I'll help her.",
-      "options": ["will ask", "asks", "asked", "would ask"],
-      "answer": 1,
+      "options": ["will ask", "asked", "asks", "would ask"],
+      "answer": 2,
       "explanations": [
         "The if-clause never uses 'will' in the first conditional.",
-        "Correct! The condition uses the present simple: 'If she asks me'.",
         "'Asked' is past simple, used in the second conditional.",
+        "Correct! The condition uses the present simple: 'If she asks me'.",
         "'Would ask' belongs to the second conditional."
       ]
     },
     {
       "question": "If you finish early, you ___ go home.",
-      "options": ["will", "can", "would", "could have"],
-      "answer": 1,
+      "options": ["will", "could have", "would", "can"],
+      "answer": 3,
       "explanations": [
         "'Will' is possible, but 'can' fits 'be allowed to go home' more naturally here.",
-        "Correct! The result can use a modal like 'can': 'you can go home'.",
+        "'Could have' belongs to the third conditional.",
         "'Would' belongs to the second conditional.",
-        "'Could have' belongs to the third conditional."
+        "Correct! The result can use a modal like 'can': 'you can go home'."
       ]
     },
     {
-      "question": "Correct this: 'If it will be sunny, we'll go to the beach.'",
+      "question": "Choose the correct version of: 'If it will be sunny, we'll go to the beach.'",
       "options": [
         "If it's sunny, we'll go to the beach.",
         "If it will sunny, we go to the beach.",
@@ -97,31 +97,58 @@
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'Hurry up or you'll be late.'",
+      "question": "Choose the sentence with the same meaning as: 'Hurry up or you'll be late.'",
       "options": [
-        "If you hurry up, you'll be late.",
         "If you don't hurry up, you'll be late.",
+        "If you hurry up, you'll be late.",
         "If you hurried up, you'd be late.",
         "You're late if you hurry up."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "'If you hurry up, you'll be late' reverses the meaning.",
         "Correct! 'Hurry or you'll be late' = 'If you don't hurry, you'll be late.'",
+        "'If you hurry up, you'll be late' reverses the meaning.",
         "The second conditional ('hurried… you'd') changes it to an imaginary situation.",
         "This changes the meaning and the logic."
       ]
     },
     {
       "question": "I think it's possible. If I ___ enough money, I'll buy a car.",
-      "options": ["save", "saved", "will save", "would save"],
-      "answer": 0,
+      "options": ["will save", "saved", "save", "would save"],
+      "answer": 2,
       "explanations": [
-        "Correct! A real, likely future takes the present simple in the if-clause: 'If I save'.",
-        "'Saved' is the second conditional, for something imaginary or unlikely.",
         "The if-clause never uses 'will'.",
+        "'Saved' is the second conditional, for something imaginary or unlikely.",
+        "Correct! A real, likely future takes the present simple in the if-clause: 'If I save'.",
         "'Would save' belongs to the second conditional."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If you ___ the bus, you'll be late. (miss)",
+      "hint": "Use the present simple.",
+      "answers": ["miss"],
+      "explanation": "First conditional: if + present simple, will + verb.",
+      "common": [
+        {"answer": "will miss", "why": "We don't use 'will' in the if-clause: if you miss."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If it will rain, we'll cancel the trip.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["If it rains, we'll cancel the trip"],
+      "explanation": "The if-clause uses the present simple, not 'will'."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If I have time, I call you.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["If I have time, I'll call you", "If I have time, I will call you"],
+      "explanation": "The result clause of a first conditional uses 'will'."
     }
   ]
 }

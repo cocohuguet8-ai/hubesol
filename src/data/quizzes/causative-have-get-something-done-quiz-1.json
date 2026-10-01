@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "I don't repair cars myself. I ___ .",
-      "options": ["have my car repaired", "have repaired my car", "have my car repair", "repair my car"],
-      "answer": 0,
+      "options": ["repair my car", "have repaired my car", "have my car repair", "have my car repaired"],
+      "answer": 3,
       "explanations": [
-        "Correct! Causative = have + object + participle: 'have my car repaired'.",
+        "'Repair my car' means you do it yourself.",
         "'Have repaired my car' means you did it yourself.",
         "'Repair' is the base verb; use the participle 'repaired'.",
-        "'Repair my car' means you do it yourself."
+        "Correct! Causative = have + object + participle: 'have my car repaired'."
       ]
     },
     {
@@ -27,12 +27,17 @@
     },
     {
       "question": "We're ___ next week — the walls are looking tired.",
-      "options": ["having the house painted", "painting had the house", "have the house paint", "having painted the house"],
-      "answer": 0,
+      "options": [
+        "have the house paint",
+        "painting had the house",
+        "having the house painted",
+        "having painted the house"
+      ],
+      "answer": 2,
       "explanations": [
-        "Correct! Continuous causative: 'having the house painted'.",
-        "'Painting had the house' is not correct word order.",
         "'Have the house paint' uses the base verb.",
+        "'Painting had the house' is not correct word order.",
+        "Correct! Continuous causative: 'having the house painted'.",
         "'Having painted the house' means you painted it yourself."
       ]
     },
@@ -60,73 +65,105 @@
     },
     {
       "question": "I need to ___ before my trip.",
-      "options": ["get my passport renewed", "get renew my passport", "renew got my passport", "get my passport renew"],
-      "answer": 0,
+      "options": [
+        "get renew my passport",
+        "get my passport renewed",
+        "renew got my passport",
+        "get my passport renew"
+      ],
+      "answer": 1,
       "explanations": [
-        "Correct! Causative with 'get': 'get my passport renewed'.",
         "'Get renew my passport' has the wrong structure.",
+        "Correct! Causative with 'get': 'get my passport renewed'.",
         "'Renew got my passport' is not correct.",
         "'Renew' is the base verb; use 'renewed'."
       ]
     },
     {
-      "question": "Correct this: 'He had his tooth remove yesterday.'",
+      "question": "Choose the correct version of: 'He had his tooth remove yesterday.'",
       "options": [
-        "He had his tooth removed yesterday.",
+        "The sentence is already correct.",
         "He had removed his tooth yesterday.",
         "He has his tooth remove yesterday.",
-        "The sentence is already correct."
+        "He had his tooth removed yesterday."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Use the past participle: 'had his tooth removed'.",
+        "'Remove' should be the participle 'removed'.",
         "'Had removed his tooth' means he did it himself.",
         "'Has ... remove' uses the wrong tense and base verb.",
-        "'Remove' should be the participle 'removed'."
+        "Correct! Use the past participle: 'had his tooth removed'."
       ]
     },
     {
       "question": "What does 'I had my windows cleaned' mean?",
       "options": [
-        "Someone cleaned the windows for me.",
-        "I cleaned the windows myself.",
         "I will clean the windows.",
+        "I cleaned the windows myself.",
+        "Someone cleaned the windows for me.",
         "My windows clean themselves."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! The causative means someone did it for you.",
-        "That would be 'I cleaned my windows'.",
         "This is past, not future.",
+        "That would be 'I cleaned my windows'.",
+        "Correct! The causative means someone did it for you.",
         "Windows don't clean themselves."
       ]
     },
     {
       "question": "Put the tense correctly: 'She ___ her eyes tested every year.'",
-      "options": ["has", "having", "had been", "is have"],
-      "answer": 0,
+      "options": ["is have", "having", "had been", "has"],
+      "answer": 3,
       "explanations": [
-        "Correct! A yearly habit takes the present: 'She has her eyes tested every year'.",
+        "'Is have' is not correct English.",
         "'Having' can't stand alone as the main verb here.",
         "'Had been' doesn't fit a present habit.",
-        "'Is have' is not correct English."
+        "Correct! A yearly habit takes the present: 'She has her eyes tested every year'."
       ]
     },
     {
       "question": "Which sentence means you did the work YOURSELF?",
       "options": [
-        "I painted the fence.",
-        "I had the fence painted.",
         "I got the fence painted.",
+        "I had the fence painted.",
+        "I painted the fence.",
         "I'm having the fence painted."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! 'I painted the fence' — you did it.",
-        "'Had the fence painted' means someone did it for you.",
         "'Got the fence painted' means someone did it for you.",
+        "'Had the fence painted' means someone did it for you.",
+        "Correct! 'I painted the fence' — you did it.",
         "'Having the fence painted' means someone is doing it for you."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I had my car ___ yesterday. (repair)",
+      "hint": "Type the correct form of the verb.",
+      "answers": ["repaired"],
+      "explanation": "Have + object + past participle: had my car repaired.",
+      "common": [
+        {"answer": "repair", "why": "After the object we need the past participle: repaired."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I had repaired my car yesterday. (A mechanic did it.)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I had my car repaired yesterday"],
+      "explanation": "Object first, then the past participle: had my car repaired."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "A hairdresser cut my hair yesterday. → I ___ my hair cut yesterday.",
+      "hint": "Type one word.",
+      "answers": ["had", "got"],
+      "explanation": "Have/get + object + past participle: I had (or got) my hair cut."
     }
   ]
 }

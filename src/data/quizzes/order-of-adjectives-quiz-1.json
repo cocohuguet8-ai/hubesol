@@ -16,33 +16,33 @@
     },
     {
       "question": "They live in a ___ house.",
-      "options": ["big old", "old big", "big, old-ish", "old, big well"],
-      "answer": 0,
+      "options": ["old, big well", "old big", "big, old-ish", "big old"],
+      "answer": 3,
       "explanations": [
-        "Correct! Size before age: 'a big old house'.",
+        "Age shouldn't come before size.",
         "'Old big' reverses the order.",
         "This adds odd extra words.",
-        "Age shouldn't come before size."
+        "Correct! Size before age: 'a big old house'."
       ]
     },
     {
       "question": "He bought a ___ table.",
-      "options": ["round wooden", "wooden round", "wood round", "round, wooden-ish"],
-      "answer": 0,
+      "options": ["wood round", "wooden round", "round wooden", "round, wooden-ish"],
+      "answer": 2,
       "explanations": [
-        "Correct! Shape before material: 'a round wooden table'.",
-        "'Wooden round' reverses the order.",
         "'Wood round' uses the noun 'wood' as an adjective incorrectly here.",
+        "'Wooden round' reverses the order.",
+        "Correct! Shape before material: 'a round wooden table'.",
         "This adds odd extra words."
       ]
     },
     {
       "question": "I need a ___ bag.",
-      "options": ["small black leather", "leather black small", "black small leather", "leather small black"],
-      "answer": 0,
+      "options": ["leather black small", "small black leather", "black small leather", "leather small black"],
+      "answer": 1,
       "explanations": [
-        "Correct! Size → colour → material: 'a small black leather bag'.",
         "This reverses the whole order.",
+        "Correct! Size → colour → material: 'a small black leather bag'.",
         "Colour shouldn't come before size.",
         "Material shouldn't come first."
       ]
@@ -60,68 +60,90 @@
     },
     {
       "question": "She drives an ___ car.",
-      "options": ["expensive new Italian", "Italian new expensive", "new expensive Italian", "Italian expensive new"],
-      "answer": 0,
+      "options": ["new expensive Italian", "Italian new expensive", "expensive new Italian", "Italian expensive new"],
+      "answer": 2,
       "explanations": [
-        "Correct! Opinion → age → origin: 'an expensive new Italian car'.",
-        "This reverses the order.",
         "Opinion should come before age.",
+        "This reverses the order.",
+        "Correct! Opinion → age → origin: 'an expensive new Italian car'.",
         "Origin shouldn't come first."
       ]
     },
     {
       "question": "We sat at a ___ table.",
-      "options": ["long narrow wooden", "wooden narrow long", "narrow wooden long", "wooden long narrow"],
-      "answer": 0,
+      "options": ["wooden narrow long", "long narrow wooden", "narrow wooden long", "wooden long narrow"],
+      "answer": 1,
       "explanations": [
-        "Correct! Size → shape → material: 'a long narrow wooden table'.",
         "This reverses the order.",
+        "Correct! Size → shape → material: 'a long narrow wooden table'.",
         "Material shouldn't come in the middle like that.",
         "Material shouldn't come first."
       ]
     },
     {
-      "question": "Correct this: 'a red beautiful jumper'",
+      "question": "Choose the correct version of: 'a red beautiful jumper'",
       "options": [
-        "a beautiful red jumper",
+        "a jumper beautiful red",
         "a red beautiful jumper",
         "a beautiful, red-ish jumper",
-        "a jumper beautiful red"
+        "a beautiful red jumper"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Opinion before colour: 'a beautiful red jumper'.",
+        "Adjectives go before the noun, in order.",
         "This keeps colour before opinion.",
         "This adds odd extra words.",
-        "Adjectives go before the noun, in order."
+        "Correct! Opinion before colour: 'a beautiful red jumper'."
       ]
     },
     {
-      "question": "Correct this: 'a plastic small box'",
-      "options": [
-        "a small plastic box",
-        "a plastic small box",
-        "a small, plastic-ish box",
-        "a box small plastic"
-      ],
-      "answer": 0,
+      "question": "Choose the correct version of: 'a plastic small box'",
+      "options": ["a small, plastic-ish box", "a plastic small box", "a small plastic box", "a box small plastic"],
+      "answer": 2,
       "explanations": [
-        "Correct! Size before material: 'a small plastic box'.",
-        "This keeps material before size.",
         "This adds odd extra words.",
+        "This keeps material before size.",
+        "Correct! Size before material: 'a small plastic box'.",
         "Adjectives go before the noun."
       ]
     },
     {
       "question": "Which type of adjective usually comes FIRST?",
-      "options": ["opinion", "material", "colour", "origin"],
-      "answer": 0,
+      "options": ["origin", "material", "colour", "opinion"],
+      "answer": 3,
       "explanations": [
-        "Correct! Opinion adjectives come first (lovely, nice).",
+        "Origin comes after colour.",
         "Material comes near the noun.",
         "Colour comes in the middle of the order.",
-        "Origin comes after colour."
+        "Correct! Opinion adjectives come first (lovely, nice)."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I saw a ___ cat.",
+      "hint": "Put the words in the right order: black, lovely.",
+      "answers": ["lovely black"],
+      "explanation": "Opinion comes before colour: a lovely black cat.",
+      "common": [
+        {"answer": "black lovely", "why": "The usual order is opinion → colour, so 'lovely black'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She wore a red lovely dress.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She wore a lovely red dress"],
+      "explanation": "Opinion comes before colour: a lovely red dress."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "He bought a wooden round table.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["He bought a round wooden table"],
+      "explanation": "Shape comes before material: a round wooden table."
     }
   ]
 }

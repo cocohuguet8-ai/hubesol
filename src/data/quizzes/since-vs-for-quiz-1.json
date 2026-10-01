@@ -16,13 +16,13 @@
     },
     {
       "question": "We've been married ___ ten years.",
-      "options": ["since", "for", "from", "by"],
-      "answer": 1,
+      "options": ["since", "by", "from", "for"],
+      "answer": 3,
       "explanations": [
         "'Since' needs a starting point (since 2015), not a period.",
-        "Correct! 'Ten years' is a length of time, so use 'for'.",
+        "'By' marks a deadline, not a duration.",
         "'From' isn't used here. The pattern is 'for' + period.",
-        "'By' marks a deadline, not a duration."
+        "Correct! 'Ten years' is a length of time, so use 'for'."
       ]
     },
     {
@@ -38,35 +38,35 @@
     },
     {
       "question": "He waited ___ an hour and then left.",
-      "options": ["since", "for", "from", "at"],
-      "answer": 1,
+      "options": ["since", "from", "for", "at"],
+      "answer": 2,
       "explanations": [
         "'Since' needs a starting point, not a length of time.",
-        "Correct! 'An hour' is a period, so use 'for'.",
         "'From' isn't used this way. Use 'for'.",
+        "Correct! 'An hour' is a period, so use 'for'.",
         "'At' marks a point in time (at three), not a duration."
       ]
     },
     {
       "question": "I've known them ___ I was a child.",
-      "options": ["for", "since", "during", "when"],
-      "answer": 1,
+      "options": ["for", "during", "since", "when"],
+      "answer": 2,
       "explanations": [
         "'For' needs a period, but 'I was a child' marks when it started.",
-        "Correct! 'Since' can be followed by a clause that marks the starting point: 'since I was a child'.",
         "'During' would need a noun phrase, not this clause.",
+        "Correct! 'Since' can be followed by a clause that marks the starting point: 'since I was a child'.",
         "'When' would change the structure; the starting point takes 'since'."
       ]
     },
     {
-      "question": "Correct this: 'I've had this car since five years.'",
-      "options": ["for five years", "during five years", "from five years", "by five years"],
-      "answer": 0,
+      "question": "Choose the correct version of: 'I've had this car since five years.'",
+      "options": ["by five years", "during five years", "from five years", "for five years"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Five years' is a length of time, so use 'for five years'.",
+        "'By five years' marks a deadline, not a duration.",
         "'During five years' isn't the natural phrase for duration here.",
         "'From five years' isn't correct English.",
-        "'By five years' marks a deadline, not a duration."
+        "Correct! 'Five years' is a length of time, so use 'for five years'."
       ]
     },
     {
@@ -82,41 +82,68 @@
     },
     {
       "question": "Nothing has changed ___ last summer.",
-      "options": ["for", "since", "during", "by"],
-      "answer": 1,
+      "options": ["since", "for", "during", "by"],
+      "answer": 0,
       "explanations": [
-        "'For' needs a period, but 'last summer' marks when it started.",
         "Correct! 'Last summer' is a starting point, so use 'since'.",
+        "'For' needs a period, but 'last summer' marks when it started.",
         "'During last summer' means within that summer, not up to now.",
         "'By last summer' marks a deadline, not a starting point."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'I started this job in 2019 and I'm still here.'",
+      "question": "Choose the sentence with the same meaning as: 'I started this job in 2019 and I'm still here.'",
       "options": [
-        "I've worked here since 2019.",
+        "I've worked here for 2019.",
         "I work here for 2019.",
         "I worked here since 2019.",
-        "I've worked here for 2019."
+        "I've worked here since 2019."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Started in 2019 and continuing = present perfect + since (a starting point).",
+        "'For 2019' is wrong — 2019 is a starting point, so use 'since'.",
         "'For 2019' is wrong: 2019 is a point, not a period, and the tense is wrong.",
         "'Worked' (past simple) suggests you don't work there now.",
-        "'For 2019' is wrong — 2019 is a starting point, so use 'since'."
+        "Correct! Started in 2019 and continuing = present perfect + since (a starting point)."
       ]
     },
     {
       "question": "We haven't seen each other ___ ages.",
-      "options": ["since", "for", "from", "by"],
-      "answer": 1,
+      "options": ["since", "from", "for", "by"],
+      "answer": 2,
       "explanations": [
         "'Since' needs a starting point, but 'ages' is a length of time.",
-        "Correct! 'Ages' means a long period, so use 'for'.",
         "'From ages' isn't correct English.",
+        "Correct! 'Ages' means a long period, so use 'for'.",
         "'By ages' isn't correct here."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I've lived here ___ 2020.",
+      "hint": "Type since or for.",
+      "answers": ["since"],
+      "explanation": "'Since' + a starting point.",
+      "common": [
+        {"answer": "for", "why": "'For' is used with a period, not a date."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I live here for five years. (still living here)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I've lived here for five years", "I have lived here for five years"],
+      "explanation": "A situation continuing now needs the present perfect."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She's been ill since three days.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She's been ill for three days", "She has been ill for three days"],
+      "explanation": "A period uses 'for'."
     }
   ]
 }

@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "We waited ___ two hours.",
-      "options": ["for", "during", "while", "since"],
-      "answer": 0,
+      "options": ["since", "during", "while", "for"],
+      "answer": 3,
       "explanations": [
-        "Correct! A length of time takes 'for': 'for two hours'.",
+        "'Since' marks a starting point, not a length.",
         "'During' needs an event noun, not a length.",
         "'While' needs a subject and verb.",
-        "'Since' marks a starting point, not a length."
+        "Correct! A length of time takes 'for': 'for two hours'."
       ]
     },
     {
@@ -27,35 +27,35 @@
     },
     {
       "question": "___ I was cooking, the doorbell rang.",
-      "options": ["While", "During", "For", "Since"],
-      "answer": 0,
+      "options": ["For", "During", "While", "Since"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'While' + a clause: 'While I was cooking'.",
-        "'During' takes a noun, not a clause.",
         "'For' answers 'how long'.",
+        "'During' takes a noun, not a clause.",
+        "Correct! 'While' + a clause: 'While I was cooking'.",
         "'Since' marks a starting point."
       ]
     },
     {
       "question": "It snowed ___ the night.",
-      "options": ["during", "for", "while", "at"],
-      "answer": 0,
+      "options": ["for", "during", "while", "at"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'During the night' — a period noun.",
         "'For the night' would mean the whole night as a length, less natural here.",
+        "Correct! 'During the night' — a period noun.",
         "'While' needs a clause.",
         "'At night' is a fixed phrase, but 'during the night' fits 'it snowed' best."
       ]
     },
     {
       "question": "She's been studying English ___ five years.",
-      "options": ["for", "during", "while", "since"],
-      "answer": 0,
+      "options": ["since", "during", "while", "for"],
+      "answer": 3,
       "explanations": [
-        "Correct! A length of time takes 'for': 'for five years'.",
+        "'Since' would need a start point (since 2019).",
         "'During' needs an event noun.",
         "'While' needs a subject and verb.",
-        "'Since' would need a start point (since 2019)."
+        "Correct! A length of time takes 'for': 'for five years'."
       ]
     },
     {
@@ -71,56 +71,86 @@
     },
     {
       "question": "___ waiting for the bus, I listened to a podcast.",
-      "options": ["While", "During", "For", "Since"],
-      "answer": 0,
+      "options": ["During", "While", "For", "Since"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'While + -ing' (same subject): 'While waiting'.",
         "'During waiting' is not natural.",
+        "Correct! 'While + -ing' (same subject): 'While waiting'.",
         "'For waiting' is wrong here.",
         "'Since waiting' is wrong here."
       ]
     },
     {
-      "question": "Correct this: 'I slept during eight hours.'",
+      "question": "Choose the correct version of: 'I slept during eight hours.'",
       "options": [
-        "I slept for eight hours.",
-        "I slept while eight hours.",
         "I slept during eight hours.",
+        "I slept while eight hours.",
+        "I slept for eight hours.",
         "I slept since eight hours."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! A length of time takes 'for': 'for eight hours'.",
-        "'While' needs a clause.",
         "'During' can't take a length of time.",
+        "'While' needs a clause.",
+        "Correct! A length of time takes 'for': 'for eight hours'.",
         "'Since' marks a start point, not a length."
       ]
     },
     {
-      "question": "Correct this: 'The phone rang while the concert.'",
+      "question": "Choose the correct version of: 'The phone rang while the concert.'",
       "options": [
-        "The phone rang during the concert.",
-        "The phone rang for the concert.",
         "The phone rang while the concert.",
+        "The phone rang for the concert.",
+        "The phone rang during the concert.",
         "The phone rang since the concert."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! 'During' + a noun: 'during the concert'.",
-        "'For the concert' changes the meaning.",
         "'While' needs a subject and verb, not just a noun.",
+        "'For the concert' changes the meaning.",
+        "Correct! 'During' + a noun: 'during the concert'.",
         "'Since the concert' marks a start point."
       ]
     },
     {
       "question": "Which word is followed by a subject + verb?",
-      "options": ["while", "during", "for", "at"],
-      "answer": 0,
+      "options": ["during", "while", "for", "at"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'While' is followed by a clause (subject + verb).",
         "'During' is followed by a noun.",
+        "Correct! 'While' is followed by a clause (subject + verb).",
         "'For' is followed by a length of time.",
         "'At' is followed by a time or place noun."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I slept ___ eight hours last night.",
+      "hint": "Type for, during or while.",
+      "answers": ["for"],
+      "explanation": "A length of time, so 'for'.",
+      "common": [
+        {"answer": "during", "why": "'During' goes with a noun like 'the night'. A length of time takes 'for'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I fell asleep while the film.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I fell asleep during the film", "I fell asleep while the film was on"],
+      "explanation": "'While' needs a clause. Before a noun we use 'during'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "___ we were having dinner, the lights went out.",
+      "hint": "Type for, during or while.",
+      "answers": ["While"],
+      "explanation": "'While' + subject + verb: two things at the same time.",
+      "common": [
+        {"answer": "during", "why": "'During' needs a noun. 'We were having dinner' is a clause, so 'while'."}
       ]
     }
   ]

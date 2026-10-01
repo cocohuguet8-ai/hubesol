@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "Which noun is UNCOUNTABLE?",
-      "options": ["information", "book", "chair", "apple"],
-      "answer": 0,
+      "options": ["apple", "book", "chair", "information"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Information' has no plural and takes no a/an.",
+        "'Apple' is countable (an apple).",
         "'Book' is countable (two books).",
         "'Chair' is countable (three chairs).",
-        "'Apple' is countable (an apple)."
+        "Correct! 'Information' has no plural and takes no a/an."
       ]
     },
     {
@@ -27,23 +27,23 @@
     },
     {
       "question": "She gave me some good ___ .",
-      "options": ["advice", "advices", "an advice", "advice's"],
-      "answer": 0,
+      "options": ["advices", "advice", "an advice", "advice's"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Advice' is uncountable — no plural: 'some good advice'.",
         "'Advices' isn't a word.",
+        "Correct! 'Advice' is uncountable — no plural: 'some good advice'.",
         "'An advice' is wrong — advice is uncountable.",
         "'Advice's' is a possessive, not a plural."
       ]
     },
     {
       "question": "We bought some new ___ for the flat.",
-      "options": ["furniture", "furnitures", "a furniture", "furnitur"],
-      "answer": 0,
+      "options": ["a furniture", "furnitures", "furniture", "furnitur"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Furniture' is uncountable: 'some new furniture'.",
-        "'Furnitures' isn't a word.",
         "'A furniture' is wrong; say 'a piece of furniture'.",
+        "'Furnitures' isn't a word.",
+        "Correct! 'Furniture' is uncountable: 'some new furniture'.",
         "'Furnitur' is a misspelling."
       ]
     },
@@ -60,67 +60,97 @@
     },
     {
       "question": "How ___ money do you have?",
-      "options": ["much", "many", "a lot", "few"],
-      "answer": 0,
+      "options": ["a lot", "many", "much", "few"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Money' is uncountable, so 'how much'.",
-        "'Many' is for countable nouns.",
         "'How a lot' is not correct.",
+        "'Many' is for countable nouns.",
+        "Correct! 'Money' is uncountable, so 'how much'.",
         "'Few' is for countable nouns."
       ]
     },
     {
       "question": "Choose the unit to count 'bread'.",
-      "options": ["a slice of bread", "a bread", "two breads", "a piece bread"],
-      "answer": 0,
+      "options": ["a bread", "a slice of bread", "two breads", "a piece bread"],
+      "answer": 1,
       "explanations": [
-        "Correct! Use a unit: 'a slice of bread' (or a loaf).",
         "'A bread' is not standard.",
+        "Correct! Use a unit: 'a slice of bread' (or a loaf).",
         "'Two breads' is not standard.",
         "'A piece bread' is missing 'of'."
       ]
     },
     {
       "question": "There ___ some good news today.",
-      "options": ["is", "are", "were being", "have"],
-      "answer": 0,
+      "options": ["have", "are", "were being", "is"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'News' is uncountable and singular: 'There is some good news'.",
+        "'Have' doesn't fit 'there ___ some news'.",
         "'Are' treats news as plural, but it's uncountable.",
         "'Were being' is not correct here.",
-        "'Have' doesn't fit 'there ___ some news'."
+        "Correct! 'News' is uncountable and singular: 'There is some good news'."
       ]
     },
     {
-      "question": "Correct this: 'I need to buy two furnitures.'",
+      "question": "Choose the correct version of: 'I need to buy two furnitures.'",
       "options": [
-        "I need to buy two pieces of furniture.",
+        "The sentence is already correct.",
         "I need to buy two furniture.",
         "I need to buy a two furnitures.",
-        "The sentence is already correct."
+        "I need to buy two pieces of furniture."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Count uncountables with a unit: 'two pieces of furniture'.",
+        "'Furnitures' isn't a word.",
         "'Two furniture' still can't take a number directly.",
         "'A two furnitures' is not correct.",
-        "'Furnitures' isn't a word."
+        "Correct! Count uncountables with a unit: 'two pieces of furniture'."
       ]
     },
     {
       "question": "How can you tell a noun is countable?",
       "options": [
-        "You can put a number directly in front (three cars).",
-        "It never takes 'the'.",
         "It has no plural.",
+        "It never takes 'the'.",
+        "You can put a number directly in front (three cars).",
         "It always takes 'much'."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! If a number fits directly in front, it's countable.",
-        "Countable nouns can take 'the' (the car).",
         "Countable nouns do have a plural.",
+        "Countable nouns can take 'the' (the car).",
+        "Correct! If a number fits directly in front, it's countable.",
         "'Much' goes with uncountable nouns."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Can I have ___ advice, please?",
+      "hint": "Type a, an or some.",
+      "answers": ["some"],
+      "explanation": "'Advice' is uncountable, so we use 'some', not a/an.",
+      "common": [
+        {"answer": "an", "why": "'Advice' is uncountable, so it can't take a/an."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She gave me some advices.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She gave me some advice"],
+      "explanation": "'Advice' is uncountable, so it has no plural."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "How ___ money do you have?",
+      "hint": "Type much or many.",
+      "answers": ["much"],
+      "explanation": "'Money' is uncountable, so 'how much'.",
+      "common": [
+        {"answer": "many", "why": "'Money' is uncountable, so we say 'how much'."}
       ]
     }
   ]

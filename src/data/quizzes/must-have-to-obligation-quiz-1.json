@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "It's the law: you ___ wear a seatbelt.",
-      "options": ["must", "mustn't", "don't have to", "haven't to"],
-      "answer": 0,
+      "options": ["haven't to", "mustn't", "don't have to", "must"],
+      "answer": 3,
       "explanations": [
-        "Correct! A strong rule takes 'must': 'You must wear a seatbelt'.",
+        "'Haven't to' is not correct English.",
         "'Mustn't' would forbid wearing one.",
         "'Don't have to' would mean it's optional.",
-        "'Haven't to' is not correct English."
+        "Correct! A strong rule takes 'must': 'You must wear a seatbelt'."
       ]
     },
     {
@@ -27,88 +27,88 @@
     },
     {
       "question": "Great news — the entry is free, so you ___ pay.",
-      "options": ["mustn't", "don't have to", "must", "have to"],
-      "answer": 1,
+      "options": ["don't have to", "mustn't", "must", "have to"],
+      "answer": 0,
       "explanations": [
-        "'Mustn't pay' would mean paying is forbidden.",
         "Correct! No necessity takes 'don't have to': 'You don't have to pay'.",
+        "'Mustn't pay' would mean paying is forbidden.",
         "'Must pay' is an obligation to pay.",
         "'Have to pay' is an obligation to pay."
       ]
     },
     {
       "question": "My boss says I ___ work this Saturday.",
-      "options": ["have to", "must to", "mustn't", "am must"],
-      "answer": 0,
+      "options": ["mustn't", "must to", "have to", "am must"],
+      "answer": 2,
       "explanations": [
-        "Correct! Obligation from outside (the boss) takes 'have to': 'I have to work'.",
-        "Never add 'to' after 'must'.",
         "'Mustn't' would forbid working.",
+        "Never add 'to' after 'must'.",
+        "Correct! Obligation from outside (the boss) takes 'have to': 'I have to work'.",
         "'Am must' is not correct English."
       ]
     },
     {
       "question": "Yesterday I ___ leave early to catch a train.",
-      "options": ["must", "had to", "have to", "must to"],
-      "answer": 1,
+      "options": ["must", "must to", "have to", "had to"],
+      "answer": 3,
       "explanations": [
         "'Must' has no past form.",
-        "Correct! Past obligation takes 'had to': 'I had to leave early'.",
+        "Never add 'to' after 'must'.",
         "'Have to' is present; this is past ('yesterday').",
-        "Never add 'to' after 'must'."
+        "Correct! Past obligation takes 'had to': 'I had to leave early'."
       ]
     },
     {
       "question": "She ___ finish the report; it's due at noon.",
-      "options": ["has to", "have to", "must to", "haves to"],
-      "answer": 0,
+      "options": ["must to", "have to", "has to", "haves to"],
+      "answer": 2,
       "explanations": [
-        "Correct! With he/she/it, 'have to' becomes 'has to': 'She has to finish'.",
-        "'Have to' doesn't agree with 'she'.",
         "Never add 'to' after 'must'.",
+        "'Have to' doesn't agree with 'she'.",
+        "Correct! With he/she/it, 'have to' becomes 'has to': 'She has to finish'.",
         "'Haves to' is not a word."
       ]
     },
     {
       "question": "Which sentence means it is NOT necessary?",
       "options": [
-        "You mustn't tell anyone.",
         "You don't have to tell anyone.",
+        "You mustn't tell anyone.",
         "You must tell everyone.",
         "You have to tell someone."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "'Mustn't tell' means telling is forbidden.",
         "Correct! 'Don't have to tell' = it isn't necessary (but you can).",
+        "'Mustn't tell' means telling is forbidden.",
         "'Must tell' is an obligation.",
         "'Have to tell' is an obligation."
       ]
     },
     {
-      "question": "Correct this: 'You must to book a table.'",
+      "question": "Choose the correct version of: 'You must to book a table.'",
       "options": [
-        "You must book a table.",
         "You musts book a table.",
+        "You must book a table.",
         "You must booking a table.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'Must' takes the base verb with no 'to': 'You must book'.",
         "Modals never add -s.",
+        "Correct! 'Must' takes the base verb with no 'to': 'You must book'.",
         "Use the base verb, not '-ing', after a modal.",
         "'Must to book' wrongly adds 'to'."
       ]
     },
     {
       "question": "___ I wear a tie, or is it optional?",
-      "options": ["Do I have to", "Must to I", "Have I to", "Am I have to"],
-      "answer": 0,
+      "options": ["Have I to", "Must to I", "Do I have to", "Am I have to"],
+      "answer": 2,
       "explanations": [
-        "Correct! Questions with 'have to' use 'do': 'Do I have to wear a tie?'",
-        "'Must to' is never correct.",
         "'Have I to' is old-fashioned and rare.",
+        "'Must to' is never correct.",
+        "Correct! Questions with 'have to' use 'do': 'Do I have to wear a tie?'",
         "'Am I have to' is not correct English."
       ]
     },
@@ -121,6 +121,36 @@
         "Correct! A rule forbidding it takes 'mustn't': 'They mustn't shout'.",
         "'Must shout' is an obligation to shout.",
         "'Haven't to' is not correct English."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Yesterday I ___ work late. (obligation, past)",
+      "hint": "Type two words.",
+      "answers": ["had to"],
+      "explanation": "The past of 'must' and 'have to' is 'had to'.",
+      "common": [
+        {"answer": "must", "why": "'Must' has no past form. Use 'had to'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "You mustn't pay. It's free.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["You don't have to pay. It's free", "You don't have to pay, it's free"],
+      "explanation": "Not necessary = 'don't have to'. 'Mustn't' means forbidden."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Passengers ___ show their passports. It's the law.",
+      "hint": "Type two words.",
+      "answers": ["have to", "must"],
+      "explanation": "Obligation: have to (external) or must.",
+      "common": [
+        {"answer": "mustn't", "why": "'Mustn't' means forbidden, the opposite of the law here."}
       ]
     }
   ]

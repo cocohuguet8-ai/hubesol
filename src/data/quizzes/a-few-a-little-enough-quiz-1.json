@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "Add ___ salt to the soup.",
-      "options": ["a little", "a few", "few", "many"],
-      "answer": 0,
+      "options": ["many", "a few", "few", "a little"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Salt' is uncountable: 'a little salt'.",
+        "'Many' is for countable plurals.",
         "'A few' is for countable plurals.",
         "'Few' is for countable plurals and is negative.",
-        "'Many' is for countable plurals."
+        "Correct! 'Salt' is uncountable: 'a little salt'."
       ]
     },
     {
@@ -27,33 +27,33 @@
     },
     {
       "question": "___ people came, so the room felt empty. (negative)",
-      "options": ["Few", "A few", "A little", "Much"],
-      "answer": 0,
+      "options": ["A few", "Few", "A little", "Much"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Few' (no 'a') is negative — almost none.",
         "'A few' is positive — it wouldn't fit 'empty'.",
+        "Correct! 'Few' (no 'a') is negative — almost none.",
         "'A little' is for uncountable nouns.",
         "'Much' is for uncountable nouns."
       ]
     },
     {
       "question": "There's ___ hope of finding it now. (negative)",
-      "options": ["little", "a little", "few", "a few"],
-      "answer": 0,
+      "options": ["few", "a little", "little", "a few"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Little' (no 'a') is negative: almost no hope.",
-        "'A little' would be positive.",
         "'Few' is for countable nouns.",
+        "'A little' would be positive.",
+        "Correct! 'Little' (no 'a') is negative: almost no hope.",
         "'A few' is for countable nouns."
       ]
     },
     {
       "question": "Are there ___ chairs for everyone?",
-      "options": ["enough", "a little", "much", "little"],
-      "answer": 0,
+      "options": ["a little", "enough", "much", "little"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Enough' = as many as needed: 'enough chairs'.",
         "'A little' is for uncountable nouns.",
+        "Correct! 'Enough' = as many as needed: 'enough chairs'.",
         "'Much' is for uncountable nouns.",
         "'Little' is for uncountable nouns."
       ]
@@ -71,40 +71,40 @@
     },
     {
       "question": "He's not ___ to drive yet.",
-      "options": ["old enough", "enough old", "a little old", "few old"],
-      "answer": 0,
+      "options": ["few old", "enough old", "a little old", "old enough"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Enough' goes after an adjective: 'old enough'.",
+        "'Few old' is not correct.",
         "'Enough old' is the wrong order.",
         "'A little old' changes the meaning.",
-        "'Few old' is not correct."
+        "Correct! 'Enough' goes after an adjective: 'old enough'."
       ]
     },
     {
       "question": "Would you like ___ more coffee?",
-      "options": ["a little", "a few", "many", "few"],
-      "answer": 0,
+      "options": ["many", "a few", "a little", "few"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Coffee' is uncountable: 'a little more coffee'.",
-        "'A few' is for countable plurals.",
         "'Many' is for countable plurals.",
+        "'A few' is for countable plurals.",
+        "Correct! 'Coffee' is uncountable: 'a little more coffee'.",
         "'Few' is for countable plurals and is negative."
       ]
     },
     {
-      "question": "Correct this: 'I have a few informations for you.'",
+      "question": "Choose the correct version of: 'I have a few informations for you.'",
       "options": [
-        "I have a little information for you.",
+        "The sentence is already correct.",
         "I have a few information for you.",
         "I have few informations for you.",
-        "The sentence is already correct."
+        "I have a little information for you."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'Information' is uncountable: 'a little information'.",
+        "'A few informations' is incorrect.",
         "'A few' can't go with an uncountable noun.",
         "'Informations' isn't a word.",
-        "'A few informations' is incorrect."
+        "Correct! 'Information' is uncountable: 'a little information'."
       ]
     },
     {
@@ -122,6 +122,33 @@
         "Both go with countable plurals.",
         "It's the opposite — 'a few' is the positive one."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "There isn't much time, but we have ___ minutes to talk.",
+      "hint": "Type a few or a little.",
+      "answers": ["a few"],
+      "explanation": "'Minutes' is countable and plural, so 'a few'.",
+      "common": [
+        {"answer": "a little", "why": "'A little' is for uncountable nouns. 'Minutes' is countable, so 'a few'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I need a few water.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I need a little water", "I need some water"],
+      "explanation": "'Water' is uncountable, so 'a little' (or 'some'), not 'a few'."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "I don't have money enough for a taxi. → I don't have ___ money for a taxi.",
+      "hint": "Type one word.",
+      "answers": ["enough"],
+      "explanation": "'Enough' goes before the noun: enough money."
     }
   ]
 }

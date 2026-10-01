@@ -16,24 +16,24 @@
     },
     {
       "question": "She ___ to Paris in 2019.",
-      "options": ["goed", "went", "gone", "going"],
-      "answer": 1,
+      "options": ["goed", "gone", "went", "going"],
+      "answer": 2,
       "explanations": [
         "'Go' is irregular, so it doesn't add -ed. The past form is 'went', not 'goed'.",
-        "Correct! 'Go' is irregular: its past simple form is 'went'.",
         "'Gone' is the past participle (used with have/has). The past simple is 'went'.",
+        "Correct! 'Go' is irregular: its past simple form is 'went'.",
         "'Going' needs an auxiliary. A finished action in 2019 takes 'went'."
       ]
     },
     {
       "question": "They ___ the message.",
-      "options": ["didn't saw", "didn't see", "don't saw", "not saw"],
-      "answer": 1,
+      "options": ["didn't saw", "not saw", "don't saw", "didn't see"],
+      "answer": 3,
       "explanations": [
         "After 'didn't' the verb goes back to its base form: 'see', not 'saw'.",
-        "Correct! Negatives use didn't + base verb: 'didn't see'. 'Did' already carries the past.",
+        "English needs the auxiliary 'did' in the negative: 'didn't see', not just 'not saw'.",
         "'Don't' is present simple, and 'saw' can't follow it. The past negative is 'didn't see'.",
-        "English needs the auxiliary 'did' in the negative: 'didn't see', not just 'not saw'."
+        "Correct! Negatives use didn't + base verb: 'didn't see'. 'Did' already carries the past."
       ]
     },
     {
@@ -49,33 +49,33 @@
     },
     {
       "question": "I ___ him at the station yesterday.",
-      "options": ["have seen", "saw", "has seen", "see"],
-      "answer": 1,
+      "options": ["have seen", "has seen", "saw", "see"],
+      "answer": 2,
       "explanations": [
         "'Yesterday' is a finished time, so the present perfect is impossible here. Use 'saw'.",
-        "Correct! A finished-time expression like 'yesterday' always takes the past simple: 'saw'.",
         "'Has seen' doesn't agree with 'I', and 'yesterday' needs the past simple anyway.",
+        "Correct! A finished-time expression like 'yesterday' always takes the past simple: 'saw'.",
         "'See' is the base present form. A completed action yesterday takes 'saw'."
       ]
     },
     {
       "question": "He ___ a new car last month.",
-      "options": ["buyed", "bought", "buy", "buys"],
-      "answer": 1,
+      "options": ["buyed", "buys", "buy", "bought"],
+      "answer": 3,
       "explanations": [
         "'Buy' is irregular, so it doesn't add -ed. The past is 'bought', not 'buyed'.",
-        "Correct! 'Buy' is irregular: the past simple is 'bought'.",
+        "'Buys' is present simple. A finished action last month takes 'bought'.",
         "'Buy' is the base form. 'Last month' is finished time, so use 'bought'.",
-        "'Buys' is present simple. A finished action last month takes 'bought'."
+        "Correct! 'Buy' is irregular: the past simple is 'bought'."
       ]
     },
     {
       "question": "The past simple of 'study' is ___.",
-      "options": ["studyed", "studied", "studed", "studies"],
-      "answer": 1,
+      "options": ["studied", "studyed", "studed", "studies"],
+      "answer": 0,
       "explanations": [
-        "When a verb ends in consonant + -y, the -y changes to -ied: not 'studyed'.",
         "Correct! Consonant + -y becomes -ied: study → studied.",
+        "When a verb ends in consonant + -y, the -y changes to -ied: not 'studyed'.",
         "'Studed' drops too much. The rule is -y → -ied: studied.",
         "'Studies' is present simple (he/she/it). The past simple is 'studied'."
       ]
@@ -92,31 +92,58 @@
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'It's ten years since I last saw her.'",
+      "question": "Choose the sentence with the same meaning as: 'It's ten years since I last saw her.'",
       "options": [
-        "I last saw her ten years ago.",
         "I haven't seen her for ten years ago.",
+        "I last saw her ten years ago.",
         "I have seen her ten years ago.",
         "I didn't see her ten years ago."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'It's ten years since I last saw her' = 'I last saw her ten years ago' — a finished action with 'ago' takes the past simple.",
         "'For … ago' mixes two structures and isn't correct English.",
+        "Correct! 'It's ten years since I last saw her' = 'I last saw her ten years ago' — a finished action with 'ago' takes the past simple.",
         "'Ago' marks finished time, so it can't go with the present perfect 'have seen'.",
         "'Didn't see' means the meeting never happened, but the original says it did — ten years ago."
       ]
     },
     {
       "question": "When the phone rang, I ___ it immediately.",
-      "options": ["was answering", "answered", "answer", "have answered"],
-      "answer": 1,
+      "options": ["answered", "was answering", "answer", "have answered"],
+      "answer": 0,
       "explanations": [
-        "'Was answering' suggests an action already in progress, but answering was a quick reaction to the ring.",
         "Correct! Two completed past actions in sequence (rang, then answered) both take the past simple.",
+        "'Was answering' suggests an action already in progress, but answering was a quick reaction to the ring.",
         "'Answer' is the base present form. The action happened in the past: 'answered'.",
         "'Have answered' is present perfect. With a finished past sequence, use the past simple: 'answered'."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "We ___ a great film last night. (watch)",
+      "hint": "Type the past simple.",
+      "answers": ["watched"],
+      "explanation": "Finished time: past simple.",
+      "common": [
+        {"answer": "have watched", "why": "'Last night' is finished time: watched."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Did you went to the party?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Did you go to the party"],
+      "explanation": "After 'did' use the base form."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I didn't saw him.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I didn't see him", "I did not see him"],
+      "explanation": "After 'didn't' use the base form."
     }
   ]
 }

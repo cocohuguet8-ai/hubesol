@@ -5,34 +5,34 @@
   "items": [
     {
       "question": "I ___ this song — turn it up!",
-      "options": ["'m loving", "love", "loves", "was loving"],
-      "answer": 1,
+      "options": ["'m loving", "was loving", "loves", "love"],
+      "answer": 3,
       "explanations": [
         "'Love' is a stative verb (a feeling) and isn't used in the continuous.",
-        "Correct! State verbs like 'love' use the simple: 'I love'.",
+        "'Was loving' is past continuous, but this is a present state.",
         "'Loves' is for he/she/it. With 'I' the form is 'love'.",
-        "'Was loving' is past continuous, but this is a present state."
+        "Correct! State verbs like 'love' use the simple: 'I love'."
       ]
     },
     {
       "question": "She ___ the answer.",
-      "options": ["is knowing", "knows", "know", "was knowing"],
-      "answer": 1,
+      "options": ["knows", "is knowing", "know", "was knowing"],
+      "answer": 0,
       "explanations": [
-        "'Know' is stative and isn't used in the continuous.",
         "Correct! 'Know' uses the simple: 'she knows'.",
+        "'Know' is stative and isn't used in the continuous.",
         "'Know' doesn't agree with 'she'. Use 'knows'.",
         "'Was knowing' isn't used — 'know' avoids the continuous."
       ]
     },
     {
       "question": "Be quiet, please — we ___ lunch right now.",
-      "options": ["have", "are having", "has", "were having"],
-      "answer": 1,
+      "options": ["have", "has", "are having", "were having"],
+      "answer": 2,
       "explanations": [
         "Here 'have' means the action of eating, so it can be continuous.",
-        "Correct! 'Have lunch' is an action, so the continuous is fine: 'are having lunch'.",
         "'Has' is for he/she/it, not 'we'.",
+        "Correct! 'Have lunch' is an action, so the continuous is fine: 'are having lunch'.",
         "'Were having' is past continuous, but this is happening now."
       ]
     },
@@ -60,62 +60,92 @@
     },
     {
       "question": "Ah, I ___ what you mean now.",
-      "options": ["'m seeing", "see", "sees", "saw"],
-      "answer": 1,
+      "options": ["see", "'m seeing", "sees", "saw"],
+      "answer": 0,
       "explanations": [
-        "'See' meaning 'understand' is stative — no continuous.",
         "Correct! 'See' = understand uses the simple: 'I see what you mean'.",
+        "'See' meaning 'understand' is stative — no continuous.",
         "'See' doesn't agree with 'I' as 'sees'; the base form is 'see'.",
         "'Saw' is past simple, but this is a present realisation."
       ]
     },
     {
       "question": "___ you ___ me?",
-      "options": ["Are / believing", "Do / believe", "Are / believe", "Do / believing"],
-      "answer": 1,
+      "options": ["Are / believing", "Do / believing", "Are / believe", "Do / believe"],
+      "answer": 3,
       "explanations": [
         "'Believe' is stative and isn't used in the continuous.",
-        "Correct! State verbs form questions with do/does: 'Do you believe me?'.",
+        "'Do you believing' is wrong — after 'do' use the base form 'believe'.",
         "'Are you believe' mixes structures. Use 'Do you believe?'.",
-        "'Do you believing' is wrong — after 'do' use the base form 'believe'."
+        "Correct! State verbs form questions with do/does: 'Do you believe me?'."
       ]
     },
     {
       "question": "He ___ about changing jobs at the moment.",
-      "options": ["thinks", "is thinking", "think", "thought"],
-      "answer": 1,
+      "options": ["thinks", "think", "is thinking", "thought"],
+      "answer": 2,
       "explanations": [
         "Here 'think' means the process of considering, which can be continuous.",
-        "Correct! 'Think about' (a mental process) can be continuous: 'is thinking about'.",
         "'Think' doesn't agree with 'he'. In this active meaning, use 'is thinking'.",
+        "Correct! 'Think about' (a mental process) can be continuous: 'is thinking about'.",
         "'Thought' is past simple, but 'at the moment' points to now."
       ]
     },
     {
-      "question": "Rewrite correctly: 'I am not understanding this exercise.'",
+      "question": "Choose the correct version of: 'I am not understanding this exercise.'",
       "options": [
         "I am not understand this exercise.",
-        "I don't understand this exercise.",
+        "I wasn't understanding this exercise.",
         "I not understanding this exercise.",
-        "I wasn't understanding this exercise."
+        "I don't understand this exercise."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanations": [
         "'Am not understand' isn't a valid form.",
-        "Correct! 'Understand' is stative, so use the present simple: 'I don't understand'.",
+        "'Wasn't understanding' is past continuous, and 'understand' avoids the continuous anyway.",
         "'I not understanding' is missing an auxiliary and still uses the continuous.",
-        "'Wasn't understanding' is past continuous, and 'understand' avoids the continuous anyway."
+        "Correct! 'Understand' is stative, so use the present simple: 'I don't understand'."
       ]
     },
     {
       "question": "That ___ like a great idea.",
-      "options": ["is sounding", "sounds", "sound", "sounded"],
-      "answer": 1,
+      "options": ["sounds", "is sounding", "sound", "sounded"],
+      "answer": 0,
       "explanations": [
-        "'Sound' meaning 'seem' is stative — no continuous.",
         "Correct! 'Sound' (an impression) uses the simple: 'sounds like a great idea'.",
+        "'Sound' meaning 'seem' is stative — no continuous.",
         "'Sound' doesn't agree with 'that'. Use 'sounds'.",
         "'Sounded' is past simple, but this is a present impression."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I ___ this song! Turn it up! (love)",
+      "hint": "Type one word.",
+      "answers": ["love"],
+      "explanation": "'Love' is stative: present simple.",
+      "common": [
+        {"answer": "am loving", "why": "Feelings use the simple form."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I'm having a new laptop.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I have a new laptop"],
+      "explanation": "'Have' for possession is stative."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "Be quiet, please. We ___ lunch right now. (have)",
+      "hint": "Type two words.",
+      "answers": ["are having", "'re having"],
+      "explanation": "'Have' meaning eat is an action verb.",
+      "common": [
+        {"answer": "have", "why": "'Have lunch' is an action, so it can be continuous."}
       ]
     }
   ]

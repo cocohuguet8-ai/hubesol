@@ -5,12 +5,12 @@
   "items": [
     {
       "question": "I'd rather ___ at home tonight.",
-      "options": ["stay", "to stay", "staying", "stayed"],
-      "answer": 0,
+      "options": ["staying", "to stay", "stay", "stayed"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Would rather' + base verb: 'I'd rather stay'.",
-        "'Would rather' takes no 'to'.",
         "'-ing' doesn't follow 'would rather'.",
+        "'Would rather' takes no 'to'.",
+        "Correct! 'Would rather' + base verb: 'I'd rather stay'.",
         "'Stayed' would only fit 'I'd rather you stayed' (about others)."
       ]
     },
@@ -27,22 +27,22 @@
     },
     {
       "question": "I'd rather walk ___ wait for the bus.",
-      "options": ["than", "to", "that", "rather"],
-      "answer": 0,
+      "options": ["rather", "to", "that", "than"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Would rather … than': 'walk than wait'.",
+        "'Rather' would repeat the word.",
         "'To' isn't used after 'would rather'.",
         "'That' is not correct here.",
-        "'Rather' would repeat the word."
+        "Correct! 'Would rather … than': 'walk than wait'."
       ]
     },
     {
       "question": "I'd rather you ___ me before nine.",
-      "options": ["called", "call", "to call", "calling"],
-      "answer": 0,
+      "options": ["call", "called", "to call", "calling"],
+      "answer": 1,
       "explanations": [
-        "Correct! About others: 'would rather + past simple': 'you called'.",
         "'Call' (present) is wrong for this structure.",
+        "Correct! About others: 'would rather + past simple': 'you called'.",
         "'To call' is wrong here.",
         "'Calling' is wrong here."
       ]
@@ -60,44 +60,44 @@
     },
     {
       "question": "She'd prefer ___ window seat.",
-      "options": ["a", "to a", "to have a well", "having"],
-      "answer": 0,
+      "options": ["having", "to a", "to have a well", "a"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Would prefer' + a noun: 'prefer a window seat'.",
+        "'Having' doesn't follow 'would prefer' here.",
         "'To a' is not correct before a noun.",
         "'To have a well' has an extra word.",
-        "'Having' doesn't follow 'would prefer' here."
+        "Correct! 'Would prefer' + a noun: 'prefer a window seat'."
       ]
     },
     {
       "question": "I'd prefer to stay in ___ go out tonight.",
-      "options": ["rather than", "than", "that", "instead"],
-      "answer": 0,
+      "options": ["that", "than", "rather than", "instead"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Would prefer … rather than': 'stay in rather than go out'.",
-        "'Than' alone goes with 'would rather', not 'would prefer'.",
         "'That' is not correct here.",
+        "'Than' alone goes with 'would rather', not 'would prefer'.",
+        "Correct! 'Would prefer … rather than': 'stay in rather than go out'.",
         "'Instead' would need 'of' and change the structure."
       ]
     },
     {
-      "question": "Correct this: 'I'd rather to have a coffee.'",
+      "question": "Choose the correct version of: 'I'd rather to have a coffee.'",
       "options": [
-        "I'd rather have a coffee.",
         "I'd rather to have a coffee.",
+        "I'd rather have a coffee.",
         "I'd rather having a coffee.",
         "I'd rather had a coffee."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'Would rather' + base verb: 'I'd rather have a coffee'.",
         "'To have' wrongly adds 'to'.",
+        "Correct! 'Would rather' + base verb: 'I'd rather have a coffee'.",
         "'-ing' doesn't follow 'would rather'.",
         "'Had' would only fit 'I'd rather you had…'."
       ]
     },
     {
-      "question": "Correct this: 'I'd rather you don't tell anyone.'",
+      "question": "Choose the correct version of: 'I'd rather you don't tell anyone.'",
       "options": [
         "I'd rather you didn't tell anyone.",
         "I'd rather you don't tell anyone.",
@@ -115,17 +115,47 @@
     {
       "question": "What follows 'would prefer'?",
       "options": [
-        "a to-infinitive or a noun.",
+        "only the past simple.",
         "only the base verb.",
         "only the -ing form.",
-        "only the past simple."
+        "a to-infinitive or a noun."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'Would prefer' + to-infinitive or noun.",
+        "The past simple follows 'would rather you…'.",
         "The base verb follows 'would rather'.",
         "The -ing form doesn't follow 'would prefer' here.",
-        "The past simple follows 'would rather you…'."
+        "Correct! 'Would prefer' + to-infinitive or noun."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I'd rather ___ at home tonight. (stay)",
+      "hint": "Type one word.",
+      "answers": ["stay"],
+      "explanation": "'Would rather' + base verb.",
+      "common": [
+        {"answer": "to stay", "why": "No 'to' after 'would rather'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I'd prefer go by train.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I'd prefer to go by train", "I would prefer to go by train"],
+      "explanation": "'Would prefer' takes the to-infinitive."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I'd rather you ___ smoke here. (not)",
+      "hint": "Type two words.",
+      "answers": ["didn't"],
+      "explanation": "'Would rather' + another subject + past simple.",
+      "common": [
+        {"answer": "don't", "why": "About another person we use the past simple: didn't."}
       ]
     }
   ]

@@ -5,46 +5,46 @@
   "items": [
     {
       "question": "If I ___ Japanese, I'd apply for the job now.",
-      "options": ["spoke", "had spoken", "speak", "would speak"],
-      "answer": 0,
+      "options": ["had spoken", "spoke", "speak", "would speak"],
+      "answer": 1,
       "explanations": [
-        "Correct! An unreal present takes the second conditional: 'If I spoke Japanese'.",
         "'Had spoken' is the third conditional, about the past.",
+        "Correct! An unreal present takes the second conditional: 'If I spoke Japanese'.",
         "'Speak' (present) is for real situations; this is imaginary.",
         "The if-clause never uses 'would'."
       ]
     },
     {
       "question": "If I ___ Japanese, I would have got that job last year.",
-      "options": ["spoke", "had spoken", "speak", "would speak"],
-      "answer": 1,
+      "options": ["had spoken", "spoke", "speak", "would speak"],
+      "answer": 0,
       "explanations": [
-        "'Spoke' (past simple) is the second conditional; 'last year' needs the past perfect.",
         "Correct! An unreal past takes the third conditional: 'If I had spoken Japanese'.",
+        "'Spoke' (past simple) is the second conditional; 'last year' needs the past perfect.",
         "'Speak' is present simple, but this is about the past.",
         "The if-clause never uses 'would'."
       ]
     },
     {
       "question": "If she had left earlier, she ___ the train.",
-      "options": ["would catch", "would have caught", "catches", "caught"],
-      "answer": 1,
+      "options": ["would catch", "catches", "would have caught", "caught"],
+      "answer": 2,
       "explanations": [
         "'Would catch' is the second conditional; a past condition needs 'would have'.",
-        "Correct! An unreal past result uses 'would have caught'.",
         "'Catches' is present simple, but this is about the past.",
+        "Correct! An unreal past result uses 'would have caught'.",
         "'Caught' (past simple) is a plain fact, not the imagined result."
       ]
     },
     {
       "question": "If I had a bigger flat, I ___ a dog.",
-      "options": ["would get", "would have got", "will get", "got"],
-      "answer": 0,
+      "options": ["got", "would have got", "will get", "would get"],
+      "answer": 3,
       "explanations": [
-        "Correct! An unreal present takes the second conditional: 'I would get a dog'.",
+        "'Got' (past simple) doesn't express the imagined result.",
         "'Would have got' is the third conditional, about the past.",
         "'Will get' is a real future, not this imaginary situation.",
-        "'Got' (past simple) doesn't express the imagined result."
+        "Correct! An unreal present takes the second conditional: 'I would get a dog'."
       ]
     },
     {
@@ -65,13 +65,13 @@
     },
     {
       "question": "If I ___ about the meeting, I would have come yesterday.",
-      "options": ["knew", "had known", "know", "would know"],
-      "answer": 1,
+      "options": ["knew", "would know", "know", "had known"],
+      "answer": 3,
       "explanations": [
         "'Knew' (past simple) is the second conditional; 'yesterday' needs the past perfect.",
-        "Correct! An unreal past takes the third conditional: 'If I had known'.",
+        "The if-clause never uses 'would'.",
         "'Know' is present simple, but this is about the past.",
-        "The if-clause never uses 'would'."
+        "Correct! An unreal past takes the third conditional: 'If I had known'."
       ]
     },
     {
@@ -86,46 +86,79 @@
       ]
     },
     {
-      "question": "Correct this: 'If I knew, I would have told you.'",
+      "question": "Choose the correct version of: 'If I knew, I would have told you.'",
       "options": [
-        "If I had known, I would have told you.",
-        "If I knew, I would tell you.",
         "The sentence is already correct.",
+        "If I knew, I would tell you.",
+        "If I had known, I would have told you.",
         "If I know, I will tell you."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! A finished past needs the third conditional: 'If I had known, I would have told you'.",
-        "'If I knew, I would tell you' is a valid second conditional, but changes the meaning to now.",
         "It mixes a second-conditional if-clause with a third-conditional result.",
+        "'If I knew, I would tell you' is a valid second conditional, but changes the meaning to now.",
+        "Correct! A finished past needs the third conditional: 'If I had known, I would have told you'.",
         "'If I know, I'll tell you' is a first conditional (real future)."
       ]
     },
     {
       "question": "If he weren't so rude, people ___ him more. (in general, now)",
-      "options": ["would like", "would have liked", "will like", "liked"],
-      "answer": 0,
+      "options": ["liked", "would have liked", "will like", "would like"],
+      "answer": 3,
       "explanations": [
-        "Correct! A general present takes the second conditional: 'people would like him more'.",
+        "'Liked' (past simple) doesn't express the imagined result.",
         "'Would have liked' is the third conditional, about the past.",
         "'Will like' is a real future, not this imaginary situation.",
-        "'Liked' (past simple) doesn't express the imagined result."
+        "Correct! A general present takes the second conditional: 'people would like him more'."
       ]
     },
     {
-      "question": "Rewrite about the past: 'If I were rich, I'd help.' →",
+      "question": "Choose the past version of: 'If I were rich, I'd help.'",
       "options": [
-        "If I had been rich, I would have helped.",
         "If I was rich, I'd have helped.",
+        "If I had been rich, I would have helped.",
         "If I am rich, I will help.",
         "If I had been rich, I would help."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! The past version is the third conditional: 'If I had been rich, I would have helped'.",
         "'If I was rich' isn't the past perfect needed for the third conditional.",
+        "Correct! The past version is the third conditional: 'If I had been rich, I would have helped'.",
         "'If I am rich, I'll help' is a first conditional (real future).",
         "This mixes a past-perfect condition with a present result."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If I ___ the answer, I would tell you. (know)",
+      "hint": "Use the past simple.",
+      "answers": ["knew"],
+      "explanation": "Unreal now: second conditional, if + past simple.",
+      "common": [
+        {"answer": "had known", "why": "'Had known' is for an unreal past. This is about now: if I knew."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If I knew about the accident, I would have helped.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": [
+        "If I had known about the accident, I would have helped",
+        "If I had known about the accident, I'd have helped"
+      ],
+      "explanation": "A finished past needs the third conditional: if + past perfect."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He didn't study, so he failed. → If he ___ studied, he wouldn't have failed.",
+      "hint": "Type one word.",
+      "answers": ["had"],
+      "explanation": "Third conditional: if + had + past participle.",
+      "common": [
+        {"answer": "has", "why": "In the third conditional the if-clause uses 'had'."}
       ]
     }
   ]

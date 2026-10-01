@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "Which time expression goes with the past simple? 'I saw her ___.'",
-      "options": ["since Monday", "yesterday", "just", "already"],
-      "answer": 1,
+      "options": ["yesterday", "since Monday", "just", "already"],
+      "answer": 0,
       "explanations": [
-        "'Since Monday' is a starting point and goes with the present perfect.",
         "Correct! 'Yesterday' is finished time, which takes the past simple.",
+        "'Since Monday' is a starting point and goes with the present perfect.",
         "'Just' goes with the present perfect (I've just seen her).",
         "'Already' goes with the present perfect (I've already seen her)."
       ]
@@ -27,23 +27,23 @@
     },
     {
       "question": "She's ___ finished her homework.",
-      "options": ["yesterday", "just", "last week", "two days ago"],
-      "answer": 1,
+      "options": ["yesterday", "two days ago", "last week", "just"],
+      "answer": 3,
       "explanations": [
         "'Yesterday' is finished time and can't go with the present perfect 'she's finished'.",
-        "Correct! 'Just' goes with the present perfect: 'She's just finished'.",
+        "'Two days ago' is finished time and takes the past simple.",
         "'Last week' is finished time and takes the past simple.",
-        "'Two days ago' is finished time and takes the past simple."
+        "Correct! 'Just' goes with the present perfect: 'She's just finished'."
       ]
     },
     {
       "question": "I ___ him yesterday.",
-      "options": ["have seen", "saw", "see", "am seeing"],
-      "answer": 1,
+      "options": ["have seen", "see", "saw", "am seeing"],
+      "answer": 2,
       "explanations": [
         "'Yesterday' is finished time, so the present perfect is impossible.",
-        "Correct! A finished-time word like 'yesterday' takes the past simple: 'saw'.",
         "'See' is present simple, not a completed past action.",
+        "Correct! A finished-time word like 'yesterday' takes the past simple: 'saw'.",
         "'Am seeing' is present continuous, not a past action."
       ]
     },
@@ -60,46 +60,46 @@
     },
     {
       "question": "I ___ to the gym on Mondays.",
-      "options": ["am going", "go", "have gone", "went"],
-      "answer": 1,
+      "options": ["go", "am going", "have gone", "went"],
+      "answer": 0,
       "explanations": [
-        "'Am going' is present continuous (now), but 'on Mondays' is a habit.",
         "Correct! A regular habit ('on Mondays') takes the present simple: 'go'.",
+        "'Am going' is present continuous (now), but 'on Mondays' is a habit.",
         "'Have gone' is present perfect, not a habit.",
         "'Went' is past simple, but 'on Mondays' describes a present routine."
       ]
     },
     {
       "question": "Have you finished ___?",
-      "options": ["yesterday", "yet", "now", "then"],
-      "answer": 1,
+      "options": ["yesterday", "then", "now", "yet"],
+      "answer": 3,
       "explanations": [
         "'Yesterday' is finished time and takes the past simple.",
-        "Correct! 'Yet' goes with the present perfect in questions and negatives: 'Have you finished yet?'.",
+        "'Then' refers to a past moment and takes the past simple.",
         "'Now' points to the present continuous, not this question.",
-        "'Then' refers to a past moment and takes the past simple."
+        "Correct! 'Yet' goes with the present perfect in questions and negatives: 'Have you finished yet?'."
       ]
     },
     {
       "question": "Look — it ___ right now.",
-      "options": ["rains", "is raining", "rained", "has rained"],
-      "answer": 1,
+      "options": ["rains", "rained", "is raining", "has rained"],
+      "answer": 2,
       "explanations": [
         "'Rains' is present simple (a general fact), not this moment.",
-        "Correct! 'Right now' takes the present continuous: 'is raining'.",
         "'Rained' is past simple, but this is happening now.",
+        "Correct! 'Right now' takes the present continuous: 'is raining'.",
         "'Has rained' is present perfect, but 'right now' means in progress."
       ]
     },
     {
       "question": "Which time word forces the past simple?",
-      "options": ["ever", "since", "in 2019", "yet"],
-      "answer": 2,
+      "options": ["ever", "since", "yet", "in 2019"],
+      "answer": 3,
       "explanations": [
         "'Ever' goes with the present perfect (Have you ever…?).",
         "'Since' goes with the present perfect (since 2019).",
-        "Correct! 'In 2019' is finished time, which forces the past simple.",
-        "'Yet' goes with the present perfect (haven't finished yet)."
+        "'Yet' goes with the present perfect (haven't finished yet).",
+        "Correct! 'In 2019' is finished time, which forces the past simple."
       ]
     },
     {
@@ -112,6 +112,33 @@
         "'Already' goes with the present perfect.",
         "'Since Monday' is a starting point for the present perfect."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I ___ her yesterday. (see)",
+      "hint": "Type the past simple.",
+      "answers": ["saw"],
+      "explanation": "'Yesterday' = past simple.",
+      "common": [
+        {"answer": "have seen", "why": "Finished time takes the past simple."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I work now.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I'm working now", "I am working now"],
+      "explanation": "'Now' = present continuous."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I lived here for years. (still living here)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I've lived here for years", "I have lived here for years"],
+      "explanation": "Continuing situation with 'for': present perfect."
     }
   ]
 }

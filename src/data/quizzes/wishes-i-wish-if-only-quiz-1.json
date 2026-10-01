@@ -16,45 +16,45 @@
     },
     {
       "question": "I wish I ___ harder for the exam last month.",
-      "options": ["studied", "had studied", "study", "would study"],
-      "answer": 1,
+      "options": ["studied", "study", "had studied", "would study"],
+      "answer": 2,
       "explanations": [
         "'Studied' (past simple) is for present wishes; a past regret needs the past perfect.",
-        "Correct! A past regret takes the past perfect: 'I wish I had studied harder'.",
         "'Study' is present simple, but this is a past regret.",
+        "Correct! A past regret takes the past perfect: 'I wish I had studied harder'.",
         "'Would study' isn't used for your own past actions."
       ]
     },
     {
       "question": "I wish it ___ raining — I want to go out!",
-      "options": ["stopped", "would stop", "had stopped", "stops"],
-      "answer": 1,
+      "options": ["would stop", "stopped", "had stopped", "stops"],
+      "answer": 0,
       "explanations": [
-        "'Stopped' describes a present state; here you want a change to happen.",
         "Correct! For a change you want, use 'would': 'I wish it would stop raining'.",
+        "'Stopped' describes a present state; here you want a change to happen.",
         "'Had stopped' is a past regret, not a present wish for change.",
         "'Stops' is present simple, which doesn't fit a wish."
       ]
     },
     {
       "question": "I wish I ___ taller.",
-      "options": ["am", "was going to be", "were", "would be"],
-      "answer": 2,
+      "options": ["am", "was going to be", "would be", "were"],
+      "answer": 3,
       "explanations": [
         "'Am' is present simple, but a wish needs the past form.",
         "This doesn't fit a wish about a present state.",
-        "Correct! Use 'were' for all subjects: 'I wish I were taller'.",
-        "'Would be' isn't used for your own present state."
+        "'Would be' isn't used for your own present state.",
+        "Correct! Use 'were' for all subjects: 'I wish I were taller'."
       ]
     },
     {
       "question": "If only she ___ me the truth yesterday!",
-      "options": ["told", "had told", "tells", "would tell"],
-      "answer": 1,
+      "options": ["told", "tells", "had told", "would tell"],
+      "answer": 2,
       "explanations": [
         "'Told' (past simple) is for present wishes; 'yesterday' needs the past perfect.",
-        "Correct! A past regret takes the past perfect: 'If only she had told me'.",
         "'Tells' is present simple, but this is a past regret.",
+        "Correct! A past regret takes the past perfect: 'If only she had told me'.",
         "'Would tell' would suit a future/habit wish, not a finished past."
       ]
     },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "question": "Correct this: 'I wish I have a car.'",
+      "question": "Choose the correct version of: 'I wish I have a car.'",
       "options": [
         "I wish I had a car.",
         "I wish I have had a car.",
@@ -87,33 +87,33 @@
     },
     {
       "question": "I wish I ___ that job when I had the chance.",
-      "options": ["took", "had taken", "take", "would take"],
-      "answer": 1,
+      "options": ["took", "would take", "take", "had taken"],
+      "answer": 3,
       "explanations": [
         "'Took' (past simple) is for present wishes; a past regret needs the past perfect.",
-        "Correct! A past regret takes the past perfect: 'I wish I had taken that job'.",
+        "'Would take' isn't used for your own past actions.",
         "'Take' is present simple, but this is a past regret.",
-        "'Would take' isn't used for your own past actions."
+        "Correct! A past regret takes the past perfect: 'I wish I had taken that job'."
       ]
     },
     {
       "question": "Which one is a PAST regret?",
       "options": [
         "I wish I lived closer.",
-        "I wish I had listened to my parents.",
         "I wish it would warm up.",
+        "I wish I had listened to my parents.",
         "I wish I were more confident."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
         "This is a present wish (past simple).",
-        "Correct! 'I wish I had listened' (past perfect) is a regret about the past.",
         "This is a wish for a future change (would).",
+        "Correct! 'I wish I had listened' (past perfect) is a regret about the past.",
         "This is a present wish (were)."
       ]
     },
     {
-      "question": "Rewrite as a wish: 'I don't speak Spanish.' →",
+      "question": "Choose the wish version of: 'I don't speak Spanish.'",
       "options": [
         "I wish I spoke Spanish.",
         "I wish I speak Spanish.",
@@ -127,6 +127,33 @@
         "'Had spoken' is a past regret, not a present wish.",
         "'Would speak' isn't used for your own present ability."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I wish I ___ a bigger flat. (have)",
+      "hint": "Use the past simple.",
+      "answers": ["had"],
+      "explanation": "A present wish uses the past simple: I wish I had.",
+      "common": [
+        {"answer": "have", "why": "After 'I wish' we use the past simple for the present: had."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I wish I studied harder at school. (a past regret)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I wish I had studied harder at school"],
+      "explanation": "A past regret needs the past perfect: I wish I had studied."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "It's raining and I'm annoyed. → I wish it ___ raining.",
+      "hint": "Type two words.",
+      "answers": ["would stop"],
+      "explanation": "'I wish … would' is for things that annoy us and that we want to change."
     }
   ]
 }

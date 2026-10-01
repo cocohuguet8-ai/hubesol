@@ -5,7 +5,7 @@
   "items": [
     {
       "question": "___ are loyal animals. (in general)",
-      "options": ["The dogs", "Dogs", "A dogs", "An dogs"],
+      "options": ["The dogs", "Dogs", "A dog", "The dog"],
       "answer": 1,
       "explanations": [
         "'The dogs' points to specific dogs, not dogs in general.",
@@ -16,29 +16,29 @@
     },
     {
       "question": "___ is essential for life. (in general)",
-      "options": ["The water", "A water", "Water", "An water"],
-      "answer": 2,
+      "options": ["The water", "A water", "Waters", "Water"],
+      "answer": 3,
       "explanations": [
         "'The water' would mean specific water.",
         "'A water' — water is uncountable, so no 'a'.",
-        "Correct! Uncountables in general take no article: 'Water is essential'.",
-        "'An water' is wrong — water is uncountable."
+        "'An water' is wrong — water is uncountable.",
+        "Correct! Uncountables in general take no article: 'Water is essential'."
       ]
     },
     {
       "question": "I usually have ___ at eight.",
-      "options": ["breakfast", "the breakfast", "a breakfast", "an breakfast"],
-      "answer": 0,
+      "options": ["a breakfast", "the breakfast", "breakfast", "breakfasts"],
+      "answer": 2,
       "explanations": [
-        "Correct! Meals take no article: 'have breakfast'.",
-        "'The breakfast' would need a specific one.",
         "'A breakfast' only works when described (a big breakfast).",
+        "'The breakfast' would need a specific one.",
+        "Correct! Meals take no article: 'have breakfast'.",
         "'An breakfast' is wrong."
       ]
     },
     {
       "question": "The children go to ___ by bus.",
-      "options": ["school", "the school", "a school", "an school"],
+      "options": ["school", "the school", "a school", "schools"],
       "answer": 0,
       "explanations": [
         "Correct! 'Go to school' (as students) takes no article.",
@@ -49,11 +49,11 @@
     },
     {
       "question": "___ lives in ___ . (a person and a country)",
-      "options": ["The Sara / the Italy", "Sara / Italy", "A Sara / an Italy", "Sara / the Italy"],
-      "answer": 1,
+      "options": ["Sara / Italy", "The Sara / the Italy", "A Sara / an Italy", "Sara / the Italy"],
+      "answer": 0,
       "explanations": [
-        "Names and most countries take no article.",
         "Correct! 'Sara lives in Italy' — no article with names or most countries.",
+        "Names and most countries take no article.",
         "Names and countries don't take a/an.",
         "'Italy' doesn't take 'the' (unlike the USA)."
       ]
@@ -71,44 +71,39 @@
     },
     {
       "question": "She's learning ___ at university.",
-      "options": ["Japanese", "the Japanese", "a Japanese", "an Japanese"],
-      "answer": 0,
+      "options": ["an Japanese", "the Japanese", "a Japanese", "Japanese"],
+      "answer": 3,
       "explanations": [
-        "Correct! Languages take no article: 'learning Japanese'.",
+        "Languages don't take 'an'.",
         "'The Japanese' would mean the Japanese people.",
         "Languages don't take 'a'.",
-        "Languages don't take 'an'."
+        "Correct! Languages take no article: 'learning Japanese'."
       ]
     },
     {
-      "question": "Correct this: 'I go to the bed at eleven.'",
+      "question": "Choose the correct version of: 'I go to the bed at eleven.'",
       "options": [
-        "I go to bed at eleven.",
         "I go to a bed at eleven.",
+        "I go to bed at eleven.",
         "I go to an bed at eleven.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! The fixed phrase is 'go to bed' — no article.",
         "'A bed' changes it to a random bed.",
+        "Correct! The fixed phrase is 'go to bed' — no article.",
         "'An bed' is wrong.",
         "'Go to the bed' wrongly adds 'the'."
       ]
     },
     {
       "question": "Which sentence talks about music IN GENERAL?",
-      "options": [
-        "I love music.",
-        "I love the music.",
-        "I love a music.",
-        "I love an music."
-      ],
-      "answer": 0,
+      "options": ["I love a music.", "I love the music.", "I love music.", "I love an music."],
+      "answer": 2,
       "explanations": [
-        "Correct! General uncountable: 'I love music' (no article).",
-        "'The music' means specific music (e.g. at a party).",
         "'A music' — music is uncountable.",
+        "'The music' means specific music (e.g. at a party).",
+        "Correct! General uncountable: 'I love music' (no article).",
         "'An music' is wrong."
       ]
     },
@@ -126,6 +121,33 @@
         "A specific, known noun takes 'the'.",
         "A first-mention singular countable takes a/an.",
         "Superlatives take 'the'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "The money can't buy happiness.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Money can't buy happiness"],
+      "explanation": "We mean money in general, so no article."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "We go to the bed at eleven.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["We go to bed at eleven"],
+      "explanation": "'Go to bed' is a fixed phrase with no article."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I usually go to work ___ car.",
+      "hint": "Type one word.",
+      "answers": ["by"],
+      "explanation": "'By car' is a fixed phrase with no article.",
+      "common": [
+        {"answer": "in", "why": "We say 'by car' with no article. 'In my car' needs 'my'."}
       ]
     }
   ]

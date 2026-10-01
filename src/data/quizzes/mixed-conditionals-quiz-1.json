@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "If I had studied medicine, I ___ a doctor now.",
-      "options": ["would have been", "would be", "will be", "am"],
-      "answer": 1,
+      "options": ["would have been", "am", "will be", "would be"],
+      "answer": 3,
       "explanations": [
         "'Would have been' keeps the result in the past, but 'now' is present.",
-        "Correct! Past condition, present result: 'I'd be a doctor now'.",
+        "'Am' is present simple, but this is a hypothetical result.",
         "'Will be' is a real future, not this imagined present.",
-        "'Am' is present simple, but this is a hypothetical result."
+        "Correct! Past condition, present result: 'I'd be a doctor now'."
       ]
     },
     {
@@ -27,12 +27,12 @@
     },
     {
       "question": "If I weren't so shy, I ___ her out last week.",
-      "options": ["would ask", "would have asked", "will ask", "asked"],
-      "answer": 1,
+      "options": ["would ask", "will ask", "would have asked", "asked"],
+      "answer": 2,
       "explanations": [
         "'Would ask' points to now, but the result ('last week') is in the past.",
-        "Correct! Present condition, past result: 'I would have asked her out last week'.",
         "'Will ask' is a real future, not this imagined past.",
+        "Correct! Present condition, past result: 'I would have asked her out last week'.",
         "'Asked' (past simple) doesn't express the imagined result."
       ]
     },
@@ -49,12 +49,12 @@
     },
     {
       "question": "If I hadn't missed the train, I ___ at work already.",
-      "options": ["would have been", "would be", "am", "will be"],
-      "answer": 1,
+      "options": ["would have been", "am", "would be", "will be"],
+      "answer": 2,
       "explanations": [
         "'Would have been' keeps it in the past, but 'already/now' is present.",
-        "Correct! Past condition, present result: 'I'd be at work already'.",
         "'Am' is present simple, but this is a hypothetical result.",
+        "Correct! Past condition, present result: 'I'd be at work already'.",
         "'Will be' is a real future, not this imagined present."
       ]
     },
@@ -70,34 +70,34 @@
       ]
     },
     {
-      "question": "Correct this: 'If I had learnt to drive, I would have a car now.'",
+      "question": "Choose the correct version of: 'If I had learnt to drive, I would have a car now.'",
       "options": [
-        "The sentence is already correct.",
+        "If I have learnt to drive, I would have a car now.",
         "If I had learnt to drive, I would have had a car now.",
         "If I learnt to drive, I would have a car now.",
-        "If I have learnt to drive, I would have a car now."
+        "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Past condition + present result: 'If I had learnt to drive, I would have a car now'.",
+        "'If I have learnt' is present perfect, which doesn't fit here.",
         "'Would have had' wrongly puts the result in the past; 'now' is present.",
         "'If I learnt' is the second conditional, not a past condition.",
-        "'If I have learnt' is present perfect, which doesn't fit here."
+        "Correct! Past condition + present result: 'If I had learnt to drive, I would have a car now'."
       ]
     },
     {
       "question": "If I ___ so tired, I would have enjoyed the party.",
-      "options": ["hadn't been", "weren't", "am not", "wouldn't be"],
-      "answer": 1,
+      "options": ["weren't", "hadn't been", "am not", "wouldn't be"],
+      "answer": 0,
       "explanations": [
-        "'Hadn't been' makes it a standard third conditional about that night; 'weren't' shows an ongoing state.",
         "Correct! A general present state + past result: 'If I weren't so tired (in general), I would have enjoyed the party'.",
+        "'Hadn't been' makes it a standard third conditional about that night; 'weren't' shows an ongoing state.",
         "'Am not' is present simple, but this is hypothetical.",
         "The if-clause never uses 'would'."
       ]
     },
     {
-      "question": "Rewrite: 'I didn't sleep well, so I can't concentrate now.'",
+      "question": "Choose the best rewrite of: 'I didn't sleep well, so I can't concentrate now.'",
       "options": [
         "If I had slept well, I could concentrate now.",
         "If I slept well, I could concentrate now.",
@@ -121,6 +121,36 @@
         "Correct! Past condition, present result: 'they'd be relaxing on the beach right now'.",
         "'Relax' is present simple, but this is a hypothetical result.",
         "'Will relax' is a real future, not this imagined present."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If she had taken the job, she ___ in Paris now. (live)",
+      "hint": "Use would + verb.",
+      "answers": ["would be living", "would live"],
+      "explanation": "Past condition, present result: would be living / would live.",
+      "common": [
+        {"answer": "would have lived", "why": "The result is about now, so 'would live', not 'would have lived'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "If I had saved money, I would have been rich now.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["If I had saved money, I would be rich now", "If I had saved money, I'd be rich now"],
+      "explanation": "'Now' means the result is in the present: would be."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "If I ___ more organised, I wouldn't have forgotten my passport.",
+      "hint": "Type one word.",
+      "answers": ["were"],
+      "explanation": "Present condition, past result: if + past simple (were), would have + participle.",
+      "common": [
+        {"answer": "was", "why": "In standard English we use 'were' for all subjects."}
       ]
     }
   ]

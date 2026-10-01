@@ -51,15 +51,22 @@ if (quiz) {
     '@type': 'Quiz',
     name: quiz.title,
     educationalLevel: quiz.level,
-    hasPart: quiz.items.map((item) => ({
-      '@type': 'Question',
-      eduQuestionType: 'Multiple choice',
-      text: item.question,
-      acceptedAnswer: { '@type': 'Answer', text: item.options[item.answer] },
-      suggestedAnswer: item.options
-        .filter((_, j) => j !== item.answer)
-        .map((o) => ({ '@type': 'Answer', text: o })),
-    })),
+    hasPart: quiz.items.map((item) => item.type === 'write'
+      ? {
+          '@type': 'Question',
+          eduQuestionType: 'Short answer',
+          text: item.question,
+          acceptedAnswer: { '@type': 'Answer', text: item.answers[0] },
+        }
+      : {
+          '@type': 'Question',
+          eduQuestionType: 'Multiple choice',
+          text: item.question,
+          acceptedAnswer: { '@type': 'Answer', text: item.options[item.answer] },
+          suggestedAnswer: item.options
+            .filter((_, j) => j !== item.answer)
+            .map((o) => ({ '@type': 'Answer', text: o })),
+        }),
   });
 }
 ---

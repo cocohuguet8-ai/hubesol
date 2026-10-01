@@ -5,12 +5,7 @@
   "items": [
     {
       "question": "She's ___ nurse at the local hospital.",
-      "options": [
-        "one",
-        "the one",
-        "a",
-        "an"
-      ],
+      "options": ["one", "the one", "a", "an"],
       "answer": 2,
       "explanations": [
         "Jobs take a/an, not 'one'. 'One nurse' stresses a number nobody asked about.",
@@ -21,60 +16,40 @@
     },
     {
       "question": "He's ___ engineer at a tech company.",
-      "options": [
-        "a",
-        "an",
-        "one",
-        "the one"
-      ],
-      "answer": 1,
+      "options": ["a", "the one", "one", "an"],
+      "answer": 3,
       "explanations": [
         "'Engineer' starts with a vowel sound (/e/), so the article is 'an'.",
-        "Correct! A job, and 'engineer' starts with a vowel sound: 'an engineer'.",
+        "'The one' can't introduce a job.",
         "Jobs take a/an, not 'one'.",
-        "'The one' can't introduce a job."
+        "Correct! A job, and 'engineer' starts with a vowel sound: 'an engineer'."
       ]
     },
     {
-      "question": "Two pizzas? — No, just ___ pizza, please. (you stress the number)",
-      "options": [
-        "a",
-        "an",
-        "the one",
-        "one"
-      ],
-      "answer": 3,
+      "question": "Two pizzas? — No, just ___ pizza, please.",
+      "options": ["a", "one", "the one", "an"],
+      "answer": 1,
       "explanations": [
         "'A pizza' is fine as a plain order, but here the number is the answer to 'two?', so we use 'one'.",
-        "'An' is only for vowel sounds, and 'pizza' starts with a consonant sound.",
+        "Correct! The number is the point (one, not two), so we use 'one'.",
         "'The one' points to a specific pizza, not to the number.",
-        "Correct! The number is the point (one, not two), so we use 'one'."
+        "'An' is only for vowel sounds, and 'pizza' starts with a consonant sound."
       ]
     },
     {
       "question": "___ day I'll visit Japan. (some time in the future)",
-      "options": [
-        "A",
-        "One",
-        "An",
-        "The one"
-      ],
-      "answer": 1,
+      "options": ["One", "A", "An", "The one"],
+      "answer": 0,
       "explanations": [
-        "'A day' doesn't mean 'at some time in the future'. The fixed phrase is 'one day'.",
         "Correct! 'One day' is a fixed phrase for an unspecified future time.",
+        "'A day' doesn't mean 'at some time in the future'. The fixed phrase is 'one day'.",
         "'An day' is wrong: 'day' starts with a consonant sound.",
         "'The one day' changes the meaning."
       ]
     },
     {
       "question": "There are two jackets. I'll take the black ___ .",
-      "options": [
-        "one",
-        "a",
-        "an",
-        "it"
-      ],
+      "options": ["one", "a", "an", "it"],
       "answer": 0,
       "explanations": [
         "Correct! 'One' replaces the noun: 'the black one' = 'the black jacket'.",
@@ -84,13 +59,8 @@
       ]
     },
     {
-      "question": "I saw ___ amazing film last night. (you're telling a story)",
-      "options": [
-        "a",
-        "one",
-        "the one",
-        "an"
-      ],
+      "question": "I saw ___ amazing film last night.",
+      "options": ["a", "one", "the one", "an"],
       "answer": 3,
       "explanations": [
         "'Amazing' starts with a vowel sound (/ə/), so 'an', not 'a'.",
@@ -101,16 +71,11 @@
     },
     {
       "question": "Only ___ student passed the exam — everyone else failed.",
-      "options": [
-        "one",
-        "a",
-        "an",
-        "the one"
-      ],
-      "answer": 0,
+      "options": ["a", "one", "an", "the one"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Only' + contrast with 'everyone else' makes the number matter: 'one student'.",
         "'A student' just names the noun and doesn't stress 'only one'.",
+        "Correct! 'Only' + contrast with 'everyone else' makes the number matter: 'one student'.",
         "'An' is for vowel sounds, and 'student' starts with a consonant sound.",
         "'The one student' points to someone specific. It isn't about the number."
       ]
@@ -120,31 +85,31 @@
       "options": [
         "My mother is one doctor.",
         "My mother is the one doctor.",
-        "My mother is an doctor.",
-        "My mother is a doctor."
+        "My mother is a doctor.",
+        "My mother is an doctor."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanations": [
         "Jobs take a/an. 'One doctor' wrongly stresses the number.",
         "'The one doctor' changes the meaning and sounds wrong for a job.",
-        "'Doctor' starts with a consonant sound, so 'a', not 'an'.",
-        "Correct! Jobs take a/an: 'a doctor'."
+        "Correct! Jobs take a/an: 'a doctor'.",
+        "'Doctor' starts with a consonant sound, so 'a', not 'an'."
       ]
     },
     {
       "question": "Which sentence uses 'one' as a pronoun?",
       "options": [
         "I have one brother.",
-        "I'll take the red one.",
+        "He's one of my friends.",
         "One day I'll be famous.",
-        "He's one of my friends."
+        "I'll take the red one."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanations": [
         "Here 'one' is a number before a noun (brother).",
-        "Correct! 'One' stands instead of a noun (the red shirt, the red car…) and has no noun after it.",
+        "This is the fixed pattern 'one of + plural', not a pronoun replacing a noun.",
         "This is the fixed phrase 'one day'.",
-        "This is the fixed pattern 'one of + plural', not a pronoun replacing a noun."
+        "Correct! 'One' stands instead of a noun (the red shirt, the red car…) and has no noun after it."
       ]
     },
     {
@@ -161,6 +126,35 @@
         "Jobs take a/an, not 'one'.",
         "Correct! Number, fixed phrases (one day, one of…) and the pronoun use.",
         "'One' isn't limited to questions."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I'd like ___ coffee, not two.",
+      "hint": "Type a, an or one.",
+      "answers": ["one"],
+      "explanation": "'Not two' makes the number the point, so we use 'one'.",
+      "common": [
+        {"answer": "a", "why": "'A coffee' only names the drink. The contrast with 'two' needs 'one'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She is one dentist.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She is a dentist"],
+      "explanation": "Jobs take a/an, not 'one'."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "Some day I'll travel the world. → ___ day I'll travel the world.",
+      "answers": ["One"],
+      "explanation": "'One day' is the fixed phrase for an unspecified time in the future.",
+      "common": [
+        {"answer": "a", "why": "'A day' doesn't mean 'some time in the future'. Use the fixed phrase 'one day'."}
       ]
     }
   ]

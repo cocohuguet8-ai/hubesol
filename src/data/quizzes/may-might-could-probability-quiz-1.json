@@ -5,34 +5,34 @@
   "items": [
     {
       "question": "Take a coat — it ___ get cold tonight.",
-      "options": ["might", "might to", "mights", "must to"],
-      "answer": 0,
+      "options": ["must to", "might to", "mights", "might"],
+      "answer": 3,
       "explanations": [
-        "Correct! Possibility takes 'might' + base verb: 'it might get cold'.",
+        "Never add 'to' after 'must'.",
         "Never add 'to' after 'might'.",
         "Modals never add -s.",
-        "Never add 'to' after 'must'."
+        "Correct! Possibility takes 'might' + base verb: 'it might get cold'."
       ]
     },
     {
       "question": "I'm not sure where she is — she ___ be at work.",
-      "options": ["may", "may to", "mays", "is may"],
-      "answer": 0,
+      "options": ["may to", "may", "mays", "is may"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'May' expresses possibility: 'She may be at work'.",
         "Never add 'to' after 'may'.",
+        "Correct! 'May' expresses possibility: 'She may be at work'.",
         "Modals never add -s.",
         "'Is may' is not correct English."
       ]
     },
     {
       "question": "Perhaps they don't know yet — they ___ have heard.",
-      "options": ["might not", "couldn't", "mustn't", "can't"],
-      "answer": 0,
+      "options": ["mustn't", "couldn't", "might not", "can't"],
+      "answer": 2,
       "explanations": [
-        "Correct! A negative guess takes 'might not': 'they might not have heard'.",
-        "'Couldn't have heard' means it was impossible.",
         "'Mustn't' is prohibition, not a guess.",
+        "'Couldn't have heard' means it was impossible.",
+        "Correct! A negative guess takes 'might not': 'they might not have heard'.",
         "'Can't have heard' expresses near-certainty it didn't happen, not simple doubt."
       ]
     },
@@ -49,39 +49,39 @@
     },
     {
       "question": "Where's Tom? He ___ have missed the train.",
-      "options": ["might", "might to", "mights", "may to"],
-      "answer": 0,
+      "options": ["may to", "might to", "mights", "might"],
+      "answer": 3,
       "explanations": [
-        "Correct! A past guess takes 'might have + participle': 'He might have missed the train'.",
+        "Never add 'to' after 'may'.",
         "Never add 'to' after 'might'.",
         "Modals never add -s.",
-        "Never add 'to' after 'may'."
+        "Correct! A past guess takes 'might have + participle': 'He might have missed the train'."
       ]
     },
     {
       "question": "Don't eat that — it ___ be past its date.",
-      "options": ["could", "could to", "coulds", "can to"],
-      "answer": 0,
+      "options": ["coulds", "could to", "could", "can to"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Could' expresses possibility here: 'it could be past its date'.",
-        "Never add 'to' after 'could'.",
         "Modals never add -s.",
+        "Never add 'to' after 'could'.",
+        "Correct! 'Could' expresses possibility here: 'it could be past its date'.",
         "Never add 'to' after 'can'."
       ]
     },
     {
       "question": "That ___ be John at the door — he's abroad this week.",
-      "options": ["might", "may", "can't", "could"],
-      "answer": 2,
+      "options": ["might", "can't", "may", "could"],
+      "answer": 1,
       "explanations": [
         "'Might be John' suggests it's possible, but the context says it's impossible.",
-        "'May be John' suggests possibility, but the context rules it out.",
         "Correct! Impossibility takes 'can't': 'That can't be John — he's abroad'.",
+        "'May be John' suggests possibility, but the context rules it out.",
         "'Could be John' suggests possibility, but the context rules it out."
       ]
     },
     {
-      "question": "Correct this: 'She might forgot the meeting.'",
+      "question": "Choose the correct version of: 'She might forgot the meeting.'",
       "options": [
         "She might have forgotten the meeting.",
         "She might forgets the meeting.",
@@ -98,11 +98,11 @@
     },
     {
       "question": "The keys ___ be in my bag; let me check.",
-      "options": ["may", "may to", "must to", "mays"],
-      "answer": 0,
+      "options": ["may to", "may", "must to", "mays"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'May' expresses possibility: 'They may be in my bag'.",
         "Never add 'to' after 'may'.",
+        "Correct! 'May' expresses possibility: 'They may be in my bag'.",
         "Never add 'to' after 'must'.",
         "Modals never add -s."
       ]
@@ -122,6 +122,33 @@
         "Correct! 'Could have left' is a guess about the past.",
         "This is a present/future negative guess."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I'm not sure, but it ___ rain later. (possible)",
+      "hint": "Type one word.",
+      "answers": ["might", "may", "could"],
+      "explanation": "May, might and could express possibility.",
+      "common": [
+        {"answer": "will", "why": "'Will' is certain. Here you're not sure."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She might to be late.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She might be late"],
+      "explanation": "No 'to' after a modal."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "He couldn't be tired. (meaning: perhaps he isn't tired)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["He might not be tired", "He may not be tired"],
+      "explanation": "For a negative possibility use 'might not' or 'may not'."
     }
   ]
 }

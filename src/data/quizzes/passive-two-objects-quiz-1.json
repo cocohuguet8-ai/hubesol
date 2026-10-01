@@ -5,12 +5,7 @@
   "items": [
     {
       "question": "Make it passive (person first): 'They gave me a medal.'",
-      "options": [
-        "I was given a medal.",
-        "A medal was given me.",
-        "I was gave a medal.",
-        "Me was given a medal."
-      ],
+      "options": ["I was given a medal.", "A medal was given me.", "I was gave a medal.", "Me was given a medal."],
       "answer": 0,
       "explanations": [
         "Correct! Person as subject: 'I was given a medal'.",
@@ -22,80 +17,75 @@
     {
       "question": "Make it passive (thing first): 'They sent her a parcel.'",
       "options": [
-        "A parcel was sent to her.",
-        "A parcel was sent her.",
         "A parcel was send to her.",
+        "A parcel was sent her.",
+        "A parcel was sent to her.",
         "Her was sent a parcel."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! Thing as subject needs 'to': 'A parcel was sent to her'.",
-        "This is missing 'to'.",
         "'Was send' uses the wrong form; use 'sent'.",
+        "This is missing 'to'.",
+        "Correct! Thing as subject needs 'to': 'A parcel was sent to her'.",
         "'Her' can't be the subject."
       ]
     },
     {
       "question": "'The company offered him a job.' → (natural passive)",
-      "options": [
-        "He was offered a job.",
-        "A job was offered him.",
-        "He was offer a job.",
-        "Him was offered a job."
-      ],
-      "answer": 0,
+      "options": ["Him was offered a job.", "A job was offered him.", "He was offer a job.", "He was offered a job."],
+      "answer": 3,
       "explanations": [
-        "Correct! Person first is more natural: 'He was offered a job'.",
+        "'Him' can't be the subject.",
         "This needs 'to him'.",
         "'Was offer' uses the wrong form.",
-        "'Him' can't be the subject."
+        "Correct! Person first is more natural: 'He was offered a job'."
       ]
     },
     {
       "question": "'Someone has told us the news.' → (person first)",
       "options": [
-        "We have been told the news.",
         "The news has been told us.",
+        "We have been told the news.",
         "We have been telled the news.",
         "Us have been told the news."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Present perfect passive, person first: 'We have been told the news'.",
         "This needs 'to us'.",
+        "Correct! Present perfect passive, person first: 'We have been told the news'.",
         "'Telled' isn't a word; the participle is 'told'.",
         "'Us' can't be the subject."
       ]
     },
     {
       "question": "Add the missing word: 'A letter was sent ___ every customer.'",
-      "options": ["to", "for", "at", "by"],
-      "answer": 0,
+      "options": ["at", "for", "to", "by"],
+      "answer": 2,
       "explanations": [
-        "Correct! Thing as subject takes 'to': 'sent to every customer'.",
-        "'For' changes the meaning here.",
         "'At' is not correct.",
+        "'For' changes the meaning here.",
+        "Correct! Thing as subject takes 'to': 'sent to every customer'.",
         "'By' would mark the doer, not the receiver."
       ]
     },
     {
       "question": "'They will show the visitors the garden.' → (person first, future)",
       "options": [
-        "The visitors will be shown the garden.",
         "The garden will be shown the visitors.",
+        "The visitors will be shown the garden.",
         "The visitors will be show the garden.",
         "The visitors are shown the garden tomorrow."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Future passive, person first: 'The visitors will be shown the garden'.",
         "This needs 'to the visitors'.",
+        "Correct! Future passive, person first: 'The visitors will be shown the garden'.",
         "'Will be show' uses the wrong form.",
         "'Are shown' is present, not future."
       ]
     },
     {
-      "question": "Correct this: 'I was given me a second chance.'",
+      "question": "Choose the correct version of: 'I was given me a second chance.'",
       "options": [
         "I was given a second chance.",
         "I was given to me a second chance.",
@@ -111,46 +101,76 @@
       ]
     },
     {
-      "question": "Correct this: 'A prize was given the winner.'",
+      "question": "Choose the correct version of: 'A prize was given the winner.'",
       "options": [
-        "A prize was given to the winner.",
+        "The winner was given to a prize.",
         "A prize was given for the winner.",
         "A prize was gave to the winner.",
-        "The winner was given to a prize."
+        "A prize was given to the winner."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Thing as subject needs 'to': 'given to the winner'.",
+        "'Given to a prize' reverses the meaning.",
         "'For the winner' changes the meaning.",
         "'Was gave' uses the wrong form.",
-        "'Given to a prize' reverses the meaning."
+        "Correct! Thing as subject needs 'to': 'given to the winner'."
       ]
     },
     {
       "question": "Which passive is usually more natural in English?",
       "options": [
-        "The one starting with the person (She was sent an email).",
+        "Neither; two-object verbs have no passive.",
         "The one starting with the thing (An email was sent to her).",
         "They are equally natural in every case.",
-        "Neither; two-object verbs have no passive."
+        "The one starting with the person (She was sent an email)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! English tends to put the person first: 'She was sent an email'.",
+        "Two-object verbs do have passives.",
         "The thing-first version is possible but less common.",
         "Person-first is generally preferred.",
-        "Two-object verbs do have passives."
+        "Correct! English tends to put the person first: 'She was sent an email'."
       ]
     },
     {
       "question": "Which verb does NOT normally take two objects?",
-      "options": ["arrive", "give", "send", "offer"],
-      "answer": 0,
+      "options": ["send", "give", "arrive", "offer"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Arrive' has no object at all, so no two-object passive.",
-        "'Give' takes two objects (give someone something).",
         "'Send' takes two objects (send someone something).",
+        "'Give' takes two objects (give someone something).",
+        "Correct! 'Arrive' has no object at all, so no two-object passive.",
         "'Offer' takes two objects (offer someone something)."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "The teacher showed the students a video. → The students ___ a video.",
+      "hint": "Type the passive verb.",
+      "answers": ["were shown"],
+      "explanation": "The person becomes the subject: The students were shown a video.",
+      "common": [
+        {"answer": "were showed", "why": "The past participle of 'show' is 'shown'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I was given me a book.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I was given a book"],
+      "explanation": "'I' is already the subject, so don't repeat 'me'."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "They sent her a parcel. → A parcel ___ her.",
+      "hint": "Type the missing words.",
+      "answers": ["was sent to"],
+      "explanation": "Thing first needs 'to': A parcel was sent to her.",
+      "common": [
+        {"answer": "was sent", "why": "With the thing first, we need 'to' before the person."}
       ]
     }
   ]

@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "We're driving ___ the airport now.",
-      "options": ["to", "into", "onto", "at"],
-      "answer": 0,
+      "options": ["into", "to", "onto", "at"],
+      "answer": 1,
       "explanations": [
-        "Correct! A destination takes 'to': 'to the airport'.",
         "'Into' means entering an enclosed space.",
+        "Correct! A destination takes 'to': 'to the airport'.",
         "'Onto' means reaching a surface.",
         "'At' shows position, not movement."
       ]
@@ -27,33 +27,33 @@
     },
     {
       "question": "The cat jumped ___ the table.",
-      "options": ["onto", "into", "to", "at"],
-      "answer": 0,
+      "options": ["at", "into", "to", "onto"],
+      "answer": 3,
       "explanations": [
-        "Correct! Landing on a surface takes 'onto': 'onto the table'.",
+        "'At' shows position, not movement.",
         "'Into' means inside an enclosed space.",
         "'To' shows a destination, not a surface.",
-        "'At' shows position, not movement."
+        "Correct! Landing on a surface takes 'onto': 'onto the table'."
       ]
     },
     {
       "question": "The train went ___ a long tunnel.",
-      "options": ["through", "across", "along", "over"],
-      "answer": 0,
+      "options": ["along", "across", "through", "over"],
+      "answer": 2,
       "explanations": [
-        "Correct! In one side and out the other = 'through'.",
-        "'Across' is from one side to the other on a surface.",
         "'Along' means following a line.",
+        "'Across' is from one side to the other on a surface.",
+        "Correct! In one side and out the other = 'through'.",
         "'Over' means above or covering."
       ]
     },
     {
       "question": "Be careful crossing ___ the road.",
-      "options": ["across", "through", "along", "into"],
-      "answer": 0,
+      "options": ["through", "across", "along", "into"],
+      "answer": 1,
       "explanations": [
-        "Correct! From one side to the other = 'across'.",
         "'Through' means in one side and out the other of something you go inside.",
+        "Correct! From one side to the other = 'across'.",
         "'Along' means following the road, not crossing it.",
         "'Into' means entering a space."
       ]
@@ -71,51 +71,81 @@
     },
     {
       "question": "It's late — let's go ___ .",
-      "options": ["home", "to home", "at home", "into home"],
-      "answer": 0,
+      "options": ["into home", "to home", "at home", "home"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Home' takes no preposition after 'go': 'go home'.",
+        "'Into home' is incorrect.",
         "'To home' is incorrect.",
         "'At home' shows position, not movement.",
-        "'Into home' is incorrect."
+        "Correct! 'Home' takes no preposition after 'go': 'go home'."
       ]
     },
     {
       "question": "He climbed ___ the wall to get the ball.",
-      "options": ["over", "through", "along", "into"],
-      "answer": 0,
+      "options": ["along", "through", "over", "into"],
+      "answer": 2,
       "explanations": [
-        "Correct! Above and to the other side = 'over the wall'.",
-        "'Through the wall' would mean passing inside it.",
         "'Along the wall' means following it.",
+        "'Through the wall' would mean passing inside it.",
+        "Correct! Above and to the other side = 'over the wall'.",
         "'Into the wall' means crashing inside it."
       ]
     },
     {
-      "question": "Correct this: 'She got into the bus at the station.'",
+      "question": "Choose the correct version of: 'She got into the bus at the station.'",
       "options": [
-        "She got on the bus at the station.",
-        "She got into the bus at the station.",
         "She got onto in the bus at the station.",
+        "She got into the bus at the station.",
+        "She got on the bus at the station.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! With buses we say 'get on': 'got on the bus'.",
-        "'Get into' is used for cars, not buses.",
         "'Onto in' is not correct.",
+        "'Get into' is used for cars, not buses.",
+        "Correct! With buses we say 'get on': 'got on the bus'.",
         "'Into the bus' is unnatural — use 'on the bus'."
       ]
     },
     {
       "question": "Which preposition shows entering an enclosed space?",
-      "options": ["into", "to", "across", "along"],
-      "answer": 0,
+      "options": ["along", "to", "across", "into"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Into' = movement inside an enclosed space.",
+        "'Along' means following a line.",
         "'To' shows a destination.",
         "'Across' means from one side to the other.",
-        "'Along' means following a line."
+        "Correct! 'Into' = movement inside an enclosed space."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "We walked ___ the tunnel and came out the other side.",
+      "hint": "Type through, across or along.",
+      "answers": ["through"],
+      "explanation": "In one side and out the other: 'through'.",
+      "common": [
+        {"answer": "across", "why": "'Across' is for crossing a surface. A tunnel is 'through'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I went to home after school.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I went home after school"],
+      "explanation": "We say 'go home' with no preposition."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He swam ___ the river to the other side.",
+      "hint": "Type through, across or along.",
+      "answers": ["across"],
+      "explanation": "From one side to the other: 'across'.",
+      "common": [
+        {"answer": "through", "why": "'Through' is for going in one side and out the other. A river is crossed 'across'."}
       ]
     }
   ]

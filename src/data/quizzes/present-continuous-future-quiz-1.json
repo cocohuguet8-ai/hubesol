@@ -5,49 +5,49 @@
   "items": [
     {
       "question": "I ___ Sara at six this evening.",
-      "options": ["meet", "'m meeting", "will meet", "meets"],
-      "answer": 1,
+      "options": ["meet", "meets", "will meet", "'m meeting"],
+      "answer": 3,
       "explanations": [
         "'Meet' (present simple) is for timetables, not a personal arrangement.",
-        "Correct! A fixed arrangement takes the present continuous: 'I'm meeting Sara at six'.",
+        "'Meets' is for he/she/it, and it's the wrong meaning here.",
         "'Will meet' is a decision made now, but this is already arranged.",
-        "'Meets' is for he/she/it, and it's the wrong meaning here."
+        "Correct! A fixed arrangement takes the present continuous: 'I'm meeting Sara at six'."
       ]
     },
     {
-      "question": "Correct this: 'I see the dentist tomorrow.'",
+      "question": "Choose the correct version of: 'I see the dentist tomorrow.'",
       "options": [
-        "I'm seeing the dentist tomorrow.",
         "I will seeing the dentist tomorrow.",
+        "I'm seeing the dentist tomorrow.",
         "I sees the dentist tomorrow.",
         "I saw the dentist tomorrow."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! A personal appointment takes the present continuous: 'I'm seeing the dentist tomorrow'.",
         "'Will seeing' is not a valid form.",
+        "Correct! A personal appointment takes the present continuous: 'I'm seeing the dentist tomorrow'.",
         "'Sees' is for he/she/it and is the wrong tense here.",
         "'Saw' is past simple, but 'tomorrow' is in the future."
       ]
     },
     {
       "question": "They ___ married in June.",
-      "options": ["get", "'re getting", "will get", "got"],
-      "answer": 1,
+      "options": ["get", "will get", "'re getting", "got"],
+      "answer": 2,
       "explanations": [
         "'Get' (present simple) is for timetables, not a personal plan.",
-        "Correct! A fixed arrangement takes the present continuous: 'They're getting married in June'.",
         "'Will get' suggests deciding now, but the wedding is arranged.",
+        "Correct! A fixed arrangement takes the present continuous: 'They're getting married in June'.",
         "'Got' is past simple, but June is in the future."
       ]
     },
     {
       "question": "It's all arranged — we ___ to Rome on Friday.",
-      "options": ["'ll fly", "'re flying", "fly", "flew"],
-      "answer": 1,
+      "options": ["'re flying", "'ll fly", "fly", "flew"],
+      "answer": 0,
       "explanations": [
-        "'Will fly' suggests a decision now, but it's already arranged.",
         "Correct! A definite arrangement takes the present continuous: 'we're flying to Rome on Friday'.",
+        "'Will fly' suggests a decision now, but it's already arranged.",
         "'Fly' (present simple) is for timetables, not this personal plan.",
         "'Flew' is past simple, but Friday is in the future."
       ]
@@ -65,62 +65,92 @@
     },
     {
       "question": "What ___ you ___ this weekend? (your plans)",
-      "options": ["do / do", "are / doing", "will / do", "did / do"],
-      "answer": 1,
+      "options": ["do / do", "will / do", "are / doing", "did / do"],
+      "answer": 2,
       "explanations": [
         "'Do you do' asks about a habit, not this weekend's plans.",
-        "Correct! Asking about arrangements uses the present continuous: 'What are you doing this weekend?'.",
         "'Will you do' is possible for offers, but for arrangements the present continuous is more natural.",
+        "Correct! Asking about arrangements uses the present continuous: 'What are you doing this weekend?'.",
         "'Did you do' is past simple, but this is about the future."
       ]
     },
     {
       "question": "I ___ tomorrow, so I can't come to the party.",
-      "options": ["work", "'m working", "will working", "worked"],
-      "answer": 1,
+      "options": ["'m working", "work", "will working", "worked"],
+      "answer": 0,
       "explanations": [
-        "'Work' (present simple) is for habits or timetables, not this arrangement.",
         "Correct! A fixed plan takes the present continuous: 'I'm working tomorrow'.",
+        "'Work' (present simple) is for habits or timetables, not this arrangement.",
         "'Will working' is not a valid form.",
         "'Worked' is past simple, but 'tomorrow' is in the future."
       ]
     },
     {
       "question": "A: We're out of milk. B: OK, I ___ some on the way home.",
-      "options": ["'m buying", "'ll buy", "buy", "bought"],
-      "answer": 1,
+      "options": ["'m buying", "bought", "buy", "'ll buy"],
+      "answer": 3,
       "explanations": [
         "'I'm buying' suggests a plan made earlier, but B decides right now.",
-        "Correct! A decision made at the moment of speaking takes 'will': 'I'll buy some'.",
+        "'Bought' is past simple, but this is about the future.",
         "'Buy' (present simple) is a habit, not this decision.",
-        "'Bought' is past simple, but this is about the future."
+        "Correct! A decision made at the moment of speaking takes 'will': 'I'll buy some'."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'I have an appointment with the doctor tomorrow.'",
+      "question": "Choose the sentence with the same meaning as: 'I have an appointment with the doctor tomorrow.'",
       "options": [
-        "I'm seeing the doctor tomorrow.",
-        "I see the doctor tomorrow.",
         "I'll see the doctor.",
+        "I see the doctor tomorrow.",
+        "I'm seeing the doctor tomorrow.",
         "I saw the doctor tomorrow."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! An appointment is a fixed arrangement: 'I'm seeing the doctor tomorrow'.",
-        "'I see the doctor tomorrow' (present simple) is for timetables, not a personal appointment.",
         "'I'll see' suggests deciding now, but the appointment is already made.",
+        "'I see the doctor tomorrow' (present simple) is for timetables, not a personal appointment.",
+        "Correct! An appointment is a fixed arrangement: 'I'm seeing the doctor tomorrow'.",
         "'I saw' is past simple, but 'tomorrow' is in the future."
       ]
     },
     {
       "question": "She ___ dinner with friends tonight.",
-      "options": ["has", "'s having", "will have", "had"],
-      "answer": 1,
+      "options": ["has", "had", "will have", "'s having"],
+      "answer": 3,
       "explanations": [
         "'Has dinner' (present simple) is a habit, not tonight's arrangement.",
-        "Correct! A fixed arrangement takes the present continuous: 'She's having dinner with friends tonight'.",
+        "'Had' is past simple, but 'tonight' is in the future.",
         "'Will have' suggests deciding now, but it's arranged.",
-        "'Had' is past simple, but 'tonight' is in the future."
+        "Correct! A fixed arrangement takes the present continuous: 'She's having dinner with friends tonight'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I ___ Sara at six this evening. (meet; arranged)",
+      "hint": "Type two words.",
+      "answers": ["am meeting", "'m meeting"],
+      "explanation": "A fixed arrangement: present continuous.",
+      "common": [
+        {"answer": "meet", "why": "Personal arrangements use the present continuous."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I see the dentist tomorrow.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I'm seeing the dentist tomorrow", "I am seeing the dentist tomorrow"],
+      "explanation": "Personal arrangement: present continuous."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "They ___ married in June. (get)",
+      "hint": "Type two words.",
+      "answers": ["are getting", "'re getting"],
+      "explanation": "Arranged future: are getting.",
+      "common": [
+        {"answer": "get", "why": "Arranged events take the present continuous."}
       ]
     }
   ]

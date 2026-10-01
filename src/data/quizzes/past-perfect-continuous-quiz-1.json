@@ -16,94 +16,94 @@
     },
     {
       "question": "Her eyes were red because she ___.",
-      "options": ["cried", "had been crying", "cries", "was crying"],
-      "answer": 1,
+      "options": ["had been crying", "cried", "cries", "was crying"],
+      "answer": 0,
       "explanations": [
-        "'Cried' doesn't clearly link the earlier activity to the later red eyes.",
         "Correct! A past activity explaining a past result takes the past perfect continuous: 'had been crying'.",
+        "'Cried' doesn't clearly link the earlier activity to the later red eyes.",
         "'Cries' is present simple, but this was in the past.",
         "'Was crying' is possible, but the past perfect continuous better shows the activity had happened before her eyes were red."
       ]
     },
     {
       "question": "By noon, they ___ hiking for hours.",
-      "options": ["had", "had been", "were", "have been"],
-      "answer": 1,
+      "options": ["had", "have been", "were", "had been"],
+      "answer": 3,
       "explanations": [
         "'Had hiking' is missing 'been'. Use 'had been hiking'.",
-        "Correct! Past perfect continuous = had been + -ing: 'had been hiking'.",
+        "'Have been' is present perfect continuous, but this is set in the past.",
         "'Were hiking' is past continuous, not the duration up to noon.",
-        "'Have been' is present perfect continuous, but this is set in the past."
+        "Correct! Past perfect continuous = had been + -ing: 'had been hiking'."
       ]
     },
     {
       "question": "By then, I ___ the book.",
-      "options": ["'d been finishing", "'d finished", "finished", "finish"],
-      "answer": 1,
+      "options": ["'d been finishing", "finished", "'d finished", "finish"],
+      "answer": 2,
       "explanations": [
         "'Finish' describes a completed result, so the continuous doesn't fit.",
-        "Correct! A completed earlier action takes the past perfect: 'had finished'.",
         "'Finished' (past simple) doesn't show it happened before another past point.",
+        "Correct! A completed earlier action takes the past perfect: 'had finished'.",
         "'Finish' is present simple, but this was in the past."
       ]
     },
     {
       "question": "I ___ him for years before we became friends.",
-      "options": ["'d been knowing", "'d known", "knew", "know"],
-      "answer": 1,
+      "options": ["'d been knowing", "knew", "'d known", "know"],
+      "answer": 2,
       "explanations": [
         "'Know' is a stative verb and isn't used in the continuous.",
-        "Correct! State verbs take the past perfect simple: 'had known'.",
         "'Knew' (past simple) doesn't show it happened before we became friends.",
+        "Correct! State verbs take the past perfect simple: 'had known'.",
         "'Know' is present simple, but this was in the past."
       ]
     },
     {
       "question": "She had been living there ___ 2010.",
-      "options": ["for", "since", "from", "during"],
-      "answer": 1,
+      "options": ["for", "during", "from", "since"],
+      "answer": 3,
       "explanations": [
         "'For' needs a period (for ten years). '2010' is a starting point, so use 'since'.",
-        "Correct! 'Since' + a starting point (2010).",
+        "'During' says when inside a period, not the starting point.",
         "'From' isn't used this way with the perfect. Use 'since'.",
-        "'During' says when inside a period, not the starting point."
+        "Correct! 'Since' + a starting point (2010)."
       ]
     },
     {
       "question": "The players were exhausted — they ___ for ninety minutes.",
-      "options": ["'d played", "'d been playing", "played", "play"],
-      "answer": 1,
+      "options": ["'d been playing", "'d played", "played", "play"],
+      "answer": 0,
       "explanations": [
-        "'Had played' focuses on completion, but 'for ninety minutes' stresses duration.",
         "Correct! Duration explaining their exhaustion takes the past perfect continuous: 'had been playing'.",
+        "'Had played' focuses on completion, but 'for ninety minutes' stresses duration.",
         "'Played' (past simple) doesn't show the duration leading to their tiredness.",
         "'Play' is present simple, but this was in the past."
       ]
     },
     {
       "question": "We ___ waiting long when the bus finally came.",
-      "options": ["hadn't been", "hadn't", "didn't", "weren't"],
-      "answer": 0,
+      "options": ["hadn't", "hadn't been", "didn't", "weren't"],
+      "answer": 1,
       "explanations": [
-        "Correct! Negative past perfect continuous = hadn't been + -ing: 'hadn't been waiting'.",
         "'Hadn't waiting' is missing 'been'.",
+        "Correct! Negative past perfect continuous = hadn't been + -ing: 'hadn't been waiting'.",
         "'Didn't' is past simple, not this form.",
         "'Weren't waiting' is past continuous, not the duration up to that point."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'She began studying at 4pm. At 7pm, when I called, she was still studying.'",
+      "question": "Choose the sentence with the same meaning as: 'She began studying at 4pm. At 7pm, when I called, she was still studying.'",
       "options": [
-        "When I called at 7pm, she had been studying for three hours.",
-        "When I called, she studied for three hours.",
         "She had studied three subjects.",
+        "When I called, she studied for three hours.",
+        "When I called at 7pm, she had been studying for three hours.",
         "When I called, she was going to study."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! Studying from 4pm up to the 7pm call = past perfect continuous 'had been studying for three hours'.",
-        "'She studied for three hours' (past simple) suggests she had stopped, but she was still studying.",
         "'Three subjects' changes the meaning to a quantity.",
+        "'She studied for three hours' (past simple) suggests she had stopped, but she was still studying.",
+        "Correct! Studying from 4pm up to the 7pm call = past perfect continuous 'had been studying for three hours'.",
         "'Was going to study' means she hadn't started, but she began at 4pm."
       ]
     },
@@ -117,6 +117,33 @@
         "'Have you waited' is present perfect, but this is set in the past.",
         "'Were you waiting' is past continuous, not the completed duration up to the taxi's arrival."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "When he arrived, I ___ for an hour. (wait)",
+      "hint": "Type three words.",
+      "answers": ["had been waiting"],
+      "explanation": "Past perfect continuous: had been + -ing.",
+      "common": [
+        {"answer": "had waited", "why": "Duration up to a past moment: had been waiting."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I had waiting for ages.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I had been waiting for ages"],
+      "explanation": "Add 'been'."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "By then I had been finishing the essay.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["By then I had finished the essay"],
+      "explanation": "A completed action uses the past perfect simple."
     }
   ]
 }

@@ -5,35 +5,35 @@
   "items": [
     {
       "question": "I ___ dinner when the guests arrived.",
-      "options": ["cooked", "was cooking", "cook", "am cooking"],
-      "answer": 1,
+      "options": ["was cooking", "cooked", "cook", "am cooking"],
+      "answer": 0,
       "explanations": [
-        "'Cooked' suggests you started cooking after they arrived — a sequence, not a background action.",
         "Correct! The cooking was already in progress, so use the past continuous: 'was cooking'.",
+        "'Cooked' suggests you started cooking after they arrived — a sequence, not a background action.",
         "'Cook' is present simple, but this happened in the past.",
         "'Am cooking' is present continuous (now), not a past moment."
       ]
     },
     {
       "question": "When the alarm rang, everyone ___ the building.",
-      "options": ["was leaving", "left", "leaves", "leave"],
-      "answer": 1,
+      "options": ["was leaving", "leaves", "left", "leave"],
+      "answer": 2,
       "explanations": [
         "'Was leaving' suggests they were already leaving, but here they react to the alarm.",
-        "Correct! A completed reaction to the alarm takes the past simple: 'left'.",
         "'Leaves' is present simple, but this happened in the past.",
+        "Correct! A completed reaction to the alarm takes the past simple: 'left'.",
         "'Leave' is the base form and doesn't fit a past event."
       ]
     },
     {
       "question": "The sun ___ when we woke up.",
-      "options": ["shone", "was shining", "shines", "shine"],
-      "answer": 1,
+      "options": ["shone", "shine", "shines", "was shining"],
+      "answer": 3,
       "explanations": [
         "'Shone' (past simple) is possible, but describing the scene in progress prefers the past continuous.",
-        "Correct! Setting the scene (an action already in progress) takes the past continuous: 'was shining'.",
+        "'Shine' is the base form and doesn't fit here.",
         "'Shines' is present simple, but this was in the past.",
-        "'Shine' is the base form and doesn't fit here."
+        "Correct! Setting the scene (an action already in progress) takes the past continuous: 'was shining'."
       ]
     },
     {
@@ -60,39 +60,39 @@
     },
     {
       "question": "He ___ TV for an hour, then he went to bed.",
-      "options": ["watched", "was watching", "watches", "watch"],
-      "answer": 0,
+      "options": ["was watching", "watched", "watches", "watch"],
+      "answer": 1,
       "explanations": [
-        "Correct! A completed action in a sequence ('then he went to bed') takes the past simple: 'watched'.",
         "'Was watching' describes an action in progress, but here it's a finished step in a sequence.",
+        "Correct! A completed action in a sequence ('then he went to bed') takes the past simple: 'watched'.",
         "'Watches' is present simple, but this was in the past.",
         "'Watch' is the base form and doesn't fit a past event."
       ]
     },
     {
       "question": "I ___ to go home early because I felt tired.",
-      "options": ["was wanting", "wanted", "were wanting", "want"],
-      "answer": 1,
+      "options": ["was wanting", "want", "were wanting", "wanted"],
+      "answer": 3,
       "explanations": [
         "'Want' is a stative verb and isn't used in the continuous.",
-        "Correct! State verbs like 'want' take the past simple: 'wanted'.",
+        "'Want' is present simple, but this happened in the past.",
         "'Were wanting' is wrong twice: 'want' avoids the continuous, and 'were' doesn't match 'I'.",
-        "'Want' is present simple, but this happened in the past."
+        "Correct! State verbs like 'want' take the past simple: 'wanted'."
       ]
     },
     {
       "question": "They were playing football when it ___ to rain.",
-      "options": ["was starting", "started", "starts", "start"],
-      "answer": 1,
+      "options": ["was starting", "starts", "started", "start"],
+      "answer": 2,
       "explanations": [
         "'Was starting' makes the rain a long action, but here it's the sudden interruption.",
-        "Correct! The event that interrupts the game takes the past simple: 'started'.",
         "'Starts' is present simple, but this happened in the past.",
+        "Correct! The event that interrupts the game takes the past simple: 'started'.",
         "'Start' is the base form and doesn't fit a past event."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'During my walk home, a dog suddenly barked at me.'",
+      "question": "Choose the sentence with the same meaning as: 'During my walk home, a dog suddenly barked at me.'",
       "options": [
         "I walked home and then a dog barked.",
         "I was walking home when a dog suddenly barked at me.",
@@ -110,17 +110,47 @@
     {
       "question": "Which sentence means the cooking was already in progress?",
       "options": [
-        "I cooked when he called.",
         "I was cooking when he called.",
+        "I cooked when he called.",
         "I cook when he calls.",
         "I will cook when he calls."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "'I cooked when he called' means you started cooking after the call — a sequence.",
         "Correct! 'I was cooking when he called' means the cooking was already happening.",
+        "'I cooked when he called' means you started cooking after the call — a sequence.",
         "'I cook when he calls' is a present habit, not a past moment.",
         "'I will cook' is about the future, not the past."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I ___ when the lights went out. (read)",
+      "hint": "Type two words.",
+      "answers": ["was reading"],
+      "explanation": "The longer background action: past continuous.",
+      "common": [
+        {"answer": "read", "why": "The action was in progress: was reading."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I walked home when it started to rain. (background action)",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I was walking home when it started to rain"],
+      "explanation": "The interrupted action takes the past continuous."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "The phone rang and I ___ it quickly. (answer)",
+      "hint": "Type one word.",
+      "answers": ["answered"],
+      "explanation": "A short completed action: past simple.",
+      "common": [
+        {"answer": "was answering", "why": "A quick completed reaction is the past simple."}
       ]
     }
   ]

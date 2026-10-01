@@ -5,35 +5,35 @@
   "items": [
     {
       "question": "\"Where were you?\" \"I've ___ to the shops. Look, I bought bread.\"",
-      "options": ["been", "gone", "went", "being"],
-      "answer": 0,
+      "options": ["went", "gone", "been", "being"],
+      "answer": 2,
       "explanations": [
-        "Correct! You're back, so 'been': 'I've been to the shops'.",
-        "'Gone' would mean you're still out.",
         "'Went' isn't used after 'have'.",
+        "'Gone' would mean you're still out.",
+        "Correct! You're back, so 'been': 'I've been to the shops'.",
         "'Being' is not the participle needed here."
       ]
     },
     {
       "question": "\"Where's Dad?\" \"He's ___ to the garage — he'll be back soon.\"",
-      "options": ["gone", "been", "went", "being"],
-      "answer": 0,
+      "options": ["been", "gone", "went", "being"],
+      "answer": 1,
       "explanations": [
-        "Correct! He's still away, so 'gone': 'He's gone to the garage'.",
         "'Been' would mean he's back.",
+        "Correct! He's still away, so 'gone': 'He's gone to the garage'.",
         "'Went' isn't used after 'has'.",
         "'Being' is not the participle needed here."
       ]
     },
     {
       "question": "I've ___ to Japan twice in my life.",
-      "options": ["been", "gone", "went", "being"],
-      "answer": 0,
+      "options": ["being", "gone", "went", "been"],
+      "answer": 3,
       "explanations": [
-        "Correct! Life experience takes 'been': 'I've been to Japan'.",
+        "'Being' is not correct here.",
         "'Gone' can't be used for experience.",
         "'Went' isn't used after 'have'.",
-        "'Being' is not correct here."
+        "Correct! Life experience takes 'been': 'I've been to Japan'."
       ]
     },
     {
@@ -60,67 +60,92 @@
     },
     {
       "question": "They've ___ on holiday and won't be back until Sunday.",
-      "options": ["gone", "been", "went", "being"],
-      "answer": 0,
+      "options": ["went", "been", "gone", "being"],
+      "answer": 2,
       "explanations": [
-        "Correct! They're still away, so 'gone'.",
-        "'Been' would mean they've returned.",
         "'Went' isn't used after 'have'.",
+        "'Been' would mean they've returned.",
+        "Correct! They're still away, so 'gone'.",
         "'Being' is not correct here."
       ]
     },
     {
       "question": "Have you ever ___ to a live concert?",
-      "options": ["been", "gone", "went", "being"],
-      "answer": 0,
+      "options": ["being", "gone", "went", "been"],
+      "answer": 3,
       "explanations": [
-        "Correct! Experience question takes 'been': 'Have you ever been…?'",
+        "'Being' is not correct here.",
         "'Gone' can't be used for experience.",
         "'Went' isn't used after 'have'.",
-        "'Being' is not correct here."
+        "Correct! Experience question takes 'been': 'Have you ever been…?'"
       ]
     },
     {
       "question": "The kids aren't home — they've ___ to school.",
-      "options": ["gone", "been", "went", "being"],
-      "answer": 0,
+      "options": ["been", "gone", "went", "being"],
+      "answer": 1,
       "explanations": [
-        "Correct! They're still away, so 'gone'.",
         "'Been' would mean they're back.",
+        "Correct! They're still away, so 'gone'.",
         "'Went' isn't used after 'have'.",
         "'Being' is not correct here."
       ]
     },
     {
-      "question": "Correct this: 'How was Rome?' 'Great! I've gone there last week.'",
+      "question": "Choose the correct version of: 'How was Rome?' 'Great! I've gone there last week.'",
       "options": [
-        "Great! I've been there. / I went there last week.",
         "Great! I've gone there last week.",
+        "Great! I've been there. / I went there last week.",
         "Great! I've being there last week.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! You're back, so 'been' (and with 'last week', past simple 'went').",
         "'Gone' means still away, and it clashes with 'last week'.",
+        "Correct! You're back, so 'been' (and with 'last week', past simple 'went').",
         "'Being' is not the right participle.",
         "The original wrongly uses 'gone' for a completed, returned trip."
       ]
     },
     {
       "question": "'Has gone to' tells you the person is…",
-      "options": [
-        "still away.",
-        "back home.",
-        "someone with experience of a place.",
-        "about to leave."
-      ],
+      "options": ["still away.", "back home.", "someone with experience of a place.", "about to leave."],
       "answer": 0,
       "explanations": [
         "Correct! 'Has gone to' = went and is still away.",
         "'Back home' would be 'has been to'.",
         "Experience uses 'has been to'.",
         "It means they've already left and are away."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "'Where's Ana?' — 'She's ___ to the bank. She'll be back soon.'",
+      "hint": "Type one word.",
+      "answers": ["gone"],
+      "explanation": "'Gone' = went and is still away.",
+      "common": [
+        {"answer": "been", "why": "'Been' means she has come back. She's still away, so 'gone'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "How was your trip? — I've gone to Spain.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["How was your trip? I've been to Spain", "How was your trip? — I've been to Spain"],
+      "explanation": "The person has come back, so 'been'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I've ___ to Paris three times. (experience)",
+      "hint": "Type one word.",
+      "answers": ["been"],
+      "explanation": "Experience = been.",
+      "common": [
+        {"answer": "gone", "why": "'Gone' would mean you are still in Paris."}
       ]
     }
   ]

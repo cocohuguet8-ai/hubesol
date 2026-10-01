@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "When I got to the station, the train ___.",
-      "options": ["left", "had left", "was leaving", "leaves"],
-      "answer": 1,
+      "options": ["left", "leaves", "was leaving", "had left"],
+      "answer": 3,
       "explanations": [
         "'Left' would suggest it left as or after you arrived, but here it had gone before.",
-        "Correct! The earlier action (leaving before you arrived) takes the past perfect: 'had left'.",
+        "'Leaves' is present simple, but this happened in the past.",
         "'Was leaving' means it was in the middle of leaving as you arrived — a different meaning.",
-        "'Leaves' is present simple, but this happened in the past."
+        "Correct! The earlier action (leaving before you arrived) takes the past perfect: 'had left'."
       ]
     },
     {
@@ -27,12 +27,12 @@
     },
     {
       "question": "They ___ never seen snow before that day.",
-      "options": ["had", "have", "has", "was"],
-      "answer": 0,
+      "options": ["has", "have", "had", "was"],
+      "answer": 2,
       "explanations": [
-        "Correct! The past perfect uses 'had' for every subject: 'had never seen'.",
-        "'Have' is present perfect, but 'before that day' points to a past reference.",
         "'Has' is present and doesn't match 'they' either.",
+        "'Have' is present perfect, but 'before that day' points to a past reference.",
+        "Correct! The past perfect uses 'had' for every subject: 'had never seen'.",
         "'Was seen' would be passive; here we need 'had seen'."
       ]
     },
@@ -49,73 +49,103 @@
     },
     {
       "question": "By the time we got there, the shop ___.",
-      "options": ["closed", "had closed", "closes", "was closing"],
-      "answer": 1,
+      "options": ["closed", "closes", "had closed", "was closing"],
+      "answer": 2,
       "explanations": [
         "'Closed' suggests it closed as you arrived, but 'by the time' points to an earlier action.",
-        "Correct! 'By the time' + an earlier completed action takes the past perfect: 'had closed'.",
         "'Closes' is present simple, but this was in the past.",
+        "Correct! 'By the time' + an earlier completed action takes the past perfect: 'had closed'.",
         "'Was closing' means it was in the middle of closing — a different meaning."
       ]
     },
     {
       "question": "First I ___ up, then I ___ breakfast.",
-      "options": ["had woken / had made", "woke / made", "was waking / made", "wake / make"],
-      "answer": 1,
+      "options": ["woke / made", "had woken / had made", "was waking / made", "wake / make"],
+      "answer": 0,
       "explanations": [
-        "This is a simple sequence, so the past perfect is unnecessary here.",
         "Correct! For a simple sequence of events, the past simple is enough: 'woke / made'.",
+        "This is a simple sequence, so the past perfect is unnecessary here.",
         "'Was waking' describes an action in progress, not a completed step in the sequence.",
         "'Wake / make' are present forms, but this happened in the past."
       ]
     },
     {
       "question": "He ___ finished his work, so we waited for him.",
-      "options": ["hadn't", "didn't", "wasn't", "haven't"],
-      "answer": 0,
+      "options": ["didn't", "hadn't", "wasn't", "haven't"],
+      "answer": 1,
       "explanations": [
-        "Correct! The negative past perfect uses 'hadn't': 'hadn't finished'.",
         "'Didn't finished' isn't correct; the past perfect needs 'had' + participle.",
+        "Correct! The negative past perfect uses 'hadn't': 'hadn't finished'.",
         "'Wasn't finished' is possible in some contexts, but with 'finished his work' the past perfect fits: 'hadn't finished'.",
         "'Haven't' is present perfect, but this is set in the past."
       ]
     },
     {
       "question": "She told me she ___ him somewhere before.",
-      "options": ["met", "had met", "meets", "was meeting"],
-      "answer": 1,
+      "options": ["met", "was meeting", "meets", "had met"],
+      "answer": 3,
       "explanations": [
         "'Met' loses the sense that the meeting happened before she told me.",
-        "Correct! An action earlier than the reported past moment takes the past perfect: 'had met'.",
+        "'Was meeting' describes an action in progress, not a completed earlier action.",
         "'Meets' is present simple, but this happened in the past.",
-        "'Was meeting' describes an action in progress, not a completed earlier action."
+        "Correct! An action earlier than the reported past moment takes the past perfect: 'had met'."
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'First they ate; then we arrived.'",
+      "question": "Choose the sentence with the same meaning as: 'First they ate; then we arrived.'",
       "options": [
-        "When we arrived, they had already eaten.",
         "When we arrived, they were eating.",
+        "When we arrived, they had already eaten.",
         "When we arrived, they ate.",
         "They ate after we arrived."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! The eating came first, so it's the past perfect: 'they had already eaten'.",
         "'Were eating' means they were still eating when you arrived — a different meaning.",
+        "Correct! The eating came first, so it's the past perfect: 'they had already eaten'.",
         "'They ate' (as we arrived) suggests they ate at that moment, not before.",
         "'After we arrived' reverses the order — they ate first."
       ]
     },
     {
       "question": "I ___ breakfast before I left home.",
-      "options": ["had had", "had have", "have had", "had"],
-      "answer": 0,
+      "options": ["had", "had have", "have had", "had had"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Had had' = auxiliary 'had' + past participle 'had' (of 'have'): 'I had had breakfast'.",
+        "'Had' alone is missing the participle: you need 'had had'.",
         "'Had have' is not correct — the participle of 'have' is 'had', not 'have'.",
         "'Have had' is present perfect, but this is set before another past action.",
-        "'Had' alone is missing the participle: you need 'had had'."
+        "Correct! 'Had had' = auxiliary 'had' + past participle 'had' (of 'have'): 'I had had breakfast'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "When I got to the station, the train ___. (leave)",
+      "hint": "Type two words.",
+      "answers": ["had left"],
+      "explanation": "The earlier action: had + participle.",
+      "common": [
+        {"answer": "left", "why": "The train left before you arrived: had left."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I had went to bed before he called.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I had gone to bed before he called"],
+      "explanation": "Participle of 'go' is 'gone'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "She was upset because she ___ the exam. (fail)",
+      "hint": "Type two words.",
+      "answers": ["had failed"],
+      "explanation": "The earlier cause: past perfect.",
+      "common": [
+        {"answer": "failed", "why": "Failing came before being upset: had failed."}
       ]
     }
   ]

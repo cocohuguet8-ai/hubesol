@@ -5,12 +5,12 @@
   "items": [
     {
       "question": "Present continuous: The bridge ___ at the moment.",
-      "options": ["is repaired", "is being repaired", "is repairing", "has been repaired"],
-      "answer": 1,
+      "options": ["is repaired", "is repairing", "is being repaired", "has been repaired"],
+      "answer": 2,
       "explanations": [
         "'Is repaired' is present simple passive, not continuous.",
-        "Correct! Continuous passive = is being + participle: 'is being repaired'.",
         "'Is repairing' is active continuous.",
+        "Correct! Continuous passive = is being + participle: 'is being repaired'.",
         "'Has been repaired' is present perfect passive."
       ]
     },
@@ -27,34 +27,34 @@
     },
     {
       "question": "Modal: This bottle ___ .",
-      "options": ["can recycle", "can be recycled", "can be recycle", "is can recycled"],
-      "answer": 1,
+      "options": ["can be recycled", "can recycle", "can be recycle", "is can recycled"],
+      "answer": 0,
       "explanations": [
-        "'Can recycle' is active; the bottle doesn't recycle itself.",
         "Correct! Modal passive = modal + be + participle: 'can be recycled'.",
+        "'Can recycle' is active; the bottle doesn't recycle itself.",
         "'Can be recycle' uses the base verb; use 'recycled'.",
         "'Is can recycled' is not correct English."
       ]
     },
     {
       "question": "Past perfect: By the time we arrived, the room ___ .",
-      "options": ["had cleaned", "had been cleaned", "was cleaning", "has been cleaned"],
-      "answer": 1,
+      "options": ["had cleaned", "has been cleaned", "was cleaning", "had been cleaned"],
+      "answer": 3,
       "explanations": [
         "'Had cleaned' is active; the room was cleaned by someone.",
-        "Correct! Past perfect passive = had been + participle: 'had been cleaned'.",
+        "'Has been cleaned' is present perfect, but the context is earlier past.",
         "'Was cleaning' is active continuous.",
-        "'Has been cleaned' is present perfect, but the context is earlier past."
+        "Correct! Past perfect passive = had been + participle: 'had been cleaned'."
       ]
     },
     {
       "question": "Past continuous: When I called, my car ___ .",
-      "options": ["was repaired", "was being repaired", "is being repaired", "had been repaired"],
-      "answer": 1,
+      "options": ["was repaired", "is being repaired", "was being repaired", "had been repaired"],
+      "answer": 2,
       "explanations": [
         "'Was repaired' is past simple passive, not continuous.",
-        "Correct! Past continuous passive = was being + participle: 'was being repaired'.",
         "'Is being repaired' is present, not past.",
+        "Correct! Past continuous passive = was being + participle: 'was being repaired'.",
         "'Had been repaired' would mean it was already finished."
       ]
     },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "question": "Correct this: 'The report must completed by Friday.'",
+      "question": "Choose the correct version of: 'The report must completed by Friday.'",
       "options": [
         "The report must be completed by Friday.",
         "The report must completed by Friday.",
@@ -87,34 +87,29 @@
     },
     {
       "question": "Present simple: Millions of emails ___ every second.",
-      "options": ["send", "are sent", "are sending", "have sent"],
-      "answer": 1,
+      "options": ["send", "have sent", "are sending", "are sent"],
+      "answer": 3,
       "explanations": [
         "'Send' is active and needs a doer.",
-        "Correct! Present passive = are + participle: 'are sent'.",
+        "'Have sent' is active present perfect.",
         "'Are sending' is active continuous.",
-        "'Have sent' is active present perfect."
+        "Correct! Present passive = are + participle: 'are sent'."
       ]
     },
     {
       "question": "Present perfect (singular): The decision ___ .",
-      "options": ["have been made", "has been made", "has made", "was been made"],
-      "answer": 1,
+      "options": ["have been made", "has made", "has been made", "was been made"],
+      "answer": 2,
       "explanations": [
         "'The decision' is singular, so use 'has', not 'have'.",
-        "Correct! 'has been made' — present perfect passive, singular subject.",
         "'Has made' is active and misses 'been'.",
+        "Correct! 'has been made' — present perfect passive, singular subject.",
         "'Was been made' is not correct English."
       ]
     },
     {
       "question": "Which passive form is best avoided as too clumsy?",
-      "options": [
-        "It is being built.",
-        "It will be being built.",
-        "It has been built.",
-        "It was built."
-      ],
+      "options": ["It is being built.", "It will be being built.", "It has been built.", "It was built."],
       "answer": 1,
       "explanations": [
         "'Is being built' is a normal continuous passive.",
@@ -122,6 +117,33 @@
         "'Has been built' is a normal perfect passive.",
         "'Was built' is a normal past passive."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "The house ___ right now. (paint)",
+      "hint": "Use the continuous passive.",
+      "answers": ["is being painted"],
+      "explanation": "Present continuous passive: is being + past participle.",
+      "common": [
+        {"answer": "is painted", "why": "Right now means continuous, so we need 'being': is being painted."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "The parcels have delivered already.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["The parcels have been delivered already"],
+      "explanation": "Present perfect passive: have been + past participle."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "The letters must ___ before Friday. (send)",
+      "hint": "Use the passive after 'must'.",
+      "answers": ["be sent"],
+      "explanation": "Modal passive: must + be + past participle."
     }
   ]
 }

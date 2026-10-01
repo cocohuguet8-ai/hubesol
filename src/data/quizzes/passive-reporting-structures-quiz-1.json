@@ -16,122 +16,146 @@
     },
     {
       "question": "The company ___ in trouble. (personal pattern)",
-      "options": ["is said to be", "is said that", "says to be", "is said being"],
-      "answer": 0,
+      "options": ["is said being", "is said that", "says to be", "is said to be"],
+      "answer": 3,
       "explanations": [
-        "Correct! Personal pattern: 'The company is said to be in trouble'.",
+        "'Is said being' is not correct English.",
         "'Is said that' belongs to the impersonal 'It' pattern.",
         "'Says to be' is active and ungrammatical.",
-        "'Is said being' is not correct English."
+        "Correct! Personal pattern: 'The company is said to be in trouble'."
       ]
     },
     {
       "question": "He ___ the country last night. (an earlier action)",
-      "options": ["is believed to leave", "is believed to have left", "is believed leaving", "believes to leave"],
-      "answer": 1,
+      "options": ["is believed to leave", "is believed leaving", "is believed to have left", "believes to leave"],
+      "answer": 2,
       "explanations": [
         "'To leave' points to now; the action is earlier.",
-        "Correct! Earlier time = to have + participle: 'is believed to have left'.",
         "'To have left' is needed, not '-ing'.",
+        "Correct! Earlier time = to have + participle: 'is believed to have left'.",
         "'Believes to leave' is active and wrong."
       ]
     },
     {
       "question": "It ___ that no one was injured in the crash.",
-      "options": ["was reported", "was reported to", "reported", "is reporting"],
-      "answer": 0,
+      "options": ["was reported to", "was reported", "reported", "is reporting"],
+      "answer": 1,
       "explanations": [
-        "Correct! Impersonal past: 'It was reported that…'.",
         "'It was reported to' needs an infinitive, not 'that'.",
+        "Correct! Impersonal past: 'It was reported that…'.",
         "'It reported that' is active.",
         "'Is reporting' is active continuous."
       ]
     },
     {
       "question": "She ___ five languages fluently.",
-      "options": ["is known to speak", "is known that speaks", "knows to speak", "is known speaking"],
-      "answer": 0,
+      "options": ["knows to speak", "is known that speaks", "is known to speak", "is known speaking"],
+      "answer": 2,
       "explanations": [
-        "Correct! Personal pattern: 'She is known to speak five languages'.",
-        "'Is known that speaks' mixes the two patterns.",
         "'Knows to speak' is active and changes the meaning.",
+        "'Is known that speaks' mixes the two patterns.",
+        "Correct! Personal pattern: 'She is known to speak five languages'.",
         "'Is known speaking' is not correct."
       ]
     },
     {
-      "question": "Transform: 'People think he is a genius.' (personal pattern)",
+      "question": "Choose the correct transformation of: 'People think he is a genius.' (personal pattern)",
       "options": [
-        "He is thought to be a genius.",
         "He is thought that he is a genius.",
+        "He is thought to be a genius.",
         "It is thought he to be a genius.",
         "He thinks to be a genius."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'He is thought to be a genius'.",
         "'Is thought that he is' mixes patterns.",
+        "Correct! 'He is thought to be a genius'.",
         "'It is thought he to be' is ungrammatical.",
         "'He thinks to be' changes the meaning."
       ]
     },
     {
       "question": "They ___ a fortune in the 1990s. (earlier action, personal)",
-      "options": ["are said to make", "are said to have made", "are said making", "say to have made"],
-      "answer": 1,
+      "options": ["are said to have made", "are said to make", "are said making", "say to have made"],
+      "answer": 0,
       "explanations": [
-        "'To make' points to now; the 1990s is earlier.",
         "Correct! Earlier time: 'are said to have made a fortune'.",
+        "'To make' points to now; the 1990s is earlier.",
         "'-ing' doesn't fit this pattern.",
         "'Say to have made' is active and wrong."
       ]
     },
     {
-      "question": "Correct this: 'He is said that he is very rich.'",
+      "question": "Choose the correct version of: 'He is said that he is very rich.'",
       "options": [
-        "He is said to be very rich.",
+        "The sentence is already correct.",
         "He is said to being very rich.",
         "He said to be very rich.",
-        "The sentence is already correct."
+        "He is said to be very rich."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Personal pattern: 'He is said to be very rich'.",
+        "The original wrongly mixes 'He is said' with a 'that'-clause.",
         "'To being' is wrong; use 'to be'.",
         "'He said to be' misses the passive 'is'.",
-        "The original wrongly mixes 'He is said' with a 'that'-clause."
+        "Correct! Personal pattern: 'He is said to be very rich'."
       ]
     },
     {
-      "question": "Transform to impersonal: 'The minister is expected to resign.'",
+      "question": "Choose the impersonal version of: 'The minister is expected to resign.'",
       "options": [
-        "It is expected that the minister will resign.",
+        "The minister is expected that resigns.",
         "It is expected the minister to resign.",
         "It expects that the minister resigns.",
-        "The minister is expected that resigns."
+        "It is expected that the minister will resign."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! Impersonal: 'It is expected that the minister will resign'.",
+        "'Is expected that resigns' mixes the patterns.",
         "'It is expected the minister to resign' is ungrammatical.",
         "'It expects that' is active.",
-        "'Is expected that resigns' mixes the patterns."
+        "Correct! Impersonal: 'It is expected that the minister will resign'."
       ]
     },
     {
       "question": "Which sentence correctly reports an EARLIER action?",
       "options": [
         "The painting is believed to be stolen.",
-        "The painting is believed to have been stolen.",
         "The painting is believed stealing.",
+        "The painting is believed to have been stolen.",
         "The painting believes to be stolen."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
         "'To be stolen' points to now, not an earlier theft.",
-        "Correct! Earlier passive action: 'is believed to have been stolen'.",
         "'-ing' doesn't fit this pattern.",
+        "Correct! Earlier passive action: 'is believed to have been stolen'.",
         "'Believes to be' is active and wrong."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "It ___ that the museum will close next year. (believe)",
+      "hint": "Use the passive.",
+      "answers": ["is believed"],
+      "explanation": "Impersonal pattern: It + is believed + that-clause."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She is believed to left the country.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She is believed to have left the country"],
+      "explanation": "For an earlier time we use 'to have + past participle'."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "People say that the actor is very generous. → The actor ___ very generous.",
+      "hint": "Type the passive reporting words.",
+      "answers": ["is said to be"],
+      "explanation": "Personal pattern: subject + is said + to-infinitive."
     }
   ]
 }

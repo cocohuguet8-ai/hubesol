@@ -5,12 +5,12 @@
   "items": [
     {
       "question": "My mother is ___ doctor.",
-      "options": ["a", "the", "—", "an"],
-      "answer": 0,
+      "options": ["—", "the", "a", "an"],
+      "answer": 2,
       "explanations": [
-        "Correct! Use a/an before a job: 'a doctor'.",
-        "'The doctor' would mean a specific, known doctor.",
         "Jobs need an article in English.",
+        "'The doctor' would mean a specific, known doctor.",
+        "Correct! Use a/an before a job: 'a doctor'.",
         "'An' is for a vowel sound; 'doctor' starts with a consonant sound."
       ]
     },
@@ -27,39 +27,34 @@
     },
     {
       "question": "Can you give me ___ information about the course?",
-      "options": ["an", "a", "some", "the"],
-      "answer": 2,
+      "options": ["an", "some", "a", "the"],
+      "answer": 1,
       "explanations": [
         "'Information' is uncountable; you can't use 'an'.",
-        "'Information' is uncountable; you can't use 'a'.",
         "Correct! Use 'some' with an uncountable noun: 'some information'.",
+        "'Information' is uncountable; you can't use 'a'.",
         "'The information' is possible if specific, but 'some' fits general info better."
       ]
     },
     {
       "question": "We go to the gym twice ___ week.",
-      "options": ["a", "the", "an", "in"],
-      "answer": 0,
+      "options": ["in", "the", "an", "a"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'a' means 'per' here: 'twice a week'.",
+        "'In week' is not correct English.",
         "'The week' changes the meaning.",
         "'Week' starts with a consonant sound → 'a'.",
-        "'In week' is not correct English."
+        "Correct! 'a' means 'per' here: 'twice a week'."
       ]
     },
     {
       "question": "Which is correct?",
-      "options": [
-        "I bought a new shoes.",
-        "I bought new shoes.",
-        "I bought an new shoes.",
-        "I bought a news shoes."
-      ],
-      "answer": 1,
+      "options": ["I bought a new shoes.", "I bought an new shoes.", "I bought new shoes.", "I bought a news shoes."],
+      "answer": 2,
       "explanations": [
         "'A' can't go with a plural noun.",
-        "Correct! Plurals take no a/an: 'I bought new shoes'.",
         "'An' can't go with a plural noun either.",
+        "Correct! Plurals take no a/an: 'I bought new shoes'.",
         "This is not correct English."
       ]
     },
@@ -76,38 +71,38 @@
     },
     {
       "question": "He works as ___ engineer.",
-      "options": ["an", "a", "the", "—"],
-      "answer": 0,
+      "options": ["a", "an", "the", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Engineer' starts with a vowel sound → 'an engineer'.",
         "'Engineer' has a vowel sound, so 'an', not 'a'.",
+        "Correct! 'Engineer' starts with a vowel sound → 'an engineer'.",
         "'The engineer' would mean a specific one.",
         "Jobs need an article in English."
       ]
     },
     {
-      "question": "Correct this: 'She gave me an advice.'",
+      "question": "Choose the correct version of: 'She gave me an advice.'",
       "options": [
-        "She gave me some advice.",
+        "The sentence is already correct.",
         "She gave me a advice.",
         "She gave me an advices.",
-        "The sentence is already correct."
+        "She gave me some advice."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'Advice' is uncountable: 'some advice' (or 'a piece of advice').",
+        "'An advice' is incorrect.",
         "'A advice' is still wrong — advice is uncountable.",
         "'Advices' isn't a word; advice has no plural.",
-        "'An advice' is incorrect."
+        "Correct! 'Advice' is uncountable: 'some advice' (or 'a piece of advice')."
       ]
     },
     {
       "question": "There's ___ message for you on the desk.",
-      "options": ["a", "an", "the", "—"],
-      "answer": 0,
+      "options": ["an", "a", "the", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! First mention, singular countable: 'a message'.",
         "'Message' starts with a consonant sound → 'a'.",
+        "Correct! First mention, singular countable: 'a message'.",
         "'The message' would suggest one already known.",
         "A singular countable noun needs an article here."
       ]
@@ -126,6 +121,36 @@
         "Plurals in general take no article.",
         "Uncountables don't take a/an.",
         "A specific, known noun takes 'the'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "My sister is ___ nurse.",
+      "hint": "Type a or an.",
+      "answers": ["a"],
+      "explanation": "Jobs take a/an. 'Nurse' starts with a consonant sound, so 'a'.",
+      "common": [
+        {"answer": "an", "why": "'Nurse' starts with a consonant sound (n), so 'a', not 'an'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "Can you give me an advice?",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["Can you give me some advice", "Can you give me advice"],
+      "explanation": "'Advice' is uncountable, so it can't take a/an. Use 'some' or nothing."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "What ___ lovely day!",
+      "hint": "Type a or an.",
+      "answers": ["a"],
+      "explanation": "In exclamations with a singular noun we say 'What a…!'.",
+      "common": [
+        {"answer": "an", "why": "'Lovely' starts with a consonant sound (l), so 'a'."}
       ]
     }
   ]

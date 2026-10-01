@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "The streets are wet. It ___ rained last night.",
-      "options": ["must have", "must", "must of", "must to have"],
-      "answer": 0,
+      "options": ["must", "must have", "must of", "must to have"],
+      "answer": 1,
       "explanations": [
-        "Correct! A confident past guess takes 'must have + participle': 'It must have rained'.",
         "'Must rained' is missing 'have'.",
+        "Correct! A confident past guess takes 'must have + participle': 'It must have rained'.",
         "'Must of' is a spelling error for 'must have'.",
         "'Must to have' is not correct English."
       ]
@@ -27,101 +27,128 @@
     },
     {
       "question": "You ___ told me it was your birthday! I'd have got a cake.",
-      "options": ["should have", "should", "should of", "must have"],
-      "answer": 0,
+      "options": ["must have", "should", "should of", "should have"],
+      "answer": 3,
       "explanations": [
-        "Correct! Regret/criticism takes 'should have + participle': 'You should have told me'.",
+        "'Must have told' would be a guess, not a criticism.",
         "'Should told' is missing 'have'.",
         "'Should of' is a spelling error for 'should have'.",
-        "'Must have told' would be a guess, not a criticism."
+        "Correct! Regret/criticism takes 'should have + participle': 'You should have told me'."
       ]
     },
     {
       "question": "He ___ finished the marathon — it started only ten minutes ago!",
-      "options": ["must have", "can't have", "should have", "might have"],
-      "answer": 1,
+      "options": ["must have", "should have", "can't have", "might have"],
+      "answer": 2,
       "explanations": [
         "'Must have finished' says you're sure he did — but that's impossible here.",
-        "Correct! Impossibility takes 'can't have + participle': 'He can't have finished'.",
         "'Should have finished' is a criticism, which doesn't fit.",
+        "Correct! Impossibility takes 'can't have + participle': 'He can't have finished'.",
         "'Might have finished' says it's possible — but it's impossible here."
       ]
     },
     {
-      "question": "Correct this: 'I could of helped you.'",
+      "question": "Choose the correct version of: 'I could of helped you.'",
       "options": [
-        "I could have helped you.",
+        "I could to have helped you.",
         "I could helped you.",
         "I could of helped you.",
-        "I could to have helped you."
+        "I could have helped you."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! The word is 'have', not 'of': 'I could have helped you'.",
+        "Never add 'to' after 'could'.",
         "'Could helped' is missing 'have'.",
         "'Could of' is the error being corrected.",
-        "Never add 'to' after 'could'."
+        "Correct! The word is 'have', not 'of': 'I could have helped you'."
       ]
     },
     {
       "question": "The lights are off and the car's gone. They ___ left.",
-      "options": ["must have", "can't have", "should have", "might not have"],
-      "answer": 0,
+      "options": ["should have", "can't have", "must have", "might not have"],
+      "answer": 2,
       "explanations": [
-        "Correct! The evidence makes you sure: 'They must have left'.",
-        "'Can't have left' would mean it's impossible — but the evidence says they did.",
         "'Should have left' is a criticism, not a deduction.",
+        "'Can't have left' would mean it's impossible — but the evidence says they did.",
+        "Correct! The evidence makes you sure: 'They must have left'.",
         "'Might not have left' expresses doubt, but the evidence is strong."
       ]
     },
     {
       "question": "Choose the correct participle: 'She must have ___ the message.'",
-      "options": ["saw", "seen", "see", "seeing"],
-      "answer": 1,
+      "options": ["seen", "saw", "see", "seeing"],
+      "answer": 0,
       "explanations": [
-        "'Saw' is the past simple, not the participle.",
         "Correct! After 'have' use the past participle: 'must have seen'.",
+        "'Saw' is the past simple, not the participle.",
         "'See' is the base verb, not the participle.",
         "'-ing' doesn't follow 'have' here."
       ]
     },
     {
       "question": "I feel awful. I ___ eaten that leftover fish.",
-      "options": ["shouldn't have", "shouldn't", "mustn't have", "couldn't have"],
-      "answer": 0,
+      "options": ["shouldn't", "shouldn't have", "mustn't have", "couldn't have"],
+      "answer": 1,
       "explanations": [
-        "Correct! Regret takes 'shouldn't have + participle': 'I shouldn't have eaten that fish'.",
         "'Shouldn't eaten' is missing 'have'.",
+        "Correct! Regret takes 'shouldn't have + participle': 'I shouldn't have eaten that fish'.",
         "'Mustn't have' isn't used for regret.",
         "'Couldn't have eaten' would mean it was impossible."
       ]
     },
     {
       "question": "Why didn't he reply? He ___ seen the email.",
-      "options": ["may not have", "may not", "mayn't have", "may not of"],
-      "answer": 0,
+      "options": ["may not of", "may not", "mayn't have", "may not have"],
+      "answer": 3,
       "explanations": [
-        "Correct! A negative past possibility takes 'may not have + participle': 'He may not have seen it'.",
+        "'May not of' is a spelling error for 'may not have'.",
         "'May not seen' is missing 'have'.",
         "'Mayn't' is not used in modern English.",
-        "'May not of' is a spelling error for 'may not have'."
+        "Correct! A negative past possibility takes 'may not have + participle': 'He may not have seen it'."
       ]
     },
     {
       "question": "Which sentence expresses REGRET about the past?",
       "options": [
         "She must have missed the bus.",
-        "He can't have known.",
         "I should have studied medicine.",
+        "He can't have known.",
         "They might have arrived."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
         "This is a confident deduction, not regret.",
-        "This is an impossibility, not regret.",
         "Correct! 'I should have studied medicine' expresses regret about the past.",
+        "This is an impossibility, not regret.",
         "This is a possibility, not regret."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "You ___ have called me! I was so worried. (criticism)",
+      "hint": "Type one word.",
+      "answers": ["should"],
+      "explanation": "'Should have' = criticism or regret about the past.",
+      "common": [
+        {"answer": "must", "why": "'Must have' is a guess. Here you criticise: should have."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She must have went home.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She must have gone home"],
+      "explanation": "After 'have' use the past participle: gone."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I could of helped you.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I could have helped you"],
+      "explanation": "Write 'have', never 'of'."
     }
   ]
 }

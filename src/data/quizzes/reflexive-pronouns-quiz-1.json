@@ -5,34 +5,34 @@
   "items": [
     {
       "question": "Be careful with the knife — you might cut ___ .",
-      "options": ["yourself", "you", "yourselves", "yours"],
-      "answer": 0,
+      "options": ["you", "yourself", "yourselves", "yours"],
+      "answer": 1,
       "explanations": [
-        "Correct! Subject = object (one person): 'cut yourself'.",
         "'You' isn't reflexive.",
+        "Correct! Subject = object (one person): 'cut yourself'.",
         "'Yourselves' is for more than one person.",
         "'Yours' is possessive."
       ]
     },
     {
       "question": "The children really enjoyed ___ at the party.",
-      "options": ["themselves", "themself", "them", "theirs"],
-      "answer": 0,
+      "options": ["theirs", "themself", "them", "themselves"],
+      "answer": 3,
       "explanations": [
-        "Correct! Plural reflexive: 'enjoyed themselves'.",
+        "'Theirs' is possessive.",
         "'Themself' isn't standard for a plural subject.",
         "'Them' isn't reflexive.",
-        "'Theirs' is possessive."
+        "Correct! Plural reflexive: 'enjoyed themselves'."
       ]
     },
     {
       "question": "I don't need help — I'll do it ___ .",
-      "options": ["myself", "me", "mine", "himself"],
-      "answer": 0,
+      "options": ["mine", "me", "myself", "himself"],
+      "answer": 2,
       "explanations": [
-        "Correct! Emphasis: 'I'll do it myself'.",
-        "'Me' isn't reflexive.",
         "'Mine' is possessive.",
+        "'Me' isn't reflexive.",
+        "Correct! Emphasis: 'I'll do it myself'.",
         "'Himself' is the wrong person."
       ]
     },
@@ -49,11 +49,11 @@
     },
     {
       "question": "He lives ___ himself in the countryside. (alone)",
-      "options": ["by", "with", "for", "on"],
-      "answer": 0,
+      "options": ["with", "by", "for", "on"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'By + reflexive' = alone: 'by himself'.",
         "'With himself' doesn't mean alone.",
+        "Correct! 'By + reflexive' = alone: 'by himself'.",
         "'For himself' has a different meaning.",
         "'On himself' is not correct here."
       ]
@@ -71,33 +71,33 @@
     },
     {
       "question": "The manager ___ came to apologise. (emphasis)",
-      "options": ["herself", "her", "hers", "themselves"],
-      "answer": 0,
+      "options": ["themselves", "her", "hers", "herself"],
+      "answer": 3,
       "explanations": [
-        "Correct! Emphasis after the noun: 'the manager herself'.",
+        "'Themselves' is plural and the wrong person.",
         "'Her' isn't used for emphasis here.",
         "'Hers' is possessive.",
-        "'Themselves' is plural and the wrong person."
+        "Correct! Emphasis after the noun: 'the manager herself'."
       ]
     },
     {
-      "question": "Correct this: 'I feel myself much better today.'",
+      "question": "Choose the correct version of: 'I feel myself much better today.'",
       "options": [
-        "I feel much better today.",
-        "I feel myself much better today.",
         "I feel me much better today.",
+        "I feel myself much better today.",
+        "I feel much better today.",
         "I am feeling myself better today."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! 'Feel' doesn't take a reflexive: 'I feel much better'.",
-        "'Feel myself better' is a common error.",
         "'Feel me' is not correct.",
+        "'Feel myself better' is a common error.",
+        "Correct! 'Feel' doesn't take a reflexive: 'I feel much better'.",
         "'Feeling myself better' still wrongly adds the reflexive."
       ]
     },
     {
-      "question": "Correct this: 'Did you paint the room by yourselves?' (one person)",
+      "question": "Choose the correct version of: 'Did you paint the room by yourselves?' (one person)",
       "options": [
         "Did you paint the room by yourself?",
         "Did you paint the room by yourselves?",
@@ -115,18 +115,45 @@
     {
       "question": "When do you use a reflexive pronoun?",
       "options": [
-        "When the subject and object are the same person.",
         "After every verb.",
+        "When the subject and object are the same person.",
         "To show possession.",
         "Only in questions."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Use it when the subject and object are the same (or for emphasis).",
         "Many verbs (wash, feel) don't take a reflexive.",
+        "Correct! Use it when the subject and object are the same (or for emphasis).",
         "Possessives (my, mine) show possession.",
         "Reflexives are used in all sentence types, not just questions."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "She taught ___ to play the guitar.",
+      "hint": "Type a reflexive pronoun.",
+      "answers": ["herself"],
+      "explanation": "Subject and object are the same person, so 'herself'.",
+      "common": [
+        {"answer": "her", "why": "When the subject and object are the same person we use 'herself', not 'her'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I feel myself tired today.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I feel tired today"],
+      "explanation": "After 'feel' we don't use a reflexive pronoun."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I don't need help. I'll do it by ___.",
+      "hint": "Type a reflexive pronoun.",
+      "answers": ["myself"],
+      "explanation": "'By myself' means alone, without help."
     }
   ]
 }

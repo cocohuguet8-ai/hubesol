@@ -5,33 +5,33 @@
   "items": [
     {
       "question": "How ___ people came to the party?",
-      "options": ["many", "much", "a lot", "lot of"],
-      "answer": 0,
+      "options": ["lot of", "much", "a lot", "many"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'People' is countable, so 'how many'.",
+        "'How lot of' is not correct.",
         "'Much' is for uncountable nouns.",
         "'How a lot' is not correct.",
-        "'How lot of' is not correct."
+        "Correct! 'People' is countable, so 'how many'."
       ]
     },
     {
       "question": "I don't have ___ time today.",
-      "options": ["much", "many", "a lot", "few"],
-      "answer": 0,
+      "options": ["a lot", "many", "much", "few"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Time' is uncountable, and 'much' fits the negative.",
-        "'Many' is for countable nouns.",
         "'A lot' needs 'of': 'a lot of time'.",
+        "'Many' is for countable nouns.",
+        "Correct! 'Time' is uncountable, and 'much' fits the negative.",
         "'Few' is for countable nouns."
       ]
     },
     {
       "question": "We have ___ homework this weekend. (positive)",
-      "options": ["a lot of", "many", "a many", "much of"],
-      "answer": 0,
+      "options": ["many", "a lot of", "a many", "much of"],
+      "answer": 1,
       "explanations": [
-        "Correct! Positive + uncountable is natural with 'a lot of'.",
         "'Many' is for countable plurals.",
+        "Correct! Positive + uncountable is natural with 'a lot of'.",
         "'A many' is not correct.",
         "'Much of' needs a specific noun (much of the homework)."
       ]
@@ -60,50 +60,50 @@
     },
     {
       "question": "How ___ sugar do you want in your tea?",
-      "options": ["much", "many", "a lot", "few"],
-      "answer": 0,
+      "options": ["few", "many", "a lot", "much"],
+      "answer": 3,
       "explanations": [
-        "Correct! 'Sugar' is uncountable, so 'how much'.",
+        "'Few' is for countable nouns.",
         "'Many' is for countable nouns.",
         "'How a lot' is not correct.",
-        "'Few' is for countable nouns."
+        "Correct! 'Sugar' is uncountable, so 'how much'."
       ]
     },
     {
       "question": "There aren't ___ eggs left.",
-      "options": ["many", "much", "a lot", "a little"],
-      "answer": 0,
+      "options": ["a lot", "much", "many", "a little"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Eggs' is countable, and 'many' fits the negative.",
-        "'Much' is for uncountable nouns.",
         "'A lot' needs 'of' here.",
+        "'Much' is for uncountable nouns.",
+        "Correct! 'Eggs' is countable, and 'many' fits the negative.",
         "'A little' is for uncountable nouns."
       ]
     },
     {
       "question": "We didn't spend ___ money on the trip.",
-      "options": ["much", "many", "a lot", "few"],
-      "answer": 0,
+      "options": ["many", "much", "a lot", "few"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Money' is uncountable, and 'much' fits the negative.",
         "'Many' is for countable nouns.",
+        "Correct! 'Money' is uncountable, and 'much' fits the negative.",
         "'A lot' needs 'of' here.",
         "'Few' is for countable nouns."
       ]
     },
     {
-      "question": "Correct this: 'There are much people here.'",
+      "question": "Choose the correct version of: 'There are much people here.'",
       "options": [
-        "There are a lot of people here.",
-        "There is much people here.",
         "There are much peoples here.",
+        "There is much people here.",
+        "There are a lot of people here.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! Positive + countable: 'a lot of people' (or 'many people').",
-        "'Much people' is still wrong — people is countable.",
         "'Peoples' changes the meaning to ethnic groups.",
+        "'Much people' is still wrong — people is countable.",
+        "Correct! Positive + countable: 'a lot of people' (or 'many people').",
         "'Much' can't go with the countable 'people'."
       ]
     },
@@ -117,6 +117,33 @@
         "'Many' goes only with countable nouns.",
         "'How many' goes only with countable nouns."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "How ___ brothers and sisters have you got?",
+      "hint": "Type much or many.",
+      "answers": ["many"],
+      "explanation": "'Brothers and sisters' is countable and plural, so 'many'.",
+      "common": [
+        {"answer": "much", "why": "'Much' is for uncountable nouns. Brothers and sisters are countable, so 'many'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I don't have many time.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I don't have much time"],
+      "explanation": "'Time' is uncountable, so 'much'."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "We have lots of homework this weekend. → We have a ___ homework this weekend.",
+      "hint": "Type two words.",
+      "answers": ["lot of"],
+      "explanation": "'A lot of' means the same as 'lots of'."
     }
   ]
 }

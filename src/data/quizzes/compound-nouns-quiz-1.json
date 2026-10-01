@@ -5,34 +5,34 @@
   "items": [
     {
       "question": "I bought new shoes at the ___ .",
-      "options": ["shoe shop", "shoes shop", "shoe's shop", "shoes' shop"],
-      "answer": 0,
+      "options": ["shoes shop", "shoe shop", "shoe's shop", "shoes' shop"],
+      "answer": 1,
       "explanations": [
-        "Correct! The first noun stays singular: 'shoe shop'.",
         "'Shoes shop' wrongly makes the first noun plural.",
+        "Correct! The first noun stays singular: 'shoe shop'.",
         "'Shoe's shop' adds an unnecessary apostrophe.",
         "'Shoes' shop' is also wrong."
       ]
     },
     {
       "question": "There are three ___ on this street.",
-      "options": ["bus stops", "buses stops", "bus stop", "bus stopes"],
-      "answer": 0,
+      "options": ["bus stopes", "buses stops", "bus stop", "bus stops"],
+      "answer": 3,
       "explanations": [
-        "Correct! Only the last word takes the plural: 'bus stops'.",
+        "'Bus stopes' is misspelled.",
         "'Buses stops' wrongly pluralises the first noun.",
         "'Bus stop' is singular but 'three' needs a plural.",
-        "'Bus stopes' is misspelled."
+        "Correct! Only the last word takes the plural: 'bus stops'."
       ]
     },
     {
       "question": "It's only a ___ walk from here.",
-      "options": ["five-minute", "five-minutes", "five minute's", "fives-minute"],
-      "answer": 0,
+      "options": ["five minute's", "five-minutes", "five-minute", "fives-minute"],
+      "answer": 2,
       "explanations": [
-        "Correct! A number + noun before a noun is singular: 'a five-minute walk'.",
-        "'Five-minutes' wrongly keeps the plural.",
         "'Five minute's' adds an incorrect apostrophe.",
+        "'Five-minutes' wrongly keeps the plural.",
+        "Correct! A number + noun before a noun is singular: 'a five-minute walk'.",
         "'Fives-minute' is not correct."
       ]
     },
@@ -49,33 +49,33 @@
     },
     {
       "question": "Can you pass me a ___ ?",
-      "options": ["coffee cup", "coffees cup", "coffee's cup", "cup coffee"],
-      "answer": 0,
+      "options": ["coffee's cup", "coffees cup", "coffee cup", "cup coffee"],
+      "answer": 2,
       "explanations": [
-        "Correct! First noun singular: 'coffee cup'.",
-        "'Coffees cup' wrongly pluralises the first noun.",
         "'Coffee's cup' adds an incorrect apostrophe.",
+        "'Coffees cup' wrongly pluralises the first noun.",
+        "Correct! First noun singular: 'coffee cup'.",
         "'Cup coffee' is the wrong order."
       ]
     },
     {
       "question": "We stayed in a hotel with two ___ .",
-      "options": ["swimming pools", "swimmings pool", "swimming pool", "swimming pooles"],
-      "answer": 0,
+      "options": ["swimming pooles", "swimmings pool", "swimming pool", "swimming pools"],
+      "answer": 3,
       "explanations": [
-        "Correct! Only the last word is plural: 'swimming pools'.",
+        "'Swimming pooles' is misspelled.",
         "'Swimmings pool' pluralises the wrong word.",
         "'Swimming pool' is singular but 'two' needs a plural.",
-        "'Swimming pooles' is misspelled."
+        "Correct! Only the last word is plural: 'swimming pools'."
       ]
     },
     {
       "question": "She's a ___ girl.",
-      "options": ["ten-year-old", "ten-years-old", "ten year olds", "ten-year's-old"],
-      "answer": 0,
+      "options": ["ten-years-old", "ten-year-old", "ten year olds", "ten-year's-old"],
+      "answer": 1,
       "explanations": [
-        "Correct! Singular, hyphenated before the noun: 'a ten-year-old girl'.",
         "'Ten-years-old' wrongly keeps the plural.",
+        "Correct! Singular, hyphenated before the noun: 'a ten-year-old girl'.",
         "'Ten year olds' is missing hyphens and is plural.",
         "'Ten-year's-old' adds an incorrect apostrophe."
       ]
@@ -92,35 +92,60 @@
       ]
     },
     {
-      "question": "Correct this: 'It's a three-days trip.'",
+      "question": "Choose the correct version of: 'It's a three-days trip.'",
       "options": [
-        "It's a three-day trip.",
         "It's a three days trip.",
+        "It's a three-day trip.",
         "It's a three-day's trip.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Number + noun before a noun is singular: 'a three-day trip'.",
         "'Three days trip' keeps the plural and drops the hyphen.",
+        "Correct! Number + noun before a noun is singular: 'a three-day trip'.",
         "'Three-day's' adds an incorrect apostrophe.",
         "'Three-days trip' is incorrect."
       ]
     },
     {
       "question": "In a compound noun, which part is normally made plural?",
-      "options": [
-        "Only the last word.",
-        "Only the first word.",
-        "Both words.",
-        "Neither word."
-      ],
-      "answer": 0,
+      "options": ["Both words.", "Only the first word.", "Only the last word.", "Neither word."],
+      "answer": 2,
       "explanations": [
-        "Correct! Only the final element takes the plural (bus stops).",
-        "The first noun stays singular.",
         "You don't pluralise both.",
+        "The first noun stays singular.",
+        "Correct! Only the final element takes the plural (bus stops).",
         "Plurals do change the last word."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "It's only a ten-___ walk from here.",
+      "hint": "Use the word 'minute'.",
+      "answers": ["minute"],
+      "explanation": "In a compound like this the noun stays singular: a ten-minute walk.",
+      "common": [
+        {"answer": "minutes", "why": "The first part of a compound stays singular: a ten-minute walk."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She works in a shoes shop.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She works in a shoe shop"],
+      "explanation": "The first noun in a compound stays singular: a shoe shop."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "She has two ___.",
+      "hint": "Write the plural of 'mother-in-law'.",
+      "answers": ["mothers-in-law"],
+      "explanation": "Only the main noun takes the plural: mothers-in-law.",
+      "common": [
+        {"answer": "mother-in-laws", "why": "We pluralise the main noun, not the end: mothers-in-law."}
       ]
     }
   ]

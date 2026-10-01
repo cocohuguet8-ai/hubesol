@@ -16,46 +16,46 @@
     },
     {
       "question": "There's some milk ___ the fridge.",
-      "options": ["in", "on", "at", "—"],
-      "answer": 0,
+      "options": ["on", "in", "at", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! An enclosed space takes 'in': 'in the fridge'.",
         "'On the fridge' means on top of it.",
+        "Correct! An enclosed space takes 'in': 'in the fridge'.",
         "'At the fridge' means next to it.",
         "An enclosed space needs 'in'."
       ]
     },
     {
       "question": "I'll meet you ___ the bus stop.",
-      "options": ["at", "on", "in", "—"],
-      "answer": 0,
+      "options": ["—", "on", "in", "at"],
+      "answer": 3,
       "explanations": [
-        "Correct! A point/location takes 'at': 'at the bus stop'.",
+        "A meeting point needs 'at'.",
         "'On the bus stop' would mean on top of it.",
         "'In the bus stop' would mean inside it.",
-        "A meeting point needs 'at'."
+        "Correct! A point/location takes 'at': 'at the bus stop'."
       ]
     },
     {
       "question": "She's not here — she's ___ work.",
-      "options": ["at", "in", "on", "—"],
-      "answer": 0,
+      "options": ["on", "in", "at", "—"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'At work' is a fixed expression.",
-        "'In work' isn't standard for this meaning.",
         "'On work' is not correct.",
+        "'In work' isn't standard for this meaning.",
+        "Correct! 'At work' is a fixed expression.",
         "'Work' needs 'at' here."
       ]
     },
     {
       "question": "We were ___ the bus when it broke down.",
-      "options": ["on", "in", "at", "—"],
-      "answer": 0,
+      "options": ["—", "in", "at", "on"],
+      "answer": 3,
       "explanations": [
-        "Correct! Public transport takes 'on': 'on the bus'.",
+        "A bus takes 'on'.",
         "'In the car/taxi' but 'on the bus/train'.",
         "'At the bus' is not correct.",
-        "A bus takes 'on'."
+        "Correct! Public transport takes 'on': 'on the bus'."
       ]
     },
     {
@@ -71,56 +71,81 @@
     },
     {
       "question": "Get ___ the car — we're late!",
-      "options": ["in", "on", "at", "—"],
-      "answer": 0,
+      "options": ["on", "in", "at", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! Small vehicles take 'in': 'in the car'.",
         "'On the car' means on top of it.",
+        "Correct! Small vehicles take 'in': 'in the car'.",
         "'At the car' means next to it.",
         "A car takes 'in'."
       ]
     },
     {
       "question": "The picture is ___ the wall.",
-      "options": ["on", "in", "at", "—"],
-      "answer": 0,
+      "options": ["at", "in", "on", "—"],
+      "answer": 2,
       "explanations": [
-        "Correct! A surface/vertical surface takes 'on': 'on the wall'.",
-        "'In the wall' would mean inside it.",
         "'At the wall' is not natural here.",
+        "'In the wall' would mean inside it.",
+        "Correct! A surface/vertical surface takes 'on': 'on the wall'.",
         "A wall surface needs 'on'."
       ]
     },
     {
-      "question": "Correct this: 'I'm in home right now.'",
+      "question": "Choose the correct version of: 'I'm in home right now.'",
       "options": [
-        "I'm at home right now.",
-        "I'm on home right now.",
         "I'm in the home right now.",
+        "I'm on home right now.",
+        "I'm at home right now.",
         "The sentence is already correct."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct! 'At home' is the fixed expression.",
-        "'On home' is not correct.",
         "'In the home' sounds institutional, not natural here.",
+        "'On home' is not correct.",
+        "Correct! 'At home' is the fixed expression.",
         "'In home' is incorrect."
       ]
     },
     {
       "question": "Which shape does 'on' describe?",
-      "options": [
-        "A surface or a line.",
-        "An enclosed space.",
-        "A single point only.",
-        "A country or city."
-      ],
+      "options": ["A surface or a line.", "An enclosed space.", "A single point only.", "A country or city."],
       "answer": 0,
       "explanations": [
         "Correct! 'On' describes a surface or line (on the table, on the left).",
         "Enclosed spaces take 'in'.",
         "A single point takes 'at'.",
         "Countries and cities take 'in'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He's still ___ bed.",
+      "hint": "Type at, on or in.",
+      "answers": ["in"],
+      "explanation": "Fixed phrase: in bed.",
+      "common": [
+        {"answer": "on", "why": "The fixed phrase is 'in bed'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I'm in home now.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I'm at home now"],
+      "explanation": "The fixed phrase is 'at home'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "We came to the city ___ the train.",
+      "hint": "Type at, on or in.",
+      "answers": ["on"],
+      "explanation": "We say 'on the train' (and on the bus).",
+      "common": [
+        {"answer": "in", "why": "With trains and buses we say 'on'."}
       ]
     }
   ]

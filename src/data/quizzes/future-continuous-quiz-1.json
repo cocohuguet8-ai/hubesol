@@ -16,12 +16,12 @@
     },
     {
       "question": "At 8pm, we ___ dinner.",
-      "options": ["'ll have", "'ll be having", "have", "had"],
-      "answer": 1,
+      "options": ["'ll have", "have", "'ll be having", "had"],
+      "answer": 2,
       "explanations": [
         "'Will have' is a single action; the point is the meal in progress at 8pm.",
-        "Correct! An action in progress at a future time takes the future continuous: 'will be having'.",
         "'Have' is present simple, not this future moment.",
+        "Correct! An action in progress at a future time takes the future continuous: 'will be having'.",
         "'Had' is past simple, but this is about the future."
       ]
     },
@@ -38,44 +38,44 @@
     },
     {
       "question": "She ___ working late tomorrow.",
-      "options": ["will", "will be", "is", "won't"],
-      "answer": 1,
+      "options": ["will", "won't", "is", "will be"],
+      "answer": 3,
       "explanations": [
         "'Will working' is missing 'be'. Use 'will be working'.",
-        "Correct! The future continuous is will be + -ing: 'will be working'.",
+        "'Won't' is negative and changes the meaning.",
         "'Is working' is a present arrangement; 'tomorrow' with in-progress meaning takes 'will be'.",
-        "'Won't' is negative and changes the meaning."
+        "Correct! The future continuous is will be + -ing: 'will be working'."
       ]
     },
     {
       "question": "Don't call at nine — I ___ then.",
-      "options": ["'ll study", "'ll be studying", "study", "studied"],
-      "answer": 1,
+      "options": ["'ll study", "studied", "study", "'ll be studying"],
+      "answer": 3,
       "explanations": [
         "'Will study' is a single action; here we mean being in the middle of studying at nine.",
-        "Correct! An action in progress at a future time takes the future continuous: 'will be studying'.",
+        "'Studied' is past simple, but this is about the future.",
         "'Study' is present simple, not this future moment.",
-        "'Studied' is past simple, but this is about the future."
+        "Correct! An action in progress at a future time takes the future continuous: 'will be studying'."
       ]
     },
     {
       "question": "By then, I ___ the answer.",
-      "options": ["'ll be knowing", "'ll know", "know", "knew"],
-      "answer": 1,
+      "options": ["'ll be knowing", "know", "'ll know", "knew"],
+      "answer": 2,
       "explanations": [
         "'Know' is a stative verb and isn't used in the continuous.",
-        "Correct! State verbs take the simple: 'will know'.",
         "'Know' is present simple, but 'by then' points to the future.",
+        "Correct! State verbs take the simple: 'will know'.",
         "'Knew' is past simple, but this is about the future."
       ]
     },
     {
       "question": "They ___ coming to the meeting.",
-      "options": ["won't be", "don't be", "aren't be", "not will"],
-      "answer": 0,
+      "options": ["don't be", "won't be", "aren't be", "not will"],
+      "answer": 1,
       "explanations": [
-        "Correct! Future continuous negative = won't be + -ing: 'won't be coming'.",
         "'Don't be coming' isn't correct English.",
+        "Correct! Future continuous negative = won't be + -ing: 'won't be coming'.",
         "'Aren't be' is not a valid form.",
         "'Not will' has the wrong word order. Use 'won't be'."
       ]
@@ -92,31 +92,58 @@
       ]
     },
     {
-      "question": "Rewrite with the same meaning: 'At midnight, I'll be asleep.'",
+      "question": "Choose the sentence with the same meaning as: 'At midnight, I'll be asleep.'",
       "options": [
-        "I'll go to sleep at midnight.",
         "At midnight, I'll be sleeping.",
+        "I'll go to sleep at midnight.",
         "I sleep at midnight.",
         "I slept at midnight."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "'Go to sleep at midnight' is the moment of falling asleep, not being asleep.",
         "Correct! 'Be asleep' at that moment = the future continuous 'will be sleeping'.",
+        "'Go to sleep at midnight' is the moment of falling asleep, not being asleep.",
         "'I sleep at midnight' is a present habit.",
         "'I slept' is past simple, but this is about the future."
       ]
     },
     {
       "question": "What ___ you ___ this time next week?",
-      "options": ["will / be doing", "do / do", "are / doing", "will / doing"],
-      "answer": 0,
+      "options": ["will / doing", "do / do", "are / doing", "will / be doing"],
+      "answer": 3,
       "explanations": [
-        "Correct! Asking about an action in progress at a future time uses the future continuous: 'will you be doing'.",
+        "After 'will you' you need 'be': 'will you be doing'.",
         "'Do you do' asks about a habit, not next week.",
         "'Are you doing' is a present arrangement, but 'this time next week' needs the future continuous.",
-        "After 'will you' you need 'be': 'will you be doing'."
+        "Correct! Asking about an action in progress at a future time uses the future continuous: 'will you be doing'."
       ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "This time tomorrow, I ___ on a beach. (lie)",
+      "hint": "Type three words.",
+      "answers": ["will be lying", "'ll be lying"],
+      "explanation": "Future continuous: will be + -ing.",
+      "common": [
+        {"answer": "will lie", "why": "The action will be in progress at that moment: will be lying."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I will working at nine tomorrow.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I will be working at nine tomorrow", "I'll be working at nine tomorrow"],
+      "explanation": "Future continuous needs 'be' before the -ing form."
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "I'll be knowing the answer soon.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["I'll know the answer soon", "I will know the answer soon"],
+      "explanation": "'Know' is a stative verb, so no continuous."
     }
   ]
 }

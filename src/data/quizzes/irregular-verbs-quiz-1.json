@@ -16,45 +16,45 @@
     },
     {
       "question": "I have ___ my homework.",
-      "options": ["did", "done", "doed", "does"],
-      "answer": 1,
+      "options": ["did", "doed", "done", "does"],
+      "answer": 2,
       "explanations": [
         "'Did' is the past simple. After 'have', use the past participle: 'done'.",
-        "Correct! After have/has, use the participle: 'do → did → done', so 'have done'.",
         "'Doed' isn't a word. The participle of 'do' is 'done'.",
+        "Correct! After have/has, use the participle: 'do → did → done', so 'have done'.",
         "'Does' is present simple. After 'have' the form is 'done'."
       ]
     },
     {
       "question": "She ___ to Italy last year.",
-      "options": ["goed", "went", "gone", "going"],
-      "answer": 1,
+      "options": ["goed", "going", "gone", "went"],
+      "answer": 3,
       "explanations": [
         "'Go' is irregular and never takes -ed. The past simple is 'went'.",
-        "Correct! 'Go → went → gone'. For a finished action last year, use 'went'.",
+        "'Going' needs an auxiliary. A finished action last year takes 'went'.",
         "'Gone' is the past participle (used with have). Alone, use the past simple 'went'.",
-        "'Going' needs an auxiliary. A finished action last year takes 'went'."
+        "Correct! 'Go → went → gone'. For a finished action last year, use 'went'."
       ]
     },
     {
       "question": "Have you ever ___ sushi?",
-      "options": ["ate", "eaten", "eated", "eat"],
-      "answer": 1,
+      "options": ["eaten", "ate", "eated", "eat"],
+      "answer": 0,
       "explanations": [
-        "'Ate' is the past simple. After 'have', use the participle: 'eaten'.",
         "Correct! 'eat → ate → eaten', and after 'have' you need the participle: 'eaten'.",
+        "'Ate' is the past simple. After 'have', use the participle: 'eaten'.",
         "'Eated' isn't a word. The participle of 'eat' is 'eaten'.",
         "After 'have you ever' you need the participle, not the base form: 'eaten'."
       ]
     },
     {
       "question": "They ___ the match yesterday.",
-      "options": ["winned", "won", "wan", "win"],
-      "answer": 1,
+      "options": ["winned", "wan", "won", "win"],
+      "answer": 2,
       "explanations": [
         "'Win' is irregular and doesn't take -ed. The past is 'won'.",
-        "Correct! 'win → won → won'. 'Yesterday' is finished time, so 'won'.",
         "'Wan' isn't a form of this verb. The past simple is 'won'.",
+        "Correct! 'win → won → won'. 'Yesterday' is finished time, so 'won'.",
         "'Win' is the base form. A finished action yesterday takes 'won'."
       ]
     },
@@ -82,28 +82,23 @@
     },
     {
       "question": "We ___ a great time at the party.",
-      "options": ["haved", "had", "has", "have"],
-      "answer": 1,
+      "options": ["haved", "have", "has", "had"],
+      "answer": 3,
       "explanations": [
         "'Have' is irregular and doesn't take -ed. The past is 'had'.",
-        "Correct! 'have → had → had'. For a finished past event, use 'had'.",
+        "'Have' is the present form. The party is finished, so use 'had'.",
         "'Has' is present simple (he/she/it). With 'we' and a past event, use 'had'.",
-        "'Have' is the present form. The party is finished, so use 'had'."
+        "Correct! 'have → had → had'. For a finished past event, use 'had'."
       ]
     },
     {
       "question": "Which sentence is correct?",
-      "options": [
-        "I have saw the film.",
-        "I have seen the film.",
-        "I have see the film.",
-        "I have seed the film."
-      ],
-      "answer": 1,
+      "options": ["I have saw the film.", "I have see the film.", "I have seen the film.", "I have seed the film."],
+      "answer": 2,
       "explanations": [
         "'Saw' is the past simple. After 'have' you need the participle 'seen'.",
-        "Correct! 'see → saw → seen', so 'I have seen the film.'",
         "'See' is the base form. After 'have' use the participle: 'seen'.",
+        "Correct! 'see → saw → seen', so 'I have seen the film.'",
         "'Seed' isn't a form of this verb. The participle of 'see' is 'seen'."
       ]
     },
@@ -116,6 +111,36 @@
         "Correct! 'break → broke → broken'. For the past simple, use 'broke'.",
         "'Broken' is the past participle (used with have). Alone, use 'broke'.",
         "'Breaks' is present simple. The action is in the past: 'broke'."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "I have ___ my homework. (do)",
+      "hint": "Type the past participle.",
+      "answers": ["done"],
+      "explanation": "The participle of 'do' is 'done'.",
+      "common": [
+        {"answer": "did", "why": "After 'have' use the past participle: done."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "She goed to Italy last year.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["She went to Italy last year"],
+      "explanation": "'Go' is irregular: went."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "He ___ me a nice present yesterday. (buy)",
+      "hint": "Type the past simple.",
+      "answers": ["bought"],
+      "explanation": "The past simple of 'buy' is 'bought'.",
+      "common": [
+        {"answer": "buyed", "why": "'Buy' is irregular: bought."}
       ]
     }
   ]

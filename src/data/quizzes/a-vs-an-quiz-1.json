@@ -5,13 +5,13 @@
   "items": [
     {
       "question": "I'd like ___ apple, please.",
-      "options": ["a", "an", "the", "—"],
-      "answer": 1,
+      "options": ["a", "—", "the", "an"],
+      "answer": 3,
       "explanations": [
         "'Apple' starts with a vowel sound, so use 'an'.",
-        "Correct! 'An apple' — vowel sound.",
+        "A singular countable noun needs an article here.",
         "'The' would mean a specific apple already known.",
-        "A singular countable noun needs an article here."
+        "Correct! 'An apple' — vowel sound."
       ]
     },
     {
@@ -27,71 +27,71 @@
     },
     {
       "question": "We waited for ___ hour.",
-      "options": ["a", "an", "the", "—"],
-      "answer": 1,
+      "options": ["an", "a", "the", "—"],
+      "answer": 0,
       "explanations": [
-        "The 'h' in 'hour' is silent, so it starts with a vowel sound.",
         "Correct! 'An hour' — silent h means a vowel sound.",
+        "The 'h' in 'hour' is silent, so it starts with a vowel sound.",
         "'The hour' would refer to a specific hour.",
         "A singular countable noun needs an article here."
       ]
     },
     {
       "question": "He's ___ honest man.",
-      "options": ["a", "an", "the", "—"],
-      "answer": 1,
+      "options": ["a", "the", "an", "—"],
+      "answer": 2,
       "explanations": [
         "The 'h' in 'honest' is silent → vowel sound.",
-        "Correct! 'An honest man' — silent h.",
         "'The honest man' would point to a specific one.",
+        "Correct! 'An honest man' — silent h.",
         "A singular countable noun needs an article here."
       ]
     },
     {
       "question": "That's ___ useful idea.",
-      "options": ["an", "a", "the", "—"],
-      "answer": 1,
+      "options": ["an", "—", "the", "a"],
+      "answer": 3,
       "explanations": [
         "'Useful' starts with a 'you' sound, not a vowel sound.",
-        "Correct! 'A useful idea' — the 'you' sound is a consonant sound.",
+        "A singular countable noun needs an article here.",
         "'The useful idea' would point to a specific one.",
-        "A singular countable noun needs an article here."
+        "Correct! 'A useful idea' — the 'you' sound is a consonant sound."
       ]
     },
     {
       "question": "My uncle is ___ MP.",
-      "options": ["a", "an", "the", "—"],
-      "answer": 1,
+      "options": ["an", "a", "the", "—"],
+      "answer": 0,
       "explanations": [
-        "'MP' is said 'em-pee', starting with a vowel sound.",
         "Correct! 'An MP' — the letter M sounds like 'em'.",
+        "'MP' is said 'em-pee', starting with a vowel sound.",
         "'The MP' would point to a specific one.",
         "A singular countable noun needs an article here."
       ]
     },
     {
       "question": "They live in ___ European city.",
-      "options": ["an", "a", "the", "—"],
-      "answer": 1,
+      "options": ["an", "the", "a", "—"],
+      "answer": 2,
       "explanations": [
         "'European' starts with a 'you' sound, not a vowel sound.",
-        "Correct! 'A European city' — the 'you' sound.",
         "'The European city' would point to a specific one.",
+        "Correct! 'A European city' — the 'you' sound.",
         "A singular countable noun needs an article here."
       ]
     },
     {
-      "question": "Correct this: 'She had an one-hour meeting.'",
+      "question": "Choose the correct version of: 'She had an one-hour meeting.'",
       "options": [
-        "She had a one-hour meeting.",
         "She had an one-hour meeting.",
+        "She had a one-hour meeting.",
         "She had one-hour meeting.",
         "She had the one-hour meeting."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! 'One' starts with a 'wun' sound (a consonant sound) → 'a'.",
         "'An one-hour' is wrong — 'one' sounds like 'wun'.",
+        "Correct! 'One' starts with a 'wun' sound (a consonant sound) → 'a'.",
         "A singular countable noun needs an article.",
         "'The' would point to a specific meeting, changing the meaning."
       ]
@@ -109,18 +109,43 @@
     },
     {
       "question": "Which pair is correct?",
-      "options": [
-        "an hour, a university",
-        "a hour, an university",
-        "an university, a hour",
-        "a hour, a university"
-      ],
-      "answer": 0,
+      "options": ["an university, a hour", "a hour, an university", "an hour, a university", "a hour, a university"],
+      "answer": 2,
       "explanations": [
-        "Correct! 'An hour' (silent h) and 'a university' ('you' sound).",
-        "Both are reversed here.",
         "Both are wrong here.",
+        "Both are reversed here.",
+        "Correct! 'An hour' (silent h) and 'a university' ('you' sound).",
         "'A hour' is wrong — 'hour' has a silent h."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "She waited for ___ hour.",
+      "hint": "Type a or an.",
+      "answers": ["an"],
+      "explanation": "'Hour' starts with a vowel sound (the h is silent), so 'an'.",
+      "common": [
+        {"answer": "a", "why": "The h in 'hour' is silent, so the word starts with a vowel sound: 'an'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "He is a honest man.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["He is an honest man"],
+      "explanation": "'Honest' starts with a vowel sound (silent h), so 'an'."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "She works for ___ NGO in Peru.",
+      "hint": "Type a or an. (NGO is said 'en-jee-oh'.)",
+      "answers": ["an"],
+      "explanation": "'NGO' starts with the vowel sound 'en', so 'an'.",
+      "common": [
+        {"answer": "a", "why": "We follow the sound, not the spelling: 'en' is a vowel sound."}
       ]
     }
   ]

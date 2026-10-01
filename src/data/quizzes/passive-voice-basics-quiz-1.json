@@ -5,12 +5,12 @@
   "items": [
     {
       "question": "This bridge ___ in 1932.",
-      "options": ["built", "was built", "was build", "is building"],
-      "answer": 1,
+      "options": ["built", "was build", "was built", "is building"],
+      "answer": 2,
       "explanations": [
         "'Built' alone has no 'be' — the passive needs it.",
-        "Correct! Past passive = was/were + past participle: 'was built'.",
         "'Was build' uses the base verb; use the participle 'built'.",
+        "Correct! Past passive = was/were + past participle: 'was built'.",
         "'Is building' is active continuous, not passive."
       ]
     },
@@ -32,13 +32,13 @@
     },
     {
       "question": "My car ___ last week — I've reported it to the police.",
-      "options": ["stole", "was stolen", "was stole", "has stolen"],
-      "answer": 1,
+      "options": ["stole", "has stolen", "was stole", "was stolen"],
+      "answer": 3,
       "explanations": [
         "'Stole' is active past; here the car receives the action.",
-        "Correct! Past passive: 'My car was stolen'.",
+        "'Has stolen' is active present perfect.",
         "'Was stole' uses the base/past form; the participle is 'stolen'.",
-        "'Has stolen' is active present perfect."
+        "Correct! Past passive: 'My car was stolen'."
       ]
     },
     {
@@ -55,17 +55,17 @@
     {
       "question": "Which sentence correctly adds the doer?",
       "options": [
-        "The Mona Lisa was painted by Leonardo.",
+        "The Mona Lisa was paint by Leonardo.",
         "The Mona Lisa was painted from Leonardo.",
         "The Mona Lisa painted by Leonardo.",
-        "The Mona Lisa was paint by Leonardo."
+        "The Mona Lisa was painted by Leonardo."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! The agent takes 'by': 'was painted by Leonardo'.",
+        "'Was paint' uses the base verb; use 'painted'.",
         "The agent takes 'by', not 'from'.",
         "This is missing 'was' — no passive without 'be'.",
-        "'Was paint' uses the base verb; use 'painted'."
+        "Correct! The agent takes 'by': 'was painted by Leonardo'."
       ]
     },
     {
@@ -86,56 +86,86 @@
     },
     {
       "question": "Coffee ___ in over 70 countries.",
-      "options": ["grows", "is grown", "is grow", "grown"],
-      "answer": 1,
+      "options": ["grows", "is grow", "is grown", "grown"],
+      "answer": 2,
       "explanations": [
         "'Grows' would mean coffee grows itself; here people grow it.",
-        "Correct! Present passive: 'Coffee is grown in over 70 countries'.",
         "'Is grow' uses the base verb; use 'grown'.",
+        "Correct! Present passive: 'Coffee is grown in over 70 countries'.",
         "'Grown' alone has no 'be'."
       ]
     },
     {
-      "question": "Correct this: 'The window broke by the boys.' (they did it)",
+      "question": "Choose the correct version of: 'The window broke by the boys.' (they did it)",
       "options": [
-        "The window was broken by the boys.",
         "The window was break by the boys.",
+        "The window was broken by the boys.",
         "The window broke by the boys.",
         "The window is broke by the boys."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! With a doer, use the passive: 'was broken by the boys'.",
         "'Was break' uses the base verb; use 'broken'.",
+        "Correct! With a doer, use the passive: 'was broken by the boys'.",
         "'Broke by' has no 'be' — not a correct passive.",
         "'Is broke' is not standard; use 'was broken'."
       ]
     },
     {
       "question": "A decision ___ at the meeting tomorrow.",
-      "options": ["will make", "will be made", "will be make", "is made"],
-      "answer": 1,
+      "options": ["will make", "will be make", "will be made", "is made"],
+      "answer": 2,
       "explanations": [
         "'Will make' is active and needs a subject that decides.",
-        "Correct! Future passive = will be + participle: 'will be made'.",
         "'Will be make' uses the base verb; use 'made'.",
+        "Correct! Future passive = will be + participle: 'will be made'.",
         "'Is made' is present, but 'tomorrow' needs the future."
       ]
     },
     {
       "question": "When is the passive the BEST choice?",
       "options": [
-        "When the doer is unknown or unimportant.",
         "When you want to name who did it.",
+        "When the doer is unknown or unimportant.",
         "When the verb has no object.",
         "When the sentence is a command."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct! Use the passive when the doer is unknown, obvious or unimportant.",
         "If naming the doer matters, the active is often clearer.",
+        "Correct! Use the passive when the doer is unknown, obvious or unimportant.",
         "Verbs with no object can't be passive at all.",
         "Commands are normally active (Close the door)."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "This church ___ in 1850. (build)",
+      "hint": "Use the passive.",
+      "answers": ["was built"],
+      "explanation": "Past passive: was + past participle.",
+      "common": [
+        {"answer": "built", "why": "The passive needs 'was' too: was built."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "The accident was happened yesterday.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["The accident happened yesterday"],
+      "explanation": "'Happen' has no object, so it can't be passive."
+    },
+    {
+      "type": "write",
+      "kind": "Complete the sentence",
+      "question": "People speak Spanish in Peru. → Spanish ___ in Peru.",
+      "hint": "Type the passive verb.",
+      "answers": ["is spoken"],
+      "explanation": "Present simple passive: is + past participle.",
+      "common": [
+        {"answer": "is speaked", "why": "The past participle of 'speak' is 'spoken'."}
       ]
     }
   ]

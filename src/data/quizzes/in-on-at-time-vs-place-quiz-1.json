@@ -16,66 +16,66 @@
     },
     {
       "question": "PLACE: Someone is ___ the door.",
-      "options": ["at", "on", "in", "—"],
-      "answer": 0,
+      "options": ["in", "on", "at", "—"],
+      "answer": 2,
       "explanations": [
-        "Correct! A point takes 'at': 'at the door'.",
-        "'On the door' means attached to its surface.",
         "'In the door' would mean inside it.",
+        "'On the door' means attached to its surface.",
+        "Correct! A point takes 'at': 'at the door'.",
         "A point needs 'at'."
       ]
     },
     {
       "question": "TIME: We're meeting ___ Saturday.",
-      "options": ["on", "at", "in", "—"],
-      "answer": 0,
+      "options": ["at", "on", "in", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! Days take 'on': 'on Saturday'.",
         "'At' is for precise times.",
+        "Correct! Days take 'on': 'on Saturday'.",
         "'In' is for longer periods.",
         "A day needs 'on'."
       ]
     },
     {
       "question": "PLACE: The notice is ___ the board.",
-      "options": ["on", "at", "in", "—"],
-      "answer": 0,
+      "options": ["—", "at", "in", "on"],
+      "answer": 3,
       "explanations": [
-        "Correct! A surface takes 'on': 'on the board'.",
+        "A surface needs 'on'.",
         "'At the board' is not natural here.",
         "'In the board' would mean inside it.",
-        "A surface needs 'on'."
+        "Correct! A surface takes 'on': 'on the board'."
       ]
     },
     {
       "question": "TIME: It's very cold ___ December.",
-      "options": ["in", "on", "at", "—"],
-      "answer": 0,
+      "options": ["—", "on", "at", "in"],
+      "answer": 3,
       "explanations": [
-        "Correct! Months take 'in': 'in December'.",
+        "A month needs 'in'.",
         "'On' is for days.",
         "'At' is for precise times.",
-        "A month needs 'in'."
+        "Correct! Months take 'in': 'in December'."
       ]
     },
     {
       "question": "PLACE: The children are playing ___ the garden.",
-      "options": ["in", "on", "at", "—"],
-      "answer": 0,
+      "options": ["at", "on", "in", "—"],
+      "answer": 2,
       "explanations": [
-        "Correct! An area/enclosed space takes 'in': 'in the garden'.",
-        "'On the garden' is not correct.",
         "'At the garden' is not natural here.",
+        "'On the garden' is not correct.",
+        "Correct! An area/enclosed space takes 'in': 'in the garden'.",
         "An area needs 'in'."
       ]
     },
     {
       "question": "TIME: I usually read ___ night.",
-      "options": ["at", "in", "on", "—"],
-      "answer": 0,
+      "options": ["in", "at", "on", "—"],
+      "answer": 1,
       "explanations": [
-        "Correct! 'At night' is a fixed expression.",
         "'In the morning' but 'at night'.",
+        "Correct! 'At night' is a fixed expression.",
         "'On night' is not correct.",
         "'Night' needs 'at'."
       ]
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "question": "Correct this: 'The meeting is in Monday in 3 p.m.'",
+      "question": "Choose the correct version of: 'The meeting is in Monday in 3 p.m.'",
       "options": [
         "The meeting is on Monday at 3 p.m.",
         "The meeting is at Monday on 3 p.m.",
@@ -109,18 +109,43 @@
     },
     {
       "question": "What's the small-to-big order of these prepositions?",
-      "options": [
-        "at → on → in",
-        "in → on → at",
-        "on → at → in",
-        "at → in → on"
-      ],
-      "answer": 0,
+      "options": ["in → on → at", "at → on → in", "on → at → in", "at → in → on"],
+      "answer": 1,
       "explanations": [
-        "Correct! at (most precise) → on (day/surface) → in (broadest).",
         "This is the reverse order.",
+        "Correct! at (most precise) → on (day/surface) → in (broadest).",
         "This order is mixed up.",
         "'in' is broader than 'on', so this is wrong."
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "TIME: My birthday is ___ March.",
+      "hint": "Type in, on or at.",
+      "answers": ["in"],
+      "explanation": "Months take 'in': in March.",
+      "common": [
+        {"answer": "on", "why": "'On' is for days and dates. Months take 'in'."}
+      ]
+    },
+    {
+      "type": "write",
+      "kind": "Correct the mistake",
+      "question": "PLACE: The picture is in the wall.",
+      "hint": "Type the whole corrected sentence.",
+      "answers": ["The picture is on the wall"],
+      "explanation": "A surface takes 'on': on the wall."
+    },
+    {
+      "type": "write",
+      "kind": "Fill in the gap",
+      "question": "PLACE: My sister is ___ the airport now.",
+      "hint": "Type in, on or at.",
+      "answers": ["at"],
+      "explanation": "A point or location, so 'at'.",
+      "common": [
+        {"answer": "in", "why": "'At the airport' is the usual pattern for a location point."}
       ]
     }
   ]
