@@ -87,10 +87,14 @@ if (quiz) {
 
   <div class="prose"><slot /></div>
 
-  <Quiz quiz={quiz} />
+  <Quiz quiz={quiz} next={d.next} />
   <PracticeSection practice={practice} />
   <Faq faq={d.faq} />
   <TeacherBlock objectives={d.teacherObjectives} title={d.title} packHref={packHref} />
+
+  {d.next && (
+    <p class="next-lesson"><a class="practice-btn-primary" href={d.next.href}>Next lesson: {d.next.title} →</a></p>
+  )}
 
   {d.related.length > 0 && (
     <section>

@@ -13,6 +13,7 @@ const lessons = defineCollection({
     answerPoints: z.array(z.string()).optional(),
     answerNote: z.string().optional(),
     quiz: z.string().optional(),
+    next: z.object({ title: z.string(), href: z.string() }).optional(),
     faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     teacherObjectives: z.array(z.string()).default([]),
     related: z.array(z.object({ title: z.string(), href: z.string() })).default([]),

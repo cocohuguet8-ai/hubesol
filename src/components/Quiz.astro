@@ -1,5 +1,5 @@
 ---
-const { quiz } = Astro.props;
+const { quiz, next } = Astro.props;
 ---
 {quiz && (
   <section class="quiz" id="quiz" aria-label="Practice quiz">
@@ -17,6 +17,10 @@ const { quiz } = Astro.props;
       </div>
     ))}
     <p class="quiz-score" id="quiz-score"></p>
+    <p class="quiz-actions" id="quiz-actions" hidden>
+      <button type="button" class="practice-btn-primary" id="quiz-retry">Try again</button>
+      {next && <a class="practice-btn-secondary" href={next.href}>Next lesson →</a>}
+    </p>
   </section>
 )}
 <script>
@@ -24,7 +28,25 @@ const { quiz } = Astro.props;
   if (quizEl) {
     let answered = 0;
     let correct = 0;
-    const total = quizEl.querySelectorAll('.q').length;
+    const questions = Array.from(quizEl.querySelectorAll('.q'));
+    const total = questions.length;
+    const scoreEl = document.getElementById('quiz-score');
+    const actionsEl = document.getElementById('quiz-actions');
+
+    // Fisher–Yates shuffle of the option buttons (data-idx keeps the link to answer/explanations)
+    const shuffleOptions = () => {
+      questions.forEach((q) => {
+        const box = q.querySelector('.opts');
+        const btns = Array.from(box.children);
+        for (let i = btns.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [btns[i], btns[j]] = [btns[j], btns[i]];
+        }
+        btns.forEach((b) => box.appendChild(b));
+      });
+    };
+    shuffleOptions();
+
     quizEl.addEventListener('click', (e) => {
       const btn = e.target.closest('.opt');
       if (!btn || btn.disabled) return;
@@ -49,10 +71,27 @@ const { quiz } = Astro.props;
       }
       answered++;
       if (answered === total) {
-        const s = document.getElementById('quiz-score');
-        s.style.display = 'block';
-        s.textContent = `Your score: ${correct}/${total}` + (correct === total ? ' — perfect! 🎉' : correct >= total * 0.7 ? ' — well done!' : ' — review the lesson above and try again.');
+        scoreEl.style.display = 'block';
+        scoreEl.textContent = `Your score: ${correct}/${total}` + (correct === total ? ' — perfect! 🎉' : correct >= total * 0.7 ? ' — well done!' : ' — review the lesson above and try again.');
+        actionsEl.hidden = false;
       }
+    });
+
+    document.getElementById('quiz-retry').addEventListener('click', () => {
+      answered = 0;
+      correct = 0;
+      questions.forEach((q) => {
+        q.querySelectorAll('.opt').forEach((b) => { b.disabled = false; b.classList.remove('correct', 'wrong'); });
+        const explEl = q.querySelector('.expl');
+        explEl.hidden = true;
+        explEl.textContent = '';
+        explEl.classList.remove('good', 'bad');
+      });
+      scoreEl.style.display = 'none';
+      scoreEl.textContent = '';
+      actionsEl.hidden = true;
+      shuffleOptions();
+      quizEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }
 </script>

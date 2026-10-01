@@ -497,3 +497,9 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
   .matching-tile { font-size: 0.85rem; padding: 0.5rem 0.5rem; }
   .gapfill-sentence, .timedmc-question, .levelcheck-question { font-size: 0.98rem; }
 }
+
+/* Quiz end actions + next lesson */
+.quiz-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.8rem 0 0; }
+.quiz-actions[hidden] { display: none; }
+.next-lesson { margin: 2rem 0 0; }
+.next-lesson a, .quiz-actions a { text-decoration: none; display: inline-block; }

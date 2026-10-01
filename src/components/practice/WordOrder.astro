@@ -181,6 +181,7 @@ const uid = 'wo';
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
       const label = orderAux.label;
+      if (!words.length) return "Check the word order: the article comes first, then any adjective, then the noun.";
       const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
 

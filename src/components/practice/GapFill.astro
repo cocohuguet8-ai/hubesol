@@ -270,7 +270,22 @@ const uid = 'gf';
       return issues.join(' ');
     }
 
+    // ---- article diagnosis (a/an vs one) ----
+    function diagnoseArticle(rawText, correctText) {
+      const u = rawText.toLowerCase().trim().replace(/\s+/g, ' ');
+      const c = correctText.toLowerCase().trim();
+      if (!u) return "You left it blank — even a guess helps you learn the pattern.";
+      if ((c === 'a' || c === 'an') && (u === 'a' || u === 'an'))
+        return "Use <b>a</b> before a consonant <i>sound</i> and <b>an</b> before a vowel <i>sound</i> — the sound matters, not the letter.";
+      if ((c === 'a' || c === 'an') && u === 'one')
+        return "Jobs and first mentions take <b>a/an</b>. Use <b>one</b> only when the number matters.";
+      if (c === 'one' && (u === 'a' || u === 'an'))
+        return "Here the number matters (or it is a fixed phrase, or it replaces a noun), so use <b>one</b>.";
+      return "Check your answer — it should be \"" + correctText + "\".";
+    }
+
     function diagnose(rawText, q) {
+      if (tense === 'a-an-vs-one') return diagnoseArticle(rawText, q.display);
       if (tense === 'past-simple') return diagnosePastSimple(rawText, q);
       if (tense === 'past-perfect') return diagnosePastPerfect(rawText, q);
       if (tense === 'present-perfect') return diagnosePresentPerfect(rawText, q);
