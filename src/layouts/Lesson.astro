@@ -94,7 +94,7 @@ if (quiz) {
 
   <div class="prose"><slot /></div>
 
-  <Quiz quiz={quiz} next={d.next} />
+  <Quiz quiz={quiz} next={d.next} back={`/grammar/${d.hubSlug}/`} />
   <PracticeSection practice={practice} />
   <Faq faq={d.faq} />
   <TeacherBlock objectives={d.teacherObjectives} title={d.title} packHref={packHref} />

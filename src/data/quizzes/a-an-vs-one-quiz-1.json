@@ -30,7 +30,7 @@
       "options": ["a", "one", "the one", "an"],
       "answer": 1,
       "explanations": [
-        "'A pizza' is fine as a plain order, but here the number is the answer to 'two?', so we use 'one'.",
+        "Here the number matters ('two?' → 'just one'), so we use 'one', not 'a'.",
         "Correct! The number is the point (one, not two), so we use 'one'.",
         "'The one' points to a specific pizza, not to the number.",
         "'An' is only for vowel sounds, and 'pizza' starts with a consonant sound."
@@ -84,14 +84,14 @@
       "question": "Which sentence is correct?",
       "options": [
         "My mother is one doctor.",
-        "My mother is the one doctor.",
+        "My mother is doctor.",
         "My mother is a doctor.",
         "My mother is an doctor."
       ],
       "answer": 2,
       "explanations": [
         "Jobs take a/an. 'One doctor' wrongly stresses the number.",
-        "'The one doctor' changes the meaning and sounds wrong for a job.",
+        "A job needs a/an before it: 'a doctor'. Without an article the sentence is incorrect.",
         "Correct! Jobs take a/an: 'a doctor'.",
         "'Doctor' starts with a consonant sound, so 'a', not 'an'."
       ]
@@ -150,8 +150,9 @@
     {
       "type": "write",
       "kind": "Complete the sentence",
-      "question": "Some day I'll travel the world. → ___ day I'll travel the world.",
-      "answers": ["One"],
+      "question": "___ day I'll travel the world. (= at some time in the future; fixed phrase)",
+      "hint": "Type the missing word, or the whole sentence.",
+      "answers": ["One", "One day", "One day I will travel the world", "One day I'll travel the world"],
       "explanation": "'One day' is the fixed phrase for an unspecified time in the future.",
       "common": [
         {"answer": "a", "why": "'A day' doesn't mean 'some time in the future'. Use the fixed phrase 'one day'."}
