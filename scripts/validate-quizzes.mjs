@@ -62,19 +62,11 @@ for (const file of files) {
   if (!Array.isArray(d.items)) { err(f, 'items no és una llista'); continue; }
 
   const mc = [], wr = [];
-  d.items.forEach((it, i) => {
-    if (it.type === 'free') {
-      if (!str(it.question) || !str(it.model)) err(f, `ítem #${i + 1} (free): calen question i model`);
-      if (it.checklist !== undefined && (!Array.isArray(it.checklist) || !it.checklist.every(str))) err(f, `ítem #${i + 1} (free): checklist ha de ser una llista de textos`);
-      return;
-    }
-    (it.type === 'write' ? wr : mc).push([it, i + 1]);
-  });
+  d.items.forEach((it, i) => (it.type === 'write' ? wr : mc).push([it, i + 1]));
   if (mc.length < MIN_MC) err(f, `només ${mc.length} ítems d'elecció múltiple (mínim ${MIN_MC})`);
 
   const questions = new Set();
   d.items.forEach((it, i) => {
-    if (it.type === 'free') return;
     const w = `ítem #${i + 1}`;
     if (!str(it.question)) return err(f, `${w}: falta question`);
     const qn = norm(it.question);

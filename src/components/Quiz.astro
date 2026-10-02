@@ -6,24 +6,7 @@ const { quiz, next, back } = Astro.props;
     <h2>✏️ Practice: {quiz.title}</h2>
     <p class="meta">Level {quiz.level} · {quiz.items.length} questions{quiz.items.some((it) => it.type === 'write') ? ` · ${quiz.items.filter((it) => it.type === 'write').length} to type` : ''} · instant feedback</p>
     {quiz.items.map((item, i) => (
-      item.type === 'free' ? (
-        <div class="q q-free" data-type="free">
-          <p class="q-text q-text-write">{i + 1}. <span class="q-kind">{item.kind || 'Free writing'}</span> <span class="q-ungraded">not scored</span></p>
-          <p class="q-sentence">{item.question}</p>
-          {item.hint && <p class="q-hint">{item.hint}</p>}
-          <textarea class="free-input" rows="3" aria-label={`Your answer to question ${i + 1}`} spellcheck="false"></textarea>
-          <p><button type="button" class="practice-btn-primary free-check">See a model answer</button></p>
-          <div class="free-model" hidden>
-            <p><strong>Model answer:</strong> {item.model}</p>
-            {item.checklist && item.checklist.length > 0 && (
-              <>
-                <p><strong>Check your sentence:</strong></p>
-                <ul>{item.checklist.map((c) => <li>{c}</li>)}</ul>
-              </>
-            )}
-          </div>
-        </div>
-      ) : item.type === 'write' ? (
+      item.type === 'write' ? (
         <div class="q q-write" data-type="write" data-answers={JSON.stringify(item.answers)} data-expl={item.explanation} data-common={JSON.stringify(item.common || [])}>
           <p class="q-text q-text-write">{i + 1}. <span class="q-kind">{item.kind || 'Type the answer'}</span></p>
           <p class="q-sentence">{item.question}</p>
@@ -60,7 +43,7 @@ const { quiz, next, back } = Astro.props;
     let answered = 0;
     let correct = 0;
     const questions = Array.from(quizEl.querySelectorAll('.q'));
-    const total = questions.filter((q) => !q.classList.contains('q-free')).length;
+    const total = questions.length;
     const scoreEl = document.getElementById('quiz-score');
     const actionsEl = document.getElementById('quiz-actions');
 
@@ -135,15 +118,6 @@ const { quiz, next, back } = Astro.props;
     };
 
     quizEl.addEventListener('click', (e) => {
-      const fr = e.target.closest('.free-check');
-      if (fr) {
-        const q = fr.closest('.q');
-        const ta = q.querySelector('.free-input');
-        const model = q.querySelector('.free-model');
-        if (!ta.value.trim()) { ta.focus(); ta.placeholder = 'Write your sentence first — then compare.'; return; }
-        ta.readOnly = true; fr.disabled = true; model.hidden = false;
-        return;
-      }
       const chk = e.target.closest('.write-check');
       if (chk) { checkWrite(chk.closest('.q')); return; }
       const btn = e.target.closest('.opt');
@@ -182,8 +156,6 @@ const { quiz, next, back } = Astro.props;
       answered = 0;
       correct = 0;
       questions.forEach((q) => {
-        const ta = q.querySelector('.free-input');
-        if (ta) { ta.value = ''; ta.readOnly = false; ta.placeholder = ''; q.querySelector('.free-check').disabled = false; q.querySelector('.free-model').hidden = true; return; }
         q.querySelectorAll('.opt').forEach((b) => { b.disabled = false; b.classList.remove('correct', 'wrong'); });
         const input = q.querySelector('.write-input');
         if (input) { input.value = ''; input.disabled = false; input.classList.remove('correct', 'wrong'); }
