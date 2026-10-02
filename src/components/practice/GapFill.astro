@@ -310,7 +310,7 @@ const uid = 'gf';
       sentenceRow.innerHTML = '';
       if (q.before) {
         const b = document.createElement('span');
-        b.textContent = q.before;
+        b.textContent = q.before + ' ';
         sentenceRow.appendChild(b);
       }
       const input = document.createElement('input');
@@ -327,7 +327,7 @@ const uid = 'gf';
       sentenceRow.appendChild(hint);
 
       const a = document.createElement('span');
-      a.textContent = q.after;
+      a.textContent = ' ' + q.after;
       sentenceRow.appendChild(a);
 
       checkBtn.style.display = '';

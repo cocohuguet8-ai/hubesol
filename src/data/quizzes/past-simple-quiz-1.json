@@ -70,14 +70,14 @@
       ]
     },
     {
-      "question": "The past simple of 'study' is ___.",
-      "options": ["studied", "studyed", "studed", "studies"],
+      "question": "Use the spelling rule (consonant + -y → -ied). The past simple of 'study' is ___.",
+      "options": ["studied", "studyed", "studies", "study"],
       "answer": 0,
       "explanations": [
-        "Correct! Consonant + -y becomes -ied: study → studied.",
+        "Correct! Consonant + -y becomes -ied: study → studied (see the spelling table above).",
         "When a verb ends in consonant + -y, the -y changes to -ied: not 'studyed'.",
-        "'Studed' drops too much. The rule is -y → -ied: studied.",
-        "'Studies' is present simple (he/she/it). The past simple is 'studied'."
+        "'Studies' is present simple (he/she/it). The past simple is 'studied'.",
+        "'Study' is the base form. A finished action needs the past: 'studied'."
       ]
     },
     {
@@ -92,19 +92,19 @@
       ]
     },
     {
-      "question": "Choose the sentence with the same meaning as: 'It's ten years since I last saw her.'",
+      "question": "Choose the correct sentence.",
       "options": [
-        "I haven't seen her for ten years ago.",
-        "I last saw her ten years ago.",
-        "I have seen her ten years ago.",
-        "I didn't see her ten years ago."
+        "I saw her two years ago.",
+        "I have seen her two years ago.",
+        "I see her two years ago.",
+        "I was seeing her two years ago."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "'For … ago' mixes two structures and isn't correct English.",
-        "Correct! 'It's ten years since I last saw her' = 'I last saw her ten years ago' — a finished action with 'ago' takes the past simple.",
-        "'Ago' marks finished time, so it can't go with the present perfect 'have seen'.",
-        "'Didn't see' means the meeting never happened, but the original says it did — ten years ago."
+        "Correct! 'Ago' marks a finished time, so we use the past simple: 'saw'.",
+        "'Ago' is a finished time, so the present perfect ('have seen') is impossible.",
+        "'See' is present. 'Two years ago' is in the past: 'saw'.",
+        "'Was seeing' (past continuous) is for an action in progress. A finished single action takes 'saw'."
       ]
     },
     {
@@ -144,6 +144,19 @@
       "hint": "Type the whole corrected sentence.",
       "answers": ["I didn't see him", "I did not see him"],
       "explanation": "After 'didn't' use the base form."
+    },
+    {
+      "type": "free",
+      "kind": "Write your own",
+      "question": "Write one sentence about what you did last weekend.",
+      "hint": "Use the past simple and a time expression (last weekend, on Saturday, yesterday…).",
+      "model": "I visited my grandparents on Saturday and we cooked lunch together.",
+      "checklist": [
+        "Is the main verb in the past simple (visited, went, saw…)?",
+        "Did you use the base form after didn't (I didn't go, not I didn't went)?",
+        "Is there a finished-time expression (on Saturday, yesterday, last week)?",
+        "Did you spell regular verbs correctly (studied, stopped, lived)?"
+      ]
     }
   ]
 }

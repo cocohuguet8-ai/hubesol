@@ -51,7 +51,7 @@ if (quiz) {
     '@type': 'Quiz',
     name: quiz.title,
     educationalLevel: quiz.level,
-    hasPart: quiz.items.map((item) => item.type === 'write'
+    hasPart: quiz.items.filter((item) => item.type !== 'free').map((item) => item.type === 'write'
       ? {
           '@type': 'Question',
           eduQuestionType: 'Short answer',

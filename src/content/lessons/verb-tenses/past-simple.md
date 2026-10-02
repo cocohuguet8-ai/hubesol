@@ -35,6 +35,7 @@ related:
   - { title: "Past Simple vs Past Continuous", href: "/grammar/verb-tenses/past-simple-vs-past-continuous/" }
   - { title: "Past Perfect", href: "/grammar/verb-tenses/past-perfect/" }
   - { title: "Used to / would", href: "/grammar/verb-tenses/used-to-would/" }
+next: { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
 draft: false
 ---
 
@@ -47,6 +48,22 @@ draft: false
 | Question | Did + subject + base verb? | **Did** you **see** it? |
 
 Regular verbs add **-ed** (*work → worked*). Many common verbs are irregular and change form (*go → went, see → saw, buy → bought*). In negatives and questions, **did/didn't** carries the past, so the main verb goes back to its base form.
+
+**Common irregular verbs:**
+
+| Base | Past simple | Base | Past simple |
+|---|---|---|---|
+| be | was / were | have | had |
+| do | did | make | made |
+| go | went | take | took |
+| see | saw | come | came |
+| buy | bought | give | gave |
+| eat | ate | get | got |
+| write | wrote | meet | met |
+
+More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
+
+**Time expressions:** *yesterday, last night, last week, two days ago, in 2019, when I was a child.*
 
 ## When to use the past simple
 

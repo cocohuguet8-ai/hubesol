@@ -513,3 +513,9 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .write-input.correct { background: var(--ok-soft); border-color: var(--ok); }
 .write-input.wrong { background: var(--bad-soft); border-color: var(--bad); }
 .write-input:disabled { opacity: 0.95; }
+
+.q-ungraded { font-size: 0.75rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0.05rem 0.5rem; margin-left: 0.3rem; }
+.free-input { width: 100%; box-sizing: border-box; font: inherit; padding: 0.5rem 0.65rem; border-radius: 6px; border: 1.5px solid var(--line); background: var(--soft); color: var(--ink); margin: 0.2rem 0 0.5rem; }
+.free-input:focus { outline: none; border-color: var(--accent); }
+.free-model { background: var(--ok-soft); border-radius: 8px; padding: 0.4rem 0.9rem; }
+.free-model ul { margin: 0.2rem 0 0.4rem; padding-left: 1.2rem; }
