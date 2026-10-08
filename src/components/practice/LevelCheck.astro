@@ -68,7 +68,7 @@ const uid = 'lc';
     }
     function matchesAnswers(raw, answers) {
       const n = normalize(raw);
-      if (answers.indexOf(n) !== -1) return 'exact';
+      if (answers.some((a) => normalize(a) === n)) return 'exact';
       const e = expandContractions(raw);
       return answers.some((a) => expandContractions(a) === e) ? 'full-form' : '';
     }
@@ -290,28 +290,40 @@ const uid = 'lc';
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (\"" + correctWords.slice(0, i).join(' ') + "\"). Check what comes next.";
     }
 
+    const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
+
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
-      const label = orderAux.label;
       if (!words.length) return "Check the word order: the article comes first, then any adjective, then the noun.";
       const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
-      if (label === null) {
-        if (bIdx === -1 && cIdx !== -1) {
-          return "Don't forget \"" + correctWords[cIdx] + "\" in this sentence.";
-        }
-        if (bIdx !== cIdx) {
-          if (cIdx === 0) return "In a question, \"" + orderAux.primary + "\" comes first, before the subject.";
-          return "\"" + correctWords[cIdx] + "\" goes right after the subject, not somewhere else.";
-        }
-        return "Check the order of the words after \"" + correctWords[cIdx] + "\".";
-      }
+
+      // Name the auxiliary that is actually in this sentence (never a fixed label).
+      const aux = correctWords[cIdx];
+      const first = (correctWords[0] || '').toLowerCase();
+      const afterWh = cIdx === 1 && WH_WORDS.indexOf(first) !== -1;
+
+      if (bIdx === -1) return "Don't forget \"" + aux + "\" in this sentence.";
       if (bIdx !== cIdx) {
-        if (cIdx === 0) return "In a question, the auxiliary (" + label + ") comes first, before the subject.";
-        return "The auxiliary (" + label + ") goes right after the subject.";
+        if (cIdx === 0) return "In a question, \"" + aux + "\" comes first, before the subject.";
+        if (afterWh) return "In a question with \"" + correctWords[0] + "\", \"" + aux + "\" comes right after it, before the subject.";
+        return "\"" + aux + "\" goes right after the subject, not somewhere else.";
       }
-      return "Check the order of the words after the auxiliary.";
+      return "Check the order of the words after \"" + aux + "\".";
+    }
+
+    // Ignore capitals and punctuation, so a time expression or a when/while clause may come first.
+    function normWord(w) {
+      return w.toLowerCase().replace(/^[.,?!;:]+|[.,?!;:]+$/g, '');
+    }
+    function normSentence(words) {
+      return words.map(normWord).join(' ');
+    }
+    function isAcceptedOrder(builtWords, it) {
+      const b = normSentence(builtWords);
+      if (b === normSentence(it.tokens)) return true;
+      return (it.alts || []).some((alt) => normSentence(alt) === b);
     }
 
     function startQuiz() {
@@ -382,13 +394,24 @@ const uid = 'lc';
       return "Check your answer — it should be \"" + correctText + "\".";
     }
 
+    // The hint gives the verb; the answer is the whole verb phrase. If the verb is missing, say so.
+    function missingHintVerb(rawText, hint, display) {
+      const hv = String(hint || '').replace(/[()]/g, '').split('/').pop().trim().toLowerCase();
+      if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0) return '';
+      const u = normalize(rawText);
+      if (u && u.split(' ').indexOf(hv) === -1 && String(display).toLowerCase().split(' ').indexOf(hv) !== -1) {
+        return 'Type the whole verb phrase, including the verb from the hint ("' + hv + '").';
+      }
+      return '';
+    }
+
     function diagnoseFill(rawText, it) {
       if (tense === 'a-an-vs-one') return diagnoseArticle(rawText, it.display);
       if (tense === 'past-simple') return diagnoseFillPastSimple(rawText, it);
       if (tense === 'past-perfect') return diagnoseFillPastPerfect(rawText, it);
       if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
       if (tense === 'present-continuous') return diagnoseFillPresentContinuous(rawText, it.display);
-      return "Check the verb form — it should be \"" + it.display + "\".";
+      return missingHintVerb(rawText, it.hint, it.display) || "Check the verb form — it should be \"" + it.display + "\".";
     }
 
     function checkFill(it, input) {
@@ -407,7 +430,11 @@ const uid = 'lc';
         feedback.innerHTML = '<b>Correct.</b>';
       } else {
         feedback.className = 'practice-feedback show bad';
-        feedback.innerHTML = '<b>Not quite — the correct form is "' + it.display + '".</b> ' + diagnoseFill(raw, it);
+        let specific = diagnoseFill(raw, it);
+        // Drop the generic "Check ... — it should be X" line: it only repeats the correct form.
+        if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
+        const mentionsForm = !!specific && String(specific).toLowerCase().indexOf(String(it.display).toLowerCase()) !== -1;
+        feedback.innerHTML = (mentionsForm ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + it.display + '".</b> ') + (specific || '');
       }
       results.push({ category: 'fill', correct: isCorrect, detail: it.sentText.replace('{{blank}}', it.display) });
       scoreText.textContent = 'Score: ' + totalScore();
@@ -522,7 +549,7 @@ const uid = 'lc';
       if (answered) return;
       answered = true;
       const builtWords = orderBuilt.map((b) => b.word);
-      const isCorrect = builtWords.join(' ') === it.tokens.join(' ');
+      const isCorrect = isAcceptedOrder(builtWords, it);
       const zone = document.getElementById(`${uid}-orderZone`);
       zone.classList.add(isCorrect ? 'correct' : 'wrong');
       drawOrderZone(it);
@@ -626,7 +653,7 @@ const uid = 'lc';
         const correctedTokens = it.tokens.slice();
         correctedTokens[it.errorIndex] = it.correction;
         feedback.className = 'practice-feedback show revealed';
-        feedback.innerHTML = '<b>' + it.type + '.</b> ' + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
+        feedback.innerHTML = '<b>' + (it.use || 'The mistake') + '.</b> ' + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
         results.push({ category: 'error', correct: false, detail: correctedTokens.join(' ') });
         scoreText.textContent = 'Score: ' + totalScore();
         appendNext();

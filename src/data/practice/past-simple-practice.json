@@ -872,20 +872,20 @@
         "explain": "Short verb, consonant-vowel-consonant: double the final letter."
       },
       {
-        "use": "Spelling",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> really hard for the exam.",
+        "use": "Spelling & form",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> really hard for the exam last week.",
         "hintVerb": "(study)",
         "choices": [
-          "studdied",
-          "studyed",
-          "studys",
+          "studies",
+          "studying",
+          "study",
           "studied"
         ],
         "correct": 3,
         "wrongReasons": [
-          "This isn't a valid past-tense spelling — only one d.",
-          "Spelling: consonant + y → change y to i before -ed — \"studied\", not \"studyed\".",
-          "This isn't a valid past-tense spelling.",
+          "Wrong tense: 'last week' needs the past simple — 'studied'.",
+          "Wrong form: -ing needs 'was' before it, and this is a finished past action.",
+          "Wrong tense: 'last week' needs the past simple — 'studied'.",
           ""
         ],
         "explain": "Consonant + y → i before adding -ed."

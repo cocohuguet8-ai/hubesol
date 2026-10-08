@@ -187,6 +187,8 @@ const uid = 'wo';
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (\"" + correctWords.slice(0, i).join(' ') + "\"). Check what comes next.";
     }
 
+    const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
+
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
       const label = orderAux.label;
@@ -195,22 +197,35 @@ const uid = 'wo';
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
 
-      if (label === null) {
-        if (bIdx === -1 && cIdx !== -1) {
-          return "Don't forget \"" + correctWords[cIdx] + "\" in this sentence.";
-        }
-        if (bIdx !== cIdx) {
-          if (cIdx === 0) return "In a question, \"" + orderAux.primary + "\" comes first, before the subject.";
-          return "\"" + correctWords[cIdx] + "\" goes right after the subject, not somewhere else.";
-        }
-        return "Check the order of the words after \"" + correctWords[cIdx] + "\".";
-      }
+      // Always name the auxiliary that is actually in this sentence (never a fixed
+      // label that may not match it, e.g. "do/does" for "don't").
+      const aux = correctWords[cIdx];
+      const first = (correctWords[0] || '').toLowerCase();
+      const afterWh = cIdx === 1 && WH_WORDS.indexOf(first) !== -1;
 
-      if (bIdx !== cIdx) {
-        if (cIdx === 0) return "In a question, the auxiliary (" + label + ") comes first, before the subject.";
-        return "The auxiliary (" + label + ") goes right after the subject — not later in the sentence.";
+      if (bIdx === -1) {
+        return "Don't forget \"" + aux + "\" in this sentence.";
       }
-      return "Check the order of the words after the auxiliary.";
+      if (bIdx !== cIdx) {
+        if (cIdx === 0) return "In a question, \"" + aux + "\" comes first, before the subject.";
+        if (afterWh) return "In a question with \"" + correctWords[0] + "\", \"" + aux + "\" comes right after it, before the subject.";
+        return "\"" + aux + "\" goes right after the subject, not somewhere else.";
+      }
+      return "Check the order of the words after \"" + aux + "\".";
+    }
+
+    // Ignore capital letters and punctuation when comparing, so that the
+    // learner can also start with a time expression or a when/while clause.
+    function normWord(w) {
+      return w.toLowerCase().replace(/^[.,?!;:]+|[.,?!;:]+$/g, '');
+    }
+    function normSentence(words) {
+      return words.map(normWord).join(' ');
+    }
+    function isAcceptedOrder(builtWords, q) {
+      const b = normSentence(builtWords);
+      if (b === normSentence(q.tokens)) return true;
+      return (q.alts || []).some((alt) => normSentence(alt) === b);
     }
 
     function checkAnswer() {
@@ -219,7 +234,7 @@ const uid = 'wo';
       answered = true;
 
       const builtWords = built.map((b) => b.word);
-      const isCorrect = builtWords.join(' ') === q.tokens.join(' ');
+      const isCorrect = isAcceptedOrder(builtWords, q);
 
       answerZone.classList.add(isCorrect ? 'correct' : 'wrong');
       drawAnswer();

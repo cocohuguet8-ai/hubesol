@@ -17,7 +17,7 @@
   },
   "gapFill": {
     "title": "Fill in the gap",
-    "subtitle": "Type the past simple or the present perfect — whichever the signal word or context calls for. Twenty original sentences.",
+    "subtitle": "Type the whole verb phrase — the past simple or the present perfect, whichever the signal word or context calls for. Twenty original sentences.",
     "questions": [
       {
         "use": "Finished time",
@@ -35,7 +35,7 @@
         "use": "Unspecified time",
         "kind": "statement",
         "before": "I",
-        "after": "that film.",
+        "after": "that film already.",
         "hint": "see",
         "answers": [
           "have seen",
@@ -64,7 +64,7 @@
         "kind": "question",
         "before": "When",
         "after": "you arrive?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
@@ -100,7 +100,7 @@
       {
         "use": "Unspecified time — never",
         "kind": "statement",
-        "before": "I",
+        "before": "Up to now, I",
         "after": "sushi.",
         "hint": "never / try",
         "answers": [
@@ -114,8 +114,8 @@
       {
         "use": "Result now",
         "kind": "statement",
-        "before": "She",
-        "after": "her arm — it's in plaster.",
+        "before": "Look! She",
+        "after": "her arm!",
         "hint": "break",
         "answers": [
           "has broken"
@@ -190,7 +190,7 @@
         "kind": "question",
         "before": "",
         "after": "you ever been to Japan?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — present perfect)",
         "answers": [
           "have"
         ],
@@ -285,6 +285,15 @@
           "Rome",
           "in",
           "2019."
+        ],
+        "alts": [
+          [
+            "in",
+            "2019.",
+            "I",
+            "visited",
+            "Rome"
+          ]
         ]
       },
       {
@@ -304,6 +313,15 @@
           "here",
           "since",
           "2020."
+        ],
+        "alts": [
+          [
+            "since",
+            "2020.",
+            "We've",
+            "lived",
+            "here"
+          ]
         ]
       },
       {
@@ -333,6 +351,16 @@
           "match",
           "last",
           "night."
+        ],
+        "alts": [
+          [
+            "last",
+            "night.",
+            "We",
+            "watched",
+            "the",
+            "match"
+          ]
         ]
       },
       {
@@ -360,6 +388,14 @@
           "saw",
           "him",
           "yesterday."
+        ],
+        "alts": [
+          [
+            "yesterday.",
+            "I",
+            "saw",
+            "him"
+          ]
         ]
       },
       {
@@ -381,6 +417,15 @@
           "see",
           "him",
           "yesterday."
+        ],
+        "alts": [
+          [
+            "yesterday.",
+            "I",
+            "didn't",
+            "see",
+            "him"
+          ]
         ]
       },
       {
@@ -392,6 +437,16 @@
           "for",
           "five",
           "years."
+        ],
+        "alts": [
+          [
+            "for",
+            "five",
+            "years.",
+            "I've",
+            "worked",
+            "here"
+          ]
         ]
       },
       {
@@ -425,6 +480,17 @@
           "an",
           "hour",
           "ago."
+        ],
+        "alts": [
+          [
+            "an",
+            "hour",
+            "ago.",
+            "I",
+            "finished",
+            "my",
+            "homework"
+          ]
         ]
       },
       {
@@ -446,6 +512,16 @@
           "grandmother",
           "last",
           "week."
+        ],
+        "alts": [
+          [
+            "last",
+            "week.",
+            "I",
+            "visited",
+            "my",
+            "grandmother"
+          ]
         ]
       },
       {
@@ -457,6 +533,16 @@
           "him",
           "since",
           "Monday."
+        ],
+        "alts": [
+          [
+            "since",
+            "Monday.",
+            "I",
+            "haven't",
+            "seen",
+            "him"
+          ]
         ]
       },
       {
@@ -469,10 +555,21 @@
           "two",
           "days",
           "ago."
+        ],
+        "alts": [
+          [
+            "two",
+            "days",
+            "ago.",
+            "They",
+            "finished",
+            "the",
+            "project"
+          ]
         ]
       },
       {
-        "use": "Question — when negative-ish",
+        "use": "Question — when",
         "tokens": [
           "When",
           "did",
@@ -598,7 +695,7 @@
       },
       {
         "use": "Unspecified time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that film.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that film already.",
         "choices": [
           "have seen",
           "saw",
@@ -688,7 +785,7 @@
       },
       {
         "use": "Unspecified time — never",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sushi.",
+        "text": "Up to now, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sushi.",
         "choices": [
           "never tried",
           "has never tried",
@@ -706,7 +803,7 @@
       },
       {
         "use": "Result now",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her arm — it's in plaster.",
+        "text": "Look! She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her arm!",
         "choices": [
           "broke",
           "have broken",
@@ -834,14 +931,14 @@
         "use": "Unspecified time — just",
         "text": "The train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "just left",
+          "have just left",
           "is just leaving",
           "just leaves",
           "has just left"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'just' signals the present perfect, not the past simple.",
+          "Subject-verb agreement: with 'the train', use 'has', not 'have'.",
           "Wrong tense: 'just' signals the present perfect, not the present continuous.",
           "Wrong tense: 'just' signals the present perfect, not the present simple.",
           ""
@@ -1110,15 +1207,18 @@
       },
       {
         "tokens": [
+          "Up",
+          "to",
+          "now,",
           "I",
           "never",
           "tried",
           "sushi."
         ],
-        "errorIndex": 0,
+        "errorIndex": 3,
         "correction": "I've",
         "type": "Missing auxiliary",
-        "message": "'Never' needs the present perfect auxiliary — 'I've never tried', not just 'I never tried'."
+        "message": "'Up to now' with 'never' needs the present perfect — 'I've never tried', not just 'I never tried'."
       },
       {
         "tokens": [
@@ -1245,7 +1345,7 @@
       {
         "type": "fill",
         "use": "Unspecified time",
-        "sentText": "I {{blank}} that film.",
+        "sentText": "I {{blank}} that film already.",
         "hint": "see",
         "answers": [
           "have seen",
@@ -1270,7 +1370,7 @@
         "type": "fill",
         "use": "Question — when",
         "sentText": "When {{blank}} you arrive?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
@@ -1296,6 +1396,16 @@
           "match",
           "last",
           "night."
+        ],
+        "alts": [
+          [
+            "last",
+            "night.",
+            "We",
+            "watched",
+            "the",
+            "match"
+          ]
         ]
       },
       {
@@ -1319,6 +1429,15 @@
           "see",
           "him",
           "yesterday."
+        ],
+        "alts": [
+          [
+            "yesterday.",
+            "I",
+            "didn't",
+            "see",
+            "him"
+          ]
         ]
       },
       {
@@ -1400,7 +1519,7 @@
       {
         "type": "mc",
         "use": "Result now",
-        "text": "She {{blank}} her arm — it's in plaster.",
+        "text": "Look! She {{blank}} her arm!",
         "choices": [
           "broke",
           "have broken",
@@ -1473,55 +1592,57 @@
         "type": "error",
         "use": "Wrong tense",
         "tokens": [
-          "I",
-          "have seen",
-          "him",
-          "yesterday."
+          "She",
+          "has visited",
+          "Paris",
+          "last",
+          "year."
         ],
         "errorIndex": 1,
-        "correction": "saw",
-        "message": "'Yesterday' is a finished time — use the past simple, not the present perfect."
+        "correction": "visited",
+        "message": "'Last year' is a finished time — use the past simple."
       },
       {
         "type": "error",
         "use": "Wrong tense",
         "tokens": [
-          "When",
-          "have you arrived",
-          "in",
-          "London?"
+          "Did you ever eat",
+          "sushi",
+          "with",
+          "chopsticks?"
         ],
-        "errorIndex": 1,
-        "correction": "did you arrive",
-        "message": "'When' asks for a specific time — it takes the past simple."
+        "errorIndex": 0,
+        "correction": "Have you ever eaten",
+        "message": "'Ever' asks about experience up to now — 'Have you ever eaten…?'"
       },
       {
         "type": "error",
         "use": "Wrong tense",
         "tokens": [
-          "I",
-          "live",
-          "here",
+          "They",
+          "know",
+          "each",
+          "other",
           "since",
-          "2020."
+          "2010."
         ],
         "errorIndex": 1,
-        "correction": "have lived",
-        "message": "With 'since' and a situation that continues, use the present perfect."
+        "correction": "have known",
+        "message": "'Since' needs the present perfect — 'have known'."
       },
       {
         "type": "error",
         "use": "Wrong participle",
         "tokens": [
-          "I've",
+          "He's",
           "never",
-          "saw",
-          "that",
-          "film."
+          "went",
+          "to",
+          "Spain."
         ],
         "errorIndex": 2,
-        "correction": "seen",
-        "message": "After 've, use the past participle 'seen', not the past simple 'saw'."
+        "correction": "been",
+        "message": "Use the participle 'been' — 'He's never been to Spain'."
       }
     ]
   }

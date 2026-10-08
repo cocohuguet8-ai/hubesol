@@ -797,18 +797,18 @@
         "explain": "Something not happening right now — present continuous negative."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new song right now.",
         "choices": [
           "writes",
-          "is writeing",
+          "is written",
           "is writing",
           "is write"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: this needs the present continuous, not the present simple.",
-          "Spelling: drop the silent \"e\" before adding -ing — \"writing\", not \"writeing\".",
+          "Wrong form: 'written' is a past participle, not an -ing form.",
           "",
           "Missing -ing: after \"is\", use the -ing form — \"writing\", not \"write\"."
         ],
@@ -833,36 +833,36 @@
         "explain": "Something happening right now — present continuous."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the pool at the moment.",
         "choices": [
           "are swimming",
-          "are swiming",
+          "are swum",
           "swim",
           "are swim"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: double the final consonant — \"swimming\", not \"swiming\".",
+          "Wrong form: 'swum' is a past participle, not an -ing form.",
           "Wrong tense: this needs the present continuous, not the present simple.",
           "Missing -ing: after \"are\", use the -ing form — \"swimming\", not \"swim\"."
         ],
         "explain": "Something happening right now — present continuous."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "The old man <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the sofa right now.",
         "choices": [
           "lies",
-          "is lieing",
+          "is lain",
           "is lying",
           "is lie"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: this needs the present continuous, not the present simple.",
-          "Spelling: change \"ie\" to \"y\" before adding -ing — \"lying\", not \"lieing\".",
+          "Wrong form: 'lain' is a past participle, not an -ing form.",
           "",
           "Missing -ing: after \"is\", use the -ing form — \"lying\", not \"lie\"."
         ],
@@ -1261,7 +1261,7 @@
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
-      "ing": "-ing spelling",
+      "ing": "-ing forms",
       "mc": "Grammar choices",
       "error": "Spot the mistake"
     },
@@ -1367,19 +1367,19 @@
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He is {{blank}} a letter.",
         "hintVerb": "(write)",
         "choices": [
           "writing",
-          "writeing",
+          "written",
           "writes",
           "write"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: drop the silent \"e\" before adding -ing — \"writing\", not \"writeing\".",
+          "Wrong form: 'written' is a past participle, not an -ing form.",
           "Wrong form: \"writes\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
         ]
@@ -1405,19 +1405,19 @@
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She is {{blank}} on the sofa.",
         "hintVerb": "(lie)",
         "choices": [
           "lying",
-          "lieing",
+          "lain",
           "lies",
           "lie"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: change \"ie\" to \"y\" before adding -ing — \"lying\", not \"lieing\".",
+          "Wrong form: 'lain' is a past participle, not an -ing form.",
           "Wrong form: \"lies\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
         ]

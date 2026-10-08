@@ -13,7 +13,7 @@
   },
   "gapFill": {
     "title": "Fill in the gap",
-    "subtitle": "Type 'used to' or 'would' — whichever the context allows. Remember: 'would' can't describe a past state. Twenty original sentences.",
+    "subtitle": "Type the whole verb phrase — 'used to' or 'would' plus the verb in brackets, whichever the context allows. Remember: 'would' can't describe a past state. Twenty original sentences.",
     "questions": [
       {
         "use": "Habit",
@@ -112,7 +112,7 @@
           "used to walk"
         ],
         "display": "would walk",
-        "explain": "A repeated action — both 'would' and 'used to' are possible."
+        "explain": "A repeated action — you can write either 'would walk' or 'used to walk'."
       },
       {
         "use": "Negative",
@@ -142,8 +142,8 @@
         "use": "Question",
         "kind": "question",
         "before": "",
-        "after": "you play an instrument as a kid?",
-        "hint": "(auxiliary)",
+        "after": "you use to play an instrument as a kid?",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "Did"
         ],
@@ -240,7 +240,7 @@
         "kind": "question",
         "before": "",
         "after": "they use to live nearby?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "Did"
         ],
@@ -624,7 +624,7 @@
           "'Used to' takes the base verb: 'used to take', not 'took'.",
           "",
           "'Would' also takes the base verb: 'would take', not 'took'.",
-          "Missing the '-d' on 'used'."
+          "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'."
         ],
         "explain": "A repeated action told as a story — 'would take'."
       },
@@ -731,7 +731,7 @@
         "wrongReasons": [
           "Not a full verb form.",
           "'Would' needs the base verb: 'would play', not 'played'.",
-          "Missing the '-d' on 'used'.",
+          "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           ""
         ],
         "explain": "A repeated action, storytelling style — 'would play'."
@@ -795,15 +795,15 @@
         "text": "Every night, my mother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to us before bed.",
         "choices": [
           "reading",
-          "would readed",
+          "reads",
           "use to read",
           "would read"
         ],
         "correct": 3,
         "wrongReasons": [
           "Not a complete verb form.",
-          "'Read' has no separate past form here — 'would read' is correct as is.",
-          "Missing the '-d' on 'used'.",
+          "Wrong tense: this describes a past habit, so the present simple doesn't fit.",
+          "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           ""
         ],
         "explain": "A repeated bedtime action, told as a story — 'would read'."
@@ -814,14 +814,14 @@
         "choices": [
           "used to know",
           "would know",
-          "used to knew",
+          "was knowing",
           "would knew"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "'Know' is a state verb — 'would' can't describe past knowledge.",
-          "'Used to' takes the base verb 'know', not 'knew'.",
+          "'Know' is a state verb — it isn't used in the continuous.",
           "Wrong form and wrong verb choice."
         ],
         "explain": "'Know' is a state — only 'used to know' works."
@@ -860,7 +860,7 @@
           "",
           "Wrong word order."
         ],
-        "explain": "A finished daily habit — 'used to walk' (or 'would walk')."
+        "explain": "A finished daily habit — 'used to walk'."
       },
       {
         "use": "Would — action",
@@ -875,7 +875,7 @@
         "wrongReasons": [
           "Not a complete verb form.",
           "'Would' needs the base verb 'gather', not 'gathered'.",
-          "Missing the '-d' on 'used'.",
+          "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           ""
         ],
         "explain": "A repeated festive action — 'would gather'."
@@ -947,7 +947,7 @@
         "wrongReasons": [
           "Not a complete verb form.",
           "'Would' needs the base verb 'play', not 'played'.",
-          "Missing the '-d' on 'used'.",
+          "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           ""
         ],
         "explain": "A repeated after-school action — 'would play'."
@@ -969,7 +969,7 @@
         "errorIndex": 1,
         "correction": "used to",
         "type": "Wrong form",
-        "message": "'Have' (a state) can't follow 'would' — use 'used to have'."
+        "message": "'Would' can't be used with a state like 'have' — use 'used to'."
       },
       {
         "tokens": [
@@ -1115,17 +1115,19 @@
       },
       {
         "tokens": [
-          "This",
-          "street",
+          "She",
           "would",
-          "be",
-          "much",
-          "quieter."
+          "live",
+          "in",
+          "Paris",
+          "as",
+          "a",
+          "child."
         ],
-        "errorIndex": 2,
+        "errorIndex": 1,
         "correction": "used to",
         "type": "Wrong form",
-        "message": "A past state (how quiet it was) takes 'used to', not 'would'."
+        "message": "'Live' describes a state — use 'used to', not 'would'."
       },
       {
         "tokens": [
@@ -1217,7 +1219,7 @@
         "errorIndex": 1,
         "correction": "used to",
         "type": "Wrong form",
-        "message": "'Have a dog' (a state) can't follow 'would' — use 'used to have'."
+        "message": "'Would' can't be used with a state like 'have a dog' — use 'used to'."
       },
       {
         "tokens": [
@@ -1466,7 +1468,7 @@
         "wrongReasons": [
           "",
           "'Would' needs the base verb 'tell', not 'told'.",
-          "Missing the '-d' on 'used'.",
+          "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           "Not a complete verb form."
         ]
       },
@@ -1495,14 +1497,14 @@
         "choices": [
           "used to know",
           "would know",
-          "used to knew",
+          "was knowing",
           "would knew"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "'Know' is a state verb — 'would' can't be used.",
-          "'Used to' takes the base verb, not 'knew'.",
+          "'Know' is a state verb — it isn't used in the continuous.",
           "Wrong form and wrong verb choice."
         ]
       },
@@ -1510,26 +1512,27 @@
         "type": "error",
         "use": "Wrong form",
         "tokens": [
-          "I",
+          "We",
           "would",
-          "have",
-          "long",
-          "hair."
+          "own",
+          "a",
+          "small",
+          "boat."
         ],
         "errorIndex": 1,
         "correction": "used to",
-        "message": "'Have' (a state) can't follow 'would' — use 'used to have'."
+        "message": "'Would' can't be used with a state like 'own' — use 'used to'."
       },
       {
         "type": "error",
         "use": "Extra -d",
         "tokens": [
           "Did",
-          "you",
+          "he",
           "used",
           "to",
-          "live",
-          "here?"
+          "play",
+          "chess?"
         ],
         "errorIndex": 2,
         "correction": "use",
@@ -1542,30 +1545,32 @@
           "I'm",
           "used",
           "to",
-          "smoke",
-          "when",
-          "I",
-          "was",
-          "young."
+          "walk",
+          "to",
+          "school",
+          "years",
+          "ago."
         ],
         "errorIndex": 0,
         "correction": "I",
-        "message": "'I'm used to' means 'accustomed to' — a past habit is just 'I used to smoke'."
+        "message": "'I'm used to' means 'accustomed to' — a past habit is just 'I used to walk'."
       },
       {
         "type": "error",
         "use": "Wrong verb form",
         "tokens": [
-          "My",
-          "dad",
-          "would cooked",
-          "dinner",
-          "on",
-          "Sundays."
+          "Every",
+          "summer,",
+          "we",
+          "would",
+          "went",
+          "to",
+          "the",
+          "beach."
         ],
-        "errorIndex": 2,
-        "correction": "would cook",
-        "message": "After 'would', use the base verb: 'would cook', not 'would cooked'."
+        "errorIndex": 4,
+        "correction": "go",
+        "message": "After 'would', use the base verb: 'would go', not 'would went'."
       }
     ]
   }

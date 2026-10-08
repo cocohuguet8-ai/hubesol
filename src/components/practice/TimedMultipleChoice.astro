@@ -103,8 +103,9 @@ const uid = 'tm';
             io.disconnect();
             startTimer();
           }
-        }, { threshold: 0.6 });
-        io.observe(document.getElementById(uid));
+        }, { threshold: 0.5 });
+        // Watch the question card (not the whole section, which can be taller than a phone screen).
+        io.observe(quizArea.querySelector('.practice-card') || quizArea);
       }
     }
 

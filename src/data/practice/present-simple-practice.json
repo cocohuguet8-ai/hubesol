@@ -55,13 +55,13 @@
       {
         "use": "Fact — negative",
         "kind": "statement",
-        "before": "Metal",
-        "after": "in water.",
-        "hint": "not / float",
+        "before": "Oil",
+        "after": "with water.",
+        "hint": "not / mix",
         "answers": [
-          "doesn't float"
+          "doesn't mix"
         ],
-        "display": "doesn't float",
+        "display": "doesn't mix",
         "explain": "Negative fact with 'it' — doesn't + base verb."
       },
       {
@@ -269,6 +269,14 @@
           "boils",
           "at",
           "100°C."
+        ],
+        "alts": [
+          [
+            "at",
+            "100°C.",
+            "Water",
+            "boils"
+          ]
         ]
       },
       {
@@ -289,15 +297,23 @@
           "melts",
           "at",
           "0°C."
+        ],
+        "alts": [
+          [
+            "at",
+            "0°C.",
+            "Ice",
+            "melts"
+          ]
         ]
       },
       {
         "use": "Fact — negative",
         "tokens": [
-          "Metal",
+          "Oil",
           "doesn't",
-          "float",
-          "in",
+          "mix",
+          "with",
           "water."
         ]
       },
@@ -310,6 +326,16 @@
           "work",
           "every",
           "day."
+        ],
+        "alts": [
+          [
+            "every",
+            "day.",
+            "She",
+            "walks",
+            "to",
+            "work"
+          ]
         ]
       },
       {
@@ -320,6 +346,15 @@
           "up",
           "at",
           "seven."
+        ],
+        "alts": [
+          [
+            "at",
+            "seven.",
+            "I",
+            "get",
+            "up"
+          ]
         ]
       },
       {
@@ -330,6 +365,15 @@
           "coffee",
           "every",
           "morning."
+        ],
+        "alts": [
+          [
+            "every",
+            "morning.",
+            "He",
+            "drinks",
+            "coffee"
+          ]
         ]
       },
       {
@@ -341,6 +385,16 @@
           "together",
           "on",
           "Sundays."
+        ],
+        "alts": [
+          [
+            "on",
+            "Sundays.",
+            "We",
+            "have",
+            "dinner",
+            "together"
+          ]
         ]
       },
       {
@@ -351,6 +405,15 @@
           "tennis",
           "on",
           "Saturdays."
+        ],
+        "alts": [
+          [
+            "on",
+            "Saturdays.",
+            "They",
+            "play",
+            "tennis"
+          ]
         ]
       },
       {
@@ -371,6 +434,16 @@
           "coffee",
           "at",
           "night."
+        ],
+        "alts": [
+          [
+            "at",
+            "night.",
+            "I",
+            "don't",
+            "drink",
+            "coffee"
+          ]
         ]
       },
       {
@@ -400,6 +473,15 @@
           "leaves",
           "at",
           "six."
+        ],
+        "alts": [
+          [
+            "at",
+            "six.",
+            "The",
+            "train",
+            "leaves"
+          ]
         ]
       },
       {
@@ -411,6 +493,16 @@
           "at",
           "eight",
           "tonight."
+        ],
+        "alts": [
+          [
+            "at",
+            "eight",
+            "tonight.",
+            "The",
+            "film",
+            "starts"
+          ]
         ]
       },
       {
@@ -421,6 +513,15 @@
           "opens",
           "at",
           "nine."
+        ],
+        "alts": [
+          [
+            "at",
+            "nine.",
+            "The",
+            "shop",
+            "opens"
+          ]
         ]
       },
       {
@@ -432,6 +533,16 @@
           "open",
           "on",
           "Mondays."
+        ],
+        "alts": [
+          [
+            "on",
+            "Mondays.",
+            "The",
+            "museum",
+            "doesn't",
+            "open"
+          ]
         ]
       },
       {
@@ -453,6 +564,15 @@
           "TV",
           "every",
           "evening."
+        ],
+        "alts": [
+          [
+            "every",
+            "evening.",
+            "She",
+            "watches",
+            "TV"
+          ]
         ]
       },
       {
@@ -463,6 +583,15 @@
           "English",
           "every",
           "week."
+        ],
+        "alts": [
+          [
+            "every",
+            "week.",
+            "He",
+            "studies",
+            "English"
+          ]
         ]
       }
     ]
@@ -690,37 +819,37 @@
         "explain": "A routine with 'I' — base verb, no -s."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV every evening.",
         "choices": [
-          "watchs",
+          "watch",
           "is watching",
-          "watchies",
+          "watched",
           "watches"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Spelling: verbs ending in -ch add -es, not just -s — 'watches', not 'watchs'.",
+          "Missing ending: with 'she', the verb needs -es — 'watches'.",
           "Wrong tense: 'every evening' is a routine — present simple, not continuous.",
-          "Spelling: -ch takes -es, not -ies (that rule is for consonant + y).",
+          "Wrong tense: 'every evening' is a present routine, not the past.",
           ""
         ],
         "explain": "Verbs ending in -ch add -es: watch → watches."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> English every week.",
         "choices": [
           "studies",
-          "studys",
-          "studyes",
+          "studied",
+          "studying",
           "study"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: after a consonant, -y changes to -ies — 'studies', not 'studys'.",
-          "Spelling: after a consonant, -y changes to -ies, not -yes — 'studies'.",
+          "Wrong tense: 'every week' is a present routine, not the past.",
+          "Wrong form: -ing needs 'is' before it, and 'every week' is a routine.",
           "Missing the -ies ending needed for 'he'."
         ],
         "explain": "Consonant + -y → -ies: study → studies."
@@ -759,7 +888,7 @@
           "",
           "Not a real word — the irregular form is 'has', never 'haves'."
         ],
-        "explain": "A routine with 'we' — base verb, no -s."
+        "explain": "'Twice a day' — a routine, plus -es for 'he' (brush → brushes)."
       },
       {
         "use": "Habit/routine",
@@ -767,14 +896,14 @@
         "choices": [
           "brush",
           "is brushing",
-          "brush's",
+          "brushed",
           "brushes"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing -s: with 'he', add -s — 'brushes', not 'brush'.",
+          "Missing -s: with 'he', add -es — 'brushes', not 'brush'.",
           "Wrong tense: 'twice a day' is a routine, not happening right now.",
-          "Not a real form — never add an apostrophe to a verb ending.",
+          "Wrong tense: 'twice a day' is a present routine, not the past.",
           ""
         ],
         "explain": "'Twice a day' — a routine, plus -s for 'he'."
@@ -852,19 +981,19 @@
         "explain": "Plural subject 'your parents' — 'do' + base verb."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to three languages.",
         "choices": [
           "speaks",
-          "speakes",
-          "speachs",
+          "spoke",
+          "speaking",
           "speak"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: 'speak' just adds -s — 'speaks', not 'speakes' (no -e- needed).",
-          "That's not how 'speak' is spelled at all.",
+          "Wrong tense: this is a present fact, not a finished past action.",
+          "Wrong form: -ing needs 'is' before it, and this is a general fact.",
           "Missing -s: with 'he', add -s."
         ],
         "explain": "Regular verb, 3rd person — just add -s."
@@ -876,14 +1005,14 @@
           "flies",
           "fly",
           "is flying",
-          "flys"
+          "flew"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'birds' is plural — no -s, 'fly' not 'flies'.",
           "",
           "Wrong tense: this is a general pattern, not happening right now.",
-          "Spelling: this isn't the 3rd-person form anyway — but even so, 'birds' needs no -s."
+          "Wrong tense: this is a general pattern in the present, not the past."
         ],
         "explain": "Plural subject 'birds' — base verb, no -s."
       },
@@ -1135,15 +1264,17 @@
       },
       {
         "tokens": [
-          "Water",
-          "boiling",
-          "at",
-          "100°C."
+          "The",
+          "sun",
+          "rising",
+          "in",
+          "the",
+          "east."
         ],
-        "errorIndex": 1,
-        "correction": "boils",
+        "errorIndex": 2,
+        "correction": "rises",
         "type": "Wrong tense",
-        "message": "A permanent fact needs the present simple verb form — 'boils', not the -ing form alone."
+        "message": "A permanent fact needs the present simple verb form — 'rises', not the -ing form alone."
       },
       {
         "tokens": [
@@ -1151,13 +1282,14 @@
           "living",
           "in",
           "Madrid",
-          "for",
-          "years."
+          "with",
+          "her",
+          "family."
         ],
         "errorIndex": 1,
         "correction": "lives",
         "type": "Wrong tense",
-        "message": "A long-term, permanent fact needs the present simple verb form — 'lives', not the -ing form alone."
+        "message": "A permanent situation needs the present simple verb form — 'lives', not the -ing form alone."
       },
       {
         "tokens": [
@@ -1194,7 +1326,7 @@
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
-      "s": "-s spelling",
+      "s": "-s forms",
       "mc": "Grammar choices",
       "error": "Spot the mistake"
     },
@@ -1255,6 +1387,15 @@
           "tennis",
           "on",
           "Saturdays."
+        ],
+        "alts": [
+          [
+            "on",
+            "Saturdays.",
+            "They",
+            "play",
+            "tennis"
+          ]
         ]
       },
       {
@@ -1277,6 +1418,16 @@
           "coffee",
           "at",
           "night."
+        ],
+        "alts": [
+          [
+            "at",
+            "night.",
+            "I",
+            "don't",
+            "drink",
+            "coffee"
+          ]
         ]
       },
       {
@@ -1288,44 +1439,53 @@
           "starts",
           "at",
           "eight."
+        ],
+        "alts": [
+          [
+            "at",
+            "eight.",
+            "The",
+            "film",
+            "starts"
+          ]
         ]
       },
       {
         "type": "s",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She {{blank}} TV every evening.",
         "hintVerb": "(watch)",
         "choices": [
-          "watchs",
+          "watch",
           "watches",
-          "watchies",
-          "watch"
+          "watched",
+          "watching"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: -ch takes -es, not just -s — 'watches', not 'watchs'.",
+          "Missing ending: with 'she', the verb needs -es.",
           "",
-          "Spelling: -ch takes -es, not -ies (that rule is for consonant + y).",
-          "Missing -s: with 'she', the verb needs an ending."
+          "Wrong tense: 'every evening' is a present routine, not the past.",
+          "Wrong form: -ing needs 'is' before it, and this is a routine."
         ]
       },
       {
         "type": "s",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He {{blank}} English every week.",
         "hintVerb": "(study)",
         "choices": [
-          "studys",
+          "studied",
           "studies",
           "study",
-          "studyes"
+          "studying"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: after a consonant, -y changes to -ies — 'studies', not 'studys'.",
+          "Wrong tense: 'every week' is a present routine, not the past.",
           "",
           "Missing ending: with 'he', the verb needs the 3rd-person form.",
-          "Spelling: consonant + y becomes -ies, not -yes."
+          "Wrong form: -ing needs 'is' before it, and this is a routine."
         ]
       },
       {
@@ -1334,34 +1494,34 @@
         "text": "She {{blank}} two brothers.",
         "hintVerb": "(have)",
         "choices": [
-          "haves",
+          "had",
           "has",
           "have",
-          "haing"
+          "having"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Not a real word — the irregular form is 'has', never 'haves'.",
+          "Wrong tense: this is present simple, not past.",
           "",
           "Missing ending: with 'she', use the irregular form 'has'.",
-          "Not a real form."
+          "Wrong form: 'have' of possession isn't used in the -ing form here."
         ]
       },
       {
         "type": "s",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He {{blank}} cars for a living.",
         "hintVerb": "(fix)",
         "choices": [
-          "fixs",
-          "fixies",
+          "fixed",
+          "fixing",
           "fixes",
           "fix"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: verbs ending in -x add -es, not just -s — 'fixes', not 'fixs'.",
-          "Spelling: -x takes -es, not -ies (that rule is for consonant + y).",
+          "Wrong tense: this is a present job, not a past action.",
+          "Wrong form: -ing needs 'is' before it.",
           "",
           "Missing ending: with 'he', the verb needs an ending."
         ]
@@ -1442,57 +1602,60 @@
         "type": "error",
         "use": "Missing -s",
         "tokens": [
-          "She",
-          "walk",
-          "to",
-          "work",
+          "He",
+          "play",
+          "football",
           "every",
-          "day."
+          "Saturday."
         ],
         "errorIndex": 1,
-        "correction": "walks",
-        "message": "With 'she', add -s to the verb — 'walks', not 'walk'."
+        "correction": "plays",
+        "message": "With 'he', add -s to the verb — 'plays', not 'play'."
       },
       {
         "type": "error",
         "use": "Subject-verb agreement",
         "tokens": [
-          "I",
-          "gets",
-          "up",
-          "at",
-          "seven."
+          "We",
+          "goes",
+          "to",
+          "school",
+          "by",
+          "bus."
         ],
         "errorIndex": 1,
-        "correction": "get",
-        "message": "With 'I', don't add -s — 'get', not 'gets'."
+        "correction": "go",
+        "message": "With 'we', don't add -s — 'go', not 'goes'."
       },
       {
         "type": "error",
         "use": "Spelling",
         "tokens": [
-          "He",
-          "studys",
-          "English",
-          "every",
-          "week."
+          "She",
+          "carrys",
+          "her",
+          "bag",
+          "to",
+          "school."
         ],
         "errorIndex": 1,
-        "correction": "studies",
-        "message": "After a consonant, -y changes to -ies — 'studies', not 'studys'."
+        "correction": "carries",
+        "message": "After a consonant, -y changes to -ies — 'carries', not 'carrys'."
       },
       {
         "type": "error",
         "use": "Irregular verb",
         "tokens": [
           "She",
-          "haves",
-          "two",
-          "brothers."
+          "do",
+          "her",
+          "homework",
+          "after",
+          "dinner."
         ],
         "errorIndex": 1,
-        "correction": "has",
-        "message": "'Have' is irregular in the 3rd person — 'has', never 'haves'."
+        "correction": "does",
+        "message": "'Do' is irregular in the 3rd person — 'does', not 'do'."
       }
     ]
   }

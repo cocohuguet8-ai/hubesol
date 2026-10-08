@@ -80,7 +80,7 @@ const uid = 'gf';
     }
     function matchesAnswers(raw, answers) {
       const n = normalize(raw);
-      if (answers.indexOf(n) !== -1) return 'exact';
+      if (answers.some((a) => normalize(a) === n)) return 'exact';
       const e = expandContractions(raw);
       return answers.some((a) => expandContractions(a) === e) ? 'full-form' : '';
     }
@@ -296,13 +296,24 @@ const uid = 'gf';
       return "Check your answer — it should be \"" + correctText + "\".";
     }
 
+    // The hint gives the verb; the answer is the whole verb phrase. If the verb is missing, say so.
+    function missingHintVerb(rawText, hint, display) {
+      const hv = String(hint || '').replace(/[()]/g, '').split('/').pop().trim().toLowerCase();
+      if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0) return '';
+      const u = normalize(rawText);
+      if (u && u.split(' ').indexOf(hv) === -1 && String(display).toLowerCase().split(' ').indexOf(hv) !== -1) {
+        return 'Type the whole verb phrase, including the verb from the hint ("' + hv + '").';
+      }
+      return '';
+    }
+
     function diagnose(rawText, q) {
       if (tense === 'a-an-vs-one') return diagnoseArticle(rawText, q.display);
       if (tense === 'past-simple') return diagnosePastSimple(rawText, q);
       if (tense === 'past-perfect') return diagnosePastPerfect(rawText, q);
       if (tense === 'present-perfect') return diagnosePresentPerfect(rawText, q);
       if (tense === 'present-continuous') return diagnosePresentContinuous(rawText, q);
-      return "Check the verb form — it should be \"" + q.display + "\".";
+      return missingHintVerb(rawText, q.hint, q.display) || "Check the verb form — it should be \"" + q.display + "\".";
     }
 
     function startQuiz() {
@@ -376,12 +387,15 @@ const uid = 'gf';
         feedback.classList.add('show', 'ok');
         feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech and informal writing we usually say "' + q.display + '". ' : '') + q.explain;
       } else {
-        const specific = diagnose(raw, q);
+        let specific = diagnose(raw, q);
+        // The generic "Check ... — it should be X" line only repeats the correct form: drop it.
+        if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
+        const form = String(q.display).toLowerCase();
+        const mentions = (t) => !!t && String(t).toLowerCase().indexOf(form) !== -1;
         feedback.classList.add('show', 'bad');
-        const sayAlready = specific && specific.indexOf('"' + q.display + '"') !== -1;
-        feedback.innerHTML = (sayAlready ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + q.display + '".</b> ')
+        feedback.innerHTML = ((mentions(specific) || mentions(q.explain)) ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + q.display + '".</b> ')
           + (specific ? specific + ' ' : '')
-          + q.explain;
+          + (q.explain || '');
       }
 
       if (isCorrect) score++;
@@ -419,7 +433,8 @@ const uid = 'gf';
         row.className = 'practice-review-item';
         const sent = document.createElement('span');
         sent.className = 'rsent';
-        sent.textContent = (r.before ? r.before + ' ' : '') + r.display + ' ' + r.after;
+        const joined = ((r.before ? r.before + ' ' : '') + r.display + (/^[.,;:!?)]/.test(r.after) ? '' : ' ') + r.after).trim();
+        sent.textContent = joined.charAt(0).toUpperCase() + joined.slice(1);
         const mark = document.createElement('span');
         mark.className = 'rmark ' + (r.correct ? 'ok' : 'bad');
         mark.textContent = r.correct ? '✓' : '✗';

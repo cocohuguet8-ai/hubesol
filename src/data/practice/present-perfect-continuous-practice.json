@@ -29,7 +29,7 @@
         "explain": "How long an action has been happening, with 'for'."
       },
       {
-        "use": "Duration — for",
+        "use": "Duration — since",
         "kind": "statement",
         "before": "We",
         "after": "on this project since January.",
@@ -275,7 +275,7 @@
         ]
       },
       {
-        "use": "Duration — for",
+        "use": "Duration — since",
         "tokens": [
           "We've",
           "been",
@@ -443,7 +443,7 @@
         ]
       },
       {
-        "use": "Negative — duration",
+        "use": "Negative",
         "tokens": [
           "I",
           "haven't",
@@ -699,35 +699,35 @@
         "explain": "'She' takes 'has' in the present perfect continuous."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all afternoon.",
         "choices": [
           "have been swimming",
           "has been swimming",
-          "have been swiming",
+          "have been swim",
           "have swum"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Subject-verb agreement: 'they' takes 'have', not 'has'.",
-          "Spelling: double the final consonant — 'swimming', not 'swiming'.",
+          "Missing -ing: after 'been', use the -ing form — 'swimming', not 'swim'.",
           "Wrong form: the continuous, not the simple, fits an ongoing activity 'all afternoon'."
         ],
         "explain": "Plural subject, plus double the consonant: swim → swimming."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a novel for months.",
         "choices": [
-          "has been writeing",
+          "has been write",
           "have been writing",
           "has wrote",
           "has been writing"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Spelling: drop the silent 'e' before adding -ing — 'writing', not 'writeing'.",
+          "Missing -ing: after 'been', use the -ing form — 'writing', not 'write'.",
           "Subject-verb agreement: with 'she', use 'has', not 'have'.",
           "Not a real form — 'wrote' is the past simple, not a participle.",
           ""
@@ -843,17 +843,17 @@
         "explain": "A recent activity explaining a result you can see now."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the beach all day.",
         "choices": [
-          "has been liing",
+          "has been lie",
           "have been lying",
           "has been lying",
           "has lain"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: 'ie' changes to 'y' before -ing — 'lying', not 'liing'.",
+          "Missing -ing: after 'been', use the -ing form — 'lying', not 'lie'.",
           "Subject-verb agreement: with 'he', use 'has', not 'have'.",
           "",
           "Not a real construction here — this needs the continuous, not a bare participle."
@@ -864,14 +864,14 @@
         "use": "Negative — duration",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV for hours.",
         "choices": [
-          "haven't watched",
+          "don't watch",
           "haven't been watching",
           "hasn't been watching",
           "am not watching"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: duration up to now with 'for' needs the continuous, not the simple.",
+          "Wrong tense: duration up to now with 'for' needs the present perfect continuous, not the present simple.",
           "",
           "Subject-verb agreement: with 'I', use 'haven't', not 'hasn't'.",
           "Wrong tense: this needs the present perfect continuous, not the present continuous."
@@ -879,7 +879,7 @@
         "explain": "Negative duration up to now, with 'for'."
       },
       {
-        "use": "Duration — for",
+        "use": "Duration — since",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on this project since January.",
         "choices": [
           "has been working",
@@ -1142,15 +1142,16 @@
         "tokens": [
           "I",
           "haven't",
-          "watched",
+          "been",
+          "watch",
           "TV",
           "for",
           "hours."
         ],
-        "errorIndex": 2,
-        "correction": "been watching",
-        "type": "Wrong form",
-        "message": "Duration up to now with 'for' needs the continuous — 'been watching', not 'watched'."
+        "errorIndex": 3,
+        "correction": "watching",
+        "type": "Missing -ing",
+        "message": "After 'been', use the -ing form — 'watching', not 'watch'."
       },
       {
         "tokens": [
@@ -1219,7 +1220,7 @@
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
-      "ing": "-ing spelling",
+      "ing": "-ing forms",
       "mc": "Grammar choices",
       "error": "Spot the mistake"
     },
@@ -1318,18 +1319,18 @@
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "They {{blank}} all afternoon.",
         "hintVerb": "(swim)",
         "choices": [
-          "have been swiming",
+          "have been swim",
           "has been swimming",
           "have been swimming",
           "have swum"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: double the final consonant — 'swimming', not 'swiming'.",
+          "Missing -ing: after 'been', use the -ing form — 'swimming', not 'swim'.",
           "Subject-verb agreement: 'they' takes 'have', not 'has'.",
           "",
           "Wrong form: the continuous, not the simple, fits an ongoing activity 'all afternoon'."
@@ -1337,37 +1338,37 @@
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She {{blank}} a novel for months.",
         "hintVerb": "(write)",
         "choices": [
           "has been writing",
-          "has been writeing",
+          "has been write",
           "have been writing",
           "has wrote"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: drop the silent 'e' before adding -ing — 'writing', not 'writeing'.",
+          "Missing -ing: after 'been', use the -ing form — 'writing', not 'write'.",
           "Subject-verb agreement: with 'she', use 'has', not 'have'.",
           "Not a real form — 'wrote' is the past simple, not a participle."
         ]
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He {{blank}} on the beach all day.",
         "hintVerb": "(lie)",
         "choices": [
-          "has been liing",
+          "has been lie",
           "have been lying",
           "has been lying",
           "has lain"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: 'ie' changes to 'y' before -ing — 'lying', not 'liing'.",
+          "Missing -ing: after 'been', use the -ing form — 'lying', not 'lie'.",
           "Subject-verb agreement: with 'he', use 'has', not 'have'.",
           "",
           "Not a real construction here — this needs the continuous."
@@ -1468,55 +1469,61 @@
         "type": "error",
         "use": "Missing been",
         "tokens": [
-          "I",
-          "have working",
-          "all",
-          "day."
+          "She",
+          "has",
+          "waiting",
+          "for",
+          "an",
+          "hour."
         ],
-        "errorIndex": 1,
-        "correction": "have been working",
-        "message": "The continuous always needs 'been' — have/has BEEN + -ing."
+        "errorIndex": 2,
+        "correction": "been waiting",
+        "message": "After 'has', add 'been' — 'has been waiting'."
       },
       {
         "type": "error",
         "use": "Subject-verb agreement",
         "tokens": [
-          "They",
-          "has",
+          "He",
+          "have",
           "been",
-          "sleeping",
-          "well."
+          "running",
+          "all",
+          "morning."
         ],
         "errorIndex": 1,
-        "correction": "have",
-        "message": "With 'they', use 'have', not 'has'."
+        "correction": "has",
+        "message": "With 'he', use 'has', not 'have'."
       },
       {
         "type": "error",
         "use": "Stative verb",
         "tokens": [
           "I",
-          "have been knowing",
-          "him",
+          "have been liking",
+          "this",
+          "song",
           "for",
           "years."
         ],
         "errorIndex": 1,
-        "correction": "have known",
-        "message": "State verbs like 'know' never take the continuous — use the simple present perfect."
+        "correction": "have liked",
+        "message": "State verbs like 'like' never take the continuous — use the present perfect simple."
       },
       {
         "type": "error",
         "use": "Spelling",
         "tokens": [
-          "They",
-          "have been swiming",
-          "all",
-          "afternoon."
+          "We",
+          "have",
+          "been",
+          "runing",
+          "since",
+          "nine."
         ],
-        "errorIndex": 1,
-        "correction": "have been swimming",
-        "message": "Double the final consonant — 'swimming', not 'swiming'."
+        "errorIndex": 3,
+        "correction": "running",
+        "message": "Double the final consonant — 'running', not 'runing'."
       }
     ]
   }

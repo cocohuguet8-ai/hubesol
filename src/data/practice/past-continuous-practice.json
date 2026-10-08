@@ -80,10 +80,10 @@
         "use": "Question — past moment",
         "kind": "question",
         "before": "",
-        "after": "you doing at midnight?",
+        "after": "you sleeping at midnight?",
         "hint": "(auxiliary)",
         "answers": [
-          "were"
+          "Were"
         ],
         "display": "Were",
         "explain": "'You' takes 'were' in the past continuous."
@@ -271,6 +271,16 @@
           "at",
           "ten",
           "o'clock."
+        ],
+        "alts": [
+          [
+            "at",
+            "ten",
+            "o'clock.",
+            "I",
+            "was",
+            "studying"
+          ]
         ]
       },
       {
@@ -292,6 +302,16 @@
           "dinner",
           "at",
           "8pm."
+        ],
+        "alts": [
+          [
+            "at",
+            "8pm.",
+            "She",
+            "was",
+            "cooking",
+            "dinner"
+          ]
         ]
       },
       {
@@ -344,6 +364,19 @@
           "the",
           "doorbell",
           "rang."
+        ],
+        "alts": [
+          [
+            "when",
+            "the",
+            "doorbell",
+            "rang.",
+            "I",
+            "was",
+            "having",
+            "a",
+            "shower"
+          ]
         ]
       },
       {
@@ -356,6 +389,17 @@
           "the",
           "phone",
           "rang."
+        ],
+        "alts": [
+          [
+            "when",
+            "the",
+            "phone",
+            "rang.",
+            "She",
+            "was",
+            "cooking"
+          ]
         ]
       },
       {
@@ -369,6 +413,18 @@
           "lights",
           "went",
           "out."
+        ],
+        "alts": [
+          [
+            "when",
+            "the",
+            "lights",
+            "went",
+            "out.",
+            "We",
+            "were",
+            "eating"
+          ]
         ]
       },
       {
@@ -383,6 +439,19 @@
           "setting",
           "the",
           "table."
+        ],
+        "alts": [
+          [
+            "he",
+            "was",
+            "setting",
+            "the",
+            "table.",
+            "While",
+            "she",
+            "was",
+            "cooking,"
+          ]
         ]
       },
       {
@@ -398,6 +467,20 @@
           "was",
           "watching",
           "TV."
+        ],
+        "alts": [
+          [
+            "she",
+            "was",
+            "watching",
+            "TV.",
+            "While",
+            "I",
+            "was",
+            "doing",
+            "my",
+            "homework,"
+          ]
         ]
       },
       {
@@ -440,6 +523,17 @@
           "the",
           "storm",
           "started."
+        ],
+        "alts": [
+          [
+            "when",
+            "the",
+            "storm",
+            "started.",
+            "They",
+            "were",
+            "swimming"
+          ]
         ]
       },
       {
@@ -710,37 +804,37 @@
         "explain": "'You' takes 'were', never 'was'."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the lake when the storm started.",
         "choices": [
-          "was swiming",
           "was swimming",
-          "were swiming",
+          "swam",
+          "were swum",
           "were swimming"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: 'they' takes 'were', not 'was'. Also, double the consonant — 'swimming'.",
           "Subject-verb agreement: 'they' takes 'were', not 'was'.",
-          "Spelling: double the final consonant — 'swimming', not 'swiming'.",
+          "Wrong form: the past continuous needs 'were' plus the -ing form.",
+          "Wrong form: 'swum' is a past participle, not an -ing form.",
           ""
         ],
         "explain": "Plural subject, plus double the consonant: swim → swimming."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a letter when the lights went out.",
         "choices": [
-          "was writeing",
+          "was write",
           "wrote writing",
-          "was writting",
+          "was written",
           "was writing"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Spelling: drop the silent 'e' before adding -ing — 'writing', not 'writeing'.",
+          "Missing -ing: after 'was', use the -ing form — 'writing', not 'write'.",
           "Not a real form — two verb forms together.",
-          "Spelling: 'write' has one 't' — 'writing', not 'writting'.",
+          "Wrong form: 'written' is a past participle, not an -ing form.",
           ""
         ],
         "explain": "Drop the silent 'e' before adding -ing: write → writing."
@@ -769,14 +863,14 @@
         "choices": [
           "don't check",
           "isn't checking",
-          "didn't check",
+          "not checking",
           "wasn't checking"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong tense: this happened in the past, not now.",
           "Wrong tense: this happened in the past, not now.",
-          "Wrong tense: a background action in progress needs the past continuous, not the past simple.",
+          "Missing the auxiliary — 'wasn't' is needed before the -ing form.",
           ""
         ],
         "explain": "Negative background action — wasn't + -ing."
@@ -818,19 +912,19 @@
         "explain": "State verbs take the past simple, even in the negative."
       },
       {
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the sofa, half asleep.",
         "choices": [
-          "was liing",
+          "was lie",
           "was lying",
-          "was lieing",
+          "was lain",
           "lay lying"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: 'ie' changes to 'y' before -ing — 'lying', not 'liing'.",
+          "Missing -ing: after 'was', use the -ing form — 'lying', not 'lie'.",
           "",
-          "Spelling: 'ie' changes to 'y', not stays as 'ie' — 'lying', not 'lieing'.",
+          "Wrong form: 'lain' is a past participle, not an -ing form.",
           "Not a real form — two verb forms together."
         ],
         "explain": "Change 'ie' to 'y' before adding -ing: lie → lying."
@@ -841,14 +935,14 @@
         "choices": [
           "was flying",
           "were flying",
-          "flew",
+          "have flown",
           "are flying"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: with 'we', use 'were', not 'was'.",
           "",
-          "Wrong tense: a specific past moment in progress needs the past continuous, not the past simple.",
+          "Wrong tense: 'this time yesterday' is a past moment, not the present perfect.",
           "Wrong tense: this happened in the past, not now."
         ],
         "explain": "'We' takes 'were' in the past continuous."
@@ -877,14 +971,14 @@
         "choices": [
           "don't watch",
           "wasn't watching",
-          "didn't watch",
+          "not watching",
           "isn't watching"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: this happened in the past, not now.",
           "",
-          "Wrong tense: an action already in progress needs the past continuous, not the past simple.",
+          "Missing the auxiliary — 'wasn't' is needed before the -ing form.",
           "Wrong tense: this happened in the past, not now."
         ],
         "explain": "Negative past continuous with 'he' — wasn't + -ing."
@@ -895,14 +989,14 @@
         "choices": [
           "was eating",
           "were eating",
-          "ate",
+          "have eaten",
           "are eating"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: with 'we', use 'were', not 'was'.",
           "",
-          "Wrong tense: the background action in progress needs the past continuous, not the past simple.",
+          "Wrong tense: the background action is past, not the present perfect.",
           "Wrong tense: this happened in the past, not now."
         ],
         "explain": "'We' takes 'were' — background action, past continuous."
@@ -1044,7 +1138,8 @@
       {
         "tokens": [
           "I",
-          "had",
+          "was",
+          "have",
           "a",
           "shower",
           "when",
@@ -1052,10 +1147,10 @@
           "doorbell",
           "rang."
         ],
-        "errorIndex": 1,
-        "correction": "was having",
-        "type": "Wrong tense",
-        "message": "The longer background action takes the past continuous — 'was having', not 'had'."
+        "errorIndex": 2,
+        "correction": "having",
+        "type": "Wrong form",
+        "message": "After 'was', use the -ing form — 'having', not 'have'."
       },
       {
         "tokens": [
@@ -1249,7 +1344,7 @@
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
-      "ing": "-ing spelling",
+      "ing": "-ing forms",
       "mc": "Grammar choices",
       "error": "Spot the mistake"
     },
@@ -1336,6 +1431,19 @@
           "setting",
           "the",
           "table."
+        ],
+        "alts": [
+          [
+            "he",
+            "was",
+            "setting",
+            "the",
+            "table.",
+            "While",
+            "she",
+            "was",
+            "cooking,"
+          ]
         ]
       },
       {
@@ -1349,18 +1457,18 @@
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "They {{blank}} in the lake when the storm started.",
         "hintVerb": "(swim)",
         "choices": [
-          "were swiming",
+          "were swim",
           "were swimming",
           "was swimming",
           "swimming"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: double the final consonant — 'swimming', not 'swiming'.",
+          "Missing -ing: after 'were', use the -ing form — 'swimming', not 'swim'.",
           "",
           "Subject-verb agreement: 'they' takes 'were', not 'was'.",
           "Missing the auxiliary — 'were' is needed before the -ing form."
@@ -1368,38 +1476,38 @@
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "He {{blank}} a letter when the lights went out.",
         "hintVerb": "(write)",
         "choices": [
           "was writing",
-          "was writeing",
-          "was writting",
+          "was write",
+          "was written",
           "writing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: drop the silent 'e' before adding -ing — 'writing', not 'writeing'.",
-          "Spelling: 'write' has one 't' — 'writing', not 'writting'.",
+          "Missing -ing: after 'was', use the -ing form — 'writing', not 'write'.",
+          "Wrong form: 'written' is a past participle, not an -ing form.",
           "Missing the auxiliary — 'was' is needed before the -ing form."
         ]
       },
       {
         "type": "ing",
-        "use": "Spelling",
+        "use": "Spelling & form",
         "text": "She {{blank}} on the sofa, half asleep.",
         "hintVerb": "(lie)",
         "choices": [
-          "was liing",
-          "was lieing",
+          "was lie",
+          "was lain",
           "was lying",
           "lying"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: 'ie' changes to 'y' before -ing — 'lying', not 'liing'.",
-          "Spelling: 'ie' changes to 'y', not stays as 'ie' — 'lying', not 'lieing'.",
+          "Missing -ing: after 'was', use the -ing form — 'lying', not 'lie'.",
+          "Wrong form: 'lain' is a past participle, not an -ing form.",
           "",
           "Missing the auxiliary — 'was' is needed before the -ing form."
         ]
@@ -1466,14 +1574,14 @@
         "choices": [
           "was eating",
           "were eating",
-          "ate",
+          "have eaten",
           "are eating"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: with 'we', use 'were', not 'was'.",
           "",
-          "Wrong tense: the background action needs the past continuous, not the past simple.",
+          "Wrong tense: the background action is past, not the present perfect.",
           "Wrong tense: this happened in the past, not now."
         ]
       },
@@ -1499,60 +1607,64 @@
         "type": "error",
         "use": "Subject-verb agreement",
         "tokens": [
-          "You",
+          "We",
           "was",
-          "sleeping",
+          "playing",
+          "cards",
           "when",
-          "I",
-          "called."
+          "he",
+          "arrived."
         ],
         "errorIndex": 1,
         "correction": "were",
-        "message": "With 'you', use 'were', not 'was'."
+        "message": "With 'we', use 'were', not 'was'."
       },
       {
         "type": "error",
         "use": "Missing auxiliary",
         "tokens": [
-          "I",
-          "walking",
-          "home",
+          "She",
+          "reading",
+          "a",
+          "book",
           "when",
-          "it",
-          "started",
-          "to",
-          "rain."
+          "I",
+          "came",
+          "in."
         ],
         "errorIndex": 1,
-        "correction": "was walking",
+        "correction": "was reading",
         "message": "A background action in progress needs was/were + -ing."
       },
       {
         "type": "error",
         "use": "Stative verb",
         "tokens": [
-          "I",
-          "was knowing",
+          "She",
+          "was liking",
           "the",
-          "answer."
+          "film",
+          "very",
+          "much."
         ],
         "errorIndex": 1,
-        "correction": "knew",
-        "message": "State verbs like 'know' never take the continuous — use the past simple."
+        "correction": "liked",
+        "message": "State verbs like 'like' never take the continuous — use the past simple."
       },
       {
         "type": "error",
         "use": "Spelling",
         "tokens": [
-          "He",
-          "was",
-          "writeing",
-          "a",
-          "letter."
+          "They",
+          "were",
+          "runing",
+          "in",
+          "the",
+          "park."
         ],
         "errorIndex": 2,
-        "correction": "writing",
-        "message": "Drop the silent 'e' before adding -ing — 'writing', not 'writeing'."
+        "correction": "running",
+        "message": "Double the final consonant — 'running', not 'runing'."
       }
     ]
   }
