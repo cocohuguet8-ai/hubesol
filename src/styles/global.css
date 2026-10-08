@@ -373,7 +373,8 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 /* ---- gap-fill ---- */
 .gapfill-sentence { font-size: 1.08rem; line-height: 1.9; margin: 0 0 0.2rem; }
 .gapfill-input {
-  font: inherit; font-size: 1rem; min-width: 9rem;
+  font: inherit; font-size: 1rem; width: 9rem; min-width: 0; max-width: 100%; box-sizing: border-box;
+  vertical-align: baseline;
   padding: 0.3rem 0.55rem; margin: 0 0.3rem; border-radius: 6px; border: 1.5px solid var(--line);
   background: var(--soft); color: var(--ink);
 }
@@ -496,6 +497,15 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
   .matching-board { gap: 0.8rem; }
   .matching-tile { font-size: 0.85rem; padding: 0.5rem 0.5rem; }
   .gapfill-sentence, .timedmc-question, .levelcheck-question { font-size: 0.98rem; }
+  .gapfill-input { width: 9.5rem; margin: 0 0.2rem; }
+  /* header: keep logo + nav inside the viewport */
+  header.site .inner { flex-wrap: wrap; gap: 0.3rem 0.6rem; padding: 0.7rem 0.75rem; }
+  .logo-text { font-size: 1.05rem; }
+  nav.main { gap: 0.8rem; flex-wrap: wrap; }
+  nav.main a { font-size: 0.9rem; }
+  /* tables scroll inside themselves instead of widening the page */
+  table { display: block; overflow-x: auto; font-size: 0.92rem; }
+  th, td { padding: 0.5rem 0.65rem; }
 }
 
 /* Quiz end actions + next lesson */
