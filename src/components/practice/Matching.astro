@@ -150,9 +150,10 @@ const uid = 'mt';
         leftEl.classList.add('matched');
         el.classList.add('matched');
         matchedCount++;
+        const leftWord = selectedLeft.word;
         selectedLeft = null;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> "' + selectedLeft.word + '" → "' + item.word + '".';
+        feedback.innerHTML = '<b>Correct.</b> "' + leftWord + '" → "' + item.word + '".';
       } else {
         el.classList.add('wrongflash');
         feedback.className = 'practice-feedback show bad';

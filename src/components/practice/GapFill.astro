@@ -73,6 +73,18 @@ const uid = 'gf';
       return s.toLowerCase().trim().replace(/\s+/g, ' ').replace(/[‘’]/g, "'");
     }
 
+    // Full forms ("does not") are as correct as contractions ("doesn't").
+    const CONTRACTIONS = {"don't":"do not","doesn't":"does not","didn't":"did not","haven't":"have not","hasn't":"has not","hadn't":"had not","won't":"will not","wouldn't":"would not","wasn't":"was not","weren't":"were not","isn't":"is not","aren't":"are not","can't":"cannot","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
+    function expandContractions(s) {
+      return normalize(s).split(' ').map((w) => CONTRACTIONS[w] || w).join(' ').replace(/\bcan not\b/g, 'cannot');
+    }
+    function matchesAnswers(raw, answers) {
+      const n = normalize(raw);
+      if (answers.indexOf(n) !== -1) return 'exact';
+      const e = expandContractions(raw);
+      return answers.some((a) => expandContractions(a) === e) ? 'full-form' : '';
+    }
+
     const PAST_REGULAR_TAIL = /ed$/;
 
     // ---- past-simple diagnose() — ported verbatim from gap-fill-past-simple.html ----
@@ -354,14 +366,15 @@ const uid = 'gf';
       const input = document.getElementById(`${uid}-blankInput`);
       const raw = input.value;
       const norm = normalize(raw);
-      const isCorrect = q.answers.indexOf(norm) !== -1;
+      const matchKind = matchesAnswers(raw, q.answers);
+      const isCorrect = !!matchKind;
 
       input.disabled = true;
       input.classList.add(isCorrect ? 'correct' : 'wrong');
 
       if (isCorrect) {
         feedback.classList.add('show', 'ok');
-        feedback.innerHTML = '<b>Correct.</b> ' + q.explain;
+        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech and informal writing we usually say "' + q.display + '". ' : '') + q.explain;
       } else {
         const specific = diagnose(raw, q);
         feedback.classList.add('show', 'bad');

@@ -49,7 +49,6 @@ const uid = 'tm';
     const dataEl = document.getElementById(`${uid}-data`);
     if (!dataEl) return;
     const payload = JSON.parse(dataEl.textContent);
-    const questions = payload.questions;
     const TIME_LIMIT = payload.timeLimit;
     const showHintVerb = payload.showHintVerb;
 
@@ -70,15 +69,46 @@ const uid = 'tm';
     const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
     const restartBtn = document.getElementById(`${uid}-restartBtn`);
 
+    function shuffleQuestion(q) {
+      const order = q.choices.map((_, i) => i);
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const t = order[i]; order[i] = order[j]; order[j] = t;
+      }
+      const reasons = q.wrongReasons || [];
+      return Object.assign({}, q, {
+        choices: order.map((o) => q.choices[o]),
+        wrongReasons: order.map((o) => reasons[o] || ''),
+        correct: order.indexOf(q.correct),
+      });
+    }
+
+    let questions = payload.questions.map(shuffleQuestion);
+    let firstStart = true;
+
     function startQuiz() {
+      questions = payload.questions.map(shuffleQuestion);
       current = 0; score = 0; answers = [];
       quizArea.style.display = '';
       scoreScreen.classList.remove('show');
-      showQuestion();
+      // First load: don't burn the first question's time before the learner sees it.
+      const deferFirst = firstStart && 'IntersectionObserver' in window;
+      firstStart = false;
+      showQuestion(deferFirst);
+      if (deferFirst) {
+        const io = new IntersectionObserver((entries) => {
+          if (entries.some((e) => e.isIntersecting) && !locked && current === 0 && !timerId) {
+            io.disconnect();
+            startTimer();
+          }
+        }, { threshold: 0.6 });
+        io.observe(document.getElementById(uid));
+      }
     }
 
-    function showQuestion() {
+    function showQuestion(deferTimer) {
       locked = false;
+      clearInterval(timerId); timerId = null;
       const q = questions[current];
       progressText.textContent = 'Question ' + (current + 1) + ' of ' + questions.length;
       scoreText.textContent = 'Score: ' + score;
@@ -100,7 +130,8 @@ const uid = 'tm';
         optionsList.appendChild(b);
       });
 
-      startTimer();
+      if (deferTimer) { timeLeft = TIME_LIMIT; updateTimerBar(); }
+      else startTimer();
     }
 
     function startTimer() {
