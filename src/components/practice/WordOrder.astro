@@ -178,12 +178,22 @@ const uid = 'wo';
     // message when the auxiliary is missing entirely. "label" style
     // (present-perfect / present-continuous) always names a fixed label
     // like "have/has" and merges the missing/misplaced cases.
+        // Generic fallback for sentences with no auxiliary token to anchor on:
+    // never mention an auxiliary or print "undefined".
+    function genericOrderHint(builtWords, correctWords) {
+      let i = 0;
+      while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
+      if (i === 0) return "Check how the sentence starts — think about which word comes first.";
+      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (\"" + correctWords.slice(0, i).join(' ') + "\"). Check what comes next.";
+    }
+
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
       const label = orderAux.label;
       if (!words.length) return "Check the word order: the article comes first, then any adjective, then the noun.";
       const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+      if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
 
       if (label === null) {
         if (bIdx === -1 && cIdx !== -1) {

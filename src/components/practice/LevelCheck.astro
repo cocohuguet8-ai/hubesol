@@ -281,12 +281,22 @@ const uid = 'lc';
     }
 
     // ---- diagnoseOrder: tense-keyed via orderAux, ported verbatim per approved level-check prototype ----
+        // Generic fallback for sentences with no auxiliary token to anchor on:
+    // never mention an auxiliary or print "undefined".
+    function genericOrderHint(builtWords, correctWords) {
+      let i = 0;
+      while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
+      if (i === 0) return "Check how the sentence starts — think about which word comes first.";
+      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (\"" + correctWords.slice(0, i).join(' ') + "\"). Check what comes next.";
+    }
+
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
       const label = orderAux.label;
       if (!words.length) return "Check the word order: the article comes first, then any adjective, then the noun.";
       const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+      if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
       if (label === null) {
         if (bIdx === -1 && cIdx !== -1) {
           return "Don't forget \"" + correctWords[cIdx] + "\" in this sentence.";
@@ -336,7 +346,7 @@ const uid = 'lc';
     function renderFill(it) {
       const q = document.createElement('div');
       q.className = 'levelcheck-question';
-      q.innerHTML = it.sentText.replace('{{blank}}', '<span class="levelcheck-blank">&nbsp;</span>') + ' <span class="levelcheck-hint-inline">(' + it.hint + ')</span>';
+      q.innerHTML = it.sentText.replace('{{blank}}', '<span class="levelcheck-blank">&nbsp;</span>') + ' <span class="levelcheck-hint-inline">' + (/^\(/.test(it.hint) ? it.hint : '(' + it.hint + ')') + '</span>';
       questionBody.appendChild(q);
 
       const row = document.createElement('div');
@@ -600,6 +610,28 @@ const uid = 'lc';
       hint.className = 'levelcheck-error-hint';
       hint.textContent = "Tap the word that's wrong.";
       questionBody.appendChild(hint);
+
+      const reveal = document.createElement('button');
+      reveal.type = 'button';
+      reveal.className = 'errorcorrection-link-btn';
+      reveal.id = `${uid}-revealBtn`;
+      reveal.textContent = 'Reveal the mistake';
+      reveal.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+        const buttons = document.getElementById(`${uid}-errorSentence`).querySelectorAll('.errorcorrection-word');
+        buttons.forEach((b) => { b.disabled = true; });
+        buttons[it.errorIndex].classList.add('correct-word');
+        reveal.disabled = true;
+        const correctedTokens = it.tokens.slice();
+        correctedTokens[it.errorIndex] = it.correction;
+        feedback.className = 'practice-feedback show revealed';
+        feedback.innerHTML = '<b>' + it.type + '.</b> ' + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
+        results.push({ category: 'error', correct: false, detail: correctedTokens.join(' ') });
+        scoreText.textContent = 'Score: ' + totalScore();
+        appendNext();
+      });
+      questionBody.appendChild(reveal);
     }
 
     function onErrorWordClick(it, i, btnEl) {
@@ -620,6 +652,8 @@ const uid = 'lc';
       } else {
         btnEl.classList.add('wrongflash');
         setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 400);
+        feedback.className = 'practice-feedback show bad';
+        feedback.textContent = '"' + it.tokens[i] + '" is not the mistake — look again.';
       }
     }
 

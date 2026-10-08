@@ -103,6 +103,8 @@ const uid = 'ec';
       } else {
         btnEl.classList.add('wrongflash');
         setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 450);
+        feedback.className = 'practice-feedback show bad';
+        feedback.textContent = '"' + it.tokens[i] + '" is not the mistake — look again.';
       }
     }
 

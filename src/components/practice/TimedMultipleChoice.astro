@@ -10,6 +10,7 @@ const uid = 'tm';
     <div id={`${uid}-quizArea`}>
       <div class="practice-progress-row">
         <span id={`${uid}-progressText`}>Question 1 of {data.questions.length}</span>
+        <span id={`${uid}-timeText`}></span>
         <span id={`${uid}-scoreText`}>Score: 0</span>
       </div>
       <div class="practice-progress-track"><div class="practice-progress-fill" id={`${uid}-progressFill`} style="width:0%"></div></div>
@@ -58,6 +59,7 @@ const uid = 'tm';
     const scoreText = document.getElementById(`${uid}-scoreText`);
     const progressFill = document.getElementById(`${uid}-progressFill`);
     const timerFill = document.getElementById(`${uid}-timerFill`);
+    const timeText = document.getElementById(`${uid}-timeText`);
     const useTag = document.getElementById(`${uid}-useTag`);
     const questionText = document.getElementById(`${uid}-questionText`);
     const hintText = showHintVerb ? document.getElementById(`${uid}-hintText`) : null;
@@ -151,6 +153,7 @@ const uid = 'tm';
     function updateTimerBar() {
       const pct = Math.max(0, (timeLeft / TIME_LIMIT) * 100);
       timerFill.style.width = pct + '%';
+      timeText.textContent = Math.max(0, timeLeft) + 's';
       timerFill.classList.remove('warn', 'danger');
       if (timeLeft <= 3) timerFill.classList.add('danger');
       else if (timeLeft <= 7) timerFill.classList.add('warn');

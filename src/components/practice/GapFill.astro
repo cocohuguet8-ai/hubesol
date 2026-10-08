@@ -335,11 +335,11 @@ const uid = 'gf';
 
       const hint = document.createElement('span');
       hint.className = 'gapfill-hint';
-      hint.textContent = q.hint;
+      hint.textContent = /^\(/.test(q.hint) ? q.hint : '(' + q.hint + ')';
       sentenceRow.appendChild(hint);
 
       const a = document.createElement('span');
-      a.textContent = ' ' + q.after;
+      a.textContent = /^[.,;:!?)]/.test(q.after) ? q.after : ' ' + q.after;
       sentenceRow.appendChild(a);
 
       checkBtn.style.display = '';
@@ -378,7 +378,8 @@ const uid = 'gf';
       } else {
         const specific = diagnose(raw, q);
         feedback.classList.add('show', 'bad');
-        feedback.innerHTML = '<b>Not quite — the correct form is "' + q.display + '".</b> '
+        const sayAlready = specific && specific.indexOf('"' + q.display + '"') !== -1;
+        feedback.innerHTML = (sayAlready ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + q.display + '".</b> ')
           + (specific ? specific + ' ' : '')
           + q.explain;
       }

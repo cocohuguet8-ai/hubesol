@@ -523,3 +523,22 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .write-input.correct { background: var(--ok-soft); border-color: var(--ok); }
 .write-input.wrong { background: var(--bad-soft); border-color: var(--bad); }
 .write-input:disabled { opacity: 0.95; }
+
+/* Matching: one grid so each left/right row stays aligned even when a tile wraps to 2 lines */
+.matching-board { grid-auto-flow: row dense; align-items: stretch; }
+.matching-board > div { display: contents; }
+.matching-board > div:first-child > * { grid-column: 1; }
+.matching-board > div:last-child > * { grid-column: 2; }
+.matching-board .matching-col { display: contents; }
+#mt-leftCol > .matching-tile { grid-column: 1; }
+#mt-rightCol > .matching-tile { grid-column: 2; }
+.matching-board { row-gap: 0.45rem; }
+.matching-col-label { grid-row: 1; margin-bottom: 0.2rem; }
+
+/* Practice on small screens */
+@media (max-width: 480px) {
+  .practice-wrap > section h3 { font-size: 1.02rem; line-height: 1.3; }
+  .gapfill-input { width: 12rem; font-size: 16px; }
+  .errorcorrection-sentence { line-height: 1.8; gap: 0.1rem 0.3rem; }
+  .errorcorrection-link-btn { font-size: 0.9rem; padding: 0.4rem 0; }
+}
