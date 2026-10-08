@@ -4,6 +4,26 @@
 
 const BLOCKED_HOSTS = new Set(['hubesol.com', 'www.hubesol.com', 'hubesol.pages.dev']);
 
+// Live while the rest of the site stays in maintenance: the 6 Verb Tenses lessons,
+// their lesson-pack PDFs, the favicon and the Astro build assets.
+const LIVE_SLUGS = [
+  'present-simple',
+  'past-continuous',
+  'future-simple',
+  'present-perfect-continuous',
+  'present-perfect-vs-past-simple',
+  'used-to-would',
+];
+const LIVE_PATHS = new Set([
+  '/favicon.svg',
+  ...LIVE_SLUGS.flatMap((s) => [
+    `/grammar/verb-tenses/${s}`,
+    `/grammar/verb-tenses/${s}/`,
+    `/packs/${s}-lesson-pack.pdf`,
+  ]),
+]);
+const isLive = (path) => LIVE_PATHS.has(path) || path.startsWith('/_astro/');
+
 const PAGE = `<!doctype html>
 <html lang="en">
 <head>
@@ -31,8 +51,8 @@ const PAGE = `<!doctype html>
 </html>`;
 
 export async function onRequest({ request, next }) {
-  const host = new URL(request.url).hostname;
-  if (!BLOCKED_HOSTS.has(host)) return next();
+  const { hostname: host, pathname } = new URL(request.url);
+  if (!BLOCKED_HOSTS.has(host) || isLive(pathname)) return next();
   return new Response(PAGE, {
     status: 503,
     headers: {
