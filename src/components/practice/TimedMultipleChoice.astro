@@ -17,6 +17,10 @@ const uid = 'tm';
       <div class="timedmc-timer-track"><div class="timedmc-timer-fill" id={`${uid}-timerFill`} style="width:100%"></div></div>
 
       <div class="practice-card">
+        <div class="timedmc-start" id={`${uid}-startRow`}>
+          <p>{data.questions.length} questions, {data.timeLimit} seconds each. The clock starts when you press Start.</p>
+          <button type="button" class="practice-btn-primary" id={`${uid}-startBtn`}>Start</button>
+        </div>
         <div class="practice-use-tag" id={`${uid}-useTag`}></div>
         <div class="timedmc-question" id={`${uid}-questionText`}></div>
         {data.showHintVerb && <div class="timedmc-hintv" id={`${uid}-hintText`}></div>}
@@ -86,32 +90,49 @@ const uid = 'tm';
     }
 
     let questions = payload.questions.map(shuffleQuestion);
-    let firstStart = true;
+    const startRow = document.getElementById(`${uid}-startRow`);
+    const startBtn = document.getElementById(`${uid}-startBtn`);
+    const card = quizArea.querySelector('.practice-card');
 
-    function startQuiz() {
+    // Timer state. The countdown is computed from Date.now(), so a throttled
+    // setInterval (background tab, off-screen) can never slow the clock down.
+    let deadline = 0, remainingMs = TIME_LIMIT * 1000, running = false, cardVisible = true;
+
+    function setQuestionVisible(v) {
+      [useTag, questionText, hintText, optionsList].forEach((el) => { if (el) el.style.display = v ? '' : 'none'; });
+    }
+
+    function startQuiz(waitForStart) {
       questions = payload.questions.map(shuffleQuestion);
       current = 0; score = 0; answers = [];
       quizArea.style.display = '';
       scoreScreen.classList.remove('show');
-      // First load: don't burn the first question's time before the learner sees it.
-      const deferFirst = firstStart && 'IntersectionObserver' in window;
-      firstStart = false;
-      showQuestion(deferFirst);
-      if (deferFirst) {
-        const io = new IntersectionObserver((entries) => {
-          if (entries.some((e) => e.isIntersecting) && !locked && current === 0 && !timerId) {
-            io.disconnect();
-            startTimer();
-          }
-        }, { threshold: 0.5 });
-        // Watch the question card (not the whole section, which can be taller than a phone screen).
-        io.observe(quizArea.querySelector('.practice-card') || quizArea);
+      if (waitForStart) {
+        // Q1's time only counts once the learner presses Start.
+        stopTimer();
+        remainingMs = TIME_LIMIT * 1000; timeLeft = TIME_LIMIT; updateTimerBar();
+        progressText.textContent = 'Question 1 of ' + questions.length;
+        scoreText.textContent = 'Score: 0';
+        setQuestionVisible(false);
+        feedback.className = 'practice-feedback'; feedback.textContent = '';
+        actionsRow.style.display = 'none';
+        startRow.style.display = '';
+        return;
       }
+      startRow.style.display = 'none';
+      setQuestionVisible(true);
+      showQuestion();
     }
 
-    function showQuestion(deferTimer) {
+    startBtn.addEventListener('click', () => {
+      startRow.style.display = 'none';
+      setQuestionVisible(true);
+      showQuestion();
+    });
+
+    function showQuestion() {
       locked = false;
-      clearInterval(timerId); timerId = null;
+      stopTimer();
       const q = questions[current];
       progressText.textContent = 'Question ' + (current + 1) + ' of ' + questions.length;
       scoreText.textContent = 'Score: ' + score;
@@ -133,23 +154,51 @@ const uid = 'tm';
         optionsList.appendChild(b);
       });
 
-      if (deferTimer) { timeLeft = TIME_LIMIT; updateTimerBar(); }
-      else startTimer();
-    }
-
-    function startTimer() {
-      clearInterval(timerId);
+      remainingMs = TIME_LIMIT * 1000;
       timeLeft = TIME_LIMIT;
       updateTimerBar();
-      timerId = setInterval(() => {
-        timeLeft--;
-        updateTimerBar();
-        if (timeLeft <= 0) {
-          clearInterval(timerId);
-          if (!locked) selectAnswer(-1, null);
-        }
-      }, 1000);
+      resumeTimer();
     }
+
+    function tick() {
+      const ms = Math.max(0, deadline - Date.now());
+      timeLeft = Math.ceil(ms / 1000);
+      updateTimerBar();
+      if (ms <= 0) {
+        stopTimer();
+        remainingMs = 0;
+        if (!locked) selectAnswer(-1, null);
+      }
+    }
+
+    function resumeTimer() {
+      if (running || locked || remainingMs <= 0) return;
+      if (!cardVisible || document.hidden) return; // starts when the card is back on screen
+      running = true;
+      deadline = Date.now() + remainingMs;
+      timerId = setInterval(tick, 200);
+    }
+
+    function pauseTimer() {
+      if (!running) return;
+      remainingMs = Math.max(0, deadline - Date.now());
+      stopTimer();
+    }
+
+    function stopTimer() {
+      clearInterval(timerId); timerId = null; running = false;
+    }
+
+    // Pause the clock while the card is off screen or the tab is hidden.
+    if ('IntersectionObserver' in window && card) {
+      new IntersectionObserver((entries) => {
+        cardVisible = entries[entries.length - 1].isIntersecting;
+        if (cardVisible) resumeTimer(); else pauseTimer();
+      }, { threshold: 0.4 }).observe(card);
+    }
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) pauseTimer(); else resumeTimer();
+    });
 
     function updateTimerBar() {
       const pct = Math.max(0, (timeLeft / TIME_LIMIT) * 100);
@@ -163,7 +212,8 @@ const uid = 'tm';
     function selectAnswer(index, btnEl) {
       if (locked) return;
       locked = true;
-      clearInterval(timerId);
+      if (running) remainingMs = Math.max(0, deadline - Date.now());
+      stopTimer();
 
       const q = questions[current];
       const isCorrect = index === q.correct;
@@ -205,7 +255,7 @@ const uid = 'tm';
     });
 
     function showScore() {
-      clearInterval(timerId);
+      stopTimer();
       quizArea.style.display = 'none';
       scoreScreen.classList.add('show');
       document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
@@ -237,8 +287,8 @@ const uid = 'tm';
       });
     }
 
-    restartBtn.addEventListener('click', startQuiz);
-    startQuiz();
+    restartBtn.addEventListener('click', () => startQuiz(false));
+    startQuiz(true);
   }
 
   if (document.getElementById('tm')) initTimedMC();

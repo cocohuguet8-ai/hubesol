@@ -55,8 +55,13 @@ function checkError(f, where, it) {
   if (it.tokens.length < 3) warn(f, `${where}: només ${it.tokens.length} blocs clicables — massa fàcil d'endevinar`);
   if (!Number.isInteger(it.errorIndex) || it.errorIndex < 0 || it.errorIndex >= it.tokens.length)
     return err(f, `${where}: errorIndex=${it.errorIndex} fora de la frase`);
+  const span = it.errorSpan || [it.errorIndex, it.errorIndex];
+  if (it.errorSpan && !(Array.isArray(span) && span.length === 2 && span[0] <= it.errorIndex && it.errorIndex <= span[1] && span[1] < it.tokens.length))
+    err(f, `${where}: errorSpan ${JSON.stringify(it.errorSpan)} no conté errorIndex o surt de la frase`);
+  const multi = it.tokens.filter((t) => /\s/.test(t));
+  if (multi.length) err(f, `${where}: un bloc ha de ser una sola paraula (${multi.join(' | ')})`);
   if (!str(it.correction)) err(f, `${where}: falta correction`);
-  else if (norm(it.correction) === norm(it.tokens[it.errorIndex])) err(f, `${where}: la correcció és igual a la paraula "errònia"`);
+  else if (norm(it.correction) === norm(it.tokens.slice(span[0], span[1] + 1).join(' '))) err(f, `${where}: la correcció és igual a la paraula "errònia"`);
   if (!str(it.message)) err(f, `${where}: falta message`);
 }
 

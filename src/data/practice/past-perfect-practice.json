@@ -44,8 +44,8 @@
       },
       {
         "use": "Earlier past action",
-        "before": "She",
-        "after": "her homework before dinner.",
+        "before": "By the time her friends knocked on the door, she",
+        "after": "her homework.",
         "hint": "(finish)",
         "answers": [
           "had finished",
@@ -53,12 +53,12 @@
           "d finished"
         ],
         "display": "had finished",
-        "explain": "A regular verb: add -ed to make the past participle."
+        "explain": "She finished before her friends knocked — 'by the time' needs had + past participle (regular: finished)."
       },
       {
         "use": "Earlier past action",
-        "before": "He",
-        "after": "breakfast before he left the house.",
+        "before": "By the time he left the house, he",
+        "after": "two bowls of cereal.",
         "hint": "(eat)",
         "answers": [
           "had eaten",
@@ -67,11 +67,11 @@
         ],
         "display": "had eaten",
         "commonError": "ate",
-        "explain": "'Eat' is irregular: the past participle is eaten, not ate."
+        "explain": "'Eat' is irregular: the past participle is eaten, not ate. 'By the time' marks the later past moment."
       },
       {
         "use": "Earlier past action",
-        "before": "By the time we got there, the film",
+        "before": "By the time we got to the stadium, the race",
         "after": ".",
         "hint": "(start)",
         "answers": [
@@ -80,38 +80,38 @@
           "d started"
         ],
         "display": "had started",
-        "explain": "The film finished before 'we got there' — the earlier of the two events."
+        "explain": "The race started before we got to the stadium — 'by the time' needs had + past participle."
       },
       {
         "use": "Reason / result",
-        "before": "He was tired because he",
-        "after": "all night.",
-        "hint": "(work)",
+        "before": "He fell asleep as soon as he got home — by then he",
+        "after": "thirty kilometres.",
+        "hint": "(walk)",
         "answers": [
-          "had worked",
-          "'d worked",
-          "d worked"
+          "had walked",
+          "'d walked",
+          "d walked"
         ],
-        "display": "had worked",
-        "explain": "Past perfect explains the reason: the working happened before he felt tired."
+        "display": "had walked",
+        "explain": "'By then' points to a past moment; the walking was complete before it, which explains why he was so tired."
       },
       {
         "use": "Reason / result",
-        "before": "The room was messy because the children",
-        "after": "there all afternoon.",
-        "hint": "(play)",
+        "before": "The carpet was wet because the cat",
+        "after": "over a vase of flowers.",
+        "hint": "(just / knock)",
         "answers": [
-          "had played",
-          "'d played",
-          "d played"
+          "had just knocked",
+          "'d just knocked",
+          "d just knocked"
         ],
-        "display": "had played",
-        "explain": "The playing is the earlier action that explains the later state."
+        "display": "had just knocked",
+        "explain": "The cat knocked the vase over shortly before — had just + past participle gives the earlier cause of the wet carpet."
       },
       {
         "use": "Reason / result",
-        "before": "She passed the exam because she",
-        "after": "hard.",
+        "before": "She felt confident on exam day: by then she",
+        "after": "every unit of the book twice.",
         "hint": "(study)",
         "answers": [
           "had studied",
@@ -119,7 +119,7 @@
           "d studied"
         ],
         "display": "had studied",
-        "explain": "Consonant + y → change y to i before -ed: studied."
+        "explain": "'By then' needs had + past participle. Consonant + y → change y to i before -ed: studied."
       },
       {
         "use": "Already / just / never",
@@ -136,8 +136,8 @@
       },
       {
         "use": "Already / just / never",
-        "before": "I",
-        "after": "snow before that winter.",
+        "before": "When we moved to Canada, I was amazed: I",
+        "after": "snow before.",
         "hint": "(never / see)",
         "answers": [
           "had never seen",
@@ -146,39 +146,38 @@
         ],
         "display": "had never seen",
         "commonError": "saw",
-        "explain": "'See' is irregular: the past participle is seen, not saw."
+        "explain": "'See' is irregular: the past participle is seen, not saw. 'Never … before' looks back from a past moment."
       },
       {
         "use": "Already / just / never",
-        "before": "By 9 p.m. she",
-        "after": "home.",
-        "hint": "(just / arrive)",
+        "before": "When I rang her at 9 p.m., she",
+        "after": "her shift at the hospital.",
+        "hint": "(just / finish)",
         "answers": [
-          "had just arrived",
-          "'d just arrived",
-          "d just arrived"
+          "had just finished",
+          "'d just finished",
+          "d just finished"
         ],
-        "display": "had just arrived",
-        "explain": "'Just' describes something completed a short time before the past moment."
+        "display": "had just finished",
+        "explain": "'Just' describes something completed a short time before the past moment of my call."
       },
       {
         "use": "Already / just / never",
         "before": "She",
         "after": "the answer before he explained it.",
-        "hint": "(already / know)",
+        "hint": "(already / guess)",
         "answers": [
-          "had already known",
-          "'d already known",
-          "d already known"
+          "had already guessed",
+          "'d already guessed",
+          "d already guessed"
         ],
-        "display": "had already known",
-        "commonError": "knew",
-        "explain": "'Know' is irregular: the past participle is known, not knew."
+        "display": "had already guessed",
+        "explain": "She guessed before his explanation — 'already' goes between had and guessed."
       },
       {
         "use": "Already / just / never",
-        "before": "We",
-        "after": "sushi before that trip.",
+        "before": "At our first restaurant in Japan, we were nervous because we",
+        "after": "sushi before.",
         "hint": "(never / try)",
         "answers": [
           "had never tried",
@@ -186,25 +185,25 @@
           "d never tried"
         ],
         "display": "had never tried",
-        "explain": "Consonant + y → change y to i before -ed: tried."
+        "explain": "Consonant + y → change y to i before -ed: tried. 'Never … before' looks back from a past moment."
       },
       {
         "use": "Negative",
-        "before": "She was nervous because she",
-        "after": "well.",
-        "hint": "(not / sleep)",
+        "before": "He was upset because he",
+        "after": "from his son since Christmas.",
+        "hint": "(not / hear)",
         "answers": [
-          "hadn't slept",
-          "had not slept",
-          "hadnt slept"
+          "hadn't heard",
+          "had not heard",
+          "hadnt heard"
         ],
-        "display": "hadn't slept",
-        "explain": "Negative past perfect: hadn't + past participle."
+        "display": "hadn't heard",
+        "explain": "'Since Christmas' needs a perfect tense, and the story is past, so use hadn't + past participle: heard."
       },
       {
         "use": "Negative",
-        "before": "I",
-        "after": "anything before the meeting.",
+        "before": "By the time the meeting ended at three, I",
+        "after": "anything all day.",
         "hint": "(not / eat)",
         "answers": [
           "hadn't eaten",
@@ -212,12 +211,12 @@
           "hadnt eaten"
         ],
         "display": "hadn't eaten",
-        "explain": "'Hadn't' + past participle — the participle of eat is eaten."
+        "explain": "'Hadn't' + past participle — the participle of eat is eaten. 'By the time' marks the later past moment."
       },
       {
         "use": "Negative",
-        "before": "They",
-        "after": "the project by the deadline.",
+        "before": "By last Friday's deadline, they",
+        "after": "the project, so they asked for more time.",
         "hint": "(not / finish)",
         "answers": [
           "hadn't finished",
@@ -225,26 +224,26 @@
           "hadnt finished"
         ],
         "display": "hadn't finished",
-        "explain": "'Hadn't' + past participle — never 'hadn't finish'."
+        "explain": "'By last Friday's deadline' is a past point: hadn't + past participle — never 'hadn't finish'."
       },
       {
         "use": "Negative",
-        "before": "He",
-        "after": "that film before.",
-        "hint": "(not / see)",
+        "before": "By her eightieth birthday, my grandma still",
+        "after": "a smartphone, so we gave her one as a present.",
+        "hint": "(not / use)",
         "answers": [
-          "hadn't seen",
-          "had not seen",
-          "hadnt seen"
+          "hadn't used",
+          "had not used",
+          "hadnt used"
         ],
-        "display": "hadn't seen",
-        "explain": "Negative past perfect with the past participle: seen, not saw."
+        "display": "hadn't used",
+        "explain": "Negative past perfect: hadn't + past participle. Up to that birthday, she had no experience of smartphones."
       },
       {
         "use": "Question",
         "before": "",
-        "after": "you met her before that party?",
-        "hint": "(auxiliary)",
+        "after": "you heard of the band before that festival?",
+        "hint": "(auxiliary — past perfect)",
         "answers": [
           "had"
         ],
@@ -255,7 +254,7 @@
         "use": "Question",
         "before": "",
         "after": "they arrived when you called?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — past perfect)",
         "answers": [
           "had"
         ],
@@ -266,7 +265,7 @@
         "use": "Question",
         "before": "",
         "after": "he finished his work before the meeting started?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — past perfect)",
         "answers": [
           "had"
         ],
@@ -283,13 +282,29 @@
         "use": "Earlier past action",
         "tokens": [
           "When",
-          "I",
-          "arrived,",
-          "they",
-          "had",
-          "left",
+          "we",
+          "reached",
           "the",
-          "office."
+          "station,",
+          "the",
+          "last",
+          "bus",
+          "had",
+          "gone."
+        ],
+        "alts": [
+          [
+            "the",
+            "last",
+            "bus",
+            "had",
+            "gone.",
+            "When",
+            "we",
+            "reached",
+            "the",
+            "station,"
+          ]
         ]
       },
       {
@@ -298,39 +313,79 @@
           "By",
           "the",
           "time",
-          "he",
-          "called,",
-          "I",
+          "the",
+          "police",
+          "came,",
+          "the",
+          "thief",
           "had",
-          "gone",
-          "to",
-          "bed."
+          "escaped."
+        ],
+        "alts": [
+          [
+            "the",
+            "thief",
+            "had",
+            "escaped.",
+            "By",
+            "the",
+            "time",
+            "the",
+            "police",
+            "came,"
+          ]
         ]
       },
       {
         "use": "Earlier past action",
         "tokens": [
-          "She",
+          "Someone",
+          "had",
+          "taken",
+          "my",
+          "seat",
+          "when",
+          "I",
+          "came",
+          "back."
+        ],
+        "alts": [
+          [
+            "when",
+            "I",
+            "came",
+            "back.",
+            "Someone",
+            "had",
+            "taken",
+            "my",
+            "seat"
+          ]
+        ]
+      },
+      {
+        "use": "Earlier past action",
+        "tokens": [
+          "The",
+          "concert",
           "had",
           "finished",
-          "her",
-          "homework",
-          "before",
-          "dinner."
-        ]
-      },
-      {
-        "use": "Earlier past action",
-        "tokens": [
-          "He",
-          "had",
-          "eaten",
-          "breakfast",
-          "before",
-          "he",
-          "left",
-          "the",
-          "house."
+          "when",
+          "our",
+          "friends",
+          "arrived."
+        ],
+        "alts": [
+          [
+            "when",
+            "our",
+            "friends",
+            "arrived.",
+            "The",
+            "concert",
+            "had",
+            "finished"
+          ]
         ]
       },
       {
@@ -339,147 +394,332 @@
           "By",
           "the",
           "time",
-          "we",
-          "got",
-          "there,",
-          "the",
-          "film",
+          "I",
+          "woke",
+          "up,",
+          "my",
+          "parents",
           "had",
-          "started."
+          "gone",
+          "out."
+        ],
+        "alts": [
+          [
+            "my",
+            "parents",
+            "had",
+            "gone",
+            "out.",
+            "By",
+            "the",
+            "time",
+            "I",
+            "woke",
+            "up,"
+          ]
         ]
       },
       {
         "use": "Reason / result",
         "tokens": [
-          "He",
+          "She",
           "was",
-          "tired",
+          "hungry",
           "because",
-          "he",
+          "she",
           "had",
-          "worked",
-          "all",
-          "night."
+          "skipped",
+          "lunch."
+        ],
+        "alts": [
+          [
+            "because",
+            "she",
+            "had",
+            "skipped",
+            "lunch.",
+            "She",
+            "was",
+            "hungry"
+          ]
         ]
       },
       {
         "use": "Reason / result",
         "tokens": [
           "The",
-          "room",
+          "kitchen",
           "was",
-          "messy",
+          "a",
+          "mess",
           "because",
-          "the",
-          "children",
+          "we",
           "had",
-          "played",
-          "there."
+          "baked",
+          "cookies."
+        ],
+        "alts": [
+          [
+            "because",
+            "we",
+            "had",
+            "baked",
+            "cookies.",
+            "The",
+            "kitchen",
+            "was",
+            "a",
+            "mess"
+          ]
         ]
       },
       {
         "use": "Reason / result",
         "tokens": [
-          "She",
-          "passed",
-          "the",
-          "exam",
+          "He",
+          "couldn't",
+          "pay",
           "because",
-          "she",
+          "he",
           "had",
-          "studied",
-          "hard."
+          "lost",
+          "his",
+          "wallet."
+        ],
+        "alts": [
+          [
+            "because",
+            "he",
+            "had",
+            "lost",
+            "his",
+            "wallet.",
+            "He",
+            "couldn't",
+            "pay"
+          ]
         ]
       },
       {
         "use": "Already / just / never",
         "tokens": [
           "When",
-          "we",
-          "got",
-          "to",
           "the",
-          "cinema,",
+          "firefighters",
+          "arrived,",
           "the",
-          "film",
+          "flames",
           "had",
           "already",
-          "started."
+          "died",
+          "down."
+        ],
+        "alts": [
+          [
+            "the",
+            "flames",
+            "had",
+            "already",
+            "died",
+            "down.",
+            "When",
+            "the",
+            "firefighters",
+            "arrived,"
+          ]
         ]
       },
       {
         "use": "Already / just / never",
         "tokens": [
-          "I",
+          "She",
           "had",
           "never",
-          "seen",
-          "snow",
-          "before",
-          "that",
-          "winter."
+          "flown",
+          "in",
+          "a",
+          "plane",
+          "until",
+          "last",
+          "year."
+        ],
+        "alts": [
+          [
+            "until",
+            "last",
+            "year.",
+            "She",
+            "had",
+            "never",
+            "flown",
+            "in",
+            "a",
+            "plane"
+          ]
         ]
       },
       {
         "use": "Already / just / never",
         "tokens": [
-          "By",
-          "9",
-          "p.m.",
-          "she",
+          "The",
+          "match",
           "had",
           "just",
-          "arrived",
-          "home."
+          "ended",
+          "when",
+          "we",
+          "turned",
+          "on",
+          "the",
+          "TV."
+        ],
+        "alts": [
+          [
+            "when",
+            "we",
+            "turned",
+            "on",
+            "the",
+            "TV.",
+            "The",
+            "match",
+            "had",
+            "just",
+            "ended"
+          ]
         ]
       },
       {
         "use": "Already / just / never",
         "tokens": [
-          "She",
+          "He",
           "had",
           "already",
-          "known",
-          "the",
-          "answer."
+          "spent",
+          "all",
+          "his",
+          "money",
+          "by",
+          "Friday."
+        ],
+        "alts": [
+          [
+            "by",
+            "Friday.",
+            "He",
+            "had",
+            "already",
+            "spent",
+            "all",
+            "his",
+            "money"
+          ]
         ]
       },
       {
         "use": "Already / just / never",
         "tokens": [
-          "We",
+          "I",
           "had",
           "never",
-          "tried",
-          "sushi",
+          "ridden",
+          "a",
+          "horse",
           "before",
           "that",
-          "trip."
+          "holiday."
+        ],
+        "alts": [
+          [
+            "before",
+            "that",
+            "holiday.",
+            "I",
+            "had",
+            "never",
+            "ridden",
+            "a",
+            "horse"
+          ]
         ]
       },
       {
         "use": "Negative",
         "tokens": [
-          "She",
+          "He",
           "was",
-          "nervous",
+          "worried",
           "because",
-          "she",
+          "he",
           "hadn't",
-          "slept",
-          "well."
+          "locked",
+          "the",
+          "car."
+        ],
+        "alts": [
+          [
+            "because",
+            "he",
+            "hadn't",
+            "locked",
+            "the",
+            "car.",
+            "He",
+            "was",
+            "worried"
+          ]
         ]
       },
       {
         "use": "Negative",
         "tokens": [
+          "My",
+          "phone",
+          "died",
+          "because",
           "I",
           "hadn't",
-          "eaten",
-          "anything",
-          "before",
+          "charged",
+          "it."
+        ],
+        "alts": [
+          [
+            "because",
+            "I",
+            "hadn't",
+            "charged",
+            "it.",
+            "My",
+            "phone",
+            "died"
+          ]
+        ]
+      },
+      {
+        "use": "Negative",
+        "tokens": [
+          "The",
+          "plumber",
+          "hadn't",
+          "fixed",
           "the",
-          "meeting."
+          "leak",
+          "by",
+          "the",
+          "evening."
+        ],
+        "alts": [
+          [
+            "by",
+            "the",
+            "evening.",
+            "The",
+            "plumber",
+            "hadn't",
+            "fixed",
+            "the",
+            "leak"
+          ]
         ]
       },
       {
@@ -487,23 +727,26 @@
         "tokens": [
           "They",
           "hadn't",
-          "finished",
+          "expected",
+          "so",
+          "many",
+          "people",
+          "at",
           "the",
-          "project",
-          "by",
-          "the",
-          "deadline."
-        ]
-      },
-      {
-        "use": "Negative",
-        "tokens": [
-          "He",
-          "hadn't",
-          "seen",
-          "that",
-          "film",
-          "before."
+          "party."
+        ],
+        "alts": [
+          [
+            "at",
+            "the",
+            "party.",
+            "They",
+            "hadn't",
+            "expected",
+            "so",
+            "many",
+            "people"
+          ]
         ]
       },
       {
@@ -511,22 +754,47 @@
         "tokens": [
           "Had",
           "you",
-          "met",
-          "her",
+          "ever",
+          "played",
+          "golf",
           "before",
           "that",
-          "party?"
+          "day?"
+        ],
+        "alts": [
+          [
+            "before",
+            "that",
+            "day?",
+            "Had",
+            "you",
+            "ever",
+            "played",
+            "golf"
+          ]
         ]
       },
       {
         "use": "Question",
         "tokens": [
           "Had",
-          "they",
-          "arrived",
-          "when",
-          "you",
-          "called?"
+          "the",
+          "guests",
+          "gone",
+          "home",
+          "by",
+          "midnight?"
+        ],
+        "alts": [
+          [
+            "by",
+            "midnight?",
+            "Had",
+            "the",
+            "guests",
+            "gone",
+            "home"
+          ]
         ]
       },
       {
@@ -534,13 +802,28 @@
         "tokens": [
           "Had",
           "he",
-          "finished",
+          "cleaned",
           "his",
-          "work",
+          "room",
           "before",
-          "the",
-          "meeting",
-          "started?"
+          "his",
+          "mum",
+          "got",
+          "home?"
+        ],
+        "alts": [
+          [
+            "before",
+            "his",
+            "mum",
+            "got",
+            "home?",
+            "Had",
+            "he",
+            "cleaned",
+            "his",
+            "room"
+          ]
         ]
       }
     ]
@@ -668,14 +951,14 @@
           "had drank",
           "had drunk",
           "has drunk",
-          "drank"
+          "had drink"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong participle: the past participle of drink is drunk, not drank.",
           "",
           "Wrong auxiliary: an earlier past action needs had, not has.",
-          "Missing \"had\": this needs the earlier-action form, had drunk."
+          "After had, use the past participle (drunk), not the base form."
         ],
         "explain": "'Drink' is irregular: the past participle is drunk, not drank."
       },
@@ -684,16 +967,16 @@
         "text": "I couldn't get in because I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys at home.",
         "hintVerb": "(leave)",
         "choices": [
-          "was leaving",
           "have left",
-          "left",
+          "had leave",
+          "had leaved",
           "had left"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: this needs had + past participle.",
           "Wrong auxiliary: had, not have, for an action before another past action.",
-          "Missing \"had\": without it, this doesn't show which action came first.",
+          "After had, use the past participle (left), not the base form.",
+          "\"Leave\" is irregular: leave → left → left. \"Leaved\" doesn't exist.",
           ""
         ],
         "explain": "Leaving the keys is the earlier of two past events."
@@ -722,16 +1005,16 @@
         "text": "He was exhausted because he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all day.",
         "hintVerb": "(travel)",
         "choices": [
-          "was travelling",
           "has travelled",
-          "travelled",
+          "had travel",
+          "travelling",
           "had travelled"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense for explaining an earlier cause.",
           "Wrong auxiliary: had, not has, for the earlier reason.",
-          "Missing \"had\": without it there's no clear earlier-action link.",
+          "After had, use the past participle (travelled), not the base form.",
+          "The -ing form alone isn't a full verb — you need had + past participle.",
           ""
         ],
         "explain": "Past perfect explains the reason: travelling happened before he felt exhausted."
@@ -741,17 +1024,17 @@
         "text": "The grass was wet because it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> during the night.",
         "hintVerb": "(rain)",
         "choices": [
-          "rained",
           "has rained",
+          "had rain",
           "had rained",
-          "was raining"
+          "is raining"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing \"had\" before the past participle.",
-          "Wrong auxiliary: had, not has.",
+          "Wrong auxiliary: had, not has — the story is in the past.",
+          "After had, use the past participle (rained), not the base form.",
           "",
-          "Wrong tense/structure."
+          "Wrong tense: present continuous doesn't fit a past story about last night."
         ],
         "explain": "The rain is the earlier cause of the later, wet-grass result."
       },
@@ -762,15 +1045,15 @@
         "choices": [
           "had finished",
           "has finished",
-          "finished",
-          "was finishing"
+          "had finish",
+          "finishing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong auxiliary: had, not has, for the earlier reason.",
-          "Missing \"had\" before the past participle.",
-          "Wrong tense/structure."
+          "After had, use the past participle (finished), not the base form.",
+          "The -ing form alone isn't a full verb — you need had + past participle."
         ],
         "explain": "Finishing the marathon is the earlier action explaining her pride."
       },
@@ -833,22 +1116,22 @@
       },
       {
         "use": "Negative",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that film before, so the ending surprised me.",
-        "hintVerb": "(not / see)",
+        "text": "By the time the exam started, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the last chapter.",
+        "hintVerb": "(not / read)",
         "choices": [
-          "didn't see",
-          "haven't seen",
-          "hadn't seen",
-          "wasn't seeing"
+          "didn't read",
+          "haven't read",
+          "hadn't read",
+          "wasn't reading"
         ],
         "correct": 2,
         "wrongReasons": [
-          "This needs hadn't, not didn't, to show it happened before another past point.",
-          "Wrong tense: haven't is present perfect — this needs the past perfect hadn't.",
+          "\"By the time\" points back to before another past moment — that needs hadn't, not didn't.",
+          "Wrong tense: haven't is present perfect — the exam is in the past, so use hadn't.",
           "",
-          "Wrong structure for a negative past perfect."
+          "The past continuous describes an action in progress; here you need hadn't + past participle."
         ],
-        "explain": "Negative past perfect: hadn't + past participle."
+        "explain": "Negative past perfect: by the time the exam started, the reading still hadn't happened."
       },
       {
         "use": "Negative",
@@ -875,18 +1158,18 @@
         "hintVerb": "(not / have)",
         "choices": [
           "hadn't had",
-          "haven't had",
-          "didn't have",
-          "wasn't having"
+          "hasn't had",
+          "hadn't have",
+          "didn't had"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: haven't is present perfect, not past perfect.",
-          "This is the earlier of two past actions — it needs hadn't, not didn't.",
-          "Wrong structure for a negative past perfect."
+          "Wrong auxiliary: the story is in the past, so use hadn't, not hasn't.",
+          "After hadn't, use the past participle (had), not the base form.",
+          "After didn't, the verb is never in the past form — and this needs hadn't + past participle."
         ],
-        "explain": "'Have' → 'had' as a past participle, so 'hadn't had' is correct, if unusual-looking."
+        "explain": "'Have' → 'had' as a past participle, so 'hadn't had' is correct."
       },
       {
         "use": "Question",
@@ -928,7 +1211,7 @@
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> they already left when you arrived?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the train left when you reached the platform?",
         "hintVerb": "",
         "choices": [
           "Were",
@@ -938,16 +1221,16 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong auxiliary for this structure.",
+          "\"Were\" goes with -ing or adjectives, not with a past participle like \"left\".",
           "Wrong tense: have signals present perfect, not past perfect.",
-          "Wrong auxiliary: did doesn't fit with \"already left\" before another past point.",
+          "\"Did\" needs the base form (\"leave\"), and it doesn't show the train left before you arrived.",
           ""
         ],
-        "explain": "A question about which of two past events happened first."
+        "explain": "A question about which of two past events happened first: had + subject + past participle."
       },
       {
         "use": "Irregular participles",
-        "text": "He said he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the letter, but I never saw it.",
+        "text": "By the time I got to the office, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three letters.",
         "hintVerb": "(write)",
         "choices": [
           "wrote",
@@ -957,12 +1240,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing \"had\" before the past participle.",
+          "\"By the time\" needs had + past participle, not the past simple.",
           "Wrong participle: the past participle of write is written, not wrote.",
           "Wrong auxiliary: has instead of had.",
           ""
         ],
-        "explain": "'Write' is irregular: write → wrote → written."
+        "explain": "'Write' is irregular: write → wrote → written. The letters were finished before I arrived."
       },
       {
         "use": "Irregular participles",
@@ -972,14 +1255,14 @@
           "had broken",
           "had broke",
           "has broken",
-          "broke"
+          "had break"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong participle: the past participle of break is broken, not broke.",
           "Wrong auxiliary: has instead of had.",
-          "Missing \"had\" before the past participle."
+          "After had, use the past participle (broken), not the base form."
         ],
         "explain": "'Break' is irregular: break → broke → broken."
       },
@@ -991,20 +1274,20 @@
           "had did",
           "had done",
           "has done",
-          "did"
+          "had do"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong participle: the past participle of do is done, not did.",
           "",
           "Wrong auxiliary: has instead of had.",
-          "Missing \"had\" before the past participle."
+          "After had, use the past participle (done), not the base form."
         ],
         "explain": "'Do' is irregular: do → did → done."
       },
       {
         "use": "Irregular participles",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the car before I could stop her.",
+        "text": "By the time we woke up, Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> halfway to the coast.",
         "hintVerb": "(drive)",
         "choices": [
           "has driven",
@@ -1017,9 +1300,9 @@
           "Wrong auxiliary: has instead of had.",
           "Wrong participle: the past participle of drive is driven, not drove.",
           "",
-          "Missing \"had\" before the past participle."
+          "\"By the time\" needs had + past participle, not the past simple."
         ],
-        "explain": "'Drive' is irregular: drive → drove → driven."
+        "explain": "'Drive' is irregular: drive → drove → driven. The driving was done before we woke up."
       }
     ]
   },
@@ -1044,128 +1327,143 @@
       },
       {
         "tokens": [
-          "He",
+          "I",
+          "realised",
+          "someone",
           "had",
-          "ate",
-          "breakfast",
-          "before",
-          "he",
-          "left."
-        ],
-        "errorIndex": 2,
-        "correction": "eaten",
-        "type": "Wrong participle",
-        "message": "\"Eat\" is irregular: the past participle is eaten, not ate."
-      },
-      {
-        "tokens": [
-          "She",
-          "said",
-          "she",
-          "had",
-          "wrote",
-          "the",
-          "letter."
+          "stole",
+          "my",
+          "bike."
         ],
         "errorIndex": 4,
-        "correction": "written",
+        "correction": "stolen",
         "type": "Wrong participle",
-        "message": "\"Write\" is irregular: the past participle is written, not wrote."
+        "message": "\"Steal\" is irregular: the past participle is stolen, not stole."
       },
       {
         "tokens": [
-          "I",
+          "The",
+          "lesson",
           "had",
-          "did",
-          "my",
-          "homework",
-          "before",
-          "dinner."
+          "already",
+          "began",
+          "when",
+          "I",
+          "got",
+          "to",
+          "class."
+        ],
+        "errorIndex": 4,
+        "correction": "begun",
+        "type": "Wrong participle",
+        "message": "\"Begin\" is irregular: the past participle is begun, not began."
+      },
+      {
+        "tokens": [
+          "She",
+          "had",
+          "forgot",
+          "her",
+          "umbrella,",
+          "so",
+          "she",
+          "got",
+          "wet."
         ],
         "errorIndex": 2,
-        "correction": "done",
+        "correction": "forgotten",
         "type": "Wrong participle",
-        "message": "\"Do\" is irregular: the past participle is done, not did."
+        "message": "\"Forget\" is irregular: the past participle is forgotten, not forgot."
       },
       {
         "tokens": [
           "He",
           "had",
-          "broke",
-          "the",
-          "window",
-          "before",
-          "anyone",
-          "noticed."
+          "already",
+          "chose",
+          "a",
+          "birthday",
+          "present",
+          "for",
+          "his",
+          "sister."
         ],
-        "errorIndex": 2,
-        "correction": "broken",
+        "errorIndex": 3,
+        "correction": "chosen",
         "type": "Wrong participle",
-        "message": "\"Break\" is irregular: the past participle is broken, not broke."
+        "message": "\"Choose\" is irregular: the past participle is chosen, not chose."
       },
       {
         "tokens": [
-          "She",
+          "The",
+          "plane",
           "has",
-          "already",
-          "left",
-          "when",
+          "landed",
+          "by",
+          "the",
+          "time",
           "we",
-          "arrived."
+          "got",
+          "to",
+          "the",
+          "airport."
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "had",
         "type": "Wrong auxiliary",
         "message": "Wrong auxiliary: an action before another past action needs had, not has."
       },
       {
         "tokens": [
-          "They",
-          "have",
-          "finished",
+          "When",
           "the",
-          "project",
-          "by",
-          "then."
+          "bell",
+          "rang,",
+          "I",
+          "have",
+          "already",
+          "answered",
+          "all",
+          "the",
+          "questions."
         ],
-        "errorIndex": 1,
+        "errorIndex": 5,
         "correction": "had",
         "type": "Wrong auxiliary",
-        "message": "Wrong auxiliary: had, not have, for an earlier past action."
+        "message": "Wrong auxiliary: the bell rang in the past, so the earlier action needs had, not have."
       },
       {
         "tokens": [
           "By",
           "the",
           "time",
-          "I",
-          "called,",
-          "he",
+          "the",
+          "doctor",
+          "came,",
+          "the",
+          "pain",
           "has",
-          "gone",
-          "to",
-          "bed."
+          "disappeared."
         ],
-        "errorIndex": 6,
+        "errorIndex": 8,
         "correction": "had",
         "type": "Wrong auxiliary",
-        "message": "Wrong auxiliary: had, not has, for an action before another past point."
+        "message": "\"By the time\" + a past event needs the past perfect: had, not has."
       },
       {
         "tokens": [
-          "We",
-          "have",
+          "Before",
+          "2020,",
+          "she",
+          "has",
           "never",
-          "seen",
-          "snow",
-          "before",
-          "that",
-          "winter."
+          "lived",
+          "abroad."
         ],
-        "errorIndex": 1,
+        "errorIndex": 3,
         "correction": "had",
         "type": "Wrong auxiliary",
-        "message": "Wrong auxiliary: had, not have, for experience before a past point."
+        "message": "\"Before 2020\" is a point in the past, so use had, not has."
       },
       {
         "tokens": [
@@ -1188,65 +1486,86 @@
       },
       {
         "tokens": [
-          "She",
+          "When",
+          "we",
+          "met",
+          "in",
+          "December,",
+          "Lucy",
           "didn't",
           "seen",
+          "her",
+          "brother",
+          "since",
           "the",
-          "email",
-          "before",
-          "the",
-          "call."
+          "summer."
         ],
-        "errorIndex": 1,
-        "correction": "hadn't",
+        "errorIndex": 6,
+        "errorSpan": [
+          6,
+          7
+        ],
+        "correction": "hadn't seen",
         "type": "Wrong negative",
-        "message": "Wrong tense: for an action before another past point, use hadn't, not didn't."
+        "message": "\"Since the summer\" looks back from a past moment, so it needs the past perfect: hadn't seen, not didn't seen."
       },
       {
         "tokens": [
-          "They",
+          "By",
+          "the",
+          "time",
+          "the",
+          "party",
+          "started,",
+          "we",
           "didn't",
-          "finished",
+          "cleaned",
           "the",
-          "report",
-          "by",
-          "the",
-          "deadline."
+          "flat."
         ],
-        "errorIndex": 1,
+        "errorIndex": 7,
         "correction": "hadn't",
         "type": "Wrong negative",
-        "message": "Wrong tense: hadn't, not didn't, for an earlier past action."
+        "message": "Wrong tense: for an action (not) done before another past point, use hadn't, not didn't."
       },
       {
         "tokens": [
-          "He",
+          "By",
+          "ten",
+          "o'clock,",
+          "Jake",
           "didn't",
-          "eaten",
-          "anything",
-          "before",
-          "the",
-          "meeting."
+          "woke",
+          "up."
         ],
-        "errorIndex": 1,
-        "correction": "hadn't",
+        "errorIndex": 4,
+        "errorSpan": [
+          4,
+          5
+        ],
+        "correction": "hadn't woken",
         "type": "Wrong negative",
-        "message": "Wrong tense: hadn't, not didn't, before another past action."
+        "message": "\"By ten o'clock\" needs the past perfect negative: hadn't + past participle — hadn't woken, not didn't woke."
       },
       {
         "tokens": [
-          "We",
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "exam,",
+          "Ana",
           "didn't",
-          "tried",
-          "sushi",
-          "before",
-          "that",
-          "trip."
+          "answered",
+          "the",
+          "last",
+          "question."
         ],
-        "errorIndex": 1,
+        "errorIndex": 7,
         "correction": "hadn't",
         "type": "Wrong negative",
-        "message": "Wrong tense: hadn't, not didn't, for experience before a past point."
+        "message": "Wrong tense: \"by the end of the exam\" is a past point, so use hadn't, not didn't."
       },
       {
         "tokens": [
@@ -1297,51 +1616,56 @@
       },
       {
         "tokens": [
-          "She",
-          "had",
-          "visit",
-          "the",
-          "museum",
-          "before",
-          "that",
-          "trip."
-        ],
-        "errorIndex": 2,
-        "correction": "visited",
-        "type": "Missing -ed",
-        "message": "This is a regular verb — add -ed to make the past participle: visited, not visit."
-      },
-      {
-        "tokens": [
           "He",
           "had",
-          "watch",
-          "the",
-          "film",
-          "twice",
-          "before",
-          "that",
-          "night."
+          "already",
+          "cook",
+          "dinner",
+          "when",
+          "we",
+          "got",
+          "home."
         ],
-        "errorIndex": 2,
-        "correction": "watched",
+        "errorIndex": 3,
+        "correction": "cooked",
         "type": "Missing -ed",
-        "message": "This is a regular verb — add -ed: watched, not watch."
+        "message": "This is a regular verb — add -ed to make the past participle: cooked, not cook."
       },
       {
         "tokens": [
-          "We",
+          "She",
           "had",
-          "finish",
-          "dinner",
-          "before",
-          "they",
-          "arrived."
+          "already",
+          "order",
+          "a",
+          "pizza",
+          "when",
+          "I",
+          "phoned",
+          "her."
         ],
-        "errorIndex": 2,
-        "correction": "finished",
+        "errorIndex": 3,
+        "correction": "ordered",
         "type": "Missing -ed",
-        "message": "This is a regular verb — add -ed: finished, not finish."
+        "message": "This is a regular verb — add -ed to make the past participle: ordered, not order."
+      },
+      {
+        "tokens": [
+          "Luckily,",
+          "we",
+          "had",
+          "save",
+          "the",
+          "file",
+          "before",
+          "the",
+          "computer",
+          "crashed."
+        ],
+        "errorIndex": 3,
+        "correction": "saved",
+        "type": "Missing -ed",
+        "message": "This is a regular verb — add -ed to make the past participle: saved, not save."
       }
     ]
   },
@@ -1373,54 +1697,74 @@
           "'d stopped",
           "d stopped"
         ],
-        "display": "had stopped"
+        "display": "had stopped",
+        "explain": "The rain stopped before we got home — 'by the time' needs had + past participle."
       },
       {
         "type": "fill",
         "use": "Negative",
-        "sentText": "She {{blank}} her homework when the teacher checked.",
+        "sentText": "By the time the bus came, she {{blank}} her breakfast.",
         "hint": "not / finish",
         "answers": [
           "hadn't finished",
           "had not finished",
           "hadnt finished"
         ],
-        "display": "hadn't finished"
+        "display": "hadn't finished",
+        "explain": "Negative past perfect: hadn't + past participle. Breakfast was still unfinished when the bus came."
       },
       {
         "type": "fill",
         "use": "Already / just / never",
-        "sentText": "I {{blank}} sushi before that trip.",
-        "hint": "never / try",
+        "sentText": "I was nervous that evening because I {{blank}} my girlfriend's parents before.",
+        "hint": "never / meet",
         "answers": [
-          "had never tried",
-          "'d never tried",
-          "d never tried"
+          "had never met",
+          "'d never met",
+          "d never met"
         ],
-        "display": "had never tried"
+        "display": "had never met",
+        "explain": "'Never' goes between had and the past participle: had never met. 'Meet' is irregular: met."
       },
       {
         "type": "fill",
         "use": "Question",
-        "sentText": "{{blank}} you met her before the wedding?",
-        "hint": "auxiliary",
+        "sentText": "{{blank}} your sister ever been abroad before her school trip to Paris?",
+        "hint": "(auxiliary — past perfect)",
         "answers": [
           "had"
         ],
-        "display": "Had"
+        "display": "Had",
+        "explain": "'Had' starts the question; 'been' is the past participle of be."
       },
       {
         "type": "order",
         "use": "Earlier past action",
         "tokens": [
           "The",
-          "film",
+          "ice",
+          "cream",
           "had",
-          "already",
-          "started",
+          "melted",
           "when",
           "we",
-          "arrived."
+          "finally",
+          "sat",
+          "down."
+        ],
+        "alts": [
+          [
+            "when",
+            "we",
+            "finally",
+            "sat",
+            "down.",
+            "The",
+            "ice",
+            "cream",
+            "had",
+            "melted"
+          ]
         ]
       },
       {
@@ -1436,6 +1780,19 @@
           "missed",
           "the",
           "bus."
+        ],
+        "alts": [
+          [
+            "because",
+            "he",
+            "had",
+            "missed",
+            "the",
+            "bus.",
+            "He",
+            "was",
+            "late"
+          ]
         ]
       },
       {
@@ -1456,52 +1813,68 @@
         "use": "Question",
         "tokens": [
           "Had",
-          "she",
-          "ever",
-          "visited",
-          "London",
-          "before",
-          "that",
-          "trip?"
+          "the",
+          "bakery",
+          "sold",
+          "out",
+          "when",
+          "you",
+          "got",
+          "there?"
+        ],
+        "alts": [
+          [
+            "when",
+            "you",
+            "got",
+            "there?",
+            "Had",
+            "the",
+            "bakery",
+            "sold",
+            "out"
+          ]
         ]
       },
       {
         "type": "irregular",
         "use": "Irregular participle",
-        "text": "By the time she called, I {{blank}} the news.",
-        "hintVerb": "(hear)",
+        "text": "She {{blank}} the old letters away before I could read them.",
+        "hintVerb": "(throw)",
         "choices": [
-          "had heard",
-          "had heared",
-          "have heard",
-          "hearing"
+          "had thrown",
+          "had throwed",
+          "has thrown",
+          "throwing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "There's no such form as \"heared\" — \"hear\" is irregular: hear → heard.",
-          "Wrong auxiliary: had, not have, for an earlier past action.",
-          "This is the -ing form, not the past participle."
-        ]
-      },
-      {
-        "type": "irregular",
-        "use": "Irregular participle",
-        "text": "He {{blank}} the answer before anyone told him.",
-        "hintVerb": "(know)",
-        "choices": [
-          "had known",
-          "had knew",
-          "has known",
-          "knowing"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "This is the past simple form — the past participle of know is known, not knew.",
+          "\"Throw\" is irregular: throw → threw → thrown. \"Throwed\" is a common learner mistake.",
           "Wrong auxiliary: had, not has, for an earlier past action.",
           "This is the -ing form, not the past participle."
-        ]
+        ],
+        "explain": "'Throw' is irregular: throw → threw → thrown. Throwing the letters away came before I could read them."
+      },
+      {
+        "type": "irregular",
+        "use": "Irregular participle",
+        "text": "He {{blank}} the book twice by the time the film came out.",
+        "hintVerb": "(read)",
+        "choices": [
+          "had read",
+          "had readed",
+          "has read",
+          "reading"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "\"Read\" is irregular: read → read → read. \"Readed\" doesn't exist.",
+          "Wrong auxiliary: had, not has, for an earlier past action.",
+          "This is the -ing form, not the past participle."
+        ],
+        "explain": "'Read' looks the same in all three forms (read → read → read), but the participle is pronounced /red/. He read it before the film came out."
       },
       {
         "type": "irregular",
@@ -1520,31 +1893,33 @@
           "There's no such form as \"shutted\" — \"shut\" doesn't change: shut → shut → shut.",
           "Wrong auxiliary: had, not has.",
           "This is the -ing form, not the past participle."
-        ]
+        ],
+        "explain": "'Shut' doesn't change: shut → shut → shut. Shutting came before I could stop her."
       },
       {
         "type": "irregular",
         "use": "Irregular participle",
-        "text": "We {{blank}} the train by the time the taxi arrived.",
+        "text": "By the time we got to the river, my brother {{blank}} three fish.",
         "hintVerb": "(catch)",
         "choices": [
           "had caught",
           "had catched",
-          "have caught",
+          "has caught",
           "catching"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "There's no such form as \"catched\" — \"catch\" is irregular: catch → caught.",
-          "Wrong auxiliary: had, not have, for an earlier past action.",
+          "Wrong auxiliary: had, not has, for an earlier past action.",
           "This is the -ing form, not the past participle."
-        ]
+        ],
+        "explain": "'Catch' is irregular: catch → caught → caught. He caught the fish before we arrived."
       },
       {
         "type": "mc",
         "use": "Question — earlier action",
-        "text": "{{blank}} they left when you got there?",
+        "text": "{{blank}} the baby fallen asleep when you got home?",
         "choices": [
           "Had",
           "Have",
@@ -1555,27 +1930,29 @@
         "wrongReasons": [
           "",
           "Wrong tense: have signals present perfect, not past perfect.",
-          "Wrong auxiliary: did doesn't show which past action came first.",
-          "Wrong auxiliary for this structure."
-        ]
+          "\"Did\" needs the base form (\"fall\"), not the past participle \"fallen\".",
+          "\"Was\" doesn't go with the past participle \"fallen\" here — the past perfect uses had."
+        ],
+        "explain": "A past perfect question starts with 'had' + subject + past participle."
       },
       {
         "type": "mc",
         "use": "Reason / result",
-        "text": "She was relieved because she {{blank}} the exam.",
+        "text": "I didn't recognise him at first because he {{blank}} a beard since I last saw him.",
         "choices": [
-          "had passed",
-          "has passed",
-          "passed",
-          "was passing"
+          "had grown",
+          "has grown",
+          "grew",
+          "was growing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong auxiliary: had, not has, for an earlier past action.",
-          "Missing \"had\": without it, this doesn't show which action came first.",
-          "Wrong tense/structure."
-        ]
+          "Wrong auxiliary: the story is in the past, so use had, not has.",
+          "\"Since I last saw him\" needs a perfect tense — the past simple doesn't work with \"since\".",
+          "The past continuous doesn't work with \"since\" here — you need had + past participle."
+        ],
+        "explain": "Past perfect explains the reason: the beard grew before the moment I didn't recognise him."
       },
       {
         "type": "mc",
@@ -1593,7 +1970,8 @@
           "Wrong tense: haven't is present perfect, not past perfect.",
           "This needs hadn't, not didn't, to show it happened before another past point.",
           "Wrong structure for a negative past perfect."
-        ]
+        ],
+        "explain": "Negative past perfect: hadn't + past participle."
       },
       {
         "type": "mc",
@@ -1611,7 +1989,8 @@
           "Wrong auxiliary: had, not has, for an action before a past point.",
           "Missing \"had\" before the past participle.",
           "Wrong tense/structure."
-        ]
+        ],
+        "explain": "'Already' sits between had and the past participle."
       },
       {
         "type": "error",
@@ -1652,19 +2031,25 @@
         "type": "error",
         "use": "Wrong negative",
         "tokens": [
+          "By",
+          "the",
+          "time",
+          "the",
+          "taxi",
+          "came,",
           "I",
           "didn't",
           "packed",
           "my",
-          "bag",
-          "before",
-          "the",
-          "taxi",
-          "arrived."
+          "bag."
         ],
-        "errorIndex": 1,
-        "correction": "hadn't",
-        "message": "Wrong tense: hadn't, not didn't, for an action before another past point."
+        "errorIndex": 7,
+        "errorSpan": [
+          7,
+          8
+        ],
+        "correction": "hadn't packed",
+        "message": "\"By the time\" + a past event needs the past perfect: hadn't packed, not didn't packed."
       },
       {
         "type": "error",

@@ -113,7 +113,7 @@
         "kind": "question",
         "before": "",
         "after": "you help me?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — future simple)",
         "answers": [
           "will"
         ],
@@ -124,8 +124,8 @@
         "use": "Question",
         "kind": "question",
         "before": "",
-        "after": "it rain tomorrow?",
-        "hint": "(auxiliary)",
+        "after": "the concert finish before midnight?",
+        "hint": "(auxiliary — future simple)",
         "answers": [
           "will"
         ],
@@ -147,21 +147,21 @@
       {
         "use": "Invariant form",
         "kind": "statement",
-        "before": "She",
-        "after": "late tomorrow, I'm sure.",
-        "hint": "arrive",
+        "before": "Our team",
+        "after": "the match on Saturday, I'm sure.",
+        "hint": "win",
         "answers": [
-          "will arrive"
+          "will win"
         ],
-        "display": "will arrive",
-        "explain": "Will never adds -s — 'will arrive', not 'will arrives'."
+        "display": "will win",
+        "explain": "Will never adds -s — 'our team will win', not 'will wins'."
       },
       {
         "use": "Request",
         "kind": "question",
         "before": "",
         "after": "you open the window?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — future simple)",
         "answers": [
           "will"
         ],
@@ -171,13 +171,13 @@
       {
         "use": "Prediction",
         "kind": "statement",
-        "before": "It probably",
-        "after": "later.",
-        "hint": "rain",
+        "before": "Take a coat. You probably",
+        "after": "it later.",
+        "hint": "need",
         "answers": [
-          "will rain"
+          "will need"
         ],
-        "display": "will rain",
+        "display": "will need",
         "explain": "Predictions often come with 'probably' or 'maybe'."
       },
       {
@@ -197,28 +197,26 @@
       {
         "use": "Promise",
         "kind": "statement",
-        "before": "Don't worry —",
+        "before": "Don't worry — I",
         "after": "you as soon as I land.",
-        "hint": "I / text",
+        "hint": "text",
         "answers": [
-          "I'll text",
-          "I will text",
-          "I ll text"
+          "will text"
         ],
-        "display": "I'll text",
-        "explain": "A promise, with the subject inside the blank this time."
+        "display": "will text",
+        "explain": "A promise about the future takes will."
       },
       {
         "use": "Negative — prediction",
         "kind": "statement",
-        "before": "It",
-        "after": "tomorrow — the sky is clear.",
-        "hint": "not / rain",
+        "before": "Take a jumper — it",
+        "after": "warm this evening.",
+        "hint": "not / be",
         "answers": [
-          "won't rain"
+          "won't be"
         ],
-        "display": "won't rain",
-        "explain": "The negative prediction — won't + base verb."
+        "display": "won't be",
+        "explain": "A negative prediction about this evening — won't + base verb."
       },
       {
         "use": "Invariant form — negative",
@@ -236,13 +234,13 @@
         "use": "Question — request",
         "kind": "question",
         "before": "",
-        "after": "you help me, please?",
-        "hint": "(auxiliary)",
+        "after": "you pass me the salt, please?",
+        "hint": "(auxiliary — future simple)",
         "answers": [
           "will"
         ],
         "display": "Will",
-        "explain": "Even a request with 'please' starts with will."
+        "explain": "A polite request with 'please' still starts with will."
       },
       {
         "use": "Prediction",
@@ -280,18 +278,19 @@
         "use": "Instant decision",
         "tokens": [
           "I'll",
-          "get",
-          "it."
+          "answer",
+          "the",
+          "door."
         ]
       },
       {
         "use": "Instant decision",
         "tokens": [
           "I'll",
-          "have",
+          "buy",
           "the",
-          "salad,",
-          "please."
+          "blue",
+          "shirt."
         ]
       },
       {
@@ -299,76 +298,62 @@
         "tokens": [
           "I",
           "think",
-          "it",
-          "will",
-          "rain",
-          "tomorrow."
-        ],
-        "alts": [
-          [
-            "tomorrow.",
-            "I",
-            "think",
-            "it",
-            "will",
-            "rain"
-          ]
+          "you'll",
+          "like",
+          "my",
+          "cousin."
         ]
       },
       {
         "use": "Prediction",
         "tokens": [
-          "You'll",
-          "love",
-          "this",
-          "film."
+          "This",
+          "book",
+          "will",
+          "make",
+          "you",
+          "laugh."
         ]
       },
       {
         "use": "Promise",
         "tokens": [
-          "I",
-          "promise",
           "I'll",
-          "call",
+          "pay",
           "you",
-          "tonight."
+          "back",
+          "on",
+          "Monday."
         ],
         "alts": [
           [
-            "tonight.",
-            "I",
-            "promise",
+            "on",
+            "Monday.",
             "I'll",
-            "call",
-            "you"
+            "pay",
+            "you",
+            "back"
           ]
         ]
       },
       {
         "use": "Negative",
         "tokens": [
-          "They",
+          "We",
           "won't",
-          "come",
-          "tomorrow."
-        ],
-        "alts": [
-          [
-            "tomorrow.",
-            "They",
-            "won't",
-            "come"
-          ]
+          "forget",
+          "your",
+          "birthday."
         ]
       },
       {
         "use": "Negative",
         "tokens": [
-          "She",
+          "The",
+          "test",
           "won't",
           "be",
-          "late."
+          "difficult."
         ]
       },
       {
@@ -376,17 +361,30 @@
         "tokens": [
           "Will",
           "you",
-          "help",
-          "me?"
+          "join",
+          "us",
+          "for",
+          "dinner?"
         ]
       },
       {
         "use": "Question",
         "tokens": [
           "Will",
-          "it",
-          "rain",
-          "tomorrow?"
+          "the",
+          "train",
+          "be",
+          "crowded?"
+        ]
+      },
+      {
+        "use": "Invariant form",
+        "tokens": [
+          "She",
+          "will",
+          "enjoy",
+          "the",
+          "trip."
         ]
       },
       {
@@ -394,35 +392,10 @@
         "tokens": [
           "He",
           "will",
-          "be",
-          "late",
-          "tonight."
-        ],
-        "alts": [
-          [
-            "tonight.",
-            "He",
-            "will",
-            "be",
-            "late"
-          ]
-        ]
-      },
-      {
-        "use": "Invariant form",
-        "tokens": [
-          "She",
-          "will",
-          "arrive",
-          "tomorrow."
-        ],
-        "alts": [
-          [
-            "tomorrow.",
-            "She",
-            "will",
-            "arrive"
-          ]
+          "need",
+          "a",
+          "new",
+          "phone."
         ]
       },
       {
@@ -430,41 +403,27 @@
         "tokens": [
           "Will",
           "you",
-          "open",
+          "wash",
           "the",
-          "window?"
+          "dishes?"
         ]
       },
       {
         "use": "Prediction",
         "tokens": [
-          "It",
+          "She",
           "will",
           "probably",
-          "rain",
-          "later."
+          "say",
+          "yes."
         ],
         "alts": [
           [
-            "It",
+            "She",
             "probably",
             "will",
-            "rain",
-            "later."
-          ],
-          [
-            "later.",
-            "It",
-            "will",
-            "probably",
-            "rain"
-          ],
-          [
-            "later.",
-            "It",
-            "probably",
-            "will",
-            "rain"
+            "say",
+            "yes."
           ]
         ]
       },
@@ -473,56 +432,38 @@
         "tokens": [
           "OK,",
           "I'll",
-          "help",
-          "you."
+          "walk",
+          "the",
+          "dog."
         ]
       },
       {
         "use": "Promise",
         "tokens": [
           "I'll",
-          "text",
-          "you",
-          "when",
-          "I",
-          "land."
-        ],
-        "alts": [
-          [
-            "when",
-            "I",
-            "land.",
-            "I'll",
-            "text",
-            "you"
-          ]
+          "keep",
+          "your",
+          "secret."
         ]
       },
       {
         "use": "Negative — prediction",
         "tokens": [
-          "It",
+          "Prices",
           "won't",
-          "rain",
-          "tomorrow."
-        ],
-        "alts": [
-          [
-            "tomorrow.",
-            "It",
-            "won't",
-            "rain"
-          ]
+          "go",
+          "down."
         ]
       },
       {
         "use": "Invariant form — negative",
         "tokens": [
-          "They",
+          "The",
+          "children",
           "won't",
-          "arrive",
-          "on",
-          "time."
+          "like",
+          "this",
+          "soup."
         ]
       },
       {
@@ -530,18 +471,21 @@
         "tokens": [
           "Will",
           "you",
-          "help",
-          "me,",
+          "lend",
+          "me",
+          "your",
+          "pen,",
           "please?"
         ]
       },
       {
         "use": "Prediction",
         "tokens": [
-          "Cars",
+          "People",
           "will",
-          "drive",
-          "themselves."
+          "live",
+          "on",
+          "Mars."
         ]
       },
       {
@@ -549,9 +493,11 @@
         "tokens": [
           "I",
           "will",
-          "tell",
-          "the",
-          "truth."
+          "be",
+          "careful",
+          "with",
+          "your",
+          "car."
         ]
       }
     ]
@@ -648,369 +594,369 @@
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. Watch for the invariant form (will never adds -s), the negative won't, and plans already arranged (those need going to/continuous, not will).",
+    "subtitle": "15 seconds per question. Watch for the invariant form (will never adds -s) and the negative won't.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
       {
         "use": "Instant decision",
-        "text": "The phone's ringing. Don't worry, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it.",
+        "text": "We've got no milk. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the shop.",
         "choices": [
-          "will get",
-          "will gets",
-          "get",
-          "am getting"
+          "will go",
+          "will goes",
+          "went",
+          "go"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Will never adds -s — 'will get', not 'will gets'.",
-          "Missing will: a decision made now needs will — 'will get', not just 'get'.",
-          "Wrong form: use will for a decision made at the moment of speaking, not the present continuous."
+          "Will never adds -s — 'will go', not 'will goes'.",
+          "Wrong tense: you're deciding what to do next, not talking about the past.",
+          "Missing will: a decision made now needs will — 'will go', not just 'go'."
         ],
         "explain": "A decision made at the moment of speaking takes will."
       },
       {
         "use": "Prediction",
-        "text": "I think it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tomorrow.",
+        "text": "Anna's interview is tomorrow. I'm sure she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the job.",
         "choices": [
-          "will rain",
-          "will to rain",
-          "rains",
-          "raining"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "After will, use the base verb — 'will rain', not 'will to rain'.",
-          "Wrong tense: a prediction takes will, not the present simple.",
-          "Not a full verb form on its own."
-        ],
-        "explain": "A prediction about the future takes will."
-      },
-      {
-        "use": "Invariant form",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late tonight, I'm sure.",
-        "choices": [
-          "will be",
-          "is being",
-          "has been",
-          "was"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "Wrong form: 'is being' describes behaviour right now, not a prediction about tonight.",
-          "Wrong tense: the present perfect looks back; this is a prediction about tonight.",
-          "Wrong tense: 'was' is past, but 'tonight' is in the future."
-        ],
-        "explain": "Will never changes — the same form for every subject."
-      },
-      {
-        "use": "Negative",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tomorrow.",
-        "choices": [
-          "won't come",
-          "don't come",
-          "won't coming",
-          "not will come"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "Wrong tense: the negative of will is won't, not don't.",
-          "After won't, use the base verb — 'won't come', not 'won't coming'.",
-          "Wrong word order — 'won't', not 'not will'."
-        ],
-        "explain": "The negative of will is won't, for every subject."
-      },
-      {
-        "use": "Already-arranged plan",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Sara tomorrow — we arranged it last week.",
-        "choices": [
-          "will meet",
-          "'m meeting",
-          "meet",
-          "will meets"
+          "gets",
+          "will get",
+          "got",
+          "will gets"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: a plan already arranged uses going to or the present continuous, not will.",
+          "Wrong tense: a prediction based on your opinion ('I'm sure') takes will, not the present simple.",
           "",
-          "Missing the future form entirely — this needs a future form, not the bare present.",
-          "Will never adds -s, and this needs going to/continuous anyway, not will."
+          "Wrong tense: the interview is tomorrow — 'got' is past.",
+          "Will never adds -s — 'will get', not 'will gets'."
         ],
-        "explain": "A plan already arranged uses the present continuous or going to, not will."
+        "explain": "A prediction based on your opinion ('I'm sure') takes will."
       },
       {
-        "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you help me?",
+        "use": "Invariant form",
+        "text": "Let's make Mum a cake for her birthday. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it.",
         "choices": [
-          "Will",
-          "Are",
-          "Do",
-          "Did"
+          "is loving",
+          "will loves",
+          "will love",
+          "loved"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: this is a prediction about her reaction — use will, not the present continuous.",
+          "Will never adds -s — 'will love', even with 'she'.",
+          "",
+          "Wrong tense: she hasn't seen the cake yet — 'loved' is past."
+        ],
+        "explain": "Will never changes — 'she will love', the same form for every subject."
+      },
+      {
+        "use": "Negative",
+        "text": "Don't wait for me. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> home before ten.",
+        "choices": [
+          "don't be",
+          "wasn't",
+          "not will be",
+          "won't be"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "'Don't be' is an instruction ('Don't be late!'), not a prediction — use 'won't be'.",
+          "Wrong tense: 'wasn't' is past, but you're talking about later tonight — 'won't be'.",
+          "Word order: 'not' goes after will and joins it — 'won't be'.",
+          ""
+        ],
+        "explain": "A negative prediction: won't + the base verb 'be'."
+      },
+      {
+        "use": "Offer",
+        "text": "That bag looks heavy. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it for you.",
+        "choices": [
+          "will carry",
+          "carry",
+          "carried",
+          "am carrying"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong aux: 'are' pairs with the -ing form, not will.",
-          "Wrong aux: 'do' doesn't pair with a future request.",
-          "Wrong tense: 'did' is past, not future."
+          "Missing will: an offer made now needs will.",
+          "Wrong tense: the offer is about what you'll do next, not the past.",
+          "Wrong form: an offer you decide on right now takes will, not the present continuous."
+        ],
+        "explain": "An offer made at the moment of speaking takes will."
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you be at the meeting on Thursday?",
+        "choices": [
+          "Are",
+          "Will",
+          "Do",
+          "Did"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong aux: 'are' can't come before 'be' — 'Are you be' is not English.",
+          "",
+          "Wrong aux: 'do' doesn't go with 'be' — you need will for a future question.",
+          "Wrong tense: 'did' is past, but the meeting is on Thursday."
         ],
         "explain": "Will comes first in a question, before the subject."
       },
       {
         "use": "Request",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you open the window?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you feed the cat tomorrow, please?",
         "choices": [
           "Do",
-          "Will",
           "Are",
-          "Did"
+          "Does",
+          "Will"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
-          "Wrong aux: 'do' doesn't pair with a will-request.",
-          "",
-          "Wrong aux: 'are' pairs with the -ing form, not will.",
-          "Wrong tense: 'did' is past, not future."
+          "Wrong aux: 'do' doesn't make a request about tomorrow — use will.",
+          "Wrong aux: 'are' pairs with the -ing form, not with a base verb like this.",
+          "Wrong aux: 'does' doesn't go with 'you', and a request about tomorrow takes will.",
+          ""
         ],
         "explain": "A polite request with will — the auxiliary comes first."
       },
       {
         "use": "Prediction",
-        "text": "In fifty years, cars <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> themselves.",
+        "text": "One day, robots <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our homes.",
         "choices": [
-          "drive",
-          "will drive",
-          "drives",
-          "will drives"
+          "clean",
+          "cleans",
+          "will clean",
+          "will cleans"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
-          "Wrong tense: a long-term prediction takes will, not the present simple.",
-          "",
           "Wrong tense: a prediction about the future takes will, not the present simple.",
-          "Will never adds -s — 'will drive', not 'will drives'."
+          "Wrong tense: a prediction takes will — and 'robots' doesn't take -s anyway.",
+          "",
+          "Will never adds -s — 'will clean', not 'will cleans'."
         ],
         "explain": "A long-term prediction about the future takes will."
       },
       {
         "use": "Promise",
-        "text": "I promise I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you tonight.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my homework after dinner, I promise.",
         "choices": [
-          "call",
-          "will calls",
-          "am calling",
-          "will call"
+          "do",
+          "will does",
+          "did",
+          "will do"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing will: a promise needs will — 'will call', not just 'call'.",
-          "Will never adds -s — 'will call', not 'will calls'.",
-          "Wrong form: a promise about tonight, not something already arranged, takes will.",
+          "Missing will: a promise needs will — 'will do', not just 'do'.",
+          "Will never adds -s — 'will do', not 'will does'.",
+          "Wrong tense: 'after dinner' is later, so 'did' (past) doesn't fit a promise.",
           ""
         ],
         "explain": "A promise about the future takes will."
       },
       {
         "use": "Negative — prediction",
-        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tomorrow — the sky is clear.",
+        "text": "The roads <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> busy on Sunday morning.",
         "choices": [
-          "doesn't rain",
-          "won't rain",
-          "won't rains",
-          "isn't raining"
+          "isn't being",
+          "won't be",
+          "won't is",
+          "doesn't be"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: the negative prediction takes won't, not doesn't.",
+          "Wrong form: a prediction about Sunday takes won't + base verb, not the present continuous.",
           "",
-          "Will never adds -s — 'won't rain', not 'won't rains'.",
-          "Wrong form: won't + base verb, not the negative present continuous, for a prediction."
+          "After won't, use the base verb — 'won't be', not 'won't is'.",
+          "Wrong aux: 'be' doesn't take 'doesn't' — the negative prediction is 'won't be'."
         ],
         "explain": "The negative prediction takes won't + base verb."
       },
       {
         "use": "Invariant form",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late tomorrow, I'm sure.",
+        "text": "Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> angry when he sees the broken vase.",
         "choices": [
-          "will arriving",
-          "arrived",
-          "will arrive",
-          "has arrived"
+          "will be",
+          "will being",
+          "was",
+          "will is"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "After will, use the base verb — 'will arrive', not 'will arriving'.",
-          "Wrong tense: 'tomorrow' needs a future form, not the past simple.",
           "",
-          "Wrong tense: 'tomorrow' needs a future form, not the present perfect."
+          "After will, use the base verb — 'will be', not 'will being'.",
+          "Wrong tense: he hasn't seen the vase yet — 'when he sees' points to the future.",
+          "After will, use the base verb 'be' — 'will be', not 'will is'."
         ],
-        "explain": "A prediction takes will — the base verb follows, with no -s."
+        "explain": "A prediction takes will + base verb, the same for every subject."
       },
       {
         "use": "Instant decision",
-        "text": "OK, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you with your bags.",
+        "text": "This soup is cold. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it up for you.",
         "choices": [
-          "help",
-          "will helps",
-          "will help",
-          "am helping"
+          "will heat",
+          "heat",
+          "will heats",
+          "heated"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Missing will: a decision made now needs will.",
-          "Will never adds -s — 'will help', not 'will helps'.",
           "",
-          "Wrong form: this decision, made right now, takes will."
+          "Missing will: a decision made now needs will — 'will heat'.",
+          "Will never adds -s — 'will heat', not 'will heats'.",
+          "Wrong tense: you're offering to do it now, not talking about the past."
         ],
         "explain": "A decision made at the moment of speaking takes will."
       },
       {
         "use": "Invariant form — negative",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on time, I think.",
+        "text": "Lucy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the party on Saturday — she hates loud music.",
         "choices": [
-          "won't arriving",
-          "don't arrive",
-          "won't arrive",
-          "aren't arriving"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "After won't, use the base verb — 'won't arrive', not 'won't arriving'.",
-          "Wrong tense: the negative of will is won't, not don't.",
-          "",
-          "Wrong form: a prediction like this takes won't here."
-        ],
-        "explain": "The negative of will is won't, for every subject."
-      },
-      {
-        "use": "Question — request",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you help me, please?",
-        "choices": [
-          "Are",
-          "Do",
-          "Did",
-          "Will"
+          "won't enjoying",
+          "doesn't enjoy",
+          "won't enjoys",
+          "won't enjoy"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong aux: 'are' pairs with the -ing form, not will.",
-          "Wrong aux: 'do' doesn't pair with a will-request.",
-          "Wrong tense: 'did' is past, not future.",
+          "After won't, use the base verb — 'won't enjoy', not 'won't enjoying'.",
+          "Wrong tense: the party is in the future — the negative prediction is won't, not doesn't.",
+          "Won't never adds -s — 'won't enjoy', even with 'Lucy'.",
           ""
+        ],
+        "explain": "Won't is the same for every subject — won't + base verb."
+      },
+      {
+        "use": "Question — request",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you hold my bag for a minute, please?",
+        "choices": [
+          "Are",
+          "Will",
+          "Did",
+          "Do"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong aux: 'are' pairs with the -ing form, not with a base verb like this.",
+          "",
+          "Wrong tense: 'did' is past, but a request is about what happens next.",
+          "Wrong aux: 'do' doesn't make a polite request — use will."
         ],
         "explain": "Even a request with 'please' starts with will."
       },
       {
         "use": "Promise",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the truth, I promise.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your book back on Friday, I promise.",
         "choices": [
-          "tell",
-          "will tells",
-          "am telling",
-          "will tell"
+          "bring",
+          "will brings",
+          "will bring",
+          "brought"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
-          "Missing will: a promise needs will.",
-          "Will never adds -s — 'will tell', not 'will tells'.",
-          "Wrong form: a promise about the future takes will, not the present continuous.",
-          ""
+          "Missing will: a promise needs will — 'will bring'.",
+          "Will never adds -s — 'will bring', not 'will brings'.",
+          "",
+          "Wrong tense: Friday is in the future — 'brought' is past."
         ],
         "explain": "A promise about the future takes will."
       },
       {
         "use": "Prediction",
-        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this film.",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this new game — it's really fun.",
         "choices": [
-          "love",
-          "will loves",
-          "are loving",
-          "will love"
+          "like",
+          "will likes",
+          "are liking",
+          "will like"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing will: a prediction/opinion needs will.",
-          "Will never adds -s — 'will love', not 'will loves'.",
-          "Wrong form: an opinion about the future takes will, not the present continuous.",
+          "Missing will: a prediction about the future needs will.",
+          "Will never adds -s — 'will like', not 'will likes'.",
+          "Wrong form: 'like' isn't used in the continuous, and a prediction takes will.",
           ""
         ],
         "explain": "A prediction/opinion about the future takes will."
       },
       {
-        "use": "Already-arranged plan",
-        "text": "I can't come tonight — I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my parents, it's already arranged.",
+        "use": "Prediction",
+        "text": "Don't worry — I'm sure you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the exam.",
         "choices": [
-          "will visit",
-          "'m visiting",
-          "visit",
-          "will visits"
-        ],
-        "correct": 1,
-        "wrongReasons": [
-          "Wrong form: an arranged plan uses the present continuous or going to, not will.",
-          "",
-          "Missing the future form entirely.",
-          "Will never adds -s, and this needs going to/continuous anyway, not will."
-        ],
-        "explain": "An arranged plan uses the present continuous or going to, not will."
-      },
-      {
-        "use": "Negative",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late.",
-        "choices": [
-          "don't be",
-          "isn't be",
-          "won't be",
-          "not will be"
+          "pass",
+          "passed",
+          "will pass",
+          "are passing"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement aside, this is the wrong negative form entirely — 'won't be', not 'don't be'.",
-          "Not a real form.",
+          "Missing will: a prediction about the exam needs will.",
+          "Wrong tense: the exam is in the future — 'passed' is past.",
           "",
-          "Wrong word order — 'won't be', not 'not will be'."
+          "Wrong form: an opinion about the future ('I'm sure') takes will, not the present continuous."
         ],
-        "explain": "The negative of will is won't, for every subject."
+        "explain": "A prediction based on your opinion ('I'm sure') takes will."
+      },
+      {
+        "use": "Negative",
+        "text": "Don't worry — the dog <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you. He's very friendly.",
+        "choices": [
+          "won't bite",
+          "don't bite",
+          "isn't bite",
+          "not will bite"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong negative: this is a prediction, so use won't — and 'the dog' wouldn't take 'don't' anyway.",
+          "'Isn't' can't go before a base verb — the negative prediction is 'won't bite'.",
+          "Word order: 'not' goes after will and joins it — 'won't bite'."
+        ],
+        "explain": "A negative prediction: won't + base verb."
       },
       {
         "use": "Instant decision",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the salad, please.",
+        "text": "I'm thirsty. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a glass of water.",
         "choices": [
           "have",
-          "will haves",
-          "am having",
-          "will have"
+          "will have",
+          "had",
+          "will has"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
-          "Missing will: a decision made now needs will.",
-          "Will never adds -s — 'will have', not 'will haves'.",
-          "Wrong form: this decision, made right now while ordering, takes will.",
-          ""
+          "Missing will: a decision made now needs will — 'will have'.",
+          "",
+          "Wrong tense: you're deciding now, not talking about the past.",
+          "After will, use the base verb — 'will have', not 'will has'."
         ],
         "explain": "A decision made at the moment of speaking takes will."
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it rain tomorrow?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shops be open on Sunday?",
         "choices": [
           "Does",
-          "Is",
+          "Are",
           "Will",
           "Did"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'does' is present simple, not future.",
-          "Wrong aux: 'is' pairs with the -ing form, not will.",
+          "Wrong aux: 'does' can't go before 'be', and 'the shops' is plural.",
+          "Wrong aux: 'are' can't come before 'be' — 'Are the shops be' is not English.",
           "",
-          "Wrong tense: 'did' is past, not future."
+          "Wrong tense: 'did' is past, but Sunday is in the future."
         ],
-        "explain": "A future prediction question starts with will."
+        "explain": "A future question starts with will."
       }
     ]
   },
@@ -1020,12 +966,15 @@
     "items": [
       {
         "tokens": [
-          "She",
+          "My",
+          "aunt",
           "wills",
-          "come",
-          "tomorrow."
+          "visit",
+          "us",
+          "in",
+          "June."
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "will",
         "type": "Invariant form",
         "message": "Will never adds -s — the same form for every subject."
@@ -1034,8 +983,10 @@
         "tokens": [
           "He",
           "wills",
-          "be",
-          "late."
+          "fix",
+          "the",
+          "computer",
+          "later."
         ],
         "errorIndex": 1,
         "correction": "will",
@@ -1045,33 +996,41 @@
       {
         "tokens": [
           "It",
-          "rain",
-          "tomorrow."
+          "snow",
+          "in",
+          "the",
+          "mountains",
+          "tonight."
         ],
         "errorIndex": 1,
-        "correction": "will rain",
+        "correction": "will snow",
         "type": "Missing will",
-        "message": "A prediction needs will — 'will rain', not just 'rain'."
+        "message": "A prediction needs will — 'will snow', not just 'snow'."
       },
       {
         "tokens": [
           "They",
           "don't",
-          "come",
-          "tomorrow."
+          "finish",
+          "the",
+          "project",
+          "by",
+          "Friday."
         ],
         "errorIndex": 1,
         "correction": "won't",
         "type": "Wrong negative",
-        "message": "The negative of will is won't, not don't."
+        "message": "This is about the future, so the negative is won't, not don't."
       },
       {
         "tokens": [
           "Do",
           "you",
-          "open",
-          "the",
-          "window?"
+          "post",
+          "this",
+          "letter",
+          "for",
+          "me?"
         ],
         "errorIndex": 0,
         "correction": "Will",
@@ -1080,55 +1039,61 @@
       },
       {
         "tokens": [
-          "I",
-          "will meet",
-          "Sara",
-          "tomorrow",
-          "—",
-          "it's",
-          "already",
-          "arranged."
+          "We",
+          "will",
+          "meeting",
+          "you",
+          "at",
+          "the",
+          "station."
         ],
-        "errorIndex": 1,
-        "correction": "am meeting",
-        "type": "Wrong future form",
-        "message": "A plan already arranged uses the present continuous or going to, not will."
+        "errorIndex": 2,
+        "correction": "meet",
+        "type": "Base verb after will",
+        "message": "After will, use the base verb — 'will meet', not 'will meeting'."
       },
       {
         "tokens": [
           "In",
-          "2050,",
-          "cars",
-          "drive",
-          "themselves."
+          "the",
+          "future,",
+          "nobody",
+          "uses",
+          "cash."
         ],
-        "errorIndex": 3,
-        "correction": "will drive",
+        "errorIndex": 4,
+        "correction": "will use",
         "type": "Wrong tense",
-        "message": "A prediction about the future needs will, not the present simple."
+        "message": "A prediction about the future needs will — 'will use', not the present simple."
       },
       {
         "tokens": [
-          "She",
-          "will comes",
-          "tomorrow."
-        ],
-        "errorIndex": 1,
-        "correction": "will come",
-        "type": "Invariant form",
-        "message": "Will never adds -s to the main verb either."
-      },
-      {
-        "tokens": [
-          "I",
+          "Kate",
           "will",
-          "helps",
-          "you."
+          "sings",
+          "at",
+          "the",
+          "party."
         ],
         "errorIndex": 2,
-        "correction": "help",
+        "correction": "sing",
         "type": "Invariant form",
-        "message": "After will, use the base verb with no -s — 'help', not 'helps'."
+        "message": "Will never adds -s to the main verb either — 'will sing'."
+      },
+      {
+        "tokens": [
+          "The",
+          "bus",
+          "will",
+          "leaves",
+          "in",
+          "five",
+          "minutes."
+        ],
+        "errorIndex": 3,
+        "correction": "leave",
+        "type": "Invariant form",
+        "message": "After will, use the base verb with no -s — 'leave', not 'leaves'."
       },
       {
         "tokens": [
@@ -1145,56 +1110,67 @@
       },
       {
         "tokens": [
-          "Does",
-          "it",
-          "rain",
-          "tomorrow?"
+          "Do",
+          "you",
+          "remember",
+          "me",
+          "in",
+          "ten",
+          "years?"
         ],
         "errorIndex": 0,
         "correction": "Will",
         "type": "Wrong tense",
-        "message": "A question about a future prediction starts with 'Will', not 'Does'."
+        "message": "A question about the future starts with 'Will', not 'Do'."
       },
       {
         "tokens": [
-          "I",
-          "not will",
-          "help",
-          "you."
+          "They",
+          "not",
+          "will",
+          "understand",
+          "the",
+          "question."
         ],
         "errorIndex": 1,
         "correction": "won't",
         "type": "Wrong word order",
-        "message": "The negative is 'won't', not 'not will' — one word, not two reordered."
+        "message": "'Not' goes after will: will not → won't.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
-          "She",
+          "Leo",
           "don't",
-          "arrive",
-          "on",
-          "time."
+          "be",
+          "at",
+          "school",
+          "next",
+          "week."
         ],
         "errorIndex": 1,
         "correction": "won't",
         "type": "Wrong negative",
-        "message": "The negative of will is won't, not don't."
+        "message": "'Next week' is the future — the negative of will is won't, not don't."
       },
       {
         "tokens": [
-          "Don't",
-          "worry,",
+          "Wait",
+          "here.",
           "I",
-          "help",
-          "you",
-          "with",
-          "your",
-          "bags."
+          "find",
+          "a",
+          "taxi",
+          "for",
+          "you."
         ],
         "errorIndex": 3,
-        "correction": "will help",
+        "correction": "will find",
         "type": "Missing will",
-        "message": "A spontaneous offer takes will — 'will help', not the present simple."
+        "message": "A spontaneous offer takes will — 'will find', not the present simple."
       },
       {
         "tokens": [
@@ -1211,22 +1187,17 @@
       {
         "tokens": [
           "I",
-          "can't",
-          "come",
-          "tonight",
-          "—",
-          "I",
-          "will visit",
-          "my",
-          "parents,",
-          "it's",
-          "already",
-          "arranged."
+          "think",
+          "you",
+          "pass",
+          "your",
+          "driving",
+          "test."
         ],
-        "errorIndex": 6,
-        "correction": "am visiting",
-        "type": "Wrong future form",
-        "message": "An arranged plan uses the present continuous or going to, not will."
+        "errorIndex": 3,
+        "correction": "will pass",
+        "type": "Missing will",
+        "message": "A prediction with 'I think' needs will — 'you will pass', not the present simple."
       },
       {
         "tokens": [
@@ -1245,39 +1216,49 @@
           "I",
           "promise",
           "I",
-          "call",
-          "you",
-          "tonight."
+          "return",
+          "your",
+          "bike",
+          "tomorrow."
         ],
         "errorIndex": 3,
-        "correction": "will call",
+        "correction": "will return",
         "type": "Missing will",
-        "message": "A promise needs will — 'will call', not just 'call'."
+        "message": "A promise needs will — 'will return', not just 'return'."
       },
       {
         "tokens": [
-          "You",
+          "Your",
+          "friends",
           "wills",
-          "love",
+          "laugh",
+          "at",
           "this",
-          "film."
+          "joke."
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "will",
         "type": "Invariant form",
-        "message": "Will never adds -s, even with 'you'."
+        "message": "Will never adds -s, whatever the subject."
       },
       {
         "tokens": [
-          "He",
-          "not will",
-          "be",
-          "late."
+          "She",
+          "not",
+          "will",
+          "forgive",
+          "him",
+          "this",
+          "time."
         ],
         "errorIndex": 1,
         "correction": "won't",
         "type": "Wrong word order",
-        "message": "The negative is 'won't', not 'not will'."
+        "message": "The negative is 'won't', not 'not will'.",
+        "errorSpan": [
+          1,
+          2
+        ]
       }
     ]
   },
@@ -1302,48 +1283,46 @@
       {
         "type": "fill",
         "use": "Instant decision",
-        "sentText": "Don't worry, I {{blank}} it.",
-        "hint": "get",
+        "sentText": "It's cold in here. I {{blank}} the heating on.",
+        "hint": "turn",
         "answers": [
-          "will get",
-          "'ll get",
-          "ll get"
+          "will turn"
         ],
-        "display": "will get"
+        "display": "will turn",
+        "explain": "A decision made at the moment of speaking."
       },
       {
         "type": "fill",
         "use": "Prediction",
-        "sentText": "I think it {{blank}} tomorrow.",
-        "hint": "rain",
+        "sentText": "I'm sure Max {{blank}} the answer.",
+        "hint": "know",
         "answers": [
-          "will rain",
-          "'ll rain",
-          "ll rain"
+          "will know"
         ],
-        "display": "will rain"
+        "display": "will know",
+        "explain": "A prediction based on your opinion ('I'm sure')."
       },
       {
         "type": "fill",
         "use": "Negative",
-        "sentText": "They {{blank}} tomorrow.",
-        "hint": "not / come",
+        "sentText": "We {{blank}} a taxi — the station is close.",
+        "hint": "not / need",
         "answers": [
-          "won't come"
+          "won't need"
         ],
-        "display": "won't come"
+        "display": "won't need",
+        "explain": "The negative of will is won't, for every subject."
       },
       {
         "type": "fill",
         "use": "Promise",
-        "sentText": "I promise I {{blank}} you tonight.",
-        "hint": "call",
+        "sentText": "I {{blank}} you a postcard from Rome.",
+        "hint": "send",
         "answers": [
-          "will call",
-          "'ll call",
-          "ll call"
+          "will send"
         ],
-        "display": "will call"
+        "display": "will send",
+        "explain": "A promise about the future."
       },
       {
         "type": "order",
@@ -1351,7 +1330,7 @@
         "tokens": [
           "Will",
           "you",
-          "help",
+          "marry",
           "me?"
         ]
       },
@@ -1359,158 +1338,156 @@
         "type": "order",
         "use": "Invariant form",
         "tokens": [
-          "He",
+          "Sam",
           "will",
-          "be",
-          "late",
-          "tonight."
-        ],
-        "alts": [
-          [
-            "tonight.",
-            "He",
-            "will",
-            "be",
-            "late"
-          ]
+          "drive",
+          "us",
+          "home."
         ]
       },
       {
         "type": "order",
         "use": "Prediction",
         "tokens": [
-          "Cars",
+          "Tickets",
           "will",
-          "drive",
-          "themselves."
+          "sell",
+          "out",
+          "fast."
         ]
       },
       {
         "type": "order",
         "use": "Negative",
         "tokens": [
-          "She",
+          "Dinner",
           "won't",
-          "be",
-          "late."
+          "take",
+          "long."
         ]
       },
       {
         "type": "invariant",
         "use": "Invariant form",
-        "text": "He {{blank}} late tonight, I'm sure.",
-        "hintVerb": "(be)",
+        "text": "I'm sure Paul {{blank}} us at the airport.",
+        "hintVerb": "(meet)",
         "choices": [
-          "will be",
-          "will being",
-          "will been",
-          "is will"
+          "will meets",
+          "meets",
+          "will meet",
+          "met"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Will never adds -s — 'will meet', even with 'Paul'.",
+          "Wrong tense: a prediction with 'I'm sure' takes will, not the present simple.",
+          "",
+          "Wrong tense: 'met' is past, but this is about the future."
+        ],
+        "explain": "Will never adds -s — the same form for every subject, including 'Paul'."
+      },
+      {
+        "type": "invariant",
+        "use": "Invariant form",
+        "text": "The baby {{blank}} asleep soon — she's very tired.",
+        "hintVerb": "(fall)",
+        "choices": [
+          "will falls",
+          "fell",
+          "will fall",
+          "falling"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Will never adds -s — 'will fall', not 'will falls'.",
+          "Wrong tense: 'soon' is the future — 'fell' is past.",
+          "",
+          "An -ing form like 'falling' can't be the verb on its own — here you need 'will fall'."
+        ],
+        "explain": "Will never adds -s — 'the baby will fall', not 'will falls'."
+      },
+      {
+        "type": "invariant",
+        "use": "Invariant form",
+        "text": "Jack {{blank}} the race tomorrow — his leg hurts.",
+        "hintVerb": "(not / win)",
+        "choices": [
+          "won't wins",
+          "doesn't win",
+          "won't win",
+          "not will win"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Won't never adds -s — 'won't win', not 'won't wins'.",
+          "Wrong tense: the race is tomorrow — the negative prediction is won't, not doesn't.",
+          "",
+          "Word order: 'not' goes after will and joins it — 'won't win'."
+        ],
+        "explain": "Won't is the same for every subject, including 'Jack'."
+      },
+      {
+        "type": "invariant",
+        "use": "Invariant form",
+        "text": "I {{blank}} my room this weekend, I promise.",
+        "hintVerb": "(tidy)",
+        "choices": [
+          "tidy",
+          "will tidies",
+          "tidied",
+          "will tidy"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Missing will: a promise needs will — 'will tidy'.",
+          "Will never adds -s — 'will tidy', not 'will tidies'.",
+          "Wrong tense: 'this weekend' is in the future — 'tidied' is past.",
+          ""
+        ],
+        "explain": "A promise about the future: will + base verb."
+      },
+      {
+        "type": "mc",
+        "use": "Promise",
+        "text": "Don't worry, I {{blank}} you the money tomorrow.",
+        "choices": [
+          "will give",
+          "give",
+          "gave",
+          "giving"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "After will, use the base verb — 'will be', not 'will being'.",
-          "After will, use the base verb — 'will be', not 'will been'.",
-          "Wrong word order — 'will be', not 'is will'."
-        ]
-      },
-      {
-        "type": "invariant",
-        "use": "Invariant form",
-        "text": "She {{blank}} late tomorrow, I'm sure.",
-        "hintVerb": "(arrive)",
-        "choices": [
-          "will arriving",
-          "arrived",
-          "will arrive",
-          "has arrived"
+          "Missing will: a promise about tomorrow needs will.",
+          "Wrong tense: 'tomorrow' is the future — 'gave' is past.",
+          "An -ing form like 'giving' can't be the verb on its own — here you need 'will give'."
         ],
-        "correct": 2,
-        "wrongReasons": [
-          "After will, use the base verb — 'will arrive', not 'will arriving'.",
-          "Wrong tense: 'tomorrow' needs a future form, not the past simple.",
-          "",
-          "Wrong tense: 'tomorrow' needs a future form, not the present perfect."
-        ]
-      },
-      {
-        "type": "invariant",
-        "use": "Invariant form",
-        "text": "They {{blank}} on time, I think.",
-        "hintVerb": "(not / arrive)",
-        "choices": [
-          "won't arriving",
-          "don't arrive",
-          "won't arrive",
-          "aren't arriving"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "After won't, use the base verb — 'won't arrive', not 'won't arriving'.",
-          "Wrong tense: the negative of will is won't, not don't.",
-          "",
-          "Wrong form: a prediction like this takes won't here."
-        ]
-      },
-      {
-        "type": "invariant",
-        "use": "Invariant form",
-        "text": "I {{blank}} the truth, I promise.",
-        "hintVerb": "(tell)",
-        "choices": [
-          "tell",
-          "will tells",
-          "am telling",
-          "will tell"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Missing will: a promise needs will.",
-          "Will never adds -s — 'will tell', not 'will tells'.",
-          "Wrong form: a promise about the future takes will, not the present continuous.",
-          ""
-        ]
-      },
-      {
-        "type": "mc",
-        "use": "Already-arranged plan",
-        "text": "I {{blank}} Sara tomorrow — we arranged it last week.",
-        "choices": [
-          "will meet",
-          "'m meeting",
-          "meet",
-          "will meets"
-        ],
-        "correct": 1,
-        "wrongReasons": [
-          "Wrong form: a plan already arranged uses going to or the present continuous, not will.",
-          "",
-          "Missing the future form entirely.",
-          "Will never adds -s, and this needs going to/continuous anyway, not will."
-        ]
+        "explain": "A promise about the future."
       },
       {
         "type": "mc",
         "use": "Prediction",
-        "text": "In fifty years, cars {{blank}} themselves.",
+        "text": "In 2050, summers {{blank}} hotter.",
         "choices": [
-          "drive",
-          "will drives",
-          "drives",
-          "will drive"
+          "are",
+          "will is",
+          "will be",
+          "were"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
-          "Wrong tense: a long-term prediction takes will, not the present simple.",
-          "Will never adds -s — 'will drive', not 'will drives'.",
-          "Wrong tense: a prediction about the future takes will, not the present simple.",
-          ""
-        ]
+          "Wrong tense: a prediction about 2050 takes will, not the present simple.",
+          "After will, use the base verb — 'will be', not 'will is'.",
+          "",
+          "Wrong tense: 2050 is in the future — 'were' is past."
+        ],
+        "explain": "A long-term prediction about the future — will, not the present simple."
       },
       {
         "type": "mc",
         "use": "Request",
-        "text": "{{blank}} you open the window?",
+        "text": "{{blank}} you turn the music down, please?",
         "choices": [
           "Do",
           "Will",
@@ -1519,29 +1496,31 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong aux: 'do' doesn't pair with a will-request.",
+          "Wrong aux: 'do' doesn't make a polite request — use will.",
           "",
-          "Wrong aux: 'are' pairs with the -ing form, not will.",
-          "Wrong tense: 'did' is past, not future."
-        ]
+          "Wrong aux: 'are' pairs with the -ing form, not with a base verb like this.",
+          "Wrong tense: 'did' is past, but a request is about what happens next."
+        ],
+        "explain": "A polite request with will — the auxiliary comes first."
       },
       {
         "type": "mc",
         "use": "Instant decision",
-        "text": "OK, I {{blank}} you with your bags.",
+        "text": "I've forgotten my wallet. — Don't worry, I {{blank}} for lunch.",
         "choices": [
-          "help",
-          "will helps",
-          "will help",
-          "am helping"
+          "pay",
+          "will pays",
+          "will pay",
+          "paid"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing will: a decision made now needs will.",
-          "Will never adds -s — 'will help', not 'will helps'.",
+          "Missing will: a decision made now needs will — 'will pay'.",
+          "Will never adds -s — 'will pay', not 'will pays'.",
           "",
-          "Wrong form: this decision, made right now, takes will."
-        ]
+          "Wrong tense: lunch hasn't happened yet — 'paid' is past."
+        ],
+        "explain": "A decision made at the moment of speaking."
       },
       {
         "type": "error",
@@ -1561,32 +1540,37 @@
         "type": "error",
         "use": "Missing will",
         "tokens": [
-          "She",
-          "be",
-          "late",
-          "tomorrow."
+          "Your",
+          "coffee",
+          "get",
+          "cold",
+          "soon."
         ],
-        "errorIndex": 1,
-        "correction": "will be",
-        "message": "A prediction takes will — 'will be'."
+        "errorIndex": 2,
+        "correction": "will get",
+        "message": "A prediction takes will — 'will get', not just 'get'."
       },
       {
         "type": "error",
         "use": "Wrong negative",
         "tokens": [
-          "We",
+          "I'm",
+          "sure",
+          "my",
+          "parents",
           "don't",
+          "let",
+          "me",
           "go",
-          "out",
-          "tonight",
-          "because",
-          "of",
+          "to",
           "the",
-          "rain."
+          "concert",
+          "on",
+          "Saturday."
         ],
-        "errorIndex": 1,
+        "errorIndex": 4,
         "correction": "won't",
-        "message": "The negative of will is won't, not don't."
+        "message": "A prediction about Saturday ('I'm sure') takes won't, not don't."
       },
       {
         "type": "error",
@@ -1594,15 +1578,15 @@
         "tokens": [
           "In",
           "2100,",
-          "robots",
-          "do",
-          "all",
-          "the",
-          "work."
+          "most",
+          "children",
+          "study",
+          "at",
+          "home."
         ],
-        "errorIndex": 3,
-        "correction": "will do",
-        "message": "A prediction about the distant future takes will — 'will do'."
+        "errorIndex": 4,
+        "correction": "will study",
+        "message": "A prediction about the distant future takes will — 'will study'."
       }
     ]
   }

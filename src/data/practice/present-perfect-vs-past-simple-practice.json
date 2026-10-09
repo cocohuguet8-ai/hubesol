@@ -63,7 +63,7 @@
         "use": "Question — when",
         "kind": "question",
         "before": "When",
-        "after": "you arrive?",
+        "after": "you arrive? Was the flight OK?",
         "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
@@ -138,32 +138,32 @@
       {
         "use": "Negative — unspecified time",
         "kind": "statement",
-        "before": "I",
-        "after": "that film yet.",
-        "hint": "not / see",
+        "before": "Sorry, I",
+        "after": "your email yet — I'll read it tonight.",
+        "hint": "not / read",
         "answers": [
-          "haven't seen"
+          "haven't read"
         ],
-        "display": "haven't seen",
+        "display": "haven't read",
         "explain": "'Yet' signals the present perfect, even in the negative."
       },
       {
         "use": "Negative — finished time",
         "kind": "statement",
-        "before": "I",
-        "after": "him yesterday.",
-        "hint": "not / see",
+        "before": "Tom",
+        "after": "to school last Friday because he was ill.",
+        "hint": "not / go",
         "answers": [
-          "didn't see"
+          "didn't go"
         ],
-        "display": "didn't see",
-        "explain": "'Yesterday' is a finished time — use the past simple, even in the negative."
+        "display": "didn't go",
+        "explain": "'Last Friday' is a finished time — use the past simple, even in the negative."
       },
       {
         "use": "Continuing situation",
         "kind": "statement",
         "before": "I",
-        "after": "here for five years.",
+        "after": "here for five years, and I still love it.",
         "hint": "work",
         "answers": [
           "have worked",
@@ -176,14 +176,14 @@
       {
         "use": "Finished — no longer true",
         "kind": "statement",
-        "before": "I",
-        "after": "here for five years, but I don't anymore.",
-        "hint": "work",
+        "before": "My grandad",
+        "after": "a taxi for twenty years, but he's retired now.",
+        "hint": "drive",
         "answers": [
-          "worked"
+          "drove"
         ],
-        "display": "worked",
-        "explain": "The situation is over now — use the past simple, even with 'for'."
+        "display": "drove",
+        "explain": "He doesn't drive a taxi now — the situation is over, so use the past simple, even with 'for'."
       },
       {
         "use": "Question — ever",
@@ -214,26 +214,26 @@
       {
         "use": "Finished time — ago",
         "kind": "statement",
-        "before": "I",
-        "after": "my homework an hour ago.",
-        "hint": "finish",
+        "before": "My sister",
+        "after": "her driving test three weeks ago.",
+        "hint": "pass",
         "answers": [
-          "finished"
+          "passed"
         ],
-        "display": "finished",
-        "explain": "'Ago' names a finished time — use the past simple."
+        "display": "passed",
+        "explain": "'Three weeks ago' names a finished time — use the past simple."
       },
       {
         "use": "Unspecified time — just",
         "kind": "statement",
-        "before": "The train",
+        "before": "Oh no! The train",
         "after": ".",
         "hint": "just / leave",
         "answers": [
           "has just left"
         ],
         "display": "has just left",
-        "explain": "'Just' signals the present perfect."
+        "explain": "'Just' + a result now (you've missed it) — present perfect."
       },
       {
         "use": "Finished time",
@@ -251,13 +251,13 @@
         "use": "Negative — continuing situation",
         "kind": "statement",
         "before": "I",
-        "after": "him since Monday.",
-        "hint": "not / see",
+        "after": "to the gym since January.",
+        "hint": "not / be",
         "answers": [
-          "haven't seen"
+          "haven't been"
         ],
-        "display": "haven't seen",
-        "explain": "'Since Monday' with a situation continuing to now — present perfect, even negative."
+        "display": "haven't been",
+        "explain": "'Since January' with a situation continuing to now — present perfect, even in the negative."
       },
       {
         "use": "Finished time",
@@ -280,19 +280,23 @@
       {
         "use": "Finished time",
         "tokens": [
-          "I",
-          "visited",
-          "Rome",
+          "My",
+          "parents",
+          "bought",
+          "this",
+          "house",
           "in",
-          "2019."
+          "1998."
         ],
         "alts": [
           [
             "in",
-            "2019.",
-            "I",
-            "visited",
-            "Rome"
+            "1998.",
+            "My",
+            "parents",
+            "bought",
+            "this",
+            "house"
           ]
         ]
       },
@@ -300,27 +304,35 @@
         "use": "Unspecified time",
         "tokens": [
           "I've",
-          "seen",
-          "that",
-          "film."
+          "used",
+          "this",
+          "app",
+          "many",
+          "times."
         ]
       },
       {
         "use": "Continuing situation",
         "tokens": [
-          "We've",
-          "lived",
-          "here",
+          "My",
+          "brother",
+          "has",
+          "played",
+          "the",
+          "guitar",
           "since",
-          "2020."
+          "2018."
         ],
         "alts": [
           [
             "since",
-            "2020.",
-            "We've",
-            "lived",
-            "here"
+            "2018.",
+            "My",
+            "brother",
+            "has",
+            "played",
+            "the",
+            "guitar"
           ]
         ]
       },
@@ -329,102 +341,116 @@
         "tokens": [
           "When",
           "did",
-          "you",
-          "arrive?"
+          "they",
+          "open",
+          "the",
+          "new",
+          "café?"
         ]
       },
       {
         "use": "Result now",
         "tokens": [
           "I've",
-          "lost",
+          "forgotten",
           "my",
-          "keys."
+          "password."
         ]
       },
       {
         "use": "Finished time",
         "tokens": [
           "We",
-          "watched",
+          "went",
+          "to",
           "the",
-          "match",
+          "beach",
           "last",
-          "night."
+          "Sunday."
         ],
         "alts": [
           [
             "last",
-            "night.",
+            "Sunday.",
             "We",
-            "watched",
+            "went",
+            "to",
             "the",
-            "match"
+            "beach"
           ]
         ]
       },
       {
         "use": "Unspecified time — never",
         "tokens": [
-          "I've",
+          "My",
+          "dad",
+          "has",
           "never",
-          "tried",
-          "sushi."
+          "smoked."
         ]
       },
       {
         "use": "Result now",
         "tokens": [
-          "She's",
-          "broken",
-          "her",
-          "arm."
+          "I've",
+          "cut",
+          "my",
+          "finger."
         ]
       },
       {
         "use": "Finished time",
         "tokens": [
-          "I",
-          "saw",
-          "him",
-          "yesterday."
+          "She",
+          "phoned",
+          "me",
+          "on",
+          "Saturday."
         ],
         "alts": [
           [
-            "yesterday.",
-            "I",
-            "saw",
-            "him"
+            "on",
+            "Saturday.",
+            "She",
+            "phoned",
+            "me"
           ]
         ]
       },
       {
         "use": "Negative — unspecified time",
         "tokens": [
-          "I",
+          "We",
           "haven't",
-          "seen",
-          "that",
-          "film",
+          "booked",
+          "our",
+          "holiday",
           "yet."
         ]
       },
       {
         "use": "Negative — finished time",
         "tokens": [
-          "I",
+          "He",
           "didn't",
-          "see",
-          "him",
-          "yesterday."
+          "come",
+          "to",
+          "the",
+          "party",
+          "on",
+          "Friday."
         ],
         "alts": [
           [
-            "yesterday.",
-            "I",
+            "on",
+            "Friday.",
+            "He",
             "didn't",
-            "see",
-            "him"
+            "come",
+            "to",
+            "the",
+            "party"
           ]
         ]
       },
@@ -432,20 +458,22 @@
         "use": "Continuing situation",
         "tokens": [
           "I've",
-          "worked",
-          "here",
+          "had",
+          "this",
+          "phone",
           "for",
-          "five",
+          "three",
           "years."
         ],
         "alts": [
           [
             "for",
-            "five",
+            "three",
             "years.",
             "I've",
-            "worked",
-            "here"
+            "had",
+            "this",
+            "phone"
           ]
         ]
       },
@@ -455,41 +483,43 @@
           "Have",
           "you",
           "ever",
-          "been",
-          "to",
-          "Japan?"
+          "ridden",
+          "a",
+          "horse?"
         ]
       },
       {
         "use": "Unspecified time — already",
         "tokens": [
-          "I've",
+          "The",
+          "concert",
+          "has",
           "already",
-          "finished",
-          "my",
-          "homework."
+          "started."
         ]
       },
       {
         "use": "Finished time — ago",
         "tokens": [
-          "I",
-          "finished",
-          "my",
-          "homework",
-          "an",
-          "hour",
+          "My",
+          "cousin",
+          "moved",
+          "to",
+          "Canada",
+          "a",
+          "month",
           "ago."
         ],
         "alts": [
           [
-            "an",
-            "hour",
+            "a",
+            "month",
             "ago.",
-            "I",
-            "finished",
-            "my",
-            "homework"
+            "My",
+            "cousin",
+            "moved",
+            "to",
+            "Canada"
           ]
         ]
       },
@@ -497,74 +527,70 @@
         "use": "Unspecified time — just",
         "tokens": [
           "The",
-          "train",
+          "rain",
           "has",
           "just",
-          "left."
-        ]
-      },
-      {
-        "use": "Finished time",
-        "tokens": [
-          "I",
-          "visited",
-          "my",
-          "grandmother",
-          "last",
-          "week."
-        ],
-        "alts": [
-          [
-            "last",
-            "week.",
-            "I",
-            "visited",
-            "my",
-            "grandmother"
-          ]
-        ]
-      },
-      {
-        "use": "Negative — continuing situation",
-        "tokens": [
-          "I",
-          "haven't",
-          "seen",
-          "him",
-          "since",
-          "Monday."
-        ],
-        "alts": [
-          [
-            "since",
-            "Monday.",
-            "I",
-            "haven't",
-            "seen",
-            "him"
-          ]
+          "stopped."
         ]
       },
       {
         "use": "Finished time",
         "tokens": [
           "They",
-          "finished",
-          "the",
-          "project",
-          "two",
-          "days",
-          "ago."
+          "got",
+          "married",
+          "last",
+          "summer."
         ],
         "alts": [
           [
-            "two",
-            "days",
-            "ago.",
+            "last",
+            "summer.",
             "They",
-            "finished",
+            "got",
+            "married"
+          ]
+        ]
+      },
+      {
+        "use": "Negative — continuing situation",
+        "tokens": [
+          "We",
+          "haven't",
+          "eaten",
+          "anything",
+          "since",
+          "breakfast."
+        ],
+        "alts": [
+          [
+            "since",
+            "breakfast.",
+            "We",
+            "haven't",
+            "eaten",
+            "anything"
+          ]
+        ]
+      },
+      {
+        "use": "Finished time",
+        "tokens": [
+          "Dad",
+          "washed",
+          "the",
+          "car",
+          "yesterday",
+          "afternoon."
+        ],
+        "alts": [
+          [
+            "yesterday",
+            "afternoon.",
+            "Dad",
+            "washed",
             "the",
-            "project"
+            "car"
           ]
         ]
       },
@@ -600,7 +626,7 @@
         "right": "Past Simple"
       },
       {
-        "left": "ago",
+        "left": "when I was a child",
         "right": "Past Simple"
       },
       {
@@ -608,7 +634,7 @@
         "right": "Past Simple"
       },
       {
-        "left": "last night",
+        "left": "the day before yesterday",
         "right": "Past Simple"
       },
       {
@@ -616,7 +642,7 @@
         "right": "Past Simple"
       },
       {
-        "left": "an hour ago",
+        "left": "at 8 o'clock this morning",
         "right": "Past Simple"
       },
       {
@@ -624,11 +650,11 @@
         "right": "Present Perfect"
       },
       {
-        "left": "never",
+        "left": "up to now",
         "right": "Present Perfect"
       },
       {
-        "left": "just",
+        "left": "lately",
         "right": "Present Perfect"
       },
       {
@@ -644,11 +670,11 @@
         "right": "Present Perfect"
       },
       {
-        "left": "for five years",
+        "left": "so far",
         "right": "Present Perfect"
       },
       {
-        "left": "since Monday",
+        "left": "it's the first time...",
         "right": "Present Perfect"
       },
       {
@@ -660,11 +686,11 @@
         "right": "Present Perfect"
       },
       {
-        "left": "last Sunday",
+        "left": "on my tenth birthday",
         "right": "Past Simple"
       },
       {
-        "left": "in 1990",
+        "left": "the other day",
         "right": "Past Simple"
       }
     ]
@@ -677,327 +703,327 @@
     "questions": [
       {
         "use": "Finished time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Rome in 2019.",
+        "text": "The Titanic <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in 1912.",
         "choices": [
-          "visited",
-          "have visited",
-          "have been visiting",
-          "visits"
+          "sank",
+          "has sunk",
+          "has sank",
+          "sinks"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'in 2019' is a finished time — use the past simple, not the present perfect.",
-          "Wrong tense: 'in 2019' is a finished time — use the past simple, not the continuous.",
-          "Wrong tense: this needs the past, not the present simple."
+          "Wrong tense: 'in 1912' is a finished time — use the past simple, not the present perfect.",
+          "Wrong tense and form: 'in 1912' needs the past simple — and the participle is 'sunk', not 'sank'.",
+          "Wrong tense: this needs the past simple, not the present simple."
         ],
-        "explain": "'In 2019' is a finished time — past simple."
+        "explain": "'In 1912' is a finished time — past simple."
       },
       {
         "use": "Unspecified time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that film already.",
+        "text": "My brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three marathons in his life, and he wants to run another one.",
         "choices": [
-          "have seen",
-          "saw",
-          "has seen",
-          "see"
+          "ran",
+          "has run",
+          "has ran",
+          "runs"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
+          "Wrong tense: 'in his life' is not finished — he's still running — so use the present perfect, not the past simple.",
           "",
-          "Wrong tense: no specific time is given — this is an experience, so use the present perfect, not the past simple.",
-          "Subject-verb agreement: with 'I', use 'have', not 'has'.",
-          "Wrong tense: this needs the present perfect, not the present simple."
+          "Wrong form: after 'has', use the participle 'run', not 'ran'.",
+          "Wrong tense: this is his experience up to now — the present perfect, not the present simple."
         ],
-        "explain": "No specific time — an experience takes the present perfect."
+        "explain": "Experience up to now ('in his life', and he still runs) — present perfect."
       },
       {
         "use": "Question — when",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you arrive?",
+        "text": "When <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you buy that jacket?",
         "choices": [
-          "Have",
-          "Has",
-          "Did",
-          "Do"
+          "have",
+          "has",
+          "did",
+          "are"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: 'when' asks for a specific time — it takes the past simple, not the present perfect.",
-          "Wrong tense: 'when' asks for a specific time — it takes the past simple, not the present perfect.",
+          "Wrong tense and agreement: 'when' takes the past simple — and 'you' never takes 'has'.",
           "",
-          "Wrong tense: this needs the past simple, not the present simple."
+          "Wrong auxiliary: 'are' can't go with the base verb 'buy' — 'when' needs 'did'."
         ],
-        "explain": "'When' asks for a specific time — past simple."
+        "explain": "'When' asks for a specific time — past simple: 'When did you buy…?'"
       },
       {
         "use": "Continuing situation",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> here since 2020.",
+        "text": "Lucy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her best friend since nursery school.",
         "choices": [
-          "have lived",
-          "lived",
-          "live",
-          "are living"
+          "knew",
+          "knows",
+          "is knowing",
+          "has known"
         ],
-        "correct": 0,
+        "correct": 3,
         "wrongReasons": [
-          "",
-          "Wrong tense: 'since 2020' with a situation that continues needs the present perfect, not the past simple.",
-          "Wrong tense: 'since' with a continuing situation needs the present perfect, not the present simple.",
-          "Wrong tense: 'since' with a continuing situation needs the present perfect, not the present continuous."
+          "Wrong tense: 'since' with a friendship that continues needs the present perfect, not the past simple.",
+          "Wrong tense: 'since' links the past to now — the present simple can't do that.",
+          "Wrong form: 'know' isn't used in the continuous, and 'since' needs the present perfect.",
+          ""
         ],
-        "explain": "'Since 2020' with a continuing situation — present perfect."
+        "explain": "'Since nursery school' with a situation that continues — present perfect."
       },
       {
         "use": "Result now",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys — I can't get in.",
+        "text": "Oh no! Somebody <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my bike — it isn't here!",
         "choices": [
-          "have lost",
-          "lost",
-          "am losing",
-          "lose"
+          "has stolen",
+          "stole",
+          "have stolen",
+          "steals"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: a recent action with a visible result now needs the present perfect, not the past simple.",
-          "Wrong tense: this needs the present perfect, not the present continuous.",
+          "Wrong tense: the result is here now (the bike is missing) — use the present perfect, not the past simple.",
+          "Subject-verb agreement: with 'somebody', use 'has', not 'have'.",
           "Wrong tense: this needs the present perfect, not the present simple."
+        ],
+        "explain": "A recent action with a result now (no bike!) — present perfect."
+      },
+      {
+        "use": "Finished time",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> camping in the mountains last weekend.",
+        "choices": [
+          "have gone",
+          "went",
+          "go",
+          "have been going"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: 'last weekend' is a finished time — use the past simple, not the present perfect.",
+          "",
+          "Wrong tense: this needs the past simple, not the present simple.",
+          "Wrong tense: 'last weekend' is a finished time — use the past simple, not the present perfect continuous."
+        ],
+        "explain": "'Last weekend' is a finished time — past simple."
+      },
+      {
+        "use": "Unspecified time — never",
+        "text": "My uncle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a mobile phone — he says he doesn't need one.",
+        "choices": [
+          "never had",
+          "never have",
+          "has never had",
+          "have never had"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: he's still alive and still has no phone — 'never' up to now needs the present perfect, not the past simple.",
+          "Wrong tense and agreement: this needs the present perfect, and 'my uncle' takes 'has'.",
+          "",
+          "Subject-verb agreement: with 'my uncle', use 'has', not 'have'."
+        ],
+        "explain": "'Never' up to now — present perfect."
+      },
+      {
+        "use": "Result now",
+        "text": "Look! The cat <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all the milk — the bowl is empty.",
+        "choices": [
+          "drank",
+          "has drank",
+          "drinks",
+          "has drunk"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: 'Look!' + a result you can see now (an empty bowl) needs the present perfect, not the past simple.",
+          "Wrong form: after 'has', use the participle 'drunk', not the past simple 'drank'.",
+          "Wrong tense: this needs the present perfect, not the present simple.",
+          ""
         ],
         "explain": "A recent action with a visible result now — present perfect."
       },
       {
         "use": "Finished time",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the match last night.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a really strange dream last night.",
         "choices": [
-          "watched",
-          "have watched",
-          "have been watching",
-          "watch"
+          "had",
+          "have had",
+          "has had",
+          "have"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: 'last night' is a finished time — use the past simple, not the present perfect.",
-          "Wrong tense: 'last night' is a finished time — use the past simple, not the continuous.",
-          "Wrong tense: this needs the past, not the present simple."
+          "Wrong tense and agreement: 'last night' needs the past simple — and 'I' never takes 'has'.",
+          "Wrong tense: this needs the past simple, not the present simple."
         ],
         "explain": "'Last night' is a finished time — past simple."
       },
       {
-        "use": "Unspecified time — never",
-        "text": "Up to now, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sushi.",
-        "choices": [
-          "never tried",
-          "has never tried",
-          "have never tried",
-          "am never trying"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Wrong tense: 'never' signals an experience with no specific time — present perfect, not past simple.",
-          "Subject-verb agreement: with 'I', use 'have', not 'has'.",
-          "",
-          "Wrong tense: this needs the present perfect, not the present continuous."
-        ],
-        "explain": "'Never' signals an experience — present perfect."
-      },
-      {
-        "use": "Result now",
-        "text": "Look! She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her arm!",
-        "choices": [
-          "broke",
-          "have broken",
-          "has broken",
-          "breaks"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Wrong tense: a recent action with a visible result now needs the present perfect, not the past simple.",
-          "Subject-verb agreement: with 'she', use 'has', not 'have'.",
-          "",
-          "Wrong tense: this needs the present perfect, not the present simple."
-        ],
-        "explain": "A recent action with a visible result now — present perfect."
-      },
-      {
-        "use": "Finished time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him yesterday.",
-        "choices": [
-          "have seen",
-          "has seen",
-          "saw",
-          "see"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Wrong tense: 'yesterday' is a finished time — use the past simple, not the present perfect.",
-          "Wrong tense: 'yesterday' is a finished time — use the past simple, not the present perfect.",
-          "",
-          "Wrong tense: this needs the past, not the present simple."
-        ],
-        "explain": "'Yesterday' is a finished time — past simple."
-      },
-      {
         "use": "Negative — unspecified time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that film yet.",
+        "text": "Don't take the plates away — Sam <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his dinner yet.",
         "choices": [
-          "didn't see",
-          "don't see",
-          "hasn't seen",
-          "haven't seen"
+          "didn't eat",
+          "hasn't eaten",
+          "haven't eaten",
+          "doesn't eat"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'yet' signals the present perfect, even in the negative.",
-          "Wrong tense: this needs the present perfect, not the present simple.",
-          "Subject-verb agreement: with 'I', use 'haven't', not 'hasn't'.",
-          ""
+          "Wrong tense: in British English, 'yet' signals the present perfect, even in the negative.",
+          "",
+          "Subject-verb agreement: with 'Sam', use 'hasn't', not 'haven't'.",
+          "Wrong tense: 'yet' needs the present perfect, not the present simple."
         ],
         "explain": "'Yet' signals the present perfect, even negative."
       },
       {
         "use": "Continuing situation",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> here for five years.",
+        "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married for thirty years, and they're still happy.",
         "choices": [
-          "worked",
-          "am working",
-          "work",
-          "have worked"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Wrong tense: 'for five years' with a job you still have needs the present perfect, not the past simple.",
-          "Wrong tense: this needs the present perfect, not the present continuous.",
-          "Wrong tense: this needs the present perfect, not the present simple.",
-          ""
-        ],
-        "explain": "'For five years' with a continuing situation — present perfect."
-      },
-      {
-        "use": "Question — ever",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you ever been to Japan?",
-        "choices": [
-          "Did",
-          "Do",
-          "Have",
-          "Are"
+          "were",
+          "are",
+          "have been",
+          "has been"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'ever' signals the present perfect, not the past simple.",
-          "Wrong tense: 'ever' signals the present perfect, not the present simple.",
+          "Wrong tense: they are still married — 'for thirty years' up to now needs the present perfect, not the past simple.",
+          "Wrong tense: 'for thirty years' up to now needs the present perfect, not the present simple.",
           "",
-          "Wrong aux: 'are' doesn't pair with 'been' this way."
+          "Subject-verb agreement: with 'my parents', use 'have', not 'has'."
         ],
-        "explain": "'Ever' signals the present perfect."
+        "explain": "'For thirty years' with a situation that continues — present perfect."
       },
       {
-        "use": "Unspecified time — already",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my homework already.",
+        "use": "Question — ever",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your dad ever cooked dinner for the whole family?",
         "choices": [
-          "finished",
-          "finish",
-          "has finished",
-          "have finished"
+          "Did",
+          "Have",
+          "Does",
+          "Has"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'already' signals the present perfect, not the past simple.",
-          "Wrong tense: this needs the present perfect, not the present simple.",
-          "Subject-verb agreement: with 'I', use 'have', not 'has'.",
+          "Wrong tense: 'ever' asks about experience up to now — present perfect, not past simple (and 'cooked' would be 'cook').",
+          "Subject-verb agreement: with 'your dad', use 'has', not 'have'.",
+          "Wrong tense: 'ever' + 'cooked' needs the present perfect, not the present simple.",
           ""
+        ],
+        "explain": "'Ever' signals the present perfect: 'Has your dad ever cooked…?'"
+      },
+      {
+        "use": "Unspecified time — already",
+        "text": "Don't cook tonight — Mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a pizza already.",
+        "choices": [
+          "has ordered",
+          "ordered",
+          "have ordered",
+          "orders"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: in British English, 'already' signals the present perfect, not the past simple.",
+          "Subject-verb agreement: with 'Mum', use 'has', not 'have'.",
+          "Wrong tense: 'already' needs the present perfect, not the present simple."
         ],
         "explain": "'Already' signals the present perfect."
       },
       {
         "use": "Finished time — ago",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my homework an hour ago.",
+        "text": "My friend <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me a message ten minutes ago.",
         "choices": [
-          "have finished",
-          "finish",
-          "has finished",
-          "finished"
+          "has sent",
+          "have sent",
+          "sent",
+          "sends"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "Wrong tense: 'ago' names a finished time — use the past simple, not the present perfect.",
-          "Wrong tense: this needs the past, not the present simple.",
-          "Wrong tense: 'ago' names a finished time — use the past simple.",
-          ""
+          "Wrong tense and agreement: 'ago' needs the past simple — and 'my friend' would take 'has'.",
+          "",
+          "Wrong tense: this needs the past simple, not the present simple."
         ],
         "explain": "'Ago' names a finished time — past simple."
       },
       {
         "use": "Unspecified time — just",
-        "text": "The train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "text": "Be careful — I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the floor, and it's still wet.",
         "choices": [
-          "have just left",
-          "is just leaving",
-          "just leaves",
-          "has just left"
+          "has just cleaned",
+          "have just clean",
+          "just clean",
+          "have just cleaned"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: with 'the train', use 'has', not 'have'.",
-          "Wrong tense: 'just' signals the present perfect, not the present continuous.",
-          "Wrong tense: 'just' signals the present perfect, not the present simple.",
+          "Subject-verb agreement: with 'I', use 'have', not 'has'.",
+          "Wrong form: after 'have', use the participle 'cleaned', not the base verb 'clean'.",
+          "Wrong tense: the floor is wet now because of a very recent action — present perfect with 'just', not the present simple.",
           ""
         ],
-        "explain": "'Just' signals the present perfect."
+        "explain": "'Just' + a result now (the wet floor) — present perfect."
       },
       {
         "use": "Finished time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my grandmother last week.",
+        "text": "Mozart <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his first piece of music when he was five.",
         "choices": [
-          "have visited",
-          "visited",
-          "have been visiting",
-          "visit"
+          "wrote",
+          "has written",
+          "has wrote",
+          "writes"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong tense: 'last week' is a finished time — use the past simple, not the present perfect.",
           "",
-          "Wrong tense: 'last week' is a finished time — use the past simple, not the continuous.",
-          "Wrong tense: this needs the past, not the present simple."
+          "Wrong tense: 'when he was five' is a finished time — use the past simple, not the present perfect.",
+          "Wrong tense and form: this needs the past simple — and the participle would be 'written', not 'wrote'.",
+          "Wrong tense: this needs the past simple, not the present simple."
         ],
-        "explain": "'Last week' is a finished time — past simple."
+        "explain": "'When he was five' is a finished time — past simple."
       },
       {
         "use": "Negative — continuing situation",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him since Monday.",
+        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for three weeks, and the garden is very dry.",
         "choices": [
-          "didn't see",
-          "haven't seen",
-          "hasn't seen",
-          "don't see"
+          "didn't rain",
+          "doesn't rain",
+          "haven't rained",
+          "hasn't rained"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'since Monday' with a continuing situation needs the present perfect, even negative.",
-          "",
-          "Subject-verb agreement: with 'I', use 'haven't', not 'hasn't'.",
-          "Wrong tense: this needs the present perfect, not the present simple."
+          "Wrong tense: 'for three weeks' up to now (the garden is still dry) needs the present perfect, even negative.",
+          "Wrong tense: 'for three weeks' up to now needs the present perfect, not the present simple.",
+          "Subject-verb agreement: with 'it', use 'hasn't', not 'haven't'.",
+          ""
         ],
-        "explain": "'Since Monday' — present perfect, even in the negative."
+        "explain": "'For three weeks' up to now — present perfect, even in the negative."
       },
       {
         "use": "Finished time",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the project two days ago.",
+        "text": "My team <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the final last Saturday.",
         "choices": [
-          "have finished",
-          "finished",
-          "has finished",
-          "finish"
+          "have won",
+          "has won",
+          "won",
+          "win"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'two days ago' is a finished time — use the past simple, not the present perfect.",
+          "Wrong tense: 'last Saturday' is a finished time — use the past simple, not the present perfect.",
+          "Wrong tense: 'last Saturday' is a finished time — use the past simple, not the present perfect.",
           "",
-          "Wrong tense and agreement: 'two days ago' takes the past simple, and 'they' takes no -s anyway.",
-          "Wrong tense: this needs the past, not the present simple."
+          "Wrong tense: this needs the past simple, not the present simple."
         ],
-        "explain": "'Two days ago' is a finished time — past simple."
+        "explain": "'Last Saturday' is a finished time — past simple."
       },
       {
         "use": "Continuing situation",
@@ -1019,21 +1045,21 @@
       },
       {
         "use": "Negative — finished time",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him yesterday.",
+        "text": "Sorry, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your call last night — my phone was off.",
         "choices": [
-          "haven't seen",
-          "didn't see",
-          "hasn't seen",
-          "don't see"
+          "haven't answered",
+          "didn't answer",
+          "don't answer",
+          "hasn't answered"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'yesterday' is a finished time — use the past simple, even negative.",
+          "Wrong tense: 'last night' is a finished time — use the past simple, even negative.",
           "",
-          "Subject-verb agreement: with 'I', use 'haven't', not 'hasn't' — but the tense is wrong either way.",
-          "Wrong tense: this needs the past, not the present simple."
+          "Wrong tense: this needs the past simple, not the present simple.",
+          "Wrong tense and agreement: 'last night' needs the past simple — and 'I' never takes 'hasn't'."
         ],
-        "explain": "'Yesterday' is a finished time — past simple, even negative."
+        "explain": "'Last night' is a finished time — past simple, even negative."
       }
     ]
   },
@@ -1043,274 +1069,352 @@
     "items": [
       {
         "tokens": [
-          "I",
-          "have seen",
-          "him",
-          "yesterday."
-        ],
-        "errorIndex": 1,
-        "correction": "saw",
-        "type": "Wrong tense",
-        "message": "'Yesterday' is a finished time — use the past simple, not the present perfect."
-      },
-      {
-        "tokens": [
-          "She",
-          "has broken",
-          "her",
-          "arm",
+          "My",
+          "sister",
+          "has",
+          "started",
+          "university",
           "last",
-          "week."
+          "autumn."
         ],
-        "errorIndex": 1,
-        "correction": "broke",
+        "errorIndex": 2,
+        "correction": "started",
         "type": "Wrong tense",
-        "message": "'Last week' is a finished time — use the past simple."
+        "message": "'Last autumn' is a finished time — use the past simple, not the present perfect.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
-          "We",
-          "have watched",
-          "the",
-          "match",
-          "last",
-          "night."
-        ],
-        "errorIndex": 1,
-        "correction": "watched",
-        "type": "Wrong tense",
-        "message": "'Last night' is a finished time — use the past simple."
-      },
-      {
-        "tokens": [
-          "I",
-          "have visited",
-          "Rome",
+          "Columbus",
+          "has",
+          "reached",
+          "America",
           "in",
-          "2019."
+          "1492."
         ],
         "errorIndex": 1,
-        "correction": "visited",
+        "correction": "reached",
         "type": "Wrong tense",
-        "message": "'In 2019' is a finished time — use the past simple."
+        "message": "'In 1492' is a finished time — use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
           "They",
-          "have finished",
-          "the",
-          "project",
-          "two",
-          "days",
+          "have",
+          "played",
+          "tennis",
+          "last",
+          "Tuesday."
+        ],
+        "errorIndex": 1,
+        "correction": "played",
+        "type": "Wrong tense",
+        "message": "'Last Tuesday' is a finished time — use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "Our",
+          "teacher",
+          "has",
+          "given",
+          "us",
+          "a",
+          "test",
+          "last",
+          "Friday."
+        ],
+        "errorIndex": 2,
+        "correction": "gave",
+        "type": "Wrong tense",
+        "message": "'Last Friday' is a finished time — use the past simple: 'gave'.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "left",
+          "school",
+          "three",
+          "years",
           "ago."
         ],
         "errorIndex": 1,
-        "correction": "finished",
+        "correction": "left",
         "type": "Wrong tense",
-        "message": "'Two days ago' is a finished time — use the past simple."
+        "message": "'Three years ago' is a finished time — use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
           "When",
-          "have you arrived",
+          "have",
+          "you",
+          "learned",
+          "to",
+          "cook?"
+        ],
+        "errorIndex": 1,
+        "correction": "did you learn",
+        "type": "Wrong tense",
+        "message": "'When' asks for a specific time — it takes the past simple, not the present perfect.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "When",
+          "has",
+          "she",
+          "called",
+          "you?"
+        ],
+        "errorIndex": 1,
+        "correction": "did she call",
+        "type": "Wrong tense",
+        "message": "'When' asks for a specific time — it takes the past simple, not the present perfect.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "Our",
+          "dog",
+          "is",
+          "ill",
+          "since",
+          "Saturday."
+        ],
+        "errorIndex": 2,
+        "correction": "has been",
+        "type": "Wrong tense",
+        "message": "With 'since' and a situation that continues, use the present perfect: 'has been ill'."
+      },
+      {
+        "tokens": [
+          "She",
+          "works",
           "at",
           "the",
-          "station?"
-        ],
-        "errorIndex": 1,
-        "correction": "did you arrive",
-        "type": "Wrong tense",
-        "message": "'When' asks for a specific time — it takes the past simple, not the present perfect."
-      },
-      {
-        "tokens": [
-          "When",
-          "has she left",
-          "the",
-          "office",
-          "today?"
-        ],
-        "errorIndex": 1,
-        "correction": "did she leave",
-        "type": "Wrong tense",
-        "message": "'When' asks for a specific time — it takes the past simple, not the present perfect."
-      },
-      {
-        "tokens": [
-          "I",
-          "live",
-          "here",
+          "hospital",
           "since",
-          "2020."
+          "2019."
         ],
         "errorIndex": 1,
-        "correction": "have lived",
+        "correction": "has worked",
         "type": "Wrong tense",
         "message": "With 'since' and a situation that continues, use the present perfect."
       },
       {
         "tokens": [
           "She",
-          "lives",
-          "in",
-          "Paris",
-          "since",
-          "2015."
-        ],
-        "errorIndex": 1,
-        "correction": "has lived",
-        "type": "Wrong tense",
-        "message": "With 'since' and a situation that continues, use the present perfect."
-      },
-      {
-        "tokens": [
-          "I",
-          "worked",
-          "here",
+          "taught",
+          "at",
+          "this",
+          "school",
           "for",
-          "five",
+          "twenty",
           "years",
           "and",
-          "I",
+          "she",
           "still",
-          "do."
+          "does."
         ],
         "errorIndex": 1,
-        "correction": "have worked",
+        "correction": "has taught",
         "type": "Wrong tense",
-        "message": "The job still continues, so 'for five years' needs the present perfect."
+        "message": "She still teaches there, so 'for twenty years' needs the present perfect."
       },
       {
         "tokens": [
-          "I",
-          "finished",
-          "my",
-          "homework",
+          "They",
+          "sold",
+          "their",
+          "house",
           "already."
         ],
         "errorIndex": 1,
-        "correction": "have finished",
+        "correction": "have sold",
         "type": "Wrong tense",
-        "message": "'Already' signals the present perfect, not the past simple."
+        "message": "In British English, 'already' signals the present perfect, not the past simple."
       },
       {
         "tokens": [
-          "Did you finish",
+          "Did",
+          "you",
+          "tidy",
           "your",
-          "homework",
+          "room",
           "yet?"
         ],
         "errorIndex": 0,
-        "correction": "Have you finished",
+        "correction": "Have you tidied",
         "type": "Wrong tense",
-        "message": "'Yet' signals the present perfect, not the past simple."
+        "message": "In British English, 'yet' signals the present perfect, not the past simple.",
+        "errorSpan": [
+          0,
+          2
+        ]
       },
       {
         "tokens": [
-          "Up",
-          "to",
-          "now,",
+          "In",
+          "my",
+          "whole",
+          "life,",
           "I",
           "never",
-          "tried",
-          "sushi."
+          "climbed",
+          "a",
+          "mountain."
         ],
-        "errorIndex": 3,
-        "correction": "I've",
+        "errorIndex": 5,
+        "correction": "have never climbed",
         "type": "Missing auxiliary",
-        "message": "'Up to now' with 'never' needs the present perfect — 'I've never tried', not just 'I never tried'."
+        "message": "'In my whole life' (up to now) with 'never' needs the present perfect — 'I have never climbed', not 'I never climbed'.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
-          "I",
-          "have finished",
-          "my",
-          "homework",
-          "an",
-          "hour",
+          "Paul",
+          "has",
+          "fallen",
+          "off",
+          "his",
+          "bike",
+          "a",
+          "week",
           "ago."
         ],
         "errorIndex": 1,
-        "correction": "finished",
+        "correction": "fell",
         "type": "Wrong tense",
-        "message": "'Ago' names a finished time — use the past simple, not the present perfect."
+        "message": "'A week ago' names a finished time — use the past simple, not the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
-          "I've",
+          "We've",
           "never",
-          "saw",
-          "that",
-          "film."
+          "ate",
+          "Indian",
+          "food."
         ],
         "errorIndex": 2,
-        "correction": "seen",
+        "correction": "eaten",
         "type": "Wrong participle",
-        "message": "After 've, use the past participle 'seen', not the past simple 'saw'."
+        "message": "After 've, use the past participle 'eaten', not the past simple 'ate'."
       },
       {
         "tokens": [
-          "She's",
+          "He's",
           "never",
-          "went",
-          "to",
-          "Japan."
+          "wrote",
+          "a",
+          "letter",
+          "by",
+          "hand."
         ],
         "errorIndex": 2,
-        "correction": "been",
+        "correction": "written",
         "type": "Wrong participle",
-        "message": "After 's (has), use the past participle 'been', not the past simple 'went'."
+        "message": "After 's (has), use the past participle 'written', not the past simple 'wrote'."
       },
       {
         "tokens": [
-          "He",
-          "didn't finish",
+          "The",
+          "parcel",
+          "didn't",
+          "arrive",
           "yet."
         ],
-        "errorIndex": 1,
-        "correction": "hasn't finished",
+        "errorIndex": 2,
+        "correction": "hasn't arrived",
         "type": "Wrong tense",
-        "message": "'Yet' signals the present perfect, even in the negative."
-      },
-      {
-        "tokens": [
-          "She",
-          "didn't call",
-          "since",
-          "Monday."
-        ],
-        "errorIndex": 1,
-        "correction": "hasn't called",
-        "type": "Wrong tense",
-        "message": "'Since' with a situation continuing to now needs the present perfect, even negative."
+        "message": "In British English, 'yet' signals the present perfect, even in the negative.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
           "I",
+          "didn't",
+          "hear",
+          "from",
+          "Emma",
+          "since",
+          "her",
+          "birthday."
+        ],
+        "errorIndex": 1,
+        "correction": "haven't heard",
+        "type": "Wrong tense",
+        "message": "'Since' with a situation continuing to now needs the present perfect, even negative.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "They",
           "have",
           "already",
-          "finish",
-          "my",
-          "homework."
+          "choose",
+          "a",
+          "name",
+          "for",
+          "the",
+          "baby."
         ],
         "errorIndex": 3,
-        "correction": "finished",
+        "correction": "chosen",
         "type": "Wrong participle",
-        "message": "After 'have already', use the past participle 'finished', not the base verb 'finish'."
+        "message": "After 'have already', use the past participle 'chosen', not the base verb 'choose'."
       },
       {
         "tokens": [
           "Have",
           "you",
           "ever",
-          "went",
-          "to",
-          "Japan?"
+          "swam",
+          "in",
+          "the",
+          "sea?"
         ],
         "errorIndex": 3,
-        "correction": "been",
+        "correction": "swum",
         "type": "Wrong participle",
-        "message": "After 'have', use the past participle 'been', not the past simple 'went'."
+        "message": "After 'have', use the past participle 'swum', not the past simple 'swam'."
       }
     ]
   },
@@ -1335,55 +1439,55 @@
       {
         "type": "fill",
         "use": "Finished time",
-        "sentText": "I {{blank}} Rome in 2019.",
-        "hint": "visit",
+        "sentText": "The school {{blank}} a new library in 2022.",
+        "hint": "build",
         "answers": [
-          "visited"
+          "built"
         ],
-        "display": "visited"
+        "display": "built",
+        "explain": "'In 2022' is a finished time — use the past simple."
       },
       {
         "type": "fill",
         "use": "Unspecified time",
-        "sentText": "I {{blank}} that film already.",
-        "hint": "see",
+        "sentText": "I {{blank}} this book three times — it's my favourite.",
+        "hint": "read",
         "answers": [
-          "have seen",
-          "'ve seen",
-          "ve seen"
+          "have read"
         ],
-        "display": "have seen"
+        "display": "have read",
+        "explain": "No specific time — an experience up to now ('three times'), so use the present perfect."
       },
       {
         "type": "fill",
         "use": "Continuing situation",
-        "sentText": "We {{blank}} here since 2020.",
-        "hint": "live",
+        "sentText": "My mum {{blank}} her own business since 2021.",
+        "hint": "have",
         "answers": [
-          "have lived",
-          "'ve lived",
-          "ve lived"
+          "has had"
         ],
-        "display": "have lived"
+        "display": "has had",
+        "explain": "'Since 2021' with a situation that continues — present perfect."
       },
       {
         "type": "fill",
         "use": "Question — when",
-        "sentText": "When {{blank}} you arrive?",
+        "sentText": "When {{blank}} the storm begin? I was asleep.",
         "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
-        "display": "did"
+        "display": "did",
+        "explain": "'When' asks for a specific time in the past — it takes the past simple."
       },
       {
         "type": "order",
         "use": "Result now",
         "tokens": [
           "I've",
-          "lost",
+          "spilt",
           "my",
-          "keys."
+          "coffee."
         ]
       },
       {
@@ -1391,20 +1495,20 @@
         "use": "Finished time",
         "tokens": [
           "We",
-          "watched",
-          "the",
-          "match",
+          "flew",
+          "to",
+          "Dublin",
           "last",
-          "night."
+          "April."
         ],
         "alts": [
           [
             "last",
-            "night.",
+            "April.",
             "We",
-            "watched",
-            "the",
-            "match"
+            "flew",
+            "to",
+            "Dublin"
           ]
         ]
       },
@@ -1415,28 +1519,33 @@
           "Have",
           "you",
           "ever",
-          "been",
-          "to",
-          "Japan?"
+          "met",
+          "a",
+          "famous",
+          "person?"
         ]
       },
       {
         "type": "order",
         "use": "Negative — finished time",
         "tokens": [
-          "I",
+          "They",
           "didn't",
-          "see",
-          "him",
-          "yesterday."
+          "enjoy",
+          "the",
+          "trip",
+          "last",
+          "year."
         ],
         "alts": [
           [
-            "yesterday.",
-            "I",
+            "last",
+            "year.",
+            "They",
             "didn't",
-            "see",
-            "him"
+            "enjoy",
+            "the",
+            "trip"
           ]
         ]
       },
@@ -1448,16 +1557,17 @@
         "choices": [
           "Past Simple",
           "Present Perfect",
-          "Either one",
-          "Neither"
+          "Present Simple",
+          "Past Continuous"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "'Yesterday' names a finished time — that always forces the past simple.",
-          "Only one is correct: 'yesterday' is a finished-time word.",
-          "'Yesterday' does force a tense — the past simple."
-        ]
+          "'Yesterday' is a finished past time — the present simple is for habits and facts.",
+          "Not for a simple finished action: 'yesterday' + a completed action takes the past simple."
+        ],
+        "explain": "'Yesterday' names a finished time — past simple."
       },
       {
         "type": "signal",
@@ -1467,16 +1577,17 @@
         "choices": [
           "Past Simple",
           "Present Perfect",
-          "Either one",
-          "Neither"
+          "Present Simple",
+          "Past Continuous"
         ],
         "correct": 1,
         "wrongReasons": [
           "'Since' with a continuing situation forces the present perfect, not the past simple.",
           "",
-          "Only one is correct: 'since' with a continuing situation is a present-perfect signal.",
-          "'Since' does force a tense — the present perfect."
-        ]
+          "'Since' links the past to now — the present simple can't do that.",
+          "'Since' with a situation continuing now needs the present perfect, not a past tense."
+        ],
+        "explain": "'Since' + a situation that continues now — present perfect."
       },
       {
         "type": "signal",
@@ -1486,16 +1597,17 @@
         "choices": [
           "Past Simple",
           "Present Perfect",
-          "Either one",
-          "Neither"
+          "Present Simple",
+          "Past Continuous"
         ],
         "correct": 1,
         "wrongReasons": [
-          "'Ever' asking about experience forces the present perfect, not the past simple.",
+          "In British English, 'ever' asking about experience takes the present perfect, not the past simple.",
           "",
-          "Only one is correct: 'ever' is a present-perfect signal word.",
-          "'Ever' does force a tense — the present perfect."
-        ]
+          "'Ever' asks about experience up to now — the present perfect, not the present simple.",
+          "'Ever' asks about experience up to now — the present perfect, not a past tense."
+        ],
+        "explain": "'Ever' asks about experience up to now — present perfect."
       },
       {
         "type": "signal",
@@ -1505,115 +1617,133 @@
         "choices": [
           "Past Simple",
           "Present Perfect",
-          "Either one",
-          "Neither"
+          "Present Simple",
+          "Past Continuous"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "'When' asks for a specific time — that forces the past simple, not the present perfect.",
-          "Only one is correct: 'when' asks for a specific time.",
-          "'When' does force a tense — the past simple."
-        ]
+          "'When' here asks about a finished past moment — the past simple.",
+          "'When...?' asking for the time of a finished action takes the past simple."
+        ],
+        "explain": "'When...?' asks for a specific past time — past simple."
       },
       {
         "type": "mc",
         "use": "Result now",
-        "text": "Look! She {{blank}} her arm!",
+        "text": "Look! It {{blank}} — everything is white.",
         "choices": [
-          "broke",
-          "have broken",
-          "has broken",
-          "breaks"
+          "snowed",
+          "snows",
+          "has snowed",
+          "have snowed"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: a recent action with a visible result now needs the present perfect, not the past simple.",
-          "Subject-verb agreement: with 'she', use 'has', not 'have'.",
+          "Wrong tense: 'Look!' + a result you can see now needs the present perfect, not the past simple.",
+          "Wrong tense: this needs the present perfect, not the present simple.",
           "",
-          "Wrong tense: this needs the present perfect, not the present simple."
-        ]
+          "Subject-verb agreement: with 'it', use 'has', not 'have'."
+        ],
+        "explain": "A recent action with a visible result now — present perfect."
       },
       {
         "type": "mc",
         "use": "Finished time — ago",
-        "text": "I {{blank}} my homework an hour ago.",
+        "text": "We {{blank}} our new flat three months ago.",
         "choices": [
-          "have finished",
-          "finished",
-          "has finished",
-          "finish"
+          "have rented",
+          "rented",
+          "has rented",
+          "rent"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: 'ago' names a finished time — use the past simple, not the present perfect.",
           "",
-          "Wrong tense: 'ago' names a finished time — use the past simple.",
-          "Wrong tense: this needs the past, not the present simple."
-        ]
+          "Wrong tense and agreement: 'ago' needs the past simple — and 'we' never takes 'has'.",
+          "Wrong tense: this needs the past simple, not the present simple."
+        ],
+        "explain": "'Ago' names a finished time — use the past simple."
       },
       {
         "type": "mc",
         "use": "Unspecified time — already",
-        "text": "I {{blank}} my homework already.",
+        "text": "Don't tell Jack the news — he {{blank}} it already.",
         "choices": [
-          "finished",
-          "have finished",
-          "has finished",
-          "finish"
+          "has heard",
+          "heard",
+          "have heard",
+          "hears"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong tense: 'already' signals the present perfect, not the past simple.",
           "",
-          "Subject-verb agreement: with 'I', use 'have', not 'has'.",
-          "Wrong tense: this needs the present perfect, not the present simple."
-        ]
+          "Wrong tense: in British English, 'already' signals the present perfect, not the past simple.",
+          "Subject-verb agreement: with 'he', use 'has', not 'have'.",
+          "Wrong tense: 'already' needs the present perfect, not the present simple."
+        ],
+        "explain": "'Already' signals the present perfect."
       },
       {
         "type": "mc",
         "use": "Negative — continuing situation",
-        "text": "I {{blank}} him since Monday.",
+        "text": "Mia {{blank}} a single day of school since September.",
         "choices": [
-          "didn't see",
-          "haven't seen",
-          "hasn't seen",
-          "don't see"
+          "didn't miss",
+          "doesn't miss",
+          "haven't missed",
+          "hasn't missed"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'since Monday' with a continuing situation needs the present perfect, even negative.",
-          "",
-          "Subject-verb agreement: with 'I', use 'haven't', not 'hasn't'.",
-          "Wrong tense: this needs the present perfect, not the present simple."
+          "Wrong tense: 'since September' with a situation continuing to now needs the present perfect, even negative.",
+          "Wrong tense: 'since' links the past to now — the present simple can't do that.",
+          "Subject-verb agreement: with 'Mia', use 'hasn't', not 'haven't'.",
+          ""
+        ],
+        "explain": "'Since September' with a situation continuing to now — present perfect, even negative."
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "Leo",
+          "has",
+          "painted",
+          "his",
+          "bedroom",
+          "last",
+          "weekend."
+        ],
+        "errorIndex": 1,
+        "correction": "painted",
+        "message": "'Last weekend' is a finished time — use the past simple.",
+        "errorSpan": [
+          1,
+          2
         ]
       },
       {
         "type": "error",
         "use": "Wrong tense",
         "tokens": [
-          "She",
-          "has visited",
-          "Paris",
-          "last",
-          "year."
-        ],
-        "errorIndex": 1,
-        "correction": "visited",
-        "message": "'Last year' is a finished time — use the past simple."
-      },
-      {
-        "type": "error",
-        "use": "Wrong tense",
-        "tokens": [
-          "Did you ever eat",
-          "sushi",
-          "with",
-          "chopsticks?"
+          "Did",
+          "you",
+          "ever",
+          "sleep",
+          "in",
+          "a",
+          "tent?"
         ],
         "errorIndex": 0,
-        "correction": "Have you ever eaten",
-        "message": "'Ever' asks about experience up to now — 'Have you ever eaten…?'"
+        "correction": "Have you ever slept",
+        "message": "In British English, 'ever' asking about experience up to now takes the present perfect — 'Have you ever slept…?'",
+        "errorSpan": [
+          0,
+          3
+        ]
       },
       {
         "type": "error",
@@ -1634,15 +1764,17 @@
         "type": "error",
         "use": "Wrong participle",
         "tokens": [
-          "He's",
+          "She's",
           "never",
-          "went",
+          "spoke",
           "to",
-          "Spain."
+          "the",
+          "head",
+          "teacher."
         ],
         "errorIndex": 2,
-        "correction": "been",
-        "message": "Use the participle 'been' — 'He's never been to Spain'."
+        "correction": "spoken",
+        "message": "Use the participle 'spoken' — 'She's never spoken to the head teacher'."
       }
     ]
   }

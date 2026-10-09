@@ -50,7 +50,7 @@ const uid = 'gf';
     const tense = payload.tense;
     const questions = payload.questions;
 
-    let idx = 0, score = 0, answered = false;
+    let idx = 0, score = 0, answered = false, gfInteracted = false;
     let results = [];
 
     const progressText = document.getElementById(`${uid}-progressText`);
@@ -70,19 +70,47 @@ const uid = 'gf';
     // often substitute the curly form, and contractions like "didn't"
     // contain one. Ported verbatim from the approved prototypes.
     function normalize(s) {
-      return s.toLowerCase().trim().replace(/\s+/g, ' ').replace(/[‘’]/g, "'");
+      return s.toLowerCase().trim().replace(/[‘’`´]/g, "'").replace(/[.!?]+$/, '').replace(/\s+/g, ' ').trim();
     }
 
-    // Full forms ("does not") are as correct as contractions ("doesn't").
+    // Full forms ("does not") are as correct as contractions ("doesn't"), and
+    // the other way round ("'s lost" = "has lost", "I've been" = "I have been").
     const CONTRACTIONS = {"don't":"do not","doesn't":"does not","didn't":"did not","haven't":"have not","hasn't":"has not","hadn't":"had not","won't":"will not","wouldn't":"would not","wasn't":"was not","weren't":"were not","isn't":"is not","aren't":"are not","can't":"cannot","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
+    const AUX_SUFFIX = { "'ve": ['have'], "'re": ['are'], "'m": ['am'], "'ll": ['will'], "'d": ['had', 'would'], "'s": ['has', 'is'] };
     function expandContractions(s) {
       return normalize(s).split(' ').map((w) => CONTRACTIONS[w] || w).join(' ').replace(/\bcan not\b/g, 'cannot');
     }
-    function matchesAnswers(raw, answers) {
+    // Every full-form reading of a phrase (a "'s" can be "has" or "is").
+    function fullForms(s) {
+      let out = [''];
+      expandContractions(s).split(' ').filter(Boolean).forEach((w) => {
+        let opts = [w];
+        const m = w.match(/^(.*?)('ve|'re|'m|'ll|'d|'s)$/);
+        if (m && (m[1] === '' || /^[a-z]+$/.test(m[1])) && !(m[2] === "'s" && m[1] && !/^(he|she|it|that|what|who|where|there|here|how)$/.test(m[1]))) {
+          opts = AUX_SUFFIX[m[2]].map((a) => (m[1] ? m[1] + ' ' : '') + a);
+        }
+        const next = [];
+        out.forEach((o) => opts.forEach((p) => next.push(o ? o + ' ' + p : p)));
+        out = next.slice(0, 16);
+      });
+      return out;
+    }
+    // subject = the printed word right before the blank: learners often type
+    // it again, or attach a contraction to it ("I" + "'ve been learning").
+    function matchesAnswers(raw, answers, subject) {
       const n = normalize(raw);
+      if (!n) return '';
       if (answers.some((a) => normalize(a) === n)) return 'exact';
-      const e = expandContractions(raw);
-      return answers.some((a) => expandContractions(a) === e) ? 'full-form' : '';
+      const subj = normalize(subject || '').split(' ').pop();
+      const mine = fullForms(n);
+      const ok = answers.some((a) => {
+        const targets = fullForms(a);
+        if (subj) fullForms(subj + ' ' + normalize(a)).forEach((t) => targets.push(t));
+        return mine.some((x) => targets.indexOf(x) !== -1);
+      });
+      if (!ok) return '';
+      // Tip about the contracted form only when the expected answer is contracted.
+      return (!/'/.test(n) && answers.some((a) => /'/.test(a))) ? 'full-form' : 'exact';
     }
 
     const PAST_REGULAR_TAIL = /ed$/;
@@ -367,7 +395,9 @@ const uid = 'gf';
           else goNext();
         }
       });
-      input.focus();
+      // Never autofocus on the first render (page load): it would scroll the page.
+      if (gfInteracted) input.focus({ preventScroll: true });
+      gfInteracted = true;
     }
 
     function checkAnswer() {
@@ -377,7 +407,7 @@ const uid = 'gf';
       const input = document.getElementById(`${uid}-blankInput`);
       const raw = input.value;
       const norm = normalize(raw);
-      const matchKind = matchesAnswers(raw, q.answers);
+      const matchKind = matchesAnswers(raw, q.answers, q.before);
       const isCorrect = !!matchKind;
 
       input.disabled = true;
@@ -391,7 +421,9 @@ const uid = 'gf';
         // The generic "Check ... — it should be X" line only repeats the correct form: drop it.
         if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
         const form = String(q.display).toLowerCase();
-        const mentions = (t) => !!t && String(t).toLowerCase().indexOf(form) !== -1;
+        // Only counts if the exact correct form is quoted ('get' — not "gets" or "together").
+        const esc = form.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const mentions = (t) => !!t && new RegExp('[\'"‘’“”]' + esc + '[\'"‘’“”]').test(String(t).toLowerCase());
         feedback.classList.add('show', 'bad');
         feedback.innerHTML = ((mentions(specific) || mentions(q.explain)) ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + q.display + '".</b> ')
           + (specific ? specific + ' ' : '')

@@ -69,6 +69,9 @@ const uid = 'mt';
     const restartBtn = document.getElementById(`${uid}-restartBtn`);
 
     let matchedCount = 0, attempts = 0, selectedLeft = null;
+    const board = leftCol.closest('.matching-board');
+    const categories = pairs.map((p) => p.right).filter((r, i, a) => a.indexOf(r) === i);
+    const categoryMode = categories.length <= 4 && categories.length < pairs.length;
 
     function shuffle(arr) {
       const a = arr.slice();
@@ -88,8 +91,6 @@ const uid = 'mt';
       updateStats();
 
       const lefts = shuffle(pairs.map((p) => ({ word: p.left, match: p.right, id: p.left })));
-      const rights = shuffle(pairs.map((p) => ({ word: p.right, match: p.left, id: p.left })));
-
       leftCol.innerHTML = '';
       lefts.forEach((item) => {
         const b = document.createElement('button');
@@ -102,6 +103,21 @@ const uid = 'mt';
       });
 
       rightCol.innerHTML = '';
+      if (categoryMode) {
+        // Few distinct answers (e.g. Past Simple / Present Perfect): show each
+        // category once as a reusable button instead of 20 identical tiles.
+        board.classList.add('matching-board--categories');
+        categories.forEach((cat) => {
+          const b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'matching-tile matching-category';
+          b.textContent = cat;
+          b.addEventListener('click', () => onRightClick({ word: cat }, b));
+          rightCol.appendChild(b);
+        });
+        return;
+      }
+      const rights = shuffle(pairs.map((p) => ({ word: p.right, match: p.left, id: p.left })));
       rights.forEach((item) => {
         const b = document.createElement('button');
         b.type = 'button';
@@ -138,7 +154,13 @@ const uid = 'mt';
 
     function onRightClick(item, el) {
       if (el.classList.contains('matched')) return;
-      if (!selectedLeft) return;
+      if (!selectedLeft) {
+        if (categoryMode) {
+          feedback.className = 'practice-feedback show';
+          feedback.textContent = 'First tap an item on the left, then the category it belongs to.';
+        }
+        return;
+      }
 
       attempts++;
       // Match by the right-hand text, so repeated categories (e.g. several "Past Simple" tiles) all accept a correct pick
@@ -148,7 +170,7 @@ const uid = 'mt';
         const leftEl = leftCol.querySelector('[data-id="' + selectedLeft.id + '"]');
         leftEl.classList.remove('selected');
         leftEl.classList.add('matched');
-        el.classList.add('matched');
+        if (!categoryMode) el.classList.add('matched');
         matchedCount++;
         const leftWord = selectedLeft.word;
         selectedLeft = null;

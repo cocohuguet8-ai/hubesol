@@ -153,7 +153,7 @@
         "kind": "question",
         "before": "",
         "after": "you usually walk to work?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — present simple)",
         "answers": [
           "do"
         ],
@@ -164,13 +164,13 @@
         "use": "Habit — question",
         "kind": "question",
         "before": "",
-        "after": "she drink coffee?",
-        "hint": "(auxiliary)",
+        "after": "your uncle work at weekends?",
+        "hint": "(auxiliary — present simple)",
         "answers": [
           "does"
         ],
         "display": "Does",
-        "explain": "With 'she', the question auxiliary is 'does' — and the main verb stays 'drink', not 'drinks'."
+        "explain": "With 'your uncle' (he), the question auxiliary is 'does' — and the main verb stays 'work', not 'works'."
       },
       {
         "use": "Timetable",
@@ -225,7 +225,7 @@
         "kind": "question",
         "before": "",
         "after": "the bus leave at six?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — present simple)",
         "answers": [
           "does"
         ],
@@ -265,135 +265,100 @@
       {
         "use": "Fact",
         "tokens": [
-          "Water",
-          "boils",
-          "at",
-          "100°C."
-        ],
-        "alts": [
-          [
-            "at",
-            "100°C.",
-            "Water",
-            "boils"
-          ]
+          "Bees",
+          "make",
+          "honey."
         ]
       },
       {
         "use": "Fact",
         "tokens": [
-          "The",
-          "sun",
-          "rises",
+          "Plants",
+          "need",
+          "sunlight",
+          "to",
+          "grow."
+        ]
+      },
+      {
+        "use": "Fact",
+        "tokens": [
+          "Penguins",
+          "live",
           "in",
-          "the",
-          "east."
-        ]
-      },
-      {
-        "use": "Fact",
-        "tokens": [
-          "Ice",
-          "melts",
-          "at",
-          "0°C."
-        ],
-        "alts": [
-          [
-            "at",
-            "0°C.",
-            "Ice",
-            "melts"
-          ]
+          "cold",
+          "places."
         ]
       },
       {
         "use": "Fact — negative",
         "tokens": [
-          "Oil",
+          "Money",
           "doesn't",
-          "mix",
-          "with",
-          "water."
+          "grow",
+          "on",
+          "trees."
         ]
       },
       {
         "use": "Habit/routine",
         "tokens": [
           "She",
-          "walks",
+          "always",
+          "takes",
+          "the",
+          "bus."
+        ]
+      },
+      {
+        "use": "Habit/routine",
+        "tokens": [
+          "My",
+          "brother",
+          "cycles",
           "to",
-          "work",
-          "every",
-          "day."
-        ],
-        "alts": [
-          [
-            "every",
-            "day.",
-            "She",
-            "walks",
-            "to",
-            "work"
-          ]
-        ]
-      },
-      {
-        "use": "Habit/routine",
-        "tokens": [
-          "I",
-          "get",
-          "up",
-          "at",
-          "seven."
-        ],
-        "alts": [
-          [
-            "at",
-            "seven.",
-            "I",
-            "get",
-            "up"
-          ]
-        ]
-      },
-      {
-        "use": "Habit/routine",
-        "tokens": [
-          "He",
-          "drinks",
-          "coffee",
-          "every",
-          "morning."
-        ],
-        "alts": [
-          [
-            "every",
-            "morning.",
-            "He",
-            "drinks",
-            "coffee"
-          ]
+          "university."
         ]
       },
       {
         "use": "Habit/routine",
         "tokens": [
           "We",
-          "have",
-          "dinner",
-          "together",
-          "on",
-          "Sundays."
+          "often",
+          "eat",
+          "out",
+          "at",
+          "weekends."
         ],
         "alts": [
           [
-            "on",
-            "Sundays.",
+            "at",
+            "weekends.",
             "We",
-            "have",
-            "dinner",
-            "together"
+            "often",
+            "eat",
+            "out"
+          ]
+        ]
+      },
+      {
+        "use": "Habit/routine",
+        "tokens": [
+          "Grandma",
+          "reads",
+          "the",
+          "newspaper",
+          "after",
+          "breakfast."
+        ],
+        "alts": [
+          [
+            "after",
+            "breakfast.",
+            "Grandma",
+            "reads",
+            "the",
+            "newspaper"
           ]
         ]
       },
@@ -401,86 +366,89 @@
         "use": "Habit/routine",
         "tokens": [
           "They",
-          "play",
-          "tennis",
-          "on",
-          "Saturdays."
+          "usually",
+          "visit",
+          "their",
+          "cousins",
+          "in",
+          "August."
         ],
         "alts": [
           [
-            "on",
-            "Saturdays.",
+            "in",
+            "August.",
             "They",
-            "play",
-            "tennis"
+            "usually",
+            "visit",
+            "their",
+            "cousins"
           ]
         ]
       },
       {
         "use": "Habit — negative",
         "tokens": [
-          "He",
+          "She",
           "doesn't",
-          "eat",
-          "meat."
+          "like",
+          "horror",
+          "films."
         ]
       },
       {
         "use": "Habit — negative",
         "tokens": [
-          "I",
+          "My",
+          "parents",
           "don't",
-          "drink",
-          "coffee",
-          "at",
-          "night."
-        ],
-        "alts": [
-          [
-            "at",
-            "night.",
-            "I",
-            "don't",
-            "drink",
-            "coffee"
-          ]
+          "use",
+          "social",
+          "media."
         ]
       },
       {
         "use": "Question — habit",
         "tokens": [
-          "Do",
+          "Where",
+          "do",
           "you",
-          "walk",
-          "to",
-          "work?"
+          "buy",
+          "your",
+          "clothes?"
         ]
       },
       {
         "use": "Question — habit",
         "tokens": [
           "Does",
-          "she",
-          "drink",
-          "coffee?"
+          "your",
+          "sister",
+          "sing",
+          "in",
+          "a",
+          "choir?"
         ]
       },
       {
         "use": "Timetable",
         "tokens": [
           "The",
-          "train",
-          "leaves",
+          "concert",
+          "begins",
           "at",
-          "six."
+          "half",
+          "past",
+          "seven."
         ],
         "alts": [
           [
             "at",
-            "six.",
+            "half",
+            "past",
+            "seven.",
             "The",
-            "train",
-            "leaves"
+            "concert",
+            "begins"
           ]
         ]
       },
@@ -488,19 +456,19 @@
         "use": "Timetable",
         "tokens": [
           "The",
-          "film",
+          "new",
+          "term",
           "starts",
-          "at",
-          "eight",
-          "tonight."
+          "in",
+          "September."
         ],
         "alts": [
           [
-            "at",
-            "eight",
-            "tonight.",
+            "in",
+            "September.",
             "The",
-            "film",
+            "new",
+            "term",
             "starts"
           ]
         ]
@@ -509,88 +477,90 @@
         "use": "Timetable",
         "tokens": [
           "The",
-          "shop",
-          "opens",
+          "bank",
+          "closes",
           "at",
-          "nine."
+          "four."
         ],
         "alts": [
           [
             "at",
-            "nine.",
+            "four.",
             "The",
-            "shop",
-            "opens"
+            "bank",
+            "closes"
           ]
         ]
       },
       {
         "use": "Timetable — negative",
         "tokens": [
-          "The",
-          "museum",
-          "doesn't",
-          "open",
+          "Trains",
+          "don't",
+          "run",
           "on",
-          "Mondays."
+          "Christmas",
+          "Day."
         ],
         "alts": [
           [
             "on",
-            "Mondays.",
-            "The",
-            "museum",
-            "doesn't",
-            "open"
+            "Christmas",
+            "Day.",
+            "Trains",
+            "don't",
+            "run"
           ]
         ]
       },
       {
         "use": "Question — timetable",
         "tokens": [
-          "Does",
+          "What",
+          "time",
+          "does",
           "the",
-          "bus",
-          "leave",
-          "at",
-          "six?"
-        ]
-      },
-      {
-        "use": "Spelling — habit",
-        "tokens": [
-          "She",
-          "watches",
-          "TV",
-          "every",
-          "evening."
-        ],
-        "alts": [
-          [
-            "every",
-            "evening.",
-            "She",
-            "watches",
-            "TV"
-          ]
+          "class",
+          "finish?"
         ]
       },
       {
         "use": "Spelling — habit",
         "tokens": [
           "He",
-          "studies",
-          "English",
+          "washes",
+          "his",
+          "car",
           "every",
-          "week."
+          "weekend."
         ],
         "alts": [
           [
             "every",
-            "week.",
+            "weekend.",
             "He",
-            "studies",
-            "English"
+            "washes",
+            "his",
+            "car"
+          ]
+        ]
+      },
+      {
+        "use": "Spelling — habit",
+        "tokens": [
+          "The",
+          "baby",
+          "cries",
+          "at",
+          "night."
+        ],
+        "alts": [
+          [
+            "at",
+            "night.",
+            "The",
+            "baby",
+            "cries"
           ]
         ]
       }
@@ -694,201 +664,201 @@
     "questions": [
       {
         "use": "Fact",
-        "text": "Water <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at 100°C.",
+        "text": "A triangle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three sides.",
         "choices": [
-          "boils",
-          "is boiling",
-          "boil",
-          "is boils"
+          "has",
+          "is having",
+          "have",
+          "had"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: a scientific fact is always true — present simple, not present continuous.",
-          "Missing -s: with 'water' (it), add -s — 'boils', not 'boil'.",
-          "Not a real form."
+          "Wrong tense: 'have' for things you own or contain isn't used in the continuous — 'has'.",
+          "Missing 3rd-person form: 'a triangle' is 'it' — 'has', not 'have'.",
+          "Wrong tense: this is always true now — present simple 'has', not past 'had'."
         ],
-        "explain": "A permanent fact — present simple."
+        "explain": "A fact that's always true — present simple; 'have' becomes 'has' with 'it'."
       },
       {
         "use": "Habit/routine",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to work every day.",
+        "text": "My mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shopping on Fridays.",
         "choices": [
-          "is walking",
-          "walks",
-          "walk",
-          "is walk"
+          "is doing",
+          "does",
+          "do",
+          "doing"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'every day' is a routine, not something happening now.",
+          "Wrong tense: 'on Fridays' is a routine, not something happening now.",
           "",
-          "Missing -s: with 'she', add -s — 'walks', not 'walk'.",
-          "Not a real form."
+          "Missing -es: with 'my mum' (she), 'do' becomes 'does'.",
+          "An -ing form like 'doing' can't be the verb on its own — here you need 'does'."
         ],
-        "explain": "'Every day' — a routine, present simple."
+        "explain": "'On Fridays' signals a routine — present simple; with 'she', 'do' becomes 'does'."
       },
       {
         "use": "Habit/routine",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tennis on Saturdays.",
+        "text": "My grandparents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a nap after lunch every day.",
         "choices": [
-          "plays",
-          "is playing",
-          "play",
-          "are play"
+          "has",
+          "are having",
+          "have",
+          "having"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'they' takes no -s — 'play', not 'plays'.",
-          "Wrong tense: 'on Saturdays' is a routine, not happening now.",
+          "Subject-verb agreement: 'my grandparents' is 'they' — 'have', not 'has'.",
+          "Wrong tense: 'every day' is a routine, not something happening right now.",
           "",
-          "Not a real form: 'are' + base verb isn't a form."
+          "An -ing form like 'having' can't be the verb on its own — here you need 'have'."
         ],
-        "explain": "'On Saturdays', plural subject — no -s."
+        "explain": "'Every day' is a routine; 'my grandparents' (they) takes the base form 'have'."
       },
       {
         "use": "Habit — question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she drink coffee?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother share a room with you?",
         "choices": [
           "Is",
           "Do",
-          "Doesn't",
+          "Are",
           "Does"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: with 'she', use 'does', not 'do'.",
-          "That's the negative form — a plain question needs 'does', not 'doesn't'.",
+          "Subject-verb agreement: 'your brother' is 'he' — use 'does', not 'do'.",
+          "Wrong aux: 'are' pairs with the -ing form, and 'your brother' is singular.",
           ""
         ],
-        "explain": "Yes/no question with 'she' — 'does' + base verb."
+        "explain": "Yes/no question with 'your brother' (he) — 'does' + base verb 'share'."
       },
       {
         "use": "Timetable",
-        "text": "The train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at six.",
+        "text": "The ferry <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at half past ten every day.",
         "choices": [
-          "leaves",
-          "leave",
-          "is leaving",
-          "leaving"
+          "sails",
+          "sail",
+          "sailed",
+          "sailing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Missing -s: with 'the train' (it), add -s — 'leaves', not 'leave'.",
-          "Wrong tense: a timetable is a fixed schedule — present simple, not continuous.",
-          "Not a full verb form on its own."
+          "Missing -s: 'the ferry' is 'it' — 'sails', not 'sail'.",
+          "Wrong tense: 'every day' describes the current timetable, not the past.",
+          "An -ing form like 'sailing' can't be the verb on its own — here you need 'sails'."
         ],
-        "explain": "A fixed timetable — present simple."
+        "explain": "A regular timetable — present simple, plus -s for 'the ferry'."
       },
       {
         "use": "Habit — negative",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> meat.",
+        "text": "My dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sugar in his tea.",
         "choices": [
-          "don't eat",
-          "doesn't eat",
-          "doesn't eats",
-          "not eats"
+          "don't take",
+          "doesn't take",
+          "doesn't takes",
+          "not takes"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: with 'he', use 'doesn't', not 'don't'.",
+          "Subject-verb agreement: 'my dad' is 'he' — use 'doesn't', not 'don't'.",
           "",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays base form, 'eat' not 'eats'.",
-          "'Not' alone can't form a negative — you need 'doesn't'."
+          "Double marking: 'doesn't' already carries the -s — the main verb stays 'take'.",
+          "'Not' alone can't form a negative — you need 'doesn't take'."
         ],
-        "explain": "Negative habit with 'he' — doesn't + base verb."
+        "explain": "Negative habit with 'my dad' (he) — doesn't + base verb 'take'."
       },
       {
         "use": "Habit/routine",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> up at seven every morning.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my emails three times a day.",
         "choices": [
-          "gets",
-          "am getting",
-          "get",
-          "getting"
+          "checks",
+          "am checking",
+          "check",
+          "checking"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: with 'I', don't add -s — 'get', not 'gets'.",
-          "Wrong tense: 'every morning' is a routine, not something happening right now.",
+          "Subject-verb agreement: with 'I', don't add -s — 'check', not 'checks'.",
+          "Wrong tense: 'three times a day' is a routine, not something happening right now.",
           "",
-          "Not a full verb form on its own."
+          "An -ing form like 'checking' can't be the verb on its own — here you need 'check'."
         ],
-        "explain": "A routine with 'I' — base verb, no -s."
+        "explain": "'Three times a day' signals a routine; with 'I', use the base verb — no -s."
       },
       {
         "use": "Spelling & form",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV every evening.",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the 7.30 train every morning.",
         "choices": [
-          "watch",
-          "is watching",
-          "watched",
-          "watches"
+          "catch",
+          "is catching",
+          "catching",
+          "catches"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing ending: with 'she', the verb needs -es — 'watches'.",
-          "Wrong tense: 'every evening' is a routine — present simple, not continuous.",
-          "Wrong tense: 'every evening' is a present routine, not the past.",
+          "Missing ending: with 'he', the verb needs -es — 'catches'.",
+          "Wrong tense: 'every morning' is a routine — present simple, not continuous.",
+          "An -ing form like 'catching' can't be the verb on its own — here you need 'catches'.",
           ""
         ],
-        "explain": "Verbs ending in -ch add -es: watch → watches."
+        "explain": "Verbs ending in -ch add -es: catch → catches."
       },
       {
         "use": "Spelling & form",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> English every week.",
+        "text": "My uncle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Paris for work every month.",
         "choices": [
-          "studies",
-          "studied",
-          "studying",
-          "study"
+          "flies",
+          "is fly",
+          "flying",
+          "fly"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'every week' is a present routine, not the past.",
-          "Wrong form: -ing needs 'is' before it, and 'every week' is a routine.",
-          "Missing the -ies ending needed for 'he'."
+          "Don't add 'is' to a present simple verb: a routine takes just 'flies'.",
+          "An -ing form like 'flying' can't be the verb on its own — here you need 'flies'.",
+          "Missing ending: with 'my uncle' (he), the verb needs the -ies form."
         ],
-        "explain": "Consonant + -y → -ies: study → studies."
+        "explain": "Consonant + -y → -ies: fly → flies."
       },
       {
         "use": "Timetable — negative",
-        "text": "The museum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on Mondays.",
+        "text": "The supermarket <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> until ten.",
         "choices": [
-          "don't open",
-          "doesn't open",
-          "doesn't opens",
-          "not opens"
+          "don't close",
+          "doesn't close",
+          "doesn't closes",
+          "not closes"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: 'the museum' is 'it' — use 'doesn't', not 'don't'.",
+          "Subject-verb agreement: 'the supermarket' is 'it' — use 'doesn't', not 'don't'.",
           "",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays base form.",
-          "'Not' alone can't form a negative here."
+          "Double marking: 'doesn't' already carries the -s — the main verb stays 'close'.",
+          "'Not' alone can't form a negative — you need 'doesn't close'."
         ],
-        "explain": "Negative timetable fact — doesn't + base verb."
+        "explain": "Negative timetable fact with 'it' — doesn't + base verb 'close'."
       },
       {
         "use": "Habit/routine",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner together on Sundays.",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
         "choices": [
-          "has",
-          "are having",
-          "have",
-          "haves"
+          "visits",
+          "are visiting",
+          "visit",
+          "visiting"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'we' takes no -s — 'have', not 'has'.",
-          "Wrong tense: 'on Sundays' is a routine, not happening right now.",
+          "Subject-verb agreement: 'we' takes no -s — 'visit', not 'visits'.",
+          "Wrong tense: 'every summer' is a routine, not something happening right now.",
           "",
-          "Not a real word — the irregular form is 'has', never 'haves'."
+          "An -ing form like 'visiting' can't be the verb on its own — here you need 'visit'."
         ],
-        "explain": "'Twice a day' — a routine, plus -es for 'he' (brush → brushes)."
+        "explain": "'Every summer' is a routine, so it takes the present simple; 'we' takes the base form 'visit'."
       },
       {
         "use": "Habit/routine",
@@ -896,17 +866,17 @@
         "choices": [
           "brush",
           "is brushing",
-          "brushed",
+          "brushing",
           "brushes"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing -s: with 'he', add -es — 'brushes', not 'brush'.",
+          "Missing ending: with 'he', add -es — 'brushes', not 'brush'.",
           "Wrong tense: 'twice a day' is a routine, not happening right now.",
-          "Wrong tense: 'twice a day' is a present routine, not the past.",
+          "An -ing form like 'brushing' can't be the verb on its own — here you need 'brushes'.",
           ""
         ],
-        "explain": "'Twice a day' — a routine, plus -s for 'he'."
+        "explain": "'Twice a day' — a routine; verbs ending in -sh add -es: brush → brushes."
       },
       {
         "use": "Fact",
@@ -922,7 +892,7 @@
           "",
           "Missing -s: with 'the Earth' (it), add -s — 'moves', not 'move'.",
           "Wrong tense: this is a permanent fact, not happening right now.",
-          "Not a full verb form on its own."
+          "An -ing form like 'moving' can't be the verb on its own — here you need 'moves'."
         ],
         "explain": "A scientific fact — present simple, plus -s."
       },
@@ -930,17 +900,17 @@
         "use": "Timetable",
         "text": "The plane <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at noon tomorrow.",
         "choices": [
-          "is leaving",
+          "left",
           "leaves",
           "leave",
           "leaving"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: fixed schedules use the present simple, even for tomorrow.",
+          "Wrong tense: 'tomorrow' is the future — a timetable uses the present simple, not the past.",
           "",
           "Missing -s: with 'the plane' (it), add -s.",
-          "Not a full verb form on its own."
+          "An -ing form like 'leaving' can't be the verb on its own — here you need 'leaves'."
         ],
         "explain": "A scheduled departure, even 'tomorrow' — present simple."
       },
@@ -982,21 +952,21 @@
       },
       {
         "use": "Spelling & form",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to three languages.",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages.",
         "choices": [
           "speaks",
-          "spoke",
+          "is speaking",
           "speaking",
           "speak"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: this is a present fact, not a finished past action.",
-          "Wrong form: -ing needs 'is' before it, and this is a general fact.",
-          "Missing -s: with 'he', add -s."
+          "Wrong tense: knowing a language is a permanent fact, not something happening now.",
+          "An -ing form like 'speaking' can't be the verb on its own — here you need 'speaks'.",
+          "Missing -s: with 'he', add -s — 'speaks'."
         ],
-        "explain": "Regular verb, 3rd person — just add -s."
+        "explain": "A permanent fact about him — present simple, plus -s for 'he'."
       },
       {
         "use": "Fact",
@@ -1005,20 +975,20 @@
           "flies",
           "fly",
           "is flying",
-          "flew"
+          "flying"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'birds' is plural — no -s, 'fly' not 'flies'.",
           "",
-          "Wrong tense: this is a general pattern, not happening right now.",
-          "Wrong tense: this is a general pattern in the present, not the past."
+          "Wrong tense: this is a general pattern, and 'birds' is plural — not 'is flying'.",
+          "An -ing form like 'flying' can't be the verb on its own — here you need 'fly'."
         ],
         "explain": "Plural subject 'birds' — base verb, no -s."
       },
       {
         "use": "Timetable — question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shop open on Sundays?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shop close early on Sundays?",
         "choices": [
           "Is",
           "Do",
@@ -1047,7 +1017,7 @@
         "wrongReasons": [
           "Subject-verb agreement: with 'I', don't add -s — 'go', not 'goes'.",
           "Wrong tense: fixed days signal a routine, not something happening now.",
-          "Not a full verb form on its own.",
+          "An -ing form like 'going' can't be the verb on its own — here you need 'go'.",
           ""
         ],
         "explain": "A routine with 'I' — base verb, no -s."
@@ -1060,87 +1030,96 @@
     "items": [
       {
         "tokens": [
-          "She",
-          "walk",
-          "to",
-          "work",
+          "Our",
+          "teacher",
+          "give",
+          "us",
+          "a",
+          "test",
           "every",
-          "day."
+          "Friday."
         ],
-        "errorIndex": 1,
-        "correction": "walks",
+        "errorIndex": 2,
+        "correction": "gives",
         "type": "Missing -s",
-        "message": "With 'she', add -s to the verb — 'walks', not 'walk'."
+        "message": "'Our teacher' is 'he' or 'she' — add -s: 'gives', not 'give'."
       },
       {
         "tokens": [
-          "He",
-          "watch",
-          "TV",
-          "every",
-          "evening."
+          "She",
+          "teach",
+          "maths",
+          "at",
+          "a",
+          "secondary",
+          "school."
         ],
         "errorIndex": 1,
-        "correction": "watches",
-        "type": "Spelling",
-        "message": "Verbs ending in -ch add -es — 'watches', not 'watchs' or 'watch'."
+        "correction": "teaches",
+        "type": "Missing -s/-es",
+        "message": "Verbs ending in -ch add -es — 'teaches', not 'teach'."
       },
       {
         "tokens": [
           "I",
-          "gets",
-          "up",
-          "at",
-          "seven."
-        ],
-        "errorIndex": 1,
-        "correction": "get",
-        "type": "Subject-verb agreement",
-        "message": "With 'I', don't add -s — 'get', not 'gets'."
-      },
-      {
-        "tokens": [
-          "They",
-          "plays",
-          "tennis",
+          "feels",
+          "tired",
           "on",
-          "Saturdays."
+          "Monday",
+          "mornings."
         ],
         "errorIndex": 1,
-        "correction": "play",
+        "correction": "feel",
         "type": "Subject-verb agreement",
-        "message": "'They' is plural — no -s, so 'play', not 'plays'."
+        "message": "With 'I', don't add -s — 'feel', not 'feels'."
       },
       {
         "tokens": [
-          "Water",
-          "boil",
-          "at",
-          "100°C."
+          "My",
+          "friends",
+          "lives",
+          "in",
+          "London."
         ],
-        "errorIndex": 1,
-        "correction": "boils",
+        "errorIndex": 2,
+        "correction": "live",
+        "type": "Subject-verb agreement",
+        "message": "'My friends' is plural — no -s, so 'live', not 'lives'."
+      },
+      {
+        "tokens": [
+          "The",
+          "river",
+          "flow",
+          "into",
+          "the",
+          "sea."
+        ],
+        "errorIndex": 2,
+        "correction": "flows",
         "type": "Missing -s",
-        "message": "'Water' is 'it' — add -s: 'boils', not 'boil'."
+        "message": "'The river' is 'it' — add -s: 'flows', not 'flow'."
       },
       {
         "tokens": [
-          "He",
+          "My",
+          "cat",
           "don't",
-          "eat",
-          "meat."
+          "like",
+          "milk."
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "doesn't",
         "type": "Subject-verb agreement",
-        "message": "With 'he', use 'doesn't', not 'don't'."
+        "message": "'My cat' is 'it' — use 'doesn't', not 'don't'."
       },
       {
         "tokens": [
           "I",
           "doesn't",
-          "drink",
-          "coffee."
+          "understand",
+          "this",
+          "word."
         ],
         "errorIndex": 1,
         "correction": "don't",
@@ -1149,15 +1128,16 @@
       },
       {
         "tokens": [
-          "She",
+          "He",
           "doesn't",
-          "eats",
-          "meat."
+          "wants",
+          "any",
+          "help."
         ],
         "errorIndex": 2,
-        "correction": "eat",
+        "correction": "want",
         "type": "Double marking",
-        "message": "'Doesn't' already carries the -s — the main verb stays base form: 'eat', not 'eats'."
+        "message": "'Doesn't' already carries the -s — the main verb stays base form: 'want', not 'wants'."
       },
       {
         "tokens": [
@@ -1185,16 +1165,16 @@
       },
       {
         "tokens": [
-          "He",
-          "studys",
-          "English",
-          "every",
-          "week."
+          "She",
+          "worrys",
+          "about",
+          "her",
+          "exams."
         ],
         "errorIndex": 1,
-        "correction": "studies",
+        "correction": "worries",
         "type": "Spelling",
-        "message": "After a consonant, -y changes to -ies — 'studies', not 'studys'."
+        "message": "After a consonant, -y changes to -ies — 'worries', not 'worrys'."
       },
       {
         "tokens": [
@@ -1226,92 +1206,92 @@
       {
         "tokens": [
           "She",
-          "haves",
+          "have",
           "two",
           "brothers."
         ],
         "errorIndex": 1,
         "correction": "has",
-        "type": "Irregular verb",
-        "message": "'Have' is irregular in the 3rd person — 'has', never 'haves'."
+        "type": "Subject-verb agreement",
+        "message": "'She' takes the 3rd-person form — 'has', not 'have'."
       },
       {
         "tokens": [
           "The",
-          "train",
-          "leave",
+          "match",
+          "start",
           "at",
-          "six."
+          "three."
         ],
         "errorIndex": 2,
-        "correction": "leaves",
+        "correction": "starts",
         "type": "Missing -s",
-        "message": "'The train' is 'it' — add -s: 'leaves', not 'leave'."
+        "message": "'The match' is 'it' — add -s: 'starts', not 'start'."
       },
       {
         "tokens": [
           "The",
-          "museum",
+          "gym",
           "don't",
           "open",
-          "on",
-          "Mondays."
+          "before",
+          "six."
         ],
         "errorIndex": 2,
         "correction": "doesn't",
         "type": "Subject-verb agreement",
-        "message": "'The museum' is 'it' — use 'doesn't', not 'don't'."
+        "message": "'The gym' is 'it' — use 'doesn't', not 'don't'."
       },
       {
         "tokens": [
-          "The",
-          "sun",
-          "rising",
-          "in",
-          "the",
-          "east."
+          "Cows",
+          "eating",
+          "grass",
+          "and",
+          "drink",
+          "lots",
+          "of",
+          "water."
         ],
-        "errorIndex": 2,
-        "correction": "rises",
+        "errorIndex": 1,
+        "correction": "eat",
         "type": "Wrong tense",
-        "message": "A permanent fact needs the present simple verb form — 'rises', not the -ing form alone."
+        "message": "A general fact needs the present simple — 'eat', like 'drink'. The -ing form can't be the verb on its own."
       },
       {
         "tokens": [
           "She",
-          "living",
+          "spending",
+          "August",
           "in",
           "Madrid",
-          "with",
-          "her",
-          "family."
+          "every",
+          "year."
         ],
         "errorIndex": 1,
-        "correction": "lives",
+        "correction": "spends",
         "type": "Wrong tense",
-        "message": "A permanent situation needs the present simple verb form — 'lives', not the -ing form alone."
+        "message": "A habit ('every year') needs the present simple — 'spends', not the -ing form alone."
       },
       {
         "tokens": [
-          "Birds",
-          "flies",
-          "south",
-          "in",
-          "winter."
+          "Children",
+          "learns",
+          "languages",
+          "quickly."
         ],
         "errorIndex": 1,
-        "correction": "fly",
+        "correction": "learn",
         "type": "Subject-verb agreement",
-        "message": "'Birds' is plural — no -s, so 'fly', not 'flies'."
+        "message": "'Children' is plural — no -s, so 'learn', not 'learns'."
       },
       {
         "tokens": [
           "We",
           "has",
-          "dinner",
-          "together",
-          "on",
-          "Sundays."
+          "a",
+          "big",
+          "garden."
         ],
         "errorIndex": 1,
         "correction": "have",
@@ -1341,249 +1321,187 @@
       {
         "type": "fill",
         "use": "Fact",
-        "sentText": "Water {{blank}} at 100°C.",
-        "hint": "boil",
+        "sentText": "Light {{blank}} faster than sound.",
+        "hint": "travel",
         "answers": [
-          "boils"
+          "travels"
         ],
-        "display": "boils"
+        "display": "travels",
+        "explain": "A scientific fact, always true — present simple, plus -s for 'light' (it)."
       },
       {
         "type": "fill",
         "use": "Habit/routine",
-        "sentText": "She {{blank}} to work every day.",
-        "hint": "walk",
+        "sentText": "Ben {{blank}} his bike to school every day.",
+        "hint": "ride",
         "answers": [
-          "walks"
+          "rides"
         ],
-        "display": "walks"
+        "display": "rides",
+        "explain": "'Every day' signals a routine — present simple, plus -s for 'Ben' (he)."
       },
       {
         "type": "fill",
         "use": "Habit — negative",
-        "sentText": "He {{blank}} meat.",
-        "hint": "not / eat",
+        "sentText": "He {{blank}} breakfast on weekdays.",
+        "hint": "not / have",
         "answers": [
-          "doesn't eat"
+          "doesn't have"
         ],
-        "display": "doesn't eat"
+        "display": "doesn't have",
+        "explain": "Negative habit with 'he' — 'doesn't have', not 'doesn't has'."
       },
       {
         "type": "fill",
         "use": "Timetable",
-        "sentText": "The train {{blank}} at six.",
-        "hint": "leave",
+        "sentText": "The next train to Barcelona {{blank}} at 9.15.",
+        "hint": "depart",
         "answers": [
-          "leaves"
+          "departs"
         ],
-        "display": "leaves"
+        "display": "departs",
+        "explain": "A fixed timetable — present simple, plus -s for 'the train' (it)."
       },
       {
         "type": "order",
         "use": "Habit/routine",
         "tokens": [
-          "They",
-          "play",
-          "tennis",
-          "on",
-          "Saturdays."
-        ],
-        "alts": [
-          [
-            "on",
-            "Saturdays.",
-            "They",
-            "play",
-            "tennis"
-          ]
+          "My",
+          "aunt",
+          "grows",
+          "tomatoes",
+          "in",
+          "her",
+          "garden."
         ]
       },
       {
         "type": "order",
         "use": "Question — habit",
         "tokens": [
-          "Does",
-          "she",
-          "drink",
-          "coffee?"
+          "How",
+          "often",
+          "do",
+          "you",
+          "go",
+          "swimming?"
         ]
       },
       {
         "type": "order",
         "use": "Habit — negative",
         "tokens": [
-          "I",
-          "don't",
-          "drink",
-          "coffee",
-          "at",
-          "night."
-        ],
-        "alts": [
-          [
-            "at",
-            "night.",
-            "I",
-            "don't",
-            "drink",
-            "coffee"
-          ]
+          "My",
+          "grandad",
+          "doesn't",
+          "wear",
+          "glasses."
         ]
       },
       {
         "type": "order",
         "use": "Timetable",
         "tokens": [
-          "The",
-          "film",
-          "starts",
+          "Our",
+          "flight",
+          "lands",
           "at",
-          "eight."
+          "midnight."
         ],
         "alts": [
           [
             "at",
-            "eight.",
-            "The",
-            "film",
-            "starts"
+            "midnight.",
+            "Our",
+            "flight",
+            "lands"
           ]
         ]
       },
       {
         "type": "s",
         "use": "Spelling & form",
-        "text": "She {{blank}} TV every evening.",
-        "hintVerb": "(watch)",
+        "text": "Alex {{blank}} fishing with his dad every weekend.",
+        "hintVerb": "(go)",
         "choices": [
-          "watch",
-          "watches",
-          "watched",
-          "watching"
+          "go",
+          "goes",
+          "is going",
+          "going"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Missing ending: with 'she', the verb needs -es.",
+          "Missing ending: with 'Alex' (he), the verb needs -es — 'goes'.",
           "",
-          "Wrong tense: 'every evening' is a present routine, not the past.",
-          "Wrong form: -ing needs 'is' before it, and this is a routine."
-        ]
+          "Wrong tense: 'every weekend' is a routine, not something happening now.",
+          "An -ing form like 'going' can't be the verb on its own — here you need 'goes'."
+        ],
+        "explain": "Verbs ending in -o add -es: go → goes."
       },
       {
         "type": "s",
         "use": "Spelling & form",
-        "text": "He {{blank}} English every week.",
-        "hintVerb": "(study)",
+        "text": "Dad {{blank}} eggs for breakfast every Sunday.",
+        "hintVerb": "(fry)",
         "choices": [
-          "studied",
-          "studies",
-          "study",
-          "studying"
+          "is frying",
+          "fries",
+          "fry",
+          "frying"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'every week' is a present routine, not the past.",
+          "Wrong tense: 'every Sunday' is a routine, not something happening now.",
           "",
-          "Missing ending: with 'he', the verb needs the 3rd-person form.",
-          "Wrong form: -ing needs 'is' before it, and this is a routine."
-        ]
+          "Missing ending: with 'Dad' (he), the verb needs the -ies form.",
+          "An -ing form like 'frying' can't be the verb on its own — here you need 'fries'."
+        ],
+        "explain": "Consonant + -y → -ies: fry → fries."
       },
       {
         "type": "s",
         "use": "Irregular",
-        "text": "She {{blank}} two brothers.",
+        "text": "Our school {{blank}} a big library.",
         "hintVerb": "(have)",
         "choices": [
-          "had",
+          "is have",
           "has",
           "have",
           "having"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: this is present simple, not past.",
+          "Don't add 'is' to a present simple verb — just 'has'.",
           "",
-          "Missing ending: with 'she', use the irregular form 'has'.",
-          "Wrong form: 'have' of possession isn't used in the -ing form here."
-        ]
+          "Missing 3rd-person form: 'our school' is 'it' — use the irregular form 'has'.",
+          "Wrong form: 'have' for things you own or contain isn't used in the -ing form."
+        ],
+        "explain": "'Have' is irregular with he/she/it: 'has'."
       },
       {
         "type": "s",
         "use": "Spelling & form",
-        "text": "He {{blank}} cars for a living.",
-        "hintVerb": "(fix)",
+        "text": "My mum {{blank}} with a good book every evening.",
+        "hintVerb": "(relax)",
         "choices": [
-          "fixed",
-          "fixing",
-          "fixes",
-          "fix"
+          "relax",
+          "relaxing",
+          "relaxes",
+          "is relax"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: this is a present job, not a past action.",
-          "Wrong form: -ing needs 'is' before it.",
+          "Missing ending: with 'my mum' (she), the verb needs -es.",
+          "An -ing form like 'relaxing' can't be the verb on its own — here you need 'relaxes'.",
           "",
-          "Missing ending: with 'he', the verb needs an ending."
-        ]
+          "Don't add 'is' to a present simple verb: a routine takes just 'relaxes'."
+        ],
+        "explain": "Verbs ending in -x add -es: relax → relaxes."
       },
       {
         "type": "mc",
         "use": "Habit — question",
-        "text": "{{blank}} she drink coffee?",
-        "choices": [
-          "Is",
-          "Do",
-          "Doesn't",
-          "Does"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: with 'she', use 'does', not 'do'.",
-          "That's the negative form — a plain question needs 'does'.",
-          ""
-        ]
-      },
-      {
-        "type": "mc",
-        "use": "Fact",
-        "text": "Water {{blank}} at 100°C.",
-        "choices": [
-          "boils",
-          "is boiling",
-          "boil",
-          "is boils"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "Wrong tense: a scientific fact is present simple, not continuous.",
-          "Missing -s: with 'water' (it), add -s.",
-          "Not a real form."
-        ]
-      },
-      {
-        "type": "mc",
-        "use": "Habit — negative",
-        "text": "He {{blank}} meat.",
-        "choices": [
-          "don't eat",
-          "doesn't eats",
-          "doesn't eat",
-          "not eats"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Subject-verb agreement: with 'he', use 'doesn't', not 'don't'.",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays base form.",
-          "",
-          "'Not' alone can't form a negative here."
-        ]
-      },
-      {
-        "type": "mc",
-        "use": "Timetable — question",
-        "text": "{{blank}} the shop open on Sundays?",
+        "text": "{{blank}} your cat sleep on your bed?",
         "choices": [
           "Is",
           "Do",
@@ -1593,10 +1511,68 @@
         "correct": 3,
         "wrongReasons": [
           "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: 'the shop' is 'it' — use 'does', not 'do'.",
-          "Wrong aux: 'are' pairs with the -ing form.",
+          "Subject-verb agreement: 'your cat' is 'it' — use 'does', not 'do'.",
+          "Wrong aux: 'are' pairs with the -ing form, and 'your cat' is singular.",
           ""
-        ]
+        ],
+        "explain": "With 'your cat' (it), the question auxiliary is 'does' — and the main verb stays 'sleep', not 'sleeps'."
+      },
+      {
+        "type": "mc",
+        "use": "Fact",
+        "text": "Lemons {{blank}} sour.",
+        "choices": [
+          "taste",
+          "are tasting",
+          "tastes",
+          "is taste"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: how something tastes is a permanent fact — present simple, not continuous.",
+          "Subject-verb agreement: 'lemons' is plural — no -s, 'taste' not 'tastes'.",
+          "Don't add 'is' to a present simple verb, and 'lemons' is plural — just 'taste'."
+        ],
+        "explain": "A general fact with a plural subject — present simple, no -s."
+      },
+      {
+        "type": "mc",
+        "use": "Habit — negative",
+        "text": "My sister {{blank}} spicy food.",
+        "choices": [
+          "don't like",
+          "doesn't likes",
+          "doesn't like",
+          "not likes"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Subject-verb agreement: 'my sister' is 'she' — use 'doesn't', not 'don't'.",
+          "Double marking: 'doesn't' already carries the -s — the main verb stays 'like'.",
+          "",
+          "'Not' alone can't form a negative — you need 'doesn't like'."
+        ],
+        "explain": "Negative with 'my sister' (she) — doesn't + base verb, no -s on 'like'."
+      },
+      {
+        "type": "mc",
+        "use": "Timetable — question",
+        "text": "When {{blank}} the summer holidays start?",
+        "choices": [
+          "does",
+          "is",
+          "are",
+          "do"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Subject-verb agreement: 'the summer holidays' is plural — use 'do', not 'does'.",
+          "Wrong aux: 'is' pairs with the -ing form, and the subject is plural.",
+          "Wrong aux: 'are' pairs with the -ing form — with 'start', use 'do'.",
+          ""
+        ],
+        "explain": "Plural subject 'the summer holidays' — 'do' + base verb 'start'."
       },
       {
         "type": "error",

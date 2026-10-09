@@ -58,19 +58,47 @@ const uid = 'lc';
     const orderAux = payload.orderAux;
 
     function normalize(s) {
-      return s.toLowerCase().trim().replace(/\s+/g, ' ').replace(/[‘’]/g, "'");
+      return s.toLowerCase().trim().replace(/[‘’`´]/g, "'").replace(/[.!?]+$/, '').replace(/\s+/g, ' ').trim();
     }
 
-    // Full forms ("does not") are as correct as contractions ("doesn't").
+    // Full forms ("does not") are as correct as contractions ("doesn't"), and
+    // the other way round ("'s lost" = "has lost", "I've been" = "I have been").
     const CONTRACTIONS = {"don't":"do not","doesn't":"does not","didn't":"did not","haven't":"have not","hasn't":"has not","hadn't":"had not","won't":"will not","wouldn't":"would not","wasn't":"was not","weren't":"were not","isn't":"is not","aren't":"are not","can't":"cannot","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
+    const AUX_SUFFIX = { "'ve": ['have'], "'re": ['are'], "'m": ['am'], "'ll": ['will'], "'d": ['had', 'would'], "'s": ['has', 'is'] };
     function expandContractions(s) {
       return normalize(s).split(' ').map((w) => CONTRACTIONS[w] || w).join(' ').replace(/\bcan not\b/g, 'cannot');
     }
-    function matchesAnswers(raw, answers) {
+    // Every full-form reading of a phrase (a "'s" can be "has" or "is").
+    function fullForms(s) {
+      let out = [''];
+      expandContractions(s).split(' ').filter(Boolean).forEach((w) => {
+        let opts = [w];
+        const m = w.match(/^(.*?)('ve|'re|'m|'ll|'d|'s)$/);
+        if (m && (m[1] === '' || /^[a-z]+$/.test(m[1])) && !(m[2] === "'s" && m[1] && !/^(he|she|it|that|what|who|where|there|here|how)$/.test(m[1]))) {
+          opts = AUX_SUFFIX[m[2]].map((a) => (m[1] ? m[1] + ' ' : '') + a);
+        }
+        const next = [];
+        out.forEach((o) => opts.forEach((p) => next.push(o ? o + ' ' + p : p)));
+        out = next.slice(0, 16);
+      });
+      return out;
+    }
+    // subject = the printed word right before the blank: learners often type
+    // it again, or attach a contraction to it ("I" + "'ve been learning").
+    function matchesAnswers(raw, answers, subject) {
       const n = normalize(raw);
+      if (!n) return '';
       if (answers.some((a) => normalize(a) === n)) return 'exact';
-      const e = expandContractions(raw);
-      return answers.some((a) => expandContractions(a) === e) ? 'full-form' : '';
+      const subj = normalize(subject || '').split(' ').pop();
+      const mine = fullForms(n);
+      const ok = answers.some((a) => {
+        const targets = fullForms(a);
+        if (subj) fullForms(subj + ' ' + normalize(a)).forEach((t) => targets.push(t));
+        return mine.some((x) => targets.indexOf(x) !== -1);
+      });
+      if (!ok) return '';
+      // Tip about the contracted form only when the expected answer is contracted.
+      return (!/'/.test(n) && answers.some((a) => /'/.test(a))) ? 'full-form' : 'exact';
     }
 
     let idx = 0, answered = false, startTime = null;
@@ -377,7 +405,8 @@ const uid = 'lc';
       checkBtn.addEventListener('click', () => checkFill(it, input));
       input.addEventListener('keydown', (e) => { if (e.key === 'Enter') checkFill(it, input); });
       actionsRow.appendChild(checkBtn);
-      setTimeout(() => { input.focus(); }, 50);
+      // Never autofocus on page load: it scrolls the page down to the Level check.
+      if (idx > 0) setTimeout(() => { input.focus({ preventScroll: true }); }, 50);
     }
 
     // ---- article diagnosis (a/an vs one) ----
@@ -419,7 +448,7 @@ const uid = 'lc';
       answered = true;
       const raw = input.value;
       const norm = normalize(raw);
-      const matchKind = matchesAnswers(raw, it.answers);
+      const matchKind = matchesAnswers(raw, it.answers, (it.sentText || '').split('{{blank}}')[0]);
       const isCorrect = !!matchKind;
       input.disabled = true;
       input.classList.add(isCorrect ? 'correct' : 'wrong');
@@ -427,13 +456,14 @@ const uid = 'lc';
       if (isCorrect) {
         catCorrect.fill++;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b>';
+        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech we usually say "' + it.display + '". ' : '') + (it.explain || '');
       } else {
         feedback.className = 'practice-feedback show bad';
         let specific = diagnoseFill(raw, it);
         // Drop the generic "Check ... — it should be X" line: it only repeats the correct form.
         if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
-        const mentionsForm = !!specific && String(specific).toLowerCase().indexOf(String(it.display).toLowerCase()) !== -1;
+        const escForm = String(it.display).toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const mentionsForm = !!specific && new RegExp('[\'"‘’“”]' + escForm + '[\'"‘’“”]').test(String(specific).toLowerCase());
         feedback.innerHTML = (mentionsForm ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + it.display + '".</b> ') + (specific || '');
       }
       results.push({ category: 'fill', correct: isCorrect, detail: it.sentText.replace('{{blank}}', it.display) });
@@ -443,6 +473,30 @@ const uid = 'lc';
     }
 
     // ---------- ORDER ----------
+
+    // Tiles carry no fixed capital letter or punctuation (HQ-030): the first
+    // word placed is capitalised and the end mark is added automatically.
+    const LOWER_OK = new Set(('a an the this that these those my your his her its our their some any every each no ' +
+      'i you he she it we they there here what when where why who whom whose which how ' +
+      'am is are was were be been do does did have has had will would can could should must ' +
+      "don't doesn't didn't isn't aren't wasn't weren't haven't hasn't hadn't won't can't " +
+      'not never always usually often sometimes yesterday today tomorrow last next this tonight ' +
+      'at in on by for since after before while as if because during until ' +
+      'one only both all most many much several first then').split(' '));
+    function tileLabel(word) {
+      let w = String(word).replace(/[.,?!;:]+$/, '');
+      if (w !== 'I' && !/^I'/.test(w) && /^[A-Z]/.test(w) && LOWER_OK.has(w.toLowerCase())) w = w.charAt(0).toLowerCase() + w.slice(1);
+      return w;
+    }
+    function placedLabel(word, pos) {
+      const w = tileLabel(word);
+      return pos === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+    }
+    function endMark(tokens) {
+      const m = String(tokens[tokens.length - 1] || '').match(/[.?!]+$/);
+      return m ? m[0] : '.';
+    }
+
     let orderBuilt = [], orderTray = [];
     function renderOrder(it) {
       orderBuilt = [];
@@ -504,7 +558,7 @@ const uid = 'lc';
         const t = document.createElement('button');
         t.type = 'button';
         t.className = 'wordorder-tile';
-        t.textContent = item.word;
+        t.textContent = tileLabel(item.word);
         t.addEventListener('click', () => {
           if (answered) return;
           item.used = true;
@@ -525,11 +579,11 @@ const uid = 'lc';
         ph.textContent = 'Tap words below to build the sentence';
         zone.appendChild(ph);
       } else {
-        orderBuilt.forEach((item) => {
+        orderBuilt.forEach((item, pos) => {
           const t = document.createElement('button');
           t.type = 'button';
           t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
-          t.textContent = item.word;
+          t.textContent = placedLabel(item.word, pos);
           if (!answered) {
             t.addEventListener('click', () => {
               item.used = false;
@@ -540,6 +594,12 @@ const uid = 'lc';
           }
           zone.appendChild(t);
         });
+        if (orderBuilt.length === it.tokens.length) {
+          const end = document.createElement('span');
+          end.className = 'wordorder-end';
+          end.textContent = endMark(it.tokens);
+          zone.appendChild(end);
+        }
       }
       const checkBtn = document.getElementById(`${uid}-orderCheck`);
       if (checkBtn) checkBtn.disabled = answered || orderBuilt.length !== it.tokens.length;
@@ -607,7 +667,7 @@ const uid = 'lc';
       if (isCorrect) {
         catCorrect[it.type]++;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b>';
+        feedback.innerHTML = '<b>Correct.</b> ' + (it.explain || '');
       } else {
         feedback.className = 'practice-feedback show bad';
         const reason = it.wrongReasons[chosenIndex] || '';
@@ -648,32 +708,43 @@ const uid = 'lc';
         answered = true;
         const buttons = document.getElementById(`${uid}-errorSentence`).querySelectorAll('.errorcorrection-word');
         buttons.forEach((b) => { b.disabled = true; });
-        buttons[it.errorIndex].classList.add('correct-word');
+        markSpan(it, buttons);
         reveal.disabled = true;
-        const correctedTokens = it.tokens.slice();
-        correctedTokens[it.errorIndex] = it.correction;
+        const corrected = correctedSentence(it);
         feedback.className = 'practice-feedback show revealed';
-        feedback.innerHTML = '<b>' + (it.use || 'The mistake') + '.</b> ' + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
-        results.push({ category: 'error', correct: false, detail: correctedTokens.join(' ') });
+        feedback.innerHTML = '<b>' + (it.use || 'The mistake') + '.</b> ' + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
+        results.push({ category: 'error', correct: false, detail: corrected });
         scoreText.textContent = 'Score: ' + totalScore();
         appendNext();
       });
       questionBody.appendChild(reveal);
     }
 
+
+    // A mistake can span several one-word tiles (e.g. "was" + "knowing"):
+    // errorSpan = [first, last]; tapping any tile in the span finds it.
+    function errSpan(it) { return it.errorSpan || [it.errorIndex, it.errorIndex]; }
+    function inSpan(it, i) { const s = errSpan(it); return i >= s[0] && i <= s[1]; }
+    function correctedSentence(it) {
+      const s = errSpan(it);
+      return it.tokens.slice(0, s[0]).concat(it.correction ? [it.correction] : [], it.tokens.slice(s[1] + 1)).join(' ');
+    }
+    function markSpan(it, buttons) {
+      buttons.forEach((b, i) => { if (inSpan(it, i)) b.classList.add('correct-word'); });
+    }
+
     function onErrorWordClick(it, i, btnEl) {
       if (answered) return;
-      if (i === it.errorIndex) {
+      if (inSpan(it, i)) {
         answered = true;
         const buttons = document.getElementById(`${uid}-errorSentence`).querySelectorAll('.errorcorrection-word');
         buttons.forEach((b) => { b.disabled = true; });
-        btnEl.classList.add('correct-word');
+        markSpan(it, buttons);
         catCorrect.error++;
-        const correctedTokens = it.tokens.slice();
-        correctedTokens[it.errorIndex] = it.correction;
+        const corrected = correctedSentence(it);
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Found it.</b> ' + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
-        results.push({ category: 'error', correct: true, detail: correctedTokens.join(' ') });
+        feedback.innerHTML = '<b>Found it.</b> ' + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
+        results.push({ category: 'error', correct: true, detail: corrected });
         scoreText.textContent = 'Score: ' + totalScore();
         appendNext();
       } else {

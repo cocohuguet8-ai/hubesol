@@ -147,7 +147,7 @@
         "use": "Future arrangement",
         "kind": "statement",
         "before": "They",
-        "after": "to Rome on Friday.",
+        "after": "to Rome on Friday — they booked the tickets last month.",
         "hint": "fly",
         "answers": [
           "are flying",
@@ -155,7 +155,7 @@
           "re flying"
         ],
         "display": "are flying",
-        "explain": "A planned, arranged future event."
+        "explain": "A personal arrangement (the tickets are booked) — present continuous."
       },
       {
         "use": "Future arrangement",
@@ -175,15 +175,15 @@
         "use": "Future arrangement",
         "kind": "statement",
         "before": "She",
-        "after": "her new job next Monday.",
-        "hint": "start",
+        "after": "her bedroom next Monday — she has already bought the paint.",
+        "hint": "paint",
         "answers": [
-          "is starting",
-          "'s starting",
-          "s starting"
+          "is painting",
+          "'s painting",
+          "s painting"
         ],
-        "display": "is starting",
-        "explain": "A specific, arranged future event."
+        "display": "is painting",
+        "explain": "A personal arrangement for a future day (the paint is bought) — present continuous."
       },
       {
         "use": "Now — negative",
@@ -213,15 +213,15 @@
         "use": "Future — negative",
         "kind": "statement",
         "before": "I",
-        "after": "tomorrow.",
-        "hint": "not / work",
+        "after": "to the party tomorrow — I have too much homework.",
+        "hint": "not / come",
         "answers": [
-          "am not working",
-          "'m not working",
-          "m not working"
+          "am not coming",
+          "'m not coming",
+          "m not coming"
         ],
-        "display": "am not working",
-        "explain": "A negative future arrangement."
+        "display": "am not coming",
+        "explain": "A negative future arrangement — present continuous."
       },
       {
         "use": "Now — question",
@@ -296,33 +296,35 @@
       {
         "use": "Now",
         "tokens": [
-          "She",
+          "My",
+          "brother",
           "is",
-          "talking",
-          "on",
-          "the",
-          "phone."
+          "fixing",
+          "his",
+          "bike."
         ]
       },
       {
         "use": "Now",
         "tokens": [
           "Look!",
-          "It",
+          "The",
+          "baby",
           "is",
-          "raining",
-          "again."
+          "smiling",
+          "at",
+          "you."
         ]
       },
       {
         "use": "Now",
         "tokens": [
-          "We",
+          "The",
+          "neighbours",
           "are",
-          "waiting",
-          "for",
-          "the",
-          "bus."
+          "painting",
+          "their",
+          "fence."
         ]
       },
       {
@@ -330,22 +332,34 @@
         "tokens": [
           "Are",
           "you",
-          "watching",
-          "TV",
-          "right",
-          "now?"
+          "wearing",
+          "my",
+          "jacket?"
         ]
       },
       {
         "use": "Temporary situation",
         "tokens": [
-          "He",
+          "My",
+          "sister",
           "is",
-          "living",
-          "in",
-          "Madrid",
+          "learning",
+          "to",
+          "drive",
           "this",
-          "year."
+          "summer."
+        ],
+        "alts": [
+          [
+            "this",
+            "summer.",
+            "My",
+            "sister",
+            "is",
+            "learning",
+            "to",
+            "drive"
+          ]
         ]
       },
       {
@@ -353,13 +367,26 @@
         "tokens": [
           "I",
           "am",
-          "reading",
+          "training",
+          "for",
           "a",
-          "great",
-          "book",
+          "marathon",
           "at",
           "the",
           "moment."
+        ],
+        "alts": [
+          [
+            "at",
+            "the",
+            "moment.",
+            "I",
+            "am",
+            "training",
+            "for",
+            "a",
+            "marathon"
+          ]
         ]
       },
       {
@@ -367,23 +394,34 @@
         "tokens": [
           "We",
           "aren't",
-          "saving",
-          "any",
-          "money",
+          "eating",
+          "meat",
           "this",
-          "year."
+          "month."
+        ],
+        "alts": [
+          [
+            "this",
+            "month.",
+            "We",
+            "aren't",
+            "eating",
+            "meat"
+          ]
         ]
       },
       {
         "use": "Question — temporary",
         "tokens": [
           "Is",
-          "she",
-          "staying",
-          "with",
-          "friends",
+          "he",
+          "teaching",
+          "at",
+          "a",
+          "new",
+          "school",
           "this",
-          "month?"
+          "term?"
         ]
       },
       {
@@ -391,21 +429,47 @@
         "tokens": [
           "We",
           "are",
-          "meeting",
-          "Sara",
-          "tomorrow."
+          "having",
+          "a",
+          "barbecue",
+          "on",
+          "Sunday."
+        ],
+        "alts": [
+          [
+            "on",
+            "Sunday.",
+            "We",
+            "are",
+            "having",
+            "a",
+            "barbecue"
+          ]
         ]
       },
       {
         "use": "Future arrangement",
         "tokens": [
-          "They",
-          "are",
-          "flying",
-          "to",
-          "Rome",
+          "My",
+          "aunt",
+          "is",
+          "coming",
+          "for",
+          "lunch",
           "on",
-          "Friday."
+          "Thursday."
+        ],
+        "alts": [
+          [
+            "on",
+            "Thursday.",
+            "My",
+            "aunt",
+            "is",
+            "coming",
+            "for",
+            "lunch"
+          ]
         ]
       },
       {
@@ -414,52 +478,96 @@
           "I",
           "am",
           "not",
-          "working",
-          "tomorrow."
+          "cooking",
+          "tonight."
+        ],
+        "alts": [
+          [
+            "tonight.",
+            "I",
+            "am",
+            "not",
+            "cooking"
+          ]
         ]
       },
       {
         "use": "Question — future",
         "tokens": [
           "Are",
-          "they",
-          "arriving",
-          "next",
-          "weekend?"
+          "you",
+          "taking",
+          "the",
+          "early",
+          "train",
+          "tomorrow?"
         ]
       },
       {
         "use": "Negative — now",
         "tokens": [
-          "He",
+          "The",
+          "printer",
           "isn't",
-          "listening",
-          "to",
-          "me."
+          "working",
+          "right",
+          "now."
+        ],
+        "alts": [
+          [
+            "right",
+            "now.",
+            "The",
+            "printer",
+            "isn't",
+            "working"
+          ]
         ]
       },
       {
         "use": "Now",
         "tokens": [
-          "My",
-          "cousins",
+          "The",
+          "kids",
           "are",
-          "visiting",
-          "us",
-          "this",
-          "weekend."
+          "building",
+          "a",
+          "snowman",
+          "outside."
+        ],
+        "alts": [
+          [
+            "outside.",
+            "The",
+            "kids",
+            "are",
+            "building",
+            "a",
+            "snowman"
+          ]
         ]
       },
       {
         "use": "Temporary situation",
         "tokens": [
-          "She",
+          "Dad",
           "is",
-          "working",
-          "from",
-          "home",
-          "these",
-          "days."
+          "cycling",
+          "to",
+          "work",
+          "this",
+          "week."
+        ],
+        "alts": [
+          [
+            "this",
+            "week.",
+            "Dad",
+            "is",
+            "cycling",
+            "to",
+            "work"
+          ]
         ]
       },
       {
@@ -467,23 +575,37 @@
         "tokens": [
           "Someone",
           "is",
-          "singing",
-          "in",
+          "knocking",
+          "at",
           "the",
-          "garden."
+          "door."
         ]
       },
       {
         "use": "Future arrangement",
         "tokens": [
-          "She",
+          "Our",
+          "team",
           "is",
-          "starting",
-          "her",
-          "new",
-          "job",
-          "on",
-          "Monday."
+          "playing",
+          "in",
+          "the",
+          "final",
+          "next",
+          "week."
+        ],
+        "alts": [
+          [
+            "next",
+            "week.",
+            "Our",
+            "team",
+            "is",
+            "playing",
+            "in",
+            "the",
+            "final"
+          ]
         ]
       },
       {
@@ -510,12 +632,22 @@
         "tokens": [
           "I",
           "am",
-          "having",
-          "dinner",
-          "with",
-          "my",
-          "parents",
-          "tonight."
+          "seeing",
+          "the",
+          "dentist",
+          "on",
+          "Wednesday."
+        ],
+        "alts": [
+          [
+            "on",
+            "Wednesday.",
+            "I",
+            "am",
+            "seeing",
+            "the",
+            "dentist"
+          ]
         ]
       }
     ]
@@ -672,19 +804,19 @@
       },
       {
         "use": "Temporary situation",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> with his brother this month.",
+        "text": "My dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a beard this winter.",
         "choices": [
-          "is staying",
-          "stays",
-          "are staying",
-          "is stay"
+          "is growing",
+          "grows",
+          "are growing",
+          "is grow"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: \"this month\" (temporary) needs the present continuous, not the present simple.",
-          "Subject-verb agreement: with \"he\", the auxiliary is \"is\", not \"are\".",
-          "Missing -ing: after \"is\", use the -ing form — \"staying\", not \"stay\"."
+          "Wrong tense: \"this winter\" (temporary) needs the present continuous, not the present simple.",
+          "Subject-verb agreement: with \"my dad\", the auxiliary is \"is\", not \"are\".",
+          "Missing -ing: after \"is\", use the -ing form — \"growing\", not \"grow\"."
         ],
         "explain": "A temporary situation — present continuous."
       },
@@ -708,21 +840,21 @@
       },
       {
         "use": "Future arrangement",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Lisbon next week.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tennis with Marco tomorrow — we've booked a court.",
         "choices": [
-          "is flying",
-          "fly",
-          "are flying",
-          "are fly"
+          "is playing",
+          "play",
+          "am playing",
+          "am play"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: with \"they\", the auxiliary is \"are\", not \"is\".",
-          "Wrong tense: a fixed future arrangement uses the present continuous, not the present simple.",
+          "Subject-verb agreement: with \"I\", the auxiliary is \"am\", not \"is\".",
+          "Wrong tense: a personal arrangement (the court is booked) uses the present continuous, not the present simple.",
           "",
-          "Missing -ing: after \"are\", use the -ing form — \"flying\", not \"fly\"."
+          "Missing -ing: after \"am\", use the -ing form — \"playing\", not \"play\"."
         ],
-        "explain": "A fixed future arrangement — present continuous."
+        "explain": "A fixed personal arrangement — present continuous."
       },
       {
         "use": "Future arrangement",
@@ -744,7 +876,7 @@
       },
       {
         "use": "Question — now",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she crying?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the baby sleeping right now?",
         "choices": [
           "Does",
           "Is",
@@ -755,14 +887,14 @@
         "wrongReasons": [
           "Wrong aux: this needs the continuous auxiliary \"is\", not \"does\" (present simple).",
           "",
-          "Subject-verb agreement: with \"she\", the auxiliary is \"is\", not \"are\".",
-          "Wrong tense: this needs the present, not the past."
+          "Subject-verb agreement: \"the baby\" is singular, so the auxiliary is \"is\", not \"are\".",
+          "Wrong tense: \"right now\" needs the present, not the past."
         ],
         "explain": "A yes/no question about something happening now — present continuous."
       },
       {
         "use": "Question — future",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you meeting Sara tomorrow?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you coming to my party on Saturday?",
         "choices": [
           "Do",
           "Are",
@@ -771,46 +903,46 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong aux: a future arrangement question uses \"are\", not \"do\" (present simple).",
+          "Wrong aux: \"coming\" is an -ing form, so the question needs \"are\", not \"do\".",
           "",
           "Subject-verb agreement: with \"you\", the auxiliary is \"are\", not \"is\".",
-          "Wrong tense: this needs the present, not the past."
+          "Wrong tense: \"on Saturday\" is a future arrangement — use the present \"are\", not the past \"were\"."
         ],
         "explain": "A fixed future arrangement question — present continuous."
       },
       {
         "use": "Negative — now",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to music right now.",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> attention in class right now.",
         "choices": [
-          "isn't listen",
-          "doesn't listen",
-          "aren't listening",
-          "isn't listening"
+          "aren't pay",
+          "don't pay",
+          "isn't paying",
+          "aren't paying"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing -ing: after \"isn't\", use the -ing form — \"listening\", not \"listen\".",
-          "Wrong tense: \"right now\" needs the present continuous, not the present simple.",
-          "Subject-verb agreement: with \"he\", the auxiliary is \"isn't\", not \"aren't\".",
+          "Missing -ing: after \"aren't\", use the -ing form — \"paying\", not \"pay\".",
+          "Wrong tense: \"right now\" needs the present continuous negative, not the present simple.",
+          "Subject-verb agreement: with \"they\", the auxiliary is \"aren't\", not \"isn't\".",
           ""
         ],
         "explain": "Something not happening right now — present continuous negative."
       },
       {
         "use": "Spelling & form",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new song right now.",
+        "text": "Grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a cake right now.",
         "choices": [
-          "writes",
-          "is written",
-          "is writing",
-          "is write"
+          "bakes",
+          "is bakeing",
+          "is baking",
+          "is bake"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: this needs the present continuous, not the present simple.",
-          "Wrong form: 'written' is a past participle, not an -ing form.",
+          "Wrong tense: \"right now\" needs the present continuous, not the present simple.",
+          "Spelling: drop the silent \"e\" before adding -ing — \"baking\", not \"bakeing\".",
           "",
-          "Missing -ing: after \"is\", use the -ing form — \"writing\", not \"write\"."
+          "Missing -ing: after \"is\", use the -ing form — \"baking\", not \"bake\"."
         ],
         "explain": "Something happening right now — present continuous."
       },
@@ -834,35 +966,35 @@
       },
       {
         "use": "Spelling & form",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the pool at the moment.",
+        "text": "My friends <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a trip to Japan at the moment.",
         "choices": [
-          "are swimming",
-          "are swum",
-          "swim",
-          "are swim"
+          "are planning",
+          "are planing",
+          "plan",
+          "are plan"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: 'swum' is a past participle, not an -ing form.",
-          "Wrong tense: this needs the present continuous, not the present simple.",
-          "Missing -ing: after \"are\", use the -ing form — \"swimming\", not \"swim\"."
+          "Spelling: double the final consonant — \"planning\", not \"planing\".",
+          "Wrong tense: \"at the moment\" needs the present continuous, not the present simple.",
+          "Missing -ing: after \"are\", use the -ing form — \"planning\", not \"plan\"."
         ],
-        "explain": "Something happening right now — present continuous."
+        "explain": "Something in progress around now — present continuous."
       },
       {
         "use": "Spelling & form",
         "text": "The old man <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the sofa right now.",
         "choices": [
           "lies",
-          "is lain",
+          "was lying",
           "is lying",
           "is lie"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: this needs the present continuous, not the present simple.",
-          "Wrong form: 'lain' is a past participle, not an -ing form.",
+          "Wrong tense: \"right now\" needs the present continuous, not the present simple.",
+          "Wrong tense: \"right now\" needs the present \"is\", not the past \"was\".",
           "",
           "Missing -ing: after \"is\", use the -ing form — \"lying\", not \"lie\"."
         ],
@@ -879,12 +1011,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "\"Want\" is a stative verb — feelings aren't shown with -ing. Use the present simple instead.",
+          "\"Want\" is a stative verb (a feeling) — it isn't normally used in the continuous. Use the present simple.",
           "",
-          "\"Want\" is a stative verb, and the subject-verb agreement is wrong too — with \"I\" it's never \"is\".",
+          "\"Want\" isn't normally used in the continuous, and the subject-verb agreement is wrong too — with \"I\" it's never \"is\".",
           "Subject-verb agreement: with \"I\", it's \"want\", not \"wants\"."
         ],
-        "explain": "\"Want\" is a stative verb (a feeling) — it never takes -ing. Use the present simple."
+        "explain": "\"Want\" is a stative verb (a feeling) — it isn't normally used in the continuous. Use the present simple."
       },
       {
         "use": "Stative verb",
@@ -897,12 +1029,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "\"Know\" is a stative verb, and the subject-verb agreement is wrong too.",
-          "\"Know\" is a stative verb — it's never used with -ing. Use the present simple instead.",
+          "\"Know\" isn't used in the continuous, and the subject-verb agreement is wrong too.",
+          "\"Know\" is a stative verb — it isn't used in the continuous. Use the present simple instead.",
           "Subject-verb agreement: with \"she\", it's \"knows\", not \"know\".",
           ""
         ],
-        "explain": "\"Know\" is a stative verb (mental state) — it never takes -ing. Use the present simple."
+        "explain": "\"Know\" is a stative verb (a mental state) — it isn't used in the continuous. Use the present simple."
       },
       {
         "use": "Stative verb",
@@ -915,12 +1047,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "\"Love\" is a stative verb, and the subject-verb agreement is wrong too.",
-          "\"Love\" is a stative verb — it's never used with -ing. Use the present simple instead.",
+          "\"Love\" isn't normally used in the continuous, and the subject-verb agreement is wrong too.",
+          "\"Love\" is a stative verb — it isn't normally used in the continuous. Use the present simple instead.",
           "Subject-verb agreement: with \"they\", it's \"love\", not \"loves\".",
           ""
         ],
-        "explain": "\"Love\" is a stative verb (a feeling) — it never takes -ing. Use the present simple."
+        "explain": "\"Love\" is a stative verb (a feeling) — it isn't normally used in the continuous. Use the present simple."
       },
       {
         "use": "Now",
@@ -942,19 +1074,19 @@
       },
       {
         "use": "Future arrangement",
-        "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us next Saturday.",
+        "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> their new car tomorrow — they've already paid for it.",
         "choices": [
-          "visit",
-          "are visiting",
-          "is visiting",
-          "are visit"
+          "collect",
+          "are collecting",
+          "is collecting",
+          "are collect"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: a fixed future arrangement uses the present continuous, not the present simple.",
+          "Wrong tense: a fixed personal arrangement uses the present continuous, not the present simple.",
           "",
           "Subject-verb agreement: \"my parents\" is plural, so the auxiliary is \"are\", not \"is\".",
-          "Missing -ing: after \"are\", use the -ing form — \"visiting\", not \"visit\"."
+          "Missing -ing: after \"are\", use the -ing form — \"collecting\", not \"collect\"."
         ],
         "explain": "A fixed future arrangement — present continuous."
       },
@@ -963,14 +1095,14 @@
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> well these days.",
         "choices": [
           "is not sleeping",
-          "don't sleep",
+          "didn't sleep",
           "am not sleeping",
           "am not sleep"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: with \"I\", the auxiliary is \"am not\", not \"is not\".",
-          "Wrong tense: \"these days\" (temporary) needs the present continuous, not the present simple.",
+          "Wrong tense: \"these days\" means now, so the past simple doesn't fit — use the present continuous.",
           "",
           "Missing -ing: after \"am not\", use the -ing form — \"sleeping\", not \"sleep\"."
         ],
@@ -984,29 +1116,29 @@
     "items": [
       {
         "tokens": [
-          "She",
+          "He",
           "is",
-          "talk",
-          "on",
+          "wash",
           "the",
-          "phone."
+          "dishes."
         ],
         "errorIndex": 2,
-        "correction": "talking",
+        "correction": "washing",
         "type": "Missing -ing",
-        "message": "After \"is\", use the -ing form — \"talking\", not \"talk\"."
+        "message": "After \"is\", use the -ing form — \"washing\", not \"wash\"."
       },
       {
         "tokens": [
           "Look!",
-          "It",
+          "The",
+          "bus",
           "are",
-          "raining."
+          "coming."
         ],
-        "errorIndex": 2,
+        "errorIndex": 3,
         "correction": "is",
         "type": "Subject-verb agreement",
-        "message": "With \"it\", the auxiliary is \"is\", not \"are\"."
+        "message": "\"The bus\" is singular, so the auxiliary is \"is\", not \"are\"."
       },
       {
         "tokens": [
@@ -1024,30 +1156,29 @@
       },
       {
         "tokens": [
-          "He",
-          "is",
-          "siting",
-          "on",
-          "the",
-          "floor."
+          "They",
+          "are",
+          "shoping",
+          "in",
+          "town."
         ],
         "errorIndex": 2,
-        "correction": "sitting",
+        "correction": "shopping",
         "type": "Spelling",
-        "message": "Double the final consonant — \"sitting\", not \"siting\"."
+        "message": "Double the final consonant: \"shopping\", not \"shoping\"."
       },
       {
         "tokens": [
-          "She",
+          "He",
           "is",
-          "writeing",
-          "an",
-          "email."
+          "driveing",
+          "to",
+          "work."
         ],
         "errorIndex": 2,
-        "correction": "writing",
+        "correction": "driving",
         "type": "Spelling",
-        "message": "Drop the silent \"e\" before adding -ing — \"writing\", not \"writeing\"."
+        "message": "Drop the silent \"e\" before adding -ing: \"driving\", not \"driveing\"."
       },
       {
         "tokens": [
@@ -1065,31 +1196,32 @@
       },
       {
         "tokens": [
-          "The",
-          "old",
-          "man",
+          "He",
           "is",
-          "lieing",
-          "on",
-          "the",
-          "sofa."
+          "tieing",
+          "his",
+          "shoes."
         ],
-        "errorIndex": 4,
-        "correction": "lying",
+        "errorIndex": 2,
+        "correction": "tying",
         "type": "Spelling",
-        "message": "Change \"ie\" to \"y\" before adding -ing — \"lying\", not \"lieing\"."
+        "message": "Verbs ending in -ie change to -y before -ing: \"tying\", not \"tieing\"."
       },
       {
         "tokens": [
-          "We",
-          "meeting",
-          "Sara",
-          "tomorrow."
+          "They",
+          "leaving",
+          "for",
+          "the",
+          "airport",
+          "in",
+          "ten",
+          "minutes."
         ],
         "errorIndex": 1,
-        "correction": "are meeting",
+        "correction": "are leaving",
         "type": "Missing auxiliary",
-        "message": "Present continuous needs an auxiliary — \"are meeting\", not \"meeting\" alone."
+        "message": "Present continuous needs an auxiliary — \"are leaving\", not \"leaving\" alone."
       },
       {
         "tokens": [
@@ -1109,9 +1241,10 @@
         "tokens": [
           "She",
           "are",
-          "staying",
-          "with",
-          "friends."
+          "travelling",
+          "to",
+          "Berlin",
+          "today."
         ],
         "errorIndex": 1,
         "correction": "is",
@@ -1122,9 +1255,11 @@
         "tokens": [
           "They",
           "is",
-          "flying",
-          "to",
-          "Rome."
+          "planting",
+          "trees",
+          "in",
+          "the",
+          "park."
         ],
         "errorIndex": 1,
         "correction": "are",
@@ -1135,10 +1270,10 @@
         "tokens": [
           "He",
           "are",
-          "starting",
+          "carrying",
           "a",
-          "new",
-          "job."
+          "heavy",
+          "box."
         ],
         "errorIndex": 1,
         "correction": "is",
@@ -1147,16 +1282,17 @@
       },
       {
         "tokens": [
-          "We",
-          "was",
-          "meeting",
-          "Sara",
-          "tomorrow."
+          "They",
+          "are",
+          "get",
+          "married",
+          "next",
+          "June."
         ],
-        "errorIndex": 1,
-        "correction": "are",
-        "type": "Wrong tense",
-        "message": "\"Was\" is the past — a future arrangement needs \"are\", the present continuous auxiliary."
+        "errorIndex": 2,
+        "correction": "getting",
+        "type": "Missing -ing",
+        "message": "After \"are\", use the -ing form — \"getting\", not \"get\"."
       },
       {
         "tokens": [
@@ -1190,14 +1326,14 @@
         "tokens": [
           "She",
           "is",
-          "haveing",
+          "takeing",
           "a",
-          "shower."
+          "photo."
         ],
         "errorIndex": 2,
-        "correction": "having",
+        "correction": "taking",
         "type": "Spelling",
-        "message": "Drop the silent \"e\" before adding -ing — \"having\", not \"haveing\"."
+        "message": "Drop the silent \"e\" before adding -ing: \"taking\", not \"takeing\"."
       },
       {
         "tokens": [
@@ -1228,30 +1364,29 @@
       },
       {
         "tokens": [
-          "I",
-          "working",
-          "from",
-          "home",
-          "this",
-          "week."
+          "Mum",
+          "making",
+          "pancakes",
+          "for",
+          "breakfast."
         ],
         "errorIndex": 1,
-        "correction": "am working",
+        "correction": "is making",
         "type": "Missing auxiliary",
-        "message": "Present continuous needs an auxiliary — \"am working\", not \"working\" alone."
+        "message": "Present continuous needs an auxiliary — \"is making\", not \"making\" alone."
       },
       {
         "tokens": [
-          "He",
+          "They",
           "don't",
-          "listening",
-          "to",
-          "me."
+          "watching",
+          "the",
+          "match."
         ],
         "errorIndex": 1,
-        "correction": "isn't",
+        "correction": "aren't",
         "type": "Wrong auxiliary",
-        "message": "This needs the continuous negative \"isn't\", not the present simple negative \"don't\"."
+        "message": "This needs the continuous negative \"aren't\", not the present simple negative \"don't\"."
       }
     ]
   },
@@ -1283,41 +1418,45 @@
           "'m finishing",
           "m finishing"
         ],
-        "display": "am finishing"
+        "display": "am finishing",
+        "explain": "Something happening right now — present continuous."
       },
       {
         "type": "fill",
         "use": "Temporary situation",
-        "sentText": "They {{blank}} in London this month.",
-        "hint": "stay",
+        "sentText": "We {{blank}} a small flat in town this year.",
+        "hint": "rent",
         "answers": [
-          "are staying",
-          "'re staying",
-          "re staying"
+          "are renting",
+          "'re renting",
+          "re renting"
         ],
-        "display": "are staying"
+        "display": "are renting",
+        "explain": "'This year' — a temporary situation, not a permanent one."
       },
       {
         "type": "fill",
         "use": "Future arrangement",
-        "sentText": "We {{blank}} the Garcías this weekend.",
-        "hint": "visit",
+        "sentText": "My best friend {{blank}} to Canada next month.",
+        "hint": "move",
         "answers": [
-          "are visiting",
-          "'re visiting",
-          "re visiting"
+          "is moving",
+          "'s moving",
+          "s moving"
         ],
-        "display": "are visiting"
+        "display": "is moving",
+        "explain": "A fixed future arrangement — present continuous, not 'will'."
       },
       {
         "type": "fill",
         "use": "Negative — temporary",
-        "sentText": "He {{blank}} well these days.",
-        "hint": "not / sleep",
+        "sentText": "He {{blank}} coffee this week.",
+        "hint": "not / drink",
         "answers": [
-          "isn't sleeping"
+          "isn't drinking"
         ],
-        "display": "isn't sleeping"
+        "display": "isn't drinking",
+        "explain": "A temporary situation, negative — present continuous."
       },
       {
         "type": "order",
@@ -1382,7 +1521,8 @@
           "Wrong form: 'written' is a past participle, not an -ing form.",
           "Wrong form: \"writes\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
-        ]
+        ],
+        "explain": "Something happening right now — present continuous."
       },
       {
         "type": "ing",
@@ -1401,26 +1541,28 @@
           "Spelling: double the final consonant — \"running\", not \"runing\".",
           "Wrong form: \"runs\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
-        ]
+        ],
+        "explain": "Something happening right now — present continuous."
       },
       {
         "type": "ing",
         "use": "Spelling & form",
-        "text": "She is {{blank}} on the sofa.",
+        "text": "The dog is {{blank}} in the sun.",
         "hintVerb": "(lie)",
         "choices": [
           "lying",
-          "lain",
+          "lieing",
           "lies",
           "lie"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: 'lain' is a past participle, not an -ing form.",
+          "Spelling: verbs ending in -ie change to -y before -ing — \"lying\", not \"lieing\".",
           "Wrong form: \"lies\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
-        ]
+        ],
+        "explain": "Something happening right now — present continuous."
       },
       {
         "type": "ing",
@@ -1439,7 +1581,8 @@
           "Spelling: drop the silent \"e\" before adding -ing — \"making\", not \"makeing\".",
           "Wrong form: \"makes\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
-        ]
+        ],
+        "explain": "Something happening right now — present continuous."
       },
       {
         "type": "mc",
@@ -1457,61 +1600,65 @@
           "Wrong aux: this needs the continuous auxiliary \"is\", not \"does\" (present simple).",
           "Subject-verb agreement: with \"she\", the auxiliary is \"is\", not \"are\".",
           "Wrong tense: \"right now\" needs the present, not the past."
-        ]
+        ],
+        "explain": "A yes/no question about something happening now — present continuous."
       },
       {
         "type": "mc",
         "use": "Stative verb",
-        "text": "I {{blank}} a new car, but I can't afford it yet.",
+        "text": "I {{blank}} a new laptop for my course.",
         "choices": [
-          "want",
-          "am wanting",
-          "wants",
-          "is wanting"
+          "need",
+          "am needing",
+          "needs",
+          "is needing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "\"Want\" is a stative verb — feelings aren't shown with -ing. Use the present simple.",
-          "Subject-verb agreement: with \"I\", it's \"want\", not \"wants\".",
-          "\"Want\" is a stative verb, and the subject-verb agreement is wrong too — with \"I\" it's never \"is\"."
-        ]
+          "\"Need\" is a stative verb — it isn't normally used in the continuous. Use the present simple.",
+          "Subject-verb agreement: with \"I\", it's \"need\", not \"needs\".",
+          "\"Need\" isn't normally used in the continuous, and the subject-verb agreement is wrong too — with \"I\" it's never \"is\"."
+        ],
+        "explain": "\"Need\" is a stative verb — it isn't normally used in the continuous. Use the present simple."
       },
       {
         "type": "mc",
         "use": "Now",
-        "text": "The kids {{blank}} in the garden at the moment.",
+        "text": "The kids {{blank}} their teeth at the moment.",
         "choices": [
-          "are playing",
-          "play",
-          "is playing",
-          "are play"
+          "are brushing",
+          "brush",
+          "is brushing",
+          "are brush"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: \"at the moment\" needs the present continuous, not the present simple.",
           "Subject-verb agreement: \"the kids\" is plural, so the auxiliary is \"are\", not \"is\".",
-          "Missing -ing: after \"are\", use the -ing form — \"playing\", not \"play\"."
-        ]
+          "Missing -ing: after \"are\", use the -ing form — \"brushing\", not \"brush\"."
+        ],
+        "explain": "'At the moment' — something happening now, so present continuous."
       },
       {
         "type": "mc",
         "use": "Stative verb",
-        "text": "He {{blank}} the answer already.",
+        "text": "She {{blank}} the question now.",
         "choices": [
-          "knows",
-          "is knowing",
-          "know",
-          "are knowing"
+          "understands",
+          "is understanding",
+          "understand",
+          "are understanding"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "\"Know\" is a stative verb — it's never used with -ing. Use the present simple.",
-          "Subject-verb agreement: with \"he\", it's \"knows\", not \"know\".",
-          "\"Know\" is a stative verb, and the subject-verb agreement is wrong too."
-        ]
+          "\"Understand\" is a stative verb — it isn't normally used in the continuous, even with \"now\". Use the present simple.",
+          "Subject-verb agreement: with \"she\", it's \"understands\", not \"understand\".",
+          "\"Understand\" isn't normally used in the continuous, and the subject-verb agreement is wrong too."
+        ],
+        "explain": "\"Understand\" is a stative verb (a mental state) — it isn't normally used in the continuous. Use the present simple."
       },
       {
         "type": "error",
@@ -1531,16 +1678,15 @@
         "type": "error",
         "use": "Subject-verb agreement",
         "tokens": [
-          "We",
+          "My",
+          "friends",
           "is",
-          "having",
-          "a",
-          "party",
-          "tonight."
+          "waiting",
+          "outside."
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "are",
-        "message": "With \"we\", the auxiliary is \"are\", not \"is\"."
+        "message": "\"My friends\" is plural, so the auxiliary is \"are\", not \"is\"."
       },
       {
         "type": "error",

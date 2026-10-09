@@ -18,3 +18,10 @@ const { practice } = Astro.props;
     <LevelCheck tense={practice.tense} lessonTitle={practice.lessonTitle} data={practice.levelCheck} orderAux={practice.grammar?.orderAux} />
   </div>
 )}
+{practice && (
+  <script is:inline>
+    // Lesson pages open at the top (HQ-057): no restored scroll position.
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    if (!location.hash) window.scrollTo(0, 0);
+  </script>
+)}

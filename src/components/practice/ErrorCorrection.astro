@@ -66,6 +66,19 @@ const uid = 'ec';
     const scoreScreen = document.getElementById(`${uid}-scoreScreen`);
     const restartBtn = document.getElementById(`${uid}-restartBtn`);
 
+
+    // A mistake can span several one-word tiles (e.g. "was" + "knowing"):
+    // errorSpan = [first, last]; tapping any tile in the span finds it.
+    function errSpan(it) { return it.errorSpan || [it.errorIndex, it.errorIndex]; }
+    function inSpan(it, i) { const s = errSpan(it); return i >= s[0] && i <= s[1]; }
+    function correctedSentence(it) {
+      const s = errSpan(it);
+      return it.tokens.slice(0, s[0]).concat(it.correction ? [it.correction] : [], it.tokens.slice(s[1] + 1)).join(' ');
+    }
+    function markSpan(it, buttons) {
+      buttons.forEach((b, i) => { if (inSpan(it, i)) b.classList.add('correct-word'); });
+    }
+
     function startQuiz() {
       idx = 0; found = 0; answered = false; results = [];
       quizArea.style.display = '';
@@ -98,7 +111,7 @@ const uid = 'ec';
     function onWordClick(i, btnEl) {
       if (answered) return;
       const it = items[idx];
-      if (i === it.errorIndex) {
+      if (inSpan(it, i)) {
         lockIn(false);
       } else {
         btnEl.classList.add('wrongflash');
@@ -118,22 +131,21 @@ const uid = 'ec';
       const it = items[idx];
       const buttons = sentenceZone.querySelectorAll('.errorcorrection-word');
       buttons.forEach((b) => { b.disabled = true; });
-      buttons[it.errorIndex].classList.add('correct-word');
+      markSpan(it, buttons);
       revealBtn.disabled = true;
 
       if (!revealed) found++;
       scoreText.textContent = 'Found: ' + found;
 
-      const correctedTokens = it.tokens.slice();
-      correctedTokens[it.errorIndex] = it.correction;
+      const corrected = correctedSentence(it);
 
       feedback.className = 'practice-feedback show ' + (revealed ? 'revealed' : 'ok');
       feedback.innerHTML = (revealed ? '<b>' + it.type + '.</b> ' : '<b>Found it — ' + it.type + '.</b> ')
-        + it.message + '<div class="errorcorrection-corrected">' + correctedTokens.join(' ') + '</div>';
+        + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
 
       results.push({
         original: it.tokens.join(' '),
-        corrected: correctedTokens.join(' '),
+        corrected: corrected,
         selfFound: !revealed
       });
 

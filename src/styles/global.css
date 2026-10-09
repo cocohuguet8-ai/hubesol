@@ -542,3 +542,18 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
   .errorcorrection-sentence { line-height: 1.8; gap: 0.1rem 0.3rem; }
   .errorcorrection-link-btn { font-size: 0.9rem; padding: 0.4rem 0; }
 }
+
+/* Beat the clock: Start gate (HQ-057) */
+.timedmc-start { text-align: center; padding: 0.6rem 0 0.4rem; }
+.timedmc-start p { color: var(--muted); margin: 0 0 0.9rem; font-size: 0.95rem; }
+.timedmc-timer-fill { transition: width 0.2s linear, background 0.3s ease; }
+
+/* Matching with a few reusable category buttons (HQ-056) */
+.matching-board--categories { grid-template-columns: 1.6fr 1fr; align-items: start; grid-auto-flow: row; }
+.matching-board--categories > div { display: block; }
+.matching-board--categories .matching-col { display: flex; }
+.matching-board--categories > div > * { grid-column: auto; }
+.matching-board--categories .matching-col-label { grid-row: auto; }
+.matching-board--categories > div:last-child { position: sticky; top: 6rem; }
+.matching-category { font-weight: 600; text-align: center; }
+.wordorder-end { align-self: flex-end; font-weight: 600; margin-left: -0.15rem; }

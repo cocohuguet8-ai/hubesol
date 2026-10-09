@@ -99,6 +99,30 @@ const uid = 'wo';
       return a;
     }
 
+
+    // Tiles carry no fixed capital letter or punctuation (HQ-030): the first
+    // word placed is capitalised and the end mark is added automatically.
+    const LOWER_OK = new Set(('a an the this that these those my your his her its our their some any every each no ' +
+      'i you he she it we they there here what when where why who whom whose which how ' +
+      'am is are was were be been do does did have has had will would can could should must ' +
+      "don't doesn't didn't isn't aren't wasn't weren't haven't hasn't hadn't won't can't " +
+      'not never always usually often sometimes yesterday today tomorrow last next this tonight ' +
+      'at in on by for since after before while as if because during until ' +
+      'one only both all most many much several first then').split(' '));
+    function tileLabel(word) {
+      let w = String(word).replace(/[.,?!;:]+$/, '');
+      if (w !== 'I' && !/^I'/.test(w) && /^[A-Z]/.test(w) && LOWER_OK.has(w.toLowerCase())) w = w.charAt(0).toLowerCase() + w.slice(1);
+      return w;
+    }
+    function placedLabel(word, pos) {
+      const w = tileLabel(word);
+      return pos === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+    }
+    function endMark(tokens) {
+      const m = String(tokens[tokens.length - 1] || '').match(/[.?!]+$/);
+      return m ? m[0] : '.';
+    }
+
     function render() {
       const q = questions[idx];
       useTag.textContent = q.use;
@@ -132,7 +156,7 @@ const uid = 'wo';
         const t = document.createElement('button');
         t.type = 'button';
         t.className = 'wordorder-tile';
-        t.textContent = item.word;
+        t.textContent = tileLabel(item.word);
         t.addEventListener('click', () => {
           if (answered) return;
           item.used = true;
@@ -152,11 +176,11 @@ const uid = 'wo';
         ph.textContent = 'Tap words below to build the sentence';
         answerZone.appendChild(ph);
       } else {
-        built.forEach((item) => {
+        built.forEach((item, pos) => {
           const t = document.createElement('button');
           t.type = 'button';
           t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
-          t.textContent = item.word;
+          t.textContent = placedLabel(item.word, pos);
           if (!answered) {
             t.addEventListener('click', () => {
               item.used = false;
@@ -167,6 +191,12 @@ const uid = 'wo';
           }
           answerZone.appendChild(t);
         });
+        if (built.length === questions[idx].tokens.length) {
+          const end = document.createElement('span');
+          end.className = 'wordorder-end';
+          end.textContent = endMark(questions[idx].tokens);
+          answerZone.appendChild(end);
+        }
       }
       const q = questions[idx];
       checkBtn.disabled = answered || built.length !== q.tokens.length;
@@ -249,7 +279,7 @@ const uid = 'wo';
           + ' The correct sentence is: "' + q.tokens.join(' ') + '"';
       }
 
-      results.push({ correct: isCorrect, sentence: q.tokens.join(' '), yours: builtWords.join(' ') });
+      results.push({ correct: isCorrect, sentence: q.tokens.join(' '), yours: builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens) });
 
       checkBtn.style.display = 'none';
       clearBtn.disabled = true;

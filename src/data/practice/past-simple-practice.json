@@ -51,7 +51,7 @@
       {
         "use": "Completed action",
         "before": "I",
-        "after": "my umbrella on the train.",
+        "after": "my umbrella on the train yesterday.",
         "hint": "(leave)",
         "answers": [
           "left"
@@ -62,7 +62,7 @@
       {
         "use": "Completed action",
         "before": "They",
-        "after": "the meeting on Friday.",
+        "after": "the meeting at the last minute last Friday.",
         "hint": "(cancel)",
         "answers": [
           "cancelled",
@@ -80,7 +80,7 @@
           "walked"
         ],
         "display": "walked",
-        "explain": "One completed event following another — plain past simple, no 'while' or 'when' needed."
+        "explain": "One completed action after another: the film finished, then we walked home."
       },
       {
         "use": "Sequence of past events",
@@ -135,29 +135,29 @@
           "collected"
         ],
         "display": "collected",
-        "explain": "A state that was true in the past but no longer is."
+        "explain": "A hobby she had when she was young — a past habit, now finished."
       },
       {
         "use": "Past habit / state",
         "before": "My grandfather",
-        "after": "in this town his whole life.",
+        "after": "in this town his whole life, until he died in 2010.",
         "hint": "(live)",
         "answers": [
           "lived"
         ],
         "display": "lived",
-        "explain": "A past state, now finished (implies he no longer does)."
+        "explain": "A finished past state: he lived here until his death, so use past simple."
       },
       {
         "use": "Past habit / state",
-        "before": "I",
+        "before": "When I was a teenager, I",
         "after": "hard for every test at school.",
         "hint": "(study)",
         "answers": [
           "studied"
         ],
         "display": "studied",
-        "explain": "Consonant + y → change y to i before adding -ed: studied."
+        "explain": "A past habit at a finished time ('when I was a teenager'). Consonant + y → change y to i before -ed: studied."
       },
       {
         "use": "Negative",
@@ -187,7 +187,7 @@
       },
       {
         "use": "Negative",
-        "before": "He",
+        "before": "Yesterday he",
         "after": "his homework before dinner.",
         "hint": "(not / finish)",
         "answers": [
@@ -201,7 +201,7 @@
       {
         "use": "Negative",
         "before": "We",
-        "after": "the bus this morning.",
+        "after": "the bus on Monday, so we walked.",
         "hint": "(not / catch)",
         "answers": [
           "didn't catch",
@@ -215,7 +215,7 @@
         "use": "Question",
         "before": "",
         "after": "you call her last night?",
-        "hint": "(auxiliary)",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
@@ -225,8 +225,8 @@
       {
         "use": "Question",
         "before": "",
-        "after": "they arrive on time?",
-        "hint": "(auxiliary)",
+        "after": "they arrive on time for the wedding yesterday?",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
@@ -236,8 +236,8 @@
       {
         "use": "Question",
         "before": "",
-        "after": "he pass the exam?",
-        "hint": "(auxiliary)",
+        "after": "he pass his driving test last week?",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
@@ -259,17 +259,28 @@
           "movie",
           "last",
           "night."
+        ],
+        "alts": [
+          [
+            "last",
+            "night.",
+            "I",
+            "watched",
+            "a",
+            "movie"
+          ]
         ]
       },
       {
         "use": "Completed action",
         "tokens": [
           "She",
-          "bought",
+          "sent",
+          "me",
           "a",
-          "new",
-          "laptop",
-          "yesterday."
+          "postcard",
+          "from",
+          "Lisbon."
         ]
       },
       {
@@ -281,6 +292,16 @@
           "grandparents",
           "last",
           "weekend."
+        ],
+        "alts": [
+          [
+            "last",
+            "weekend.",
+            "We",
+            "visited",
+            "my",
+            "grandparents"
+          ]
         ]
       },
       {
@@ -299,11 +320,21 @@
         "use": "Completed action",
         "tokens": [
           "They",
-          "cancelled",
-          "the",
-          "trip",
+          "sold",
+          "their",
+          "house",
           "last",
-          "minute."
+          "year."
+        ],
+        "alts": [
+          [
+            "last",
+            "year.",
+            "They",
+            "sold",
+            "their",
+            "house"
+          ]
         ]
       },
       {
@@ -346,33 +377,63 @@
         "use": "Past habit / state",
         "tokens": [
           "We",
-          "played",
-          "tennis",
+          "went",
+          "skiing",
           "every",
-          "Sunday."
+          "winter."
+        ],
+        "alts": [
+          [
+            "every",
+            "winter.",
+            "We",
+            "went",
+            "skiing"
+          ]
         ]
       },
       {
         "use": "Past habit / state",
         "tokens": [
           "I",
-          "collected",
-          "stickers",
+          "hated",
+          "vegetables",
           "as",
           "a",
           "child."
+        ],
+        "alts": [
+          [
+            "as",
+            "a",
+            "child.",
+            "I",
+            "hated",
+            "vegetables"
+          ]
         ]
       },
       {
         "use": "Past habit / state",
         "tokens": [
           "She",
-          "lived",
-          "in",
-          "Paris",
-          "for",
-          "ten",
-          "years."
+          "had",
+          "long",
+          "hair",
+          "as",
+          "a",
+          "teenager."
+        ],
+        "alts": [
+          [
+            "as",
+            "a",
+            "teenager.",
+            "She",
+            "had",
+            "long",
+            "hair"
+          ]
         ]
       },
       {
@@ -391,9 +452,9 @@
         "tokens": [
           "I",
           "didn't",
-          "see",
+          "understand",
           "the",
-          "message."
+          "question."
         ]
       },
       {
@@ -401,10 +462,9 @@
         "tokens": [
           "They",
           "didn't",
-          "go",
-          "to",
+          "answer",
           "the",
-          "concert."
+          "phone."
         ]
       },
       {
@@ -422,10 +482,9 @@
         "tokens": [
           "We",
           "didn't",
-          "catch",
-          "the",
-          "early",
-          "train."
+          "need",
+          "a",
+          "taxi."
         ]
       },
       {
@@ -433,9 +492,10 @@
         "tokens": [
           "Did",
           "you",
-          "call",
-          "her",
-          "yesterday?"
+          "sleep",
+          "well",
+          "last",
+          "night?"
         ]
       },
       {
@@ -443,9 +503,9 @@
         "tokens": [
           "Did",
           "they",
-          "arrive",
-          "on",
-          "time?"
+          "like",
+          "the",
+          "food?"
         ]
       },
       {
@@ -453,9 +513,9 @@
         "tokens": [
           "Did",
           "she",
-          "pass",
+          "get",
           "the",
-          "exam?"
+          "job?"
         ]
       },
       {
@@ -588,22 +648,22 @@
       },
       {
         "use": "Completed action",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her phone at the restaurant.",
-        "hintVerb": "(lose)",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her arm skiing last winter.",
+        "hintVerb": "(break)",
         "choices": [
-          "has lost",
-          "lost",
-          "loses",
-          "losed"
+          "has broken",
+          "broke",
+          "breaks",
+          "breaked"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: use past simple for a finished event, not present perfect.",
+          "Wrong tense: \"last winter\" is a finished time — use past simple, not present perfect.",
           "",
-          "Missing past tense: \"loses\" is present simple, not past.",
-          "There's no such form as \"losed\" — \"lose\" is irregular: lose → lost."
+          "Missing past tense: \"breaks\" is present simple, not past.",
+          "There's no such form as \"breaked\" — \"break\" is irregular: break → broke."
         ],
-        "explain": "A finished event with a clear past-time context."
+        "explain": "A finished event at a specific past time — past simple."
       },
       {
         "use": "Completed action",
@@ -626,18 +686,18 @@
       },
       {
         "use": "Sequence of past events",
-        "text": "He woke up, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and left for work.",
-        "hintVerb": "(get dressed)",
+        "text": "She came home, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a shower and went to bed.",
+        "hintVerb": "(have)",
         "choices": [
-          "got dressed",
-          "gets dressed",
-          "getting dressed",
-          "has got dressed"
+          "had",
+          "has",
+          "having",
+          "has had"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Tense mismatch: this needs the past form to match \"woke up\" and \"left\".",
+          "Tense mismatch: this needs the past form to match \"came\" and \"went\".",
           "Missing past tense: use the past form, not the -ing form.",
           "Wrong tense: keep the whole sequence in past simple, not present perfect."
         ],
@@ -683,26 +743,26 @@
       },
       {
         "use": "Past habit / state",
-        "text": "When I was young, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> chess every Sunday.",
-        "hintVerb": "(play)",
+        "text": "As a teenager, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the sea every morning.",
+        "hintVerb": "(swim)",
         "choices": [
-          "played",
-          "play",
-          "was playing",
-          "have played"
+          "swam",
+          "swim",
+          "have swum",
+          "swimmed"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: \"when I was young\" needs past simple, not the present.",
-          "Wrong tense: a repeated past habit uses past simple, not the continuous.",
-          "Wrong tense: a finished past habit doesn't need present perfect."
+          "Wrong tense: \"as a teenager\" is a finished time — it needs the past, not the present.",
+          "Wrong tense: a finished past habit doesn't need present perfect.",
+          "There's no such form as \"swimmed\" — \"swim\" is irregular: swim → swam."
         ],
         "explain": "A repeated habit in the past, now finished."
       },
       {
         "use": "Past habit / state",
-        "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a small village.",
+        "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a small village in the 1970s.",
         "hintVerb": "(grow up)",
         "choices": [
           "grow up",
@@ -759,7 +819,7 @@
       },
       {
         "use": "Negative",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the deadline.",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the deadline last week.",
         "hintVerb": "(not / meet)",
         "choices": [
           "didn't met",
@@ -778,7 +838,7 @@
       },
       {
         "use": "Negative",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> enough time to finish.",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> enough time to finish the test yesterday.",
         "hintVerb": "(not / have)",
         "choices": [
           "didn't have",
@@ -797,7 +857,7 @@
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you enjoy the concert?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you enjoy the concert last night?",
         "hintVerb": "",
         "choices": [
           "Did",
@@ -816,7 +876,7 @@
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she call you back?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she call you back yesterday?",
         "hintVerb": "",
         "choices": [
           "Has",
@@ -835,7 +895,7 @@
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> they find the hotel easily?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> they find the hotel easily when they arrived in Rome?",
         "hintVerb": "",
         "choices": [
           "Do",
@@ -854,64 +914,64 @@
       },
       {
         "use": "Spelling",
-        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> raining at exactly six o'clock.",
+        "text": "Yesterday it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> raining at exactly six o'clock.",
         "hintVerb": "(stop)",
         "choices": [
-          "stopeed",
           "stoped",
-          "stopps",
-          "stopped"
+          "stops",
+          "stopped",
+          "has stopped"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
-          "This isn't a valid spelling of the past form.",
           "Spelling: double the final consonant in a short CVC verb — \"stopped\", not \"stoped\".",
-          "This isn't a valid spelling of the past form.",
-          ""
+          "Wrong tense: \"yesterday\" needs the past simple, not the present.",
+          "",
+          "Wrong tense: \"yesterday at six\" is a finished time — use past simple, not present perfect."
         ],
         "explain": "Short verb, consonant-vowel-consonant: double the final letter."
       },
       {
         "use": "Spelling & form",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> really hard for the exam last week.",
-        "hintVerb": "(study)",
+        "text": "The baby <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all night last night.",
+        "hintVerb": "(cry)",
         "choices": [
-          "studies",
-          "studying",
-          "study",
-          "studied"
+          "cries",
+          "crying",
+          "cry",
+          "cried"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'last week' needs the past simple — 'studied'.",
-          "Wrong form: -ing needs 'was' before it, and this is a finished past action.",
-          "Wrong tense: 'last week' needs the past simple — 'studied'.",
+          "Wrong tense: 'last night' needs the past simple — 'cried'.",
+          "Wrong form: -ing needs 'was' before it, and this needs the past simple.",
+          "Wrong tense: 'last night' needs the past simple — 'cried'.",
           ""
         ],
         "explain": "Consonant + y → i before adding -ed."
       },
       {
         "use": "Spelling",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the whole trip in advance.",
+        "text": "Last summer we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the whole trip in advance.",
         "hintVerb": "(plan)",
         "choices": [
           "planned",
           "planed",
-          "plannned",
-          "planeed"
+          "plans",
+          "have planned"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Spelling: double the final consonant in a short CVC verb — \"planned\", not \"planed\".",
-          "This isn't a valid spelling — too many n's.",
-          "This isn't a valid past-tense spelling."
+          "Wrong tense and agreement: \"last summer\" needs the past simple.",
+          "Wrong tense: \"last summer\" is a finished time — use past simple, not present perfect."
         ],
         "explain": "Short verb, consonant-vowel-consonant: double the final letter."
       },
       {
         "use": "Spelling",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to fix the bike himself.",
+        "text": "Yesterday he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to fix the bike himself.",
         "hintVerb": "(try)",
         "choices": [
           "tryed",
@@ -923,14 +983,14 @@
         "wrongReasons": [
           "Spelling: consonant + y → change y to i before -ed — \"tried\", not \"tryed\".",
           "",
-          "This is the present simple form, not the past.",
+          "Wrong tense: \"yesterday\" needs the past, not the present simple.",
           "This isn't a valid past-tense spelling."
         ],
         "explain": "Consonant + y → i before adding -ed."
       },
       {
         "use": "Completed action",
-        "text": "The train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ten minutes late.",
+        "text": "The train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ten minutes late yesterday.",
         "hintVerb": "(arrive)",
         "choices": [
           "arrives",
@@ -945,7 +1005,7 @@
           "",
           "Wrong tense: this is a single completed event, not a background scene."
         ],
-        "explain": "A single, finished event at a specific time."
+        "explain": "A single finished event at a finished time: yesterday."
       }
     ]
   },
@@ -971,11 +1031,10 @@
         "tokens": [
           "She",
           "buyed",
-          "a",
-          "new",
-          "dress",
-          "last",
-          "week."
+          "flowers",
+          "for",
+          "her",
+          "mum."
         ],
         "errorIndex": 1,
         "correction": "bought",
@@ -1028,45 +1087,42 @@
       },
       {
         "tokens": [
-          "It",
-          "stoped",
-          "raining",
-          "before",
-          "lunch."
-        ],
-        "errorIndex": 1,
-        "correction": "stopped",
-        "type": "Spelling",
-        "message": "Double the final consonant in a short CVC verb — \"stopped\", not \"stoped\"."
-      },
-      {
-        "tokens": [
           "She",
-          "studyed",
-          "every",
-          "night",
-          "for",
-          "the",
-          "exam."
+          "droped",
+          "her",
+          "phone."
         ],
         "errorIndex": 1,
-        "correction": "studied",
+        "correction": "dropped",
         "type": "Spelling",
-        "message": "Consonant + y → change y to i before -ed — \"studied\", not \"studyed\"."
+        "message": "Double the final consonant in a short CVC verb — \"dropped\", not \"droped\"."
       },
       {
         "tokens": [
-          "We",
-          "planed",
-          "the",
-          "whole",
-          "holiday",
-          "together."
+          "He",
+          "copyed",
+          "his",
+          "friend's",
+          "answers."
         ],
         "errorIndex": 1,
-        "correction": "planned",
+        "correction": "copied",
         "type": "Spelling",
-        "message": "Double the final consonant — \"planned\", not \"planed\"."
+        "message": "Consonant + y → change y to i before -ed — \"copied\", not \"copyed\"."
+      },
+      {
+        "tokens": [
+          "He",
+          "chated",
+          "with",
+          "his",
+          "friends",
+          "online."
+        ],
+        "errorIndex": 1,
+        "correction": "chatted",
+        "type": "Spelling",
+        "message": "Double the final consonant — \"chatted\", not \"chated\"."
       },
       {
         "tokens": [
@@ -1113,12 +1169,11 @@
           "Last",
           "night,",
           "we",
-          "watch",
-          "a",
-          "documentary."
+          "cook",
+          "pasta."
         ],
         "errorIndex": 3,
-        "correction": "watched",
+        "correction": "cooked",
         "type": "Wrong tense",
         "message": "\"Last night\" is a finished time — this needs past simple, not present simple."
       },
@@ -1210,11 +1265,10 @@
         "tokens": [
           "I",
           "don't",
-          "finish",
-          "my",
-          "homework",
-          "last",
-          "night."
+          "eat",
+          "breakfast",
+          "this",
+          "morning."
         ],
         "errorIndex": 1,
         "correction": "didn't",
@@ -1225,8 +1279,9 @@
         "tokens": [
           "He",
           "doesn't",
-          "call",
-          "me",
+          "come",
+          "to",
+          "school",
           "yesterday."
         ],
         "errorIndex": 1,
@@ -1257,44 +1312,48 @@
       {
         "type": "fill",
         "use": "Completed action",
-        "sentText": "I {{blank}} a fantastic film last night.",
-        "hint": "watch",
+        "sentText": "I {{blank}} a cake for her birthday last week.",
+        "hint": "bake",
         "answers": [
-          "watched"
+          "baked"
         ],
-        "display": "watched"
+        "display": "baked",
+        "explain": "A finished action at a specific past time: last week."
       },
       {
         "type": "fill",
         "use": "Negative",
-        "sentText": "She {{blank}} her passport at home.",
-        "hint": "not / forget",
+        "sentText": "She {{blank}} her passport, so she couldn't get on the plane.",
+        "hint": "not / bring",
         "answers": [
-          "didn't forget",
-          "did not forget",
-          "didnt forget"
+          "didn't bring",
+          "did not bring",
+          "didnt bring"
         ],
-        "display": "didn't forget"
+        "display": "didn't bring",
+        "explain": "Negative past simple: didn't + base verb — bring, not brought."
       },
       {
         "type": "fill",
         "use": "Past habit / state",
-        "sentText": "We {{blank}} in this house for ten years before we moved.",
-        "hint": "live",
+        "sentText": "Years ago, my grandmother {{blank}} a little shop near the station.",
+        "hint": "own",
         "answers": [
-          "lived"
+          "owned"
         ],
-        "display": "lived"
+        "display": "owned",
+        "explain": "A past state, now finished — past simple."
       },
       {
         "type": "fill",
         "use": "Question",
-        "sentText": "{{blank}} you finish the report?",
-        "hint": "auxiliary",
+        "sentText": "{{blank}} you remember to buy bread yesterday?",
+        "hint": "(auxiliary — past simple)",
         "answers": [
           "did"
         ],
-        "display": "Did"
+        "display": "Did",
+        "explain": "Past simple questions always start with 'did', whatever the subject."
       },
       {
         "type": "order",
@@ -1364,12 +1423,13 @@
           "There's no such form as \"haved\" — \"have\" is irregular: have → had.",
           "This is the base form, not the past.",
           "This is the -ing form, not the past."
-        ]
+        ],
+        "explain": "'Have' is irregular: the past simple is 'had', for every subject."
       },
       {
         "type": "irregular",
         "use": "Irregular form",
-        "text": "He {{blank}} the ball straight into the net.",
+        "text": "In yesterday's match, he {{blank}} the ball straight into the net.",
         "hintVerb": "(shoot)",
         "choices": [
           "shot",
@@ -1383,7 +1443,8 @@
           "There's no such form as \"shooted\" — \"shoot\" is irregular: shoot → shot.",
           "This is the present simple form, not the past.",
           "This is the -ing form, not the past."
-        ]
+        ],
+        "explain": "'Shoot' is irregular: shoot → shot."
       },
       {
         "type": "irregular",
@@ -1402,7 +1463,8 @@
           "There's no such form as \"telled\" — \"tell\" is irregular: tell → told.",
           "This is the present simple form, not the past.",
           "This is the -ing form, not the past."
-        ]
+        ],
+        "explain": "'Tell' is irregular: tell → told."
       },
       {
         "type": "irregular",
@@ -1421,12 +1483,13 @@
           "There's no such form as \"leaved\" — \"leave\" is irregular: leave → left.",
           "This is the present simple form, not the past.",
           "This is the -ing form, not the past."
-        ]
+        ],
+        "explain": "'Leave' is irregular: leave → left."
       },
       {
         "type": "mc",
         "use": "Question — completed action",
-        "text": "{{blank}} they win the match?",
+        "text": "{{blank}} they win the match last Saturday?",
         "choices": [
           "Did",
           "Do",
@@ -1439,12 +1502,13 @@
           "Wrong tense: past simple questions use \"did\", not \"do\".",
           "Wrong tense: \"have\" signals present perfect, not past simple.",
           "Wrong auxiliary: \"win\" is the base form, not the participle \"was\" would need."
-        ]
+        ],
+        "explain": "Past simple questions start with 'did' + subject + base verb."
       },
       {
         "type": "mc",
         "use": "Completed action",
-        "text": "We {{blank}} the whole cake in one evening.",
+        "text": "We {{blank}} the whole cake last night.",
         "choices": [
           "ate",
           "have eaten",
@@ -1457,12 +1521,13 @@
           "Wrong tense: use past simple for a finished event, not present perfect.",
           "Missing past tense: \"eat\" is the base form.",
           "Wrong tense: this is a completed action, not a background scene."
-        ]
+        ],
+        "explain": "A finished action in the past — past simple."
       },
       {
         "type": "mc",
         "use": "Negative",
-        "text": "He {{blank}} the email before the deadline.",
+        "text": "He {{blank}} the email before yesterday's deadline.",
         "choices": [
           "didn't send",
           "doesn't send",
@@ -1475,7 +1540,8 @@
           "Wrong tense: use \"didn't\", not \"doesn't\", for the past.",
           "After \"didn't\", use the base form — \"sent\" is already past tense.",
           "Wrong tense: this needs past simple, not present perfect."
-        ]
+        ],
+        "explain": "Negative past simple: didn't + base verb."
       },
       {
         "type": "mc",
@@ -1493,7 +1559,8 @@
           "Wrong tense: \"when she was little\" needs the past, not the present.",
           "Subject-verb agreement: with \"she\", the past form is \"was\", not \"were\".",
           "Wrong tense: a finished stage of childhood uses past simple, not present perfect."
-        ]
+        ],
+        "explain": "A past state, now finished — past simple."
       },
       {
         "type": "error",
@@ -1501,10 +1568,10 @@
         "tokens": [
           "We",
           "runned",
-          "to",
-          "catch",
+          "all",
           "the",
-          "bus."
+          "way",
+          "home."
         ],
         "errorIndex": 1,
         "correction": "ran",

@@ -63,7 +63,7 @@
       {
         "use": "Vowel sound",
         "kind": "statement",
-        "before": "We waited for",
+        "before": "The film starts in half",
         "after": "hour.",
         "hint": "a / an / one",
         "answers": [
@@ -75,8 +75,8 @@
       {
         "use": "Vowel sound",
         "kind": "statement",
-        "before": "She goes to",
-        "after": "university in Girona.",
+        "before": "She studies at",
+        "after": "university in Barcelona.",
         "hint": "a / an / one",
         "answers": [
           "a"
@@ -123,7 +123,7 @@
       {
         "use": "Naming",
         "kind": "statement",
-        "before": "Oh no! It is",
+        "before": "Oh no! It's",
         "after": "spider!",
         "hint": "a / an / one",
         "answers": [
@@ -160,13 +160,13 @@
         "use": "Number",
         "kind": "statement",
         "before": "She ate only",
-        "after": "biscuit.",
+        "after": "biscuit, not three.",
         "hint": "a / an / one",
         "answers": [
           "one"
         ],
         "display": "one",
-        "explain": "'Only' stresses the number, so 'one'."
+        "explain": "'Only … not three' makes the number the point, so 'one'."
       },
       {
         "use": "Number",
@@ -183,14 +183,14 @@
       {
         "use": "Fixed phrase",
         "kind": "statement",
-        "before": "",
-        "after": "day I will write a book.",
+        "before": "Please come in",
+        "after": "at a time.",
         "hint": "a / an / one",
         "answers": [
-          "One"
+          "one"
         ],
-        "display": "One",
-        "explain": "'One day' is a fixed phrase for an unspecified future time."
+        "display": "one",
+        "explain": "'One at a time' is a fixed phrase: first one person, then the next."
       },
       {
         "use": "Fixed phrase",
@@ -273,7 +273,7 @@
           "He",
           "is",
           "an",
-          "engineer."
+          "actor."
         ]
       },
       {
@@ -299,12 +299,13 @@
       {
         "use": "Number",
         "tokens": [
-          "I",
-          "need",
+          "We",
+          "have",
           "one",
-          "ticket,",
-          "not",
-          "two."
+          "car",
+          "for",
+          "four",
+          "people."
         ]
       },
       {
@@ -327,18 +328,29 @@
           "travel",
           "the",
           "world."
+        ],
+        "alts": [
+          [
+            "I",
+            "will",
+            "travel",
+            "the",
+            "world",
+            "one",
+            "day."
+          ]
         ]
       },
       {
         "use": "Fixed phrase",
         "tokens": [
-          "He",
-          "is",
-          "one",
+          "One",
           "of",
           "my",
-          "best",
-          "friends."
+          "neighbours",
+          "has",
+          "a",
+          "boat."
         ]
       },
       {
@@ -422,14 +434,13 @@
       {
         "use": "Pronoun",
         "tokens": [
+          "This",
+          "pizza",
+          "is",
+          "cold.",
           "I'll",
-          "buy",
-          "the",
-          "red",
-          "one,",
-          "not",
-          "the",
-          "blue",
+          "order",
+          "another",
           "one."
         ]
       },
@@ -446,25 +457,31 @@
       {
         "use": "Job",
         "tokens": [
-          "He",
-          "wants",
-          "to",
-          "be",
-          "an",
-          "astronaut."
+          "Her",
+          "brother",
+          "is",
+          "a",
+          "police",
+          "officer."
         ]
       },
       {
         "use": "Number",
         "tokens": [
-          "There",
-          "is",
+          "She",
+          "speaks",
           "only",
           "one",
-          "bed",
-          "in",
-          "the",
-          "room."
+          "language."
+        ],
+        "alts": [
+          [
+            "She",
+            "only",
+            "speaks",
+            "one",
+            "language."
+          ]
         ]
       },
       {
@@ -489,84 +506,84 @@
     "reviewArrowPrefix": "",
     "pairs": [
       {
-        "left": "She's ___ nurse.",
+        "left": "My grandmother was ___ farmer.",
         "right": "a"
       },
       {
-        "left": "He's ___ engineer.",
+        "left": "Her son is ___ optician.",
         "right": "an"
       },
       {
-        "left": "I'd like ___ apple.",
-        "right": "an"
-      },
-      {
-        "left": "It's ___ university.",
+        "left": "We have English twice ___ week.",
         "right": "a"
       },
       {
-        "left": "We waited ___ hour.",
+        "left": "What ___ ugly dog!",
         "right": "an"
       },
       {
-        "left": "___ day I'll go to Japan.",
+        "left": "I'd like to be ___ YouTuber.",
+        "right": "a"
+      },
+      {
+        "left": "My aunt works as ___ interpreter.",
+        "right": "an"
+      },
+      {
+        "left": "What ___ beautiful garden!",
+        "right": "a"
+      },
+      {
+        "left": "It was such ___ awful day.",
+        "right": "an"
+      },
+      {
+        "left": "He's such ___ funny boy.",
+        "right": "a"
+      },
+      {
+        "left": "It's ___ eight-hour flight to Tokyo.",
+        "right": "an"
+      },
+      {
+        "left": "It isn't ___ easy question.",
+        "right": "an"
+      },
+      {
+        "left": "___ of the windows is broken.",
         "right": "One"
       },
       {
-        "left": "He's ___ of my friends.",
+        "left": "Can I have ___ more go?",
         "right": "one"
       },
       {
-        "left": "Just ___ slice, please.",
+        "left": "How many sugars? — Just ___, thanks.",
         "right": "one"
       },
       {
-        "left": "Only ___ person came.",
+        "left": "It's ___ o'clock. Time for lunch!",
         "right": "one"
       },
       {
-        "left": "I need ___ ticket, not two.",
+        "left": "We need more chairs. Can you bring ___ from the kitchen?",
         "right": "one"
       },
       {
-        "left": "I'll take the blue ___.",
+        "left": "I need a pencil. Have you got ___?",
         "right": "one"
       },
       {
-        "left": "Which ___ do you want?",
+        "left": "Three minus ___ is two.",
         "right": "one"
       },
       {
-        "left": "The big ___ is mine.",
+        "left": "My little brother is ___ and a half.",
         "right": "one"
       },
       {
-        "left": "I lost my pen, so I need a new ___.",
+        "left": "The first song was boring, but the second ___ was great.",
         "right": "one"
-      },
-      {
-        "left": "My dad is ___ electrician.",
-        "right": "an"
-      },
-      {
-        "left": "She's ___ teacher.",
-        "right": "a"
-      },
-      {
-        "left": "There's ___ bird on the roof.",
-        "right": "a"
-      },
-      {
-        "left": "What ___ idea!",
-        "right": "an"
-      },
-      {
-        "left": "I read ___ book last week.",
-        "right": "a"
-      },
-      {
-        "left": "It's ___ old house.",
-        "right": "an"
       }
     ]
   },
@@ -650,7 +667,7 @@
       },
       {
         "use": "Naming",
-        "text": "That's <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> amazing film.",
+        "text": "Is that <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ambulance or a police car?",
         "choices": [
           "a",
           "one",
@@ -722,7 +739,7 @@
       },
       {
         "use": "Vowel sound",
-        "text": "She eats <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> orange every day.",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> odd thing to say!",
         "choices": [
           "a",
           "one",
@@ -732,9 +749,9 @@
         "correct": 2,
         "wrongReasons": [
           "The next word starts with a vowel sound, so it's 'an', not 'a'.",
-          "Use a/an to name something. 'One' would stress a number.",
+          "After 'What' in an exclamation we use a/an, never 'one'.",
           "",
-          "'The' needs something both people already know."
+          "Exclamations use 'What a/an…', not 'What the…'."
         ],
         "explain": "a/an follows the sound, not the letter."
       },
@@ -758,7 +775,7 @@
       },
       {
         "use": "Number",
-        "text": "Only <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> student passed.",
+        "text": "Only <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> bus goes to my village.",
         "choices": [
           "a",
           "one",
@@ -767,12 +784,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "The number is the point here (one, not two), so 'a' is too weak.",
+          "The number is the point here (only one), so 'a' is too weak.",
           "",
           "The number is the point here, so 'an' is too weak.",
           "'The' points to something specific, not to the number."
         ],
-        "explain": "The number is the point: 'one'."
+        "explain": "'Only' stresses the number: 'one'."
       },
       {
         "use": "Number",
@@ -794,7 +811,7 @@
       },
       {
         "use": "Number",
-        "text": "The shop has <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> table only, not four.",
+        "text": "The shop has only <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> table, not four.",
         "choices": [
           "one",
           "a",
@@ -804,7 +821,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "The number is the point here (one, not two), so 'a' is too weak.",
+          "The number is the point here (one, not four), so 'a' is too weak.",
           "The number is the point here, so 'an' is too weak.",
           "'The' points to something specific, not to the number."
         ],
@@ -902,7 +919,7 @@
       },
       {
         "use": "Pronoun",
-        "text": "This bike is old. I need a new <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for school.",
+        "text": "There are two cakes left. I'll take the chocolate <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "one",
           "a",
@@ -916,7 +933,7 @@
           "'An' needs a noun after it. Here 'one' replaces the noun.",
           "We already have 'the'. The missing word replaces the noun."
         ],
-        "explain": "'One' replaces a noun already mentioned."
+        "explain": "'One' replaces 'cake', so we don't repeat the noun."
       },
       {
         "use": "Pronoun",
@@ -944,15 +961,16 @@
     "items": [
       {
         "tokens": [
-          "She",
+          "My",
+          "uncle",
           "is",
           "one",
-          "nurse."
+          "plumber."
         ],
-        "errorIndex": 2,
+        "errorIndex": 3,
         "correction": "a",
         "type": "One before a job",
-        "message": "Jobs take a/an, not 'one': 'a nurse'."
+        "message": "Jobs take a/an, not 'one': 'a plumber'."
       },
       {
         "tokens": [
@@ -987,118 +1005,120 @@
       },
       {
         "tokens": [
-          "He",
-          "wants",
-          "to",
-          "be",
+          "Her",
+          "dad",
+          "is",
           "a",
-          "astronaut."
-        ],
-        "errorIndex": 4,
-        "correction": "an",
-        "type": "a / an sound",
-        "message": "'Astronaut' starts with a vowel sound, so 'an'."
-      },
-      {
-        "tokens": [
-          "We",
-          "waited",
-          "for",
-          "a",
-          "hour."
-        ],
-        "errorIndex": 4,
-        "correction": "an",
-        "type": "a / an sound",
-        "message": "'Hour' starts with a vowel sound (silent h), so 'an'."
-      },
-      {
-        "tokens": [
-          "She",
-          "goes",
-          "to",
-          "an",
-          "university."
+          "artist."
         ],
         "errorIndex": 3,
+        "correction": "an",
+        "type": "a / an sound",
+        "message": "'Artist' starts with a vowel sound, so 'an'."
+      },
+      {
+        "tokens": [
+          "I",
+          "saw",
+          "a",
+          "owl",
+          "in",
+          "the",
+          "garden."
+        ],
+        "errorIndex": 2,
+        "correction": "an",
+        "type": "a / an sound",
+        "message": "'Owl' starts with a vowel sound, so 'an'."
+      },
+      {
+        "tokens": [
+          "It's",
+          "an",
+          "useful",
+          "app."
+        ],
+        "errorIndex": 1,
         "correction": "a",
         "type": "a / an sound",
-        "message": "'University' starts with a /j/ sound, a consonant sound, so 'a'."
+        "message": "'Useful' starts with a /j/ sound, a consonant sound, so 'a'."
       },
       {
         "tokens": [
-          "A",
-          "day",
-          "I",
-          "will",
-          "visit",
-          "Italy."
-        ],
-        "errorIndex": 0,
-        "correction": "One",
-        "type": "Fixed phrase",
-        "message": "The fixed phrase is 'One day', not 'A day'."
-      },
-      {
-        "tokens": [
-          "I'll",
-          "take",
+          "The",
+          "students",
+          "left",
           "the",
-          "red",
-          "a."
+          "room",
+          "a",
+          "by",
+          "one."
         ],
-        "errorIndex": 4,
-        "correction": "one.",
-        "type": "a as pronoun",
-        "message": "'A' needs a noun after it. Use 'one' to replace the noun."
+        "errorIndex": 5,
+        "correction": "one",
+        "type": "Fixed phrase",
+        "message": "The fixed phrase is 'one by one', not 'a by one'."
       },
       {
         "tokens": [
-          "My",
-          "phone",
+          "This",
+          "glass",
           "is",
-          "old,",
-          "so",
+          "dirty.",
+          "Can",
           "I",
-          "need",
+          "have",
           "a",
-          "new",
-          "a."
+          "clean",
+          "a?"
         ],
         "errorIndex": 9,
-        "correction": "one.",
+        "correction": "one?",
         "type": "a as pronoun",
-        "message": "'A' can't replace a noun. Use 'one': 'a new one'."
+        "message": "'A' needs a noun after it. Use 'one' to replace the noun: 'a clean one'."
       },
       {
         "tokens": [
-          "He's",
+          "These",
+          "cupcakes",
+          "look",
+          "delicious.",
+          "Can",
+          "I",
+          "try",
+          "a?"
+        ],
+        "errorIndex": 7,
+        "correction": "one?",
+        "type": "a as pronoun",
+        "message": "'A' can't replace a noun. Use 'one': 'Can I try one?'"
+      },
+      {
+        "tokens": [
+          "Paris",
+          "is",
           "a",
           "of",
           "my",
-          "best",
-          "friends."
+          "favourite",
+          "cities."
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "one",
         "type": "Fixed phrase",
-        "message": "The pattern is 'one of my best friends'."
+        "message": "The pattern is 'one of my favourite cities'."
       },
       {
         "tokens": [
           "She",
           "is",
           "one",
-          "engineer",
-          "at",
-          "a",
-          "big",
-          "company."
+          "author."
         ],
         "errorIndex": 2,
         "correction": "an",
         "type": "One before a job",
-        "message": "Jobs take a/an, and 'engineer' starts with a vowel sound: 'an engineer'."
+        "message": "Jobs take a/an, and 'author' starts with a vowel sound: 'an author'."
       },
       {
         "tokens": [
@@ -1118,68 +1138,72 @@
           "brother",
           "is",
           "one",
-          "electrician."
+          "estate",
+          "agent."
         ],
         "errorIndex": 3,
         "correction": "an",
         "type": "One before a job",
-        "message": "Jobs take a/an: 'an electrician' (vowel sound)."
+        "message": "Jobs take a/an: 'an estate agent' (vowel sound)."
       },
       {
         "tokens": [
-          "Can",
-          "I",
-          "have",
+          "There's",
           "a",
-          "orange,",
-          "please?"
-        ],
-        "errorIndex": 3,
-        "correction": "an",
-        "type": "a / an sound",
-        "message": "'Orange' starts with a vowel sound, so 'an'."
-      },
-      {
-        "tokens": [
-          "Only",
-          "a",
-          "person",
-          "came",
-          "to",
-          "the",
-          "party."
+          "insect",
+          "on",
+          "your",
+          "arm."
         ],
         "errorIndex": 1,
+        "correction": "an",
+        "type": "a / an sound",
+        "message": "'Insect' starts with a vowel sound, so 'an'."
+      },
+      {
+        "tokens": [
+          "The",
+          "team",
+          "won",
+          "only",
+          "a",
+          "game",
+          "all",
+          "season."
+        ],
+        "errorIndex": 4,
         "correction": "one",
         "type": "a instead of one",
         "message": "'Only' stresses the number, so use 'one'."
       },
       {
         "tokens": [
-          "My",
-          "sister",
-          "wants",
-          "to",
-          "be",
+          "Jake",
+          "is",
           "one",
-          "pilot."
+          "waiter",
+          "at",
+          "a",
+          "café."
         ],
-        "errorIndex": 5,
+        "errorIndex": 2,
         "correction": "a",
         "type": "One before a job",
-        "message": "Jobs take a/an, not 'one': 'a pilot'."
+        "message": "Jobs take a/an, not 'one': 'a waiter'."
       },
       {
         "tokens": [
-          "That's",
+          "We",
+          "stayed",
+          "in",
           "a",
-          "unusual",
-          "idea."
+          "old",
+          "hotel."
         ],
-        "errorIndex": 1,
+        "errorIndex": 3,
         "correction": "an",
         "type": "a / an sound",
-        "message": "'Unusual' starts with a vowel sound, so 'an'."
+        "message": "'Old' starts with a vowel sound, so 'an'."
       },
       {
         "tokens": [
@@ -1254,7 +1278,8 @@
         "answers": [
           "an"
         ],
-        "display": "an"
+        "display": "an",
+        "explain": "A job takes a/an; 'accountant' starts with a vowel sound."
       },
       {
         "type": "fill",
@@ -1264,17 +1289,19 @@
         "answers": [
           "a"
         ],
-        "display": "a"
+        "display": "a",
+        "explain": "A job takes a/an; 'musician' starts with a consonant sound."
       },
       {
         "type": "fill",
         "use": "Vowel sound",
-        "sentText": "We stayed for {{blank}} hour.",
+        "sentText": "She is {{blank}} only child.",
         "hint": "a / an / one",
         "answers": [
           "an"
         ],
-        "display": "an"
+        "display": "an",
+        "explain": "'Only' starts with a vowel sound, so 'an'."
       },
       {
         "type": "fill",
@@ -1284,7 +1311,8 @@
         "answers": [
           "one"
         ],
-        "display": "one"
+        "display": "one",
+        "explain": "'Only' stresses the number, so we use 'one'."
       },
       {
         "type": "fill",
@@ -1294,17 +1322,19 @@
         "answers": [
           "One"
         ],
-        "display": "One"
+        "display": "One",
+        "explain": "'One of my…' is a fixed pattern."
       },
       {
         "type": "fill",
         "use": "Pronoun",
-        "sentText": "I don't want the small cake. I'll have the big {{blank}}.",
+        "sentText": "This room is too noisy. Can we have a quieter {{blank}}?",
         "hint": "a / an / one",
         "answers": [
           "one"
         ],
-        "display": "one"
+        "display": "one",
+        "explain": "'One' replaces 'room', so we don't repeat the noun."
       },
       {
         "type": "order",
@@ -1364,6 +1394,17 @@
           "be",
           "a",
           "doctor."
+        ],
+        "alts": [
+          [
+            "She",
+            "will",
+            "be",
+            "a",
+            "doctor",
+            "one",
+            "day."
+          ]
         ]
       },
       {
@@ -1382,7 +1423,8 @@
           "The next word starts with a consonant sound, so it's 'a', not 'an'.",
           "'The' points to a specific person; here we are just naming the job.",
           ""
-        ]
+        ],
+        "explain": "A job takes a/an; 'firefighter' starts with a consonant sound."
       },
       {
         "type": "mc",
@@ -1400,7 +1442,8 @@
           "Use a/an to name something. 'One' would stress a number.",
           "",
           "'The' needs something both people already know."
-        ]
+        ],
+        "explain": "'Honest' starts with a vowel sound (the h is silent), so 'an'."
       },
       {
         "type": "mc",
@@ -1418,7 +1461,8 @@
           "The number is the point here, so 'an' is too weak.",
           "",
           "'The' points to something specific, not to the number."
-        ]
+        ],
+        "explain": "'Not two' makes the number the point, so we use 'one'."
       },
       {
         "type": "mc",
@@ -1436,7 +1480,8 @@
           "'A' needs a noun after it. Here 'one' replaces the noun.",
           "'An' needs a noun after it. Here 'one' replaces the noun.",
           "We already have 'the'. The missing word replaces the noun."
-        ]
+        ],
+        "explain": "'One' replaces 'bag', so we don't repeat the noun."
       },
       {
         "type": "mc",
@@ -1454,7 +1499,8 @@
           "This is a fixed phrase: 'one day', 'one of…'. 'An' doesn't work.",
           "",
           "The fixed phrase uses 'one', not 'the'."
-        ]
+        ],
+        "explain": "'One of the…' is a fixed pattern."
       },
       {
         "type": "error",
@@ -1493,36 +1539,38 @@
         "type": "error",
         "use": "Pronoun",
         "tokens": [
-          "This",
-          "laptop",
-          "is",
-          "slow.",
-          "I",
-          "want",
+          "We've",
+          "got",
+          "two",
+          "cats:",
           "a",
-          "faster",
+          "black",
+          "one",
+          "and",
+          "a",
+          "white",
           "a."
         ],
-        "errorIndex": 7,
+        "errorIndex": 10,
         "correction": "one.",
-        "message": "'A' can't replace a noun. Use 'one': 'a faster one'."
+        "message": "'A' can't replace a noun. Use 'one': 'a white one'."
       },
       {
         "type": "error",
         "use": "Fixed phrase",
         "tokens": [
-          "A",
-          "day",
-          "we",
-          "will",
-          "move",
-          "to",
-          "the",
-          "sea."
+          "I'll",
+          "be",
+          "ready",
+          "in",
+          "a",
+          "or",
+          "two",
+          "minutes."
         ],
-        "errorIndex": 0,
-        "correction": "One",
-        "message": "The fixed phrase is 'One day'."
+        "errorIndex": 4,
+        "correction": "one",
+        "message": "The phrase is 'one or two' (a small number), not 'a or two'."
       }
     ]
   }
