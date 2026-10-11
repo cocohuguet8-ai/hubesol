@@ -15,7 +15,7 @@
   },
   "gapFill": {
     "title": "Fill in the gap",
-    "subtitle": "Type am/is/are + the -ing form. Twenty original sentences — things happening now, temporary situations, and future arrangements.",
+    "subtitle": "Type the missing verb. Sometimes am/is/are is already there — then type only the -ing form. Twenty original sentences.",
     "questions": [
       {
         "use": "Now",
@@ -195,7 +195,7 @@
           "isn't listening"
         ],
         "display": "isn't listening",
-        "explain": "Negative present continuous: isn't/aren't + -ing."
+        "explain": "Negative present continuous: am/is/are + not + -ing (isn't listening, 's not listening)."
       },
       {
         "use": "Temporary — negative",
@@ -1038,7 +1038,7 @@
       },
       {
         "use": "Stative verb",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this restaurant a lot.",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this restaurant — they go every week.",
         "choices": [
           "is loving",
           "are loving",
@@ -1092,16 +1092,16 @@
       },
       {
         "use": "Negative — now",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> well at the moment — the baby cries all night.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> well at the moment — the baby is teething.",
         "choices": [
-          "don't sleep",
+          "haven't slept",
           "am not sleeping",
           "didn't sleep",
           "is not sleeping"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: \"at the moment\" needs the present continuous.",
+          "'Haven't slept' is present perfect; 'at the moment' needs a present form.",
           "",
           "'Didn't sleep' is past, but 'at the moment' means now.",
           "Subject-verb agreement: with \"I\", the auxiliary is \"am not\", not \"is not\"."
@@ -1210,6 +1210,7 @@
       {
         "tokens": [
           "They",
+          "is",
           "leaving",
           "for",
           "the",
@@ -1219,9 +1220,9 @@
           "minutes."
         ],
         "errorIndex": 1,
-        "correction": "are leaving",
-        "type": "Missing auxiliary",
-        "message": "Present continuous needs an auxiliary — \"are leaving\", not \"leaving\" alone."
+        "correction": "are",
+        "type": "Subject-verb agreement",
+        "message": "With \"they\", the auxiliary is \"are\", not \"is\"."
       },
       {
         "tokens": [
@@ -1358,6 +1359,10 @@
           "sandwich."
         ],
         "errorIndex": 6,
+        "errorSpan": [
+          5,
+          6
+        ],
         "correction": "want",
         "type": "Stative verb",
         "message": "\"Want\" is a stative verb, so it stays in the present simple: \"I want\"."
@@ -1378,28 +1383,29 @@
       {
         "tokens": [
           "Mum",
+          "are",
           "making",
           "pancakes",
           "for",
           "breakfast."
         ],
         "errorIndex": 1,
-        "correction": "is making",
-        "type": "Missing auxiliary",
-        "message": "Present continuous needs an auxiliary — \"is making\", not \"making\" alone."
+        "correction": "is",
+        "type": "Subject-verb agreement",
+        "message": "With \"Mum\", the auxiliary is \"is\", not \"are\"."
       },
       {
         "tokens": [
           "They",
-          "don't",
+          "isn't",
           "watching",
           "the",
           "match."
         ],
         "errorIndex": 1,
         "correction": "aren't",
-        "type": "Wrong auxiliary",
-        "message": "This needs the continuous negative \"aren't\", not the present simple negative \"don't\"."
+        "type": "Subject-verb agreement",
+        "message": "With \"they\", the negative auxiliary is \"aren't\", not \"isn't\"."
       }
     ]
   },
@@ -1502,6 +1508,15 @@
           "feeling",
           "well",
           "today."
+        ],
+        "alts": [
+          [
+            "Today",
+            "she",
+            "isn't",
+            "feeling",
+            "well"
+          ]
         ]
       },
       {
@@ -1535,7 +1550,7 @@
           "Wrong form: \"writes\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
         ],
-        "explain": "Something happening right now — present continuous."
+        "explain": "Spelling rule: drop the final -e before -ing (write → writing)."
       },
       {
         "type": "ing",
@@ -1555,7 +1570,7 @@
           "Wrong form: \"runs\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
         ],
-        "explain": "Something happening right now — present continuous."
+        "explain": "Spelling rule: double the last consonant in a short verb (run → running)."
       },
       {
         "type": "ing",
@@ -1575,27 +1590,27 @@
           "Wrong form: \"lies\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
         ],
-        "explain": "Something happening right now — present continuous."
+        "explain": "Spelling rule: -ie changes to -y before -ing (lie → lying)."
       },
       {
         "type": "ing",
         "use": "Spelling",
         "text": "We are {{blank}} a new song.",
-        "hintVerb": "(make)",
+        "hintVerb": "(write)",
         "choices": [
-          "making",
-          "makeing",
-          "makes",
-          "make"
+          "writing",
+          "writeing",
+          "writes",
+          "write"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: drop the silent \"e\" before adding -ing — \"making\", not \"makeing\".",
-          "Wrong form: \"makes\" is the present simple form, not the -ing form.",
+          "Spelling: drop the silent \"e\" before adding -ing — \"writing\", not \"writeing\".",
+          "Wrong form: \"writes\" is the present simple form, not the -ing form.",
           "Missing -ing: this needs the -ing form, not the base verb."
         ],
-        "explain": "Something happening right now — present continuous."
+        "explain": "Spelling rule: drop the final -e before -ing (write → writing)."
       },
       {
         "type": "mc",
@@ -1675,7 +1690,7 @@
       },
       {
         "type": "error",
-        "use": "Spelling",
+        "use": "Spot the mistake",
         "tokens": [
           "She",
           "is",
@@ -1718,7 +1733,7 @@
       },
       {
         "type": "error",
-        "use": "Spelling",
+        "use": "Spot the mistake",
         "tokens": [
           "They",
           "are",
