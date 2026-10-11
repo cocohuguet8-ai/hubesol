@@ -1,11 +1,16 @@
 {
   "id": "present-simple-quiz-1",
   "title": "Present Simple",
-  "level": "A1",
+  "level": "A2",
   "items": [
     {
       "question": "She ___ to work every day.",
-      "options": ["walks", "walk", "is walking", "walking"],
+      "options": [
+        "walks",
+        "walk",
+        "is walking",
+        "walking"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Third person singular (she) takes -s in the present simple: 'walks'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "___ your brother ___ English?",
-      "options": ["Does / speaks", "Does / speak", "Do / speaks", "Is / speak"],
+      "options": [
+        "Does / speaks",
+        "Does / speak",
+        "Do / speaks",
+        "Is / speak"
+      ],
       "answer": 1,
       "explanations": [
         "After 'does' the main verb goes back to its base form — 'speak', not 'speaks'. The -s is already in 'does'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "We ___ on Sundays.",
-      "options": ["don't works", "doesn't work", "don't work", "not work"],
+      "options": [
+        "don't works",
+        "doesn't work",
+        "don't work",
+        "not work"
+      ],
       "answer": 2,
       "explanations": [
         "After 'don't' the verb is the base form: 'work', not 'works'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Water ___ at 100°C.",
-      "options": ["is boiling", "boiled", "boil", "boils"],
+      "options": [
+        "is boiling",
+        "boiled",
+        "boil",
+        "boils"
+      ],
       "answer": 3,
       "explanations": [
         "'Is boiling' describes water boiling right now. A scientific fact that is always true takes the present simple.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "He ___ coffee. He prefers tea.",
-      "options": ["don't drink", "doesn't drink", "doesn't drinks", "isn't drinking"],
+      "options": [
+        "don't drink",
+        "doesn't drink",
+        "doesn't drinks",
+        "isn't drinking"
+      ],
       "answer": 1,
       "explanations": [
         "'Don't' is for I/you/we/they. 'He' takes 'doesn't'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "I ___ get up early on Saturdays.",
-      "options": ["don't never", "am never", "never am", "never"],
+      "options": [
+        "don't never",
+        "am never",
+        "never am",
+        "never"
+      ],
       "answer": 3,
       "explanations": [
         "'Never' is already negative, so 'don't never' is a double negative. Use 'I never get up'.",
@@ -71,18 +101,28 @@
     },
     {
       "question": "The train ___ at 6 o'clock tomorrow morning.",
-      "options": ["leaves", "is leaving", "leave", "will leaving"],
+      "options": [
+        "leaves",
+        "left",
+        "leave",
+        "will leaving"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Timetables and schedules use the present simple: 'The train leaves at 6'.",
-        "For a fixed timetable, English prefers the present simple even about the future: 'The train leaves at 6'.",
+        "Wrong tense: 'left' is past, but 'tomorrow morning' is in the future. A timetable uses the present simple: 'leaves'.",
         "'The train' is like 'it', so the verb needs -s: 'leaves'.",
         "'Will leaving' is not a valid form. For a scheduled time, use the present simple: 'leaves'."
       ]
     },
     {
       "question": "My parents ___ in Barcelona, but I live in Girona.",
-      "options": ["lives", "are living", "live", "living"],
+      "options": [
+        "lives",
+        "are living",
+        "live",
+        "living"
+      ],
       "answer": 2,
       "explanations": [
         "'My parents' is plural (they), so no -s: 'live'. The -s is only for he/she/it.",
@@ -93,7 +133,12 @@
     },
     {
       "question": "How often ___ you ___ to the gym?",
-      "options": ["does / go", "do / goes", "are / go", "do / go"],
+      "options": [
+        "does / go",
+        "do / goes",
+        "are / go",
+        "do / go"
+      ],
       "answer": 3,
       "explanations": [
         "'Does' is for he/she/it, not 'you'. With 'you' use 'do'.",
@@ -123,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "She ___ to work every day. (walk)",
       "hint": "Type one word.",
-      "answers": ["walks"],
+      "answers": [
+        "walks"
+      ],
       "explanation": "Third person singular needs -s.",
       "common": [
-        {"answer": "walk", "why": "He/she/it needs -s."}
+        {
+          "answer": "walk",
+          "why": "He/she/it needs -s."
+        }
       ]
     },
     {
@@ -134,15 +184,20 @@
       "kind": "Correct the mistake",
       "question": "He work in a bank.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["He works in a bank"],
-      "explanation": "Add -s for he/she/it."
+      "answers": [
+        "He works in a bank",
+        "He works at a bank"
+      ],
+      "explanation": "Add -s for he/she/it: 'works'."
     },
     {
       "type": "write",
       "kind": "Correct the mistake",
       "question": "Does your brother speaks English?",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Does your brother speak English"],
+      "answers": [
+        "Does your brother speak English"
+      ],
       "explanation": "After 'does' use the base verb."
     }
   ]

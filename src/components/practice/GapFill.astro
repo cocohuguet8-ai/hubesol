@@ -335,12 +335,31 @@ const uid = 'gf';
       return '';
     }
 
+    // Present simple: name the exact slip (missing/extra -s, doesn't + -s).
+    function diagnosePresentSimple(rawText, q) {
+      const u = normalize(rawText), c = normalize(q.display);
+      if (!u || u === c) return '';
+      const uw = u.split(' '), cw = c.split(' ');
+      if (uw.length === cw.length && uw.slice(0, -1).join(' ') === cw.slice(0, -1).join(' ')) {
+        const a = uw[uw.length - 1], b = cw[cw.length - 1];
+        if (b === a + 's' || b === a + 'es' || (b.endsWith('ies') && b.slice(0, -3) + 'y' === a))
+          return 'Missing <b>-s</b>: with he, she, it (and singular nouns) the verb takes -s → <b>' + q.display + '</b>.';
+        if (a === b + 's' || a === b + 'es')
+          return 'Too many -s: ' + (cw.length > 1 ? 'after <b>' + cw[0] + '</b> the main verb stays in its base form' : 'with I, you, we, they the verb has no -s') + ' → <b>' + q.display + '</b>.';
+      }
+      return '';
+    }
+
     function diagnose(rawText, q) {
       if (tense === 'a-an-vs-one') return diagnoseArticle(rawText, q.display);
       if (tense === 'past-simple') return diagnosePastSimple(rawText, q);
       if (tense === 'past-perfect') return diagnosePastPerfect(rawText, q);
       if (tense === 'present-perfect') return diagnosePresentPerfect(rawText, q);
       if (tense === 'present-continuous') return diagnosePresentContinuous(rawText, q);
+      if (tense === 'present-simple') {
+        const m = diagnosePresentSimple(rawText, q);
+        if (m) return m;
+      }
       return missingHintVerb(rawText, q.hint, q.display) || "Check the verb form — it should be \"" + q.display + "\".";
     }
 

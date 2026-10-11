@@ -109,13 +109,17 @@ const uid = 'wo';
       'not never always usually often sometimes yesterday today tomorrow last next this tonight ' +
       'at in on by for since after before while as if because during until ' +
       'one only both all most many much several first then').split(' '));
-    function tileLabel(word) {
+    // Names that keep their capital even when they start the sentence.
+    const PROPER = new Set(['Anna','Ben','Tom','Sam','Tom\'s','TV','OK','Mum','Dad','Grandma','Grandpa']);
+    function tileLabel(word, first) {
       let w = String(word).replace(/[.,?!;:]+$/, '');
-      if (w !== 'I' && !/^I'/.test(w) && /^[A-Z]/.test(w) && LOWER_OK.has(w.toLowerCase())) w = w.charAt(0).toLowerCase() + w.slice(1);
+      if (w === 'I' || /^I'/.test(w) || PROPER.has(w) || !/^[A-Z]/.test(w)) return w;
+      // Sentence-initial words are lowercased so the capital never gives away the first word.
+      if (LOWER_OK.has(w.toLowerCase()) || first) w = w.charAt(0).toLowerCase() + w.slice(1);
       return w;
     }
     function placedLabel(word, pos) {
-      const w = tileLabel(word);
+      const w = tileLabel(word, word === questions[idx].tokens[0]);
       return pos === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w;
     }
     function endMark(tokens) {
@@ -156,7 +160,7 @@ const uid = 'wo';
         const t = document.createElement('button');
         t.type = 'button';
         t.className = 'wordorder-tile';
-        t.textContent = tileLabel(item.word);
+        t.textContent = tileLabel(item.word, item.word === questions[idx].tokens[0]);
         t.addEventListener('click', () => {
           if (answered) return;
           item.used = true;
