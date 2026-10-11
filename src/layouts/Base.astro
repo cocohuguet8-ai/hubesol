@@ -12,7 +12,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
     <script is:inline>
-      try { if (localStorage.getItem('hubesol-teacher') === 'off') document.documentElement.classList.add('no-teacher'); } catch (e) {}
+      try { if (localStorage.getItem('hubesol-teacher') !== 'on') document.documentElement.classList.add('no-teacher'); } catch (e) { document.documentElement.classList.add('no-teacher'); }
     </script>
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -52,9 +52,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       (function () {
         var el = document.getElementById('tmode-toggle');
         if (!el) return;
-        var off = false;
-        try { off = localStorage.getItem('hubesol-teacher') === 'off'; } catch (e) {}
-        el.checked = !off;
+        var on = false;
+        try { on = localStorage.getItem('hubesol-teacher') === 'on'; } catch (e) {}
+        el.checked = on;
         el.addEventListener('change', function () {
           try { localStorage.setItem('hubesol-teacher', el.checked ? 'on' : 'off'); } catch (e) {}
           document.documentElement.classList.toggle('no-teacher', !el.checked);

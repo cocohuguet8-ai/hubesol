@@ -682,6 +682,7 @@ const uid = 'lc';
 
     // ---------- ERROR ----------
     function renderError(it) {
+      errMisses = 0;
       const sentence = document.createElement('div');
       sentence.className = 'errorcorrection-sentence';
       sentence.id = `${uid}-errorSentence`;
@@ -735,21 +736,24 @@ const uid = 'lc';
       buttons.forEach((b, i) => { if (inSpan(it, i)) b.classList.add('correct-word'); });
     }
 
+    let errMisses = 0;
     function onErrorWordClick(it, i, btnEl) {
       if (answered) return;
       if (inSpan(it, i)) {
         answered = true;
+        const clean = !errMisses;
         const buttons = document.getElementById(`${uid}-errorSentence`).querySelectorAll('.errorcorrection-word');
         buttons.forEach((b) => { b.disabled = true; });
         markSpan(it, buttons);
-        catCorrect.error++;
+        if (clean) catCorrect.error++;
         const corrected = correctedSentence(it);
-        feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Found it.</b> ' + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
-        results.push({ category: 'error', correct: true, detail: corrected });
+        feedback.className = 'practice-feedback show ' + (clean ? 'ok' : 'revealed');
+        feedback.innerHTML = '<b>' + (clean ? 'Found it.' : 'Found it, but not on the first tap.') + '</b> ' + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
+        results.push({ category: 'error', correct: clean, detail: corrected });
         scoreText.textContent = 'Score: ' + totalScore();
         appendNext();
       } else {
+        errMisses++;
         btnEl.classList.add('wrongflash');
         setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 400);
         feedback.className = 'practice-feedback show bad';
