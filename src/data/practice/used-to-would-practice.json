@@ -861,7 +861,7 @@
           "Missing -d: in a positive sentence it's 'used to read' — 'use to' only comes after 'did'.",
           ""
         ],
-        "explain": "A repeated past action told as a story — 'would read'. ('Used to read' would also be correct, but it isn't one of the options.)"
+        "explain": "A repeated past action told as a story — 'would read'."
       },
       {
         "use": "State — trap",
@@ -903,19 +903,19 @@
         "use": "Habit",
         "text": "When I was a kid, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> fish and chips every Friday.",
         "choices": [
-          "use to ate",
-          "would ate",
           "used to eat",
-          "used to eating"
+          "use to eat",
+          "were eating",
+          "have eaten"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Mixes two forms: it's 'used to' + the base verb 'eat'.",
-          "Wrong verb form after 'would' — it needs the base verb 'eat'.",
           "",
-          "'Used to' for a past habit takes the base verb 'eat', not '-ing'."
+          "Missing -d: in a positive sentence it's 'used to eat' — 'use to' only comes after 'did'.",
+          "Wrong form: a repeated habit isn't a continuous action in progress.",
+          "Wrong tense: 'when I was a kid' is a finished past time — present perfect doesn't fit."
         ],
-        "explain": "A finished weekly habit — 'used to eat'. ('Would eat' would also work, but it isn't one of the options.)"
+        "explain": "A finished weekly habit — 'used to eat'."
       },
       {
         "use": "Would — action",
@@ -955,19 +955,19 @@
       },
       {
         "use": "Negative",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the countryside.",
+        "text": "When he was young, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the countryside.",
         "choices": [
-          "didn't used to live",
           "didn't use to live",
-          "wouldn't lived",
-          "not used to live"
+          "didn't used to live",
+          "wouldn't live",
+          "isn't living"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "No '-d' after 'did'.",
           "",
-          "Wrong verb form after 'would'.",
-          "Negatives need 'did': 'didn't use to live'."
+          "No '-d' after 'did': it's 'didn't use to'.",
+          "'Would' is for repeated actions, not states like 'live' — use 'didn't use to'.",
+          "Wrong tense: 'when he was young' is past."
         ],
         "explain": "Negative past state — 'didn't use to live'."
       },
