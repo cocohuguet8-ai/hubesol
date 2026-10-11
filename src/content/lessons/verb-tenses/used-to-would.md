@@ -25,9 +25,8 @@ teacherObjectives:
   - "Can form the negative and question with 'use to' (no -d)."
   - "Can distinguish 'used to + base' from 'be used to + -ing'."
 related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
-  - { title: "Past Tenses", href: "/grammar/verb-tenses/past-tenses/" }
+  - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
+  - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
 draft: false
 ---
 

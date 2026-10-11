@@ -60,3 +60,6 @@ Target: Learner Review mean ≥ 9.5, every criterion ≥ 9.0, from a real retest
 - [ ] Local build + smoke test, PR, checks green, merge
 - [ ] Grok retest ≥ 9.5, then iPhone pass by Coco
 - [ ] Only then: add the slug to the live list (maintenance middleware) / lift maintenance
+
+## 7. While the site is in maintenance
+- `related` links in the live lessons may only point to live slugs (see `functions/_middleware.js` LIVE_SLUGS); everything else shows "coming soon" (503). Re-add the full related lists when a unit goes live.

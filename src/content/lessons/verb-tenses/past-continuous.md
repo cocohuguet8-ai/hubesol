@@ -26,10 +26,8 @@ teacherObjectives:
   - "Can combine the past continuous and past simple to show an interrupted action."
   - "Can use 'when' and 'while' correctly with the two tenses."
 related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Past Tenses", href: "/grammar/verb-tenses/past-tenses/" }
-  - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
-  - { title: "Past Simple vs Past Continuous", href: "/grammar/verb-tenses/past-simple-vs-past-continuous/" }
+  - { title: "Used to / Would", href: "/grammar/verb-tenses/used-to-would/" }
+  - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
 draft: false
 ---
 

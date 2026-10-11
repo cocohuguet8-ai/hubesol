@@ -25,12 +25,7 @@ teacherObjectives:
   - "Can form affirmative, negative and interrogative present simple sentences, including the third-person -s (CEFR A2)."
   - "Can place adverbs of frequency (always, usually, sometimes, never) correctly in a sentence."
   - "Can choose the present simple over the present continuous for habits, facts and timetables."
-related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
-  - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
-  - { title: "Present Continuous", href: "/grammar/verb-tenses/present-continuous/" }
-  - { title: "Present Simple vs Present Continuous", href: "/grammar/verb-tenses/present-simple-vs-present-continuous/" }
+related: []
 draft: false
 ---
 
