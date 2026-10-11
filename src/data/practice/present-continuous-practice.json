@@ -755,14 +755,14 @@
           "is playing",
           "play",
           "are playing",
-          "are play"
+          "played"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: \"the children\" is plural, so the auxiliary is \"are\", not \"is\".",
           "Wrong tense: \"Look!\" signals something happening now — that needs the present continuous, not the present simple.",
           "",
-          "Missing -ing: after \"are\", use the -ing form — \"playing\", not \"play\"."
+          "'Played' is past — 'Look!' means it's happening now."
         ],
         "explain": "Something happening right now — present continuous."
       },
@@ -772,14 +772,14 @@
         "choices": [
           "has",
           "is having",
-          "is have",
+          "had",
           "are having"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: \"at the moment\" needs the present continuous, not the present simple.",
           "",
-          "Missing -ing: after \"is\", use the -ing form — \"having\", not \"have\".",
+          "'Had' is past, but 'at the moment' means now.",
           "Subject-verb agreement: with \"she\", the auxiliary is \"is\", not \"are\"."
         ],
         "explain": "Something happening right now — present continuous."
@@ -788,14 +788,14 @@
         "use": "Now",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this puzzle right now.",
         "choices": [
-          "am solve",
+          "solved",
           "solve",
           "is solving",
           "am solving"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing -ing: after \"am\", use the -ing form — \"solving\", not \"solve\".",
+          "'Solved' is past, but 'right now' means it's happening now.",
           "Wrong tense: \"right now\" needs the present continuous, not the present simple.",
           "Subject-verb agreement: with \"I\", the auxiliary is \"am\", not \"is\".",
           ""
@@ -809,14 +809,14 @@
           "is growing",
           "grows",
           "are growing",
-          "is grow"
+          "grow"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: \"this winter\" (temporary) needs the present continuous, not the present simple.",
           "Subject-verb agreement: with \"my dad\", the auxiliary is \"is\", not \"are\".",
-          "Missing -ing: after \"is\", use the -ing form — \"growing\", not \"grow\"."
+          "With 'my dad' (he) the present simple needs -s, and this is a temporary situation anyway."
         ],
         "explain": "A temporary situation — present continuous."
       },
@@ -824,14 +824,14 @@
         "use": "Temporary situation",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Spanish classes this term.",
         "choices": [
-          "are take",
+          "taking",
           "take",
           "is taking",
           "are taking"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing -ing: after \"are\", use the -ing form — \"taking\", not \"take\".",
+          "Missing 'are': the present continuous needs be + -ing.",
           "Wrong tense: \"this term\" (temporary) needs the present continuous, not the present simple.",
           "Subject-verb agreement: with \"we\", the auxiliary is \"are\", not \"is\".",
           ""
@@ -845,14 +845,14 @@
           "is playing",
           "play",
           "am playing",
-          "am play"
+          "played"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: with \"I\", the auxiliary is \"am\", not \"is\".",
           "Wrong tense: a personal arrangement (the court is booked) uses the present continuous, not the present simple.",
           "",
-          "Missing -ing: after \"am\", use the -ing form — \"playing\", not \"play\"."
+          "'Played' is past, but 'tomorrow' is in the future."
         ],
         "explain": "A fixed personal arrangement — present continuous."
       },
@@ -863,14 +863,14 @@
           "am visiting",
           "visit",
           "is visiting",
-          "am visit"
+          "visiting"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: a fixed future arrangement uses the present continuous, not the present simple.",
           "Subject-verb agreement: with \"I\", the auxiliary is \"am\", not \"is\".",
-          "Missing -ing: after \"am\", use the -ing form — \"visiting\", not \"visit\"."
+          "Missing 'am': the present continuous needs be + -ing."
         ],
         "explain": "A fixed future arrangement — present continuous."
       },
@@ -929,20 +929,20 @@
         "explain": "Something not happening right now — present continuous negative."
       },
       {
-        "use": "Spelling & form",
+        "use": "Form",
         "text": "Grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a cake right now.",
         "choices": [
           "bakes",
-          "is bakeing",
+          "is baked",
           "is baking",
-          "is bake"
+          "was baking"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: \"right now\" needs the present continuous, not the present simple.",
-          "Spelling: drop the silent \"e\" before adding -ing — \"baking\", not \"bakeing\".",
+          "'Baked' is a past participle (passive). For an action happening now use -ing: 'baking'.",
           "",
-          "Missing -ing: after \"is\", use the -ing form — \"baking\", not \"bake\"."
+          "'Was baking' is past, but 'right now' means now."
         ],
         "explain": "Something happening right now — present continuous."
       },
@@ -951,16 +951,16 @@
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the floor right now.",
         "choices": [
           "is sitting",
-          "is siting",
+          "is seating",
           "sits",
-          "is sit"
+          "was sitting"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: double the final consonant — \"sitting\", not \"siting\".",
+          "'Seating' means giving someone a seat. 'Sit' doubles the t: 'sitting'.",
           "Wrong tense: this needs the present continuous, not the present simple.",
-          "Missing -ing: after \"is\", use the -ing form — \"sitting\", not \"sit\"."
+          "'Was sitting' is past, but 'right now' means now."
         ],
         "explain": "Something happening right now — present continuous."
       },
@@ -969,34 +969,34 @@
         "text": "My friends <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a trip to Japan at the moment.",
         "choices": [
           "are planning",
-          "are planing",
+          "are planed",
           "plan",
-          "are plan"
+          "were planning"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: double the final consonant — \"planning\", not \"planing\".",
+          "'Planed' is a different word (to plane wood). 'Plan' doubles the n: 'planning'.",
           "Wrong tense: \"at the moment\" needs the present continuous, not the present simple.",
-          "Missing -ing: after \"are\", use the -ing form — \"planning\", not \"plan\"."
+          "'Were planning' is past, but 'at the moment' means now."
         ],
         "explain": "Something in progress around now — present continuous."
       },
       {
-        "use": "Spelling & form",
+        "use": "Form",
         "text": "The old man <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the sofa right now.",
         "choices": [
           "lies",
           "was lying",
           "is lying",
-          "is lie"
+          "is laying"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: \"right now\" needs the present continuous, not the present simple.",
           "Wrong tense: \"right now\" needs the present \"is\", not the past \"was\".",
           "",
-          "Missing -ing: after \"is\", use the -ing form — \"lying\", not \"lie\"."
+          "'Lay' needs an object (lay something down). To rest flat, use 'lie' → 'lying'."
         ],
         "explain": "Something happening right now — present continuous."
       },
@@ -1061,14 +1061,14 @@
           "are flying",
           "fly",
           "is flying",
-          "are fly"
+          "flew"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: \"Look!\" signals something happening now — that needs the present continuous, not the present simple.",
           "Subject-verb agreement: \"the birds\" is plural, so the auxiliary is \"are\", not \"is\".",
-          "Missing -ing: after \"are\", use the -ing form — \"flying\", not \"fly\"."
+          "'Flew' is past — 'Look!' means it's happening now."
         ],
         "explain": "Something happening right now — present continuous."
       },
@@ -1079,14 +1079,14 @@
           "collect",
           "are collecting",
           "is collecting",
-          "are collect"
+          "collected"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: a fixed personal arrangement uses the present continuous, not the present simple.",
           "",
           "Subject-verb agreement: \"my parents\" is plural, so the auxiliary is \"are\", not \"is\".",
-          "Missing -ing: after \"are\", use the -ing form — \"collecting\", not \"collect\"."
+          "'Collected' is past, but 'tomorrow' is in the future."
         ],
         "explain": "A fixed future arrangement — present continuous."
       },

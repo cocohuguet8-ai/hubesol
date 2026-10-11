@@ -665,14 +665,14 @@
           "has been playing",
           "have been playing",
           "is playing",
-          "has playing"
+          "plays"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Subject-verb agreement: with 'my sister', use 'has', not 'have'.",
           "Wrong tense: duration up to now with 'for' needs the present perfect, not the present continuous.",
-          "Missing 'been' — 'has been playing', not 'has playing'."
+          "Present simple can't link a duration ('for three years') to now — use has been playing."
         ],
         "explain": "How long an action has been happening, with 'for'."
       },
@@ -682,15 +682,15 @@
         "choices": [
           "have been walking",
           "has been walking",
-          "have been walk",
-          "have walking"
+          "are walking",
+          "had been walking"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Subject-verb agreement: with 'you', use 'have', not 'has'.",
-          "Missing -ing: after 'been', use the -ing form — 'walking', not 'walk'.",
-          "Missing 'been': the continuous needs have/has BEEN + -ing."
+          "Present continuous says it's happening now — but the rain walk is over, only the shoes are wet.",
+          "Past perfect needs a past reference point — the wet shoes are now."
         ],
         "explain": "A recent activity explaining a result you can see now."
       },
@@ -734,14 +734,14 @@
         "use": "Missing been",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this queue since ten o'clock.",
         "choices": [
-          "have standing",
+          "had been standing",
           "have been standing",
           "has been standing",
           "are standing"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Missing 'been': the continuous needs have/has BEEN + -ing.",
+          "Past perfect needs a past reference point — 'in this queue' is the present.",
           "",
           "Subject-verb agreement: with 'we', use 'have', not 'has'.",
           "Wrong tense: with 'since', use 'have been standing', not the present continuous."
@@ -785,37 +785,37 @@
         "explain": "'Your brother' (he) takes 'has' in the present perfect continuous."
       },
       {
-        "use": "Spelling & form",
+        "use": "Form",
         "text": "The dogs <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the garden all morning.",
         "choices": [
           "have been digging",
           "has been digging",
-          "have been dig",
-          "have digging"
+          "are digging",
+          "have been dug"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Subject-verb agreement: with 'the dogs', use 'have', not 'has'.",
-          "Missing -ing: after 'been', use the -ing form — 'digging', not 'dig'.",
-          "Missing 'been': the continuous needs have/has BEEN + -ing."
+          "'All morning' is a duration up to now — present continuous can't express that.",
+          "'Dug' is a past participle (passive). The dogs do the digging, so use -ing."
         ],
         "explain": "Plural subject, plus double the consonant: dig → digging."
       },
       {
-        "use": "Spelling & form",
+        "use": "Form",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner for an hour.",
         "choices": [
-          "has been make",
+          "is making",
           "have been making",
-          "has been makeing",
+          "has been made",
           "has been making"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing -ing: after 'been', use the -ing form — 'making', not 'make'.",
+          "'For an hour' needs a duration up to now — present continuous can't express that.",
           "Subject-verb agreement: with 'he', use 'has', not 'have'.",
-          "Spelling: drop the silent 'e' before -ing — 'making', not 'makeing'.",
+          "'Made' is a past participle (passive). He is doing the cooking, so use -ing.",
           ""
         ],
         "explain": "Drop the silent 'e' before adding -ing: make → making."
@@ -860,14 +860,14 @@
         "use": "Stative verb",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married since 2010.",
         "choices": [
-          "have being",
+          "are being",
           "has been",
           "are",
           "have been"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong form: after 'have', use the past participle 'been', not 'being'.",
+          "'Be' here is a state, and 'since 2010' needs the present perfect.",
           "Subject-verb agreement: with 'they', use 'have', not 'has'.",
           "Wrong tense: with 'since', use the present perfect — 'have been married', not 'are married'.",
           ""
@@ -881,14 +881,14 @@
           "have been cutting",
           "has been cutting",
           "had been cutting",
-          "has cutting"
+          "has been cut"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: with 'she', use 'has', not 'have'.",
           "",
           "'Had been' is past perfect — it needs a past reference point, but 'her eyes are red' is now.",
-          "Missing 'been': the continuous needs have/has BEEN + -ing."
+          "'Cut' is a past participle (passive). She is doing the cutting, so use -ing."
         ],
         "explain": "A recent activity explaining a result you can see now."
       },
@@ -897,14 +897,14 @@
         "text": "Mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the phone since lunch.",
         "choices": [
           "have been talking",
-          "has talking",
+          "was talking",
           "is talking",
           "has been talking"
         ],
         "correct": 3,
         "wrongReasons": [
           "Subject-verb agreement: with 'Mum', use 'has', not 'have'.",
-          "Missing 'been': the continuous needs have/has BEEN + -ing.",
+          "'Since lunch' needs the present perfect, not the past continuous.",
           "Wrong tense: with 'since', use 'has been talking', not the present continuous.",
           ""
         ],
@@ -929,20 +929,20 @@
         "explain": "A recent activity explaining a result you can see now."
       },
       {
-        "use": "Spelling & form",
+        "use": "Form",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> their bikes since breakfast.",
         "choices": [
-          "have been rideing",
+          "were riding",
           "has been riding",
           "have been riding",
-          "have been ride"
+          "have been ridden"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: drop the silent 'e' before -ing — 'riding', not 'rideing'.",
+          "'Since breakfast' needs the present perfect, not the past continuous.",
           "Subject-verb agreement: with 'they', use 'have', not 'has'.",
           "",
-          "Missing -ing: after 'been', use the -ing form — 'riding', not 'ride'."
+          "'Ridden' is a past participle (passive). They are doing the riding, so use -ing."
         ],
         "explain": "Drop the silent 'e' before adding -ing: ride → riding."
       },
@@ -969,14 +969,14 @@
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for this exam since September.",
         "choices": [
           "has been revising",
-          "have revising",
+          "was revising",
           "have been revising",
           "am revising"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: with 'I', use 'have', not 'has'.",
-          "Missing 'been': the continuous needs have/has BEEN + -ing.",
+          "'Since September' needs the present perfect, not the past continuous.",
           "",
           "Wrong tense: with 'since', use 'have been revising', not the present continuous."
         ],
@@ -1004,14 +1004,14 @@
         "use": "Missing been",
         "text": "The phone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> since breakfast.",
         "choices": [
-          "has ringing",
+          "was ringing",
           "have been ringing",
           "has been ringing",
           "is ringing"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing 'been': the continuous needs have/has BEEN + -ing.",
+          "'Since breakfast' needs the present perfect, not the past continuous.",
           "Subject-verb agreement: with 'the phone', use 'has', not 'have'.",
           "",
           "Wrong tense: with 'since', use 'has been ringing', not the present continuous."

@@ -671,14 +671,14 @@
         "choices": [
           "used to took",
           "would take",
-          "would took",
+          "was used to taking",
           "use to take"
         ],
         "correct": 1,
         "wrongReasons": [
           "'Used to' takes the base verb: 'used to take', not 'took'.",
           "",
-          "'Would' also takes the base verb: 'would take', not 'took'.",
+          "'Be used to + -ing' means 'accustomed to', not a past habit.",
           "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'."
         ],
         "explain": "A repeated action told as a story — 'would take'."
@@ -687,15 +687,15 @@
         "use": "Habit",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the guitar, but I stopped years ago.",
         "choices": [
-          "use to played",
-          "would played",
+          "was playing",
+          "am used to playing",
           "used to play",
           "used to played"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong: mixes 'use to' with a past-tense verb.",
-          "Wrong verb form after 'would' — it needs the base verb: 'would play'.",
+          "Past continuous is an ongoing action at a past moment, not a finished habit.",
+          "'Be used to + -ing' means 'accustomed to', not a past habit.",
           "",
           "'Used to' takes the base verb, not the past form."
         ],
@@ -759,14 +759,14 @@
         "use": "State — trap",
         "text": "There <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a farm where the mall is now.",
         "choices": [
-          "used to being",
+          "was being",
           "would be",
           "used to be",
           "was used to be"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form — needs the base verb 'be', not '-ing'.",
+          "'There was being' is not a correct form — 'there used to be'.",
           "'Be' here describes a past state — 'would' is impossible with states.",
           "",
           "Mixes two different constructions."
@@ -778,14 +778,14 @@
         "text": "When we were kids, on rainy days we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> board games all afternoon.",
         "choices": [
           "playing",
-          "would played",
+          "have played",
           "use to play",
           "would play"
         ],
         "correct": 3,
         "wrongReasons": [
           "An -ing form like 'playing' can't be the verb on its own — here you need 'would play'.",
-          "'Would' needs the base verb: 'would play', not 'played'.",
+          "Present perfect clashes with 'when we were kids' (a finished past time).",
           "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           ""
         ],
@@ -813,14 +813,14 @@
         "use": "Habit",
         "text": "My brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> comic books, but he gave them all away when he left school.",
         "choices": [
-          "would collected",
+          "has collected",
           "used to collect",
           "use to collect",
           "is used to collecting"
         ],
         "correct": 1,
         "wrongReasons": [
-          "'Would' needs the base verb, not the past form 'collected'.",
+          "Present perfect clashes with 'gave them all away when he left school' (finished past).",
           "",
           "Missing -d: in a positive sentence it's 'used to' — 'use to' only comes after 'did'.",
           "'Is used to collecting' means 'accustomed to collecting' now — but he gave the comics away."
@@ -922,14 +922,14 @@
         "text": "When I was young, my grandparents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us all together at Christmas.",
         "choices": [
           "gathering",
-          "would gathered",
+          "have gathered",
           "use to gather",
           "would gather"
         ],
         "correct": 3,
         "wrongReasons": [
           "An -ing form like 'gathering' can't be the verb on its own — here you need 'would gather'.",
-          "'Would' needs the base verb 'gather', not 'gathered'.",
+          "Present perfect clashes with 'when I was young' (finished past).",
           "'Use to' is only for questions and negatives — in a positive sentence it's 'used to'.",
           ""
         ],
@@ -941,14 +941,14 @@
         "choices": [
           "used to be",
           "would be",
-          "used to being",
+          "has been",
           "was used to being"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "A past state (size) can't take 'would'.",
-          "Wrong verb form.",
+          "Present perfect can't be used with 'fifty years ago'.",
           "Different meaning — 'accustomed to being'."
         ],
         "explain": "A past state — 'used to be' only."
@@ -993,15 +993,15 @@
         "use": "Would — action",
         "text": "When we were kids, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the corner shop after school.",
         "choices": [
-          "would went",
-          "used to going",
+          "have gone",
+          "were used to going",
           "use to go",
           "would go"
         ],
         "correct": 3,
         "wrongReasons": [
-          "'Would' needs the base verb 'go', not the past form 'went'.",
-          "'Used to' for a past habit takes the base verb 'go', not '-ing'.",
+          "Present perfect clashes with 'when we were kids' (finished past).",
+          "'Be used to + -ing' means 'accustomed to', not a past habit.",
           "Missing -d: in a positive sentence it's 'used to' — 'use to' only comes after 'did'.",
           ""
         ],
