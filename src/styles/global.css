@@ -424,9 +424,13 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 
 /* ---- timed multiple choice ---- */
 .timedmc-timer-track { height: 6px; background: var(--soft); border-radius: 4px; overflow: hidden; margin-bottom: 1rem; }
-.timedmc-timer-fill { height: 100%; background: var(--accent); border-radius: 4px; transition: width 1s linear, background 0.3s ease; }
-.timedmc-timer-fill.warn { background: var(--warn); }
-.timedmc-timer-fill.danger { background: var(--bad); }
+/* Countdown is red so it can't be confused with the green progress bar.
+   Last seconds: darker red + pulse, so urgency still reads. */
+.timedmc-timer-fill { height: 100%; background: var(--bad); border-radius: 4px; transition: width 1s linear, background 0.3s ease; }
+.timedmc-timer-fill.warn { background: var(--bad); }
+.timedmc-timer-fill.danger { background: #991b1b; animation: timer-pulse 0.6s ease-in-out infinite alternate; }
+@keyframes timer-pulse { from { opacity: 1; } to { opacity: 0.45; } }
+@media (prefers-reduced-motion: reduce) { .timedmc-timer-fill.danger { animation: none; } }
 .timedmc-question { font-size: 1.1rem; font-weight: 500; line-height: 1.5; margin-bottom: 0.4rem; }
 .timedmc .blank { display: inline-block; min-width: 3.4rem; border-bottom: 2px solid var(--accent); }
 .timedmc-hintv { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.9rem; }
