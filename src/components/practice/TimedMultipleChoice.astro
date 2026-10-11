@@ -245,7 +245,8 @@ const uid = 'tm';
 
       scoreText.textContent = 'Score: ' + score;
       actionsRow.style.display = 'flex';
-      feedback.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      // Keep feedback and the Next button on screen (iOS: Next fell below the fold).
+      requestAnimationFrame(() => { actionsRow.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); });
     }
 
     nextBtn.addEventListener('click', () => {
