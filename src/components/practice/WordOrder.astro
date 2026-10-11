@@ -235,14 +235,16 @@ const uid = 'wo';
       // label that may not match it, e.g. "do/does" for "don't").
       const aux = correctWords[cIdx];
       const first = (correctWords[0] || '').toLowerCase();
-      const afterWh = cIdx === 1 && WH_WORDS.indexOf(first) !== -1;
+      const afterWh = cIdx >= 1 && cIdx <= 2 && WH_WORDS.indexOf(first) !== -1;
+      const whPhrase = correctWords.slice(0, cIdx).join(' ');
 
       if (bIdx === -1) {
         return "Don't forget \"" + aux + "\" in this sentence.";
       }
       if (bIdx !== cIdx) {
+        if (cIdx > 0 && !afterWh && (builtWords[0] || '').toLowerCase() !== (correctWords[0] || '').toLowerCase()) return genericOrderHint(builtWords, correctWords);
         if (cIdx === 0) return "In a question, \"" + aux + "\" comes first, before the subject.";
-        if (afterWh) return "In a question with \"" + correctWords[0] + "\", \"" + aux + "\" comes right after it, before the subject.";
+        if (afterWh) return "In a question with \"" + whPhrase + "\", \"" + aux + "\" comes right after it, before the subject.";
         return "\"" + aux + "\" goes right after the subject, not somewhere else.";
       }
       return "Check the order of the words after \"" + aux + "\".";

@@ -680,19 +680,19 @@
       },
       {
         "use": "Habit/routine",
-        "text": "Nowadays my mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shopping on Fridays.",
+        "text": "My mum usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shopping on Fridays.",
         "choices": [
           "is doing",
           "does",
           "do",
-          "did"
+          "has done"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'on Fridays' is a routine, not something happening now.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
           "",
           "Missing -es: with 'my mum' (she), 'do' becomes 'does'.",
-          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now."
         ],
         "explain": "'On Fridays' signals a routine — present simple; with 'she', 'do' becomes 'does'."
       },
@@ -752,43 +752,43 @@
       },
       {
         "use": "Habit — negative",
-        "text": "My dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sugar in his tea.",
+        "text": "My dad usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sugar in his tea.",
         "choices": [
           "don't take",
           "doesn't take",
-          "didn't take",
+          "hasn't taken",
           "isn't taking"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'my dad' is 'he' — use 'doesn't', not 'don't'.",
           "",
-          "Wrong tense: this is a habit, not a finished past event.",
-          "Wrong tense: a habit takes the present simple, not the continuous."
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous."
         ],
         "explain": "Negative habit with 'my dad' (he) — doesn't + base verb 'take'."
       },
       {
         "use": "Habit/routine",
-        "text": "Nowadays I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my emails three times a day.",
+        "text": "I usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my emails three times a day.",
         "choices": [
           "checks",
           "am checking",
           "check",
-          "checked"
+          "have checked"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: with 'I', don't add -s — 'check', not 'checks'.",
-          "Wrong tense: 'three times a day' is a routine, not something happening right now.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
           "",
-          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now."
         ],
         "explain": "'Three times a day' signals a routine; with 'I', use the base verb — no -s."
       },
       {
         "use": "Spelling & form",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the 7.30 train every morning.",
+        "text": "He usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the 7.30 train every morning.",
         "choices": [
           "catch",
           "is catching",
@@ -798,15 +798,15 @@
         "correct": 3,
         "wrongReasons": [
           "Missing ending: with 'he', the verb needs -es — 'catches'.",
-          "Wrong tense: 'every morning' is a routine — present simple, not continuous.",
-          "Wrong tense: 'every morning' is a routine, so use the present simple, not the present perfect.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
           ""
         ],
         "explain": "Verbs ending in -ch add -es: catch → catches."
       },
       {
         "use": "Form",
-        "text": "My uncle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Paris for work every month.",
+        "text": "My uncle usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Paris for work every month.",
         "choices": [
           "flies",
           "is flying",
@@ -816,62 +816,62 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong meaning: 'is flying' describes something happening now; 'every month' signals a routine, so use 'flies'.",
-          "Wrong tense: 'every month' signals a routine, not something finished up to now.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
           "Missing ending: with 'my uncle' (he), the verb needs the -ies form."
         ],
         "explain": "Consonant + -y → -ies: fly → flies."
       },
       {
         "use": "Timetable — negative",
-        "text": "The supermarket <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> until ten.",
+        "text": "The supermarket <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> until ten on weekdays.",
         "choices": [
           "don't close",
           "doesn't close",
-          "didn't close",
+          "hasn't closed",
           "isn't closing"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'the supermarket' is 'it' — use 'doesn't', not 'don't'.",
           "",
-          "Wrong tense: this is a timetable fact, not a finished past event.",
-          "Wrong tense: a fixed timetable takes the present simple, not the continuous."
+          "Wrong tense: 'on weekdays' is a regular timetable, not the past up to now.",
+          "Wrong form: a regular weekday timetable takes the present simple, not the continuous."
         ],
         "explain": "Negative timetable fact with 'it' — doesn't + base verb 'close'."
       },
       {
         "use": "Habit/routine",
-        "text": "Nowadays we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
+        "text": "We usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
         "choices": [
           "visits",
           "are visiting",
           "visit",
-          "visited"
+          "have visited"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: 'we' takes no -s — 'visit', not 'visits'.",
-          "Wrong tense: 'every summer' is a routine, not something happening right now.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
           "",
-          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now."
         ],
         "explain": "'Every summer' is a routine, so it takes the present simple; 'we' takes the base form 'visit'."
       },
       {
         "use": "Habit/routine",
-        "text": "Nowadays he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his teeth twice a day.",
+        "text": "He usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his teeth twice a day.",
         "choices": [
           "brush",
           "is brushing",
-          "brushed",
+          "has brushed",
           "brushes"
         ],
         "correct": 3,
         "wrongReasons": [
           "Missing ending: with 'he', add -es — 'brushes', not 'brush'.",
-          "Wrong tense: 'twice a day' is a routine, not happening right now.",
-          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
           ""
         ],
         "explain": "'Twice a day' — a routine; verbs ending in -sh add -es: brush → brushes."
@@ -950,7 +950,7 @@
       },
       {
         "use": "Spelling & form",
-        "text": "Nowadays he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages.",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages — he's a translator.",
         "choices": [
           "speaks",
           "is speaking",
@@ -960,9 +960,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: knowing a language is a permanent fact, not something happening now.",
+          "Wrong form: a skill or ability takes the present simple, not the continuous.",
           "Missing -s: with 'he', add -s — 'speaks'.",
-          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
+          "Wrong tense: 'he's a translator' is about now, so a past form doesn't fit."
         ],
         "explain": "A permanent fact about him — present simple, plus -s for 'he'."
       },
@@ -1004,18 +1004,18 @@
       },
       {
         "use": "Habit/routine",
-        "text": "Nowadays I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the gym on Mondays and Wednesdays.",
+        "text": "I usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the gym on Mondays and Wednesdays.",
         "choices": [
           "goes",
           "am going",
-          "went",
+          "have gone",
           "go"
         ],
         "correct": 3,
         "wrongReasons": [
           "Subject-verb agreement: with 'I', don't add -s — 'go', not 'goes'.",
-          "Wrong tense: 'am going' is for what's happening now or a fixed plan. 'On Mondays and Wednesdays' is a routine, so use the present simple: 'go'.",
-          "Wrong tense: 'on Mondays and Wednesdays' with 'I' is a present routine here, not a finished past event.",
+          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
           ""
         ],
         "explain": "A routine with 'I' — base verb, no -s."

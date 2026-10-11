@@ -337,6 +337,7 @@ const uid = 'gf';
 
     // Present simple: name the exact slip (missing/extra -s, doesn't + -s).
     function diagnosePresentSimple(rawText, q) {
+      if (/^\(?do\/does\)?$/i.test(String(q.hint || '').trim()) && normalize(rawText) !== normalize(q.display)) return 'The answer is <b>' + q.display + '</b>.';
       const u = normalize(rawText), c = normalize(q.display);
       if (!u || u === c) return '';
       const uw = u.split(' '), cw = c.split(' ');
