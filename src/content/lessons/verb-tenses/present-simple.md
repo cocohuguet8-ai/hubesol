@@ -1,7 +1,7 @@
 ---
 title: "Present Simple"
 description: "How to form the present simple, when to use it, and the mistakes to avoid — with an interactive quiz."
-level: "A1"
+level: "A2"
 hub: "Verb Tenses"
 hubSlug: "verb-tenses"
 answerBox: "The present simple (base verb, or verb + -s for he/she/it) is for things that are generally true: facts (Water boils at 100°C), habits and routines (She walks to work every day), and timetables (The train leaves at 6). For something happening right now, use the present continuous instead."
@@ -22,7 +22,7 @@ faq:
   - q: "Can the present simple talk about the future?"
     a: "Yes, for timetables and schedules: The train leaves at 6. The shop opens at 9 tomorrow."
 teacherObjectives:
-  - "Can form affirmative, negative and interrogative present simple sentences, including the third-person -s (CEFR A1)."
+  - "Can form affirmative, negative and interrogative present simple sentences, including the third-person -s (CEFR A2)."
   - "Can place adverbs of frequency (always, usually, sometimes, never) correctly in a sentence."
   - "Can choose the present simple over the present continuous for habits, facts and timetables."
 related:
