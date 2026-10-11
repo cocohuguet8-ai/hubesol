@@ -468,7 +468,7 @@ const uid = 'lc';
         const mentionsForm = !!specific && new RegExp('[\'"‘’“”]' + escForm + '[\'"‘’“”]').test(String(specific).toLowerCase());
         feedback.innerHTML = (mentionsForm ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + it.display + '".</b> ') + (specific || '');
       }
-      results.push({ category: 'fill', correct: isCorrect, detail: it.sentText.replace('{{blank}}', it.display) });
+      results.push({ category: 'fill', correct: isCorrect, yours: raw.trim(), detail: it.sentText.replace('{{blank}}', it.display) });
       scoreText.textContent = 'Score: ' + totalScore();
       actionsRow.innerHTML = '';
       appendNext();
@@ -624,7 +624,7 @@ const uid = 'lc';
         feedback.className = 'practice-feedback show bad';
         feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: "' + it.tokens.join(' ') + '"';
       }
-      results.push({ category: 'order', correct: isCorrect, detail: it.tokens.join(' ') });
+      results.push({ category: 'order', correct: isCorrect, yours: builtWords.join(' '), detail: it.tokens.join(' ') });
       scoreText.textContent = 'Score: ' + totalScore();
       document.getElementById(`${uid}-orderClear`).disabled = true;
       document.getElementById(`${uid}-orderCheck`).style.display = 'none';
@@ -675,7 +675,7 @@ const uid = 'lc';
         const reason = it.wrongReasons[chosenIndex] || '';
         feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was "' + it.choices[it.correct] + '".';
       }
-      results.push({ category: it.type, correct: isCorrect, detail: (it.text || it.sentText || '').replace('{{blank}}', it.choices[it.correct]) });
+      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', it.choices[it.correct]) });
       scoreText.textContent = 'Score: ' + totalScore();
       appendNext();
     }
@@ -816,6 +816,7 @@ const uid = 'lc';
         const sent = document.createElement('span');
         sent.className = 'rsent';
         sent.textContent = (n + 1) + '. ' + r.detail;
+        if (!r.correct && r.yours) { const y = document.createElement('div'); y.className = 'ryours'; y.textContent = 'You wrote: ' + r.yours; sent.appendChild(y); }
         const mark = document.createElement('span');
         mark.className = 'rmark ' + (r.correct ? 'self' : 'revealed');
         mark.textContent = r.correct ? '✓' : '✗';
