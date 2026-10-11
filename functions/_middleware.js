@@ -13,6 +13,7 @@ const LIVE_SLUGS = [
   'present-perfect-continuous',
   'present-perfect-vs-past-simple',
   'used-to-would',
+  'present-continuous',
 ];
 const LIVE_PATHS = new Set([
   '/favicon.svg',
