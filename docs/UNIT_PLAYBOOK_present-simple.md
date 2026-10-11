@@ -2,6 +2,7 @@
 
 Use this to bring every other unit (lesson + quiz + Practice) to the same standard.
 Target: Learner Review mean ≥ 9.5, every criterion ≥ 9.0, from a real retest.
+**Don't publish a unit until the HubESOL Learner Review scores 9.5/10.** (Exception: a unit may be temporarily reachable only so Grok/Coco can run that test; it stays "in test" until it passes.)
 
 ## 0. Files per unit
 - Lesson: `src/content/lessons/verb-tenses/<slug>.md`
