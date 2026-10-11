@@ -71,19 +71,30 @@ Fixed events in the future — trains, films, opening times.
 - **The film starts** at eight.
 - **Our flight leaves** at noon tomorrow.
 
+## Questions with *be*
+
+With the verb *be*, do not use *do/does*: put *am/is/are* first. **Are** you tired? **Is** she a teacher? (Not ~~Does she be a teacher?~~)
+
+## Pronouncing the -s
+
+The ending is said in three ways: /s/ after *p, t, k* (*works*), /z/ after most other sounds (*plays, lives*) and /ɪz/ after *s, sh, ch, x, z* (*watches, washes*).
+
 ## Signal words
 
 | Word | Position | Example |
 |---|---|---|
 | always / usually / often | before the main verb | We **usually** eat at home. |
 | sometimes | before the main verb | She **sometimes** works late. |
-| never | before the main verb (with a positive verb) | He **never** lies. |
+| never | before the main verb (the verb itself stays positive: *never* is already negative) | He **never** lies. |
+| always / usually / often / never | after the verb *be* | She **is always** late. |
 | every day / on Mondays | usually at the end | I check my email **every day**. |
 
 ## Common mistakes
 
-**1. Forgetting the -s on he/she/it.** The number-one present-simple error, especially for speakers whose first language does not add an ending here (Chinese, and often Spanish or Catalan speakers who overthink it). *~~He work~~* → **He works** in a bank.
+**1. Forgetting the -s on he/she/it.** The number-one present-simple error: *I work, you work, we work* have no ending, so the -s on *he works* is easy to forget. *~~He work~~* → **He works** in a bank.
 
-**2. Using the present continuous for habits.** Spanish and Catalan speakers sometimes stretch *estoy trabajando* too far. For a routine, English uses the present simple: *I work here*, not *I am working here* (unless it is temporary or happening right now). **Pro tip:** if it happens regularly, use the present simple; if it is happening at this exact moment, use the present continuous.
+**2. Using the present continuous for habits.** Learners often reach for the *-ing* form because it feels like "what I do these days". For a routine, English uses the present simple: *I work here*, not *I am working here* (unless it is temporary or happening right now).
 
 **3. Keeping the -s in questions and negatives.** After *does* or *doesn't*, the main verb goes back to its base form. *~~Does she works?~~* → **Does she work?** and *~~He doesn't works~~* → **He doesn't work.**
+
+**Pro tip:** if it happens regularly, use the present simple; if it is happening at this exact moment, use the present continuous.
