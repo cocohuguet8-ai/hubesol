@@ -97,34 +97,36 @@ const uid = 'tm';
     // Timer state. The countdown is computed from Date.now(), so a throttled
     // setInterval (background tab, off-screen) can never slow the clock down.
     let deadline = 0, remainingMs = TIME_LIMIT * 1000, running = false, cardVisible = true;
+    // HQ-025: nothing may start the clock until the learner presses Start.
+    let started = false;
 
     function setQuestionVisible(v) {
       [useTag, questionText, hintText, optionsList].forEach((el) => { if (el) el.style.display = v ? '' : 'none'; });
     }
 
-    function startQuiz(waitForStart) {
+    // Always shows the Start screen (first load and "Play again"). The clock
+    // stays frozen until Start is pressed (HQ-025).
+    function startQuiz() {
+      stopTimer();
+      started = false; locked = false;
       questions = payload.questions.map(shuffleQuestion);
       current = 0; score = 0; answers = [];
       quizArea.style.display = '';
       scoreScreen.classList.remove('show');
-      if (waitForStart) {
-        // Q1's time only counts once the learner presses Start.
-        stopTimer();
-        remainingMs = TIME_LIMIT * 1000; timeLeft = TIME_LIMIT; updateTimerBar();
-        progressText.textContent = 'Question 1 of ' + questions.length;
-        scoreText.textContent = 'Score: 0';
-        setQuestionVisible(false);
-        feedback.className = 'practice-feedback'; feedback.textContent = '';
-        actionsRow.style.display = 'none';
-        startRow.style.display = '';
-        return;
-      }
-      startRow.style.display = 'none';
-      setQuestionVisible(true);
-      showQuestion();
+      remainingMs = TIME_LIMIT * 1000; timeLeft = TIME_LIMIT; updateTimerBar();
+      progressFill.style.width = '0%';
+      progressText.textContent = 'Question 1 of ' + questions.length;
+      scoreText.textContent = 'Score: 0';
+      setQuestionVisible(false);
+      optionsList.innerHTML = '';
+      feedback.className = 'practice-feedback'; feedback.textContent = '';
+      actionsRow.style.display = 'none';
+      startRow.style.display = '';
     }
 
     startBtn.addEventListener('click', () => {
+      if (started) return;
+      started = true;
       startRow.style.display = 'none';
       setQuestionVisible(true);
       showQuestion();
@@ -172,7 +174,7 @@ const uid = 'tm';
     }
 
     function resumeTimer() {
-      if (running || locked || remainingMs <= 0) return;
+      if (!started || running || locked || remainingMs <= 0) return;
       if (!cardVisible || document.hidden) return; // starts when the card is back on screen
       running = true;
       deadline = Date.now() + remainingMs;
@@ -272,6 +274,12 @@ const uid = 'tm';
         const qDiv = document.createElement('div');
         qDiv.className = 'rq';
         qDiv.innerHTML = a.q.text;
+        // HQ-058: show the correct answer in the gap instead of empty spaces.
+        qDiv.querySelectorAll('.blank').forEach((b) => {
+          const strong = document.createElement('strong');
+          strong.textContent = a.q.choices[a.q.correct];
+          b.replaceWith(strong);
+        });
         row.appendChild(qDiv);
         const yourDiv = document.createElement('div');
         if (a.correct) {
@@ -287,8 +295,8 @@ const uid = 'tm';
       });
     }
 
-    restartBtn.addEventListener('click', () => startQuiz(false));
-    startQuiz(true);
+    restartBtn.addEventListener('click', () => startQuiz());
+    startQuiz();
   }
 
   if (document.getElementById('tm')) initTimedMC();
