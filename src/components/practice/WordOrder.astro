@@ -247,6 +247,14 @@ const uid = 'wo';
         if (afterWh) return "In a question with \"" + whPhrase + "\", \"" + aux + "\" comes right after it, before the subject.";
         return "\"" + aux + "\" goes right after the subject, not somewhere else.";
       }
+      if (cIdx === 0 && /ing$/.test(correctWords[2] || '')) {
+        return "A question follows this order: \"" + aux + "\" + subject + -ing verb + the rest.";
+      }
+      let nIdx = cIdx + 1;
+      if (/^not$/i.test(correctWords[nIdx] || '')) nIdx++;
+      if (cIdx > 0 && /ing$/.test(correctWords[nIdx] || '') && builtWords[nIdx] !== correctWords[nIdx]) {
+        return "After \"" + correctWords.slice(cIdx, nIdx).join(' ') + "\", the -ing verb comes next.";
+      }
       return "Check the order of the words after \"" + aux + "\".";
     }
 
@@ -285,7 +293,8 @@ const uid = 'wo';
           + ' The correct sentence is: "' + q.tokens.join(' ') + '"';
       }
 
-      results.push({ correct: isCorrect, sentence: q.tokens.join(' '), yours: builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens) });
+      const yoursStr = builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens);
+      results.push({ correct: isCorrect, sentence: isCorrect ? yoursStr : q.tokens.join(' '), yours: yoursStr });
 
       checkBtn.style.display = 'none';
       clearBtn.disabled = true;

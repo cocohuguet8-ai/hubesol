@@ -88,7 +88,7 @@ Put *am/is/are* before the subject: **Is** she working? **Are** they coming? For
 | add -ing | most verbs | working, playing |
 | drop the -e, add -ing | verbs ending in *-e* | making, writing |
 | double the last consonant | short verb ending in one vowel + one consonant | running, swimming, sitting |
-| change -ie to -y | verbs ending in *-ie* | lying, tying |
+| change -ie to -y | verbs ending in *-ie* | lying, dying, tying |
 
 ## Stative verbs
 
