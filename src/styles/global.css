@@ -411,13 +411,13 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 /* ---- word order (also reused by level check's "order" items) ---- */
 .wordorder-zone-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.4rem; }
 .wordorder-answer-zone {
-  min-height: 3.2rem; border: 1.5px dashed var(--line); border-radius: 8px; background: var(--soft);
+  min-height: 6.6rem; border: 1.5px dashed var(--line); border-radius: 8px; background: var(--soft);
   padding: 0.6rem; margin-bottom: 1.1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-content: flex-start;
 }
 .wordorder-answer-zone.correct { border-style: solid; border-color: var(--ok); background: var(--ok-soft); }
 .wordorder-answer-zone.wrong { border-style: solid; border-color: var(--bad); background: var(--bad-soft); }
 .wordorder-placeholder { color: var(--muted); font-size: 0.85rem; padding: 0.45rem 0.2rem; }
-.wordorder-tray { min-height: 7.5rem; align-content: flex-start; display: flex; flex-wrap: wrap; gap: 0.5rem; min-height: 2.6rem; }
+.wordorder-tray { min-height: 7.5rem; align-content: flex-start; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .wordorder-tile {
   font: inherit; font-size: 0.95rem; font-weight: 500;
   background: #fff; border: 1.5px solid var(--line); border-radius: 6px;
@@ -436,7 +436,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .matching-tile {
   font: inherit; font-size: 0.92rem; font-weight: 500;
   background: var(--soft); border: 1.5px solid var(--line); border-radius: 7px;
-  padding: 0.6rem 0.8rem; cursor: pointer; color: var(--ink); text-align: left;
+  padding: 0.6rem 0.8rem; min-height: 44px; cursor: pointer; color: var(--ink); text-align: left;
   transition: transform 0.1s ease, background 0.15s ease, border-color 0.15s ease;
 }
 .matching-tile:hover:not(.matched) { border-color: var(--accent); }
@@ -482,7 +482,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .errorcorrection-word.wrongflash { border-color: var(--bad); background: var(--bad-soft); color: var(--bad); }
 .errorcorrection-word.correct-word { border-color: var(--ok); background: var(--ok-soft); color: var(--accent-ink); }
 .errorcorrection-reveal-row { margin: 0.3rem 0 0.25rem; }
-.errorcorrection-link-btn { background: none; border: none; padding: 0; font: inherit; font-size: 0.8rem; color: var(--muted); text-decoration: underline; cursor: pointer; }
+.errorcorrection-link-btn { min-height: 44px; background: none; border: none; padding: 0; font: inherit; font-size: 0.8rem; color: var(--muted); text-decoration: underline; cursor: pointer; }
 .errorcorrection-link-btn:hover { color: var(--accent); }
 .errorcorrection-link-btn:disabled { visibility: hidden; }
 .errorcorrection-corrected { margin-top: 0.4rem; }
@@ -590,3 +590,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .errorcorrection-word { min-width: 44px; min-height: 44px; }
 .wordorder-tile { min-height: 44px; }
 .practice-review-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 1rem 0 0.2rem; }
+
+.gapfill-input { min-height: 44px; }
+/* Keep the gap and its hint together on one line (Grok: "(boil)" wrapped alone). */
+.gapfill-gap { white-space: nowrap; display: inline-block; }

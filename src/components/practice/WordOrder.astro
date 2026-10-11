@@ -110,7 +110,7 @@ const uid = 'wo';
       'at in on by for since after before while as if because during until ' +
       'one only both all most many much several first then').split(' '));
     // Names that keep their capital even when they start the sentence.
-    const PROPER = new Set(['Anna','Ben','Tom','Sam','Tom\'s','TV','OK','Mum','Dad','Grandma','Grandpa']);
+    const PROPER = new Set(['Anna','Ben','Tom','Sam','Tom\'s','TV','OK']);
     function tileLabel(word, first) {
       let w = String(word).replace(/[.,?!;:]+$/, '');
       if (w === 'I' || /^I'/.test(w) || PROPER.has(w) || !/^[A-Z]/.test(w)) return w;
