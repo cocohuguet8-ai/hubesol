@@ -1135,9 +1135,13 @@
           "help."
         ],
         "errorIndex": 2,
-        "correction": "want",
+        "correction": "doesn't want",
         "type": "Double marking",
-        "message": "'Doesn't' already carries the -s — the main verb stays base form: 'want', not 'wants'."
+        "message": "'Doesn't' already carries the -s — the main verb stays base form: 'want', not 'wants'.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [

@@ -51,7 +51,7 @@ const uid = 'ec';
     const payload = JSON.parse(dataEl.textContent);
     const items = payload.items;
 
-    let idx = 0, found = 0, answered = false;
+    let idx = 0, found = 0, answered = false, misses = 0;
     let results = [];
 
     const sentenceZone = document.getElementById(`${uid}-sentenceZone`);
@@ -80,7 +80,7 @@ const uid = 'ec';
     }
 
     function startQuiz() {
-      idx = 0; found = 0; answered = false; results = [];
+      idx = 0; found = 0; answered = false; results = []; misses = 0;
       quizArea.style.display = '';
       scoreScreen.classList.remove('show');
       render();
@@ -88,7 +88,7 @@ const uid = 'ec';
 
     function render() {
       const it = items[idx];
-      answered = false;
+      answered = false; misses = 0;
       progressText.textContent = 'Sentence ' + (idx + 1) + ' of ' + items.length;
       scoreText.textContent = 'Found: ' + found;
       progressFill.style.width = ((idx / items.length) * 100) + '%';
@@ -114,6 +114,7 @@ const uid = 'ec';
       if (inSpan(it, i)) {
         lockIn(false);
       } else {
+        misses++;
         btnEl.classList.add('wrongflash');
         setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 450);
         feedback.className = 'practice-feedback show bad';
@@ -134,19 +135,20 @@ const uid = 'ec';
       markSpan(it, buttons);
       revealBtn.disabled = true;
 
-      if (!revealed) found++;
+      const clean = !revealed && misses === 0;
+      if (clean) found++;
       scoreText.textContent = 'Found: ' + found;
 
       const corrected = correctedSentence(it);
 
       feedback.className = 'practice-feedback show ' + (revealed ? 'revealed' : 'ok');
-      feedback.innerHTML = (revealed ? '<b>' + it.type + '.</b> ' : '<b>Found it — ' + it.type + '.</b> ')
+      feedback.innerHTML = (revealed ? '<b>' + it.type + '.</b> ' : (misses ? '<b>Found it after ' + misses + ' wrong tap' + (misses > 1 ? 's' : '') + ' — ' : '<b>Found it — ') + it.type + '.</b> ')
         + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
 
       results.push({
         original: it.tokens.join(' '),
         corrected: corrected,
-        selfFound: !revealed
+        selfFound: clean
       });
 
       actionsRow.style.display = 'flex';
@@ -167,7 +169,7 @@ const uid = 'ec';
       document.getElementById(`${uid}-finalScore`).textContent = found + '/' + items.length;
       const label = document.getElementById(`${uid}-finalLabel`);
       if (found === items.length) label.textContent = 'Every mistake found without help.';
-      else label.textContent = 'Found without help — the rest show the correction:';
+      else label.textContent = 'Counted only when found on the first tap, without help. The rest show the correction:';
 
       const list = document.getElementById(`${uid}-reviewList`);
       list.innerHTML = '';
@@ -181,7 +183,7 @@ const uid = 'ec';
         sent.textContent = r.corrected;
         const mark = document.createElement('span');
         mark.className = 'rmark ' + (r.selfFound ? 'self' : 'revealed');
-        mark.textContent = r.selfFound ? 'Found' : 'Revealed';
+        mark.textContent = r.selfFound ? 'Found' : 'Not found alone';
         head.appendChild(sent);
         head.appendChild(mark);
         row.appendChild(head);

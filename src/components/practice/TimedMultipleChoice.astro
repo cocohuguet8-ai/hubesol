@@ -245,6 +245,7 @@ const uid = 'tm';
 
       scoreText.textContent = 'Score: ' + score;
       actionsRow.style.display = 'flex';
+      feedback.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
     }
 
     nextBtn.addEventListener('click', () => {
