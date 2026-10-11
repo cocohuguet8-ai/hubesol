@@ -327,7 +327,7 @@ const uid = 'gf';
     // The hint gives the verb; the answer is the whole verb phrase. If the verb is missing, say so.
     function missingHintVerb(rawText, hint, display) {
       const hv = String(hint || '').replace(/[()]/g, '').split('/').pop().trim().toLowerCase();
-      if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0) return '';
+      if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0 || /^\(?do\/does\)?$/i.test(String(hint || '').trim())) return '';
       const u = normalize(rawText);
       if (u && u.split(' ').indexOf(hv) === -1 && String(display).toLowerCase().split(' ').indexOf(hv) !== -1) {
         return 'Type the whole verb phrase, including the verb from the hint ("' + hv + '").';
@@ -389,12 +389,15 @@ const uid = 'gf';
       input.id = `${uid}-blankInput`;
       input.autocomplete = 'off';
       input.spellcheck = false;
-      sentenceRow.appendChild(input);
+      const gapWrap = document.createElement('span');
+      gapWrap.className = 'gapfill-gap';
+      gapWrap.appendChild(input);
+      sentenceRow.appendChild(gapWrap);
 
       const hint = document.createElement('span');
       hint.className = 'gapfill-hint';
       hint.textContent = /^\(/.test(q.hint) ? q.hint : '(' + q.hint + ')';
-      sentenceRow.appendChild(hint);
+      gapWrap.appendChild(hint);
 
       const a = document.createElement('span');
       a.textContent = /^[.,;:!?)]/.test(q.after) ? q.after : ' ' + q.after;

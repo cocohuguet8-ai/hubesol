@@ -499,14 +499,12 @@
           "don't",
           "run",
           "on",
-          "Christmas",
-          "Day."
+          "Christmas Day."
         ],
         "alts": [
           [
             "on",
-            "Christmas",
-            "Day.",
+            "Christmas Day.",
             "Trains",
             "don't",
             "run"
@@ -682,19 +680,19 @@
       },
       {
         "use": "Habit/routine",
-        "text": "My mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shopping on Fridays.",
+        "text": "Nowadays my mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shopping on Fridays.",
         "choices": [
           "is doing",
           "does",
           "do",
-          "doing"
+          "did"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: 'on Fridays' is a routine, not something happening now.",
           "",
           "Missing -es: with 'my mum' (she), 'do' becomes 'does'.",
-          "An -ing form like 'doing' can't be the verb on its own — here you need 'does'."
+          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
         ],
         "explain": "'On Fridays' signals a routine — present simple; with 'she', 'do' becomes 'does'."
       },
@@ -705,32 +703,32 @@
           "has",
           "are having",
           "have",
-          "having"
+          "to have"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: 'my grandparents' is 'they' — 'have', not 'has'.",
           "Wrong tense: 'every day' is a routine, not something happening right now.",
           "",
-          "An -ing form like 'having' can't be the verb on its own — here you need 'have'."
+          "After a subject you need a finite verb, not the infinitive: 'have'."
         ],
         "explain": "'Every day' is a routine; 'my grandparents' (they) takes the base form 'have'."
       },
       {
         "use": "Habit — question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother share a room with you?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother share a room with you now?",
         "choices": [
-          "Is",
           "Do",
-          "Are",
-          "Does"
+          "Does",
+          "Did",
+          "Is"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: 'your brother' is 'he' — use 'does', not 'do'.",
-          "Wrong aux: 'are' pairs with the -ing form, and 'your brother' is singular.",
-          ""
+          "Subject-verb agreement: 'your brother' is 'he' — use 'Does', not 'Do'.",
+          "",
+          "Wrong tense: 'now' is present, so 'Did' (past) doesn't fit.",
+          "'Is' can't go before a base verb. The present simple question auxiliary is 'Does'."
         ],
         "explain": "Yes/no question with 'your brother' (he) — 'does' + base verb 'share'."
       },
@@ -740,15 +738,15 @@
         "choices": [
           "sails",
           "sail",
-          "sailed",
-          "sailing"
+          "is sailing",
+          "has sailed"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Missing -s: 'the ferry' is 'it' — 'sails', not 'sail'.",
-          "Wrong tense: 'every day' describes the current timetable, not the past.",
-          "An -ing form like 'sailing' can't be the verb on its own — here you need 'sails'."
+          "Wrong tense: a fixed daily schedule takes the present simple, not the continuous.",
+          "Wrong tense: present perfect is about the past up to now, not a daily timetable."
         ],
         "explain": "A regular timetable — present simple, plus -s for 'the ferry'."
       },
@@ -772,19 +770,19 @@
       },
       {
         "use": "Habit/routine",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my emails three times a day.",
+        "text": "Nowadays I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my emails three times a day.",
         "choices": [
           "checks",
           "am checking",
           "check",
-          "checking"
+          "checked"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: with 'I', don't add -s — 'check', not 'checks'.",
           "Wrong tense: 'three times a day' is a routine, not something happening right now.",
           "",
-          "An -ing form like 'checking' can't be the verb on its own — here you need 'check'."
+          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
         ],
         "explain": "'Three times a day' signals a routine; with 'I', use the base verb — no -s."
       },
@@ -794,14 +792,14 @@
         "choices": [
           "catch",
           "is catching",
-          "catching",
+          "has caught",
           "catches"
         ],
         "correct": 3,
         "wrongReasons": [
           "Missing ending: with 'he', the verb needs -es — 'catches'.",
           "Wrong tense: 'every morning' is a routine — present simple, not continuous.",
-          "An -ing form like 'catching' can't be the verb on its own — here you need 'catches'.",
+          "Wrong tense: 'every morning' is a routine, so use the present simple, not the present perfect.",
           ""
         ],
         "explain": "Verbs ending in -ch add -es: catch → catches."
@@ -812,14 +810,14 @@
         "choices": [
           "flies",
           "is flying",
-          "flying",
+          "has flown",
           "fly"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong meaning: 'is flying' describes something happening now; 'every month' signals a routine, so use 'flies'.",
-          "An -ing form like 'flying' can't be the verb on its own — here you need 'flies'.",
+          "Wrong tense: 'every month' signals a routine, not something finished up to now.",
           "Missing ending: with 'my uncle' (he), the verb needs the -ies form."
         ],
         "explain": "Consonant + -y → -ies: fly → flies."
@@ -844,36 +842,36 @@
       },
       {
         "use": "Habit/routine",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
+        "text": "Nowadays we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
         "choices": [
           "visits",
           "are visiting",
           "visit",
-          "visiting"
+          "visited"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: 'we' takes no -s — 'visit', not 'visits'.",
           "Wrong tense: 'every summer' is a routine, not something happening right now.",
           "",
-          "An -ing form like 'visiting' can't be the verb on its own — here you need 'visit'."
+          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
         ],
         "explain": "'Every summer' is a routine, so it takes the present simple; 'we' takes the base form 'visit'."
       },
       {
         "use": "Habit/routine",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his teeth twice a day.",
+        "text": "Nowadays he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his teeth twice a day.",
         "choices": [
           "brush",
           "is brushing",
-          "brushing",
+          "brushed",
           "brushes"
         ],
         "correct": 3,
         "wrongReasons": [
           "Missing ending: with 'he', add -es — 'brushes', not 'brush'.",
           "Wrong tense: 'twice a day' is a routine, not happening right now.",
-          "An -ing form like 'brushing' can't be the verb on its own — here you need 'brushes'.",
+          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit.",
           ""
         ],
         "explain": "'Twice a day' — a routine; verbs ending in -sh add -es: brush → brushes."
@@ -885,14 +883,14 @@
           "moves",
           "move",
           "is moving",
-          "moving"
+          "moved"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Missing -s: with 'the Earth' (it), add -s — 'moves', not 'move'.",
           "Wrong tense: this is a permanent fact, not happening right now.",
-          "An -ing form like 'moving' can't be the verb on its own — here you need 'moves'."
+          "Wrong tense: a scientific fact is always true, so use the present simple, not the past."
         ],
         "explain": "A scientific fact — present simple, plus -s."
       },
@@ -903,14 +901,14 @@
           "left",
           "leaves",
           "leave",
-          "leaving"
+          "has left"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: 'tomorrow' is the future — a timetable uses the present simple, not the past.",
           "",
           "Missing -s: with 'the plane' (it), add -s.",
-          "An -ing form like 'leaving' can't be the verb on its own — here you need 'leaves'."
+          "Wrong tense: 'tomorrow' is future, but present perfect talks about the past up to now."
         ],
         "explain": "A scheduled departure, even 'tomorrow' — present simple."
       },
@@ -934,37 +932,37 @@
       },
       {
         "use": "Habit — question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your parents live near here?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your parents live near here now?",
         "choices": [
-          "Is",
+          "Do",
           "Does",
-          "Are",
-          "Do"
+          "Did",
+          "Is"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: 'your parents' is plural — use 'do', not 'does'.",
-          "Wrong aux: 'are' pairs with the -ing form, not the present simple.",
-          ""
+          "",
+          "Subject-verb agreement: 'your parents' is 'they' — use 'Do', not 'Does'.",
+          "Wrong tense: 'now' is present, so 'Did' (past) doesn't fit.",
+          "'Is' can't go before a base verb. The present simple question auxiliary is 'Do'."
         ],
         "explain": "Plural subject 'your parents' — 'do' + base verb."
       },
       {
         "use": "Spelling & form",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages.",
+        "text": "Nowadays he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages.",
         "choices": [
           "speaks",
           "is speaking",
-          "speaking",
-          "speak"
+          "speak",
+          "spoke"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: knowing a language is a permanent fact, not something happening now.",
-          "An -ing form like 'speaking' can't be the verb on its own — here you need 'speaks'.",
-          "Missing -s: with 'he', add -s — 'speaks'."
+          "Missing -s: with 'he', add -s — 'speaks'.",
+          "Wrong tense: 'nowadays' is about the present, so a past form doesn't fit."
         ],
         "explain": "A permanent fact about him — present simple, plus -s for 'he'."
       },
@@ -975,49 +973,49 @@
           "flies",
           "fly",
           "is flying",
-          "flying"
+          "to fly"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'birds' is plural — no -s, 'fly' not 'flies'.",
           "",
           "Wrong tense: this is a general pattern, and 'birds' is plural — not 'is flying'.",
-          "An -ing form like 'flying' can't be the verb on its own — here you need 'fly'."
+          "After a subject you need a finite verb, not the infinitive: 'fly'."
         ],
         "explain": "Plural subject 'birds' — base verb, no -s."
       },
       {
         "use": "Timetable — question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shop close early on Sundays?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shop close early on Sundays now?",
         "choices": [
-          "Is",
           "Do",
           "Does",
-          "Are"
+          "Did",
+          "Is"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: 'the shop' is 'it' — use 'does', not 'do'.",
+          "Subject-verb agreement: 'the shop' is 'it' — use 'Does', not 'Do'.",
           "",
-          "Wrong aux: 'are' pairs with the -ing form."
+          "Wrong tense: 'now' is present, so 'Did' (past) doesn't fit.",
+          "'Is' can't go before a base verb. The present simple question auxiliary is 'Does'."
         ],
         "explain": "'The shop' (it) — 'does' + base verb."
       },
       {
         "use": "Habit/routine",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the gym on Mondays and Wednesdays.",
+        "text": "Nowadays I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the gym on Mondays and Wednesdays.",
         "choices": [
           "goes",
           "am going",
-          "going",
+          "went",
           "go"
         ],
         "correct": 3,
         "wrongReasons": [
           "Subject-verb agreement: with 'I', don't add -s — 'go', not 'goes'.",
           "Wrong tense: 'am going' is for what's happening now or a fixed plan. 'On Mondays and Wednesdays' is a routine, so use the present simple: 'go'.",
-          "An -ing form like 'going' can't be the verb on its own — here you need 'go'.",
+          "Wrong tense: 'on Mondays and Wednesdays' with 'I' is a present routine here, not a finished past event.",
           ""
         ],
         "explain": "A routine with 'I' — base verb, no -s."
@@ -1145,25 +1143,27 @@
       },
       {
         "tokens": [
-          "Does",
+          "Where",
+          "does",
           "you",
-          "like",
-          "coffee?"
+          "live?"
         ],
-        "errorIndex": 0,
-        "correction": "Do",
+        "errorIndex": 1,
+        "correction": "do",
         "type": "Subject-verb agreement",
         "message": "With 'you', the question auxiliary is 'do', not 'does'."
       },
       {
         "tokens": [
-          "Do",
+          "What",
+          "time",
+          "do",
           "she",
-          "like",
-          "tea?"
+          "get",
+          "up?"
         ],
-        "errorIndex": 0,
-        "correction": "Does",
+        "errorIndex": 2,
+        "correction": "does",
         "type": "Subject-verb agreement",
         "message": "With 'she', the question auxiliary is 'does', not 'do'."
       },
