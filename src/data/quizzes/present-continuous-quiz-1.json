@@ -1,94 +1,134 @@
 {
   "id": "present-continuous-quiz-1",
   "title": "Present Continuous",
-  "level": "A1",
+  "level": "A2",
   "items": [
     {
       "question": "Be quiet! The baby ___.",
-      "options": ["sleeps", "sleeping", "sleep", "is sleeping"],
-      "answer": 3,
+      "options": [
+        "sleeps",
+        "is sleeping",
+        "has slept",
+        "sleep"
+      ],
+      "answer": 1,
       "explanations": [
-        "'Sleeps' is present simple (a habit). Right now, at this moment, we need the present continuous: 'is sleeping'.",
-        "'Sleeping' needs the verb 'be' in front of it: 'is sleeping'.",
-        "'Sleep' is the base form and doesn't agree with 'the baby' either. Use 'is sleeping'.",
-        "Correct! An action happening right now takes the present continuous: 'is sleeping'."
+        "'Sleeps' is present simple (a habit). Right now we need the present continuous: 'is sleeping'.",
+        "Correct! An action happening right now takes the present continuous: 'is sleeping'.",
+        "'Has slept' looks back at a finished action. The baby is sleeping now.",
+        "'Sleep' is the base form and doesn't agree with 'the baby'. Use 'is sleeping'."
       ]
     },
     {
       "question": "They ___ TV at the moment.",
-      "options": ["watch", "are watching", "watches", "watching"],
+      "options": [
+        "watch",
+        "are watching",
+        "have watched",
+        "is watching"
+      ],
       "answer": 1,
       "explanations": [
-        "'Watch' is present simple (a habit). A current action takes 'are watching'.",
-        "Correct! 'At the moment' signals now, so use are + verb-ing: 'are watching'.",
-        "'Watches' is for he/she/it in the present simple. 'They' + now takes 'are watching'.",
-        "'Watching' on its own isn't a full verb. It needs 'are': 'are watching'."
+        "'Watch' is present simple (a habit). 'At the moment' needs 'are watching'.",
+        "Correct! 'At the moment' signals now, so use are + verb-ing.",
+        "'Have watched' is present perfect, not an action in progress now.",
+        "'Is' is singular, but 'they' takes 'are': 'are watching'."
       ]
     },
     {
       "question": "I ___ this song. Turn it up!",
-      "options": ["like", "am liking", "likes", "am like"],
-      "answer": 0,
+      "options": [
+        "am liking",
+        "like",
+        "liked",
+        "likes"
+      ],
+      "answer": 1,
       "explanations": [
-        "Correct! 'Like' describes a feeling, not an action, so it stays in the present simple: 'I like'.",
-        "'Like' is a stative verb (a feeling), so it isn't used in the continuous. Say 'I like'.",
-        "'Likes' is for he/she/it. With 'I' the form is 'like'.",
-        "'Am like' isn't a valid form. State verbs use the present simple: 'I like'."
+        "'Like' describes a feeling, so it isn't normally used in the continuous.",
+        "Correct! 'Like' is a stative verb, so it stays in the present simple: 'I like'.",
+        "'Liked' is past, but you are talking about now.",
+        "'Likes' is for he/she/it. With 'I' the form is 'like'."
       ]
     },
     {
-      "question": "She ___ to me!",
-      "options": ["not listening", "doesn't listening", "isn't listening", "isn't listen"],
-      "answer": 2,
+      "question": "I'm talking, but she ___ to me right now.",
+      "options": [
+        "doesn't listen",
+        "isn't listening",
+        "isn't listen",
+        "hasn't listened"
+      ],
+      "answer": 1,
       "explanations": [
-        "English needs the verb 'be' here: 'isn't listening', not just 'not listening'.",
-        "'Doesn't' belongs to the present simple, and it can't be followed by '-ing'.",
+        "'Doesn't listen' describes a habit. 'Right now' needs the present continuous.",
         "Correct! Present continuous negative = isn't + verb-ing: 'isn't listening'.",
-        "After 'isn't' the verb needs -ing: 'isn't listening', not 'isn't listen'."
+        "After 'isn't' the verb needs -ing: 'isn't listening'.",
+        "'Hasn't listened' is present perfect, not an action in progress now."
       ]
     },
     {
       "question": "I ___ tennis every Sunday.",
-      "options": ["'m playing", "am play", "playing", "play"],
-      "answer": 3,
-      "explanations": [
-        "'Every Sunday' is a habit, so use the present simple, not the continuous.",
-        "'Am play' isn't a valid form. A habit takes the present simple: 'play'.",
-        "'Playing' needs 'be' and, for a habit, isn't the right tense anyway. Use 'play'.",
-        "Correct! A regular habit ('every Sunday') takes the present simple: 'play'."
-      ]
-    },
-    {
-      "question": "___ it ___? Take an umbrella.",
-      "options": ["Does / raining", "Is / raining", "Is / rain", "Are / raining"],
-      "answer": 1,
-      "explanations": [
-        "'Does' is present simple and can't be followed by '-ing'.",
-        "Correct! Present continuous question = Is + subject + verb-ing: 'Is it raining?'.",
-        "After 'Is it' the verb needs -ing: 'raining', not 'rain'.",
-        "'It' takes 'is', not 'are': 'Is it raining?'."
-      ]
-    },
-    {
-      "question": "The -ing form of 'run' is ___.",
-      "options": ["running", "runing", "runningg", "runs"],
-      "answer": 0,
-      "explanations": [
-        "Correct! 'Run' doubles the final consonant before -ing: running.",
-        "Short consonant-vowel-consonant verbs double the last consonant, so it isn't 'runing'.",
-        "That's one 'n' too many. The correct form is 'running'.",
-        "'Runs' is present simple (he/she/it). The -ing form is 'running'."
-      ]
-    },
-    {
-      "question": "We ___ Sara tomorrow evening.",
-      "options": ["meets", "meet", "'re meeting", "met"],
+      "options": [
+        "have played",
+        "am playing",
+        "play",
+        "played"
+      ],
       "answer": 2,
       "explanations": [
-        "'Meets' is for he/she/it. Also, an arrangement takes 'are meeting'.",
-        "'Meet' is present simple (a habit/fact), not a specific arrangement for tomorrow.",
-        "Correct! For a fixed future arrangement, English uses the present continuous: 'We're meeting Sara tomorrow.'",
-        "'Met' is past simple, but 'tomorrow evening' is in the future."
+        "'Have played' is present perfect, not a regular habit.",
+        "'Every Sunday' is a habit, so the continuous is not the best choice.",
+        "Correct! A regular habit ('every Sunday') takes the present simple: 'play'.",
+        "'Played' is past, but 'every Sunday' is a present habit."
+      ]
+    },
+    {
+      "question": "Look at the window. ___ Take an umbrella.",
+      "options": [
+        "Was it raining?",
+        "Does it rain?",
+        "Is it raining?",
+        "Has it rained?"
+      ],
+      "answer": 2,
+      "explanations": [
+        "'Was it raining?' is about the past. You need to know now.",
+        "'Does it rain?' asks about a habit, not about this moment.",
+        "Correct! A question about now = Is + subject + verb-ing: 'Is it raining?'.",
+        "'Has it rained?' looks back. Here you are looking at the weather now."
+      ]
+    },
+    {
+      "question": "Choose the correct -ing form of 'run'.",
+      "options": [
+        "runing",
+        "running",
+        "runs",
+        "ran"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Short consonant-vowel-consonant verbs double the last consonant: 'running'.",
+        "Correct! 'Run' doubles the final consonant before -ing: running.",
+        "'Runs' is present simple (he/she/it), not an -ing form.",
+        "'Ran' is past simple, not an -ing form."
+      ]
+    },
+    {
+      "question": "We ___ Sara tomorrow evening — we've booked a table.",
+      "options": [
+        "met",
+        "have met",
+        "meet",
+        "are meeting"
+      ],
+      "answer": 3,
+      "explanations": [
+        "'Met' is past simple, but 'tomorrow evening' is in the future.",
+        "'Have met' is present perfect, but the meeting hasn't happened yet.",
+        "'Meet' is present simple (a habit/fact), not a personal arrangement.",
+        "Correct! For a fixed arrangement (the table is booked), English uses the present continuous."
       ]
     },
     {
@@ -109,7 +149,12 @@
     },
     {
       "question": "Look — he ___ the door for us.",
-      "options": ["open", "opens", "is opening", "opened"],
+      "options": [
+        "open",
+        "opens",
+        "is opening",
+        "opened"
+      ],
       "answer": 2,
       "explanations": [
         "'Open' is the base form and doesn't agree with 'he'. Use 'is opening'.",
@@ -123,10 +168,16 @@
       "kind": "Fill in the gap",
       "question": "Be quiet! The baby ___. (sleep)",
       "hint": "Type two words.",
-      "answers": ["is sleeping", "'s sleeping"],
+      "answers": [
+        "is sleeping",
+        "'s sleeping"
+      ],
       "explanation": "Happening now: present continuous.",
       "common": [
-        {"answer": "sleeps", "why": "'Now' needs the present continuous."}
+        {
+          "answer": "sleeps",
+          "why": "'Now' needs the present continuous."
+        }
       ]
     },
     {
@@ -134,7 +185,10 @@
       "kind": "Correct the mistake",
       "question": "I'm going to the gym every day.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I go to the gym every day"],
+      "answers": [
+        "I go to the gym every day",
+        "I go to the gym every day."
+      ],
       "explanation": "A habit uses the present simple."
     },
     {
@@ -142,7 +196,9 @@
       "kind": "Correct the mistake",
       "question": "I'm wanting a coffee.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I want a coffee"],
+      "answers": [
+        "I want a coffee"
+      ],
       "explanation": "'Want' is stative: present simple."
     }
   ]

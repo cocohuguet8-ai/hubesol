@@ -1,7 +1,7 @@
 ---
 title: "Present Continuous"
 description: "How to form the present continuous, when to use it, and the mistakes to avoid — with an interactive quiz."
-level: "A1"
+level: "A2"
 hub: "Verb Tenses"
 hubSlug: "verb-tenses"
 answerBox: "The present continuous (am/is/are + verb-ing) describes actions happening around now (She's reading), temporary situations (I'm staying with friends this week), and fixed future arrangements (We're meeting at six). For habits and permanent facts, use the present simple. Stative verbs like know and want are not normally used in the continuous."
@@ -22,16 +22,12 @@ faq:
   - q: "How do I spell the -ing form?"
     a: "Add -ing to most verbs (work → working). Drop a final -e (make → making). Double the last consonant in short consonant-vowel-consonant verbs (run → running)."
 teacherObjectives:
-  - "Can form affirmative, negative and interrogative present continuous sentences with am/is/are + -ing (CEFR A1)."
+  - "Can form affirmative, negative and interrogative present continuous sentences with am/is/are + -ing (CEFR A2)."
   - "Can spell -ing forms correctly (drop final -e, double the consonant)."
   - "Can choose the present continuous over the present simple for actions now, temporary situations and arrangements, and avoid it with stative verbs."
 related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
-  - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
-  - { title: "Present Simple vs Present Continuous", href: "/grammar/verb-tenses/present-simple-vs-present-continuous/" }
-  - { title: "Stative Verbs", href: "/grammar/verb-tenses/stative-verbs/" }
-  - { title: "Present Continuous for the Future", href: "/grammar/verb-tenses/present-continuous-future/" }
+  - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
 draft: false
 ---
 
@@ -72,6 +68,20 @@ Fixed plans, usually with a time or place.
 - **We're meeting** Sara tomorrow.
 - **They're flying** to Rome on Friday.
 
+## Questions and short answers
+
+Put *am/is/are* before the subject: **Is** she working? **Are** they coming? For a wh- question, the question word goes first: **What** are you doing? **Why** is he crying? Short answers repeat *be*: *Yes, she is.* / *No, they aren't.*
+
+## Signal words
+
+| Word | Position | Example |
+|---|---|---|
+| now / right now / at the moment | usually at the end | He is studying **right now**. |
+| today / this week / these days | at the end (or the start) | We are staying with friends **this week**. |
+| tomorrow / on Friday / next week | at the end, with a plan | I am meeting Sara **tomorrow**. |
+| always (annoying habit) | after *be* | He **is always** losing his keys. |
+| Look! / Listen! | at the start | **Look!** It is snowing. |
+
 ## Spelling of the -ing form
 
 | Rule | Verb ending | Example |
@@ -79,6 +89,7 @@ Fixed plans, usually with a time or place.
 | add -ing | most verbs | working, playing |
 | drop the -e, add -ing | verbs ending in *-e* | making, writing |
 | double the consonant | short consonant–vowel–consonant verbs | running, sitting |
+| change -ie to -y | verbs ending in *-ie* | lying, tying |
 
 ## Stative verbs
 
@@ -91,6 +102,8 @@ Some verbs describe a **state**, not an action — feelings, opinions, senses an
 
 **1. Using the present continuous for habits.** A regular routine takes the present simple, not the continuous. *~~I'm going to the gym every day~~* → **I go to the gym every day.**
 
-**2. Using stative verbs in the continuous.** State verbs (want, like, know, need) stay in the present simple. *~~I'm wanting a coffee~~* → **I want a coffee. Pro tip:** if it's a feeling, an opinion or possession — not an action you can watch — use the present simple.
+**2. Using stative verbs in the continuous.** State verbs (want, like, know, need) stay in the present simple. *~~I'm wanting a coffee~~* → **I want a coffee.**
 
 **3. Leaving out the verb 'be'.** The present continuous always needs *am/is/are*. *~~She working now~~* → **She is working now.**
+
+**Pro tip:** if it's a feeling, an opinion or possession — not an action you can watch — use the present simple.
