@@ -205,6 +205,8 @@ tbody tr:last-child td, table tr:last-child td { border-bottom: none; }
 .opt {
   text-align: left;
   font: inherit;
+  color: var(--ink);
+  -webkit-appearance: none; appearance: none;
   padding: 0.55rem 0.9rem;
   border: 1.5px solid var(--line);
   border-radius: 9px;
@@ -593,4 +595,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 
 .gapfill-input { min-height: 44px; }
 /* Keep the gap and its hint together on one line (Grok: "(boil)" wrapped alone). */
-.gapfill-gap { white-space: nowrap; display: inline-block; }
+.gapfill-gap { display: inline-flex; align-items: baseline; max-width: 100%; white-space: nowrap; }
+.gapfill-gap .gapfill-input { flex: 1 1 5rem; width: 9rem; min-width: 0; }
+.gapfill-gap .gapfill-hint { flex: none; }
+.practice-actions { scroll-margin-bottom: 1.5rem; }
