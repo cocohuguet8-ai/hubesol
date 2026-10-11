@@ -295,7 +295,11 @@ const uid = 'tm';
       });
     }
 
-    restartBtn.addEventListener('click', () => startQuiz());
+    restartBtn.addEventListener('click', () => {
+      startQuiz();
+      // G-001: bring the Start screen back into view after the taller result screen.
+      document.getElementById(uid).scrollIntoView({ block: 'start' });
+    });
     startQuiz();
   }
 

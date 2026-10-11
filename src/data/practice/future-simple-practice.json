@@ -818,17 +818,17 @@
         "use": "Invariant form — negative",
         "text": "Lucy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the party on Saturday — she hates loud music.",
         "choices": [
-          "won't enjoying",
+          "won't enjoy",
           "doesn't enjoy",
-          "won't enjoys",
-          "won't enjoy"
+          "didn't enjoy",
+          "hasn't enjoyed"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "After won't, use the base verb — 'won't enjoy', not 'won't enjoying'.",
-          "Wrong tense: the party is in the future — the negative prediction is won't, not doesn't.",
-          "Won't never adds -s — 'won't enjoy', even with 'Lucy'.",
-          ""
+          "",
+          "Wrong tense: the party is on Saturday — a negative prediction takes won't, not doesn't.",
+          "Wrong tense: the party hasn't happened yet, so 'didn't' (past) doesn't fit.",
+          "Wrong tense: present perfect is about the past up to now — the party is in the future."
         ],
         "explain": "Won't is the same for every subject — won't + base verb."
       },
@@ -870,7 +870,7 @@
       },
       {
         "use": "Prediction",
-        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this new game — it's really fun.",
+        "text": "I'm sure you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this new game once you try it.",
         "choices": [
           "like",
           "liked",
@@ -879,7 +879,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing will: a prediction about the future needs will.",
+          "Missing will: 'once you try it' is in the future, so you predict with will.",
           "'Liked' is past — here you predict the future.",
           "Wrong form: 'like' isn't used in the continuous, and a prediction takes will.",
           ""
@@ -909,16 +909,16 @@
         "text": "Don't worry — the dog <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you. He's very friendly.",
         "choices": [
           "won't bite",
-          "don't bite",
-          "isn't bite",
-          "not will bite"
+          "didn't bite",
+          "hasn't bitten",
+          "isn't biting"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong negative: this is a prediction, so use won't — and 'the dog' wouldn't take 'don't' anyway.",
-          "'Isn't' can't go before a base verb — the negative prediction is 'won't bite'.",
-          "Word order: 'not' goes after will and joins it — 'won't bite'."
+          "Wrong tense: this is a prediction about now/the future, not a past event.",
+          "Wrong tense: present perfect is about the past up to now — you're predicting.",
+          "Wrong form: a prediction ('don't worry') takes won't."
         ],
         "explain": "A negative prediction: won't + base verb."
       },

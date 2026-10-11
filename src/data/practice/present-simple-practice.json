@@ -758,15 +758,15 @@
         "choices": [
           "don't take",
           "doesn't take",
-          "doesn't takes",
-          "not takes"
+          "didn't take",
+          "isn't taking"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'my dad' is 'he' — use 'doesn't', not 'don't'.",
           "",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays 'take'.",
-          "'Not' alone can't form a negative — you need 'doesn't take'."
+          "Wrong tense: this is a habit, not a finished past event.",
+          "Wrong tense: a habit takes the present simple, not the continuous."
         ],
         "explain": "Negative habit with 'my dad' (he) — doesn't + base verb 'take'."
       },
@@ -830,15 +830,15 @@
         "choices": [
           "don't close",
           "doesn't close",
-          "doesn't closes",
-          "not closes"
+          "didn't close",
+          "isn't closing"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subject-verb agreement: 'the supermarket' is 'it' — use 'doesn't', not 'don't'.",
           "",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays 'close'.",
-          "'Not' alone can't form a negative — you need 'doesn't close'."
+          "Wrong tense: this is a timetable fact, not a finished past event.",
+          "Wrong tense: a fixed timetable takes the present simple, not the continuous."
         ],
         "explain": "Negative timetable fact with 'it' — doesn't + base verb 'close'."
       },
@@ -916,19 +916,19 @@
       },
       {
         "use": "Habit — negative",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this office anymore.",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this office these days.",
         "choices": [
           "doesn't work",
           "don't works",
           "don't work",
-          "not work"
+          "didn't work"
         ],
         "correct": 2,
         "wrongReasons": [
           "Subject-verb agreement: 'they' takes 'don't', not 'doesn't'.",
           "Double marking: 'don't' already makes it negative — the main verb stays base form.",
           "",
-          "'Not' alone can't form a negative here."
+          "Wrong tense: 'these days' is about now, not a finished past time."
         ],
         "explain": "Negative habit with 'they' — don't + base verb."
       },
