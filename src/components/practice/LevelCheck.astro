@@ -30,6 +30,8 @@ const uid = 'lc';
         <div class="levelcheck-score-time" id={`${uid}-finalTime`}></div>
         <div id={`${uid}-catBreakdown`}></div>
         <div class="levelcheck-weakest-note" id={`${uid}-weakestNote`}></div>
+        <div class="practice-review-title">Review, question by question</div>
+        <div id={`${uid}-reviewList`}></div>
         <div class="practice-restart-row">
           <button type="button" class="practice-btn-primary" id={`${uid}-restartBtn`}>Try again</button>
         </div>
@@ -804,6 +806,23 @@ const uid = 'lc';
         row.appendChild(scoreEl);
         catDiv.appendChild(row);
         if (n <= 1) weakest.push(CAT_LABELS[c]);
+      });
+
+      const rev = document.getElementById(`${uid}-reviewList`);
+      rev.innerHTML = '';
+      results.forEach((r, n) => {
+        const row = document.createElement('div');
+        row.className = 'practice-review-item';
+        const sent = document.createElement('span');
+        sent.className = 'rsent';
+        sent.textContent = (n + 1) + '. ' + r.detail;
+        const mark = document.createElement('span');
+        mark.className = 'rmark ' + (r.correct ? 'self' : 'revealed');
+        mark.textContent = r.correct ? '✓' : '✗';
+        mark.setAttribute('aria-label', r.correct ? 'Correct' : 'Incorrect');
+        row.appendChild(sent);
+        row.appendChild(mark);
+        rev.appendChild(row);
       });
 
       const note = document.getElementById(`${uid}-weakestNote`);
