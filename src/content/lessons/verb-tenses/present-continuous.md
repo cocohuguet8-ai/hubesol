@@ -79,7 +79,6 @@ Put *am/is/are* before the subject: **Is** she working? **Are** they coming? For
 | now / right now / at the moment | usually at the end | He is studying **right now**. |
 | today / this week / these days | at the end (or the start) | We are staying with friends **this week**. |
 | tomorrow / on Friday / next week | at the end, with a plan | I am meeting Sara **tomorrow**. |
-| always (annoying habit) | after *be* | He **is always** losing his keys. |
 | Look! / Listen! | at the start | **Look!** It is snowing. |
 
 ## Spelling of the -ing form
@@ -88,7 +87,7 @@ Put *am/is/are* before the subject: **Is** she working? **Are** they coming? For
 |---|---|---|
 | add -ing | most verbs | working, playing |
 | drop the -e, add -ing | verbs ending in *-e* | making, writing |
-| double the consonant | short consonant–vowel–consonant verbs | running, sitting |
+| double the last consonant | short verb ending in one vowel + one consonant | running, swimming, sitting |
 | change -ie to -y | verbs ending in *-ie* | lying, tying |
 
 ## Stative verbs
@@ -100,7 +99,7 @@ Some verbs describe a **state**, not an action — feelings, opinions, senses an
 
 ## Common mistakes
 
-**1. Using the present continuous for habits.** A regular routine takes the present simple, not the continuous. *~~I'm going to the gym every day~~* → **I go to the gym every day.**
+**1. Using the present continuous for habits.** A regular routine takes the present simple, not the continuous. *~~I'm going to the gym every day.~~* → **I go to the gym every day.**
 
 **2. Using stative verbs in the continuous.** State verbs (want, like, know, need) stay in the present simple. *~~I'm wanting a coffee~~* → **I want a coffee.**
 

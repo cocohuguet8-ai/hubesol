@@ -289,6 +289,9 @@ const uid = 'gf';
       const u2 = pcParseAux(userWords);
       const c2 = pcParseAux(correctWords);
 
+      if (!u2.aux && u2.rest.slice(-3) !== 'ing' && c2.rest.slice(-3) === 'ing') {
+        return "You need the auxiliary and the -ing form: \"" + correctText + "\".";
+      }
       const issues = [];
       if (!u2.aux) {
         issues.push("Don't forget the auxiliary (" + c2.aux + ") before the -ing form.");
