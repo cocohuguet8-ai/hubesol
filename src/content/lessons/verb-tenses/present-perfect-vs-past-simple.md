@@ -26,9 +26,8 @@ teacherObjectives:
   - "Can correct the typical L1 error of using the present perfect with finished-time expressions."
   - "Can transform between the two tenses while keeping the same meaning."
 related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
-  - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
+  - { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
+  - { title: "Used to / Would", href: "/grammar/verb-tenses/used-to-would/" }
 draft: false
 ---
 

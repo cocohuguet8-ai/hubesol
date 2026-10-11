@@ -25,10 +25,7 @@ teacherObjectives:
   - "Can use it for duration up to now and for a recent activity with a present result."
   - "Can distinguish it from the present perfect simple and avoid it with stative verbs."
 related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Present Tenses", href: "/grammar/verb-tenses/present-tenses/" }
-  - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
-  - { title: "Present Perfect vs Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-vs-present-perfect-continuous/" }
+  - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
 draft: false
 ---
 

@@ -25,11 +25,7 @@ teacherObjectives:
   - "Can form affirmative, negative and interrogative sentences with will + base verb (CEFR A2)."
   - "Can use will for decisions, predictions, promises and offers."
   - "Can distinguish will from going to and the present continuous for future meaning."
-related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Future Tenses", href: "/grammar/verb-tenses/future-tenses/" }
-  - { title: "Future: going to", href: "/grammar/verb-tenses/future-going-to/" }
-  - { title: "Will vs Going to", href: "/grammar/verb-tenses/will-vs-going-to/" }
+related: []
 draft: false
 ---
 
