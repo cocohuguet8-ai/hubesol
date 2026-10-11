@@ -603,14 +603,14 @@
         "text": "We've got no milk. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the shop.",
         "choices": [
           "will go",
-          "will goes",
+          "would go",
           "went",
           "go"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Will never adds -s — 'will go', not 'will goes'.",
+          "'Would go' is conditional. A decision made right now uses 'will'.",
           "Wrong tense: you're deciding what to do next, not talking about the past.",
           "Missing will: a decision made now needs will — 'will go', not just 'go'."
         ],
@@ -623,14 +623,14 @@
           "gets",
           "will get",
           "got",
-          "will gets"
+          "has got"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: a prediction based on your opinion ('I'm sure') takes will, not the present simple.",
           "",
           "Wrong tense: the interview is tomorrow — 'got' is past.",
-          "Will never adds -s — 'will get', not 'will gets'."
+          "'Has got' is present perfect — the interview is tomorrow, so she doesn't have the job yet."
         ],
         "explain": "A prediction based on your opinion ('I'm sure') takes will."
       },
@@ -639,14 +639,14 @@
         "text": "Let's make Mum a cake for her birthday. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it.",
         "choices": [
           "is loving",
-          "will loves",
+          "has loved",
           "will love",
           "loved"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong form: this is a prediction about her reaction — use will, not the present continuous.",
-          "Will never adds -s — 'will love', even with 'she'.",
+          "Present perfect looks back at something done — the cake isn't made yet.",
           "",
           "Wrong tense: she hasn't seen the cake yet — 'loved' is past."
         ],
@@ -731,14 +731,14 @@
           "clean",
           "cleans",
           "will clean",
-          "will cleans"
+          "cleaned"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: a prediction about the future takes will, not the present simple.",
           "Wrong tense: a prediction takes will — and 'robots' doesn't take -s anyway.",
           "",
-          "Will never adds -s — 'will clean', not 'will cleans'."
+          "'Cleaned' is past, but 'one day' points to the future."
         ],
         "explain": "A long-term prediction about the future takes will."
       },
@@ -747,14 +747,14 @@
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my homework after dinner, I promise.",
         "choices": [
           "do",
-          "will does",
+          "have done",
           "did",
           "will do"
         ],
         "correct": 3,
         "wrongReasons": [
           "Missing will: a promise needs will — 'will do', not just 'do'.",
-          "Will never adds -s — 'will do', not 'will does'.",
+          "Present perfect means it's already finished — this is a promise about later.",
           "Wrong tense: 'after dinner' is later, so 'did' (past) doesn't fit a promise.",
           ""
         ],
@@ -766,15 +766,15 @@
         "choices": [
           "isn't being",
           "won't be",
-          "won't is",
-          "doesn't be"
+          "hasn't been",
+          "weren't"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong form: a prediction about Sunday takes won't + base verb, not the present continuous.",
           "",
-          "After won't, use the base verb — 'won't be', not 'won't is'.",
-          "Wrong aux: 'be' doesn't take 'doesn't' — the negative prediction is 'won't be'."
+          "Present perfect looks back; Sunday morning is in the future.",
+          "'Weren't' is past, but Sunday morning hasn't happened yet."
         ],
         "explain": "The negative prediction takes won't + base verb."
       },
@@ -783,16 +783,16 @@
         "text": "Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> angry when he sees the broken vase.",
         "choices": [
           "will be",
-          "will being",
+          "has been",
           "was",
-          "will is"
+          "had been"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "After will, use the base verb — 'will be', not 'will being'.",
+          "Present perfect doesn't fit — he hasn't seen the vase yet.",
           "Wrong tense: he hasn't seen the vase yet — 'when he sees' points to the future.",
-          "After will, use the base verb 'be' — 'will be', not 'will is'."
+          "Past perfect needs a past reference point — this is about the future."
         ],
         "explain": "A prediction takes will + base verb, the same for every subject."
       },
@@ -802,14 +802,14 @@
         "choices": [
           "will heat",
           "heat",
-          "will heats",
+          "have heated",
           "heated"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Missing will: a decision made now needs will — 'will heat'.",
-          "Will never adds -s — 'will heat', not 'will heats'.",
+          "Present perfect means it's already done — this is a decision made now.",
           "Wrong tense: you're offering to do it now, not talking about the past."
         ],
         "explain": "A decision made at the moment of speaking takes will."
@@ -855,14 +855,14 @@
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your book back on Friday, I promise.",
         "choices": [
           "bring",
-          "will brings",
+          "have brought",
           "will bring",
           "brought"
         ],
         "correct": 2,
         "wrongReasons": [
           "Missing will: a promise needs will — 'will bring'.",
-          "Will never adds -s — 'will bring', not 'will brings'.",
+          "Present perfect is for something already done — 'on Friday' is in the future.",
           "",
           "Wrong tense: Friday is in the future — 'brought' is past."
         ],
@@ -873,14 +873,14 @@
         "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this new game — it's really fun.",
         "choices": [
           "like",
-          "will likes",
+          "liked",
           "are liking",
           "will like"
         ],
         "correct": 3,
         "wrongReasons": [
           "Missing will: a prediction about the future needs will.",
-          "Will never adds -s — 'will like', not 'will likes'.",
+          "'Liked' is past — here you predict the future.",
           "Wrong form: 'like' isn't used in the continuous, and a prediction takes will.",
           ""
         ],
@@ -929,14 +929,14 @@
           "have",
           "will have",
           "had",
-          "will has"
+          "have had"
         ],
         "correct": 1,
         "wrongReasons": [
           "Missing will: a decision made now needs will — 'will have'.",
           "",
           "Wrong tense: you're deciding now, not talking about the past.",
-          "After will, use the base verb — 'will have', not 'will has'."
+          "'Have had' means you already did it — this is a decision made now."
         ],
         "explain": "A decision made at the moment of speaking takes will."
       },

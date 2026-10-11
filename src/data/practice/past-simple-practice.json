@@ -913,18 +913,18 @@
         "explain": "A simple yes/no question about a finished event."
       },
       {
-        "use": "Spelling",
+        "use": "Form",
         "text": "Yesterday it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> raining at exactly six o'clock.",
         "hintVerb": "(stop)",
         "choices": [
-          "stoped",
+          "stop",
           "stops",
           "stopped",
           "has stopped"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Spelling: double the final consonant in a short CVC verb — \"stopped\", not \"stoped\".",
+          "Past time needs the past simple — 'stopped', not the base form.",
           "Wrong tense: \"yesterday\" needs the past simple, not the present.",
           "",
           "Wrong tense: \"yesterday at six\" is a finished time — use past simple, not present perfect."
@@ -970,21 +970,21 @@
         "explain": "Short verb, consonant-vowel-consonant: double the final letter."
       },
       {
-        "use": "Spelling",
+        "use": "Form",
         "text": "Yesterday he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to fix the bike himself.",
         "hintVerb": "(try)",
         "choices": [
-          "tryed",
+          "has tried",
           "tried",
           "tries",
-          "tryied"
+          "try"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: consonant + y → change y to i before -ed — \"tried\", not \"tryed\".",
+          "'Yesterday' is a finished time — use the past simple, not the present perfect.",
           "",
           "Wrong tense: \"yesterday\" needs the past, not the present simple.",
-          "This isn't a valid past-tense spelling."
+          "Past time needs the past simple — 'tried', not the base form."
         ],
         "explain": "Consonant + y → i before adding -ed."
       },
