@@ -6,794 +6,1017 @@
       "words": [
         "was",
         "were",
-        "wasn't",
-        "weren't"
+        "wasn’t",
+        "weren’t"
       ],
       "label": "was/were"
     }
   },
   "gapFill": {
-    "title": "Fill in the gap",
-    "subtitle": "Type was/were + the -ing form — or, where the action is short and interrupting, the past simple. Twenty original sentences.",
+    "title": "Fill in the gaps",
+    "subtitle": "Type the past continuous of the verb in brackets (was/were + -ing). In negatives use wasn’t/weren’t; in questions include the subject. Twenty original sentences.",
     "questions": [
       {
         "use": "Past moment",
-        "kind": "statement",
-        "before": "At ten o'clock last night, I",
-        "after": ".",
-        "hint": "study",
+        "before": "At nine o’clock last night, Grandpa",
+        "after": "the dishes.",
+        "hint": "(wash)",
         "answers": [
-          "was studying"
+          "was washing"
         ],
-        "display": "was studying",
-        "explain": "An action in progress at a specific past moment."
+        "display": "was washing",
+        "explain": "An action in progress at a specific past time: nine o’clock last night."
       },
       {
         "use": "Past moment",
-        "kind": "statement",
-        "before": "This time yesterday, we",
-        "after": "to Rome.",
-        "hint": "fly",
+        "before": "This time last week, we",
+        "after": "in the sun by the pool.",
+        "hint": "(lie)",
         "answers": [
-          "were flying"
+          "were lying"
         ],
-        "display": "were flying",
-        "explain": "An action in progress at a specific past moment, with 'we'."
+        "display": "were lying",
+        "explain": "-ie → -ying: lie → lying. ‘We’ takes ‘were’."
       },
       {
         "use": "Past moment",
-        "kind": "statement",
-        "before": "At 8pm, she",
-        "after": "to music in her room.",
-        "hint": "listen",
+        "before": "At half past seven this morning, Ben",
+        "after": "for the school bus.",
+        "hint": "(wait)",
         "answers": [
-          "was listening"
+          "was waiting"
         ],
-        "display": "was listening",
-        "explain": "An action in progress at a specific past moment, with 'she'."
+        "display": "was waiting",
+        "explain": "An action in progress at a specific past time. ‘Ben’ (he) takes ‘was’."
       },
       {
-        "use": "Negative — past moment",
-        "kind": "statement",
-        "before": "He",
-        "after": "TV when I called.",
-        "hint": "not / watch",
+        "use": "Past moment",
+        "before": "At midnight last night, the neighbours",
+        "after": "a party.",
+        "hint": "(have)",
         "answers": [
-          "wasn't watching"
+          "were having"
         ],
-        "display": "wasn't watching",
-        "explain": "Negative past continuous with 'he' — wasn't + -ing."
+        "display": "were having",
+        "explain": "Drop the -e before -ing: have → having. ‘The neighbours’ (they) takes ‘were’."
       },
       {
-        "use": "Negative — past moment",
-        "kind": "statement",
-        "before": "The cyclists",
-        "after": "helmets at the time of the accident.",
-        "hint": "not / wear",
-        "answers": [
-          "weren't wearing"
-        ],
-        "display": "weren't wearing",
-        "explain": "Negative past continuous with 'they' — weren't + -ing."
-      },
-      {
-        "use": "Question — past moment",
-        "kind": "question",
-        "before": "",
-        "after": "you chatting online at midnight?",
-        "hint": "(auxiliary — past continuous)",
-        "answers": [
-          "Were"
-        ],
-        "display": "Were",
-        "explain": "'You' takes 'were' in the past continuous."
-      },
-      {
-        "use": "Question — past moment",
-        "kind": "question",
-        "before": "",
-        "after": "she working from home that afternoon?",
-        "hint": "(auxiliary — past continuous)",
-        "answers": [
-          "was"
-        ],
-        "display": "Was",
-        "explain": "'She' takes 'was' in the past continuous."
-      },
-      {
-        "use": "Background action",
-        "kind": "statement",
+        "use": "Interrupted action",
         "before": "I",
-        "after": "a shower when the doorbell rang.",
-        "hint": "have",
+        "after": "breakfast when the postman knocked on the door.",
+        "hint": "(have)",
         "answers": [
           "was having"
         ],
         "display": "was having",
-        "explain": "The longer background action takes the past continuous."
+        "explain": "Breakfast was in progress when the postman knocked. Drop the -e: have → having."
       },
       {
-        "use": "Background action",
-        "kind": "statement",
-        "before": "We",
-        "after": "dinner when the lights went out.",
-        "hint": "eat",
+        "use": "Interrupted action",
+        "before": "She",
+        "after": "her bike when she saw the accident.",
+        "hint": "(ride)",
         "answers": [
-          "were eating"
+          "was riding"
         ],
-        "display": "were eating",
-        "explain": "The longer background action takes the past continuous, with 'we'."
+        "display": "was riding",
+        "explain": "The longer action in progress takes the past continuous. Drop the -e: ride → riding."
       },
       {
-        "use": "Interrupting action",
-        "kind": "statement",
-        "before": "I was walking home when it",
-        "after": "to rain.",
-        "hint": "start",
+        "use": "Interrupted action",
+        "before": "They",
+        "after": "football when it started to rain.",
+        "hint": "(play)",
         "answers": [
-          "started"
+          "were playing"
         ],
-        "display": "started",
-        "explain": "The short action that interrupts takes the past simple, not the continuous."
+        "display": "were playing",
+        "explain": "The football was in progress when the rain started."
       },
       {
-        "use": "Interrupting action",
-        "kind": "statement",
-        "before": "She was painting her nails when the phone",
-        "after": ".",
-        "hint": "ring",
+        "use": "Interrupted action",
+        "before": "He",
+        "after": "in the park when he met his old teacher.",
+        "hint": "(jog)",
         "answers": [
-          "rang"
+          "was jogging"
         ],
-        "display": "rang",
-        "explain": "The short interrupting action takes the past simple — 'rang', an irregular past form."
+        "display": "was jogging",
+        "explain": "Double the final consonant: jog → jogging."
       },
       {
-        "use": "Simultaneous actions",
-        "kind": "statement",
-        "before": "While she",
-        "after": ", he was setting the table.",
-        "hint": "cook",
+        "use": "Two actions at the same time",
+        "before": "While Mum",
+        "after": "dinner, I was doing my homework.",
+        "hint": "(cook)",
         "answers": [
           "was cooking"
         ],
         "display": "was cooking",
-        "explain": "Two actions happening at the same time, often with 'while'."
+        "explain": "Two actions in progress at the same time: both take the past continuous."
       },
       {
-        "use": "Simultaneous actions",
-        "kind": "statement",
-        "before": "While I",
-        "after": "my homework, my sister was watching TV.",
-        "hint": "do",
+        "use": "Interrupted action",
+        "before": "While we",
+        "after": "TV, the power went out.",
+        "hint": "(watch)",
         "answers": [
-          "was doing"
+          "were watching"
         ],
-        "display": "was doing",
-        "explain": "Two actions happening at the same time, often with 'while'."
+        "display": "were watching",
+        "explain": "The TV was in progress when the power went out. ‘We’ takes ‘were’."
       },
       {
-        "use": "Negative — background",
-        "kind": "statement",
-        "before": "Don't worry, I",
-        "after": "when you called — I was just reading.",
-        "hint": "not / sleep",
+        "use": "Two actions at the same time",
+        "before": "Sam",
+        "after": "a book while his sister was painting.",
+        "hint": "(read)",
         "answers": [
-          "wasn't sleeping"
+          "was reading"
         ],
-        "display": "wasn't sleeping",
-        "explain": "Negative background action — wasn't + -ing."
+        "display": "was reading",
+        "explain": "Two actions at the same time: both are past continuous."
       },
       {
-        "use": "Stative verb",
-        "kind": "statement",
-        "before": "I",
-        "after": "the answer, so I put my hand up.",
-        "hint": "know",
+        "use": "Two actions at the same time",
+        "before": "The kids",
+        "after": "around the garden while their parents were talking.",
+        "hint": "(run)",
         "answers": [
-          "knew"
+          "were running"
         ],
-        "display": "knew",
-        "explain": "State verbs like 'know' don't take the continuous — use the past simple."
+        "display": "were running",
+        "explain": "Double the final consonant: run → running."
       },
       {
-        "use": "Stative verb — negative",
-        "kind": "statement",
-        "before": "She",
-        "after": "what to do at that moment.",
-        "hint": "not / know",
+        "use": "Negative",
+        "before": "When you called at nine last night, I",
+        "after": "TV — I was reading in bed.",
+        "hint": "(not / watch)",
         "answers": [
-          "didn't know"
+          "wasn't watching",
+          "was not watching",
+          "wasnt watching",
+          "wasn’t watching"
         ],
-        "display": "didn't know",
-        "explain": "State verbs like 'know' stay in the past simple, even for a past moment."
+        "display": "wasn’t watching",
+        "explain": "When you called, the TV wasn’t on: the action wasn’t in progress at that moment. Negative past continuous: wasn’t + -ing."
       },
       {
-        "use": "Spelling",
-        "kind": "statement",
+        "use": "Negative",
         "before": "They",
-        "after": "in the lake when the storm started.",
-        "hint": "swim",
+        "after": "when the teacher came in. They were chatting.",
+        "hint": "(not / listen)",
         "answers": [
-          "were swimming"
+          "weren't listening",
+          "were not listening",
+          "werent listening",
+          "weren’t listening"
         ],
-        "display": "were swimming",
-        "explain": "Double the final consonant: swim → swimming."
+        "display": "weren’t listening",
+        "explain": "Negative past continuous: ‘they’ takes weren’t + -ing."
       },
       {
-        "use": "Spelling",
-        "kind": "statement",
-        "before": "He",
-        "after": "a letter when his pen ran out of ink.",
-        "hint": "write",
-        "answers": [
-          "was writing"
-        ],
-        "display": "was writing",
-        "explain": "Drop the silent 'e' before adding -ing: write → writing."
-      },
-      {
-        "use": "Spelling",
-        "kind": "statement",
+        "use": "Negative",
         "before": "She",
-        "after": "on the sofa, half asleep.",
-        "hint": "lie",
+        "after": "her seat belt when the car stopped suddenly.",
+        "hint": "(not / wear)",
         "answers": [
-          "was lying"
+          "wasn't wearing",
+          "was not wearing",
+          "wasnt wearing",
+          "wasn’t wearing"
         ],
-        "display": "was lying",
-        "explain": "Change 'ie' to 'y' before adding -ing: lie → lying."
+        "display": "wasn’t wearing",
+        "explain": "Negative past continuous: ‘she’ takes wasn’t + -ing."
       },
       {
-        "use": "Question — wh-word",
-        "kind": "question",
-        "before": "What",
-        "after": "you doing when I called?",
-        "hint": "(auxiliary — past continuous)",
+        "use": "Negative",
+        "before": "When the teacher explained the homework, we",
+        "after": "attention — we were looking out of the window.",
+        "hint": "(not / pay)",
         "answers": [
-          "were"
+          "weren't paying",
+          "were not paying",
+          "werent paying",
+          "weren’t paying"
         ],
-        "display": "were",
-        "explain": "'You' takes 'were' in the past continuous, even after a wh-word."
+        "display": "weren’t paying",
+        "explain": "When the teacher explained, the action wasn’t in progress: we were doing something else. ‘We’ takes weren’t + -ing."
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "at ten o’clock last night?",
+        "hint": "(you / sleep)",
+        "answers": [
+          "were you sleeping"
+        ],
+        "display": "Were you sleeping",
+        "explain": "Questions put was/were first: Were you sleeping…?"
+      },
+      {
+        "use": "Question",
+        "before": "What",
+        "after": "when I phoned you?",
+        "hint": "(you / do)",
+        "answers": [
+          "were you doing"
+        ],
+        "display": "were you doing",
+        "explain": "In a wh- question, was/were comes right after the question word: What were you doing…?"
+      },
+      {
+        "use": "Question",
+        "before": "Why",
+        "after": "in the rain at six o’clock yesterday?",
+        "hint": "(he / stand)",
+        "answers": [
+          "was he standing"
+        ],
+        "display": "was he standing",
+        "explain": "In a wh- question, was/were comes right after the question word."
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "dinner when the storm started?",
+        "hint": "(she / cook)",
+        "answers": [
+          "was she cooking"
+        ],
+        "display": "Was she cooking",
+        "explain": "Questions put was/were first: Was she cooking…?"
       }
     ]
   },
   "wordOrder": {
-    "title": "Put the words in order",
-    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing statements, negatives and questions.",
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples covering past moments, interrupted actions, negatives and questions.",
     "sentences": [
       {
         "use": "Past moment",
         "tokens": [
-          "Tom",
+          "My",
+          "mum",
           "was",
-          "painting",
-          "the",
-          "fence",
+          "making",
+          "soup",
           "at",
-          "nine",
-          "o'clock."
+          "seven",
+          "last",
+          "night."
         ],
         "alts": [
           [
             "at",
-            "nine",
-            "o'clock.",
-            "Tom",
+            "seven",
+            "last",
+            "night,",
+            "my",
+            "mum",
             "was",
-            "painting",
-            "the",
-            "fence"
+            "making",
+            "soup."
           ]
         ]
       },
       {
         "use": "Past moment",
         "tokens": [
-          "My",
-          "parents",
+          "We",
           "were",
           "driving",
           "to",
-          "Madrid."
+          "the",
+          "airport",
+          "this",
+          "time",
+          "yesterday."
+        ],
+        "alts": [
+          [
+            "this",
+            "time",
+            "yesterday,",
+            "we",
+            "were",
+            "driving",
+            "to",
+            "the",
+            "airport."
+          ]
         ]
       },
       {
         "use": "Past moment",
         "tokens": [
-          "Anna",
+          "She",
           "was",
-          "baking",
-          "a",
-          "cake",
+          "waiting",
+          "for",
+          "the",
+          "bus",
           "at",
-          "noon."
+          "six."
         ],
         "alts": [
           [
             "at",
-            "noon.",
-            "Anna",
+            "six,",
+            "she",
             "was",
-            "baking",
-            "a",
-            "cake"
+            "waiting",
+            "for",
+            "the",
+            "bus."
           ]
         ]
       },
       {
-        "use": "Negative — past moment",
-        "tokens": [
-          "Ben",
-          "wasn't",
-          "wearing",
-          "a",
-          "coat."
-        ]
-      },
-      {
-        "use": "Negative — past moment",
+        "use": "Past moment",
         "tokens": [
           "The",
-          "neighbours",
-          "weren't",
-          "making",
-          "any",
-          "noise."
-        ]
-      },
-      {
-        "use": "Question — past moment",
-        "tokens": [
-          "Were",
-          "they",
-          "dancing",
-          "at",
+          "children",
+          "were",
+          "playing",
+          "in",
           "the",
-          "party?"
+          "garden",
+          "all",
+          "afternoon."
+        ],
+        "alts": [
+          [
+            "all",
+            "afternoon,",
+            "the",
+            "children",
+            "were",
+            "playing",
+            "in",
+            "the",
+            "garden."
+          ],
+          [
+            "the",
+            "children",
+            "were",
+            "playing",
+            "all",
+            "afternoon",
+            "in",
+            "the",
+            "garden."
+          ]
         ]
       },
       {
-        "use": "Question — past moment",
+        "use": "Interrupted action",
         "tokens": [
-          "Was",
-          "she",
-          "cooking",
-          "when",
-          "you",
-          "arrived?"
-        ]
-      },
-      {
-        "use": "Background + interrupt",
-        "tokens": [
-          "I",
+          "He",
           "was",
-          "washing",
-          "the",
-          "car",
+          "reading",
+          "a",
+          "book",
           "when",
-          "my",
-          "neighbour",
-          "shouted."
+          "I",
+          "came",
+          "in."
         ],
         "alts": [
           [
             "when",
-            "my",
-            "neighbour",
-            "shouted.",
             "I",
+            "came",
+            "in,",
+            "he",
             "was",
-            "washing",
-            "the",
-            "car"
+            "reading",
+            "a",
+            "book."
           ]
         ]
       },
       {
-        "use": "Background + interrupt",
+        "use": "Interrupted action",
         "tokens": [
-          "Grandpa",
+          "They",
+          "were",
+          "watching",
+          "a",
+          "film",
+          "when",
+          "the",
+          "lights",
+          "went",
+          "out."
+        ],
+        "alts": [
+          [
+            "when",
+            "the",
+            "lights",
+            "went",
+            "out,",
+            "they",
+            "were",
+            "watching",
+            "a",
+            "film."
+          ]
+        ]
+      },
+      {
+        "use": "Interrupted action",
+        "tokens": [
+          "I",
           "was",
-          "fixing",
-          "his",
-          "bike",
+          "walking",
+          "home",
           "when",
           "it",
-          "got",
-          "dark."
+          "started",
+          "to",
+          "rain."
         ],
         "alts": [
           [
             "when",
             "it",
-            "got",
-            "dark.",
-            "Grandpa",
+            "started",
+            "to",
+            "rain,",
+            "I",
             "was",
-            "fixing",
-            "his",
-            "bike"
+            "walking",
+            "home."
           ]
         ]
       },
       {
-        "use": "Background + interrupt",
+        "use": "Two actions at the same time",
+        "tokens": [
+          "While",
+          "Dad",
+          "was",
+          "washing",
+          "up,",
+          "Mum",
+          "was",
+          "reading",
+          "the",
+          "paper."
+        ],
+        "alts": [
+          [
+            "Mum",
+            "was",
+            "reading",
+            "the",
+            "paper",
+            "while",
+            "Dad",
+            "was",
+            "washing",
+            "up."
+          ]
+        ]
+      },
+      {
+        "use": "Two actions at the same time",
+        "tokens": [
+          "My",
+          "brother",
+          "was",
+          "playing",
+          "games",
+          "while",
+          "I",
+          "was",
+          "studying."
+        ],
+        "alts": [
+          [
+            "while",
+            "I",
+            "was",
+            "studying,",
+            "my",
+            "brother",
+            "was",
+            "playing",
+            "games."
+          ]
+        ]
+      },
+      {
+        "use": "Negative",
         "tokens": [
           "We",
-          "were",
-          "waiting",
-          "for",
+          "weren’t",
+          "listening",
+          "to",
           "the",
-          "bus",
+          "teacher."
+        ]
+      },
+      {
+        "use": "Negative",
+        "tokens": [
+          "It",
+          "wasn’t",
+          "raining",
           "when",
           "we",
-          "saw",
-          "an",
-          "accident."
+          "left."
         ],
         "alts": [
           [
             "when",
             "we",
-            "saw",
-            "an",
-            "accident.",
-            "We",
-            "were",
-            "waiting",
-            "for",
-            "the",
-            "bus"
+            "left,",
+            "it",
+            "wasn’t",
+            "raining."
           ]
         ]
       },
       {
-        "use": "Simultaneous actions",
-        "tokens": [
-          "While",
-          "Mum",
-          "was",
-          "driving,",
-          "the",
-          "kids",
-          "were",
-          "arguing."
-        ],
-        "alts": [
-          [
-            "the",
-            "kids",
-            "were",
-            "arguing.",
-            "While",
-            "Mum",
-            "was",
-            "driving,"
-          ]
-        ]
-      },
-      {
-        "use": "Simultaneous actions",
-        "tokens": [
-          "While",
-          "I",
-          "was",
-          "tidying",
-          "my",
-          "room,",
-          "Sam",
-          "was",
-          "ironing."
-        ],
-        "alts": [
-          [
-            "Sam",
-            "was",
-            "ironing.",
-            "While",
-            "I",
-            "was",
-            "tidying",
-            "my",
-            "room,"
-          ]
-        ]
-      },
-      {
-        "use": "Negative — background",
+        "use": "Negative",
         "tokens": [
           "I",
-          "wasn't",
-          "looking",
+          "wasn’t",
+          "sleeping",
           "at",
-          "the",
-          "screen."
+          "midnight."
+        ],
+        "alts": [
+          [
+            "at",
+            "midnight,",
+            "I",
+            "wasn’t",
+            "sleeping."
+          ]
         ]
       },
       {
-        "use": "Stative verb",
-        "tokens": [
-          "He",
-          "owned",
-          "a",
-          "small",
-          "boat."
-        ]
-      },
-      {
-        "use": "Stative verb — negative",
+        "use": "Negative",
         "tokens": [
           "They",
-          "didn't",
-          "understand",
+          "weren’t",
+          "wearing",
+          "coats",
+          "in",
           "the",
-          "question."
+          "snow."
+        ],
+        "alts": [
+          [
+            "in",
+            "the",
+            "snow,",
+            "they",
+            "weren’t",
+            "wearing",
+            "coats."
+          ]
         ]
       },
       {
-        "use": "Spelling",
-        "tokens": [
-          "The",
-          "dog",
-          "was",
-          "digging",
-          "a",
-          "hole."
-        ]
-      },
-      {
-        "use": "Spelling",
+        "use": "Negative",
         "tokens": [
           "She",
-          "was",
-          "smiling",
-          "at",
-          "the",
-          "baby."
+          "wasn’t",
+          "paying",
+          "attention",
+          "in",
+          "class."
+        ],
+        "alts": [
+          [
+            "in",
+            "class,",
+            "she",
+            "wasn’t",
+            "paying",
+            "attention."
+          ]
         ]
       },
       {
-        "use": "Spelling",
+        "use": "Question",
         "tokens": [
-          "He",
-          "was",
-          "tying",
-          "his",
-          "shoelaces."
+          "Was",
+          "he",
+          "working",
+          "at",
+          "nine",
+          "o’clock",
+          "last",
+          "night?"
+        ],
+        "alts": [
+          [
+            "at",
+            "nine",
+            "o’clock",
+            "last",
+            "night,",
+            "was",
+            "he",
+            "working?"
+          ]
         ]
       },
       {
-        "use": "Question — wh-word",
+        "use": "Question",
+        "tokens": [
+          "Were",
+          "you",
+          "waiting",
+          "for",
+          "me",
+          "outside?"
+        ],
+        "alts": [
+          [
+            "were",
+            "you",
+            "waiting",
+            "outside",
+            "for",
+            "me?"
+          ]
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "What",
+          "were",
+          "you",
+          "doing",
+          "at",
+          "ten",
+          "last",
+          "night?"
+        ],
+        "alts": [
+          [
+            "at",
+            "ten",
+            "last",
+            "night,",
+            "what",
+            "were",
+            "you",
+            "doing?"
+          ]
+        ]
+      },
+      {
+        "use": "Question",
         "tokens": [
           "Where",
           "were",
-          "you",
-          "going",
-          "so",
-          "early?"
+          "they",
+          "staying",
+          "last",
+          "summer?"
+        ],
+        "alts": [
+          [
+            "last",
+            "summer,",
+            "where",
+            "were",
+            "they",
+            "staying?"
+          ]
         ]
       },
       {
-        "use": "Question — was/were",
+        "use": "Question",
         "tokens": [
-          "Was",
-          "I",
+          "Why",
+          "was",
+          "she",
+          "crying",
+          "in",
+          "the",
+          "kitchen?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Who",
+          "were",
+          "you",
           "talking",
-          "too",
-          "much?"
+          "to",
+          "when",
+          "I",
+          "came",
+          "in?"
+        ],
+        "alts": [
+          [
+            "when",
+            "I",
+            "came",
+            "in,",
+            "who",
+            "were",
+            "you",
+            "talking",
+            "to?"
+          ]
         ]
       }
     ]
   },
   "matching": {
     "title": "Match the -ing form",
-    "subtitle": "Tap a base verb, then tap its correct -ing form. Watch the spelling: some double a letter, some drop an \"e\".",
+    "subtitle": "Tap a base verb, then tap its -ing form. Watch the spelling: some drop an -e, some double a letter.",
     "leftLabel": "Base verb",
     "rightLabel": "Past Continuous",
     "rightLabelSub": "(-ing form)",
     "reviewArrowPrefix": "was/were ",
     "pairs": [
       {
-        "left": "clean",
-        "right": "cleaning"
-      },
-      {
         "left": "walk",
         "right": "walking"
-      },
-      {
-        "left": "watch",
-        "right": "watching"
       },
       {
         "left": "listen",
         "right": "listening"
       },
       {
-        "left": "help",
-        "right": "helping"
-      },
-      {
-        "left": "ask",
-        "right": "asking"
-      },
-      {
         "left": "play",
         "right": "playing"
       },
       {
-        "left": "cook",
-        "right": "cooking"
+        "left": "cry",
+        "right": "crying"
       },
       {
-        "left": "talk",
-        "right": "talking"
-      },
-      {
-        "left": "rain",
-        "right": "raining"
-      },
-      {
-        "left": "write",
-        "right": "writing"
-      },
-      {
-        "left": "drive",
-        "right": "driving"
-      },
-      {
-        "left": "dance",
-        "right": "dancing"
-      },
-      {
-        "left": "smile",
-        "right": "smiling"
-      },
-      {
-        "left": "arrive",
-        "right": "arriving"
+        "left": "study",
+        "right": "studying"
       },
       {
         "left": "make",
         "right": "making"
       },
       {
+        "left": "write",
+        "right": "writing"
+      },
+      {
+        "left": "dance",
+        "right": "dancing"
+      },
+      {
+        "left": "take",
+        "right": "taking"
+      },
+      {
+        "left": "come",
+        "right": "coming"
+      },
+      {
+        "left": "have",
+        "right": "having"
+      },
+      {
         "left": "run",
         "right": "running"
       },
       {
-        "left": "sit",
-        "right": "sitting"
+        "left": "stop",
+        "right": "stopping"
       },
       {
         "left": "swim",
         "right": "swimming"
       },
       {
-        "left": "stop",
-        "right": "stopping"
+        "left": "sit",
+        "right": "sitting"
+      },
+      {
+        "left": "get",
+        "right": "getting"
+      },
+      {
+        "left": "plan",
+        "right": "planning"
+      },
+      {
+        "left": "put",
+        "right": "putting"
+      },
+      {
+        "left": "lie",
+        "right": "lying"
+      },
+      {
+        "left": "die",
+        "right": "dying"
       }
     ]
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. Some of these need the past continuous — but watch for stative verbs, and the short action that interrupts a longer one.",
+    "subtitle": "15 seconds per question. Check the time clue (when, while, at eight o’clock) and watch for state verbs.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
       {
         "use": "Past moment",
-        "text": "At six o'clock this morning, Lucy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for the train.",
+        "text": "At eight o’clock last night, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV and my brother was doing his homework.",
         "choices": [
-          "was waiting",
-          "were waiting",
-          "is waiting",
-          "waits"
+          "was watching",
+          "watched",
+          "am watching",
+          "were watching"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Was/were mistake: 'Lucy' (she) takes 'was', not 'were'.",
-          "Wrong tense: 'is waiting' is present, but this happened in the past — 'was waiting'.",
-          "Wrong tense: 'waits' is present, but this happened in the past — 'was waiting'."
+          "‘Watched’ is past simple. At eight o’clock last night the action was in progress, so use the past continuous.",
+          "Wrong tense: ‘am watching’ is present, but this happened in the past.",
+          "Was/were mistake: ‘I’ takes ‘was’, not ‘were’."
         ],
-        "explain": "An action in progress at a specific past moment."
+        "explain": "An action in progress at a specific past time (eight o’clock last night) takes the past continuous."
       },
       {
-        "use": "Background + interrupt",
-        "text": "Mark <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his bike when he fell off.",
+        "use": "Interrupted action",
+        "text": "I was having a shower when the phone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "riding",
-          "was riding",
-          "were riding",
-          "rides"
-        ],
-        "correct": 1,
-        "wrongReasons": [
-          "Missing the auxiliary — 'was' is needed before the -ing form.",
-          "",
-          "Was/were mistake: 'Mark' (he) takes 'was', not 'were'.",
-          "Wrong tense: 'rides' is present, but this happened in the past — 'was riding'."
-        ],
-        "explain": "The longer background action takes the past continuous."
-      },
-      {
-        "use": "Interrupting action",
-        "text": "Emma was crossing the road when she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her friend.",
-        "choices": [
-          "was seeing",
-          "sees",
-          "saw",
-          "see"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Wrong tense: the short interrupting action takes the past simple, not the continuous.",
-          "Wrong tense: 'sees' is present, but this happened in the past — 'saw'.",
-          "",
-          "Missing the past form — 'saw' is the irregular past of 'see'."
-        ],
-        "explain": "The short interrupting action takes the past simple: see → saw."
-      },
-      {
-        "use": "Simultaneous actions",
-        "text": "While the teacher was explaining, two boys <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the back.",
-        "choices": [
-          "were chatting",
-          "was chatting",
-          "are chatting",
-          "chatting"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "Was/were mistake: 'two boys' (they) takes 'were', not 'was'.",
-          "Wrong tense: 'are chatting' is present, but this happened in the past — 'were chatting'.",
-          "Missing the auxiliary — 'were' is needed before the -ing form."
-        ],
-        "explain": "Two actions happening at the same time — both take the past continuous."
-      },
-      {
-        "use": "Stative verb",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more chairs, so I asked the neighbours.",
-        "choices": [
-          "need",
-          "were needing",
-          "needed",
-          "was needing"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Wrong tense: 'need' is present, but this happened in the past — 'needed'.",
-          "State verbs like 'need' don't take the continuous — use the past simple.",
-          "",
-          "State verbs like 'need' don't take the continuous — and 'we' would take 'were', not 'was'."
-        ],
-        "explain": "State verbs like 'need' take the past simple, never the continuous."
-      },
-      {
-        "use": "Question — past moment",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Ellie wearing her new jacket yesterday?",
-        "choices": [
-          "Were",
-          "Did",
-          "Is",
-          "Was"
+          "had rung",
+          "was ringing",
+          "rings",
+          "rang"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Was/were mistake: 'Ellie' (she) takes 'was', not 'were'.",
-          "Wrong aux: 'did' pairs with the base verb, not the -ing form.",
-          "Wrong tense: 'Is' is present, but this happened in the past — 'Was'.",
+          "‘Had rung’ is past perfect: it would mean the phone rang before the shower.",
+          "The short action that interrupts takes the past simple: ‘rang’, not ‘was ringing’.",
+          "Wrong tense: ‘rings’ is present, but this happened in the past.",
           ""
         ],
-        "explain": "'Ellie' (she) takes 'was' in a past continuous question."
+        "explain": "The short action that interrupts the longer one is past simple: rang."
+      },
+      {
+        "use": "Past moment",
+        "text": "At three o’clock yesterday afternoon, she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a book and the baby was sleeping.",
+        "choices": [
+          "read",
+          "is reading",
+          "was reading",
+          "were reading"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Read’ is past simple. At three o’clock the action was in progress, so use the past continuous.",
+          "Wrong tense: ‘is reading’ is present, but this happened in the past.",
+          "",
+          "Was/were mistake: ‘she’ takes ‘was’, not ‘were’."
+        ],
+        "explain": "An action in progress at a specific past time (three o’clock yesterday afternoon) takes the past continuous."
+      },
+      {
+        "use": "Interrupted action",
+        "text": "The students were writing when the fire alarm <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "was going off",
+          "went off",
+          "goes off",
+          "had gone off"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "The short action that interrupts takes the past simple: ‘went off’.",
+          "",
+          "Wrong tense: ‘goes off’ is present, but this happened in the past.",
+          "‘Had gone off’ is past perfect: it would mean the alarm sounded before they wrote."
+        ],
+        "explain": "The short action that interrupts is past simple: went off."
+      },
+      {
+        "use": "State verbs",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new bike, so he saved money all year.",
+        "choices": [
+          "was wanting",
+          "wanted",
+          "wants",
+          "has wanted"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Want’ is a state verb, so it doesn’t take the continuous.",
+          "",
+          "Wrong tense: ‘wants’ is present, but this happened in the past.",
+          "‘Has wanted’ is present perfect. The story is finished: ‘wanted’."
+        ],
+        "explain": "State verbs like want, know and like use the past simple."
       },
       {
         "use": "Was or were",
-        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> laughing in your sleep last night.",
+        "text": "The twins <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> arguing when Mum walked in.",
+        "choices": [
+          "were",
+          "was",
+          "have been",
+          "are"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Was/were mistake: ‘the twins’ (they) takes ‘were’, not ‘was’.",
+          "‘Have been’ + -ing is present perfect continuous, but ‘when Mum walked in’ is a finished past time: ‘were’.",
+          "Wrong tense: ‘are’ is present, but this happened in the past."
+        ],
+        "explain": "‘The twins’ = they, so use ‘were’ + -ing."
+      },
+      {
+        "use": "Was or were",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you sleeping when I knocked on your door last night?",
+        "choices": [
+          "Was",
+          "Are",
+          "Is",
+          "Were"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Was/were mistake: ‘you’ takes ‘Were’, not ‘Was’.",
+          "Wrong tense: ‘Are’ is present, but this happened in the past.",
+          "‘Is’ is present and goes with he/she/it. Here it’s past and the subject is ‘you’: ‘Were’.",
+          ""
+        ],
+        "explain": "‘You’ takes ‘were’. Questions put was/were first."
+      },
+      {
+        "use": "Past moment",
+        "text": "When I looked out of the window, Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the car and Mum was packing the bags.",
+        "choices": [
+          "washed",
+          "is washing",
+          "was washing",
+          "were washing"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Washed’ is past simple. When I looked out, the washing was already in progress: ‘was washing’.",
+          "Wrong tense: ‘is washing’ is present, but this happened in the past.",
+          "",
+          "Was/were mistake: ‘Dad’ takes ‘was’, not ‘were’."
+        ],
+        "explain": "When I looked out, the washing was already in progress."
+      },
+      {
+        "use": "Interrupted action",
+        "text": "He was running for the bus when he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his phone.",
+        "choices": [
+          "drops",
+          "was dropping",
+          "dropped",
+          "had dropped"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘drops’ is present, but this happened in the past.",
+          "The short action that interrupts takes the past simple: ‘dropped’.",
+          "",
+          "‘Had dropped’ is past perfect: it would mean he dropped it before running."
+        ],
+        "explain": "The short action that interrupts is past simple: dropped."
+      },
+      {
+        "use": "Past moment",
+        "text": "At seven this morning, I was brushing my teeth and my sister <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> breakfast.",
+        "choices": [
+          "made",
+          "was making",
+          "is making",
+          "were making"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘made’ is past simple. The action was already in progress, so use the past continuous.",
+          "",
+          "Wrong tense: ‘is making’ is present, but this happened in the past.",
+          "Was/were mistake: ‘my sister’ takes ‘was’, not ‘were’."
+        ],
+        "explain": "Two actions in progress at the same past time are both past continuous."
+      },
+      {
+        "use": "Was or were",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you doing when the lights went out?",
         "choices": [
           "were",
           "was",
@@ -803,245 +1026,173 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Was/were mistake: with 'you', use 'were', not 'was'.",
-          "Wrong tense: 'is' is present, but 'last night' is past — 'were'.",
-          "Wrong tense: 'are' is present, but 'last night' is past — 'were'."
+          "Was/were mistake: ‘you’ takes ‘were’, not ‘was’.",
+          "‘Is’ is present and goes with he/she/it. ‘You’ in the past takes ‘were’.",
+          "Wrong tense: ‘are’ is present, but this happened in the past."
         ],
-        "explain": "'You' takes 'were', never 'was'."
+        "explain": "‘You’ takes ‘were’. In a wh- question, was/were comes right after the question word."
       },
       {
-        "use": "Spelling & form",
-        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a party when the bad news came.",
+        "use": "Interrupted action",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the garden when she heard a strange noise.",
         "choices": [
-          "was planning",
-          "were planed",
-          "planning",
-          "were planning"
+          "is working",
+          "were working",
+          "worked",
+          "was working"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Was/were mistake: 'we' takes 'were', not 'was'.",
-          "'Planed' is a different word (to plane wood). 'Plan' doubles the n: 'planning'.",
-          "Missing the auxiliary — 'were' is needed before the -ing form.",
+          "Wrong tense: ‘is working’ is present, but this happened in the past.",
+          "Was/were mistake: ‘she’ takes ‘was’, not ‘were’.",
+          "Wrong tense: ‘worked’ is past simple. The action was already in progress, so use the past continuous.",
           ""
         ],
-        "explain": "Plural subject, plus double the consonant: plan → planning."
+        "explain": "The long action in progress is past continuous; ‘heard’ is the short action that interrupts."
       },
       {
-        "use": "Form",
-        "text": "Jack <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to work when his tyre burst.",
+        "use": "Interrupted action",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> football in the park when it started to snow, so they stopped the match.",
         "choices": [
-          "was drove",
-          "were driving",
-          "drives",
-          "was driving"
+          "played",
+          "was playing",
+          "are playing",
+          "were playing"
         ],
         "correct": 3,
         "wrongReasons": [
-          "After 'was' you need the -ing form — 'driving', not the past form 'drove'.",
-          "Was/were mistake: 'Jack' (he) takes 'was', not 'were'.",
-          "Wrong tense: 'drives' is present, but this happened in the past — 'was driving'.",
+          "Wrong tense: ‘played’ is past simple. The action was already in progress, so use the past continuous.",
+          "Was/were mistake: ‘they’ takes ‘were’, not ‘was’.",
+          "Wrong tense: ‘are playing’ is present, but this happened in the past.",
           ""
         ],
-        "explain": "Drop the silent 'e' before adding -ing: drive → driving."
+        "explain": "The match was in progress when the snow started."
       },
       {
-        "use": "Background + interrupt",
-        "text": "The baby was crying when its mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the room.",
+        "use": "State verbs",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that you were busy, so I didn’t call.",
         "choices": [
-          "was coming into",
-          "comes into",
-          "came into",
-          "come into"
+          "was knowing",
+          "know",
+          "knew",
+          "have known"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: the short interrupting action takes the past simple, not the continuous.",
-          "Wrong tense: 'comes into' is present, but this happened in the past — 'came into'.",
+          "‘Know’ is a state verb, so it doesn’t take the continuous.",
+          "Wrong tense: ‘know’ is present, but this happened in the past.",
           "",
-          "Missing the past form — 'came' is the irregular past of 'come'."
+          "‘Have known’ is present perfect. This is a finished moment in the past: ‘knew’."
         ],
-        "explain": "The short interrupting action takes the past simple: come → came."
+        "explain": "State verbs like know use the past simple."
       },
       {
-        "use": "Negative — background",
-        "text": "Sorry, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> attention when you explained the rules.",
+        "use": "Interrupted action",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> hot chocolate in the café when a famous actor walked in.",
         "choices": [
-          "don't pay",
-          "wasn't paying",
-          "not paying",
-          "weren't paying"
+          "drank",
+          "were drinking",
+          "are drinking",
+          "was drinking"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'don't pay' is present, but this happened in the past — 'wasn't paying'.",
+          "‘Drank’ is past simple. The drinking was already in progress when the actor walked in.",
           "",
-          "Missing the auxiliary — 'wasn't' is needed before the -ing form.",
-          "Was/were mistake: 'I' takes 'wasn't', not 'weren't'."
+          "Wrong tense: ‘are drinking’ is present, but this happened in the past.",
+          "Was/were mistake: ‘we’ takes ‘were’, not ‘was’."
         ],
-        "explain": "Negative background action — wasn't + -ing."
-      },
-      {
-        "use": "Simultaneous actions",
-        "text": "While Dad was washing the dishes, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> them.",
-        "choices": [
-          "dry",
-          "was drying",
-          "were drying",
-          "am drying"
-        ],
-        "correct": 1,
-        "wrongReasons": [
-          "Wrong tense: 'dry' is present, but this happened in the past — 'was drying'.",
-          "",
-          "Was/were mistake: 'I' takes 'was', not 'were'.",
-          "Wrong tense: 'am drying' is present, but this happened in the past — 'was drying'."
-        ],
-        "explain": "Two simultaneous actions — both take the past continuous."
-      },
-      {
-        "use": "Stative verb — negative",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my name when we met again.",
-        "choices": [
-          "didn't remember",
-          "wasn't remembering",
-          "doesn't remember",
-          "isn't remembering"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "State verbs like 'remember' don't take the continuous — use the past simple.",
-          "Wrong tense: 'doesn't remember' is present, but this happened in the past — 'didn't remember'.",
-          "State verbs like 'remember' don't take the continuous, and this needs the past."
-        ],
-        "explain": "State verbs take the past simple, even in the negative."
-      },
-      {
-        "use": "Spelling & form",
-        "text": "Yesterday afternoon, Grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by the window, knitting.",
-        "choices": [
-          "was seating",
-          "was sitting",
-          "were sitting",
-          "is sitting"
-        ],
-        "correct": 1,
-        "wrongReasons": [
-          "'Seating' means giving someone a seat. 'Sit' doubles the t: 'sitting'.",
-          "",
-          "Was/were mistake: 'Grandma' (she) takes 'was', not 'were'.",
-          "Wrong tense: this is a past scene — 'was sitting'."
-        ],
-        "explain": "Double the final consonant before adding -ing: sit → sitting."
+        "explain": "The long action in progress is past continuous; ‘walked in’ interrupts it."
       },
       {
         "use": "Past moment",
-        "text": "This time last year, my brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Australia.",
+        "text": "At eleven o’clock yesterday morning, the sun <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and the beach was full of people.",
         "choices": [
-          "were travelling",
-          "has travelled",
-          "is travelling",
-          "was travelling"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Was/were mistake: 'my brother' (he) takes 'was', not 'were'.",
-          "Wrong tense: 'this time last year' is a past moment, not the present perfect.",
-          "Wrong tense: 'is travelling' is present, but this happened in the past — 'was travelling'.",
-          ""
-        ],
-        "explain": "An action in progress at a specific past moment, with 'he'."
-      },
-      {
-        "use": "Question — wh-word",
-        "text": "Who <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you talking to on the phone last night?",
-        "choices": [
-          "were",
-          "did",
-          "was",
-          "are"
+          "was shining",
+          "were shining",
+          "shone",
+          "is shining"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong aux: 'did' pairs with the base verb, not the -ing form.",
-          "Was/were mistake: with 'you', use 'were', not 'was'.",
-          "Wrong tense: 'are' is present, but 'last night' is past — 'were'."
+          "Was/were mistake: ‘the sun’ takes ‘was’, not ‘were’.",
+          "Wrong tense: ‘shone’ is past simple. The action was already in progress, so use the past continuous.",
+          "Wrong tense: ‘is shining’ is present, but this happened in the past."
         ],
-        "explain": "'You' takes 'were', even after a wh-word."
+        "explain": "The sun was already shining at a specific past time (eleven o’clock yesterday morning)."
       },
       {
-        "use": "Negative — past moment",
-        "text": "Luckily, it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> when we left the house.",
+        "use": "Interrupted action",
+        "text": "Lisa <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV when her mum came in, so she turned it off.",
         "choices": [
-          "wasn't raining",
-          "isn't raining",
-          "not raining",
-          "weren't raining"
+          "was watching",
+          "watched",
+          "is watching",
+          "were watching"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'isn't raining' is present, but this happened in the past — 'wasn't raining'.",
-          "Missing the auxiliary — 'wasn't' is needed before the -ing form.",
-          "Was/were mistake: 'it' takes 'wasn't', not 'weren't'."
+          "Wrong tense: ‘watched’ is past simple. The action was already in progress, so use the past continuous.",
+          "Wrong tense: ‘is watching’ is present, but this happened in the past.",
+          "Was/were mistake: ‘Lisa’ takes ‘was’, not ‘were’."
         ],
-        "explain": "Negative past continuous with 'it' — wasn't + -ing."
+        "explain": "The TV watching was in progress when her mum came in."
       },
       {
-        "use": "Background action",
-        "text": "The students <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> an exam when the fire alarm went off.",
+        "use": "Past moment",
+        "text": "When the teacher came back, she saw that the children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> quietly.",
         "choices": [
-          "was taking",
-          "have taken",
-          "are taking",
-          "were taking"
+          "work",
+          "was working",
+          "worked",
+          "were working"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Was/were mistake: 'the students' (they) takes 'were', not 'was'.",
-          "Wrong tense: the background action is past, not the present perfect.",
-          "Wrong tense: 'are taking' is present, but this happened in the past — 'were taking'.",
+          "Wrong tense: ‘work’ is present, but this happened in the past.",
+          "Was/were mistake: ‘the children’ takes ‘were’, not ‘was’.",
+          "Wrong tense: ‘worked’ is past simple. The action was already in progress, so use the past continuous.",
           ""
         ],
-        "explain": "The longer background action takes the past continuous, with 'they'."
+        "explain": "The children’s work was in progress at the moment the teacher came back."
       },
       {
-        "use": "Was or were",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> listening to the teacher.",
+        "use": "Interrupted action",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the stairs with two heavy bags when my phone rang.",
         "choices": [
-          "was",
-          "wasn't",
-          "were",
-          "is"
+          "climbed",
+          "were climbing",
+          "was climbing",
+          "am climbing"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Was/were mistake: 'they' takes 'were', not 'was'.",
-          "Was/were mistake: 'they' takes 'weren't', not 'wasn't'.",
+          "Wrong tense: ‘climbed’ is past simple. The action was already in progress, so use the past continuous.",
+          "Was/were mistake: ‘I’ takes ‘was’, not ‘were’.",
           "",
-          "Wrong tense: 'is' is present, but this happened in the past — 'were'."
+          "Wrong tense: ‘am climbing’ is present, but this happened in the past."
         ],
-        "explain": "'They' takes 'were', never 'was'."
+        "explain": "The longer action (climbing) was in progress; ‘rang’ is the short action that interrupts it."
       },
       {
-        "use": "Interrupting action",
-        "text": "Paul was jogging in the park when he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his keys.",
+        "use": "Past moment",
+        "text": "At eleven last night it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> heavily, so we took a taxi home from the party.",
         "choices": [
-          "was dropping",
-          "drops",
-          "dropped",
-          "has dropped"
+          "were raining",
+          "was raining",
+          "rained",
+          "is raining"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong tense: the short interrupting action takes the past simple, not the continuous.",
-          "Wrong tense: 'drops' is present, but this happened in the past — 'dropped'.",
+          "Was/were mistake: ‘it’ takes ‘was’, not ‘were’.",
           "",
-          "Present perfect doesn't fit a finished past story — use the past simple 'dropped'."
+          "Wrong tense: ‘rained’ is past simple. The action was already in progress, so use the past continuous.",
+          "Wrong tense: ‘is raining’ is present, but this happened in the past."
         ],
-        "explain": "The short interrupting action takes the past simple: drop → dropped."
+        "explain": "The rain was already falling at a specific past time (eleven last night)."
       }
     ]
   },
@@ -1061,12 +1212,29 @@
         ],
         "errorIndex": 2,
         "correction": "were",
-        "type": "Subject-verb agreement",
-        "message": "Was/were mistake: 'my friends' (they) takes 'were', not 'was'."
+        "type": "Was or were",
+        "message": "‘My friends (they)’ takes ‘were’, not ‘was’."
       },
       {
         "tokens": [
-          "The",
+          "At",
+          "eight",
+          "last",
+          "night,",
+          "I",
+          "was",
+          "cook",
+          "dinner."
+        ],
+        "errorIndex": 6,
+        "correction": "cooking",
+        "type": "Missing -ing",
+        "message": "After was/were the verb takes -ing: cooking, not ‘cook’."
+      },
+      {
+        "tokens": [
+          "Yesterday",
+          "the",
           "birds",
           "was",
           "singing",
@@ -1074,317 +1242,289 @@
           "the",
           "trees."
         ],
-        "errorIndex": 2,
+        "errorIndex": 3,
         "correction": "were",
-        "type": "Subject-verb agreement",
-        "message": "Was/were mistake: 'the birds' (they) takes 'were', not 'was'."
-      },
-      {
-        "tokens": [
-          "Jo",
-          "texting",
-          "her",
-          "friend",
-          "when",
-          "suddenly",
-          "the",
-          "bus",
-          "pulled",
-          "away."
-        ],
-        "errorIndex": 1,
-        "correction": "was texting",
-        "type": "Missing auxiliary",
-        "message": "A background action in progress needs was/were + -ing — 'was texting', not just 'texting'."
-      },
-      {
-        "tokens": [
-          "When",
-          "I",
-          "last",
-          "saw",
-          "the",
-          "boys,",
-          "they",
-          "climbing",
-          "a",
-          "tree."
-        ],
-        "errorIndex": 7,
-        "correction": "were climbing",
-        "type": "Missing auxiliary",
-        "message": "An action in progress at that moment needs was/were + -ing — 'were climbing', not just 'climbing'."
+        "type": "Was or were",
+        "message": "‘The birds (they)’ takes ‘were’, not ‘was’."
       },
       {
         "tokens": [
           "We",
-          "still",
-          "hiking",
+          "was",
+          "playing",
+          "cards",
+          "when",
+          "he",
+          "arrived."
+        ],
+        "errorIndex": 1,
+        "correction": "were",
+        "type": "Was or were",
+        "message": "‘We’ takes ‘were’, not ‘was’."
+      },
+      {
+        "tokens": [
+          "Tom",
+          "was",
+          "knowing",
+          "all",
+          "the",
+          "answers."
+        ],
+        "errorIndex": 2,
+        "correction": "knew",
+        "type": "State verb",
+        "message": "‘Know’ is a state verb, so it doesn’t take the continuous: Tom knew all the answers.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "They",
+          "were",
+          "runing",
           "when",
           "it",
-          "began",
+          "started",
           "to",
-          "snow."
-        ],
-        "errorIndex": 1,
-        "errorSpan": [
-          1,
-          2
-        ],
-        "correction": "were still hiking",
-        "type": "Missing auxiliary",
-        "message": "The past continuous needs was/were before the -ing form — 'were still hiking', not just 'still hiking'."
-      },
-      {
-        "tokens": [
-          "I",
-          "was",
-          "making",
-          "tea",
-          "when",
-          "I",
-          "was",
-          "cutting",
-          "my",
-          "finger."
-        ],
-        "errorIndex": 6,
-        "correction": "cut",
-        "type": "Wrong tense",
-        "message": "The short interrupting action takes the past simple, not the continuous — 'cut', not 'was cutting'.",
-        "errorSpan": [
-          6,
-          7
-        ]
-      },
-      {
-        "tokens": [
-          "When",
-          "I",
-          "got",
-          "home,",
-          "he",
-          "was",
-          "still",
-          "play",
-          "the",
-          "piano."
-        ],
-        "errorIndex": 7,
-        "correction": "playing",
-        "type": "Wrong form",
-        "message": "After 'was', use the -ing form — 'playing', not 'play'."
-      },
-      {
-        "tokens": [
-          "This",
-          "bag",
-          "was",
-          "belonging",
-          "to",
-          "my",
-          "aunt."
+          "rain."
         ],
         "errorIndex": 2,
-        "correction": "belonged",
-        "type": "Stative verb",
-        "message": "State verbs like 'belong' never take the continuous — use the past simple, 'belonged'.",
-        "errorSpan": [
-          2,
-          3
-        ]
+        "correction": "running",
+        "type": "-ing spelling",
+        "message": "Double the final consonant: run → running."
       },
       {
         "tokens": [
-          "I",
-          "wasn't",
-          "believing",
-          "his",
-          "story."
-        ],
-        "errorIndex": 1,
-        "correction": "didn't believe",
-        "type": "Stative verb",
-        "message": "State verbs like 'believe' stay in the past simple, even in the negative — 'didn't believe'.",
-        "errorSpan": [
-          1,
-          2
-        ]
-      },
-      {
-        "tokens": [
-          "The",
-          "train",
-          "was",
-          "stoping",
-          "at",
-          "every",
-          "station."
-        ],
-        "errorIndex": 3,
-        "correction": "stopping",
-        "type": "Spelling",
-        "message": "Double the final consonant — 'stopping', not 'stoping'."
-      },
-      {
-        "tokens": [
-          "Everyone",
-          "was",
-          "danceing",
-          "at",
-          "the",
-          "wedding."
-        ],
-        "errorIndex": 2,
-        "correction": "dancing",
-        "type": "Spelling",
-        "message": "Drop the silent 'e' before adding -ing — 'dancing', not 'danceing'."
-      },
-      {
-        "tokens": [
-          "The",
-          "plants",
+          "He",
           "were",
-          "dieing",
-          "in",
-          "the",
-          "heat."
-        ],
-        "errorIndex": 3,
-        "correction": "dying",
-        "type": "Spelling",
-        "message": "Change 'ie' to 'y' before adding -ing — 'dying', not 'dieing'."
-      },
-      {
-        "tokens": [
-          "Was",
-          "the",
-          "girls",
-          "laughing",
+          "reading",
+          "a",
+          "book",
           "at",
-          "me?"
-        ],
-        "errorIndex": 0,
-        "correction": "Were",
-        "type": "Subject-verb agreement",
-        "message": "Was/were mistake: 'the girls' (they) takes 'were', not 'was'."
-      },
-      {
-        "tokens": [
-          "Were",
-          "your",
-          "dad",
-          "working",
-          "late",
-          "yesterday?"
-        ],
-        "errorIndex": 0,
-        "correction": "Was",
-        "type": "Subject-verb agreement",
-        "message": "Was/were mistake: 'your dad' (he) takes 'was', not 'were'."
-      },
-      {
-        "tokens": [
-          "We",
-          "not",
-          "having",
-          "lunch",
-          "when",
-          "you",
-          "phoned."
-        ],
-        "errorIndex": 1,
-        "correction": "weren't",
-        "type": "Missing auxiliary",
-        "message": "The negative past continuous needs wasn't/weren't — 'weren't having', not 'not having'."
-      },
-      {
-        "tokens": [
-          "Kate",
-          "were",
-          "brushing",
-          "her",
-          "hair",
-          "in",
-          "the",
-          "bathroom."
+          "midnight."
         ],
         "errorIndex": 1,
         "correction": "was",
-        "type": "Subject-verb agreement",
-        "message": "Was/were mistake: 'Kate' (she) takes 'was', not 'were'."
+        "type": "Was or were",
+        "message": "‘He’ takes ‘was’, not ‘were’."
+      },
+      {
+        "tokens": [
+          "She",
+          "was",
+          "taking",
+          "a",
+          "photo",
+          "while",
+          "he",
+          "were",
+          "smiling."
+        ],
+        "errorIndex": 7,
+        "correction": "was",
+        "type": "Was or were",
+        "message": "‘He’ takes ‘was’, not ‘were’."
+      },
+      {
+        "tokens": [
+          "You",
+          "was",
+          "laughing",
+          "when",
+          "I",
+          "came",
+          "in."
+        ],
+        "errorIndex": 1,
+        "correction": "were",
+        "type": "Was or were",
+        "message": "‘You’ takes ‘were’, not ‘was’."
+      },
+      {
+        "tokens": [
+          "The",
+          "dog",
+          "was",
+          "bark",
+          "all",
+          "night."
+        ],
+        "errorIndex": 3,
+        "correction": "barking",
+        "type": "Missing -ing",
+        "message": "After was/were the verb takes -ing: barking, not ‘bark’."
       },
       {
         "tokens": [
           "We",
           "were",
-          "sunbathing",
-          "when",
+          "stoping",
+          "at",
           "a",
-          "ball",
-          "hitting",
-          "me."
+          "red",
+          "light."
         ],
-        "errorIndex": 6,
-        "correction": "hit",
-        "type": "Wrong tense",
-        "message": "The short interrupting action takes the past simple — 'hit', not the -ing form alone."
+        "errorIndex": 2,
+        "correction": "stopping",
+        "type": "-ing spelling",
+        "message": "Double the final consonant: stop → stopping."
       },
       {
         "tokens": [
-          "The",
-          "waiter",
-          "carrying",
-          "three",
-          "plates",
+          "I",
+          "was",
+          "liking",
+          "that",
+          "song",
           "when",
-          "he",
-          "tripped."
+          "I",
+          "was",
+          "young."
         ],
         "errorIndex": 2,
-        "correction": "was carrying",
-        "type": "Missing auxiliary",
-        "message": "The background action needs was/were + -ing — 'was carrying', not just 'carrying'."
+        "correction": "liked",
+        "type": "State verb",
+        "message": "‘Like’ is a state verb, so it doesn’t take the continuous: I liked that song.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
           "At",
-          "seven",
-          "o'clock,",
-          "my",
-          "cousins",
-          "was",
-          "having",
-          "breakfast."
+          "ten",
+          "last",
+          "night",
+          "they",
+          "are",
+          "watching",
+          "a",
+          "film."
         ],
         "errorIndex": 5,
         "correction": "were",
-        "type": "Subject-verb agreement",
-        "message": "Was/were mistake: 'my cousins' (they) takes 'were', not 'was'."
+        "type": "Wrong tense",
+        "message": "‘Are’ is present, but ‘last night’ is in the past: were watching."
+      },
+      {
+        "tokens": [
+          "While",
+          "I",
+          "was",
+          "cooking,",
+          "he",
+          "be",
+          "setting",
+          "the",
+          "table."
+        ],
+        "errorIndex": 5,
+        "correction": "was",
+        "type": "Wrong auxiliary",
+        "message": "The past continuous uses was/were, not ‘be’: he was setting."
+      },
+      {
+        "tokens": [
+          "Was",
+          "they",
+          "playing",
+          "outside",
+          "when",
+          "it",
+          "got",
+          "dark?"
+        ],
+        "errorIndex": 0,
+        "correction": "Were",
+        "type": "Was or were",
+        "message": "‘They’ takes ‘were’, not ‘was’."
+      },
+      {
+        "tokens": [
+          "Why",
+          "were",
+          "she",
+          "shouting",
+          "when",
+          "you",
+          "saw",
+          "her?"
+        ],
+        "errorIndex": 1,
+        "correction": "was",
+        "type": "Was or were",
+        "message": "‘She’ takes ‘was’, not ‘were’: Why was she shouting…?"
+      },
+      {
+        "tokens": [
+          "What",
+          "was",
+          "you",
+          "doing",
+          "at",
+          "six",
+          "o’clock?"
+        ],
+        "errorIndex": 1,
+        "correction": "were",
+        "type": "Was or were",
+        "message": "‘You’ takes ‘were’, not ‘was’."
+      },
+      {
+        "tokens": [
+          "Lena",
+          "was",
+          "ride",
+          "her",
+          "bike",
+          "when",
+          "she",
+          "fell."
+        ],
+        "errorIndex": 2,
+        "correction": "riding",
+        "type": "Missing -ing",
+        "message": "After was/were the verb takes -ing: riding, not ‘ride’."
       },
       {
         "tokens": [
           "The",
-          "box",
+          "baby",
           "was",
-          "containing",
-          "old",
-          "photos."
+          "cry",
+          "when",
+          "I",
+          "got",
+          "home."
+        ],
+        "errorIndex": 3,
+        "correction": "crying",
+        "type": "Missing -ing",
+        "message": "After was/were the verb takes -ing: crying, not ‘cry’."
+      },
+      {
+        "tokens": [
+          "My",
+          "parents",
+          "wasn’t",
+          "listening",
+          "to",
+          "me."
         ],
         "errorIndex": 2,
-        "correction": "contained",
-        "type": "Stative verb",
-        "message": "State verbs like 'contain' never take the continuous — use the past simple, 'contained'.",
-        "errorSpan": [
-          2,
-          3
-        ]
+        "correction": "weren’t",
+        "type": "Was or were",
+        "message": "‘My parents (they)’ takes ‘weren’t’, not ‘wasn’t’."
       }
     ]
   },
   "levelCheck": {
     "title": "How well do you know it?",
-    "subtitle": "20 mixed questions — typing, word order, -ing spelling, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you're strong and where to go back and practise.",
+    "subtitle": "20 mixed questions — typing, word order, -ing spelling, multiple choice, and spot-the-mistake. In the typing questions write was/were + -ing (wasn’t/weren’t in negatives; include the subject in questions). One pass, then a breakdown of where you’re strong and where to go back and practise.",
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
@@ -1403,337 +1543,380 @@
       {
         "type": "fill",
         "use": "Past moment",
-        "sentText": "At half past seven, Leo {{blank}} the dog.",
-        "hint": "walk",
+        "sentText": "At noon yesterday, Mia {{blank}} a letter to her gran.",
+        "hint": "write",
         "answers": [
-          "was walking"
+          "was writing"
         ],
-        "display": "was walking",
-        "explain": "An action in progress at a specific past moment, with 'he'."
+        "display": "was writing",
+        "explain": "An action in progress at a specific past time. Drop the -e: write → writing.",
+        "wrongNote": "Drop the -e before -ing: write → writing."
       },
       {
         "type": "fill",
-        "use": "Background + interrupt",
-        "sentText": "We {{blank}} the house when we heard a strange noise.",
-        "hint": "clean",
+        "use": "Interrupted action",
+        "sentText": "We {{blank}} on the beach when the storm came.",
+        "hint": "sit",
         "answers": [
-          "were cleaning"
+          "were sitting"
         ],
-        "display": "were cleaning",
-        "explain": "The longer background action takes the past continuous, with 'we'."
+        "display": "were sitting",
+        "explain": "The sitting was in progress when the storm came. Double the consonant: sit → sitting.",
+        "wrongNote": "Double the final consonant: sit → sitting."
       },
       {
         "type": "fill",
-        "use": "Interrupting action",
-        "sentText": "Olivia was skiing when she {{blank}} her leg.",
-        "hint": "break",
+        "use": "Negative",
+        "sentText": "I {{blank}} when you called — I was just resting.",
+        "hint": "not / sleep",
         "answers": [
-          "broke"
+          "wasn't sleeping",
+          "was not sleeping",
+          "wasnt sleeping",
+          "wasn’t sleeping"
         ],
-        "display": "broke",
-        "explain": "The short action that interrupts takes the past simple — 'broke', an irregular past form."
+        "display": "wasn’t sleeping",
+        "explain": "Negative past continuous: wasn’t/weren’t + -ing."
       },
       {
         "type": "fill",
-        "use": "Stative verb",
-        "sentText": "I {{blank}} the film, so I left early.",
-        "hint": "hate",
+        "use": "Question",
+        "sentText": "{{blank}} at the bus stop when I drove past?",
+        "hint": "you / stand",
         "answers": [
-          "hated"
+          "were you standing"
         ],
-        "display": "hated",
-        "explain": "State verbs like 'hate' don't take the continuous — use the past simple."
+        "display": "Were you standing",
+        "explain": "Questions put was/were first: Were you standing…?"
       },
       {
         "type": "order",
         "use": "Past moment",
         "tokens": [
-          "We",
-          "were",
-          "camping",
-          "in",
-          "Wales."
-        ]
-      },
-      {
-        "type": "order",
-        "use": "Question — past moment",
-        "tokens": [
-          "Was",
-          "it",
-          "snowing",
-          "when",
-          "you",
-          "woke",
-          "up?"
-        ]
-      },
-      {
-        "type": "order",
-        "use": "Simultaneous actions",
-        "tokens": [
-          "While",
-          "Jake",
+          "My",
+          "dad",
           "was",
-          "shopping,",
-          "Mia",
-          "was",
-          "feeding",
+          "fixing",
           "the",
-          "ducks."
+          "car",
+          "all",
+          "morning."
         ],
         "alts": [
           [
-            "Mia",
+            "all",
+            "morning,",
+            "my",
+            "dad",
             "was",
-            "feeding",
+            "fixing",
             "the",
-            "ducks.",
-            "While",
-            "Jake",
-            "was",
-            "shopping,"
+            "car."
           ]
         ]
       },
       {
         "type": "order",
-        "use": "Negative — past moment",
+        "use": "Negative",
         "tokens": [
-          "The",
-          "lifts",
-          "weren't",
-          "working."
+          "They",
+          "weren’t",
+          "using",
+          "their",
+          "phones",
+          "in",
+          "class."
+        ],
+        "alts": [
+          [
+            "in",
+            "class,",
+            "they",
+            "weren’t",
+            "using",
+            "their",
+            "phones."
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question",
+        "tokens": [
+          "Was",
+          "she",
+          "talking",
+          "to",
+          "you",
+          "at",
+          "six?"
+        ],
+        "alts": [
+          [
+            "at",
+            "six,",
+            "was",
+            "she",
+            "talking",
+            "to",
+            "you?"
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Interrupted action",
+        "tokens": [
+          "I",
+          "was",
+          "crossing",
+          "the",
+          "road",
+          "when",
+          "I",
+          "saw",
+          "him."
+        ],
+        "alts": [
+          [
+            "when",
+            "I",
+            "saw",
+            "him,",
+            "I",
+            "was",
+            "crossing",
+            "the",
+            "road."
+          ]
         ]
       },
       {
         "type": "ing",
         "use": "Spelling & form",
-        "text": "The children {{blank}} along the path.",
-        "hintVerb": "(skip)",
+        "text": "The kids {{blank}} in the pool when their dad called them for lunch.",
+        "hintVerb": "(swim)",
         "choices": [
-          "were skiping",
-          "were skipping",
-          "was skipping",
-          "skipping"
+          "were swiming",
+          "were swimming",
+          "was swimming",
+          "are swimming"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: double the final consonant — 'skipping', not 'skiping'.",
+          "Spelling: ‘swiming’ is wrong — double the final m: swimming.",
           "",
-          "Was/were mistake: 'the children' (they) takes 'were', not 'was'.",
-          "Missing the auxiliary — 'were' is needed before the -ing form."
+          "Was/were mistake: ‘the kids’ takes ‘were’, not ‘was’.",
+          "Wrong tense: ‘are swimming’ is present, but this happened in the past."
         ],
-        "explain": "Double the final consonant: skip → skipping."
+        "explain": "Double the final consonant: swim → swimming."
       },
       {
         "type": "ing",
         "use": "Spelling & form",
-        "text": "She {{blank}} a photo when the bird flew away.",
-        "hintVerb": "(take)",
+        "text": "She {{blank}} a message when the bus stopped.",
+        "hintVerb": "(write)",
         "choices": [
-          "was taking",
-          "was takeing",
-          "were taking",
-          "taking"
+          "was writing",
+          "was writeing",
+          "were writing",
+          "is writing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Spelling: drop the silent 'e' before -ing — 'taking'.",
-          "Was/were mistake: 'she' takes 'was', not 'were'.",
-          "Missing the auxiliary — 'was' is needed before the -ing form."
+          "Spelling: ‘writeing’ is wrong — drop the e: writing.",
+          "Was/were mistake: ‘she’ takes ‘was’, not ‘were’.",
+          "Wrong tense: ‘is writing’ is present, but this happened in the past."
         ],
-        "explain": "Drop the silent 'e' before adding -ing: take → taking."
+        "explain": "Drop the final -e: write → writing."
       },
       {
         "type": "ing",
         "use": "Spelling & form",
-        "text": "He {{blank}} about his age, and everyone knew it.",
-        "hintVerb": "(lie)",
+        "text": "He {{blank}} up the stairs when he fell.",
+        "hintVerb": "(run)",
         "choices": [
-          "was lieing",
-          "were lying",
-          "was lying",
-          "lying"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Spelling: change 'ie' to 'y' before -ing — 'lying'.",
-          "Was/were mistake: 'he' takes 'was', not 'were'.",
-          "",
-          "Missing the auxiliary — 'was' is needed before the -ing form."
-        ],
-        "explain": "Change 'ie' to 'y' before adding -ing: lie → lying."
-      },
-      {
-        "type": "ing",
-        "use": "Stative verb",
-        "text": "I {{blank}} you at first with your new haircut.",
-        "hintVerb": "(not / recognise)",
-        "choices": [
-          "wasn't recognising",
-          "didn't recognise",
-          "don't recognise",
-          "isn't recognising"
+          "was runing",
+          "was running",
+          "were running",
+          "is running"
         ],
         "correct": 1,
         "wrongReasons": [
-          "State verbs like 'recognise' never take the continuous — use the past simple.",
+          "Spelling: ‘runing’ is wrong — double the n: running.",
           "",
-          "Wrong tense: 'don't recognise' is present, but this happened in the past — 'didn't recognise'.",
-          "State verbs like 'recognise' never take the continuous, and this needs the past."
+          "Was/were mistake: ‘he’ takes ‘was’, not ‘were’.",
+          "Wrong tense: ‘is running’ is present, but this happened in the past."
         ],
-        "explain": "State verbs like 'recognise' stay in the past simple, even in the negative."
+        "explain": "Double the final consonant: run → running."
+      },
+      {
+        "type": "ing",
+        "use": "Spelling & form",
+        "text": "We {{blank}} a surprise party for Mum when she came home early.",
+        "hintVerb": "(plan)",
+        "choices": [
+          "were planing",
+          "was planning",
+          "were planning",
+          "are planning"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Spelling: ‘planing’ is wrong — double the n: planning.",
+          "Was/were mistake: ‘we’ takes ‘were’, not ‘was’.",
+          "",
+          "Wrong tense: ‘are planning’ is present, but this happened in the past."
+        ],
+        "explain": "Double the final consonant: plan → planning."
       },
       {
         "type": "mc",
         "use": "Was or were",
-        "text": "Yesterday afternoon, my sister and I {{blank}} baking biscuits.",
+        "text": "Last Sunday my cousin and I {{blank}} cleaning the garage.",
         "choices": [
           "was",
           "were",
-          "is",
+          "have been",
           "are"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Was/were mistake: 'my sister and I' (we) takes 'were', not 'was'.",
+          "Was/were mistake: ‘my cousin and I (we)’ takes ‘were’, not ‘was’.",
           "",
-          "Wrong tense: 'is' is present, but this happened in the past — 'were'.",
-          "Wrong tense: 'are' is present, but this happened in the past — 'were'."
+          "‘Have been’ + -ing is present perfect continuous, but ‘last Sunday’ is a finished past time: ‘were’.",
+          "Wrong tense: ‘are’ is present, but this happened in the past."
         ],
-        "explain": "Two people ('my sister and I' = we) take 'were'."
+        "explain": "‘My cousin and I’ = we, so use ‘were’."
       },
       {
         "type": "mc",
-        "use": "Interrupting action",
-        "text": "The kids were building a sandcastle when a big wave {{blank}} it.",
+        "use": "Interrupted action",
+        "text": "I {{blank}} the news when the power went off.",
         "choices": [
-          "was destroying",
-          "destroyed",
-          "destroys",
-          "destroy"
-        ],
-        "correct": 1,
-        "wrongReasons": [
-          "Wrong tense: the short interrupting action takes the past simple, not the continuous.",
-          "",
-          "Wrong tense: 'destroys' is present, but this happened in the past — 'destroyed'.",
-          "Missing -ed: the past simple needs the ending — 'destroyed', not 'destroy'."
-        ],
-        "explain": "The short interrupting action takes the past simple."
-      },
-      {
-        "type": "mc",
-        "use": "Background action",
-        "text": "I {{blank}} for my keys when I found an old diary.",
-        "choices": [
-          "was looking",
-          "were looking",
-          "have looked",
-          "am looking"
+          "was watching",
+          "were watching",
+          "am watching",
+          "have watched"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Was/were mistake: 'I' takes 'was', not 'were'.",
-          "Wrong tense: the background action is past, not the present perfect.",
-          "Wrong tense: 'am looking' is present, but this happened in the past — 'was looking'."
+          "Was/were mistake: ‘I’ takes ‘was’, not ‘were’.",
+          "Wrong tense: ‘am watching’ is present, but this happened in the past.",
+          "‘Have watched’ is present perfect, but the power went off at a finished past moment: ‘was watching’."
         ],
-        "explain": "The longer background action takes the past continuous."
+        "explain": "The news was in progress when the power went off."
       },
       {
         "type": "mc",
-        "use": "Question — wh-word",
-        "text": "Why {{blank}} they shouting at each other last night?",
+        "use": "Question",
+        "text": "{{blank}} you listening when she gave the instructions?",
         "choices": [
-          "did",
-          "was",
-          "were",
-          "are"
+          "Was",
+          "Were",
+          "Are",
+          "Is"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong aux: 'did' pairs with the base verb, not the -ing form.",
-          "Was/were mistake: 'they' takes 'were', not 'was'.",
+          "Was/were mistake: ‘you’ takes ‘Were’, not ‘Was’.",
           "",
-          "Wrong tense: 'are' is present, but 'last night' is past — 'were'."
+          "Wrong tense: ‘Are’ is present, but this happened in the past.",
+          "‘Is’ is present and goes with he/she/it. Here it’s past and the subject is ‘you’: ‘Were’."
         ],
-        "explain": "'They' takes 'were' in the past continuous, even after a wh-word."
+        "explain": "‘You’ takes ‘were’. Questions put was/were first."
+      },
+      {
+        "type": "mc",
+        "use": "State verbs",
+        "text": "Mia {{blank}} the answer, so she didn’t need help.",
+        "choices": [
+          "knew",
+          "was knowing",
+          "knows",
+          "has known"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Know’ is a state verb, so it doesn’t take the continuous.",
+          "Wrong tense: ‘knows’ is present, but this happened in the past.",
+          "‘Has known’ is present perfect. This is a finished moment in the past: ‘knew’."
+        ],
+        "explain": "State verbs like know use the past simple."
       },
       {
         "type": "error",
-        "use": "Subject-verb agreement",
+        "use": "Was or were",
         "tokens": [
-          "We",
+          "The",
+          "cats",
           "was",
-          "playing",
-          "cards",
-          "when",
-          "he",
-          "arrived."
-        ],
-        "errorIndex": 1,
-        "correction": "were",
-        "message": "With 'we', use 'were', not 'was'."
-      },
-      {
-        "type": "error",
-        "use": "Missing auxiliary",
-        "tokens": [
-          "She",
-          "reading",
-          "a",
-          "book",
-          "when",
-          "I",
-          "came",
-          "in,",
-          "so",
-          "she",
-          "didn't",
-          "look",
-          "up."
-        ],
-        "errorIndex": 1,
-        "correction": "was reading",
-        "message": "A background action in progress needs was/were + -ing."
-      },
-      {
-        "type": "error",
-        "use": "Stative verb",
-        "tokens": [
-          "She",
-          "was",
-          "liking",
+          "sleeping",
+          "on",
           "the",
-          "film",
-          "very",
-          "much."
+          "sofa."
+        ],
+        "errorIndex": 2,
+        "correction": "were",
+        "message": "‘The cats (they)’ takes ‘were’, not ‘was’."
+      },
+      {
+        "type": "error",
+        "use": "Was or were",
+        "tokens": [
+          "I",
+          "were",
+          "cooking",
+          "when",
+          "the",
+          "phone",
+          "rang."
         ],
         "errorIndex": 1,
-        "correction": "liked",
-        "message": "State verbs like 'like' never take the continuous — use the past simple.",
+        "correction": "was",
+        "message": "‘I’ takes ‘was’, not ‘were’."
+      },
+      {
+        "type": "error",
+        "use": "Spelling & form",
+        "tokens": [
+          "She",
+          "was",
+          "haveing",
+          "lunch",
+          "at",
+          "one."
+        ],
+        "errorIndex": 2,
+        "correction": "having",
+        "message": "Drop the -e before -ing: have → having."
+      },
+      {
+        "type": "error",
+        "use": "State verbs",
+        "tokens": [
+          "He",
+          "was",
+          "wanting",
+          "a",
+          "coffee,",
+          "so",
+          "he",
+          "went",
+          "to",
+          "the",
+          "café."
+        ],
+        "errorIndex": 2,
+        "correction": "wanted",
+        "message": "‘Want’ is a state verb, so it doesn’t take the continuous: He wanted a coffee.",
         "errorSpan": [
           1,
           2
         ]
-      },
-      {
-        "type": "error",
-        "use": "Spelling",
-        "tokens": [
-          "They",
-          "were",
-          "runing",
-          "in",
-          "the",
-          "park."
-        ],
-        "errorIndex": 2,
-        "correction": "running",
-        "message": "Double the final consonant — 'running', not 'runing'."
       }
     ]
   }
