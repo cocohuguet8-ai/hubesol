@@ -5,7 +5,7 @@
     "orderAux": {
       "words": [
         "did",
-        "didn't"
+        "didn’t"
       ],
       "label": null,
       "primary": "did"
@@ -35,7 +35,7 @@
           "lost"
         ],
         "display": "lost",
-        "explain": "'Yesterday morning' — a clear, finished time in the past."
+        "explain": "‘Yesterday morning’ — a clear, finished time in the past."
       },
       {
         "use": "Completed action",
@@ -46,7 +46,7 @@
           "bought"
         ],
         "display": "bought",
-        "explain": "'Buy' is irregular: buy → bought."
+        "explain": "‘Buy’ is irregular: buy → bought."
       },
       {
         "use": "Completed action",
@@ -57,7 +57,7 @@
           "left"
         ],
         "display": "left",
-        "explain": "'Leave' is irregular: leave → left."
+        "explain": "‘Leave’ is irregular: leave → left."
       },
       {
         "use": "Completed action",
@@ -69,7 +69,7 @@
           "canceled"
         ],
         "display": "cancelled",
-        "explain": "Short verb ending in a single consonant: double it before -ed — cancelled."
+        "explain": "‘Cancel’ doubles its l in British English (cancelled); American English writes canceled."
       },
       {
         "use": "Sequence of past events",
@@ -91,7 +91,7 @@
           "watched"
         ],
         "display": "watched",
-        "explain": "'Then' links two completed actions, one after the other."
+        "explain": "‘Then’ links two completed actions, one after the other."
       },
       {
         "use": "Sequence of past events",
@@ -102,7 +102,7 @@
           "got"
         ],
         "display": "got",
-        "explain": "'Get' is irregular: get → got."
+        "explain": "‘Get’ is irregular: get → got."
       },
       {
         "use": "Past habit / state",
@@ -113,7 +113,7 @@
           "rode"
         ],
         "display": "rode",
-        "explain": "A repeated habit that's now over — past simple, not present."
+        "explain": "A repeated habit that’s now over — past simple, not present."
       },
       {
         "use": "Past habit / state",
@@ -124,7 +124,7 @@
           "played"
         ],
         "display": "played",
-        "explain": "'Every weekend' describes a past routine, now finished."
+        "explain": "‘Every weekend’ describes a past routine, now finished."
       },
       {
         "use": "Past habit / state",
@@ -157,7 +157,7 @@
           "studied"
         ],
         "display": "studied",
-        "explain": "A past habit at a finished time ('when I was a teenager'). Consonant + y → change y to i before -ed: studied."
+        "explain": "A past habit at a finished time (‘when I was a teenager’). Consonant + y → change y to i before -ed: studied."
       },
       {
         "use": "Negative",
@@ -167,10 +167,11 @@
         "answers": [
           "didn't see",
           "did not see",
-          "didnt see"
+          "didnt see",
+          "didn’t see"
         ],
-        "display": "didn't see",
-        "explain": "Negative past simple: didn't + base verb."
+        "display": "didn’t see",
+        "explain": "Negative past simple: didn’t + base verb."
       },
       {
         "use": "Negative",
@@ -180,10 +181,11 @@
         "answers": [
           "didn't go",
           "did not go",
-          "didnt go"
+          "didnt go",
+          "didn’t go"
         ],
-        "display": "didn't go",
-        "explain": "After 'didn't', the verb goes back to its base form: go, not went."
+        "display": "didn’t go",
+        "explain": "After ‘didn’t’, the verb goes back to its base form: go, not went."
       },
       {
         "use": "Negative",
@@ -193,10 +195,11 @@
         "answers": [
           "didn't finish",
           "did not finish",
-          "didnt finish"
+          "didnt finish",
+          "didn’t finish"
         ],
-        "display": "didn't finish",
-        "explain": "'Didn't' + base verb — never 'didn't finished'."
+        "display": "didn’t finish",
+        "explain": "‘Didn’t’ + base verb — never ‘didn’t finished’."
       },
       {
         "use": "Negative",
@@ -206,43 +209,44 @@
         "answers": [
           "didn't catch",
           "did not catch",
-          "didnt catch"
+          "didnt catch",
+          "didn’t catch"
         ],
-        "display": "didn't catch",
+        "display": "didn’t catch",
         "explain": "Negative past simple with the base form: catch, not caught."
       },
       {
         "use": "Question",
         "before": "",
-        "after": "you call her last night?",
-        "hint": "(do/did)",
+        "after": "her last night?",
+        "hint": "(you / call)",
         "answers": [
-          "did"
+          "did you call"
         ],
-        "display": "Did",
-        "explain": "Past simple questions always start with 'did', whatever the subject."
+        "display": "Did you call",
+        "explain": "Past simple questions start with did + subject + base verb: Did you call…?"
       },
       {
         "use": "Question",
         "before": "",
         "after": "the tickets expensive last week?",
-        "hint": "(was/were)",
+        "hint": "(be)",
         "answers": [
           "were"
         ],
         "display": "Were",
-        "explain": "'The tickets' is plural, and questions with be don't use 'did': Were the tickets…?"
+        "explain": "‘The tickets’ is plural, and questions with be don’t use ‘did’: Were the tickets…?"
       },
       {
         "use": "Question",
         "before": "",
-        "after": "he pass his driving test last week?",
-        "hint": "(do/did)",
+        "after": "his driving test last week?",
+        "hint": "(he / pass)",
         "answers": [
-          "did"
+          "did he pass"
         ],
-        "display": "Did",
-        "explain": "A simple yes/no question about a finished event."
+        "display": "Did he pass",
+        "explain": "Past simple questions start with did + subject + base verb: Did he pass…?"
       }
     ]
   },
@@ -281,6 +285,17 @@
           "postcard",
           "from",
           "Lisbon."
+        ],
+        "alts": [
+          [
+            "from",
+            "Lisbon.",
+            "she",
+            "sent",
+            "me",
+            "a",
+            "postcard"
+          ]
         ]
       },
       {
@@ -314,6 +329,17 @@
           "at",
           "the",
           "station."
+        ],
+        "alts": [
+          [
+            "at",
+            "the",
+            "station.",
+            "he",
+            "lost",
+            "his",
+            "wallet"
+          ]
         ]
       },
       {
@@ -445,13 +471,23 @@
           "in",
           "a",
           "factory."
+        ],
+        "alts": [
+          [
+            "in",
+            "a",
+            "factory.",
+            "my",
+            "father",
+            "worked"
+          ]
         ]
       },
       {
         "use": "Negative",
         "tokens": [
           "I",
-          "didn't",
+          "didn’t",
           "understand",
           "the",
           "question."
@@ -461,7 +497,7 @@
         "use": "Negative",
         "tokens": [
           "They",
-          "didn't",
+          "didn’t",
           "answer",
           "the",
           "phone."
@@ -471,7 +507,7 @@
         "use": "Negative",
         "tokens": [
           "He",
-          "didn't",
+          "didn’t",
           "finish",
           "the",
           "report."
@@ -481,7 +517,7 @@
         "use": "Negative",
         "tokens": [
           "We",
-          "didn't",
+          "didn’t",
           "need",
           "a",
           "taxi."
@@ -534,7 +570,7 @@
   },
   "matching": {
     "title": "Match the past forms",
-    "subtitle": "Tap a base verb, then tap its irregular past simple form. These twenty don't take -ed — they're the ones learners mix up most.",
+    "subtitle": "Tap a base verb, then tap its irregular past simple form. These twenty don’t take -ed — they’re the ones learners mix up most.",
     "leftLabel": "Base verb",
     "rightLabel": "Past Simple",
     "rightLabelSub": "(irregular form)",
@@ -640,11 +676,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'last year' is finished, so the present 'go' doesn't fit.",
-          "Wrong tense: the present perfect can't go with a finished time like 'last year'.",
-          "Wrong tense: 'am going' is present continuous, but the trip is over."
+          "Wrong tense: ‘last year’ is finished, so the present ‘go’ doesn’t fit.",
+          "Wrong tense: the present perfect can’t go with a finished time like ‘last year’.",
+          "Wrong tense: ‘am going’ is present continuous, but the trip is over."
         ],
-        "explain": "'Last year' is a finished time — past simple. 'Go' is irregular: went."
+        "explain": "‘Last year’ is a finished time — past simple. ‘Go’ is irregular: went."
       },
       {
         "use": "Completed action",
@@ -657,12 +693,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'last winter' is finished, so not the present 'breaks'.",
-          "Wrong tense: the present perfect can't go with 'last winter'.",
-          "'Break' is irregular — the past is 'broke', not 'breaked'.",
+          "Wrong tense: ‘last winter’ is finished, so not the present ‘breaks’.",
+          "Wrong tense: the present perfect can’t go with ‘last winter’.",
+          "‘Break’ is irregular — the past is ‘broke’, not ‘breaked’.",
           ""
         ],
-        "explain": "'Break' is irregular: break → broke."
+        "explain": "‘Break’ is irregular: break → broke."
       },
       {
         "use": "Completed action",
@@ -675,12 +711,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'two days ago' is past, but 'have' is present.",
-          "Wrong tense: the present perfect can't go with 'ago'.",
+          "Wrong tense: ‘two days ago’ is past, but ‘have’ is present.",
+          "Wrong tense: the present perfect can’t go with ‘ago’.",
           "",
-          "'Have' is irregular — the past is 'had', not 'haved'."
+          "‘Have’ is irregular — the past is ‘had’, not ‘haved’."
         ],
-        "explain": "'Ago' marks a finished time — past simple 'had'."
+        "explain": "‘Ago’ marks a finished time — past simple ‘had’."
       },
       {
         "use": "Completed action",
@@ -693,12 +729,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'yesterday' is finished, so not the present 'arrives'.",
-          "Wrong tense: the present perfect can't go with 'yesterday'.",
-          "Wrong tense: 'will arrive' is future, but 'yesterday' is past.",
+          "Wrong tense: ‘yesterday’ is finished, so not the present ‘arrives’.",
+          "Wrong tense: the present perfect can’t go with ‘yesterday’.",
+          "Wrong tense: ‘will arrive’ is future, but ‘yesterday’ is past.",
           ""
         ],
-        "explain": "'Yesterday' is a finished time — past simple 'arrived'."
+        "explain": "‘Yesterday’ is a finished time — past simple ‘arrived’."
       },
       {
         "use": "Completed action",
@@ -711,12 +747,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: '2019' is finished, so not the present 'sell'.",
-          "Wrong tense: the present perfect can't go with a year like '2019'.",
+          "Wrong tense: ‘2019’ is finished, so not the present ‘sell’.",
+          "Wrong tense: the present perfect can’t go with a year like ‘2019’.",
           "",
-          "Wrong tense: 'are selling' is present continuous, but 2019 is over."
+          "Wrong tense: ‘are selling’ is present continuous, but 2019 is over."
         ],
-        "explain": "'In 2019' is a finished time — past simple. 'Sell' is irregular: sold."
+        "explain": "‘In 2019’ is a finished time — past simple. ‘Sell’ is irregular: sold."
       },
       {
         "use": "Sequence of past events",
@@ -729,10 +765,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'came' and 'went' are past, so 'has' (present) doesn't fit.",
+          "Wrong tense: ‘came’ and ‘went’ are past, so ‘has’ (present) doesn’t fit.",
           "",
-          "Wrong tense: 'have' is present; the whole sequence is in the past.",
-          "Wrong tense: the present perfect doesn't fit a finished sequence of events."
+          "Wrong tense: ‘have’ is present; the whole sequence is in the past.",
+          "Wrong tense: the present perfect doesn’t fit a finished sequence of events."
         ],
         "explain": "Events in a finished sequence all take the past simple: came, had, went."
       },
@@ -747,12 +783,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'opened' is past, so 'reads' (present) doesn't fit.",
-          "Wrong tense: the present perfect doesn't fit a finished sequence.",
+          "Wrong tense: ‘opened’ is past, so ‘reads’ (present) doesn’t fit.",
+          "Wrong tense: the present perfect doesn’t fit a finished sequence.",
           "",
-          "'Read' is irregular — the past is 'read' (said /red/), not 'readed'."
+          "‘Read’ is irregular — the past is ‘read’ (said /red/), not ‘readed’."
         ],
-        "explain": "'Read' is irregular: the spelling doesn't change, but the past is said /red/."
+        "explain": "‘Read’ is irregular: the spelling doesn’t change, but the past is said /red/."
       },
       {
         "use": "Sequence of past events",
@@ -765,12 +801,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'paid' is past, so 'leave' (present) doesn't fit.",
-          "'Leave' is irregular — the past is 'left', not 'leaved'.",
+          "Wrong tense: ‘paid’ is past, so ‘leave’ (present) doesn’t fit.",
+          "‘Leave’ is irregular — the past is ‘left’, not ‘leaved’.",
           "",
-          "Wrong tense: the present perfect doesn't fit a finished sequence."
+          "Wrong tense: the present perfect doesn’t fit a finished sequence."
         ],
-        "explain": "'First we paid, then we…' is a past sequence — past simple. 'Leave' is irregular: left."
+        "explain": "‘First we paid, then we…’ is a past sequence — past simple. ‘Leave’ is irregular: left."
       },
       {
         "use": "Past habit / state",
@@ -783,12 +819,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'as a teenager' is finished, so not the present 'swim'.",
+          "Wrong tense: ‘as a teenager’ is finished, so not the present ‘swim’.",
           "",
-          "'Swim' is irregular — the past is 'swam', not 'swimmed'.",
-          "Wrong tense: the present perfect can't go with 'as a teenager'."
+          "‘Swim’ is irregular — the past is ‘swam’, not ‘swimmed’.",
+          "Wrong tense: the present perfect can’t go with ‘as a teenager’."
         ],
-        "explain": "A habit in a finished period — past simple. 'Swim' is irregular: swam."
+        "explain": "A habit in a finished period — past simple. ‘Swim’ is irregular: swam."
       },
       {
         "use": "Past habit / state",
@@ -802,11 +838,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'in the 1970s' is finished, so not the present 'grow up'.",
-          "'Grow' is irregular — the past is 'grew', not 'growed'.",
-          "Wrong tense: the present perfect can't go with 'in the 1970s'."
+          "Wrong tense: ‘in the 1970s’ is finished, so not the present ‘grow up’.",
+          "‘Grow’ is irregular — the past is ‘grew’, not ‘growed’.",
+          "Wrong tense: the present perfect can’t go with ‘in the 1970s’."
         ],
-        "explain": "A finished period — past simple. 'Grow' is irregular: grew."
+        "explain": "A finished period — past simple. ‘Grow’ is irregular: grew."
       },
       {
         "use": "Past habit / state",
@@ -819,66 +855,66 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'before she stopped' shows the habit is over, so not the present 'practises'.",
+          "Wrong tense: ‘before she stopped’ shows the habit is over, so not the present ‘practises’.",
           "",
-          "Wrong form: with 'she' a present verb needs -s, and the sentence is past anyway.",
+          "Wrong form: with ‘she’ a present verb needs -s, and the sentence is past anyway.",
           "Wrong tense: the present perfect suggests she still plays — but she stopped."
         ],
-        "explain": "A finished past habit — past simple 'practised'."
+        "explain": "A finished past habit — past simple ‘practised’."
       },
       {
         "use": "Negative",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the news at all yesterday.",
         "choices": [
-          "didn't heard",
-          "didn't hear",
-          "don't hear",
-          "haven't heard"
+          "didn’t heard",
+          "didn’t hear",
+          "don’t hear",
+          "haven’t heard"
         ],
         "correct": 1,
         "wrongReasons": [
-          "After 'didn't' the verb goes back to its base form: 'hear', not 'heard'.",
+          "After ‘didn’t’ the verb goes back to its base form: ‘hear’, not ‘heard’.",
           "",
-          "Wrong tense: 'yesterday' is finished, so not the present 'don't hear'.",
-          "Wrong tense: the present perfect can't go with 'yesterday'."
+          "Wrong tense: ‘yesterday’ is finished, so not the present ‘don’t hear’.",
+          "Wrong tense: the present perfect can’t go with ‘yesterday’."
         ],
-        "explain": "Negatives use didn't + base verb: didn't hear."
+        "explain": "Negatives use didn’t + base verb: didn’t hear."
       },
       {
         "use": "Negative",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the deadline last week.",
         "choices": [
-          "don't meet",
-          "haven't met",
-          "didn't meet",
-          "didn't met"
+          "don’t meet",
+          "haven’t met",
+          "didn’t meet",
+          "didn’t met"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'last week' is finished, so not the present 'don't meet'.",
-          "Wrong tense: the present perfect can't go with 'last week'.",
+          "Wrong tense: ‘last week’ is finished, so not the present ‘don’t meet’.",
+          "Wrong tense: the present perfect can’t go with ‘last week’.",
           "",
-          "After 'didn't' the verb goes back to its base form: 'meet', not 'met'."
+          "After ‘didn’t’ the verb goes back to its base form: ‘meet’, not ‘met’."
         ],
-        "explain": "Negatives use didn't + base verb: didn't meet."
+        "explain": "Negatives use didn’t + base verb: didn’t meet."
       },
       {
         "use": "Negative",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> enough time to finish the test yesterday.",
         "choices": [
-          "didn't have",
-          "didn't had",
-          "don't have",
-          "haven't had"
+          "didn’t have",
+          "didn’t had",
+          "don’t have",
+          "haven’t had"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "After 'didn't' the verb goes back to its base form: 'have', not 'had'.",
-          "Wrong tense: 'yesterday' is finished, so not the present 'don't have'.",
-          "Wrong tense: the present perfect can't go with 'yesterday'."
+          "After ‘didn’t’ the verb goes back to its base form: ‘have’, not ‘had’.",
+          "Wrong tense: ‘yesterday’ is finished, so not the present ‘don’t have’.",
+          "Wrong tense: the present perfect can’t go with ‘yesterday’."
         ],
-        "explain": "Negatives use didn't + base verb: didn't have."
+        "explain": "Negatives use didn’t + base verb: didn’t have."
       },
       {
         "use": "Question",
@@ -891,16 +927,16 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'last night' is finished, so not the present 'Do you enjoy'.",
-          "Wrong tense: the present perfect can't go with 'last night'.",
+          "Wrong tense: ‘last night’ is finished, so not the present ‘Do you enjoy’.",
+          "Wrong tense: the present perfect can’t go with ‘last night’.",
           "",
-          "Wrong tense: 'Are you enjoying' is present continuous, but the concert is over."
+          "Wrong tense: ‘Are you enjoying’ is present continuous, but the concert is over."
         ],
         "explain": "Past questions use Did + subject + base verb."
       },
       {
         "use": "Question",
-        "text": "Why <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so late yesterday?",
+        "text": "Why <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the office so late yesterday?",
         "choices": [
           "did she leave",
           "does she leave",
@@ -910,9 +946,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'yesterday' is finished, so not the present 'does she leave'.",
-          "Wrong tense: the present perfect can't go with 'yesterday'.",
-          "Wrong tense: 'will she leave' is future, but 'yesterday' is past."
+          "Wrong tense: ‘yesterday’ is finished, so not the present ‘does she leave’.",
+          "Wrong tense: the present perfect can’t go with ‘yesterday’.",
+          "Wrong tense: ‘will she leave’ is future, but ‘yesterday’ is past."
         ],
         "explain": "Past questions use Did + subject + base verb, also after a question word."
       },
@@ -927,10 +963,10 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'when they arrived' is past, so not the present 'Do they find'.",
-          "Wrong tense: the present perfect doesn't fit a finished past moment.",
+          "Wrong tense: ‘when they arrived’ is past, so not the present ‘Do they find’.",
+          "Wrong tense: the present perfect doesn’t fit a finished past moment.",
           "",
-          "Wrong tense: 'Are they finding' is present continuous, but the moment is past."
+          "Wrong tense: ‘Are they finding’ is present continuous, but the moment is past."
         ],
         "explain": "Past questions use Did + subject + base verb."
       },
@@ -947,8 +983,8 @@
         "wrongReasons": [
           "",
           "Spelling: a short verb ending in vowel + consonant doubles the consonant — planned.",
-          "Wrong tense: 'last summer' is finished, so not the present 'plan'.",
-          "Wrong tense: the present perfect can't go with 'last summer'."
+          "Wrong tense: ‘last summer’ is finished, so not the present ‘plan’.",
+          "Wrong tense: the present perfect can’t go with ‘last summer’."
         ],
         "explain": "Short verb (consonant–vowel–consonant): double the consonant — plan → planned."
       },
@@ -963,9 +999,9 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'last night' is finished, so not the present 'cries'.",
-          "Wrong tense: 'last night' needs the past, but 'cry' is the present base form.",
-          "Wrong tense: the present perfect can't go with 'last night'.",
+          "Wrong tense: ‘last night’ is finished, so not the present ‘cries’.",
+          "Wrong tense: ‘last night’ needs the past, but ‘cry’ is the present base form.",
+          "Wrong tense: the present perfect can’t go with ‘last night’.",
           ""
         ],
         "explain": "Consonant + y becomes -ied: cry → cried."
@@ -981,10 +1017,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Spelling: consonant + y becomes -ied — tried, not 'tryed'.",
+          "Spelling: consonant + y becomes -ied — tried, not ‘tryed’.",
           "",
-          "Wrong tense: 'yesterday' is finished, so not the present 'tries'.",
-          "Wrong tense: the present perfect can't go with 'yesterday'."
+          "Wrong tense: ‘yesterday’ is finished, so not the present ‘tries’.",
+          "Wrong tense: the present perfect can’t go with ‘yesterday’."
         ],
         "explain": "Consonant + y becomes -ied: try → tried."
       }
@@ -1007,7 +1043,7 @@
         "errorIndex": 3,
         "correction": "went",
         "type": "Wrong irregular form",
-        "message": "'Go' is irregular: go → went, not 'goed'."
+        "message": "‘Go’ is irregular: go → went, not ‘goed’."
       },
       {
         "tokens": [
@@ -1022,7 +1058,7 @@
         "errorIndex": 2,
         "correction": "bought",
         "type": "Wrong irregular form",
-        "message": "'Buy' is irregular: buy → bought, not 'buyed'."
+        "message": "‘Buy’ is irregular: buy → bought, not ‘buyed’."
       },
       {
         "tokens": [
@@ -1036,7 +1072,7 @@
         "errorIndex": 1,
         "correction": "ate",
         "type": "Wrong irregular form",
-        "message": "'Eat' is irregular: eat → ate, not 'eated'."
+        "message": "‘Eat’ is irregular: eat → ate, not ‘eated’."
       },
       {
         "tokens": [
@@ -1051,7 +1087,7 @@
         "errorIndex": 3,
         "correction": "thought",
         "type": "Wrong irregular form",
-        "message": "'Think' is irregular: think → thought, not 'thinked'."
+        "message": "‘Think’ is irregular: think → thought, not ‘thinked’."
       },
       {
         "tokens": [
@@ -1065,7 +1101,7 @@
         "errorIndex": 1,
         "correction": "brought",
         "type": "Wrong irregular form",
-        "message": "'Bring' is irregular: bring → brought, not 'bringed'."
+        "message": "‘Bring’ is irregular: bring → brought, not ‘bringed’."
       },
       {
         "tokens": [
@@ -1085,7 +1121,7 @@
           "He",
           "copyed",
           "his",
-          "friend's",
+          "friend’s",
           "answers."
         ],
         "errorIndex": 1,
@@ -1135,7 +1171,7 @@
         "errorIndex": 2,
         "correction": "were",
         "type": "Past of be",
-        "message": "With 'we' the past of 'be' is 'were', not 'was'."
+        "message": "With ‘we’ the past of ‘be’ is ‘were’, not ‘was’."
       },
       {
         "tokens": [
@@ -1148,7 +1184,7 @@
         "errorIndex": 2,
         "correction": "walked",
         "type": "Wrong tense",
-        "message": "'Yesterday' is a finished time — 'walked', not 'walks'."
+        "message": "‘Yesterday’ is a finished time — ‘walked’, not ‘walks’."
       },
       {
         "tokens": [
@@ -1161,7 +1197,7 @@
         "errorIndex": 3,
         "correction": "cooked",
         "type": "Wrong tense",
-        "message": "'Last night' is a finished time — 'cooked', not 'cook'."
+        "message": "‘Last night’ is a finished time — ‘cooked’, not ‘cook’."
       },
       {
         "tokens": [
@@ -1175,7 +1211,7 @@
         "errorIndex": 3,
         "correction": "moved",
         "type": "Wrong tense",
-        "message": "'In 2015' is a finished time — 'moved', not 'move'."
+        "message": "‘In 2015’ is a finished time — ‘moved’, not ‘move’."
       },
       {
         "tokens": [
@@ -1190,7 +1226,7 @@
         "errorIndex": 4,
         "correction": "called",
         "type": "Wrong tense",
-        "message": "'Ago' marks a finished time — 'called', not 'calls'."
+        "message": "‘Ago’ marks a finished time — ‘called’, not ‘calls’."
       },
       {
         "tokens": [
@@ -1204,12 +1240,12 @@
         "errorIndex": 3,
         "correction": "visited",
         "type": "Wrong tense",
-        "message": "'Last summer' is a finished time — 'visited', not 'visit'."
+        "message": "‘Last summer’ is a finished time — ‘visited’, not ‘visit’."
       },
       {
         "tokens": [
           "She",
-          "didn't",
+          "didn’t",
           "went",
           "to",
           "work."
@@ -1217,16 +1253,12 @@
         "errorIndex": 2,
         "correction": "go",
         "type": "Double marking",
-        "message": "After 'didn't', the verb goes back to its base form — 'go', not 'went'.",
-        "errorSpan": [
-          1,
-          2
-        ]
+        "message": "‘Didn’t’ is already correct — the verb after it goes back to its base form: ‘go’, not ‘went’."
       },
       {
         "tokens": [
           "We",
-          "didn't",
+          "didn’t",
           "saw",
           "the",
           "film."
@@ -1234,11 +1266,7 @@
         "errorIndex": 2,
         "correction": "see",
         "type": "Double marking",
-        "message": "After 'didn't', the verb goes back to its base form — 'see', not 'saw'.",
-        "errorSpan": [
-          1,
-          2
-        ]
+        "message": "‘Didn’t’ is already correct — the verb after it goes back to its base form: ‘see’, not ‘saw’."
       },
       {
         "tokens": [
@@ -1253,42 +1281,42 @@
         "errorIndex": 2,
         "correction": "go",
         "type": "Double marking",
-        "message": "After 'did', the verb goes back to its base form — 'go', not 'went'."
+        "message": "‘Did’ is already correct — the verb after it goes back to its base form: ‘go’, not ‘went’."
       },
       {
         "tokens": [
           "Last",
           "week",
           "he",
-          "doesn't",
+          "doesn’t",
           "come",
           "to",
           "school."
         ],
         "errorIndex": 3,
-        "correction": "didn't",
+        "correction": "didn’t",
         "type": "Wrong negative",
-        "message": "'Last week' is finished — the negative is 'didn't', not 'doesn't'."
+        "message": "‘Last week’ is finished — the negative is ‘didn’t’, not ‘doesn’t’."
       },
       {
         "tokens": [
           "Yesterday",
           "it",
-          "doesn't",
+          "doesn’t",
           "rain",
           "at",
           "all."
         ],
         "errorIndex": 2,
-        "correction": "didn't",
+        "correction": "didn’t",
         "type": "Wrong negative",
-        "message": "'Yesterday' is finished — the negative is 'didn't', not 'doesn't'."
+        "message": "‘Yesterday’ is finished — the negative is ‘didn’t’, not ‘doesn’t’."
       }
     ]
   },
   "levelCheck": {
     "title": "How well do you know it?",
-    "subtitle": "20 mixed questions — typing, word order, irregular forms, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you're strong and where to go back and practise.",
+    "subtitle": "20 mixed questions — typing, word order, irregular forms, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
@@ -1318,15 +1346,16 @@
       {
         "type": "fill",
         "use": "Negative",
-        "sentText": "She {{blank}} her passport, so she couldn't get on the plane.",
+        "sentText": "She {{blank}} her passport, so she couldn’t get on the plane.",
         "hint": "not / bring",
         "answers": [
           "didn't bring",
           "did not bring",
-          "didnt bring"
+          "didnt bring",
+          "didn’t bring"
         ],
-        "display": "didn't bring",
-        "explain": "Negative past simple: didn't + base verb — bring, not brought."
+        "display": "didn’t bring",
+        "explain": "Negative past simple: didn’t + base verb — bring, not brought."
       },
       {
         "type": "fill",
@@ -1342,13 +1371,13 @@
       {
         "type": "fill",
         "use": "Question",
-        "sentText": "{{blank}} you remember to buy bread yesterday?",
-        "hint": "(do/did)",
+        "sentText": "{{blank}} the bread yesterday?",
+        "hint": "(you / buy)",
         "answers": [
-          "did"
+          "did you buy"
         ],
-        "display": "Did",
-        "explain": "Past simple questions always start with 'did', whatever the subject."
+        "display": "Did you buy",
+        "explain": "Past simple questions start with did + subject + base verb: Did you buy…?"
       },
       {
         "type": "order",
@@ -1361,6 +1390,17 @@
           "under",
           "the",
           "bed."
+        ],
+        "alts": [
+          [
+            "under",
+            "the",
+            "bed.",
+            "she",
+            "found",
+            "her",
+            "ring"
+          ]
         ]
       },
       {
@@ -1382,10 +1422,19 @@
         "use": "Negative",
         "tokens": [
           "They",
-          "didn't",
+          "didn’t",
           "arrive",
           "before",
           "midnight."
+        ],
+        "alts": [
+          [
+            "before",
+            "midnight.",
+            "they",
+            "didn’t",
+            "arrive"
+          ]
         ]
       },
       {
@@ -1414,17 +1463,17 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "There's no such form as \"haved\" — \"have\" is irregular: have → had.",
+          "There’s no such form as \"haved\" — \"have\" is irregular: have → had.",
           "",
-          "This is the present form, but 'yesterday' is past.",
-          "This is the present form, and 'has' doesn't go with 'I'."
+          "This is the present form, but ‘yesterday’ is past.",
+          "This is the present form, and ‘has’ doesn’t go with ‘I’."
         ],
-        "explain": "'Have' is irregular: the past simple is 'had', for every subject."
+        "explain": "‘Have’ is irregular: the past simple is ‘had’, for every subject."
       },
       {
         "type": "irregular",
         "use": "Irregular form",
-        "text": "In yesterday's match, he {{blank}} the ball straight into the net.",
+        "text": "In yesterday’s match, he {{blank}} the ball straight into the net.",
         "hintVerb": "(shoot)",
         "choices": [
           "shoots",
@@ -1434,17 +1483,17 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "This is present simple, but 'yesterday' is past.",
-          "There's no such form as \"shooted\" — \"shoot\" is irregular: shoot → shot.",
-          "The present perfect can't go with 'yesterday's match'.",
+          "This is present simple, but ‘yesterday’ is past.",
+          "There’s no such form as \"shooted\" — \"shoot\" is irregular: shoot → shot.",
+          "The present perfect can’t go with ‘yesterday’s match’.",
           ""
         ],
-        "explain": "'Shoot' is irregular: shoot → shot."
+        "explain": "‘Shoot’ is irregular: shoot → shot."
       },
       {
         "type": "irregular",
         "use": "Irregular form",
-        "text": "They {{blank}} the truth eventually.",
+        "text": "They {{blank}} us the truth last week.",
         "hintVerb": "(tell)",
         "choices": [
           "told",
@@ -1455,16 +1504,16 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "There's no such form as \"telled\" — \"tell\" is irregular: tell → told.",
+          "There’s no such form as \"telled\" — \"tell\" is irregular: tell → told.",
           "This is present simple, but the sentence is about the past.",
-          "'Has' doesn't go with 'they', and the present perfect doesn't fit a finished story."
+          "‘Has’ doesn’t go with ‘they’, and the present perfect doesn’t fit a finished story."
         ],
-        "explain": "'Tell' is irregular: tell → told."
+        "explain": "‘Tell’ is irregular: tell → told."
       },
       {
         "type": "irregular",
         "use": "Irregular form",
-        "text": "I {{blank}} my glasses somewhere in the house.",
+        "text": "Yesterday I {{blank}} my glasses on the bus.",
         "hintVerb": "(leave)",
         "choices": [
           "leave",
@@ -1475,11 +1524,11 @@
         "correct": 3,
         "wrongReasons": [
           "This is the base form, not the past.",
-          "There's no such form as \"leaved\" — \"leave\" is irregular: leave → left.",
-          "'Has' doesn't go with 'I'.",
+          "There’s no such form as \"leaved\" — \"leave\" is irregular: leave → left.",
+          "‘Has’ doesn’t go with ‘I’.",
           ""
         ],
-        "explain": "'Leave' is irregular: leave → left."
+        "explain": "‘Leave’ is irregular: leave → left."
       },
       {
         "type": "mc",
@@ -1493,12 +1542,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'last Saturday' is finished, so not the present 'Do they win'.",
-          "Wrong tense: the present perfect can't go with 'last Saturday'.",
-          "Wrong tense: 'Were they winning' is past continuous — it asks about an action in progress, not the result.",
+          "Wrong tense: ‘last Saturday’ is finished, so not the present ‘Do they win’.",
+          "Wrong tense: the present perfect can’t go with ‘last Saturday’.",
+          "Wrong tense: ‘Were they winning’ is past continuous — it asks about an action in progress, not the result.",
           ""
         ],
-        "explain": "Past simple questions start with 'did' + subject + base verb."
+        "explain": "Past simple questions start with ‘did’ + subject + base verb."
       },
       {
         "type": "mc",
@@ -1512,31 +1561,31 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: 'last night' is finished, so not the present 'eat'.",
-          "Wrong tense: the present perfect can't go with 'last night'.",
+          "Wrong tense: ‘last night’ is finished, so not the present ‘eat’.",
+          "Wrong tense: the present perfect can’t go with ‘last night’.",
           "",
-          "Wrong tense: 'will eat' is future, but 'last night' is past."
+          "Wrong tense: ‘will eat’ is future, but ‘last night’ is past."
         ],
-        "explain": "'Eat' is irregular: eat → ate."
+        "explain": "‘Eat’ is irregular: eat → ate."
       },
       {
         "type": "mc",
         "use": "Negative",
-        "text": "He {{blank}} the email before yesterday's deadline.",
+        "text": "He {{blank}} the email before yesterday’s deadline.",
         "choices": [
-          "doesn't send",
-          "didn't sent",
-          "hasn't sent",
-          "didn't send"
+          "doesn’t send",
+          "didn’t sent",
+          "hasn’t sent",
+          "didn’t send"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'yesterday' is finished, so not the present 'doesn't send'.",
-          "After 'didn't' the verb goes back to its base form: 'send', not 'sent'.",
-          "The present perfect can't go with 'yesterday's deadline'.",
+          "Wrong tense: ‘yesterday’ is finished, so not the present ‘doesn’t send’.",
+          "After ‘didn’t’ the verb goes back to its base form: ‘send’, not ‘sent’.",
+          "The present perfect can’t go with ‘yesterday’s deadline’.",
           ""
         ],
-        "explain": "Negatives use didn't + base verb: didn't send."
+        "explain": "Negatives use didn’t + base verb: didn’t send."
       },
       {
         "type": "mc",
@@ -1550,12 +1599,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: 'when she was little' is past, so not the present 'is'.",
-          "Wrong tense: the present perfect suggests she's still scared now.",
-          "'Were' doesn't agree with 'she'.",
+          "Wrong tense: ‘when she was little’ is past, so not the present ‘is’.",
+          "Wrong tense: the present perfect suggests she’s still scared now.",
+          "‘Were’ doesn’t agree with ‘she’.",
           ""
         ],
-        "explain": "The past of 'be' is 'was' for I/he/she/it and 'were' for you/we/they."
+        "explain": "The past of ‘be’ is ‘was’ for I/he/she/it and ‘were’ for you/we/they."
       },
       {
         "type": "error",
@@ -1593,14 +1642,14 @@
         "use": "Double marking",
         "tokens": [
           "I",
-          "didn't",
+          "didn’t",
           "bought",
           "any",
           "milk."
         ],
         "errorIndex": 2,
         "correction": "buy",
-        "message": "After \"didn't\", the verb goes back to its base form — \"buy\", not \"bought\"."
+        "message": "After \"didn’t\", the verb goes back to its base form — \"buy\", not \"bought\"."
       },
       {
         "type": "error",

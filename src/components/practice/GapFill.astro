@@ -123,6 +123,15 @@ const uid = 'gf';
       const uWords = u.split(' ').filter(Boolean);
       const cWords = c.split(' ').filter(Boolean);
 
+      if (cWords[0] === 'did' && cWords.length > 1) {
+        if (uWords[0] === 'do' || uWords[0] === 'does') return "Past simple questions use <b>did</b>, not do/does.";
+        if (uWords[0] !== 'did') return "A past simple question starts with <b>did</b>.";
+        return "After <b>did</b> the main verb stays in its base form.";
+      }
+      if (c === 'was' || c === 'were') {
+        if (u === 'did') return "Questions with <i>be</i> don't use <b>did</b>: put was/were first.";
+        if (u === 'was' || u === 'were') return "Check the subject: <b>was</b> goes with I/he/she/it, <b>were</b> with you/we/they.";
+      }
       if (c === 'did') {
         if (u === 'do' || u === 'does') return "Past simple questions always use <b>did</b>, not do/does.";
         if (u === 'was' || u === 'were') return "This needs the auxiliary <b>did</b>, not the verb \"to be\".";

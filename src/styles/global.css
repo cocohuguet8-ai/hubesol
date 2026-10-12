@@ -405,6 +405,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
   background: var(--soft); color: var(--ink);
 }
 .gapfill-input:focus { outline: none; border-color: var(--accent); }
+.gapfill-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .gapfill-input:disabled { opacity: 0.9; }
 .gapfill-input.correct { border-color: var(--ok); background: var(--ok-soft); color: var(--ok); font-weight: 600; }
 .gapfill-input.wrong { border-color: var(--bad); background: var(--bad-soft); color: var(--bad); font-weight: 600; text-decoration: line-through; }
@@ -499,6 +500,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
   padding: 0.5rem 0.7rem; border-radius: 7px; border: 1.5px solid var(--line); background: var(--soft); color: var(--ink);
 }
 .levelcheck-fill-row input[type="text"]:focus { outline: none; border-color: var(--accent); }
+.levelcheck-fill-row input[type="text"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .levelcheck-fill-row input[type="text"]:disabled { opacity: 0.9; }
 .levelcheck-fill-row input.correct { border-color: var(--ok); background: var(--ok-soft); color: var(--ok); }
 .levelcheck-fill-row input.wrong { border-color: var(--bad); background: var(--bad-soft); color: var(--bad); }

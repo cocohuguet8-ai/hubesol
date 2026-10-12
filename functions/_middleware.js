@@ -53,7 +53,8 @@ const PAGE = `<!doctype html>
 </html>`;
 
 export async function onRequest({ request, next }) {
-  const { hostname: host, pathname } = new URL(request.url);
+  const { hostname: host, pathname, search } = new URL(request.url);
+  if (host === 'www.hubesol.com') return Response.redirect('https://hubesol.com' + pathname + search, 301);
   if (!BLOCKED_HOSTS.has(host) || isLive(pathname)) return next();
   return new Response(PAGE, {
     status: 503,
