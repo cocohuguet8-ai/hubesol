@@ -273,10 +273,18 @@ const uid = 'wo';
     function normSentence(words) {
       return words.map(normWord).join(' ');
     }
-    function isAcceptedOrder(builtWords, q) {
+    // Returns the accepted reference (canonical or alternative) that the built order matches, or null.
+    function matchedRef(builtWords, q) {
       const b = normSentence(builtWords);
-      if (b === normSentence(q.tokens)) return true;
-      return (q.alts || []).some((alt) => normSentence(alt) === b);
+      if (b === normSentence(q.tokens)) return q.tokens;
+      return (q.alts || []).find((alt) => normSentence(alt) === b) || null;
+    }
+    function isAcceptedOrder(builtWords, q) { return !!matchedRef(builtWords, q); }
+    // Sentence as the learner wrote it, with the commas of the accepted version (tiles hide punctuation).
+    function refString(ref, q) {
+      let s = ref.join(' ');
+      if (!/[.?!]$/.test(s)) s += endMark(q.tokens);
+      return s.charAt(0).toUpperCase() + s.slice(1);
     }
 
     function checkAnswer() {
@@ -300,7 +308,8 @@ const uid = 'wo';
           + ' The correct sentence is: “' + q.tokens.join(' ') + '”';
       }
 
-      const yoursStr = builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens);
+      const ref = matchedRef(builtWords, q);
+      const yoursStr = ref ? refString(ref, q) : builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens);
       results.push({ correct: isCorrect, sentence: isCorrect ? yoursStr : q.tokens.join(' '), yours: yoursStr });
 
       checkBtn.style.display = 'none';
@@ -334,9 +343,11 @@ const uid = 'wo';
       progressFill.style.width = '100%';
       document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
       const label = document.getElementById(`${uid}-finalLabel`);
+      const woPct = score / questions.length;
       if (score === questions.length) label.textContent = 'Perfect score! Review your answers:';
-      else if (score >= questions.length - 3) label.textContent = 'Well done. Review your answers:';
-      else label.textContent = 'Review your answers:';
+      else if (woPct >= 0.9) label.textContent = 'Strong result. Review your answers:';
+      else if (woPct >= 0.7) label.textContent = 'Solid result. Review your answers:';
+      else label.textContent = 'Keep practising — read the lesson above, then review your answers:';
 
       const list = document.getElementById(`${uid}-reviewList`);
       list.innerHTML = '';

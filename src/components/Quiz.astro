@@ -30,6 +30,7 @@ const { quiz, next, back } = Astro.props;
       )
     ))}
     <p class="quiz-score" id="quiz-score"></p>
+    <div class="quiz-review" id="quiz-review" hidden></div>
     <p class="quiz-actions" id="quiz-actions" hidden>
       <button type="button" class="practice-btn-primary" id="quiz-retry">Try again</button>
       {back && <a class="practice-btn-secondary" href={back}>Back to index</a>}
@@ -42,6 +43,8 @@ const { quiz, next, back } = Astro.props;
   if (quizEl) {
     let answered = 0;
     let correct = 0;
+    const reviewData = [];
+    const reviewEl = document.getElementById('quiz-review');
     const questions = Array.from(quizEl.querySelectorAll('.q'));
     const total = questions.length;
     const scoreEl = document.getElementById('quiz-score');
@@ -78,7 +81,43 @@ const { quiz, next, back } = Astro.props;
         scoreEl.style.display = 'block';
         scoreEl.textContent = `Your score: ${correct}/${total}` + (correct === total ? ' — perfect! 🎉' : correct >= total * 0.7 ? ' — well done!' : ' — review the lesson above and try again.');
         actionsEl.hidden = false;
+        renderReview();
       }
+    };
+
+    // Question-by-question review: what the learner answered, and the correct answer when it was wrong.
+    const renderReview = () => {
+      if (!reviewEl) return;
+      reviewEl.innerHTML = '';
+      const h = document.createElement('p');
+      h.className = 'quiz-review-title';
+      h.textContent = 'Review your answers:';
+      reviewEl.appendChild(h);
+      reviewData.slice().sort((a, b) => a.n - b.n).forEach((r) => {
+        const row = document.createElement('div');
+        row.className = 'practice-review-item';
+        const sent = document.createElement('span');
+        sent.className = 'rsent';
+        sent.textContent = 'Q' + r.n + '. ' + r.q;
+        const y = document.createElement('div');
+        y.className = 'ryours' + (r.ok ? ' ok' : '');
+        y.textContent = 'Your answer: ' + r.yours;
+        sent.appendChild(y);
+        if (!r.ok) {
+          const c = document.createElement('div');
+          c.className = 'rcorrect';
+          c.textContent = 'Correct answer: ' + r.right;
+          sent.appendChild(c);
+        }
+        const mark = document.createElement('span');
+        mark.className = 'rmark ' + (r.ok ? 'ok' : 'bad');
+        mark.textContent = r.ok ? '✓' : '✗';
+        mark.setAttribute('aria-label', r.ok ? 'Correct' : 'Incorrect');
+        row.appendChild(sent);
+        row.appendChild(mark);
+        reviewEl.appendChild(row);
+      });
+      reviewEl.hidden = false;
     };
 
     const checkWrite = (q) => {
@@ -114,6 +153,7 @@ const { quiz, next, back } = Astro.props;
         const hit = common.find((c) => norm(c.answer) === norm(raw));
         explEl.textContent = '❌ You wrote “' + raw.trim().replace(/[.!]+$/, '') + '”. ' + (hit ? hit.why + ' ' : '') + 'Correct answer: “' + answers[0].replace(/[.!]+$/, '') + '”. ' + expl;
       }
+      reviewData.push({ n: questions.indexOf(q) + 1, q: q.querySelector('.q-sentence').textContent, yours: raw.trim() || '(no answer)', ok, right: answers[0].replace(/[.!]+$/, '') });
       answered++;
       finish();
     };
@@ -142,6 +182,8 @@ const { quiz, next, back } = Astro.props;
         explEl.classList.add('bad');
         explEl.textContent = '❌ ' + expl[chosen];
       }
+      const optText = (idx) => { const el = q.querySelector('.opt[data-idx="' + idx + '"]'); return el ? el.textContent : ''; };
+      reviewData.push({ n: questions.indexOf(q) + 1, q: q.querySelector('.q-text').textContent.replace(/^\d+\.\s*/, ''), yours: optText(chosen), ok: chosen === answer, right: optText(answer) });
       answered++;
       finish();
     });
@@ -156,6 +198,8 @@ const { quiz, next, back } = Astro.props;
     document.getElementById('quiz-retry').addEventListener('click', () => {
       answered = 0;
       correct = 0;
+      reviewData.length = 0;
+      if (reviewEl) { reviewEl.hidden = true; reviewEl.innerHTML = ''; }
       questions.forEach((q) => {
         q.querySelectorAll('.opt').forEach((b) => { b.disabled = false; b.classList.remove('correct', 'wrong'); });
         const input = q.querySelector('.write-input');

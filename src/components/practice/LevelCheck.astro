@@ -397,11 +397,12 @@ const uid = 'lc';
     function normSentence(words) {
       return words.map(normWord).join(' ');
     }
-    function isAcceptedOrder(builtWords, it) {
+    function matchedRef(builtWords, it) {
       const b = normSentence(builtWords);
-      if (b === normSentence(it.tokens)) return true;
-      return (it.alts || []).some((alt) => normSentence(alt) === b);
+      if (b === normSentence(it.tokens)) return it.tokens;
+      return (it.alts || []).find((alt) => normSentence(alt) === b) || null;
     }
+    function isAcceptedOrder(builtWords, it) { return !!matchedRef(builtWords, it); }
 
     function startQuiz() {
       idx = 0; answered = false; startTime = Date.now();
@@ -512,7 +513,7 @@ const uid = 'lc';
       if (isCorrect) {
         catCorrect.fill++;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech we usually say “' + it.display + '”. ' : '') + (it.explain || '');
+        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? '“' + raw.trim() + '” = “' + it.display + '” — both forms are right. ' : '') + (it.explain || '');
       } else {
         feedback.className = 'practice-feedback show bad';
         let specific = diagnoseFill(raw, it);
@@ -680,7 +681,11 @@ const uid = 'lc';
       }
       const endPunct = (it.tokens[it.tokens.length - 1].match(/[.?!]+$/) || [''])[0];
       const yoursSentence = builtWords.map((w) => w.replace(/[.?!]+$/, '')).join(' ');
-      results.push({ category: 'order', correct: isCorrect, yours: yoursSentence.charAt(0).toUpperCase() + yoursSentence.slice(1) + endPunct, detail: it.tokens.join(' ') });
+      // Accepted order: show it with the commas of the matching version (tiles hide punctuation).
+      const ref = matchedRef(builtWords, it);
+      let yoursOut = yoursSentence.charAt(0).toUpperCase() + yoursSentence.slice(1) + endPunct;
+      if (ref) { let r = ref.join(' '); if (!/[.?!]$/.test(r)) r += endPunct || '.'; yoursOut = r.charAt(0).toUpperCase() + r.slice(1); }
+      results.push({ category: 'order', correct: isCorrect, yours: yoursOut, detail: it.tokens.join(' ') });
       scoreText.textContent = 'Score: ' + totalScore();
       document.getElementById(`${uid}-orderClear`).disabled = true;
       document.getElementById(`${uid}-orderCheck`).style.display = 'none';
@@ -879,7 +884,8 @@ const uid = 'lc';
         const sent = document.createElement('span');
         sent.className = 'rsent';
         sent.textContent = (n + 1) + '. ' + r.detail;
-        if (!r.correct && r.yours) { const y = document.createElement('div'); y.className = 'ryours'; y.textContent = (r.yoursLabel || 'You wrote: ') + r.yours; sent.appendChild(y); }
+        if (r.yours !== undefined && r.category !== 'error') { const y = document.createElement('div'); y.className = 'ryours' + (r.correct ? ' ok' : ''); y.textContent = (r.yoursLabel || 'You wrote: ') + (r.yours || '(no answer)'); sent.appendChild(y); }
+        else if (!r.correct && r.yours) { const y = document.createElement('div'); y.className = 'ryours'; y.textContent = (r.yoursLabel || 'You wrote: ') + r.yours; sent.appendChild(y); }
         const mark = document.createElement('span');
         mark.className = 'rmark ' + (r.correct ? 'self' : 'revealed');
         mark.textContent = r.correct ? '✓' : '✗';
