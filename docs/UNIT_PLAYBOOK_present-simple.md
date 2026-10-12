@@ -64,3 +64,15 @@ Target: Learner Review mean ≥ 9.5, every criterion ≥ 9.0, from a real retest
 
 ## 7. While the site is in maintenance
 - `related` links in the live lessons may only point to live slugs (see `functions/_middleware.js` LIVE_SLUGS); everything else shows "coming soon" (503). Re-add the full related lists when a unit goes live.
+
+---
+
+## Procés per a cada lliçó nova (afegit 2026-10-12)
+
+Llista de control completa: `docs/HUBESOL_Checklist_pre-entrega_v1.md` (30 regles de contingut C-01…C-30 + 14 tècniques T-01…T-14; Doc Drive `grok_out` ID `1tJf649tcyody3tEFMYdfzGGwaQbtYLljSMN3ikhhAoc`).
+
+1. **Abans de construir res:** deixar en un Doc (a `claude_out/`) les frases, opcions, pistes, feedbacks i l'explicació. Grok el revisa amb les regles `[TEXT]` i anota els incompliments per ID de regla.
+2. **Corregir el Doc** i només llavors generar lliçó, quiz i practice.
+3. **Abans de dir que la lliçó està llesta:** passar tota la llista (C-xx i T-xx) a mà, ítem per ítem, i corregir.
+4. Grok fa una passada completa al primer test; els retests només comproven les regles que han fallat + regressió.
+5. Publicar (`LIVE_SLUGS`) només amb Learner Review ≥ 9,5.
