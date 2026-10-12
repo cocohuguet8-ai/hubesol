@@ -67,12 +67,18 @@ Target: Learner Review mean ≥ 9.5, every criterion ≥ 9.0, from a real retest
 
 ---
 
-## Procés per a cada lliçó nova (afegit 2026-10-12)
+## Procés per a cada lliçó nova (revisat 2026-10-12, v2 amb tests automàtics)
 
-Llista de control completa: `docs/HUBESOL_Checklist_pre-entrega_v1.md` (30 regles de contingut C-01…C-30 + 14 tècniques T-01…T-14; Doc Drive `grok_out` ID `1tJf649tcyody3tEFMYdfzGGwaQbtYLljSMN3ikhhAoc`).
+Llista de control completa: `docs/HUBESOL_Checklist_pre-entrega_v1.md` (C-01…C-30 contingut + T-01…T-14 tècniques). Contracte dels components: `docs/COMPONENT_CONTRACT.md`.
 
-1. **Abans de construir res:** deixar en un Doc (a `claude_out/`) les frases, opcions, pistes, feedbacks i l'explicació. Grok el revisa amb les regles `[TEXT]` i anota els incompliments per ID de regla.
-2. **Corregir el Doc** i només llavors generar lliçó, quiz i practice.
-3. **Abans de dir que la lliçó està llesta:** passar tota la llista (C-xx i T-xx) a mà, ítem per ítem, i corregir.
-4. Grok fa una passada completa al primer test; els retests només comproven les regles que han fallat + regressió.
-5. Publicar (`LIVE_SLUGS`) només amb Learner Review ≥ 9,5.
+1. **Text primer.** Frases, opcions, pistes, feedbacks i explicacions en un Doc a `claude_out/`. Grok revisa amb les regles `[TEXT]` (ID de regla per incompliment). Es corregeix el Doc i només llavors es construeix.
+2. **Build + proves automàtiques (Claude, obligatori):** `npm run lint && npm run build && npm run e2e` en verd, en local i al CI (checks «validate» + «e2e» + «Cloudflare Pages»). Claude adjunta l'informe (n.º de comprovacions i 0 errors) al Doc. **Mai «llesta» només amb el build.**
+3. **Bugs de component:** s'arreglen al moment, al component compartit (no lliçó a lliçó) i s'afegeix el requisit a `COMPONENT_CONTRACT.md` + una comprovació a `scripts/e2e.mjs`. Un bug que ja ha sortit un cop no pot tornar a sortir.
+4. **Una sola passada de Grok** (Learner Review + QA) només sobre el que els tests NO cobreixen (vegeu avall). Els retests: només els fallits + regressió.
+5. **Publicar** (`LIVE_SLUGS`) només amb Learner Review ≥ 9,5.
+
+### Què cobreix l'automàtic (`npm run e2e`, 610 comprovacions a 10 units)
+Consola neta (T-01), activitats de principi a fi amb les respostes del JSON i puntuació màxima (T-04, T-05), Check buit (T-08), pantalla final amb veredicte, focus a «Play again» i focus a cada pregunta de Beat the clock (T-10), títol visible i focus en reiniciar (T-10, T-11), revisions amb «You wrote»/«Your answer» (C-xx revisió), comes a les ordres acceptades (C-24), Matching complet. `npm run lint`: cometes tipogràfiques dins de codi.
+
+### Què NO cobreix (queda per a Grok/Coco)
+Enllaços i www→apex en producció (T-02, T-03), Teacher mode en incògnit (T-12), contrast (T-13), mides 44 px i prova al mòbil real (T-14, Coco), anell de focus visual (T-09), Beat the clock amb temps esgotat (T-06), criteri didàctic: dues respostes defensables, naturalitat, nivell (C-xx; Learner Review).
