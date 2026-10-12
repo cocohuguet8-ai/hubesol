@@ -4,10 +4,10 @@ description: "How to form the past continuous, when to use it, and the mistakes 
 level: "A2"
 hub: "Verb Tenses"
 hubSlug: "verb-tenses"
-answerBox: "The past continuous (was/were + verb-ing) describes an action in progress at a moment in the past (At eight o’clock last night I was cooking), a longer action interrupted by a shorter one (I was reading when the phone rang), and two actions happening at the same time. Use was with I/he/she/it and were with you/we/they."
+answerBox: "The past continuous (was/were + verb-ing) describes an action in progress at a moment in the past (At eight o’clock last night, I was cooking), a longer action interrupted by a shorter one (I was reading when the phone rang), and two actions happening at the same time. Use was with I/he/she/it and were with you/we/they."
 answerLead: "The past continuous (was/were + verb-ing) is for an action in progress in the past. Use it for:"
 answerPoints:
-  - "An action in progress at a past moment — At eight o’clock last night I was cooking dinner."
+  - "An action in progress at a past moment — At eight o’clock last night, I was cooking dinner."
   - "A longer action interrupted by a shorter one — I was reading when the phone rang."
   - "Two actions at the same time — She was singing while he was cooking."
 answerNote: "Use was with I/he/she/it and were with you/we/they. The short action that interrupts takes the past simple (the phone rang)."

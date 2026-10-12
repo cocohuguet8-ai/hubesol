@@ -322,6 +322,44 @@ const uid = 'gf';
       return issues.join(' ');
     }
 
+
+    // ---- past-continuous diagnosis: was/were + -ing (wasn’t/weren’t, also “was not”) ----
+    const PAC_AUX = ["was", "were", "wasn’t", "weren’t"];
+    const PAC_SWAP = [["was", "were"], ["wasn’t", "weren’t"]];
+    function pacWords(text) {
+      const t = String(text).replace(/[’‘`]/g, "'").toLowerCase().replace(/\bwas not\b/g, "wasn't").replace(/\bwere not\b/g, "weren't").replace(/'/g, "’");
+      return t.split(/\s+/).filter(Boolean);
+    }
+    function pacParse(words) {
+      for (let i = 0; i < words.length; i++) {
+        if (PAC_AUX.indexOf(words[i]) !== -1) return { aux: words[i], rest: words.slice(0, i).concat(words.slice(i + 1)).join(' ') };
+      }
+      return { aux: null, rest: words.join(' ') };
+    }
+    function diagnosePastContinuousText(rawText, correctText) {
+      const uw = pacWords(rawText);
+      if (uw.length === 0) return "You left it blank — the past continuous needs was/were plus the -ing form.";
+      const u = pacParse(uw), c = pacParse(pacWords(correctText));
+      const issues = [];
+      if (!u.aux) {
+        issues.push("Don’t forget the auxiliary (" + c.aux + ") before the -ing form.");
+      } else if (u.aux !== c.aux) {
+        const swap = PAC_SWAP.some((p) => (p[0] === u.aux && p[1] === c.aux) || (p[1] === u.aux && p[0] === c.aux));
+        issues.push(swap ? "Was/were mistake: the auxiliary should be “" + c.aux + "”, not “" + u.aux + "”." : "Check the auxiliary — it should be “" + c.aux + "”.");
+      }
+      if (u.rest !== c.rest && c.rest) {
+        const ur = u.rest.split(' '), cr = c.rest.split(' ');
+        if (ur.join(' ') !== cr.join(' ')) {
+          const ul = ur[ur.length - 1] || '', cl = cr[cr.length - 1] || '';
+          if (ul !== cl && ul.slice(-3) !== 'ing' && cl.slice(-3) === 'ing') issues.push("This needs the -ing form.");
+          else if (ul !== cl) issues.push("Check the spelling of the -ing form — it should be “" + cl + "”.");
+          else issues.push("Check the word order — it should be “" + correctText + "”.");
+        }
+      }
+      if (issues.length === 0) return "Check the verb form — it should be “" + correctText + "”.";
+      return issues.join(' ');
+    }
+
     // ---- article diagnosis (a/an vs one) ----
     function diagnoseArticle(rawText, correctText) {
       const u = rawText.toLowerCase().trim().replace(/\s+/g, ' ');
@@ -369,6 +407,7 @@ const uid = 'gf';
       if (tense === 'past-perfect') return diagnosePastPerfect(rawText, q);
       if (tense === 'present-perfect') return diagnosePresentPerfect(rawText, q);
       if (tense === 'present-continuous') return diagnosePresentContinuous(rawText, q);
+      if (tense === 'past-continuous') return diagnosePastContinuousText(rawText, q.display);
       if (tense === 'present-simple') {
         const m = diagnosePresentSimple(rawText, q);
         if (m) return m;

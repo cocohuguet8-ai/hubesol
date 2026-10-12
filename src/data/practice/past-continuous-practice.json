@@ -30,7 +30,7 @@
       {
         "use": "Past moment",
         "before": "This time last week, we",
-        "after": "on the beach.",
+        "after": "in the sun by the pool.",
         "hint": "(lie)",
         "answers": [
           "were lying"
@@ -192,7 +192,7 @@
       },
       {
         "use": "Negative",
-        "before": "When the teacher gave the instructions, we",
+        "before": "When the teacher explained the homework, we",
         "after": "attention — we were looking out of the window.",
         "hint": "(not / pay)",
         "answers": [
@@ -202,7 +202,7 @@
           "weren’t paying"
         ],
         "display": "weren’t paying",
-        "explain": "When the teacher spoke, the action wasn’t in progress: we were doing something else. ‘We’ takes weren’t + -ing."
+        "explain": "When the teacher explained, the action wasn’t in progress: we were doing something else. ‘We’ takes weren’t + -ing."
       },
       {
         "use": "Question",
@@ -838,15 +838,15 @@
         "use": "Past moment",
         "text": "At eight o’clock last night, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV and my brother was doing his homework.",
         "choices": [
-          "watched",
           "was watching",
+          "watched",
           "am watching",
           "were watching"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "‘Watched’ is past simple. At eight o’clock last night the action was in progress, so use the past continuous.",
           "",
+          "‘Watched’ is past simple. At eight o’clock last night the action was in progress, so use the past continuous.",
           "Wrong tense: ‘am watching’ is present, but this happened in the past.",
           "Was/were mistake: ‘I’ takes ‘was’, not ‘were’."
         ],
@@ -856,17 +856,17 @@
         "use": "Interrupted action",
         "text": "I was having a shower when the phone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "rang",
+          "had rung",
           "was ringing",
           "rings",
-          "had rung"
+          "rang"
         ],
-        "correct": 0,
+        "correct": 3,
         "wrongReasons": [
-          "",
+          "‘Had rung’ is past perfect: it would mean the phone rang before the shower.",
           "The short action that interrupts takes the past simple: ‘rang’, not ‘was ringing’.",
           "Wrong tense: ‘rings’ is present, but this happened in the past.",
-          "‘Had rung’ is past perfect: it would mean the phone rang before the shower."
+          ""
         ],
         "explain": "The short action that interrupts the longer one is past simple: rang."
       },
@@ -875,15 +875,15 @@
         "text": "At three o’clock yesterday afternoon, she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a book and the baby was sleeping.",
         "choices": [
           "read",
-          "was reading",
           "is reading",
+          "was reading",
           "were reading"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
           "‘Read’ is past simple. At three o’clock the action was in progress, so use the past continuous.",
-          "",
           "Wrong tense: ‘is reading’ is present, but this happened in the past.",
+          "",
           "Was/were mistake: ‘she’ takes ‘was’, not ‘were’."
         ],
         "explain": "An action in progress at a specific past time (three o’clock yesterday afternoon) takes the past continuous."
@@ -892,15 +892,15 @@
         "use": "Interrupted action",
         "text": "The students were writing when the fire alarm <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "went off",
           "was going off",
+          "went off",
           "goes off",
           "had gone off"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "The short action that interrupts takes the past simple: ‘went off’.",
+          "",
           "Wrong tense: ‘goes off’ is present, but this happened in the past.",
           "‘Had gone off’ is past perfect: it would mean the alarm sounded before they wrote."
         ],
@@ -910,15 +910,15 @@
         "use": "State verbs",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new bike, so he saved money all year.",
         "choices": [
-          "wanted",
           "was wanting",
+          "wanted",
           "wants",
           "has wanted"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "‘Want’ is a state verb, so it doesn’t take the continuous.",
+          "",
           "Wrong tense: ‘wants’ is present, but this happened in the past.",
           "‘Has wanted’ is present perfect. The story is finished: ‘wanted’."
         ],
@@ -928,15 +928,15 @@
         "use": "Was or were",
         "text": "The twins <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> arguing when Mum walked in.",
         "choices": [
-          "was",
           "were",
+          "was",
           "have been",
           "are"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Was/were mistake: ‘the twins’ (they) takes ‘were’, not ‘was’.",
           "",
+          "Was/were mistake: ‘the twins’ (they) takes ‘were’, not ‘was’.",
           "‘Have been’ + -ing is present perfect continuous, but ‘when Mum walked in’ is a finished past time: ‘were’.",
           "Wrong tense: ‘are’ is present, but this happened in the past."
         ],
@@ -944,19 +944,19 @@
       },
       {
         "use": "Was or were",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you sleeping when I called last night?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you sleeping when I knocked on your door last night?",
         "choices": [
           "Was",
-          "Were",
+          "Are",
           "Is",
-          "Are"
+          "Were"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
           "Was/were mistake: ‘you’ takes ‘Were’, not ‘Was’.",
-          "",
+          "Wrong tense: ‘Are’ is present, but this happened in the past.",
           "‘Is’ is present and goes with he/she/it. Here it’s past and the subject is ‘you’: ‘Were’.",
-          "Wrong tense: ‘Are’ is present, but this happened in the past."
+          ""
         ],
         "explain": "‘You’ takes ‘were’. Questions put was/were first."
       },
@@ -965,15 +965,15 @@
         "text": "When I looked out of the window, Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the car and Mum was packing the bags.",
         "choices": [
           "washed",
-          "was washing",
           "is washing",
+          "was washing",
           "were washing"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
           "‘Washed’ is past simple. When I looked out, the washing was already in progress: ‘was washing’.",
-          "",
           "Wrong tense: ‘is washing’ is present, but this happened in the past.",
+          "",
           "Was/were mistake: ‘Dad’ takes ‘was’, not ‘were’."
         ],
         "explain": "When I looked out, the washing was already in progress."
@@ -982,16 +982,16 @@
         "use": "Interrupted action",
         "text": "He was running for the bus when he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his phone.",
         "choices": [
-          "dropped",
-          "was dropping",
           "drops",
+          "was dropping",
+          "dropped",
           "had dropped"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "The short action that interrupts takes the past simple: ‘dropped’.",
           "Wrong tense: ‘drops’ is present, but this happened in the past.",
+          "The short action that interrupts takes the past simple: ‘dropped’.",
+          "",
           "‘Had dropped’ is past perfect: it would mean he dropped it before running."
         ],
         "explain": "The short action that interrupts is past simple: dropped."
@@ -1018,15 +1018,15 @@
         "use": "Was or were",
         "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you doing when the lights went out?",
         "choices": [
-          "was",
           "were",
+          "was",
           "is",
           "are"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Was/were mistake: ‘you’ takes ‘were’, not ‘was’.",
           "",
+          "Was/were mistake: ‘you’ takes ‘were’, not ‘was’.",
           "‘Is’ is present and goes with he/she/it. ‘You’ in the past takes ‘were’.",
           "Wrong tense: ‘are’ is present, but this happened in the past."
         ],
@@ -1036,17 +1036,17 @@
         "use": "Interrupted action",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the garden when she heard a strange noise.",
         "choices": [
-          "was working",
+          "is working",
           "were working",
           "worked",
-          "is working"
+          "was working"
         ],
-        "correct": 0,
+        "correct": 3,
         "wrongReasons": [
-          "",
+          "Wrong tense: ‘is working’ is present, but this happened in the past.",
           "Was/were mistake: ‘she’ takes ‘was’, not ‘were’.",
           "Wrong tense: ‘worked’ is past simple. The action was already in progress, so use the past continuous.",
-          "Wrong tense: ‘is working’ is present, but this happened in the past."
+          ""
         ],
         "explain": "The long action in progress is past continuous; ‘heard’ is the short action that interrupts."
       },
@@ -1055,16 +1055,16 @@
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> football in the park when it started to snow, so they stopped the match.",
         "choices": [
           "played",
-          "were playing",
+          "was playing",
           "are playing",
-          "was playing"
+          "were playing"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
           "Wrong tense: ‘played’ is past simple. The action was already in progress, so use the past continuous.",
-          "",
+          "Was/were mistake: ‘they’ takes ‘were’, not ‘was’.",
           "Wrong tense: ‘are playing’ is present, but this happened in the past.",
-          "Was/were mistake: ‘they’ takes ‘were’, not ‘was’."
+          ""
         ],
         "explain": "The match was in progress when the snow started."
       },
@@ -1073,15 +1073,15 @@
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that you were busy, so I didn’t call.",
         "choices": [
           "was knowing",
-          "knew",
           "know",
+          "knew",
           "have known"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
           "‘Know’ is a state verb, so it doesn’t take the continuous.",
-          "",
           "Wrong tense: ‘know’ is present, but this happened in the past.",
+          "",
           "‘Have known’ is present perfect. This is a finished moment in the past: ‘knew’."
         ],
         "explain": "State verbs like know use the past simple."
@@ -1126,52 +1126,52 @@
         "use": "Interrupted action",
         "text": "Lisa <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV when her mum came in, so she turned it off.",
         "choices": [
-          "watched",
           "was watching",
+          "watched",
           "is watching",
           "were watching"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong tense: ‘watched’ is past simple. The action was already in progress, so use the past continuous.",
           "",
+          "Wrong tense: ‘watched’ is past simple. The action was already in progress, so use the past continuous.",
           "Wrong tense: ‘is watching’ is present, but this happened in the past.",
           "Was/were mistake: ‘Lisa’ takes ‘was’, not ‘were’."
         ],
         "explain": "The TV watching was in progress when her mum came in."
       },
       {
-        "use": "Interrupted action",
+        "use": "Past moment",
         "text": "When the teacher came back, she saw that the children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> quietly.",
         "choices": [
-          "were working",
+          "work",
           "was working",
           "worked",
-          "work"
+          "were working"
         ],
-        "correct": 0,
+        "correct": 3,
         "wrongReasons": [
-          "",
+          "Wrong tense: ‘work’ is present, but this happened in the past.",
           "Was/were mistake: ‘the children’ takes ‘were’, not ‘was’.",
           "Wrong tense: ‘worked’ is past simple. The action was already in progress, so use the past continuous.",
-          "Wrong tense: ‘work’ is present, but this happened in the past."
+          ""
         ],
-        "explain": "The children’s work was in progress when the teacher saw them."
+        "explain": "The children’s work was in progress at the moment the teacher came back."
       },
       {
         "use": "Interrupted action",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the stairs with two heavy bags when my phone rang.",
         "choices": [
-          "was climbing",
-          "were climbing",
           "climbed",
+          "were climbing",
+          "was climbing",
           "am climbing"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "Was/were mistake: ‘I’ takes ‘was’, not ‘were’.",
           "Wrong tense: ‘climbed’ is past simple. The action was already in progress, so use the past continuous.",
+          "Was/were mistake: ‘I’ takes ‘was’, not ‘were’.",
+          "",
           "Wrong tense: ‘am climbing’ is present, but this happened in the past."
         ],
         "explain": "The longer action (climbing) was in progress; ‘rang’ is the short action that interrupts it."
@@ -1180,15 +1180,15 @@
         "use": "Past moment",
         "text": "At eleven last night it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> heavily, so we took a taxi home from the party.",
         "choices": [
-          "was raining",
           "were raining",
+          "was raining",
           "rained",
           "is raining"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "Was/were mistake: ‘it’ takes ‘was’, not ‘were’.",
+          "",
           "Wrong tense: ‘rained’ is past simple. The action was already in progress, so use the past continuous.",
           "Wrong tense: ‘is raining’ is present, but this happened in the past."
         ],
@@ -1431,10 +1431,12 @@
         "tokens": [
           "Was",
           "they",
-          "waiting",
-          "for",
-          "us",
-          "outside?"
+          "playing",
+          "outside",
+          "when",
+          "it",
+          "got",
+          "dark?"
         ],
         "errorIndex": 0,
         "correction": "Were",
@@ -1446,7 +1448,7 @@
           "Why",
           "were",
           "she",
-          "crying",
+          "shouting",
           "when",
           "you",
           "saw",
@@ -1455,7 +1457,7 @@
         "errorIndex": 1,
         "correction": "was",
         "type": "Was or were",
-        "message": "‘She’ takes ‘was’, not ‘were’: Why was she crying…?"
+        "message": "‘She’ takes ‘was’, not ‘were’: Why was she shouting…?"
       },
       {
         "tokens": [
@@ -1692,7 +1694,7 @@
       {
         "type": "ing",
         "use": "Spelling & form",
-        "text": "The kids {{blank}} in the pool when it started to rain.",
+        "text": "The kids {{blank}} in the pool when their dad called them for lunch.",
         "hintVerb": "(swim)",
         "choices": [
           "were swiming",
