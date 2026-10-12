@@ -238,10 +238,10 @@ const uid = 'tm';
       } else {
         feedback.className = 'practice-feedback show bad';
         if (index === -1) {
-          feedback.innerHTML = '<b>Time\'s up.</b> The answer was "' + q.choices[q.correct] + '". ' + q.explain;
+          feedback.innerHTML = '<b>Time’s up.</b> The answer was “' + q.choices[q.correct] + '”. ' + q.explain;
         } else {
           const reason = q.wrongReasons[index] || '';
-          feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was "' + q.choices[q.correct] + '".';
+          feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was “' + q.choices[q.correct] + '”.';
         }
       }
 

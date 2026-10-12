@@ -102,16 +102,17 @@ const { quiz, next, back } = Astro.props;
       btn.disabled = true;
       explEl.hidden = false;
       explEl.classList.remove('good', 'bad');
+      const expl = /\?\s*$/.test(raw.trim()) ? q.dataset.expl.replace(' Remember the question mark.', '') : q.dataset.expl;
       if (ok) {
         correct++;
         input.classList.add('correct');
         explEl.classList.add('good');
-        explEl.textContent = '✅ ' + q.dataset.expl;
+        explEl.textContent = '✅ ' + expl;
       } else {
         input.classList.add('wrong');
         explEl.classList.add('bad');
         const hit = common.find((c) => norm(c.answer) === norm(raw));
-        explEl.textContent = '❌ You wrote “' + raw.trim().replace(/[.!?]+$/, '') + '”. ' + (hit ? hit.why + ' ' : '') + 'Correct answer: “' + answers[0].replace(/[.!?]+$/, '') + '”. ' + q.dataset.expl;
+        explEl.textContent = '❌ You wrote “' + raw.trim().replace(/[.!]+$/, '') + '”. ' + (hit ? hit.why + ' ' : '') + 'Correct answer: “' + answers[0].replace(/[.!]+$/, '') + '”. ' + expl;
       }
       answered++;
       finish();

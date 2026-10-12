@@ -105,7 +105,7 @@ const uid = 'wo';
     const LOWER_OK = new Set(('a an the this that these those my your his her its our their some any every each no ' +
       'i you he she it we they there here what when where why who whom whose which how ' +
       'am is are was were be been do does did have has had will would can could should must ' +
-      "don't doesn't didn't isn't aren't wasn't weren't haven't hasn't hadn't won't can't " +
+      "don’t doesn’t didn’t isn’t aren’t wasn’t weren’t haven’t hasn’t hadn’t won’t can’t " +
       'not never always usually often sometimes yesterday today tomorrow last next this tonight ' +
       'at in on by for since after before while as if because during until ' +
       'one only both all most many much several first then').split(' '));
@@ -215,7 +215,7 @@ const uid = 'wo';
 
     // diagnoseOrder — ported verbatim per style from the approved word-order
     // prototypes. "literal" style (past-simple / past-perfect) names the
-    // actual missing auxiliary token and has a distinct "don't forget X"
+    // actual missing auxiliary token and has a distinct "don’t forget X"
     // message when the auxiliary is missing entirely. "label" style
     // (present-perfect / present-continuous) always names a fixed label
     // like "have/has" and merges the missing/misplaced cases.
@@ -224,8 +224,8 @@ const uid = 'wo';
     function genericOrderHint(builtWords, correctWords) {
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      if (i === 0) return "Check how the sentence starts — think about which word comes first.";
-      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (\"" + correctWords.slice(0, i).join(' ') + "\"). Check what comes next.";
+      if (i === 0) return "Try starting with “" + correctWords[0] + "” — then think about what comes next.";
+      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
     const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
@@ -239,30 +239,30 @@ const uid = 'wo';
       if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
 
       // Always name the auxiliary that is actually in this sentence (never a fixed
-      // label that may not match it, e.g. "do/does" for "don't").
+      // label that may not match it, e.g. "do/does" for "don’t").
       const aux = correctWords[cIdx];
       const first = (correctWords[0] || '').toLowerCase();
       const afterWh = cIdx >= 1 && cIdx <= 2 && WH_WORDS.indexOf(first) !== -1;
       const whPhrase = correctWords.slice(0, cIdx).join(' ');
 
       if (bIdx === -1) {
-        return "Don't forget \"" + aux + "\" in this sentence.";
+        return "Don’t forget “" + aux + "” in this sentence.";
       }
       if (bIdx !== cIdx) {
         if (cIdx > 0 && !afterWh && (builtWords[0] || '').toLowerCase() !== (correctWords[0] || '').toLowerCase()) return genericOrderHint(builtWords, correctWords);
-        if (cIdx === 0) return "In a question, \"" + aux + "\" comes first, before the subject.";
-        if (afterWh) return "In a question with \"" + whPhrase + "\", \"" + aux + "\" comes right after it, before the subject.";
-        return "\"" + aux + "\" goes right after the subject, not somewhere else.";
+        if (cIdx === 0) return "In a question, “" + aux + "” comes first, before the subject.";
+        if (afterWh) return "In a question with “" + whPhrase + "”, “" + aux + "” comes right after it, before the subject.";
+        return "“" + aux + "” goes right after the subject, not somewhere else.";
       }
       if (cIdx === 0 && /ing$/.test(correctWords[2] || '')) {
-        return "A question follows this order: \"" + aux + "\" + subject + -ing verb + the rest.";
+        return "A question follows this order: “" + aux + "” + subject + -ing verb + the rest.";
       }
       let nIdx = cIdx + 1;
       if (/^not$/i.test(correctWords[nIdx] || '')) nIdx++;
       if (cIdx > 0 && /ing$/.test(correctWords[nIdx] || '') && builtWords[nIdx] !== correctWords[nIdx]) {
-        return "After \"" + correctWords.slice(cIdx, nIdx).join(' ') + "\", the -ing verb comes next.";
+        return "After “" + correctWords.slice(cIdx, nIdx).join(' ') + "”, the -ing verb comes next.";
       }
-      return "Check the order of the words after \"" + aux + "\".";
+      return "Check the order of the words after “" + aux + "”.";
     }
 
     // Ignore capital letters and punctuation when comparing, so that the
@@ -292,12 +292,12 @@ const uid = 'wo';
 
       if (isCorrect) {
         feedback.classList.add('show', 'ok');
-        feedback.innerHTML = '<b>Correct.</b> That\'s the right word order.';
+        feedback.innerHTML = '<b>Correct.</b> That’s the right word order.';
         score++;
       } else {
         feedback.classList.add('show', 'bad');
         feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, q.tokens)
-          + ' The correct sentence is: "' + q.tokens.join(' ') + '"';
+          + ' The correct sentence is: “' + q.tokens.join(' ') + '”';
       }
 
       const yoursStr = builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens);

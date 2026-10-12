@@ -19,8 +19,8 @@ faq:
     a: "Use did/didn't + the base verb: She didn't go. Did you go? The word 'did' carries the past, so the main verb stays in its base form. The verb be is the exception: She wasn't there. Were you there?"
   - q: "How do I know if a verb is regular or irregular?"
     a: "Regular verbs add -ed (worked, played). Irregular verbs change form and must be memorised (go → went, see → saw, buy → bought). Many of the most common English verbs are irregular."
-  - q: "What is the difference between the past simple and 'used to'?"
-    a: "Both describe finished past habits. 'Used to' stresses that something is no longer true (I used to smoke). The past simple just states the fact (I smoked for years)."
+  - q: "What is the difference between the past simple and ‘used to’?"
+    a: "Both describe finished past habits. ‘Used to’ stresses that something is no longer true (I used to smoke). The past simple just states the fact (I smoked for years)."
 teacherObjectives:
   - "Can form affirmative, negative and interrogative past simple sentences with regular and irregular verbs, including the verb be (CEFR A2)."
   - "Can spell regular past forms correctly (-ed, -ied, consonant doubling)."
