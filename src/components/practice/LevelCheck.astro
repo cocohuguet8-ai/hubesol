@@ -495,6 +495,12 @@ const uid = 'lc';
 
     function checkFill(it, input) {
       if (answered) return;
+      if (!input.value.trim()) {
+        feedback.className = 'practice-feedback show bad';
+        feedback.textContent = 'Type your answer first — even a guess helps.';
+        input.focus();
+        return;
+      }
       answered = true;
       const raw = input.value;
       const norm = normalize(raw);
@@ -831,6 +837,7 @@ const uid = 'lc';
     function showScore() {
       quizArea.style.display = 'none';
       scoreScreen.classList.add('show');
+      restartBtn.focus({ preventScroll: true });
       const total = totalScore();
       document.getElementById(`${uid}-finalScore`).textContent = total + '/' + items.length;
 
@@ -892,6 +899,13 @@ const uid = 'lc';
     }
 
     restartBtn.addEventListener('click', startQuiz);
+
+    // Restart: bring the top of the activity into view (below the sticky header) and put keyboard focus on its first control.
+    restartBtn.addEventListener('click', () => {
+      document.getElementById(uid).scrollIntoView({ block: 'start' });
+      const first = quizArea.querySelector('button:not([disabled]), input:not([disabled])');
+      if (first) first.focus({ preventScroll: true });
+    });
     startQuiz();
   }
 

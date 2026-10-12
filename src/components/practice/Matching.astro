@@ -167,7 +167,7 @@ const uid = 'mt';
       const isMatch = selectedLeft.match === item.word;
 
       if (isMatch) {
-        const leftEl = leftCol.querySelector('[data-id=“' + selectedLeft.id + '”]');
+        const leftEl = leftCol.querySelector('[data-id="' + selectedLeft.id + '"]');
         leftEl.classList.remove('selected');
         leftEl.classList.add('matched');
         if (!categoryMode) el.classList.add('matched');
@@ -181,7 +181,7 @@ const uid = 'mt';
         feedback.className = 'practice-feedback show bad';
         feedback.innerHTML = '<b>Not quite.</b> “' + item.word + '” doesn’t match “' + selectedLeft.word + '” — try another pair.';
         setTimeout(() => { el.classList.remove('wrongflash'); }, 450);
-        const leftEl = leftCol.querySelector('[data-id=“' + selectedLeft.id + '”]');
+        const leftEl = leftCol.querySelector('[data-id="' + selectedLeft.id + '"]');
         if (leftEl) leftEl.classList.remove('selected');
         selectedLeft = null;
       }
@@ -196,6 +196,7 @@ const uid = 'mt';
     function showScore() {
       quizArea.style.display = 'none';
       scoreScreen.classList.add('show');
+      restartBtn.focus({ preventScroll: true });
       document.getElementById(`${uid}-finalScore`).textContent = attempts + ' attempts';
       const label = document.getElementById(`${uid}-finalLabel`);
       if (attempts === pairs.length) label.textContent = 'Perfect — every match first try.';
@@ -220,6 +221,13 @@ const uid = 'mt';
     }
 
     restartBtn.addEventListener('click', init);
+
+    // Restart: bring the top of the activity into view (below the sticky header) and put keyboard focus on its first control.
+    restartBtn.addEventListener('click', () => {
+      document.getElementById(uid).scrollIntoView({ block: 'start' });
+      const first = quizArea.querySelector('button:not([disabled]), input:not([disabled])');
+      if (first) first.focus({ preventScroll: true });
+    });
     init();
   }
 

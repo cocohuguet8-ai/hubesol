@@ -157,6 +157,8 @@ const uid = 'tm';
         b.addEventListener('click', () => selectAnswer(i, b));
         optionsList.appendChild(b);
       });
+      const firstOpt = optionsList.querySelector('.timedmc-opt');
+      if (firstOpt) firstOpt.focus({ preventScroll: true });
 
       remainingMs = TIME_LIMIT * 1000;
       timeLeft = TIME_LIMIT;
@@ -265,6 +267,7 @@ const uid = 'tm';
       stopTimer();
       quizArea.style.display = 'none';
       scoreScreen.classList.add('show');
+      restartBtn.focus({ preventScroll: true });
       document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
       const label = document.getElementById(`${uid}-finalLabel`);
       if (score === questions.length) label.textContent = 'Perfect score.';
