@@ -437,9 +437,15 @@ const uid = 'gf';
 
     function checkAnswer() {
       if (answered) return;
-      answered = true;
       const q = questions[idx];
       const input = document.getElementById(`${uid}-blankInput`);
+      if (!input.value.trim()) {
+        const fb = document.getElementById(`${uid}-feedback`);
+        if (fb) { fb.className = 'practice-feedback show bad'; fb.textContent = 'Type your answer first — even a guess helps.'; }
+        input.focus({ preventScroll: true });
+        return;
+      }
+      answered = true;
       const raw = input.value;
       const norm = normalize(raw);
       const matchKind = matchesAnswers(raw, q.answers, q.before);

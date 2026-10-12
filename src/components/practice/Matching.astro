@@ -155,10 +155,10 @@ const uid = 'mt';
     function onRightClick(item, el) {
       if (el.classList.contains('matched')) return;
       if (!selectedLeft) {
-        if (categoryMode) {
-          feedback.className = 'practice-feedback show';
-          feedback.textContent = 'First tap an item on the left, then the category it belongs to.';
-        }
+        feedback.className = 'practice-feedback show';
+        feedback.textContent = categoryMode
+          ? 'First tap an item on the left, then the category it belongs to.'
+          : 'First tap an item on the left, then its match on the right.';
         return;
       }
 

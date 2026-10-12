@@ -122,11 +122,13 @@ const uid = 'tm';
       feedback.className = 'practice-feedback'; feedback.textContent = '';
       actionsRow.style.display = 'none';
       startRow.style.display = '';
+      quizArea.classList.add('timedmc-prestart');
     }
 
     startBtn.addEventListener('click', () => {
       if (started) return;
       started = true;
+      quizArea.classList.remove('timedmc-prestart');
       startRow.style.display = 'none';
       setQuestionVisible(true);
       showQuestion();
@@ -246,6 +248,7 @@ const uid = 'tm';
       scoreText.textContent = 'Score: ' + score;
       actionsRow.style.display = 'flex';
       // Keep feedback and the Next button on screen (iOS: Next fell below the fold).
+      nextBtn.focus({ preventScroll: true });
       requestAnimationFrame(() => { actionsRow.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); });
     }
 
@@ -267,6 +270,7 @@ const uid = 'tm';
       if (score === questions.length) label.textContent = 'Perfect score.';
       else if (score >= questions.length * 0.7) label.textContent = 'Solid result.';
       else label.textContent = 'Worth another go.';
+      restartBtn.focus({ preventScroll: true });
 
       const list = document.getElementById(`${uid}-reviewList`);
       list.innerHTML = '';
@@ -299,6 +303,7 @@ const uid = 'tm';
 
     restartBtn.addEventListener('click', () => {
       startQuiz();
+      startBtn.focus({ preventScroll: true });
       // G-001: bring the Start screen back into view after the taller result screen.
       document.getElementById(uid).scrollIntoView({ block: 'start' });
     });

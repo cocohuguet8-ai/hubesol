@@ -602,3 +602,12 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .gapfill-gap .gapfill-hint { flex: none; }
 .practice-actions { scroll-margin-bottom: 1.5rem; }
 .practice-review-item .rarrow{margin-left:.35em}
+
+/* Beat the clock: hide progress/timer until Start is pressed */
+.timedmc-prestart .practice-progress-row,
+.timedmc-prestart .practice-progress-track,
+.timedmc-prestart .timedmc-timer-track { display: none; }
+
+/* Readable placeholder text on the beige background */
+.gapfill-input::placeholder,
+.levelcheck-fill-row input[type="text"]::placeholder { color: #6b7080; opacity: 1; }
