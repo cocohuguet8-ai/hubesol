@@ -160,13 +160,18 @@ const uid = 'wo';
         const t = document.createElement('button');
         t.type = 'button';
         t.className = 'wordorder-tile';
+        t.dataset.word = item.word + '|' + item.id;
         t.textContent = tileLabel(item.word, item.word === questions[idx].tokens[0]);
         t.addEventListener('click', () => {
           if (answered) return;
+          const pos = Array.prototype.indexOf.call(trayZone.children, t);
           item.used = true;
           built.push(item);
           drawTray();
           drawAnswer();
+          const rest = trayZone.children;
+          const target = rest.length ? rest[Math.min(pos, rest.length - 1)] : (checkBtn && !checkBtn.disabled ? checkBtn : null);
+          if (target) target.focus({ preventScroll: true });
         });
         trayZone.appendChild(t);
       });
@@ -191,6 +196,8 @@ const uid = 'wo';
               built = built.filter((b) => b !== item);
               drawTray();
               drawAnswer();
+              const back = Array.prototype.find.call(trayZone.children, (el) => el.dataset.word === item.word + '|' + item.id);
+              if (back) back.focus({ preventScroll: true });
             });
           }
           answerZone.appendChild(t);
