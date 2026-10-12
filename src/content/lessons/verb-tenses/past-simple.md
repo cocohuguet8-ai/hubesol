@@ -67,7 +67,7 @@ The verb *be* has two past forms: **was** (I, he, she, it) and **were** (you, we
 - **I was** tired last night. / **They weren't** at home.
 - **Was** the film good? / **Were** you at the party?
 
-Not ~~Did you be at the party?~~ → **Were you at the party?**
+✗ ~~Did you be at the party?~~ → ✓ **Were you at the party?**
 
 ## When to use the past simple
 
@@ -110,7 +110,11 @@ Vowel + *-y* keeps the *y* (*played, stayed*), and verbs ending in *-w* or *-x* 
 
 ## Pronouncing -ed
 
-The ending is said in three ways: /t/ after *p, k, s, sh, ch* (*worked, stopped, washed*), /d/ after most other sounds (*played, lived, called*) and /ɪd/ after *t* and *d* (*wanted, needed*). Only /ɪd/ adds a syllable.
+The ending is said in three ways. Only /ɪd/ adds a syllable.
+
+- /t/ after *p, k, s, sh, ch*: **worked, stopped, washed**
+- /d/ after most other sounds: **played, lived, called**
+- /ɪd/ after *t* and *d*: **wanted, needed**
 
 ## Signal words
 
@@ -120,7 +124,7 @@ The ending is said in three ways: /t/ after *p, k, s, sh, ch* (*worked, stopped,
 | last week / last year | end of the sentence (or the start) | We met **last week**. |
 | in 2019 | end of the sentence (or the start) | They married **in 2019**. |
 | ago | right after a time period | He left two hours **ago**. |
-| when | start of a clause | **When** I arrived, everyone had gone. |
+| when | start of a clause | **When** I arrived, I called my mum. |
 
 ## Common mistakes
 

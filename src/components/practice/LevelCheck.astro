@@ -156,6 +156,15 @@ const uid = 'lc';
       if (!u) return "You left it blank — even a guess helps you learn the pattern.";
       const uWords = u.split(' ').filter(Boolean);
       const cWords = c.split(' ').filter(Boolean);
+      if (cWords[0] === 'did' && cWords.length > 1) {
+        if (uWords[0] === 'do' || uWords[0] === 'does') return "Past simple questions use <b>did</b>, not do/does.";
+        if (uWords[0] !== 'did') return "A past simple question starts with <b>did</b>.";
+        return "After <b>did</b> the main verb stays in its base form.";
+      }
+      if (c === 'was' || c === 'were') {
+        if (u === 'did') return "Questions with <i>be</i> don't use <b>did</b>: put was/were first.";
+        if (u === 'was' || u === 'were') return "Check the subject: <b>was</b> goes with I/he/she/it, <b>were</b> with you/we/they.";
+      }
       if (c === 'did') {
         if (u === 'do' || u === 'does') return "Past simple questions always use <b>did</b>, not do/does.";
         return "This needs the question auxiliary <b>did</b>.";
@@ -624,7 +633,9 @@ const uid = 'lc';
         feedback.className = 'practice-feedback show bad';
         feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: "' + it.tokens.join(' ') + '"';
       }
-      results.push({ category: 'order', correct: isCorrect, yours: builtWords.join(' '), detail: it.tokens.join(' ') });
+      const endPunct = (it.tokens[it.tokens.length - 1].match(/[.?!]+$/) || [''])[0];
+      const yoursSentence = builtWords.map((w) => w.replace(/[.?!]+$/, '')).join(' ');
+      results.push({ category: 'order', correct: isCorrect, yours: yoursSentence.charAt(0).toUpperCase() + yoursSentence.slice(1) + endPunct, detail: it.tokens.join(' ') });
       scoreText.textContent = 'Score: ' + totalScore();
       document.getElementById(`${uid}-orderClear`).disabled = true;
       document.getElementById(`${uid}-orderCheck`).style.display = 'none';
@@ -682,7 +693,7 @@ const uid = 'lc';
 
     // ---------- ERROR ----------
     function renderError(it) {
-      errMisses = 0;
+      errMisses = 0; errTaps = [];
       const sentence = document.createElement('div');
       sentence.className = 'errorcorrection-sentence';
       sentence.id = `${uid}-errorSentence`;
@@ -737,6 +748,7 @@ const uid = 'lc';
     }
 
     let errMisses = 0;
+    let errTaps = [];
     function onErrorWordClick(it, i, btnEl) {
       if (answered) return;
       if (inSpan(it, i)) {
@@ -749,11 +761,12 @@ const uid = 'lc';
         const corrected = correctedSentence(it);
         feedback.className = 'practice-feedback show ' + (clean ? 'ok' : 'revealed');
         feedback.innerHTML = '<b>' + (clean ? 'Found it.' : 'Found it, but not on the first tap.') + '</b> ' + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
-        results.push({ category: 'error', correct: clean, detail: corrected });
+        results.push({ category: 'error', correct: clean, detail: corrected, yours: errTaps.map((w) => '"' + w + '"').join(', '), yoursLabel: 'You tapped: ' });
         scoreText.textContent = 'Score: ' + totalScore();
         appendNext();
       } else {
         errMisses++;
+        errTaps.push(it.tokens[i]);
         btnEl.classList.add('wrongflash');
         setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 400);
         feedback.className = 'practice-feedback show bad';
@@ -820,7 +833,7 @@ const uid = 'lc';
         const sent = document.createElement('span');
         sent.className = 'rsent';
         sent.textContent = (n + 1) + '. ' + r.detail;
-        if (!r.correct && r.yours) { const y = document.createElement('div'); y.className = 'ryours'; y.textContent = 'You wrote: ' + r.yours; sent.appendChild(y); }
+        if (!r.correct && r.yours) { const y = document.createElement('div'); y.className = 'ryours'; y.textContent = (r.yoursLabel || 'You wrote: ') + r.yours; sent.appendChild(y); }
         const mark = document.createElement('span');
         mark.className = 'rmark ' + (r.correct ? 'self' : 'revealed');
         mark.textContent = r.correct ? '✓' : '✗';
