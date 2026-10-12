@@ -11,3 +11,16 @@ jobs:
         with:
           node-version: 20
       - run: npm run validate
+      - run: npm run lint
+  e2e:
+    # Plays every activity of every unit from its own JSON (docs/COMPONENT_CONTRACT.md).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run e2e
