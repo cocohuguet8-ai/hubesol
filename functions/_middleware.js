@@ -14,6 +14,7 @@ const LIVE_SLUGS = [
   'present-perfect-vs-past-simple',
   'used-to-would',
   'present-continuous',
+  'past-simple', // in test: remove if Learner Review < 9.5
 ];
 const LIVE_PATHS = new Set([
   '/favicon.svg',
