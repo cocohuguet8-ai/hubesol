@@ -7,10 +7,15 @@
     "dev": "astro dev",
     "build": "npm run validate && astro build",
     "preview": "astro preview",
-    "validate": "node scripts/validate-practice.mjs && node scripts/validate-quizzes.mjs"
+    "validate": "node scripts/validate-practice.mjs && node scripts/validate-quizzes.mjs",
+    "e2e": "node scripts/e2e.mjs",
+    "lint": "node scripts/lint-source.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",
     "astro": "^4.16.19"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.1"
   }
 }
