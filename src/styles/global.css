@@ -588,7 +588,7 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .matching-board--categories .matching-col-label { grid-row: auto; }
 .matching-board--categories > div:last-child { position: sticky; top: 6rem; }
 .matching-category { font-weight: 600; text-align: center; }
-.wordorder-end { align-self: flex-end; font-weight: 600; margin-left: -0.15rem; }
+.wordorder-end { align-self: flex-end; font-weight: 600; margin-left: -0.5rem; }
 
 /* Touch targets (Grok: short words like "a" were hard to tap on mobile). */
 .errorcorrection-word { min-width: 44px; min-height: 44px; }
@@ -614,3 +614,5 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 
 /* Activities: keep the title visible under the sticky header after scrollIntoView (Try again / Play again). */
 .gapfill, .wordorder, .errorcorrection, .timedmc, .levelcheck, .matching, .quiz { scroll-margin-top: 5.5rem; }
+.practice-review-item .ryours.ok { color: var(--muted); }
+.practice-review-item .rcorrect { margin-top: 0.15rem; }

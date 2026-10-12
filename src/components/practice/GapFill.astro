@@ -495,7 +495,7 @@ const uid = 'gf';
 
       if (isCorrect) {
         feedback.classList.add('show', 'ok');
-        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech and informal writing we usually say “' + q.display + '”. ' : '') + q.explain;
+        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? '“' + String(raw).trim() + '” = “' + q.display + '” — both forms are right. ' : '') + q.explain;
       } else {
         let specific = diagnose(raw, q);
         // The generic "Check ... — it should be X" line only repeats the correct form: drop it.
@@ -535,9 +535,11 @@ const uid = 'gf';
       progressFill.style.width = '100%';
       document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
       const label = document.getElementById(`${uid}-finalLabel`);
+      const gfPct = score / questions.length;
       if (score === questions.length) label.textContent = 'Perfect score! Review your answers:';
-      else if (score >= questions.length - 3) label.textContent = 'Well done. Review your answers:';
-      else label.textContent = 'Review your answers:';
+      else if (gfPct >= 0.9) label.textContent = 'Strong result. Review your answers:';
+      else if (gfPct >= 0.7) label.textContent = 'Solid result. Review your answers:';
+      else label.textContent = 'Keep practising — read the lesson above, then review your answers:';
 
       const list = document.getElementById(`${uid}-reviewList`);
       list.innerHTML = '';
@@ -548,6 +550,10 @@ const uid = 'gf';
         sent.className = 'rsent';
         const joined = ((r.before ? r.before + ' ' : '') + r.display + (/^[.,;:!?)]/.test(r.after) ? '' : ' ') + r.after).trim();
         sent.textContent = joined.charAt(0).toUpperCase() + joined.slice(1);
+        const y = document.createElement('div');
+        y.className = 'ryours' + (r.correct ? ' ok' : '');
+        y.textContent = 'You wrote: ' + (String(r.given || '').trim() || '(no answer)');
+        sent.appendChild(y);
         const mark = document.createElement('span');
         mark.className = 'rmark ' + (r.correct ? 'ok' : 'bad');
         mark.textContent = r.correct ? '✓' : '✗';
