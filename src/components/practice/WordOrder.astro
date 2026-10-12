@@ -330,6 +330,7 @@ const uid = 'wo';
     function showScore() {
       quizArea.style.display = 'none';
       scoreScreen.classList.add('show');
+      restartBtn.focus({ preventScroll: true });
       progressFill.style.width = '100%';
       document.getElementById(`${uid}-finalScore`).textContent = score + '/' + questions.length;
       const label = document.getElementById(`${uid}-finalLabel`);
@@ -374,6 +375,13 @@ const uid = 'wo';
       scoreScreen.classList.remove('show');
       quizArea.style.display = '';
       render();
+    });
+
+    // Restart: bring the top of the activity into view (below the sticky header) and put keyboard focus on its first control.
+    restartBtn.addEventListener('click', () => {
+      document.getElementById(uid).scrollIntoView({ block: 'start' });
+      const first = quizArea.querySelector('button:not([disabled]), input:not([disabled])');
+      if (first) first.focus({ preventScroll: true });
     });
 
     render();

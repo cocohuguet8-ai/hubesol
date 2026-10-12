@@ -611,3 +611,6 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 /* Readable placeholder text on the beige background */
 .gapfill-input::placeholder,
 .levelcheck-fill-row input[type="text"]::placeholder { color: #6b7080; opacity: 1; }
+
+/* Activities: keep the title visible under the sticky header after scrollIntoView (Try again / Play again). */
+.gapfill, .wordorder, .errorcorrection, .timedmc, .levelcheck, .matching, .quiz { scroll-margin-top: 5.5rem; }

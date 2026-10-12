@@ -166,6 +166,7 @@ const uid = 'ec';
     function showScore() {
       quizArea.style.display = 'none';
       scoreScreen.classList.add('show');
+      restartBtn.focus({ preventScroll: true });
       document.getElementById(`${uid}-finalScore`).textContent = found + '/' + items.length;
       const label = document.getElementById(`${uid}-finalLabel`);
       if (found === items.length) label.textContent = 'Every mistake found without help.';
@@ -192,6 +193,13 @@ const uid = 'ec';
     }
 
     restartBtn.addEventListener('click', startQuiz);
+
+    // Restart: bring the top of the activity into view (below the sticky header) and put keyboard focus on its first control.
+    restartBtn.addEventListener('click', () => {
+      document.getElementById(uid).scrollIntoView({ block: 'start' });
+      const first = quizArea.querySelector('button:not([disabled]), input:not([disabled])');
+      if (first) first.focus({ preventScroll: true });
+    });
     startQuiz();
   }
 
