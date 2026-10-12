@@ -14,6 +14,11 @@ Cada activitat compartida (`src/components/practice/*`, `Quiz.astro`) ha de comp
 | 8 | Ordres acceptades amb coma (ALT) es mostren a la revisió amb la coma | Word order, Level check |
 | 9 | Escriure les respostes canòniques del JSON dona puntuació màxima | totes |
 | 10 | Cap cometa tipogràfica dins de selectors/codi (`[data-id=“x”]`) | codi (lint) |
+| 11 | Enter a una casella fa exactament el mateix que Check (mostra el feedback; només el següent Enter/Next avança) | Fill, Level check |
+| 12 | Peces de 44 px mínim (alçada i amplada) | Word order, Level check |
+| 13 | Resposta en forma llarga acceptada (`was not` = `wasn’t`) diu «both forms are right» | Fill, Level check |
+| 14 | Pantalla final del Quiz: focus a «Try again» i revisió amb «You wrote» | Quiz |
+| 15 | La puntuació final de la frase construïda va enganxada a l'última peça (sense espai) | Word order, Level check |
 
 Pendent de prova manual (no automatitzable): mòbil real, contrast de colors, mida tàctil 44 px, criteri didàctic (Learner Review).
 

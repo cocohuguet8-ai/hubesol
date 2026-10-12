@@ -168,6 +168,7 @@ const uid = 'mt';
 
       if (isMatch) {
         const leftEl = leftCol.querySelector('[data-id="' + selectedLeft.id + '"]');
+        if (!leftEl) { selectedLeft = null; return; }
         leftEl.classList.remove('selected');
         leftEl.classList.add('matched');
         if (!categoryMode) el.classList.add('matched');

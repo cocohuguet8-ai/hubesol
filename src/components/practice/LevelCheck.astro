@@ -453,7 +453,7 @@ const uid = 'lc';
       checkBtn.className = 'practice-btn-primary';
       checkBtn.textContent = 'Check';
       checkBtn.addEventListener('click', () => checkFill(it, input));
-      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') checkFill(it, input); });
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); checkFill(it, input); } });
       actionsRow.appendChild(checkBtn);
       // Never autofocus on page load: it scrolls the page down to the Level check.
       if (idx > 0) setTimeout(() => { input.focus({ preventScroll: true }); }, 50);
@@ -513,7 +513,7 @@ const uid = 'lc';
       if (isCorrect) {
         catCorrect.fill++;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? '“' + raw.trim() + '” = “' + it.display + '” — both forms are right. ' : '') + (it.explain || '');
+        feedback.innerHTML = '<b>Correct.</b> ' + ((matchKind === 'full-form' || (!/['’]/.test(raw) && /['’]/.test(it.display))) ? '“' + raw.trim() + '” = “' + it.display + '” — both forms are right. ' : '') + (it.explain || '');
       } else {
         feedback.className = 'practice-feedback show bad';
         let specific = diagnoseFill(raw, it);
@@ -640,7 +640,7 @@ const uid = 'lc';
           const t = document.createElement('button');
           t.type = 'button';
           t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
-          t.textContent = placedLabel(item.word, pos);
+          t.textContent = placedLabel(item.word, pos) + (pos === orderBuilt.length - 1 && orderBuilt.length === it.tokens.length ? endMark(it.tokens) : '');
           if (!answered) {
             t.addEventListener('click', () => {
               item.used = false;
@@ -651,12 +651,6 @@ const uid = 'lc';
           }
           zone.appendChild(t);
         });
-        if (orderBuilt.length === it.tokens.length) {
-          const end = document.createElement('span');
-          end.className = 'wordorder-end';
-          end.textContent = endMark(it.tokens);
-          zone.appendChild(end);
-        }
       }
       const checkBtn = document.getElementById(`${uid}-orderCheck`);
       if (checkBtn) checkBtn.disabled = answered || orderBuilt.length !== it.tokens.length;

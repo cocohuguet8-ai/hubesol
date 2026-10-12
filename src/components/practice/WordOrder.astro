@@ -189,7 +189,8 @@ const uid = 'wo';
           const t = document.createElement('button');
           t.type = 'button';
           t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
-          t.textContent = placedLabel(item.word, pos);
+          // Full sentence: the end punctuation sits on the last tile (no gap before the full stop).
+          t.textContent = placedLabel(item.word, pos) + (pos === built.length - 1 && built.length === questions[idx].tokens.length ? endMark(questions[idx].tokens) : '');
           if (!answered) {
             t.addEventListener('click', () => {
               item.used = false;
@@ -202,12 +203,6 @@ const uid = 'wo';
           }
           answerZone.appendChild(t);
         });
-        if (built.length === questions[idx].tokens.length) {
-          const end = document.createElement('span');
-          end.className = 'wordorder-end';
-          end.textContent = endMark(questions[idx].tokens);
-          answerZone.appendChild(end);
-        }
       }
       const q = questions[idx];
       checkBtn.disabled = answered || built.length !== q.tokens.length;
