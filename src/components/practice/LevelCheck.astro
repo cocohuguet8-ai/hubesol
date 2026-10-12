@@ -63,9 +63,9 @@ const uid = 'lc';
       return s.toLowerCase().trim().replace(/[‘’`´]/g, "'").replace(/[.!?]+$/, '').replace(/\s+/g, ' ').trim();
     }
 
-    // Full forms ("does not") are as correct as contractions ("doesn't"), and
-    // the other way round ("'s lost" = "has lost", "I've been" = "I have been").
-    const CONTRACTIONS = {"don't":"do not","doesn't":"does not","didn't":"did not","haven't":"have not","hasn't":"has not","hadn't":"had not","won't":"will not","wouldn't":"would not","wasn't":"was not","weren't":"were not","isn't":"is not","aren't":"are not","can't":"cannot","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
+    // Full forms ("does not") are as correct as contractions ("doesn’t"), and
+    // the other way round ("'s lost" = "has lost", "I’ve been" = "I have been").
+    const CONTRACTIONS = {"don’t":"do not","doesn’t":"does not","didn’t":"did not","haven’t":"have not","hasn’t":"has not","hadn’t":"had not","won’t":"will not","wouldn’t":"would not","wasn’t":"was not","weren’t":"were not","isn’t":"is not","aren’t":"are not","can’t":"cannot","couldn’t":"could not","shouldn’t":"should not","mustn’t":"must not"};
     const AUX_SUFFIX = { "'ve": ['have'], "'re": ['are'], "'m": ['am'], "'ll": ['will'], "'d": ['had', 'would'], "'s": ['has', 'is'] };
     function expandContractions(s) {
       return normalize(s).split(' ').map((w) => CONTRACTIONS[w] || w).join(' ').replace(/\bcan not\b/g, 'cannot');
@@ -162,37 +162,37 @@ const uid = 'lc';
         return "After <b>did</b> the main verb stays in its base form.";
       }
       if (c === 'was' || c === 'were') {
-        if (u === 'did') return "Questions with <i>be</i> don't use <b>did</b>: put was/were first.";
+        if (u === 'did') return "Questions with <i>be</i> don’t use <b>did</b>: put was/were first.";
         if (u === 'was' || u === 'were') return "Check the subject: <b>was</b> goes with I/he/she/it, <b>were</b> with you/we/they.";
       }
       if (c === 'did') {
         if (u === 'do' || u === 'does') return "Past simple questions always use <b>did</b>, not do/does.";
         return "This needs the question auxiliary <b>did</b>.";
       }
-      if (cWords[0] === "didn't") {
+      if (cWords[0] === "didn’t") {
         const negIssues = [];
-        if (u.indexOf("don't") === 0 || u.indexOf('dont') === 0) negIssues.push("Wrong tense: the past negative is <b>didn't</b>, not don't.");
-        else if (u.indexOf("doesn't") === 0 || u.indexOf('doesnt') === 0) negIssues.push("Wrong tense: the past negative is <b>didn't</b>, not doesn't.");
-        else if (uWords.indexOf('did') === -1 && uWords.indexOf("didn't") === -1) negIssues.push("Don't forget <b>didn't</b> before the verb.");
+        if (u.indexOf("don’t") === 0 || u.indexOf('dont') === 0) negIssues.push("Wrong tense: the past negative is <b>didn’t</b>, not don’t.");
+        else if (u.indexOf("doesn’t") === 0 || u.indexOf('doesnt') === 0) negIssues.push("Wrong tense: the past negative is <b>didn’t</b>, not doesn’t.");
+        else if (uWords.indexOf('did') === -1 && uWords.indexOf("didn’t") === -1) negIssues.push("Don’t forget <b>didn’t</b> before the verb.");
         const negLast = uWords[uWords.length - 1] || '';
         const cNegLast = cWords[cWords.length - 1] || '';
-        if (negLast !== cNegLast) negIssues.push("After \"didn't\", the verb goes back to its base form — check the verb itself.");
-        if (negIssues.length === 0) return "Check the negative form — it should be \"" + it.display + "\".";
+        if (negLast !== cNegLast) negIssues.push("After “didn’t”, the verb goes back to its base form — check the verb itself.");
+        if (negIssues.length === 0) return "Check the negative form — it should be “" + it.display + "”.";
         return negIssues.join(' ');
       }
       const issues = [];
       if (uWords[0] === 'did') {
-        issues.push("Don't add \"did\" here — in an affirmative sentence the past verb itself carries the tense: \"" + it.display + "\".");
+        issues.push("Don’t add “did” here — in an affirmative sentence the past verb itself carries the tense: “" + it.display + "”.");
       }
       const uLast = uWords[uWords.length - 1] || '';
       if (uLast !== c) {
         if (!PAST_REGULAR_TAIL.test(uLast) && PAST_REGULAR_TAIL.test(c)) {
           issues.push("This is a regular verb in the past — check the -ed ending and its spelling.");
         } else {
-          issues.push("Check the verb form — it should be \"" + it.display + "\".");
+          issues.push("Check the verb form — it should be “" + it.display + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be \"" + it.display + "\".";
+      if (issues.length === 0) return "Check the verb form — it should be “" + it.display + "”.";
       return issues.join(' ');
     }
 
@@ -206,26 +206,26 @@ const uid = 'lc';
         if (u === 'has' || u === 'have') return "This needs the past auxiliary <b>had</b>, not has/have.";
         return "This needs the question auxiliary <b>had</b>.";
       }
-      if (cWords[0] === "hadn't") {
+      if (cWords[0] === "hadn’t") {
         const negIssues = [];
-        if (u.indexOf("didn't") === 0 || u.indexOf('didnt') === 0) negIssues.push("Wrong tense: the past perfect negative is <b>hadn't</b>, not didn't.");
-        else if (u.indexOf("haven't") === 0 || u.indexOf('havent') === 0 || u.indexOf("hasn't") === 0 || u.indexOf('hasnt') === 0) negIssues.push("Wrong auxiliary: for an earlier past action, use <b>hadn't</b>, not haven't/hasn't.");
-        else if (uWords.indexOf('had') === -1 && uWords.indexOf("hadn't") === -1) negIssues.push("Don't forget <b>hadn't</b> before the past participle.");
+        if (u.indexOf("didn’t") === 0 || u.indexOf('didnt') === 0) negIssues.push("Wrong tense: the past perfect negative is <b>hadn’t</b>, not didn’t.");
+        else if (u.indexOf("haven’t") === 0 || u.indexOf('havent') === 0 || u.indexOf("hasn’t") === 0 || u.indexOf('hasnt') === 0) negIssues.push("Wrong auxiliary: for an earlier past action, use <b>hadn’t</b>, not haven’t/hasn’t.");
+        else if (uWords.indexOf('had') === -1 && uWords.indexOf("hadn’t") === -1) negIssues.push("Don’t forget <b>hadn’t</b> before the past participle.");
         const negLast = uWords[uWords.length - 1] || '';
         const cNegLast = cWords[cWords.length - 1] || '';
         if (negLast !== cNegLast && !PAST_REGULAR_TAIL.test(negLast) && PAST_REGULAR_TAIL.test(cNegLast)) {
           negIssues.push("This is a regular verb — check the -ed ending on the past participle.");
         } else if (negLast !== cNegLast) {
-          negIssues.push("Check the spelling of the past participle — it should be \"" + cNegLast + "\".");
+          negIssues.push("Check the spelling of the past participle — it should be “" + cNegLast + "”.");
         }
-        if (negIssues.length === 0) return "Check the negative form — it should be \"" + it.display + "\".";
+        if (negIssues.length === 0) return "Check the negative form — it should be “" + it.display + "”.";
         return negIssues.join(' ');
       }
       const issues = [];
       if (uWords[0] === 'has' || uWords[0] === 'have') {
         issues.push("Wrong auxiliary: an action before another past action needs <b>had</b>, not has/have.");
       } else if (cWords[0] === 'had' && uWords.indexOf('had') === -1 && uWords.indexOf("'d") === -1 && uWords.indexOf('d') === -1) {
-        issues.push("Don't forget <b>had</b> before the past participle.");
+        issues.push("Don’t forget <b>had</b> before the past participle.");
       }
       const uLast = uWords[uWords.length - 1] || '';
       const cLast = cWords[cWords.length - 1] || '';
@@ -233,15 +233,15 @@ const uid = 'lc';
         if (!PAST_REGULAR_TAIL.test(uLast) && PAST_REGULAR_TAIL.test(cLast)) {
           issues.push("This is a regular verb — check the -ed ending on the past participle.");
         } else {
-          issues.push("Check the spelling of the past participle — it should be \"" + cLast + "\".");
+          issues.push("Check the spelling of the past participle — it should be “" + cLast + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be \"" + it.display + "\".";
+      if (issues.length === 0) return "Check the verb form — it should be “" + it.display + "”.";
       return issues.join(' ');
     }
 
-    const PP_AUX_WORDS = ["have", "has", "haven't", "hasn't"];
-    const PP_AUX_SWAP = { "have": "has", "has": "have", "haven't": "hasn't", "hasn't": "haven't" };
+    const PP_AUX_WORDS = ["have", "has", "haven’t", "hasn’t"];
+    const PP_AUX_SWAP = { "have": "has", "has": "have", "haven’t": "hasn’t", "hasn’t": "haven’t" };
     function ppLcParseAux(rawWords) {
       for (let i = 0; i < rawWords.length; i++) {
         const w = rawWords[i].toLowerCase();
@@ -259,23 +259,23 @@ const uid = 'lc';
       const c = ppLcParseAux(correctWords);
       const issues = [];
       if (!u.aux) {
-        issues.push("Don't forget the auxiliary (" + c.aux + ") before the participle.");
+        issues.push("Don’t forget the auxiliary (" + c.aux + ") before the participle.");
       } else if (u.aux !== c.aux) {
         if (PP_AUX_SWAP[u.aux] === c.aux) {
-          issues.push("Subject-verb agreement: the auxiliary should be \"" + c.aux + "\", not \"" + u.aux + "\".");
+          issues.push("Subject-verb agreement: the auxiliary should be “" + c.aux + "”, not “" + u.aux + "”.");
         } else {
-          issues.push("Check the auxiliary — it should be \"" + c.aux + "\".");
+          issues.push("Check the auxiliary — it should be “" + c.aux + "”.");
         }
       }
       if (u.rest !== c.rest && c.rest) {
-        issues.push("Check the verb after the auxiliary — it should be \"" + c.rest + "\".");
+        issues.push("Check the verb after the auxiliary — it should be “" + c.rest + "”.");
       }
-      if (issues.length === 0) return "Check the verb form — it should be \"" + correctText + "\".";
+      if (issues.length === 0) return "Check the verb form — it should be “" + correctText + "”.";
       return issues.join(' ');
     }
 
-    const PC_AUX_WORDS = ["am", "is", "are", "isn't", "aren't"];
-    const PC_AUX_SWAP_PAIRS = [["is", "are"], ["is", "am"], ["are", "am"], ["isn't", "aren't"]];
+    const PC_AUX_WORDS = ["am", "is", "are", "isn’t", "aren’t"];
+    const PC_AUX_SWAP_PAIRS = [["is", "are"], ["is", "am"], ["are", "am"], ["isn’t", "aren’t"]];
     function pcLcParseAux(rawWords) {
       for (let i = 0; i < rawWords.length; i++) {
         const w = rawWords[i].toLowerCase();
@@ -300,22 +300,22 @@ const uid = 'lc';
       const c = pcLcParseAux(correctWords);
       const issues = [];
       if (!u.aux) {
-        issues.push("Don't forget the auxiliary (" + c.aux + ") before the -ing form.");
+        issues.push("Don’t forget the auxiliary (" + c.aux + ") before the -ing form.");
       } else if (u.aux !== c.aux) {
         if (pcLcAuxSwapMatches(u.aux, c.aux)) {
-          issues.push("Subject-verb agreement: the auxiliary should be \"" + c.aux + "\", not \"" + u.aux + "\".");
+          issues.push("Subject-verb agreement: the auxiliary should be “" + c.aux + "”, not “" + u.aux + "”.");
         } else {
-          issues.push("Check the auxiliary — it should be \"" + c.aux + "\".");
+          issues.push("Check the auxiliary — it should be “" + c.aux + "”.");
         }
       }
       if (u.rest !== c.rest && c.rest) {
         if (u.rest.slice(-3) !== 'ing' && c.rest.slice(-3) === 'ing') {
           issues.push("This needs the -ing form.");
         } else {
-          issues.push("Check the spelling of the -ing form — it should be \"" + c.rest + "\".");
+          issues.push("Check the spelling of the -ing form — it should be “" + c.rest + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be \"" + correctText + "\".";
+      if (issues.length === 0) return "Check the verb form — it should be “" + correctText + "”.";
       return issues.join(' ');
     }
 
@@ -325,8 +325,8 @@ const uid = 'lc';
     function genericOrderHint(builtWords, correctWords) {
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      if (i === 0) return "Check how the sentence starts — think about which word comes first.";
-      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (\"" + correctWords.slice(0, i).join(' ') + "\"). Check what comes next.";
+      if (i === 0) return "Try starting with “" + correctWords[0] + "” — then think about what comes next.";
+      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
     const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
@@ -343,13 +343,13 @@ const uid = 'lc';
       const first = (correctWords[0] || '').toLowerCase();
       const afterWh = cIdx === 1 && WH_WORDS.indexOf(first) !== -1;
 
-      if (bIdx === -1) return "Don't forget \"" + aux + "\" in this sentence.";
+      if (bIdx === -1) return "Don’t forget “" + aux + "” in this sentence.";
       if (bIdx !== cIdx) {
-        if (cIdx === 0) return "In a question, \"" + aux + "\" comes first, before the subject.";
-        if (afterWh) return "In a question with \"" + correctWords[0] + "\", \"" + aux + "\" comes right after it, before the subject.";
-        return "\"" + aux + "\" goes right after the subject, not somewhere else.";
+        if (cIdx === 0) return "In a question, “" + aux + "” comes first, before the subject.";
+        if (afterWh) return "In a question with “" + correctWords[0] + "”, “" + aux + "” comes right after it, before the subject.";
+        return "“" + aux + "” goes right after the subject, not somewhere else.";
       }
-      return "Check the order of the words after \"" + aux + "\".";
+      return "Check the order of the words after “" + aux + "”.";
     }
 
     // Ignore capitals and punctuation, so a time expression or a when/while clause may come first.
@@ -431,7 +431,7 @@ const uid = 'lc';
         return "Jobs and first mentions take <b>a/an</b>. Use <b>one</b> only when the number matters.";
       if (c === 'one' && (u === 'a' || u === 'an'))
         return "Here the number matters (or it is a fixed phrase, or it replaces a noun), so use <b>one</b>.";
-      return "Check your answer — it should be \"" + correctText + "\".";
+      return "Check your answer — it should be “" + correctText + "”.";
     }
 
     // The hint gives the verb; the answer is the whole verb phrase. If the verb is missing, say so.
@@ -440,7 +440,7 @@ const uid = 'lc';
       if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0) return '';
       const u = normalize(rawText);
       if (u && u.split(' ').indexOf(hv) === -1 && String(display).toLowerCase().split(' ').indexOf(hv) !== -1) {
-        return 'Type the whole verb phrase, including the verb from the hint ("' + hv + '").';
+        return 'Type the whole verb phrase, including the verb from the hint (“' + hv + '”).';
       }
       return '';
     }
@@ -451,7 +451,7 @@ const uid = 'lc';
       if (tense === 'past-perfect') return diagnoseFillPastPerfect(rawText, it);
       if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
       if (tense === 'present-continuous') return diagnoseFillPresentContinuous(rawText, it.display);
-      return missingHintVerb(rawText, it.hint, it.display) || "Check the verb form — it should be \"" + it.display + "\".";
+      return missingHintVerb(rawText, it.hint, it.display) || "Check the verb form — it should be “" + it.display + "”.";
     }
 
     function checkFill(it, input) {
@@ -467,7 +467,7 @@ const uid = 'lc';
       if (isCorrect) {
         catCorrect.fill++;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech we usually say "' + it.display + '". ' : '') + (it.explain || '');
+        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? 'Tip: in speech we usually say “' + it.display + '”. ' : '') + (it.explain || '');
       } else {
         feedback.className = 'practice-feedback show bad';
         let specific = diagnoseFill(raw, it);
@@ -475,7 +475,7 @@ const uid = 'lc';
         if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
         const escForm = String(it.display).toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const mentionsForm = !!specific && new RegExp('[\'"‘’“”]' + escForm + '[\'"‘’“”]').test(String(specific).toLowerCase());
-        feedback.innerHTML = (mentionsForm ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is "' + it.display + '".</b> ') + (specific || '');
+        feedback.innerHTML = (mentionsForm ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is “' + it.display + '”.</b> ') + (specific || '') + (it.wrongNote ? ' ' + it.wrongNote : '');
       }
       results.push({ category: 'fill', correct: isCorrect, yours: raw.trim(), detail: it.sentText.replace('{{blank}}', it.display) });
       scoreText.textContent = 'Score: ' + totalScore();
@@ -490,7 +490,7 @@ const uid = 'lc';
     const LOWER_OK = new Set(('a an the this that these those my your his her its our their some any every each no ' +
       'i you he she it we they there here what when where why who whom whose which how ' +
       'am is are was were be been do does did have has had will would can could should must ' +
-      "don't doesn't didn't isn't aren't wasn't weren't haven't hasn't hadn't won't can't " +
+      "don’t doesn’t didn’t isn’t aren’t wasn’t weren’t haven’t hasn’t hadn’t won’t can’t " +
       'not never always usually often sometimes yesterday today tomorrow last next this tonight ' +
       'at in on by for since after before while as if because during until ' +
       'one only both all most many much several first then').split(' '));
@@ -628,10 +628,10 @@ const uid = 'lc';
       if (isCorrect) {
         catCorrect.order++;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> That\'s the right word order.';
+        feedback.innerHTML = '<b>Correct.</b> That’s the right word order.';
       } else {
         feedback.className = 'practice-feedback show bad';
-        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: "' + it.tokens.join(' ') + '"';
+        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: “' + it.tokens.join(' ') + '”';
       }
       const endPunct = (it.tokens[it.tokens.length - 1].match(/[.?!]+$/) || [''])[0];
       const yoursSentence = builtWords.map((w) => w.replace(/[.?!]+$/, '')).join(' ');
@@ -684,7 +684,7 @@ const uid = 'lc';
       } else {
         feedback.className = 'practice-feedback show bad';
         const reason = it.wrongReasons[chosenIndex] || '';
-        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was "' + it.choices[it.correct] + '".';
+        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was “' + it.choices[it.correct] + '”.';
       }
       results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', it.choices[it.correct]) });
       scoreText.textContent = 'Score: ' + totalScore();
@@ -709,7 +709,7 @@ const uid = 'lc';
 
       const hint = document.createElement('div');
       hint.className = 'levelcheck-error-hint';
-      hint.textContent = "Tap the word that's wrong.";
+      hint.textContent = "Tap the word that’s wrong.";
       questionBody.appendChild(hint);
 
       const reveal = document.createElement('button');
@@ -761,7 +761,7 @@ const uid = 'lc';
         const corrected = correctedSentence(it);
         feedback.className = 'practice-feedback show ' + (clean ? 'ok' : 'revealed');
         feedback.innerHTML = '<b>' + (clean ? 'Found it.' : 'Found it, but not on the first tap.') + '</b> ' + it.message + '<div class="errorcorrection-corrected">' + corrected + '</div>';
-        results.push({ category: 'error', correct: clean, detail: corrected, yours: errTaps.map((w) => '"' + w + '"').join(', '), yoursLabel: 'You tapped: ' });
+        results.push({ category: 'error', correct: clean, detail: corrected, yours: errTaps.map((w) => '“' + w + '”').join(', '), yoursLabel: 'You tapped: ' });
         scoreText.textContent = 'Score: ' + totalScore();
         appendNext();
       } else {
@@ -770,7 +770,7 @@ const uid = 'lc';
         btnEl.classList.add('wrongflash');
         setTimeout(() => { btnEl.classList.remove('wrongflash'); }, 400);
         feedback.className = 'practice-feedback show bad';
-        feedback.textContent = '"' + it.tokens[i] + '" is not the mistake — look again.';
+        feedback.textContent = '“' + it.tokens[i] + '” is not the mistake — look again.';
       }
     }
 
