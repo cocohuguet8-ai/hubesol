@@ -5,128 +5,182 @@
   "items": [
     {
       "question": "We ___ a great film last night.",
-      "options": ["watch", "watched", "watches", "were watching"],
+      "options": [
+        "watch",
+        "watched",
+        "watches",
+        "have watched"
+      ],
       "answer": 1,
       "explanations": [
-        "'Watch' is the base form. 'Last night' is a finished time, so we need the past simple: 'watched'.",
-        "Correct! Regular verbs add -ed in the past simple: 'watched'. 'Last night' signals a finished time.",
-        "'Watches' is present simple (he/she/it). A finished past action takes 'watched'.",
-        "'Were watching' (past continuous) describes an action in progress. For a completed action, use 'watched'."
+        "'Watch' is present simple. 'Last night' is a finished time, so use the past: 'watched'.",
+        "Correct! Regular verbs add -ed in the past simple: 'watched'. 'Last night' is a finished time.",
+        "'Watches' is the he/she/it present form, and 'we' doesn't take it. A finished action needs 'watched'.",
+        "'Have watched' (present perfect) can't go with a finished time like 'last night'."
       ]
     },
     {
       "question": "She ___ to Paris in 2019.",
-      "options": ["goed", "gone", "went", "going"],
-      "answer": 2,
+      "options": [
+        "goed",
+        "goes",
+        "has gone",
+        "went"
+      ],
+      "answer": 3,
       "explanations": [
-        "'Go' is irregular, so it doesn't add -ed. The past form is 'went', not 'goed'.",
-        "'Gone' is the past participle (used with have/has). The past simple is 'went'.",
-        "Correct! 'Go' is irregular: its past simple form is 'went'.",
-        "'Going' needs an auxiliary. A finished action in 2019 takes 'went'."
+        "'Go' is irregular, so it doesn't take -ed. The past is 'went'.",
+        "'Goes' is present simple. 'In 2019' is finished: 'went'.",
+        "'Has gone' (present perfect) can't go with 'in 2019'. Use 'went'.",
+        "Correct! 'Go' is irregular: its past simple is 'went'."
       ]
     },
     {
       "question": "They ___ the message yesterday.",
-      "options": ["didn't saw", "not saw", "don't saw", "didn't see"],
-      "answer": 3,
+      "options": [
+        "don't see",
+        "weren't seeing",
+        "didn't see",
+        "haven't seen"
+      ],
+      "answer": 2,
       "explanations": [
-        "After 'didn't' the verb goes back to its base form: 'see', not 'saw'.",
-        "English needs the auxiliary 'did' in the negative: 'didn't see', not just 'not saw'.",
-        "'Don't' is present simple, and 'saw' can't follow it. The past negative is 'didn't see'.",
-        "Correct! Negatives use didn't + base verb: 'didn't see'. 'Did' already carries the past."
+        "'Don't see' is present. 'Yesterday' is a finished time: 'didn't see'.",
+        "'Weren't seeing' is past continuous, for an action in progress. A single finished event takes 'didn't see'.",
+        "Correct! Negatives use didn't + base verb: 'didn't see'. 'Didn't' already carries the past.",
+        "'Haven't seen' (present perfect) can't go with 'yesterday'."
       ]
     },
     {
-      "question": "___ you ___ the news this morning?",
-      "options": ["Did / hear", "Did / heard", "Do / heard", "Have / hear"],
-      "answer": 0,
+      "question": "___ the thunder last night?",
+      "options": [
+        "Do you hear",
+        "Have you heard",
+        "Are you hearing",
+        "Did you hear"
+      ],
+      "answer": 3,
       "explanations": [
-        "Correct! Past questions use Did + subject + base verb: 'Did you hear…?'.",
-        "After 'did' the verb is the base form: 'hear', not 'heard'.",
-        "'Do' is present simple, and it can't combine with 'heard'. Use 'Did you hear?'.",
-        "'Have you heard' is present perfect. With 'this morning' as finished time, the past simple fits: 'Did you hear?'."
+        "'Do you hear' is present. 'Last night' is a finished time: 'Did you hear'.",
+        "'Have you heard' (present perfect) can't go with 'last night'.",
+        "'Are you hearing' is present continuous, for right now.",
+        "Correct! Past questions use Did + subject + base verb: 'Did you hear…?'."
       ]
     },
     {
       "question": "I ___ him at the station yesterday.",
-      "options": ["have seen", "has seen", "saw", "see"],
-      "answer": 2,
+      "options": [
+        "see",
+        "saw",
+        "have seen",
+        "will see"
+      ],
+      "answer": 1,
       "explanations": [
-        "'Yesterday' is a finished time, so the present perfect is impossible here. Use 'saw'.",
-        "'Has seen' doesn't agree with 'I', and 'yesterday' needs the past simple anyway.",
-        "Correct! A finished-time expression like 'yesterday' always takes the past simple: 'saw'.",
-        "'See' is the base present form. A completed action yesterday takes 'saw'."
+        "'See' is present. A completed action yesterday takes 'saw'.",
+        "Correct! A finished-time expression like 'yesterday' takes the past simple: 'saw'.",
+        "'Have seen' (present perfect) can't go with 'yesterday'.",
+        "'Will see' is future, but 'yesterday' is past."
       ]
     },
     {
       "question": "He ___ a new car last month.",
-      "options": ["buyed", "buys", "buy", "bought"],
+      "options": [
+        "buyed",
+        "buys",
+        "has bought",
+        "bought"
+      ],
       "answer": 3,
       "explanations": [
-        "'Buy' is irregular, so it doesn't add -ed. The past is 'bought', not 'buyed'.",
-        "'Buys' is present simple. A finished action last month takes 'bought'.",
-        "'Buy' is the base form. 'Last month' is finished time, so use 'bought'.",
+        "'Buy' is irregular, so it doesn't take -ed. The past is 'bought', not 'buyed'.",
+        "'Buys' is present simple. 'Last month' is finished: 'bought'.",
+        "'Has bought' (present perfect) can't go with a finished time like 'last month'.",
         "Correct! 'Buy' is irregular: the past simple is 'bought'."
       ]
     },
     {
-      "question": "Use the spelling rule (consonant + -y → -ied). The past simple of 'study' is ___.",
-      "options": ["studied", "studyed", "studies", "study"],
-      "answer": 0,
+      "question": "Last night I ___ for my exam until midnight.",
+      "options": [
+        "studyed",
+        "studies",
+        "studied",
+        "have studied"
+      ],
+      "answer": 2,
       "explanations": [
-        "Correct! Consonant + -y becomes -ied: study → studied (see the spelling table above).",
-        "When a verb ends in consonant + -y, the -y changes to -ied: not 'studyed'.",
-        "'Studies' is present simple (he/she/it). The past simple is 'studied'.",
-        "'Study' is the base form. A finished action needs the past: 'studied'."
+        "When a verb ends in consonant + -y, the -y changes to -ied: 'studied', not 'studyed'.",
+        "'Studies' is present simple. 'Last night' is finished: 'studied'.",
+        "Correct! Consonant + -y becomes -ied: study → studied.",
+        "'Have studied' (present perfect) can't go with 'last night'."
       ]
     },
     {
       "question": "We ___ in Girona when we were children.",
-      "options": ["live", "lived", "have lived", "are living"],
-      "answer": 1,
+      "options": [
+        "live",
+        "have lived",
+        "lived",
+        "are living"
+      ],
+      "answer": 2,
       "explanations": [
-        "'Live' is the base form. A finished past state takes the past simple: 'lived'.",
-        "Correct! A past state that is now finished uses the past simple: 'lived'.",
+        "'Live' is present simple. A finished past state takes 'lived'.",
         "'Have lived' (present perfect) suggests it continues now, but 'when we were children' is finished.",
+        "Correct! A past state that is now finished uses the past simple: 'lived'.",
         "'Are living' is present continuous, about now. The finished past takes 'lived'."
       ]
     },
     {
       "question": "Choose the correct sentence.",
       "options": [
-        "I saw her two years ago.",
         "I have seen her two years ago.",
         "I see her two years ago.",
-        "I was seeing her two years ago."
+        "I'm seeing her two years ago.",
+        "I saw her two years ago."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanations": [
-        "Correct! 'Ago' marks a finished time, so we use the past simple: 'saw'.",
-        "'Ago' is a finished time, so the present perfect ('have seen') is impossible.",
+        "'Ago' marks a finished time, so the present perfect ('have seen') is impossible.",
         "'See' is present. 'Two years ago' is in the past: 'saw'.",
-        "'Was seeing' (past continuous) is for an action in progress. A finished single action takes 'saw'."
+        "'I'm seeing' is present continuous. 'Two years ago' needs the past simple: 'saw'.",
+        "Correct! 'Ago' marks a finished time, so we use the past simple: 'saw'."
       ]
     },
     {
       "question": "When the phone rang, I ___ it immediately.",
-      "options": ["answered", "was answering", "answer", "have answered"],
-      "answer": 0,
+      "options": [
+        "answer",
+        "have answered",
+        "answered",
+        "was answering"
+      ],
+      "answer": 2,
       "explanations": [
+        "'Answer' is present simple. The action happened in the past: 'answered'.",
+        "'Have answered' is present perfect. With a finished past sequence, use the past simple: 'answered'.",
         "Correct! Two completed past actions in sequence (rang, then answered) both take the past simple.",
-        "'Was answering' suggests an action already in progress, but answering was a quick reaction to the ring.",
-        "'Answer' is the base present form. The action happened in the past: 'answered'.",
-        "'Have answered' is present perfect. With a finished past sequence, use the past simple: 'answered'."
+        "'Was answering' suggests an action already in progress, but answering was a quick reaction to the ring."
       ]
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
-      "question": "We ___ a great film last night. (watch)",
+      "question": "She ___ her keys on the bus yesterday. (leave)",
       "hint": "Type the past simple.",
-      "answers": ["watched"],
-      "explanation": "Finished time: past simple.",
+      "answers": [
+        "left"
+      ],
+      "explanation": "'Leave' is irregular: the past simple is 'left'.",
       "common": [
-        {"answer": "have watched", "why": "'Last night' is finished time: watched."}
+        {
+          "answer": "leaved",
+          "why": "'Leave' is irregular: the past simple is 'left', not 'leaved'."
+        },
+        {
+          "answer": "has left",
+          "why": "'Yesterday' is a finished time, so use the past simple: 'left'."
+        }
       ]
     },
     {
@@ -134,16 +188,23 @@
       "kind": "Correct the mistake",
       "question": "Did you went to the party?",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Did you go to the party"],
-      "explanation": "After 'did' use the base form."
+      "answers": [
+        "Did you go to the party",
+        "Did you go to that party"
+      ],
+      "explanation": "After 'did' the main verb stays in its base form: 'go'."
     },
     {
       "type": "write",
       "kind": "Correct the mistake",
       "question": "I didn't saw him.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I didn't see him", "I did not see him"],
-      "explanation": "After 'didn't' use the base form."
+      "answers": [
+        "I didn't see him",
+        "I did not see him",
+        "I didnt see him"
+      ],
+      "explanation": "After 'didn't' the main verb stays in its base form: 'see'."
     }
   ]
 }
