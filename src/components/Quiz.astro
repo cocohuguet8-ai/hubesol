@@ -101,7 +101,7 @@ const { quiz, next, back } = Astro.props;
         sent.textContent = 'Q' + r.n + '. ' + r.q;
         const y = document.createElement('div');
         y.className = 'ryours' + (r.ok ? ' ok' : '');
-        y.textContent = 'Your answer: ' + r.yours;
+        y.textContent = 'You wrote: ' + r.yours;
         sent.appendChild(y);
         if (!r.ok) {
           const c = document.createElement('div');
@@ -118,6 +118,7 @@ const { quiz, next, back } = Astro.props;
         reviewEl.appendChild(row);
       });
       reviewEl.hidden = false;
+      document.getElementById('quiz-retry').focus({ preventScroll: true });
     };
 
     const checkWrite = (q) => {
@@ -153,7 +154,7 @@ const { quiz, next, back } = Astro.props;
         const hit = common.find((c) => norm(c.answer) === norm(raw));
         explEl.textContent = '❌ You wrote “' + raw.trim().replace(/[.!]+$/, '') + '”. ' + (hit ? hit.why + ' ' : '') + 'Correct answer: “' + answers[0].replace(/[.!]+$/, '') + '”. ' + expl;
       }
-      reviewData.push({ n: questions.indexOf(q) + 1, q: q.querySelector('.q-sentence').textContent, yours: raw.trim() || '(no answer)', ok, right: answers[0].replace(/[.!]+$/, '') });
+      reviewData.push({ n: questions.indexOf(q) + 1, q: q.querySelector('.q-sentence').textContent, yours: raw.trim() || '(no answer)', ok, right: answers[0] });
       answered++;
       finish();
     };

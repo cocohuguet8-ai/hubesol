@@ -88,9 +88,13 @@ for (const slug of slugs) {
       const before = await page.locator('#gf-progressText').innerText();
       ok(/answer|type|write/i.test(await page.locator('#gf-feedback').innerText()), A, 'empty Check shows no warning');
       ok(before === await page.locator('#gf-progressText').innerText(), A, 'empty Check advanced/counted as an answer');
+      let fullFormTested = false;
       for (const q of D.gapFill.questions) {
-        await page.locator('#gf-blankInput').fill(q.display);
+        const longForm = q.display.replace(/n’t/, ' not');
+        const useLong = !fullFormTested && longForm !== q.display;
+        await page.locator('#gf-blankInput').fill(useLong ? longForm : q.display);
         await page.click('#gf-checkBtn');
+        if (useLong) { fullFormTested = true; ok(/both forms/i.test(await page.locator('#gf-feedback').innerText()), A, `full form "${longForm}" is accepted without saying both forms are right`); }
         await page.click('#gf-nextBtn');
       }
       ok((await page.locator('#gf-finalScore').innerText()).startsWith(`${D.gapFill.questions.length}/`), A, 'typing every canonical answer did not score full marks');
@@ -104,6 +108,8 @@ for (const slug of slugs) {
     const A = 'Put it in order';
     try {
       const S = D.wordOrder.sentences;
+      const small = await page.evaluate(() => Array.from(document.querySelectorAll('#wo-trayZone .wordorder-tile')).filter((t) => t.getBoundingClientRect().width < 43.5 || t.getBoundingClientRect().height < 43.5).map((t) => t.innerText));
+      ok(small.length === 0, A, `tiles smaller than 44px: ${small.join(', ')}`);
       for (let k = 0; k < S.length; k++) {
         const seq = (k === 0 && S[k].alts && S[k].alts[0]) || S[k].tokens; // first item via the alternative order (commas)
         for (const w of seq) {
@@ -176,7 +182,7 @@ for (const slug of slugs) {
     const A = 'Level check';
     try {
       const items = D.levelCheck.items;
-      let emptyTested = false;
+      let emptyTested = false, enterTested = false;
       for (let k = 0; k < items.length; k++) {
         const it = items[k];
         if (it.type === 'fill') {
@@ -187,8 +193,17 @@ for (const slug of slugs) {
             await page.locator('#lc-actionsRow button:has-text("Check")').click();
             ok(/answer|type|write/i.test(await page.locator('#lc-feedback').innerText()) && prog === await page.locator('#lc-progressText').innerText() && await inp.isEnabled(), A, 'empty Check is counted as a wrong answer (no warning)');
           }
-          await inp.fill(it.display);
-          await page.locator('#lc-actionsRow button:has-text("Check")').click();
+          if (!enterTested) {
+            enterTested = true;
+            const prog = await page.locator('#lc-progressText').innerText();
+            await inp.fill(it.display);
+            await inp.press('Enter');
+            await page.waitForTimeout(200);
+            ok(prog === await page.locator('#lc-progressText').innerText() && (await page.locator('#lc-feedback').innerText()).trim().length > 0, A, 'Enter in the text box skipped the feedback (must behave like Check)');
+          } else {
+            await inp.fill(it.display);
+            await page.locator('#lc-actionsRow button:has-text("Check")').click();
+          }
         } else if (it.type === 'order') {
           const seq = (it.alts && it.alts[0]) || it.tokens;
           for (const w of seq) if (!(await clickText('#lc-orderTray button', w))) { fail(A, `item ${k + 1}: tile "${w}" not found`); break; }
@@ -223,7 +238,8 @@ for (const slug of slugs) {
       }
       ok((await page.locator('#quiz-score').innerText()).includes(`${Q.length}/${Q.length}`), A, 'answering everything correctly did not give full marks');
       const rev = await page.locator('#quiz-review').innerText();
-      ok(rev.includes('Your answer') && (rev.match(/Q\d+\./g) || []).length === Q.length, A, 'final review does not list every question with "Your answer"');
+      ok(rev.includes('You wrote') && (rev.match(/Q\d+\./g) || []).length === Q.length, A, 'final review does not list every question with "You wrote"');
+      ok(await page.evaluate(() => document.activeElement && document.activeElement.id === 'quiz-retry'), A, 'final screen: focus is not on "Try again"');
     } catch (e) { fail(A, 'crashed: ' + e.message.split('\n')[0]); }
   }
 

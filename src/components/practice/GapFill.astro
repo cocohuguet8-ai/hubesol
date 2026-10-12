@@ -495,7 +495,7 @@ const uid = 'gf';
 
       if (isCorrect) {
         feedback.classList.add('show', 'ok');
-        feedback.innerHTML = '<b>Correct.</b> ' + (matchKind === 'full-form' ? '“' + String(raw).trim() + '” = “' + q.display + '” — both forms are right. ' : '') + q.explain;
+        feedback.innerHTML = '<b>Correct.</b> ' + ((matchKind === 'full-form' || (!/['’]/.test(raw) && /['’]/.test(q.display))) ? '“' + String(raw).trim() + '” = “' + q.display + '” — both forms are right. ' : '') + q.explain;
       } else {
         let specific = diagnose(raw, q);
         // The generic "Check ... — it should be X" line only repeats the correct form: drop it.
