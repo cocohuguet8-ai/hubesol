@@ -16,24 +16,19 @@ faq:
   - q: "When do I use the past simple and when the present perfect?"
     a: "Use the past simple when you say or imply a finished time: I saw him yesterday. Use the present perfect for experiences with no specific time, or results that matter now: I've seen that film."
   - q: "How do I make past simple negatives and questions?"
-    a: "Use did/didn't + the base verb: She didn't go. Did you go? The word 'did' carries the past, so the main verb stays in its base form."
+    a: "Use did/didn't + the base verb: She didn't go. Did you go? The word 'did' carries the past, so the main verb stays in its base form. The verb be is the exception: She wasn't there. Were you there?"
   - q: "How do I know if a verb is regular or irregular?"
     a: "Regular verbs add -ed (worked, played). Irregular verbs change form and must be memorised (go → went, see → saw, buy → bought). Many of the most common English verbs are irregular."
   - q: "What is the difference between the past simple and 'used to'?"
     a: "Both describe finished past habits. 'Used to' stresses that something is no longer true (I used to smoke). The past simple just states the fact (I smoked for years)."
 teacherObjectives:
-  - "Can form affirmative, negative and interrogative past simple sentences with regular and irregular verbs (CEFR A2)."
+  - "Can form affirmative, negative and interrogative past simple sentences with regular and irregular verbs, including the verb be (CEFR A2)."
   - "Can spell regular past forms correctly (-ed, -ied, consonant doubling)."
   - "Can distinguish the past simple from the present perfect using time markers."
 related:
-  - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
-  - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
-  - { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
   - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
-  - { title: "Past Simple vs Past Continuous", href: "/grammar/verb-tenses/past-simple-vs-past-continuous/" }
-  - { title: "Past Perfect", href: "/grammar/verb-tenses/past-perfect/" }
   - { title: "Used to / would", href: "/grammar/verb-tenses/used-to-would/" }
 next: { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
 draft: false
@@ -65,6 +60,15 @@ More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
 
 **Time expressions:** *yesterday, last night, last week, two days ago, in 2019, when I was a child.*
 
+## The past simple of *be*
+
+The verb *be* has two past forms: **was** (I, he, she, it) and **were** (you, we, they). It does not use *did*. For negatives, add *not*: **wasn't / weren't**. For questions, put *was/were* first.
+
+- **I was** tired last night. / **They weren't** at home.
+- **Was** the film good? / **Were** you at the party?
+
+Not ~~Did you be at the party?~~ → **Were you at the party?**
+
 ## When to use the past simple
 
 ### 1. Completed actions at a finished time
@@ -91,6 +95,8 @@ Things that were true for a period but are finished now.
 - **We played** football every weekend as kids.
 - **He worked** there for five years (but not now).
 
+> ⚠️ Typical error: ~~We have lived in Girona when we were children.~~ → *When we were children* is a finished period, so use the past simple: *We lived in Girona when we were children.*
+
 ## Spelling of regular past forms
 
 | Rule | Verb ending | Example |
@@ -100,20 +106,28 @@ Things that were true for a period but are finished now.
 | -y → -ied | consonant + *-y* | studied, tried |
 | double the consonant | short verb, consonant–vowel–consonant | stopped, planned |
 
+Vowel + *-y* keeps the *y* (*played, stayed*), and verbs ending in *-w* or *-x* do not double it (*snowed, fixed*).
+
+## Pronouncing -ed
+
+The ending is said in three ways: /t/ after *p, k, s, sh, ch* (*worked, stopped, washed*), /d/ after most other sounds (*played, lived, called*) and /ɪd/ after *t* and *d* (*wanted, needed*). Only /ɪd/ adds a syllable.
+
 ## Signal words
 
 | Word | Position | Example |
 |---|---|---|
-| yesterday | end | I saw her **yesterday**. |
-| last week / last year | end | We met **last week**. |
-| in 2019 | end | They married **in 2019**. |
-| ago | after a time period | He left two hours **ago**. |
+| yesterday | end of the sentence (or the start) | I saw her **yesterday**. |
+| last week / last year | end of the sentence (or the start) | We met **last week**. |
+| in 2019 | end of the sentence (or the start) | They married **in 2019**. |
+| ago | right after a time period | He left two hours **ago**. |
 | when | start of a clause | **When** I arrived, everyone had gone. |
 
 ## Common mistakes
 
 **1. Keeping the past form after did/didn't.** The most frequent past-simple error. After *did* or *didn't*, the main verb goes back to its base form, because *did* already shows the past. *~~Did you went?~~* → **Did you go?** and *~~I didn't saw it~~* → **I didn't see it.**
 
-**2. Inventing regular forms for irregular verbs.** English has around 200 common irregular verbs, and the *-ed* rule does not apply to them. *~~goed, buyed, thinked~~* → **went, bought, thought. Pro tip:** learn irregulars in sound groups (bring/brought, buy/bought, think/thought).
+**2. Inventing regular forms for irregular verbs.** The *-ed* rule does not apply to irregular verbs, and many of the most common English verbs are irregular. *~~goed, buyed, thinked~~* → **went, bought, thought.**
 
 **3. Using the past simple instead of the present perfect (and vice versa).** If you say *when* (a finished time), use the past simple. For an experience with no time, or a result that matters now, use the present perfect. *~~I have called him yesterday~~* → **I called him yesterday.**
+
+**Pro tip:** learn irregular verbs in sound groups (bring/brought, buy/bought, think/thought) instead of one by one.
