@@ -90,7 +90,7 @@ for (const slug of slugs) {
       ok(before === await page.locator('#gf-progressText').innerText(), A, 'empty Check advanced/counted as an answer');
       let fullFormTested = false;
       for (const q of D.gapFill.questions) {
-        const longForm = q.display.replace(/n’t/, ' not');
+        const longForm = q.display.replace(/won’t/, 'will not').replace(/can’t/, 'cannot').replace(/n’t/, ' not');
         const useLong = !fullFormTested && longForm !== q.display;
         await page.locator('#gf-blankInput').fill(useLong ? longForm : q.display);
         await page.click('#gf-checkBtn');
