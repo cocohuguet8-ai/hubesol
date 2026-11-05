@@ -14,9 +14,9 @@ answerNote: "Regular verbs add -ed (worked); irregular verbs change form (go →
 quiz: "past-simple-quiz-1"
 faq:
   - q: "When do I use the past simple and when the present perfect?"
-    a: "Use the past simple when you say or imply a finished time: I saw him yesterday. Use the present perfect for experiences with no specific time, or results that matter now: I've seen that film."
+    a: "Use the past simple when you say or imply a finished time: I saw him yesterday. Use the present perfect for experiences with no specific time, or results that matter now: I’ve seen that film."
   - q: "How do I make past simple negatives and questions?"
-    a: "Use did/didn't + the base verb: She didn't go. Did you go? The word 'did' carries the past, so the main verb stays in its base form. The verb be is the exception: She wasn't there. Were you there?"
+    a: "Use did/didn’t + the base verb: She didn’t go. Did you go? The word ‘did’ carries the past, so the main verb stays in its base form. The verb be is the exception: She wasn’t there. Were you there?"
   - q: "How do I know if a verb is regular or irregular?"
     a: "Regular verbs add -ed (worked, played). Irregular verbs change form and must be memorised (go → went, see → saw, buy → bought). Many of the most common English verbs are irregular."
   - q: "What is the difference between the past simple and ‘used to’?"
@@ -112,7 +112,7 @@ Vowel + *-y* keeps the *y* (*played, stayed*), and verbs ending in *-w* or *-x* 
 
 The ending is said in three ways. Only /ɪd/ adds a syllable.
 
-- /t/ after *p, k, s, sh, ch*: **worked, stopped, washed**
+- /t/ after *p, k, f, x, s, sh, ch*: **worked, stopped, laughed, fixed, washed**
 - /d/ after most other sounds: **played, lived, called**
 - /ɪd/ after *t* and *d*: **wanted, needed**
 

@@ -120,7 +120,8 @@ const uid = 'wo';
     }
     function placedLabel(word, pos) {
       const w = tileLabel(word, word === questions[idx].tokens[0]);
-      return pos === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+      // No capital letter on any tile, wherever it is placed (HQ-097): a capital would give away the first word.
+      return w;
     }
     function endMark(tokens) {
       const m = String(tokens[tokens.length - 1] || '').match(/[.?!]+$/);
@@ -189,8 +190,7 @@ const uid = 'wo';
           const t = document.createElement('button');
           t.type = 'button';
           t.className = 'wordorder-tile placed' + (answered ? ' locked' : '');
-          // Full sentence: the end punctuation sits on the last tile (no gap before the full stop).
-          t.textContent = placedLabel(item.word, pos) + (pos === built.length - 1 && built.length === questions[idx].tokens.length ? endMark(questions[idx].tokens) : '');
+          t.textContent = placedLabel(item.word, pos);
           if (!answered) {
             t.addEventListener('click', () => {
               item.used = false;
@@ -203,6 +203,12 @@ const uid = 'wo';
           }
           answerZone.appendChild(t);
         });
+        // End mark is a fixed, non-tappable character after the tiles (HQ-097): it never reveals the last word.
+        const em = document.createElement('span');
+        em.className = 'wordorder-endmark';
+        em.setAttribute('aria-hidden', 'true');
+        em.textContent = endMark(questions[idx].tokens);
+        answerZone.appendChild(em);
       }
       const q = questions[idx];
       checkBtn.disabled = answered || built.length !== q.tokens.length;
@@ -304,7 +310,7 @@ const uid = 'wo';
       }
 
       const ref = matchedRef(builtWords, q);
-      const yoursStr = ref ? refString(ref, q) : builtWords.map((w, i) => placedLabel(w, i)).join(' ') + endMark(q.tokens);
+      const yoursStr = ref ? refString(ref, q) : builtWords.map((w, i) => placedLabel(w, i)).join(' ');
       results.push({ correct: isCorrect, sentence: isCorrect ? yoursStr : q.tokens.join(' '), yours: yoursStr });
 
       checkBtn.style.display = 'none';
