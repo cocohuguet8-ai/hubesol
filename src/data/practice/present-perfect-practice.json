@@ -6,8 +6,8 @@
       "words": [
         "have",
         "has",
-        "haven't",
-        "hasn't"
+        "haven’t",
+        "hasn’t"
       ],
       "label": "have/has"
     }
@@ -24,23 +24,25 @@
         "answers": [
           "has visited",
           "'s visited",
-          "s visited"
+          "s visited",
+          "’s visited"
         ],
         "display": "has visited",
-        "explain": "An experience at an unspecified time — we don't say exactly when it happened."
+        "explain": "An experience at an unspecified time — we don’t say exactly when it happened."
       },
       {
         "use": "Present result",
         "before": "I",
-        "after": "my keys — I can't find them anywhere.",
+        "after": "my keys — I can’t find them anywhere.",
         "hint": "(lose)",
         "answers": [
           "have lost",
           "'ve lost",
-          "ve lost"
+          "ve lost",
+          "’ve lost"
         ],
         "display": "have lost",
-        "explain": "A finished action with a result now: that's why you can't find your keys."
+        "explain": "A finished action with a result now: that’s why you can’t find your keys."
       },
       {
         "use": "A situation that continues",
@@ -50,10 +52,11 @@
         "answers": [
           "have known",
           "'ve known",
-          "ve known"
+          "ve known",
+          "’ve known"
         ],
         "display": "have known",
-        "explain": "'Know' is a stative verb — always simple, never continuous. 'Since' marks the starting point."
+        "explain": "‘Know’ is a stative verb — always simple, never continuous. ‘Since’ marks the starting point."
       },
       {
         "use": "Negative",
@@ -63,21 +66,22 @@
         "answers": [
           "haven't received",
           "have not received",
-          "havent received"
+          "havent received",
+          "haven’t received"
         ],
-        "display": "haven't received",
-        "explain": "Negative with 'yet': the results haven't arrived."
+        "display": "haven’t received",
+        "explain": "Negative with ‘yet’: the results haven’t arrived."
       },
       {
         "use": "Question — experience",
         "before": "",
         "after": "you ever eaten sushi?",
-        "hint": "(auxiliary — present perfect)",
+        "hint": "(have / has)",
         "answers": [
           "have"
         ],
         "display": "Have",
-        "explain": "A question about experience: 'ever' + present perfect."
+        "explain": "A question about experience: ‘ever’ + present perfect."
       },
       {
         "use": "Present result",
@@ -87,10 +91,11 @@
         "answers": [
           "have just seen",
           "'ve just seen",
-          "ve just seen"
+          "ve just seen",
+          "’ve just seen"
         ],
         "display": "have just seen",
-        "explain": "'Just' signals a very recent action, relevant right now."
+        "explain": "‘Just’ signals a very recent action, relevant right now."
       },
       {
         "use": "A situation that continues",
@@ -100,10 +105,11 @@
         "answers": [
           "have had",
           "'ve had",
-          "ve had"
+          "ve had",
+          "’ve had"
         ],
         "display": "have had",
-        "explain": "'Have' as a stative verb (to own) — never continuous, even with 'for' + a period."
+        "explain": "‘Have’ as a stative verb (to own) — never continuous, even with ‘for’ + a period."
       },
       {
         "use": "Experience",
@@ -113,10 +119,11 @@
         "answers": [
           "has flown",
           "'s flown",
-          "s flown"
+          "s flown",
+          "’s flown"
         ],
         "display": "has flown",
-        "explain": "A one-time experience — 'once' doesn't say exactly when."
+        "explain": "A one-time experience — ‘once’ doesn’t say exactly when."
       },
       {
         "use": "Negative",
@@ -126,10 +133,11 @@
         "answers": [
           "haven't read",
           "have not read",
-          "havent read"
+          "havent read",
+          "haven’t read"
         ],
-        "display": "haven't read",
-        "explain": "Negative with 'yet'."
+        "display": "haven’t read",
+        "explain": "Negative with ‘yet’."
       },
       {
         "use": "Present result",
@@ -139,10 +147,11 @@
         "answers": [
           "has left",
           "'s left",
-          "s left"
+          "s left",
+          "’s left"
         ],
         "display": "has left",
-        "explain": "'Already' — the action is complete, with an effect now."
+        "explain": "‘Already’ — the action is complete, with an effect now."
       },
       {
         "use": "A situation that continues",
@@ -152,34 +161,36 @@
         "answers": [
           "has loved",
           "'s loved",
-          "s loved"
+          "s loved",
+          "’s loved"
         ],
         "display": "has loved",
-        "explain": "'Love' is a stative verb — it isn't used in the continuous form."
+        "explain": "‘Love’ is a stative verb — it isn’t used in the continuous form."
       },
       {
         "use": "Question — present result",
         "before": "",
         "after": "the shop opened yet?",
-        "hint": "(auxiliary — present perfect)",
+        "hint": "(have / has)",
         "answers": [
           "has"
         ],
         "display": "Has",
-        "explain": "A question about a recent fact, with 'yet'."
+        "explain": "A question about a recent fact, with ‘yet’."
       },
       {
         "use": "Experience",
         "before": "We",
-        "after": "this film before — let's watch something else.",
+        "after": "this film before — let’s watch something else.",
         "hint": "(see)",
         "answers": [
           "have seen",
           "'ve seen",
-          "ve seen"
+          "ve seen",
+          "’ve seen"
         ],
         "display": "have seen",
-        "explain": "'Before' with no specific time — an experience."
+        "explain": "‘Before’ with no specific time — an experience."
       },
       {
         "use": "Negative",
@@ -189,10 +200,11 @@
         "answers": [
           "hasn't told",
           "has not told",
-          "hasnt told"
+          "hasnt told",
+          "hasn’t told"
         ],
-        "display": "hasn't told",
-        "explain": "'Yet' in a negative: she hasn't told anyone up to now — present perfect."
+        "display": "hasn’t told",
+        "explain": "‘Yet’ in a negative: she hasn’t told anyone up to now — present perfect."
       },
       {
         "use": "A situation that continues",
@@ -202,10 +214,11 @@
         "answers": [
           "have owned",
           "'ve owned",
-          "ve owned"
+          "ve owned",
+          "’ve owned"
         ],
         "display": "have owned",
-        "explain": "'Own' is a stative verb — never continuous, even with 'for' + a period."
+        "explain": "‘Own’ is a stative verb — never continuous, even with ‘for’ + a period."
       },
       {
         "use": "Present result",
@@ -215,21 +228,22 @@
         "answers": [
           "has finished",
           "'s finished",
-          "s finished"
+          "s finished",
+          "’s finished"
         ],
         "display": "has finished",
-        "explain": "The result is visible now: that's why she can go out."
+        "explain": "The result is visible now: that’s why she can go out."
       },
       {
         "use": "Question — experience",
         "before": "",
         "after": "she ever been to New York?",
-        "hint": "(auxiliary — present perfect)",
+        "hint": "(have / has)",
         "answers": [
           "has"
         ],
         "display": "Has",
-        "explain": "A question about experience with 'been' — 'has' for the third person."
+        "explain": "A question about experience with ‘been’ — ‘has’ for the third person."
       },
       {
         "use": "A situation that continues",
@@ -239,10 +253,11 @@
         "answers": [
           "has believed",
           "'s believed",
-          "s believed"
+          "s believed",
+          "’s believed"
         ],
         "display": "has believed",
-        "explain": "'Believe' is a stative verb — never continuous."
+        "explain": "‘Believe’ is a stative verb — never continuous."
       },
       {
         "use": "Experience",
@@ -252,21 +267,22 @@
         "answers": [
           "have never tried",
           "'ve never tried",
-          "ve never tried"
+          "ve never tried",
+          "’ve never tried"
         ],
         "display": "have never tried",
-        "explain": "'Never' + present perfect — a negative experience."
+        "explain": "‘Never’ + present perfect — a negative experience."
       },
       {
         "use": "Question — present result",
         "before": "",
         "after": "you fed the cat yet?",
-        "hint": "(auxiliary — present perfect)",
+        "hint": "(have / has)",
         "answers": [
           "have"
         ],
         "display": "Have",
-        "explain": "A question about a result now, with 'yet' — 'have' with 'you'."
+        "explain": "A question about a result now, with ‘yet’ — ‘have’ with ‘you’."
       }
     ]
   },
@@ -311,7 +327,7 @@
         "use": "Negative",
         "tokens": [
           "They",
-          "haven't",
+          "haven’t",
           "arrived",
           "yet."
         ]
@@ -354,7 +370,7 @@
         "use": "Negative",
         "tokens": [
           "I",
-          "haven't",
+          "haven’t",
           "made",
           "my",
           "bed."
@@ -407,7 +423,7 @@
         "use": "Negative",
         "tokens": [
           "She",
-          "hasn't",
+          "hasn’t",
           "called",
           "me",
           "today."
@@ -450,7 +466,7 @@
         "use": "Negative",
         "tokens": [
           "I",
-          "haven't",
+          "haven’t",
           "finished",
           "my",
           "coffee."
@@ -597,16 +613,16 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing participle: after \"have\", use the past participle — \"met\", not the base form.",
-          "Wrong tense: with \"ever\", this needs the present perfect (have + past participle), not the simple past.",
+          "Missing participle: after “have”, use the past participle — “met”, not the base form.",
+          "Wrong tense: with “ever”, this needs the present perfect (have + past participle), not the simple past.",
           "",
-          "Subject-verb agreement: with \"you\", the auxiliary is \"have\", not \"has\"."
+          "Subject-verb agreement: with “you”, the auxiliary is “have”, not “has”."
         ],
         "explain": "Experience up to now, with no specific time — present perfect."
       },
       {
         "use": "Present result",
-        "text": "Someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my bike. I'll have to walk.",
+        "text": "Someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my bike. I’ll have to walk.",
         "choices": [
           "stole",
           "has stolen",
@@ -615,10 +631,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: the simple past doesn't show the present result (\"I'll have to walk now\") — use present perfect.",
+          "Wrong tense: the simple past doesn’t show the present result (“I’ll have to walk now”) — use present perfect.",
           "",
-          "Subject-verb agreement: \"someone\" is singular, so the auxiliary is \"has\", not \"have\".",
-          "Wrong participle: after \"has\", use the past participle — \"stolen\", not \"stole\"."
+          "Subject-verb agreement: “someone” is singular, so the auxiliary is “has”, not “have”.",
+          "Wrong participle: after “has”, use the past participle — “stolen”, not “stole”."
         ],
         "explain": "A past action with a visible result right now — present perfect."
       },
@@ -633,30 +649,30 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: with \"we\", the auxiliary is \"have\", not \"has\".",
-          "Wrong tense: \"since\" needs present perfect here, not the present simple.",
-          "Wrong tense: the simple past doesn't connect the friendship to now — with \"since\", use present perfect.",
+          "Subject-verb agreement: with “we”, the auxiliary is “have”, not “has”.",
+          "Wrong tense: “since” needs present perfect here, not the present simple.",
+          "Wrong tense: the simple past doesn’t connect the friendship to now — with “since”, use present perfect.",
           ""
         ],
-        "explain": "A state that started in the past and is still true now, with \"since\" — present perfect."
+        "explain": "A state that started in the past and is still true now, with “since” — present perfect."
       },
       {
         "use": "Negative",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the new bridge yet.",
         "choices": [
-          "haven't built",
-          "didn't build",
-          "haven't build",
-          "hasn't built"
+          "haven’t built",
+          "didn’t build",
+          "haven’t build",
+          "hasn’t built"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: in British English, \"yet\" signals present perfect, not simple past.",
-          "Missing participle: after \"haven't\", use the past participle — \"built\".",
-          "Subject-verb agreement: with \"they\", the auxiliary is \"haven't\", not \"hasn't\"."
+          "Wrong tense: in British English, “yet” signals present perfect, not simple past.",
+          "Missing participle: after “haven’t”, use the past participle — “built”.",
+          "Subject-verb agreement: with “they”, the auxiliary is “haven’t”, not “hasn’t”."
         ],
-        "explain": "Something expected that hasn't happened up to now, with \"yet\" — present perfect negative."
+        "explain": "Something expected that hasn’t happened up to now, with “yet” — present perfect negative."
       },
       {
         "use": "Question — present result",
@@ -669,9 +685,9 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: with \"she\", the auxiliary is \"has\", not \"have\".",
-          "Wrong tense: \"started\" here is a participle, so the question needs \"Has\", not \"Did\".",
-          "Wrong auxiliary: present perfect questions use \"have\"/\"has\", not \"is\".",
+          "Subject-verb agreement: with “she”, the auxiliary is “has”, not “have”.",
+          "Wrong tense: “started” here is a participle, so the question needs “Has”, not “Did”.",
+          "Wrong auxiliary: present perfect questions use “have”/“has”, not “is”.",
           ""
         ],
         "explain": "A yes/no question about whether a result exists now — present perfect."
@@ -687,10 +703,10 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing participle: after \"have\", use the past participle — \"heard\", not \"hear\".",
-          "Wrong tense: \"so far\" counts experiences up to now — that needs present perfect, not simple past.",
+          "Missing participle: after “have”, use the past participle — “heard”, not “hear”.",
+          "Wrong tense: “so far” counts experiences up to now — that needs present perfect, not simple past.",
           "",
-          "Subject-verb agreement: with \"I\", the auxiliary is \"have\", not \"has\"."
+          "Subject-verb agreement: with “I”, the auxiliary is “have”, not “has”."
         ],
         "explain": "Counting how many times something has happened up to now — present perfect."
       },
@@ -706,11 +722,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: he still works as a nurse, so \"for ten years\" up to now needs present perfect, not simple past.",
-          "Subject-verb agreement: with \"he\", the auxiliary is \"has\", not \"have\".",
-          "Missing participle: after \"has\", use the past participle — \"worked\", not \"work\"."
+          "Wrong tense: he still works as a nurse, so “for ten years” up to now needs present perfect, not simple past.",
+          "Subject-verb agreement: with “he”, the auxiliary is “has”, not “have”.",
+          "Missing participle: after “has”, use the past participle — “worked”, not “work”."
         ],
-        "explain": "A situation that started in the past and continues now, with \"for\" — present perfect."
+        "explain": "A situation that started in the past and continues now, with “for” — present perfect."
       },
       {
         "use": "Question — present result",
@@ -723,10 +739,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: \"watered\" here is a participle — the question needs \"Have you watered\", not the simple past.",
+          "Wrong tense: “watered” here is a participle — the question needs “Have you watered”, not the simple past.",
           "",
-          "Subject-verb agreement: with \"you\", the auxiliary is \"have\", not \"has\".",
-          "Wrong auxiliary: present perfect questions use \"have\"/\"has\", not \"was\"."
+          "Subject-verb agreement: with “you”, the auxiliary is “have”, not “has”.",
+          "Wrong auxiliary: present perfect questions use “have”/“has”, not “was”."
         ],
         "explain": "A yes/no question about whether a result exists now — present perfect."
       },
@@ -741,10 +757,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: \"never\" with an experience up to now needs present perfect, not simple past.",
+          "Wrong tense: “never” with an experience up to now needs present perfect, not simple past.",
           "",
-          "Subject-verb agreement: with \"I\", the auxiliary is \"have\", not \"has\".",
-          "Wrong auxiliary: present perfect uses \"have\"/\"has\", not \"was\"."
+          "Subject-verb agreement: with “I”, the auxiliary is “have”, not “has”.",
+          "Wrong auxiliary: present perfect uses “have”/“has”, not “was”."
         ],
         "explain": "Experience up to now (or the lack of it) — present perfect."
       },
@@ -759,12 +775,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: \"prices\" is plural, so the auxiliary is \"have\", not \"has\".",
-          "Wrong tense: \"since 2020\" needs present perfect, not simple past.",
-          "Missing participle: after \"have\", use the past participle — \"doubled\", not \"double\".",
+          "Subject-verb agreement: “prices” is plural, so the auxiliary is “have”, not “has”.",
+          "Wrong tense: “since 2020” needs present perfect, not simple past.",
+          "Missing participle: after “have”, use the past participle — “doubled”, not “double”.",
           ""
         ],
-        "explain": "A change that started in the past and is still relevant now, with \"since\" — present perfect."
+        "explain": "A change that started in the past and is still relevant now, with “since” — present perfect."
       },
       {
         "use": "Experience",
@@ -777,16 +793,16 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: with \"he\", the auxiliary is \"has\", not \"have\".",
-          "Wrong tense: \"so far\" counts experiences up to now — that needs present perfect, not simple past.",
+          "Subject-verb agreement: with “he”, the auxiliary is “has”, not “have”.",
+          "Wrong tense: “so far” counts experiences up to now — that needs present perfect, not simple past.",
           "",
-          "Wrong participle: after \"has\", use the past participle — \"run\", not \"ran\"."
+          "Wrong participle: after “has”, use the past participle — “run”, not “ran”."
         ],
         "explain": "Counting how many times something has happened up to now — present perfect."
       },
       {
         "use": "Present result",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my glasses. I can't see properly.",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my glasses. I can’t see properly.",
         "choices": [
           "have broken",
           "broke",
@@ -796,9 +812,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: the simple past doesn't show the present result (\"I can't see now\") — use present perfect.",
-          "Missing participle: after \"have\", use the past participle — \"broken\", not \"break\".",
-          "Subject-verb agreement: with \"I\", the auxiliary is \"have\", not \"has\"."
+          "Wrong tense: the simple past doesn’t show the present result (“I can’t see now”) — use present perfect.",
+          "Missing participle: after “have”, use the past participle — “broken”, not “break”.",
+          "Subject-verb agreement: with “I”, the auxiliary is “have”, not “has”."
         ],
         "explain": "A past action with a visible result right now — present perfect."
       },
@@ -814,29 +830,29 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: they still believe it, so \"for decades\" up to now needs present perfect, not simple past.",
-          "Missing participle: after \"have\", use the past participle — \"believed\", not \"believe\".",
-          "Subject-verb agreement: \"scientists\" is plural, so the auxiliary is \"have\", not \"has\"."
+          "Wrong tense: they still believe it, so “for decades” up to now needs present perfect, not simple past.",
+          "Missing participle: after “have”, use the past participle — “believed”, not “believe”.",
+          "Subject-verb agreement: “scientists” is plural, so the auxiliary is “have”, not “has”."
         ],
-        "explain": "A state that started in the past and continues now, with \"for\" — present perfect."
+        "explain": "A state that started in the past and continues now, with “for” — present perfect."
       },
       {
         "use": "Negative",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the dishes yet.",
         "choices": [
-          "hasn't wash",
-          "didn't wash",
-          "hasn't washed",
-          "haven't washed"
+          "hasn’t wash",
+          "didn’t wash",
+          "hasn’t washed",
+          "haven’t washed"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing participle: after \"hasn't\", use the past participle — \"washed\".",
-          "Wrong tense: in British English, \"yet\" signals present perfect, not simple past.",
+          "Missing participle: after “hasn’t”, use the past participle — “washed”.",
+          "Wrong tense: in British English, “yet” signals present perfect, not simple past.",
           "",
-          "Subject-verb agreement: with \"he\", the auxiliary is \"hasn't\", not \"haven't\"."
+          "Subject-verb agreement: with “he”, the auxiliary is “hasn’t”, not “haven’t”."
         ],
-        "explain": "Something expected that hasn't happened up to now, with \"yet\" — present perfect negative."
+        "explain": "Something expected that hasn’t happened up to now, with “yet” — present perfect negative."
       },
       {
         "use": "Question — experience",
@@ -849,16 +865,16 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: \"ever\" asks about experience up to now, so it needs \"Have you ever seen\", not the simple past.",
+          "Wrong tense: “ever” asks about experience up to now, so it needs “Have you ever seen”, not the simple past.",
           "",
-          "Subject-verb agreement: with \"you\", the auxiliary is \"have\", not \"has\".",
-          "Wrong auxiliary: present perfect questions use \"have\"/\"has\", not \"was\"."
+          "Subject-verb agreement: with “you”, the auxiliary is “have”, not “has”.",
+          "Wrong auxiliary: present perfect questions use “have”/“has”, not “was”."
         ],
         "explain": "Experience up to now, with no specific time — present perfect."
       },
       {
         "use": "Present result",
-        "text": "The printer <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> . I can't print my essay.",
+        "text": "The printer <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> . I can’t print my essay.",
         "choices": [
           "has break",
           "broke",
@@ -867,9 +883,9 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing participle: after \"has\", use the past participle — \"broken\", not \"break\".",
-          "Wrong tense: the simple past doesn't show the present result (\"I can't print now\") — use present perfect.",
-          "Subject-verb agreement: with \"the printer\", the auxiliary is \"has\", not \"have\".",
+          "Missing participle: after “has”, use the past participle — “broken”, not “break”.",
+          "Wrong tense: the simple past doesn’t show the present result (“I can’t print now”) — use present perfect.",
+          "Subject-verb agreement: with “the printer”, the auxiliary is “has”, not “have”.",
           ""
         ],
         "explain": "A past action with a visible result right now — present perfect."
@@ -885,12 +901,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: \"my grandparents\" is plural, so the auxiliary is \"have\", not \"has\".",
-          "Wrong tense: \"since 1990\" up to now needs present perfect, not simple past.",
-          "Wrong participle: after \"have\", use the past participle — \"had\", not \"have\" again.",
+          "Subject-verb agreement: “my grandparents” is plural, so the auxiliary is “have”, not “has”.",
+          "Wrong tense: “since 1990” up to now needs present perfect, not simple past.",
+          "Wrong participle: after “have”, use the past participle — “had”, not “have” again.",
           ""
         ],
-        "explain": "A state that started in the past and continues now, with \"since\" — present perfect."
+        "explain": "A state that started in the past and continues now, with “since” — present perfect."
       },
       {
         "use": "Question — present result",
@@ -904,9 +920,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: in British English, \"yet\" asks about a result now, so it needs \"Have they sold\", not the simple past.",
-          "Subject-verb agreement: with \"they\", the auxiliary is \"have\", not \"has\".",
-          "Wrong auxiliary: present perfect questions use \"have\"/\"has\", not \"were\"."
+          "Wrong tense: in British English, “yet” asks about a result now, so it needs “Have they sold”, not the simple past.",
+          "Subject-verb agreement: with “they”, the auxiliary is “have”, not “has”.",
+          "Wrong auxiliary: present perfect questions use “have”/“has”, not “were”."
         ],
         "explain": "A yes/no question about whether a result exists now — present perfect."
       },
@@ -921,10 +937,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: \"never\" with an experience up to now needs present perfect, not simple past — and \"did\" can't go with \"seen\".",
+          "Wrong tense: “never” with an experience up to now needs present perfect, not simple past — and “did” can’t go with “seen”.",
           "",
-          "Wrong auxiliary: present perfect uses \"have\"/\"has\", not \"were\".",
-          "Subject-verb agreement: with \"we\", the auxiliary is \"have\", not \"has\"."
+          "Wrong auxiliary: present perfect uses “have”/“has”, not “were”.",
+          "Subject-verb agreement: with “we”, the auxiliary is “have”, not “has”."
         ],
         "explain": "Experience up to now (or the lack of it) — present perfect."
       },
@@ -939,10 +955,10 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: with \"the company\", the auxiliary is \"has\", not \"have\".",
-          "Wrong tense: \"twice this year\" counts events up to now — that needs present perfect, not simple past.",
+          "Subject-verb agreement: with “the company”, the auxiliary is “has”, not “have”.",
+          "Wrong tense: “twice this year” counts events up to now — that needs present perfect, not simple past.",
           "",
-          "Missing participle: after \"has\", use the past participle — \"raised\", not \"raise\"."
+          "Missing participle: after “has”, use the past participle — “raised”, not “raise”."
         ],
         "explain": "Counting how many times something has happened up to now — present perfect."
       }
@@ -964,7 +980,7 @@
         "errorIndex": 1,
         "correction": "has",
         "type": "Subject-verb agreement",
-        "message": "With \"she\", the auxiliary is \"has\", not \"have\"."
+        "message": "With “she”, the auxiliary is “has”, not “have”."
       },
       {
         "tokens": [
@@ -978,7 +994,7 @@
         "errorIndex": 2,
         "correction": "worn",
         "type": "Wrong participle",
-        "message": "After \"have\", use the past participle — \"worn\", not \"wore\" (that's the simple past form)."
+        "message": "After “have”, use the past participle — “worn”, not “wore” (that’s the simple past form)."
       },
       {
         "tokens": [
@@ -992,20 +1008,20 @@
         "errorIndex": 1,
         "correction": "have",
         "type": "Subject-verb agreement",
-        "message": "With \"they\", the auxiliary is \"have\", not \"has\"."
+        "message": "With “they”, the auxiliary is “have”, not “has”."
       },
       {
         "tokens": [
           "He",
-          "haven't",
+          "haven’t",
           "answered",
           "my",
           "text."
         ],
         "errorIndex": 1,
-        "correction": "hasn't",
+        "correction": "hasn’t",
         "type": "Subject-verb agreement",
-        "message": "With \"he\", the auxiliary is \"hasn't\", not \"haven't\"."
+        "message": "With “he”, the auxiliary is “hasn’t”, not “haven’t”."
       },
       {
         "tokens": [
@@ -1019,7 +1035,7 @@
         "errorIndex": 3,
         "correction": "sung",
         "type": "Wrong participle",
-        "message": "After \"have\", use the past participle — \"sung\", not \"sang\" (that's the simple past form)."
+        "message": "After “have”, use the past participle — “sung”, not “sang” (that’s the simple past form)."
       },
       {
         "tokens": [
@@ -1034,7 +1050,7 @@
         "errorIndex": 3,
         "correction": "swum",
         "type": "Wrong participle",
-        "message": "After \"have\", use the past participle — \"swum\", not \"swam\" (that's the simple past form)."
+        "message": "After “have”, use the past participle — “swum”, not “swam” (that’s the simple past form)."
       },
       {
         "tokens": [
@@ -1047,7 +1063,7 @@
         "errorIndex": 2,
         "correction": "cleaned",
         "type": "Missing participle",
-        "message": "After \"have\", use the past participle — \"cleaned\", not the base form \"clean\"."
+        "message": "After “have”, use the past participle — “cleaned”, not the base form “clean”."
       },
       {
         "tokens": [
@@ -1061,7 +1077,7 @@
         "errorIndex": 2,
         "correction": "forgotten",
         "type": "Wrong participle",
-        "message": "After \"has\", use the past participle — \"forgotten\", not \"forgot\" (that's the simple past form)."
+        "message": "After “has”, use the past participle — “forgotten”, not “forgot” (that’s the simple past form)."
       },
       {
         "tokens": [
@@ -1074,12 +1090,12 @@
         "errorIndex": 3,
         "correction": "gone",
         "type": "Wrong participle",
-        "message": "After \"has\", use the past participle — \"gone\", not \"went\" (that's the simple past form)."
+        "message": "After “has”, use the past participle — “gone”, not “went” (that’s the simple past form)."
       },
       {
         "tokens": [
           "They",
-          "haven't",
+          "haven’t",
           "ate",
           "breakfast",
           "yet."
@@ -1087,7 +1103,7 @@
         "errorIndex": 2,
         "correction": "eaten",
         "type": "Wrong participle",
-        "message": "After \"haven't\", use the past participle — \"eaten\", not \"ate\" (that's the simple past form)."
+        "message": "After “haven’t”, use the past participle — “eaten”, not “ate” (that’s the simple past form)."
       },
       {
         "tokens": [
@@ -1101,7 +1117,7 @@
         "errorIndex": 2,
         "correction": "written",
         "type": "Wrong participle",
-        "message": "After \"have\", use the past participle — \"written\", not \"wrote\" (that's the simple past form)."
+        "message": "After “have”, use the past participle — “written”, not “wrote” (that’s the simple past form)."
       },
       {
         "tokens": [
@@ -1115,7 +1131,7 @@
         "errorIndex": 2,
         "correction": "has",
         "type": "Subject-verb agreement",
-        "message": "With \"my dad\", the auxiliary is \"has\", not \"have\"."
+        "message": "With “my dad”, the auxiliary is “has”, not “have”."
       },
       {
         "tokens": [
@@ -1128,7 +1144,7 @@
         "errorIndex": 1,
         "correction": "have",
         "type": "Subject-verb agreement",
-        "message": "With \"we\", the auxiliary is \"have\", not \"has\"."
+        "message": "With “we”, the auxiliary is “have”, not “has”."
       },
       {
         "tokens": [
@@ -1141,7 +1157,7 @@
         "errorIndex": 1,
         "correction": "has",
         "type": "Subject-verb agreement",
-        "message": "With \"he\", the auxiliary is \"has\", not \"have\"."
+        "message": "With “he”, the auxiliary is “has”, not “have”."
       },
       {
         "tokens": [
@@ -1155,7 +1171,7 @@
         "errorIndex": 1,
         "correction": "have",
         "type": "Subject-verb agreement",
-        "message": "With \"I\", the auxiliary is \"have\", not \"has\"."
+        "message": "With “I”, the auxiliary is “have”, not “has”."
       },
       {
         "tokens": [
@@ -1168,7 +1184,7 @@
         "errorIndex": 1,
         "correction": "have sent",
         "type": "Wrong tense",
-        "message": "In British English, \"already\" needs the present perfect — \"have sent\", not the simple past alone."
+        "message": "In British English, “already” needs the present perfect — “have sent”, not the simple past alone."
       },
       {
         "tokens": [
@@ -1177,12 +1193,12 @@
           "here",
           "since",
           "nine",
-          "o'clock."
+          "o’clock."
         ],
         "errorIndex": 1,
         "correction": "have been",
         "type": "Wrong tense",
-        "message": "\"Since nine o'clock\" up to now needs the present perfect — \"have been\", not the present simple."
+        "message": "“Since nine o’clock” up to now needs the present perfect — “have been”, not the present simple."
       },
       {
         "tokens": [
@@ -1197,21 +1213,21 @@
         "errorIndex": 1,
         "correction": "have known",
         "type": "Wrong tense",
-        "message": "\"Since Monday\" needs the present perfect — \"have known\", not the simple past."
+        "message": "“Since Monday” needs the present perfect — “have known”, not the simple past."
       },
       {
         "tokens": [
           "She",
-          "didn't",
+          "didn’t",
           "pack",
           "her",
           "suitcase",
           "yet."
         ],
         "errorIndex": 1,
-        "correction": "hasn't packed",
+        "correction": "hasn’t packed",
         "type": "Wrong tense",
-        "message": "In British English, \"yet\" signals the present perfect negative — \"hasn't packed\", not \"didn't pack\".",
+        "message": "In British English, “yet” signals the present perfect negative — “hasn’t packed”, not “didn’t pack”.",
         "errorSpan": [
           1,
           2
@@ -1229,13 +1245,13 @@
         "errorIndex": 0,
         "correction": "Have",
         "type": "Mixed tense",
-        "message": "This mixes the simple past auxiliary (\"did\") with a present perfect participle (\"climbed\"). Use \"Have you ever climbed\" instead."
+        "message": "This mixes the simple past auxiliary (“did”) with a present perfect participle (“climbed”). Use “Have you ever climbed” instead."
       }
     ]
   },
   "levelCheck": {
     "title": "How well do you know it?",
-    "subtitle": "20 mixed questions — typing, word order, participles, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you're strong and where to go back and practise.",
+    "subtitle": "20 mixed questions — typing, word order, participles, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
@@ -1259,10 +1275,11 @@
         "answers": [
           "has finished",
           "'s finished",
-          "s finished"
+          "s finished",
+          "’s finished"
         ],
         "display": "has finished",
-        "explain": "'Already' — the action is complete, with a result now."
+        "explain": "‘Already’ — the action is complete, with a result now."
       },
       {
         "type": "fill",
@@ -1270,10 +1287,13 @@
         "sentText": "We {{blank}} a decision yet.",
         "hint": "make, negative",
         "answers": [
-          "haven't made"
+          "haven't made",
+          "have not made",
+          "havent made",
+          "haven’t made"
         ],
-        "display": "haven't made",
-        "explain": "Negative with 'yet': the decision hasn't happened up to now."
+        "display": "haven’t made",
+        "explain": "Negative with ‘yet’: the decision hasn’t happened up to now."
       },
       {
         "type": "fill",
@@ -1283,10 +1303,11 @@
         "answers": [
           "has been",
           "'s been",
-          "s been"
+          "s been",
+          "’s been"
         ],
         "display": "has been",
-        "explain": "'Be' is a stative verb: a state that started in the past and is still true now, with \"since\" — present perfect."
+        "explain": "‘Be’ is a stative verb: a state that started in the past and is still true now, with “since” — present perfect."
       },
       {
         "type": "fill",
@@ -1296,10 +1317,11 @@
         "answers": [
           "have moved",
           "'ve moved",
-          "ve moved"
+          "ve moved",
+          "’ve moved"
         ],
         "display": "have moved",
-        "explain": "An experience at an unspecified time — we don't say exactly when it happened."
+        "explain": "An experience at an unspecified time — we don’t say exactly when it happened."
       },
       {
         "type": "order",
@@ -1331,7 +1353,7 @@
         "tokens": [
           "The",
           "museum",
-          "hasn't",
+          "hasn’t",
           "opened",
           "today."
         ]
@@ -1362,11 +1384,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: \"grew\" is the simple past, not the participle.",
-          "There's no such form as \"growed\" — irregular verbs don't take -ed.",
-          "\"Growing\" is the -ing form, not the participle."
+          "Wrong form: “grew” is the simple past, not the participle.",
+          "There’s no such form as “growed” — irregular verbs don’t take -ed.",
+          "“Growing” is the -ing form, not the participle."
         ],
-        "explain": "'Grow' is irregular: grow → grew → grown. The participle is 'grown'."
+        "explain": "‘Grow’ is irregular: grow → grew → grown. The participle is ‘grown’."
       },
       {
         "type": "participle",
@@ -1382,11 +1404,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: \"fell\" is the simple past, not the participle.",
-          "There's no such form as \"falled\" — \"fall\" is irregular.",
-          "\"Falling\" is the -ing form, not the participle."
+          "Wrong form: “fell” is the simple past, not the participle.",
+          "There’s no such form as “falled” — “fall” is irregular.",
+          "“Falling” is the -ing form, not the participle."
         ],
-        "explain": "'Fall' is irregular: fall → fell → fallen. The participle is 'fallen'."
+        "explain": "‘Fall’ is irregular: fall → fell → fallen. The participle is ‘fallen’."
       },
       {
         "type": "participle",
@@ -1402,11 +1424,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: \"threw\" is the simple past, not the participle.",
-          "There's no such form as \"throwed\" — \"throw\" is irregular.",
-          "\"Throwing\" is the -ing form, not the participle."
+          "Wrong form: “threw” is the simple past, not the participle.",
+          "There’s no such form as “throwed” — “throw” is irregular.",
+          "“Throwing” is the -ing form, not the participle."
         ],
-        "explain": "'Throw' is irregular: throw → threw → thrown. The participle is 'thrown'."
+        "explain": "‘Throw’ is irregular: throw → threw → thrown. The participle is ‘thrown’."
       },
       {
         "type": "participle",
@@ -1422,11 +1444,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: \"drank\" is the simple past, not the participle.",
-          "There's no such form as \"drinked\" — \"drink\" is irregular.",
-          "\"Drinking\" is the -ing form, not the participle."
+          "Wrong form: “drank” is the simple past, not the participle.",
+          "There’s no such form as “drinked” — “drink” is irregular.",
+          "“Drinking” is the -ing form, not the participle."
         ],
-        "explain": "'Drink' is irregular: drink → drank → drunk. The participle is 'drunk'."
+        "explain": "‘Drink’ is irregular: drink → drank → drunk. The participle is ‘drunk’."
       },
       {
         "type": "mc",
@@ -1441,11 +1463,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: this asks about experience up to now — \"Has ... lived\", not the simple past.",
-          "Subject-verb agreement: with \"she\", the auxiliary is \"has\", not \"have\".",
-          "Wrong auxiliary: present perfect questions use \"have\"/\"has\", not \"was\"."
+          "Wrong tense: this asks about experience up to now — “Has ... lived”, not the simple past.",
+          "Subject-verb agreement: with “she”, the auxiliary is “has”, not “have”.",
+          "Wrong auxiliary: present perfect questions use “have”/“has”, not “was”."
         ],
-        "explain": "A question about experience: 'ever' + present perfect."
+        "explain": "A question about experience: ‘ever’ + present perfect."
       },
       {
         "type": "mc",
@@ -1460,9 +1482,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: the simple past doesn't show the result you can see now (the clean rooms) — use present perfect.",
-          "Missing participle: after \"have\", use the past participle — \"tidied\", not \"tidy\".",
-          "Subject-verb agreement: \"the kids\" is plural, so the auxiliary is \"have\", not \"has\"."
+          "Wrong tense: the simple past doesn’t show the result you can see now (the clean rooms) — use present perfect.",
+          "Missing participle: after “have”, use the past participle — “tidied”, not “tidy”.",
+          "Subject-verb agreement: “the kids” is plural, so the auxiliary is “have”, not “has”."
         ],
         "explain": "A finished action with a result now: the rooms are clean."
       },
@@ -1479,9 +1501,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: this asks about a result now — \"Has ... finished\", not the simple past.",
-          "Subject-verb agreement: with \"he\", the auxiliary is \"has\", not \"have\".",
-          "Wrong auxiliary: present perfect questions use \"have\"/\"has\", not \"was\"."
+          "Wrong tense: this asks about a result now — “Has ... finished”, not the simple past.",
+          "Subject-verb agreement: with “he”, the auxiliary is “has”, not “have”.",
+          "Wrong auxiliary: present perfect questions use “have”/“has”, not “was”."
         ],
         "explain": "A yes/no question about whether a result exists now — present perfect."
       },
@@ -1498,11 +1520,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: \"never\" with an experience up to now needs present perfect, not simple past — and \"did\" can't go with \"eaten\".",
-          "Wrong auxiliary: present perfect uses \"have\"/\"has\", not \"am\".",
-          "Subject-verb agreement: with \"I\", the auxiliary is \"have\", not \"has\"."
+          "Wrong tense: “never” with an experience up to now needs present perfect, not simple past — and “did” can’t go with “eaten”.",
+          "Wrong auxiliary: present perfect uses “have”/“has”, not “am”.",
+          "Subject-verb agreement: with “I”, the auxiliary is “have”, not “has”."
         ],
-        "explain": "An experience at an unspecified time — we don't say exactly when it happened."
+        "explain": "An experience at an unspecified time — we don’t say exactly when it happened."
       },
       {
         "type": "error",
@@ -1518,7 +1540,7 @@
         ],
         "errorIndex": 2,
         "correction": "has",
-        "message": "With \"my sister\", the auxiliary is \"has\", not \"have\"."
+        "message": "With “my sister”, the auxiliary is “has”, not “have”."
       },
       {
         "type": "error",
@@ -1533,7 +1555,7 @@
         ],
         "errorIndex": 2,
         "correction": "taken",
-        "message": "After \"have\", use the past participle — \"taken\", not \"took\"."
+        "message": "After “have”, use the past participle — “taken”, not “took”."
       },
       {
         "type": "error",
@@ -1547,7 +1569,7 @@
         ],
         "errorIndex": 1,
         "correction": "have",
-        "message": "With \"they\", the auxiliary is \"have\", not \"has\"."
+        "message": "With “they”, the auxiliary is “have”, not “has”."
       },
       {
         "type": "error",
@@ -1563,7 +1585,7 @@
         ],
         "errorIndex": 1,
         "correction": "have visited",
-        "message": "\"Twice this year\" counts events up to now — that needs present perfect, not simple past."
+        "message": "“Twice this year” counts events up to now — that needs present perfect, not simple past."
       }
     ]
   }
