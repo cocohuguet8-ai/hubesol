@@ -6,8 +6,8 @@
       "words": [
         "do",
         "does",
-        "don't",
-        "doesn't"
+        "don’t",
+        "doesn’t"
       ],
       "label": "do/does"
     }
@@ -50,7 +50,7 @@
           "melts"
         ],
         "display": "melts",
-        "explain": "A fact that's always true takes the present simple."
+        "explain": "A fact that’s always true takes the present simple."
       },
       {
         "use": "Fact — negative",
@@ -59,10 +59,13 @@
         "after": "with water.",
         "hint": "not / mix",
         "answers": [
-          "doesn't mix"
+          "doesn't mix",
+          "does not mix",
+          "doesnt mix",
+          "doesn’t mix"
         ],
-        "display": "doesn't mix",
-        "explain": "Negative fact with 'it' — doesn't + base verb."
+        "display": "doesn’t mix",
+        "explain": "Negative fact with ‘it’ — doesn’t + base verb."
       },
       {
         "use": "Habit/routine",
@@ -74,7 +77,7 @@
           "walks"
         ],
         "display": "walks",
-        "explain": "'Every day' signals a routine — present simple, plus -s for 'she'."
+        "explain": "‘Every day’ signals a routine — present simple, plus -s for ‘she’."
       },
       {
         "use": "Habit/routine",
@@ -86,7 +89,7 @@
           "get"
         ],
         "display": "get",
-        "explain": "A routine with 'I' — no -s."
+        "explain": "A routine with ‘I’ — no -s."
       },
       {
         "use": "Habit/routine",
@@ -98,7 +101,7 @@
           "drinks"
         ],
         "display": "drinks",
-        "explain": "A routine with 'he' — add -s."
+        "explain": "A routine with ‘he’ — add -s."
       },
       {
         "use": "Habit/routine",
@@ -110,7 +113,7 @@
           "have"
         ],
         "display": "have",
-        "explain": "A routine with 'we' — no -s (and note: 'have', not 'haves')."
+        "explain": "A routine with ‘we’ — no -s (and note: ‘have’, not ‘haves’)."
       },
       {
         "use": "Habit/routine",
@@ -122,7 +125,7 @@
           "play"
         ],
         "display": "play",
-        "explain": "A routine with 'they' — no -s."
+        "explain": "A routine with ‘they’ — no -s."
       },
       {
         "use": "Habit — negative",
@@ -131,10 +134,13 @@
         "after": "meat.",
         "hint": "not / eat",
         "answers": [
-          "doesn't eat"
+          "doesn't eat",
+          "does not eat",
+          "doesnt eat",
+          "doesn’t eat"
         ],
-        "display": "doesn't eat",
-        "explain": "Negative habit with 'he' — doesn't + base verb, no -s on the main verb."
+        "display": "doesn’t eat",
+        "explain": "Negative habit with ‘he’ — doesn’t + base verb, no -s on the main verb."
       },
       {
         "use": "Habit — negative",
@@ -143,10 +149,13 @@
         "after": "coffee at night.",
         "hint": "not / drink",
         "answers": [
-          "don't drink"
+          "don't drink",
+          "do not drink",
+          "dont drink",
+          "don’t drink"
         ],
-        "display": "don't drink",
-        "explain": "Negative habit with 'I' — don't + base verb."
+        "display": "don’t drink",
+        "explain": "Negative habit with ‘I’ — don’t + base verb."
       },
       {
         "use": "Habit — question",
@@ -158,7 +167,7 @@
           "do"
         ],
         "display": "Do",
-        "explain": "Present simple questions with 'you' start with 'do'."
+        "explain": "Present simple questions with ‘you’ start with ‘do’."
       },
       {
         "use": "Habit — question",
@@ -170,7 +179,7 @@
           "does"
         ],
         "display": "Does",
-        "explain": "With 'your uncle' (he), the question auxiliary is 'does' — and the main verb stays 'work', not 'works'."
+        "explain": "With ‘your uncle’ (he), the question auxiliary is ‘does’ — and the main verb stays ‘work’, not ‘works’."
       },
       {
         "use": "Timetable",
@@ -194,7 +203,7 @@
           "starts"
         ],
         "display": "starts",
-        "explain": "A scheduled event, even though it's 'tonight' — present simple."
+        "explain": "A scheduled event, even though it’s ‘tonight’ — present simple."
       },
       {
         "use": "Timetable",
@@ -215,10 +224,13 @@
         "after": "on Mondays.",
         "hint": "not / open",
         "answers": [
-          "doesn't open"
+          "doesn't open",
+          "does not open",
+          "doesnt open",
+          "doesn’t open"
         ],
-        "display": "doesn't open",
-        "explain": "Negative timetable fact — doesn't + base verb."
+        "display": "doesn’t open",
+        "explain": "Negative timetable fact — doesn’t + base verb."
       },
       {
         "use": "Timetable — question",
@@ -230,7 +242,7 @@
           "does"
         ],
         "display": "Does",
-        "explain": "Question about a timetable — 'does' + base verb."
+        "explain": "Question about a timetable — ‘does’ + base verb."
       },
       {
         "use": "Spelling — habit",
@@ -294,7 +306,7 @@
         "use": "Fact — negative",
         "tokens": [
           "Money",
-          "doesn't",
+          "doesn’t",
           "grow",
           "on",
           "trees."
@@ -389,7 +401,7 @@
         "use": "Habit — negative",
         "tokens": [
           "She",
-          "doesn't",
+          "doesn’t",
           "like",
           "horror",
           "films."
@@ -400,7 +412,7 @@
         "tokens": [
           "My",
           "parents",
-          "don't",
+          "don’t",
           "use",
           "social",
           "media."
@@ -496,7 +508,7 @@
         "use": "Timetable — negative",
         "tokens": [
           "Trains",
-          "don't",
+          "don’t",
           "run",
           "on",
           "Christmas Day."
@@ -506,7 +518,7 @@
             "on",
             "Christmas Day.",
             "Trains",
-            "don't",
+            "don’t",
             "run"
           ]
         ]
@@ -672,11 +684,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: 'have' for things you own or contain isn't used in the continuous — 'has'.",
-          "Missing 3rd-person form: 'a triangle' is 'it' — 'has', not 'have'.",
-          "Wrong tense: this is always true now — present simple 'has', not past 'had'."
+          "Wrong tense: ‘have’ for things you own or contain isn’t used in the continuous — ‘has’.",
+          "Missing 3rd-person form: ‘a triangle’ is ‘it’ — ‘has’, not ‘have’.",
+          "Wrong tense: this is always true now — present simple ‘has’, not past ‘had’."
         ],
-        "explain": "A fact that's always true — present simple; 'have' becomes 'has' with 'it'."
+        "explain": "A fact that’s always true — present simple; ‘have’ becomes ‘has’ with ‘it’."
       },
       {
         "use": "Habit/routine",
@@ -689,12 +701,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous.",
           "",
-          "Missing -es: with 'my mum' (she), 'do' becomes 'does'.",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now."
+          "Missing -es: with ‘my mum’ (she), ‘do’ becomes ‘does’.",
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now."
         ],
-        "explain": "'On Fridays' signals a routine — present simple; with 'she', 'do' becomes 'does'."
+        "explain": "‘On Fridays’ signals a routine — present simple; with ‘she’, ‘do’ becomes ‘does’."
       },
       {
         "use": "Habit/routine",
@@ -703,16 +715,16 @@
           "has",
           "are having",
           "have",
-          "to have"
+          "have had"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'my grandparents' is 'they' — 'have', not 'has'.",
-          "Wrong tense: 'every day' is a routine, not something happening right now.",
+          "Subject-verb agreement: ‘my grandparents’ is ‘they’ — ‘have’, not ‘has’.",
+          "Wrong tense: ‘every day’ is a routine, not something happening right now.",
           "",
-          "After a subject you need a finite verb, not the infinitive: 'have'."
+          "Wrong tense: ‘every day’ is a routine, and the present perfect talks about the past up to now."
         ],
-        "explain": "'Every day' is a routine; 'my grandparents' (they) takes the base form 'have'."
+        "explain": "‘Every day’ is a routine; ‘my grandparents’ (they) takes the base form ‘have’."
       },
       {
         "use": "Habit — question",
@@ -721,16 +733,16 @@
           "Do",
           "Does",
           "Did",
-          "Is"
+          "Will"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: 'your brother' is 'he' — use 'Does', not 'Do'.",
+          "Subject-verb agreement: ‘your brother’ is ‘he’ — use ‘Does’, not ‘Do’.",
           "",
-          "Wrong tense: 'now' is present, so 'Did' (past) doesn't fit.",
-          "'Is' can't go before a base verb. The present simple question auxiliary is 'Does'."
+          "Wrong tense: ‘now’ is present, so ‘Did’ (past) doesn’t fit.",
+          "‘Will’ is for the future, but ‘now’ is present — the present simple question auxiliary is ‘Does’."
         ],
-        "explain": "Yes/no question with 'your brother' (he) — 'does' + base verb 'share'."
+        "explain": "Yes/no question with ‘your brother’ (he) — ‘does’ + base verb ‘share’."
       },
       {
         "use": "Timetable",
@@ -744,29 +756,29 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Missing -s: 'the ferry' is 'it' — 'sails', not 'sail'.",
+          "Missing -s: ‘the ferry’ is ‘it’ — ‘sails’, not ‘sail’.",
           "Wrong tense: a fixed daily schedule takes the present simple, not the continuous.",
           "Wrong tense: present perfect is about the past up to now, not a daily timetable."
         ],
-        "explain": "A regular timetable — present simple, plus -s for 'the ferry'."
+        "explain": "A regular timetable — present simple, plus -s for ‘the ferry’."
       },
       {
         "use": "Habit — negative",
         "text": "My dad usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sugar in his tea.",
         "choices": [
-          "don't take",
-          "doesn't take",
-          "hasn't taken",
-          "isn't taking"
+          "don’t take",
+          "doesn’t take",
+          "hasn’t taken",
+          "isn’t taking"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: 'my dad' is 'he' — use 'doesn't', not 'don't'.",
+          "Subject-verb agreement: ‘my dad’ is ‘he’ — use ‘doesn’t’, not ‘don’t’.",
           "",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous."
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now.",
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous."
         ],
-        "explain": "Negative habit with 'my dad' (he) — doesn't + base verb 'take'."
+        "explain": "Negative habit with ‘my dad’ (he) — doesn’t + base verb ‘take’."
       },
       {
         "use": "Habit/routine",
@@ -779,12 +791,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: with 'I', don't add -s — 'check', not 'checks'.",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Subject-verb agreement: with ‘I’, don’t add -s — ‘check’, not ‘checks’.",
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous.",
           "",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now."
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now."
         ],
-        "explain": "'Three times a day' signals a routine; with 'I', use the base verb — no -s."
+        "explain": "‘Three times a day’ signals a routine; with ‘I’, use the base verb — no -s."
       },
       {
         "use": "Spelling & form",
@@ -797,9 +809,9 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing ending: with 'he', the verb needs -es — 'catches'.",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
+          "Missing ending: with ‘he’, the verb needs -es — ‘catches’.",
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now.",
           ""
         ],
         "explain": "Verbs ending in -ch add -es: catch → catches."
@@ -816,9 +828,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
-          "Missing ending: with 'my uncle' (he), the verb needs the -ies form."
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now.",
+          "Missing ending: with ‘my uncle’ (he), the verb needs the -ies form."
         ],
         "explain": "Consonant + -y → -ies: fly → flies."
       },
@@ -826,23 +838,23 @@
         "use": "Timetable — negative",
         "text": "The supermarket <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> until ten on weekdays.",
         "choices": [
-          "don't close",
-          "doesn't close",
-          "hasn't closed",
-          "isn't closing"
+          "don’t close",
+          "doesn’t close",
+          "hasn’t closed",
+          "isn’t closing"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: 'the supermarket' is 'it' — use 'doesn't', not 'don't'.",
+          "Subject-verb agreement: ‘the supermarket’ is ‘it’ — use ‘doesn’t’, not ‘don’t’.",
           "",
-          "Wrong tense: 'on weekdays' is a regular timetable, not the past up to now.",
+          "Wrong tense: ‘on weekdays’ is a regular timetable, not the past up to now.",
           "Wrong form: a regular weekday timetable takes the present simple, not the continuous."
         ],
-        "explain": "Negative timetable fact with 'it' — doesn't + base verb 'close'."
+        "explain": "Negative timetable fact with ‘it’ — doesn’t + base verb ‘close’."
       },
       {
         "use": "Habit/routine",
-        "text": "We usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
         "choices": [
           "visits",
           "are visiting",
@@ -851,12 +863,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'we' takes no -s — 'visit', not 'visits'.",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
+          "Subject-verb agreement: ‘we’ takes no -s — ‘visit’, not ‘visits’.",
+          "Wrong form: ‘every summer’ signals a routine, so the present simple is needed, not the continuous.",
           "",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now."
+          "Wrong tense: ‘every summer’ shows a routine, and the present perfect talks about the past up to now."
         ],
-        "explain": "'Every summer' is a routine, so it takes the present simple; 'we' takes the base form 'visit'."
+        "explain": "‘Every summer’ is a routine, so it takes the present simple; ‘we’ takes the base form ‘visit’."
       },
       {
         "use": "Habit/routine",
@@ -869,12 +881,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Missing ending: with 'he', add -es — 'brushes', not 'brush'.",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
+          "Missing ending: with ‘he’, add -es — ‘brushes’, not ‘brush’.",
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now.",
           ""
         ],
-        "explain": "'Twice a day' — a routine; verbs ending in -sh add -es: brush → brushes."
+        "explain": "‘Twice a day’ — a routine; verbs ending in -sh add -es: brush → brushes."
       },
       {
         "use": "Fact",
@@ -888,7 +900,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Missing -s: with 'the Earth' (it), add -s — 'moves', not 'move'.",
+          "Missing -s: with ‘the Earth’ (it), add -s — ‘moves’, not ‘move’.",
           "Wrong tense: this is a permanent fact, not happening right now.",
           "Wrong tense: a scientific fact is always true, so use the present simple, not the past."
         ],
@@ -905,30 +917,30 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'tomorrow' is the future — a timetable uses the present simple, not the past.",
+          "Wrong tense: ‘tomorrow’ is the future — a timetable uses the present simple, not the past.",
           "",
-          "Missing -s: with 'the plane' (it), add -s.",
-          "Wrong tense: 'tomorrow' is future, but present perfect talks about the past up to now."
+          "Missing -s: with ‘the plane’ (it), add -s.",
+          "Wrong tense: ‘tomorrow’ is future, but present perfect talks about the past up to now."
         ],
-        "explain": "A scheduled departure, even 'tomorrow' — present simple."
+        "explain": "A scheduled departure, even ‘tomorrow’ — present simple."
       },
       {
         "use": "Habit — negative",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this office these days.",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this office on Saturdays.",
         "choices": [
-          "doesn't work",
-          "don't works",
-          "don't work",
-          "didn't work"
+          "doesn’t work",
+          "haven’t worked",
+          "don’t work",
+          "aren’t working"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'they' takes 'don't', not 'doesn't'.",
-          "Double marking: 'don't' already makes it negative — the main verb stays base form.",
+          "Subject-verb agreement: ‘they’ takes ‘don’t’, not ‘doesn’t’.",
+          "Wrong tense: ‘on Saturdays’ is a regular pattern, and the present perfect talks about the past up to now.",
           "",
-          "Wrong tense: 'these days' is about now, not a finished past time."
+          "Wrong form: ‘on Saturdays’ signals a routine, so the present simple is needed, not the continuous."
         ],
-        "explain": "Negative habit with 'they' — don't + base verb."
+        "explain": "Negative habit with ‘they’ — don’t + base verb."
       },
       {
         "use": "Habit — question",
@@ -937,20 +949,20 @@
           "Do",
           "Does",
           "Did",
-          "Is"
+          "Will"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Subject-verb agreement: 'your parents' is 'they' — use 'Do', not 'Does'.",
-          "Wrong tense: 'now' is present, so 'Did' (past) doesn't fit.",
-          "'Is' can't go before a base verb. The present simple question auxiliary is 'Do'."
+          "Subject-verb agreement: ‘your parents’ is ‘they’ — use ‘Do’, not ‘Does’.",
+          "Wrong tense: ‘now’ is present, so ‘Did’ (past) doesn’t fit.",
+          "‘Will’ is for the future, but ‘now’ is present — the present simple question auxiliary is ‘Do’."
         ],
-        "explain": "Plural subject 'your parents' — 'do' + base verb."
+        "explain": "Plural subject ‘your parents’ — ‘do’ + base verb."
       },
       {
         "use": "Spelling & form",
-        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages — he's a translator.",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages — he’s a translator.",
         "choices": [
           "speaks",
           "is speaking",
@@ -961,10 +973,10 @@
         "wrongReasons": [
           "",
           "Wrong form: a skill or ability takes the present simple, not the continuous.",
-          "Missing -s: with 'he', add -s — 'speaks'.",
-          "Wrong tense: 'he's a translator' is about now, so a past form doesn't fit."
+          "Missing -s: with ‘he’, add -s — ‘speaks’.",
+          "Wrong tense: ‘he’s a translator’ is about now, so a past form doesn’t fit."
         ],
-        "explain": "A permanent fact about him — present simple, plus -s for 'he'."
+        "explain": "A permanent fact about him — present simple, plus -s for ‘he’."
       },
       {
         "use": "Fact",
@@ -973,16 +985,16 @@
           "flies",
           "fly",
           "is flying",
-          "to fly"
+          "have flown"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: 'birds' is plural — no -s, 'fly' not 'flies'.",
+          "Subject-verb agreement: ‘birds’ is plural — no -s, ‘fly’ not ‘flies’.",
           "",
-          "Wrong tense: this is a general pattern, and 'birds' is plural — not 'is flying'.",
-          "After a subject you need a finite verb, not the infinitive: 'fly'."
+          "Wrong tense: this is a general pattern, and ‘birds’ is plural — not ‘is flying’.",
+          "Wrong tense: this is a general pattern, and the present perfect talks about the past up to now."
         ],
-        "explain": "Plural subject 'birds' — base verb, no -s."
+        "explain": "Plural subject ‘birds’ — base verb, no -s."
       },
       {
         "use": "Timetable — question",
@@ -991,16 +1003,16 @@
           "Do",
           "Does",
           "Did",
-          "Is"
+          "Will"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Subject-verb agreement: 'the shop' is 'it' — use 'Does', not 'Do'.",
+          "Subject-verb agreement: ‘the shop’ is ‘it’ — use ‘Does’, not ‘Do’.",
           "",
-          "Wrong tense: 'now' is present, so 'Did' (past) doesn't fit.",
-          "'Is' can't go before a base verb. The present simple question auxiliary is 'Does'."
+          "Wrong tense: ‘now’ is present, so ‘Did’ (past) doesn’t fit.",
+          "‘Will’ is for the future, but ‘now’ is present — the present simple question auxiliary is ‘Does’."
         ],
-        "explain": "'The shop' (it) — 'does' + base verb."
+        "explain": "‘The shop’ (it) — ‘does’ + base verb."
       },
       {
         "use": "Habit/routine",
@@ -1013,12 +1025,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Subject-verb agreement: with 'I', don't add -s — 'go', not 'goes'.",
-          "Wrong form: 'usually' signals a routine, so the present simple is needed, not the continuous.",
-          "Wrong tense: 'usually' shows a routine, and the present perfect talks about the past up to now.",
+          "Subject-verb agreement: with ‘I’, don’t add -s — ‘go’, not ‘goes’.",
+          "Wrong form: ‘usually’ signals a routine, so the present simple is needed, not the continuous.",
+          "Wrong tense: ‘usually’ shows a routine, and the present perfect talks about the past up to now.",
           ""
         ],
-        "explain": "A routine with 'I' — base verb, no -s."
+        "explain": "A routine with ‘I’ — base verb, no -s."
       }
     ]
   },
@@ -1040,7 +1052,7 @@
         "errorIndex": 2,
         "correction": "gives",
         "type": "Missing -s",
-        "message": "'Our teacher' is 'he' or 'she' — add -s: 'gives', not 'give'."
+        "message": "‘Our teacher’ is ‘he’ or ‘she’ — add -s: ‘gives’, not ‘give’."
       },
       {
         "tokens": [
@@ -1055,7 +1067,7 @@
         "errorIndex": 1,
         "correction": "teaches",
         "type": "Missing -s/-es",
-        "message": "Verbs ending in -ch add -es — 'teaches', not 'teach'."
+        "message": "Verbs ending in -ch add -es — ‘teaches’, not ‘teach’."
       },
       {
         "tokens": [
@@ -1069,7 +1081,7 @@
         "errorIndex": 1,
         "correction": "feel",
         "type": "Subject-verb agreement",
-        "message": "With 'I', don't add -s — 'feel', not 'feels'."
+        "message": "With ‘I’, don’t add -s — ‘feel’, not ‘feels’."
       },
       {
         "tokens": [
@@ -1082,7 +1094,7 @@
         "errorIndex": 2,
         "correction": "live",
         "type": "Subject-verb agreement",
-        "message": "'My friends' is plural — no -s, so 'live', not 'lives'."
+        "message": "‘My friends’ is plural — no -s, so ‘live’, not ‘lives’."
       },
       {
         "tokens": [
@@ -1096,46 +1108,46 @@
         "errorIndex": 2,
         "correction": "flows",
         "type": "Missing -s",
-        "message": "'The river' is 'it' — add -s: 'flows', not 'flow'."
+        "message": "‘The river’ is ‘it’ — add -s: ‘flows’, not ‘flow’."
       },
       {
         "tokens": [
           "My",
           "cat",
-          "don't",
+          "don’t",
           "like",
           "milk."
         ],
         "errorIndex": 2,
-        "correction": "doesn't",
+        "correction": "doesn’t",
         "type": "Subject-verb agreement",
-        "message": "'My cat' is 'it' — use 'doesn't', not 'don't'."
+        "message": "‘My cat’ is ‘it’ — use ‘doesn’t’, not ‘don’t’."
       },
       {
         "tokens": [
           "I",
-          "doesn't",
+          "doesn’t",
           "understand",
           "this",
           "word."
         ],
         "errorIndex": 1,
-        "correction": "don't",
+        "correction": "don’t",
         "type": "Subject-verb agreement",
-        "message": "With 'I', use 'don't', not 'doesn't'."
+        "message": "With ‘I’, use ‘don’t’, not ‘doesn’t’."
       },
       {
         "tokens": [
           "He",
-          "doesn't",
+          "doesn’t",
           "wants",
           "any",
           "help."
         ],
         "errorIndex": 2,
-        "correction": "doesn't want",
+        "correction": "doesn’t want",
         "type": "Double marking",
-        "message": "'Doesn't' already carries the -s — the main verb stays base form: 'want', not 'wants'.",
+        "message": "‘Doesn’t’ already carries the -s — the main verb stays base form: ‘want’, not ‘wants’.",
         "errorSpan": [
           1,
           2
@@ -1151,7 +1163,7 @@
         "errorIndex": 1,
         "correction": "do",
         "type": "Subject-verb agreement",
-        "message": "With 'you', the question auxiliary is 'do', not 'does'."
+        "message": "With ‘you’, the question auxiliary is ‘do’, not ‘does’."
       },
       {
         "tokens": [
@@ -1165,7 +1177,7 @@
         "errorIndex": 2,
         "correction": "does",
         "type": "Subject-verb agreement",
-        "message": "With 'she', the question auxiliary is 'does', not 'do'."
+        "message": "With ‘she’, the question auxiliary is ‘does’, not ‘do’."
       },
       {
         "tokens": [
@@ -1178,7 +1190,7 @@
         "errorIndex": 1,
         "correction": "worries",
         "type": "Spelling",
-        "message": "After a consonant, -y changes to -ies — 'worries', not 'worrys'."
+        "message": "After a consonant, -y changes to -ies — ‘worries’, not ‘worrys’."
       },
       {
         "tokens": [
@@ -1191,7 +1203,7 @@
         "errorIndex": 1,
         "correction": "tries",
         "type": "Spelling",
-        "message": "After a consonant, -y changes to -ies — 'tries', not 'trys'."
+        "message": "After a consonant, -y changes to -ies — ‘tries’, not ‘trys’."
       },
       {
         "tokens": [
@@ -1205,7 +1217,7 @@
         "errorIndex": 1,
         "correction": "fixes",
         "type": "Spelling",
-        "message": "Verbs ending in -x add -es — 'fixes', not 'fixs'."
+        "message": "Verbs ending in -x add -es — ‘fixes’, not ‘fixs’."
       },
       {
         "tokens": [
@@ -1217,7 +1229,7 @@
         "errorIndex": 1,
         "correction": "has",
         "type": "Subject-verb agreement",
-        "message": "'She' takes the 3rd-person form — 'has', not 'have'."
+        "message": "‘She’ takes the 3rd-person form — ‘has’, not ‘have’."
       },
       {
         "tokens": [
@@ -1230,21 +1242,21 @@
         "errorIndex": 2,
         "correction": "starts",
         "type": "Missing -s",
-        "message": "'The match' is 'it' — add -s: 'starts', not 'start'."
+        "message": "‘The match’ is ‘it’ — add -s: ‘starts’, not ‘start’."
       },
       {
         "tokens": [
           "The",
           "gym",
-          "don't",
+          "don’t",
           "open",
           "before",
           "six."
         ],
         "errorIndex": 2,
-        "correction": "doesn't",
+        "correction": "doesn’t",
         "type": "Subject-verb agreement",
-        "message": "'The gym' is 'it' — use 'doesn't', not 'don't'."
+        "message": "‘The gym’ is ‘it’ — use ‘doesn’t’, not ‘don’t’."
       },
       {
         "tokens": [
@@ -1260,7 +1272,7 @@
         "errorIndex": 1,
         "correction": "eat",
         "type": "Wrong tense",
-        "message": "A general fact needs the present simple — 'eat', like 'drink'. The -ing form can't be the verb on its own."
+        "message": "A general fact needs the present simple — ‘eat’, like ‘drink’. The -ing form can’t be the verb on its own."
       },
       {
         "tokens": [
@@ -1275,7 +1287,7 @@
         "errorIndex": 1,
         "correction": "spends",
         "type": "Wrong tense",
-        "message": "A habit ('every year') needs the present simple — 'spends', not the -ing form alone."
+        "message": "A habit (‘every year’) needs the present simple — ‘spends’, not the -ing form alone."
       },
       {
         "tokens": [
@@ -1287,7 +1299,7 @@
         "errorIndex": 1,
         "correction": "learn",
         "type": "Subject-verb agreement",
-        "message": "'Children' is plural — no -s, so 'learn', not 'learns'."
+        "message": "‘Children’ is plural — no -s, so ‘learn’, not ‘learns’."
       },
       {
         "tokens": [
@@ -1300,13 +1312,13 @@
         "errorIndex": 1,
         "correction": "have",
         "type": "Subject-verb agreement",
-        "message": "'We' takes no -s — 'have', not 'has'."
+        "message": "‘We’ takes no -s — ‘have’, not ‘has’."
       }
     ]
   },
   "levelCheck": {
     "title": "How well do you know it?",
-    "subtitle": "20 mixed questions — typing, word order, -s spelling, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you're strong and where to go back and practise.",
+    "subtitle": "20 mixed questions — typing, word order, -s spelling, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
@@ -1331,7 +1343,7 @@
           "travels"
         ],
         "display": "travels",
-        "explain": "A scientific fact, always true — present simple, plus -s for 'light' (it)."
+        "explain": "A scientific fact, always true — present simple, plus -s for ‘light’ (it)."
       },
       {
         "type": "fill",
@@ -1342,7 +1354,7 @@
           "rides"
         ],
         "display": "rides",
-        "explain": "'Every day' signals a routine — present simple, plus -s for 'Ben' (he)."
+        "explain": "‘Every day’ signals a routine — present simple, plus -s for ‘Ben’ (he)."
       },
       {
         "type": "fill",
@@ -1350,10 +1362,13 @@
         "sentText": "He {{blank}} breakfast on weekdays.",
         "hint": "not / have",
         "answers": [
-          "doesn't have"
+          "doesn't have",
+          "does not have",
+          "doesnt have",
+          "doesn’t have"
         ],
-        "display": "doesn't have",
-        "explain": "Negative habit with 'he' — 'doesn't have', not 'doesn't has'."
+        "display": "doesn’t have",
+        "explain": "Negative habit with ‘he’ — ‘doesn’t have’, not ‘doesn’t has’."
       },
       {
         "type": "fill",
@@ -1364,7 +1379,7 @@
           "departs"
         ],
         "display": "departs",
-        "explain": "A fixed timetable — present simple, plus -s for 'the train' (it)."
+        "explain": "A fixed timetable — present simple, plus -s for ‘the train’ (it)."
       },
       {
         "type": "order",
@@ -1397,7 +1412,7 @@
         "tokens": [
           "My",
           "grandad",
-          "doesn't",
+          "doesn’t",
           "wear",
           "glasses."
         ]
@@ -1431,14 +1446,14 @@
           "go",
           "goes",
           "is going",
-          "going"
+          "has gone"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Missing ending: with 'Alex' (he), the verb needs -es — 'goes'.",
+          "Missing ending: with ‘Alex’ (he), the verb needs -es — ‘goes’.",
           "",
-          "Wrong tense: 'every weekend' is a routine, not something happening now.",
-          "An -ing form like 'going' can't be the verb on its own — here you need 'goes'."
+          "Wrong tense: ‘every weekend’ is a routine, not something happening now.",
+          "Wrong tense: ‘every weekend’ is a routine, and the present perfect talks about the past up to now."
         ],
         "explain": "Verbs ending in -o add -es: go → goes."
       },
@@ -1451,14 +1466,14 @@
           "is frying",
           "fries",
           "fry",
-          "frying"
+          "has fried"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: 'every Sunday' is a routine, not something happening now.",
+          "Wrong tense: ‘every Sunday’ is a routine, not something happening now.",
           "",
-          "Missing ending: with 'Dad' (he), the verb needs the -ies form.",
-          "An -ing form like 'frying' can't be the verb on its own — here you need 'fries'."
+          "Missing ending: with ‘Dad’ (he), the verb needs the -ies form.",
+          "Wrong tense: ‘every Sunday’ is a routine, and the present perfect talks about the past up to now."
         ],
         "explain": "Consonant + -y → -ies: fry → fries."
       },
@@ -1468,19 +1483,19 @@
         "text": "Our school {{blank}} a big library.",
         "hintVerb": "(have)",
         "choices": [
-          "is have",
+          "is having",
           "has",
           "have",
-          "having"
+          "had"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Don't add 'is' to a present simple verb — just 'has'.",
+          "Wrong form: ‘have’ for things you own or contain isn’t used in the continuous — ‘has’.",
           "",
-          "Missing 3rd-person form: 'our school' is 'it' — use the irregular form 'has'.",
-          "Wrong form: 'have' for things you own or contain isn't used in the -ing form."
+          "Missing 3rd-person form: ‘our school’ is ‘it’ — use the irregular form ‘has’.",
+          "Wrong tense: the school has a library now, so the past ‘had’ doesn’t fit."
         ],
-        "explain": "'Have' is irregular with he/she/it: 'has'."
+        "explain": "‘Have’ is irregular with he/she/it: ‘has’."
       },
       {
         "type": "s",
@@ -1489,37 +1504,37 @@
         "hintVerb": "(relax)",
         "choices": [
           "relax",
-          "relaxing",
+          "is relaxing",
           "relaxes",
-          "is relax"
+          "has relaxed"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Missing ending: with 'my mum' (she), the verb needs -es.",
-          "An -ing form like 'relaxing' can't be the verb on its own — here you need 'relaxes'.",
+          "Missing ending: with ‘my mum’ (she), the verb needs -es.",
+          "Wrong form: ‘every evening’ signals a routine, so the present simple is needed, not the continuous.",
           "",
-          "Don't add 'is' to a present simple verb: a routine takes just 'relaxes'."
+          "Wrong tense: ‘every evening’ is a routine, and the present perfect talks about the past up to now."
         ],
         "explain": "Verbs ending in -x add -es: relax → relaxes."
       },
       {
         "type": "mc",
         "use": "Habit — question",
-        "text": "{{blank}} your cat sleep on your bed?",
+        "text": "{{blank}} your cat sleep on your bed every night?",
         "choices": [
-          "Is",
+          "Will",
           "Do",
-          "Are",
+          "Did",
           "Does"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong aux: 'is' pairs with the -ing form, not the present simple.",
-          "Subject-verb agreement: 'your cat' is 'it' — use 'does', not 'do'.",
-          "Wrong aux: 'are' pairs with the -ing form, and 'your cat' is singular.",
+          "‘Will’ is for the future — a regular habit takes the present simple question: ‘Does’.",
+          "Subject-verb agreement: ‘your cat’ is ‘it’ — use ‘does’, not ‘do’.",
+          "‘Did’ is the past question auxiliary — here you ask about a present habit: ‘Does’.",
           ""
         ],
-        "explain": "With 'your cat' (it), the question auxiliary is 'does' — and the main verb stays 'sleep', not 'sleeps'."
+        "explain": "With ‘your cat’ (it), the question auxiliary is ‘does’ — and the main verb stays ‘sleep’, not ‘sleeps’."
       },
       {
         "type": "mc",
@@ -1529,14 +1544,14 @@
           "taste",
           "are tasting",
           "tastes",
-          "is taste"
+          "has tasted"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: how something tastes is a permanent fact — present simple, not continuous.",
-          "Subject-verb agreement: 'lemons' is plural — no -s, 'taste' not 'tastes'.",
-          "Don't add 'is' to a present simple verb, and 'lemons' is plural — just 'taste'."
+          "Subject-verb agreement: ‘lemons’ is plural — no -s, ‘taste’ not ‘tastes’.",
+          "Wrong tense: a general fact is true now, and the present perfect talks about the past up to now."
         ],
         "explain": "A general fact with a plural subject — present simple, no -s."
       },
@@ -1545,38 +1560,38 @@
         "use": "Habit — negative",
         "text": "My sister {{blank}} spicy food.",
         "choices": [
-          "don't like",
-          "doesn't likes",
-          "doesn't like",
-          "not likes"
+          "don’t like",
+          "hasn’t liked",
+          "doesn’t like",
+          "isn’t liking"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'my sister' is 'she' — use 'doesn't', not 'don't'.",
-          "Double marking: 'doesn't' already carries the -s — the main verb stays 'like'.",
+          "Subject-verb agreement: ‘my sister’ is ‘she’ — use ‘doesn’t’, not ‘don’t’.",
+          "Wrong tense: a taste is a permanent fact, and the present perfect talks about the past up to now.",
           "",
-          "'Not' alone can't form a negative — you need 'doesn't like'."
+          "Wrong form: ‘like’ isn’t used in the continuous for a general taste."
         ],
-        "explain": "Negative with 'my sister' (she) — doesn't + base verb, no -s on 'like'."
+        "explain": "Negative with ‘my sister’ (she) — doesn’t + base verb, no -s on ‘like’."
       },
       {
         "type": "mc",
         "use": "Timetable — question",
-        "text": "When {{blank}} the summer holidays start?",
+        "text": "When {{blank}} the summer holidays usually start?",
         "choices": [
           "does",
-          "is",
-          "are",
-          "do"
+          "did",
+          "do",
+          "will"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
-          "Subject-verb agreement: 'the summer holidays' is plural — use 'do', not 'does'.",
-          "Wrong aux: 'is' pairs with the -ing form, and the subject is plural.",
-          "Wrong aux: 'are' pairs with the -ing form — with 'start', use 'do'.",
-          ""
+          "Subject-verb agreement: ‘the summer holidays’ is plural — use ‘do’, not ‘does’.",
+          "‘Did’ is the past question auxiliary — ‘usually’ shows a present routine: ‘do’.",
+          "",
+          "‘Will’ is for the future — a regular timetable takes the present simple: ‘do’."
         ],
-        "explain": "Plural subject 'the summer holidays' — 'do' + base verb 'start'."
+        "explain": "Plural subject ‘the summer holidays’ — ‘do’ + base verb ‘start’."
       },
       {
         "type": "error",
@@ -1590,7 +1605,7 @@
         ],
         "errorIndex": 1,
         "correction": "plays",
-        "message": "With 'he', add -s to the verb — 'plays', not 'play'."
+        "message": "With ‘he’, add -s to the verb — ‘plays’, not ‘play’."
       },
       {
         "type": "error",
@@ -1605,7 +1620,7 @@
         ],
         "errorIndex": 1,
         "correction": "go",
-        "message": "With 'we', don't add -s — 'go', not 'goes'."
+        "message": "With ‘we’, don’t add -s — ‘go’, not ‘goes’."
       },
       {
         "type": "error",
@@ -1620,7 +1635,7 @@
         ],
         "errorIndex": 1,
         "correction": "carries",
-        "message": "After a consonant, -y changes to -ies — 'carries', not 'carrys'."
+        "message": "After a consonant, -y changes to -ies — ‘carries’, not ‘carrys’."
       },
       {
         "type": "error",
@@ -1635,7 +1650,7 @@
         ],
         "errorIndex": 1,
         "correction": "does",
-        "message": "'Do' is irregular in the 3rd person — 'does', not 'do'."
+        "message": "‘Do’ is irregular in the 3rd person — ‘does’, not ‘do’."
       }
     ]
   }
