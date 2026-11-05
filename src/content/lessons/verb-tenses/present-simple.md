@@ -10,15 +10,15 @@ answerPoints:
   - "Facts and general truths — Water boils at 100°C."
   - "Habits and routines — She walks to work every day."
   - "Timetables and schedules — The train leaves at 6."
-answerNote: "For something happening right now, use the present continuous instead — She's walking to work at the moment."
+answerNote: "For something happening right now, use the present continuous instead — She’s walking to work at the moment."
 quiz: "present-simple-quiz-1"
 faq:
   - q: "When do I add -s to the verb?"
     a: "Only with he, she and it: she works, he goes, it rains. With I, you, we and they, use the base verb with no -s: they work."
   - q: "What is the difference between the present simple and the present continuous?"
-    a: "The present simple is for habits and general truths (I work in a bank). The present continuous is for things happening right now (I'm working from home today)."
-  - q: "Why do we say 'Does she work?' and not 'Does she works?'"
-    a: "The -s is already carried by 'does', so the main verb goes back to its base form: Does she work? and She doesn't work."
+    a: "The present simple is for habits and general truths (I work in a bank). The present continuous is for things happening right now (I’m working from home today)."
+  - q: "Why do we say ‘Does she work?’ and not ‘Does she works?’"
+    a: "The -s is already carried by ‘does’, so the main verb goes back to its base form: Does she work? and She doesn’t work."
   - q: "Can the present simple talk about the future?"
     a: "Yes, for timetables and schedules: The train leaves at 6. The shop opens at 9 tomorrow."
 teacherObjectives:
@@ -34,7 +34,7 @@ draft: false
 | Form | Structure | Example |
 |---|---|---|
 | Affirmative | subject + base verb (+ **-s** for he/she/it) | **She works** in Girona. |
-| Negative | subject + don't/doesn't + base verb | **They don't work** on Sundays. |
+| Negative | subject + don’t/doesn’t + base verb | **They don’t work** on Sundays. |
 | Question | Do/Does + subject + base verb? | **Do** you **work** here? |
 
 The tricky part is the third person (he/she/it), which adds **-s**: *work → works*. Add **-es** after *-o, -ch, -sh, -ss, -x* (*go → goes, watch → watches*), and change *-y* to *-ies* after a consonant (*study → studies*).
@@ -90,6 +90,6 @@ The ending is said in three ways: /s/ after *p, t, k* (*works*), /z/ after most 
 
 **2. Using the present continuous for habits.** Learners often reach for the *-ing* form because it feels like "what I do these days". For a routine, English uses the present simple: *I work here*, not *I am working here* (unless it is temporary or happening right now).
 
-**3. Keeping the -s in questions and negatives.** After *does* or *doesn't*, the main verb goes back to its base form. *~~Does she works?~~* → **Does she work?** and *~~He doesn't works~~* → **He doesn't work.**
+**3. Keeping the -s in questions and negatives.** After *does* or *doesn’t*, the main verb goes back to its base form. *~~Does she works?~~* → **Does she work?** and *~~He doesn’t works~~* → **He doesn’t work.**
 
 **Pro tip:** if it happens regularly, use the present simple; if it is happening at this exact moment, use the present continuous.
