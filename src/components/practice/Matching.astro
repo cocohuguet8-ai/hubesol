@@ -201,8 +201,8 @@ const uid = 'mt';
       document.getElementById(`${uid}-finalScore`).textContent = attempts + ' attempts';
       const label = document.getElementById(`${uid}-finalLabel`);
       if (attempts === pairs.length) label.textContent = 'Perfect — every match first try.';
-      else if (attempts <= pairs.length + 2) label.textContent = 'Well done.';
-      else label.textContent = 'All matched.';
+      else if (attempts <= pairs.length + 2) label.textContent = 'Well done — all ' + pairs.length + ' pairs matched in ' + attempts + ' attempts.';
+      else label.textContent = 'All ' + pairs.length + ' pairs matched in ' + attempts + ' attempts — try again to beat it.';
 
       const list = document.getElementById(`${uid}-reviewList`);
       list.innerHTML = '';
