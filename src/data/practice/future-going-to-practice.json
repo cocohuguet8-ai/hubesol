@@ -1,0 +1,1758 @@
+{
+  "tense": "future-going-to",
+  "lessonTitle": "Future: going to",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "am",
+        "is",
+        "are",
+        "isn’t",
+        "aren’t",
+        "going"
+      ],
+      "label": null,
+      "primary": "are"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gap",
+    "subtitle": "Type the whole phrase — be going to + verb, or the auxiliary where only that is asked. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "I’ve decided: next summer I",
+        "after": "English in London.",
+        "hint": "study",
+        "answers": [
+          "am going to study",
+          "'m going to study",
+          "m going to study",
+          "’m going to study"
+        ],
+        "display": "am going to study",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Look at those black clouds. It",
+        "after": ".",
+        "hint": "rain",
+        "answers": [
+          "is going to rain",
+          "'s going to rain",
+          "s going to rain",
+          "’s going to rain"
+        ],
+        "display": "is going to rain",
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "My sister",
+        "after": "a doctor. She starts university in September.",
+        "hint": "be",
+        "answers": [
+          "is going to be",
+          "'s going to be",
+          "s going to be",
+          "’s going to be"
+        ],
+        "display": "is going to be",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Negative plan",
+        "kind": "statement",
+        "before": "We",
+        "after": "the match tonight. We’re too tired.",
+        "hint": "not watch",
+        "answers": [
+          "are not going to watch",
+          "aren't going to watch",
+          "aren’t going to watch",
+          "'re not going to watch",
+          "’re not going to watch"
+        ],
+        "display": "are not going to watch",
+        "explain": "A negative plan — use ‘aren’t going to’ + base verb."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Careful! You",
+        "after": "that glass!",
+        "hint": "drop",
+        "answers": [
+          "are going to drop",
+          "'re going to drop",
+          "re going to drop",
+          "’re going to drop"
+        ],
+        "display": "are going to drop",
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "kind": "question",
+        "before": "What",
+        "after": "you going to do this weekend?",
+        "hint": "(are / will)",
+        "answers": [
+          "are"
+        ],
+        "display": "are",
+        "explain": "A question about plans takes ‘are’ + going to."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "They’ve bought paint. They",
+        "after": "the kitchen.",
+        "hint": "paint",
+        "answers": [
+          "are going to paint",
+          "'re going to paint",
+          "re going to paint",
+          "’re going to paint"
+        ],
+        "display": "are going to paint",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Negative plan",
+        "kind": "statement",
+        "before": "I",
+        "after": "eat meat any more. I’ve decided.",
+        "hint": "not eat",
+        "answers": [
+          "am not going to eat",
+          "'m not going to eat",
+          "m not going to eat",
+          "’m not going to eat"
+        ],
+        "display": "am not going to eat",
+        "explain": "A negative plan — use ‘am not going to’ + base verb."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Look at the sky. It",
+        "after": "be a beautiful day.",
+        "hint": "(will / going to)",
+        "answers": [
+          "is going to",
+          "'s going to",
+          "s going to",
+          "’s going to"
+        ],
+        "display": "is going to",
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "Tom",
+        "after": "his driving test next week. He’s very nervous.",
+        "hint": "take",
+        "answers": [
+          "is going to take",
+          "'s going to take",
+          "s going to take",
+          "’s going to take"
+        ],
+        "display": "is going to take",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "kind": "question",
+        "before": "Who",
+        "after": "he going to invite to his birthday?",
+        "hint": "(is / will)",
+        "answers": [
+          "is"
+        ],
+        "display": "is",
+        "explain": "A question about plans takes ‘is’ + going to."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "We’ve saved the money. We",
+        "after": "a new car next month.",
+        "hint": "buy",
+        "answers": [
+          "are going to buy",
+          "'re going to buy",
+          "re going to buy",
+          "’re going to buy"
+        ],
+        "display": "are going to buy",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Negative evidence",
+        "kind": "statement",
+        "before": "Don’t worry. It",
+        "after": "rain today — the sky is clear.",
+        "hint": "not rain",
+        "answers": [
+          "is not going to rain",
+          "isn't going to rain",
+          "isn’t going to rain",
+          "'s not going to rain",
+          "’s not going to rain"
+        ],
+        "display": "is not going to rain",
+        "explain": "Evidence says no rain — use ‘isn’t going to’ + base verb."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "I’ve told my grandparents. I",
+        "after": "them on Sunday.",
+        "hint": "visit",
+        "answers": [
+          "am going to visit",
+          "'m going to visit",
+          "m going to visit",
+          "’m going to visit"
+        ],
+        "display": "am going to visit",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Be quiet! The baby",
+        "after": "wake up!",
+        "hint": "(will / going to)",
+        "answers": [
+          "is going to",
+          "'s going to",
+          "s going to",
+          "’s going to"
+        ],
+        "display": "is going to",
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "My parents have booked a house. They",
+        "after": "in Italy this summer.",
+        "hint": "stay",
+        "answers": [
+          "are going to stay",
+          "'re going to stay",
+          "re going to stay",
+          "’re going to stay"
+        ],
+        "display": "are going to stay",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "kind": "question",
+        "before": "",
+        "after": "you going to wear that hat to the party?",
+        "hint": "(Are / Will)",
+        "answers": [
+          "Are",
+          "are"
+        ],
+        "display": "Are",
+        "explain": "A question about plans takes ‘are’ + going to."
+      },
+      {
+        "use": "Negative plan",
+        "kind": "statement",
+        "before": "She",
+        "after": "come to the party. She’s got an exam.",
+        "hint": "not",
+        "answers": [
+          "isn't going to",
+          "is not going to",
+          "isn’t going to",
+          "'s not going to",
+          "’s not going to"
+        ],
+        "display": "is not going to",
+        "explain": "A negative plan — use ‘isn’t going to’ + base verb."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "Anna has bought eggs and flour. She",
+        "after": "a cake for her mum.",
+        "hint": "bake",
+        "answers": [
+          "is going to bake",
+          "'s going to bake",
+          "s going to bake",
+          "’s going to bake"
+        ],
+        "display": "is going to bake",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Look at the score! Our team",
+        "after": "win.",
+        "hint": "(will / going to)",
+        "answers": [
+          "is going to",
+          "'s going to",
+          "s going to",
+          "’s going to"
+        ],
+        "display": "is going to",
+        "explain": "A prediction from evidence you can see — use going to."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put the words in order",
+    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences with going to.",
+    "sentences": [
+      {
+        "use": "Plan",
+        "tokens": [
+          "I’m",
+          "going",
+          "to",
+          "study",
+          "tonight."
+        ],
+        "alts": [
+          [
+            "Tonight",
+            "I’m",
+            "going",
+            "to",
+            "study."
+          ]
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "She’s",
+          "going",
+          "to",
+          "be",
+          "a",
+          "doctor."
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "What",
+          "are",
+          "you",
+          "going",
+          "to",
+          "do",
+          "tomorrow?"
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "visit",
+          "our",
+          "grandparents",
+          "on",
+          "Sunday."
+        ],
+        "alts": [
+          [
+            "On",
+            "Sunday",
+            "we’re",
+            "going",
+            "to",
+            "visit",
+            "our",
+            "grandparents."
+          ]
+        ]
+      },
+      {
+        "use": "Evidence",
+        "tokens": [
+          "It’s",
+          "going",
+          "to",
+          "rain",
+          "this",
+          "afternoon."
+        ],
+        "alts": [
+          [
+            "This",
+            "afternoon",
+            "it’s",
+            "going",
+            "to",
+            "rain."
+          ]
+        ]
+      },
+      {
+        "use": "Negative plan",
+        "tokens": [
+          "They",
+          "aren’t",
+          "going",
+          "to",
+          "come",
+          "to",
+          "the",
+          "party."
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "Are",
+          "you",
+          "going",
+          "to",
+          "wear",
+          "that",
+          "hat?"
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "He’s",
+          "going",
+          "to",
+          "start",
+          "a",
+          "new",
+          "job",
+          "next",
+          "month."
+        ],
+        "alts": [
+          [
+            "Next",
+            "month",
+            "he’s",
+            "going",
+            "to",
+            "start",
+            "a",
+            "new",
+            "job."
+          ]
+        ]
+      },
+      {
+        "use": "Evidence",
+        "tokens": [
+          "Look!",
+          "The",
+          "baby",
+          "is",
+          "going",
+          "to",
+          "cry."
+        ]
+      },
+      {
+        "use": "Negative plan",
+        "tokens": [
+          "I’m",
+          "not",
+          "going",
+          "to",
+          "watch",
+          "TV",
+          "tonight."
+        ],
+        "alts": [
+          [
+            "Tonight",
+            "I’m",
+            "not",
+            "going",
+            "to",
+            "watch",
+            "TV."
+          ]
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "Who",
+          "is",
+          "he",
+          "going",
+          "to",
+          "invite?"
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "My",
+          "brother",
+          "is",
+          "going",
+          "to",
+          "learn",
+          "the",
+          "guitar."
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "paint",
+          "the",
+          "kitchen",
+          "this",
+          "weekend."
+        ],
+        "alts": [
+          [
+            "This",
+            "weekend",
+            "we’re",
+            "going",
+            "to",
+            "paint",
+            "the",
+            "kitchen."
+          ]
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "Is",
+          "she",
+          "going",
+          "to",
+          "be",
+          "late?"
+        ]
+      },
+      {
+        "use": "Evidence",
+        "tokens": [
+          "Careful!",
+          "You’re",
+          "going",
+          "to",
+          "fall!"
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "I’m",
+          "going",
+          "to",
+          "buy",
+          "a",
+          "new",
+          "phone",
+          "next",
+          "week."
+        ],
+        "alts": [
+          [
+            "Next",
+            "week",
+            "I’m",
+            "going",
+            "to",
+            "buy",
+            "a",
+            "new",
+            "phone."
+          ]
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "They’re",
+          "going",
+          "to",
+          "have",
+          "a",
+          "picnic",
+          "tomorrow."
+        ],
+        "alts": [
+          [
+            "Tomorrow",
+            "they’re",
+            "going",
+            "to",
+            "have",
+            "a",
+            "picnic."
+          ]
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "Where",
+          "are",
+          "you",
+          "going",
+          "to",
+          "stay",
+          "in",
+          "Rome?"
+        ]
+      },
+      {
+        "use": "Evidence",
+        "tokens": [
+          "The",
+          "film",
+          "is",
+          "going",
+          "to",
+          "start",
+          "soon."
+        ]
+      },
+      {
+        "use": "Negative plan",
+        "tokens": [
+          "We’re",
+          "not",
+          "going",
+          "to",
+          "travel",
+          "by",
+          "bus."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the clue to the meaning",
+    "subtitle": "Tap a clue, then tap what going to expresses. Going to is used for plans decided before now and for predictions based on evidence you can see.",
+    "leftLabel": "Clue",
+    "rightLabel": "Meaning",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I’ve decided to learn French",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "black clouds above us",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "we’ve booked a hotel",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a glass at the edge of the table",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "next summer I want to travel",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a baby about to cry",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "my plan for tonight",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a car going far too fast",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "tickets are already bought",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a team winning 5–0",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "she has applied for a job",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a woman nine months pregnant",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "this weekend’s plan for the kitchen",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a very dark sky and strong wind",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "I’m saving money for a new bike",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a boy standing on a wobbly chair",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "he has enrolled in a course",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a pot boiling over",
+        "right": "Prediction from evidence"
+      },
+      {
+        "left": "they’ve chosen the date",
+        "right": "Plan or intention"
+      },
+      {
+        "left": "a tyre that looks flat",
+        "right": "Prediction from evidence"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. British English. Going to is for plans decided before now and for predictions based on evidence you can see.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Plan",
+        "text": "I’ve decided: next year I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> medicine.",
+        "choices": [
+          "am going to study",
+          "will study",
+          "study",
+          "studied"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "text": "Look at those black clouds! It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "will rain",
+          "is going to rain",
+          "rains",
+          "rained"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: you can see the evidence now — use going to, not will.",
+          "",
+          "Wrong tense: a prediction from evidence takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "My sister has applied to university. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a doctor.",
+        "choices": [
+          "will be",
+          "is",
+          "is going to be",
+          "was"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "We’ve booked the tickets, so we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Rome in May.",
+        "choices": [
+          "fly",
+          "will fly",
+          "flew",
+          "are going to fly"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: the sentence is about the future, not the past.",
+          ""
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "text": "Careful! You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that glass!",
+        "choices": [
+          "will drop",
+          "are going to drop",
+          "drop",
+          "dropped"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: you can see the evidence now — use going to, not will.",
+          "",
+          "Wrong tense: a prediction from evidence takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you going to do this weekend?",
+        "choices": [
+          "will",
+          "do",
+          "are",
+          "did"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong auxiliary: a question with going to takes a form of ‘be’.",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’.",
+          "",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "They’ve bought the paint. They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kitchen.",
+        "choices": [
+          "paint",
+          "painted",
+          "will paint",
+          "are going to paint"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past.",
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          ""
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Negative plan",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> come to the party. She’s got an exam tomorrow.",
+        "choices": [
+          "isn’t going to",
+          "didn’t",
+          "hasn’t",
+          "doesn’t"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the sentence is about the future, not the past.",
+          "Wrong tense: the present perfect does not talk about the future.",
+          "Wrong tense: a personal plan takes going to, not the present simple."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "text": "Look at the score! Our team <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> win.",
+        "choices": [
+          "will",
+          "wins",
+          "is going to",
+          "won"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: you can see the evidence now — use going to, not will.",
+          "Wrong tense: a prediction from evidence takes going to, not the present simple.",
+          "",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "A: What are your plans? B: I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> visit my grandparents on Sunday.",
+        "choices": [
+          "will",
+          "visit",
+          "am",
+          "am going to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong form: going to needs am/is/are before it and the base verb after it.",
+          ""
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "text": "The baby has opened her eyes. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wake up.",
+        "choices": [
+          "is going to",
+          "has to",
+          "does",
+          "had to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: going to needs am/is/are before it and the base verb after it.",
+          "Wrong form: going to needs am/is/are before it and the base verb after it.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "We’ve saved the money. We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new car next month.",
+        "choices": [
+          "buy",
+          "are going to buy",
+          "bought",
+          "have bought"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "",
+          "Wrong tense: the sentence is about the future, not the past.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Negative evidence",
+        "text": "Don’t worry. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> rain today — the sky is clear.",
+        "choices": [
+          "didn’t",
+          "doesn’t",
+          "hasn’t",
+          "isn’t going to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the sentence is about the future, not the past.",
+          "Wrong tense: a prediction from evidence takes going to, not the present simple.",
+          "Wrong tense: the present perfect does not talk about the future.",
+          ""
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "I’ve told my grandparents. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> them on Sunday.",
+        "choices": [
+          "am going to visit",
+          "will visit",
+          "visit",
+          "visited"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "text": "She’s nine months pregnant. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> have a baby very soon.",
+        "choices": [
+          "will",
+          "is going to",
+          "has",
+          "had"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: you can see the evidence now — use going to, not will.",
+          "",
+          "Wrong tense: the present perfect does not talk about the future.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "My parents have booked a house. They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Italy this summer.",
+        "choices": [
+          "stay",
+          "stayed",
+          "are going to stay",
+          "will stay"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past.",
+          "",
+          "Wrong form: the plan was decided before now — use going to, not will."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you going to wear that hat to the party?",
+        "choices": [
+          "Are",
+          "Do",
+          "Will",
+          "Did"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’.",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’.",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "Anna has bought eggs and flour. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a cake for her mum.",
+        "choices": [
+          "bakes",
+          "is going to bake",
+          "baked",
+          "will bake"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "",
+          "Wrong tense: the sentence is about the future, not the past.",
+          "Wrong form: the plan was decided before now — use going to, not will."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Plan",
+        "text": "Tom has enrolled in a course. He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> learn Spanish.",
+        "choices": [
+          "will",
+          "learns",
+          "is going to",
+          "learned"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Evidence",
+        "text": "Look at the sky! It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be a beautiful day.",
+        "choices": [
+          "will",
+          "is",
+          "has",
+          "is going to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: you can see the evidence now — use going to, not will.",
+          "Wrong form: going to needs am/is/are before it and the base verb after it.",
+          "Wrong tense: the present perfect does not talk about the future.",
+          ""
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "I",
+          "going",
+          "to",
+          "study",
+          "tonight."
+        ],
+        "errorIndex": 1,
+        "correction": "am going",
+        "type": "Missing ‘be’",
+        "message": "Going to needs am/is/are before it."
+      },
+      {
+        "tokens": [
+          "She",
+          "is",
+          "going",
+          "to",
+          "studying",
+          "medicine."
+        ],
+        "errorIndex": 4,
+        "correction": "study",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "It",
+          "is",
+          "going",
+          "to",
+          "rains",
+          "soon."
+        ],
+        "errorIndex": 4,
+        "correction": "rain",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "We",
+          "are",
+          "go",
+          "to",
+          "visit",
+          "Rome",
+          "next",
+          "year."
+        ],
+        "errorIndex": 2,
+        "correction": "going",
+        "type": "Wrong form",
+        "message": "The form is ‘be going to’, not ‘be go to’."
+      },
+      {
+        "tokens": [
+          "They",
+          "going",
+          "to",
+          "buy",
+          "a",
+          "new",
+          "car."
+        ],
+        "errorIndex": 1,
+        "correction": "are going",
+        "type": "Missing ‘be’",
+        "message": "Going to needs am/is/are before it."
+      },
+      {
+        "tokens": [
+          "He",
+          "is",
+          "going",
+          "study",
+          "medicine",
+          "next",
+          "year."
+        ],
+        "errorIndex": 3,
+        "correction": "to study",
+        "type": "Missing ‘to’",
+        "message": "After ‘going’ you need ‘to’ + base verb."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "not",
+          "going",
+          "to",
+          "went",
+          "to",
+          "the",
+          "party."
+        ],
+        "errorIndex": 4,
+        "correction": "go",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "What",
+          "you",
+          "are",
+          "going",
+          "to",
+          "do",
+          "tonight?"
+        ],
+        "errorIndex": 1,
+        "correction": "are you",
+        "type": "Word order",
+        "message": "In a question the auxiliary comes before the subject.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "Are",
+          "you",
+          "going",
+          "to",
+          "wearing",
+          "that",
+          "hat?"
+        ],
+        "errorIndex": 4,
+        "correction": "wear",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "She",
+          "are",
+          "going",
+          "to",
+          "be",
+          "a",
+          "doctor."
+        ],
+        "errorIndex": 1,
+        "correction": "is",
+        "type": "Subject-verb agreement",
+        "message": "With ‘she’ use ‘is’ going to."
+      },
+      {
+        "tokens": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "helps",
+          "you",
+          "later."
+        ],
+        "errorIndex": 4,
+        "correction": "help",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "He",
+          "isn’t",
+          "going",
+          "to",
+          "comes",
+          "to",
+          "the",
+          "party."
+        ],
+        "errorIndex": 4,
+        "correction": "come",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "to",
+          "visit",
+          "our",
+          "grandparents."
+        ],
+        "errorIndex": 3,
+        "correction": "to",
+        "type": "Repeated word",
+        "message": "‘To’ appears twice — use it once.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "Look!",
+          "It",
+          "going",
+          "to",
+          "rain."
+        ],
+        "errorIndex": 2,
+        "correction": "is going",
+        "type": "Missing ‘be’",
+        "message": "Going to needs am/is/are before it."
+      },
+      {
+        "tokens": [
+          "Is",
+          "she",
+          "going",
+          "be",
+          "late?"
+        ],
+        "errorIndex": 3,
+        "correction": "to be",
+        "type": "Missing ‘to’",
+        "message": "After ‘going’ you need ‘to’ + base verb."
+      },
+      {
+        "tokens": [
+          "They",
+          "are",
+          "going",
+          "to",
+          "stays",
+          "at",
+          "a",
+          "hotel."
+        ],
+        "errorIndex": 4,
+        "correction": "stay",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "We",
+          "aren’t",
+          "going",
+          "to",
+          "traveled",
+          "by",
+          "bus."
+        ],
+        "errorIndex": 4,
+        "correction": "travel",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "Where",
+          "are",
+          "you",
+          "go",
+          "to",
+          "stay?"
+        ],
+        "errorIndex": 3,
+        "correction": "going",
+        "type": "Wrong form",
+        "message": "The form is ‘be going to’, not ‘be go to’."
+      },
+      {
+        "tokens": [
+          "My",
+          "parents",
+          "going",
+          "to",
+          "sell",
+          "their",
+          "house."
+        ],
+        "errorIndex": 2,
+        "correction": "are going",
+        "type": "Missing ‘be’",
+        "message": "Going to needs am/is/are before it."
+      },
+      {
+        "tokens": [
+          "Careful!",
+          "You",
+          "is",
+          "going",
+          "to",
+          "fall!"
+        ],
+        "errorIndex": 2,
+        "correction": "are",
+        "type": "Subject-verb agreement",
+        "message": "With ‘you’ use ‘are’ going to."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, signal words, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "signal": "Signal words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "signal",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Plan",
+        "sentText": "I’ve decided: I {{blank}} a new phone.",
+        "hint": "buy",
+        "answers": [
+          "am going to buy",
+          "'m going to buy",
+          "m going to buy",
+          "’m going to buy"
+        ],
+        "display": "am going to buy",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "type": "fill",
+        "use": "Evidence",
+        "sentText": "Look at that car! It {{blank}} crash!",
+        "hint": "(will / going to)",
+        "answers": [
+          "is going to",
+          "'s going to",
+          "s going to",
+          "’s going to"
+        ],
+        "display": "is going to",
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "type": "fill",
+        "use": "Plan",
+        "sentText": "My parents {{blank}} a house in Spain. They’ve found one.",
+        "hint": "buy",
+        "answers": [
+          "are going to buy",
+          "'re going to buy",
+          "re going to buy",
+          "’re going to buy"
+        ],
+        "display": "are going to buy",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "type": "fill",
+        "use": "Question — plan",
+        "sentText": "What {{blank}} you going to do tomorrow?",
+        "hint": "(are / will)",
+        "answers": [
+          "are"
+        ],
+        "display": "are",
+        "explain": "A question about plans takes ‘are’ + going to."
+      },
+      {
+        "type": "order",
+        "use": "Plan",
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "have",
+          "a",
+          "picnic",
+          "tomorrow."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — plan",
+        "tokens": [
+          "Is",
+          "she",
+          "going",
+          "to",
+          "come?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Negative plan",
+        "tokens": [
+          "I’m",
+          "not",
+          "going",
+          "to",
+          "watch",
+          "TV."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — plan",
+        "tokens": [
+          "What",
+          "are",
+          "they",
+          "going",
+          "to",
+          "eat?"
+        ]
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "What comes after ‘going to’?",
+        "choices": [
+          "the base verb",
+          "the -ing form",
+          "the past simple",
+          "the -s form"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "After ‘going to’ use the base verb, not -ing.",
+          "After ‘going to’ use the base verb, not the past.",
+          "After ‘going to’ use the base verb, with no -s."
+        ],
+        "explain": "After ‘going to’ use the base verb.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which word goes before ‘going to’ with ‘I’?",
+        "choices": [
+          "is",
+          "am",
+          "are",
+          "do"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Is’ goes with he/she/it.",
+          "",
+          "‘Are’ goes with you/we/they.",
+          "‘Do’ is not used before ‘going to’."
+        ],
+        "explain": "With ‘I’ use ‘am going to’.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which time expression fits a plan?",
+        "choices": [
+          "yesterday",
+          "last year",
+          "next summer",
+          "ago"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Yesterday’ is in the past.",
+          "‘Last year’ is in the past.",
+          "",
+          "‘Ago’ points to the past."
+        ],
+        "explain": "‘Next summer’ points to the future.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which clue shows evidence for a prediction?",
+        "choices": [
+          "I’ve decided…",
+          "We’ve booked…",
+          "Tomorrow I…",
+          "Black clouds above us"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘I’ve decided’ shows a plan, not evidence.",
+          "‘We’ve booked’ shows a plan, not evidence.",
+          "‘Tomorrow I…’ shows a plan, not evidence.",
+          ""
+        ],
+        "explain": "Black clouds are evidence you can see now.",
+        "hintVerb": ""
+      },
+      {
+        "type": "mc",
+        "use": "Plan",
+        "text": "We’ve booked a hotel. We {{blank}} in Rome.",
+        "choices": [
+          "are going to stay",
+          "will stay",
+          "stay",
+          "stayed"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: the plan was decided before now — use going to, not will.",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "type": "mc",
+        "use": "Evidence",
+        "text": "Look! That boy {{blank}} fall.",
+        "choices": [
+          "will",
+          "is going to",
+          "falls",
+          "fell"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: you can see it happening — use going to, not will.",
+          "",
+          "Wrong tense: the present simple does not predict from evidence.",
+          "Wrong tense: the sentence is about the future, not the past."
+        ],
+        "explain": "A prediction from evidence you can see — use going to."
+      },
+      {
+        "type": "mc",
+        "use": "Negative plan",
+        "text": "She {{blank}} to the party. She’s got an exam.",
+        "choices": [
+          "didn’t go",
+          "isn’t going to go",
+          "doesn’t go",
+          "hasn’t gone"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: the sentence is about the future, not the past.",
+          "",
+          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A negative plan — isn’t going to + base verb."
+      },
+      {
+        "type": "mc",
+        "use": "Question — plan",
+        "text": "What {{blank}} you going to study?",
+        "choices": [
+          "will",
+          "do",
+          "are",
+          "did"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong auxiliary: a question with going to takes a form of ‘be’.",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’.",
+          "",
+          "Wrong auxiliary: a question with going to takes a form of ‘be’."
+        ],
+        "explain": "A question with going to takes ‘are’."
+      },
+      {
+        "type": "error",
+        "use": "Missing ‘be’",
+        "tokens": [
+          "We",
+          "going",
+          "to",
+          "stay",
+          "here."
+        ],
+        "errorIndex": 1,
+        "correction": "are going",
+        "message": "Going to needs am/is/are before it."
+      },
+      {
+        "type": "error",
+        "use": "Wrong form",
+        "tokens": [
+          "It",
+          "is",
+          "going",
+          "to",
+          "snows",
+          "tonight."
+        ],
+        "errorIndex": 4,
+        "correction": "snow",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "type": "error",
+        "use": "Missing ‘to’",
+        "tokens": [
+          "He",
+          "is",
+          "going",
+          "study",
+          "law."
+        ],
+        "errorIndex": 3,
+        "correction": "to study",
+        "message": "After ‘going’ you need ‘to’ + base verb."
+      },
+      {
+        "type": "error",
+        "use": "Subject-verb agreement",
+        "tokens": [
+          "Careful!",
+          "They",
+          "is",
+          "going",
+          "to",
+          "fall!"
+        ],
+        "errorIndex": 2,
+        "correction": "are",
+        "message": "With ‘they’ use ‘are’ going to."
+      }
+    ]
+  }
+}
