@@ -1,0 +1,1776 @@
+{
+  "tense": "since-vs-for",
+  "lessonTitle": "Since vs For",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "have",
+        "has",
+        "haven’t",
+        "hasn’t",
+        "been"
+      ],
+      "label": null,
+      "primary": "have"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gap",
+    "subtitle": "Type since or for, or the whole verb phrase where a verb is given. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "I’ve lived in Girona",
+        "after": "five years.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Five years’ is a length of time — use for."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "She has worked here",
+        "after": "2019.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘2019’ is a starting point — use since."
+      },
+      {
+        "use": "Tense",
+        "kind": "statement",
+        "before": "We",
+        "after": "friends since 2015.",
+        "hint": "be",
+        "answers": [
+          "have been",
+          "'ve been",
+          "ve been",
+          "’ve been"
+        ],
+        "display": "have been",
+        "explain": "‘Since 2015’ links the past to now — use the present perfect."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "He’s been ill",
+        "after": "Monday.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘Monday’ is a starting point — use since."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "They’ve waited",
+        "after": "two hours.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Two hours’ is a length of time — use for."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "I haven’t seen him",
+        "after": "last summer.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘Last summer’ is a starting point — use since."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "My sister has played the violin",
+        "after": "a long time.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘A long time’ is a length of time — use for."
+      },
+      {
+        "use": "Tense",
+        "kind": "statement",
+        "before": "It",
+        "after": "raining since breakfast.",
+        "hint": "be",
+        "answers": [
+          "has been",
+          "'s been",
+          "s been",
+          "’s been"
+        ],
+        "display": "has been",
+        "explain": "‘Since breakfast’ links the past to now — use the present perfect continuous."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "We’ve known each other",
+        "after": "we were at school.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘We were at school’ is a starting point — use since."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "I haven’t eaten meat",
+        "after": "three weeks.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Three weeks’ is a length of time — use for."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "She has lived in Madrid",
+        "after": "she left university.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘She left university’ is a starting point — use since."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "He hasn’t called",
+        "after": "ages.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Ages’ means a long period — use for."
+      },
+      {
+        "use": "Tense",
+        "kind": "statement",
+        "before": "I",
+        "after": "this phone for two years.",
+        "hint": "have",
+        "answers": [
+          "have had",
+          "'ve had",
+          "ve had",
+          "’ve had"
+        ],
+        "display": "have had",
+        "explain": "‘For two years’ links the past to now — and ‘have’ (own) is stative, so the simple form."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "We’ve been here",
+        "after": "half an hour.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Half an hour’ is a length of time — use for."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "They’ve been married",
+        "after": "June.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘June’ is a starting point — use since."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "She’s studied English",
+        "after": "eight years.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Eight years’ is a length of time — use for."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "I’ve been waiting here",
+        "after": "nine o’clock.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘Nine o’clock’ is a starting point — use since."
+      },
+      {
+        "use": "Tense",
+        "kind": "statement",
+        "before": "Tom",
+        "after": "well for a week.",
+        "hint": "not sleep",
+        "answers": [
+          "hasn't slept",
+          "has not slept",
+          "hasn’t slept"
+        ],
+        "display": "has not slept",
+        "explain": "‘For a week’ links the past to now — use the present perfect."
+      },
+      {
+        "use": "Since",
+        "kind": "statement",
+        "before": "There has been no rain",
+        "after": "April.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘April’ is a starting point — use since."
+      },
+      {
+        "use": "For",
+        "kind": "statement",
+        "before": "I’ve wanted to visit Rome",
+        "after": "years.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Years’ is a length of time — use for."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put the words in order",
+    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences using since and for.",
+    "sentences": [
+      {
+        "use": "For",
+        "tokens": [
+          "I’ve",
+          "lived",
+          "here",
+          "for",
+          "five",
+          "years."
+        ],
+        "alts": [
+          [
+            "For",
+            "five",
+            "years",
+            "I’ve",
+            "lived",
+            "here."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "She’s",
+          "worked",
+          "here",
+          "since",
+          "2019."
+        ],
+        "alts": [
+          [
+            "Since",
+            "2019",
+            "she’s",
+            "worked",
+            "here."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "We’ve",
+          "known",
+          "each",
+          "other",
+          "since",
+          "school."
+        ],
+        "alts": [
+          [
+            "Since",
+            "school",
+            "we’ve",
+            "known",
+            "each",
+            "other."
+          ]
+        ]
+      },
+      {
+        "use": "Question — how long",
+        "tokens": [
+          "How",
+          "long",
+          "have",
+          "you",
+          "lived",
+          "here?"
+        ]
+      },
+      {
+        "use": "For",
+        "tokens": [
+          "He",
+          "hasn’t",
+          "called",
+          "for",
+          "two",
+          "weeks."
+        ],
+        "alts": [
+          [
+            "For",
+            "two",
+            "weeks",
+            "he",
+            "hasn’t",
+            "called."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "They’ve",
+          "been",
+          "married",
+          "since",
+          "June."
+        ],
+        "alts": [
+          [
+            "Since",
+            "June",
+            "they’ve",
+            "been",
+            "married."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "I",
+          "haven’t",
+          "seen",
+          "her",
+          "since",
+          "Monday."
+        ],
+        "alts": [
+          [
+            "Since",
+            "Monday",
+            "I",
+            "haven’t",
+            "seen",
+            "her."
+          ]
+        ]
+      },
+      {
+        "use": "For",
+        "tokens": [
+          "It’s",
+          "been",
+          "raining",
+          "for",
+          "three",
+          "hours."
+        ],
+        "alts": [
+          [
+            "For",
+            "three",
+            "hours",
+            "it’s",
+            "been",
+            "raining."
+          ]
+        ]
+      },
+      {
+        "use": "Question — for",
+        "tokens": [
+          "Have",
+          "you",
+          "studied",
+          "English",
+          "for",
+          "long?"
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "My",
+          "dad",
+          "has",
+          "had",
+          "this",
+          "car",
+          "since",
+          "2010."
+        ],
+        "alts": [
+          [
+            "Since",
+            "2010",
+            "my",
+            "dad",
+            "has",
+            "had",
+            "this",
+            "car."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "She",
+          "hasn’t",
+          "eaten",
+          "since",
+          "breakfast."
+        ],
+        "alts": [
+          [
+            "Since",
+            "breakfast",
+            "she",
+            "hasn’t",
+            "eaten."
+          ]
+        ]
+      },
+      {
+        "use": "For",
+        "tokens": [
+          "We’ve",
+          "been",
+          "here",
+          "for",
+          "an",
+          "hour."
+        ],
+        "alts": [
+          [
+            "For",
+            "an",
+            "hour",
+            "we’ve",
+            "been",
+            "here."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "I’ve",
+          "wanted",
+          "to",
+          "visit",
+          "Rome",
+          "since",
+          "I",
+          "was",
+          "a",
+          "child."
+        ]
+      },
+      {
+        "use": "For",
+        "tokens": [
+          "They’ve",
+          "played",
+          "tennis",
+          "together",
+          "for",
+          "years."
+        ],
+        "alts": [
+          [
+            "For",
+            "years",
+            "they’ve",
+            "played",
+            "tennis",
+            "together."
+          ]
+        ]
+      },
+      {
+        "use": "Question — how long",
+        "tokens": [
+          "How",
+          "long",
+          "has",
+          "she",
+          "been",
+          "working",
+          "here?"
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "There",
+          "has",
+          "been",
+          "no",
+          "rain",
+          "since",
+          "April."
+        ],
+        "alts": [
+          [
+            "Since",
+            "April",
+            "there",
+            "has",
+            "been",
+            "no",
+            "rain."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "He’s",
+          "been",
+          "ill",
+          "since",
+          "Tuesday."
+        ],
+        "alts": [
+          [
+            "Since",
+            "Tuesday",
+            "he’s",
+            "been",
+            "ill."
+          ]
+        ]
+      },
+      {
+        "use": "For",
+        "tokens": [
+          "I’ve",
+          "been",
+          "waiting",
+          "for",
+          "ages!"
+        ],
+        "alts": [
+          [
+            "For",
+            "ages",
+            "I’ve",
+            "been",
+            "waiting!"
+          ]
+        ]
+      },
+      {
+        "use": "For",
+        "tokens": [
+          "Our",
+          "teacher",
+          "has",
+          "taught",
+          "here",
+          "for",
+          "twenty",
+          "years."
+        ],
+        "alts": [
+          [
+            "For",
+            "twenty",
+            "years",
+            "our",
+            "teacher",
+            "has",
+            "taught",
+            "here."
+          ]
+        ]
+      },
+      {
+        "use": "Since",
+        "tokens": [
+          "I",
+          "haven’t",
+          "slept",
+          "well",
+          "since",
+          "the",
+          "exam."
+        ],
+        "alts": [
+          [
+            "Since",
+            "the",
+            "exam",
+            "I",
+            "haven’t",
+            "slept",
+            "well."
+          ]
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the time expression to since or for",
+    "subtitle": "Tap a time expression, then tap the word it needs. A starting point takes since; a length of time takes for.",
+    "leftLabel": "Time expression",
+    "rightLabel": "Word",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "2019",
+        "right": "since"
+      },
+      {
+        "left": "five years",
+        "right": "for"
+      },
+      {
+        "left": "Monday",
+        "right": "since"
+      },
+      {
+        "left": "two hours",
+        "right": "for"
+      },
+      {
+        "left": "last summer",
+        "right": "since"
+      },
+      {
+        "left": "a week",
+        "right": "for"
+      },
+      {
+        "left": "nine o’clock",
+        "right": "since"
+      },
+      {
+        "left": "ages",
+        "right": "for"
+      },
+      {
+        "left": "I was a child",
+        "right": "since"
+      },
+      {
+        "left": "a long time",
+        "right": "for"
+      },
+      {
+        "left": "yesterday",
+        "right": "since"
+      },
+      {
+        "left": "three days",
+        "right": "for"
+      },
+      {
+        "left": "June",
+        "right": "since"
+      },
+      {
+        "left": "half an hour",
+        "right": "for"
+      },
+      {
+        "left": "breakfast",
+        "right": "since"
+      },
+      {
+        "left": "ten minutes",
+        "right": "for"
+      },
+      {
+        "left": "the exam",
+        "right": "since"
+      },
+      {
+        "left": "a month",
+        "right": "for"
+      },
+      {
+        "left": "this morning",
+        "right": "since"
+      },
+      {
+        "left": "six months",
+        "right": "for"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. British English. Ask yourself: is it a starting point (since) or a length of time (for)?",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Since",
+        "text": "She has worked here <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 2018.",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong word: ‘2018’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since."
+        ],
+        "explain": "‘2018’ is a starting point — since."
+      },
+      {
+        "use": "For",
+        "text": "They’ve been married <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ten years.",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong word: ‘ten years’ is a length of time, not a starting point — use for.",
+          "",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for."
+        ],
+        "explain": "‘ten years’ is a length of time — for."
+      },
+      {
+        "use": "For",
+        "text": "I haven’t seen him <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a month.",
+        "choices": [
+          "since",
+          "ago",
+          "for",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong word: ‘a month’ is a length of time, not a starting point — use for.",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for."
+        ],
+        "explain": "‘a month’ is a length of time — for."
+      },
+      {
+        "use": "Since",
+        "text": "He’s been ill <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Tuesday.",
+        "choices": [
+          "for",
+          "ago",
+          "during",
+          "since"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong word: ‘Tuesday’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since.",
+          ""
+        ],
+        "explain": "‘Tuesday’ is a starting point — since."
+      },
+      {
+        "use": "Tense",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this flat since 2020.",
+        "choices": [
+          "live",
+          "have lived",
+          "am living",
+          "lived"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘since 2020’ needs the present perfect, not the present simple.",
+          "",
+          "Wrong tense: ‘since 2020’ needs the present perfect, not the present continuous.",
+          "Wrong tense: ‘since 2020’ needs the present perfect, not the past simple."
+        ],
+        "explain": "‘Since 2020’ — present perfect."
+      },
+      {
+        "use": "Tense",
+        "text": "How long <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you known her?",
+        "choices": [
+          "did",
+          "are",
+          "have",
+          "do"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong auxiliary: ‘known’ needs ‘have’, not ‘did’.",
+          "Wrong auxiliary: ‘known’ needs ‘have’, not ‘are’.",
+          "",
+          "Wrong auxiliary: ‘known’ needs ‘have’, not ‘do’."
+        ],
+        "explain": "‘How long … known’ — present perfect question with ‘have’."
+      },
+      {
+        "use": "Tense",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this band since she was ten.",
+        "choices": [
+          "loves",
+          "loved",
+          "is loving",
+          "has loved"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: ‘since she was ten’ needs the present perfect, not the present simple.",
+          "Wrong tense: she still loves the band — use the present perfect.",
+          "Wrong form: ‘love’ is a stative verb — it is not used in the continuous.",
+          ""
+        ],
+        "explain": "‘Since’ + a stative verb — present perfect simple."
+      },
+      {
+        "use": "Since",
+        "text": "I’ve had this phone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my birthday.",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong word: ‘my birthday’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since."
+        ],
+        "explain": "‘my birthday’ is a starting point — since."
+      },
+      {
+        "use": "For",
+        "text": "It hasn’t rained <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> weeks.",
+        "choices": [
+          "since",
+          "ago",
+          "for",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong word: ‘weeks’ is a length of time, not a starting point — use for.",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for."
+        ],
+        "explain": "‘weeks’ is a length of time — for."
+      },
+      {
+        "use": "Since",
+        "text": "We’ve been friends <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we were at school.",
+        "choices": [
+          "for",
+          "ago",
+          "during",
+          "since"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong word: ‘we were at school’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since.",
+          ""
+        ],
+        "explain": "‘we were at school’ is a starting point — since."
+      },
+      {
+        "use": "For",
+        "text": "My brother has played the guitar <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> years.",
+        "choices": [
+          "for",
+          "since",
+          "ago",
+          "during"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong word: ‘years’ is a length of time, not a starting point — use for.",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for."
+        ],
+        "explain": "‘years’ is a length of time — for."
+      },
+      {
+        "use": "Tense",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married for six years.",
+        "choices": [
+          "are",
+          "have been",
+          "were",
+          "has been"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘for six years’ needs the present perfect, not the present simple.",
+          "",
+          "Wrong tense: they are still married — use the present perfect.",
+          "Subject-verb agreement: with ‘they’ use ‘have been’."
+        ],
+        "explain": "‘For six years’ — present perfect."
+      },
+      {
+        "use": "Since",
+        "text": "She’s lived in Madrid <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she left university.",
+        "choices": [
+          "for",
+          "ago",
+          "during",
+          "since"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong word: ‘she left university’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since.",
+          ""
+        ],
+        "explain": "‘she left university’ is a starting point — since."
+      },
+      {
+        "use": "Tense",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him since last summer.",
+        "choices": [
+          "haven’t seen",
+          "didn’t see",
+          "don’t see",
+          "am not seeing"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘since last summer’ needs the present perfect, not the past simple.",
+          "Wrong tense: ‘since last summer’ needs the present perfect, not the present simple.",
+          "Wrong tense: ‘since last summer’ needs the present perfect, not the present continuous."
+        ],
+        "explain": "‘Since last summer’ — present perfect."
+      },
+      {
+        "use": "For",
+        "text": "We’ve lived here <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a long time.",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong word: ‘a long time’ is a length of time, not a starting point — use for.",
+          "",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for."
+        ],
+        "explain": "‘a long time’ is a length of time — for."
+      },
+      {
+        "use": "Since",
+        "text": "I’ve been waiting <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> nine o’clock.",
+        "choices": [
+          "for",
+          "ago",
+          "since",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong word: ‘nine o’clock’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since."
+        ],
+        "explain": "‘nine o’clock’ is a starting point — since."
+      },
+      {
+        "use": "Tense",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> here for three years now.",
+        "choices": [
+          "has worked",
+          "worked",
+          "works",
+          "is working"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: she still works here — use the present perfect.",
+          "Wrong tense: ‘for three years now’ needs the present perfect, not the present simple.",
+          "Wrong tense: ‘for three years now’ needs the present perfect, not the present continuous."
+        ],
+        "explain": "‘For three years now’ — present perfect."
+      },
+      {
+        "use": "For",
+        "text": "He hasn’t called <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ages.",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong word: ‘ages’ is a length of time, not a starting point — use for.",
+          "",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for."
+        ],
+        "explain": "‘ages’ is a length of time — for."
+      },
+      {
+        "use": "Since",
+        "text": "There has been no rain <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> April.",
+        "choices": [
+          "for",
+          "ago",
+          "since",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong word: ‘April’ is a starting point, not a length of time — use since.",
+          "Wrong word: ‘ago’ goes after a length of time (two years ago), not before a starting point.",
+          "",
+          "Wrong word: ‘during’ does not fit a starting point with the present perfect — use since."
+        ],
+        "explain": "‘April’ is a starting point — since."
+      },
+      {
+        "use": "For",
+        "text": "I’ve wanted to visit Rome <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> years.",
+        "choices": [
+          "since",
+          "ago",
+          "during",
+          "for"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong word: ‘years’ is a length of time, not a starting point — use for.",
+          "Wrong word: ‘ago’ goes after a length of time with the past simple (two years ago) — not before it.",
+          "Wrong word: ‘during’ does not fit a length of time with the present perfect — use for.",
+          ""
+        ],
+        "explain": "‘years’ is a length of time — for."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "I’ve",
+          "lived",
+          "here",
+          "since",
+          "five",
+          "years."
+        ],
+        "errorIndex": 3,
+        "correction": "for",
+        "type": "Swapped since/for",
+        "message": "‘Five years’ is a length of time — use for."
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "worked",
+          "here",
+          "for",
+          "2019."
+        ],
+        "errorIndex": 4,
+        "correction": "since",
+        "type": "Swapped since/for",
+        "message": "‘2019’ is a starting point — use since."
+      },
+      {
+        "tokens": [
+          "I",
+          "live",
+          "here",
+          "for",
+          "five",
+          "years."
+        ],
+        "errorIndex": 1,
+        "correction": "have lived",
+        "type": "Wrong tense",
+        "message": "‘For five years’ links the past to now — use the present perfect."
+      },
+      {
+        "tokens": [
+          "We",
+          "know",
+          "each",
+          "other",
+          "since",
+          "school."
+        ],
+        "errorIndex": 1,
+        "correction": "have known",
+        "type": "Wrong tense",
+        "message": "‘Since school’ links the past to now — use the present perfect."
+      },
+      {
+        "tokens": [
+          "He",
+          "has",
+          "been",
+          "ill",
+          "for",
+          "Monday."
+        ],
+        "errorIndex": 4,
+        "correction": "since",
+        "type": "Swapped since/for",
+        "message": "‘Monday’ is a starting point — use since."
+      },
+      {
+        "tokens": [
+          "They",
+          "are",
+          "married",
+          "for",
+          "ten",
+          "years."
+        ],
+        "errorIndex": 1,
+        "correction": "have been married",
+        "type": "Wrong tense",
+        "message": "‘For ten years’ links the past to now — use the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "haven’t",
+          "seen",
+          "her",
+          "since",
+          "three",
+          "days."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "type": "Swapped since/for",
+        "message": "‘Three days’ is a length of time — use for."
+      },
+      {
+        "tokens": [
+          "It",
+          "is",
+          "raining",
+          "since",
+          "breakfast."
+        ],
+        "errorIndex": 1,
+        "correction": "has been raining",
+        "type": "Wrong tense",
+        "message": "‘Since breakfast’ links the past to now — use the present perfect continuous.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "lived",
+          "in",
+          "Madrid",
+          "for",
+          "she",
+          "left",
+          "school."
+        ],
+        "errorIndex": 5,
+        "correction": "since",
+        "type": "Swapped since/for",
+        "message": "‘She left school’ is a starting point — use since."
+      },
+      {
+        "tokens": [
+          "We",
+          "are",
+          "here",
+          "for",
+          "an",
+          "hour",
+          "now."
+        ],
+        "errorIndex": 1,
+        "correction": "have been here",
+        "type": "Wrong tense",
+        "message": "‘For an hour now’ links the past to now — use the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "haven’t",
+          "slept",
+          "well",
+          "for",
+          "the",
+          "exam."
+        ],
+        "errorIndex": 4,
+        "correction": "since",
+        "type": "Swapped since/for",
+        "message": "‘The exam’ is a starting point — use since."
+      },
+      {
+        "tokens": [
+          "He",
+          "has",
+          "a",
+          "new",
+          "car",
+          "since",
+          "June."
+        ],
+        "errorIndex": 1,
+        "correction": "has had",
+        "type": "Wrong tense",
+        "message": "‘Since June’ links the past to now — use the present perfect."
+      },
+      {
+        "tokens": [
+          "My",
+          "parents",
+          "have",
+          "been",
+          "married",
+          "since",
+          "thirty",
+          "years."
+        ],
+        "errorIndex": 5,
+        "correction": "for",
+        "type": "Swapped since/for",
+        "message": "‘Thirty years’ is a length of time — use for."
+      },
+      {
+        "tokens": [
+          "Tom",
+          "hasn’t",
+          "called",
+          "since",
+          "ages."
+        ],
+        "errorIndex": 3,
+        "correction": "for",
+        "type": "Swapped since/for",
+        "message": "‘Ages’ means a long period — use for."
+      },
+      {
+        "tokens": [
+          "I’ve",
+          "been",
+          "waiting",
+          "for",
+          "nine",
+          "o’clock."
+        ],
+        "errorIndex": 3,
+        "correction": "since",
+        "type": "Swapped since/for",
+        "message": "‘Nine o’clock’ is a starting point — use since."
+      },
+      {
+        "tokens": [
+          "She",
+          "didn’t",
+          "eat",
+          "since",
+          "breakfast."
+        ],
+        "errorIndex": 1,
+        "correction": "hasn’t eaten",
+        "type": "Wrong tense",
+        "message": "‘Since breakfast’ links the past to now — use the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "They",
+          "have",
+          "played",
+          "tennis",
+          "since",
+          "years."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "type": "Swapped since/for",
+        "message": "‘Years’ is a length of time — use for."
+      },
+      {
+        "tokens": [
+          "I",
+          "am",
+          "knowing",
+          "her",
+          "since",
+          "2015."
+        ],
+        "errorIndex": 1,
+        "correction": "have known",
+        "type": "Wrong tense",
+        "message": "‘Know’ is a stative verb and ‘since 2015’ needs the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "There",
+          "has",
+          "been",
+          "no",
+          "rain",
+          "for",
+          "April."
+        ],
+        "errorIndex": 5,
+        "correction": "since",
+        "type": "Swapped since/for",
+        "message": "‘April’ is a starting point — use since."
+      },
+      {
+        "tokens": [
+          "How",
+          "long",
+          "do",
+          "you",
+          "live",
+          "here?"
+        ],
+        "errorIndex": 2,
+        "correction": "have you lived",
+        "type": "Wrong tense",
+        "message": "‘How long’ about a situation up to now needs the present perfect.",
+        "errorSpan": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, signal words, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "signal": "Signal words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "signal",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Since",
+        "sentText": "I’ve lived here {{blank}} 2018.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘2018’ is a starting point — use since."
+      },
+      {
+        "type": "fill",
+        "use": "For",
+        "sentText": "We’ve been friends {{blank}} ten years.",
+        "hint": "(since / for)",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘Ten years’ is a length of time — use for."
+      },
+      {
+        "type": "fill",
+        "use": "Tense",
+        "sentText": "She {{blank}} here for two years.",
+        "hint": "work",
+        "answers": [
+          "has worked",
+          "'s worked",
+          "s worked",
+          "’s worked"
+        ],
+        "display": "has worked",
+        "explain": "‘For two years’ links the past to now — use the present perfect."
+      },
+      {
+        "type": "fill",
+        "use": "Since",
+        "sentText": "I haven’t seen him {{blank}} last week.",
+        "hint": "(since / for)",
+        "answers": [
+          "since"
+        ],
+        "display": "since",
+        "explain": "‘Last week’ is a starting point — use since."
+      },
+      {
+        "type": "order",
+        "use": "Since",
+        "tokens": [
+          "I’ve",
+          "known",
+          "him",
+          "since",
+          "2010."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "For",
+        "tokens": [
+          "She’s",
+          "been",
+          "here",
+          "for",
+          "an",
+          "hour."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — how long",
+        "tokens": [
+          "How",
+          "long",
+          "have",
+          "you",
+          "had",
+          "your",
+          "dog?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "For",
+        "tokens": [
+          "They",
+          "haven’t",
+          "called",
+          "for",
+          "a",
+          "week."
+        ]
+      },
+      {
+        "type": "signal",
+        "use": "Time expression",
+        "text": "Which word goes with ‘five years’?",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Five years’ is a length of time, not a starting point.",
+          "",
+          "‘Ago’ goes after a length of time, with the past simple.",
+          "‘During’ does not fit a length of time here."
+        ],
+        "explain": "A length of time — for.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Time expression",
+        "text": "Which word goes with ‘last Monday’?",
+        "choices": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Last Monday’ is a starting point, not a length of time.",
+          "‘Ago’ goes after a length of time, not before a starting point.",
+          "‘During’ does not fit a starting point here."
+        ],
+        "explain": "A starting point — since.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Time expression",
+        "text": "Which word goes with ‘a long time’?",
+        "choices": [
+          "since",
+          "ago",
+          "for",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘A long time’ is a length of time, not a starting point.",
+          "‘Ago’ goes after a length of time, with the past simple.",
+          "",
+          "‘During’ does not fit a length of time here."
+        ],
+        "explain": "A length of time — for.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Time expression",
+        "text": "Which word goes with ‘I was ten’?",
+        "choices": [
+          "for",
+          "ago",
+          "during",
+          "since"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘I was ten’ is a starting point, not a length of time.",
+          "‘Ago’ goes after a length of time, not before a starting point.",
+          "‘During’ does not fit a starting point here.",
+          ""
+        ],
+        "explain": "A starting point — since.",
+        "hintVerb": ""
+      },
+      {
+        "type": "mc",
+        "use": "Tense",
+        "text": "We {{blank}} each other since school.",
+        "choices": [
+          "know",
+          "have known",
+          "are knowing",
+          "knew"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘since school’ needs the present perfect.",
+          "",
+          "Wrong form: ‘know’ is a stative verb — it is not used in the continuous.",
+          "Wrong tense: they still know each other — use the present perfect."
+        ],
+        "explain": "‘Since school’ — present perfect."
+      },
+      {
+        "type": "mc",
+        "use": "Tense",
+        "text": "She {{blank}} here for ten years.",
+        "choices": [
+          "works",
+          "has worked",
+          "worked",
+          "is working"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘for ten years’ needs the present perfect.",
+          "",
+          "Wrong tense: she still works here — use the present perfect.",
+          "Wrong tense: ‘for ten years’ needs the present perfect."
+        ],
+        "explain": "‘For ten years’ — present perfect."
+      },
+      {
+        "type": "mc",
+        "use": "Tense",
+        "text": "How long {{blank}} you lived here?",
+        "choices": [
+          "did",
+          "have",
+          "are",
+          "do"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong auxiliary: ‘lived’ needs ‘have’, not ‘did’.",
+          "",
+          "Wrong auxiliary: ‘lived’ needs ‘have’, not ‘are’.",
+          "Wrong auxiliary: ‘lived’ needs ‘have’, not ‘do’."
+        ],
+        "explain": "‘How long … lived’ — present perfect question with ‘have’."
+      },
+      {
+        "type": "mc",
+        "use": "Tense",
+        "text": "I {{blank}} him since Monday.",
+        "choices": [
+          "haven’t seen",
+          "didn’t see",
+          "don’t see",
+          "am not seeing"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘since Monday’ needs the present perfect.",
+          "Wrong tense: ‘since Monday’ needs the present perfect.",
+          "Wrong tense: ‘since Monday’ needs the present perfect."
+        ],
+        "explain": "‘Since Monday’ — present perfect."
+      },
+      {
+        "type": "error",
+        "use": "Swapped since/for",
+        "tokens": [
+          "He",
+          "has",
+          "worked",
+          "here",
+          "since",
+          "ten",
+          "years."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "message": "‘Ten years’ is a length of time — use for."
+      },
+      {
+        "type": "error",
+        "use": "Swapped since/for",
+        "tokens": [
+          "She",
+          "has",
+          "known",
+          "me",
+          "for",
+          "2015."
+        ],
+        "errorIndex": 4,
+        "correction": "since",
+        "message": "‘2015’ is a starting point — use since."
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "I",
+          "live",
+          "here",
+          "since",
+          "2020."
+        ],
+        "errorIndex": 1,
+        "correction": "have lived",
+        "message": "‘Since 2020’ links the past to now — use the present perfect."
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "We",
+          "are",
+          "friends",
+          "for",
+          "years."
+        ],
+        "errorIndex": 1,
+        "correction": "have been friends",
+        "message": "‘For years’ links the past to now — use the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      }
+    ]
+  }
+}
