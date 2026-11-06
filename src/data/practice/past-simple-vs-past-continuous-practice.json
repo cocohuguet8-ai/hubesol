@@ -1,0 +1,1782 @@
+{
+  "tense": "past-simple-vs-past-continuous",
+  "lessonTitle": "Past Simple vs Past Continuous",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "did",
+        "didn’t",
+        "was",
+        "were",
+        "wasn’t",
+        "weren’t"
+      ],
+      "label": null,
+      "primary": "did"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gap",
+    "subtitle": "Type the whole verb phrase — the past simple or the past continuous, whichever the signal word or context calls for. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Completed",
+        "kind": "statement",
+        "before": "She",
+        "after": "her homework before dinner yesterday.",
+        "hint": "finish",
+        "answers": [
+          "finished"
+        ],
+        "display": "finished",
+        "explain": "A completed action at a finished time — use the past simple."
+      },
+      {
+        "use": "In progress",
+        "kind": "statement",
+        "before": "At eight o’clock last night, I",
+        "after": "dinner.",
+        "hint": "cook",
+        "answers": [
+          "was cooking"
+        ],
+        "display": "was cooking",
+        "explain": "The cooking was already in progress at that moment — use the past continuous."
+      },
+      {
+        "use": "Interrupted",
+        "kind": "statement",
+        "before": "I",
+        "after": "home when it started to rain.",
+        "hint": "walk",
+        "answers": [
+          "was walking"
+        ],
+        "display": "was walking",
+        "explain": "The walking was the longer action in progress when the rain started — past continuous."
+      },
+      {
+        "use": "Interrupting event",
+        "kind": "statement",
+        "before": "The phone",
+        "after": "while we were watching the film.",
+        "hint": "ring",
+        "answers": [
+          "rang"
+        ],
+        "display": "rang",
+        "explain": "The short event that interrupted the film — use the past simple."
+      },
+      {
+        "use": "Sequence",
+        "kind": "statement",
+        "before": "He opened the door,",
+        "after": "in and sat down.",
+        "hint": "walk",
+        "answers": [
+          "walked"
+        ],
+        "display": "walked",
+        "explain": "Completed actions one after another — use the past simple."
+      },
+      {
+        "use": "Stative verb",
+        "kind": "statement",
+        "before": "I",
+        "after": "to leave because I was tired.",
+        "hint": "want",
+        "answers": [
+          "wanted"
+        ],
+        "display": "wanted",
+        "explain": "‘Want’ is a stative verb — it stays in the past simple."
+      },
+      {
+        "use": "Question — in progress",
+        "kind": "question",
+        "before": "What",
+        "after": "you doing when I called you?",
+        "hint": "(did / were)",
+        "answers": [
+          "were"
+        ],
+        "display": "were",
+        "explain": "‘Doing’ shows an action in progress — the question takes ‘were’."
+      },
+      {
+        "use": "Background",
+        "kind": "statement",
+        "before": "It",
+        "after": "and the wind was blowing when we left the house.",
+        "hint": "rain",
+        "answers": [
+          "was raining"
+        ],
+        "display": "was raining",
+        "explain": "Scene-setting weather — use the past continuous."
+      },
+      {
+        "use": "In progress",
+        "kind": "statement",
+        "before": "While Dad",
+        "after": "dinner, I did my homework.",
+        "hint": "cook",
+        "answers": [
+          "was cooking"
+        ],
+        "display": "was cooking",
+        "explain": "‘While’ introduces the longer action in progress — past continuous."
+      },
+      {
+        "use": "Interrupting event",
+        "kind": "statement",
+        "before": "We were having lunch when the lights",
+        "after": "out.",
+        "hint": "go",
+        "answers": [
+          "went"
+        ],
+        "display": "went",
+        "explain": "The short event that interrupted lunch — use the past simple."
+      },
+      {
+        "use": "Completed",
+        "kind": "statement",
+        "before": "They",
+        "after": "a new car last month.",
+        "hint": "buy",
+        "answers": [
+          "bought"
+        ],
+        "display": "bought",
+        "explain": "A completed action at a finished time — use the past simple."
+      },
+      {
+        "use": "Question — in progress",
+        "kind": "question",
+        "before": "Where",
+        "after": "you living in 2015?",
+        "hint": "(did / were)",
+        "answers": [
+          "were"
+        ],
+        "display": "were",
+        "explain": "‘Living’ shows a situation in progress — the question takes ‘were’."
+      },
+      {
+        "use": "Interrupted",
+        "kind": "statement",
+        "before": "Sam",
+        "after": "to music when the teacher walked in.",
+        "hint": "listen",
+        "answers": [
+          "was listening"
+        ],
+        "display": "was listening",
+        "explain": "The listening was in progress when the teacher walked in — past continuous."
+      },
+      {
+        "use": "Sequence",
+        "kind": "statement",
+        "before": "We got up, had breakfast and",
+        "after": "to school.",
+        "hint": "walk",
+        "answers": [
+          "walked"
+        ],
+        "display": "walked",
+        "explain": "Completed actions in a sequence — use the past simple."
+      },
+      {
+        "use": "Stative verb",
+        "kind": "statement",
+        "before": "I",
+        "after": "that he was lying.",
+        "hint": "know",
+        "answers": [
+          "knew"
+        ],
+        "display": "knew",
+        "explain": "‘Know’ is a stative verb — it stays in the past simple."
+      },
+      {
+        "use": "Interrupting event",
+        "kind": "statement",
+        "before": "She",
+        "after": "her leg while she was playing tennis.",
+        "hint": "break",
+        "answers": [
+          "broke"
+        ],
+        "display": "broke",
+        "explain": "The short event during the tennis match — use the past simple."
+      },
+      {
+        "use": "In progress",
+        "kind": "statement",
+        "before": "I was reading while my sister",
+        "after": "a video.",
+        "hint": "watch",
+        "answers": [
+          "was watching"
+        ],
+        "display": "was watching",
+        "explain": "Two actions in progress at the same time — past continuous for both."
+      },
+      {
+        "use": "Question — completed",
+        "kind": "question",
+        "before": "What",
+        "after": "you do last weekend?",
+        "hint": "(did / were)",
+        "answers": [
+          "did"
+        ],
+        "display": "did",
+        "explain": "‘Last weekend’ is a finished time and ‘do’ is in the base form — the question takes ‘did’."
+      },
+      {
+        "use": "Completed",
+        "kind": "statement",
+        "before": "When I was ten, we",
+        "after": "to Italy for our holidays.",
+        "hint": "go",
+        "answers": [
+          "went"
+        ],
+        "display": "went",
+        "explain": "A completed action at a finished time — use the past simple."
+      },
+      {
+        "use": "Interrupted",
+        "kind": "statement",
+        "before": "He",
+        "after": "a shower when the doorbell rang.",
+        "hint": "take",
+        "answers": [
+          "was taking"
+        ],
+        "display": "was taking",
+        "explain": "The shower was in progress when the doorbell rang — past continuous."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put the words in order",
+    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing both tenses.",
+    "sentences": [
+      {
+        "use": "Completed",
+        "tokens": [
+          "She",
+          "finished",
+          "her",
+          "homework",
+          "at",
+          "six."
+        ],
+        "alts": [
+          [
+            "At",
+            "six",
+            "she",
+            "finished",
+            "her",
+            "homework."
+          ]
+        ]
+      },
+      {
+        "use": "In progress",
+        "tokens": [
+          "I",
+          "was",
+          "cooking",
+          "dinner",
+          "at",
+          "eight",
+          "last",
+          "night."
+        ],
+        "alts": [
+          [
+            "At",
+            "eight",
+            "last",
+            "night",
+            "I",
+            "was",
+            "cooking",
+            "dinner."
+          ]
+        ]
+      },
+      {
+        "use": "Interrupted",
+        "tokens": [
+          "I",
+          "was",
+          "walking",
+          "home",
+          "when",
+          "it",
+          "started",
+          "to",
+          "rain."
+        ],
+        "alts": [
+          [
+            "When",
+            "it",
+            "started",
+            "to",
+            "rain,",
+            "I",
+            "was",
+            "walking",
+            "home."
+          ]
+        ]
+      },
+      {
+        "use": "Interrupting event",
+        "tokens": [
+          "The",
+          "phone",
+          "rang",
+          "while",
+          "we",
+          "were",
+          "watching",
+          "TV."
+        ]
+      },
+      {
+        "use": "Sequence",
+        "tokens": [
+          "He",
+          "opened",
+          "the",
+          "door",
+          "and",
+          "walked",
+          "into",
+          "the",
+          "kitchen."
+        ]
+      },
+      {
+        "use": "Question — in progress",
+        "tokens": [
+          "What",
+          "were",
+          "you",
+          "doing",
+          "at",
+          "nine",
+          "last",
+          "night?"
+        ]
+      },
+      {
+        "use": "Negative — in progress",
+        "tokens": [
+          "We",
+          "weren’t",
+          "sleeping",
+          "when",
+          "the",
+          "storm",
+          "started."
+        ]
+      },
+      {
+        "use": "Negative — completed",
+        "tokens": [
+          "They",
+          "didn’t",
+          "see",
+          "the",
+          "film",
+          "last",
+          "week."
+        ],
+        "alts": [
+          [
+            "Last",
+            "week",
+            "they",
+            "didn’t",
+            "see",
+            "the",
+            "film."
+          ]
+        ]
+      },
+      {
+        "use": "Background",
+        "tokens": [
+          "The",
+          "sun",
+          "was",
+          "shining",
+          "and",
+          "the",
+          "birds",
+          "were",
+          "singing."
+        ]
+      },
+      {
+        "use": "In progress",
+        "tokens": [
+          "While",
+          "I",
+          "was",
+          "reading,",
+          "my",
+          "brother",
+          "was",
+          "playing",
+          "video",
+          "games."
+        ]
+      },
+      {
+        "use": "Question — completed",
+        "tokens": [
+          "Did",
+          "you",
+          "see",
+          "Anna",
+          "at",
+          "the",
+          "party",
+          "yesterday?"
+        ]
+      },
+      {
+        "use": "Interrupted",
+        "tokens": [
+          "He",
+          "was",
+          "riding",
+          "his",
+          "bike",
+          "when",
+          "he",
+          "fell",
+          "off."
+        ]
+      },
+      {
+        "use": "Completed",
+        "tokens": [
+          "Our",
+          "team",
+          "won",
+          "the",
+          "match",
+          "last",
+          "Saturday."
+        ],
+        "alts": [
+          [
+            "Last",
+            "Saturday",
+            "our",
+            "team",
+            "won",
+            "the",
+            "match."
+          ]
+        ]
+      },
+      {
+        "use": "Question — in progress",
+        "tokens": [
+          "Where",
+          "was",
+          "she",
+          "living",
+          "in",
+          "2018?"
+        ]
+      },
+      {
+        "use": "Interrupted",
+        "tokens": [
+          "They",
+          "were",
+          "playing",
+          "football",
+          "when",
+          "it",
+          "began",
+          "to",
+          "snow."
+        ]
+      },
+      {
+        "use": "Question — completed",
+        "tokens": [
+          "When",
+          "did",
+          "the",
+          "film",
+          "finish?"
+        ]
+      },
+      {
+        "use": "Stative verb",
+        "tokens": [
+          "I",
+          "didn’t",
+          "know",
+          "the",
+          "answer",
+          "to",
+          "number",
+          "three."
+        ]
+      },
+      {
+        "use": "Interrupted",
+        "tokens": [
+          "She",
+          "was",
+          "talking",
+          "on",
+          "the",
+          "phone",
+          "when",
+          "her",
+          "bus",
+          "arrived."
+        ]
+      },
+      {
+        "use": "Sequence",
+        "tokens": [
+          "We",
+          "packed",
+          "our",
+          "bags,",
+          "locked",
+          "the",
+          "door",
+          "and",
+          "left."
+        ]
+      },
+      {
+        "use": "Negative — in progress",
+        "tokens": [
+          "It",
+          "wasn’t",
+          "raining",
+          "when",
+          "we",
+          "left",
+          "the",
+          "house."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the signal word to the tense",
+    "subtitle": "Tap a signal word or phrase, then tap the tense it points to. Finished actions, events and sequences take the past simple; ‘while’, ‘as’ and ‘this time yesterday’ point to an action in progress.",
+    "leftLabel": "Signal word",
+    "rightLabel": "Tense",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "yesterday",
+        "right": "Past Simple"
+      },
+      {
+        "left": "while",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "last night",
+        "right": "Past Simple"
+      },
+      {
+        "left": "as",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "in 2019",
+        "right": "Past Simple"
+      },
+      {
+        "left": "at that moment",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "two days ago",
+        "right": "Past Simple"
+      },
+      {
+        "left": "at the time",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "last week",
+        "right": "Past Simple"
+      },
+      {
+        "left": "this time yesterday",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "suddenly",
+        "right": "Past Simple"
+      },
+      {
+        "left": "this time last week",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "then",
+        "right": "Past Simple"
+      },
+      {
+        "left": "meanwhile",
+        "right": "Past Continuous"
+      },
+      {
+        "left": "after that",
+        "right": "Past Simple"
+      },
+      {
+        "left": "last summer",
+        "right": "Past Simple"
+      },
+      {
+        "left": "a year ago",
+        "right": "Past Simple"
+      },
+      {
+        "left": "yesterday morning",
+        "right": "Past Simple"
+      },
+      {
+        "left": "on my tenth birthday",
+        "right": "Past Simple"
+      },
+      {
+        "left": "this time last year",
+        "right": "Past Continuous"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. British English. Ask yourself: is it a completed action or an action in progress? That decides the tense.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Completed",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys yesterday, so I took a taxi.",
+        "choices": [
+          "lost",
+          "was losing",
+          "have lost",
+          "lose"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: losing keys is a single event — and ‘yesterday’ is finished — use the past simple.",
+          "Wrong tense: ‘yesterday’ is a finished time — use the past simple, not the present perfect.",
+          "Wrong tense: ‘yesterday’ needs a past tense."
+        ],
+        "explain": "A completed action at a finished time — past simple."
+      },
+      {
+        "use": "In progress",
+        "text": "While we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner, the lights went out.",
+        "choices": [
+          "had",
+          "were having",
+          "have had",
+          "are having"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "",
+          "Wrong tense: this is a past story — use the past continuous after ‘while’.",
+          "Wrong tense: the lights ‘went out’ — the story is in the past."
+        ],
+        "explain": "‘While’ — the longer action in progress: past continuous."
+      },
+      {
+        "use": "In progress",
+        "text": "As she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the phone, her bus arrived.",
+        "choices": [
+          "talked",
+          "has talked",
+          "was talking",
+          "is talking"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘as’ introduces an action in progress when the bus arrived — use the past continuous.",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "‘As’ — an action in progress: past continuous."
+      },
+      {
+        "use": "Interrupting event",
+        "text": "I was taking a shower when suddenly the phone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "was ringing",
+          "has rung",
+          "rings",
+          "rang"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: ‘suddenly’ shows a short event, not an action in progress — use the past simple.",
+          "Wrong tense: the story is in the past — use the past simple.",
+          "Wrong tense: the story is in the past, not the present.",
+          ""
+        ],
+        "explain": "‘Suddenly’ — a short event: past simple."
+      },
+      {
+        "use": "Completed",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the Eiffel Tower last summer.",
+        "choices": [
+          "were visiting",
+          "visited",
+          "have visited",
+          "visit"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘last summer’ is a finished time and a completed visit — use the past simple.",
+          "",
+          "Wrong tense: ‘last summer’ is finished — use the past simple, not the present perfect.",
+          "Wrong tense: ‘last summer’ needs a past tense."
+        ],
+        "explain": "‘Last summer’ — a completed action: past simple."
+      },
+      {
+        "use": "In progress",
+        "text": "While I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV, the lights went out.",
+        "choices": [
+          "watched",
+          "have watched",
+          "was watching",
+          "am watching"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "‘While’ — the longer action in progress: past continuous."
+      },
+      {
+        "use": "Stative verb",
+        "text": "Last night I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a strange noise, so I went downstairs.",
+        "choices": [
+          "was hearing",
+          "have heard",
+          "am hearing",
+          "heard"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: ‘hear’ is a stative verb of perception — here it is a single completed event, so use the past simple.",
+          "Wrong tense: ‘last night’ is a finished time — use the past simple.",
+          "Wrong tense: ‘last night’ needs a past tense.",
+          ""
+        ],
+        "explain": "A single completed event: past simple."
+      },
+      {
+        "use": "Background",
+        "text": "This time yesterday, the children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the garden.",
+        "choices": [
+          "were playing",
+          "played",
+          "have played",
+          "play"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘this time yesterday’ points to an action in progress at that moment — use the past continuous.",
+          "Wrong tense: ‘yesterday’ is finished — and this is a moment in progress.",
+          "Wrong tense: ‘yesterday’ needs a past tense."
+        ],
+        "explain": "‘This time yesterday’ — an action in progress: past continuous."
+      },
+      {
+        "use": "Interrupting event",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his arm while he was skiing.",
+        "choices": [
+          "was breaking",
+          "has broken",
+          "broke",
+          "breaks"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: breaking an arm is a short event, not a longer action in progress — use the past simple.",
+          "Wrong tense: the story is in the past — use the past simple.",
+          "",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "A short event during a longer action: past simple."
+      },
+      {
+        "use": "Question — in progress",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you doing at ten o’clock last night?",
+        "choices": [
+          "did",
+          "do",
+          "are",
+          "were"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong auxiliary: ‘doing’ needs a form of ‘be’ — and ‘last night’ is past.",
+          "Wrong auxiliary: ‘doing’ needs a form of ‘be’, and ‘last night’ is past.",
+          "Wrong tense: ‘last night’ is in the past — use ‘were’.",
+          ""
+        ],
+        "explain": "‘Doing’ and ‘last night’ — a past continuous question with ‘were’."
+      },
+      {
+        "use": "Completed",
+        "text": "When I was a child, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the beach every summer.",
+        "choices": [
+          "went",
+          "were going",
+          "have gone",
+          "go"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: this is a repeated completed habit in the past — use the past simple.",
+          "Wrong tense: ‘when I was a child’ is finished — use the past simple.",
+          "Wrong tense: ‘when I was a child’ needs a past tense."
+        ],
+        "explain": "A past habit: past simple."
+      },
+      {
+        "use": "Background",
+        "text": "The sun <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and the birds were singing when we woke up.",
+        "choices": [
+          "shone",
+          "was shining",
+          "has shone",
+          "shines"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: it sets the scene next to ‘were singing’ — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "Scene-setting: past continuous."
+      },
+      {
+        "use": "Sequence",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three emails and then I went home.",
+        "choices": [
+          "was writing",
+          "am writing",
+          "have written",
+          "wrote"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the emails were finished, one after another with ‘then’ — use the past simple.",
+          "Wrong tense: the story is in the past, not the present.",
+          "Wrong tense: the story is in the past — use the past simple.",
+          ""
+        ],
+        "explain": "Completed actions in sequence: past simple."
+      },
+      {
+        "use": "Interrupted",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to work when suddenly she saw an accident.",
+        "choices": [
+          "was driving",
+          "drove",
+          "has driven",
+          "drives"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the driving was in progress when she saw the accident — use the past continuous.",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "The longer action in progress: past continuous."
+      },
+      {
+        "use": "Completed",
+        "text": "The film <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at nine and finished at eleven.",
+        "choices": [
+          "was starting",
+          "started",
+          "has started",
+          "starts"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: starting and finishing are completed events — use the past simple.",
+          "",
+          "Wrong tense: ‘finished’ shows the story is in the past — use the past simple.",
+          "Wrong tense: ‘finished’ shows the story is in the past."
+        ],
+        "explain": "Completed events: past simple."
+      },
+      {
+        "use": "In progress",
+        "text": "While we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for the bus, it started to rain.",
+        "choices": [
+          "waited",
+          "have waited",
+          "were waiting",
+          "are waiting"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "‘While’ — the longer action in progress: past continuous."
+      },
+      {
+        "use": "Stative verb",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to leave because I was really tired.",
+        "choices": [
+          "wanted",
+          "was wanting",
+          "have wanted",
+          "want"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: ‘want’ is a stative verb — it is not used in the continuous.",
+          "Wrong tense: the story is in the past — use the past simple.",
+          "Wrong tense: ‘was really tired’ shows the story is in the past."
+        ],
+        "explain": "‘Want’ is a stative verb — past simple."
+      },
+      {
+        "use": "Completed",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married in 2015.",
+        "choices": [
+          "were getting",
+          "got",
+          "have got",
+          "get"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘in 2015’ is a finished time and a completed event — use the past simple.",
+          "",
+          "Wrong tense: ‘in 2015’ is finished — use the past simple.",
+          "Wrong tense: ‘in 2015’ needs a past tense."
+        ],
+        "explain": "‘In 2015’ — a completed event: past simple."
+      },
+      {
+        "use": "Interrupted",
+        "text": "As I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> down the street, I saw my old teacher.",
+        "choices": [
+          "walked",
+          "have walked",
+          "was walking",
+          "am walking"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘as’ introduces the action in progress — use the past continuous.",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "‘As’ — an action in progress: past continuous."
+      },
+      {
+        "use": "In progress",
+        "text": "He didn’t answer the door because he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a shower at that moment.",
+        "choices": [
+          "took",
+          "has taken",
+          "takes",
+          "was taking"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: ‘at that moment’ shows an action in progress — use the past continuous.",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "Wrong tense: the story is in the past, not the present.",
+          ""
+        ],
+        "explain": "‘At that moment’ — an action in progress: past continuous."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "He",
+          "opened",
+          "the",
+          "door",
+          "and",
+          "was",
+          "walking",
+          "in."
+        ],
+        "errorIndex": 5,
+        "correction": "walked",
+        "type": "Wrong tense",
+        "message": "Completed actions in sequence take the past simple.",
+        "errorSpan": [
+          5,
+          6
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "read",
+          "a",
+          "book",
+          "when",
+          "the",
+          "lights",
+          "went",
+          "out."
+        ],
+        "errorIndex": 1,
+        "correction": "was reading",
+        "type": "Wrong tense",
+        "message": "The reading was the longer action in progress — use the past continuous."
+      },
+      {
+        "tokens": [
+          "While",
+          "we",
+          "waited",
+          "for",
+          "the",
+          "bus,",
+          "it",
+          "started",
+          "to",
+          "rain."
+        ],
+        "errorIndex": 2,
+        "correction": "were waiting",
+        "type": "Wrong tense",
+        "message": "‘While’ introduces the longer action in progress — use the past continuous."
+      },
+      {
+        "tokens": [
+          "The",
+          "phone",
+          "was",
+          "ringing",
+          "and",
+          "I",
+          "was",
+          "answering",
+          "it",
+          "quickly."
+        ],
+        "errorIndex": 6,
+        "correction": "answered",
+        "type": "Wrong tense",
+        "message": "A quick reaction is a short completed action — use the past simple.",
+        "errorSpan": [
+          6,
+          7
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "was",
+          "wanting",
+          "to",
+          "leave",
+          "because",
+          "it",
+          "was",
+          "late."
+        ],
+        "errorIndex": 2,
+        "correction": "wanted",
+        "type": "Stative verb",
+        "message": "‘Want’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "What",
+          "were",
+          "you",
+          "do",
+          "at",
+          "nine",
+          "last",
+          "night?"
+        ],
+        "errorIndex": 3,
+        "correction": "doing",
+        "type": "Wrong form",
+        "message": "After ‘were you’ the verb needs -ing for an action in progress."
+      },
+      {
+        "tokens": [
+          "She",
+          "broke",
+          "her",
+          "arm",
+          "while",
+          "she",
+          "played",
+          "tennis."
+        ],
+        "errorIndex": 6,
+        "correction": "was playing",
+        "type": "Wrong tense",
+        "message": "‘While’ introduces the longer action in progress — use the past continuous."
+      },
+      {
+        "tokens": [
+          "They",
+          "was",
+          "playing",
+          "football",
+          "when",
+          "it",
+          "started",
+          "to",
+          "rain."
+        ],
+        "errorIndex": 1,
+        "correction": "were",
+        "type": "Subject-verb agreement",
+        "message": "With ‘they’ the past continuous needs ‘were’."
+      },
+      {
+        "tokens": [
+          "Two",
+          "days",
+          "ago",
+          "I",
+          "was",
+          "losing",
+          "my",
+          "phone."
+        ],
+        "errorIndex": 5,
+        "correction": "lost",
+        "type": "Wrong tense",
+        "message": "Losing something is a completed event at a finished time — use the past simple.",
+        "errorSpan": [
+          4,
+          5
+        ]
+      },
+      {
+        "tokens": [
+          "He",
+          "didn’t",
+          "answer",
+          "the",
+          "door",
+          "because",
+          "he",
+          "took",
+          "a",
+          "shower",
+          "at",
+          "that",
+          "moment."
+        ],
+        "errorIndex": 7,
+        "correction": "was taking",
+        "type": "Wrong tense",
+        "message": "‘At that moment’ shows an action in progress — use the past continuous."
+      },
+      {
+        "tokens": [
+          "I",
+          "didn’t",
+          "was",
+          "sleeping",
+          "when",
+          "you",
+          "called."
+        ],
+        "errorIndex": 1,
+        "correction": "wasn’t sleeping",
+        "type": "Wrong auxiliary",
+        "message": "The past continuous negative is ‘wasn’t’ + -ing, with no ‘didn’t’.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "Sorry,",
+          "I",
+          "didn’t",
+          "heard",
+          "the",
+          "phone",
+          "last",
+          "night."
+        ],
+        "errorIndex": 3,
+        "correction": "hear",
+        "type": "Wrong form",
+        "message": "After ‘didn’t’ use the base verb."
+      },
+      {
+        "tokens": [
+          "As",
+          "I",
+          "walked",
+          "down",
+          "the",
+          "street,",
+          "I",
+          "saw",
+          "my",
+          "old",
+          "teacher."
+        ],
+        "errorIndex": 2,
+        "correction": "was walking",
+        "type": "Wrong tense",
+        "message": "‘As’ introduces the action in progress — use the past continuous."
+      },
+      {
+        "tokens": [
+          "The",
+          "sun",
+          "shone",
+          "and",
+          "the",
+          "birds",
+          "were",
+          "singing",
+          "when",
+          "we",
+          "woke",
+          "up."
+        ],
+        "errorIndex": 2,
+        "correction": "was shining",
+        "type": "Wrong tense",
+        "message": "Scene-setting next to ‘were singing’ — use the past continuous."
+      },
+      {
+        "tokens": [
+          "The",
+          "film",
+          "was",
+          "starting",
+          "at",
+          "nine",
+          "and",
+          "finished",
+          "at",
+          "eleven."
+        ],
+        "errorIndex": 2,
+        "correction": "started",
+        "type": "Wrong tense",
+        "message": "Completed events take the past simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "was",
+          "knowing",
+          "the",
+          "answer",
+          "so",
+          "I",
+          "put",
+          "my",
+          "hand",
+          "up."
+        ],
+        "errorIndex": 2,
+        "correction": "knew",
+        "type": "Stative verb",
+        "message": "‘Know’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "Last",
+          "night",
+          "I",
+          "was",
+          "hearing",
+          "a",
+          "strange",
+          "noise",
+          "downstairs."
+        ],
+        "errorIndex": 4,
+        "correction": "heard",
+        "type": "Wrong tense",
+        "message": "A single completed event takes the past simple.",
+        "errorSpan": [
+          3,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "My",
+          "grandparents",
+          "were",
+          "getting",
+          "married",
+          "in",
+          "1975."
+        ],
+        "errorIndex": 3,
+        "correction": "got",
+        "type": "Wrong tense",
+        "message": "‘In 1975’ is a finished time — use the past simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "She",
+          "was",
+          "breaking",
+          "her",
+          "leg",
+          "while",
+          "she",
+          "was",
+          "skiing."
+        ],
+        "errorIndex": 2,
+        "correction": "broke",
+        "type": "Wrong tense",
+        "message": "Breaking a leg is a short completed event — use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "This",
+          "time",
+          "yesterday",
+          "we",
+          "sat",
+          "on",
+          "the",
+          "beach."
+        ],
+        "errorIndex": 4,
+        "correction": "were sitting",
+        "type": "Wrong tense",
+        "message": "‘This time yesterday’ points to an action in progress — use the past continuous."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, signal words, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "signal": "Signal words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "signal",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Completed",
+        "sentText": "We {{blank}} a great film last weekend.",
+        "hint": "see",
+        "answers": [
+          "saw"
+        ],
+        "display": "saw",
+        "explain": "‘Last weekend’ is a finished time — use the past simple."
+      },
+      {
+        "type": "fill",
+        "use": "In progress",
+        "sentText": "At that moment, the children {{blank}} in the park.",
+        "hint": "play",
+        "answers": [
+          "were playing"
+        ],
+        "display": "were playing",
+        "explain": "‘At that moment’ — an action in progress: past continuous."
+      },
+      {
+        "type": "fill",
+        "use": "Interrupting event",
+        "sentText": "Sam {{blank}} his leg while he was running.",
+        "hint": "hurt",
+        "answers": [
+          "hurt"
+        ],
+        "display": "hurt",
+        "explain": "A short event during a longer action — use the past simple (‘hurt’ is irregular and does not change)."
+      },
+      {
+        "type": "fill",
+        "use": "In progress",
+        "sentText": "As I {{blank}} to music, the doorbell rang.",
+        "hint": "listen",
+        "answers": [
+          "was listening"
+        ],
+        "display": "was listening",
+        "explain": "‘As’ introduces the action in progress — use the past continuous."
+      },
+      {
+        "type": "order",
+        "use": "Interrupted",
+        "tokens": [
+          "I",
+          "was",
+          "studying",
+          "when",
+          "my",
+          "friend",
+          "called."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Negative — completed",
+        "tokens": [
+          "They",
+          "didn’t",
+          "arrive",
+          "until",
+          "midnight."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — in progress",
+        "tokens": [
+          "What",
+          "were",
+          "you",
+          "thinking",
+          "about?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — completed",
+        "tokens": [
+          "Did",
+          "you",
+          "enjoy",
+          "the",
+          "concert",
+          "last",
+          "night?"
+        ]
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘while’ point to?",
+        "choices": [
+          "Past Continuous",
+          "Past Simple",
+          "Present Perfect",
+          "Present Simple"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘While’ introduces a longer action in progress — not a completed one.",
+          "‘While’ is about a past action in progress, not a link to now.",
+          "‘While’ in a past story points to an action in progress, not a present habit."
+        ],
+        "explain": "‘While’ — an action in progress: past continuous.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘yesterday’ point to?",
+        "choices": [
+          "Past Continuous",
+          "Past Simple",
+          "Present Perfect",
+          "Past Perfect"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Yesterday’ names a finished time — the past simple for a completed action.",
+          "",
+          "‘Yesterday’ is finished — the present perfect is not used with it.",
+          "‘Yesterday’ is a simple finished time — no earlier past is needed."
+        ],
+        "explain": "‘Yesterday’ — a finished time: past simple.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘this time last year’ point to?",
+        "choices": [
+          "Past Simple",
+          "Present Perfect",
+          "Past Continuous",
+          "Present Continuous"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘This time last year’ points to a moment in progress — the past simple is for completed actions.",
+          "‘This time last year’ is finished — the present perfect does not fit.",
+          "",
+          "‘This time last year’ is in the past, not the present."
+        ],
+        "explain": "‘This time last year’ — an action in progress: past continuous.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘suddenly’ point to?",
+        "choices": [
+          "Past Continuous",
+          "Present Perfect",
+          "Past Perfect",
+          "Past Simple"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Suddenly’ shows a short event, not an action in progress.",
+          "‘Suddenly’ is about a past event, not a link to now.",
+          "‘Suddenly’ is a simple past event — no earlier past is needed.",
+          ""
+        ],
+        "explain": "‘Suddenly’ — a short event: past simple.",
+        "hintVerb": ""
+      },
+      {
+        "type": "mc",
+        "use": "In progress",
+        "text": "As we {{blank}} home, we met an old friend.",
+        "choices": [
+          "walked",
+          "were walking",
+          "have walked",
+          "walk"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘as’ introduces the action in progress — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "‘As’ — an action in progress: past continuous."
+      },
+      {
+        "type": "mc",
+        "use": "Completed",
+        "text": "She {{blank}} her bag on the train and never found it.",
+        "choices": [
+          "lost",
+          "was losing",
+          "has lost",
+          "loses"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: losing the bag is a single completed event — use the past simple.",
+          "Wrong tense: ‘never found it’ shows the story is in the past — use the past simple.",
+          "Wrong tense: ‘never found it’ shows the story is in the past."
+        ],
+        "explain": "A completed event: past simple."
+      },
+      {
+        "type": "mc",
+        "use": "In progress",
+        "text": "While Mum {{blank}} dinner, the electricity went off.",
+        "choices": [
+          "cooked",
+          "was cooking",
+          "has cooked",
+          "cooks"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "",
+          "Wrong tense: the story is in the past — use the past continuous.",
+          "Wrong tense: the story is in the past, not the present."
+        ],
+        "explain": "‘While’ — the longer action in progress: past continuous."
+      },
+      {
+        "type": "mc",
+        "use": "Stative verb",
+        "text": "I {{blank}} that he was lying because his story was strange.",
+        "choices": [
+          "was knowing",
+          "have known",
+          "knew",
+          "know"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: ‘know’ is a stative verb — it is not used in the continuous.",
+          "Wrong tense: the story is in the past — use the past simple.",
+          "",
+          "Wrong tense: ‘was lying’ shows the story is in the past."
+        ],
+        "explain": "‘Know’ is a stative verb — past simple."
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "Two",
+          "years",
+          "ago",
+          "we",
+          "were",
+          "moving",
+          "to",
+          "Girona."
+        ],
+        "errorIndex": 4,
+        "correction": "moved",
+        "message": "‘Two years ago’ is a finished time — use the past simple.",
+        "errorSpan": [
+          4,
+          5
+        ]
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "While",
+          "he",
+          "cooked,",
+          "she",
+          "was",
+          "setting",
+          "the",
+          "table."
+        ],
+        "errorIndex": 2,
+        "correction": "was cooking",
+        "message": "‘While’ introduces the longer action in progress — use the past continuous."
+      },
+      {
+        "type": "error",
+        "use": "Stative verb",
+        "tokens": [
+          "I",
+          "was",
+          "hating",
+          "the",
+          "food",
+          "at",
+          "that",
+          "restaurant."
+        ],
+        "errorIndex": 1,
+        "correction": "hated",
+        "message": "‘Hate’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": "error",
+        "use": "Wrong auxiliary",
+        "tokens": [
+          "Did",
+          "you",
+          "was",
+          "at",
+          "home",
+          "last",
+          "night?"
+        ],
+        "errorIndex": 0,
+        "correction": "Were you",
+        "message": "A question with ‘be’ needs ‘were you’, not ‘did you was’.",
+        "errorSpan": [
+          0,
+          2
+        ]
+      }
+    ]
+  }
+}
