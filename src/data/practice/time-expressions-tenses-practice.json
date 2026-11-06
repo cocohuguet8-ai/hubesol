@@ -1,0 +1,1760 @@
+{
+  "tense": "time-expressions-tenses",
+  "lessonTitle": "Time Expressions for Verb Tenses",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "have",
+        "has",
+        "am",
+        "is",
+        "are"
+      ],
+      "label": null,
+      "primary": "have"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gap",
+    "subtitle": "Type the correct form — the time word tells you which tense. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Finished time",
+        "kind": "statement",
+        "before": "I",
+        "after": "my keys yesterday.",
+        "hint": "lose",
+        "answers": [
+          "lost"
+        ],
+        "display": "lost",
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Unfinished",
+        "kind": "statement",
+        "before": "She",
+        "after": "in London since 2019.",
+        "hint": "live",
+        "answers": [
+          "has lived",
+          "’s lived",
+          "'s lived",
+          "s lived"
+        ],
+        "display": "has lived",
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "Quiet, please — I",
+        "after": "at the moment.",
+        "hint": "work",
+        "answers": [
+          "am working",
+          "'m working",
+          "m working",
+          "’m working"
+        ],
+        "display": "am working",
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      },
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "He usually",
+        "after": "to work by bus.",
+        "hint": "go",
+        "answers": [
+          "goes"
+        ],
+        "display": "goes",
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "use": "Finished time",
+        "kind": "statement",
+        "before": "We",
+        "after": "to Spain two years ago.",
+        "hint": "travel",
+        "answers": [
+          "travelled",
+          "traveled"
+        ],
+        "display": "travelled",
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Unfinished",
+        "kind": "question",
+        "before": "Have you ever",
+        "after": "sushi?",
+        "hint": "eat",
+        "answers": [
+          "eaten"
+        ],
+        "display": "eaten",
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "Look! The kids",
+        "after": "in the garden right now.",
+        "hint": "play",
+        "answers": [
+          "are playing",
+          "'re playing",
+          "re playing",
+          "’re playing"
+        ],
+        "display": "are playing",
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      },
+      {
+        "use": "Future",
+        "kind": "statement",
+        "before": "I",
+        "after": "you tomorrow.",
+        "hint": "call",
+        "answers": [
+          "will call",
+          "’ll call",
+          "'ll call",
+          "ll call",
+          "am going to call",
+          "’m going to call",
+          "'m going to call"
+        ],
+        "display": "will call",
+        "explain": "A future time word (tomorrow, next week) — use will or going to."
+      },
+      {
+        "use": "Unfinished",
+        "kind": "statement",
+        "before": "They",
+        "after": "their homework yet.",
+        "hint": "not finish",
+        "answers": [
+          "have not finished",
+          "haven't finished",
+          "haven’t finished"
+        ],
+        "display": "haven’t finished",
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Finished time",
+        "kind": "statement",
+        "before": "She",
+        "after": "a letter last week.",
+        "hint": "write",
+        "answers": [
+          "wrote"
+        ],
+        "display": "wrote",
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "My sister always",
+        "after": "a coffee at nine.",
+        "hint": "have",
+        "answers": [
+          "has"
+        ],
+        "display": "has",
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "use": "Unfinished",
+        "kind": "statement",
+        "before": "I",
+        "after": "here for ten years.",
+        "hint": "live",
+        "answers": [
+          "have lived",
+          "’ve lived",
+          "'ve lived",
+          "ve lived"
+        ],
+        "display": "have lived",
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "This week we",
+        "after": "in a hotel.",
+        "hint": "stay",
+        "answers": [
+          "are staying",
+          "'re staying",
+          "re staying",
+          "’re staying"
+        ],
+        "display": "are staying",
+        "explain": "This week = temporary, so use the present continuous."
+      },
+      {
+        "use": "Finished time",
+        "kind": "statement",
+        "before": "They",
+        "after": "married in 2015.",
+        "hint": "get",
+        "answers": [
+          "got"
+        ],
+        "display": "got",
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Unfinished",
+        "kind": "statement",
+        "before": "He has just",
+        "after": "from the airport.",
+        "hint": "arrive",
+        "answers": [
+          "arrived"
+        ],
+        "display": "arrived",
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "They",
+        "after": "football every Saturday.",
+        "hint": "play",
+        "answers": [
+          "play"
+        ],
+        "display": "play",
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "use": "Finished time",
+        "kind": "question",
+        "before": "When",
+        "after": "you last see him?",
+        "hint": "(did / have)",
+        "answers": [
+          "did"
+        ],
+        "display": "did",
+        "explain": "‘When’ + a finished time takes the past simple, so use did."
+      },
+      {
+        "use": "Unfinished",
+        "kind": "statement",
+        "before": "I’ve",
+        "after": "been to Japan.",
+        "hint": "(ever / never)",
+        "answers": [
+          "never"
+        ],
+        "display": "never",
+        "explain": "The experience has not happened — use never."
+      },
+      {
+        "use": "Future",
+        "kind": "statement",
+        "before": "Next week I",
+        "after": "my cousin.",
+        "hint": "visit",
+        "answers": [
+          "am visiting",
+          "’m visiting",
+          "'m visiting",
+          "m visiting",
+          "will visit",
+          "’ll visit",
+          "'ll visit",
+          "ll visit",
+          "am going to visit",
+          "’m going to visit",
+          "'m going to visit"
+        ],
+        "display": "am visiting",
+        "explain": "A future time word (tomorrow, next week) — use will or going to."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "Listen! Someone",
+        "after": "at the door.",
+        "hint": "knock",
+        "answers": [
+          "is knocking",
+          "’s knocking",
+          "'s knocking",
+          "s knocking"
+        ],
+        "display": "is knocking",
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put the words in order",
+    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences with time expressions.",
+    "sentences": [
+      {
+        "use": "Finished time",
+        "tokens": [
+          "I",
+          "lost",
+          "my",
+          "keys",
+          "yesterday."
+        ],
+        "alts": [
+          [
+            "Yesterday",
+            "I",
+            "lost",
+            "my",
+            "keys."
+          ]
+        ]
+      },
+      {
+        "use": "Unfinished",
+        "tokens": [
+          "She",
+          "has",
+          "lived",
+          "here",
+          "since",
+          "2019."
+        ],
+        "alts": [
+          [
+            "Since",
+            "2019",
+            "she",
+            "has",
+            "lived",
+            "here."
+          ]
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "I’m",
+          "working",
+          "at",
+          "the",
+          "moment."
+        ],
+        "alts": [
+          [
+            "At",
+            "the",
+            "moment",
+            "I’m",
+            "working."
+          ]
+        ]
+      },
+      {
+        "use": "Habit",
+        "tokens": [
+          "He",
+          "usually",
+          "goes",
+          "to",
+          "work",
+          "by",
+          "bus."
+        ]
+      },
+      {
+        "use": "Finished time",
+        "tokens": [
+          "We",
+          "travelled",
+          "to",
+          "Spain",
+          "two",
+          "years",
+          "ago."
+        ]
+      },
+      {
+        "use": "Unfinished",
+        "tokens": [
+          "Have",
+          "you",
+          "ever",
+          "eaten",
+          "sushi?"
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "The",
+          "kids",
+          "are",
+          "playing",
+          "in",
+          "the",
+          "garden",
+          "now."
+        ],
+        "alts": [
+          [
+            "Now",
+            "the",
+            "kids",
+            "are",
+            "playing",
+            "in",
+            "the",
+            "garden."
+          ]
+        ]
+      },
+      {
+        "use": "Future",
+        "tokens": [
+          "I’ll",
+          "call",
+          "you",
+          "tomorrow."
+        ],
+        "alts": [
+          [
+            "Tomorrow",
+            "I’ll",
+            "call",
+            "you."
+          ]
+        ]
+      },
+      {
+        "use": "Unfinished",
+        "tokens": [
+          "They",
+          "haven’t",
+          "finished",
+          "their",
+          "homework",
+          "yet."
+        ]
+      },
+      {
+        "use": "Finished time",
+        "tokens": [
+          "She",
+          "wrote",
+          "a",
+          "letter",
+          "last",
+          "week."
+        ],
+        "alts": [
+          [
+            "Last",
+            "week",
+            "she",
+            "wrote",
+            "a",
+            "letter."
+          ]
+        ]
+      },
+      {
+        "use": "Habit",
+        "tokens": [
+          "My",
+          "sister",
+          "always",
+          "has",
+          "a",
+          "coffee",
+          "at",
+          "nine."
+        ]
+      },
+      {
+        "use": "Unfinished",
+        "tokens": [
+          "I’ve",
+          "lived",
+          "here",
+          "for",
+          "ten",
+          "years."
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "We’re",
+          "staying",
+          "in",
+          "a",
+          "hotel",
+          "this",
+          "week."
+        ],
+        "alts": [
+          [
+            "This",
+            "week",
+            "we’re",
+            "staying",
+            "in",
+            "a",
+            "hotel."
+          ]
+        ]
+      },
+      {
+        "use": "Finished time",
+        "tokens": [
+          "They",
+          "got",
+          "married",
+          "in",
+          "2015."
+        ],
+        "alts": [
+          [
+            "In",
+            "2015",
+            "they",
+            "got",
+            "married."
+          ]
+        ]
+      },
+      {
+        "use": "Unfinished",
+        "tokens": [
+          "He",
+          "has",
+          "just",
+          "arrived."
+        ]
+      },
+      {
+        "use": "Habit",
+        "tokens": [
+          "They",
+          "play",
+          "football",
+          "every",
+          "Saturday."
+        ],
+        "alts": [
+          [
+            "Every",
+            "Saturday",
+            "they",
+            "play",
+            "football."
+          ]
+        ]
+      },
+      {
+        "use": "Finished time",
+        "tokens": [
+          "When",
+          "did",
+          "you",
+          "last",
+          "see",
+          "him?"
+        ]
+      },
+      {
+        "use": "Unfinished",
+        "tokens": [
+          "I’ve",
+          "never",
+          "been",
+          "to",
+          "Japan."
+        ]
+      },
+      {
+        "use": "Future",
+        "tokens": [
+          "Next",
+          "week",
+          "I’m",
+          "visiting",
+          "my",
+          "cousin."
+        ],
+        "alts": [
+          [
+            "I’m",
+            "visiting",
+            "my",
+            "cousin",
+            "next",
+            "week."
+          ]
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "Listen!",
+          "Someone",
+          "is",
+          "knocking",
+          "at",
+          "the",
+          "door."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the time word to the tense",
+    "subtitle": "Tap a time expression, then tap the tense it signals. Finished time takes the past simple; unfinished time or experience takes the present perfect.",
+    "leftLabel": "Time expression",
+    "rightLabel": "Tense",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "yesterday",
+        "right": "Past simple"
+      },
+      {
+        "left": "ago",
+        "right": "Past simple"
+      },
+      {
+        "left": "last week",
+        "right": "Past simple"
+      },
+      {
+        "left": "in 2019",
+        "right": "Past simple"
+      },
+      {
+        "left": "ever",
+        "right": "Present perfect"
+      },
+      {
+        "left": "never",
+        "right": "Present perfect"
+      },
+      {
+        "left": "just",
+        "right": "Present perfect"
+      },
+      {
+        "left": "already",
+        "right": "Present perfect"
+      },
+      {
+        "left": "yet",
+        "right": "Present perfect"
+      },
+      {
+        "left": "since",
+        "right": "Present perfect"
+      },
+      {
+        "left": "for + a period",
+        "right": "Present perfect"
+      },
+      {
+        "left": "now",
+        "right": "Present continuous"
+      },
+      {
+        "left": "at the moment",
+        "right": "Present continuous"
+      },
+      {
+        "left": "today",
+        "right": "Present continuous"
+      },
+      {
+        "left": "right now",
+        "right": "Present continuous"
+      },
+      {
+        "left": "every day",
+        "right": "Present simple"
+      },
+      {
+        "left": "usually",
+        "right": "Present simple"
+      },
+      {
+        "left": "always",
+        "right": "Present simple"
+      },
+      {
+        "left": "tomorrow",
+        "right": "Future"
+      },
+      {
+        "left": "next week",
+        "right": "Future"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. British English. Finished time → past simple; unfinished time → present perfect; now → present continuous.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Finished time",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys yesterday.",
+        "choices": [
+          "lost",
+          "have lost",
+          "am losing",
+          "lose"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: the present simple does not show an action happening now."
+        ],
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Unfinished",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in London since 2019.",
+        "choices": [
+          "lived",
+          "has lived",
+          "lives",
+          "is living"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: this time word points to an unfinished time or experience, so the past simple does not fit.",
+          "",
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the continuous does not fit this time word."
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Now",
+        "text": "Quiet, please — I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the moment.",
+        "choices": [
+          "work",
+          "worked",
+          "am working",
+          "have worked"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "",
+          "Wrong tense: this time word needs the present perfect."
+        ],
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      },
+      {
+        "use": "Habit",
+        "text": "He usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to work by bus.",
+        "choices": [
+          "is going",
+          "has gone",
+          "went",
+          "goes"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: this time word needs the present perfect.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          ""
+        ],
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "use": "Finished time",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Spain two years ago.",
+        "choices": [
+          "have travelled",
+          "travelled",
+          "are travelling",
+          "travel"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "",
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: the present simple does not show an action happening now."
+        ],
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Unfinished",
+        "text": "Have you ever <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sushi?",
+        "choices": [
+          "ate",
+          "eat",
+          "eaten",
+          "eating"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: this time word points to an unfinished time or experience, so the past simple does not fit.",
+          "Wrong form: check the auxiliary and the verb form.",
+          "",
+          "Wrong form: check the auxiliary and the verb form."
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Now",
+        "text": "Look! The kids <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the garden right now.",
+        "choices": [
+          "play",
+          "played",
+          "have played",
+          "are playing"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "Wrong tense: this time word needs the present perfect.",
+          ""
+        ],
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      },
+      {
+        "use": "Future",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you tomorrow.",
+        "choices": [
+          "will call",
+          "have called",
+          "called",
+          "am calling"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: this time word needs the present perfect.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "Wrong tense: the continuous does not fit this time word."
+        ],
+        "explain": "A future time word (tomorrow, next week) — use will or going to."
+      },
+      {
+        "use": "Unfinished",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> their homework yet.",
+        "choices": [
+          "didn’t finish",
+          "haven’t finished",
+          "aren’t finishing",
+          "don’t finish"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: this time word points to an unfinished time or experience, so the past simple does not fit.",
+          "",
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: the present simple does not show an action happening now."
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Finished time",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a letter last week.",
+        "choices": [
+          "has written",
+          "is writing",
+          "wrote",
+          "writes"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "Wrong tense: the continuous does not fit this time word.",
+          "",
+          "Wrong tense: the present simple does not show an action happening now."
+        ],
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Habit",
+        "text": "My sister always <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a coffee at nine.",
+        "choices": [
+          "is having",
+          "had",
+          "has had",
+          "has"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "Wrong tense: this time word needs the present perfect.",
+          ""
+        ],
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "use": "Unfinished",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> here for ten years.",
+        "choices": [
+          "have lived",
+          "lived",
+          "live",
+          "am living"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: this time word points to an unfinished time or experience, so the past simple does not fit.",
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the continuous does not fit this time word."
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Now",
+        "text": "This week we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a hotel.",
+        "choices": [
+          "stay",
+          "are staying",
+          "stayed",
+          "have stayed"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: the present simple does not show an action happening now.",
+          "",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "Wrong tense: this time word needs the present perfect."
+        ],
+        "explain": "This week = temporary, so use the present continuous."
+      },
+      {
+        "use": "Finished time",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married in 2015.",
+        "choices": [
+          "have got",
+          "get",
+          "got",
+          "are getting"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "Wrong tense: the present simple does not show an action happening now.",
+          "",
+          "Wrong tense: the continuous does not fit this time word."
+        ],
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "use": "Unfinished",
+        "text": "He has just <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "arrive",
+          "arrives",
+          "arriving",
+          "arrived"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: check the auxiliary and the verb form.",
+          "Wrong form: check the auxiliary and the verb form.",
+          "Wrong form: check the auxiliary and the verb form.",
+          ""
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Habit",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> football every Saturday.",
+        "choices": [
+          "play",
+          "are playing",
+          "have played",
+          "played"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: this time word needs the present perfect.",
+          "Wrong tense: the sentence is not about a finished past time."
+        ],
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "use": "Finished time",
+        "text": "When <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you last see him?",
+        "choices": [
+          "have",
+          "did",
+          "are",
+          "do"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "",
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: the present simple does not show an action happening now."
+        ],
+        "explain": "‘When’ + a finished time takes the past simple, so use did."
+      },
+      {
+        "use": "Unfinished",
+        "text": "I’ve <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> been to Japan.",
+        "choices": [
+          "yesterday",
+          "ago",
+          "never",
+          "last year"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "",
+          "Wrong tense: the present perfect cannot be used with a finished time."
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "use": "Future",
+        "text": "Next week I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my cousin.",
+        "choices": [
+          "visited",
+          "have visited",
+          "visit",
+          "am visiting"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the sentence is not about a finished past time.",
+          "Wrong tense: this time word needs the present perfect.",
+          "Wrong tense: the present simple does not show an action happening now.",
+          ""
+        ],
+        "explain": "A future time word (tomorrow, next week) — use will or going to."
+      },
+      {
+        "use": "Now",
+        "text": "Listen! Someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the door.",
+        "choices": [
+          "is knocking",
+          "knocks",
+          "knocked",
+          "has knocked"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "Wrong tense: this time word needs the present perfect."
+        ],
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "I",
+          "have",
+          "seen",
+          "him",
+          "yesterday."
+        ],
+        "errorIndex": 1,
+        "correction": "saw",
+        "type": "Present perfect + finished time",
+        "message": "Yesterday is a finished time: use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "My",
+          "sister",
+          "has",
+          "finished",
+          "it",
+          "last",
+          "week."
+        ],
+        "errorIndex": 2,
+        "correction": "finished",
+        "type": "Present perfect + finished time",
+        "message": "Yesterday, last week and ago are finished times: use the past simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "Right",
+          "now",
+          "I",
+          "work",
+          "at",
+          "my",
+          "desk."
+        ],
+        "errorIndex": 3,
+        "correction": "am working",
+        "type": "Present simple + now",
+        "message": "Now needs the present continuous."
+      },
+      {
+        "tokens": [
+          "I",
+          "lived",
+          "here",
+          "since",
+          "2015."
+        ],
+        "errorIndex": 1,
+        "correction": "have lived",
+        "type": "Past simple + since",
+        "message": "Since + a continuing situation needs the present perfect."
+      },
+      {
+        "tokens": [
+          "We",
+          "lived",
+          "here",
+          "for",
+          "ten",
+          "years,",
+          "and",
+          "we",
+          "love",
+          "it."
+        ],
+        "errorIndex": 1,
+        "correction": "have lived",
+        "type": "Past simple + for",
+        "message": "For + a continuing situation needs the present perfect."
+      },
+      {
+        "tokens": [
+          "We",
+          "have",
+          "met",
+          "two",
+          "years",
+          "ago."
+        ],
+        "errorIndex": 1,
+        "correction": "met",
+        "type": "Present perfect + ago",
+        "message": "Yesterday, last week and ago are finished times: use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "She",
+          "cooks",
+          "dinner",
+          "at",
+          "the",
+          "moment."
+        ],
+        "errorIndex": 1,
+        "correction": "is cooking",
+        "type": "Present simple + at the moment",
+        "message": "At the moment needs the present continuous."
+      },
+      {
+        "tokens": [
+          "In",
+          "2019",
+          "they",
+          "have",
+          "moved",
+          "here."
+        ],
+        "errorIndex": 3,
+        "correction": "moved",
+        "type": "Present perfect + in",
+        "message": "Yesterday, last week and ago are finished times: use the past simple.",
+        "errorSpan": [
+          3,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "never",
+          "went",
+          "to",
+          "Japan."
+        ],
+        "errorIndex": 2,
+        "correction": "have never been",
+        "type": "Past simple + never",
+        "message": "Never (experience up to now) needs the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "He",
+          "just",
+          "left",
+          "the",
+          "office."
+        ],
+        "errorIndex": 2,
+        "correction": "has just left",
+        "type": "Past simple + just",
+        "message": "Just needs the present perfect here.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "am",
+          "walking",
+          "to",
+          "work",
+          "every",
+          "day."
+        ],
+        "errorIndex": 2,
+        "correction": "walk",
+        "type": "Present continuous + every day",
+        "message": "Every day shows a habit: use the present simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "When",
+          "have",
+          "you",
+          "arrived?"
+        ],
+        "errorIndex": 1,
+        "correction": "did you arrive?",
+        "type": "Present perfect + when",
+        "message": "When + a finished time takes the past simple.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "don’t",
+          "finish",
+          "my",
+          "work",
+          "yet."
+        ],
+        "errorIndex": 1,
+        "correction": "haven’t finished",
+        "type": "Present simple + yet",
+        "message": "Yet needs the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "She",
+          "already",
+          "ate",
+          "lunch."
+        ],
+        "errorIndex": 2,
+        "correction": "has already eaten",
+        "type": "Past simple + already",
+        "message": "Already needs the present perfect.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "Yesterday",
+          "we",
+          "have",
+          "gone",
+          "to",
+          "the",
+          "park."
+        ],
+        "errorIndex": 2,
+        "correction": "went",
+        "type": "Present perfect + yesterday",
+        "message": "Yesterday is a finished time: use the past simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "wear",
+          "a",
+          "coat",
+          "today",
+          "because",
+          "it’s",
+          "cold."
+        ],
+        "errorIndex": 1,
+        "correction": "am wearing",
+        "type": "Present simple + today",
+        "message": "Today (temporary) needs the present continuous."
+      },
+      {
+        "tokens": [
+          "So",
+          "far",
+          "I",
+          "read",
+          "three",
+          "chapters."
+        ],
+        "errorIndex": 3,
+        "correction": "I have read",
+        "type": "Past simple + so far",
+        "message": "So far needs the present perfect.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "They",
+          "have",
+          "visited",
+          "us",
+          "last",
+          "year."
+        ],
+        "errorIndex": 1,
+        "correction": "visited",
+        "type": "Present perfect + last year",
+        "message": "Yesterday, last week and ago are finished times: use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "He",
+          "is",
+          "usually",
+          "working",
+          "late."
+        ],
+        "errorIndex": 1,
+        "correction": "usually works",
+        "type": "Present continuous + usually",
+        "message": "Usually shows a habit: use the present simple.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "The",
+          "children",
+          "sleep",
+          "in",
+          "the",
+          "car",
+          "now."
+        ],
+        "errorIndex": 2,
+        "correction": "are sleeping",
+        "type": "Present simple + now",
+        "message": "Now needs the present continuous."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, signal words, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "signal": "Signal words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "signal",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Finished time",
+        "sentText": "I {{blank}} my keys yesterday.",
+        "hint": "lose",
+        "answers": [
+          "lost"
+        ],
+        "display": "lost",
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "type": "fill",
+        "use": "Unfinished",
+        "sentText": "She {{blank}} in London since 2019.",
+        "hint": "live",
+        "answers": [
+          "has lived",
+          "’s lived",
+          "'s lived",
+          "s lived"
+        ],
+        "display": "has lived",
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "type": "fill",
+        "use": "Now",
+        "sentText": "Quiet, please — I {{blank}} at the moment.",
+        "hint": "work",
+        "answers": [
+          "am working",
+          "'m working",
+          "m working",
+          "’m working"
+        ],
+        "display": "am working",
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      },
+      {
+        "type": "fill",
+        "use": "Habit",
+        "sentText": "He usually {{blank}} to work by bus.",
+        "hint": "go",
+        "answers": [
+          "goes"
+        ],
+        "display": "goes",
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "type": "order",
+        "use": "Finished time",
+        "tokens": [
+          "We",
+          "travelled",
+          "to",
+          "Spain",
+          "two",
+          "years",
+          "ago."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Unfinished",
+        "tokens": [
+          "I’ve",
+          "never",
+          "been",
+          "to",
+          "Japan."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Now",
+        "tokens": [
+          "They",
+          "are",
+          "playing",
+          "football",
+          "now."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Habit",
+        "tokens": [
+          "She",
+          "always",
+          "has",
+          "a",
+          "coffee",
+          "at",
+          "nine."
+        ]
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which tense does ‘yesterday’ signal?",
+        "choices": [
+          "past simple",
+          "present perfect",
+          "present continuous",
+          "present simple"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Yesterday’ is finished time, so not the present perfect.",
+          "‘Yesterday’ is not now.",
+          "‘Yesterday’ is not a habit."
+        ],
+        "explain": "Finished time takes the past simple.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which tense does ‘since’ signal?",
+        "choices": [
+          "past simple",
+          "present perfect",
+          "present continuous",
+          "future"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Since’ is unfinished time, so not the past simple.",
+          "",
+          "‘Since’ is not now.",
+          "‘Since’ is not the future."
+        ],
+        "explain": "Since + a continuing situation takes the present perfect.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which word goes with the present continuous?",
+        "choices": [
+          "yesterday",
+          "ever",
+          "at the moment",
+          "ago"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Yesterday’ takes the past simple.",
+          "‘Ever’ takes the present perfect.",
+          "",
+          "‘Ago’ takes the past simple."
+        ],
+        "explain": "‘At the moment’ points to an action in progress.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal words",
+        "text": "Which word goes with the present simple?",
+        "choices": [
+          "yesterday",
+          "ago",
+          "just",
+          "usually"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Yesterday’ takes the past simple.",
+          "‘Ago’ takes the past simple.",
+          "‘Just’ takes the present perfect.",
+          ""
+        ],
+        "explain": "‘Usually’ shows a habit.",
+        "hintVerb": ""
+      },
+      {
+        "type": "mc",
+        "use": "Finished time",
+        "text": "I {{blank}} my keys yesterday.",
+        "choices": [
+          "lost",
+          "have lost",
+          "am losing",
+          "lose"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the present perfect cannot be used with a finished time.",
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: the present simple does not show an action happening now."
+        ],
+        "explain": "A finished time (yesterday, last week, ago…) — use the past simple."
+      },
+      {
+        "type": "mc",
+        "use": "Unfinished",
+        "text": "She {{blank}} here since 2019.",
+        "choices": [
+          "lived",
+          "has lived",
+          "lives",
+          "is living"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: this time word points to an unfinished time or experience, so the past simple does not fit.",
+          "",
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the continuous does not fit this time word."
+        ],
+        "explain": "An unfinished time or an experience (ever, never, just, already, since, for) — use the present perfect."
+      },
+      {
+        "type": "mc",
+        "use": "Now",
+        "text": "I {{blank}} at the moment.",
+        "choices": [
+          "work",
+          "worked",
+          "am working",
+          "have worked"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: the present simple does not show an action happening now.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          "",
+          "Wrong tense: this time word needs the present perfect."
+        ],
+        "explain": "Now / at the moment / today points to an action in progress — use the present continuous."
+      },
+      {
+        "type": "mc",
+        "use": "Habit",
+        "text": "He usually {{blank}} to work by bus.",
+        "choices": [
+          "is going",
+          "has gone",
+          "went",
+          "goes"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the continuous does not fit this time word.",
+          "Wrong tense: this time word needs the present perfect.",
+          "Wrong tense: the sentence is not about a finished past time.",
+          ""
+        ],
+        "explain": "A habit word (every day, usually, always) — use the present simple."
+      },
+      {
+        "type": "error",
+        "use": "Present perfect + finished time",
+        "tokens": [
+          "I",
+          "have",
+          "seen",
+          "him",
+          "yesterday."
+        ],
+        "errorIndex": 1,
+        "correction": "saw",
+        "message": "Yesterday is a finished time: use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": "error",
+        "use": "Present simple + now",
+        "tokens": [
+          "I",
+          "work",
+          "now."
+        ],
+        "errorIndex": 1,
+        "correction": "am working",
+        "message": "Now needs the present continuous."
+      },
+      {
+        "type": "error",
+        "use": "Past simple + since",
+        "tokens": [
+          "I",
+          "lived",
+          "here",
+          "since",
+          "2015."
+        ],
+        "errorIndex": 1,
+        "correction": "have lived",
+        "message": "Since + a continuing situation needs the present perfect."
+      },
+      {
+        "type": "error",
+        "use": "Present perfect + ago",
+        "tokens": [
+          "We",
+          "have",
+          "met",
+          "two",
+          "years",
+          "ago."
+        ],
+        "errorIndex": 1,
+        "correction": "met",
+        "message": "Yesterday, last week and ago are finished times: use the past simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      }
+    ]
+  }
+}
