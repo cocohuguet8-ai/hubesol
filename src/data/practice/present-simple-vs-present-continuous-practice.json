@@ -1,0 +1,1756 @@
+{
+  "tense": "present-simple-vs-present-continuous",
+  "lessonTitle": "Present Simple vs Present Continuous",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "do",
+        "does",
+        "don’t",
+        "doesn’t",
+        "am",
+        "is",
+        "are",
+        "isn’t",
+        "aren’t"
+      ],
+      "label": null,
+      "primary": "do"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gap",
+    "subtitle": "Type the whole verb phrase — the present simple or the present continuous, whichever the signal word or context calls for. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "I",
+        "after": "to school by bus every day.",
+        "hint": "go",
+        "answers": [
+          "go"
+        ],
+        "display": "go",
+        "explain": "‘Every day’ is a habit — use the present simple."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "Be quiet! The baby",
+        "after": "in the next room.",
+        "hint": "sleep",
+        "answers": [
+          "is sleeping",
+          "'s sleeping",
+          "s sleeping",
+          "’s sleeping"
+        ],
+        "display": "is sleeping",
+        "explain": "‘Be quiet!’ points to something happening right now — use the present continuous."
+      },
+      {
+        "use": "Fact",
+        "kind": "statement",
+        "before": "Water",
+        "after": "at 100 degrees Celsius.",
+        "hint": "boil",
+        "answers": [
+          "boils"
+        ],
+        "display": "boils",
+        "explain": "A scientific fact — use the present simple (with -s for ‘water’)."
+      },
+      {
+        "use": "Temporary",
+        "kind": "statement",
+        "before": "I",
+        "after": "with my cousin this week.",
+        "hint": "stay",
+        "answers": [
+          "am staying",
+          "'m staying",
+          "m staying",
+          "’m staying"
+        ],
+        "display": "am staying",
+        "explain": "‘This week’ is a temporary situation — use the present continuous."
+      },
+      {
+        "use": "Stative verb",
+        "kind": "statement",
+        "before": "I",
+        "after": "the answer. Can you help me?",
+        "hint": "not know",
+        "answers": [
+          "don't know",
+          "do not know",
+          "don’t know"
+        ],
+        "display": "do not know",
+        "explain": "‘Know’ is a stative verb — it stays in the present simple, even in the negative."
+      },
+      {
+        "use": "Question — now",
+        "kind": "question",
+        "before": "What",
+        "after": "you doing at the moment?",
+        "hint": "(do / are)",
+        "answers": [
+          "are"
+        ],
+        "display": "are",
+        "explain": "‘Doing’ and ‘at the moment’ show an action in progress — the question takes ‘are’."
+      },
+      {
+        "use": "Question — habit",
+        "kind": "question",
+        "before": "How often",
+        "after": "you go to the gym?",
+        "hint": "(do / are)",
+        "answers": [
+          "do"
+        ],
+        "display": "do",
+        "explain": "‘How often’ asks about a habit — the question takes ‘do’ + base verb."
+      },
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "My dad usually",
+        "after": "dinner at seven.",
+        "hint": "cook",
+        "answers": [
+          "cooks"
+        ],
+        "display": "cooks",
+        "explain": "‘Usually’ shows a routine — use the present simple (with -s for ‘my dad’)."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "Look! It",
+        "after": "outside — take an umbrella.",
+        "hint": "rain",
+        "answers": [
+          "is raining",
+          "'s raining",
+          "s raining",
+          "’s raining"
+        ],
+        "display": "is raining",
+        "explain": "‘Look!’ points to something happening now — use the present continuous."
+      },
+      {
+        "use": "Temporary",
+        "kind": "statement",
+        "before": "My brother",
+        "after": "in a café this summer.",
+        "hint": "work",
+        "answers": [
+          "is working",
+          "'s working",
+          "s working",
+          "’s working"
+        ],
+        "display": "is working",
+        "explain": "‘This summer’ is a temporary job — use the present continuous."
+      },
+      {
+        "use": "Stative verb",
+        "kind": "statement",
+        "before": "Mum",
+        "after": "tea. She hates coffee.",
+        "hint": "like",
+        "answers": [
+          "likes"
+        ],
+        "display": "likes",
+        "explain": "‘Like’ is a stative verb — present simple, with -s for ‘Mum’."
+      },
+      {
+        "use": "Fact",
+        "kind": "statement",
+        "before": "The sun",
+        "after": "in the east.",
+        "hint": "rise",
+        "answers": [
+          "rises"
+        ],
+        "display": "rises",
+        "explain": "A general fact — use the present simple."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "Listen! Someone",
+        "after": "in the garden.",
+        "hint": "sing",
+        "answers": [
+          "is singing",
+          "'s singing",
+          "s singing",
+          "’s singing"
+        ],
+        "display": "is singing",
+        "explain": "‘Listen!’ points to something happening now — use the present continuous."
+      },
+      {
+        "use": "Question — habit",
+        "kind": "question",
+        "before": "Where",
+        "after": "your brother live?",
+        "hint": "(does / is)",
+        "answers": [
+          "does"
+        ],
+        "display": "does",
+        "explain": "A permanent situation — the question takes ‘does’ + base verb."
+      },
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "We",
+        "after": "football on Saturdays.",
+        "hint": "play",
+        "answers": [
+          "play"
+        ],
+        "display": "play",
+        "explain": "‘On Saturdays’ is a routine — use the present simple."
+      },
+      {
+        "use": "Temporary",
+        "kind": "statement",
+        "before": "I",
+        "after": "a lot of coffee this month because of the exams.",
+        "hint": "drink",
+        "answers": [
+          "am drinking",
+          "'m drinking",
+          "m drinking",
+          "’m drinking"
+        ],
+        "display": "am drinking",
+        "explain": "‘This month’ is temporary, and it is different from my normal habit — use the present continuous."
+      },
+      {
+        "use": "Stative verb",
+        "kind": "statement",
+        "before": "This bag",
+        "after": "to my sister.",
+        "hint": "belong",
+        "answers": [
+          "belongs"
+        ],
+        "display": "belongs",
+        "explain": "‘Belong’ is a stative verb — present simple, with -s for ‘this bag’."
+      },
+      {
+        "use": "Now",
+        "kind": "statement",
+        "before": "The students",
+        "after": "an exam at the moment.",
+        "hint": "take",
+        "answers": [
+          "are taking",
+          "'re taking",
+          "re taking",
+          "’re taking"
+        ],
+        "display": "are taking",
+        "explain": "‘At the moment’ — use the present continuous."
+      },
+      {
+        "use": "Question — now",
+        "kind": "question",
+        "before": "Why",
+        "after": "you laughing?",
+        "hint": "(do / are)",
+        "answers": [
+          "are"
+        ],
+        "display": "are",
+        "explain": "‘Laughing’ is an action in progress — the question takes ‘are’."
+      },
+      {
+        "use": "Habit",
+        "kind": "statement",
+        "before": "The bus to the airport",
+        "after": "every twenty minutes.",
+        "hint": "leave",
+        "answers": [
+          "leaves"
+        ],
+        "display": "leaves",
+        "explain": "‘Every twenty minutes’ is a regular pattern — use the present simple."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put the words in order",
+    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing both tenses.",
+    "sentences": [
+      {
+        "use": "Habit",
+        "tokens": [
+          "I",
+          "always",
+          "drink",
+          "tea",
+          "at",
+          "breakfast."
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "She’s",
+          "watching",
+          "TV",
+          "in",
+          "the",
+          "living",
+          "room",
+          "at",
+          "the",
+          "moment."
+        ],
+        "alts": [
+          [
+            "At",
+            "the",
+            "moment",
+            "she’s",
+            "watching",
+            "TV",
+            "in",
+            "the",
+            "living",
+            "room."
+          ]
+        ]
+      },
+      {
+        "use": "Fact",
+        "tokens": [
+          "The",
+          "Earth",
+          "goes",
+          "round",
+          "the",
+          "Sun."
+        ]
+      },
+      {
+        "use": "Temporary",
+        "tokens": [
+          "We’re",
+          "staying",
+          "in",
+          "a",
+          "small",
+          "hotel",
+          "this",
+          "week."
+        ],
+        "alts": [
+          [
+            "This",
+            "week",
+            "we’re",
+            "staying",
+            "in",
+            "a",
+            "small",
+            "hotel."
+          ]
+        ]
+      },
+      {
+        "use": "Question — habit",
+        "tokens": [
+          "What",
+          "time",
+          "does",
+          "the",
+          "film",
+          "start?"
+        ]
+      },
+      {
+        "use": "Question — now",
+        "tokens": [
+          "What",
+          "are",
+          "you",
+          "reading",
+          "at",
+          "the",
+          "moment?"
+        ]
+      },
+      {
+        "use": "Negative — habit",
+        "tokens": [
+          "My",
+          "brother",
+          "doesn’t",
+          "eat",
+          "meat."
+        ]
+      },
+      {
+        "use": "Negative — now",
+        "tokens": [
+          "The",
+          "children",
+          "aren’t",
+          "playing",
+          "outside",
+          "today."
+        ],
+        "alts": [
+          [
+            "Today",
+            "the",
+            "children",
+            "aren’t",
+            "playing",
+            "outside."
+          ]
+        ]
+      },
+      {
+        "use": "Habit",
+        "tokens": [
+          "Ben",
+          "usually",
+          "walks",
+          "to",
+          "school",
+          "with",
+          "his",
+          "sister."
+        ],
+        "alts": [
+          [
+            "Usually",
+            "Ben",
+            "walks",
+            "to",
+            "school",
+            "with",
+            "his",
+            "sister."
+          ]
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "Look!",
+          "The",
+          "bus",
+          "is",
+          "coming."
+        ]
+      },
+      {
+        "use": "Stative verb",
+        "tokens": [
+          "I",
+          "don’t",
+          "understand",
+          "this",
+          "question."
+        ]
+      },
+      {
+        "use": "Question — habit",
+        "tokens": [
+          "Do",
+          "you",
+          "like",
+          "spicy",
+          "food?"
+        ]
+      },
+      {
+        "use": "Temporary",
+        "tokens": [
+          "I’m",
+          "learning",
+          "to",
+          "drive",
+          "this",
+          "month."
+        ],
+        "alts": [
+          [
+            "This",
+            "month",
+            "I’m",
+            "learning",
+            "to",
+            "drive."
+          ]
+        ]
+      },
+      {
+        "use": "Habit",
+        "tokens": [
+          "Our",
+          "teacher",
+          "gives",
+          "us",
+          "homework",
+          "every",
+          "Friday."
+        ],
+        "alts": [
+          [
+            "Every",
+            "Friday",
+            "our",
+            "teacher",
+            "gives",
+            "us",
+            "homework."
+          ]
+        ]
+      },
+      {
+        "use": "Question — now",
+        "tokens": [
+          "Is",
+          "it",
+          "raining",
+          "in",
+          "Girona",
+          "today?"
+        ]
+      },
+      {
+        "use": "Fact",
+        "tokens": [
+          "Cats",
+          "sleep",
+          "for",
+          "about",
+          "fourteen",
+          "hours",
+          "a",
+          "day."
+        ]
+      },
+      {
+        "use": "Now",
+        "tokens": [
+          "Be",
+          "quiet!",
+          "I’m",
+          "trying",
+          "to",
+          "study."
+        ]
+      },
+      {
+        "use": "Question — habit",
+        "tokens": [
+          "How",
+          "often",
+          "do",
+          "you",
+          "visit",
+          "your",
+          "grandparents?"
+        ]
+      },
+      {
+        "use": "Stative verb",
+        "tokens": [
+          "She",
+          "wants",
+          "a",
+          "new",
+          "bike",
+          "for",
+          "her",
+          "birthday."
+        ]
+      },
+      {
+        "use": "Negative — habit",
+        "tokens": [
+          "Shops",
+          "don’t",
+          "open",
+          "on",
+          "Sundays",
+          "here."
+        ],
+        "alts": [
+          [
+            "On",
+            "Sundays",
+            "shops",
+            "don’t",
+            "open",
+            "here."
+          ]
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the signal word to the tense",
+    "subtitle": "Tap a signal word or phrase, then tap the tense it points to. Habits and routines take the present simple; actions happening now or temporary situations take the present continuous.",
+    "leftLabel": "Signal word",
+    "rightLabel": "Tense",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "always",
+        "right": "Present Simple"
+      },
+      {
+        "left": "now",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "usually",
+        "right": "Present Simple"
+      },
+      {
+        "left": "at the moment",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "every day",
+        "right": "Present Simple"
+      },
+      {
+        "left": "right now",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "on Mondays",
+        "right": "Present Simple"
+      },
+      {
+        "left": "this week",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "often",
+        "right": "Present Simple"
+      },
+      {
+        "left": "at this moment",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "never",
+        "right": "Present Simple"
+      },
+      {
+        "left": "this month",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "once a week",
+        "right": "Present Simple"
+      },
+      {
+        "left": "this summer",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "every morning",
+        "right": "Present Simple"
+      },
+      {
+        "left": "Look!",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "twice a year",
+        "right": "Present Simple"
+      },
+      {
+        "left": "Listen!",
+        "right": "Present Continuous"
+      },
+      {
+        "left": "in the evenings",
+        "right": "Present Simple"
+      },
+      {
+        "left": "currently",
+        "right": "Present Continuous"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. British English. Ask yourself: is it a habit or fact, or is it happening now? That decides the tense.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Habit",
+        "text": "My mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the market every Saturday.",
+        "choices": [
+          "goes",
+          "is going",
+          "go",
+          "has gone"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘every Saturday’ is a habit — use the present simple, not the continuous.",
+          "Subject-verb agreement: with ‘my mum’ use ‘goes’.",
+          "Wrong tense: a regular habit takes the present simple, not the present perfect."
+        ],
+        "explain": "‘Every Saturday’ is a habit — present simple."
+      },
+      {
+        "use": "Now",
+        "text": "Shh! The baby <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the next room.",
+        "choices": [
+          "sleeps",
+          "is sleeping",
+          "sleep",
+          "are sleeping"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘Shh!’ points to an action happening now — use the present continuous.",
+          "",
+          "Wrong form and tense: ‘Shh!’ points to now, and ‘the baby’ is singular.",
+          "Subject-verb agreement: ‘the baby’ is singular — use ‘is’, not ‘are’."
+        ],
+        "explain": "‘Shh!’ — something is happening right now: present continuous."
+      },
+      {
+        "use": "Fact",
+        "text": "The Sun <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the east.",
+        "choices": [
+          "is rising",
+          "has risen",
+          "rises",
+          "rise"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: a general fact takes the present simple, not the continuous.",
+          "Wrong tense: this is a general fact, not a finished action with a result now — use the present simple.",
+          "",
+          "Subject-verb agreement: ‘the Sun’ is singular — use ‘rises’."
+        ],
+        "explain": "A general fact — present simple."
+      },
+      {
+        "use": "Temporary",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at my aunt’s house at the moment because my heating is broken.",
+        "choices": [
+          "stay",
+          "stayed",
+          "are staying",
+          "am staying"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: ‘at the moment’ shows a temporary situation in progress — use the present continuous.",
+          "Wrong tense: ‘at the moment’ is now, not the past.",
+          "Subject-verb agreement: with ‘I’ use ‘am’, not ‘are’.",
+          ""
+        ],
+        "explain": "‘At the moment’ — a temporary situation: present continuous."
+      },
+      {
+        "use": "Stative verb",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this song — it’s my favourite.",
+        "choices": [
+          "am loving",
+          "love",
+          "loves",
+          "loved"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: ‘love’ is a stative verb, so it is not used in the continuous.",
+          "",
+          "Subject-verb agreement: with ‘I’ use ‘love’, not ‘loves’.",
+          "Wrong tense: ‘it’s my favourite’ is about now, not the past."
+        ],
+        "explain": "‘Love’ is a stative verb — present simple."
+      },
+      {
+        "use": "Habit",
+        "text": "We usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner at eight.",
+        "choices": [
+          "are having",
+          "have had",
+          "have",
+          "has"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘usually’ shows a routine — use the present simple, not the continuous.",
+          "Wrong tense: ‘usually’ shows a routine — use the present simple, not the present perfect.",
+          "",
+          "Subject-verb agreement: with ‘we’ use ‘have’, not ‘has’."
+        ],
+        "explain": "‘Usually’ shows a routine — present simple."
+      },
+      {
+        "use": "Now",
+        "text": "Look! Those children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the river!",
+        "choices": [
+          "swim",
+          "swims",
+          "have swum",
+          "are swimming"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: ‘Look!’ points to an action happening now — use the present continuous.",
+          "Wrong tense and agreement: ‘Look!’ points to now, and ‘children’ is plural.",
+          "Wrong tense: ‘Look!’ shows an action in progress, not a finished one.",
+          ""
+        ],
+        "explain": "‘Look!’ — an action in progress: present continuous."
+      },
+      {
+        "use": "Habit",
+        "text": "The shop <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at nine o’clock every morning.",
+        "choices": [
+          "opens",
+          "is opening",
+          "open",
+          "has opened"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘every morning’ is a routine — use the present simple.",
+          "Subject-verb agreement: ‘the shop’ is singular — use ‘opens’.",
+          "Wrong tense: a routine takes the present simple, not the present perfect."
+        ],
+        "explain": "‘Every morning’ is a routine — present simple."
+      },
+      {
+        "use": "Temporary",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a lot of coffee this week because of her exams.",
+        "choices": [
+          "drinks",
+          "drank",
+          "is drinking",
+          "are drinking"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘this week’ shows a temporary change — use the present continuous.",
+          "Wrong tense: this week is not finished, and the sentence is about now, not the past.",
+          "",
+          "Subject-verb agreement: with ‘she’ use ‘is’, not ‘are’."
+        ],
+        "explain": "‘This week’ — a temporary situation: present continuous."
+      },
+      {
+        "use": "Question — now",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you doing at the moment?",
+        "choices": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong auxiliary: ‘doing’ needs a form of ‘be’, not ‘do’.",
+          "Wrong auxiliary: ‘doing’ needs a form of ‘be’, and ‘you’ is not singular.",
+          "Subject-verb agreement: with ‘you’ use ‘are’, not ‘is’.",
+          ""
+        ],
+        "explain": "‘Doing’ and ‘at the moment’ — present continuous question with ‘are’."
+      },
+      {
+        "use": "Question — habit",
+        "text": "How often <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your sister call you?",
+        "choices": [
+          "does",
+          "is",
+          "do",
+          "has"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong auxiliary: ‘How often’ asks about a habit — use ‘does’ + base verb.",
+          "Subject-verb agreement: with ‘your sister’ use ‘does’, not ‘do’.",
+          "Wrong auxiliary: ‘has’ needs a past participle (‘has called’), and this is a habit."
+        ],
+        "explain": "‘How often’ asks about a habit — ‘does’ + base verb."
+      },
+      {
+        "use": "Fact",
+        "text": "Bees <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> honey.",
+        "choices": [
+          "are making",
+          "make",
+          "makes",
+          "have made"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: this is a general fact — use the present simple.",
+          "",
+          "Subject-verb agreement: ‘bees’ is plural — use ‘make’.",
+          "Wrong tense: this is a general fact, not a finished action."
+        ],
+        "explain": "A general fact — present simple."
+      },
+      {
+        "use": "Stative verb",
+        "text": "Sorry, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> what you mean.",
+        "choices": [
+          "am not understanding",
+          "not understand",
+          "understood",
+          "don’t understand"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: ‘understand’ is a stative verb, so it is not used in the continuous.",
+          "Wrong form: the negative present simple needs ‘don’t’.",
+          "Wrong tense: ‘what you mean’ is about now, not the past.",
+          ""
+        ],
+        "explain": "‘Understand’ is a stative verb — present simple negative."
+      },
+      {
+        "use": "Now",
+        "text": "Hurry up! The taxi <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> outside.",
+        "choices": [
+          "is waiting",
+          "waits",
+          "wait",
+          "has waited"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘Hurry up!’ points to now — use the present continuous.",
+          "Wrong form and tense: ‘the taxi’ is singular, and the action is in progress.",
+          "Wrong tense: the taxi is waiting now — use the present continuous."
+        ],
+        "explain": "‘Hurry up!’ — it is happening now: present continuous."
+      },
+      {
+        "use": "Fact",
+        "text": "The Seine <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> through Paris.",
+        "choices": [
+          "is flowing",
+          "flows",
+          "flow",
+          "has flowed"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: this is a permanent fact — use the present simple.",
+          "",
+          "Subject-verb agreement: ‘the Seine’ is singular — use ‘flows’.",
+          "Wrong tense: this is a permanent fact, not a finished action."
+        ],
+        "explain": "A permanent fact — present simple."
+      },
+      {
+        "use": "Now",
+        "text": "Be careful! You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on my bag.",
+        "choices": [
+          "stand",
+          "stands",
+          "are standing",
+          "is standing"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: ‘Be careful!’ points to now — use the present continuous.",
+          "Wrong tense and agreement: this is happening now, and ‘you’ takes no -s.",
+          "",
+          "Subject-verb agreement: with ‘you’ use ‘are’, not ‘is’."
+        ],
+        "explain": "‘Be careful!’ — it is happening now: present continuous."
+      },
+      {
+        "use": "Habit",
+        "text": "Our train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at ten past six every day.",
+        "choices": [
+          "leaves",
+          "is leaving",
+          "leave",
+          "has left"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘every day’ is a regular pattern — use the present simple.",
+          "Subject-verb agreement: ‘our train’ is singular — use ‘leaves’.",
+          "Wrong tense: a regular pattern takes the present simple."
+        ],
+        "explain": "‘Every day’ is a regular pattern — present simple."
+      },
+      {
+        "use": "Temporary",
+        "text": "My class <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a book about Barcelona this term.",
+        "choices": [
+          "reads",
+          "is reading",
+          "read",
+          "are reading"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘this term’ shows a temporary activity — use the present continuous.",
+          "",
+          "Wrong form: ‘my class’ is singular, and this term’s activity is in progress.",
+          "Subject-verb agreement: ‘my class’ is singular — use ‘is’, not ‘are’."
+        ],
+        "explain": "‘This term’ — a temporary activity: present continuous."
+      },
+      {
+        "use": "Stative verb",
+        "text": "This bag <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to my sister, not to me.",
+        "choices": [
+          "is belonging",
+          "are belonging",
+          "belongs",
+          "belong"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: ‘belong’ is a stative verb, so it is not used in the continuous.",
+          "Wrong form: ‘belong’ is stative, and ‘this bag’ is singular.",
+          "",
+          "Subject-verb agreement: ‘this bag’ is singular — use ‘belongs’."
+        ],
+        "explain": "‘Belong’ is a stative verb — present simple."
+      },
+      {
+        "use": "Habit",
+        "text": "Our dog never <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the postman — he’s too friendly.",
+        "choices": [
+          "is barking",
+          "barked",
+          "are barking",
+          "barks"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: ‘never’ shows a habit — use the present simple.",
+          "Wrong tense: ‘he’s too friendly’ is about now, not the past.",
+          "Wrong tense and agreement: ‘never’ shows a habit, and ‘our dog’ is singular.",
+          ""
+        ],
+        "explain": "‘Never’ shows a habit — present simple."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Every",
+          "day",
+          "I",
+          "am",
+          "going",
+          "to",
+          "school",
+          "by",
+          "bus."
+        ],
+        "errorIndex": 3,
+        "correction": "go",
+        "type": "Wrong tense",
+        "message": "A daily habit takes the present simple, not the continuous.",
+        "errorSpan": [
+          3,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "Look",
+          "at",
+          "the",
+          "mountains!",
+          "It",
+          "snows",
+          "now."
+        ],
+        "errorIndex": 5,
+        "correction": "is snowing",
+        "type": "Wrong tense",
+        "message": "‘Now’ points to an action in progress — use the present continuous."
+      },
+      {
+        "tokens": [
+          "On",
+          "Saturdays",
+          "my",
+          "brother",
+          "play",
+          "football."
+        ],
+        "errorIndex": 4,
+        "correction": "plays",
+        "type": "Subject-verb agreement",
+        "message": "With ‘my brother’ the present simple verb needs -s."
+      },
+      {
+        "tokens": [
+          "Sorry,",
+          "I",
+          "am",
+          "not",
+          "knowing",
+          "his",
+          "name."
+        ],
+        "errorIndex": 4,
+        "correction": "don’t know",
+        "type": "Stative verb",
+        "message": "‘Know’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          2,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "Listen!",
+          "Next",
+          "door",
+          "someone",
+          "plays",
+          "the",
+          "piano."
+        ],
+        "errorIndex": 4,
+        "correction": "is playing",
+        "type": "Wrong tense",
+        "message": "‘Listen!’ points to something happening now — use the present continuous."
+      },
+      {
+        "tokens": [
+          "The",
+          "Earth",
+          "is",
+          "going",
+          "round",
+          "the",
+          "Sun."
+        ],
+        "errorIndex": 2,
+        "correction": "goes",
+        "type": "Wrong tense",
+        "message": "A general fact takes the present simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "What",
+          "do",
+          "you",
+          "reading",
+          "at",
+          "the",
+          "moment?"
+        ],
+        "errorIndex": 1,
+        "correction": "are you reading",
+        "type": "Wrong auxiliary",
+        "message": "‘At the moment’ shows an action in progress — the question needs ‘are’ + -ing.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "The",
+          "kids",
+          "are",
+          "outside",
+          "right",
+          "now.",
+          "They",
+          "play",
+          "football."
+        ],
+        "errorIndex": 7,
+        "correction": "are playing",
+        "type": "Wrong tense",
+        "message": "‘Right now’ shows an action in progress — use the present continuous."
+      },
+      {
+        "tokens": [
+          "My",
+          "cousin",
+          "doesn’t",
+          "likes",
+          "spicy",
+          "food."
+        ],
+        "errorIndex": 3,
+        "correction": "like",
+        "type": "Wrong form",
+        "message": "After ‘doesn’t’ use the base verb, with no -s."
+      },
+      {
+        "tokens": [
+          "It’s",
+          "hot.",
+          "I",
+          "am",
+          "wanting",
+          "a",
+          "glass",
+          "of",
+          "water."
+        ],
+        "errorIndex": 4,
+        "correction": "want",
+        "type": "Stative verb",
+        "message": "‘Want’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          3,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "Every",
+          "evening",
+          "we",
+          "are",
+          "watching",
+          "a",
+          "film."
+        ],
+        "errorIndex": 3,
+        "correction": "watch",
+        "type": "Wrong tense",
+        "message": "‘Every evening’ is a routine — use the present simple.",
+        "errorSpan": [
+          3,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "Sorry,",
+          "I",
+          "can’t",
+          "talk.",
+          "I",
+          "drive",
+          "now."
+        ],
+        "errorIndex": 5,
+        "correction": "am driving",
+        "type": "Wrong tense",
+        "message": "‘Now’ shows an action in progress — use the present continuous."
+      },
+      {
+        "tokens": [
+          "My",
+          "mum",
+          "don’t",
+          "eat",
+          "meat."
+        ],
+        "errorIndex": 2,
+        "correction": "doesn’t",
+        "type": "Wrong auxiliary",
+        "message": "With ‘my mum’ (she) the negative needs ‘doesn’t’."
+      },
+      {
+        "tokens": [
+          "How",
+          "often",
+          "are",
+          "you",
+          "visit",
+          "your",
+          "grandparents?"
+        ],
+        "errorIndex": 2,
+        "correction": "do",
+        "type": "Wrong auxiliary",
+        "message": "‘How often’ asks about a habit — the question needs ‘do’ + base verb."
+      },
+      {
+        "tokens": [
+          "Cows",
+          "are",
+          "giving",
+          "us",
+          "milk",
+          "every",
+          "day."
+        ],
+        "errorIndex": 1,
+        "correction": "give",
+        "type": "Wrong tense",
+        "message": "A general fact and a daily pattern take the present simple.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "tokens": [
+          "My",
+          "parents",
+          "are",
+          "work",
+          "in",
+          "Barcelona",
+          "this",
+          "month."
+        ],
+        "errorIndex": 3,
+        "correction": "working",
+        "type": "Wrong form",
+        "message": "After ‘are’ the verb needs -ing for a temporary situation."
+      },
+      {
+        "tokens": [
+          "Excuse",
+          "me,",
+          "are",
+          "you",
+          "know",
+          "the",
+          "answer?"
+        ],
+        "errorIndex": 2,
+        "correction": "do",
+        "type": "Stative verb",
+        "message": "‘Know’ is a stative verb — the question needs ‘do’ + base verb, not ‘are’ + -ing."
+      },
+      {
+        "tokens": [
+          "Our",
+          "bus",
+          "is",
+          "leaving",
+          "at",
+          "8:15",
+          "every",
+          "morning."
+        ],
+        "errorIndex": 2,
+        "correction": "leaves",
+        "type": "Wrong tense",
+        "message": "‘Every morning’ is a routine — use the present simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "Be",
+          "quiet!",
+          "I",
+          "study",
+          "for",
+          "my",
+          "exam."
+        ],
+        "errorIndex": 3,
+        "correction": "am studying",
+        "type": "Wrong tense",
+        "message": "‘Be quiet!’ points to now — use the present continuous."
+      },
+      {
+        "tokens": [
+          "This",
+          "bag",
+          "is",
+          "belonging",
+          "to",
+          "my",
+          "sister."
+        ],
+        "errorIndex": 2,
+        "correction": "belongs",
+        "type": "Stative verb",
+        "message": "‘Belong’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, signal words, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "signal": "Signal words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "signal",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Now",
+        "sentText": "Our neighbours {{blank}} a barbecue at the moment — it smells great!",
+        "hint": "have",
+        "answers": [
+          "are having",
+          "'re having",
+          "re having",
+          "’re having"
+        ],
+        "display": "are having",
+        "explain": "‘At the moment’ — use the present continuous."
+      },
+      {
+        "type": "fill",
+        "use": "Fact",
+        "sentText": "Maria {{blank}} two languages: Catalan and English.",
+        "hint": "speak",
+        "answers": [
+          "speaks"
+        ],
+        "display": "speaks",
+        "explain": "A permanent fact about Maria — present simple, with -s."
+      },
+      {
+        "type": "fill",
+        "use": "Habit",
+        "sentText": "I {{blank}} my homework in the library every afternoon.",
+        "hint": "do",
+        "answers": [
+          "do"
+        ],
+        "display": "do",
+        "explain": "‘Every afternoon’ is a routine — use the present simple."
+      },
+      {
+        "type": "fill",
+        "use": "Stative verb",
+        "sentText": "Dad {{blank}} a new laptop — he says his old one is too slow.",
+        "hint": "want",
+        "answers": [
+          "wants"
+        ],
+        "display": "wants",
+        "explain": "‘Want’ is a stative verb — present simple, with -s for ‘Dad’."
+      },
+      {
+        "type": "order",
+        "use": "Negative — habit",
+        "tokens": [
+          "We",
+          "don’t",
+          "go",
+          "to",
+          "school",
+          "on",
+          "Sundays."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — now",
+        "tokens": [
+          "Is",
+          "your",
+          "sister",
+          "studying",
+          "for",
+          "an",
+          "exam",
+          "now?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Now",
+        "tokens": [
+          "He’s",
+          "fixing",
+          "his",
+          "bike",
+          "at",
+          "the",
+          "moment."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — habit",
+        "tokens": [
+          "Does",
+          "the",
+          "museum",
+          "open",
+          "on",
+          "Mondays?"
+        ]
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘at the moment’ point to?",
+        "choices": [
+          "Present Continuous",
+          "Present Simple",
+          "Past Simple",
+          "Present Perfect"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘At the moment’ means now — the present simple is for habits and facts.",
+          "‘At the moment’ is about now, not the past.",
+          "‘At the moment’ is about an action in progress now, not a link from the past."
+        ],
+        "explain": "‘At the moment’ means now — present continuous.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘every Sunday’ point to?",
+        "choices": [
+          "Present Continuous",
+          "Present Simple",
+          "Present Perfect",
+          "Past Continuous"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Every Sunday’ is a routine — the continuous is for now or temporary.",
+          "",
+          "‘Every Sunday’ shows a routine, not a link from the past to now.",
+          "‘Every Sunday’ is a present routine, not a past action in progress."
+        ],
+        "explain": "‘Every Sunday’ is a routine — present simple.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘Listen!’ point to?",
+        "choices": [
+          "Present Simple",
+          "Past Simple",
+          "Present Continuous",
+          "Present Perfect"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Listen!’ points to something happening now — the present simple is for habits.",
+          "‘Listen!’ is about now, not a finished past action.",
+          "",
+          "‘Listen!’ points to an action in progress, not a past action with a result now."
+        ],
+        "explain": "‘Listen!’ — something is happening now: present continuous.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Signal word",
+        "text": "Which tense does ‘on Mondays’ point to?",
+        "choices": [
+          "Present Continuous",
+          "Past Continuous",
+          "Present Perfect",
+          "Present Simple"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘On Mondays’ is a routine — the continuous is for now or temporary.",
+          "‘On Mondays’ is a present routine, not a past action in progress.",
+          "‘On Mondays’ shows a routine, not a link from the past to now.",
+          ""
+        ],
+        "explain": "‘On Mondays’ is a routine — present simple.",
+        "hintVerb": ""
+      },
+      {
+        "type": "mc",
+        "use": "Now",
+        "text": "Don’t call her now — she {{blank}} a shower.",
+        "choices": [
+          "takes",
+          "is taking",
+          "take",
+          "are taking"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong tense: ‘now’ shows an action in progress — use the present continuous.",
+          "",
+          "Wrong form and tense: ‘she’ takes -s, and ‘now’ needs the continuous.",
+          "Subject-verb agreement: with ‘she’ use ‘is’, not ‘are’."
+        ],
+        "explain": "‘Now’ — an action in progress: present continuous."
+      },
+      {
+        "type": "mc",
+        "use": "Habit",
+        "text": "Our school {{blank}} at eight forty-five every day.",
+        "choices": [
+          "starts",
+          "is starting",
+          "start",
+          "has started"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: ‘every day’ is a routine — use the present simple.",
+          "Subject-verb agreement: ‘our school’ is singular — use ‘starts’.",
+          "Wrong tense: a routine takes the present simple."
+        ],
+        "explain": "‘Every day’ is a routine — present simple."
+      },
+      {
+        "type": "mc",
+        "use": "Stative verb",
+        "text": "I {{blank}} that you are right.",
+        "choices": [
+          "am believing",
+          "believes",
+          "believe",
+          "have believed"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: ‘believe’ is a stative verb, so it is not used in the continuous.",
+          "Subject-verb agreement: with ‘I’ use ‘believe’, not ‘believes’.",
+          "",
+          "Wrong tense: this is an opinion now, not a past action with a result."
+        ],
+        "explain": "‘Believe’ is a stative verb — present simple."
+      },
+      {
+        "type": "mc",
+        "use": "Question — now",
+        "text": "Why {{blank}} you wearing a coat? It’s really hot!",
+        "choices": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong auxiliary: ‘wearing’ needs a form of ‘be’, not ‘do’.",
+          "Wrong auxiliary: ‘wearing’ needs a form of ‘be’, not ‘does’.",
+          "",
+          "Subject-verb agreement: with ‘you’ use ‘are’, not ‘is’."
+        ],
+        "explain": "‘Wearing’ shows an action in progress — the question needs ‘are’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "My",
+          "sister",
+          "is",
+          "studying",
+          "French",
+          "every",
+          "evening."
+        ],
+        "errorIndex": 2,
+        "correction": "studies",
+        "message": "‘Every evening’ is a routine — use the present simple.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "Look!",
+          "The",
+          "cat",
+          "sleeps",
+          "on",
+          "my",
+          "bed."
+        ],
+        "errorIndex": 3,
+        "correction": "is sleeping",
+        "message": "‘Look!’ points to something happening now — use the present continuous."
+      },
+      {
+        "type": "error",
+        "use": "Stative verb",
+        "tokens": [
+          "I",
+          "am",
+          "hating",
+          "cold",
+          "weather."
+        ],
+        "errorIndex": 1,
+        "correction": "hate",
+        "message": "‘Hate’ is a stative verb — it is not used in the continuous.",
+        "errorSpan": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": "error",
+        "use": "Wrong auxiliary",
+        "tokens": [
+          "Our",
+          "teacher",
+          "don’t",
+          "give",
+          "us",
+          "homework",
+          "on",
+          "Fridays."
+        ],
+        "errorIndex": 2,
+        "correction": "doesn’t",
+        "message": "With ‘our teacher’ (he/she) the negative needs ‘doesn’t’."
+      }
+    ]
+  }
+}
