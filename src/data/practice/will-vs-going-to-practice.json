@@ -1,0 +1,1836 @@
+{
+  "tense": "will-vs-going-to",
+  "lessonTitle": "Will vs Going to",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "will",
+        "won’t",
+        "am",
+        "is",
+        "are",
+        "isn’t",
+        "aren’t"
+      ],
+      "label": null,
+      "primary": "will"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gap",
+    "subtitle": "Type the whole future form — will or going to, whichever the situation calls for. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Instant decision",
+        "kind": "statement",
+        "before": "A: I’m cold. B: I",
+        "after": "the window.",
+        "hint": "close",
+        "answers": [
+          "will close",
+          "'ll close",
+          "ll close",
+          "’ll close"
+        ],
+        "display": "will close",
+        "explain": "B decides as she speaks — use will."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "I’ve decided: next year I",
+        "after": "the piano.",
+        "hint": "learn",
+        "answers": [
+          "am going to learn",
+          "'m going to learn",
+          "m going to learn",
+          "’m going to learn"
+        ],
+        "display": "am going to learn",
+        "explain": "A plan decided before now — use going to."
+      },
+      {
+        "use": "Promise",
+        "kind": "statement",
+        "before": "Don’t worry, I",
+        "after": "you back tomorrow.",
+        "hint": "pay",
+        "answers": [
+          "will pay",
+          "'ll pay",
+          "ll pay",
+          "’ll pay"
+        ],
+        "display": "will pay",
+        "explain": "A promise — use will."
+      },
+      {
+        "use": "Offer",
+        "kind": "statement",
+        "before": "A: These bags are heavy. B: I",
+        "after": "you with them.",
+        "hint": "help",
+        "answers": [
+          "will help",
+          "'ll help",
+          "ll help",
+          "’ll help"
+        ],
+        "display": "will help",
+        "explain": "An offer made on the spot — use will."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Look at those black clouds! It",
+        "after": ".",
+        "hint": "rain",
+        "answers": [
+          "is going to rain",
+          "'s going to rain",
+          "s going to rain",
+          "’s going to rain"
+        ],
+        "display": "is going to rain",
+        "explain": "A prediction based on what you can see now — use going to."
+      },
+      {
+        "use": "Instant decision",
+        "kind": "statement",
+        "before": "A: The phone’s ringing. B: I",
+        "after": "it.",
+        "hint": "get",
+        "answers": [
+          "will get",
+          "'ll get",
+          "ll get",
+          "’ll get"
+        ],
+        "display": "will get",
+        "explain": "A decision made as you speak — use will."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "My cousin has got a place at drama school. He",
+        "after": "acting.",
+        "hint": "study",
+        "answers": [
+          "is going to study",
+          "'s going to study",
+          "s going to study",
+          "’s going to study"
+        ],
+        "display": "is going to study",
+        "explain": "A plan already made — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "kind": "question",
+        "before": "What",
+        "after": "you going to do this weekend?",
+        "hint": "(are / will)",
+        "answers": [
+          "are"
+        ],
+        "display": "are",
+        "explain": "Asking about plans takes ‘be going to’ — so ‘are’."
+      },
+      {
+        "use": "Instant decision",
+        "kind": "statement",
+        "before": "A: What would you like? B: I",
+        "after": "the fish, please.",
+        "hint": "have",
+        "answers": [
+          "will have",
+          "'ll have",
+          "ll have",
+          "’ll have"
+        ],
+        "display": "will have",
+        "explain": "Choosing on the spot — use will."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Careful! The glass is on the edge. It",
+        "after": "!",
+        "hint": "fall",
+        "answers": [
+          "is going to fall",
+          "'s going to fall",
+          "s going to fall",
+          "’s going to fall"
+        ],
+        "display": "is going to fall",
+        "explain": "You can see it happening — use going to."
+      },
+      {
+        "use": "Promise",
+        "kind": "statement",
+        "before": "I promise I",
+        "after": "late again.",
+        "hint": "not be",
+        "answers": [
+          "won't be",
+          "will not be",
+          "won’t be"
+        ],
+        "display": "will not be",
+        "explain": "A promise — use will (here the negative: won’t)."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "We’ve saved some money and we",
+        "after": "a new flat in Girona.",
+        "hint": "buy",
+        "answers": [
+          "are going to buy",
+          "'re going to buy",
+          "re going to buy",
+          "’re going to buy"
+        ],
+        "display": "are going to buy",
+        "explain": "A plan made before now — use going to."
+      },
+      {
+        "use": "Offer",
+        "kind": "statement",
+        "before": "A: I don’t have a pen. B: Here — I",
+        "after": "you mine.",
+        "hint": "lend",
+        "answers": [
+          "will lend",
+          "'ll lend",
+          "ll lend",
+          "’ll lend"
+        ],
+        "display": "will lend",
+        "explain": "An offer made on the spot — use will."
+      },
+      {
+        "use": "Instant decision",
+        "kind": "statement",
+        "before": "A: There’s no milk. B: OK, I",
+        "after": "some on the way home.",
+        "hint": "buy",
+        "answers": [
+          "will buy",
+          "'ll buy",
+          "ll buy",
+          "’ll buy"
+        ],
+        "display": "will buy",
+        "explain": "Decided as you speak — use will."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "Look at the score: they’re 4–0 up. They",
+        "after": "win.",
+        "hint": "(will / going to)",
+        "answers": [
+          "are going to",
+          "'re going to",
+          "re going to",
+          "’re going to"
+        ],
+        "display": "are going to",
+        "explain": "Evidence you can see now — use going to."
+      },
+      {
+        "use": "Question — plan",
+        "kind": "question",
+        "before": "Who",
+        "after": "he going to invite to his party?",
+        "hint": "(is / will)",
+        "answers": [
+          "is"
+        ],
+        "display": "is",
+        "explain": "Asking about plans takes ‘be going to’ — so ‘is’."
+      },
+      {
+        "use": "Plan",
+        "kind": "statement",
+        "before": "I’ve got the paint, so this weekend I",
+        "after": "my bedroom.",
+        "hint": "paint",
+        "answers": [
+          "am going to paint",
+          "'m going to paint",
+          "m going to paint",
+          "’m going to paint"
+        ],
+        "display": "am going to paint",
+        "explain": "A plan with preparation already made — use going to."
+      },
+      {
+        "use": "Promise",
+        "kind": "statement",
+        "before": "Thanks for the loan! I",
+        "after": "it back on Friday, I promise.",
+        "hint": "bring",
+        "answers": [
+          "will bring",
+          "'ll bring",
+          "ll bring",
+          "’ll bring"
+        ],
+        "display": "will bring",
+        "explain": "A promise — use will."
+      },
+      {
+        "use": "Instant decision",
+        "kind": "statement",
+        "before": "A: It’s Mum’s birthday tomorrow! B: Oh no! I",
+        "after": "her a message now.",
+        "hint": "send",
+        "answers": [
+          "will send",
+          "'ll send",
+          "ll send",
+          "’ll send"
+        ],
+        "display": "will send",
+        "explain": "Decided as you speak — use will."
+      },
+      {
+        "use": "Evidence",
+        "kind": "statement",
+        "before": "She’s nine months pregnant — she",
+        "after": "have a baby very soon.",
+        "hint": "(will / going to)",
+        "answers": [
+          "is going to",
+          "'s going to",
+          "s going to",
+          "’s going to"
+        ],
+        "display": "is going to",
+        "explain": "Evidence you can see now — use going to."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put the words in order",
+    "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing both forms.",
+    "sentences": [
+      {
+        "use": "Instant decision",
+        "tokens": [
+          "I’ll",
+          "have",
+          "the",
+          "chicken,",
+          "please."
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "move",
+          "to",
+          "Barcelona",
+          "next",
+          "year."
+        ],
+        "alts": [
+          [
+            "Next",
+            "year",
+            "we’re",
+            "going",
+            "to",
+            "move",
+            "to",
+            "Barcelona."
+          ]
+        ]
+      },
+      {
+        "use": "Promise",
+        "tokens": [
+          "I’ll",
+          "never",
+          "tell",
+          "anyone",
+          "your",
+          "secret."
+        ]
+      },
+      {
+        "use": "Evidence",
+        "tokens": [
+          "Look",
+          "at",
+          "those",
+          "clouds!",
+          "It’s",
+          "going",
+          "to",
+          "rain."
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "What",
+          "are",
+          "you",
+          "going",
+          "to",
+          "study",
+          "at",
+          "university?"
+        ]
+      },
+      {
+        "use": "Negative — plan",
+        "tokens": [
+          "I’m",
+          "not",
+          "going",
+          "to",
+          "watch",
+          "the",
+          "match",
+          "tonight."
+        ],
+        "alts": [
+          [
+            "Tonight",
+            "I’m",
+            "not",
+            "going",
+            "to",
+            "watch",
+            "the",
+            "match."
+          ]
+        ]
+      },
+      {
+        "use": "Promise",
+        "tokens": [
+          "I",
+          "won’t",
+          "be",
+          "late",
+          "again."
+        ]
+      },
+      {
+        "use": "Instant decision",
+        "tokens": [
+          "It’s",
+          "raining.",
+          "I’ll",
+          "take",
+          "an",
+          "umbrella."
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "I’ll",
+          "carry",
+          "your",
+          "bag",
+          "for",
+          "you."
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "My",
+          "brother",
+          "is",
+          "going",
+          "to",
+          "start",
+          "a",
+          "new",
+          "job",
+          "on",
+          "Monday."
+        ],
+        "alts": [
+          [
+            "On",
+            "Monday",
+            "my",
+            "brother",
+            "is",
+            "going",
+            "to",
+            "start",
+            "a",
+            "new",
+            "job."
+          ]
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "Are",
+          "you",
+          "going",
+          "to",
+          "visit",
+          "your",
+          "cousins",
+          "this",
+          "summer?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Will",
+          "you",
+          "help",
+          "me",
+          "with",
+          "my",
+          "homework?"
+        ]
+      },
+      {
+        "use": "Evidence",
+        "tokens": [
+          "Watch",
+          "out!",
+          "That",
+          "car",
+          "is",
+          "going",
+          "to",
+          "crash!"
+        ]
+      },
+      {
+        "use": "Instant decision",
+        "tokens": [
+          "I",
+          "think",
+          "I’ll",
+          "stay",
+          "at",
+          "home",
+          "tonight."
+        ]
+      },
+      {
+        "use": "Negative — evidence",
+        "tokens": [
+          "It’s",
+          "not",
+          "going",
+          "to",
+          "snow",
+          "today,",
+          "the",
+          "sky",
+          "is",
+          "clear."
+        ]
+      },
+      {
+        "use": "Prediction",
+        "tokens": [
+          "You’ll",
+          "love",
+          "the",
+          "food",
+          "in",
+          "Italy."
+        ]
+      },
+      {
+        "use": "Plan",
+        "tokens": [
+          "They’re",
+          "going",
+          "to",
+          "get",
+          "married",
+          "in",
+          "June."
+        ],
+        "alts": [
+          [
+            "In",
+            "June",
+            "they’re",
+            "going",
+            "to",
+            "get",
+            "married."
+          ]
+        ]
+      },
+      {
+        "use": "Question — plan",
+        "tokens": [
+          "Who",
+          "are",
+          "you",
+          "going",
+          "to",
+          "invite",
+          "to",
+          "your",
+          "party?"
+        ]
+      },
+      {
+        "use": "Promise",
+        "tokens": [
+          "We",
+          "will",
+          "always",
+          "remember",
+          "this",
+          "day."
+        ]
+      },
+      {
+        "use": "Instant decision",
+        "tokens": [
+          "Wait",
+          "a",
+          "moment!",
+          "I’ll",
+          "open",
+          "the",
+          "door."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the situation to the future form",
+    "subtitle": "Tap a situation, then tap the future form it needs. Decisions made as you speak, promises and offers take will; plans made before now and predictions based on evidence take going to.",
+    "leftLabel": "Situation",
+    "rightLabel": "Future form",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "deciding as you speak",
+        "right": "Will"
+      },
+      {
+        "left": "a plan made before now",
+        "right": "Going to"
+      },
+      {
+        "left": "making a promise",
+        "right": "Will"
+      },
+      {
+        "left": "an intention you decided last week",
+        "right": "Going to"
+      },
+      {
+        "left": "offering to help",
+        "right": "Will"
+      },
+      {
+        "left": "black clouds in the sky",
+        "right": "Going to"
+      },
+      {
+        "left": "ordering food on the spot",
+        "right": "Will"
+      },
+      {
+        "left": "a glass about to fall off a table",
+        "right": "Going to"
+      },
+      {
+        "left": "a general prediction",
+        "right": "Will"
+      },
+      {
+        "left": "a woman nine months pregnant",
+        "right": "Going to"
+      },
+      {
+        "left": "an opinion about the future",
+        "right": "Will"
+      },
+      {
+        "left": "plans for next summer",
+        "right": "Going to"
+      },
+      {
+        "left": "answering a ringing phone",
+        "right": "Will"
+      },
+      {
+        "left": "what you have decided to do this weekend",
+        "right": "Going to"
+      },
+      {
+        "left": "reacting to news with a quick decision",
+        "right": "Will"
+      },
+      {
+        "left": "a car speeding towards a wall",
+        "right": "Going to"
+      },
+      {
+        "left": "saying sorry and promising to change",
+        "right": "Will"
+      },
+      {
+        "left": "something you can see happening now",
+        "right": "Going to"
+      },
+      {
+        "left": "asking someone for a favour",
+        "right": "Will"
+      },
+      {
+        "left": "a decision you made yesterday",
+        "right": "Going to"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. British English. Ask yourself: was it decided as you speak, or before? Can you see the evidence now? That decides the form.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Instant decision",
+        "text": "A: I’m cold. B: I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the window.",
+        "choices": [
+          "will close",
+          "am going to close",
+          "close",
+          "have closed"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: B decides as she speaks — use will, not going to.",
+          "Wrong tense: the present simple is not used for an instant decision.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A decision made as you speak — will."
+      },
+      {
+        "use": "Plan",
+        "text": "I’ve decided to learn French, so I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a course next month.",
+        "choices": [
+          "will start",
+          "am going to start",
+          "start",
+          "have started"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: ‘I’ve decided’ shows a plan made before now — use going to.",
+          "",
+          "Wrong tense: the present simple is not used for a plan like this.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A plan made before now — going to."
+      },
+      {
+        "use": "Promise",
+        "text": "Don’t worry. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you back on Friday.",
+        "choices": [
+          "am going to pay",
+          "pay",
+          "will pay",
+          "have paid"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: a promise takes will, not going to.",
+          "Wrong tense: the present simple is not used for a promise.",
+          "",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A promise — will."
+      },
+      {
+        "use": "Evidence",
+        "text": "Look at those black clouds right above us! It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "will rain",
+          "rains",
+          "has rained",
+          "is going to rain"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: you can see the evidence now — use going to, not will.",
+          "Wrong tense: the present simple is not used for a prediction from evidence.",
+          "Wrong tense: the present perfect does not predict the future.",
+          ""
+        ],
+        "explain": "A prediction from evidence you can see — going to."
+      },
+      {
+        "use": "Instant decision",
+        "text": "A: The phone’s ringing. B: I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it.",
+        "choices": [
+          "am going to get",
+          "will get",
+          "get",
+          "have got"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: B decides as she speaks — use will, not going to.",
+          "",
+          "Wrong tense: the present simple is not used for an instant decision.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A decision made as you speak — will."
+      },
+      {
+        "use": "Plan",
+        "text": "Anna has decided to quit her job. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a bakery.",
+        "choices": [
+          "will open",
+          "opens",
+          "is going to open",
+          "opened"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: ‘has decided’ shows a plan made before now — use going to.",
+          "Wrong tense: the present simple is not used for a plan like this.",
+          "",
+          "Wrong tense: the past simple does not talk about the future."
+        ],
+        "explain": "A plan made before now — going to."
+      },
+      {
+        "use": "Offer",
+        "text": "A: These bags are heavy! B: I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you.",
+        "choices": [
+          "am going to help",
+          "help",
+          "have helped",
+          "will help"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: an offer made on the spot takes will, not going to.",
+          "Wrong tense: the present simple is not used for an offer.",
+          "Wrong tense: the present perfect does not talk about the future.",
+          ""
+        ],
+        "explain": "An offer made on the spot — will."
+      },
+      {
+        "use": "Plan",
+        "text": "We’ve saved some money, so we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a flat next year.",
+        "choices": [
+          "are going to buy",
+          "will buy",
+          "buy",
+          "bought"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: ‘We’ve saved’ shows a plan in preparation — use going to.",
+          "Wrong tense: the present simple is not used for a plan like this.",
+          "Wrong tense: the past simple does not talk about the future."
+        ],
+        "explain": "A plan already in preparation — going to."
+      },
+      {
+        "use": "Instant decision",
+        "text": "A: What would you like? B: I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the soup, please.",
+        "choices": [
+          "am going to have",
+          "have had",
+          "will have",
+          "had"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: B chooses on the spot — use will, not going to.",
+          "Wrong tense: the present perfect does not talk about the future.",
+          "",
+          "Wrong tense: the past simple does not talk about the future."
+        ],
+        "explain": "Choosing on the spot — will."
+      },
+      {
+        "use": "Evidence",
+        "text": "Careful! The glass is on the edge. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>!",
+        "choices": [
+          "will fall",
+          "falls",
+          "has fallen",
+          "is going to fall"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: you can see it happening — use going to, not will.",
+          "Wrong tense: the present simple is not used for a prediction from evidence.",
+          "Wrong tense: the present perfect does not predict the future.",
+          ""
+        ],
+        "explain": "You can see it happening — going to."
+      },
+      {
+        "use": "Promise",
+        "text": "I promise I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late again.",
+        "choices": [
+          "will not be",
+          "do not be",
+          "am not being",
+          "have not been"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: ‘be’ after ‘do not’ is not correct English.",
+          "Wrong form: a promise takes will — not the continuous.",
+          "Wrong tense: the present perfect does not make a promise about the future."
+        ],
+        "explain": "A promise — will."
+      },
+      {
+        "use": "Plan",
+        "text": "I’ve already bought the paint, so I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my room this weekend.",
+        "choices": [
+          "will paint",
+          "am going to paint",
+          "paint",
+          "have painted"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: the paint is already bought — a plan — use going to.",
+          "",
+          "Wrong tense: the present simple is not used for a plan like this.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "A plan already in preparation — going to."
+      },
+      {
+        "use": "Instant decision",
+        "text": "A: I’m hungry. B: OK, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you a sandwich.",
+        "choices": [
+          "am going to make",
+          "make",
+          "have made",
+          "will make"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: B decides as she speaks — use will, not going to.",
+          "Wrong tense: the present simple is not used for an instant decision.",
+          "Wrong tense: the present perfect does not talk about the future.",
+          ""
+        ],
+        "explain": "A decision made as you speak — will."
+      },
+      {
+        "use": "Evidence",
+        "text": "Look at the score — it’s 5–0! They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the match.",
+        "choices": [
+          "are going to win",
+          "win",
+          "won",
+          "have won"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong tense: the present simple is not used for a prediction from evidence.",
+          "Wrong tense: the past simple does not predict the future.",
+          "Wrong tense: the present perfect does not predict the future."
+        ],
+        "explain": "Evidence you can see — going to."
+      },
+      {
+        "use": "Question — plan",
+        "text": "A: What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you going to do on Saturday?",
+        "choices": [
+          "will",
+          "are",
+          "do",
+          "did"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong auxiliary: ‘going to’ needs a form of ‘be’, not ‘will’.",
+          "",
+          "Wrong auxiliary: ‘going to’ needs a form of ‘be’, not ‘do’.",
+          "Wrong auxiliary: ‘going to’ needs a form of ‘be’, not ‘did’."
+        ],
+        "explain": "A question with ‘going to’ takes ‘are’."
+      },
+      {
+        "use": "Prediction",
+        "text": "I think you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this book. It’s really funny.",
+        "choices": [
+          "loved",
+          "are loving",
+          "will love",
+          "love"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong tense: the past simple does not predict the future.",
+          "Wrong form: ‘love’ is a stative verb — it is not used in the continuous.",
+          "",
+          "Wrong tense: the present simple is not used for a prediction."
+        ],
+        "explain": "An opinion about the future — will."
+      },
+      {
+        "use": "Instant decision",
+        "text": "A: I haven’t got any money. B: Don’t worry. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you some.",
+        "choices": [
+          "will lend",
+          "am going to lend",
+          "lend",
+          "have lent"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: B offers on the spot — use will, not going to.",
+          "Wrong tense: the present simple is not used for an offer.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "An offer made on the spot — will."
+      },
+      {
+        "use": "Plan",
+        "text": "They’ve chosen the date. They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married in June.",
+        "choices": [
+          "will get",
+          "are going to get",
+          "get",
+          "got"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: ‘They’ve chosen the date’ shows a plan — use going to.",
+          "",
+          "Wrong tense: the present simple is not used for a plan like this.",
+          "Wrong tense: the past simple does not talk about the future."
+        ],
+        "explain": "A plan already made — going to."
+      },
+      {
+        "use": "Offer",
+        "text": "Wait! I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the door for you.",
+        "choices": [
+          "am going to open",
+          "open",
+          "will open",
+          "have opened"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Wrong form: an offer made on the spot takes will, not going to.",
+          "Wrong tense: the present simple is not used for an offer.",
+          "",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "An offer made on the spot — will."
+      },
+      {
+        "use": "Evidence",
+        "text": "He’s driving much too fast. He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> an accident.",
+        "choices": [
+          "will have",
+          "has",
+          "has had",
+          "is going to have"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong form: you can see it coming — use going to, not will.",
+          "Wrong tense: ‘has’ does not talk about the future here.",
+          "Wrong tense: the present perfect does not predict the future.",
+          ""
+        ],
+        "explain": "You can see it coming — going to."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "A:",
+          "I’m",
+          "thirsty.",
+          "B:",
+          "I’m",
+          "going",
+          "to",
+          "get",
+          "some",
+          "water."
+        ],
+        "errorIndex": 4,
+        "correction": "I’ll",
+        "type": "Instant decision",
+        "message": "B decides as she speaks — use will, not going to.",
+        "errorSpan": [
+          4,
+          6
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "will",
+          "study",
+          "medicine.",
+          "I’ve",
+          "already",
+          "enrolled."
+        ],
+        "errorIndex": 1,
+        "correction": "am going to",
+        "type": "Plan",
+        "message": "A plan made before now — use going to."
+      },
+      {
+        "tokens": [
+          "The",
+          "sky",
+          "is",
+          "very",
+          "dark.",
+          "It",
+          "will",
+          "rain",
+          "soon."
+        ],
+        "errorIndex": 6,
+        "correction": "is going to",
+        "type": "Evidence",
+        "message": "You can see the evidence now — use going to."
+      },
+      {
+        "tokens": [
+          "I",
+          "promise",
+          "I’m",
+          "going",
+          "to",
+          "be",
+          "on",
+          "time."
+        ],
+        "errorIndex": 2,
+        "correction": "I’ll",
+        "type": "Promise",
+        "message": "A promise takes will, not going to.",
+        "errorSpan": [
+          2,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "It",
+          "rains",
+          "tomorrow,",
+          "so",
+          "take",
+          "an",
+          "umbrella."
+        ],
+        "errorIndex": 1,
+        "correction": "will rain",
+        "type": "Wrong tense",
+        "message": "A prediction about tomorrow takes will or going to, not the present simple."
+      },
+      {
+        "tokens": [
+          "We",
+          "will",
+          "move",
+          "house",
+          "next",
+          "month.",
+          "We",
+          "signed",
+          "the",
+          "contract",
+          "yesterday."
+        ],
+        "errorIndex": 1,
+        "correction": "are going to",
+        "type": "Plan",
+        "message": "A plan made before now — use going to."
+      },
+      {
+        "tokens": [
+          "A:",
+          "There’s",
+          "someone",
+          "at",
+          "the",
+          "door.",
+          "B:",
+          "I’m",
+          "going",
+          "to",
+          "see",
+          "who",
+          "it",
+          "is."
+        ],
+        "errorIndex": 7,
+        "correction": "I’ll",
+        "type": "Instant decision",
+        "message": "B decides as she speaks — use will, not going to.",
+        "errorSpan": [
+          7,
+          9
+        ]
+      },
+      {
+        "tokens": [
+          "Careful!",
+          "You",
+          "will",
+          "fall",
+          "off",
+          "the",
+          "chair!"
+        ],
+        "errorIndex": 2,
+        "correction": "are going to",
+        "type": "Evidence",
+        "message": "You can see it happening — use going to."
+      },
+      {
+        "tokens": [
+          "A:",
+          "What",
+          "would",
+          "you",
+          "like?",
+          "B:",
+          "I’m",
+          "going",
+          "to",
+          "have",
+          "the",
+          "fish."
+        ],
+        "errorIndex": 6,
+        "correction": "I’ll",
+        "type": "Instant decision",
+        "message": "Choosing on the spot — use will, not going to.",
+        "errorSpan": [
+          6,
+          8
+        ]
+      },
+      {
+        "tokens": [
+          "My",
+          "brother",
+          "will",
+          "start",
+          "a",
+          "new",
+          "job",
+          "on",
+          "Monday.",
+          "He",
+          "got",
+          "it",
+          "last",
+          "week."
+        ],
+        "errorIndex": 2,
+        "correction": "is going to",
+        "type": "Plan",
+        "message": "A plan made before now — use going to."
+      },
+      {
+        "tokens": [
+          "Don’t",
+          "worry.",
+          "I’m",
+          "going",
+          "to",
+          "help",
+          "you",
+          "with",
+          "that."
+        ],
+        "errorIndex": 2,
+        "correction": "I’ll",
+        "type": "Offer",
+        "message": "An offer made on the spot takes will.",
+        "errorSpan": [
+          2,
+          4
+        ]
+      },
+      {
+        "tokens": [
+          "The",
+          "tank",
+          "is",
+          "empty.",
+          "We",
+          "will",
+          "run",
+          "out",
+          "of",
+          "petrol."
+        ],
+        "errorIndex": 5,
+        "correction": "are going to",
+        "type": "Evidence",
+        "message": "You can see it coming — use going to."
+      },
+      {
+        "tokens": [
+          "Thanks",
+          "for",
+          "the",
+          "money.",
+          "I",
+          "am",
+          "going",
+          "to",
+          "pay",
+          "you",
+          "back",
+          "tomorrow."
+        ],
+        "errorIndex": 5,
+        "correction": "will",
+        "type": "Promise",
+        "message": "A promise takes will, not going to.",
+        "errorSpan": [
+          5,
+          7
+        ]
+      },
+      {
+        "tokens": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "studying",
+          "medicine",
+          "next",
+          "year."
+        ],
+        "errorIndex": 4,
+        "correction": "study",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "She",
+          "will",
+          "to",
+          "help",
+          "you",
+          "with",
+          "your",
+          "homework."
+        ],
+        "errorIndex": 2,
+        "correction": "help",
+        "type": "Wrong form",
+        "message": "After ‘will’ use the base verb, without ‘to’.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "Are",
+          "you",
+          "going",
+          "to",
+          "visited",
+          "your",
+          "cousins",
+          "this",
+          "summer?"
+        ],
+        "errorIndex": 4,
+        "correction": "visit",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "He",
+          "are",
+          "going",
+          "to",
+          "buy",
+          "a",
+          "new",
+          "car",
+          "next",
+          "week."
+        ],
+        "errorIndex": 1,
+        "correction": "is",
+        "type": "Subject-verb agreement",
+        "message": "With ‘he’ use ‘is going to’."
+      },
+      {
+        "tokens": [
+          "They",
+          "aren’t",
+          "going",
+          "to",
+          "coming",
+          "to",
+          "the",
+          "party."
+        ],
+        "errorIndex": 4,
+        "correction": "come",
+        "type": "Wrong form",
+        "message": "After ‘going to’ use the base verb."
+      },
+      {
+        "tokens": [
+          "Wait!",
+          "I",
+          "am",
+          "going",
+          "to",
+          "open",
+          "the",
+          "door",
+          "for",
+          "you."
+        ],
+        "errorIndex": 1,
+        "correction": "I’ll",
+        "type": "Instant decision",
+        "message": "An offer made on the spot takes will, not going to.",
+        "errorSpan": [
+          1,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "My",
+          "parents",
+          "will",
+          "buy",
+          "a",
+          "new",
+          "flat.",
+          "They",
+          "have",
+          "already",
+          "saved",
+          "the",
+          "money."
+        ],
+        "errorIndex": 2,
+        "correction": "are going to",
+        "type": "Plan",
+        "message": "A plan made before now — use going to."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, signal words, multiple choice, and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "signal": "Signal words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "signal",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Instant decision",
+        "sentText": "A: There’s no bread. B: Oh, I {{blank}} some from the shop.",
+        "hint": "get",
+        "answers": [
+          "will get",
+          "'ll get",
+          "ll get",
+          "’ll get"
+        ],
+        "display": "will get",
+        "explain": "Decided as you speak — use will."
+      },
+      {
+        "type": "fill",
+        "use": "Plan",
+        "sentText": "I’ve got the ticket, so I {{blank}} my grandma this weekend.",
+        "hint": "visit",
+        "answers": [
+          "am going to visit",
+          "'m going to visit",
+          "m going to visit",
+          "’m going to visit"
+        ],
+        "display": "am going to visit",
+        "explain": "A plan made before now — use going to."
+      },
+      {
+        "type": "fill",
+        "use": "Promise",
+        "sentText": "Don’t cry. I {{blank}} you a new one, I promise.",
+        "hint": "give",
+        "answers": [
+          "will give",
+          "'ll give",
+          "ll give",
+          "’ll give"
+        ],
+        "display": "will give",
+        "explain": "A promise — use will."
+      },
+      {
+        "type": "fill",
+        "use": "Evidence",
+        "sentText": "Look out! That ladder {{blank}} fall!",
+        "hint": "(will / going to)",
+        "answers": [
+          "is going to",
+          "'s going to",
+          "s going to",
+          "’s going to"
+        ],
+        "display": "is going to",
+        "explain": "You can see it happening — use going to."
+      },
+      {
+        "type": "order",
+        "use": "Offer",
+        "tokens": [
+          "I’ll",
+          "carry",
+          "that",
+          "box",
+          "for",
+          "you."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Plan",
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "paint",
+          "the",
+          "kitchen",
+          "next",
+          "week."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question — plan",
+        "tokens": [
+          "Are",
+          "you",
+          "going",
+          "to",
+          "wear",
+          "that",
+          "hat?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Prediction",
+        "tokens": [
+          "It",
+          "won’t",
+          "be",
+          "a",
+          "problem."
+        ]
+      },
+      {
+        "type": "signal",
+        "use": "Situation",
+        "text": "Which form fits a plan you made last week?",
+        "choices": [
+          "Will",
+          "Going to",
+          "Present Simple",
+          "Past Simple"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "A plan made before now takes going to, not will.",
+          "",
+          "The present simple is not used for a plan like this.",
+          "The past simple does not talk about the future."
+        ],
+        "explain": "A plan made before now — going to.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Situation",
+        "text": "Which form fits a promise?",
+        "choices": [
+          "Will",
+          "Going to",
+          "Present Simple",
+          "Present Perfect"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A promise takes will, not going to.",
+          "The present simple is not used for a promise.",
+          "The present perfect does not talk about the future."
+        ],
+        "explain": "A promise — will.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Situation",
+        "text": "Which form fits black clouds you can see right now?",
+        "choices": [
+          "Present Simple",
+          "Will",
+          "Going to",
+          "Present Perfect"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The present simple is not used for a prediction from evidence.",
+          "Evidence you can see now takes going to, not will.",
+          "",
+          "The present perfect does not predict the future."
+        ],
+        "explain": "A prediction from evidence — going to.",
+        "hintVerb": ""
+      },
+      {
+        "type": "signal",
+        "use": "Situation",
+        "text": "Which form fits an instant decision?",
+        "choices": [
+          "Going to",
+          "Present Simple",
+          "Present Perfect",
+          "Will"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "A decision made as you speak takes will, not going to.",
+          "The present simple is not used for an instant decision.",
+          "The present perfect does not talk about the future.",
+          ""
+        ],
+        "explain": "A decision made as you speak — will.",
+        "hintVerb": ""
+      },
+      {
+        "type": "mc",
+        "use": "Instant decision",
+        "text": "I’ve just seen the menu. I {{blank}} the pasta, I think.",
+        "choices": [
+          "will have",
+          "am going to have",
+          "have",
+          "have had"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: you decide as you speak — use will, not going to.",
+          "Wrong tense: the present simple is not used for an instant decision.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "Deciding as you speak — will."
+      },
+      {
+        "type": "mc",
+        "use": "Plan",
+        "text": "My cousin has bought a camper van. He {{blank}} travel around Spain.",
+        "choices": [
+          "will",
+          "is going to",
+          "going to",
+          "would"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: he has already bought the van — a plan — use going to.",
+          "",
+          "Wrong form: ‘going to’ needs a form of ‘be’ before it.",
+          "Wrong form: ‘would’ is not a future form here."
+        ],
+        "explain": "A plan already in preparation — going to."
+      },
+      {
+        "type": "mc",
+        "use": "Offer",
+        "text": "A: I can’t open this jar. B: Give it to me. I {{blank}} it.",
+        "choices": [
+          "will open",
+          "am going to open",
+          "open",
+          "have opened"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong form: B offers on the spot — use will, not going to.",
+          "Wrong tense: the present simple is not used for an offer.",
+          "Wrong tense: the present perfect does not talk about the future."
+        ],
+        "explain": "An offer made on the spot — will."
+      },
+      {
+        "type": "mc",
+        "use": "Evidence",
+        "text": "Watch out! You {{blank}} spill your coffee!",
+        "choices": [
+          "will spill",
+          "are going to spill",
+          "spill",
+          "have spilled"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Wrong form: you can see it happening — use going to, not will.",
+          "",
+          "Wrong tense: the present simple is not used for a prediction from evidence.",
+          "Wrong tense: the present perfect does not predict the future."
+        ],
+        "explain": "You can see it happening — going to."
+      },
+      {
+        "type": "error",
+        "use": "Instant decision",
+        "tokens": [
+          "A:",
+          "It’s",
+          "cold.",
+          "B:",
+          "I’m",
+          "going",
+          "to",
+          "close",
+          "the",
+          "door."
+        ],
+        "errorIndex": 4,
+        "correction": "I’ll",
+        "message": "B decides as she speaks — use will, not going to.",
+        "errorSpan": [
+          4,
+          6
+        ]
+      },
+      {
+        "type": "error",
+        "use": "Plan",
+        "tokens": [
+          "I",
+          "will",
+          "visit",
+          "my",
+          "aunt",
+          "this",
+          "weekend.",
+          "I",
+          "booked",
+          "the",
+          "train",
+          "yesterday."
+        ],
+        "errorIndex": 1,
+        "correction": "am going to",
+        "message": "A plan made before now — use going to."
+      },
+      {
+        "type": "error",
+        "use": "Evidence",
+        "tokens": [
+          "Look!",
+          "That",
+          "dog",
+          "will",
+          "bite",
+          "her!"
+        ],
+        "errorIndex": 3,
+        "correction": "is going to",
+        "message": "You can see it about to happen — use going to."
+      },
+      {
+        "type": "error",
+        "use": "Promise",
+        "tokens": [
+          "I",
+          "promise",
+          "I",
+          "am",
+          "going",
+          "to",
+          "keep",
+          "your",
+          "secret."
+        ],
+        "errorIndex": 3,
+        "correction": "will",
+        "message": "A promise takes will, not going to.",
+        "errorSpan": [
+          3,
+          5
+        ]
+      }
+    ]
+  }
+}
