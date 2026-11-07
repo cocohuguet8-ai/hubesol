@@ -28,6 +28,7 @@ teacherObjectives:
 related:
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
+next: { title: "Present Simple vs Present Continuous", href: "/grammar/verb-tenses/present-simple-vs-present-continuous/" }
 draft: false
 ---
 
