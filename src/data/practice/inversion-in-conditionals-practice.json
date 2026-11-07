@@ -1,0 +1,1886 @@
+{
+  "tense": "inversion-in-conditionals",
+  "lessonTitle": "Inversion in Conditionals",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "Should",
+        "Were",
+        "Had"
+      ],
+      "label": null,
+      "primary": "Had"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the auxiliary that starts the inverted condition — Should, Were or Had — or the verb that follows it. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Should",
+        "before": "",
+        "after": "you need any help, please ask at reception.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Should"
+        ],
+        "display": "Should",
+        "explain": "A polite, unlikely future condition: Should + subject + base verb."
+      },
+      {
+        "use": "Should",
+        "before": "",
+        "after": "the alarm sound, leave the building at once.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Should"
+        ],
+        "display": "Should",
+        "explain": "An instruction for a possible future event: Should + subject + base verb."
+      },
+      {
+        "use": "Should",
+        "before": "",
+        "after": "you have any questions, do not hesitate to contact us.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Should"
+        ],
+        "display": "Should",
+        "explain": "A formal letter phrase: Should you have… = If you have…"
+      },
+      {
+        "use": "Should",
+        "before": "Should you",
+        "after": "further details, please call our office.",
+        "hint": "(require)",
+        "answers": [
+          "require"
+        ],
+        "display": "require",
+        "explain": "After inverted ‘should’ use the base verb: ‘require’, not ‘requires’."
+      },
+      {
+        "use": "Should",
+        "before": "Should the train",
+        "after": "delayed, we will send you an email.",
+        "hint": "(be)",
+        "answers": [
+          "be"
+        ],
+        "display": "be",
+        "explain": "Base verb after ‘should’: be, not ‘is’."
+      },
+      {
+        "use": "Were",
+        "before": "",
+        "after": "I in your position, I would accept the offer.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Were"
+        ],
+        "display": "Were",
+        "explain": "An imaginary present: Were I… = If I were…"
+      },
+      {
+        "use": "Were",
+        "before": "",
+        "after": "she to resign, the team would be lost.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Were"
+        ],
+        "display": "Were",
+        "explain": "Were + subject + to + verb = If she resigned."
+      },
+      {
+        "use": "Were",
+        "before": "Were they",
+        "after": "win the final, the city would celebrate for a week.",
+        "hint": "to",
+        "answers": [
+          "to"
+        ],
+        "display": "to",
+        "explain": "With an action verb, inverted ‘were’ needs ‘to’ + base verb."
+      },
+      {
+        "use": "Were",
+        "before": "",
+        "after": "it not for your help, I would never finish.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Were"
+        ],
+        "display": "Were",
+        "explain": "The fixed phrase ‘Were it not for…’ means ‘Without…’."
+      },
+      {
+        "use": "Were",
+        "before": "Were I",
+        "after": ", I would buy a house in the mountains.",
+        "hint": "(rich)",
+        "answers": [
+          "richer"
+        ],
+        "display": "richer",
+        "explain": "Were + subject + adjective. Comparative: rich → richer."
+      },
+      {
+        "use": "Had",
+        "before": "",
+        "after": "I known about the strike, I would have taken a taxi.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Had"
+        ],
+        "display": "Had",
+        "explain": "An imaginary past: Had I known… = If I had known…"
+      },
+      {
+        "use": "Had",
+        "before": "",
+        "after": "we left earlier, we wouldn’t have missed the flight.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Had"
+        ],
+        "display": "Had",
+        "explain": "Third conditional inversion: Had + subject + past participle."
+      },
+      {
+        "use": "Had",
+        "before": "Had they",
+        "after": "the forecast, they wouldn’t have gone sailing.",
+        "hint": "(check)",
+        "answers": [
+          "checked"
+        ],
+        "display": "checked",
+        "explain": "After inverted ‘had’ use the past participle: checked."
+      },
+      {
+        "use": "Had",
+        "before": "Had she",
+        "after": "the job, she would be living in Paris now.",
+        "hint": "(take)",
+        "answers": [
+          "taken"
+        ],
+        "display": "taken",
+        "explain": "Mixed inversion: Had + subject + past participle, ‘taken’."
+      },
+      {
+        "use": "Had",
+        "before": "Had the referee",
+        "after": "the foul, he would have sent the player off.",
+        "hint": "(see)",
+        "answers": [
+          "seen"
+        ],
+        "display": "seen",
+        "explain": "Irregular participle after inverted ‘had’: seen."
+      },
+      {
+        "use": "Negative",
+        "before": "Had we",
+        "after": "checked the tickets, we’d have gone to the wrong airport.",
+        "hint": "not",
+        "answers": [
+          "not"
+        ],
+        "display": "not",
+        "explain": "The negative isn’t contracted and goes after the subject: Had we not…"
+      },
+      {
+        "use": "Negative",
+        "before": "Were it",
+        "after": "for the rain, we would play outside.",
+        "hint": "not",
+        "answers": [
+          "not"
+        ],
+        "display": "not",
+        "explain": "Were it not for… — ‘not’ goes after ‘it’, never ‘Weren’t it’."
+      },
+      {
+        "use": "Negative",
+        "before": "Should you",
+        "after": "receive the parcel by Friday, please call us.",
+        "hint": "not",
+        "answers": [
+          "not"
+        ],
+        "display": "not",
+        "explain": "Should + subject + not + base verb: ‘Should you not receive’."
+      },
+      {
+        "use": "Result",
+        "before": "Had I seen you, I",
+        "after": "hello.",
+        "hint": "(say)",
+        "answers": [
+          "would have said"
+        ],
+        "display": "would have said",
+        "explain": "The result clause stays the same as a third conditional: would have said."
+      },
+      {
+        "use": "Result",
+        "before": "Were I you, I",
+        "after": "immediately.",
+        "hint": "(apologise)",
+        "answers": [
+          "would apologise",
+          "’d apologise",
+          "'d apologise",
+          "d apologise"
+        ],
+        "display": "would apologise",
+        "explain": "The result of an inverted second conditional: would + base verb."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each formal sentence — 20 examples with should, were and had. The inverted clause starts with the auxiliary.",
+    "sentences": [
+      {
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "you",
+          "need",
+          "help,",
+          "call",
+          "me."
+        ],
+        "alts": [
+          [
+            "call",
+            "me",
+            "should",
+            "you",
+            "need",
+            "help."
+          ]
+        ]
+      },
+      {
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "the",
+          "price",
+          "rise,",
+          "we",
+          "will",
+          "tell",
+          "you."
+        ],
+        "alts": [
+          [
+            "we",
+            "will",
+            "tell",
+            "you",
+            "should",
+            "the",
+            "price",
+            "rise."
+          ]
+        ]
+      },
+      {
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "it",
+          "rain,",
+          "the",
+          "event",
+          "will",
+          "move",
+          "indoors."
+        ],
+        "alts": [
+          [
+            "the",
+            "event",
+            "will",
+            "move",
+            "indoors",
+            "should",
+            "it",
+            "rain."
+          ]
+        ]
+      },
+      {
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "you",
+          "have",
+          "questions,",
+          "contact",
+          "us."
+        ],
+        "alts": [
+          [
+            "contact",
+            "us",
+            "should",
+            "you",
+            "have",
+            "questions."
+          ]
+        ]
+      },
+      {
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "the",
+          "alarm",
+          "ring,",
+          "leave",
+          "immediately."
+        ],
+        "alts": [
+          [
+            "leave",
+            "immediately",
+            "should",
+            "the",
+            "alarm",
+            "ring."
+          ]
+        ]
+      },
+      {
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "you",
+          "not",
+          "agree,",
+          "let",
+          "us",
+          "know."
+        ],
+        "alts": [
+          [
+            "let",
+            "us",
+            "know",
+            "should",
+            "you",
+            "not",
+            "agree."
+          ]
+        ]
+      },
+      {
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "I",
+          "you,",
+          "I",
+          "would",
+          "accept."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "accept",
+            "were",
+            "I",
+            "you."
+          ]
+        ]
+      },
+      {
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "she",
+          "here,",
+          "she",
+          "would",
+          "help."
+        ],
+        "alts": [
+          [
+            "she",
+            "would",
+            "help",
+            "were",
+            "she",
+            "here."
+          ]
+        ]
+      },
+      {
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "they",
+          "to",
+          "win,",
+          "we",
+          "would",
+          "celebrate."
+        ],
+        "alts": [
+          [
+            "we",
+            "would",
+            "celebrate",
+            "were",
+            "they",
+            "to",
+            "win."
+          ]
+        ]
+      },
+      {
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "it",
+          "not",
+          "for",
+          "you,",
+          "I",
+          "would",
+          "fail."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "fail",
+            "were",
+            "it",
+            "not",
+            "for",
+            "you."
+          ]
+        ]
+      },
+      {
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "he",
+          "to",
+          "resign,",
+          "the",
+          "team",
+          "would",
+          "suffer."
+        ],
+        "alts": [
+          [
+            "the",
+            "team",
+            "would",
+            "suffer",
+            "were",
+            "he",
+            "to",
+            "resign."
+          ]
+        ]
+      },
+      {
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "I",
+          "richer,",
+          "I",
+          "would",
+          "travel",
+          "more."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "travel",
+            "more",
+            "were",
+            "I",
+            "richer."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "I",
+          "known,",
+          "I",
+          "would",
+          "have",
+          "come."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "have",
+            "come",
+            "had",
+            "I",
+            "known."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "we",
+          "left",
+          "earlier,",
+          "we",
+          "would",
+          "have",
+          "arrived."
+        ],
+        "alts": [
+          [
+            "we",
+            "would",
+            "have",
+            "arrived",
+            "had",
+            "we",
+            "left",
+            "earlier."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "she",
+          "asked,",
+          "I",
+          "would",
+          "have",
+          "helped."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "have",
+            "helped",
+            "had",
+            "she",
+            "asked."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "they",
+          "trained,",
+          "they",
+          "would",
+          "have",
+          "won."
+        ],
+        "alts": [
+          [
+            "they",
+            "would",
+            "have",
+            "won",
+            "had",
+            "they",
+            "trained."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "I",
+          "not",
+          "seen",
+          "it,",
+          "I",
+          "wouldn’t",
+          "believe",
+          "it."
+        ],
+        "alts": [
+          [
+            "I",
+            "wouldn’t",
+            "believe",
+            "it",
+            "had",
+            "I",
+            "not",
+            "seen",
+            "it."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "it",
+          "not",
+          "rained,",
+          "the",
+          "match",
+          "would",
+          "have",
+          "finished."
+        ],
+        "alts": [
+          [
+            "the",
+            "match",
+            "would",
+            "have",
+            "finished",
+            "had",
+            "it",
+            "not",
+            "rained."
+          ]
+        ]
+      },
+      {
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "you",
+          "told",
+          "me,",
+          "I",
+          "could",
+          "have",
+          "helped."
+        ],
+        "alts": [
+          [
+            "I",
+            "could",
+            "have",
+            "helped",
+            "had",
+            "you",
+            "told",
+            "me."
+          ]
+        ]
+      },
+      {
+        "use": "Mixed",
+        "tokens": [
+          "Had",
+          "I",
+          "taken",
+          "the",
+          "job,",
+          "I",
+          "would",
+          "be",
+          "rich",
+          "now."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "be",
+            "rich",
+            "now",
+            "had",
+            "I",
+            "taken",
+            "the",
+            "job."
+          ]
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the if-clause and its inversion",
+    "subtitle": "Tap a clause with if, then tap the inverted clause that means the same.",
+    "leftLabel": "With if",
+    "rightLabel": "Inverted",
+    "rightLabelSub": "(should / were / had)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "If you need help,",
+        "right": "Should you need help,"
+      },
+      {
+        "left": "If the alarm sounds,",
+        "right": "Should the alarm sound,"
+      },
+      {
+        "left": "If you have any questions,",
+        "right": "Should you have any questions,"
+      },
+      {
+        "left": "If it rains,",
+        "right": "Should it rain,"
+      },
+      {
+        "left": "If you don’t agree,",
+        "right": "Should you not agree,"
+      },
+      {
+        "left": "If I were you,",
+        "right": "Were I you,"
+      },
+      {
+        "left": "If she were here,",
+        "right": "Were she here,"
+      },
+      {
+        "left": "If they won,",
+        "right": "Were they to win,"
+      },
+      {
+        "left": "If he resigned,",
+        "right": "Were he to resign,"
+      },
+      {
+        "left": "If it weren’t for you,",
+        "right": "Were it not for you,"
+      },
+      {
+        "left": "If I were richer,",
+        "right": "Were I richer,"
+      },
+      {
+        "left": "If I had known,",
+        "right": "Had I known,"
+      },
+      {
+        "left": "If we had left earlier,",
+        "right": "Had we left earlier,"
+      },
+      {
+        "left": "If she had asked,",
+        "right": "Had she asked,"
+      },
+      {
+        "left": "If they hadn’t trained,",
+        "right": "Had they not trained,"
+      },
+      {
+        "left": "If it hadn’t rained,",
+        "right": "Had it not rained,"
+      },
+      {
+        "left": "If you had told me,",
+        "right": "Had you told me,"
+      },
+      {
+        "left": "If he had seen it,",
+        "right": "Had he seen it,"
+      },
+      {
+        "left": "If the train is late,",
+        "right": "Should the train be late,"
+      },
+      {
+        "left": "If we had checked,",
+        "right": "Had we checked,"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Only should, were and had invert. No if, no contracted negatives.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Had",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I known about the traffic, I would have left earlier.",
+        "choices": [
+          "Had",
+          "If",
+          "Did",
+          "Were"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘If I known’ is wrong: with ‘if’ you need ‘had’ after the subject.",
+          "‘Did’ can never start an inverted conditional.",
+          "‘Were I known’ is passive and changes the meaning."
+        ],
+        "explain": "Third conditional inversion: Had + subject + past participle."
+      },
+      {
+        "use": "Should",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you need any assistance, please call us.",
+        "choices": [
+          "Would",
+          "Should",
+          "Will",
+          "Did"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Would’ cannot invert in a conditional clause.",
+          "",
+          "‘Will’ cannot start an inverted condition.",
+          "‘Did’ cannot start an inverted condition."
+        ],
+        "explain": "Formal first conditional: Should you need…"
+      },
+      {
+        "use": "Were",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I in your shoes, I would take the job.",
+        "choices": [
+          "Was",
+          "Had",
+          "Were",
+          "Should"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Inverted second conditionals always use ‘were’, never ‘was’.",
+          "‘Had I in your shoes’ has no participle and makes no sense.",
+          "",
+          "‘Should I in your shoes’ needs a verb."
+        ],
+        "explain": "Imaginary present: Were I…"
+      },
+      {
+        "use": "Were",
+        "text": "Were she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the company, we would lose our best manager.",
+        "choices": [
+          "leave",
+          "leaves",
+          "left",
+          "to leave"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "After ‘Were + subject’ an action verb needs ‘to’.",
+          "‘Leaves’ is present simple.",
+          "‘Left’ doesn’t follow ‘were she’ here.",
+          ""
+        ],
+        "explain": "Were + subject + to + base verb."
+      },
+      {
+        "use": "Should",
+        "text": "Should the flight <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> cancelled, you will get a refund.",
+        "choices": [
+          "is",
+          "be",
+          "will be",
+          "being"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After ‘should’ use the base verb: ‘be’, not ‘is’.",
+          "",
+          "‘Will’ cannot follow ‘should’.",
+          "‘Being’ needs a different structure."
+        ],
+        "explain": "Should + subject + base verb: be."
+      },
+      {
+        "use": "Had",
+        "text": "Had they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the instructions, they wouldn’t have broken it.",
+        "choices": [
+          "reading",
+          "to read",
+          "read",
+          "reads"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘had’ use the past participle: ‘read’.",
+          "‘To read’ follows ‘were’, not ‘had’.",
+          "",
+          "‘Reads’ is present."
+        ],
+        "explain": "Had + subject + past participle."
+      },
+      {
+        "use": "Negative",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we not booked, we wouldn’t have got a table.",
+        "choices": [
+          "Hadn’t",
+          "If had",
+          "Did",
+          "Had"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Negative inversion isn’t contracted: ‘Had we not…’.",
+          "Never keep ‘if’ with inversion.",
+          "‘Did’ cannot invert.",
+          ""
+        ],
+        "explain": "Had + subject + not + participle."
+      },
+      {
+        "use": "Negative",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it not been for your advice, I would have made a big mistake.",
+        "choices": [
+          "Had",
+          "Hadn’t",
+          "Were",
+          "Weren’t"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Negative inversion isn’t contracted.",
+          "‘Were it not been’ is impossible: ‘been’ needs ‘had’.",
+          "Contracted forms can’t invert."
+        ],
+        "explain": "Past version of ‘Were it not for’: Had it not been for… = without your advice (then)."
+      },
+      {
+        "use": "Negative",
+        "text": "Which is correct?",
+        "choices": [
+          "Shouldn’t you agree, please tell us.",
+          "If should you not agree, please tell us.",
+          "Should you not agree, please tell us.",
+          "Should not you agree, please tell us."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Inverted negatives are never contracted.",
+          "Never keep ‘if’ with inversion.",
+          "",
+          "‘Not’ goes after the subject: Should you not…"
+        ],
+        "explain": "Should + subject + not + base verb."
+      },
+      {
+        "use": "Keep if?",
+        "text": "Which is correct?",
+        "choices": [
+          "If had I seen her, I’d have waved.",
+          "If I seen her, I’d have waved.",
+          "Had I saw her, I’d have waved.",
+          "Had I seen her, I’d have waved."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Drop ‘if’ completely when you invert.",
+          "With ‘if’ you need ‘had’: If I had seen her.",
+          "After ‘had’ use the participle ‘seen’, not ‘saw’.",
+          ""
+        ],
+        "explain": "Inverted third conditional: Had I seen…"
+      },
+      {
+        "use": "Result",
+        "text": "Had you called me, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you up.",
+        "choices": [
+          "would have picked",
+          "would pick",
+          "will pick",
+          "had picked"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Would pick’ is about now; the call was in the past.",
+          "‘Will’ is for a real future.",
+          "‘Had picked’ is not a result form."
+        ],
+        "explain": "Third conditional result: would have + participle."
+      },
+      {
+        "use": "Result",
+        "text": "Were I a millionaire, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a yacht.",
+        "choices": [
+          "would have bought",
+          "would buy",
+          "will buy",
+          "bought"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Would have bought’ is about the past; ‘Were I’ is present.",
+          "",
+          "‘Will’ is for a real future.",
+          "‘Bought’ is a fact."
+        ],
+        "explain": "Second conditional result: would + base verb."
+      },
+      {
+        "use": "Result",
+        "text": "Should you see Tom, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him I said hello.",
+        "choices": [
+          "you would tell",
+          "told",
+          "telling",
+          "tell"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "An instruction uses the imperative, not ‘would’.",
+          "‘Told’ is past.",
+          "‘Telling’ needs an auxiliary.",
+          ""
+        ],
+        "explain": "First conditional result: an imperative is common."
+      },
+      {
+        "use": "Which auxiliary",
+        "text": "Which word can start an inverted conditional?",
+        "choices": [
+          "Had",
+          "Did",
+          "Would",
+          "Will"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Did’ never inverts in conditionals.",
+          "‘Would’ goes in the result, not the condition.",
+          "‘Will’ never starts a condition."
+        ],
+        "explain": "Only should, were and had invert in conditionals."
+      },
+      {
+        "use": "Register",
+        "text": "Inverted conditionals are typical of…",
+        "choices": [
+          "text messages",
+          "formal writing",
+          "chatting with friends",
+          "children’s stories"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Text messages are informal; inversion sounds too formal there.",
+          "",
+          "With friends, ‘if’ is more natural.",
+          "Simple stories normally use ‘if’."
+        ],
+        "explain": "Inversion is formal: letters, notices, essays and speeches."
+      },
+      {
+        "use": "Had",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the government acted sooner, the crisis might have been avoided.",
+        "choices": [
+          "Should",
+          "Were",
+          "Had",
+          "Did"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Should’ is for future conditions; this is the past.",
+          "‘Were the government acted’ is wrong: ‘were’ doesn’t go with a participle here.",
+          "",
+          "‘Did’ cannot invert."
+        ],
+        "explain": "A past condition: Had + subject + participle."
+      },
+      {
+        "use": "Should",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the printer stop working, press the reset button.",
+        "choices": [
+          "Should",
+          "Had",
+          "Were",
+          "Would"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Had’ is for past conditions.",
+          "‘Were the printer stop’ needs ‘to’ and sounds unlikely-imaginary.",
+          "‘Would’ cannot invert."
+        ],
+        "explain": "An instruction for a future possibility: Should…"
+      },
+      {
+        "use": "Were",
+        "text": "Were he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the truth, nobody would believe him.",
+        "choices": [
+          "tell",
+          "to tell",
+          "told",
+          "tells"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After ‘Were + subject’ an action verb needs ‘to’.",
+          "",
+          "‘Told’ doesn’t follow ‘were he’ here.",
+          "‘Tells’ is present."
+        ],
+        "explain": "Were + subject + to + base verb."
+      },
+      {
+        "use": "Mixed",
+        "text": "Had I studied medicine, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a doctor now.",
+        "choices": [
+          "would have been",
+          "will be",
+          "would be",
+          "had been"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Now’ shows a present result.",
+          "‘Will’ is for a real future.",
+          "",
+          "‘Had been’ is not a result."
+        ],
+        "explain": "Mixed inversion: past condition, present result."
+      },
+      {
+        "use": "Should",
+        "text": "Should you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to cancel, please give us 24 hours’ notice.",
+        "choices": [
+          "wishes",
+          "will wish",
+          "wished",
+          "wish"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "After ‘should’ use the base verb, no -s.",
+          "‘Will’ cannot follow ‘should’.",
+          "‘Wished’ is past.",
+          ""
+        ],
+        "explain": "Should + subject + base verb: wish."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "If",
+          "I",
+          "known",
+          "the",
+          "truth,",
+          "I",
+          "would",
+          "have",
+          "acted."
+        ],
+        "errorIndex": 0,
+        "correction": "Had",
+        "type": "Keeping if",
+        "message": "Use inversion without ‘if’: ‘Had I known the truth…’."
+      },
+      {
+        "tokens": [
+          "Hadn’t",
+          "we",
+          "checked,",
+          "we",
+          "would",
+          "have",
+          "been",
+          "lost."
+        ],
+        "errorIndex": 0,
+        "correction": "Had",
+        "type": "Contracted negative",
+        "message": "Don’t contract: ‘Had we not checked…’."
+      },
+      {
+        "tokens": [
+          "Weren’t",
+          "it",
+          "for",
+          "you,",
+          "I",
+          "would",
+          "give",
+          "up."
+        ],
+        "errorIndex": 0,
+        "correction": "Were",
+        "type": "Contracted negative",
+        "message": "Don’t contract: ‘Were it not for you…’."
+      },
+      {
+        "tokens": [
+          "Did",
+          "I",
+          "know",
+          "the",
+          "answer,",
+          "I",
+          "would",
+          "tell",
+          "you."
+        ],
+        "errorIndex": 0,
+        "correction": "Were",
+        "type": "Wrong auxiliary",
+        "message": "‘Did’ can’t invert. Use ‘Were I to know…’ or ‘If I knew…’."
+      },
+      {
+        "tokens": [
+          "Would",
+          "you",
+          "need",
+          "help,",
+          "please",
+          "call",
+          "me."
+        ],
+        "errorIndex": 0,
+        "correction": "Should",
+        "type": "Wrong auxiliary",
+        "message": "Only ‘should’ inverts for a future condition: ‘Should you need help…’."
+      },
+      {
+        "tokens": [
+          "Was",
+          "I",
+          "in",
+          "your",
+          "position,",
+          "I",
+          "would",
+          "accept."
+        ],
+        "errorIndex": 0,
+        "correction": "Were",
+        "type": "Wrong auxiliary",
+        "message": "Inverted second conditionals always use ‘were’."
+      },
+      {
+        "tokens": [
+          "Should",
+          "you",
+          "needs",
+          "help,",
+          "call",
+          "me."
+        ],
+        "errorIndex": 2,
+        "correction": "need",
+        "type": "Verb after should",
+        "message": "After ‘should’ use the base verb: ‘need’."
+      },
+      {
+        "tokens": [
+          "Should",
+          "the",
+          "bus",
+          "is",
+          "late,",
+          "take",
+          "a",
+          "taxi."
+        ],
+        "errorIndex": 3,
+        "correction": "be",
+        "type": "Verb after should",
+        "message": "After ‘should’ use the base verb: ‘be’."
+      },
+      {
+        "tokens": [
+          "Should",
+          "you",
+          "will",
+          "have",
+          "questions,",
+          "contact",
+          "us."
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Will after should",
+        "message": "No ‘will’ after ‘should’: ‘Should you have questions…’."
+      },
+      {
+        "tokens": [
+          "Were",
+          "she",
+          "resign,",
+          "the",
+          "company",
+          "would",
+          "suffer."
+        ],
+        "errorIndex": 2,
+        "correction": "to resign",
+        "type": "Missing to",
+        "message": "Were + subject + to + verb: ‘Were she to resign’."
+      },
+      {
+        "tokens": [
+          "Had",
+          "I",
+          "knew,",
+          "I",
+          "would",
+          "have",
+          "helped."
+        ],
+        "errorIndex": 2,
+        "correction": "known",
+        "type": "Participle after had",
+        "message": "After ‘had’ use the participle: ‘known’."
+      },
+      {
+        "tokens": [
+          "Had",
+          "they",
+          "went",
+          "by",
+          "train,",
+          "they’d",
+          "have",
+          "arrived."
+        ],
+        "errorIndex": 2,
+        "correction": "gone",
+        "type": "Participle after had",
+        "message": "After ‘had’ use the participle: ‘gone’."
+      },
+      {
+        "tokens": [
+          "Had",
+          "we",
+          "took",
+          "a",
+          "map,",
+          "we",
+          "wouldn’t",
+          "have",
+          "got",
+          "lost."
+        ],
+        "errorIndex": 2,
+        "correction": "taken",
+        "type": "Participle after had",
+        "message": "After ‘had’ use the participle: ‘taken’."
+      },
+      {
+        "tokens": [
+          "Shouldn’t",
+          "you",
+          "agree,",
+          "please",
+          "let",
+          "us",
+          "know."
+        ],
+        "errorIndex": 0,
+        "correction": "Should",
+        "type": "Contracted negative",
+        "message": "Don’t contract: ‘Should you not agree…’."
+      },
+      {
+        "tokens": [
+          "Had",
+          "you",
+          "told",
+          "me,",
+          "I",
+          "would",
+          "help",
+          "you",
+          "yesterday."
+        ],
+        "errorIndex": 6,
+        "correction": "have helped",
+        "type": "Result",
+        "message": "A past result: ‘I would have helped you’."
+      },
+      {
+        "tokens": [
+          "Were",
+          "I",
+          "rich,",
+          "I",
+          "will",
+          "buy",
+          "a",
+          "castle."
+        ],
+        "errorIndex": 4,
+        "correction": "would",
+        "type": "Result",
+        "message": "Second conditional result: ‘I would buy’."
+      },
+      {
+        "tokens": [
+          "Had",
+          "I",
+          "known,",
+          "I",
+          "would",
+          "have",
+          "came",
+          "earlier."
+        ],
+        "errorIndex": 6,
+        "correction": "come",
+        "type": "Result",
+        "message": "After ‘would have’ use the participle: ‘come’."
+      },
+      {
+        "tokens": [
+          "Should",
+          "I",
+          "known,",
+          "I",
+          "would",
+          "have",
+          "called."
+        ],
+        "errorIndex": 0,
+        "correction": "Had",
+        "type": "Should with past",
+        "message": "A past condition needs ‘Had I known’."
+      },
+      {
+        "tokens": [
+          "Were",
+          "we",
+          "left",
+          "earlier,",
+          "we’d",
+          "have",
+          "caught",
+          "it."
+        ],
+        "errorIndex": 0,
+        "correction": "Had",
+        "type": "Were with past",
+        "message": "A past condition: ‘Had we left earlier…’."
+      },
+      {
+        "tokens": [
+          "Should",
+          "you",
+          "recieve",
+          "this",
+          "message,",
+          "please",
+          "reply."
+        ],
+        "errorIndex": 2,
+        "correction": "receive",
+        "type": "Spelling",
+        "message": "Spelling: ‘receive’ — e before i after c."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which auxiliary, multiple choice and spot-the-mistake. In the typing questions write Should, Were or Had, or the verb after it. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "auxiliary": "Should, were or had",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "auxiliary",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Had",
+        "sentText": "{{blank}} I seen the sign, I would have stopped.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Had"
+        ],
+        "display": "Had",
+        "explain": "A past condition: Had + subject + participle.",
+        "wrongNote": "Past condition → ‘Had’."
+      },
+      {
+        "type": "fill",
+        "use": "Should",
+        "sentText": "{{blank}} you lose your card, call the bank immediately.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Should"
+        ],
+        "display": "Should",
+        "explain": "A possible future event: Should + subject + base verb.",
+        "wrongNote": "Future possibility → ‘Should’."
+      },
+      {
+        "type": "fill",
+        "use": "Were",
+        "sentText": "{{blank}} I taller, I would join the volleyball team.",
+        "hint": "Should / Were / Had",
+        "answers": [
+          "Were"
+        ],
+        "display": "Were",
+        "explain": "An imaginary present: Were + subject + adjective.",
+        "wrongNote": "Imaginary present → ‘Were’."
+      },
+      {
+        "type": "fill",
+        "use": "Negative",
+        "sentText": "Had she {{blank}} called, I would have forgotten.",
+        "hint": "not",
+        "answers": [
+          "not"
+        ],
+        "display": "not",
+        "explain": "Negative inversion: Had + subject + not.",
+        "wrongNote": "Don’t contract: ‘Had she not…’."
+      },
+      {
+        "type": "order",
+        "use": "Had",
+        "tokens": [
+          "Had",
+          "I",
+          "known,",
+          "I",
+          "would",
+          "have",
+          "called."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "have",
+            "called",
+            "had",
+            "I",
+            "known."
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Should",
+        "tokens": [
+          "Should",
+          "you",
+          "need",
+          "me,",
+          "call."
+        ],
+        "alts": [
+          [
+            "call",
+            "should",
+            "you",
+            "need",
+            "me."
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Were",
+        "tokens": [
+          "Were",
+          "I",
+          "you,",
+          "I",
+          "would",
+          "wait."
+        ],
+        "alts": [
+          [
+            "I",
+            "would",
+            "wait",
+            "were",
+            "I",
+            "you."
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Negative",
+        "tokens": [
+          "Had",
+          "we",
+          "not",
+          "run,",
+          "we",
+          "would",
+          "have",
+          "missed",
+          "it."
+        ],
+        "alts": [
+          [
+            "we",
+            "would",
+            "have",
+            "missed",
+            "it",
+            "had",
+            "we",
+            "not",
+            "run."
+          ]
+        ]
+      },
+      {
+        "type": "auxiliary",
+        "use": "Auxiliary",
+        "text": "{{blank}} the weather be bad, the race will be postponed.",
+        "choices": [
+          "Had",
+          "Should",
+          "Were",
+          "Did"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Had the weather be’ is wrong: ‘had’ needs a participle.",
+          "",
+          "‘Were the weather be’ is wrong: ‘were’ is already the verb.",
+          "‘Did’ cannot invert."
+        ],
+        "explain": "A future possibility + base verb ‘be’: Should."
+      },
+      {
+        "type": "auxiliary",
+        "use": "Auxiliary",
+        "text": "{{blank}} I a bird, I would fly over the ocean.",
+        "choices": [
+          "Should",
+          "Had",
+          "Was",
+          "Were"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Should I a bird’ needs a verb.",
+          "‘Had I a bird’ means ‘if I had a bird’ — different meaning.",
+          "Inversion uses ‘were’, not ‘was’.",
+          ""
+        ],
+        "explain": "Imaginary present with a noun: Were I…"
+      },
+      {
+        "type": "auxiliary",
+        "use": "Auxiliary",
+        "text": "{{blank}} we taken the earlier train, we would have arrived on time.",
+        "choices": [
+          "Had",
+          "Were",
+          "Should",
+          "Did"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Were we taken’ is passive and wrong here.",
+          "‘Should we taken’ needs a base verb.",
+          "‘Did’ cannot invert."
+        ],
+        "explain": "Past condition + participle: Had."
+      },
+      {
+        "type": "auxiliary",
+        "use": "Auxiliary",
+        "text": "{{blank}} you require a receipt, please ask the cashier.",
+        "choices": [
+          "Had",
+          "Were",
+          "Should",
+          "Would"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Had you require’ needs a participle.",
+          "‘Were you require’ needs ‘to’.",
+          "",
+          "‘Would’ cannot invert."
+        ],
+        "explain": "Polite future condition + base verb: Should."
+      },
+      {
+        "type": "mc",
+        "use": "Were",
+        "text": "Were they {{blank}} the match, they would be champions.",
+        "choices": [
+          "win",
+          "won",
+          "to win",
+          "winning"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘Were + subject’ an action verb needs ‘to’.",
+          "‘Won’ doesn’t follow ‘were they’ here.",
+          "",
+          "‘Winning’ changes the structure."
+        ],
+        "explain": "Were + subject + to + verb."
+      },
+      {
+        "type": "mc",
+        "use": "Keep if?",
+        "text": "Which is correct?",
+        "choices": [
+          "Should you need help, ask.",
+          "If should you need help, ask.",
+          "Should you will need help, ask.",
+          "Should you needs help, ask."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Never keep ‘if’ with inversion.",
+          "No ‘will’ after ‘should’.",
+          "No -s after ‘should’."
+        ],
+        "explain": "Should + subject + base verb."
+      },
+      {
+        "type": "mc",
+        "use": "Result",
+        "text": "Had I listened, I {{blank}} the answer.",
+        "choices": [
+          "would know",
+          "will know",
+          "had known",
+          "would have known"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Would know’ is about now; listening was in the past.",
+          "‘Will’ is for the future.",
+          "‘Had known’ is not a result.",
+          ""
+        ],
+        "explain": "Past result: would have known."
+      },
+      {
+        "type": "mc",
+        "use": "Negative",
+        "text": "Which is correct?",
+        "choices": [
+          "Weren’t it for the map, we’d be lost.",
+          "Were it not for the map, we’d be lost.",
+          "Were not it for the map, we’d be lost.",
+          "If were it not for the map, we’d be lost."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "No contracted negatives in inversion.",
+          "",
+          "‘Not’ goes after the subject.",
+          "Never keep ‘if’."
+        ],
+        "explain": "Were it not for… = Without…"
+      },
+      {
+        "type": "error",
+        "use": "Missing to",
+        "tokens": [
+          "Were",
+          "he",
+          "sell",
+          "the",
+          "house,",
+          "he’d",
+          "be",
+          "rich."
+        ],
+        "errorIndex": 2,
+        "correction": "to sell",
+        "message": "Were + subject + to + verb: ‘Were he to sell…’."
+      },
+      {
+        "type": "error",
+        "use": "Contracted negative",
+        "tokens": [
+          "Hadn’t",
+          "I",
+          "seen",
+          "it,",
+          "I",
+          "wouldn’t",
+          "believe",
+          "it."
+        ],
+        "errorIndex": 0,
+        "correction": "Had",
+        "message": "Don’t contract: ‘Had I not seen it…’."
+      },
+      {
+        "type": "error",
+        "use": "Participle after had",
+        "tokens": [
+          "Had",
+          "she",
+          "saw",
+          "the",
+          "email,",
+          "she’d",
+          "have",
+          "replied."
+        ],
+        "errorIndex": 2,
+        "correction": "seen",
+        "message": "After ‘had’ use the participle: ‘seen’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong auxiliary",
+        "tokens": [
+          "Did",
+          "you",
+          "need",
+          "help,",
+          "call",
+          "me."
+        ],
+        "errorIndex": 0,
+        "correction": "Should",
+        "message": "Only ‘should’ inverts for a future condition."
+      }
+    ]
+  }
+}
