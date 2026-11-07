@@ -30,42 +30,77 @@ related:
   - { title: "All 12 verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
   - { title: "Time Expressions for Verb Tenses", href: "/grammar/verb-tenses/time-expressions-tenses/" }
+next: { title: "Since vs For", href: "/grammar/verb-tenses/since-vs-for/" }
 draft: false
 ---
 
-## already, yet, just, still
+## How to use them with the present perfect
 
-| Adverb | Meaning | Position | Example |
-|---|---|---|---|
-| already | sooner than expected (positive) | before the main verb | I've **already** finished. |
-| yet | up to now (negative/question) | end of sentence | Have you finished **yet**? |
-| just | a very short time ago (positive) | before the main verb | She's **just** left. |
-| still | continuing (often surprise) | before the verb / 'haven't' | I **still** haven't heard. |
+These four adverbs are very common with the present perfect (have/has + past participle). Each one has its own meaning and its own place in the sentence.
+
+| Adverb | Meaning | Sentence type | Position | Example |
+|---|---|---|---|---|
+| already | sooner than expected | positive (and surprised questions) | between have and the participle | I**’ve already finished**. |
+| yet | up to now | negative and question | end of the sentence | Have you finished **yet**? |
+| just | a very short time ago | positive | between have and the participle | She**’s just left**. |
+| still | it hasn’t changed | negative (and other tenses) | before haven’t/hasn’t | I **still haven’t heard**. |
+
+**Short answers:** *Have you done it yet? — Yes, I’ve already done it. / No, not yet.*
 
 ## When to use each
 
 ### 1. already — sooner than expected
 
-- We've **already** seen this film. He's **already** gone home.
+The action is finished, maybe earlier than you thought.
+
+- We**’ve already seen** this film.
+- He**’s already gone** home.
 
 ### 2. yet — up to now (negatives and questions)
 
-- I haven't read it **yet**. Has the post arrived **yet**?
+We expect the action to happen, but it hasn’t happened so far.
+
+- I **haven’t read** it **yet**.
+- **Has** the post **arrived yet**?
+
+> ⚠️ Typical error: ✗ ~~I’ve finished yet.~~ → ✓ **I’ve already finished.** (*Yet* is for negatives and questions.)
 
 ### 3. just — a moment ago
 
-- The train has **just** left. I've **just** finished lunch.
+The action happened very recently.
+
+- The train **has just left**.
+- I**’ve just finished** lunch.
 
 ### 4. still — it continues
 
-- She's **still** waiting. They **still** haven't replied.
+The situation hasn’t changed, often with surprise or impatience.
 
-> ⚠️ Position: *already/just* go **between** have and the participle (*I've **just** arrived*); *yet* goes at the **end** (*not **yet***); *still* goes **before** the verb (*I **still** don't know*).
+- They **still haven’t replied**.
+- She’s **still** waiting. (present continuous)
+
+## Word order
+
+| Adverb | Rule | Example |
+|---|---|---|
+| already / just | after have/has, before the participle | I’ve **just** arrived. |
+| yet | at the end, after the object | I haven’t done my homework **yet**. |
+| still + negative | before haven’t/hasn’t | He **still** hasn’t called. |
+| still + be | after the verb *be* | She’s **still** at work. |
+
+## Already vs yet in questions
+
+Normal questions use **yet**. A question with **already** shows surprise that something happened so soon.
+
+- **Have** you **finished yet**? (a real question)
+- **Have** you **already finished**? (Wow, that was quick!)
 
 ## Common mistakes
 
-**1. 'yet' in a positive.** *~~I've finished yet~~* → **I've already finished** (or *I've just finished*).
+**1. Yet in a positive sentence.** ✗ *~~I’ve finished yet.~~* → ✓ **I’ve already finished** (or *I’ve just finished*).
 
-**2. 'already' at the end.** *~~I've seen it already... yet?~~* mixing → keep them separate: **I've already seen it.**
+**2. Still after haven’t.** ✗ *~~I haven’t still finished.~~* → ✓ **I still haven’t finished.**
 
-**3. Wrong position for 'still'.** *~~I haven't still finished~~* → **I still haven't finished. Pro tip:** already/just = positive & mid-sentence; yet = negative/question & at the end; still = it's still going on.
+**3. Yet in the middle of the sentence.** ✗ *~~I haven’t yet done my homework.~~* (very formal) → ✓ **I haven’t done my homework yet.**
+
+**Pro tip:** already and just = positive, in the middle; yet = negative or question, at the end; still = before the negative, because the waiting continues.
