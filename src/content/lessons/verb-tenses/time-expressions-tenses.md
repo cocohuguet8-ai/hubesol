@@ -30,6 +30,7 @@ related:
   - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
   - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
+next: { title: "All verb tenses", href: "/grammar/verb-tenses/" }
 draft: false
 ---
 
@@ -37,25 +38,70 @@ draft: false
 
 | Tense | Typical time expressions | Example |
 |---|---|---|
-| Present simple | always, usually, often, every day, on Mondays | I **usually** walk to work. |
-| Present continuous | now, right now, at the moment, today, this week | I'm working from home **today**. |
-| Present perfect | ever, never, just, already, yet, so far, since, for, recently | I've **just** finished. |
-| Past simple | yesterday, last week, in 2019, ago, when, then | I saw her **yesterday**. |
-| Past continuous | while, as, when (+ background), at 8pm yesterday | I was cooking **at eight**. |
-| Future (will / going to) | tomorrow, next week, soon, later, in the future | I'll call you **later**. |
+| Present simple | always, usually, often, every day, on Mondays | I **usually walk** to work. |
+| Present continuous | now, right now, at the moment, today, this week | I**’m working** from home **today**. |
+| Present perfect | ever, never, just, already, yet, so far, since, for, recently | I**’ve just finished**. |
+| Past simple | yesterday, last week, in 2019, ago, when | I **saw** her **yesterday**. |
+| Past continuous | while, at 8pm yesterday, all evening | I **was cooking** **at eight**. |
+| Future (will / going to) | tomorrow, next week, soon, later, in the future | I**’ll call** you **later**. |
 
 ## The three big signals
 
-- **Finished time** (yesterday, in 2019, ago) → **past simple.**
-- **Unfinished time / experience** (ever, never, just, since, for) → **present perfect.**
-- **Now / temporary** (now, at the moment, today) → **present continuous.**
+- **Finished time** (*yesterday, in 2019, ago*) → **past simple.**
+- **Unfinished time or experience** (*ever, never, just, since, for*) → **present perfect.**
+- **Now or temporary** (*now, at the moment, this week*) → **present continuous.**
 
-> ⚠️ Typical error: ~~I've seen him yesterday.~~ → 'Yesterday' is finished time, so use the past simple: *I saw him yesterday.*
+## When to use each group
+
+### 1. Habits and routines: present simple
+
+Frequency words describe how often something happens.
+
+- She **always gets up** at seven.
+- We **play** football **on Saturdays**.
+
+### 2. Finished time: past simple
+
+These expressions point to a moment that is over.
+
+- I **met** him **two years ago**.
+- They **moved** here **in 2019**.
+
+> ⚠️ Typical error: ✗ ~~I’ve seen him yesterday.~~ → ✓ **I saw him yesterday.** (*Yesterday* is finished time.)
+
+### 3. Up to now: present perfect
+
+These expressions connect the past with the present.
+
+- **Have** you **ever been** to Japan?
+- I**’ve lived** here **since** 2020.
+
+> ⚠️ Typical error: ✗ ~~I live here since 2020.~~ → ✓ **I’ve lived here since 2020.**
+
+## Word order
+
+| Expression | Position | Example |
+|---|---|---|
+| always, usually, never, just, already | before the main verb (after *be*) | I **never** eat meat. / She’s **always** late. |
+| yesterday, last week, ago, tomorrow | end of the sentence (or the start) | **Last week** I was ill. |
+| yet | end of the sentence | I haven’t finished **yet**. |
+| at the moment, now | end (or start) of the sentence | He’s sleeping **at the moment**. |
+
+## Words that go with more than one tense
+
+| Expression | Tense | Example |
+|---|---|---|
+| today / this week | present perfect if the period isn’t finished | I**’ve had** three coffees **today**. |
+| today / this week | past simple if you mean a finished part of it | I **had** a coffee **this morning**. (It’s now the afternoon.) |
+| when | past simple or past continuous | **When** she called, I **was cooking**. |
+| for | present perfect (continuing) or past simple (finished) | I**’ve worked** here **for** a year. / I **worked** there **for** a year. |
 
 ## Common mistakes
 
-**1. Present perfect with finished time.** *~~I've finished it yesterday~~* → **I finished it yesterday.**
+**1. Present perfect with finished time.** ✗ *~~I’ve finished it yesterday.~~* → ✓ **I finished it yesterday.**
 
-**2. Present simple with 'now'.** *~~I work now~~* (at this moment) → **I'm working now.**
+**2. Present simple with now.** ✗ *~~I work now.~~* (at this moment) → ✓ **I’m working now.**
 
-**3. Past simple with since/for for a continuing situation.** *~~I lived here for years~~* (still here) → **I've lived here for years. Pro tip:** since/for + continuing = present perfect.
+**3. Past simple with since/for for a situation that continues.** ✗ *~~I lived here for years.~~* (still here) → ✓ **I’ve lived here for years.**
+
+**Pro tip:** find the time expression first — it often tells you the tense before you even look at the verb.
