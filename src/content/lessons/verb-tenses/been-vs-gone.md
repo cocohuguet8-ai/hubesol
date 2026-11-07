@@ -28,38 +28,76 @@ related:
   - { title: "All 12 verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
   - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
+next: { title: "Already, Yet, Just & Still", href: "/grammar/verb-tenses/already-yet-just-still/" }
 draft: false
 ---
 
-## been vs gone
+## How to form it
+
+Both *been* and *gone* are past participles of the verb *go* when we talk about travel. They go with the **present perfect**: have/has + been/gone.
+
+| Form | Structure | Example |
+|---|---|---|
+| Affirmative | subject + have/has + been/gone (to) | She**’s been** to Paris. / He**’s gone** to work. |
+| Negative | subject + haven’t/hasn’t + been (to) | I **haven’t been** to the gym this week. |
+| Question | Have/Has + subject + been (to)? | **Have** you ever **been** to Japan? |
+
+**Prepositions:** use **to** before a place (*been to Rome, gone to the shop*). Use no *to* before *home* and before *abroad/out/away* (*She’s gone home. He’s gone out.*).
+
+## The difference at a glance
 
 | Structure | Meaning | Where are they now? |
 |---|---|---|
-| have/has **been** (to) | went and came back | here / returned |
+| have/has **been** (to) | went and came back | here / back again |
 | have/has **gone** (to) | went and is still there | away / not here |
 
 ## When to use each
 
-### 1. been — went and returned
+### 1. been — went and came back
 
-- "Where were you?" "**I've been** to the post office." (I'm back now)
-- **She's been** to the doctor's, so she's feeling better.
+The person visited a place and has returned.
+
+- “Where were you?” “**I’ve been** to the post office.” (I’m back now.)
+- **She’s been** to the doctor’s, so she’s feeling better.
 
 ### 2. gone — went and is still there
 
-- "Where's Tom?" "**He's gone** to the gym." (he's not here)
-- **They've gone** on holiday — they'll be back next week.
+The person left and has not returned yet.
 
-### 3. been for life experience
+- “Where’s Tom?” “**He’s gone** to the gym.” (He isn’t here.)
+- **They’ve gone** on holiday — they’ll be back next week.
 
-- **I've been** to Japan three times. Have you ever **been** to Rome?
+### 3. been for life experiences
 
-> ⚠️ If the person is back, use **been**; if they're still away, use **gone**: *She's **been** to the shop* (she's here) vs *She's **gone** to the shop* (she's out).
+With *ever*, *never* and *times*, use **been**: the person went and came back, maybe many times.
+
+- **I’ve been** to Japan three times.
+- **Have** you ever **been** to Rome?
+
+> ⚠️ Typical error: ✗ ~~I’ve gone to Paris twice.~~ → ✓ **I’ve been to Paris twice.** (A life experience: you came back.)
+
+## Been with I and you
+
+If you are talking to someone, they are with you, so they can’t still be away. That’s why *I’ve gone* and *you’ve gone* are very rare: we almost always say **I’ve been** and **you’ve been**.
+
+- “You’re back! Where **have** you **been**?” “To the market.”
+
+## Signal words
+
+| Word | Usually goes with | Example |
+|---|---|---|
+| ever / never | been | Have you **ever been** to Scotland? |
+| … times / twice | been | We’ve **been** to Rome **twice**. |
+| just | both | I’ve **just been** to the bank. / She’s **just gone** out. |
+| Where’s…? | gone | **Where’s** Ana? — She’s **gone** to lunch. |
+| back next week / at two | gone | They’ve **gone** away; they’ll be **back next week**. |
 
 ## Common mistakes
 
-**1. 'gone' when the person has returned.** *"How was your trip?" ~~"I've gone to Spain."~~* → **"I've been to Spain."**
+**1. Gone when the person has come back.** ✗ *“How was your trip?” ~~“I’ve gone to Spain.”~~* → ✓ **“I’ve been to Spain.”**
 
-**2. 'been' when the person is still away.** *"Where's Ana?" ~~"She's been to lunch."~~* (she's still out) → **"She's gone to lunch."**
+**2. Been when the person is still away.** ✗ *“Where’s Ana?” ~~“She’s been to lunch.”~~* (she’s still out) → ✓ **“She’s gone to lunch.”**
 
-**3. 'gone' for experience.** *~~I've gone to Paris twice~~* → **I've been to Paris twice. Pro tip:** been = there and back; gone = there and still away.
+**3. Past simple went with ever.** Life experiences without a time need the present perfect. ✗ *~~Did you ever went to London?~~* → ✓ **Have you ever been to London?**
+
+**Pro tip:** ask “Are they here now?” If yes, use **been**. If no, use **gone**.
