@@ -28,6 +28,7 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "First Conditional", href: "/grammar/conditionals/first-conditional/" }
   - { title: "Third Conditional", href: "/grammar/conditionals/third-conditional/" }
+next: { title: "First vs Second Conditional", href: "/grammar/conditionals/first-vs-second-conditional/" }
 draft: false
 ---
 
@@ -35,31 +36,82 @@ draft: false
 
 | Clause | Verb form | Example |
 |---|---|---|
-| If-clause (the condition) | if + past simple | **If I had** more time, |
-| Main clause (the result) | would (**'d**) + base verb | **I'd learn** the piano. |
+| If-clause (the condition) | if + past simple | **If I had** more money, |
+| Main clause (the result) | would / wouldn't + base verb | I**'d travel** round the world. |
 
-The past simple here does **not** mean past time — it signals that the situation is imaginary. In the second conditional, use **were** for every subject (*If I were, if he were*), and you can replace *would* with *could* or *might*.
+The if-clause uses the **past simple**, but it does **not** talk about the past: it talks about an **imaginary** present or an **unlikely** future. The result uses **would** (*'d*) or **wouldn't** + the base verb. Comma rule: comma after the if-clause when it comes first; no comma when it comes second.
+
+| Form | Example |
+|---|---|
+| Affirmative | If she lived nearer, she**'d visit** more often. |
+| Negative | If I **didn't have** a car, I **wouldn't go** out much. |
+| Question | What **would** you **do** if you **won** the lottery? |
+| Result first | I'd help you **if I knew** the answer. |
+
+## *Were* for all subjects
+
+With *be*, we often use **were** for every subject, especially in advice and formal English. *Was* is also common in everyday speech, but *were* is always correct.
+
+- **If I were** you, I'd apologise.
+- **If he were** taller, he'd play basketball.
+
+✗ ~~If I would be you, I'd apologise.~~ → ✓ **If I were you, I'd apologise.**
 
 ## When to use the second conditional
 
-### 1. Imaginary present or future
+### 1. Imaginary situations in the present
 
-- **If I lived** by the sea, **I'd swim** every day.
+The situation is not true now. We imagine it.
 
-### 2. Unlikely situations
+- **If I had** a dog, I**'d walk** it every morning. (I don't have a dog.)
+- **If we lived** by the sea, we**'d swim** every day. (We don't.)
 
-- **If I won** the lottery, **I'd buy** a house.
+> ⚠️ Typical error: ~~If I have a dog, I'd walk it.~~ → An imaginary present needs the past simple: *If I had a dog…*
 
-### 3. Advice (If I were you…)
+### 2. Unlikely or impossible future situations
 
-- **If I were you**, **I'd take** the job.
+We don't really expect it to happen.
 
-> ⚠️ Typical error: ~~If I would have money, I'd travel.~~ → The if-clause uses the past simple, not 'would': *If I had money, I'd travel.*
+- **If I won** the lottery, I**'d buy** a house in the mountains.
+- **If aliens landed** in Girona, what **would** you **do**?
+
+> ⚠️ Typical error: ~~If I would win the lottery, I'd buy a house.~~ → Never use *would* in the if-clause: *If I won the lottery…*
+
+### 3. Advice with *If I were you*
+
+- **If I were you**, I**'d take** the job.
+- I **wouldn't worry** about it **if I were you**.
+
+> ⚠️ Typical error: ~~If I am you, I'll take the job.~~ → Advice uses the second conditional: *If I were you, I'd take the job.*
+
+## Other forms in the result clause
+
+| Result | Meaning | Example |
+|---|---|---|
+| would | certain imaginary result | If I had time, I**'d help**. |
+| could | ability or possibility | If I had a car, I **could drive** you. |
+| might | less certain | If you asked her, she **might say** yes. |
+
+## First or second conditional?
+
+The difference is how **real** the speaker thinks the situation is.
+
+| | First conditional | Second conditional |
+|---|---|---|
+| Meaning | real, likely | imaginary, unlikely |
+| Form | if + present, will | if + past, would |
+| Example | If I **see** her, I**'ll tell** her. | If I **saw** a ghost, I**'d scream**. |
+
+See [First vs Second Conditional](/grammar/conditionals/first-vs-second-conditional/).
 
 ## Common mistakes
 
-**1. Using 'would' in the if-clause.** *~~If I would win, I'd be happy~~* → **If I won, I'd be happy.**
+**1. Using *would* in the if-clause.** The most common second-conditional error. *Would* goes in the result only. *~~If I would have money, I'd buy it~~* → **If I had money, I'd buy it.**
 
-**2. Using the present tense instead of the past.** *~~If I have a car, I'd drive~~* → **If I had a car, I'd drive.**
+**2. Using the present in the if-clause.** An imaginary situation needs the past simple. *~~If I know the answer, I'd tell you~~* → **If I knew the answer, I'd tell you.**
 
-**3. 'Was' instead of 'were'.** *~~If I was you~~* → **If I were you. Pro tip:** in the second conditional, standard English uses 'were' for all subjects.
+**3. Mixing *will* and the past.** *~~If I had time, I will help you~~* → **If I had time, I would help you.**
+
+**4. Thinking it means the past.** *If I had a car* is about **now**, not yesterday. For the past, use the [Third Conditional](/grammar/conditionals/third-conditional/).
+
+**Pro tip:** the past tense in the if-clause is a "distance" signal — it moves the situation away from reality, not back in time.
