@@ -939,12 +939,11 @@
     "title": "Beat the clock",
     "subtitle": "15 seconds per question. Watch for present-perfect traps (has/have instead of had) and irregular past participles (had gone, not had went).",
     "timeLimit": 15,
-    "showHintVerb": true,
+    "showHintVerb": false,
     "questions": [
       {
         "use": "Earlier past action",
         "text": "By the time we arrived, the shop <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
-        "hintVerb": "(close)",
         "choices": [
           "closed",
           "has closed",
@@ -963,7 +962,6 @@
       {
         "use": "Earlier past action",
         "text": "When she opened the fridge, she realised someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all the milk.",
-        "hintVerb": "(drink)",
         "choices": [
           "had drank",
           "had drunk",
@@ -982,7 +980,6 @@
       {
         "use": "Earlier past action",
         "text": "I couldn’t get in because I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys at home.",
-        "hintVerb": "(leave)",
         "choices": [
           "have left",
           "had leave",
@@ -1001,7 +998,6 @@
       {
         "use": "Earlier past action",
         "text": "By the time the ambulance arrived, the patient <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
-        "hintVerb": "(already / recover)",
         "choices": [
           "had already recovered",
           "has already recovered",
@@ -1020,7 +1016,6 @@
       {
         "use": "Reason / result",
         "text": "He was exhausted because he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all day.",
-        "hintVerb": "(travel)",
         "choices": [
           "has travelled",
           "had travel",
@@ -1039,7 +1034,6 @@
       {
         "use": "Reason / result",
         "text": "The grass was wet because it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> during the night.",
-        "hintVerb": "(rain)",
         "choices": [
           "has rained",
           "had rain",
@@ -1058,7 +1052,6 @@
       {
         "use": "Reason / result",
         "text": "She felt proud because she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the marathon.",
-        "hintVerb": "(finish)",
         "choices": [
           "had finished",
           "has finished",
@@ -1077,7 +1070,6 @@
       {
         "use": "Already / just / never",
         "text": "By the time the guests arrived, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the table.",
-        "hintVerb": "(just / set)",
         "choices": [
           "has just set",
           "had just set",
@@ -1096,7 +1088,6 @@
       {
         "use": "Already / just / never",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that restaurant before, so he didn’t know what to order.",
-        "hintVerb": "(never / try)",
         "choices": [
           "has never tried",
           "had never tried",
@@ -1115,7 +1106,6 @@
       {
         "use": "Already / just / never",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the news by the time I called her.",
-        "hintVerb": "(already / hear)",
         "choices": [
           "was already hearing",
           "has already heard",
@@ -1134,7 +1124,6 @@
       {
         "use": "Negative",
         "text": "By the time the exam started, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the last chapter.",
-        "hintVerb": "(not / read)",
         "choices": [
           "didn’t read",
           "haven’t read",
@@ -1153,7 +1142,6 @@
       {
         "use": "Negative",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the results by the time the meeting started.",
-        "hintVerb": "(not / receive)",
         "choices": [
           "hadn’t received",
           "haven’t received",
@@ -1172,7 +1160,6 @@
       {
         "use": "Negative",
         "text": "She was upset because she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> enough time to prepare.",
-        "hintVerb": "(not / have)",
         "choices": [
           "hadn’t had",
           "hasn’t had",
@@ -1191,7 +1178,6 @@
       {
         "use": "Question",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you ever visited Japan before that trip?",
-        "hintVerb": "",
         "choices": [
           "Did",
           "Have",
@@ -1210,7 +1196,6 @@
       {
         "use": "Question",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she finished the report when you asked for it?",
-        "hintVerb": "",
         "choices": [
           "Has",
           "Had",
@@ -1229,7 +1214,6 @@
       {
         "use": "Question",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the train left when you reached the platform?",
-        "hintVerb": "",
         "choices": [
           "Were",
           "Have",
@@ -1248,7 +1232,6 @@
       {
         "use": "Irregular participles",
         "text": "By the time I got to the office, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three letters.",
-        "hintVerb": "(write)",
         "choices": [
           "wrote",
           "had wrote",
@@ -1267,7 +1250,6 @@
       {
         "use": "Irregular participles",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the window before anyone noticed.",
-        "hintVerb": "(break)",
         "choices": [
           "had broken",
           "had broke",
@@ -1286,7 +1268,6 @@
       {
         "use": "Irregular participles",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my homework before the teacher checked it.",
-        "hintVerb": "(do)",
         "choices": [
           "had did",
           "had done",
@@ -1305,7 +1286,6 @@
       {
         "use": "Irregular participles",
         "text": "By the time we woke up, Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> halfway to the coast.",
-        "hintVerb": "(drive)",
         "choices": [
           "has driven",
           "had drove",
