@@ -29,40 +29,95 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "Third Conditional", href: "/grammar/conditionals/third-conditional/" }
   - { title: "Second Conditional", href: "/grammar/conditionals/second-conditional/" }
+next: { title: "All conditionals", href: "/grammar/conditionals/" }
 draft: false
 ---
 
-## Inversion — dropping 'if'
+## How to form inverted conditionals
 
-| With 'if' | Inverted (formal) |
+In formal English we can **drop *if*** and put the auxiliary **before the subject**. The meaning doesn't change; the style becomes more formal.
+
+| Conditional | With *if* | Inverted |
+|---|---|---|
+| First | **If** you **should** need help, call me. | **Should** you need help, call me. |
+| Second | **If** I **were** in your position, I'd accept. | **Were** I in your position, I'd accept. |
+| Third | **If** we **had** known, we'd have come. | **Had** we known, we'd have come. |
+
+Only three auxiliaries invert: **should, were, had**. The comma rule stays: comma after the inverted clause when it comes first.
+
+## *Should* (first conditional)
+
+*Should* + subject + base verb = *if* + present simple. It makes the condition sound **less likely** and very polite. It is common in instructions, business letters and notices.
+
+- **Should** you **have** any questions, please contact reception.
+- **Should** the alarm **sound**, leave the building immediately.
+
+> ⚠️ Typical error: ~~Should you will need help, call me.~~ → After *should* use the base verb: *Should you need help…*
+
+## *Were* (second conditional)
+
+*Were* + subject + adjective / noun / *to* + verb = *if* + past simple.
+
+- **Were** I rich, I'd buy a castle. (= If I were rich…)
+- **Were** she **to** resign, the company would struggle. (= If she resigned…)
+
+For verbs other than *be*, use **were + subject + to + base verb**.
+
+> ⚠️ Typical error: ~~Did I know the answer, I'd tell you.~~ → *Did* cannot invert. Use *Were I to know…* or *If I knew…*
+
+## *Had* (third conditional)
+
+*Had* + subject + past participle = *if* + had + past participle. This is the most common type.
+
+- **Had** I **known** about the strike, I would have taken a taxi.
+- **Had** they **left** earlier, they wouldn't have missed the flight.
+
+> ⚠️ Typical error: ~~If had I known, I'd have come.~~ → Drop *if* completely: *Had I known…*
+
+## Negatives
+
+The negative is **not contracted** and goes **after** the subject.
+
+| ✗ | ✓ |
 |---|---|
-| If I **had known** | **Had I known** |
-| If I **were** you | **Were I** you |
-| If she **were to** call | **Were she to** call |
-| If you **should** need help | **Should you** need help |
+| ~~Hadn't I seen it…~~ | **Had I not** seen it… |
+| ~~Weren't it for you…~~ | **Were it not** for you… |
+| ~~Shouldn't you agree…~~ | **Should you not** agree… |
 
-Only **had**, **were** and **should** allow this. The meaning is the same; it just sounds more formal.
+- **Had we not** checked the tickets, we'd have gone to the wrong airport.
+- **Were it not for** your help, I would fail. (= Without your help…)
 
-## When and how to use it
+## When to use inversion
 
-### 1. Third conditional — Had + subject + participle
+### Formal contexts
 
-- **Had I known** about the meeting, I would have come.
+| Context | Example |
+|---|---|
+| formal letters and emails | **Should** you require further information, do not hesitate to contact us. |
+| notices and instructions | **Should** the screen freeze, restart the device. |
+| essays and speeches (C1/C2) | **Had** the government acted sooner, the crisis might have been avoided. |
+| everyday speech | rarely — *if* sounds more natural |
 
-### 2. Second conditional — Were + subject
+### Everyday speech
 
-- **Were I** in your position, I'd accept. **Were it not** for the rain, we'd go out.
+In conversation, *if* is almost always better. Inversion can sound old-fashioned or ironic with friends: *Had I known you were coming, I'd have baked a cake!*
 
-### 3. First-conditional 'should' — a small possibility
+## Mixed inversion
 
-- **Should you** have any questions, please contact us.
+Inversion also works in mixed conditionals:
 
-> ⚠️ Keep negatives uncontracted: *Had I **not** left early* (not ~~Hadn't I left~~); *Were it **not** for…*.
+- **Had** I **taken** the job, I**'d be** living in Paris now.
+
+See [Mixed Conditionals](/grammar/conditionals/mixed-conditionals/).
 
 ## Common mistakes
 
-**1. Inverting the wrong verb.** *~~Knew I the answer~~* → **Had I known the answer** (use had/were/should only).
+**1. Keeping *if*.** *~~If had we known~~* → **Had we known.**
 
-**2. Keeping 'if' as well.** *~~If had I known~~* → **Had I known** (drop 'if').
+**2. Contracting the negative.** *~~Hadn't we known~~* → **Had we not known.**
 
-**3. Contracting the negative.** *~~Hadn't I seen it~~* → **Had I not seen it. Pro tip:** invert only had, were or should, drop 'if', and don't contract negatives.
+**3. Inverting with *did* or *would*.** Only *should, were, had* work. *~~Would you need help, call me~~* → **Should you need help, call me.**
+
+**4. Forgetting *to* after *were* + subject with a verb.** *~~Were he resign~~* → **Were he to resign.**
+
+**Pro tip:** to check an inverted clause, put *if* back and move the auxiliary after the subject — *Had I known* → *If I had known*.
