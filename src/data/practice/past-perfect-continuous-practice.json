@@ -851,16 +851,16 @@
           "Did",
           "Have",
           "Had",
-          "Were"
+          "Has"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong auxiliary: a question about duration before a past point is Had + subject + been + -ing.",
-          "Wrong auxiliary: a question about duration before a past point is Had + subject + been + -ing.",
+          "‘Did’ can’t go with ‘been’ + -ing. Before a past moment (when the bus came), use Had + subject + been + -ing.",
+          "Wrong tense: ‘have’ connects to now, but the bus came in the past. Use ‘had’.",
           "",
-          "Wrong auxiliary: a question about duration before a past point is Had + subject + been + -ing."
+          "Wrong tense and agreement: ‘has’ is present and goes with he/she/it. Before a past moment, use ‘had’."
         ],
-        "explain": "A question about duration before a past point — had + subject + been + -ing."
+        "explain": "The waiting happened before a past moment (when the bus came): Had + you + been + -ing?"
       },
       {
         "use": "Duration",
@@ -976,17 +976,17 @@
         "choices": [
           "did",
           "have",
-          "were",
+          "has",
           "had"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong auxiliary: a question about duration before a past point is Had + subject + been + -ing.",
-          "Wrong auxiliary: a question about duration before a past point is Had + subject + been + -ing.",
-          "Wrong auxiliary: a question about duration before a past point is Had + subject + been + -ing.",
+          "‘Did’ can’t go with ‘been’ + -ing. Before a past moment, use had + subject + been + -ing.",
+          "Wrong tense: ‘have’ connects to now, but the bus came in the past. Use ‘had’.",
+          "Wrong tense and agreement: ‘has’ is present and goes with he/she/it, not ‘they’. Use ‘had’.",
           ""
         ],
-        "explain": "A question about duration before a past point — had + subject + been + -ing."
+        "explain": "How long before a past moment (before the bus came): How long had they been waiting?"
       },
       {
         "use": "Result",
