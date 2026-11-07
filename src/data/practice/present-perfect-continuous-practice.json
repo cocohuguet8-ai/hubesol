@@ -756,39 +756,39 @@
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you been using my laptop?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you been using my laptop? The battery’s flat now.",
         "choices": [
           "Have",
-          "Are",
-          "Do",
+          "Has",
+          "Had",
           "Did"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong aux: ‘are’ doesn’t pair with ‘been’ in this construction.",
-          "Wrong aux: ‘do’ doesn’t pair with ‘been’.",
-          "Wrong tense: ‘did’ is simple past, not present perfect."
+          "Agreement: ‘you’ takes ‘have’, not ‘has’.",
+          "Wrong tense: ‘had been’ looks back from a past moment, but the battery is flat now. Use ‘have’.",
+          "‘Did’ can’t go with ‘been’ + -ing. The question is Have + subject + been + -ing."
         ],
-        "explain": "‘You’ takes ‘have’ in the present perfect continuous."
+        "explain": "Present perfect continuous question: Have + you + been + -ing. The result (a flat battery) is now."
       },
       {
         "use": "Question",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother been helping you?",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother been helping you with your homework this week?",
         "choices": [
-          "Does",
-          "Is",
+          "Have",
+          "Had",
           "Did",
           "Has"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong aux: ‘does’ doesn’t pair with ‘been’.",
-          "Wrong aux: ‘is’ doesn’t pair with ‘been’ in this construction.",
-          "Wrong tense: ‘did’ is simple past, not present perfect.",
+          "Agreement: ‘your brother’ is he, so use ‘has’, not ‘have’.",
+          "Wrong tense: ‘this week’ is still going on, so use the present perfect, not ‘had’.",
+          "‘Did’ can’t go with ‘been’ + -ing. The question is Has + subject + been + -ing.",
           ""
         ],
-        "explain": "‘Your brother’ (he) takes ‘has’ in the present perfect continuous."
+        "explain": "‘Your brother’ (he) takes ‘has’, and ‘this week’ is not finished: Has … been helping?"
       },
       {
         "use": "Form",
@@ -990,21 +990,21 @@
       },
       {
         "use": "Question — wh-word",
-        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you been doing all afternoon?",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you been doing all afternoon? You look tired.",
         "choices": [
-          "do",
-          "are",
+          "has",
+          "did",
           "have",
-          "did"
+          "had"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong aux: ‘do’ doesn’t pair with ‘been’.",
-          "Wrong aux: ‘are’ doesn’t pair with ‘been’ in this construction.",
+          "Agreement: ‘you’ takes ‘have’, not ‘has’.",
+          "‘Did’ can’t go with ‘been’ + -ing. After ‘what’, use have + you + been + -ing.",
           "",
-          "Wrong tense: ‘did’ is simple past, not present perfect."
+          "Wrong tense: you look tired now, so use the present perfect ‘have’, not ‘had’."
         ],
-        "explain": "‘You’ takes ‘have’, even after a question word like ‘what’."
+        "explain": "‘You look tired’ is now, so ask with the present perfect continuous: What have you been doing?"
       },
       {
         "use": "Missing been",
