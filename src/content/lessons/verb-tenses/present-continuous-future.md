@@ -29,35 +29,75 @@ related:
   - { title: "Present Continuous", href: "/grammar/verb-tenses/present-continuous/" }
   - { title: "Future Tenses", href: "/grammar/verb-tenses/future-tenses/" }
   - { title: "Will vs Going to", href: "/grammar/verb-tenses/will-vs-going-to/" }
+next: { title: "Future Continuous", href: "/grammar/verb-tenses/future-continuous/" }
 draft: false
 ---
 
-## How it works
+## How to form it
 
 The present continuous can point to the future when there is a **fixed arrangement**, usually with a future time word.
 
-| Meaning | Form | Example |
+| Form | Structure | Example |
 |---|---|---|
-| Future arrangement | am/is/are + verb-ing + future time | **I'm seeing** the dentist **tomorrow**. |
+| Affirmative | subject + am/is/are + verb-**ing** + future time | I**’m seeing** the dentist **tomorrow**. |
+| Negative | subject + am/is/are not + verb-ing | We **aren’t going** out tonight. |
+| Question | Am/Is/Are + subject + verb-ing? | **Are** you **doing** anything on Saturday? |
 
-## Fixed arrangements
+The form is the same as the present continuous for now. The **time word** (*tonight, tomorrow, on Friday*) tells you it’s the future.
 
-- **I'm having** dinner with Ana tonight.
-- **They're getting** married in June.
-- **We're leaving** early on Saturday.
+**Short answers:** *Are you working tomorrow? — Yes, I am. / No, I’m not.*
 
-## The difference from 'going to' and 'will'
+**Time expressions:** *tonight, tomorrow, this weekend, on Friday, next week, at six o’clock, in June.*
 
-- Present continuous — a **definite arrangement** (often with others): **We're meeting** at six.
-- going to — an **intention** or plan: **We're going to meet** sometime soon.
-- will — a **decision made now**: OK, **I'll meet** you at six.
+## Spelling of the -ing form
 
-> ⚠️ Typical error: ~~I meet Sara at six tonight.~~ → A personal arrangement takes the present continuous: *I'm meeting Sara at six tonight.*
+| Rule | Verb ending | Example |
+|---|---|---|
+| add -ing | most verbs | meet → meeting, fly → flying |
+| drop -e, add -ing | verbs ending in *-e* | have → having, leave → leaving |
+| double the consonant | short verb, consonant–vowel–consonant | get → getting, stop → stopping |
+
+## When to use the present continuous for the future
+
+### 1. Arrangements with other people
+
+You have agreed a time and place with someone.
+
+- I**’m having** dinner with Ana tonight.
+- **They’re getting** married in June.
+
+### 2. Things you have booked or organised
+
+There is a ticket, an appointment or a booking.
+
+- We**’re flying** to Rome on Friday.
+- She**’s starting** her new job on Monday.
+
+> ⚠️ Typical error: ✗ ~~I meet Sara at six tonight.~~ → ✓ **I’m meeting Sara at six tonight.** (A personal arrangement.)
+
+### 3. Asking about someone’s plans
+
+- What **are** you **doing** this weekend?
+
+## Present continuous, going to or will?
+
+| Form | Meaning | Example |
+|---|---|---|
+| present continuous | a fixed arrangement (time, place, people) | We**’re meeting** at six. |
+| going to | an intention — decided, but maybe not arranged | We**’re going to meet** sometime soon. |
+| will | a decision made now | OK, **I’ll meet** you at six. |
+| present simple | a timetable | The train **leaves** at 6.15. |
+
+## Verbs that sound natural
+
+Verbs of movement and meeting are very common: *go, come, leave, arrive, fly, meet, see, have (dinner/a party), start, play (a match)*. State verbs (*know, like, want*) don’t use this form.
 
 ## Common mistakes
 
-**1. Present simple for a personal arrangement.** *~~I see the dentist tomorrow~~* → **I'm seeing the dentist tomorrow.** (The present simple future is only for timetables.)
+**1. Present simple for a personal arrangement.** ✗ *~~I see the dentist tomorrow.~~* → ✓ **I’m seeing the dentist tomorrow.** (The present simple future is for timetables.)
 
-**2. Using 'will' for a fixed plan.** *~~I will meet Sara at six~~* (already arranged) → **I'm meeting Sara at six.**
+**2. Will for a fixed plan.** ✗ *~~I will meet Sara at six.~~* (already arranged) → ✓ **I’m meeting Sara at six.**
 
-**3. No time marker, so the meaning is unclear.** *~~I'm working~~* (do you mean now?) → **I'm working tomorrow. Pro tip:** add a future time word to signal the future.
+**3. No time word, so the meaning is unclear.** ✗ *~~I’m working.~~* (Now? Tomorrow?) → ✓ **I’m working tomorrow.**
+
+**Pro tip:** if you could write it in your diary or calendar, use the present continuous.
