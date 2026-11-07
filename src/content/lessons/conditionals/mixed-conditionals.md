@@ -28,47 +28,87 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "Third Conditional", href: "/grammar/conditionals/third-conditional/" }
   - { title: "Second Conditional", href: "/grammar/conditionals/second-conditional/" }
+next: { title: "Wishes: I wish / if only", href: "/grammar/conditionals/wishes-i-wish-if-only/" }
 draft: false
 ---
 
-## How to form a mixed conditional
+## How to form mixed conditionals
 
-A mixed conditional puts **two different times** in one sentence. There are two common patterns.
+A mixed conditional joins the **if-clause of one conditional** with the **result of another**, because the condition and the result are at **different times**.
 
-### Type 1 — past condition, present result
+| Type | If-clause | Result clause | Example |
+|---|---|---|---|
+| Past → present | if + had + past participle (third) | would + base verb (second) | **If I had taken** the job, I**'d be** rich now. |
+| Present → past | if + past simple (second) | would have + past participle (third) | **If I spoke** Chinese, I**'d have got** the job. |
 
-| Clause | Verb form | Example |
+Comma rule: comma after the if-clause when it comes first.
+
+## Type 1: a past condition with a present result
+
+Something different in the **past** would change the **present**.
+
+- **If I had gone** to bed earlier, I **wouldn't be** so tired now.
+- **If she hadn't missed** the flight, she**'d be** in Paris today.
+- **If we had bought** that house, we**'d live** by the sea.
+
+> ⚠️ Typical error: ~~If I had gone to bed earlier, I wouldn't have been so tired now.~~ → *Now* is the present: *I wouldn't be so tired now.*
+
+## Type 2: a present situation with a past result
+
+Something that is **always** or **generally** true now explains a **past** result.
+
+- **If I were** more organised, I **wouldn't have forgotten** your birthday.
+- **If he didn't** live so far away, he**'d have come** to the party.
+- **If she spoke** better English, she**'d have passed** the interview.
+
+> ⚠️ Typical error: ~~If I had been more organised, I wouldn't have forgotten your birthday.~~ → Possible, but it means you were disorganised only that day. If it's your character, use *If I were more organised…*
+
+## How to recognise the times
+
+Look for **time clues** in each clause separately.
+
+| Clause | Past clue | Present clue |
 |---|---|---|
-| If-clause (past condition) | if + past perfect | **If I had studied** medicine, |
-| Main clause (present result) | would (**'d**) + base verb | **I'd be** a doctor now. |
+| If-clause | *last year, yesterday, when I was a child* | *always, in general, these days*, a permanent fact |
+| Result | *yesterday, last night, then* | *now, today, still* |
 
-The condition is in the past, but the result is true **now**.
+- If I **hadn't broken** my leg **last month**, I**'d play** in the final **today**. (past → present)
 
-### Type 2 — present condition, past result
+## Negatives
 
-| Clause | Verb form | Example |
+Both types are often negative, because we imagine the opposite of reality.
+
+| Reality | Mixed conditional |
+|---|---|
+| I didn't study medicine. I'm not a doctor. | If I **had studied** medicine, I**'d be** a doctor. |
+| I'm afraid of flying. I didn't go to Japan. | If I **weren't** afraid of flying, I**'d have gone** to Japan. |
+
+## *Could* and *might*
+
+### Ability or possibility
+
+- If I'd learnt to drive, I **could take** you home now.
+- If you weren't so shy, you **might have made** more friends at camp.
+
+## Pure or mixed?
+
+| | If-clause | Result |
 |---|---|---|
-| If-clause (present condition) | if + past simple | **If I weren't** so shy, |
-| Main clause (past result) | would have + past participle | **I would have asked** her. |
+| Second | now | now |
+| Third | past | past |
+| Mixed 1 | past | **now** |
+| Mixed 2 | **now** | past |
 
-A permanent situation now explains something that happened in the past.
-
-## When to use mixed conditionals
-
-### 1. A past action still affecting now
-
-- **If she had accepted** the offer, **she'd be living** abroad today.
-
-### 2. A present situation explaining the past
-
-- **If he weren't** afraid of flying, **he would have visited** us last summer.
-
-> ⚠️ Typical error: ~~If I had studied medicine, I would have been a doctor now.~~ → The result is **now**, so use *would be*, not *would have been*: *If I had studied medicine, I'd be a doctor now.*
+See [Second vs Third Conditional](/grammar/conditionals/second-vs-third-conditional/).
 
 ## Common mistakes
 
-**1. Keeping both halves in the past.** *~~If I had saved money, I would have been rich now~~* → **If I had saved money, I'd be rich now** (the result is present).
+**1. Using *would have* for a present result.** *~~If I had saved money, I would have had a car now~~* → **If I had saved money, I'd have a car now.**
 
-**2. Using the present in the past-condition clause.** *~~If I study harder, I'd have a degree now~~* → **If I had studied harder, I'd have a degree now.**
+**2. Using the past perfect for a permanent present fact.** *~~If I hadn't been shy, I'd have spoken to her~~* (you're always shy) → **If I weren't shy, I'd have spoken to her.**
 
-**3. Mismatching the time words.** *~~If I were taller, I would have been a good player last year~~* is fine — but check *now* vs *last year* matches the verb. **Pro tip:** decide the time of each half first, then choose the verb for each half separately.
+**3. *Would* in the if-clause.** *~~If I would have studied, I'd be a doctor~~* → **If I had studied, I'd be a doctor.**
+
+**4. Ignoring *now*.** If the result clause has *now* or *today*, the result is present: **would + base verb**.
+
+**Pro tip:** draw a timeline. Put the condition and the result on it separately — then choose the form for each.
