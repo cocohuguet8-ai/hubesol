@@ -29,6 +29,7 @@ related:
   - { title: "Past Tenses", href: "/grammar/verb-tenses/past-tenses/" }
   - { title: "Past Perfect", href: "/grammar/verb-tenses/past-perfect/" }
   - { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
+next: { title: "Used to / Be used to / Get used to", href: "/grammar/verb-tenses/used-to-be-used-to-get-used-to/" }
 draft: false
 ---
 
@@ -36,32 +37,66 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + had been + verb-**ing** | She **had been working**. |
-| Negative | subject + hadn't been + verb-ing | They **hadn't been sleeping**. |
+| Affirmative | subject + had been + verb-**ing** | She **had been working**. / We**’d been waiting**. |
+| Negative | subject + hadn’t been + verb-ing | They **hadn’t been sleeping**. |
 | Question | Had + subject + been + verb-ing? | **Had** you **been waiting** long? |
 
-**Had been** is the same for every subject, and the main verb takes **-ing**.
+**Had been** is the same for every subject, and the main verb always takes **-ing**. In a question with a question word, *had* comes next: *How long **had** you **been living** there?*
+
+**Short answers:** *Yes, I had. / No, they hadn’t.*
+
+**Time expressions:** *for two hours, since 2005, all morning, by the time, when, before, How long…?*
+
+## Spelling of the -ing form
+
+| Rule | Verb ending | Example |
+|---|---|---|
+| add -ing | most verbs | wait → waiting, play → playing |
+| drop -e, add -ing | verbs ending in *-e* | drive → driving, make → making |
+| double the consonant | short verb, consonant–vowel–consonant | run → running, dig → digging |
+| -ie → -ying | verbs ending in *-ie* | lie → lying |
 
 ## When to use the past perfect continuous
 
-### 1. Duration before a past point
+### 1. How long, up to a past moment
 
-Often with *for* and *since*.
+The activity started earlier and was still going on (or had just stopped) at a point in the past. Use *for* or *since*.
 
 - When he arrived, **I had been waiting** for an hour.
 - By 2010, **she had been living** abroad since 2005.
 
-### 2. A past activity explaining a later past result
+### 2. A past activity that explains a later past result
 
 - Her eyes were red because **she had been crying**.
-- The players were exhausted — **they had been training** all morning.
+- The ground was wet — **it had been raining** all night.
 
-> ⚠️ Typical error: ~~I had been finished the report by then.~~ (a completed result) → Use the past perfect: *I had finished the report by then.*
+> ⚠️ Typical error: ✗ ~~Her eyes were red because she cried.~~ → ✓ **Her eyes were red because she had been crying.** (The earlier activity explains what you saw.)
+
+### 3. Repeated actions before a past point
+
+- He **had been calling** her every day before she finally answered.
+
+## Past perfect continuous or past perfect?
+
+| Sentence | Meaning |
+|---|---|
+| I **had been writing** the essay. | That was the activity before then (maybe not finished). |
+| I **had written** the essay. | It was finished and ready. |
+| She **had been reading** for hours. | How long the activity lasted. |
+| She **had read** three chapters. | A quantity — use the past perfect. |
+
+## State verbs
+
+*Know, like, want, believe, own, belong* describe states, so they use the past perfect, not the continuous.
+
+- ✗ ~~I had been knowing him for years.~~ → ✓ **I had known him for years.**
 
 ## Common mistakes
 
-**1. Using it for a completed earlier action.** For completion, use the past perfect. *~~By then I had been finishing the essay~~* → **By then I had finished the essay.**
+**1. Continuous for a completed earlier action.** ✗ *~~By then I had been finishing the essay.~~* → ✓ **By then I had finished the essay.**
 
-**2. Using it with stative verbs.** *~~I had been knowing him for years~~* → **I had known him for years. Pro tip:** know, want and like avoid the continuous.
+**2. Continuous with a state verb.** ✗ *~~We had been owning the house for ten years.~~* → ✓ **We had owned the house for ten years.**
 
-**3. Leaving out 'been'.** *~~I had waiting for ages~~* → **I had been waiting for ages.**
+**3. Leaving out been.** ✗ *~~I had waiting for ages.~~* → ✓ **I had been waiting for ages.**
+
+**Pro tip:** it is the present perfect continuous moved one step back: *I’ve been waiting* (up to now) → *I’d been waiting* (up to then).
