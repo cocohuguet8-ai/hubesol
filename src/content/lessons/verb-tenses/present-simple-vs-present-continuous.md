@@ -29,6 +29,7 @@ related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Present Continuous", href: "/grammar/verb-tenses/present-continuous/" }
+next: { title: "Stative Verbs", href: "/grammar/verb-tenses/stative-verbs/" }
 draft: false
 ---
 
@@ -38,33 +39,76 @@ draft: false
 |---|---|---|
 | Use | habits, facts, permanent things | now, temporary things, arrangements |
 | Signal words | always, usually, every day, on Mondays | now, at the moment, today, this week |
-| Example | She **works** in a bank. | **She's working** late today. |
-| Stative verbs | yes — I **know** | no — ~~I'm knowing~~ |
+| Example | She **works** in a bank. | She**’s working** late today. |
+| State verbs | yes — I **know** | no — ~~I’m knowing~~ |
 
 The key question: is it **generally true**, or is it **happening around now?** General truths and habits take the present simple; actions in progress take the present continuous.
 
-## Use the present simple for…
+## How to form them
 
-Habits, routines and permanent facts.
+| Form | Present Simple | Present Continuous |
+|---|---|---|
+| Affirmative | subject + base verb (+ **-s** with he/she/it) | subject + am/is/are + verb-ing |
+| | He **plays** tennis. | He**’s playing** tennis. |
+| Negative | subject + don’t/doesn’t + base verb | subject + am/is/are not + verb-ing |
+| | She **doesn’t eat** meat. | She **isn’t eating**. |
+| Question | Do/Does + subject + base verb? | Am/Is/Are + subject + verb-ing? |
+| | **Do** you **work** here? | **Are** you **working** now? |
 
-- The Earth **goes** round the Sun.
+## When to use the present simple
+
+### 1. Habits and routines
+
 - **I check** my email every morning.
 
-> ⚠️ Typical error: ~~I am checking my email every morning.~~ → A daily habit takes the present simple: *I check my email every morning.*
+> ⚠️ Typical error: ✗ ~~I am checking my email every morning.~~ → ✓ **I check my email every morning.** (A daily habit.)
 
-## Use the present continuous for…
+### 2. Facts and permanent situations
 
-Actions happening now, or temporary situations.
+- The Earth **goes** round the Sun.
+- My parents **live** in Girona.
 
-- Look, **it's snowing!**
-- **I'm staying** with my sister this week.
+## When to use the present continuous
 
-> ⚠️ Typical error: ~~Look, it snows!~~ → For something happening at this moment, use the present continuous: *it's snowing!*
+### 1. Actions happening now
+
+- Look, **it’s snowing!**
+
+> ⚠️ Typical error: ✗ ~~Look, it snows!~~ → ✓ **Look, it’s snowing!** (It’s happening at this moment.)
+
+### 2. Temporary situations
+
+True for a period around now, but not permanent.
+
+- **I’m staying** with my sister this week.
+
+### 3. Changes and trends
+
+- Prices **are going up** this year.
+
+## Permanent or temporary?
+
+| Sentence | Meaning |
+|---|---|
+| I **live** in Barcelona. | It’s my home. |
+| I**’m living** in Barcelona this year. | Temporary — I’ll move later. |
+| He **works** from home. | Always. |
+| He**’s working** from home this week. | Only this week. |
+
+## State verbs
+
+Verbs of thinking, feeling and having (*know, want, like, understand, need, belong*) normally stay in the present simple, even when you mean “now”.
+
+- ✗ ~~I’m not understanding.~~ → ✓ **I don’t understand.**
+
+More in [Stative Verbs](/grammar/verb-tenses/stative-verbs/).
 
 ## Common mistakes
 
-**1. Present continuous for habits.** A regular routine takes the present simple. *~~I'm playing tennis every Sunday~~* → **I play tennis every Sunday.**
+**1. Present continuous for habits.** ✗ *~~I’m playing tennis every Sunday.~~* → ✓ **I play tennis every Sunday.**
 
-**2. Present simple for actions happening now.** Something in progress at this moment takes the present continuous. *~~Look, it snows!~~* → **Look, it's snowing! Pro tip:** words like *now, look, listen, at the moment* point to the present continuous.
+**2. Present simple for actions happening now.** ✗ *~~Listen! Someone sings.~~* → ✓ **Listen! Someone’s singing.**
 
-**3. Stative verbs in the continuous.** Verbs of state (know, want, understand, like) stay in the present simple. *~~I'm not understanding~~* → **I don't understand.**
+**3. State verbs in the continuous.** ✗ *~~I’m wanting a coffee.~~* → ✓ **I want a coffee.**
+
+**Pro tip:** words like *now, look, listen* and *at the moment* point to the present continuous; *always, usually* and *every day* point to the present simple.
