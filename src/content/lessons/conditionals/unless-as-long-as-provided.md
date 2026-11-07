@@ -28,41 +28,92 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "First Conditional", href: "/grammar/conditionals/first-conditional/" }
   - { title: "Zero Conditional", href: "/grammar/conditionals/zero-conditional/" }
+next: { title: "Third Conditional", href: "/grammar/conditionals/third-conditional/" }
 draft: false
 ---
 
-## The conditional linkers
+## How to use these linkers
+
+All three words replace *if* in a conditional sentence. After them, use the **present simple** for the future (no *will*), just like after *if*.
 
 | Linker | Meaning | Example |
 |---|---|---|
-| unless | if not / except if | **I won't go unless** you come. |
-| as long as | only on this condition | You can stay **as long as** you're quiet. |
-| provided / providing that | only if (more formal) | You'll pass **provided that** you revise. |
-| in case | as a precaution | Take an umbrella **in case** it rains. |
+| **unless** | if … not / except if | **Unless** you **hurry**, you'll miss the bus. |
+| **as long as** | only if / on condition that | You can stay out **as long as** you **call** me. |
+| **provided (that)** / **providing (that)** | only if (more formal) | We'll go **provided that** the weather **is** good. |
 
-After all of these, use the same tenses as with *if* — usually the **present simple** for a real future.
+Comma rule: comma after the linker clause when it comes first; no comma when it comes second.
 
-## When to use each
+## *Unless* = *if … not*
 
-### 1. Unless (= if not)
+*Unless* already contains the negative idea, so the verb after it is usually **affirmative**.
 
-- **Unless you hurry**, you'll miss the bus. (= If you don't hurry…)
+| With *if not* | With *unless* |
+|---|---|
+| **If** you **don't** study, you'll fail. | **Unless** you study, you'll fail. |
+| I won't go **if** she **doesn't** invite me. | I won't go **unless** she invites me. |
 
-### 2. As long as / provided that (a strict condition)
+✗ ~~Unless you don't study, you'll fail.~~ → ✓ **Unless you study, you'll fail.**
 
-- You can borrow the car **as long as** you fill it up.
-- **Provided that** everyone agrees, we'll start on Monday.
+## When to use *unless*
 
-### 3. In case (a precaution — not the same as 'if')
+### 1. Warnings and threats
 
-- Save your work **in case** the computer crashes. (do it now, as a precaution)
+- **Unless** you **stop** shouting, I'll leave.
+- You'll get sunburnt **unless** you **wear** sun cream.
 
-> ⚠️ Typical error: ~~Unless you don't call me, I'll be worried.~~ → 'Unless' already means 'if not', so drop the second negative: *Unless you call me, I'll be worried.*
+> ⚠️ Typical error: ~~Unless you will stop shouting, I'll leave.~~ → No *will* after *unless*: *Unless you stop…*
+
+### 2. The only exception
+
+- I walk to school **unless** it **rains**. (I walk, except when it rains.)
+- Don't call me **unless** it's an emergency.
+
+> ⚠️ Typical error: ~~Don't call me unless it isn't an emergency.~~ → *Unless* is already negative: *unless it's an emergency.*
+
+## When to use *as long as* and *provided that*
+
+### 1. A strict condition
+
+The result happens **only** if the condition is true.
+
+- You can borrow my car **as long as** you **drive** carefully.
+- **Provided that** you **finish** your work, you can leave early.
+
+> ⚠️ Typical error: ~~You can come as long as you will be quiet.~~ → No *will*: *as long as you are quiet.*
+
+### 2. Agreements and permission
+
+These linkers are common when someone sets a rule or makes a deal.
+
+- I'll help you **as long as** you **help** me next week.
+- **Providing** the price **is** right, we'll buy it.
+
+## Formality
+
+| Linker | Register |
+|---|---|
+| as long as / so long as | informal, spoken |
+| providing (that) | neutral |
+| provided (that) | more formal, written |
+| on condition that | formal |
+
+*That* is optional: **provided** you pay = **provided that** you pay.
+
+## *Unless* or *if*?
+
+Not every *if not* can become *unless*. Use *if … not* when the meaning is "because something doesn't happen", especially for feelings.
+
+- I'll be sad **if** you **don't** come. (✓ — not ~~unless you come~~)
 
 ## Common mistakes
 
-**1. Double negative after 'unless'.** *~~unless you don't come~~* → **unless you come.**
+**1. Double negative with *unless*.** *~~Unless you don't hurry~~* → **Unless you hurry.**
 
-**2. Using 'will' after these linkers.** *~~as long as you will pay~~* → **as long as you pay.**
+**2. Using *will* after the linker.** *~~as long as you will help~~* → **as long as you help.** *~~provided that it will be sunny~~* → **provided that it is sunny.**
 
-**3. Confusing 'in case' with 'if'.** *~~I'll take an umbrella if it rains~~* (you wait to see) vs **I'll take an umbrella in case it rains** (you take it now, as a precaution). **Pro tip:** 'in case' = do it in advance; 'if' = only do it when the condition happens.
+**3. Mixing up *unless* and *as long as*.** They are opposites. *~~You can go out unless you finish your homework~~* (you mean "only if you finish") → **You can go out as long as you finish your homework.**
+
+**4. Forgetting the comma when the linker clause is first.** *~~Unless you hurry you'll be late~~* → **Unless you hurry, you'll be late.**
+
+**Pro tip:** test *unless* by replacing it with *if … not*. If the sentence still means the same, *unless* is correct.
