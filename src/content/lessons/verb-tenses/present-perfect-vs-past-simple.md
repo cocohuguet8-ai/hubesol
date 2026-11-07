@@ -28,6 +28,7 @@ teacherObjectives:
 related:
   - { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
   - { title: "Used to / Would", href: "/grammar/verb-tenses/used-to-would/" }
+next: { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
 draft: false
 ---
 
@@ -35,34 +36,77 @@ draft: false
 
 | | Past Simple | Present Perfect |
 |---|---|---|
-| Time | finished and specific | unfinished or unspecified |
+| Time | finished and specific | unfinished or not mentioned |
 | Signal words | yesterday, ago, in 2019, last week | ever, never, just, already, yet, since, for |
 | Focus | *when* it happened | the result or experience **now** |
 | Example | I **lost** my keys yesterday. | **I’ve lost** my keys — I can’t get in. |
 
 The one question that decides it: **can you say exactly when?** If yes, use the past simple. If the time is unknown or unimportant, use the present perfect.
 
-## Use the past simple when…
+## How to form them
 
-The action is finished and the time is stated or clearly implied.
+| Form | Past Simple | Present Perfect |
+|---|---|---|
+| Affirmative | subject + past form | subject + have/has + past participle |
+| | She **called** me. / We **went** home. | She**’s called** me. / We**’ve gone** home. |
+| Negative | subject + didn’t + base verb | subject + haven’t/hasn’t + past participle |
+| | I **didn’t see** it. | I **haven’t seen** it. |
+| Question | Did + subject + base verb? | Have/Has + subject + past participle? |
+| | **Did** you **eat**? | **Have** you **eaten**? |
+
+Many irregular verbs have a different past simple and past participle (*go – went – gone, see – saw – seen, eat – ate – eaten*). See [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
+
+## When to use the past simple
+
+### 1. A finished time is stated or clear
+
+The action is over and we say (or both people know) when it happened.
 
 - **I visited** Rome in 2019.
 - **We watched** the match last night.
 
-> ⚠️ Typical error: ~~I have visited Rome in 2019.~~ → A finished time (2019) forces the past simple: *I visited Rome in 2019.*
+> ⚠️ Typical error: ✗ ~~I have visited Rome in 2019.~~ → ✓ **I visited Rome in 2019.** (*In 2019* is finished time.)
 
-## Use the present perfect when…
+### 2. Questions about when
 
-- It’s an experience with no specific time: **I’ve visited** Rome.
-- A recent action has a result now: **She’s broken** her arm (it’s in plaster).
-- A situation started in the past and continues: **We’ve lived** here since 2020.
+*When…?*, *What time…?* and *How long ago…?* ask for a specific moment, so they take the past simple.
 
-> ⚠️ Typical error: ~~I live here since 2020.~~ → With *since/for* and a situation that continues, use the present perfect: *I’ve lived here since 2020.*
+- **When did** you **arrive**? — Two hours ago.
+
+## When to use the present perfect
+
+### 1. Life experience (no time given)
+
+- **I’ve visited** Rome. / **Have** you ever **tried** sushi?
+
+### 2. A recent action with a result now
+
+- **She’s broken** her arm. (It’s in plaster now.)
+- **I’ve lost** my phone, so I can’t call you.
+
+### 3. A situation that started in the past and continues
+
+- **We’ve lived** here since 2020. (We still live here.)
+
+> ⚠️ Typical error: ✗ ~~I live here since 2020.~~ → ✓ **I’ve lived here since 2020.**
+
+## Signal words
+
+| Word | Tense | Example |
+|---|---|---|
+| yesterday, last week, in 2019, ago | past simple | I **saw** her two days **ago**. |
+| when…? / what time…? | past simple | **When did** you **meet** him? |
+| ever, never | present perfect | **Have** you **ever been** to Paris? |
+| just, already, yet | present perfect | I**’ve just finished**. |
+| since, for (continuing) | present perfect | She**’s worked** here **for** a year. |
+| today, this week, this year | both — present perfect if the period is not finished | I**’ve drunk** three coffees **today**. |
 
 ## Common mistakes
 
-**1. Present perfect with finished time.** The number-one error for Spanish, Catalan, French and Italian speakers. If the time is finished, use the past simple. *~~I have seen him yesterday~~* → **I saw him yesterday.**
+**1. Present perfect with a finished time.** The most common error for speakers of Catalan, Spanish, French and Italian. ✗ *~~I have seen him yesterday.~~* → ✓ **I saw him yesterday.**
 
-**2. ‘When’ questions with the present perfect.** *When* asks for a specific moment, so it needs the past simple. *~~When have you arrived?~~* → **When did you arrive? Pro tip:** if the sentence answers *when?*, use the past simple.
+**2. When-questions with the present perfect.** *When* asks for a specific moment. ✗ *~~When have you arrived?~~* → ✓ **When did you arrive?**
 
-**3. Past simple with since/for + a continuing situation.** *~~I worked here for five years~~* (if you still work here) → **I’ve worked here for five years.** The past simple would mean you don’t work there any more.
+**3. Past simple for a situation that continues now.** ✗ *~~I worked here for five years.~~* (if you still work here) → ✓ **I’ve worked here for five years.** The past simple means you don’t work there any more.
+
+**Pro tip:** if the sentence answers the question *when?*, use the past simple. If it answers *ever?*, *yet?* or *how long up to now?*, use the present perfect.
