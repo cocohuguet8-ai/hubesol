@@ -27,38 +27,72 @@ teacherObjectives:
 related:
   - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
   - { title: "Present Perfect vs Past Simple", href: "/grammar/verb-tenses/present-perfect-vs-past-simple/" }
+next: { title: "Past Simple vs Past Continuous", href: "/grammar/verb-tenses/past-simple-vs-past-continuous/" }
 draft: false
 ---
 
 ## How to form it
 
-| | Structure | Example |
+| Form | Structure | Example |
 |---|---|---|
-| used to (affirmative) | subject + used to + base verb | I **used to** play tennis. |
-| used to (negative) | subject + didn’t use to + base verb | I **didn’t use to** like it. |
-| used to (question) | Did + subject + use to + base verb? | **Did** you **use to** live here? |
-| would | subject + would + base verb | We **would** visit every summer. |
+| used to (affirmative) | subject + used to + base verb | I **used to play** tennis. |
+| used to (negative) | subject + didn’t use to + base verb | I **didn’t use to like** it. |
+| used to (question) | Did + subject + use to + base verb? | **Did** you **use to live** here? |
+| would (affirmative) | subject + would (**’d**) + base verb | We**’d visit** every summer. |
 
-After *did*, it’s **use to** (no *-d*): *Did you use to…? / I didn’t use to…*
+After *did* and *didn’t*, it’s **use to** (no *-d*), because *did* already shows the past: *Did you use to…? / I didn’t use to…*
 
-## Used to — habits and states
+**Short answers:** *Did you use to walk to school? — Yes, I did. / No, I didn’t.*
 
-- I **used to** go to the gym. (a habit)
-- There **used to** be a bakery here. (a state)
+**Time expressions:** *when I was a child, as a kid, years ago, every summer, on Sundays, in those days.*
 
-## Would — repeated actions
+## When to use used to
 
-For repeated past actions, often when telling a story.
+### 1. Past habits that have stopped
 
-- On Sundays, my dad **would** cook a big lunch.
-- We **would** spend every summer by the sea.
+Something you did regularly in the past but don’t do now.
 
-> ⚠️ Typical error: ~~There would be a bakery here.~~ → ‘Would’ can’t describe a past state. Use *used to*: **There used to be a bakery here.**
+- I **used to go** to the gym every day.
+
+### 2. Past states that are no longer true
+
+With state verbs like *be, have, live, like, know*.
+
+- There **used to be** a bakery here.
+- She **used to have** long hair.
+
+> ⚠️ Typical error: ✗ ~~There would be a bakery here.~~ → ✓ **There used to be a bakery here.** (*Would* can’t describe a past state.)
+
+## When to use would
+
+### 1. Repeated past actions
+
+For actions that happened again and again, often when telling a story or remembering.
+
+- On Sundays, my dad **would cook** a big lunch.
+- We **would spend** every summer by the sea.
+
+### 2. After the scene is set
+
+Stories often start with *used to* and continue with *would*.
+
+- When I was little, we **used to** go to my grandma’s. She**’d make** pancakes and we**’d play** in the garden.
+
+## Used to, would or past simple?
+
+| Situation | Used to | Would | Past simple |
+|---|---|---|---|
+| a repeated action | ✓ I used to swim every day. | ✓ I’d swim every day. | ✓ I swam every day. |
+| a past state | ✓ I used to have a dog. | ✗ | ✓ I had a dog. |
+| a single action | ✗ | ✗ | ✓ I swam yesterday. |
+| how many times | ✗ | ✗ | ✓ I went there three times. |
 
 ## Common mistakes
 
-**1. Using ‘would’ for a past state.** *~~I would have long hair~~* → **I used to have long hair.**
+**1. Would for a past state.** ✗ *~~I would have long hair.~~* → ✓ **I used to have long hair.**
 
-**2. Keeping the -d after ‘did’.** *~~Did you used to…?~~* → **Did you use to…?**
+**2. Keeping the -d after did.** ✗ *~~Did you used to live here?~~* → ✓ **Did you use to live here?**
 
-**3. Confusing ‘used to’ with ‘be used to’.** *~~I’m used to smoke~~* (a past habit) → **I used to smoke. Pro tip:** ‘used to + base verb’ = a past habit; ‘be used to + -ing’ = accustomed to something.
+**3. Used to for a single event.** ✗ *~~I used to visit Paris last year.~~* → ✓ **I visited Paris last year.**
+
+**Pro tip:** if it’s a state (*be, have, like, live*), only *used to* works; if it’s a repeated action in a memory, *would* makes your story sound natural.
