@@ -935,21 +935,21 @@
       },
       {
         "use": "Question",
-        "text": "How long <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you have been driving by six?",
+        "text": "How long <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by six?",
         "choices": [
-          "do",
-          "did",
-          "are",
-          "will"
+          "have you been driving",
+          "did you drive",
+          "will you be driving",
+          "will you have been driving"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong auxiliary: a duration question is How long + will + subject + have been + -ing.",
-          "Wrong auxiliary: a duration question is How long + will + subject + have been + -ing.",
-          "Wrong auxiliary: a duration question is How long + will + subject + have been + -ing.",
+          "Wrong tense: ‘have been’ measures up to now, but ‘by six’ is a future point.",
+          "Wrong tense: ‘did’ is the past simple, but ‘by six’ is in the future.",
+          "Not complete: ‘will be driving’ is the future continuous. To measure how long up to a future point, add ‘have been’.",
           ""
         ],
-        "explain": "A question about duration — How long + will + subject + have been + -ing?"
+        "explain": "To ask how long up to a future point (by six): How long + will + subject + have been + -ing?"
       },
       {
         "use": "Duration",
