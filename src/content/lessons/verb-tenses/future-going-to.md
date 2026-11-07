@@ -29,6 +29,7 @@ related:
   - { title: "Future Tenses", href: "/grammar/verb-tenses/future-tenses/" }
   - { title: "Future Simple (will)", href: "/grammar/verb-tenses/future-simple/" }
   - { title: "Will vs Going to", href: "/grammar/verb-tenses/will-vs-going-to/" }
+next: { title: "Will vs Going to", href: "/grammar/verb-tenses/will-vs-going-to/" }
 draft: false
 ---
 
@@ -36,11 +37,21 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + am/is/are + going to + base verb | She **is going to travel**. |
-| Negative | subject + am/is/are + not + going to + base verb | They **aren't going to come**. |
+| Affirmative | subject + am/is/are + going to + base verb | She**’s going to travel**. |
+| Negative | subject + am/is/are + not + going to + base verb | They **aren’t going to come**. |
 | Question | Am/Is/Are + subject + going to + base verb? | **Are** you **going to study**? |
 
-Use **am** with *I*, **is** with *he/she/it*, and **are** with *you/we/they*. The verb *be* is never left out.
+Use **am** with *I*, **is** with *he, she, it*, and **are** with *you, we, they*. The verb *be* is never left out. In a question with a question word, *am/is/are* comes next: *What **are** you **going to do**?*
+
+**Short answers:** *Are you going to come? — Yes, I am. / No, I’m not.*
+
+**Time expressions:** *tonight, tomorrow, this weekend, next week, next year, soon, in September.*
+
+## Going to in speech
+
+In fast, informal speech *going to* often sounds like **gonna**. You will hear it in songs and films, but write **going to**.
+
+- I’m **gonna** call her. (spoken) → I’m **going to** call her. (written)
 
 ## When to use going to
 
@@ -48,24 +59,50 @@ Use **am** with *I*, **is** with *he/she/it*, and **are** with *you/we/they*. Th
 
 Something you decided before now.
 
-- **I'm going to start** a course in September.
-- **We're going to move** house next year.
+- **I’m going to start** a course in September.
+- **We’re going to move** house next year.
 
-> ⚠️ Typical error: ~~I start a course in September.~~ (a personal plan) → Use going to: *I'm going to start a course in September.*
+> ⚠️ Typical error: ✗ ~~I start a course in September.~~ (a personal plan) → ✓ **I’m going to start a course in September.**
 
 ### 2. Predictions from evidence
 
-You can see the future in what's happening now.
+You can see the future in what is happening now.
 
-- Watch out — **you're going to fall!**
-- Look at those clouds — **it's going to rain.**
+- Watch out — **you’re going to fall!**
+- Look at those clouds — **it’s going to rain.**
 
-> ⚠️ Typical error: ~~The phone's ringing. I'm going to answer it.~~ (deciding now) → For an on-the-spot decision, use will: *I'll answer it.*
+### 3. Things that are about to happen
+
+- Hurry up! The film**’s going to start**.
+
+> ⚠️ Typical error: ✗ ~~The phone’s ringing. I’m going to answer it.~~ (deciding now) → ✓ **I’ll answer it.**
+
+## Signal words
+
+| Word | What it shows | Example |
+|---|---|---|
+| Look! / Watch out! | evidence now | **Look!** The bus is **going to** leave. |
+| tonight / this weekend | a plan already made | I’m **going to** see Ana **tonight**. |
+| next year / in September | an intention | She’s **going to** learn Chinese **next year**. |
+| I’ve decided / I’ve booked | the decision came before | **I’ve decided** — I’m **going to** sell my car. |
+
+## Going to or will?
+
+| Situation | Use | Example |
+|---|---|---|
+| plan made before now | going to | **I’m going to buy** a bike — I’ve saved the money. |
+| decision made now | will | That bike’s on sale! **I’ll buy** it. |
+| prediction from evidence | going to | She’s running too fast — **she’s going to fall**. |
+| prediction from opinion | will | **I think** she**’ll win**. |
+
+More in [Will vs Going to](/grammar/verb-tenses/will-vs-going-to/).
 
 ## Common mistakes
 
-**1. Using going to for instant decisions.** A decision made as you speak takes *will*, not going to. *~~I'm going to help you~~* (offering now) → **I'll help you.**
+**1. Going to for instant decisions.** ✗ *~~I’m going to help you.~~* (offering now) → ✓ **I’ll help you.**
 
-**2. Leaving out 'be'.** Going to always needs *am/is/are*. *~~I going to study~~* → **I'm going to study.**
+**2. Leaving out be.** ✗ *~~I going to study.~~* → ✓ **I’m going to study.**
 
-**3. Using the present simple for a personal intention.** *~~I study medicine next year~~* → **I'm going to study medicine next year. Pro tip:** if it's your plan, use going to.
+**3. Present simple for a personal intention.** ✗ *~~I study medicine next year.~~* → ✓ **I’m going to study medicine next year.**
+
+**Pro tip:** if it’s already in your head or on your list, use *going to*; if you’re deciding now, use *will*.
