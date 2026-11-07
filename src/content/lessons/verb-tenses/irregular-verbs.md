@@ -29,6 +29,7 @@ related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
   - { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
+next: { title: "Present Perfect", href: "/grammar/verb-tenses/present-perfect/" }
 draft: false
 ---
 
@@ -38,9 +39,9 @@ Every verb has three forms. For regular verbs the last two are the same (*work �
 
 | Form | Used in | Example |
 |---|---|---|
-| Base | present tense, after *did* and *to* | I **go** / Did you **go**? |
-| Past simple | the past simple | I **went** yesterday. |
-| Past participle | perfect tenses and the passive | I've **gone**. / It was **eaten**. |
+| Base | present tense, after *did*, *will*, *can* and *to* | I **go** / Did you **go**? |
+| Past simple | the past simple (affirmative only) | I **went** yesterday. |
+| Past participle | perfect tenses and the passive | I’ve **gone**. / It was **eaten**. |
 
 ## Common irregular verbs
 
@@ -96,6 +97,31 @@ Every verb has three forms. For regular verbs the last two are the same (*work �
 | win | won | won |
 | write | wrote | written |
 
+## When to use each form
+
+### 1. Past simple: affirmative sentences
+
+Use the second form alone, without *did* or *have*.
+
+- I **saw** a great film last night.
+- She **bought** a new phone.
+
+> ⚠️ Typical error: ✗ ~~Did you saw it?~~ → ✓ **Did you see it?** (After *did*, go back to the base form.)
+
+### 2. Past participle: perfect tenses
+
+Use the third form after *have, has* and *had*.
+
+- I**’ve never eaten** sushi.
+- They **had** already **left**.
+
+### 3. Past participle: the passive
+
+Use the third form after a form of *be*.
+
+- This house **was built** in 1920.
+- The letters **are written** by hand.
+
 ## Learn them in patterns
 
 Memorising is easier when you group verbs that behave the same way.
@@ -105,10 +131,21 @@ Memorising is easier when you group verbs that behave the same way.
 - **Three different forms (i–a–u):** sing → sang → sung, drink → drank → drunk, swim → swam → swum, begin → began → begun.
 - **Participle in -en:** eat → eaten, take → taken, give → given, write → written, break → broken, speak → spoken.
 
+## Tricky pronunciation
+
+| Verb | Watch out | Example |
+|---|---|---|
+| read – read – read | same spelling, but the past forms sound like *red* | I **read** (/red/) it yesterday. |
+| bought, brought, thought, taught, caught | *-ought* and *-aught* sound the same (/ɔːt/) | She **taught** us. |
+| said | sounds like *sed*, not *say-d* | He **said** no. |
+| was / were | weak forms in fast speech | I **was** (/wəz/) tired. |
+
 ## Common mistakes
 
-**1. Adding -ed to irregular verbs.** The most common error. Irregular verbs never take *-ed*. *~~goed, buyed, thinked~~* → **went, bought, thought.**
+**1. Adding -ed to irregular verbs.** The most common error. Irregular verbs never take *-ed*. ✗ *~~goed, buyed, thinked~~* → ✓ **went, bought, thought.**
 
-**2. Confusing the past simple and the past participle.** After *have/has*, use the participle, not the past simple. *~~I have went~~* → **I have gone**, and *~~I have ate~~* → **I have eaten. Pro tip:** after have/has, always use the third form.
+**2. Past simple after have/has.** After *have/has*, use the participle. ✗ *~~I have went.~~* → ✓ **I have gone**, and ✗ *~~I have ate.~~* → ✓ **I have eaten.**
 
-**3. Using the participle for the past simple.** Alone, without *have*, use the past simple. *~~I seen it yesterday~~* → **I saw it yesterday.**
+**3. The participle on its own for the past simple.** Without *have*, use the past simple. ✗ *~~I seen it yesterday.~~* → ✓ **I saw it yesterday.**
+
+**Pro tip:** learn each verb as a three-word chant (*go – went – gone*) and say it out loud; your ear will remember the pattern.
