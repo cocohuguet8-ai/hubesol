@@ -30,41 +30,75 @@ related:
   - { title: "Present Simple", href: "/grammar/verb-tenses/present-simple/" }
   - { title: "Present Continuous", href: "/grammar/verb-tenses/present-continuous/" }
   - { title: "Present Simple vs Present Continuous", href: "/grammar/verb-tenses/present-simple-vs-present-continuous/" }
+next: { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
 draft: false
 ---
 
 ## Which verbs are stative?
 
-Stative verbs fall into a few groups.
+Stative verbs describe a **state** (a feeling, an opinion, a fact about something), not an action. They fall into a few groups.
 
 | Category | Common verbs | Example |
 |---|---|---|
-| Feelings and opinions | like, love, hate, want, prefer, need | I **like** tea. |
-| Thoughts | know, believe, understand, remember, mean | I don't **understand**. |
-| Senses and appearance | see, hear, smell, taste, seem, sound | It **seems** fine. |
-| Possession and being | have, own, belong, be | She **owns** a shop. |
+| Feelings and wishes | like, love, hate, want, prefer, need, wish | I **like** tea. |
+| Thoughts and opinions | know, believe, understand, remember, mean, agree | I don’t **understand**. |
+| Senses and appearance | see, hear, smell, taste, seem, look (= seem), sound | It **seems** fine. |
+| Possession and being | have, own, belong, contain, be, cost, weigh | She **owns** a shop. |
 
-## Stative verbs stay simple
+## How to use them
 
-Because they describe states, not actions, they normally use the simple form, not the continuous.
+Because they describe states, they normally use the **simple** form, not the continuous — even when you are talking about “now”.
 
-- **I love** this song. (not ~~I'm loving~~)
+| Tense | ✓ Natural | ✗ Not natural |
+|---|---|---|
+| Present | I **know** the answer. | ~~I’m knowing~~ |
+| Past | She **wanted** a dog. | ~~She was wanting~~ |
+| Present perfect | We**’ve known** each other for years. | ~~We’ve been knowing~~ |
+| Future | You**’ll understand** later. | ~~You’ll be understanding~~ |
+
+## When to use the simple form
+
+### 1. Feelings and preferences
+
+- I **love** this song.
+- He **prefers** coffee to tea.
+
+### 2. Knowledge and opinion
+
 - **She knows** the answer.
+- I **believe** you.
+
+> ⚠️ Typical error: ✗ ~~I’m believing you.~~ → ✓ **I believe you.**
+
+### 3. Possession
+
+- We **have** two cats.
+- This bag **belongs** to Maria.
 
 ## Verbs with two meanings
 
-Some verbs are stative in one meaning and active in another.
+Some verbs are stative in one meaning and active in another. Only the active meaning can be continuous.
 
 | Verb | Stative (a state) | Active (an action) |
 |---|---|---|
-| have | I **have** a car. | **I'm having** lunch. |
-| think | I **think** it's good. (opinion) | **I'm thinking** about it. (process) |
-| see | I **see** what you mean. (understand) | **I'm seeing** the doctor. (meeting) |
+| have | I **have** a car. (own) | I**’m having** lunch. (eat) |
+| think | I **think** it’s good. (opinion) | I**’m thinking** about it. (process) |
+| see | I **see** what you mean. (understand) | I**’m seeing** the doctor. (meet) |
+| taste | The soup **tastes** great. | He**’s tasting** the soup. (testing it) |
+| be | He **is** rude. (always) | He**’s being** rude. (right now, unusual) |
+
+## Senses with can
+
+With *see, hear, smell, taste*, use **can** to talk about what you notice now.
+
+- I **can hear** music. (not ~~I’m hearing music~~)
 
 ## Common mistakes
 
-**1. Using a stative verb in the continuous.** *~~I'm wanting to go home~~* → **I want to go home.**
+**1. A stative verb in the continuous.** ✗ *~~I’m wanting to go home.~~* → ✓ **I want to go home.**
 
-**2. Making a possession verb continuous.** *~~I'm having a new laptop~~* → **I have a new laptop. Pro tip:** 'have' is only continuous when it means an action, like *having lunch*.
+**2. Have (possession) in the continuous.** ✗ *~~I’m having a new laptop.~~* → ✓ **I have a new laptop.** *Have* is only continuous for actions, like *having lunch*.
 
-**3. 'I'm loving it' in exams.** Fine in adverts, but not in formal English. *~~I'm loving this course~~* → **I love this course.**
+**3. I’m loving it in exams.** Fine in adverts and casual speech, but not in neutral or formal English. ✗ *~~I’m loving this course.~~* → ✓ **I love this course.**
+
+**Pro tip:** ask “Can I see someone doing it?” If not (you can’t *see* someone knowing), it’s a state, so use the simple form.
