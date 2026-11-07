@@ -29,42 +29,95 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "Second Conditional", href: "/grammar/conditionals/second-conditional/" }
   - { title: "Third Conditional", href: "/grammar/conditionals/third-conditional/" }
+next: { title: "Inversion in Conditionals", href: "/grammar/conditionals/inversion-in-conditionals/" }
 draft: false
 ---
 
-## How to use 'I wish' and 'if only'
+## How to form wishes
 
-| You mean… | Form | Example |
+The verb after *wish* or *if only* moves **one step back** in time, like in the second and third conditionals.
+
+| Wish about… | Form | Example |
 |---|---|---|
-| A present situation you'd change | I wish + past simple | **I wish I had** more time. |
-| A past regret | I wish + past perfect | **I wish I had studied** harder. |
-| An annoying habit / want change | I wish + would | **I wish it would stop** raining. |
+| the **present** | wish + past simple | I wish I **had** a dog. |
+| the **past** | wish + had + past participle | I wish I **had studied** more. |
+| someone's annoying **habit** / a future change | wish + would + base verb | I wish you **would stop** shouting. |
+| an **ability** now | wish + could + base verb | I wish I **could** swim. |
 
-*If only* works exactly the same way, but is stronger: **If only I had listened!**
+*If only* means the same as *I wish* but is **stronger** and more emotional: **If only** I **had** more time!
 
-## When to use each
+## Wishes about the present
 
-### 1. Present situation (past simple)
+We want something to be different **now**, but it isn't.
 
-- **I wish I lived** by the sea. (I don't)
-- **I wish I were** taller. (use *were* for all subjects)
+- I wish I **lived** by the sea. (I don't live by the sea.)
+- She wishes she **were** taller. (She isn't tall.)
+- I wish it **wasn't** so cold today.
 
-### 2. Past regret (past perfect)
+With *be*, **were** is correct for all subjects; *was* is common in informal speech.
 
-- **I wish I had saved** more money. (I didn't)
-- **If only she had told** me! (she didn't)
+> ⚠️ Typical error: ~~I wish I have a car.~~ → A present wish takes the past simple: *I wish I had a car.*
 
-### 3. Annoying habit or change (would)
+## Wishes about the past (regrets)
 
-- **I wish you would stop** interrupting. (please change)
-- **I wish it would snow.** (I want it to happen)
+We are sorry about something that happened — or didn't happen.
 
-> ⚠️ Typical error: ~~I wish I would have more time.~~ → For a present wish about yourself, use the past simple: *I wish I had more time.*
+- I wish I **had gone** to the party. (I didn't go.)
+- He wishes he **hadn't eaten** so much. (He ate a lot.)
+- **If only** we **had left** earlier!
+
+> ⚠️ Typical error: ~~I wish I went to the party yesterday.~~ → A past regret needs the past perfect: *I wish I had gone…*
+
+## Wishes with *would*
+
+### 1. Complaints about someone's behaviour
+
+We want another person (or thing) to change.
+
+- I wish my brother **would tidy** his room.
+- I wish you **wouldn't interrupt** me.
+- I wish it **would stop** raining!
+
+> ⚠️ Typical error: ~~I wish I would have more time.~~ → Don't use *would* about yourself: *I wish I had more time.*
+
+### 2. Not for states
+
+*Would* goes with actions, not with states like *be, have, know*.
+
+- ✗ ~~I wish he would be taller.~~ → ✓ **I wish he were taller.**
+
+## Wishes with *could*
+
+For abilities we don't have now.
+
+- I wish I **could** speak Japanese.
+- I wish we **could** stay longer.
+
+## *If only*
+
+*If only* expresses a stronger feeling, often with an exclamation mark.
+
+| Time | Example |
+|---|---|
+| present | **If only** I **knew** the answer! |
+| past | **If only** I **hadn't said** that! |
+| complaint | **If only** the bus **would come**! |
+
+## *Wish* or *hope*?
+
+*Hope* is for things that are **possible**; it uses a normal tense.
+
+- I **hope** you **pass** the exam. (it's possible)
+- I **wish** you **had passed** the exam. (you didn't)
 
 ## Common mistakes
 
-**1. Using 'would' for your own state.** *~~I wish I would be rich~~* → **I wish I were rich.**
+**1. Using the present after *wish*.** *~~I wish I am rich~~* → **I wish I were rich.**
 
-**2. Present tense after 'I wish'.** *~~I wish I have a car~~* → **I wish I had a car.**
+**2. Using the past simple for a past regret.** *~~I wish I didn't say that yesterday~~* → **I wish I hadn't said that.**
 
-**3. Wrong tense for a past regret.** *~~I wish I studied harder at school~~* (for a past regret) → **I wish I had studied harder at school. Pro tip:** 'I wish' + past = now; 'I wish' + past perfect = the past; 'I wish' + would = please change.
+**3. Using *would* with *I*.** *~~I wish I would know the answer~~* → **I wish I knew the answer.**
+
+**4. Using *would have* after *wish*.** *~~I wish I would have studied~~* → **I wish I had studied.**
+
+**Pro tip:** say the opposite of reality, then go one step back in time: *I don't have → I wish I had; I didn't go → I wish I had gone.*
