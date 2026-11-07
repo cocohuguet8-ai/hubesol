@@ -38,42 +38,79 @@ related:
 draft: false
 ---
 
-## a/an vs one
+## The difference at a glance
 
 | Word | Use | Example |
 |---|---|---|
-| a/an | name a singular noun; number unimportant | I need **a** ticket. |
-| one (number) | the number matters (not two+) | I only need **one** ticket. |
-| one (pronoun) | replaces a noun; never before a noun | I’ll take the red **one**. |
+| a/an | names a singular noun; the number is not important | I need **a** ticket. |
+| one (number) | the number matters (one, not two or more) | I only need **one** ticket. |
+| one (pronoun) | replaces a noun already mentioned | I’ll take the red **one**. |
 
-## When to use each
+The key question: **does the number matter?** If you are just naming something, use *a/an*. If you are counting, or replacing a noun, use *one*.
 
-### 1. a/an — just naming it
+## A or an?
 
-- She’s **a** nurse. Can I have **a** glass of water?
-- **a** or **an** follows the *sound*, not the letter: **a** ticket, **an** engineer, **an** hour, **a** university. More in [A vs An](/grammar/articles/a-vs-an/).
+*A* or *an* follows the **sound** at the start of the next word, not the letter.
 
-### 2. one (number) — the number is the point
+| Use | Before | Examples |
+|---|---|---|
+| **a** | a consonant sound | **a** ticket, **a** university (/juː/), **a** European city |
+| **an** | a vowel sound | **an** engineer, **an** hour (silent *h*), **an** honest man |
 
-- I have **one** brother and two sisters. Just **one** slice, thanks.
+More in [A vs An](/grammar/articles/a-vs-an/).
 
-### 3. one (pronoun) — replacing a noun
+## When to use a/an
 
-- I’ll take the blue **one**. (= the blue jacket) Which **one** do you want?
-- Here **one** stands *instead of* the noun. It never comes before a noun: *one jacket* = number, *the blue one* = pronoun.
+### 1. Jobs
 
-### 4. one — fixed phrases
+In English, jobs always need *a/an*.
 
-- **One** day I’ll travel the world. He’s **one of** my closest friends.
+- She’s **a** nurse. / He’s **an** architect.
 
-> ⚠️ Compare: *I’d like **a** coffee* (naming a drink) vs *I’d like **one** coffee, not two* (stressing the number).
+> ⚠️ Typical error: ✗ ~~She’s one teacher.~~ → ✓ **She’s a teacher.** (In Catalan and Spanish *un/una* means both *a* and *one*, but in English jobs take *a/an*.)
+
+### 2. First mention: just naming or describing
+
+- Can I have **a** glass of water?
+- It was **a** lovely day.
+
+## When to use one
+
+### 1. The number is the point
+
+Often with *only*, *just* or a contrast like *not two*.
+
+- I have **one** brother and two sisters.
+- Just **one** slice, thanks.
+
+### 2. One as a pronoun
+
+*One* replaces a singular noun so that you don’t repeat it. It never comes straight before that noun.
+
+- Which jacket do you want? — The blue **one**. (= the blue jacket)
+
+> ⚠️ Typical error: ✗ ~~I’ll take the small a.~~ → ✓ **I’ll take the small one.** (*A/an* always needs a noun after it.)
+
+### 3. Fixed phrases
+
+- **One** day I’ll travel the world.
+- He’s **one of** my closest friends.
+
+## One and ones
+
+For plural nouns, the pronoun is **ones**.
+
+| Singular | Plural |
+|---|---|
+| I like the red **one**. (shirt) | I like the red **ones**. (shoes) |
+| Which **one** is yours? | Which **ones** are yours? |
 
 ## Common mistakes
 
-**1. ‘one’ before a job.** *~~She’s one teacher~~* → **She’s a teacher.** In Catalan and Spanish, *un/una* means both ‘a’ and ‘one’, so learners often pick ‘one’. In English, jobs take a/an.
+**1. One before a job.** ✗ *~~She’s one teacher.~~* → ✓ **She’s a teacher.**
 
-**2. ‘a’ in a fixed phrase.** *~~A day I’ll visit Japan~~* → **One day I’ll visit Japan.** The phrase ‘one day’ is fixed; ‘a day’ means a different thing.
+**2. A in a fixed phrase.** ✗ *~~A day I’ll visit Japan.~~* → ✓ **One day I’ll visit Japan.** The phrase *one day* is fixed.
 
-**3. ‘a’ as a pronoun.** *~~I’ll take the small a~~* → **I’ll take the small one.** ‘A/an’ always needs a noun after it.
+**3. A as a pronoun.** ✗ *~~I’ll take the small a.~~* → ✓ **I’ll take the small one.**
 
-**Pro tip:** try adding "not two". If it still makes sense (*I need one ticket, not two*), use **one**. If it sounds odd (*She’s a nurse, not two*), use **a/an**.
+**Pro tip:** try adding “not two”. If it still makes sense (*I need one ticket, not two*), use **one**. If it sounds odd (*She’s a nurse, not two*), use **a/an**.
