@@ -28,6 +28,7 @@ related:
   - { title: "Future Tenses", href: "/grammar/verb-tenses/future-tenses/" }
   - { title: "Future Perfect", href: "/grammar/verb-tenses/future-perfect/" }
   - { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
+next: { title: "Time Expressions for Verb Tenses", href: "/grammar/verb-tenses/time-expressions-tenses/" }
 draft: false
 ---
 
@@ -35,31 +36,66 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + will have been + verb-**ing** | She **will have been working**. |
-| Negative | subject + won't have been + verb-ing | They **won't have been waiting** long. |
-| Question | Will + subject + have been + verb-ing? | How long **will** you **have been** driving? |
+| Affirmative | subject + will have been + verb-**ing** | She**’ll have been working**. |
+| Negative | subject + won’t have been + verb-ing | They **won’t have been waiting** long. |
+| Question | Will + subject + have been + verb-ing? | How long **will** you **have been driving**? |
 
-**Will have been** is the same for every subject, and the main verb takes **-ing**. It joins two ideas: the future perfect (*will have*) and the continuous (*been + -ing*).
+**Will have been** is the same for every subject, and the main verb always takes **-ing**. It joins two ideas: the future perfect (*will have*) and the continuous (*been* + -ing). In a question with a question word, *will* comes next: *How long **will** they **have been** married?*
+
+**Short answers:** *Will you have been working here for ten years? — Yes, I will. / No, I won’t.*
+
+**Time expressions:** *by May, by then, by the time…, for ten years, for six hours, all night, How long…?*
+
+## Spelling of the -ing form
+
+| Rule | Verb ending | Example |
+|---|---|---|
+| add -ing | most verbs | work → working, study → studying |
+| drop -e, add -ing | verbs ending in *-e* | drive → driving, live → living |
+| double the consonant | short verb, consonant–vowel–consonant | run → running, plan → planning |
 
 ## When to use the future perfect continuous
 
-### 1. Duration up to a future point
+### 1. How long, up to a future point
 
-Often with *for*.
+The activity started earlier and will still be going on at that future moment. Usually with *for*.
 
-- By 6pm, **I'll have been driving** for eight hours.
-- Next month, **she'll have been living** abroad for a year.
+- By 6pm, **I’ll have been driving** for eight hours.
+- Next month, **she’ll have been living** abroad for a year.
 
 ### 2. To explain a future situation
 
-- He'll be exhausted — **he'll have been studying** all night.
+The activity explains how someone will feel or look.
 
-> ⚠️ Typical error: ~~By May I'll have been finished the project.~~ (a completed result) → Use the future perfect: *By May I'll have finished the project.*
+- He’ll be exhausted — **he’ll have been studying** all night.
+
+> ⚠️ Typical error: ✗ ~~By May I’ll have been finished the project.~~ → ✓ **By May I’ll have finished the project.** (A completed result takes the future perfect.)
+
+### 3. Anniversaries and milestones
+
+- In June, we**’ll have been running** this school for twenty years.
+
+## Future perfect continuous or future perfect?
+
+| Sentence | Meaning |
+|---|---|
+| By June, I**’ll have been writing** this book for two years. | how long the activity lasts |
+| By June, I**’ll have written** three chapters. | a quantity / a result |
+| By then, he**’ll have been working** all day. | the activity (he’ll be tired) |
+| By then, he**’ll have finished** the job. | completion |
+
+## State verbs
+
+*Know, own, like, want, believe, belong* don’t use the continuous. Use the future perfect simple for how long.
+
+- ✗ ~~I’ll have been knowing her for years.~~ → ✓ **I’ll have known her for years.**
 
 ## Common mistakes
 
-**1. Using it for a completed action or result.** For completion, use the future perfect. *~~By Friday I'll have been completing the course~~* → **By Friday I'll have completed the course.**
+**1. Continuous for a completed action or result.** ✗ *~~By Friday I’ll have been completing the course.~~* → ✓ **By Friday I’ll have completed the course.**
 
-**2. Leaving out 'been'.** *~~will have working~~* → **will have been working.**
+**2. Leaving out been.** ✗ *~~will have working~~* → ✓ **will have been working.**
 
-**3. Using it with stative verbs.** *~~I'll have been knowing her for years~~* → **I'll have known her for years. Pro tip:** state verbs use the future perfect simple.
+**3. Continuous with a state verb.** ✗ *~~By June they’ll have been owning the house for ten years.~~* → ✓ **By June they’ll have owned the house for ten years.**
+
+**Pro tip:** it is the present perfect continuous moved into the future: *I’ve been working here for nine years* → next year, *I’ll have been working here for ten years.*
