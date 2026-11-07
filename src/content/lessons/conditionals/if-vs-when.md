@@ -28,40 +28,90 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "First Conditional", href: "/grammar/conditionals/first-conditional/" }
   - { title: "Zero Conditional", href: "/grammar/conditionals/zero-conditional/" }
+next: { title: "Unless, as long as, provided that", href: "/grammar/conditionals/unless-as-long-as-provided/" }
 draft: false
 ---
 
-## if vs when
+## How to form sentences with *if* and *when*
 
-| Word | Certainty | Example |
+Both words introduce a clause with the **present simple** when we talk about the future. The main clause uses **will**, a modal or an imperative.
+
+| Word | Clause | Main clause | Example |
+|---|---|---|---|
+| if | if + present simple | will + base verb | **If** I **see** her, I**'ll tell** her. |
+| when | when + present simple | will + base verb | **When** I **see** her, I**'ll tell** her. |
+
+The grammar is the same. The **meaning** is different. Comma rule: comma after the *if*/*when* clause when it comes first.
+
+## The key difference
+
+| Word | The speaker thinks… | Example |
 |---|---|---|
-| if | it may or may not happen | **If** it rains, we'll stay in. |
-| when | it will definitely happen (timing unknown) | **When** I get home, I'll call you. |
+| **if** | it is **possible**, but not sure | **If** you **come**, we'll have fun. (Maybe you won't come.) |
+| **when** | it is **sure** to happen | **When** you **come**, we'll have fun. (You're definitely coming.) |
 
-Both use the **present simple** (not 'will') in the if/when clause.
+- I'll call you **if** I get the job. (I don't know if I'll get it.)
+- I'll call you **when** I get home. (I'll definitely get home.)
 
-## When to use each
+## When to use *if*
 
-### 1. if — a possibility
+### 1. Something that may or may not happen
 
-- **If** I pass the exam, I'll celebrate. (I might not pass)
-- **If** you need help, just ask.
+- **If** it **rains**, we'll stay inside.
+- **If** you **need** help, ask me.
 
-### 2. when — a certainty
+> ⚠️ Typical error: ~~When it rains tomorrow, we'll stay inside.~~ (you're not sure it'll rain) → Use *if* for a possibility: *If it rains tomorrow…*
 
-- **When** the film ends, we'll get dinner. (the film will end)
-- I'll text you **when** I arrive.
+### 2. Imaginary or unlikely situations
 
-### 3. when = whenever (repeated)
+Only *if* works in the second and third conditionals.
 
-- **When** I drink coffee at night, I can't sleep. (a general pattern)
+- **If** I **won** the lottery, I'd travel.
+- **If** we **had left** earlier, we'd have arrived on time.
 
-> ⚠️ Compare: *I'll call you **if** I finish early* (maybe I won't) vs *I'll call you **when** I finish* (I will finish; just not sure when).
+> ⚠️ Typical error: ~~When I won the lottery, I'd travel.~~ → Imaginary situations take *if*: *If I won the lottery…*
+
+## When to use *when*
+
+### 1. Something we are sure will happen
+
+- **When** I **finish** school, I'll go to university.
+- I'll have dinner **when** Mum **gets** home.
+
+> ⚠️ Typical error: ~~If I finish school, I'll go to university.~~ (you will certainly finish) → For a certain event, use *when*.
+
+### 2. Facts and habits (zero conditional)
+
+For things that are always true, *if* and *when* mean almost the same.
+
+- **If/When** you **heat** ice, it **melts**.
+- **When/If** I'm tired, I **go** to bed early.
+
+## No *will* after *if* or *when*
+
+The most common mistake. Even when the clause is about the future, use the **present simple** after *if* and *when*. The same rule applies to *as soon as, before, after, until*.
+
+| ✗ | ✓ |
+|---|---|
+| ~~when I will arrive~~ | **when I arrive** |
+| ~~if it will rain~~ | **if it rains** |
+| ~~as soon as she will call~~ | **as soon as she calls** |
+
+## *When* in questions
+
+In a direct question about time, *when* is a question word and can take *will*:
+
+- **When will** you **arrive**? (a question → *will* is fine)
+- I'll call you **when** you **arrive**. (a time clause → no *will*)
 
 ## Common mistakes
 
-**1. 'will' after if/when.** *~~When I will arrive~~* → **When I arrive.**
+**1. Using *will* after *if* or *when*.** *~~I'll tell you when I will know~~* → **I'll tell you when I know.**
 
-**2. 'when' for something uncertain.** *~~When I win the lottery, I'll travel~~* (unlikely) → **If I win the lottery, I'll travel.**
+**2. Using *when* for something uncertain.** *~~When I pass the exam, I'll celebrate~~* (if you're worried you'll fail) → **If I pass the exam, I'll celebrate.**
 
-**3. 'if' for a certainty.** *~~I'll retire if I'm 65~~* → **I'll retire when I'm 65** (you will reach 65). **Pro tip:** if = maybe; when = definitely (only the time is open).
+**3. Using *if* for something certain.** *~~If it's Christmas, we'll visit Grandma~~* → **When it's Christmas, we'll visit Grandma.**
+
+**4. Using *when* in imaginary sentences.** *~~When I were rich, I'd buy a boat~~* → **If I were rich, I'd buy a boat.**
+
+**Pro tip:** ask "Am I sure it will happen?" Sure → *when*. Not sure → *if*.
