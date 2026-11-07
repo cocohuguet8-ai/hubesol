@@ -29,6 +29,7 @@ related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
   - { title: "Past Continuous", href: "/grammar/verb-tenses/past-continuous/" }
+next: { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
 draft: false
 ---
 
@@ -43,24 +44,69 @@ draft: false
 
 The key question: **completed, or in progress?** A finished action takes the past simple; an action already happening at that moment takes the past continuous.
 
-## Use the past simple for…
+## How to form them
 
-- a completed action: **I finished** work at six.
-- a sequence of events: **She arrived, sat down and ordered.**
+| Form | Past Simple | Past Continuous |
+|---|---|---|
+| Affirmative | subject + past form | subject + was/were + verb-ing |
+| | She **called** me. | She **was calling** me. |
+| Negative | subject + didn’t + base verb | subject + wasn’t/weren’t + verb-ing |
+| | I **didn’t hear** it. | I **wasn’t listening**. |
+| Question | Did + subject + base verb? | Was/Were + subject + verb-ing? |
+| | **Did** you **see** it? | **Were** you **watching**? |
 
-> ⚠️ Typical error: ~~She was arriving, sitting down and ordering.~~ → For completed actions in sequence, use the past simple: *She arrived, sat down and ordered.*
+## When to use the past simple
 
-## Use the past continuous for…
+### 1. A completed action
 
-- the scene or background: **The sun was shining and the birds were singing.**
-- a longer action interrupted by another: **I was walking home when it started to rain.**
+- **I finished** work at six.
 
-> ⚠️ Typical error: ~~I walked home when it started to rain~~ (if the walking was already happening) → **I was walking home when it started to rain.**
+### 2. A sequence of events
+
+One action after another, like steps in a story.
+
+- **She arrived, sat down and ordered.**
+
+> ⚠️ Typical error: ✗ ~~She was arriving, sitting down and ordering.~~ → ✓ **She arrived, sat down and ordered.**
+
+## When to use the past continuous
+
+### 1. The scene or background
+
+- **The sun was shining** and the birds **were singing**.
+
+### 2. A longer action interrupted by a shorter one
+
+The long action is the past continuous; the short interruption is the past simple.
+
+- **I was walking** home **when** it **started** to rain.
+
+> ⚠️ Typical error: ✗ ~~I walked home when it started to rain.~~ (the walking was already happening) → ✓ **I was walking home when it started to rain.**
+
+### 3. Two actions in progress at the same time
+
+- **While** I **was cooking**, my sister **was setting** the table.
+
+## When and while
+
+| Word | Usually introduces | Example |
+|---|---|---|
+| when | the short action (past simple) | I was reading **when** the lights **went** out. |
+| while | the long action (past continuous) | **While** I **was reading**, the lights went out. |
+| when (both past simple) | one action right after the other | **When** the phone **rang**, I **answered** it. |
+
+## State verbs
+
+*Know, want, like, need, believe* describe states, so they stay in the past simple even for a background situation.
+
+- ✗ ~~I was wanting to leave.~~ → ✓ **I wanted to leave.**
 
 ## Common mistakes
 
-**1. Past simple for the background action.** The longer, interrupted action takes the past continuous. *~~I read when the lights went out~~* → **I was reading when the lights went out.**
+**1. Past simple for the background action.** ✗ *~~I read when the lights went out.~~* → ✓ **I was reading when the lights went out.**
 
-**2. Past continuous for a short, completed action.** *~~The phone was ringing and I was answering it quickly~~* → **The phone was ringing and I answered it quickly. Pro tip:** the quick reaction is the past simple.
+**2. Past continuous for a short, completed action.** ✗ *~~The phone rang and I was answering it quickly.~~* → ✓ **The phone rang and I answered it quickly.**
 
-**3. Past continuous with stative verbs.** *~~I was wanting to leave~~* → **I wanted to leave.**
+**3. Past continuous with a state verb.** ✗ *~~She was knowing the answer.~~* → ✓ **She knew the answer.**
+
+**Pro tip:** in a story, the past continuous paints the picture and the past simple moves the action forward.
