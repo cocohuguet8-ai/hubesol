@@ -30,6 +30,7 @@ related:
   - { title: "Past Simple", href: "/grammar/verb-tenses/past-simple/" }
   - { title: "Past Simple vs Past Perfect", href: "/grammar/verb-tenses/past-simple-vs-past-perfect/" }
   - { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
+next: { title: "Past Simple vs Past Perfect", href: "/grammar/verb-tenses/past-simple-vs-past-perfect/" }
 draft: false
 ---
 
@@ -37,32 +38,76 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + had (**’d**) + past participle | She **had finished**. |
-| Negative | subject + hadn’t + past participle | They **hadn’t arrived**. |
+| Affirmative | subject + had (**’d**) + past participle | She **had finished**. / They**’d left**. |
+| Negative | subject + hadn’t + past participle | We **hadn’t arrived**. |
 | Question | Had + subject + past participle? | **Had** you **met** before? |
 
-**Had** is the same for every subject. The past participle is the verb + *-ed* for regular verbs, or the third form for [irregular verbs](/grammar/verb-tenses/irregular-verbs/) (*go → gone, see → seen*).
+**Had** is the same for every subject (*I had, she had, they had*). In a question with a question word, *had* comes next: *Where **had** you **been**?*
+
+**Short answers:** *Yes, I had. / No, they hadn’t.*
+
+**Time expressions:** *already, just, never, before, by the time, when, after, because.*
+
+## The past participle
+
+Regular verbs add **-ed** (*work → worked*). Irregular verbs use the third form, which is often different from the past simple.
+
+| Base | Past simple | Past participle |
+|---|---|---|
+| go | went | gone |
+| see | saw | seen |
+| eat | ate | eaten |
+| write | wrote | written |
+| take | took | taken |
+| begin | began | begun |
+
+More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
 
 ## When to use the past perfect
 
 ### 1. An action before another past action
 
+The past perfect is the earlier action; the past simple is the later one.
+
 - When we got to the cinema, the film **had** already **started**.
+
+> ⚠️ Typical error: ✗ ~~When I arrived, they already left.~~ → ✓ **When I arrived, they had already left.** (They left first.)
 
 ### 2. To explain a past result or reason
 
+Often with *because*: the past perfect gives the earlier cause.
+
 - She was nervous because she **hadn’t slept**.
 
-### 3. With ‘by the time’
+### 3. With by the time, before and after
 
-- By the time he called, **I had gone** to bed.
+- **By the time** he called, I **had gone** to bed.
+- I had never flown **before** I went to New York.
 
-> ⚠️ Typical error: ~~When I arrived, they already left.~~ → The earlier action takes the past perfect: *When I arrived, they had already left.*
+## Past perfect or past simple?
+
+| Sentence | Meaning |
+|---|---|
+| When I arrived, the train **left**. | I arrived, then it left (I saw it go). |
+| When I arrived, the train **had left**. | It left first; I missed it. |
+
+With *after* and *before*, the order is already clear, so the past simple is also correct: *After I **finished** / **had finished**, I went home.*
+
+## Signal words
+
+| Word | Position | Example |
+|---|---|---|
+| already | between had and the participle | The film **had already** started. |
+| by the time | start of the clause | **By the time** we arrived, they’d left. |
+| before / never … before | end of the clause | I’d **never** seen snow **before**. |
+| because | start of the reason | He was tired **because** he’d worked all night. |
 
 ## Common mistakes
 
-**1. Using the past simple for both actions when order matters.** *~~When I got to the station, the train left~~* (it left first) → **When I got to the station, the train had left.**
+**1. Past simple for the earlier action when the order matters.** ✗ *~~When I got to the station, the train left.~~* (It left first.) → ✓ **When I got to the station, the train had left.**
 
-**2. Overusing the past perfect.** For a simple sequence, the past simple is enough. *~~I had woken up and had made coffee~~* → **I woke up and made coffee. Pro tip:** only use the past perfect when you need to point to an earlier action.
+**2. Overusing the past perfect.** For a simple list of events in order, the past simple is enough. ✗ *~~I had woken up and had made coffee.~~* → ✓ **I woke up and made coffee.**
 
-**3. Wrong participle after ‘had’.** *~~I had went~~* → **I had gone.** After *had*, always use the past participle.
+**3. Wrong participle after had.** ✗ *~~I had went.~~* → ✓ **I had gone.** After *had*, always use the past participle.
+
+**Pro tip:** use the past perfect only when you need to go one step further back in the past.
