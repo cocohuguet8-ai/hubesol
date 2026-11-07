@@ -28,6 +28,7 @@ related:
   - { title: "All verb tenses", href: "/grammar/verb-tenses/" }
   - { title: "Future Simple (will)", href: "/grammar/verb-tenses/future-simple/" }
   - { title: "Future: going to", href: "/grammar/verb-tenses/future-going-to/" }
+next: { title: "Present Continuous for the Future", href: "/grammar/verb-tenses/present-continuous-future/" }
 draft: false
 ---
 
@@ -36,31 +37,76 @@ draft: false
 | | Will | Going to |
 |---|---|---|
 | Decisions | now, on the spot | before now (a plan) |
-| Predictions | general or opinion | based on evidence you can see |
-| Promises & offers | yes — **I'll** help | no |
-| Example | **I'll** answer it. | **I'm going to** call her later (planned). |
+| Predictions | opinion or belief | based on evidence you can see |
+| Promises & offers | yes — **I’ll** help | no |
+| Example | **I’ll** answer it. | **I’m going to** call her later. (planned) |
 
 The key question: **when was it decided?** Decided as you speak → *will*. Decided earlier, or you can see it coming → *going to*.
 
-## Use will for…
+## How to form them
 
-- an instant decision: **I'll have** the fish, please.
-- a promise or offer: **I'll pay** you back tomorrow.
-- a general prediction: **You'll love** Barcelona.
+| Form | Will | Going to |
+|---|---|---|
+| Affirmative | subject + will (’ll) + base verb | subject + am/is/are + going to + base verb |
+| | She**’ll help** you. | She**’s going to help** you. |
+| Negative | subject + won’t + base verb | subject + am/is/are not + going to + base verb |
+| | They **won’t come**. | They **aren’t going to come**. |
+| Question | Will + subject + base verb? | Am/Is/Are + subject + going to + base verb? |
+| | **Will** you **be** there? | **Are** you **going to be** there? |
 
-> ⚠️ Typical error: ~~I will visit my aunt this weekend~~ (already planned) → For a plan made before now, use going to: *I'm going to visit my aunt this weekend.*
+## When to use will
 
-## Use going to for…
+### 1. A decision made now
 
-- a plan or intention: **We're going to move** house.
-- a prediction from evidence: **She's going to have** a baby.
+- **I’ll have** the fish, please.
 
-> ⚠️ Typical error: ~~The phone's ringing. I'm going to get it.~~ → For a decision made right now, use will: *I'll get it.*
+### 2. Promises and offers
+
+- **I’ll pay** you back tomorrow.
+- That bag looks heavy. **I’ll carry** it.
+
+### 3. Predictions from opinion
+
+Often with *I think, I’m sure, probably*.
+
+- **You’ll love** Barcelona.
+
+> ⚠️ Typical error: ✗ ~~I will visit my aunt this weekend.~~ (already planned) → ✓ **I’m going to visit my aunt this weekend.**
+
+## When to use going to
+
+### 1. Plans and intentions
+
+- **We’re going to move** house in June.
+
+### 2. Predictions from present evidence
+
+- Look at those clouds! **It’s going to rain.**
+
+> ⚠️ Typical error: ✗ ~~The phone’s ringing. I’m going to get it.~~ → ✓ **I’ll get it.** (You decided right now.)
+
+## Same situation, different moment
+
+| Moment | Sentence |
+|---|---|
+| A: We’ve run out of milk. B (deciding now): | Oh, **I’ll buy** some. |
+| Later, B to C (already planned): | **I’m going to buy** some milk on the way home. |
+
+## Signal words
+
+| Word | Usually goes with | Example |
+|---|---|---|
+| I think / I’m sure / probably | will | **I think** it’**ll** be fine. |
+| OK / Right then (deciding now) | will | **OK**, **I’ll** call him. |
+| Look! / Watch out! | going to | **Look!** He’s **going to** fall. |
+| already decided / I’ve booked | going to | **I’ve booked** the flight — I’m **going to** visit Rome. |
 
 ## Common mistakes
 
-**1. Going to for instant decisions.** *~~A: I'm cold. B: I'm going to close the window.~~* → **I'll close the window** (you decided as you spoke).
+**1. Going to for instant decisions.** ✗ *~~A: I’m cold. B: I’m going to close the window.~~* → ✓ **I’ll close the window.**
 
-**2. Will for plans already made.** *~~I will study medicine — I've already enrolled.~~* → **I'm going to study medicine.**
+**2. Will for plans already made.** ✗ *~~I will study medicine — I’ve already enrolled.~~* → ✓ **I’m going to study medicine.**
 
-**3. Present simple for predictions.** *~~It rains tomorrow~~* → **It will rain / It's going to rain tomorrow. Pro tip:** both futures beat the present simple for predictions.
+**3. Present simple for predictions.** ✗ *~~It rains tomorrow.~~* → ✓ **It will rain / It’s going to rain tomorrow.**
+
+**Pro tip:** ask “When did I decide?” Now → *will*. Before → *going to*.
