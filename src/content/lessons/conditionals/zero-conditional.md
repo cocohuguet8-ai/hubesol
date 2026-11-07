@@ -27,6 +27,7 @@ teacherObjectives:
 related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "First Conditional", href: "/grammar/conditionals/first-conditional/" }
+next: { title: "First Conditional", href: "/grammar/conditionals/first-conditional/" }
 draft: false
 ---
 
@@ -34,32 +35,83 @@ draft: false
 
 | Clause | Verb form | Example |
 |---|---|---|
-| If-clause (the condition) | if + present simple | **If you press** this button, |
-| Main clause (the result) | present simple | the machine **starts**. |
+| If-clause (the condition) | if + present simple | **If you heat** ice, |
+| Main clause (the result) | present simple | it **melts**. |
 
-Both parts use the **present simple**. If the if-clause comes first, put a comma after it; if it comes second, no comma is needed.
+Both clauses use the **present simple**. The if-clause can go first or second. When it goes first, put a **comma** after it; when it goes second, use no comma.
+
+| Order | Example |
+|---|---|
+| If-clause first (comma) | **If it rains**, the streets **get** wet. |
+| Result first (no comma) | The streets **get** wet **if it rains**. |
+
+## Negatives and questions
+
+Use *don't / doesn't* in either clause, and make questions from the main clause.
+
+- If I **don't eat** breakfast, I **feel** tired by eleven.
+- If you **press** this button, the light **doesn't come** on.
+- What **happens** if you **mix** red and white?
+
+✗ ~~If you don't water plants, they don't to grow.~~ → ✓ **If you don't water plants, they don't grow.**
 
 ## When to use the zero conditional
 
-### 1. General truths and facts
+### 1. General truths and scientific facts
+
+The result always follows the condition. It is true now, yesterday and tomorrow.
 
 - **If you mix** blue and yellow, you **get** green.
-- Water **boils if** you heat it to 100°C.
+- Water **boils if** you **heat** it to 100 °C.
+
+> ⚠️ Typical error: ~~If you heat ice, it will melt.~~ → A fact that is always true takes the present simple in both clauses: *If you heat ice, it melts.*
 
 ### 2. Habits and routines
 
-- **If I drink** coffee late, I **don't sleep**.
+Things that always happen in your life under a certain condition.
+
+- **If I drink** coffee after six, I **don't sleep** well.
+- My dog **barks if** someone **knocks** at the door.
+
+> ⚠️ Typical error: ~~If I am tired, I will go to bed early~~ (every night) → For a habit, keep the present simple: *If I'm tired, I go to bed early.*
 
 ### 3. Rules and instructions
 
-- **If the alarm rings**, leave the building.
+The result clause can be an **imperative** (an order or instruction).
 
-> ⚠️ Typical error: ~~If you heat ice, it will melt.~~ (a general truth) → Both clauses take the present simple: *If you heat ice, it melts.*
+- **If the alarm rings**, **leave** the building.
+- **If you don't understand** a word, **check** the dictionary.
+
+> ⚠️ Typical error: ~~If you will finish early, wait outside.~~ → Never use *will* after *if*: *If you finish early, wait outside.*
+
+## If or when?
+
+In the zero conditional, *if* and *when* (or *whenever*) mean almost the same, because the result always happens.
+
+| Word | Meaning | Example |
+|---|---|---|
+| if | every time this condition is true | **If** it's sunny, we eat outside. |
+| when | every time this happens | **When** it's sunny, we eat outside. |
+| whenever | every single time | **Whenever** it's sunny, we eat outside. |
+
+## Zero or first conditional?
+
+| | Zero conditional | First conditional |
+|---|---|---|
+| Meaning | always true | one possible future situation |
+| Form | if + present, present | if + present, will + verb |
+| Example | If you heat ice, it **melts**. | If it's sunny tomorrow, we**'ll go** to the beach. |
+
+See [First Conditional](/grammar/conditionals/first-conditional/).
 
 ## Common mistakes
 
-**1. Using 'will' in the zero conditional.** A general truth uses the present simple, not will. *~~If you don't water plants, they will die~~* (as a fact) → **If you don't water plants, they die.**
+**1. Using *will* in the result clause for a fact.** A general truth does not need the future. *~~If you don't water plants, they will die~~* (as a general fact) → **If you don't water plants, they die.**
 
-**2. Using 'will' in the if-clause.** *~~If you will press this~~* → **If you press this. Pro tip:** never put 'will' straight after 'if'.
+**2. Using *will* in the if-clause.** After *if*, use the present simple, never *will*. *~~If you will press this button~~* → **If you press this button.**
 
-**3. Adding a comma when the result comes first.** *~~Ice melts, if you heat it~~* → **Ice melts if you heat it.**
+**3. Forgetting the third-person -s.** The present simple still needs *-s* with *he, she, it*. *~~If water get very cold, it freeze~~* → **If water gets very cold, it freezes.**
+
+**4. Putting a comma when the result comes first.** *~~Ice melts, if you heat it.~~* → **Ice melts if you heat it.**
+
+**Pro tip:** if you can say *every time* instead of *if* and the sentence still makes sense, it's a zero conditional.
