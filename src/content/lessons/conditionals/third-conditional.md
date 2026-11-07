@@ -28,6 +28,7 @@ related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
   - { title: "Second Conditional", href: "/grammar/conditionals/second-conditional/" }
   - { title: "Irregular Verbs", href: "/grammar/verb-tenses/irregular-verbs/" }
+next: { title: "Second vs Third Conditional", href: "/grammar/conditionals/second-vs-third-conditional/" }
 draft: false
 ---
 
@@ -35,31 +36,84 @@ draft: false
 
 | Clause | Verb form | Example |
 |---|---|---|
-| If-clause (the condition) | if + past perfect (had + participle) | **If I had known**, |
-| Main clause (the result) | would have + past participle | I **would have told** you. |
+| If-clause (the condition) | if + had + past participle | **If I had studied**, |
+| Main clause (the result) | would have + past participle | I **would have passed**. |
 
-Both parts describe a past that **didn't happen**. The past participle is the verb + *-ed* or the third form for [irregular verbs](/grammar/verb-tenses/irregular-verbs/). You can replace *would have* with *could have* or *might have*.
+The third conditional is about the **past**. It imagines a different past and its different result — but the past can't change. Comma rule: comma after the if-clause when it comes first.
+
+| Form | Example |
+|---|---|
+| Affirmative | If we**'d left** earlier, we**'d have caught** the train. |
+| Negative | If it **hadn't rained**, we **wouldn't have cancelled** the match. |
+| Question | What **would** you **have done** if you**'d missed** the flight? |
+| Result first | I'd have called you **if I'd had** your number. |
+
+## Contractions: *'d* = *had* or *would*
+
+In the third conditional, *'d* appears in both clauses with different meanings.
+
+| Clause | *'d* means | Example |
+|---|---|---|
+| If-clause | **had** | If I**'d known** … (= had known) |
+| Main clause | **would** | … I**'d have helped**. (= would have helped) |
+
+In speech, *would have* often sounds like **"would've"** /ˈwʊdəv/. Never write ~~would of~~.
 
 ## When to use the third conditional
 
-### 1. Regrets
+### 1. Imagining a different past
 
-- **If I had saved** money, I **would have bought** the house.
+The situation did **not** happen.
 
-### 2. Criticism
+- **If I had set** my alarm, I **wouldn't have been** late. (I didn't set it, so I was late.)
+- **If she had taken** the job, she **would have moved** to London. (She didn't take it.)
 
-- **If you had listened**, you **wouldn't have made** that mistake.
+> ⚠️ Typical error: ~~If I would have set my alarm, I wouldn't have been late.~~ → No *would* in the if-clause: *If I had set my alarm…*
 
-### 3. An alternative past result
+### 2. Regrets
 
-- **If they had left** earlier, they **would have caught** the train.
+We often use it to talk about things we are sorry about.
 
-> ⚠️ Typical error: ~~If I would have known, I'd have told you.~~ → The if-clause uses the past perfect: *If I had known, I'd have told you.*
+- **If I hadn't eaten** so much, I **wouldn't have felt** sick.
+- **If we had booked** earlier, we **would have got** better seats.
+
+> ⚠️ Typical error: ~~If I didn't eat so much, I wouldn't have felt sick.~~ → The past condition needs the past perfect: *If I hadn't eaten…*
+
+### 3. Criticism and relief
+
+- **If you had listened**, you **would have known** what to do. (criticism)
+- **If the driver hadn't stopped**, there **would have been** an accident. (relief)
+
+> ⚠️ Typical error: ~~If you had listened, you would know what to do yesterday.~~ → A past result needs *would have* + past participle: *you would have known.*
+
+## *Could have* and *might have*
+
+| Result | Meaning | Example |
+|---|---|---|
+| would have | certain result | If I'd seen you, I **would have said** hello. |
+| could have | possible / able to | If we'd had more time, we **could have visited** the castle. |
+| might have | perhaps | If you'd asked, she **might have said** yes. |
+
+## Past participles to remember
+
+| Base | Past participle | Base | Past participle |
+|---|---|---|---|
+| be | been | take | taken |
+| go | gone | see | seen |
+| know | known | eat | eaten |
+| leave | left | forget | forgotten |
+| catch | caught | write | written |
+
+More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
 
 ## Common mistakes
 
-**1. Using 'would have' in the if-clause.** *~~If I would have studied, I'd have passed~~* → **If I had studied, I'd have passed.**
+**1. Using *would have* in the if-clause.** The most common third-conditional error, very frequent in speech. *~~If I would have known~~* → **If I had known.**
 
-**2. Wrong participle after 'would have'.** *~~would have went~~* → **would have gone.**
+**2. Using the past simple instead of the past perfect.** *~~If I knew, I would have told you~~* (about the past) → **If I had known, I would have told you.**
 
-**3. Mixing tenses with the second conditional.** *~~If I studied, I would have passed~~* → **If I had studied, I would have passed. Pro tip:** the third conditional is all in the past — had + participle, then would have + participle.
+**3. Using the past simple after *would have*.** *~~I would have went~~* → **I would have gone.** *~~She would have came~~* → **She would have come.**
+
+**4. Writing *would of*.** It's only the sound. *~~would of helped~~* → **would have helped.**
+
+**Pro tip:** the third conditional always has three "past" verbs in a row in the result — **would + have + past participle**. Count them.
