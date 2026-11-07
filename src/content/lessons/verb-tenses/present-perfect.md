@@ -34,6 +34,8 @@ related:
   - { title: "Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-continuous/" }
   - { title: "Present Perfect vs Present Perfect Continuous", href: "/grammar/verb-tenses/present-perfect-vs-present-perfect-continuous/" }
   - { title: "Since vs For", href: "/grammar/verb-tenses/since-vs-for/" }
+next: { title: "Been vs Gone", href: "/grammar/verb-tenses/been-vs-gone/" }
+draft: false
 ---
 
 ## How to form the present perfect
@@ -45,6 +47,28 @@ related:
 | Question | Have/Has + subject + past participle? | **Have** you **eaten**? |
 
 The past participle is the verb + *-ed* for regular verbs (*worked, played*) and the third form for irregular verbs (*go → gone, see → seen, eat → eaten*).
+
+## The past participle
+
+| Base | Past simple | Past participle |
+|---|---|---|
+| work | worked | worked |
+| go | went | gone |
+| see | saw | seen |
+| eat | ate | eaten |
+| write | wrote | written |
+| be | was / were | been |
+
+More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
+
+## Been or gone?
+
+With *go*, the present perfect has two participles. **Been** = went and came back; **gone** = went and is still there.
+
+- She**’s been** to Paris. (She’s back now.)
+- She**’s gone** to Paris. (She’s there now.)
+
+More in [Been vs Gone](/grammar/verb-tenses/been-vs-gone/).
 
 ## When to use the present perfect
 
