@@ -26,6 +26,7 @@ teacherObjectives:
   - "Can place adverbs of frequency (always, usually, sometimes, never) correctly in a sentence."
   - "Can choose the present simple over the present continuous for habits, facts and timetables."
 related: []
+next: { title: "Present Continuous", href: "/grammar/verb-tenses/present-continuous/" }
 draft: false
 ---
 
@@ -88,7 +89,7 @@ The ending is said in three ways: /s/ after *p, t, k* (*works*), /z/ after most 
 
 **1. Forgetting the -s on he/she/it.** The number-one present-simple error: *I work, you work, we work* have no ending, so the -s on *he works* is easy to forget. *~~He work~~* → **He works** in a bank.
 
-**2. Using the present continuous for habits.** Learners often reach for the *-ing* form because it feels like "what I do these days". For a routine, English uses the present simple: *I work here*, not *I am working here* (unless it is temporary or happening right now).
+**2. Using the present continuous for habits.** Learners often reach for the *-ing* form because it feels like “what I do these days”. For a routine, English uses the present simple: *I work here*, not *I am working here* (unless it is temporary or happening right now).
 
 **3. Keeping the -s in questions and negatives.** After *does* or *doesn’t*, the main verb goes back to its base form. *~~Does she works?~~* → **Does she work?** and *~~He doesn’t works~~* → **He doesn’t work.**
 
