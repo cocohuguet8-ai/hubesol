@@ -29,44 +29,88 @@ related:
   - { title: "All about the passive", href: "/grammar/passive-voice/" }
   - { title: "Passive Voice: the basics", href: "/grammar/passive-voice/passive-voice-basics/" }
   - { title: "The passive in all tenses", href: "/grammar/passive-voice/passive-all-tenses/" }
+next: { title: "Passive Reporting Structures", href: "/grammar/passive-voice/passive-reporting-structures/" }
 draft: false
 ---
 
 ## How to form the causative
 
-Use **have** (or **get**) **+ object + past participle**.
+| Structure | Example |
+|---|---|
+| have + **object** + past participle | I **had my hair cut**. |
+| get + **object** + past participle | I **got my hair cut**. |
 
-| Meaning | Structure | Example |
-|---|---|---|
-| Arrange a service | have + object + participle | I **had my car repaired**. |
-| Same, more informal | get + object + participle | I **got my hair cut**. |
-| Change the tense on have/get | (tense) have/get + object + participle | She **has had her photo taken**. |
-| Something happens to you | have + object + participle | They **had their flight cancelled**. |
+The causative means **someone else does it for you** — usually because you pay or ask them. The word order is important: the **object comes before** the participle.
 
-The tense sits on **have/get**; the main verb stays a **past participle**.
+| Sentence | Meaning |
+|---|---|
+| I **cut my hair**. | I did it myself. |
+| I **had my hair cut**. | A hairdresser did it for me. |
 
-## When to use it
+## Tenses
 
-### 1. A service someone does for you
+Only *have* / *get* changes. The object and the participle stay the same.
 
-- We **had the kitchen painted** last month. (a decorator did it)
-- I need to **get my eyes tested**.
+| Tense | Example |
+|---|---|
+| present simple | She **has** her nails **done** every month. |
+| present continuous | We**'re having** the kitchen **painted**. |
+| past simple | I **had** my car **repaired** yesterday. |
+| present perfect | They**'ve had** the house **cleaned**. |
+| future | I**'ll get** my eyes **tested** next week. |
+| *going to* | He**'s going to have** his teeth **checked**. |
+| modal | You **should get** your bike **fixed**. |
 
-### 2. Across the tenses
+## When to use the causative
 
-- **I'm having** the boiler **serviced** tomorrow.
-- **He's just had** a tooth **removed**.
+### 1. Services we pay for
 
-### 3. Something that happens to you (often bad)
+- I **have** my car **serviced** once a year.
+- She **got** her photo **taken** for her passport.
 
-- She **had her bag stolen** at the station.
+> ⚠️ Typical error: ~~I had cut my hair.~~ → That's past perfect (you did it). Causative: *I had my hair cut.*
 
-> ⚠️ Meaning check: *I had my car washed* = someone washed it for me. *I washed my car* = I did it myself.
+### 2. *Get* is more informal
+
+- I **got** my phone **fixed**. (informal)
+- I **had** my phone **fixed**. (neutral)
+
+### 3. Bad experiences
+
+The causative can also describe something bad that **happened to** you (not a service).
+
+- He **had** his wallet **stolen** on the train.
+- We **had** our windows **broken** in the storm.
+
+> ⚠️ Typical error: ~~He stole his wallet on the train.~~ → That means he stole it! *He had his wallet stolen.*
+
+## Questions and negatives
+
+*Have* and *get* are normal verbs here: use **do / does / did**.
+
+| Question | Negative |
+|---|---|
+| **Did** you **have** your hair **cut**? | I **didn't have** it **cut**. |
+| **Do** you **get** your car **washed**? | She **doesn't get** it **washed**. |
+| Where **do** you **have** your nails **done**? | They **haven't had** the roof **fixed**. |
+
+> ⚠️ Typical error: ~~Had you your hair cut?~~ → *Did you have your hair cut?*
+
+## Word order
+
+| ✗ | ✓ |
+|---|---|
+| ~~I had cut my hair.~~ | I had **my hair cut**. |
+| ~~She got repaired her car.~~ | She got **her car repaired**. |
 
 ## Common mistakes
 
-**1. Using the base verb.** *~~I had my car repair~~* → **I had my car repaired.**
+**1. Wrong word order.** *~~I had repaired my bike~~* (= I repaired it before) → **I had my bike repaired.**
 
-**2. Putting the tense on the wrong verb.** *~~I have cut my hair yesterday~~* (meaning a hairdresser) → **I had my hair cut yesterday.**
+**2. Base verb instead of participle.** *~~I had my hair cutted / cutting~~* → **I had my hair cut.**
 
-**3. Wrong word order.** *~~I had repaired my car~~* (a mechanic) → **I had my car repaired. Pro tip:** object first, then the past participle — have + [thing] + [done].
+**3. Questions without *do/did*.** *~~Had you your eyes tested?~~* → **Did you have your eyes tested?**
+
+**4. Forgetting the causative.** *~~I painted my house last week~~* (when painters did it) → **I had my house painted.**
+
+**Pro tip:** remember the order **have + THING + done** — "have the thing done".
