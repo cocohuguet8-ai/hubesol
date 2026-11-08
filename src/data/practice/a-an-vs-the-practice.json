@@ -1,0 +1,1523 @@
+{
+  "tense": "a-an-vs-the",
+  "lessonTitle": "A/An vs The",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "a",
+        "an",
+        "the"
+      ],
+      "label": null,
+      "primary": "the"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type a, an or the. Ask yourself: does the listener know which one? Twenty original sentences.",
+    "questions": [
+      {
+        "use": "First → second",
+        "before": "I saw",
+        "after": "cat in the street. The cat was black.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "First mention: the listener doesn’t know it yet, so ‘a cat’."
+      },
+      {
+        "use": "First → second",
+        "before": "I saw a cat in the street.",
+        "after": "cat was black.",
+        "hint": "a / an / the",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "Second mention: now we know which cat, so ‘the cat’."
+      },
+      {
+        "use": "First → second",
+        "before": "We bought",
+        "after": "sofa and two chairs.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "First mention of a singular noun: ‘a sofa’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "First → second",
+        "before": "We bought a sofa and two chairs.",
+        "after": "sofa is grey.",
+        "hint": "a / an / the",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "Second mention: ‘the sofa’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "First → second",
+        "before": "There was",
+        "after": "old man on the bus.",
+        "hint": "a / an / the",
+        "answers": [
+          "an"
+        ],
+        "display": "an",
+        "explain": "First mention + vowel sound: ‘an old man’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Any one",
+        "before": "Can I borrow",
+        "after": "pencil? Any pencil is fine.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "Any pencil, not a specific one: ‘a’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Specific",
+        "before": "Can I borrow",
+        "after": "pencil on your desk?",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "‘On your desk’ tells us which: ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Any one",
+        "before": "Is there",
+        "after": "bus stop near here?",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "Any bus stop: ‘a’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Specific",
+        "before": "Where’s",
+        "after": "remote control? I can’t find it.",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "The one we have at home: ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "One of many",
+        "before": "Lisbon is",
+        "after": "beautiful city.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "One of many beautiful cities: ‘a’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Only one",
+        "before": "Madrid is",
+        "after": "capital of Spain.",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "There’s only one capital of Spain: ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Job",
+        "before": "My mum is",
+        "after": "engineer.",
+        "hint": "a / an / the",
+        "answers": [
+          "an"
+        ],
+        "display": "an",
+        "explain": "Jobs take a/an; vowel sound: ‘an engineer’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Unique",
+        "before": "",
+        "after": "moon is very bright tonight.",
+        "hint": "a / an / the",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "Only one moon: ‘the moon’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Superlative",
+        "before": "It was",
+        "after": "best day of my life.",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Superlatives take ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Describing",
+        "before": "She has",
+        "after": "lovely garden.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "Describing what she has: ‘a lovely garden’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Identifying",
+        "before": "",
+        "after": "garden behind our house is huge.",
+        "hint": "a / an / the",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "‘Behind our house’ identifies it: ‘the garden’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Specific",
+        "before": "Did you lock",
+        "after": "front door?",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Our front door, we both know it: ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "First mention",
+        "before": "I had",
+        "after": "amazing dream last night.",
+        "hint": "a / an / the",
+        "answers": [
+          "an"
+        ],
+        "display": "an",
+        "explain": "First mention + vowel sound: ‘an amazing dream’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Per",
+        "before": "I go to the gym three times",
+        "after": "week.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "‘A’ means ‘per’: three times a week. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Instrument",
+        "before": "Can you play",
+        "after": "piano?",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Instruments take ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with a, an and the.",
+    "sentences": [
+      {
+        "use": "First mention",
+        "tokens": [
+          "I",
+          "saw",
+          "a",
+          "dog."
+        ]
+      },
+      {
+        "use": "Second mention",
+        "tokens": [
+          "The",
+          "dog",
+          "was",
+          "huge."
+        ]
+      },
+      {
+        "use": "First mention",
+        "tokens": [
+          "We",
+          "met",
+          "an",
+          "actor."
+        ]
+      },
+      {
+        "use": "Second mention",
+        "tokens": [
+          "The",
+          "actor",
+          "was",
+          "funny."
+        ]
+      },
+      {
+        "use": "Any one",
+        "tokens": [
+          "Can",
+          "I",
+          "have",
+          "a",
+          "pen?"
+        ]
+      },
+      {
+        "use": "Specific",
+        "tokens": [
+          "Pass",
+          "me",
+          "the",
+          "red",
+          "pen."
+        ]
+      },
+      {
+        "use": "Any one",
+        "tokens": [
+          "Is",
+          "there",
+          "a",
+          "bank",
+          "here?"
+        ]
+      },
+      {
+        "use": "Specific",
+        "tokens": [
+          "Where",
+          "is",
+          "the",
+          "bank?"
+        ]
+      },
+      {
+        "use": "One of many",
+        "tokens": [
+          "She",
+          "is",
+          "a",
+          "doctor."
+        ]
+      },
+      {
+        "use": "Only one",
+        "tokens": [
+          "He",
+          "is",
+          "the",
+          "boss."
+        ]
+      },
+      {
+        "use": "Unique",
+        "tokens": [
+          "The",
+          "sun",
+          "is",
+          "hot."
+        ]
+      },
+      {
+        "use": "Superlative",
+        "tokens": [
+          "It",
+          "is",
+          "the",
+          "best",
+          "film."
+        ]
+      },
+      {
+        "use": "Describing",
+        "tokens": [
+          "He",
+          "has",
+          "a",
+          "big",
+          "house."
+        ]
+      },
+      {
+        "use": "Identifying",
+        "tokens": [
+          "The",
+          "house",
+          "is",
+          "on",
+          "the",
+          "hill."
+        ]
+      },
+      {
+        "use": "Specific",
+        "tokens": [
+          "Close",
+          "the",
+          "window,",
+          "please."
+        ]
+      },
+      {
+        "use": "Job",
+        "tokens": [
+          "My",
+          "dad",
+          "is",
+          "an",
+          "artist."
+        ]
+      },
+      {
+        "use": "Per",
+        "tokens": [
+          "I",
+          "run",
+          "twice",
+          "a",
+          "week."
+        ]
+      },
+      {
+        "use": "Instrument",
+        "tokens": [
+          "She",
+          "plays",
+          "the",
+          "guitar."
+        ]
+      },
+      {
+        "use": "Only one",
+        "tokens": [
+          "Rome",
+          "is",
+          "the",
+          "capital",
+          "of",
+          "Italy."
+        ]
+      },
+      {
+        "use": "One of many",
+        "tokens": [
+          "Rome",
+          "is",
+          "a",
+          "big",
+          "city."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "A/an or the?",
+    "subtitle": "Tap a sentence, then tap the article that fits the gap.",
+    "leftLabel": "Sentence",
+    "rightLabel": "Article",
+    "rightLabelSub": "(a / an / the)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I bought ___ new phone yesterday.",
+        "right": "a"
+      },
+      {
+        "left": "___ sun is shining.",
+        "right": "the"
+      },
+      {
+        "left": "She is ___ architect.",
+        "right": "an"
+      },
+      {
+        "left": "He’s ___ tallest boy in class.",
+        "right": "the"
+      },
+      {
+        "left": "Can I have ___ apple?",
+        "right": "an"
+      },
+      {
+        "left": "There’s ___ cat on the wall.",
+        "right": "a"
+      },
+      {
+        "left": "Paris is ___ capital of France.",
+        "right": "the"
+      },
+      {
+        "left": "I waited for ___ hour.",
+        "right": "an"
+      },
+      {
+        "left": "Close ___ door, please.",
+        "right": "the"
+      },
+      {
+        "left": "My aunt is ___ nurse.",
+        "right": "a"
+      },
+      {
+        "left": "It was ___ easy test.",
+        "right": "an"
+      },
+      {
+        "left": "Who is ___ man in the photo?",
+        "right": "the"
+      },
+      {
+        "left": "Is there ___ café near here?",
+        "right": "a"
+      },
+      {
+        "left": "Look at ___ stars!",
+        "right": "the"
+      },
+      {
+        "left": "I have ___ idea!",
+        "right": "an"
+      },
+      {
+        "left": "I saw a film. ___ film was long.",
+        "right": "the"
+      },
+      {
+        "left": "We need ___ taxi.",
+        "right": "a"
+      },
+      {
+        "left": "She plays ___ violin.",
+        "right": "the"
+      },
+      {
+        "left": "He’s ___ honest man.",
+        "right": "an"
+      },
+      {
+        "left": "I eat out once ___ week.",
+        "right": "a"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Does the listener know which one? No → a/an. Yes → the.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "First mention",
+        "text": "Last week I read <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> book about sharks.",
+        "choices": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘The book’ means the listener already knows which book.",
+          "‘Book’ starts with a consonant sound.",
+          "A singular countable noun needs an article."
+        ],
+        "explain": "First mention: a book. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Second mention",
+        "text": "I read a book about sharks. <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> book was fascinating.",
+        "choices": [
+          "A",
+          "The",
+          "An",
+          "—"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "We already mentioned it, so not ‘a’.",
+          "",
+          "‘Book’ starts with a consonant sound, and it’s second mention.",
+          "A singular noun needs an article."
+        ],
+        "explain": "Second mention: the book. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Any one",
+        "text": "Excuse me, is there <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> toilet in this building?",
+        "choices": [
+          "the",
+          "an",
+          "a",
+          "—"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "We don’t know which toilet yet.",
+          "‘Toilet’ starts with a consonant sound.",
+          "",
+          "A singular noun needs an article."
+        ],
+        "explain": "Any toilet: a. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Specific",
+        "text": "Excuse me, where’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> toilet?",
+        "choices": [
+          "a",
+          "an",
+          "—",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "We mean the toilet in this building.",
+          "‘Toilet’ starts with a consonant sound.",
+          "A singular noun needs an article.",
+          ""
+        ],
+        "explain": "The one in this place: the toilet. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Only one",
+        "text": "Who is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> president of your club?",
+        "choices": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "There’s only one president.",
+          "",
+          "‘President’ starts with a consonant sound.",
+          "A singular noun needs an article."
+        ],
+        "explain": "Only one: the president. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "One of many",
+        "text": "My friend Tom is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> member of the club.",
+        "choices": [
+          "the",
+          "an",
+          "a",
+          "—"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "There are many members.",
+          "‘Member’ starts with a consonant sound.",
+          "",
+          "A singular noun needs an article."
+        ],
+        "explain": "One of many: a member. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Superlative",
+        "text": "It’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> most expensive restaurant in town.",
+        "choices": [
+          "a",
+          "an",
+          "—",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Superlatives never take ‘a’.",
+          "Superlatives never take ‘an’.",
+          "Superlatives need ‘the’.",
+          ""
+        ],
+        "explain": "Superlative: the most expensive. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Unique",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> earth is the third planet from the sun.",
+        "choices": [
+          "The",
+          "An",
+          "A",
+          "—"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "There’s only one earth.",
+          "There’s only one earth.",
+          "We say ‘the earth’ (or ‘Earth’ as a name)."
+        ],
+        "explain": "Unique: the earth. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Job",
+        "text": "Her husband is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> electrician.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Jobs take a/an, not ‘the’.",
+          "‘Electrician’ starts with a vowel sound.",
+          "",
+          "Jobs need an article."
+        ],
+        "explain": "Job + vowel sound: an electrician. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Identifying",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> girl with long hair is my cousin.",
+        "choices": [
+          "A",
+          "An",
+          "—",
+          "The"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘With long hair’ identifies her: not ‘a’.",
+          "‘Girl’ starts with a consonant sound.",
+          "A singular noun needs an article.",
+          ""
+        ],
+        "explain": "Identified by a phrase: the girl. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Describing",
+        "text": "My cousin is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> girl with long hair.",
+        "choices": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "We’re describing her, not identifying her.",
+          "‘Girl’ starts with a consonant sound.",
+          "A singular noun needs an article."
+        ],
+        "explain": "Describing: a girl with long hair. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Specific",
+        "text": "Can you turn on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> light? It’s dark.",
+        "choices": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "We mean the light in this room.",
+          "",
+          "‘Light’ starts with a consonant sound.",
+          "A singular noun needs an article."
+        ],
+        "explain": "Specific: the light. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "First mention",
+        "text": "We saw <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> owl in the forest.",
+        "choices": [
+          "the",
+          "a",
+          "—",
+          "an"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "First mention: not ‘the’.",
+          "‘Owl’ starts with a vowel sound.",
+          "A singular noun needs an article.",
+          ""
+        ],
+        "explain": "First mention + vowel sound: an owl. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Instrument",
+        "text": "He’s learning to play <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> saxophone.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Instruments take ‘the’.",
+          "‘Saxophone’ starts with a consonant sound.",
+          "Instruments usually need ‘the’."
+        ],
+        "explain": "Instrument: the saxophone. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Per",
+        "text": "The tickets cost ten euros <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> person.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Per unit: ‘a person’.",
+          "",
+          "‘Person’ starts with a consonant sound.",
+          "We need ‘a’ (or ‘per’)."
+        ],
+        "explain": "‘A’ = per: ten euros a person. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Only one",
+        "text": "What’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> name of your teacher?",
+        "choices": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Your teacher has one name.",
+          "‘Name’ starts with a consonant sound.",
+          "",
+          "A singular noun needs an article."
+        ],
+        "explain": "Only one name: the name. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "I have a sister. The sister lives in Rome.",
+          "I have the sister. A sister lives in Rome.",
+          "I have a sister. A sister lives in Rome.",
+          "I have sister. The sister lives in Rome."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "First mention needs ‘a’.",
+          "Second mention needs ‘the’.",
+          "A singular noun needs an article."
+        ],
+        "explain": "First mention a, second mention the. (More natural: ‘She lives in Rome.’)"
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "She’s a best singer in the band.",
+          "She’s the best singer in the band.",
+          "She’s best singer in the band.",
+          "She’s an best singer in the band."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Superlatives never take ‘a’.",
+          "",
+          "Superlatives need ‘the’.",
+          "Superlatives never take ‘an’."
+        ],
+        "explain": "Superlative: the best. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Any one",
+        "text": "I’m hungry. I want <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sandwich.",
+        "choices": [
+          "the",
+          "an",
+          "a",
+          "—"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Any sandwich: not ‘the’.",
+          "‘Sandwich’ starts with a consonant sound.",
+          "",
+          "A singular noun needs an article."
+        ],
+        "explain": "Any one: a sandwich. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "use": "Specific",
+        "text": "Who ate <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sandwich I left in the fridge?",
+        "choices": [
+          "a",
+          "an",
+          "—",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘I left in the fridge’ identifies it.",
+          "‘Sandwich’ starts with a consonant sound.",
+          "A singular noun needs an article.",
+          ""
+        ],
+        "explain": "Identified: the sandwich. Ask: does the listener know which one? No → a/an. Yes → the."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "I",
+          "bought",
+          "a",
+          "dress.",
+          "A",
+          "dress",
+          "is",
+          "red."
+        ],
+        "errorIndex": 4,
+        "correction": "The",
+        "type": "A for second mention",
+        "message": "Second mention: ‘the dress’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "We",
+          "met",
+          "a",
+          "man",
+          "and",
+          "a",
+          "woman.",
+          "A",
+          "woman",
+          "was",
+          "French."
+        ],
+        "errorIndex": 7,
+        "correction": "The",
+        "type": "A for second mention",
+        "message": "Second mention: ‘the woman’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "I",
+          "have",
+          "the",
+          "brother",
+          "and",
+          "two",
+          "sisters."
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "The for first mention",
+        "message": "First mention: ‘a brother’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "Last",
+          "night",
+          "I",
+          "saw",
+          "the",
+          "strange",
+          "light",
+          "in",
+          "the",
+          "sky."
+        ],
+        "errorIndex": 4,
+        "correction": "a",
+        "type": "The for first mention",
+        "message": "First mention, the listener doesn’t know it: ‘a strange light’."
+      },
+      {
+        "tokens": [
+          "Is",
+          "there",
+          "the",
+          "supermarket",
+          "near",
+          "here?"
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "The for first mention",
+        "message": "Any supermarket: ‘a supermarket’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "A",
+          "sun",
+          "is",
+          "very",
+          "hot",
+          "today."
+        ],
+        "errorIndex": 0,
+        "correction": "The",
+        "type": "A for unique",
+        "message": "Only one sun: ‘the sun’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "Rome",
+          "is",
+          "a",
+          "capital",
+          "of",
+          "Italy."
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "type": "A for unique",
+        "message": "Only one capital: ‘the capital’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "She’s",
+          "a",
+          "best",
+          "cook",
+          "in",
+          "my",
+          "family."
+        ],
+        "errorIndex": 1,
+        "correction": "the",
+        "type": "A for superlative",
+        "message": "Superlatives take ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "It’s",
+          "an",
+          "oldest",
+          "church",
+          "in",
+          "town."
+        ],
+        "errorIndex": 1,
+        "correction": "the",
+        "type": "A for superlative",
+        "message": "Superlatives take ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "Can",
+          "you",
+          "open",
+          "a",
+          "window?",
+          "It’s",
+          "hot",
+          "in",
+          "here."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "A for specific",
+        "message": "The window in this room: ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "A",
+          "man",
+          "in",
+          "the",
+          "blue",
+          "shirt",
+          "is",
+          "my",
+          "boss."
+        ],
+        "errorIndex": 0,
+        "correction": "The",
+        "type": "A for specific",
+        "message": "‘In the blue shirt’ identifies him: ‘the man’."
+      },
+      {
+        "tokens": [
+          "My",
+          "uncle",
+          "is",
+          "the",
+          "plumber."
+        ],
+        "errorIndex": 3,
+        "correction": "a",
+        "type": "The for job",
+        "message": "Jobs take a/an: ‘a plumber’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "She",
+          "wants",
+          "to",
+          "be",
+          "the",
+          "actress."
+        ],
+        "errorIndex": 4,
+        "correction": "an",
+        "type": "The for job",
+        "message": "Jobs take a/an: ‘an actress’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "He",
+          "has",
+          "the",
+          "very",
+          "big",
+          "nose."
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "The for describing",
+        "message": "Describing: ‘a very big nose’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "I",
+          "had",
+          "a",
+          "awful",
+          "day."
+        ],
+        "errorIndex": 2,
+        "correction": "an",
+        "type": "Wrong form",
+        "message": "‘Awful’ starts with a vowel sound: ‘an awful day’."
+      },
+      {
+        "tokens": [
+          "She’s",
+          "an",
+          "doctor."
+        ],
+        "errorIndex": 1,
+        "correction": "a",
+        "type": "Wrong form",
+        "message": "‘Doctor’ starts with a consonant sound: ‘a doctor’."
+      },
+      {
+        "tokens": [
+          "He",
+          "plays",
+          "a",
+          "piano",
+          "beautifully."
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "type": "A for instrument",
+        "message": "Instruments take ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "I",
+          "see",
+          "him",
+          "once",
+          "the",
+          "week."
+        ],
+        "errorIndex": 4,
+        "correction": "a",
+        "type": "The for per",
+        "message": "‘A’ = per: ‘once a week’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "I",
+          "bought",
+          "a",
+          "tomatoes",
+          "for",
+          "the",
+          "salad."
+        ],
+        "errorIndex": 2,
+        "correction": "some",
+        "type": "A with plural",
+        "message": "Plural: ‘some tomatoes’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "tokens": [
+          "What’s",
+          "a",
+          "name",
+          "of",
+          "this",
+          "street?"
+        ],
+        "errorIndex": 1,
+        "correction": "the",
+        "type": "A for only one",
+        "message": "A street has only one name: ‘the name’. Ask: does the listener know which one? No → a/an. Yes → the."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, known or not, multiple choice and spot-the-mistake. In the typing questions write a, an or the. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "known": "Known or not?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "known",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "First mention",
+        "sentText": "I found {{blank}} wallet in the park.",
+        "hint": "a / an / the",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "First mention: the listener doesn’t know it, so ‘a wallet’.",
+        "wrongNote": "First mention → a/an."
+      },
+      {
+        "type": "fill",
+        "use": "Second mention",
+        "sentText": "I found a wallet in the park. {{blank}} wallet was empty.",
+        "hint": "a / an / the",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "Second mention: ‘the wallet’. Ask: does the listener know which one? No → a/an. Yes → the.",
+        "wrongNote": "Second mention → the."
+      },
+      {
+        "type": "fill",
+        "use": "Only one",
+        "sentText": "Who is {{blank}} captain of the team?",
+        "hint": "a / an / the",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "A team has only one captain: ‘the’. Ask: does the listener know which one? No → a/an. Yes → the.",
+        "wrongNote": "Only one → the. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "fill",
+        "use": "Job",
+        "sentText": "My neighbour is {{blank}} artist.",
+        "hint": "a / an / the",
+        "answers": [
+          "an"
+        ],
+        "display": "an",
+        "explain": "Jobs take a/an; vowel sound: ‘an artist’. Ask: does the listener know which one? No → a/an. Yes → the.",
+        "wrongNote": "Job → a/an."
+      },
+      {
+        "type": "order",
+        "use": "First mention",
+        "tokens": [
+          "I",
+          "saw",
+          "a",
+          "bird."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Second mention",
+        "tokens": [
+          "The",
+          "bird",
+          "was",
+          "blue."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Superlative",
+        "tokens": [
+          "It",
+          "is",
+          "the",
+          "best",
+          "café."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Job",
+        "tokens": [
+          "She",
+          "is",
+          "an",
+          "engineer."
+        ]
+      },
+      {
+        "type": "known",
+        "use": "Known",
+        "text": "In ‘Can I have a biscuit?’, the listener…",
+        "choices": [
+          "knows which one",
+          "doesn’t know which one",
+          "has only one",
+          "must choose the best"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "If they knew, we’d say ‘the biscuit’.",
+          "",
+          "Having only one would need ‘the’.",
+          "There’s no superlative."
+        ],
+        "explain": "Any one → a. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "known",
+        "use": "Known",
+        "text": "In ‘Where’s the car?’, the listener…",
+        "choices": [
+          "doesn’t know which car",
+          "has never seen it",
+          "wants any car",
+          "knows which car"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "If they didn’t know, we’d say ‘a car’.",
+          "They know it: it’s our car.",
+          "‘Any car’ would need ‘a’.",
+          ""
+        ],
+        "explain": "Known → the. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "known",
+        "use": "Known",
+        "text": "Why ‘the’ in ‘the capital of Peru’?",
+        "choices": [
+          "there’s only one",
+          "it’s first mention",
+          "it’s a job",
+          "it’s any city"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "First mention alone isn’t the reason.",
+          "A capital isn’t a job.",
+          "It’s one specific city."
+        ],
+        "explain": "Only one → the."
+      },
+      {
+        "type": "known",
+        "use": "Known",
+        "text": "Why ‘a’ in ‘Peru is a big country’?",
+        "choices": [
+          "only one exists",
+          "second mention",
+          "one of many",
+          "superlative"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "There are many big countries.",
+          "It isn’t second mention.",
+          "",
+          "There’s no superlative."
+        ],
+        "explain": "One of many → a. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "mc",
+        "use": "Second mention",
+        "text": "I ordered a pizza. {{blank}} pizza was cold.",
+        "choices": [
+          "A",
+          "An",
+          "The",
+          "—"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Already mentioned: not ‘a’.",
+          "‘Pizza’ starts with a consonant sound.",
+          "",
+          "A singular noun needs an article."
+        ],
+        "explain": "Second mention: the pizza. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "mc",
+        "use": "Any one",
+        "text": "I need {{blank}} new laptop.",
+        "choices": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Any new laptop: not ‘the’.",
+          "‘New’ starts with a consonant sound.",
+          "A singular noun needs an article."
+        ],
+        "explain": "Any one: a new laptop. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "mc",
+        "use": "Superlative",
+        "text": "This is {{blank}} worst day ever!",
+        "choices": [
+          "a",
+          "an",
+          "—",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Superlatives never take ‘a’.",
+          "Superlatives never take ‘an’.",
+          "Superlatives need ‘the’.",
+          ""
+        ],
+        "explain": "Superlative: the worst. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "mc",
+        "use": "Identifying",
+        "text": "{{blank}} boy next to Anna is her brother.",
+        "choices": [
+          "A",
+          "The",
+          "An",
+          "—"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Next to Anna’ identifies him.",
+          "",
+          "‘Boy’ starts with a consonant sound.",
+          "A singular noun needs an article."
+        ],
+        "explain": "Identified: the boy. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "error",
+        "use": "A for second mention",
+        "tokens": [
+          "I",
+          "saw",
+          "a",
+          "film.",
+          "A",
+          "film",
+          "was",
+          "boring."
+        ],
+        "errorIndex": 4,
+        "correction": "The",
+        "message": "Second mention: ‘the film’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "error",
+        "use": "The for first mention",
+        "tokens": [
+          "I",
+          "have",
+          "the",
+          "dog",
+          "called",
+          "Max."
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "message": "First mention: ‘a dog’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "error",
+        "use": "A for unique",
+        "tokens": [
+          "Look",
+          "at",
+          "a",
+          "moon!"
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "message": "Only one moon: ‘the moon’. Ask: does the listener know which one? No → a/an. Yes → the."
+      },
+      {
+        "type": "error",
+        "use": "The for job",
+        "tokens": [
+          "He’s",
+          "the",
+          "waiter",
+          "in",
+          "a",
+          "café."
+        ],
+        "errorIndex": 1,
+        "correction": "a",
+        "message": "Jobs take a/an: ‘a waiter’. Ask: does the listener know which one? No → a/an. Yes → the."
+      }
+    ]
+  }
+}
