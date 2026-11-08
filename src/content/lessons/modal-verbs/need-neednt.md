@@ -29,39 +29,96 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "Must & Have to", href: "/grammar/modal-verbs/must-have-to-obligation/" }
   - { title: "Modal Perfects", href: "/grammar/modal-verbs/modal-perfects/" }
+next: { title: "May, Might & Could", href: "/grammar/modal-verbs/may-might-could-probability/" }
 draft: false
 ---
 
-## need, need to, needn't
+## How to form need and needn't
+
+*Need* can work in two ways: as a **normal verb** (very common) or as a **modal verb** (mostly in the negative, and more British).
+
+| | Normal verb | Modal verb |
+|---|---|---|
+| Affirmative | She **needs to** rest. | — (not used) |
+| Negative | You **don't need to** come. | You **needn't** come. |
+| Question | **Do** I **need to** pay? | **Need** I pay? (formal, rare) |
+| Past | We **didn't need to** wait. | We **needn't have** waited. |
+
+As a normal verb, *need* takes **-s**, **do/does/did** and **to**. As a modal, *needn't* takes **no -s**, **no to**, **no do**.
+
+| ✗ | ✓ |
+|---|---|
+| ~~She need to rest.~~ | She **needs to** rest. |
+| ~~You needn't to come.~~ | You **needn't come**. |
+| ~~You don't need come.~~ | You **don't need to** come. |
+
+## When to use *need to*
+
+### 1. Something necessary
+
+- I **need to** buy some milk.
+- Your bike **needs to** be repaired.
+
+> ⚠️ Typical error: ~~He need to study more.~~ → Third person: *He needs to study more.*
+
+### 2. *Need* + noun
+
+Without a verb, *need* is followed directly by a noun.
+
+- I **need** a new phone.
+- Do you **need** any help?
+
+## When to use *needn't* / *don't need to*
+
+### 1. Something not necessary
+
+Both mean the same: there's no obligation.
+
+- You **needn't** worry. = You **don't need to** worry.
+- We **needn't** hurry — the film starts at nine.
+
+> ⚠️ Typical error: ~~You needn't to bring anything.~~ → No *to* after *needn't*: *You needn't bring anything.*
+
+### 2. *Needn't* vs *mustn't*
+
+| | Meaning |
+|---|---|
+| You **needn't** call me. | It isn't necessary (but you can). |
+| You **mustn't** call me. | Don't call me! It's forbidden. |
+
+## The past: *didn't need to* vs *needn't have*
+
+This is a key B2 difference.
 
 | Form | Meaning | Example |
 |---|---|---|
-| need to + base verb | it's necessary | You **need to** book early. |
-| needn't / don't need to + base verb | it isn't necessary | You **needn't** book — there's space. |
-| didn't need to + base verb | it wasn't necessary (so maybe not done) | I **didn't need to** cook. |
-| needn't have + past participle | you did it, but it was unnecessary | I **needn't have** cooked. |
+| **didn't need to** + verb | It wasn't necessary — (usually) so I didn't do it. | I **didn't need to** take a taxi, so I walked. |
+| **needn't have** + past participle | I did it, but it wasn't necessary. | I **needn't have** taken a taxi — the station was so close! |
 
-## When to use each
+> ⚠️ Typical error: ~~I needn't have took a taxi.~~ → After *have* use the past participle: *needn't have taken.*
 
-### 1. need to — necessity
+## *Need* + -ing (passive meaning)
 
-- I **need to** renew my passport. Do we **need to** pay now?
+In British English, *need + -ing* can mean "needs to be done".
 
-### 2. needn't / don't need to — no necessity
+- The car **needs washing**. = The car **needs to be washed**.
+- Your hair **needs cutting**.
 
-- You **needn't** wait for me. We **don't need to** hurry.
+## Questions and short answers
 
-### 3. Past — two different meanings
-
-- I **didn't need to** buy bread, so I didn't. (it wasn't necessary)
-- I **needn't have** bought bread — we already had two loaves. (I bought it; a waste)
-
-> ⚠️ The key contrast: *didn't need to* (wasn't necessary, often not done) vs *needn't have + participle* (you did it and it was unnecessary).
+| Question | Short answer |
+|---|---|
+| **Do** I **need to** bring a pen? | Yes, you **do**. / No, you **don't**. |
+| **Does** she **need** help? | Yes, she **does**. / No, she **doesn't**. |
 
 ## Common mistakes
 
-**1. 'to' after modal 'needn't'.** *~~You needn't to worry~~* → **You needn't worry.**
+**1. Missing -s.** *~~She need to go~~* → **She needs to go.**
 
-**2. Confusing the two past forms.** *I needn't have caught the early train* (= you did catch it, unnecessarily) vs *I didn't need to catch it* (= it wasn't necessary).
+**2. *To* after *needn't*.** *~~You needn't to worry~~* → **You needn't worry.**
 
-**3. 'needn't' with -ing.** *~~You needn't worrying~~* → **You needn't worry. Pro tip:** need to = necessary; needn't/don't need to = not necessary; needn't have + participle = you did it for nothing.
+**3. Missing *to* after *don't need*.** *~~You don't need come~~* → **You don't need to come.**
+
+**4. Wrong past form.** *~~I needn't have went~~* → **I needn't have gone.**
+
+**Pro tip:** if you're not sure, use *don't need to* — it's always correct and the most common form.
