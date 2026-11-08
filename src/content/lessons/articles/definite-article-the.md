@@ -29,42 +29,94 @@ related:
   - { title: "All about articles", href: "/grammar/articles/" }
   - { title: "Zero Article", href: "/grammar/articles/zero-article/" }
   - { title: "A/An vs The", href: "/grammar/articles/a-an-vs-the/" }
+next: { title: "A/An vs The", href: "/grammar/articles/a-an-vs-the/" }
 draft: false
 ---
 
-## When to use 'the'
+## What is the definite article?
 
-Use **the** when the listener knows **which one** you mean.
+**The** means *the listener knows which one*. It goes with singular, plural and uncountable nouns.
 
-| Reason | Example |
+| Use | Example |
 |---|---|
-| Unique | **the** sun, **the** sky, **the** president |
-| Already mentioned | I saw a film. **The** film was great. |
-| Defined by context | Please shut **the** door. |
-| Defined by a phrase | **the** woman who lives next door |
-| Superlatives / ordinals | **the** best, **the** first time |
-| Rivers, seas, ranges | **the** Nile, **the** Pacific, **the** Alps |
+| Second mention | I saw a dog. **The** dog was huge. |
+| Specific / known | Close **the** door, please. |
+| Only one exists | **the** sun, **the** moon, **the** internet |
+| Superlatives | **the** best, **the** tallest |
+| Ordinals | **the** first, **the** second |
+| Instruments | play **the** guitar |
 
-## When to use it
+## When to use *the*
 
-### 1. There's only one
+### 1. Second mention
 
-- **The** earth goes round **the** sun.
+The first time: *a/an*. After that: *the*.
 
-### 2. Second mention or shared knowledge
+- We stayed in a hotel. **The** hotel had a pool.
 
-- We rented a cottage. **The** cottage was by a lake.
+### 2. Something specific that we both know
 
-### 3. Made specific by a phrase or superlative
+- Can you pass **the** salt? (the salt on this table)
+- How was **the** party? (the party you went to)
 
-- She's **the** tallest in the class. It's **the** book **that** everyone loves.
+### 3. Only one exists
 
-> ⚠️ Some place names take 'the' (the USA, the UK, the Netherlands) but most don't (France, Spain, Japan).
+- **The** sun is very hot today. — I read it on **the** internet.
+
+> ⚠️ Typical error: ~~A sun is shining.~~ → *The sun is shining.*
+
+### 4. Superlatives and ordinals
+
+- She's **the** best player in the team. — It's **the** first time I've been here.
+
+> ⚠️ Typical error: ~~He's best student.~~ → *He's the best student.*
+
+### 5. Musical instruments
+
+- I play **the** piano. — She's learning **the** violin.
+
+### 6. Places in town we usually use
+
+- I'm going to **the** cinema / **the** bank / **the** supermarket.
+
+### 7. Nouns made specific by a phrase
+
+- **The** man in the red coat is my uncle.
+- **The** water in this river is clean.
+
+## When NOT to use *the*
+
+### 1. Things in general (plural or uncountable)
+
+- ~~The dogs are loyal animals.~~ → **Dogs** are loyal animals.
+- ~~I love the music.~~ → I love **music**. (all music)
+
+### 2. Meals, sports, languages, subjects
+
+- have **breakfast**, play **football**, speak **French**, study **maths**
+
+> ⚠️ Typical error: ~~We play the football.~~ → *We play football.*
+
+### 3. Possessives
+
+- ~~the my car~~ → **my car**
+
+## *The* + general vs specific
+
+| General (no *the*) | Specific (*the*) |
+|---|---|
+| I like **coffee**. | **The** coffee in this café is great. |
+| **Children** love games. | **The** children in my class are noisy. |
+| **Life** is short. | **The** life of Mozart was short. |
 
 ## Common mistakes
 
-**1. Using 'the' for things in general.** *~~The dogs are loyal~~* (meaning dogs in general) → **Dogs are loyal.**
+**1. Missing *the* with superlatives.** *~~She's tallest girl.~~* → **the tallest girl.**
 
-**2. Dropping 'the' with unique things.** *~~Sun is a star~~* → **The sun is a star.**
+**2. *The* for things in general.** *~~The money isn't everything.~~* → **Money** isn't everything.
 
-**3. Wrong article with superlatives.** *~~She is best~~* → **She is the best. Pro tip:** if you (and the listener) both know exactly which one, use 'the'.
+**3. *The* with sports.** *~~play the tennis~~* → **play tennis**.
+
+**4. Missing *the* with unique things.** *~~Moon is bright.~~* → **The moon** is bright.
+
+**Pro tip:** ask *"Which one?"* — if the listener knows the answer, use **the**.
