@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "It ___ that the company is in trouble.",
-      "options": ["is said", "is said to", "says", "said"],
+      "options": [
+        "is said",
+        "is said to",
+        "says",
+        "said"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Impersonal pattern: 'It is said that…'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "The company ___ in trouble. (personal pattern)",
-      "options": ["is said being", "is said that", "says to be", "is said to be"],
+      "options": [
+        "is said being",
+        "is said that",
+        "says to be",
+        "is said to be"
+      ],
       "answer": 3,
       "explanations": [
         "'Is said being' is not correct English.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "He ___ the country last night. (an earlier action)",
-      "options": ["is believed to leave", "is believed leaving", "is believed to have left", "believes to leave"],
+      "options": [
+        "is believed to leave",
+        "is believed leaving",
+        "is believed to have left",
+        "believes to leave"
+      ],
       "answer": 2,
       "explanations": [
         "'To leave' points to now; the action is earlier.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "It ___ that no one was injured in the crash.",
-      "options": ["was reported to", "was reported", "reported", "is reporting"],
+      "options": [
+        "was reported to",
+        "was reported",
+        "reported",
+        "is reporting"
+      ],
       "answer": 1,
       "explanations": [
         "'It was reported to' needs an infinitive, not 'that'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "She ___ five languages fluently.",
-      "options": ["knows to speak", "is known that speaks", "is known to speak", "is known speaking"],
+      "options": [
+        "knows to speak",
+        "is known that speaks",
+        "is known to speak",
+        "is known speaking"
+      ],
       "answer": 2,
       "explanations": [
         "'Knows to speak' is active and changes the meaning.",
@@ -76,7 +101,12 @@
     },
     {
       "question": "They ___ a fortune in the 1990s. (earlier action, personal)",
-      "options": ["are said to have made", "are said to make", "are said making", "say to have made"],
+      "options": [
+        "are said to have made",
+        "are said to make",
+        "are said making",
+        "say to have made"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Earlier time: 'are said to have made a fortune'.",
@@ -138,15 +168,29 @@
       "kind": "Fill in the gap",
       "question": "It ___ that the museum will close next year. (believe)",
       "hint": "Use the passive.",
-      "answers": ["is believed"],
-      "explanation": "Impersonal pattern: It + is believed + that-clause."
+      "answers": [
+        "is believed"
+      ],
+      "explanation": "Impersonal pattern: It + is believed + that-clause.",
+      "common": [
+        {
+          "answer": "believes",
+          "why": "It doesn’t believe anything: use the passive ‘is believed’."
+        },
+        {
+          "answer": "is believe",
+          "why": "After ‘is’ use the participle: ‘believed’."
+        }
+      ]
     },
     {
       "type": "write",
       "kind": "Correct the mistake",
       "question": "She is believed to left the country.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["She is believed to have left the country"],
+      "answers": [
+        "She is believed to have left the country"
+      ],
       "explanation": "For an earlier time we use 'to have + past participle'."
     },
     {
@@ -154,8 +198,20 @@
       "kind": "Complete the sentence",
       "question": "People say that the actor is very generous. → The actor ___ very generous.",
       "hint": "Type the passive reporting words.",
-      "answers": ["is said to be"],
-      "explanation": "Personal pattern: subject + is said + to-infinitive."
+      "answers": [
+        "is said to be"
+      ],
+      "explanation": "Personal pattern: subject + is said + to-infinitive.",
+      "common": [
+        {
+          "answer": "is said be",
+          "why": "Don’t forget ‘to’: ‘is said to be’."
+        },
+        {
+          "answer": "says to be",
+          "why": "Use the passive: ‘is said to be’."
+        }
+      ]
     }
   ]
 }
