@@ -28,40 +28,93 @@ related:
   - { title: "All about the passive", href: "/grammar/passive-voice/" }
   - { title: "Passive Voice: the basics", href: "/grammar/passive-voice/passive-voice-basics/" }
   - { title: "The passive in all tenses", href: "/grammar/passive-voice/passive-all-tenses/" }
+next: { title: "The Get Passive", href: "/grammar/passive-voice/get-passive/" }
 draft: false
 ---
 
-## Two objects, two passives
+## How to form a passive with two objects
 
-Active: **They gave me a prize.** (me = person, a prize = thing)
+Some verbs have **two objects**: a person (indirect object) and a thing (direct object).
 
-| Passive | Naturalness | Example |
+> **Active:** My aunt gave **me** (person) **a watch** (thing).
+
+Either object can become the subject of the passive.
+
+| Subject of the passive | Passive | Notes |
 |---|---|---|
-| person as subject | more natural | **I was given** a prize. |
-| thing as subject | less common (+ to) | **A prize was given to** me. |
+| the **person** | **I was given** a watch. | most common and natural |
+| the **thing** | **A watch was given to me**. | needs **to** (or *for*) before the person |
 
-Common two-object verbs: **give, send, offer, tell, show, pay, teach, lend, promise**.
+## Verbs with two objects
 
-## When and how to use it
+| give | send | show | offer | lend |
+|---|---|---|---|---|
+| **tell** | **teach** | **pay** | **promise** | **award** |
 
-### 1. Person as subject — the usual choice
+- They **sent** her a letter. → **She was sent** a letter.
+- They **offered** him a job. → **He was offered** a job.
+- They **showed** us the room. → **We were shown** the room.
 
-- **She was offered** a new job. **We were told** the news. **He's been paid** already.
+## When to make the person the subject
 
-### 2. Thing as subject — add 'to' (or 'for')
+### 1. When the person is the topic
 
-- **A letter was sent to** every member. **A cake was made for** the winners.
+This is the normal choice in English because people are usually more interesting than things.
 
-### 3. Any tense works
+- **I was told** the news by my sister.
+- **The winners were awarded** gold medals.
 
-- **I have been given** a second chance. **They will be shown** the results tomorrow.
+> ⚠️ Typical error: ~~Me was given a present.~~ → Use the subject pronoun: *I was given a present.*
 
-> ⚠️ Don't drop the 'to' when the thing is the subject: *A medal was given **to** the runner* (not ~~given the runner~~).
+### 2. Pronouns change to subject form
+
+| Active (object) | Passive (subject) |
+|---|---|
+| They gave **him** a prize. | **He** was given a prize. |
+| They told **us** a story. | **We** were told a story. |
+| They paid **them** €50. | **They** were paid €50. |
+
+## When to make the thing the subject
+
+### 1. When the thing is the topic
+
+- **The prize was given to** the youngest student.
+- **This book was lent to** me by my teacher.
+
+> ⚠️ Typical error: ~~A watch was given me.~~ → In modern English, add *to*: *A watch was given to me.*
+
+### 2. *To* or *for*?
+
+| Verb | Preposition | Example |
+|---|---|---|
+| give, send, show, lend, offer, tell, teach | **to** | The letter was sent **to** her. |
+| buy, make, cook, find | **for** | A cake was made **for** him. |
+
+## Agreement
+
+*Be* agrees with the **new subject**.
+
+- **I was** sent two emails. (subject = I)
+- **Two emails were** sent to me. (subject = two emails)
+
+> ⚠️ Typical error: ~~Two emails was sent to me.~~ → *Two emails were sent to me.*
+
+## Other tenses
+
+The rule works in every tense:
+
+- **She has been offered** a place at university.
+- **You will be shown** the way.
+- **We are being taught** by a new teacher this term.
 
 ## Common mistakes
 
-**1. Repeating both objects.** *~~I was given me a book~~* → **I was given a book.**
+**1. Object pronoun as subject.** *~~Him was offered a job~~* → **He was offered a job.**
 
-**2. No 'to' with the thing first.** *~~A prize was given me~~* → **A prize was given to me** (or **I was given a prize**).
+**2. Missing *to* when the thing is the subject.** *~~The book was given me~~* → **The book was given to me.**
 
-**3. Unnatural thing-first passive.** *~~A job was offered to her~~* (when the person is the point) → **She was offered a job. Pro tip:** two objects → two passives; start with the person for the natural version.
+**3. Wrong agreement.** *~~We was told~~* → **We were told.**
+
+**4. Using *to* when the person is the subject.** *~~I was given to a watch~~* → **I was given a watch.**
+
+**Pro tip:** start with the person — *I was given…, She was told…* — it's shorter and sounds the most natural.
