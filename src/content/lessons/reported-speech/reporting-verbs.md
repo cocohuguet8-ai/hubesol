@@ -29,43 +29,79 @@ related:
   - { title: "All reported speech", href: "/grammar/reported-speech/" }
   - { title: "Reported Commands & Requests", href: "/grammar/reported-speech/reported-commands-requests/" }
   - { title: "Say vs Tell", href: "/grammar/reported-speech/say-vs-tell/" }
+next: { title: "All reported speech", href: "/grammar/reported-speech/" }
 draft: false
 ---
 
-## Reporting verbs by pattern
+## Why use reporting verbs?
+
+*Say* and *tell* only report the words. Reporting verbs also show the **function** — was it an offer, a promise, a warning, an apology?
+
+> "I'll help you, I promise." → She **promised to help** me.
+> "It was me. I broke it." → He **admitted breaking** it.
+
+Each verb has its own **pattern**. Learn the verb with its pattern.
+
+## The main patterns
 
 | Pattern | Verbs | Example |
 |---|---|---|
-| verb + to-infinitive | offer, promise, agree, refuse, threaten | He **offered to help**. |
-| verb + object + to-infinitive | advise, warn, remind, encourage, invite | She **advised me to rest**. |
-| verb + -ing | suggest, recommend, admit, deny | He **suggested leaving** early. |
-| verb + preposition + -ing | apologise for, insist on, accuse (sb) of | She **apologised for being** late. |
+| verb + **to** + infinitive | agree, offer, promise, refuse, threaten, decide | She **offered to carry** my bag. |
+| verb + **person** + **to** + infinitive | advise, ask, encourage, invite, order, persuade, remind, tell, warn | He **advised me to rest**. |
+| verb + **-ing** | admit, deny, recommend, suggest | They **denied taking** the money. |
+| verb + **preposition** + **-ing** | apologise **for**, insist **on**, complain **about** | She **apologised for being** late. |
+| verb + **person** + **preposition** + **-ing** | accuse … **of**, blame … **for**, congratulate … **on**, thank … **for** | They **accused him of cheating**. |
+| verb + **that** + clause | explain, admit, deny, insist, promise, suggest, complain | He **explained that** the train was late. |
 
-Each reporting verb has its **own pattern** — learn the verb and pattern together.
+## Verb + *to* + infinitive
 
-## When and how to use them
+- "I'll lend you some money." → He **offered to lend** me some money.
+- "No, I won't do it!" → She **refused to do** it.
+- "OK, I'll come." → They **agreed to come**.
 
-### 1. + to-infinitive
+> ⚠️ Typical error: ~~She refused doing it.~~ → *Refuse* takes *to*: *She refused to do it.*
 
-- "I'll pay." → He **promised to pay**.
-- "No, I won't." → She **refused to go**.
+## Verb + person + *to* + infinitive
 
-### 2. + object + to-infinitive
+- "You should study more." → The teacher **advised me to study** more.
+- "Go on, try it!" → My friends **encouraged me to try** it.
+- "Don't forget your keys." → Mum **reminded me to take** my keys.
 
-- "You should see a doctor." → He **advised me to see** a doctor.
-- "Don't forget your keys." → She **reminded me to take** my keys.
+> ⚠️ Typical error: ~~He advised to me to rest.~~ → No *to* before the person: *advised me to rest.*
 
-### 3. + -ing
+## Verb + *-ing*
 
-- "Let's take a break." → He **suggested taking** a break.
-- "It was me." → She **admitted breaking** the vase.
+- "Yes, I took it." → He **admitted taking** it.
+- "I didn't break it!" → She **denied breaking** it.
+- "Let's go to the beach." → He **suggested going** to the beach.
 
-> ⚠️ Typical error: *suggest* doesn't take an object + to-infinitive: *She suggested going / She suggested that we go* — not ~~she suggested me to go~~.
+> ⚠️ Typical error: ~~He suggested to go to the beach.~~ → *Suggest* + *-ing* (or *that*): *suggested going.*
+
+## Verb + preposition + *-ing*
+
+- "Sorry I'm late." → She **apologised for being** late.
+- "You stole my phone!" → He **accused** me **of stealing** his phone.
+- "Well done on passing!" → They **congratulated** me **on passing**.
+- "Thanks for helping." → She **thanked** me **for helping**.
+
+## The *that* clause
+
+### Backshift after the reporting verb
+
+Many verbs can also take *that* + a backshifted clause:
+
+- She **admitted that** she **had** lied.
+- He **promised that** he **would** call.
+- They **complained that** the room **was** dirty.
 
 ## Common mistakes
 
-**1. 'Suggest someone to do'.** *~~He suggested me to leave~~* → **He suggested leaving / He suggested that I leave.**
+**1. Wrong pattern.** *~~She suggested me to go~~* → **She suggested (that) I (should) go / She suggested going.**
 
-**2. Wrong pattern after 'advise'.** *~~She advised to rest~~* → **She advised me to rest** (needs an object).
+**2. Missing preposition.** *~~He apologised being late~~* → **He apologised for being late.**
 
-**3. Missing the preposition.** *~~He apologised being late~~* → **He apologised for being late. Pro tip:** memorise each reporting verb with its pattern — to-infinitive, object + to-infinitive, or -ing.
+**3. Infinitive after a preposition.** *~~She insisted on to pay~~* → **She insisted on paying.**
+
+**4. Person after verbs that don't take one.** *~~He offered me to help~~* → **He offered to help me.**
+
+**Pro tip:** keep a list of verbs grouped by pattern — when you learn a new reporting verb, learn its pattern at the same time.
