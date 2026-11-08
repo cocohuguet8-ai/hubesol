@@ -1,0 +1,1511 @@
+{
+  "tense": "zero-article",
+  "lessonTitle": "Zero Article",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "the",
+        "a"
+      ],
+      "label": null,
+      "primary": "the"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the or a when needed, or — (dash) for the zero article. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "General plural",
+        "before": "",
+        "after": "Dogs need a lot of exercise.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Dogs in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "General plural",
+        "before": "I’m afraid of",
+        "after": "spiders.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Spiders in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "General uncountable",
+        "before": "",
+        "after": "Water boils at 100 degrees.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Water in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "General uncountable",
+        "before": "She hates",
+        "after": "violence in films.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Violence in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Specific",
+        "before": "",
+        "after": "water in this bottle is warm.",
+        "hint": "the / a / —",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "‘In this bottle’ makes it specific: ‘the’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Specific",
+        "before": "",
+        "after": "dogs next door bark all night.",
+        "hint": "the / a / —",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "‘Next door’ makes them specific: ‘the dogs’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Meal",
+        "before": "We usually have",
+        "after": "dinner at nine.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Meals: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Meal",
+        "before": "What did you have for",
+        "after": "breakfast?",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Meals: ‘for breakfast’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Sport",
+        "before": "My sister plays",
+        "after": "volleyball.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Sports: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Game",
+        "before": "Do you want to play",
+        "after": "chess?",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Games: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Language",
+        "before": "Can you speak",
+        "after": "Catalan?",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Languages: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Subject",
+        "before": "I have",
+        "after": "maths on Mondays.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "School subjects: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Transport",
+        "before": "We went to Madrid by",
+        "after": "train.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "‘By’ + transport: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Time",
+        "before": "My birthday is in",
+        "after": "April.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Months: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Time",
+        "before": "We go skiing in",
+        "after": "winter.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Seasons: usually zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Place purpose",
+        "before": "The kids are at",
+        "after": "school until five.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "At school as students: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Place purpose",
+        "before": "I’m tired. I’m going to",
+        "after": "bed.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "‘Go to bed’ (to sleep): zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Place purpose",
+        "before": "What time do you finish",
+        "after": "work?",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "‘Finish work’: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Place purpose",
+        "before": "Let’s go",
+        "after": "home.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "‘Go home’: never ‘to the home’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Building visit",
+        "before": "Dad went to",
+        "after": "school to talk to my teacher.",
+        "hint": "the / a / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Visiting the building, not studying: ‘the school’."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with the zero article.",
+    "sentences": [
+      {
+        "use": "General plural",
+        "tokens": [
+          "Cats",
+          "sleep",
+          "a",
+          "lot."
+        ]
+      },
+      {
+        "use": "General plural",
+        "tokens": [
+          "I",
+          "love",
+          "books."
+        ]
+      },
+      {
+        "use": "General uncountable",
+        "tokens": [
+          "Love",
+          "is",
+          "blind."
+        ]
+      },
+      {
+        "use": "General uncountable",
+        "tokens": [
+          "Coffee",
+          "keeps",
+          "me",
+          "awake."
+        ]
+      },
+      {
+        "use": "Meal",
+        "tokens": [
+          "We",
+          "have",
+          "lunch",
+          "at",
+          "two."
+        ]
+      },
+      {
+        "use": "Meal",
+        "tokens": [
+          "What",
+          "is",
+          "for",
+          "dinner?"
+        ]
+      },
+      {
+        "use": "Sport",
+        "tokens": [
+          "They",
+          "play",
+          "football."
+        ]
+      },
+      {
+        "use": "Game",
+        "tokens": [
+          "We",
+          "play",
+          "cards",
+          "on",
+          "Sundays."
+        ]
+      },
+      {
+        "use": "Language",
+        "tokens": [
+          "She",
+          "speaks",
+          "English."
+        ]
+      },
+      {
+        "use": "Subject",
+        "tokens": [
+          "I",
+          "study",
+          "biology."
+        ]
+      },
+      {
+        "use": "Transport",
+        "tokens": [
+          "I",
+          "go",
+          "to",
+          "work",
+          "by",
+          "bus."
+        ]
+      },
+      {
+        "use": "Transport",
+        "tokens": [
+          "They",
+          "travelled",
+          "by",
+          "plane."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "It",
+          "is",
+          "cold",
+          "in",
+          "winter."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "See",
+          "you",
+          "on",
+          "Monday."
+        ]
+      },
+      {
+        "use": "Place purpose",
+        "tokens": [
+          "She",
+          "is",
+          "at",
+          "school."
+        ]
+      },
+      {
+        "use": "Place purpose",
+        "tokens": [
+          "I",
+          "go",
+          "to",
+          "bed",
+          "early."
+        ]
+      },
+      {
+        "use": "Place purpose",
+        "tokens": [
+          "Let",
+          "us",
+          "go",
+          "home."
+        ]
+      },
+      {
+        "use": "Place purpose",
+        "tokens": [
+          "He",
+          "is",
+          "at",
+          "work."
+        ]
+      },
+      {
+        "use": "Specific",
+        "tokens": [
+          "The",
+          "coffee",
+          "here",
+          "is",
+          "great."
+        ]
+      },
+      {
+        "use": "General plural",
+        "tokens": [
+          "People",
+          "are",
+          "friendly",
+          "here."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Zero or the?",
+    "subtitle": "Tap a phrase, then tap the article it needs.",
+    "leftLabel": "Phrase",
+    "rightLabel": "Article",
+    "rightLabelSub": "(the / —)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "have ___ breakfast",
+        "right": "—"
+      },
+      {
+        "left": "play ___ guitar",
+        "right": "the"
+      },
+      {
+        "left": "go by ___ car",
+        "right": "—"
+      },
+      {
+        "left": "play ___ basketball",
+        "right": "—"
+      },
+      {
+        "left": "speak ___ Italian",
+        "right": "—"
+      },
+      {
+        "left": "___ sun",
+        "right": "the"
+      },
+      {
+        "left": "go to ___ bed",
+        "right": "—"
+      },
+      {
+        "left": "___ best day ever",
+        "right": "the"
+      },
+      {
+        "left": "in ___ summer",
+        "right": "—"
+      },
+      {
+        "left": "___ people next door",
+        "right": "the"
+      },
+      {
+        "left": "go ___ home",
+        "right": "—"
+      },
+      {
+        "left": "___ moon",
+        "right": "the"
+      },
+      {
+        "left": "study ___ history",
+        "right": "—"
+      },
+      {
+        "left": "___ first time",
+        "right": "the"
+      },
+      {
+        "left": "on ___ Friday",
+        "right": "—"
+      },
+      {
+        "left": "___ internet",
+        "right": "the"
+      },
+      {
+        "left": "at ___ work",
+        "right": "—"
+      },
+      {
+        "left": "play ___ piano",
+        "right": "the"
+      },
+      {
+        "left": "___ dogs are loyal",
+        "right": "—"
+      },
+      {
+        "left": "___ door, please",
+        "right": "the"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. In general or fixed phrase → no article. Specific or known → the.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "General plural",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> teenagers often sleep late at weekends.",
+        "choices": [
+          "—",
+          "The",
+          "A",
+          "An"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘The teenagers’ means specific ones.",
+          "‘A’ doesn’t go with plurals.",
+          "‘An’ doesn’t go with plurals."
+        ],
+        "explain": "Teenagers in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "General uncountable",
+        "text": "I think <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> music helps me study.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘The music’ means specific music.",
+          "",
+          "‘Music’ is uncountable here.",
+          "‘Music’ is uncountable here."
+        ],
+        "explain": "Music in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Specific",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> music at the party was too loud.",
+        "choices": [
+          "—",
+          "A",
+          "The",
+          "An"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘At the party’ makes it specific.",
+          "‘Music’ is uncountable.",
+          "",
+          "‘Music’ is uncountable."
+        ],
+        "explain": "Specific music: the. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Meal",
+        "text": "Let’s meet after <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lunch.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Meals take no article.",
+          "Normal meals take no article.",
+          "‘An’ doesn’t fit.",
+          ""
+        ],
+        "explain": "Meals: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Transport",
+        "text": "I usually go to school by <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> bike.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "my the"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘By’ + transport: no article.",
+          "",
+          "‘By a bike’ is wrong.",
+          "‘My the’ is not English."
+        ],
+        "explain": "By + transport: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Sport",
+        "text": "Do you like watching <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> rugby?",
+        "choices": [
+          "the",
+          "a",
+          "—",
+          "an"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Sports take no article.",
+          "Sports take no article.",
+          "",
+          "Sports take no article."
+        ],
+        "explain": "Sports: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Instrument",
+        "text": "He’s learning <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> trumpet.",
+        "choices": [
+          "—",
+          "a",
+          "an",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Instruments usually take ‘the’.",
+          "‘A trumpet’ is an object, not the skill.",
+          "‘Trumpet’ starts with a consonant sound.",
+          ""
+        ],
+        "explain": "Instruments: the trumpet. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Language",
+        "text": "In Andorra people speak <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Catalan.",
+        "choices": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Languages take no article.",
+          "Languages take no article.",
+          "Languages take no article."
+        ],
+        "explain": "Languages: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Place purpose",
+        "text": "My grandpa is in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> hospital with a broken leg.",
+        "choices": [
+          "the",
+          "a",
+          "—",
+          "an"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "In British English, a patient is ‘in hospital’.",
+          "‘In a hospital’ is less natural for a patient in British English.",
+          "",
+          "‘An’ doesn’t fit."
+        ],
+        "explain": "In hospital (as a patient): zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Building visit",
+        "text": "I went to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> hospital to visit my grandpa.",
+        "choices": [
+          "—",
+          "a",
+          "an",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Visiting the building: ‘the hospital’.",
+          "He’s visiting, not a patient.",
+          "‘An’ doesn’t fit.",
+          ""
+        ],
+        "explain": "Visiting the building: the hospital. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Place purpose",
+        "text": "It’s late — I’m going <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> home.",
+        "choices": [
+          "—",
+          "to the",
+          "the",
+          "to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Go home’: no article, no ‘to’.",
+          "‘Go the home’ is wrong.",
+          "‘Go to home’ is wrong."
+        ],
+        "explain": "Go home: no article, no ‘to’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Time",
+        "text": "Shops are closed on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Sundays.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Days take no article.",
+          "",
+          "‘A Sundays’ is wrong.",
+          "‘An’ doesn’t fit."
+        ],
+        "explain": "Days: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Time",
+        "text": "We met in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 2019.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Years take no article.",
+          "Years take no article.",
+          "Years take no article.",
+          ""
+        ],
+        "explain": "Years: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Unique",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> moon goes round the earth.",
+        "choices": [
+          "The",
+          "—",
+          "A",
+          "An"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Unique things take ‘the’.",
+          "There’s only one moon.",
+          "There’s only one moon."
+        ],
+        "explain": "Unique: the moon. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Subject",
+        "text": "She’s really good at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> chemistry.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Subjects take no article.",
+          "",
+          "Subjects take no article.",
+          "Subjects take no article."
+        ],
+        "explain": "Subjects: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "General uncountable",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> time is money.",
+        "choices": [
+          "The",
+          "A",
+          "—",
+          "An"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Time in general: no article.",
+          "‘A time’ means one occasion.",
+          "",
+          "‘An’ doesn’t fit."
+        ],
+        "explain": "Abstract uncountable in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "I go to bed at eleven.",
+          "I go to the bed at eleven.",
+          "I go to a bed at eleven.",
+          "I go bed at eleven."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Go to bed’ (to sleep): no ‘the’.",
+          "‘A bed’ is wrong here.",
+          "We need ‘to’."
+        ],
+        "explain": "Go to bed: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "The children love the games.",
+          "Children love games.",
+          "A children love games.",
+          "Children love the games in general."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "This means specific children and games.",
+          "",
+          "‘A’ doesn’t go with plurals.",
+          "‘In general’ + ‘the’ contradicts itself."
+        ],
+        "explain": "General plurals: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Specific",
+        "text": "Have you read <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> books I lent you?",
+        "choices": [
+          "—",
+          "a",
+          "the",
+          "some"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘I lent you’ makes them specific.",
+          "‘A’ doesn’t go with plurals.",
+          "",
+          "‘Some’ doesn’t identify them."
+        ],
+        "explain": "Specific: the books. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "use": "Meal",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner we had last night was delicious.",
+        "choices": [
+          "—",
+          "A",
+          "An",
+          "The"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘We had last night’ makes it specific.",
+          "This isn’t the general meal.",
+          "‘An’ doesn’t fit.",
+          ""
+        ],
+        "explain": "A specific meal: the dinner. In general or in a fixed phrase → no article; specific or known → the."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "The",
+          "life",
+          "is",
+          "short."
+        ],
+        "errorIndex": 0,
+        "correction": "Life",
+        "type": "The for general",
+        "message": "Life in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "The",
+          "children",
+          "need",
+          "lots",
+          "of",
+          "sleep."
+        ],
+        "errorIndex": 0,
+        "correction": "Children",
+        "type": "The for general",
+        "message": "Children in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "I",
+          "don’t",
+          "eat",
+          "the",
+          "meat."
+        ],
+        "errorIndex": 3,
+        "correction": "red",
+        "type": "The for general",
+        "message": "Meat in general: zero article (‘I don’t eat meat’ / ‘red meat’)."
+      },
+      {
+        "tokens": [
+          "The",
+          "honesty",
+          "is",
+          "very",
+          "important."
+        ],
+        "errorIndex": 0,
+        "correction": "Honesty",
+        "type": "The for general",
+        "message": "Abstract nouns in general: zero article."
+      },
+      {
+        "tokens": [
+          "We",
+          "had",
+          "the",
+          "breakfast",
+          "at",
+          "the",
+          "hotel."
+        ],
+        "errorIndex": 2,
+        "correction": "our",
+        "type": "The for meal",
+        "message": "Meals: ‘had breakfast’ (or ‘had our breakfast’)."
+      },
+      {
+        "tokens": [
+          "Shall",
+          "we",
+          "have",
+          "the",
+          "lunch",
+          "now?"
+        ],
+        "errorIndex": 3,
+        "correction": "some",
+        "type": "The for meal",
+        "message": "Meals: ‘have lunch’ (or ‘have some lunch’)."
+      },
+      {
+        "tokens": [
+          "My",
+          "brother",
+          "plays",
+          "the",
+          "tennis."
+        ],
+        "errorIndex": 3,
+        "correction": "table",
+        "type": "The for sport",
+        "message": "Sports: zero article (‘plays tennis’ / ‘plays table tennis’)."
+      },
+      {
+        "tokens": [
+          "She’s",
+          "learning",
+          "the",
+          "Arabic."
+        ],
+        "errorIndex": 2,
+        "correction": "Moroccan",
+        "type": "The for language",
+        "message": "Languages: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "I",
+          "hate",
+          "the",
+          "physics."
+        ],
+        "errorIndex": 2,
+        "correction": "doing",
+        "type": "The for subject",
+        "message": "Subjects: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "We",
+          "came",
+          "by",
+          "the",
+          "train."
+        ],
+        "errorIndex": 3,
+        "correction": "night",
+        "type": "The for transport",
+        "message": "By + transport: zero article (‘by train’ / ‘by night train’)."
+      },
+      {
+        "tokens": [
+          "I",
+          "go",
+          "to",
+          "work",
+          "by",
+          "a",
+          "car."
+        ],
+        "errorIndex": 5,
+        "correction": "electric",
+        "type": "A for transport",
+        "message": "By + transport: zero article (‘by car’)."
+      },
+      {
+        "tokens": [
+          "My",
+          "birthday",
+          "is",
+          "in",
+          "the",
+          "March."
+        ],
+        "errorIndex": 4,
+        "correction": "early",
+        "type": "The for time",
+        "message": "Months: zero article (‘in March’ / ‘in early March’)."
+      },
+      {
+        "tokens": [
+          "I",
+          "play",
+          "football",
+          "on",
+          "the",
+          "Saturdays."
+        ],
+        "errorIndex": 4,
+        "correction": "sunny",
+        "type": "The for time",
+        "message": "Days: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "very",
+          "tired.",
+          "I’m",
+          "going",
+          "to",
+          "the",
+          "bed."
+        ],
+        "errorIndex": 6,
+        "correction": "my",
+        "type": "The for place",
+        "message": "‘Go to bed’: zero article (‘to my bed’ is also correct)."
+      },
+      {
+        "tokens": [
+          "The",
+          "kids",
+          "are",
+          "at",
+          "the",
+          "school",
+          "until",
+          "three."
+        ],
+        "errorIndex": 4,
+        "correction": "primary",
+        "type": "The for place",
+        "message": "‘At school’ as students: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "He",
+          "goes",
+          "to",
+          "the",
+          "work",
+          "by",
+          "bike."
+        ],
+        "errorIndex": 3,
+        "correction": "his",
+        "type": "The for place",
+        "message": "‘Go to work’: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "Can",
+          "you",
+          "pass",
+          "a",
+          "salt,",
+          "please?"
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "Missing the: specific",
+        "message": "The salt on this table: ‘the salt’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "Look",
+          "at",
+          "a",
+          "sky!",
+          "It’s",
+          "orange."
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "type": "Missing the: unique",
+        "message": "Only one sky: ‘the sky’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "She",
+          "plays",
+          "a",
+          "cello",
+          "in",
+          "an",
+          "orchestra."
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "type": "Missing the: instrument",
+        "message": "Instruments: ‘the cello’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "tokens": [
+          "We",
+          "need",
+          "a",
+          "bread",
+          "for",
+          "the",
+          "sandwiches."
+        ],
+        "errorIndex": 2,
+        "correction": "some",
+        "type": "A with uncountable",
+        "message": "‘Bread’ is uncountable: ‘some bread’. In general or in a fixed phrase → no article; specific or known → the."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, general or specific, multiple choice and spot-the-mistake. In the typing questions write the or a when needed, or — (dash) for no article. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "general": "General or specific?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "general",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "General plural",
+        "sentText": "{{blank}} Bees make honey.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Bees in general: zero article. In general or in a fixed phrase → no article; specific or known → the.",
+        "wrongNote": "General → no article."
+      },
+      {
+        "type": "fill",
+        "use": "Transport",
+        "sentText": "They travelled to Paris by {{blank}} plane.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "By + transport: zero article. In general or in a fixed phrase → no article; specific or known → the.",
+        "wrongNote": "By + transport → no article."
+      },
+      {
+        "type": "fill",
+        "use": "Specific",
+        "sentText": "{{blank}} bread in this bakery is amazing.",
+        "hint": "the / a / —",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "‘In this bakery’ makes it specific: ‘the’. In general or in a fixed phrase → no article; specific or known → the.",
+        "wrongNote": "Specific → the. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "fill",
+        "use": "Place purpose",
+        "sentText": "My sister is at {{blank}} university in Lleida.",
+        "hint": "the / a / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "‘At university’ as a student: zero article. In general or in a fixed phrase → no article; specific or known → the.",
+        "wrongNote": "Place purpose → no article."
+      },
+      {
+        "type": "order",
+        "use": "General plural",
+        "tokens": [
+          "Bees",
+          "make",
+          "honey."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Meal",
+        "tokens": [
+          "We",
+          "have",
+          "dinner",
+          "at",
+          "nine."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Transport",
+        "tokens": [
+          "I",
+          "go",
+          "by",
+          "train."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Place purpose",
+        "tokens": [
+          "She",
+          "is",
+          "in",
+          "bed."
+        ]
+      },
+      {
+        "type": "general",
+        "use": "General",
+        "text": "‘I love animals.’ — animals are…",
+        "choices": [
+          "specific",
+          "in general",
+          "unique",
+          "second mention"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Specific animals would take ‘the’.",
+          "",
+          "Animals aren’t unique.",
+          "There’s no first mention."
+        ],
+        "explain": "In general → zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "general",
+        "use": "General",
+        "text": "‘The animals at this zoo look happy.’ — animals are…",
+        "choices": [
+          "in general",
+          "unique",
+          "a fixed phrase",
+          "specific"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘At this zoo’ makes them specific.",
+          "They aren’t unique.",
+          "It isn’t a fixed phrase.",
+          ""
+        ],
+        "explain": "Specific → the."
+      },
+      {
+        "type": "general",
+        "use": "General",
+        "text": "Why ‘at school’ but ‘at the school gate’?",
+        "choices": [
+          "purpose vs a specific place",
+          "school is plural",
+          "gate is a sport",
+          "it’s random"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘School’ isn’t plural.",
+          "A gate isn’t a sport.",
+          "It isn’t random."
+        ],
+        "explain": "Purpose → zero; a specific part of the building → the."
+      },
+      {
+        "type": "general",
+        "use": "General",
+        "text": "Why no article in ‘go by bus’?",
+        "choices": [
+          "bus is uncountable",
+          "it’s a superlative",
+          "fixed phrase with by",
+          "bus is unique"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Bus’ is countable.",
+          "There’s no superlative.",
+          "",
+          "There are many buses."
+        ],
+        "explain": "By + transport is a fixed phrase. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "mc",
+        "use": "General uncountable",
+        "text": "{{blank}} chocolate is my weakness.",
+        "choices": [
+          "The",
+          "A",
+          "—",
+          "An"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Chocolate in general: no ‘the’.",
+          "Uncountable: no ‘a’.",
+          "",
+          "Uncountable: no ‘an’."
+        ],
+        "explain": "General uncountable: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "mc",
+        "use": "Place purpose",
+        "text": "Is your dad still at {{blank}} work?",
+        "choices": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘At work’: zero article.",
+          "‘At a work’ is wrong.",
+          "‘An’ doesn’t fit."
+        ],
+        "explain": "At work: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "mc",
+        "use": "Specific",
+        "text": "{{blank}} students in my class are very friendly.",
+        "choices": [
+          "—",
+          "A",
+          "An",
+          "The"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘In my class’ makes them specific.",
+          "‘A’ doesn’t go with plurals.",
+          "‘An’ doesn’t go with plurals.",
+          ""
+        ],
+        "explain": "Specific: the students. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "mc",
+        "use": "Time",
+        "text": "It often rains in {{blank}} autumn.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Seasons usually take no article.",
+          "",
+          "‘An autumn’ is unusual here.",
+          "Seasons usually take no article."
+        ],
+        "explain": "Seasons: zero article (‘the’ is also possible but less common)."
+      },
+      {
+        "type": "error",
+        "use": "The for general",
+        "tokens": [
+          "The",
+          "cats",
+          "are",
+          "independent",
+          "animals."
+        ],
+        "errorIndex": 0,
+        "correction": "Cats",
+        "message": "Cats in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "error",
+        "use": "The for meal",
+        "tokens": [
+          "Let’s",
+          "have",
+          "the",
+          "lunch",
+          "outside."
+        ],
+        "errorIndex": 2,
+        "correction": "our",
+        "message": "Meals: ‘have lunch’. In general or in a fixed phrase → no article; specific or known → the."
+      },
+      {
+        "type": "error",
+        "use": "The for language",
+        "tokens": [
+          "Do",
+          "you",
+          "speak",
+          "the",
+          "Portuguese?"
+        ],
+        "errorIndex": 3,
+        "correction": "Brazilian",
+        "message": "Languages: zero article (‘speak Portuguese’ / ‘Brazilian Portuguese’)."
+      },
+      {
+        "type": "error",
+        "use": "The for place",
+        "tokens": [
+          "Time",
+          "to",
+          "go",
+          "to",
+          "the",
+          "bed!"
+        ],
+        "errorIndex": 4,
+        "correction": "your",
+        "message": "‘Go to bed’: zero article. In general or in a fixed phrase → no article; specific or known → the."
+      }
+    ]
+  }
+}

@@ -29,44 +29,86 @@ related:
   - { title: "All about articles", href: "/grammar/articles/" }
   - { title: "The: the definite article", href: "/grammar/articles/definite-article-the/" }
   - { title: "A/An vs The", href: "/grammar/articles/a-an-vs-the/" }
+next: { title: "All articles", href: "/grammar/articles/" }
 draft: false
 ---
 
-## When to use no article
+## What is the zero article?
 
-Use the **zero article** (nothing) when the noun is **general**.
+The **zero article** means **no article at all**. We use it when we talk about things **in general**, and in many fixed phrases.
 
-| Case | Example |
+| Use | Example |
 |---|---|
-| General plurals | **Cars** pollute cities. |
-| Uncountables in general | **Water** is essential. |
-| Names, countries, cities | **Anna** lives in **Japan**. |
-| Languages and subjects | She teaches **French**. |
-| Meals | Let's have **lunch**. |
-| Fixed phrases | go to **bed**, at **home**, by **car** |
+| Plurals in general | **Dogs** are loyal. |
+| Uncountables in general | **Water** is important. |
+| Meals | have **breakfast** |
+| Sports & games | play **tennis**, play **chess** |
+| Languages & subjects | speak **French**, study **maths** |
+| Transport with *by* | go **by** bus |
+| Fixed places | go to **school**, be in **bed** |
 
-Add **the** only when the noun becomes specific.
+## Things in general
 
-## When to use it
+### 1. Plural nouns
 
-### 1. Talking in general
+- **Cats** sleep a lot. — I love **books**.
 
-- **Books** open your mind. **Honesty** matters.
+### 2. Uncountable nouns
 
-### 2. Names and places
+- **Love** is blind. — **Coffee** keeps me awake.
 
-- **Maria** is learning **Spanish** in **Madrid**.
+> ⚠️ Typical error: ~~The life is hard.~~ → *Life is hard.*
 
-### 3. Fixed phrases
+### 3. General vs specific
 
-- I go to **work** by **bus** and get **home** late.
+| General (zero) | Specific (*the*) |
+|---|---|
+| I like **cheese**. | **The** cheese in this shop is great. |
+| **People** are friendly here. | **The** people next door are friendly. |
 
-> ⚠️ Compare: *I'm in bed* (sleeping) vs *I'm sitting on the bed* (the object); *go to school* (as a student) vs *go to the school* (the building).
+## Fixed phrases
+
+### 1. Meals
+
+- have **breakfast / lunch / dinner** — What's for **dinner**?
+
+### 2. Sports, games, languages, subjects
+
+- play **football**, play **cards**, speak **Catalan**, study **biology**
+
+### 3. Transport with *by*
+
+- go **by car / by train / by plane** — but: *on foot*
+
+> ⚠️ Typical error: ~~by the bus~~ → *by bus.*
+
+### 4. Days, months, seasons, holidays
+
+- on **Monday**, in **July**, in **winter**, at **Christmas**
+
+## Places for their main purpose
+
+### School, university, church, hospital, prison, bed, work, home
+
+When we go there **for the usual reason**, no article:
+
+- She's at **school**. (as a student) — He's in **hospital**. (as a patient)
+- I go to **work** at eight. — I'm going **home**.
+
+### With *the*: just visiting the building
+
+- My mum went to **the** school to talk to the teacher.
+
+> ⚠️ Typical error: ~~I go to the bed at ten.~~ → *I go to bed at ten.*
 
 ## Common mistakes
 
-**1. Adding 'the' to general plurals.** *~~The children need play~~* (children in general) → **Children need to play.**
+**1. *The* for things in general.** *~~The children need love.~~* → **Children** need love.
 
-**2. Adding 'the' to uncountables in general.** *~~The money can't buy happiness~~* → **Money can't buy happiness.**
+**2. *The* with meals.** *~~have the lunch~~* → **have lunch**.
 
-**3. Adding articles to fixed phrases.** *~~go to the bed~~* → **go to bed. Pro tip:** if you mean people/things in general, use no article; switch to 'the' only when you mean a specific one.
+**3. *The* with transport.** *~~by the train~~* → **by train**.
+
+**4. *The* with home.** *~~go to the home~~* → **go home**.
+
+**Pro tip:** if you mean *all of them, in general*, or it's a fixed phrase like *go to bed*, use **no article**.
