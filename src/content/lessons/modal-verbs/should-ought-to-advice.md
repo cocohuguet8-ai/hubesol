@@ -29,41 +29,97 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "Must & Have to", href: "/grammar/modal-verbs/must-have-to-obligation/" }
   - { title: "Modal Perfects", href: "/grammar/modal-verbs/modal-perfects/" }
+next: { title: "Must & Have to", href: "/grammar/modal-verbs/must-have-to-obligation/" }
 draft: false
 ---
 
-## How to use should, ought to and had better
+## How to form should and ought to
 
-| Meaning | Form | Example |
+| Form | Structure | Example |
 |---|---|---|
-| Everyday advice | should + base verb | **You should** drink more water. |
-| Slightly formal advice | ought to + base verb | **You ought to** thank her. |
-| Advice with a warning | had better ('d better) + base verb | **You'd better** leave now. |
-| Past advice / regret | should have + past participle | **You should have** called. |
+| Affirmative | should + base verb | You **should rest**. |
+| Affirmative | ought to + base verb | You **ought to rest**. |
+| Negative | shouldn't + base verb | You **shouldn't worry**. |
+| Question | Should + subject + base verb? | **Should** I **call** her? |
 
-*Should* never changes form (he should, she should) and takes the **base verb**. Only *ought to* and *had better* keep or add extra words.
+*Should* is a modal verb: no *-s*, no *to* after it, no *do* in questions. *Ought* is the only modal that **always** takes *to*.
 
-## When to use each
+| ✗ | ✓ |
+|---|---|
+| ~~She shoulds go.~~ | She **should** go. |
+| ~~You should to study.~~ | You **should study**. |
+| ~~You ought study.~~ | You **ought to study**. |
+| ~~Do I should call?~~ | **Should** I call? |
 
-### 1. Should — the right thing to do
+## When to use *should* and *ought to*
 
-- **You should see** a doctor about that cough.
-- **We shouldn't waste** food.
+### 1. Giving advice
 
-### 2. Ought to — a touch more formal
+We say what we think is the best thing to do.
 
-- **You ought to apologise** to your brother.
+- You **should** see a doctor about that cough.
+- You **ought to** wear a helmet when you cycle.
 
-### 3. Had better — a warning
+> ⚠️ Typical error: ~~You should to see a doctor.~~ → No *to* after *should*: *You should see a doctor.*
 
-- **You'd better save** your work before it crashes.
+### 2. Saying what is right or wrong
 
-> ⚠️ Typical error: for past advice, use *should have + past participle*: *You should have booked earlier* — not ~~you should booked earlier~~.
+- People **should** recycle their rubbish.
+- You **shouldn't** talk with your mouth full.
+
+> ⚠️ Typical error: ~~You don't should talk with your mouth full.~~ → The negative is *shouldn't*.
+
+### 3. Asking for advice
+
+- **Should** I tell the teacher?
+- What **should** I wear to the party?
+
+> ⚠️ Typical error: ~~What I should wear?~~ → Question order: *What should I wear?*
+
+### 4. Expectation (it's probably true)
+
+*Should* can also mean we expect something.
+
+- The bus **should** be here in five minutes.
+- The exam **shouldn't** be too difficult.
+
+## *Should* or *ought to*?
+
+They mean almost the same. *Should* is much more common, especially in questions and negatives. *Ought to* is a bit more formal and sounds stronger.
+
+| | *should* | *ought to* |
+|---|---|---|
+| frequency | very common | less common |
+| negative | shouldn't | ought not to (rare) |
+| question | Should I…? | Ought I to…? (very rare) |
+
+## Other ways to give advice
+
+| Phrase | Followed by | Example |
+|---|---|---|
+| If I were you, I'd… | base verb | **If I were you, I'd** apologise. |
+| You'd better… | base verb | **You'd better** hurry. (strong: or there's a problem) |
+| Why don't you…? | base verb | **Why don't you** ask for help? |
+
+*Had better* is stronger than *should*: it suggests a bad result if you don't do it.
+
+## *Should* vs *must*
+
+| *should* | *must* |
+|---|---|
+| advice, opinion | obligation, necessity |
+| You **should** go to bed early. | You **must** wear a seatbelt. |
+
+See [Must & Have to](/grammar/modal-verbs/must-have-to-obligation/).
 
 ## Common mistakes
 
-**1. Adding 'to' after 'should'.** *~~You should to rest~~* → **You should rest.**
+**1. *To* after *should*.** *~~You should to rest~~* → **You should rest.**
 
-**2. Using the present for past advice.** *~~You should call yesterday~~* → **You should have called yesterday.**
+**2. Forgetting *to* after *ought*.** *~~You ought go~~* → **You ought to go.**
 
-**3. Confusing strength.** *~~You should evacuate right now or you'll be hurt~~* (too weak for an emergency) → **You'd better evacuate right now. Pro tip:** should/ought to = normal advice; had better = advice with a real warning.
+**3. *-s* or *-ed* after *should*.** *~~He should studies~~* → **He should study.**
+
+**4. Wrong question order.** *~~I should go?~~* → **Should I go?**
+
+**Pro tip:** *should* is your opinion; *must* is a rule. If you're giving a friend tips, *should* is almost always right.
