@@ -1,0 +1,1503 @@
+{
+  "tense": "active-vs-passive",
+  "lessonTitle": "Active vs Passive",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "is",
+        "are",
+        "was",
+        "were",
+        "by"
+      ],
+      "label": null,
+      "primary": "was"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Complete the passive version of each idea: is / are / was / were + past participle. Keep the same tense as the active. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Present",
+        "before": "They sell newspapers here. → Newspapers",
+        "after": "here.",
+        "hint": "(sell)",
+        "answers": [
+          "are sold"
+        ],
+        "display": "are sold",
+        "explain": "Active present simple → passive: are + sold."
+      },
+      {
+        "use": "Present",
+        "before": "People speak Catalan in Andorra. → Catalan",
+        "after": "in Andorra.",
+        "hint": "(speak)",
+        "answers": [
+          "is spoken"
+        ],
+        "display": "is spoken",
+        "explain": "Same tense (present): is + spoken."
+      },
+      {
+        "use": "Present",
+        "before": "The school cleans the classrooms every day. → The classrooms",
+        "after": "every day.",
+        "hint": "(clean)",
+        "answers": [
+          "are cleaned"
+        ],
+        "display": "are cleaned",
+        "explain": "Plural new subject, present: are cleaned."
+      },
+      {
+        "use": "Present",
+        "before": "They don’t allow dogs. → Dogs",
+        "after": ".",
+        "hint": "(not allow)",
+        "answers": [
+          "aren’t allowed",
+          "aren't allowed",
+          "arent allowed",
+          "are not allowed"
+        ],
+        "display": "aren’t allowed",
+        "explain": "Negative present passive: aren’t + allowed."
+      },
+      {
+        "use": "Past",
+        "before": "Someone stole my bike. → My bike",
+        "after": ".",
+        "hint": "(steal)",
+        "answers": [
+          "was stolen"
+        ],
+        "display": "was stolen",
+        "explain": "Active past simple → was + stolen; drop ‘someone’."
+      },
+      {
+        "use": "Past",
+        "before": "Gaudí designed Park Güell. → Park Güell",
+        "after": "by Gaudí.",
+        "hint": "(design)",
+        "answers": [
+          "was designed"
+        ],
+        "display": "was designed",
+        "explain": "Past simple → was designed, and the agent is important."
+      },
+      {
+        "use": "Past",
+        "before": "The storm destroyed three houses. → Three houses",
+        "after": ".",
+        "hint": "(destroy)",
+        "answers": [
+          "were destroyed"
+        ],
+        "display": "were destroyed",
+        "explain": "Plural new subject, past: were destroyed."
+      },
+      {
+        "use": "Past",
+        "before": "They invited me to the wedding. →",
+        "after": "was invited to the wedding.",
+        "hint": "I / me",
+        "answers": [
+          "I"
+        ],
+        "display": "I",
+        "explain": "The object ‘me’ becomes the subject ‘I’."
+      },
+      {
+        "use": "Past",
+        "before": "Someone helped us. →",
+        "after": "were helped.",
+        "hint": "we / us",
+        "answers": [
+          "We"
+        ],
+        "display": "We",
+        "explain": "Object pronoun ‘us’ → subject pronoun ‘we’."
+      },
+      {
+        "use": "Past",
+        "before": "The police caught the thieves. → The thieves",
+        "after": ".",
+        "hint": "(catch)",
+        "answers": [
+          "were caught"
+        ],
+        "display": "were caught",
+        "explain": "The agent is obvious, so leave it out: were caught."
+      },
+      {
+        "use": "Past",
+        "before": "Picasso painted Guernica. → Guernica",
+        "after": "by Picasso.",
+        "hint": "(paint)",
+        "answers": [
+          "was painted"
+        ],
+        "display": "was painted",
+        "explain": "Past simple → was painted by Picasso."
+      },
+      {
+        "use": "Past",
+        "before": "They didn’t cancel the match. → The match",
+        "after": ".",
+        "hint": "(not cancel)",
+        "answers": [
+          "wasn’t cancelled",
+          "wasn't cancelled",
+          "wasnt cancelled",
+          "was not cancelled"
+        ],
+        "display": "wasn’t cancelled",
+        "explain": "Negative past passive: wasn’t + cancelled."
+      },
+      {
+        "use": "No object",
+        "before": "The accident",
+        "after": "at midnight.",
+        "hint": "(happen)",
+        "answers": [
+          "happened"
+        ],
+        "display": "happened",
+        "explain": "‘Happen’ has no object, so it can’t be passive: happened."
+      },
+      {
+        "use": "No object",
+        "before": "My grandmother",
+        "after": "in 2019.",
+        "hint": "(die)",
+        "answers": [
+          "died"
+        ],
+        "display": "died",
+        "explain": "‘Die’ has no object: always active, ‘died’."
+      },
+      {
+        "use": "No object",
+        "before": "The train",
+        "after": "late.",
+        "hint": "(arrive)",
+        "answers": [
+          "arrived"
+        ],
+        "display": "arrived",
+        "explain": "‘Arrive’ has no object: active only."
+      },
+      {
+        "use": "Choice",
+        "before": "My sister",
+        "after": "this picture. I’m so proud of her!",
+        "hint": "(paint)",
+        "answers": [
+          "painted"
+        ],
+        "display": "painted",
+        "explain": "The person is important, so the active is natural: painted."
+      },
+      {
+        "use": "Choice",
+        "before": "Breakfast",
+        "after": "from 7 to 10.",
+        "hint": "(serve)",
+        "answers": [
+          "is served"
+        ],
+        "display": "is served",
+        "explain": "Who serves it doesn’t matter: present passive, is served."
+      },
+      {
+        "use": "Choice",
+        "before": "Our team",
+        "after": "the cup last night!",
+        "hint": "(win)",
+        "answers": [
+          "won"
+        ],
+        "display": "won",
+        "explain": "In conversation about your team, the active is direct: won."
+      },
+      {
+        "use": "Choice",
+        "before": "The results",
+        "after": "yesterday.",
+        "hint": "(publish)",
+        "answers": [
+          "were published"
+        ],
+        "display": "were published",
+        "explain": "Formal news style, doer unimportant: were published."
+      },
+      {
+        "use": "Agent",
+        "before": "The book was translated",
+        "after": "my uncle.",
+        "hint": "by / from",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "The agent is introduced with ‘by’."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 10 active and 10 passive, so you see both forms side by side.",
+    "sentences": [
+      {
+        "use": "Active",
+        "tokens": [
+          "Someone",
+          "stole",
+          "my",
+          "wallet."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "My",
+          "wallet",
+          "was",
+          "stolen."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "Gaudí",
+          "designed",
+          "this",
+          "house."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "This",
+          "house",
+          "was",
+          "designed",
+          "by",
+          "Gaudí."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "They",
+          "speak",
+          "English",
+          "here."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "English",
+          "is",
+          "spoken",
+          "here."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "The",
+          "storm",
+          "damaged",
+          "the",
+          "roof."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "The",
+          "roof",
+          "was",
+          "damaged."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "They",
+          "invited",
+          "us",
+          "to",
+          "dinner."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "We",
+          "were",
+          "invited",
+          "to",
+          "dinner."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "The",
+          "police",
+          "arrested",
+          "two",
+          "men."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "Two",
+          "men",
+          "were",
+          "arrested."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "My",
+          "dad",
+          "cooks",
+          "dinner",
+          "every",
+          "night."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "Dinner",
+          "is",
+          "cooked",
+          "every",
+          "night."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "They",
+          "didn’t",
+          "tell",
+          "me."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "I",
+          "wasn’t",
+          "told."
+        ]
+      },
+      {
+        "use": "No object",
+        "tokens": [
+          "The",
+          "accident",
+          "happened",
+          "yesterday."
+        ]
+      },
+      {
+        "use": "No object",
+        "tokens": [
+          "She",
+          "arrived",
+          "very",
+          "late."
+        ]
+      },
+      {
+        "use": "Active",
+        "tokens": [
+          "My",
+          "brother",
+          "broke",
+          "the",
+          "window."
+        ]
+      },
+      {
+        "use": "Passive",
+        "tokens": [
+          "The",
+          "window",
+          "was",
+          "broken."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the active and passive",
+    "subtitle": "Tap an active sentence, then tap the passive sentence that means the same.",
+    "leftLabel": "Active",
+    "rightLabel": "Passive",
+    "rightLabelSub": "(be + participle)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "Someone stole my bike.",
+        "right": "My bike was stolen."
+      },
+      {
+        "left": "They speak French here.",
+        "right": "French is spoken here."
+      },
+      {
+        "left": "Picasso painted it.",
+        "right": "It was painted by Picasso."
+      },
+      {
+        "left": "They built the bridge in 1890.",
+        "right": "The bridge was built in 1890."
+      },
+      {
+        "left": "They invited me.",
+        "right": "I was invited."
+      },
+      {
+        "left": "The police caught him.",
+        "right": "He was caught."
+      },
+      {
+        "left": "They make cars here.",
+        "right": "Cars are made here."
+      },
+      {
+        "left": "Someone broke the window.",
+        "right": "The window was broken."
+      },
+      {
+        "left": "They told us the news.",
+        "right": "We were told the news."
+      },
+      {
+        "left": "They clean the room daily.",
+        "right": "The room is cleaned daily."
+      },
+      {
+        "left": "They cancelled the flight.",
+        "right": "The flight was cancelled."
+      },
+      {
+        "left": "They grow rice in Valencia.",
+        "right": "Rice is grown in Valencia."
+      },
+      {
+        "left": "Someone found my keys.",
+        "right": "My keys were found."
+      },
+      {
+        "left": "They chose her as captain.",
+        "right": "She was chosen as captain."
+      },
+      {
+        "left": "They sell tickets online.",
+        "right": "Tickets are sold online."
+      },
+      {
+        "left": "A dog bit him.",
+        "right": "He was bitten by a dog."
+      },
+      {
+        "left": "They didn’t pay us.",
+        "right": "We weren’t paid."
+      },
+      {
+        "left": "They serve lunch at one.",
+        "right": "Lunch is served at one."
+      },
+      {
+        "left": "The storm destroyed the crops.",
+        "right": "The crops were destroyed."
+      },
+      {
+        "left": "They don’t allow phones.",
+        "right": "Phones aren’t allowed."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Keep the tense, make the object the subject, add be + past participle.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Present",
+        "text": "They grow oranges in Valencia. → Oranges <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Valencia.",
+        "choices": [
+          "are grown",
+          "is grown",
+          "were grown",
+          "grow"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Oranges’ is plural, so ‘be’ must be ‘are’.",
+          "The active is present simple, so the passive stays present, not past.",
+          "‘Oranges grow’ is active and changes the focus of the sentence."
+        ],
+        "explain": "Same tense, plural subject: are + grown."
+      },
+      {
+        "use": "Past",
+        "text": "Someone broke the window. → The window <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "is broken",
+          "was broken",
+          "broke",
+          "was broke"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "The active is past simple, so the passive must be past: was.",
+          "",
+          "‘The window broke’ is active and loses the idea that someone did it.",
+          "‘Broke’ is past simple; the passive needs the participle ‘broken’."
+        ],
+        "explain": "Past simple active → was + broken."
+      },
+      {
+        "use": "Pronoun",
+        "text": "They chose me for the team. → <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was chosen for the team.",
+        "choices": [
+          "Me",
+          "My",
+          "I",
+          "Mine"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Me’ is an object pronoun; the subject must be ‘I’.",
+          "‘My’ is a possessive adjective.",
+          "",
+          "‘Mine’ is a possessive pronoun."
+        ],
+        "explain": "The object ‘me’ becomes the subject ‘I’ in the passive."
+      },
+      {
+        "use": "Pronoun",
+        "text": "Someone told us the truth. → <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> were told the truth.",
+        "choices": [
+          "Us",
+          "Our",
+          "Ours",
+          "We"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Us’ is an object pronoun.",
+          "‘Our’ is a possessive adjective.",
+          "‘Ours’ is a possessive pronoun.",
+          ""
+        ],
+        "explain": "Object ‘us’ → subject ‘we’."
+      },
+      {
+        "use": "No object",
+        "text": "Which verb can’t be made passive?",
+        "choices": [
+          "build",
+          "happen",
+          "steal",
+          "write"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Build’ has an object: a house was built.",
+          "",
+          "‘Steal’ has an object: a car was stolen.",
+          "‘Write’ has an object: a letter was written."
+        ],
+        "explain": "‘Happen’ has no object, so a passive like ‘was happened’ is impossible."
+      },
+      {
+        "use": "No object",
+        "text": "The accident <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at 8 p.m.",
+        "choices": [
+          "was happened",
+          "is happened",
+          "happened",
+          "were happened"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Happen’ can’t be passive.",
+          "‘Happen’ can’t be passive.",
+          "",
+          "‘Happen’ can’t be passive."
+        ],
+        "explain": "Verbs without an object stay active: the accident happened."
+      },
+      {
+        "use": "Agent",
+        "text": "Leonardo painted the Mona Lisa. → The Mona Lisa was painted <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Leonardo.",
+        "choices": [
+          "from",
+          "of",
+          "with",
+          "by"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘From’ is a common error for the agent.",
+          "‘Of’ isn’t used for the agent.",
+          "‘With’ is for the instrument.",
+          ""
+        ],
+        "explain": "Agent: by + person."
+      },
+      {
+        "use": "Agent needed?",
+        "text": "The police arrested the thief. → Which passive is best?",
+        "choices": [
+          "The thief was arrested.",
+          "The thief was arrested by the police.",
+          "The thief arrested.",
+          "The thief is arrested by them."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Correct, but ‘by the police’ is obvious and unnecessary.",
+          "This is active and wrong in meaning.",
+          "Wrong tense and an unclear agent."
+        ],
+        "explain": "Drop the obvious agent: The thief was arrested."
+      },
+      {
+        "use": "Tense",
+        "text": "They built this castle in 1300. → This castle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in 1300.",
+        "choices": [
+          "is built",
+          "has built",
+          "was built",
+          "built"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The tense must stay past.",
+          "‘Has built’ is active present perfect.",
+          "",
+          "‘Built’ alone is active."
+        ],
+        "explain": "Past active → past passive: was built."
+      },
+      {
+        "use": "Tense",
+        "text": "They clean the beach every morning. → The beach <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> every morning.",
+        "choices": [
+          "was cleaned",
+          "cleans",
+          "is clean",
+          "is cleaned"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "The active is present, so the passive is present.",
+          "A beach can’t clean.",
+          "‘Is clean’ is an adjective, not the passive.",
+          ""
+        ],
+        "explain": "Present active → present passive: is cleaned."
+      },
+      {
+        "use": "Negative",
+        "text": "They didn’t invite Pau. → Pau <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "wasn’t invited",
+          "didn’t invite",
+          "didn’t invited",
+          "isn’t invited"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Didn’t invite’ is active.",
+          "Passive negatives use ‘be’, not ‘did’.",
+          "The tense must stay past."
+        ],
+        "explain": "Negative past passive: wasn’t invited."
+      },
+      {
+        "use": "Choice",
+        "text": "Which sentence sounds more natural in conversation?",
+        "choices": [
+          "This cake was made by my mum.",
+          "My mum made this cake.",
+          "This cake made my mum.",
+          "My mum was made this cake."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Correct, but in conversation the active is more direct.",
+          "",
+          "This changes the meaning completely.",
+          "This is grammatically wrong."
+        ],
+        "explain": "When the person matters, the active is usually more natural."
+      },
+      {
+        "use": "Choice",
+        "text": "Which sentence is best for a news report?",
+        "choices": [
+          "Someone rescued two climbers yesterday.",
+          "Two climbers rescued yesterday.",
+          "Two climbers was rescued yesterday.",
+          "Two climbers were rescued yesterday."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Someone’ is vague; the passive is more natural in news.",
+          "‘Be’ is missing.",
+          "‘Climbers’ is plural: were.",
+          ""
+        ],
+        "explain": "News focuses on what happened: the passive."
+      },
+      {
+        "use": "Present",
+        "text": "They don’t allow pets. → Pets <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "aren’t allowed",
+          "don’t allow",
+          "isn’t allowed",
+          "weren’t allowed"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Pets don’t allow’ changes the meaning.",
+          "‘Pets’ is plural: aren’t.",
+          "The tense must stay present."
+        ],
+        "explain": "Negative present passive: aren’t allowed."
+      },
+      {
+        "use": "Past",
+        "text": "A dog bit my brother. → My brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by a dog.",
+        "choices": [
+          "was bit",
+          "was bitten",
+          "bit",
+          "is bitten"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Bit’ is past simple; use the participle ‘bitten’.",
+          "",
+          "‘My brother bit’ is active.",
+          "The tense must stay past."
+        ],
+        "explain": "Irregular participle: bite → bitten."
+      },
+      {
+        "use": "Pronoun",
+        "text": "They saw him at the station. → <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was seen at the station.",
+        "choices": [
+          "Him",
+          "His",
+          "He",
+          "He’s"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Him’ is an object pronoun.",
+          "‘His’ is possessive.",
+          "",
+          "‘He’s’ = he is."
+        ],
+        "explain": "Object ‘him’ → subject ‘he’."
+      },
+      {
+        "use": "No object",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "My grandfather died last year.",
+          "My grandfather was died last year.",
+          "My grandfather is died last year.",
+          "My grandfather were died last year."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Die’ can’t be passive.",
+          "‘Die’ can’t be passive.",
+          "‘Die’ can’t be passive."
+        ],
+        "explain": "‘Die’ has no object: always active."
+      },
+      {
+        "use": "Topic",
+        "text": "Rome is very old. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> thousands of years ago.",
+        "choices": [
+          "founded",
+          "was founded",
+          "is founded",
+          "was found"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘It founded’ means Rome founded something.",
+          "",
+          "The tense must be past.",
+          "‘Found’ is the participle of ‘find’; we need ‘founded’."
+        ],
+        "explain": "Keep the topic (Rome) as subject: was founded."
+      },
+      {
+        "use": "Present",
+        "text": "People use this app all over the world. → This app <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all over the world.",
+        "choices": [
+          "uses",
+          "are used",
+          "is used",
+          "is using"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "An app can’t use: the passive.",
+          "‘This app’ is singular: is.",
+          "",
+          "‘Is using’ is active continuous."
+        ],
+        "explain": "Present passive: is used."
+      },
+      {
+        "use": "Past",
+        "text": "They found the missing boy. → The missing boy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "was founded",
+          "found",
+          "is found",
+          "was found"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Founded’ is from ‘found’ (to start); here it’s ‘find’ → found.",
+          "‘The boy found’ is active.",
+          "The tense must stay past.",
+          ""
+        ],
+        "explain": "Past passive: was found."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "The",
+          "accident",
+          "happen",
+          "at",
+          "night",
+          "last",
+          "week."
+        ],
+        "errorIndex": 2,
+        "correction": "happened",
+        "type": "No passive with happen",
+        "message": "‘Happen’ has no object and stays active: ‘happened’."
+      },
+      {
+        "tokens": [
+          "My",
+          "grandmother",
+          "die",
+          "in",
+          "2010."
+        ],
+        "errorIndex": 2,
+        "correction": "died",
+        "type": "No passive with die",
+        "message": "Active past simple: ‘died’ — ‘die’ is never passive."
+      },
+      {
+        "tokens": [
+          "The",
+          "plane",
+          "arrive",
+          "on",
+          "time",
+          "yesterday."
+        ],
+        "errorIndex": 2,
+        "correction": "arrived",
+        "type": "No passive with arrive",
+        "message": "Active past simple: ‘arrived’ — ‘arrive’ is never passive."
+      },
+      {
+        "tokens": [
+          "Me",
+          "was",
+          "invited",
+          "to",
+          "the",
+          "party."
+        ],
+        "errorIndex": 0,
+        "correction": "I",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘I was invited’."
+      },
+      {
+        "tokens": [
+          "Us",
+          "were",
+          "told",
+          "to",
+          "wait."
+        ],
+        "errorIndex": 0,
+        "correction": "We",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘We were told’."
+      },
+      {
+        "tokens": [
+          "Him",
+          "was",
+          "chosen",
+          "as",
+          "captain."
+        ],
+        "errorIndex": 0,
+        "correction": "He",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘He was chosen’."
+      },
+      {
+        "tokens": [
+          "They",
+          "built",
+          "it",
+          "in",
+          "1900.",
+          "It",
+          "is",
+          "built",
+          "in",
+          "1900."
+        ],
+        "errorIndex": 6,
+        "correction": "was",
+        "type": "Wrong tense",
+        "message": "Keep the past: ‘It was built’."
+      },
+      {
+        "tokens": [
+          "Someone",
+          "stole",
+          "my",
+          "phone.",
+          "My",
+          "phone",
+          "is",
+          "stolen",
+          "yesterday."
+        ],
+        "errorIndex": 6,
+        "correction": "was",
+        "type": "Wrong tense",
+        "message": "Past: ‘was stolen’."
+      },
+      {
+        "tokens": [
+          "The",
+          "thieves",
+          "caught",
+          "last",
+          "night."
+        ],
+        "errorIndex": 2,
+        "correction": "were caught",
+        "type": "Missing be",
+        "message": "Passive needs ‘be’: ‘were caught’."
+      },
+      {
+        "tokens": [
+          "The",
+          "windows",
+          "was",
+          "cleaned."
+        ],
+        "errorIndex": 2,
+        "correction": "were",
+        "type": "Wrong be",
+        "message": "Plural: ‘were’."
+      },
+      {
+        "tokens": [
+          "He",
+          "was",
+          "bit",
+          "by",
+          "a",
+          "dog."
+        ],
+        "errorIndex": 2,
+        "correction": "bitten",
+        "type": "Wrong participle",
+        "message": "Participle of ‘bite’: ‘bitten’."
+      },
+      {
+        "tokens": [
+          "The",
+          "castle",
+          "was",
+          "builded",
+          "in",
+          "1300."
+        ],
+        "errorIndex": 3,
+        "correction": "built",
+        "type": "Wrong participle",
+        "message": "Participle of ‘build’: ‘built’."
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "written",
+          "from",
+          "Cervantes."
+        ],
+        "errorIndex": 3,
+        "correction": "by",
+        "type": "Wrong agent preposition",
+        "message": "Agent: ‘by’."
+      },
+      {
+        "tokens": [
+          "This",
+          "park",
+          "was",
+          "designed",
+          "for",
+          "Gaudí."
+        ],
+        "errorIndex": 4,
+        "correction": "by",
+        "type": "Wrong agent preposition",
+        "message": "Agent: ‘designed by Gaudí’."
+      },
+      {
+        "tokens": [
+          "Pau",
+          "didn’t",
+          "invited."
+        ],
+        "errorIndex": 1,
+        "correction": "wasn’t",
+        "type": "Wrong negative",
+        "message": "Negative passive: ‘Pau wasn’t invited’."
+      },
+      {
+        "tokens": [
+          "Dogs",
+          "don’t",
+          "allowed",
+          "here."
+        ],
+        "errorIndex": 1,
+        "correction": "aren’t",
+        "type": "Wrong negative",
+        "message": "Negative passive: ‘Dogs aren’t allowed’."
+      },
+      {
+        "tokens": [
+          "My",
+          "bag",
+          "stole",
+          "on",
+          "the",
+          "train."
+        ],
+        "errorIndex": 2,
+        "correction": "was stolen",
+        "type": "Active form",
+        "message": "A bag can’t steal: ‘was stolen’."
+      },
+      {
+        "tokens": [
+          "This",
+          "cake",
+          "made",
+          "by",
+          "my",
+          "mum."
+        ],
+        "errorIndex": 2,
+        "correction": "was made",
+        "type": "Active form",
+        "message": "Passive: ‘was made’."
+      },
+      {
+        "tokens": [
+          "Barcelona",
+          "was",
+          "found",
+          "by",
+          "the",
+          "Romans."
+        ],
+        "errorIndex": 2,
+        "correction": "founded",
+        "type": "Found or founded",
+        "message": "‘Found’ (start a city) → ‘founded’."
+      },
+      {
+        "tokens": [
+          "The",
+          "results",
+          "were",
+          "publised",
+          "today."
+        ],
+        "errorIndex": 3,
+        "correction": "published",
+        "type": "Spelling",
+        "message": "Spelling: ‘published’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, active or passive, multiple choice and spot-the-mistake. In the typing questions write the passive (be + past participle) or the active when the verb has no object. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "choice": "Active or passive",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "choice",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Past",
+        "sentText": "Someone took my umbrella. → My umbrella {{blank}} .",
+        "hint": "take",
+        "answers": [
+          "was taken"
+        ],
+        "display": "was taken",
+        "explain": "Past active → was + taken; drop ‘someone’.",
+        "wrongNote": "Past passive: was + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Present",
+        "sentText": "They make violins here. → Violins {{blank}} here.",
+        "hint": "make",
+        "answers": [
+          "are made"
+        ],
+        "display": "are made",
+        "explain": "Present active → are + made.",
+        "wrongNote": "Plural present → are + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Pronoun",
+        "sentText": "They told me. → {{blank}} was told.",
+        "hint": "I / me",
+        "answers": [
+          "I"
+        ],
+        "display": "I",
+        "explain": "Object ‘me’ → subject ‘I’ in the passive.",
+        "wrongNote": "Use the subject pronoun."
+      },
+      {
+        "type": "fill",
+        "use": "No object",
+        "sentText": "The concert {{blank}} at nine.",
+        "hint": "start",
+        "answers": [
+          "started"
+        ],
+        "display": "started",
+        "explain": "‘Start’ has no object here: active, started.",
+        "wrongNote": "No object → active."
+      },
+      {
+        "type": "order",
+        "use": "Passive",
+        "tokens": [
+          "The",
+          "car",
+          "was",
+          "repaired."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Active",
+        "tokens": [
+          "My",
+          "dad",
+          "repaired",
+          "the",
+          "car."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Passive",
+        "tokens": [
+          "We",
+          "were",
+          "invited."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "No object",
+        "tokens": [
+          "The",
+          "match",
+          "ended",
+          "late."
+        ]
+      },
+      {
+        "type": "choice",
+        "use": "Choice",
+        "text": "You want to say who made it: ‘{{blank}} this necklace.’",
+        "choices": [
+          "This necklace was made",
+          "My grandma made",
+          "This necklace made",
+          "My grandma was made"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "The passive hides the person you want to mention.",
+          "",
+          "This is active with the wrong meaning.",
+          "This changes the meaning completely."
+        ],
+        "explain": "The person is important → active."
+      },
+      {
+        "type": "choice",
+        "use": "Choice",
+        "text": "You don’t know who did it: ‘My car {{blank}} last night.’",
+        "choices": [
+          "stole",
+          "is stealing",
+          "was stole",
+          "was stolen"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "A car can’t steal.",
+          "Wrong tense and meaning.",
+          "‘Stole’ is past simple; use ‘stolen’.",
+          ""
+        ],
+        "explain": "Unknown doer → passive."
+      },
+      {
+        "type": "choice",
+        "use": "Choice",
+        "text": "Which verb must stay active?",
+        "choices": [
+          "arrive",
+          "send",
+          "build",
+          "sell"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Send’ can be passive.",
+          "‘Build’ can be passive.",
+          "‘Sell’ can be passive."
+        ],
+        "explain": "‘Arrive’ has no object, so no passive."
+      },
+      {
+        "type": "choice",
+        "use": "Choice",
+        "text": "A science report: ‘The water {{blank}} to 80 °C.’",
+        "choices": [
+          "heated",
+          "we heated it",
+          "was heated",
+          "was heat"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘The water heated’ is unclear in a report.",
+          "Reports usually avoid ‘we’.",
+          "",
+          "After ‘was’ use the participle."
+        ],
+        "explain": "Science style → passive."
+      },
+      {
+        "type": "mc",
+        "use": "Tense",
+        "text": "They sell stamps here. → Stamps {{blank}} here.",
+        "choices": [
+          "were sold",
+          "sold",
+          "are sold",
+          "is sold"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The tense must stay present.",
+          "‘Stamps sold’ is active.",
+          "",
+          "‘Stamps’ is plural."
+        ],
+        "explain": "Present passive: are sold."
+      },
+      {
+        "type": "mc",
+        "use": "Pronoun",
+        "text": "They helped her. → {{blank}} was helped.",
+        "choices": [
+          "She",
+          "Her",
+          "Hers",
+          "She’s"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Her’ is an object pronoun.",
+          "‘Hers’ is possessive.",
+          "‘She’s’ = she is."
+        ],
+        "explain": "Object ‘her’ → subject ‘she’."
+      },
+      {
+        "type": "mc",
+        "use": "No object",
+        "text": "The fire {{blank}} in the kitchen.",
+        "choices": [
+          "was started",
+          "is started",
+          "were started",
+          "started"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Possible if someone started it on purpose, but here it simply began.",
+          "Wrong tense and meaning.",
+          "‘The fire’ is singular.",
+          ""
+        ],
+        "explain": "Here ‘start’ has no object: active."
+      },
+      {
+        "type": "mc",
+        "use": "Agent",
+        "text": "This bridge was designed {{blank}} a team of engineers.",
+        "choices": [
+          "from",
+          "by",
+          "with",
+          "of"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘From’ is wrong.",
+          "",
+          "‘With’ is for instruments.",
+          "‘Of’ is wrong."
+        ],
+        "explain": "Agent: by."
+      },
+      {
+        "type": "error",
+        "use": "No object",
+        "tokens": [
+          "The",
+          "meeting",
+          "finish",
+          "at",
+          "six",
+          "yesterday."
+        ],
+        "errorIndex": 2,
+        "correction": "finished",
+        "message": "No object, so active past simple: ‘finished’."
+      },
+      {
+        "type": "error",
+        "use": "Object pronoun",
+        "tokens": [
+          "Them",
+          "were",
+          "invited",
+          "too."
+        ],
+        "errorIndex": 0,
+        "correction": "They",
+        "message": "Subject pronoun: ‘They were invited’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong tense",
+        "tokens": [
+          "They",
+          "painted",
+          "it",
+          "in",
+          "1920.",
+          "It",
+          "is",
+          "painted",
+          "in",
+          "1920."
+        ],
+        "errorIndex": 6,
+        "correction": "was",
+        "message": "Keep the past: ‘was painted’."
+      },
+      {
+        "type": "error",
+        "use": "Missing be",
+        "tokens": [
+          "The",
+          "letters",
+          "posted",
+          "yesterday."
+        ],
+        "errorIndex": 2,
+        "correction": "were posted",
+        "message": "Passive needs ‘be’: ‘were posted’."
+      }
+    ]
+  }
+}

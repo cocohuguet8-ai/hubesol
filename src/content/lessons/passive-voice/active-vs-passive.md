@@ -28,41 +28,90 @@ related:
   - { title: "All about the passive", href: "/grammar/passive-voice/" }
   - { title: "Passive Voice: the basics", href: "/grammar/passive-voice/passive-voice-basics/" }
   - { title: "The passive in all tenses", href: "/grammar/passive-voice/passive-all-tenses/" }
+next: { title: "The Passive in All Tenses", href: "/grammar/passive-voice/passive-all-tenses/" }
 draft: false
 ---
 
-## The difference in one table
+## How to change active into passive
 
-| | Active | Passive |
+| Step | Active | Passive |
 |---|---|---|
-| Subject | does the action | receives the action |
-| Focus | the doer | the action / the receiver |
-| Example | **The chef cooked** the meal. | **The meal was cooked** (by the chef). |
-| Default? | yes — clear and direct | only with a reason |
+| 1. The **object** becomes the subject | Gaudí designed **the park**. | **The park** … |
+| 2. Add **be** in the same tense | (past simple) | … **was** … |
+| 3. Add the **past participle** | designed | … **designed** … |
+| 4. Add **by** + agent (only if useful) | Gaudí | … **by Gaudí**. |
 
-Same event, different **focus**. Move the object to the front to make it passive; name the doer only if it matters.
+**Active:** Gaudí designed the park. → **Passive:** The park **was designed by** Gaudí.
 
-## When to use each
+The tense stays the same: only *be* changes to show it.
 
-### 1. Active — your default
+| Tense | Active | Passive |
+|---|---|---|
+| present simple | They **sell** books here. | Books **are sold** here. |
+| past simple | Someone **stole** my bag. | My bag **was stolen**. |
 
-- **The team finished** the project early. (clear: who did what)
+## Only verbs with an object
 
-### 2. Passive — doer unknown or unimportant
+Only **transitive** verbs (verbs with an object) can be passive.
 
-- The shop **was broken into** last night. (we don't know by whom)
-- The road **will be resurfaced** next month. (who does it isn't the point)
+| ✓ Has an object | ✗ No object |
+|---|---|
+| They **built** a bridge. → A bridge was built. | She **arrived** late. → ~~She was arrived.~~ |
+| He **broke** the vase. → The vase was broken. | It **happened** yesterday. → ~~It was happened.~~ |
 
-### 3. Passive — to keep the topic in focus
+> ⚠️ Typical error: ~~The accident was happened at night.~~ → *Happen* has no object: *The accident happened at night.*
 
-- Penicillin **was discovered** in 1928 and **is still used** today.
+## When to choose the active
 
-> ⚠️ Don't overuse the passive: *It was decided by the committee that the proposal would be rejected* is clearer as *The committee rejected the proposal.*
+### 1. The person doing the action is important
+
+- **My sister** painted this picture.
+- **Barça** won the match.
+
+> ⚠️ Typical error: ~~The match was won by Barça~~ (in normal conversation about your team) → Usually fine, but the active sounds more direct: *Barça won the match.*
+
+### 2. Normal conversation
+
+Most everyday English is active: it's shorter and clearer.
+
+## When to choose the passive
+
+### 1. The doer is unknown, obvious or unimportant
+
+- My phone **was stolen**. (we don't know who)
+- The thief **was arrested**. (obviously by the police)
+
+> ⚠️ Typical error: ~~Someone stole my phone by a thief.~~ → Use the passive and drop the obvious agent: *My phone was stolen.*
+
+### 2. Formal writing, news and science
+
+- The results **were published** yesterday.
+- The mixture **is heated** for ten minutes.
+
+### 3. To keep the topic at the start
+
+- *The Mona Lisa* is very famous. It **was painted by** Leonardo da Vinci.
+
+## Subject and object pronouns
+
+When the object is a pronoun, it changes to a **subject** pronoun in the passive.
+
+| Active | Passive |
+|---|---|
+| They invited **me**. | **I** was invited. |
+| Someone helped **us**. | **We** were helped. |
+| The teacher told **them**. | **They** were told. |
+
+> ⚠️ Typical error: ~~Me was invited.~~ → *I was invited.*
 
 ## Common mistakes
 
-**1. Passive with no reason.** *~~The ball was kicked by John~~* (when John is the point) → **John kicked the ball.**
+**1. Passive with verbs that have no object.** *~~She was died~~* → **She died.**
 
-**2. Losing the doer you actually need.** *~~The theory was proposed~~* (by whom? it matters) → **Einstein proposed the theory.**
+**2. Changing the tense.** *~~They built it → It is built~~* → **It was built.**
 
-**3. Wrong transformation.** *~~The cake ate by the boy~~* → **The cake was eaten by the boy. Pro tip:** to go passive, make the object the subject and add be + past participle; to go active, name the doer and put it first.
+**3. Object pronoun as subject.** *~~Him was chosen~~* → **He was chosen.**
+
+**4. Keeping an unnecessary agent.** *~~It was stolen by someone~~* → **It was stolen.**
+
+**Pro tip:** before making a passive, find the object of the active sentence — if there isn't one, the passive is impossible.
