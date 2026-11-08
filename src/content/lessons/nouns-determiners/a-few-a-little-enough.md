@@ -29,39 +29,85 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Much, Many & A lot of", href: "/grammar/nouns-determiners/much-many-a-lot-of/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
+next: { title: "This, That, These & Those", href: "/grammar/nouns-determiners/this-that-these-those/" }
 draft: false
 ---
 
-## a few, a little, few, little, enough
+## The basic rule
 
-| Word | Goes with | Meaning | Example |
-|---|---|---|---|
-| a few | countable plural | a small, positive amount | **a few** friends |
-| a little | uncountable | a small, positive amount | **a little** milk |
-| few | countable plural | almost none (negative) | **few** people came |
-| little | uncountable | almost none (negative) | **little** hope |
-| enough | both | as much/many as needed | **enough** chairs, **enough** time |
+| | Countable (plural) | Uncountable |
+|---|---|---|
+| a small amount (positive) | **a few** friends | **a little** money |
+| not much (negative idea) | **few** friends | **little** money |
+| the right amount | **enough** friends | **enough** money |
 
-## When to use each
+## *A few* and *a little*
 
-### 1. a few / a little — enough, positive
+### 1. *A few* + plural countable
 
-- I have **a few** questions. Add **a little** salt.
+- I've got **a few** questions. — We stayed **a few** days.
 
-### 2. few / little — not enough, negative
+### 2. *A little* + uncountable
 
-- **Few** students passed. There's **little** time left.
+- Can I have **a little** milk? — She speaks **a little** French.
 
-### 3. enough — the right amount
+### 3. Positive meaning: "some, not many / not much"
 
-- Are there **enough** seats? We don't have **enough** money. It's warm **enough**.
+- I've got **a little** time — let's have a coffee. (it's enough)
 
-> ⚠️ Position of 'enough': before a noun (**enough food**) but after an adjective/adverb (**big enough**, **soon enough**).
+> ⚠️ Typical error: ~~a little apples~~ → *Apples* is countable: *a few apples.*
+
+## *Few* and *little* (without *a*)
+
+Without *a*, the meaning is **negative**: almost none, not enough.
+
+| With *a* (positive) | Without *a* (negative) |
+|---|---|
+| I have **a few** friends here. (I'm OK) | I have **few** friends here. (I'm lonely) |
+| There's **a little** hope. (some hope) | There's **little** hope. (almost none) |
+
+*Few* and *little* sound quite formal; in speech we often say *not many / not much*.
+
+## *Enough*
+
+### 1. *Enough* + noun (before the noun)
+
+- We have **enough** chairs. — Is there **enough** food?
+
+### 2. Adjective / adverb + *enough* (after)
+
+- The room isn't big **enough**. — You're not running fast **enough**.
+
+> ⚠️ Typical error: ~~enough big~~ → *big enough.*
+
+### 3. *Enough* + *to* / *for*
+
+- She's old **enough to** drive. — Is there **enough** cake **for** everyone?
+
+### 4. *Not enough* = too little / too few
+
+- There are**n't enough** buses. = There are **too few** buses.
+
+## *Quite a few* and *only a few*
+
+| Phrase | Meaning | Example |
+|---|---|---|
+| **quite a few** | a fairly large number | **Quite a few** people came. |
+| **only a few** | a small number (negative feeling) | **Only a few** people came. |
+| **only a little** | a small amount | I've got **only a little** money. |
+
+## *A few* vs *some* vs *many*
+
+- **a few** books (3–4) → **some** books → **many / a lot of** books
 
 ## Common mistakes
 
-**1. 'a few' with an uncountable noun.** *~~a few water~~* → **a little water.**
+**1. *A little* with plurals.** *~~a little days~~* → **a few days**.
 
-**2. 'a little' with a countable noun.** *~~a little books~~* → **a few books.**
+**2. *A few* with uncountables.** *~~a few water~~* → **a little water**.
 
-**3. 'enough' after the noun.** *~~money enough~~* → **enough money** (but *old enough* is correct). **Pro tip:** a few/a little = a positive small amount; few/little = a negative 'hardly any'.
+**3. Word order with adjectives.** *~~It isn't enough warm.~~* → **warm enough**.
+
+**4. Confusing *few* and *a few*.** *~~Few people came, so it was a great party.~~* → **A few** / **Lots of**.
+
+**Pro tip:** **enough** goes **before nouns** and **after adjectives**: *enough time*, *good enough*.
