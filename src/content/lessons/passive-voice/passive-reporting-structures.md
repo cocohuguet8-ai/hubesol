@@ -28,44 +28,89 @@ related:
   - { title: "All about the passive", href: "/grammar/passive-voice/" }
   - { title: "Reported Speech", href: "/grammar/reported-speech/" }
   - { title: "The passive in all tenses", href: "/grammar/passive-voice/passive-all-tenses/" }
+next: { title: "All about the passive", href: "/grammar/passive-voice/" }
 draft: false
 ---
 
-## The two patterns
+## How to form passive reporting structures
 
-Both report general opinion without naming the source.
+When we report what **people in general** say, think or believe, we can use two passive patterns.
+
+> **Active:** People say that the castle is haunted.
 
 | Pattern | Structure | Example |
 |---|---|---|
-| Impersonal | It + is/was + said/believed + that… | **It is said that** the castle is haunted. |
-| Personal | subject + is/was + said/believed + to-infinitive | The castle **is said to be** haunted. |
-| Earlier time | …+ to have + past participle | He **is believed to have left** the country. |
+| 1. *It* + passive + *that* | It + is said + that + clause | **It is said that** the castle is haunted. |
+| 2. Subject + passive + infinitive | Subject + is said + to + infinitive | **The castle is said to be** haunted. |
 
-Common verbs: *say, believe, think, know, report, expect, consider, understand*.
+Common reporting verbs: **say, think, believe, know, report, expect, consider, claim, rumour, understand**.
 
-## When and how to use them
+## Pattern 1: *It is said that…*
 
-### 1. Impersonal — start with 'It'
+The easiest pattern: the second clause stays the same.
 
-- **It is believed that** the painting is a fake.
-- **It was reported that** no one was hurt.
+- **It is believed that** the thief escaped by car.
+- **It was reported that** two people were injured.
+- **It is expected that** prices will rise.
 
-### 2. Personal — the person as subject
+> ⚠️ Typical error: ~~Is said that the castle is haunted.~~ → English needs a subject: *It is said that…*
 
-- The painting **is believed to be** a fake.
-- She **is known to speak** five languages.
+## Pattern 2: *He is said to…*
 
-### 3. An earlier action — to have + participle
+The subject of the second clause moves to the front, and the verb becomes an **infinitive**. Choose the infinitive by **time**.
 
-- The suspect **is thought to have fled** overnight.
-- They **are said to have made** a fortune.
+| Time of the second action | Infinitive | Example |
+|---|---|---|
+| same time (now) | **to + base verb** | She **is thought to live** in Paris. |
+| happening now | **to be + -ing** | He **is believed to be hiding** in the mountains. |
+| earlier (past) | **to have + past participle** | The painting **is said to have been stolen** in 1990. |
+| earlier, in progress | **to have been + -ing** | They **are thought to have been working** together. |
 
-> ⚠️ Match the infinitive to the time: *is said to be* (now) vs *is said to have been* (earlier).
+> ⚠️ Typical error: ~~He is said to steal the money last year.~~ → An earlier action needs the perfect infinitive: *He is said to have stolen the money.*
+
+## Choosing the infinitive
+
+### 1. Same time → simple infinitive
+
+- People think he **is** rich. → He **is thought to be** rich.
+
+### 2. Earlier → perfect infinitive
+
+- People believe she **left** the country. → She **is believed to have left** the country.
+
+> ⚠️ Typical error: ~~She is believed to left the country.~~ → *to have left.*
+
+### 3. Past reporting verb
+
+If the reporting verb is past, the time logic stays the same:
+
+- People **thought** he **was** dead. → He **was thought to be** dead.
+- People **believed** she **had** escaped. → She **was believed to have escaped**.
+
+## When to use these structures
+
+They are typical of **news, academic and formal writing**, when the source is general or unknown.
+
+| Informal | Formal |
+|---|---|
+| People say he's a millionaire. | He **is said to be** a millionaire. |
+| Everyone knows smoking is bad for you. | **It is known that** smoking is harmful. |
+
+## *There is said to be…*
+
+With *there*, use **there + passive + to be**:
+
+- **There are said to be** wolves in these mountains.
+- **There is thought to have been** a mistake.
 
 ## Common mistakes
 
-**1. Mixing the two patterns.** *~~He is said that he is rich~~* → **It is said that he is rich** or **He is said to be rich.**
+**1. Missing *it*.** *~~Is believed that…~~* → **It is believed that…**
 
-**2. Wrong form for an earlier time.** *~~She is believed to left~~* → **She is believed to have left.**
+**2. Wrong infinitive for the past.** *~~He is thought to break the record yesterday~~* → **to have broken.**
 
-**3. Forgetting 'to' in the personal pattern.** *~~He is said be honest~~* → **He is said to be honest. Pro tip:** 'It is said that + clause' or 'Subject is said to + verb' — never blend them.
+**3. Mixing the patterns.** *~~It is said to be that…~~* / *~~He is said that he is…~~* → choose one: **It is said that he is…** or **He is said to be…**
+
+**4. *Say* with a person object.** *~~He is said me…~~* — reporting passives don't take a person object.
+
+**Pro tip:** if the second action happened **before** the reporting, you always need **to have + participle**.
