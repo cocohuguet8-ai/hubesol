@@ -28,43 +28,87 @@ related:
   - { title: "All about prepositions", href: "/grammar/prepositions/" }
   - { title: "Prepositions of Movement", href: "/grammar/prepositions/prepositions-of-movement/" }
   - { title: "In, On, At: time vs place", href: "/grammar/prepositions/in-on-at-time-vs-place/" }
+next: { title: "All about prepositions", href: "/grammar/prepositions/" }
 draft: false
 ---
 
-## Common dependent prepositions
+## What are dependent prepositions?
 
-These are **collocations** — fixed pairs to memorise, not rules to work out.
+Some adjectives, verbs and nouns are always followed by a **specific preposition**. The preposition "depends" on the word before it — there's no rule, so learn them together as a chunk.
 
-| Type | Examples |
+| Word + preposition | Example |
 |---|---|
-| Adjective + preposition | good **at**, interested **in**, afraid **of**, proud **of**, keen **on**, married **to** |
-| Verb + preposition | depend **on**, listen **to**, wait **for**, look **for**, apologise **for**, belong **to** |
-| Often confused | arrive **at** (a place) / **in** (a city), agree **with** (a person) / **on** (a plan) |
+| good **at** | She's good **at** maths. |
+| interested **in** | I'm interested **in** history. |
+| depend **on** | It depends **on** the weather. |
+| afraid **of** | He's afraid **of** spiders. |
 
-After the preposition, a verb takes the **-ing** form.
+After a dependent preposition, a verb goes in the **-ing** form: *I'm good at **drawing**.*
 
-## When and how to use them
+## Adjective + preposition
 
-### 1. Adjective + preposition
+### The most useful adjectives
 
-- She's **good at** maths and **interested in** science.
-- I'm **afraid of** spiders.
+| at | of | in | about | with | for | to |
+|---|---|---|---|---|---|---|
+| good **at** | afraid **of** | interested **in** | worried **about** | bored **with** | famous **for** | kind **to** |
+| bad **at** | proud **of** | | excited **about** | angry **with** (a person) | responsible **for** | married **to** |
+| surprised **at / by** | tired **of** | | angry **about** (a thing) | pleased **with** | late **for** | similar **to** |
+| | full **of** | | nervous **about** | | sorry **for** | different **from / to** |
 
-### 2. Verb + preposition
+> ⚠️ Typical error: ~~I'm interested on music.~~ → *interested in music.*
 
-- It **depends on** the weather. Please **wait for** me.
-- He **apologised for** being late.
+## Verb + preposition
 
-### 3. -ing after the preposition
+| Verb | Example |
+|---|---|
+| listen **to** | Listen **to** me! |
+| wait **for** | We're waiting **for** the bus. |
+| look **for** | I'm looking **for** my keys. |
+| depend **on** | It depends **on** you. |
+| belong **to** | This bag belongs **to** Laia. |
+| agree **with** | I agree **with** you. |
+| think **about / of** | I'm thinking **about** the exam. |
+| apply **for** | She applied **for** the job. |
+| pay **for** | Who paid **for** the tickets? |
+| arrive **in** (city) / **at** (place) | We arrived **in** Rome / **at** the airport. |
 
-- I'm **interested in learning** Italian. They're **tired of waiting**.
+> ⚠️ Typical error: ~~Listen me!~~ → *Listen to me!* ~~I'm waiting the bus.~~ → *waiting for the bus.*
 
-> ⚠️ Don't translate directly from your language — the preposition is often different: *depend **on*** (not ~~depend of~~), *listen **to*** (not ~~listen~~ with nothing).
+### Verbs with NO preposition
+
+Some verbs never take one: **discuss** sth, **enter** a room, **marry** sb, **call** sb, **answer** a question.
+
+- We **discussed** the problem. (not ~~discussed about~~)
+
+## Noun + preposition
+
+### Common nouns
+
+| Noun | Example |
+|---|---|
+| reason **for** | What's the reason **for** the delay? |
+| advantage **of** | One advantage **of** living here is the beach. |
+| difference **between** | the difference **between** A and B |
+| interest **in** | She has an interest **in** art. |
+| solution **to** | a solution **to** the problem |
+
+## Preposition + -ing
+
+- I'm tired **of waiting**.
+- She's good **at singing**.
+- Thanks **for helping** me.
+
+> ⚠️ Typical error: ~~I'm good at sing.~~ → After a preposition use *-ing*: *good at singing.*
 
 ## Common mistakes
 
-**1. Wrong preposition.** *~~good in maths~~* → **good at maths**; *~~depend of~~* → **depend on.**
+**1. Wrong preposition.** *~~depend of~~* → **depend on**; *~~good in~~* → **good at.**
 
-**2. Infinitive instead of -ing.** *~~interested in to learn~~* → **interested in learning.**
+**2. Missing preposition.** *~~listen music~~* → **listen to music.**
 
-**3. Dropping the preposition.** *~~Listen me~~* → **Listen to me. Pro tip:** learn each verb/adjective together with its preposition and one example.
+**3. Extra preposition.** *~~discuss about~~* → **discuss.**
+
+**4. Infinitive after a preposition.** *~~interested in to learn~~* → **interested in learning.**
+
+**Pro tip:** make flashcards with the whole chunk — *afraid of, good at, depend on* — never the word alone.
