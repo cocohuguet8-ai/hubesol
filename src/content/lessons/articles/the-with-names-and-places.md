@@ -29,38 +29,87 @@ related:
   - { title: "All about articles", href: "/grammar/articles/" }
   - { title: "The: the definite article", href: "/grammar/articles/definite-article-the/" }
   - { title: "Zero Article", href: "/grammar/articles/zero-article/" }
+next: { title: "Zero Article", href: "/grammar/articles/zero-article/" }
 draft: false
 ---
 
-## the with places — the rules
+## The basic rule
 
-| No article | the |
+Most **single names** take **no article**. Names of **groups, plurals, seas, rivers and some institutions** take **the**.
+
+| No article | **The** |
 |---|---|
-| Countries: France, Japan | Plural/united: the USA, the UK, the Netherlands |
-| Cities: Rome, Cairo | Rivers, seas, oceans: the Nile, the Pacific |
-| Single lakes/mountains: Lake Como, Mount Fuji | Ranges: the Alps, the Andes |
-| Streets: Oxford Street | Named with a common noun: the White House, the British Museum |
+| Spain, France, Japan | **the** UK, **the** USA, **the** Netherlands |
+| Lake Como, Mount Etna | **the** Alps, **the** Andes |
+| Europe, Asia, Africa | **the** Atlantic, **the** Mediterranean |
+| Oxford Street, Times Square | **the** Thames, **the** Nile |
 
-## When to use it
+## Countries and continents
 
-### 1. No article — most single names
+### 1. Most countries and all continents: no article
 
-- She's from **Portugal** and lives on **King Street** near **Lake Windermere**.
+- I live in **Spain**. — She's travelling around **Asia**.
 
-### 2. the — plural/united names and water
+### 2. Countries with *Republic, Kingdom, States* or a plural name: *the*
 
-- **The** Netherlands is next to **the** North Sea; **the** Rhine flows through it.
+- **the** United Kingdom, **the** Czech Republic, **the** United States
+- **the** Philippines, **the** Netherlands, **the** Maldives
 
-### 3. the — institutions and landmarks with a common noun
+> ⚠️ Typical error: ~~I visited the France.~~ → *I visited France.*
 
-- We visited **the** Louvre and **the** Eiffel Tower, then **the** University of Paris.
+## Water
 
-> ⚠️ Compare: **Oxford University** (no article) vs **the University of Oxford** (with 'the'); **Buckingham Palace** (no article) vs **the Tower of London** (with 'the').
+### 1. Oceans, seas, rivers and canals: *the*
+
+- **the** Pacific, **the** Red Sea, **the** Danube, **the** Panama Canal
+
+### 2. Lakes: no article
+
+- **Lake** Geneva, **Lake** Victoria
+
+> ⚠️ Typical error: ~~the Lake Garda~~ → *Lake Garda.*
+
+## Mountains and islands
+
+### 1. Mountain ranges and island groups: *the*
+
+- **the** Pyrenees, **the** Himalayas, **the** Canary Islands
+
+### 2. Single mountains and single islands: no article
+
+- **Mount** Everest, **Mallorca**, **Sicily**
+
+## Cities, streets and buildings
+
+### 1. Cities, towns, streets, squares, parks: no article
+
+- **Girona**, **Main Street**, **Central Park**, **Trafalgar Square**
+
+### 2. Hotels, museums, theatres, cinemas: usually *the*
+
+- **the** Ritz, **the** Louvre, **the** National Gallery, **the** Odeon
+
+### 3. Places named after a person (with *'s*): no article
+
+- **McDonald's**, **St Paul's** Cathedral, **Harrods**
+
+## *The … of …* pattern
+
+When a name has **of** in it, use *the*.
+
+| Name | Example |
+|---|---|
+| the + … + of + … | **the** Tower of London, **the** University of Barcelona |
+| no *of* | Barcelona University, London Bridge |
 
 ## Common mistakes
 
-**1. 'the' with an ordinary country.** *~~the France~~* → **France.**
+**1. *The* with single countries.** *~~the Italy~~* → **Italy**.
 
-**2. No 'the' with a river or range.** *~~We sailed down Nile~~* → **We sailed down the Nile.**
+**2. No *the* with plural countries.** *~~Netherlands is flat.~~* → **The Netherlands** is flat.
 
-**3. Wrong pattern for institutions.** *~~University of the Oxford~~* → **the University of Oxford. Pro tip:** single names usually take no article; plural/united names, water, and 'the … of …' names take 'the'.
+**3. No *the* with rivers.** *~~Thames is long.~~* → **The Thames** is long.
+
+**4. *The* with lakes or single mountains.** *~~the Mount Fuji~~* → **Mount Fuji**.
+
+**Pro tip:** plural, group or water that flows → **the**; one single place → usually no article.
