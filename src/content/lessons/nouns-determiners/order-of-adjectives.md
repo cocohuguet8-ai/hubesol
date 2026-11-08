@@ -29,44 +29,84 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Compound Nouns", href: "/grammar/nouns-determiners/compound-nouns/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
+next: { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
 draft: false
 ---
 
-## The usual order
+## The basic order
 
-| Order | Type | Examples |
-|---|---|---|
-| 1 | opinion | lovely, nice, horrible |
-| 2 | size | big, small, tall |
-| 3 | age | old, new, young |
-| 4 | shape | round, square, flat |
-| 5 | colour | red, black, green |
-| 6 | origin | Italian, French |
-| 7 | material | wooden, leather, plastic |
-| 8 | purpose | running (shoes), sports (bag) |
+When we use two or more adjectives **before a noun**, they usually follow this order:
 
-Put it together: *a **lovely big old round wooden** table*.
+| 1 Opinion | 2 Size | 3 Age | 4 Shape | 5 Colour | 6 Origin | 7 Material | 8 Purpose | **Noun** |
+|---|---|---|---|---|---|---|---|---|
+| lovely | big | old | round | red | Italian | wooden | dining | **table** |
 
-## When and how to use it
+- a **beautiful old** house
+- a **small black** cat
+- an **expensive Italian leather** bag
 
-### 1. Opinion before fact
+Short memory trick: **OSASCOMP** (Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose).
 
-- a **beautiful** (opinion) **red** (colour) dress — not *a red beautiful dress*.
+## Opinion first, facts after
 
-### 2. Material and purpose next to the noun
+### 1. Opinion adjectives
 
-- an **old leather** wallet; a **plastic shopping** bag.
+What you **think**: *nice, lovely, ugly, amazing, boring, delicious*
 
-### 3. Two or three is normal
+### 2. Fact adjectives
 
-- a **big black** dog; a **new Italian** car; a **small round** table.
+What **is** true: *big, new, round, blue, French, cotton*
 
-> ⚠️ You almost never use all eight. With a few, just keep the order: *a **nice warm woollen** jumper* (opinion → temperature/quality → material).
+- a **delicious** hot soup — a **boring** long film
+
+> ⚠️ Typical error: ~~a red lovely dress~~ → Opinion first: *a lovely red dress.*
+
+## Size, age, shape
+
+- a **big old** car (size → age)
+- a **small round** table (size → shape)
+- a **long thin** face (size → shape)
+
+> ⚠️ Typical error: ~~an old big house~~ → *a big old house.*
+
+## Colour, origin, material
+
+- a **white Spanish** wine (colour → origin)
+- a **Japanese silk** scarf (origin → material)
+- a **blue cotton** shirt (colour → material)
+
+## Purpose: next to the noun
+
+The purpose word says **what it's for** and goes right before the noun:
+
+- **running** shoes, a **sleeping** bag, a **wine** glass
+
+## Commas and *and*
+
+### 1. Before the noun: usually no comma between different types
+
+- a **tall young** man (~~a tall, young man~~ is possible but less common)
+
+### 2. Two adjectives of the same type: comma or *and*
+
+- a **cheap, comfortable** hotel (two opinions)
+
+### 3. After the verb (*be, look, seem*): use *and*
+
+- The house is **old and beautiful**. — She looks **tired and happy**.
+
+## How many adjectives?
+
+In real English, we rarely use more than **three** adjectives before a noun. Too many sounds unnatural.
 
 ## Common mistakes
 
-**1. Colour before opinion.** *~~a red lovely dress~~* → **a lovely red dress.**
+**1. Colour before size.** *~~a black small dog~~* → **a small black dog**.
 
-**2. Material before colour.** *~~a wooden brown box~~* → **a brown wooden box.**
+**2. Material before colour.** *~~a wooden brown box~~* → **a brown wooden box**.
 
-**3. Size after colour.** *~~a black big car~~* → **a big black car. Pro tip:** opinion → size → age → shape → colour → origin → material → purpose → noun.
+**3. Opinion after facts.** *~~a new nice phone~~* → **a nice new phone**.
+
+**4. No *and* after *be*.** *~~The film was long boring.~~* → **long and boring**.
+
+**Pro tip:** start with what you **think**, finish with what it's **made of** or **for**.
