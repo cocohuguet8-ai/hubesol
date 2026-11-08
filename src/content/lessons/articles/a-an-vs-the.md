@@ -28,40 +28,74 @@ related:
   - { title: "All about articles", href: "/grammar/articles/" }
   - { title: "A/An: the indefinite article", href: "/grammar/articles/indefinite-article-a-an/" }
   - { title: "The: the definite article", href: "/grammar/articles/definite-article-the/" }
+next: { title: "A/An vs One", href: "/grammar/articles/a-an-vs-one/" }
 draft: false
 ---
 
-## The difference in one table
+## The key difference
 
-| | a/an | the |
-|---|---|---|
-| Meaning | new / non-specific | specific / known |
-| Listener knows which one? | no | yes |
-| Example | I need **a** chair. | Sit on **the** chair by the window. |
-| First vs second mention | first mention | after that |
+| **a / an** (indefinite) | **the** (definite) |
+|---|---|
+| any one, not specific | a specific one |
+| the listener doesn't know which | the listener knows which |
+| first mention | second mention |
+| singular countable only | singular, plural, uncountable |
 
-Ask yourself: **does the listener know which one I mean?** No → a/an. Yes → the.
+- I want **a** sandwich. (any sandwich)
+- I want **the** sandwich with cheese. (that specific one)
 
-## When to use each
+## First mention → second mention
 
-### 1. New information → a/an
+The most common pattern in stories:
 
-- There's **a** café near here. (you don't know it yet)
+- Yesterday I saw **a** man with **a** dog. **The** man was old and **the** dog was tiny.
 
-### 2. Known information → the
+### Why it changes
 
-- Let's meet at **the** café. (the one we both know)
+The first time, the listener doesn't know them. After that, they do — so *a* becomes *the*.
 
-### 3. The classic pattern
+> ⚠️ Typical error: ~~I bought a book. A book is great.~~ → *The book is great.*
 
-- I bought **a** jacket and **a** shirt. **The** jacket was expensive but **the** shirt was cheap.
+## Any one vs a specific one
 
-> ⚠️ Use 'the' on first mention when it's unique or obvious: *Close the door* (the one here), *the sun*, *the internet* — no earlier mention needed.
+### *A / an* = any one
+
+- Can I borrow **a** pen? (any pen is fine)
+- Is there **a** chemist near here? (any chemist)
+
+### *The* = we both know which
+
+- Can I borrow **the** pen on your desk? (that one)
+- Where's **the** chemist? (the one we always use)
+
+## One of many vs the only one
+
+| a / an | the |
+|---|---|
+| She's **a** teacher at my school. (one of several) | She's **the** head teacher. (only one) |
+| It's **a** planet. | **The** sun is a star. |
+| He's **a** student in my class. | He's **the** best student. |
+
+> ⚠️ Typical error: ~~He's a tallest boy.~~ → Superlatives always take *the*.
+
+## Describing vs identifying
+
+### Describing → *a / an*
+
+- My dad has **a** red car. — It's **an** old house.
+
+### Identifying → *the*
+
+- **The** red car outside is my dad's. — **The** house on the corner is old.
 
 ## Common mistakes
 
-**1. Keeping a/an on second mention.** *~~I saw a film. A film was great.~~* → **I saw a film. The film was great.**
+**1. *A* for something already mentioned.** *~~We stayed in a hotel. A hotel was nice.~~* → **The hotel**.
 
-**2. Using 'the' for something brand new and non-specific.** *~~I want to buy the car~~* (any car) → **I want to buy a car.**
+**2. *The* for first mention.** *~~I have the brother.~~* → **a brother**.
 
-**3. Using a/an with unique things.** *~~a sun~~* → **the sun. Pro tip:** new/any → a/an; specific/known → the.
+**3. *A* with unique things.** *~~a sun~~* → **the sun**.
+
+**4. *A* with plurals.** *~~a cars~~* → **cars** / **the cars**.
+
+**Pro tip:** ask *"Does the listener know which one?"* No → **a/an**. Yes → **the**.
