@@ -1,0 +1,1524 @@
+{
+  "tense": "passive-two-objects",
+  "lessonTitle": "Passive with Two Objects",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "was",
+        "were",
+        "to",
+        "by"
+      ],
+      "label": null,
+      "primary": "was"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Complete each passive sentence: the right form of be, the past participle, a subject pronoun, or to / for. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Person subject",
+        "before": "My aunt gave me a watch. → I",
+        "after": "a watch.",
+        "hint": "(give)",
+        "answers": [
+          "was given"
+        ],
+        "display": "was given",
+        "explain": "The person (I) becomes the subject: was + given."
+      },
+      {
+        "use": "Person subject",
+        "before": "They sent her a letter. → She",
+        "after": "a letter.",
+        "hint": "(send)",
+        "answers": [
+          "was sent"
+        ],
+        "display": "was sent",
+        "explain": "Person as subject: was sent + the thing."
+      },
+      {
+        "use": "Person subject",
+        "before": "They offered him a job. → He",
+        "after": "a job.",
+        "hint": "(offer)",
+        "answers": [
+          "was offered"
+        ],
+        "display": "was offered",
+        "explain": "Person as subject: was offered a job."
+      },
+      {
+        "use": "Person subject",
+        "before": "The guide showed us the castle. → We",
+        "after": "the castle.",
+        "hint": "(show)",
+        "answers": [
+          "were shown"
+        ],
+        "display": "were shown",
+        "explain": "Plural person subject: were shown."
+      },
+      {
+        "use": "Person subject",
+        "before": "They paid the workers €100. → The workers",
+        "after": "€100.",
+        "hint": "(pay)",
+        "answers": [
+          "were paid"
+        ],
+        "display": "were paid",
+        "explain": "Plural subject: were + paid."
+      },
+      {
+        "use": "Person subject",
+        "before": "Someone told me a secret. → I",
+        "after": "a secret.",
+        "hint": "(tell)",
+        "answers": [
+          "was told"
+        ],
+        "display": "was told",
+        "explain": "Person as subject: was told."
+      },
+      {
+        "use": "Pronoun",
+        "before": "They gave him a medal. →",
+        "after": "was given a medal.",
+        "hint": "he / him",
+        "answers": [
+          "He"
+        ],
+        "display": "He",
+        "explain": "Object ‘him’ becomes the subject ‘he’."
+      },
+      {
+        "use": "Pronoun",
+        "before": "They told us the news. →",
+        "after": "were told the news.",
+        "hint": "we / us",
+        "answers": [
+          "We"
+        ],
+        "display": "We",
+        "explain": "Object ‘us’ becomes the subject ‘we’."
+      },
+      {
+        "use": "Pronoun",
+        "before": "They lent them a car. →",
+        "after": "were lent a car.",
+        "hint": "they / them",
+        "answers": [
+          "They"
+        ],
+        "display": "They",
+        "explain": "Object ‘them’ becomes the subject ‘they’."
+      },
+      {
+        "use": "Thing subject",
+        "before": "My aunt gave me a watch. → A watch was given",
+        "after": "me.",
+        "hint": "to / for",
+        "answers": [
+          "to"
+        ],
+        "display": "to",
+        "explain": "Thing as subject: add ‘to’ before the person."
+      },
+      {
+        "use": "Thing subject",
+        "before": "They sent her a letter. → A letter was sent",
+        "after": "her.",
+        "hint": "to / for",
+        "answers": [
+          "to"
+        ],
+        "display": "to",
+        "explain": "With ‘send’, use ‘to’ before the person."
+      },
+      {
+        "use": "Thing subject",
+        "before": "Mum made me a cake. → A cake was made",
+        "after": "me.",
+        "hint": "to / for",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "With ‘make’, use ‘for’ before the person."
+      },
+      {
+        "use": "Thing subject",
+        "before": "Dad bought her a bike. → A bike was bought",
+        "after": "her.",
+        "hint": "to / for",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "With ‘buy’, use ‘for’ before the person."
+      },
+      {
+        "use": "Thing subject",
+        "before": "They showed the visitors the photos. → The photos",
+        "after": "to the visitors.",
+        "hint": "(show)",
+        "answers": [
+          "were shown"
+        ],
+        "display": "were shown",
+        "explain": "Plural thing as subject: were shown to."
+      },
+      {
+        "use": "Agreement",
+        "before": "Two emails",
+        "after": "sent to me this morning.",
+        "hint": "was / were",
+        "answers": [
+          "were"
+        ],
+        "display": "were",
+        "explain": "‘Two emails’ is plural: were."
+      },
+      {
+        "use": "Agreement",
+        "before": "I",
+        "after": "sent two emails this morning.",
+        "hint": "was / were",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "‘I’ takes ‘was’, whatever the object."
+      },
+      {
+        "use": "Other tenses",
+        "before": "She",
+        "after": "a place at university.",
+        "hint": "(offer)",
+        "answers": [
+          "has been offered"
+        ],
+        "display": "has been offered",
+        "explain": "Present perfect passive with the person as subject: has been offered."
+      },
+      {
+        "use": "Other tenses",
+        "before": "You",
+        "after": "your room by the receptionist.",
+        "hint": "(show)",
+        "answers": [
+          "will be shown"
+        ],
+        "display": "will be shown",
+        "explain": "A future passive with the person as subject: will be + shown (the participle)."
+      },
+      {
+        "use": "Other tenses",
+        "before": "We",
+        "after": "by a new teacher this term.",
+        "hint": "(teach)",
+        "answers": [
+          "are being taught"
+        ],
+        "display": "are being taught",
+        "explain": "Present continuous passive: are being taught."
+      },
+      {
+        "use": "Award",
+        "before": "The winners",
+        "after": "gold medals.",
+        "hint": "(award)",
+        "answers": [
+          "were awarded"
+        ],
+        "display": "were awarded",
+        "explain": "Person subject, plural: were awarded."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each passive sentence — 10 with the person as subject and 10 with the thing as subject.",
+    "sentences": [
+      {
+        "use": "Person subject",
+        "tokens": [
+          "I",
+          "was",
+          "given",
+          "a",
+          "present."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "She",
+          "was",
+          "offered",
+          "a",
+          "job."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "We",
+          "were",
+          "shown",
+          "the",
+          "way."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "He",
+          "was",
+          "sent",
+          "a",
+          "message."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "They",
+          "were",
+          "told",
+          "a",
+          "story."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "I",
+          "was",
+          "lent",
+          "a",
+          "book."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "The",
+          "players",
+          "were",
+          "paid",
+          "well."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "She",
+          "has",
+          "been",
+          "promised",
+          "a",
+          "pay",
+          "rise."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "You",
+          "will",
+          "be",
+          "told",
+          "later."
+        ]
+      },
+      {
+        "use": "Person subject",
+        "tokens": [
+          "We",
+          "were",
+          "taught",
+          "French."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "present",
+          "was",
+          "given",
+          "to",
+          "me."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "job",
+          "was",
+          "offered",
+          "to",
+          "her."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "The",
+          "way",
+          "was",
+          "shown",
+          "to",
+          "us."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "message",
+          "was",
+          "sent",
+          "to",
+          "him."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "The",
+          "book",
+          "was",
+          "lent",
+          "to",
+          "me."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "cake",
+          "was",
+          "made",
+          "for",
+          "her."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "The",
+          "tickets",
+          "were",
+          "sent",
+          "to",
+          "us."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "prize",
+          "was",
+          "awarded",
+          "to",
+          "Laia."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "bike",
+          "was",
+          "bought",
+          "for",
+          "him."
+        ]
+      },
+      {
+        "use": "Thing subject",
+        "tokens": [
+          "The",
+          "photos",
+          "were",
+          "shown",
+          "to",
+          "everyone."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the two passives",
+    "subtitle": "Tap a passive with the person as subject, then tap the same idea with the thing as subject.",
+    "leftLabel": "Person subject",
+    "rightLabel": "Thing subject",
+    "rightLabelSub": "(+ to / for)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I was given a watch.",
+        "right": "A watch was given to me."
+      },
+      {
+        "left": "She was sent a letter.",
+        "right": "A letter was sent to her."
+      },
+      {
+        "left": "He was offered a job.",
+        "right": "A job was offered to him."
+      },
+      {
+        "left": "We were shown the room.",
+        "right": "The room was shown to us."
+      },
+      {
+        "left": "They were told the truth.",
+        "right": "The truth was told to them."
+      },
+      {
+        "left": "I was lent a pen.",
+        "right": "A pen was lent to me."
+      },
+      {
+        "left": "She was awarded a prize.",
+        "right": "A prize was awarded to her."
+      },
+      {
+        "left": "We were taught Latin.",
+        "right": "Latin was taught to us."
+      },
+      {
+        "left": "He was promised a bonus.",
+        "right": "A bonus was promised to him."
+      },
+      {
+        "left": "I was sent the photos.",
+        "right": "The photos were sent to me."
+      },
+      {
+        "left": "They were given free tickets.",
+        "right": "Free tickets were given to them."
+      },
+      {
+        "left": "You were offered a seat.",
+        "right": "A seat was offered to you."
+      },
+      {
+        "left": "She was shown the results.",
+        "right": "The results were shown to her."
+      },
+      {
+        "left": "We were sent an invitation.",
+        "right": "An invitation was sent to us."
+      },
+      {
+        "left": "He was given a second chance.",
+        "right": "A second chance was given to him."
+      },
+      {
+        "left": "I was told a joke.",
+        "right": "A joke was told to me."
+      },
+      {
+        "left": "They were lent some money.",
+        "right": "Some money was lent to them."
+      },
+      {
+        "left": "She was given flowers.",
+        "right": "Flowers were given to her."
+      },
+      {
+        "left": "We were offered coffee.",
+        "right": "Coffee was offered to us."
+      },
+      {
+        "left": "He was sent a parcel.",
+        "right": "A parcel was sent to him."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Person as subject is most natural; thing as subject needs to / for. Be agrees with the new subject.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Person subject",
+        "text": "My grandparents gave me a guitar. → I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a guitar.",
+        "choices": [
+          "was given",
+          "gave",
+          "was gave",
+          "were given"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘I gave a guitar’ is active and changes the meaning completely.",
+          "‘Gave’ is past simple; after ‘was’ use the participle ‘given’.",
+          "‘I’ takes ‘was’, not ‘were’."
+        ],
+        "explain": "The person becomes the subject: I was given a guitar."
+      },
+      {
+        "use": "Pronoun",
+        "text": "They offered him a scholarship. → <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was offered a scholarship.",
+        "choices": [
+          "Him",
+          "He",
+          "His",
+          "He’s"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Him’ is an object pronoun; the subject of the passive must be ‘he’.",
+          "",
+          "‘His’ is a possessive adjective.",
+          "‘He’s’ means ‘he is’ or ‘he has’."
+        ],
+        "explain": "Object pronoun → subject pronoun: He was offered…"
+      },
+      {
+        "use": "Thing subject",
+        "text": "They sent us the tickets. → The tickets were sent <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us.",
+        "choices": [
+          "for",
+          "by",
+          "to",
+          "with"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘For’ is used with buy, make and cook, not with ‘send’.",
+          "‘By’ introduces the agent, not the receiver.",
+          "",
+          "‘With’ is for instruments."
+        ],
+        "explain": "When the tickets are the subject, ‘send’ needs ‘to’ before the receiver: sent to us."
+      },
+      {
+        "use": "Thing subject",
+        "text": "Dad cooked her a special dinner. → A special dinner was cooked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her.",
+        "choices": [
+          "to",
+          "by",
+          "at",
+          "for"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "With ‘cook’, the receiver takes ‘for’, not ‘to’.",
+          "‘By her’ would mean she cooked it.",
+          "‘At’ is a place preposition.",
+          ""
+        ],
+        "explain": "Verbs like buy, make and cook take ‘for’ before the receiver: cooked for her."
+      },
+      {
+        "use": "Agreement",
+        "text": "Three new books <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the library yesterday.",
+        "choices": [
+          "was given",
+          "were given",
+          "were gave",
+          "gave"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Three new books’ is plural: were.",
+          "",
+          "‘Gave’ is past simple; use the participle.",
+          "Books can’t give: use the passive."
+        ],
+        "explain": "‘Three new books’ is the plural subject of the passive, so use ‘were given’."
+      },
+      {
+        "use": "Agreement",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three new books yesterday.",
+        "choices": [
+          "was given",
+          "gave",
+          "were given",
+          "were give"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘We’ takes ‘were’, not ‘was’.",
+          "‘We gave’ is active.",
+          "",
+          "After ‘were’ use the participle."
+        ],
+        "explain": "‘We’ is the subject, so ‘be’ agrees with it: ‘we were given’, whatever the object."
+      },
+      {
+        "use": "Natural",
+        "text": "Which sentence is the most natural?",
+        "choices": [
+          "The news was told her.",
+          "Her was told the news.",
+          "She was told to the news.",
+          "She was told the news."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Without ‘to’ this sounds old-fashioned or wrong.",
+          "‘Her’ can’t be a subject.",
+          "No ‘to’ when the person is the subject.",
+          ""
+        ],
+        "explain": "The most natural passive starts with the person."
+      },
+      {
+        "use": "Missing to",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "A prize was awarded to Joan.",
+          "A prize was awarded Joan.",
+          "A prize was awarded for Joan.",
+          "A prize awarded to Joan."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "When the thing is the subject, add ‘to’.",
+          "‘Award’ takes ‘to’, not ‘for’.",
+          "‘Was’ is missing."
+        ],
+        "explain": "When the thing is the subject, put ‘to’ before the person: awarded to Joan."
+      },
+      {
+        "use": "Extra to",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "I was shown to the photos.",
+          "Me was shown the photos.",
+          "I was shown the photos.",
+          "I was showed the photos."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "No ‘to’ when the person is the subject.",
+          "‘Me’ can’t be the subject.",
+          "",
+          "The participle of ‘show’ is ‘shown’."
+        ],
+        "explain": "Person subject + participle + thing, no ‘to’."
+      },
+      {
+        "use": "Other tenses",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a job in London. She starts next week!",
+        "choices": [
+          "has offered",
+          "has being offered",
+          "is offered been",
+          "has been offered"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Has offered’ is active: she offered someone a job.",
+          "After ‘has’ use ‘been’.",
+          "Wrong order.",
+          ""
+        ],
+        "explain": "Present perfect passive: has been offered."
+      },
+      {
+        "use": "Other tenses",
+        "text": "Don’t worry, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the way by the guide.",
+        "choices": [
+          "will be shown",
+          "will show",
+          "will shown",
+          "are being show"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Will show’ is active.",
+          "After ‘will’ add ‘be’.",
+          "After ‘being’ use the participle."
+        ],
+        "explain": "Future passive: will be shown."
+      },
+      {
+        "use": "Other tenses",
+        "text": "The students <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Mandarin this year.",
+        "choices": [
+          "are teaching",
+          "are being taught",
+          "are being teach",
+          "is being taught"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Are teaching’ is active.",
+          "",
+          "After ‘being’ use the participle ‘taught’.",
+          "‘The students’ is plural."
+        ],
+        "explain": "Present continuous passive: are being taught."
+      },
+      {
+        "use": "Participle",
+        "text": "I was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a ring for my birthday.",
+        "choices": [
+          "gave",
+          "give",
+          "giving",
+          "given"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Gave’ is past simple.",
+          "After ‘was’ use the participle.",
+          "‘Was giving’ is active.",
+          ""
+        ],
+        "explain": "The passive needs the participle, and ‘give’ is irregular: give → given."
+      },
+      {
+        "use": "Participle",
+        "text": "We were <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answers before the test.",
+        "choices": [
+          "told",
+          "telled",
+          "tell",
+          "telling"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Telled’ doesn’t exist.",
+          "After ‘were’ use the participle.",
+          "‘Were telling’ is active."
+        ],
+        "explain": "The passive needs the participle, and ‘tell’ is irregular: tell → told."
+      },
+      {
+        "use": "Pronoun",
+        "text": "They paid us €200. → <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> were paid €200.",
+        "choices": [
+          "Us",
+          "We",
+          "Our",
+          "Ours"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Us’ is an object pronoun.",
+          "",
+          "‘Our’ is a possessive adjective.",
+          "‘Ours’ is a possessive pronoun."
+        ],
+        "explain": "The object ‘us’ in the active becomes the subject ‘we’ in the passive."
+      },
+      {
+        "use": "Thing subject",
+        "text": "They lent me their car. → Their car was lent <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me.",
+        "choices": [
+          "for",
+          "by",
+          "to",
+          "from"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Lend’ takes ‘to’.",
+          "‘By me’ would mean I lent it.",
+          "",
+          "‘From’ is the opposite direction."
+        ],
+        "explain": "With ‘lend’, the receiver is introduced with ‘to’ when the thing is the subject."
+      },
+      {
+        "use": "Thing subject",
+        "text": "My uncle bought us pizza. → Pizza was bought <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us.",
+        "choices": [
+          "for",
+          "to",
+          "by",
+          "with"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Buy’ takes ‘for’, not ‘to’.",
+          "‘By us’ would mean we bought it.",
+          "‘With’ is wrong."
+        ],
+        "explain": "With ‘buy’, the receiver is introduced with ‘for’, not ‘to’: bought for us."
+      },
+      {
+        "use": "Agreement",
+        "text": "The children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a story every night.",
+        "choices": [
+          "is told",
+          "are told",
+          "tell",
+          "are tell"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘The children’ is plural.",
+          "",
+          "The children don’t tell; they are told.",
+          "After ‘are’ use the participle."
+        ],
+        "explain": "‘The children’ is plural and it happens every night: present passive ‘are told’."
+      },
+      {
+        "use": "Person subject",
+        "text": "Someone sent Marc a strange email. → Marc <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a strange email.",
+        "choices": [
+          "sent",
+          "was send",
+          "was sent",
+          "were sent"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Marc sent’ is active.",
+          "After ‘was’ use the participle.",
+          "",
+          "‘Marc’ is singular."
+        ],
+        "explain": "Marc (the person) becomes the subject: ‘Marc was sent a strange email’."
+      },
+      {
+        "use": "Natural",
+        "text": "Your manager is talking about you. Which is more natural?",
+        "choices": [
+          "A laptop will be given you.",
+          "A laptop will given to you.",
+          "You will give a laptop.",
+          "You will be given a laptop."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Missing ‘to’ and sounds old-fashioned.",
+          "‘Be’ is missing.",
+          "That’s active and changes the meaning.",
+          ""
+        ],
+        "explain": "When the person is the topic, start with the person."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Me",
+          "was",
+          "given",
+          "a",
+          "present."
+        ],
+        "errorIndex": 0,
+        "correction": "I",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘I was given a present’."
+      },
+      {
+        "tokens": [
+          "Him",
+          "was",
+          "offered",
+          "a",
+          "job."
+        ],
+        "errorIndex": 0,
+        "correction": "He",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘He was offered a job’."
+      },
+      {
+        "tokens": [
+          "Us",
+          "were",
+          "shown",
+          "the",
+          "way."
+        ],
+        "errorIndex": 0,
+        "correction": "We",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘We were shown the way’."
+      },
+      {
+        "tokens": [
+          "Her",
+          "was",
+          "told",
+          "the",
+          "news."
+        ],
+        "errorIndex": 0,
+        "correction": "She",
+        "type": "Object pronoun",
+        "message": "Subject pronoun: ‘She was told the news’."
+      },
+      {
+        "tokens": [
+          "A",
+          "watch",
+          "was",
+          "given",
+          "me",
+          "for",
+          "my",
+          "birthday."
+        ],
+        "errorIndex": 4,
+        "correction": "to me",
+        "type": "Missing preposition",
+        "message": "Thing as subject needs ‘to’: ‘given to me’."
+      },
+      {
+        "tokens": [
+          "A",
+          "cake",
+          "was",
+          "made",
+          "to",
+          "her."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "type": "Wrong preposition",
+        "message": "‘Make’ takes ‘for’: ‘made for her’."
+      },
+      {
+        "tokens": [
+          "A",
+          "bike",
+          "was",
+          "bought",
+          "to",
+          "my",
+          "brother."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "type": "Wrong preposition",
+        "message": "‘Buy’ takes ‘for’: ‘bought for my brother’."
+      },
+      {
+        "tokens": [
+          "The",
+          "letter",
+          "was",
+          "sent",
+          "for",
+          "the",
+          "manager."
+        ],
+        "errorIndex": 4,
+        "correction": "to",
+        "type": "Wrong preposition",
+        "message": "‘Send’ takes ‘to’: ‘sent to the manager’."
+      },
+      {
+        "tokens": [
+          "A",
+          "seat",
+          "was",
+          "offered",
+          "for",
+          "me",
+          "on",
+          "the",
+          "bus."
+        ],
+        "errorIndex": 4,
+        "correction": "to",
+        "type": "Wrong preposition",
+        "message": "‘Offer’ takes ‘to’: ‘offered to me’."
+      },
+      {
+        "tokens": [
+          "We",
+          "was",
+          "told",
+          "a",
+          "story."
+        ],
+        "errorIndex": 1,
+        "correction": "were",
+        "type": "Agreement",
+        "message": "‘We’ takes ‘were’."
+      },
+      {
+        "tokens": [
+          "Two",
+          "emails",
+          "was",
+          "sent",
+          "to",
+          "me."
+        ],
+        "errorIndex": 2,
+        "correction": "were",
+        "type": "Agreement",
+        "message": "Plural: ‘were sent’."
+      },
+      {
+        "tokens": [
+          "I",
+          "were",
+          "offered",
+          "a",
+          "seat."
+        ],
+        "errorIndex": 1,
+        "correction": "was",
+        "type": "Agreement",
+        "message": "‘I’ takes ‘was’."
+      },
+      {
+        "tokens": [
+          "She",
+          "was",
+          "gave",
+          "a",
+          "medal."
+        ],
+        "errorIndex": 2,
+        "correction": "given",
+        "type": "Wrong participle",
+        "message": "Participle: ‘given’."
+      },
+      {
+        "tokens": [
+          "We",
+          "were",
+          "showed",
+          "the",
+          "room."
+        ],
+        "errorIndex": 2,
+        "correction": "shown",
+        "type": "Wrong participle",
+        "message": "Participle: ‘shown’."
+      },
+      {
+        "tokens": [
+          "He",
+          "was",
+          "teached",
+          "Spanish",
+          "at",
+          "school."
+        ],
+        "errorIndex": 2,
+        "correction": "taught",
+        "type": "Wrong participle",
+        "message": "Participle: ‘taught’."
+      },
+      {
+        "tokens": [
+          "I",
+          "given",
+          "a",
+          "second",
+          "chance."
+        ],
+        "errorIndex": 1,
+        "correction": "was given",
+        "type": "Missing be",
+        "message": "Passive needs ‘be’: ‘I was given’."
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "offered",
+          "a",
+          "place",
+          "at",
+          "university."
+        ],
+        "errorIndex": 2,
+        "correction": "been offered",
+        "type": "Missing been",
+        "message": "Perfect passive: ‘has been offered’."
+      },
+      {
+        "tokens": [
+          "Marc",
+          "sent",
+          "a",
+          "strange",
+          "email",
+          "by",
+          "someone."
+        ],
+        "errorIndex": 1,
+        "correction": "was sent",
+        "type": "Active form",
+        "message": "Passive with the person as subject: ‘Marc was sent…’."
+      },
+      {
+        "tokens": [
+          "Yesterday",
+          "I",
+          "am",
+          "given",
+          "a",
+          "prize."
+        ],
+        "errorIndex": 2,
+        "correction": "was",
+        "type": "Wrong tense",
+        "message": "Past: ‘I was given’."
+      },
+      {
+        "tokens": [
+          "They",
+          "were",
+          "payed",
+          "€50."
+        ],
+        "errorIndex": 2,
+        "correction": "paid",
+        "type": "Spelling",
+        "message": "Participle of ‘pay’: ‘paid’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, to or for, multiple choice and spot-the-mistake. In the typing questions write be + past participle, a subject pronoun, or to / for. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "prep": "To or for",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "prep",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Person subject",
+        "sentText": "They gave her a prize. → She {{blank}} a prize.",
+        "hint": "give",
+        "answers": [
+          "was given"
+        ],
+        "display": "was given",
+        "explain": "The person becomes the subject of the passive: was + given.",
+        "wrongNote": "Was + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Pronoun",
+        "sentText": "They told me the truth. → {{blank}} was told the truth.",
+        "hint": "I / me",
+        "answers": [
+          "I"
+        ],
+        "display": "I",
+        "explain": "The object pronoun ‘me’ becomes the subject pronoun ‘I’.",
+        "wrongNote": "Subject pronoun."
+      },
+      {
+        "type": "fill",
+        "use": "Thing subject",
+        "sentText": "The photos were sent {{blank}} all the parents.",
+        "hint": "to / for",
+        "answers": [
+          "to"
+        ],
+        "display": "to",
+        "explain": "When the thing is the subject, ‘send’ takes ‘to’ before the person.",
+        "wrongNote": "Send → ‘to’."
+      },
+      {
+        "type": "fill",
+        "use": "Agreement",
+        "sentText": "The players {{blank}} given new shirts.",
+        "hint": "was / were",
+        "answers": [
+          "were"
+        ],
+        "display": "were",
+        "explain": "‘The players’ is plural, so the passive uses ‘were’ + participle.",
+        "wrongNote": "Plural → ‘were’."
+      },
+      {
+        "type": "order",
+        "use": "Person subject",
+        "tokens": [
+          "He",
+          "was",
+          "given",
+          "a",
+          "medal."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "medal",
+          "was",
+          "given",
+          "to",
+          "him."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Person subject",
+        "tokens": [
+          "We",
+          "were",
+          "offered",
+          "tea."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Thing subject",
+        "tokens": [
+          "A",
+          "cake",
+          "was",
+          "made",
+          "for",
+          "me."
+        ]
+      },
+      {
+        "type": "prep",
+        "use": "Prep",
+        "text": "A present was sent {{blank}} my cousin.",
+        "choices": [
+          "for",
+          "to",
+          "by",
+          "of"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Send’ takes ‘to’, not ‘for’.",
+          "",
+          "‘By’ would mean your cousin sent it.",
+          "‘Of’ is wrong."
+        ],
+        "explain": "With ‘send’, the receiver is introduced with ‘to’: sent to my cousin."
+      },
+      {
+        "type": "prep",
+        "use": "Prep",
+        "text": "A birthday cake was made {{blank}} my cousin.",
+        "choices": [
+          "to",
+          "by",
+          "of",
+          "for"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Make’ takes ‘for’, not ‘to’.",
+          "‘By’ would mean your cousin made it.",
+          "‘Of’ is wrong.",
+          ""
+        ],
+        "explain": "With ‘make’, the receiver is introduced with ‘for’: made for my cousin."
+      },
+      {
+        "type": "prep",
+        "use": "Prep",
+        "text": "The keys were lent {{blank}} the neighbours.",
+        "choices": [
+          "to",
+          "for",
+          "by",
+          "from"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Lend’ takes ‘to’.",
+          "‘By’ would mean the neighbours lent them.",
+          "‘From’ is the opposite direction."
+        ],
+        "explain": "With ‘lend’, the receiver is introduced with ‘to’: lent to the neighbours."
+      },
+      {
+        "type": "prep",
+        "use": "Prep",
+        "text": "Some flowers were bought {{blank}} the teacher.",
+        "choices": [
+          "to",
+          "by",
+          "for",
+          "with"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Buy’ takes ‘for’.",
+          "‘By’ would mean the teacher bought them.",
+          "",
+          "‘With’ is wrong."
+        ],
+        "explain": "With ‘buy’, the receiver is introduced with ‘for’: bought for the teacher."
+      },
+      {
+        "type": "mc",
+        "use": "Pronoun",
+        "text": "They showed us the stadium. → {{blank}} were shown the stadium.",
+        "choices": [
+          "Us",
+          "Our",
+          "We",
+          "Ours"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Us’ is an object pronoun.",
+          "‘Our’ is possessive.",
+          "",
+          "‘Ours’ is possessive."
+        ],
+        "explain": "The object ‘us’ becomes the subject ‘we’ in the passive sentence."
+      },
+      {
+        "type": "mc",
+        "use": "Agreement",
+        "text": "Free tickets {{blank}} to everyone.",
+        "choices": [
+          "were offered",
+          "was offered",
+          "offered",
+          "were offer"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Plural subject: were.",
+          "Tickets can’t offer.",
+          "After ‘were’ use the participle."
+        ],
+        "explain": "‘Free tickets’ is a plural subject, so use ‘were’ + offered."
+      },
+      {
+        "type": "mc",
+        "use": "Natural",
+        "text": "Which is the most natural?",
+        "choices": [
+          "An invitation was sent me.",
+          "Me was sent an invitation.",
+          "I was sent to an invitation.",
+          "I was sent an invitation."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Missing ‘to’.",
+          "‘Me’ can’t be a subject.",
+          "No ‘to’ with a person subject.",
+          ""
+        ],
+        "explain": "Starting with the person (‘I was sent…’) is the most natural passive."
+      },
+      {
+        "type": "mc",
+        "use": "Other tenses",
+        "text": "He {{blank}} a promotion.",
+        "choices": [
+          "has promised",
+          "has been promised",
+          "has being promised",
+          "have been promised"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Has promised’ is active.",
+          "",
+          "After ‘has’ use ‘been’.",
+          "‘He’ takes ‘has’."
+        ],
+        "explain": "Present perfect passive with the person as subject: has been promised."
+      },
+      {
+        "type": "error",
+        "use": "Object pronoun",
+        "tokens": [
+          "Them",
+          "were",
+          "paid",
+          "€100."
+        ],
+        "errorIndex": 0,
+        "correction": "They",
+        "message": "The subject must be a subject pronoun: ‘They were paid €100’."
+      },
+      {
+        "type": "error",
+        "use": "Missing preposition",
+        "tokens": [
+          "The",
+          "letter",
+          "was",
+          "given",
+          "her",
+          "this",
+          "morning."
+        ],
+        "errorIndex": 4,
+        "correction": "to her",
+        "message": "When the thing is the subject, add ‘to’ before the person: ‘given to her’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong preposition",
+        "tokens": [
+          "A",
+          "dress",
+          "was",
+          "made",
+          "to",
+          "the",
+          "bride."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "message": "With ‘make’ the receiver takes ‘for’: ‘made for the bride’."
+      },
+      {
+        "type": "error",
+        "use": "Agreement",
+        "tokens": [
+          "We",
+          "was",
+          "given",
+          "homework."
+        ],
+        "errorIndex": 1,
+        "correction": "were",
+        "message": "‘We’ always takes ‘were’ in the past passive: ‘We were given homework’."
+      }
+    ]
+  }
+}
