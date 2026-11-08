@@ -1,0 +1,1690 @@
+{
+  "tense": "on-time-vs-in-time",
+  "lessonTitle": "On time vs In time (and At the end vs In the end)",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "on",
+        "in",
+        "at",
+        "time",
+        "end"
+      ],
+      "label": null,
+      "primary": "in"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type on, in or at to complete on time / in time / at the end / in the end. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "On time",
+        "before": "The train left exactly",
+        "after": "time — not a minute late.",
+        "hint": "on / in",
+        "answers": [
+          "on"
+        ],
+        "display": "on",
+        "explain": "At the scheduled time, punctual: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "On time",
+        "before": "Please be",
+        "after": "time for the exam. It starts at nine.",
+        "hint": "on / in",
+        "answers": [
+          "on"
+        ],
+        "display": "on",
+        "explain": "Punctual for a planned time: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "On time",
+        "before": "Our teacher is always",
+        "after": "time for class.",
+        "hint": "on / in",
+        "answers": [
+          "on"
+        ],
+        "display": "on",
+        "explain": "Never late: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "On time",
+        "before": "Surprisingly, the flight landed",
+        "after": "time.",
+        "hint": "on / in",
+        "answers": [
+          "on"
+        ],
+        "display": "on",
+        "explain": "At the planned time: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "before": "We got to the cinema",
+        "after": "time to buy popcorn.",
+        "hint": "on / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Early enough to do something: in time to. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "before": "I got home just",
+        "after": "time for dinner.",
+        "hint": "on / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Early enough for something: in time for. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "before": "The firefighters arrived",
+        "after": "time to save the cat.",
+        "hint": "on / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Early enough to do something important: in time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "before": "Hurry, or we won’t be there",
+        "after": "time to see the start!",
+        "hint": "on / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Early enough for the start: in time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "Just in time",
+        "before": "We caught the bus just",
+        "after": "time — the doors were closing.",
+        "hint": "on / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Fixed phrase: just in time = at the last moment. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "before": "The toilets are",
+        "after": "the end of the corridor.",
+        "hint": "at / in",
+        "answers": [
+          "at"
+        ],
+        "display": "at",
+        "explain": "The final point of a place: at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "before": "",
+        "after": "the end of the film, everybody cried.",
+        "hint": "At / In",
+        "answers": [
+          "At"
+        ],
+        "display": "At",
+        "explain": "The final part of something: at the end of the film."
+      },
+      {
+        "use": "At the end",
+        "before": "We have a test",
+        "after": "the end of every unit.",
+        "hint": "at / in",
+        "answers": [
+          "at"
+        ],
+        "display": "at",
+        "explain": "The final point of a period: at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "before": "My birthday is",
+        "after": "the end of June.",
+        "hint": "at / in",
+        "answers": [
+          "at"
+        ],
+        "display": "at",
+        "explain": "The last part of a month: at the end of June. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "before": "We argued for hours, but",
+        "after": "the end we agreed.",
+        "hint": "at / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Finally, after discussion: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "before": "I looked at lots of phones and",
+        "after": "the end I bought the cheapest one.",
+        "hint": "at / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Finally, after a long time: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "before": "It rained all week, so",
+        "after": "the end the match was cancelled.",
+        "hint": "at / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "The final result: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "before": "She was nervous, but",
+        "after": "the end the interview went well.",
+        "hint": "at / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Finally: in the end (no ‘of’). On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "Of",
+        "before": "At the end",
+        "after": "the day, I was exhausted.",
+        "hint": "of / —",
+        "answers": [
+          "of"
+        ],
+        "display": "of",
+        "explain": "‘At the end’ is usually followed by ‘of’ + noun. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "For / to",
+        "before": "We arrived in time",
+        "after": "the wedding.",
+        "hint": "for / to",
+        "answers": [
+          "for"
+        ],
+        "display": "for",
+        "explain": "‘In time for’ + noun: in time for the wedding. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "For / to",
+        "before": "He arrived in time",
+        "after": "say goodbye.",
+        "hint": "for / to",
+        "answers": [
+          "to"
+        ],
+        "display": "to",
+        "explain": "‘In time to’ + verb: in time to say goodbye. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with on time, in time, at the end and in the end.",
+    "sentences": [
+      {
+        "use": "On time",
+        "tokens": [
+          "The",
+          "bus",
+          "was",
+          "on",
+          "time."
+        ]
+      },
+      {
+        "use": "On time",
+        "tokens": [
+          "Please",
+          "be",
+          "on",
+          "time",
+          "tomorrow."
+        ]
+      },
+      {
+        "use": "On time",
+        "tokens": [
+          "The",
+          "meeting",
+          "started",
+          "on",
+          "time."
+        ]
+      },
+      {
+        "use": "On time",
+        "tokens": [
+          "She’s",
+          "never",
+          "on",
+          "time."
+        ]
+      },
+      {
+        "use": "In time",
+        "tokens": [
+          "We",
+          "arrived",
+          "in",
+          "time",
+          "for",
+          "lunch."
+        ]
+      },
+      {
+        "use": "In time",
+        "tokens": [
+          "I",
+          "got",
+          "there",
+          "in",
+          "time",
+          "to",
+          "help."
+        ]
+      },
+      {
+        "use": "In time",
+        "tokens": [
+          "They",
+          "finished",
+          "just",
+          "in",
+          "time."
+        ]
+      },
+      {
+        "use": "In time",
+        "tokens": [
+          "Will",
+          "we",
+          "be",
+          "in",
+          "time",
+          "for",
+          "the",
+          "film?"
+        ]
+      },
+      {
+        "use": "At the end",
+        "tokens": [
+          "The",
+          "bathroom",
+          "is",
+          "at",
+          "the",
+          "end",
+          "of",
+          "the",
+          "hall."
+        ]
+      },
+      {
+        "use": "At the end",
+        "tokens": [
+          "At",
+          "the",
+          "end",
+          "of",
+          "the",
+          "lesson,",
+          "we",
+          "played",
+          "a",
+          "game."
+        ],
+        "alts": [
+          [
+            "we",
+            "played",
+            "a",
+            "game",
+            "at",
+            "the",
+            "end",
+            "of",
+            "the",
+            "lesson."
+          ]
+        ]
+      },
+      {
+        "use": "At the end",
+        "tokens": [
+          "We",
+          "move",
+          "house",
+          "at",
+          "the",
+          "end",
+          "of",
+          "May."
+        ]
+      },
+      {
+        "use": "At the end",
+        "tokens": [
+          "Sign",
+          "your",
+          "name",
+          "at",
+          "the",
+          "end",
+          "of",
+          "the",
+          "letter."
+        ]
+      },
+      {
+        "use": "In the end",
+        "tokens": [
+          "In",
+          "the",
+          "end,",
+          "we",
+          "stayed",
+          "at",
+          "home."
+        ],
+        "alts": [
+          [
+            "we",
+            "stayed",
+            "at",
+            "home",
+            "in",
+            "the",
+            "end."
+          ]
+        ]
+      },
+      {
+        "use": "In the end",
+        "tokens": [
+          "In",
+          "the",
+          "end,",
+          "everything",
+          "was",
+          "fine."
+        ],
+        "alts": [
+          [
+            "everything",
+            "was",
+            "fine",
+            "in",
+            "the",
+            "end."
+          ]
+        ]
+      },
+      {
+        "use": "In the end",
+        "tokens": [
+          "He",
+          "agreed",
+          "in",
+          "the",
+          "end."
+        ]
+      },
+      {
+        "use": "In the end",
+        "tokens": [
+          "In",
+          "the",
+          "end,",
+          "she",
+          "chose",
+          "the",
+          "red",
+          "dress."
+        ],
+        "alts": [
+          [
+            "she",
+            "chose",
+            "the",
+            "red",
+            "dress",
+            "in",
+            "the",
+            "end."
+          ]
+        ]
+      },
+      {
+        "use": "Mixed",
+        "tokens": [
+          "The",
+          "film",
+          "started",
+          "on",
+          "time",
+          "and",
+          "finished",
+          "late."
+        ]
+      },
+      {
+        "use": "Mixed",
+        "tokens": [
+          "At",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day,",
+          "I",
+          "was",
+          "tired."
+        ],
+        "alts": [
+          [
+            "I",
+            "was",
+            "tired",
+            "at",
+            "the",
+            "end",
+            "of",
+            "the",
+            "day."
+          ]
+        ]
+      },
+      {
+        "use": "Mixed",
+        "tokens": [
+          "We",
+          "got",
+          "to",
+          "the",
+          "airport",
+          "just",
+          "in",
+          "time."
+        ]
+      },
+      {
+        "use": "Mixed",
+        "tokens": [
+          "It",
+          "was",
+          "hard,",
+          "but",
+          "in",
+          "the",
+          "end",
+          "I",
+          "passed."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the expression and its meaning",
+    "subtitle": "Tap a sentence, then tap what the expression means.",
+    "leftLabel": "Sentence",
+    "rightLabel": "Meaning",
+    "rightLabelSub": "(which expression?)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "The train was on time.",
+        "right": "punctual"
+      },
+      {
+        "left": "We arrived in time for the start.",
+        "right": "early enough"
+      },
+      {
+        "left": "It’s at the end of the street.",
+        "right": "the final point"
+      },
+      {
+        "left": "In the end, we went home.",
+        "right": "finally"
+      },
+      {
+        "left": "She’s always on time.",
+        "right": "punctual"
+      },
+      {
+        "left": "I got there just in time.",
+        "right": "early enough"
+      },
+      {
+        "left": "At the end of the film, he dies.",
+        "right": "the final point"
+      },
+      {
+        "left": "In the end, it was fine.",
+        "right": "finally"
+      },
+      {
+        "left": "The class started on time.",
+        "right": "punctual"
+      },
+      {
+        "left": "He came in time to help.",
+        "right": "early enough"
+      },
+      {
+        "left": "At the end of May, we move.",
+        "right": "the final point"
+      },
+      {
+        "left": "In the end, she said yes.",
+        "right": "finally"
+      },
+      {
+        "left": "Our flight left on time.",
+        "right": "punctual"
+      },
+      {
+        "left": "We’re in time for dinner.",
+        "right": "early enough"
+      },
+      {
+        "left": "Sign at the end of the page.",
+        "right": "the final point"
+      },
+      {
+        "left": "In the end, I bought both.",
+        "right": "finally"
+      },
+      {
+        "left": "Be on time for the exam.",
+        "right": "punctual"
+      },
+      {
+        "left": "They saved him in time.",
+        "right": "early enough"
+      },
+      {
+        "left": "At the end of the day, I rest.",
+        "right": "the final point"
+      },
+      {
+        "left": "In the end, the rain stopped.",
+        "right": "finally"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. On time = punctual; in time = early enough; at the end of = the final point; in the end = finally.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "On time",
+        "text": "The concert started exactly at eight — right <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "on time",
+          "in time",
+          "at the end",
+          "in the end"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘In time’ means early enough for something, not punctual.",
+          "‘At the end’ refers to the final point of something.",
+          "‘In the end’ means finally, after a long time."
+        ],
+        "explain": "At the scheduled time: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "text": "We ran and got to the station <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to catch the last train.",
+        "choices": [
+          "on time",
+          "in time",
+          "at the end",
+          "in the end"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘On time’ means punctual; here the point is early enough to catch it.",
+          "",
+          "‘At the end’ needs ‘of’ and means the final point.",
+          "‘In the end’ means finally."
+        ],
+        "explain": "Early enough to do something: in time to. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "text": "The answers are <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of the book.",
+        "choices": [
+          "in the end",
+          "on time",
+          "at the end",
+          "in time"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘In the end of’ is a common mistake.",
+          "‘On time’ is about punctuality.",
+          "",
+          "‘In time’ is about being early enough."
+        ],
+        "explain": "The final point of something: at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "text": "We couldn’t decide for ages, but <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we chose Italy.",
+        "choices": [
+          "at the end",
+          "on time",
+          "in time",
+          "in the end"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘At the end’ refers to a final point and usually needs ‘of’.",
+          "‘On time’ is about punctuality.",
+          "‘In time’ is about being early enough.",
+          ""
+        ],
+        "explain": "Finally, after a long time: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "text": "I got home just <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for the start of the match.",
+        "choices": [
+          "on time",
+          "in time",
+          "at time",
+          "in the time"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘On time for the start’ is less natural: the idea is early enough.",
+          "",
+          "‘At time’ is wrong.",
+          "‘In the time’ is wrong."
+        ],
+        "explain": "Early enough for something: in time for. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "On time",
+        "text": "Trains in Switzerland are almost always <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "in time",
+          "at time",
+          "on time",
+          "in the time"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘In time’ means early enough for something.",
+          "‘At time’ is wrong.",
+          "",
+          "‘In the time’ is wrong."
+        ],
+        "explain": "Punctual: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of the lesson, the teacher gave us homework.",
+        "choices": [
+          "In the end",
+          "On the end",
+          "By the end",
+          "At the end"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘In the end of’ is wrong.",
+          "‘On the end’ is wrong.",
+          "‘By the end’ means not later than.",
+          ""
+        ],
+        "explain": "Final point of an event: at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "text": "The car broke down twice, but <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we got there.",
+        "choices": [
+          "in the end",
+          "at the end",
+          "on time",
+          "at the end of"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘At the end’ doesn’t mean finally here.",
+          "You were probably late, so not ‘on time’.",
+          "‘At the end of’ needs a noun."
+        ],
+        "explain": "Finally, after problems: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In time",
+        "text": "The doctor arrived <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to save his life.",
+        "choices": [
+          "on time",
+          "at the end",
+          "in time",
+          "at time"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘On time’ means punctual.",
+          "‘At the end’ is a final point.",
+          "",
+          "‘At time’ is wrong."
+        ],
+        "explain": "Early enough to do something: in time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "Just in time",
+        "text": "We reached the gate <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> — they were closing it!",
+        "choices": [
+          "just on time",
+          "just at the end",
+          "just in the end",
+          "just in time"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Just on time’ is less natural for the last moment.",
+          "‘Just at the end’ changes the meaning.",
+          "‘Just in the end’ is wrong.",
+          ""
+        ],
+        "explain": "At the last possible moment: just in time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "text": "My cousins are coming <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of August.",
+        "choices": [
+          "at the end",
+          "in the end",
+          "on time",
+          "in time"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘In the end of’ is wrong.",
+          "‘On time’ is about punctuality.",
+          "‘In time’ is about early enough."
+        ],
+        "explain": "The last part of a month: at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "text": "It was a difficult exam, but <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I passed.",
+        "choices": [
+          "at the end",
+          "in the end",
+          "at the end of",
+          "on time"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘At the end’ means a final point, not ‘finally’.",
+          "",
+          "‘At the end of’ needs a noun.",
+          "‘On time’ is about punctuality."
+        ],
+        "explain": "Finally: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "On time",
+        "text": "If you aren’t <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>, you can’t do the test.",
+        "choices": [
+          "in the end",
+          "at the end",
+          "at time",
+          "on time"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘In the end’ means finally.",
+          "‘At the end’ is a final point.",
+          "‘At time’ is wrong.",
+          ""
+        ],
+        "explain": "Punctual: on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "Of",
+        "text": "Which is correct?",
+        "choices": [
+          "at the end of the film",
+          "in the end of the film",
+          "on the end of the film",
+          "at end of the film"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘In the end of’ is wrong.",
+          "‘On the end of’ is wrong.",
+          "‘The’ is missing."
+        ],
+        "explain": "at the end of + noun. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "For / to",
+        "text": "We arrived in time <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> see the fireworks.",
+        "choices": [
+          "for",
+          "to",
+          "of",
+          "at"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘For’ is followed by a noun, not a verb.",
+          "",
+          "‘Of’ is wrong.",
+          "‘At’ is wrong."
+        ],
+        "explain": "‘In time to’ + verb. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "For / to",
+        "text": "Will you be home in time <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner?",
+        "choices": [
+          "to",
+          "of",
+          "for",
+          "at"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘To’ is followed by a verb.",
+          "‘Of’ is wrong.",
+          "",
+          "‘At’ is wrong."
+        ],
+        "explain": "‘In time for’ + noun. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence means ‘finally’?",
+        "choices": [
+          "In the end, we stayed in.",
+          "At the end of the day, we stayed in.",
+          "We were on time.",
+          "We were in time."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "That gives a time of day.",
+          "That means punctual.",
+          "That means early enough."
+        ],
+        "explain": "‘In the end’ = finally. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence means ‘punctual’?",
+        "choices": [
+          "The bus arrived in time for us.",
+          "The bus arrived on time.",
+          "The bus arrived in the end.",
+          "The bus arrived at the end."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "That means early enough for us.",
+          "",
+          "That means finally.",
+          "That means the final point."
+        ],
+        "explain": "‘On time’ = punctual. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "At the end",
+        "text": "Turn right <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of the road.",
+        "choices": [
+          "in the end",
+          "on time",
+          "at the end",
+          "in time"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘In the end of’ is wrong.",
+          "‘On time’ is wrong.",
+          "",
+          "‘In time’ is wrong."
+        ],
+        "explain": "Final point of a place: at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "use": "In the end",
+        "text": "He didn’t want to come, but <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> he enjoyed it.",
+        "choices": [
+          "at the end",
+          "on time",
+          "in time",
+          "in the end"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘At the end’ means a final point.",
+          "‘On time’ is about punctuality.",
+          "‘In time’ is about early enough.",
+          ""
+        ],
+        "explain": "Finally, after changing his mind: in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "The",
+          "train",
+          "left",
+          "exactly",
+          "in",
+          "time."
+        ],
+        "errorIndex": 4,
+        "correction": "on",
+        "type": "In time for punctual",
+        "message": "Punctual: ‘on time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "Please",
+          "be",
+          "in",
+          "time",
+          "for",
+          "the",
+          "meeting",
+          "at",
+          "nine."
+        ],
+        "errorIndex": 2,
+        "correction": "on",
+        "type": "In time for punctual",
+        "message": "Punctual for a scheduled time: ‘on time’."
+      },
+      {
+        "tokens": [
+          "Our",
+          "teacher",
+          "is",
+          "never",
+          "late",
+          "—",
+          "she’s",
+          "always",
+          "in",
+          "time."
+        ],
+        "errorIndex": 8,
+        "correction": "on",
+        "type": "In time for punctual",
+        "message": "Punctual: ‘on time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "We",
+          "arrived",
+          "on",
+          "time",
+          "to",
+          "see",
+          "the",
+          "opening",
+          "song."
+        ],
+        "errorIndex": 2,
+        "correction": "in",
+        "type": "On time for early enough",
+        "message": "Early enough to do something: ‘in time to’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "The",
+          "doctor",
+          "came",
+          "on",
+          "time",
+          "to",
+          "save",
+          "him."
+        ],
+        "errorIndex": 3,
+        "correction": "in",
+        "type": "On time for early enough",
+        "message": "Early enough: ‘in time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "I",
+          "got",
+          "home",
+          "just",
+          "on",
+          "time",
+          "for",
+          "dinner."
+        ],
+        "errorIndex": 4,
+        "correction": "in",
+        "type": "On time for early enough",
+        "message": "Fixed phrase: ‘just in time for’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "In",
+          "the",
+          "end",
+          "of",
+          "the",
+          "film,",
+          "they",
+          "get",
+          "married."
+        ],
+        "errorIndex": 0,
+        "correction": "At",
+        "type": "In the end of",
+        "message": "Final point: ‘At the end of the film’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "The",
+          "bathroom",
+          "is",
+          "in",
+          "the",
+          "end",
+          "of",
+          "the",
+          "corridor."
+        ],
+        "errorIndex": 3,
+        "correction": "at",
+        "type": "In the end of",
+        "message": "Final point of a place: ‘at the end of’."
+      },
+      {
+        "tokens": [
+          "We",
+          "have",
+          "exams",
+          "in",
+          "the",
+          "end",
+          "of",
+          "June."
+        ],
+        "errorIndex": 3,
+        "correction": "at",
+        "type": "In the end of",
+        "message": "Final part of a month: ‘at the end of June’."
+      },
+      {
+        "tokens": [
+          "We",
+          "argued",
+          "for",
+          "hours,",
+          "but",
+          "at",
+          "the",
+          "end",
+          "we",
+          "agreed."
+        ],
+        "errorIndex": 5,
+        "correction": "in",
+        "type": "At the end for finally",
+        "message": "Finally: ‘in the end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "hard,",
+          "but",
+          "at",
+          "the",
+          "end",
+          "I",
+          "passed."
+        ],
+        "errorIndex": 4,
+        "correction": "in",
+        "type": "At the end for finally",
+        "message": "Finally: ‘in the end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "After",
+          "many",
+          "changes,",
+          "at",
+          "the",
+          "end",
+          "we",
+          "stayed",
+          "home."
+        ],
+        "errorIndex": 3,
+        "correction": "in",
+        "type": "At the end for finally",
+        "message": "Finally: ‘in the end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "We",
+          "got",
+          "there",
+          "in",
+          "time",
+          "of",
+          "the",
+          "start."
+        ],
+        "errorIndex": 5,
+        "correction": "for",
+        "type": "Wrong preposition",
+        "message": "‘In time for’ + noun. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "He",
+          "arrived",
+          "in",
+          "time",
+          "for",
+          "say",
+          "goodbye."
+        ],
+        "errorIndex": 4,
+        "correction": "to",
+        "type": "Wrong preposition",
+        "message": "‘In time to’ + verb. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "We",
+          "arrived",
+          "in",
+          "time",
+          "at",
+          "the",
+          "start",
+          "of",
+          "the",
+          "show."
+        ],
+        "errorIndex": 4,
+        "correction": "for",
+        "type": "Wrong preposition",
+        "message": "‘In time for’ + noun: ‘in time for the start’."
+      },
+      {
+        "tokens": [
+          "Sign",
+          "your",
+          "name",
+          "on",
+          "the",
+          "end",
+          "of",
+          "the",
+          "form."
+        ],
+        "errorIndex": 3,
+        "correction": "at",
+        "type": "On the end",
+        "message": "‘At the end of the form’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "The",
+          "film",
+          "was",
+          "boring,",
+          "but",
+          "by",
+          "the",
+          "end",
+          "I",
+          "liked",
+          "it."
+        ],
+        "errorIndex": 5,
+        "correction": "in",
+        "type": "By the end",
+        "message": "Finally: ‘in the end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "The",
+          "bus",
+          "arrived",
+          "at",
+          "time",
+          "today."
+        ],
+        "errorIndex": 3,
+        "correction": "on",
+        "type": "At time",
+        "message": "Punctual: ‘on time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "We",
+          "caught",
+          "the",
+          "plane",
+          "just",
+          "on",
+          "time",
+          "—",
+          "the",
+          "doors",
+          "were",
+          "closing."
+        ],
+        "errorIndex": 5,
+        "correction": "in",
+        "type": "Just on time",
+        "message": "At the last moment: ‘just in time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "tokens": [
+          "In",
+          "the",
+          "ende,",
+          "everything",
+          "was",
+          "fine."
+        ],
+        "errorIndex": 2,
+        "correction": "end",
+        "type": "Spelling",
+        "message": "Spelling: ‘end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which meaning, multiple choice and spot-the-mistake. In the typing questions write on, in, at, for or to. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "meaning": "Which meaning?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "meaning",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "On time",
+        "sentText": "The plane took off {{blank}} time.",
+        "hint": "on / in",
+        "answers": [
+          "on"
+        ],
+        "display": "on",
+        "explain": "At the planned time, not late: the expression is ‘on time’.",
+        "wrongNote": "Punctual → on time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "fill",
+        "use": "In time",
+        "sentText": "We got there {{blank}} time to see the first goal.",
+        "hint": "on / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Early enough to do something: ‘in time to’.",
+        "wrongNote": "Early enough → in time. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "fill",
+        "use": "At the end",
+        "sentText": "The café is {{blank}} the end of the street.",
+        "hint": "at / in",
+        "answers": [
+          "at"
+        ],
+        "display": "at",
+        "explain": "The final point of a place: ‘at the end of’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally.",
+        "wrongNote": "Final point → at the end of."
+      },
+      {
+        "type": "fill",
+        "use": "In the end",
+        "sentText": "We waited for an hour, but {{blank}} the end she didn’t come.",
+        "hint": "at / in",
+        "answers": [
+          "in"
+        ],
+        "display": "in",
+        "explain": "Finally, after a long time: ‘in the end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally.",
+        "wrongNote": "Finally → in the end. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "order",
+        "use": "On time",
+        "tokens": [
+          "The",
+          "class",
+          "began",
+          "on",
+          "time."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "In time",
+        "tokens": [
+          "We",
+          "got",
+          "there",
+          "in",
+          "time."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "At the end",
+        "tokens": [
+          "It’s",
+          "at",
+          "the",
+          "end",
+          "of",
+          "the",
+          "road."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "In the end",
+        "tokens": [
+          "In",
+          "the",
+          "end,",
+          "he",
+          "won."
+        ],
+        "alts": [
+          [
+            "he",
+            "won",
+            "in",
+            "the",
+            "end."
+          ]
+        ]
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘The bus was on time’ means…",
+        "choices": [
+          "it arrived early enough for something",
+          "it wasn’t late",
+          "it arrived finally",
+          "it was at the last stop"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "That’s ‘in time’.",
+          "",
+          "That’s ‘in the end’.",
+          "That’s ‘at the end’."
+        ],
+        "explain": "On time = punctual. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘We arrived in time for the speech’ means…",
+        "choices": [
+          "exactly at the planned time",
+          "finally",
+          "at the final part",
+          "early enough for it"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "That’s ‘on time’.",
+          "That’s ‘in the end’.",
+          "That’s ‘at the end’.",
+          ""
+        ],
+        "explain": "In time = early enough. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘In the end, we took a taxi’ means…",
+        "choices": [
+          "finally, after other options",
+          "at the final point of the street",
+          "punctually",
+          "early enough"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "That’s ‘at the end of the street’.",
+          "That’s ‘on time’.",
+          "That’s ‘in time’."
+        ],
+        "explain": "In the end = finally. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘At the end of the year’ refers to…",
+        "choices": [
+          "finally, after problems",
+          "punctuality",
+          "the final part of the year",
+          "being early enough"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "That’s ‘in the end’.",
+          "That’s ‘on time’.",
+          "",
+          "That’s ‘in time’."
+        ],
+        "explain": "At the end of = the final point. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "mc",
+        "use": "On time",
+        "text": "The film began {{blank}} at 8 p.m.",
+        "choices": [
+          "in time",
+          "in the end",
+          "on time",
+          "at the end"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘In time’ is early enough.",
+          "‘In the end’ is finally.",
+          "",
+          "‘At the end’ is a final point."
+        ],
+        "explain": "Punctual → on time."
+      },
+      {
+        "type": "mc",
+        "use": "In time",
+        "text": "Hurry or we won’t be {{blank}} for the bus.",
+        "choices": [
+          "in time",
+          "on time",
+          "in the end",
+          "at the end"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘On time for the bus’ is less natural: the idea is early enough.",
+          "‘In the end’ is finally.",
+          "‘At the end’ is a final point."
+        ],
+        "explain": "Early enough → in time."
+      },
+      {
+        "type": "mc",
+        "use": "At the end",
+        "text": "{{blank}} of the race, she was exhausted.",
+        "choices": [
+          "In the end",
+          "On time",
+          "In time",
+          "At the end"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘In the end of’ is wrong.",
+          "‘On time’ is punctual.",
+          "‘In time’ is early enough.",
+          ""
+        ],
+        "explain": "The final point → at the end of. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "mc",
+        "use": "In the end",
+        "text": "It took months, but {{blank}} they found a flat.",
+        "choices": [
+          "at the end",
+          "in the end",
+          "on time",
+          "in time"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘At the end’ is a final point.",
+          "",
+          "‘On time’ is punctual.",
+          "‘In time’ is early enough."
+        ],
+        "explain": "Finally → in the end."
+      },
+      {
+        "type": "error",
+        "use": "In time for punctual",
+        "tokens": [
+          "The",
+          "meeting",
+          "started",
+          "in",
+          "time",
+          "at",
+          "ten."
+        ],
+        "errorIndex": 3,
+        "correction": "on",
+        "message": "Punctual: ‘on time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "error",
+        "use": "In the end of",
+        "tokens": [
+          "Meet",
+          "me",
+          "in",
+          "the",
+          "end",
+          "of",
+          "the",
+          "bridge."
+        ],
+        "errorIndex": 2,
+        "correction": "at",
+        "message": "Final point: ‘at the end of’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "error",
+        "use": "At the end for finally",
+        "tokens": [
+          "We",
+          "tried",
+          "everything,",
+          "and",
+          "at",
+          "the",
+          "end",
+          "it",
+          "worked."
+        ],
+        "errorIndex": 4,
+        "correction": "in",
+        "message": "Finally: ‘in the end’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      },
+      {
+        "type": "error",
+        "use": "On time for early enough",
+        "tokens": [
+          "We",
+          "were",
+          "on",
+          "time",
+          "to",
+          "see",
+          "the",
+          "start."
+        ],
+        "errorIndex": 2,
+        "correction": "in",
+        "message": "Early enough: ‘in time to’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
+      }
+    ]
+  }
+}
