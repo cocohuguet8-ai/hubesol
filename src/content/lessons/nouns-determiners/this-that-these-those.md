@@ -28,40 +28,89 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
   - { title: "Articles: a, an, the", href: "/grammar/articles/" }
+next: { title: "All, Both, Every & Each", href: "/grammar/nouns-determiners/all-both-every-each/" }
 draft: false
 ---
 
-## this, that, these, those
+## The four words
 
-Point by **distance** (near/far) and **number** (one/more than one).
-
-| | Near | Far |
+| | Near (here) | Far (there) |
 |---|---|---|
-| Singular | **this** (this book) | **that** (that car) |
-| Plural | **these** (these shoes) | **those** (those birds) |
+| **Singular** | **this** book | **that** book |
+| **Plural** | **these** books | **those** books |
 
-They work as **determiners** (before a noun) and as **pronouns** (alone).
+- **This** pen is mine. (in my hand) — **That** car is red. (over there)
+- **These** shoes are new. (I'm wearing them) — **Those** birds are loud. (in the tree)
 
-## When to use each
+## *This* and *these* — near
 
-### 1. Near — this / these
+### 1. Things near you
 
-- **This** phone is mine. **These** biscuits are delicious.
+- **This** bag is heavy. — Are **these** your keys?
 
-### 2. Far — that / those
+### 2. Now / the present
 
-- **That** building is very old. Look at **those** clouds.
+- I'm busy **this** week. — **These** days I walk to work.
 
-### 3. As pronouns (no noun)
+> ⚠️ Typical error: ~~This books are mine.~~ → Plural: *These books are mine.*
 
-- **This** is my sister. Whose keys are **those**?
+## *That* and *those* — far
 
-> ⚠️ Match the number: **this/that** + singular, **these/those** + plural. *~~this shoes~~* → **these shoes**.
+### 1. Things far from you
+
+- Look at **that** dog! — **Those** mountains are beautiful.
+
+### 2. The past
+
+- I remember **that** day. — In **those** days we didn't have phones.
+
+> ⚠️ Typical error: ~~Those house is old.~~ → Singular: *That house is old.*
+
+## With or without a noun
+
+### 1. Before a noun (determiner)
+
+- **This** song is great. — I love **those** jeans.
+
+### 2. Alone (pronoun)
+
+- **This** is my brother. — What's **that**? — **These** are delicious!
+
+## Useful phrases
+
+| Phrase | Use |
+|---|---|
+| **This is** Anna. | introducing someone |
+| Hello, **this is** Tom. | on the phone |
+| **That's** right! / **That's** great! | reacting to what someone said |
+| Is **that** you? | asking who it is |
+
+## Verb agreement
+
+| Singular | Plural |
+|---|---|
+| **This is** … / **That is** (That's) … | **These are** … / **Those are** … |
+| **Is this** your coat? | **Are these** your coats? |
+
+> ⚠️ Typical error: ~~These is my friends.~~ → *These are my friends.*
+
+## *This one / that one*
+
+Use *one* to avoid repeating a singular noun:
+
+- Which cake do you want? — **This one**, please.
+- I don't like this shirt. I prefer **that one**.
+
+For plurals, use *these / those* alone (*these ones* is informal).
 
 ## Common mistakes
 
-**1. Singular demonstrative with a plural noun.** *~~this books~~* → **these books.**
+**1. Singular with plural noun.** *~~this shoes~~* → **these shoes**.
 
-**2. Plural demonstrative with a singular noun.** *~~those car~~* → **that car.**
+**2. Plural with singular noun.** *~~these book~~* → **this book**.
 
-**3. Wrong distance.** *~~this house over there~~* → **that house over there. Pro tip:** near = this/these, far = that/those; one = this/that, many = these/those.
+**3. Wrong verb.** *~~Those is nice.~~* → **Those are nice.**
+
+**4. Near/far confusion.** Holding it? → **this**. Pointing far away? → **that**.
+
+**Pro tip:** *th-is / th-ese* = **here**; *th-at / th-ose* = **there**.
