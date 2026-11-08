@@ -29,41 +29,86 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
   - { title: "Possessives: 's vs of", href: "/grammar/nouns-determiners/possessives-s-vs-of/" }
+next: { title: "Order of Adjectives", href: "/grammar/nouns-determiners/order-of-adjectives/" }
 draft: false
 ---
 
-## How compound nouns work
+## What is a compound noun?
 
-Two nouns join to make one idea. The **first** noun describes the second and stays **singular**.
+A **compound noun** is two (or more) words that work together as **one noun**.
 
-| Compound | Note | Plural |
+| Type | Example |
+|---|---|
+| noun + noun | **bus stop**, **football**, **toothbrush** |
+| adjective + noun | **blackboard**, **swimming pool**, **high school** |
+| verb-ing + noun | **washing machine**, **dining room** |
+| noun + verb-ing | **bird-watching**, **sightseeing** |
+
+## The main word comes last
+
+The **second** word is the main noun. The **first** word describes it.
+
+- a **kitchen** table = a kind of table
+- a **table** lamp = a kind of lamp
+- a **horse** race (a race) ≠ a **race** horse (a horse)
+
+> ⚠️ Typical error: ~~a cup coffee~~ → *a coffee cup* (a cup for coffee) or *a cup of coffee* (a cup full of coffee).
+
+## How to write them
+
+### 1. One word
+
+- **bedroom**, **toothpaste**, **sunglasses**, **football**
+
+### 2. Two words (most common)
+
+- **bus stop**, **credit card**, **post office**, **tennis ball**
+
+### 3. With a hyphen
+
+- **mother-in-law**, **check-in**, **well-being**
+
+There's no simple rule — check a dictionary.
+
+## The first noun is usually singular
+
+- a **shoe** shop (~~a shoes shop~~) — a **toothbrush** (~~teethbrush~~)
+- a **ten-minute** walk — a **five-year-old** boy (~~five-years-old~~)
+
+> ⚠️ Typical error: ~~a books shop~~ → *a bookshop.*
+
+### Exceptions
+
+- **clothes** shop, **sports** centre, **sales** manager
+
+## Plurals
+
+Make the **main** (last) word plural:
+
+- two **bus stops**, three **toothbrushes**, my **football boots**
+- But: **mothers-in-law**, **passers-by** (the main word is first)
+
+## Compound noun vs *'s* vs *of*
+
+| Compound noun | *'s* | *of* |
 |---|---|---|
-| bus stop | two words | bus **stops** |
-| toothbrush | one word | toothbrush**es** |
-| shoe shop | first noun singular | shoe **shops** |
-| mother-in-law | hyphenated | mother**s**-in-law |
-| ten-year-old | number + noun (singular) | ten-year-old**s** |
+| a **car door** (type of door) | **Anna's** door (owner) | a **cup of** tea (contents) |
+| a **dog** bed (for dogs) | the **dog's** bed (this dog's) | a **piece of** cake |
 
-## When and how to use them
+## Stress
 
-### 1. First noun stays singular
+In most compound nouns we stress the **first** word:
 
-- a **book** shelf, a **car** park, a **coffee** cup (not *books shelf*, *cars park*).
-
-### 2. Only the last word takes the plural
-
-- three **bus stops**, two **swimming pools**, some **toothbrushes**.
-
-### 3. Numbers become singular modifiers
-
-- a **five-minute** break, a **two-hour** film, a **six-year-old** child.
-
-> ⚠️ Compare the noun and the modifier: *The walk takes five **minutes***, but *It's a five-**minute** walk* (singular, hyphenated before the noun).
+- **BUS** stop, **POST** office, **SWIM**ming pool
 
 ## Common mistakes
 
-**1. Plural first noun.** *~~a shoes shop~~* → **a shoe shop.**
+**1. Wrong order.** *~~a stop bus~~* → **a bus stop**.
 
-**2. Plural in the number modifier.** *~~a ten-minutes walk~~* → **a ten-minute walk.**
+**2. Plural first noun.** *~~a shoes shop~~* → **a shoe shop**.
 
-**3. Pluralising the wrong part.** *~~mother-in-laws~~* → **mothers-in-law. Pro tip:** keep the first noun singular; make only the last word plural.
+**3. Plural on the wrong word.** *~~buses stop~~* → **bus stops**.
+
+**4. Adding *of* or *'s* wrongly.** *~~the stop of bus~~* → **the bus stop**.
+
+**Pro tip:** ask *"What is it?"* — the answer is the **last** word: a *tennis ball* is a **ball**.
