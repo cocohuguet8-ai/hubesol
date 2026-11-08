@@ -1,0 +1,1590 @@
+{
+  "tense": "reported-commands-requests",
+  "lessonTitle": "Reported Commands & Requests",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "told",
+        "asked",
+        "to",
+        "not"
+      ],
+      "label": null,
+      "primary": "told"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the missing part of the reported command or request: told / asked, to, not to, or the base verb. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Command",
+        "before": "“Sit down.” → The teacher told us",
+        "after": "down.",
+        "hint": "(sit)",
+        "answers": [
+          "to sit"
+        ],
+        "display": "to sit",
+        "explain": "A command is reported with told + person + to + base verb."
+      },
+      {
+        "use": "Command",
+        "before": "“Open your books.” → She",
+        "after": "us to open our books.",
+        "hint": "told / said",
+        "answers": [
+          "told"
+        ],
+        "display": "told",
+        "explain": "Commands use ‘tell’ + person: told us."
+      },
+      {
+        "use": "Command",
+        "before": "“Be quiet!” → The librarian told the students",
+        "after": "quiet.",
+        "hint": "(be)",
+        "answers": [
+          "to be"
+        ],
+        "display": "to be",
+        "explain": "Imperative ‘be’ becomes ‘to be’ in reported speech."
+      },
+      {
+        "use": "Command",
+        "before": "“Turn off your phones.” → The guide told everyone",
+        "after": "off their phones.",
+        "hint": "(turn)",
+        "answers": [
+          "to turn"
+        ],
+        "display": "to turn",
+        "explain": "told + person + to + base verb: to turn."
+      },
+      {
+        "use": "Negative command",
+        "before": "“Don’t shout.” → Mum told us",
+        "after": "shout.",
+        "hint": "not to / don’t",
+        "answers": [
+          "not to"
+        ],
+        "display": "not to",
+        "explain": "A negative command is reported with ‘not to’."
+      },
+      {
+        "use": "Negative command",
+        "before": "“Don’t touch the paintings.” → The guard told me",
+        "after": "the paintings.",
+        "hint": "(not touch)",
+        "answers": [
+          "not to touch"
+        ],
+        "display": "not to touch",
+        "explain": "told + person + not to + base verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Negative command",
+        "before": "“Don’t be late!” → The coach told us not",
+        "after": "late.",
+        "hint": "(be)",
+        "answers": [
+          "to be"
+        ],
+        "display": "to be",
+        "explain": "Negative: not + to be."
+      },
+      {
+        "use": "Request",
+        "before": "“Can you help me?” → My sister",
+        "after": "me to help her.",
+        "hint": "asked / told",
+        "answers": [
+          "asked"
+        ],
+        "display": "asked",
+        "explain": "Polite requests are reported with ‘ask’."
+      },
+      {
+        "use": "Request",
+        "before": "“Could you pass the salt?” → He asked me",
+        "after": "the salt.",
+        "hint": "(pass)",
+        "answers": [
+          "to pass"
+        ],
+        "display": "to pass",
+        "explain": "asked + person + to + base verb."
+      },
+      {
+        "use": "Request",
+        "before": "“Please wait here.” → She asked us to wait",
+        "after": ".",
+        "hint": "here / there",
+        "answers": [
+          "there"
+        ],
+        "display": "there",
+        "explain": "Place words change: ‘here’ becomes ‘there’."
+      },
+      {
+        "use": "Request",
+        "before": "“Will you close the window?” → He asked me",
+        "after": "the window.",
+        "hint": "(close)",
+        "answers": [
+          "to close"
+        ],
+        "display": "to close",
+        "explain": "A request with ‘Will you…?’: asked me to close."
+      },
+      {
+        "use": "Negative request",
+        "before": "“Please don’t tell anyone.” → She asked me",
+        "after": "anyone.",
+        "hint": "(not tell)",
+        "answers": [
+          "not to tell"
+        ],
+        "display": "not to tell",
+        "explain": "Negative request: asked + person + not to + verb."
+      },
+      {
+        "use": "Negative request",
+        "before": "“Could you not make so much noise?” → He asked us",
+        "after": "so much noise.",
+        "hint": "(not make)",
+        "answers": [
+          "not to make"
+        ],
+        "display": "not to make",
+        "explain": "Negative request: not to make."
+      },
+      {
+        "use": "Pronoun",
+        "before": "“Call me tomorrow.” → She told me to call",
+        "after": "the next day.",
+        "hint": "(me)",
+        "answers": [
+          "her"
+        ],
+        "display": "her",
+        "explain": "She was talking about herself: ‘me’ becomes ‘her’."
+      },
+      {
+        "use": "Possessive",
+        "before": "“Bring your passport.” → He told me to bring",
+        "after": "passport.",
+        "hint": "(your)",
+        "answers": [
+          "my"
+        ],
+        "display": "my",
+        "explain": "He was speaking to me: ‘your’ becomes ‘my’."
+      },
+      {
+        "use": "Order",
+        "before": "“Stop the car!” → The police officer",
+        "after": "him to stop the car.",
+        "hint": "ordered / said",
+        "answers": [
+          "ordered"
+        ],
+        "display": "ordered",
+        "explain": "A very strong command: ordered + person + to."
+      },
+      {
+        "use": "Warn",
+        "before": "“Don’t go near the edge.” → She warned us",
+        "after": "near the edge.",
+        "hint": "(not go)",
+        "answers": [
+          "not to go"
+        ],
+        "display": "not to go",
+        "explain": "warn + person + not to + base verb."
+      },
+      {
+        "use": "Remind",
+        "before": "“Remember to take your keys.” → Mum reminded me",
+        "after": "my keys.",
+        "hint": "(take)",
+        "answers": [
+          "to take"
+        ],
+        "display": "to take",
+        "explain": "remind + person + to + base verb."
+      },
+      {
+        "use": "Person needed",
+        "before": "“Hurry up!” → He told",
+        "after": "to hurry up.",
+        "hint": "us / —",
+        "answers": [
+          "us"
+        ],
+        "display": "us",
+        "explain": "‘Tell’ needs a person before ‘to’."
+      },
+      {
+        "use": "Ask to",
+        "before": "“Can I leave early?” → Pau asked",
+        "after": "early.",
+        "hint": "(leave)",
+        "answers": [
+          "to leave"
+        ],
+        "display": "to leave",
+        "explain": "Without a person, ‘asked to’ = the speaker wanted to do it."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each reported command or request.",
+    "sentences": [
+      {
+        "use": "Command",
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "to",
+          "sit",
+          "down."
+        ]
+      },
+      {
+        "use": "Command",
+        "tokens": [
+          "The",
+          "teacher",
+          "told",
+          "us",
+          "to",
+          "be",
+          "quiet."
+        ]
+      },
+      {
+        "use": "Command",
+        "tokens": [
+          "He",
+          "told",
+          "them",
+          "to",
+          "wait",
+          "outside."
+        ]
+      },
+      {
+        "use": "Command",
+        "tokens": [
+          "Mum",
+          "told",
+          "me",
+          "to",
+          "tidy",
+          "my",
+          "room."
+        ]
+      },
+      {
+        "use": "Negative command",
+        "tokens": [
+          "He",
+          "told",
+          "us",
+          "not",
+          "to",
+          "shout."
+        ]
+      },
+      {
+        "use": "Negative command",
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "not",
+          "to",
+          "worry."
+        ]
+      },
+      {
+        "use": "Negative command",
+        "tokens": [
+          "The",
+          "guard",
+          "told",
+          "us",
+          "not",
+          "to",
+          "touch",
+          "it."
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "She",
+          "asked",
+          "me",
+          "to",
+          "help",
+          "her."
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "He",
+          "asked",
+          "us",
+          "to",
+          "wait",
+          "there."
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "They",
+          "asked",
+          "me",
+          "to",
+          "close",
+          "the",
+          "window."
+        ]
+      },
+      {
+        "use": "Negative request",
+        "tokens": [
+          "She",
+          "asked",
+          "me",
+          "not",
+          "to",
+          "tell",
+          "anyone."
+        ]
+      },
+      {
+        "use": "Negative request",
+        "tokens": [
+          "He",
+          "asked",
+          "us",
+          "not",
+          "to",
+          "be",
+          "late."
+        ]
+      },
+      {
+        "use": "Pronoun",
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "to",
+          "call",
+          "her."
+        ]
+      },
+      {
+        "use": "Order",
+        "tokens": [
+          "The",
+          "police",
+          "ordered",
+          "him",
+          "to",
+          "stop."
+        ]
+      },
+      {
+        "use": "Warn",
+        "tokens": [
+          "She",
+          "warned",
+          "us",
+          "not",
+          "to",
+          "swim",
+          "there."
+        ]
+      },
+      {
+        "use": "Remind",
+        "tokens": [
+          "Dad",
+          "reminded",
+          "me",
+          "to",
+          "lock",
+          "the",
+          "door."
+        ]
+      },
+      {
+        "use": "Advise",
+        "tokens": [
+          "The",
+          "doctor",
+          "advised",
+          "me",
+          "to",
+          "rest."
+        ]
+      },
+      {
+        "use": "Invite",
+        "tokens": [
+          "They",
+          "invited",
+          "us",
+          "to",
+          "stay",
+          "for",
+          "dinner."
+        ]
+      },
+      {
+        "use": "Ask to",
+        "tokens": [
+          "He",
+          "asked",
+          "to",
+          "leave",
+          "early."
+        ]
+      },
+      {
+        "use": "Possessive",
+        "tokens": [
+          "He",
+          "told",
+          "me",
+          "to",
+          "bring",
+          "my",
+          "passport."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the direct and reported command",
+    "subtitle": "Tap a direct command or request, then tap its reported version.",
+    "leftLabel": "Direct speech",
+    "rightLabel": "Reported",
+    "rightLabelSub": "(told / asked + to)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "“Sit down.”",
+        "right": "She told me to sit down."
+      },
+      {
+        "left": "“Don’t run.”",
+        "right": "She told me not to run."
+      },
+      {
+        "left": "“Can you help me?”",
+        "right": "She asked me to help her."
+      },
+      {
+        "left": "“Please don’t go.”",
+        "right": "She asked me not to go."
+      },
+      {
+        "left": "“Be careful.”",
+        "right": "She told me to be careful."
+      },
+      {
+        "left": "“Could you open the door?”",
+        "right": "She asked me to open the door."
+      },
+      {
+        "left": "“Don’t be late.”",
+        "right": "She told me not to be late."
+      },
+      {
+        "left": "“Wait here.”",
+        "right": "She told me to wait there."
+      },
+      {
+        "left": "“Will you call me?”",
+        "right": "She asked me to call her."
+      },
+      {
+        "left": "“Don’t tell anyone.”",
+        "right": "She told me not to tell anyone."
+      },
+      {
+        "left": "“Close your eyes.”",
+        "right": "She told me to close my eyes."
+      },
+      {
+        "left": "“Please turn the music down.”",
+        "right": "She asked me to turn the music down."
+      },
+      {
+        "left": "“Don’t forget your keys.”",
+        "right": "She reminded me not to forget my keys."
+      },
+      {
+        "left": "“Stop!”",
+        "right": "She ordered me to stop."
+      },
+      {
+        "left": "“Don’t touch the dog.”",
+        "right": "She warned me not to touch the dog."
+      },
+      {
+        "left": "“Come to my party.”",
+        "right": "She invited me to come to her party."
+      },
+      {
+        "left": "“Could you not smoke here?”",
+        "right": "She asked me not to smoke there."
+      },
+      {
+        "left": "“Bring your book.”",
+        "right": "She told me to bring my book."
+      },
+      {
+        "left": "“Remember to call Grandma.”",
+        "right": "She reminded me to call Grandma."
+      },
+      {
+        "left": "“You should rest.”",
+        "right": "She advised me to rest."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. told / asked + person + (not) to + base verb — no backshift needed.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Command",
+        "text": "“Close the window.” → The teacher told me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the window.",
+        "choices": [
+          "to close",
+          "close",
+          "closing",
+          "that I close"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A reported command needs ‘to’ before the base verb.",
+          "The -ing form doesn’t follow ‘tell + person’.",
+          "‘That I close’ isn’t the normal pattern for commands."
+        ],
+        "explain": "Commands: told + person + to + base verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Negative command",
+        "text": "“Don’t eat in class.” → She told us <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in class.",
+        "choices": [
+          "don’t eat",
+          "not to eat",
+          "to don’t eat",
+          "not eat"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Don’t’ disappears in reported commands.",
+          "",
+          "‘To don’t’ is impossible.",
+          "‘Not eat’ is missing ‘to’."
+        ],
+        "explain": "Negative commands: told + person + not to + base verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Request",
+        "text": "“Could you lend me your notes?” → Pau <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me to lend him my notes.",
+        "choices": [
+          "told",
+          "said",
+          "asked",
+          "asked to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Told’ sounds like an order, but this was a polite request.",
+          "‘Said me’ is wrong.",
+          "",
+          "No ‘to’ between ‘asked’ and the person."
+        ],
+        "explain": "Polite requests are reported with ask + person + to. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Tell or say",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "She said me to wait.",
+          "She told to me wait.",
+          "She said to wait me.",
+          "She told me to wait."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Say’ can’t take a person + to-infinitive.",
+          "No ‘to’ before the person, and ‘to’ is needed before ‘wait’.",
+          "Wrong word order.",
+          ""
+        ],
+        "explain": "Use tell + person + to + verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Person needed",
+        "text": "“Hurry up!” → The coach told <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to hurry up.",
+        "choices": [
+          "to us",
+          "us",
+          "—",
+          "that we"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "No ‘to’ before the person after ‘tell’.",
+          "",
+          "‘Tell’ needs a person here.",
+          "‘Told that we to hurry’ is wrong."
+        ],
+        "explain": "‘Tell’ always needs a person before ‘to’. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Negative request",
+        "text": "“Please don’t call after ten.” → She asked me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> after ten.",
+        "choices": [
+          "to not calling",
+          "don’t call",
+          "not to call",
+          "not calling"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘To not calling’ is wrong.",
+          "‘Don’t’ disappears.",
+          "",
+          "‘Not calling’ is missing ‘to’."
+        ],
+        "explain": "Negative requests: asked + person + not to + verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "No backshift",
+        "text": "“Be careful.” → She told me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> careful.",
+        "choices": [
+          "to was",
+          "to been",
+          "being",
+          "to be"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘To was’ is impossible: the infinitive never changes.",
+          "‘To been’ is wrong.",
+          "The -ing form doesn’t fit.",
+          ""
+        ],
+        "explain": "The infinitive doesn’t change: to be. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Pronoun",
+        "text": "“Call me later.” → He told me to call <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> later.",
+        "choices": [
+          "him",
+          "me",
+          "you",
+          "his"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "He was talking about himself.",
+          "‘You’ would be the listener.",
+          "‘His’ is a possessive."
+        ],
+        "explain": "Pronouns change: me → him. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Place",
+        "text": "“Wait here.” → She told us to wait <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "here",
+          "where",
+          "there",
+          "then"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Here’ is where you are now.",
+          "‘Where’ is a question word.",
+          "",
+          "‘Then’ is a time word."
+        ],
+        "explain": "here → there. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Order",
+        "text": "“Put your hands up!” → The police officer <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him to put his hands up.",
+        "choices": [
+          "asked",
+          "said",
+          "invited",
+          "ordered"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Asked’ is too polite for this strong command.",
+          "‘Said’ can’t take a person + to.",
+          "‘Invited’ changes the meaning.",
+          ""
+        ],
+        "explain": "‘Order’ is for very strong commands. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Warn",
+        "text": "“Don’t swim here — it’s dangerous.” → She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us not to swim there.",
+        "choices": [
+          "warned",
+          "invited",
+          "asked",
+          "said"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Invited’ is the opposite meaning.",
+          "‘Asked’ loses the idea of danger.",
+          "‘Said us’ is wrong."
+        ],
+        "explain": "‘Warn’ + person + not to = advise against something dangerous."
+      },
+      {
+        "use": "Remind",
+        "text": "“Don’t forget to post the letter.” → Mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me to post the letter.",
+        "choices": [
+          "remembered",
+          "reminded",
+          "warned",
+          "ordered"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Remembered me’ is wrong: ‘remind’ is the verb for making someone remember.",
+          "",
+          "‘Warned’ is for dangers.",
+          "‘Ordered’ is too strong."
+        ],
+        "explain": "‘Remind’ + person + to + verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Ask to",
+        "text": "“Can I leave early, please?” → She asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> early.",
+        "choices": [
+          "me to leave",
+          "leave",
+          "if leaving",
+          "to leave"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Asked me to leave’ means she wanted ME to leave.",
+          "‘Asked leave’ is missing ‘to’.",
+          "‘If leaving’ is wrong.",
+          ""
+        ],
+        "explain": "Without a person, ‘asked to leave’ = she wanted to leave."
+      },
+      {
+        "use": "Possessive",
+        "text": "“Take your coat.” → He told me to take <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> coat.",
+        "choices": [
+          "my",
+          "your",
+          "his",
+          "me"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "He was speaking to me.",
+          "Only if it was his own coat.",
+          "‘Me’ isn’t a possessive."
+        ],
+        "explain": "your → my. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Request",
+        "text": "“Will you turn the TV off, please?” → She asked me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the TV off.",
+        "choices": [
+          "turn",
+          "to turn",
+          "turning",
+          "if turn"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "A request needs ‘to’ + base verb.",
+          "",
+          "The -ing form doesn’t fit.",
+          "‘If turn’ is wrong."
+        ],
+        "explain": "asked + person + to turn. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Not to",
+        "text": "Which sentence is the most standard?",
+        "choices": [
+          "He told me to not worry.",
+          "He told me don’t worry.",
+          "He told me not to worry.",
+          "He told me not worry."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Common in speech, but ‘not to worry’ is the standard form.",
+          "‘Don’t’ disappears in reported speech.",
+          "",
+          "‘To’ is missing."
+        ],
+        "explain": "Standard negative: not to + base verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Command",
+        "text": "“Stand in a line.” → The teacher told the children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a line.",
+        "choices": [
+          "to stand",
+          "stand",
+          "standing",
+          "stood"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A command needs ‘to’.",
+          "-ing doesn’t fit.",
+          "‘Stood’ is past."
+        ],
+        "explain": "told + person + to + base verb. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Advise",
+        "text": "“You should see a dentist.” → She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me to see a dentist.",
+        "choices": [
+          "ordered",
+          "advised",
+          "said",
+          "invited"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Ordered’ is too strong for advice.",
+          "",
+          "‘Said me’ is wrong.",
+          "‘Invited’ changes the meaning."
+        ],
+        "explain": "Advice is reported with ‘advise’ + person + to. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Invite",
+        "text": "“Come to dinner on Saturday.” → They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us to come to dinner on Saturday.",
+        "choices": [
+          "ordered",
+          "warned",
+          "invited",
+          "reminded"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Ordered’ sounds like a command.",
+          "‘Warned’ is for danger.",
+          "",
+          "‘Reminded’ is for things you might forget."
+        ],
+        "explain": "An invitation is reported with ‘invite’ + person + to. Remember the pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "use": "Negative command",
+        "text": "“Don’t open the door to strangers.” → Mum told me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the door to strangers.",
+        "choices": [
+          "to not opened",
+          "don’t open",
+          "not open",
+          "not to open"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘To not opened’ is wrong.",
+          "‘Don’t’ disappears.",
+          "‘To’ is missing.",
+          ""
+        ],
+        "explain": "told + person + not to + base verb."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "wait",
+          "outside."
+        ],
+        "errorIndex": 3,
+        "correction": "to wait",
+        "type": "Missing to",
+        "message": "A reported command needs ‘to’: ‘told me to wait’."
+      },
+      {
+        "tokens": [
+          "He",
+          "asked",
+          "us",
+          "help",
+          "him."
+        ],
+        "errorIndex": 3,
+        "correction": "to help",
+        "type": "Missing to",
+        "message": "A reported request needs ‘to’: ‘asked us to help’."
+      },
+      {
+        "tokens": [
+          "Mum",
+          "told",
+          "me",
+          "don’t",
+          "shout."
+        ],
+        "errorIndex": 3,
+        "correction": "not to",
+        "type": "Don’t in the report",
+        "message": "Negative: ‘told me not to shout’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "The",
+          "guard",
+          "told",
+          "us",
+          "don’t",
+          "touch",
+          "it."
+        ],
+        "errorIndex": 4,
+        "correction": "not to",
+        "type": "Don’t in the report",
+        "message": "Negative: ‘told us not to touch it’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "The",
+          "teacher",
+          "said",
+          "me",
+          "to",
+          "sit",
+          "down."
+        ],
+        "errorIndex": 2,
+        "correction": "told",
+        "type": "Say + person",
+        "message": "Use ‘tell’: ‘told me to sit down’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "us",
+          "to",
+          "be",
+          "quiet."
+        ],
+        "errorIndex": 1,
+        "correction": "told",
+        "type": "Say + person",
+        "message": "Use ‘tell’: ‘told us to be quiet’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "“Could",
+          "you",
+          "help",
+          "me,",
+          "please?”",
+          "→",
+          "She",
+          "told",
+          "me",
+          "to",
+          "help",
+          "her."
+        ],
+        "errorIndex": 7,
+        "correction": "asked",
+        "type": "Tell or ask",
+        "message": "A polite request is reported with ‘ask’: ‘asked me to help’."
+      },
+      {
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "to",
+          "was",
+          "careful."
+        ],
+        "errorIndex": 4,
+        "correction": "be",
+        "type": "Backshift on infinitive",
+        "message": "The infinitive doesn’t change: ‘to be careful’."
+      },
+      {
+        "tokens": [
+          "He",
+          "told",
+          "us",
+          "to",
+          "waiting",
+          "there."
+        ],
+        "errorIndex": 4,
+        "correction": "wait",
+        "type": "-ing after to",
+        "message": "After ‘to’ use the base verb: ‘to wait’."
+      },
+      {
+        "tokens": [
+          "She",
+          "asked",
+          "me",
+          "to",
+          "calls",
+          "her."
+        ],
+        "errorIndex": 4,
+        "correction": "call",
+        "type": "-s after to",
+        "message": "After ‘to’ use the base verb: ‘to call’."
+      },
+      {
+        "tokens": [
+          "The",
+          "coach",
+          "told",
+          "us",
+          "to",
+          "ran",
+          "faster."
+        ],
+        "errorIndex": 5,
+        "correction": "run",
+        "type": "Past after to",
+        "message": "After ‘to’ use the base verb: ‘to run’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "“Call",
+          "me.”",
+          "→",
+          "She",
+          "told",
+          "me",
+          "to",
+          "call",
+          "me."
+        ],
+        "errorIndex": 8,
+        "correction": "her",
+        "type": "Pronoun",
+        "message": "She talked about herself: ‘call her’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "“Bring",
+          "your",
+          "ID.”",
+          "→",
+          "He",
+          "told",
+          "me",
+          "to",
+          "bring",
+          "your",
+          "ID."
+        ],
+        "errorIndex": 9,
+        "correction": "my",
+        "type": "Possessive",
+        "message": "He spoke to me: ‘my ID’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "“Stay",
+          "here.”",
+          "→",
+          "She",
+          "told",
+          "us",
+          "to",
+          "stay",
+          "here.",
+          "(We’re",
+          "somewhere",
+          "else",
+          "now.)"
+        ],
+        "errorIndex": 8,
+        "correction": "there",
+        "type": "Place",
+        "message": "here → there."
+      },
+      {
+        "tokens": [
+          "“Please",
+          "help",
+          "me.”",
+          "→",
+          "She",
+          "ordered",
+          "me",
+          "to",
+          "help",
+          "her."
+        ],
+        "errorIndex": 5,
+        "correction": "asked",
+        "type": "Wrong verb",
+        "message": "A polite request: ‘asked me to help’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "“Don’t",
+          "forget",
+          "the",
+          "tickets.”",
+          "→",
+          "He",
+          "remembered",
+          "me",
+          "not",
+          "to",
+          "forget",
+          "the",
+          "tickets."
+        ],
+        "errorIndex": 6,
+        "correction": "reminded",
+        "type": "Wrong verb",
+        "message": "‘Remind’ + person: ‘reminded me’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "“Don’t",
+          "go",
+          "near",
+          "the",
+          "dog.”",
+          "→",
+          "She",
+          "invited",
+          "me",
+          "not",
+          "to",
+          "go",
+          "near",
+          "the",
+          "dog."
+        ],
+        "errorIndex": 7,
+        "correction": "warned",
+        "type": "Wrong verb",
+        "message": "A warning: ‘warned me not to go’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "She",
+          "asked",
+          "me",
+          "to",
+          "came",
+          "early."
+        ],
+        "errorIndex": 4,
+        "correction": "come",
+        "type": "Past after to",
+        "message": "After ‘to’ use the base verb: ‘to come’."
+      },
+      {
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "don’t",
+          "to",
+          "worry."
+        ],
+        "errorIndex": 3,
+        "correction": "not",
+        "type": "Not position",
+        "message": "Negative: ‘told me not to worry’. Pattern: told / asked + person + (not) to + verb."
+      },
+      {
+        "tokens": [
+          "He",
+          "adviced",
+          "me",
+          "to",
+          "study",
+          "more."
+        ],
+        "errorIndex": 1,
+        "correction": "advised",
+        "type": "Spelling",
+        "message": "The verb is ‘advise’: ‘advised’. Pattern: told / asked + person + (not) to + verb."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which reporting verb, multiple choice and spot-the-mistake. In the typing questions write told / asked, to, not to or the base verb. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "verb": "Which reporting verb?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "verb",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Command",
+        "sentText": "“Sit still.” → The dentist told me {{blank}} still.",
+        "hint": "sit",
+        "answers": [
+          "to sit"
+        ],
+        "display": "to sit",
+        "explain": "A command: told + person + to + base verb.",
+        "wrongNote": "Add ‘to’ before the verb."
+      },
+      {
+        "type": "fill",
+        "use": "Negative command",
+        "sentText": "“Don’t run.” → She told us {{blank}} run.",
+        "hint": "not to / don’t",
+        "answers": [
+          "not to"
+        ],
+        "display": "not to",
+        "explain": "A negative command uses ‘not to’, never ‘don’t’.",
+        "wrongNote": "Negative → not to."
+      },
+      {
+        "type": "fill",
+        "use": "Request",
+        "sentText": "“Could you call me?” → He {{blank}} me to call him.",
+        "hint": "asked / told",
+        "answers": [
+          "asked"
+        ],
+        "display": "asked",
+        "explain": "Polite requests are reported with ‘ask’.",
+        "wrongNote": "Request → asked."
+      },
+      {
+        "type": "fill",
+        "use": "Pronoun",
+        "sentText": "“Help me.” → She asked me to help {{blank}} .",
+        "hint": "me",
+        "answers": [
+          "her"
+        ],
+        "display": "her",
+        "explain": "She talked about herself: ‘me’ becomes ‘her’.",
+        "wrongNote": "me → her."
+      },
+      {
+        "type": "order",
+        "use": "Command",
+        "tokens": [
+          "He",
+          "told",
+          "us",
+          "to",
+          "leave."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Negative command",
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "not",
+          "to",
+          "cry."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Request",
+        "tokens": [
+          "He",
+          "asked",
+          "me",
+          "to",
+          "wait."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Warn",
+        "tokens": [
+          "She",
+          "warned",
+          "us",
+          "not",
+          "to",
+          "go."
+        ]
+      },
+      {
+        "type": "verb",
+        "use": "Verb",
+        "text": "“Please pass the bread.” → She {{blank}} me to pass the bread.",
+        "choices": [
+          "ordered",
+          "asked",
+          "warned",
+          "reminded"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Ordered’ is too strong for a polite request.",
+          "",
+          "‘Warned’ is for danger.",
+          "‘Reminded’ is for things you might forget."
+        ],
+        "explain": "Polite request → asked."
+      },
+      {
+        "type": "verb",
+        "use": "Verb",
+        "text": "“Don’t touch the wire — it’s live!” → He {{blank}} me not to touch the wire.",
+        "choices": [
+          "invited",
+          "asked",
+          "reminded",
+          "warned"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Invited’ is the opposite.",
+          "‘Asked’ loses the danger.",
+          "‘Reminded’ is for forgetting.",
+          ""
+        ],
+        "explain": "Danger → warned."
+      },
+      {
+        "type": "verb",
+        "use": "Verb",
+        "text": "“Remember to buy milk.” → Dad {{blank}} me to buy milk.",
+        "choices": [
+          "reminded",
+          "remembered",
+          "warned",
+          "ordered"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Remembered me’ is wrong.",
+          "‘Warned’ is for danger.",
+          "‘Ordered’ is too strong."
+        ],
+        "explain": "Make someone remember → reminded."
+      },
+      {
+        "type": "verb",
+        "use": "Verb",
+        "text": "“Get out of the car now!” → The officer {{blank}} him to get out of the car.",
+        "choices": [
+          "invited",
+          "reminded",
+          "ordered",
+          "advised"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Invited’ is far too soft.",
+          "‘Reminded’ is wrong.",
+          "",
+          "‘Advised’ is too soft."
+        ],
+        "explain": "A strong command → ordered."
+      },
+      {
+        "type": "mc",
+        "use": "Tell or say",
+        "text": "“Be quiet.” → The teacher {{blank}} us to be quiet.",
+        "choices": [
+          "said",
+          "said to",
+          "told",
+          "spoke"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Said us’ is wrong.",
+          "‘Said to us to be quiet’ is very unnatural.",
+          "",
+          "‘Spoke us’ is wrong."
+        ],
+        "explain": "Commands → told + person + to."
+      },
+      {
+        "type": "mc",
+        "use": "Negative request",
+        "text": "“Please don’t laugh.” → She asked us {{blank}}.",
+        "choices": [
+          "not to laugh",
+          "don’t laugh",
+          "to don’t laugh",
+          "not laughing"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Don’t’ disappears.",
+          "‘To don’t’ is impossible.",
+          "‘To’ is missing."
+        ],
+        "explain": "asked + person + not to + verb."
+      },
+      {
+        "type": "mc",
+        "use": "No backshift",
+        "text": "“Stop talking.” → She told them {{blank}} talking.",
+        "choices": [
+          "to stopped",
+          "stopping",
+          "stop",
+          "to stop"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "The infinitive doesn’t change.",
+          "-ing doesn’t fit.",
+          "‘To’ is missing.",
+          ""
+        ],
+        "explain": "No backshift: to stop."
+      },
+      {
+        "type": "mc",
+        "use": "Ask to",
+        "text": "“Can I go to the toilet?” → Joan asked {{blank}} to the toilet.",
+        "choices": [
+          "me to go",
+          "to go",
+          "go",
+          "if go"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "That would mean Joan wanted me to go.",
+          "",
+          "‘To’ is missing.",
+          "Wrong structure."
+        ],
+        "explain": "Without a person: asked to go."
+      },
+      {
+        "type": "error",
+        "use": "Missing to",
+        "tokens": [
+          "He",
+          "told",
+          "me",
+          "stay",
+          "at",
+          "home."
+        ],
+        "errorIndex": 3,
+        "correction": "to stay",
+        "message": "Add ‘to’: ‘told me to stay’."
+      },
+      {
+        "type": "error",
+        "use": "Don’t in the report",
+        "tokens": [
+          "She",
+          "told",
+          "us",
+          "don’t",
+          "be",
+          "late."
+        ],
+        "errorIndex": 3,
+        "correction": "not to",
+        "message": "Negative: ‘told us not to be late’."
+      },
+      {
+        "type": "error",
+        "use": "Say + person",
+        "tokens": [
+          "He",
+          "said",
+          "me",
+          "to",
+          "hurry."
+        ],
+        "errorIndex": 1,
+        "correction": "told",
+        "message": "Use ‘tell’: ‘told me to hurry’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong verb",
+        "tokens": [
+          "“Please",
+          "wait.”",
+          "→",
+          "She",
+          "ordered",
+          "me",
+          "to",
+          "wait."
+        ],
+        "errorIndex": 4,
+        "correction": "asked",
+        "message": "A polite request: ‘asked me to wait’."
+      }
+    ]
+  }
+}
