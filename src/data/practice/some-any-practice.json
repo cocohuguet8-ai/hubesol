@@ -1,0 +1,1495 @@
+{
+  "tense": "some-any",
+  "lessonTitle": "Some & Any",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "some",
+        "any"
+      ],
+      "label": null,
+      "primary": "any"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type some, any, or a compound (someone, anything…). Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Positive",
+        "before": "There are",
+        "after": "biscuits in the tin.",
+        "hint": "some / any",
+        "answers": [
+          "some"
+        ],
+        "display": "some",
+        "explain": "Positive sentence: ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Positive",
+        "before": "I bought",
+        "after": "fruit at the market.",
+        "hint": "some / any",
+        "answers": [
+          "some"
+        ],
+        "display": "some",
+        "explain": "Positive + uncountable: ‘some fruit’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Negative",
+        "before": "There aren’t",
+        "after": "tomatoes left.",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "Negative sentence: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Negative",
+        "before": "I don’t have",
+        "after": "homework today.",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "Negative + uncountable: ‘any homework’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Question",
+        "before": "Have you got",
+        "after": "brothers or sisters?",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "Real question: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Question",
+        "before": "Is there",
+        "after": "milk in the fridge?",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "Question about existence: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Offer",
+        "before": "Would you like",
+        "after": "orange juice?",
+        "hint": "some / any",
+        "answers": [
+          "some"
+        ],
+        "display": "some",
+        "explain": "Offers use ‘some’: we expect a yes. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Request",
+        "before": "Can I have",
+        "after": "paper, please?",
+        "hint": "some / any",
+        "answers": [
+          "some"
+        ],
+        "display": "some",
+        "explain": "Requests use ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Request",
+        "before": "Could you give me",
+        "after": "advice?",
+        "hint": "some / any",
+        "answers": [
+          "some"
+        ],
+        "display": "some",
+        "explain": "Polite request: ‘some advice’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Negative word",
+        "before": "She left without",
+        "after": "money.",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "‘Without’ is negative: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Negative word",
+        "before": "He never has",
+        "after": "free time.",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "‘Never’ makes the sentence negative: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Any = no matter which",
+        "before": "You can sit in",
+        "after": "chair you like.",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "‘Any’ in a positive = it doesn’t matter which. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "before": "There’s",
+        "after": "at the door.",
+        "hint": "someone / anyone",
+        "answers": [
+          "someone",
+          "somebody"
+        ],
+        "display": "someone",
+        "explain": "Positive: ‘someone’ (or ‘somebody’). Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "before": "Is there",
+        "after": "at home?",
+        "hint": "someone / anyone",
+        "answers": [
+          "anyone",
+          "anybody"
+        ],
+        "display": "anyone",
+        "explain": "Question: ‘anyone’ (or ‘anybody’). Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "before": "I didn’t see",
+        "after": "strange.",
+        "hint": "something / anything",
+        "answers": [
+          "anything"
+        ],
+        "display": "anything",
+        "explain": "Negative: ‘anything’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "before": "I want to eat",
+        "after": "sweet.",
+        "hint": "something / anything",
+        "answers": [
+          "something"
+        ],
+        "display": "something",
+        "explain": "Positive: ‘something’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "before": "Let’s go",
+        "after": "quiet.",
+        "hint": "somewhere / anywhere",
+        "answers": [
+          "somewhere"
+        ],
+        "display": "somewhere",
+        "explain": "Positive suggestion: ‘somewhere’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "before": "I can’t find my keys",
+        "after": ".",
+        "hint": "somewhere / anywhere",
+        "answers": [
+          "anywhere"
+        ],
+        "display": "anywhere",
+        "explain": "Negative: ‘anywhere’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "No",
+        "before": "There are",
+        "after": "buses after midnight.",
+        "hint": "any / no",
+        "answers": [
+          "no"
+        ],
+        "display": "no",
+        "explain": "Positive verb + ‘no’ = there aren’t any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Offer",
+        "before": "Would you like",
+        "after": "to drink?",
+        "hint": "something / anything",
+        "answers": [
+          "something"
+        ],
+        "display": "something",
+        "explain": "Offers use some-compounds: ‘something’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with some and any.",
+    "sentences": [
+      {
+        "use": "Positive",
+        "tokens": [
+          "I",
+          "have",
+          "some",
+          "money."
+        ]
+      },
+      {
+        "use": "Positive",
+        "tokens": [
+          "There",
+          "are",
+          "some",
+          "eggs."
+        ]
+      },
+      {
+        "use": "Negative",
+        "tokens": [
+          "I",
+          "don’t",
+          "have",
+          "any",
+          "time."
+        ]
+      },
+      {
+        "use": "Negative",
+        "tokens": [
+          "There",
+          "isn’t",
+          "any",
+          "milk."
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Have",
+          "you",
+          "got",
+          "any",
+          "pets?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Is",
+          "there",
+          "any",
+          "bread?"
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "some",
+          "tea?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Can",
+          "I",
+          "have",
+          "some",
+          "water?"
+        ]
+      },
+      {
+        "use": "Negative word",
+        "tokens": [
+          "He",
+          "left",
+          "without",
+          "any",
+          "money."
+        ]
+      },
+      {
+        "use": "Any = no matter which",
+        "tokens": [
+          "Take",
+          "any",
+          "seat."
+        ]
+      },
+      {
+        "use": "Compound",
+        "tokens": [
+          "Someone",
+          "is",
+          "calling",
+          "you."
+        ]
+      },
+      {
+        "use": "Compound",
+        "tokens": [
+          "Is",
+          "anyone",
+          "there?"
+        ]
+      },
+      {
+        "use": "Compound",
+        "tokens": [
+          "I",
+          "didn’t",
+          "see",
+          "anything."
+        ]
+      },
+      {
+        "use": "Compound",
+        "tokens": [
+          "Let’s",
+          "go",
+          "somewhere",
+          "nice."
+        ]
+      },
+      {
+        "use": "Compound",
+        "tokens": [
+          "I",
+          "can’t",
+          "find",
+          "it",
+          "anywhere."
+        ]
+      },
+      {
+        "use": "No",
+        "tokens": [
+          "There",
+          "are",
+          "no",
+          "chairs."
+        ]
+      },
+      {
+        "use": "No",
+        "tokens": [
+          "I",
+          "have",
+          "no",
+          "idea."
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "Do",
+          "you",
+          "want",
+          "something",
+          "to",
+          "eat?"
+        ]
+      },
+      {
+        "use": "Negative",
+        "tokens": [
+          "We",
+          "didn’t",
+          "buy",
+          "any",
+          "bread."
+        ]
+      },
+      {
+        "use": "Positive",
+        "tokens": [
+          "I",
+          "need",
+          "some",
+          "help."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Some or any?",
+    "subtitle": "Tap a sentence, then tap the word that fills the gap.",
+    "leftLabel": "Sentence",
+    "rightLabel": "Word",
+    "rightLabelSub": "(some / any)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I’ve got ___ sweets.",
+        "right": "some"
+      },
+      {
+        "left": "I haven’t got ___ sweets.",
+        "right": "any"
+      },
+      {
+        "left": "Have you got ___ sweets?",
+        "right": "any"
+      },
+      {
+        "left": "Would you like ___ sweets?",
+        "right": "some"
+      },
+      {
+        "left": "There’s ___ rice left.",
+        "right": "some"
+      },
+      {
+        "left": "There isn’t ___ rice left.",
+        "right": "any"
+      },
+      {
+        "left": "Can I have ___ salt?",
+        "right": "some"
+      },
+      {
+        "left": "Did you meet ___ new friends?",
+        "right": "any"
+      },
+      {
+        "left": "She went out without ___ coat.",
+        "right": "any"
+      },
+      {
+        "left": "Choose ___ colour you like.",
+        "right": "any"
+      },
+      {
+        "left": "We need ___ more chairs.",
+        "right": "some"
+      },
+      {
+        "left": "They never eat ___ meat.",
+        "right": "any"
+      },
+      {
+        "left": "Could you buy ___ bread?",
+        "right": "some"
+      },
+      {
+        "left": "Are there ___ good films on?",
+        "right": "any"
+      },
+      {
+        "left": "I made ___ mistakes.",
+        "right": "some"
+      },
+      {
+        "left": "I didn’t make ___ mistakes.",
+        "right": "any"
+      },
+      {
+        "left": "Would you like ___ help?",
+        "right": "some"
+      },
+      {
+        "left": "Is there ___ sugar?",
+        "right": "any"
+      },
+      {
+        "left": "He gave me ___ flowers.",
+        "right": "some"
+      },
+      {
+        "left": "We don’t have ___ plans.",
+        "right": "any"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Positive, offers, requests → some. Negatives and real questions → any.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Negative",
+        "text": "We didn’t see <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dolphins on the trip.",
+        "choices": [
+          "any",
+          "some",
+          "no",
+          "a"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Negatives use ‘any’, not ‘some’.",
+          "‘Didn’t’ + ‘no’ is a double negative.",
+          "‘A’ doesn’t go with plurals."
+        ],
+        "explain": "Negative: any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Offer",
+        "text": "Would you like <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more soup?",
+        "choices": [
+          "any",
+          "some",
+          "no",
+          "a"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Offers use ‘some’ because we expect a yes.",
+          "",
+          "‘No’ doesn’t fit an offer.",
+          "‘Soup’ here is uncountable."
+        ],
+        "explain": "Offer: some. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Question",
+        "text": "Are there <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> good restaurants near here?",
+        "choices": [
+          "some",
+          "no",
+          "any",
+          "a"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "A real question normally uses ‘any’.",
+          "‘No’ doesn’t fit a question like this.",
+          "",
+          "‘A’ doesn’t go with plurals."
+        ],
+        "explain": "Real question: any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Positive",
+        "text": "I’ve got <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> good news for you!",
+        "choices": [
+          "any",
+          "a",
+          "many",
+          "some"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Positive sentences use ‘some’.",
+          "‘News’ is uncountable: no ‘a’.",
+          "‘Many’ goes with countables.",
+          ""
+        ],
+        "explain": "Positive + uncountable: some. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Request",
+        "text": "Could you pass me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> napkins, please?",
+        "choices": [
+          "any",
+          "some",
+          "no",
+          "a"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Requests use ‘some’.",
+          "",
+          "‘No’ doesn’t fit a request.",
+          "‘A’ doesn’t go with plurals."
+        ],
+        "explain": "Request: some. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Negative word",
+        "text": "She did the test without <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> help.",
+        "choices": [
+          "some",
+          "no",
+          "any",
+          "a"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Without’ is negative: use ‘any’.",
+          "‘Without no’ is a double negative.",
+          "",
+          "‘Help’ is uncountable."
+        ],
+        "explain": "Without + any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Any = no matter which",
+        "text": "Call me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> time — I’m always free.",
+        "choices": [
+          "some",
+          "no",
+          "a",
+          "any"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Some time’ means at a certain time, not ‘whenever’.",
+          "‘No time’ means never.",
+          "‘A time’ doesn’t give this meaning.",
+          ""
+        ],
+        "explain": "‘Any’ = it doesn’t matter which. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "text": "Did <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> phone me while I was out?",
+        "choices": [
+          "anyone",
+          "someone",
+          "no one",
+          "anything"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A real question normally uses ‘anyone’.",
+          "‘Did no one phone me?’ changes the meaning.",
+          "‘Anything’ is for things, not people."
+        ],
+        "explain": "Question about people: anyone. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "text": "I’m bored. Let’s do <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> fun.",
+        "choices": [
+          "anything",
+          "nothing",
+          "something",
+          "somewhere"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Positive suggestion: ‘something’.",
+          "‘Do nothing fun’ is the opposite.",
+          "",
+          "‘Somewhere’ is for places."
+        ],
+        "explain": "Positive: something. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "text": "I looked everywhere, but I couldn’t find it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "somewhere",
+          "nowhere",
+          "anything",
+          "anywhere"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Negative: ‘anywhere’.",
+          "‘Couldn’t … nowhere’ is a double negative.",
+          "‘Anything’ is for things.",
+          ""
+        ],
+        "explain": "Negative + place: anywhere. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "No",
+        "text": "There’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> milk left — we need to buy some.",
+        "choices": [
+          "no",
+          "any",
+          "some",
+          "none"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘There’s any milk’ is wrong in a positive.",
+          "‘Some milk’ contradicts ‘we need to buy some’.",
+          "‘None’ can’t go before a noun."
+        ],
+        "explain": "Positive verb + no = there isn’t any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Double negative",
+        "text": "I didn’t say <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to her.",
+        "choices": [
+          "nothing",
+          "anything",
+          "something",
+          "no"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Didn’t … nothing’ is a double negative.",
+          "",
+          "‘Something’ is for positives.",
+          "‘No’ needs a noun."
+        ],
+        "explain": "Negative + anything. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Offer",
+        "text": "Can I get you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to drink?",
+        "choices": [
+          "anything",
+          "nothing",
+          "some",
+          "something"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Offers usually use ‘something’.",
+          "‘Nothing’ doesn’t fit an offer.",
+          "‘Some’ needs a noun after it.",
+          ""
+        ],
+        "explain": "Offer: something. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Question",
+        "text": "Do you have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> questions?",
+        "choices": [
+          "any",
+          "some",
+          "no",
+          "a"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Real question: ‘any’.",
+          "‘No’ doesn’t fit.",
+          "No ‘a’ with plurals."
+        ],
+        "explain": "Question: any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Singular countable",
+        "text": "I need <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> pen. Can you lend me one?",
+        "choices": [
+          "some",
+          "a",
+          "any",
+          "no"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Some’ doesn’t go with a singular countable here.",
+          "",
+          "‘Any’ doesn’t fit a positive request.",
+          "‘No’ changes the meaning."
+        ],
+        "explain": "Singular countable: a pen. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Negative",
+        "text": "They haven’t got <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> children.",
+        "choices": [
+          "some",
+          "no",
+          "any",
+          "a"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Negatives use ‘any’.",
+          "‘Haven’t … no’ is a double negative.",
+          "",
+          "No ‘a’ with plurals."
+        ],
+        "explain": "Negative: any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "I don’t have any money.",
+          "I don’t have some money.",
+          "I don’t have no money.",
+          "I have any money."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Negatives use ‘any’.",
+          "Double negative.",
+          "‘Any’ doesn’t go in this positive."
+        ],
+        "explain": "Negative: any money. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "Would you like any cake?",
+          "Would you like some cake?",
+          "Would you like no cake?",
+          "Would you like a some cake?"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Offers use ‘some’.",
+          "",
+          "‘No’ doesn’t fit an offer.",
+          "‘A some’ isn’t English."
+        ],
+        "explain": "Offer: some cake. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "text": "There’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in my eye!",
+        "choices": [
+          "anything",
+          "nothing",
+          "something",
+          "anyone"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Positive: not ‘anything’.",
+          "‘Nothing’ is the opposite meaning.",
+          "",
+          "‘Anyone’ is for people."
+        ],
+        "explain": "Positive: something. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "use": "Compound",
+        "text": "There isn’t <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the box. It’s empty.",
+        "choices": [
+          "something",
+          "nothing",
+          "anywhere",
+          "anything"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Negative: not ‘something’.",
+          "‘Isn’t … nothing’ is a double negative.",
+          "‘Anywhere’ is for places.",
+          ""
+        ],
+        "explain": "Negative: anything. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "We",
+          "don’t",
+          "have",
+          "some",
+          "eggs."
+        ],
+        "errorIndex": 3,
+        "correction": "any",
+        "type": "Some in negative",
+        "message": "Negatives use ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "There",
+          "isn’t",
+          "some",
+          "sugar",
+          "in",
+          "my",
+          "coffee."
+        ],
+        "errorIndex": 2,
+        "correction": "any",
+        "type": "Some in negative",
+        "message": "Negative sentence: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "I",
+          "didn’t",
+          "buy",
+          "some",
+          "presents",
+          "this",
+          "year."
+        ],
+        "errorIndex": 3,
+        "correction": "any",
+        "type": "Some in negative",
+        "message": "Negative: ‘any presents’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "Are",
+          "there",
+          "some",
+          "problems",
+          "with",
+          "the",
+          "computer?"
+        ],
+        "errorIndex": 2,
+        "correction": "any",
+        "type": "Some in question",
+        "message": "A real question normally uses ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "I’ve",
+          "got",
+          "any",
+          "sweets",
+          "in",
+          "my",
+          "pocket."
+        ],
+        "errorIndex": 2,
+        "correction": "some",
+        "type": "Any in positive",
+        "message": "Positive sentence: ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "There",
+          "are",
+          "any",
+          "birds",
+          "in",
+          "the",
+          "tree."
+        ],
+        "errorIndex": 2,
+        "correction": "some",
+        "type": "Any in positive",
+        "message": "Positive: ‘some birds’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "any",
+          "biscuits?"
+        ],
+        "errorIndex": 3,
+        "correction": "some",
+        "type": "Any in offer",
+        "message": "Offers use ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "Can",
+          "I",
+          "have",
+          "any",
+          "water,",
+          "please?"
+        ],
+        "errorIndex": 3,
+        "correction": "some",
+        "type": "Any in request",
+        "message": "Requests use ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "He",
+          "went",
+          "out",
+          "without",
+          "some",
+          "money."
+        ],
+        "errorIndex": 4,
+        "correction": "any",
+        "type": "Negative word",
+        "message": "‘Without’ is negative: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "She",
+          "never",
+          "eats",
+          "some",
+          "meat."
+        ],
+        "errorIndex": 3,
+        "correction": "any",
+        "type": "Negative word",
+        "message": "‘Never’ is negative: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "I",
+          "haven’t",
+          "got",
+          "no",
+          "friends",
+          "here."
+        ],
+        "errorIndex": 3,
+        "correction": "any",
+        "type": "Double negative",
+        "message": "Double negative: ‘haven’t got any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "They",
+          "didn’t",
+          "say",
+          "nothing."
+        ],
+        "errorIndex": 3,
+        "correction": "anything",
+        "type": "Double negative",
+        "message": "Double negative: ‘didn’t say anything’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "We",
+          "couldn’t",
+          "find",
+          "it",
+          "nowhere."
+        ],
+        "errorIndex": 4,
+        "correction": "anywhere",
+        "type": "Double negative",
+        "message": "Double negative: ‘couldn’t find it anywhere’."
+      },
+      {
+        "tokens": [
+          "Is",
+          "there",
+          "someone",
+          "in",
+          "the",
+          "bathroom?"
+        ],
+        "errorIndex": 2,
+        "correction": "anyone",
+        "type": "Compound",
+        "message": "A real question: ‘anyone’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "I",
+          "didn’t",
+          "hear",
+          "something."
+        ],
+        "errorIndex": 3,
+        "correction": "anything",
+        "type": "Compound",
+        "message": "Negative: ‘anything’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "Anybody",
+          "is",
+          "knocking",
+          "at",
+          "the",
+          "door."
+        ],
+        "errorIndex": 0,
+        "correction": "Somebody",
+        "type": "Compound",
+        "message": "Positive with a specific person: ‘Somebody’."
+      },
+      {
+        "tokens": [
+          "Let’s",
+          "go",
+          "anywhere",
+          "warm",
+          "this",
+          "summer."
+        ],
+        "errorIndex": 2,
+        "correction": "somewhere",
+        "type": "Compound",
+        "message": "Positive suggestion: ‘somewhere’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "Can",
+          "you",
+          "lend",
+          "me",
+          "some",
+          "pen?"
+        ],
+        "errorIndex": 4,
+        "correction": "a",
+        "type": "Some + singular",
+        "message": "Singular countable: ‘a pen’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "There",
+          "aren’t",
+          "no",
+          "buses",
+          "today."
+        ],
+        "errorIndex": 2,
+        "correction": "any",
+        "type": "No + negative",
+        "message": "Double negative: ‘aren’t any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "making",
+          "pasta",
+          "—",
+          "would",
+          "you",
+          "like",
+          "any?"
+        ],
+        "errorIndex": 7,
+        "correction": "some",
+        "type": "Any in offer",
+        "message": "Offers use ‘some’: ‘would you like some?’"
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which situation, multiple choice and spot-the-mistake. In the typing questions write one word. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "situation": "Which situation?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "situation",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Negative",
+        "sentText": "I haven’t got {{blank}} cousins.",
+        "hint": "some / any",
+        "answers": [
+          "any"
+        ],
+        "display": "any",
+        "explain": "Negative sentence: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any.",
+        "wrongNote": "Negative → any."
+      },
+      {
+        "type": "fill",
+        "use": "Offer",
+        "sentText": "Would you like {{blank}} popcorn?",
+        "hint": "some / any",
+        "answers": [
+          "some"
+        ],
+        "display": "some",
+        "explain": "Offers use ‘some’.",
+        "wrongNote": "Offer → some."
+      },
+      {
+        "type": "fill",
+        "use": "Compound",
+        "sentText": "Did you buy {{blank}} at the shop?",
+        "hint": "something / anything",
+        "answers": [
+          "anything"
+        ],
+        "display": "anything",
+        "explain": "Real question: ‘anything’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any.",
+        "wrongNote": "Question → any-."
+      },
+      {
+        "type": "fill",
+        "use": "Compound",
+        "sentText": "{{blank}} left a bag here.",
+        "hint": "someone / anyone",
+        "answers": [
+          "Someone",
+          "Somebody",
+          "someone",
+          "somebody"
+        ],
+        "display": "Someone",
+        "explain": "Positive: ‘someone’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any.",
+        "wrongNote": "Positive → some-."
+      },
+      {
+        "type": "order",
+        "use": "Negative",
+        "tokens": [
+          "I",
+          "don’t",
+          "want",
+          "any",
+          "cake."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Offer",
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "some",
+          "juice?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Compound",
+        "tokens": [
+          "Someone",
+          "called",
+          "you."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "No",
+        "tokens": [
+          "There",
+          "is",
+          "no",
+          "time."
+        ]
+      },
+      {
+        "type": "situation",
+        "use": "Situation",
+        "text": "Why ‘some’ in ‘Can I have some water?’",
+        "choices": [
+          "it’s negative",
+          "it’s a request",
+          "it’s a real question",
+          "water is countable"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "There’s no negative.",
+          "",
+          "It’s a request, not a neutral question.",
+          "Water is uncountable — but that’s not why."
+        ],
+        "explain": "Requests use ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "situation",
+        "use": "Situation",
+        "text": "Why ‘any’ in ‘Take any book you want’?",
+        "choices": [
+          "it’s negative",
+          "it’s a question",
+          "it’s an offer of food",
+          "it doesn’t matter which"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "There’s no negative.",
+          "It isn’t a question.",
+          "It isn’t about food.",
+          ""
+        ],
+        "explain": "‘Any’ in a positive = no matter which. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "situation",
+        "use": "Situation",
+        "text": "Why ‘any’ in ‘He left without any food’?",
+        "choices": [
+          "‘without’ is negative",
+          "it’s an offer",
+          "food is plural",
+          "it’s a request"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "It isn’t an offer.",
+          "‘Food’ isn’t plural.",
+          "It isn’t a request."
+        ],
+        "explain": "Negative words take ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "situation",
+        "use": "Situation",
+        "text": "‘I’ve got no money’ means…",
+        "choices": [
+          "I’ve got some money",
+          "I’ve got a little money",
+          "I haven’t got any money",
+          "I want money"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "It’s the opposite.",
+          "‘No’ means zero.",
+          "",
+          "It’s about having, not wanting."
+        ],
+        "explain": "No = not any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "mc",
+        "use": "Question",
+        "text": "Have you got {{blank}} plans for Saturday?",
+        "choices": [
+          "some",
+          "no",
+          "any",
+          "a"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Real question: ‘any’.",
+          "‘No’ doesn’t fit.",
+          "",
+          "No ‘a’ with plurals."
+        ],
+        "explain": "Question: any. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "mc",
+        "use": "Positive",
+        "text": "We saw {{blank}} beautiful birds in the park.",
+        "choices": [
+          "some",
+          "any",
+          "a",
+          "no"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Positive: ‘some’.",
+          "No ‘a’ with plurals.",
+          "‘No’ changes the meaning."
+        ],
+        "explain": "Positive: some. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "mc",
+        "use": "Compound",
+        "text": "I’m not hungry. I don’t want {{blank}}.",
+        "choices": [
+          "something",
+          "nothing",
+          "any",
+          "anything"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Negative: ‘anything’.",
+          "Double negative.",
+          "‘Any’ alone needs a noun here.",
+          ""
+        ],
+        "explain": "Negative: anything. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "mc",
+        "use": "Request",
+        "text": "Could I have {{blank}} ketchup, please?",
+        "choices": [
+          "any",
+          "some",
+          "no",
+          "a"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Requests use ‘some’.",
+          "",
+          "‘No’ doesn’t fit a request.",
+          "‘Ketchup’ is uncountable."
+        ],
+        "explain": "Request: some. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "error",
+        "use": "Some in negative",
+        "tokens": [
+          "I",
+          "don’t",
+          "have",
+          "some",
+          "money."
+        ],
+        "errorIndex": 3,
+        "correction": "any",
+        "message": "Negative: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "error",
+        "use": "Any in offer",
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "any",
+          "tea?"
+        ],
+        "errorIndex": 3,
+        "correction": "some",
+        "message": "Offers use ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "error",
+        "use": "Double negative",
+        "tokens": [
+          "I",
+          "didn’t",
+          "do",
+          "nothing."
+        ],
+        "errorIndex": 3,
+        "correction": "anything",
+        "message": "Double negative. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      },
+      {
+        "type": "error",
+        "use": "Any in positive",
+        "tokens": [
+          "I",
+          "need",
+          "any",
+          "help."
+        ],
+        "errorIndex": 2,
+        "correction": "some",
+        "message": "Positive: ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
+      }
+    ]
+  }
+}
