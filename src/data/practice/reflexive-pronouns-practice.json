@@ -1,0 +1,1487 @@
+{
+  "tense": "reflexive-pronouns",
+  "lessonTitle": "Reflexive Pronouns",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "myself",
+        "yourself",
+        "himself",
+        "herself",
+        "itself",
+        "ourselves",
+        "yourselves",
+        "themselves"
+      ],
+      "label": null,
+      "primary": "myself"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the correct reflexive pronoun. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Same person",
+        "before": "I cut",
+        "after": "while I was cooking.",
+        "hint": "I → ?",
+        "answers": [
+          "myself"
+        ],
+        "display": "myself",
+        "explain": "Subject ‘I’, object is the same person: ‘myself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "before": "She looked at",
+        "after": "in the mirror.",
+        "hint": "she → ?",
+        "answers": [
+          "herself"
+        ],
+        "display": "herself",
+        "explain": "Subject ‘she’: ‘herself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "before": "He hurt",
+        "after": "playing football.",
+        "hint": "he → ?",
+        "answers": [
+          "himself"
+        ],
+        "display": "himself",
+        "explain": "Subject ‘he’: ‘himself’ (never ‘hisself’). Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "before": "The cat is cleaning",
+        "after": ".",
+        "hint": "it → ?",
+        "answers": [
+          "itself"
+        ],
+        "display": "itself",
+        "explain": "Animal / thing: ‘itself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "before": "We taught",
+        "after": "to play the guitar.",
+        "hint": "we → ?",
+        "answers": [
+          "ourselves"
+        ],
+        "display": "ourselves",
+        "explain": "Subject ‘we’: ‘ourselves’ (plural ends in -selves)."
+      },
+      {
+        "use": "Same person",
+        "before": "They blamed",
+        "after": "for the accident.",
+        "hint": "they → ?",
+        "answers": [
+          "themselves"
+        ],
+        "display": "themselves",
+        "explain": "Subject ‘they’: ‘themselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "before": "Did you burn",
+        "after": "on the oven, Marta?",
+        "hint": "you (one) → ?",
+        "answers": [
+          "yourself"
+        ],
+        "display": "yourself",
+        "explain": "One person: ‘yourself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "before": "Children, look after",
+        "after": "!",
+        "hint": "you (many) → ?",
+        "answers": [
+          "yourselves"
+        ],
+        "display": "yourselves",
+        "explain": "More than one person: ‘yourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Emphasis",
+        "before": "I made this birthday cake",
+        "after": "!",
+        "hint": "I → ?",
+        "answers": [
+          "myself"
+        ],
+        "display": "myself",
+        "explain": "Emphasis: nobody helped me. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Emphasis",
+        "before": "The manager",
+        "after": "came to say sorry.",
+        "hint": "he → ?",
+        "answers": [
+          "himself"
+        ],
+        "display": "himself",
+        "explain": "Emphasis: the manager, not someone else. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Emphasis",
+        "before": "We painted the whole house",
+        "after": ".",
+        "hint": "we → ?",
+        "answers": [
+          "ourselves"
+        ],
+        "display": "ourselves",
+        "explain": "Emphasis: we did it, not a painter. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "By + reflexive",
+        "before": "My grandma lives by",
+        "after": ".",
+        "hint": "she → ?",
+        "answers": [
+          "herself"
+        ],
+        "display": "herself",
+        "explain": "‘By herself’ = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "By + reflexive",
+        "before": "Did you do this puzzle by",
+        "after": "?",
+        "hint": "you (one) → ?",
+        "answers": [
+          "yourself"
+        ],
+        "display": "yourself",
+        "explain": "‘By yourself’ = without help. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "By + reflexive",
+        "before": "The kids went to school by",
+        "after": "today.",
+        "hint": "they → ?",
+        "answers": [
+          "themselves"
+        ],
+        "display": "themselves",
+        "explain": "‘By themselves’ = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Enjoy",
+        "before": "Did you enjoy",
+        "after": "at the party, guys?",
+        "hint": "you (many) → ?",
+        "answers": [
+          "yourselves"
+        ],
+        "display": "yourselves",
+        "explain": "‘Enjoy yourselves’ — more than one person. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Help",
+        "before": "Please help",
+        "after": "to some coffee.",
+        "hint": "you (one) → ?",
+        "answers": [
+          "yourself"
+        ],
+        "display": "yourself",
+        "explain": "‘Help yourself’ = take what you want. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Introduce",
+        "before": "Let me introduce",
+        "after": ". I’m Pau.",
+        "hint": "I → ?",
+        "answers": [
+          "myself"
+        ],
+        "display": "myself",
+        "explain": "‘Introduce myself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Behave",
+        "before": "The dog behaved",
+        "after": "at the vet.",
+        "hint": "it → ?",
+        "answers": [
+          "itself"
+        ],
+        "display": "itself",
+        "explain": "‘Behave itself’ for an animal. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Talk to",
+        "before": "He often talks to",
+        "after": "when he’s nervous.",
+        "hint": "he → ?",
+        "answers": [
+          "himself"
+        ],
+        "display": "himself",
+        "explain": "‘Talk to himself’ — the same person. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Be proud",
+        "before": "You should be proud of",
+        "after": ", Nil!",
+        "hint": "you (one) → ?",
+        "answers": [
+          "yourself"
+        ],
+        "display": "yourself",
+        "explain": "‘Proud of yourself’ — one person. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with reflexive pronouns.",
+    "sentences": [
+      {
+        "use": "Same person",
+        "tokens": [
+          "I",
+          "cut",
+          "myself."
+        ]
+      },
+      {
+        "use": "Same person",
+        "tokens": [
+          "She",
+          "hurt",
+          "herself."
+        ]
+      },
+      {
+        "use": "Same person",
+        "tokens": [
+          "He",
+          "looked",
+          "at",
+          "himself."
+        ]
+      },
+      {
+        "use": "Same person",
+        "tokens": [
+          "The",
+          "dog",
+          "scratched",
+          "itself."
+        ]
+      },
+      {
+        "use": "Same person",
+        "tokens": [
+          "We",
+          "taught",
+          "ourselves."
+        ]
+      },
+      {
+        "use": "Same person",
+        "tokens": [
+          "They",
+          "blamed",
+          "themselves."
+        ]
+      },
+      {
+        "use": "Emphasis",
+        "tokens": [
+          "I",
+          "made",
+          "it",
+          "myself."
+        ]
+      },
+      {
+        "use": "Emphasis",
+        "tokens": [
+          "She",
+          "did",
+          "it",
+          "herself."
+        ]
+      },
+      {
+        "use": "Emphasis",
+        "tokens": [
+          "We",
+          "built",
+          "it",
+          "ourselves."
+        ]
+      },
+      {
+        "use": "By + reflexive",
+        "tokens": [
+          "He",
+          "lives",
+          "by",
+          "himself."
+        ]
+      },
+      {
+        "use": "By + reflexive",
+        "tokens": [
+          "I",
+          "went",
+          "by",
+          "myself."
+        ]
+      },
+      {
+        "use": "Enjoy",
+        "tokens": [
+          "Enjoy",
+          "yourselves",
+          "at",
+          "the",
+          "party!"
+        ]
+      },
+      {
+        "use": "Help",
+        "tokens": [
+          "Help",
+          "yourself",
+          "to",
+          "cake."
+        ]
+      },
+      {
+        "use": "Introduce",
+        "tokens": [
+          "Let",
+          "me",
+          "introduce",
+          "myself."
+        ]
+      },
+      {
+        "use": "Behave",
+        "tokens": [
+          "Behave",
+          "yourselves,",
+          "kids!"
+        ]
+      },
+      {
+        "use": "No reflexive",
+        "tokens": [
+          "I",
+          "get",
+          "dressed",
+          "at",
+          "seven."
+        ]
+      },
+      {
+        "use": "No reflexive",
+        "tokens": [
+          "I",
+          "feel",
+          "tired."
+        ]
+      },
+      {
+        "use": "Each other",
+        "tokens": [
+          "They",
+          "looked",
+          "at",
+          "each",
+          "other."
+        ]
+      },
+      {
+        "use": "Talk to",
+        "tokens": [
+          "She",
+          "talks",
+          "to",
+          "herself."
+        ]
+      },
+      {
+        "use": "Proud",
+        "tokens": [
+          "Be",
+          "proud",
+          "of",
+          "yourself."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Who is it?",
+    "subtitle": "Tap a subject, then tap its reflexive pronoun.",
+    "leftLabel": "Subject",
+    "rightLabel": "Reflexive",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I hurt…",
+        "right": "myself"
+      },
+      {
+        "left": "Anna hurt…",
+        "right": "herself"
+      },
+      {
+        "left": "Marc hurt…",
+        "right": "himself"
+      },
+      {
+        "left": "The robot switched…off",
+        "right": "itself"
+      },
+      {
+        "left": "We enjoyed…",
+        "right": "ourselves"
+      },
+      {
+        "left": "You (Pau) cut…",
+        "right": "yourself"
+      },
+      {
+        "left": "You (Pau and Nil) cut…",
+        "right": "yourselves"
+      },
+      {
+        "left": "The girls blamed…",
+        "right": "themselves"
+      },
+      {
+        "left": "My dad shaved… (special effort!)",
+        "right": "himself"
+      },
+      {
+        "left": "The cat washed…",
+        "right": "itself"
+      },
+      {
+        "left": "My sister and I taught…",
+        "right": "ourselves"
+      },
+      {
+        "left": "The students introduced…",
+        "right": "themselves"
+      },
+      {
+        "left": "I said to…",
+        "right": "myself"
+      },
+      {
+        "left": "My mum made it…",
+        "right": "herself"
+      },
+      {
+        "left": "You (one person) did it…",
+        "right": "yourself"
+      },
+      {
+        "left": "The machine cleans…",
+        "right": "itself"
+      },
+      {
+        "left": "Kids, help…",
+        "right": "yourselves"
+      },
+      {
+        "left": "Joan lives by…",
+        "right": "himself"
+      },
+      {
+        "left": "They live by…",
+        "right": "themselves"
+      },
+      {
+        "left": "We did it by…",
+        "right": "ourselves"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Same person as the subject? Want to say “nobody else did it”? → reflexive.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Same person",
+        "text": "Be careful with that knife! Don’t cut <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "yourself",
+          "you",
+          "yourselves",
+          "your"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Cut you’ means you cut another person called ‘you’ — we need the reflexive.",
+          "One person: not ‘yourselves’.",
+          "‘Your’ needs a noun."
+        ],
+        "explain": "One person, same subject: yourself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "text": "Marc fell off his bike and hurt <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "hisself",
+          "himself",
+          "him",
+          "herself"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Hisself’ is not a word.",
+          "",
+          "‘Him’ would be another man.",
+          "‘Herself’ is for a woman."
+        ],
+        "explain": "He → himself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "text": "The girls took photos of <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "theirselves",
+          "them",
+          "themselves",
+          "themself"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Theirselves’ is not a word.",
+          "‘Them’ would be other people.",
+          "",
+          "‘Themself’ isn’t the plural form here."
+        ],
+        "explain": "They → themselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Same person",
+        "text": "We really enjoyed <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the concert.",
+        "choices": [
+          "ourself",
+          "us",
+          "themselves",
+          "ourselves"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Plural: ‘-selves’.",
+          "‘Enjoy us’ is wrong.",
+          "‘Themselves’ doesn’t match ‘we’.",
+          ""
+        ],
+        "explain": "We → ourselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Emphasis",
+        "text": "I didn’t buy this jumper — I knitted it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "me",
+          "myself",
+          "mine",
+          "by me"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Knitted it me’ is wrong.",
+          "",
+          "‘Mine’ is possessive.",
+          "‘By me’ isn’t natural here."
+        ],
+        "explain": "Emphasis: myself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "By + reflexive",
+        "text": "She travelled around Asia by <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "her",
+          "hers",
+          "herself",
+          "she"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘By her’ means ‘next to her’ or ‘by her (agent)’.",
+          "‘Hers’ is possessive.",
+          "",
+          "Subject pronoun after a preposition is wrong."
+        ],
+        "explain": "By herself = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Help",
+        "text": "There’s food in the kitchen. Help <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>!",
+        "choices": [
+          "you",
+          "yourself",
+          "your",
+          "yourselves"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Help you’ isn’t the meaning.",
+          "Talking to a group → plural.",
+          "‘Your’ needs a noun.",
+          ""
+        ],
+        "explain": "Talking to a group: help yourselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Introduce",
+        "text": "Can you introduce <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the class, please, Sara?",
+        "choices": [
+          "yourself",
+          "you",
+          "yourselves",
+          "yours"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Introduce you’ would be someone else introducing you.",
+          "One person: not plural.",
+          "‘Yours’ is possessive."
+        ],
+        "explain": "One person: introduce yourself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "It",
+        "text": "The door closed by <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "it",
+          "its",
+          "itself",
+          "itselves"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘By it’ has a different meaning.",
+          "‘Its’ is possessive.",
+          "",
+          "Not a word."
+        ],
+        "explain": "Thing: by itself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "No reflexive",
+        "text": "Every morning I wake up, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and have breakfast.",
+        "choices": [
+          "dress myself",
+          "get myself dressed",
+          "dressed me",
+          "get dressed"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Normally we don’t use a reflexive with ‘dress’.",
+          "Not natural for a daily routine.",
+          "Not English.",
+          ""
+        ],
+        "explain": "Daily routine: get dressed. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "No reflexive",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> much better today.",
+        "choices": [
+          "feel",
+          "feel myself",
+          "feel me",
+          "am feeling myself"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Feel’ takes no reflexive.",
+          "Not English.",
+          "Not English."
+        ],
+        "explain": "Feel + adjective: no reflexive. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "No reflexive",
+        "text": "Let’s sit down and <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "relax ourselves",
+          "relax",
+          "relax us",
+          "relaxing us"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Relax’ doesn’t take a reflexive.",
+          "",
+          "Not English.",
+          "Not English."
+        ],
+        "explain": "Relax: no reflexive. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Each other",
+        "text": "Joan and Maria love <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>. They’re married.",
+        "choices": [
+          "themselves",
+          "theirselves",
+          "itself",
+          "each other"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Themselves’ means each one loves himself/herself.",
+          "Not a word.",
+          "Not for people.",
+          ""
+        ],
+        "explain": "A ↔ B: each other. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Each other",
+        "text": "The players looked at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the mirror before the match.",
+        "choices": [
+          "themselves",
+          "each other",
+          "them",
+          "itself"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "In a mirror, each one sees himself.",
+          "‘Them’ would be other people.",
+          "Not for people."
+        ],
+        "explain": "Each one sees himself: themselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Preposition of place",
+        "text": "She put her bag next to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "herself",
+          "her",
+          "she",
+          "hers"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After prepositions of place we use the object pronoun.",
+          "",
+          "Subject pronoun after a preposition is wrong.",
+          "‘Hers’ is possessive."
+        ],
+        "explain": "Place: next to her. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Behave",
+        "text": "Children, behave <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>!",
+        "choices": [
+          "yourself",
+          "you",
+          "yourselves",
+          "ourselves"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Talking to several children: plural.",
+          "‘Behave you’ is wrong.",
+          "",
+          "‘Ourselves’ doesn’t match."
+        ],
+        "explain": "Group: behave yourselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "They did it themselves.",
+          "They did it theirselves.",
+          "They did it themself.",
+          "They did it them."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Not a word.",
+          "Singular-looking form.",
+          "Wrong pronoun."
+        ],
+        "explain": "They → themselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "I shower myself every morning.",
+          "I have a shower every morning.",
+          "I wash me every morning.",
+          "I have myself a shower every morning."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Not natural English.",
+          "",
+          "‘Wash me’ is wrong.",
+          "Not English."
+        ],
+        "explain": "Daily routine: no reflexive. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Emphasis",
+        "text": "The Queen <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> opened the new hospital.",
+        "choices": [
+          "her",
+          "she",
+          "herself",
+          "hers"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘The Queen her’ is wrong.",
+          "Double subject.",
+          "",
+          "‘Hers’ is possessive."
+        ],
+        "explain": "Emphasis: the Queen herself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "use": "Talk to",
+        "text": "Grandpa sometimes talks to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "him",
+          "hisself",
+          "he",
+          "himself"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Him’ would be another man.",
+          "Not a word.",
+          "Subject pronoun after a preposition is wrong.",
+          ""
+        ],
+        "explain": "Same person: himself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "He",
+          "made",
+          "the",
+          "cake",
+          "hisself."
+        ],
+        "errorIndex": 4,
+        "correction": "himself",
+        "type": "Wrong form",
+        "message": "The correct form is ‘himself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "They",
+          "enjoyed",
+          "theirselves",
+          "at",
+          "the",
+          "beach."
+        ],
+        "errorIndex": 2,
+        "correction": "themselves",
+        "type": "Wrong form",
+        "message": "The correct form is ‘themselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "We",
+          "did",
+          "all",
+          "the",
+          "work",
+          "ourself."
+        ],
+        "errorIndex": 5,
+        "correction": "ourselves",
+        "type": "Wrong form",
+        "message": "Plural: ‘ourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "You",
+          "two",
+          "should",
+          "be",
+          "proud",
+          "of",
+          "yourself."
+        ],
+        "errorIndex": 6,
+        "correction": "yourselves",
+        "type": "Wrong form",
+        "message": "Two people: ‘yourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "The",
+          "dog",
+          "hurt",
+          "himself",
+          "—",
+          "it’s",
+          "a",
+          "puppy."
+        ],
+        "errorIndex": 3,
+        "correction": "itself",
+        "type": "Wrong form",
+        "message": "For an animal we call ‘it’: ‘itself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "I",
+          "cut",
+          "me",
+          "with",
+          "a",
+          "knife."
+        ],
+        "errorIndex": 2,
+        "correction": "myself",
+        "type": "Object pronoun",
+        "message": "Same person: ‘myself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "She",
+          "taught",
+          "her",
+          "to",
+          "swim.",
+          "(no",
+          "teacher)"
+        ],
+        "errorIndex": 2,
+        "correction": "herself",
+        "type": "Object pronoun",
+        "message": "Same person: ‘herself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "Did",
+          "you",
+          "hurt",
+          "you?"
+        ],
+        "errorIndex": 3,
+        "correction": "yourself",
+        "type": "Object pronoun",
+        "message": "Same person: ‘yourself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "They",
+          "introduced",
+          "them",
+          "to",
+          "the",
+          "new",
+          "neighbours."
+        ],
+        "errorIndex": 2,
+        "correction": "themselves",
+        "type": "Object pronoun",
+        "message": "Same people: ‘themselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "I",
+          "looked",
+          "at",
+          "herself",
+          "in",
+          "the",
+          "mirror."
+        ],
+        "errorIndex": 3,
+        "correction": "myself",
+        "type": "Wrong person",
+        "message": "Subject ‘I’: ‘myself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "We",
+          "blamed",
+          "themselves",
+          "for",
+          "losing."
+        ],
+        "errorIndex": 2,
+        "correction": "ourselves",
+        "type": "Wrong person",
+        "message": "Subject ‘we’: ‘ourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "She",
+          "lives",
+          "by",
+          "himself."
+        ],
+        "errorIndex": 3,
+        "correction": "herself",
+        "type": "Wrong person",
+        "message": "Subject ‘she’: ‘herself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "I",
+          "feel",
+          "myself",
+          "very",
+          "happy",
+          "today."
+        ],
+        "errorIndex": 2,
+        "correction": "really",
+        "type": "Unnecessary reflexive",
+        "message": "With ‘feel’ we don’t use a reflexive: ‘I feel really happy’."
+      },
+      {
+        "tokens": [
+          "Sit",
+          "down",
+          "and",
+          "relax",
+          "yourself."
+        ],
+        "errorIndex": 4,
+        "correction": "now",
+        "type": "Unnecessary reflexive",
+        "message": "‘Relax’ takes no reflexive: ‘relax now’."
+      },
+      {
+        "tokens": [
+          "I",
+          "need",
+          "to",
+          "concentrate",
+          "myself",
+          "on",
+          "my",
+          "exams."
+        ],
+        "errorIndex": 4,
+        "correction": "more",
+        "type": "Unnecessary reflexive",
+        "message": "‘Concentrate’ takes no reflexive: ‘concentrate more on’."
+      },
+      {
+        "tokens": [
+          "I",
+          "shave",
+          "myself",
+          "every",
+          "morning."
+        ],
+        "errorIndex": 2,
+        "correction": "carefully",
+        "type": "Unnecessary reflexive",
+        "message": "Daily routine: usually no reflexive (‘I shave carefully’)."
+      },
+      {
+        "tokens": [
+          "Pau",
+          "and",
+          "Nil",
+          "hate",
+          "themselves",
+          "—",
+          "they",
+          "always",
+          "argue."
+        ],
+        "errorIndex": 4,
+        "correction": "each other",
+        "type": "Each other",
+        "message": "‘Each other’ = A ↔ B. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "He",
+          "put",
+          "the",
+          "bag",
+          "beside",
+          "himself."
+        ],
+        "errorIndex": 5,
+        "correction": "him",
+        "type": "Place",
+        "message": "After a preposition of place: ‘beside him’."
+      },
+      {
+        "tokens": [
+          "I",
+          "went",
+          "to",
+          "the",
+          "cinema",
+          "by",
+          "me."
+        ],
+        "errorIndex": 6,
+        "correction": "myself",
+        "type": "By + reflexive",
+        "message": "‘By myself’ = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "tokens": [
+          "Enjoy",
+          "you",
+          "at",
+          "the",
+          "party,",
+          "everyone!"
+        ],
+        "errorIndex": 1,
+        "correction": "yourselves",
+        "type": "Enjoy",
+        "message": "‘Enjoy yourselves’ — to a group. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which use, multiple choice and spot-the-mistake. In the typing questions write the reflexive pronoun. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "use": "Which use?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "use",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Same person",
+        "sentText": "Be careful or you’ll burn {{blank}} !",
+        "hint": "you (one) → ?",
+        "answers": [
+          "yourself"
+        ],
+        "display": "yourself",
+        "explain": "One person: ‘yourself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it.",
+        "wrongNote": "Same person → reflexive."
+      },
+      {
+        "type": "fill",
+        "use": "Emphasis",
+        "sentText": "We built this treehouse {{blank}} .",
+        "hint": "we → ?",
+        "answers": [
+          "ourselves"
+        ],
+        "display": "ourselves",
+        "explain": "Emphasis: ‘ourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it.",
+        "wrongNote": "Emphasis → reflexive."
+      },
+      {
+        "type": "fill",
+        "use": "By + reflexive",
+        "sentText": "My uncle lives by {{blank}} .",
+        "hint": "he → ?",
+        "answers": [
+          "himself"
+        ],
+        "display": "himself",
+        "explain": "‘By himself’ = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it.",
+        "wrongNote": "By + reflexive = alone."
+      },
+      {
+        "type": "fill",
+        "use": "Same person",
+        "sentText": "They looked at {{blank}} in the shop window.",
+        "hint": "they → ?",
+        "answers": [
+          "themselves"
+        ],
+        "display": "themselves",
+        "explain": "Plural: ‘themselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it.",
+        "wrongNote": "Plural → -selves."
+      },
+      {
+        "type": "order",
+        "use": "Same person",
+        "tokens": [
+          "She",
+          "cut",
+          "herself."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Emphasis",
+        "tokens": [
+          "I",
+          "did",
+          "it",
+          "myself."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "By + reflexive",
+        "tokens": [
+          "They",
+          "live",
+          "by",
+          "themselves."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Enjoy",
+        "tokens": [
+          "Enjoy",
+          "yourselves",
+          "at",
+          "the",
+          "party!"
+        ]
+      },
+      {
+        "type": "use",
+        "use": "Use",
+        "text": "In ‘I painted it myself’, ‘myself’ shows…",
+        "choices": [
+          "the same person as object",
+          "emphasis: nobody else did it",
+          "being alone",
+          "each other"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "The object is ‘it’, not ‘myself’.",
+          "",
+          "That’s ‘by myself’.",
+          "That’s for two people."
+        ],
+        "explain": "Emphasis. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "use",
+        "use": "Use",
+        "text": "In ‘He cut himself’, ‘himself’ shows…",
+        "choices": [
+          "emphasis",
+          "being alone",
+          "possession",
+          "subject = object"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "There’s no ‘nobody else’ idea.",
+          "There’s no ‘by’.",
+          "It isn’t possessive.",
+          ""
+        ],
+        "explain": "Same person. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "use",
+        "use": "Use",
+        "text": "‘She went by herself’ means…",
+        "choices": [
+          "she went alone",
+          "she went near herself",
+          "she hurt herself",
+          "she went with friends"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Not English meaning.",
+          "Nothing about hurting.",
+          "The opposite."
+        ],
+        "explain": "By herself = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "use",
+        "use": "Use",
+        "text": "Which verb usually has NO reflexive?",
+        "choices": [
+          "hurt",
+          "enjoy",
+          "relax",
+          "introduce"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Hurt yourself’ is common.",
+          "‘Enjoy yourself’ is common.",
+          "",
+          "‘Introduce yourself’ is common."
+        ],
+        "explain": "‘Relax’, ‘feel’, ‘concentrate’: no reflexive."
+      },
+      {
+        "type": "mc",
+        "use": "Same person",
+        "text": "The baby is looking at {{blank}} in the mirror.",
+        "choices": [
+          "her",
+          "she",
+          "herself",
+          "hers"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Her’ would be another person.",
+          "Subject pronoun is wrong here.",
+          "",
+          "‘Hers’ is possessive."
+        ],
+        "explain": "Same person: herself. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "mc",
+        "use": "Wrong form",
+        "text": "Which word is correct?",
+        "choices": [
+          "themselves",
+          "theirselves",
+          "themselfs",
+          "theirself"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Not a word.",
+          "Not a word.",
+          "Not a word."
+        ],
+        "explain": "They → themselves. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "mc",
+        "use": "Each other",
+        "text": "The two friends hugged {{blank}}.",
+        "choices": [
+          "themselves",
+          "theirselves",
+          "itself",
+          "each other"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Each one hugs the other.",
+          "Not a word.",
+          "Not for people.",
+          ""
+        ],
+        "explain": "A ↔ B: each other. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "mc",
+        "use": "No reflexive",
+        "text": "I usually {{blank}} at 7 a.m.",
+        "choices": [
+          "get myself up",
+          "get up",
+          "get me up",
+          "up myself"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Daily routine: no reflexive.",
+          "",
+          "Not English.",
+          "Not English."
+        ],
+        "explain": "Get up: no reflexive. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "error",
+        "use": "Wrong form",
+        "tokens": [
+          "He",
+          "hurt",
+          "hisself."
+        ],
+        "errorIndex": 2,
+        "correction": "himself",
+        "message": "The form is ‘himself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "error",
+        "use": "Object pronoun",
+        "tokens": [
+          "We",
+          "enjoyed",
+          "us."
+        ],
+        "errorIndex": 2,
+        "correction": "ourselves",
+        "message": "Same people: ‘ourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "error",
+        "use": "Unnecessary reflexive",
+        "tokens": [
+          "I",
+          "feel",
+          "myself",
+          "tired."
+        ],
+        "errorIndex": 2,
+        "correction": "very",
+        "message": "‘Feel’ takes no reflexive. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      },
+      {
+        "type": "error",
+        "use": "Each other",
+        "tokens": [
+          "They",
+          "kissed",
+          "themselves",
+          "goodbye."
+        ],
+        "errorIndex": 2,
+        "correction": "each other",
+        "message": "A ↔ B: ‘each other’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+      }
+    ]
+  }
+}
