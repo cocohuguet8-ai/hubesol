@@ -29,39 +29,89 @@ related:
   - { title: "All reported speech", href: "/grammar/reported-speech/" }
   - { title: "Reported Statements & Backshift", href: "/grammar/reported-speech/reported-statements-backshift/" }
   - { title: "Changes in Reported Speech", href: "/grammar/reported-speech/reported-speech-changes/" }
+next: { title: "Reported Questions", href: "/grammar/reported-speech/reported-questions/" }
 draft: false
 ---
 
-## When you don't need to backshift
+## When the tense doesn't change
+
+Backshift (present → past, past → past perfect) is the normal rule after *said* or *told*. But in some situations we **keep the original tense**.
 
 | Situation | Example |
 |---|---|
-| Present reporting verb | She **says** she **is** tired. |
-| Still true now | He said he **lives** in Rome. (he still does) |
-| General truth | The guide said the museum **opens** at nine. |
-| Unreal-past modals | She said she **would** help; we **must** wait. |
+| 1. Present reporting verb | She **says** she **is** tired. |
+| 2. Facts that are still true | He said the Earth **goes** round the Sun. |
+| 3. Situations still true now | Pau said he **lives** in Girona. (he still does) |
+| 4. Recent reports | (5 minutes ago) Laia said she**'s** coming. |
+| 5. Past perfect, *would, could, should, might* | "I'd left." → She said she**'d left**. |
 
-## When to keep the original tense
+## 1. Present reporting verbs
 
-### 1. Present reporting verb — says, tells, thinks
+If the reporting verb is **present simple, present perfect** or **future**, never backshift.
 
-- He **says** he **wants** to leave early.
+| Reporting verb | Example |
+|---|---|
+| says | Mum **says** dinner **is** ready. |
+| has said | The teacher **has said** the test **will be** easy. |
+| will say | He**'ll say** he **doesn't** know. |
 
-### 2. Still true or a general truth
+> ⚠️ Typical error: ~~She says she was tired.~~ (she's tired now) → After *says*, keep the tense: *She says she is tired.*
 
-- She told me she **works** for the BBC. (still her job)
-- The teacher said that oil **floats** on water.
+## 2. General truths and facts
 
-### 3. Modals that don't change
+Facts that are always true can stay in the present, even after *said*.
 
-- He said he **could** swim. They said we **should** hurry. She said it **might** rain.
+- Our teacher **said** water **boils** at 100 °C.
+- He **told** us that Paris **is** the capital of France.
 
-> ⚠️ Backshift is still the safe default after a past reporting verb: *She said she **was** tired* is always correct. Skipping it is optional when the statement is still true.
+> ⚠️ Typical error: ~~She said that the sun rose in the east.~~ → Correct but strange; for a permanent fact, prefer *rises*.
+
+## 3. Situations that are still true
+
+If it's still true when you report it, backshift is **optional**.
+
+- Joan said she **has** two brothers. (she still has them) ✓
+- Joan said she **had** two brothers. ✓ (also correct)
+
+> ⚠️ Typical error: ~~He said he is 15 last year.~~ → It's no longer true: *He said he was 15.*
+
+## 4. Forms that can't move back
+
+| Direct | Reported |
+|---|---|
+| "I **had** finished." | She said she **had** finished. |
+| "I **would** help." | He said he **would** help. |
+| "You **should** rest." | She said I **should** rest. |
+| "It **might** rain." | They said it **might** rain. |
+| "I **could** swim at five." | He said he **could** swim at five. |
+
+## 5. Past simple: often unchanged in speech
+
+In everyday English, a past simple often stays the same, especially with a time expression.
+
+- "I **was born** in 2010." → She said she **was born** in 2010. ✓ (more natural than *had been born*)
+
+## Backshift or not? A quick check
+
+### Four questions to ask
+
+| Question | If yes… |
+|---|---|
+| Is the reporting verb present (*says, has said*)? | Don't backshift. |
+| Is it a general truth? | Don't need to backshift. |
+| Is it still true now? | Backshift is optional. |
+| Is it no longer true? | Backshift. |
+
+See [Reported Statements & Backshift](/grammar/reported-speech/reported-statements-backshift/).
 
 ## Common mistakes
 
-**1. Forcing a backshift on 'says'.** *~~She says she was tired~~* (present reporting verb) → **She says she is tired.**
+**1. Backshifting after *says*.** *~~He says he was busy~~* (he's busy now) → **He says he is busy.**
 
-**2. Backshifting a modal that shouldn't change.** *~~He said he would helped~~* → **He said he would help.**
+**2. Keeping the present when it's no longer true.** *~~She said she lives in Paris~~* (she moved last year) → **She said she lived in Paris.**
 
-**3. Treating an optional case as compulsory.** Both are fine: *She said she is/was a doctor.* **Pro tip:** present reporting verb, still-true facts and modals like would/could/should → no backshift needed.
+**3. Moving modals that don't change.** *~~He said I should have rest~~* → **He said I should rest.**
+
+**4. Double backshift of the past perfect.** *~~She said she had had left~~* → **She said she had left.**
+
+**Pro tip:** ask "Is it still true right now?" If yes, you can keep the original tense.
