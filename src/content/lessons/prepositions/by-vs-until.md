@@ -28,37 +28,90 @@ related:
   - { title: "All about prepositions", href: "/grammar/prepositions/" }
   - { title: "For, During & While", href: "/grammar/prepositions/for-during-while/" }
   - { title: "Prepositions of Time: at/on/in", href: "/grammar/prepositions/prepositions-of-time/" }
+next: { title: "On time vs In time", href: "/grammar/prepositions/on-time-vs-in-time/" }
 draft: false
 ---
 
-## by vs until
+## How to choose by or until
 
-| Word | Meaning | Verb type | Example |
-|---|---|---|---|
-| by | on or before (deadline) | single action | Finish it **by** Friday. |
-| until / till | continuously up to | continuous state | Wait **until** Friday. |
-| by the time | when + clause | — | **By the time** we arrived, it had ended. |
+| Word | Meaning | Example |
+|---|---|---|
+| **by** | **not later than** — a deadline; the action happens at some point **before or at** that time | Please finish your essay **by** Friday. |
+| **until** (*till*) | **up to** that time — the action or situation **continues** and then stops | I'll wait here **until** six. |
 
-## When to use each
+Think of it like this:
 
-### 1. by — a deadline
+- **by** = a single action, **before** a deadline (one point)
+- **until** = a continuous action or state, **up to** a time (a line)
 
-- Please reply **by** tomorrow. The train arrives **by** 9.
+## When to use *by*
 
-### 2. until — a continuous situation
+### 1. Deadlines
 
-- The shop is open **until** 8. I'll wait here **until** you're ready.
+- You must return the book **by** Monday.
+- The project has to be finished **by** the end of the month.
 
-### 3. by the time — with a clause
+> ⚠️ Typical error: ~~Send it until Friday.~~ → A deadline takes *by*: *Send it by Friday.*
 
-- **By the time** the film started, we'd eaten all the popcorn.
+### 2. *By the time* + clause
 
-> ⚠️ Compare: *I'll finish **by** 6* (one action, at or before 6) vs *I'll work **until** 6* (continuous, stopping at 6).
+- **By the time** we arrived, the film had started.
+- I'll be ready **by the time** you get here.
+
+### 3. Common verbs with *by*
+
+*finish, arrive, send, pay, return, decide, be ready, be back*
+
+- Be back **by** midnight!
+
+## When to use *until*
+
+### 1. A situation that continues
+
+- I stayed in bed **until** ten o'clock.
+- The shop is open **until** 8 p.m.
+
+> ⚠️ Typical error: ~~I'll wait by six.~~ → A continuous action takes *until*: *I'll wait until six.*
+
+### 2. Negative: *not … until*
+
+*Not until* means "not before that time" — the action starts only then.
+
+- I **didn't** go to bed **until** midnight.
+- The shop **doesn't** open **until** ten.
+
+### 3. Common verbs with *until*
+
+*wait, stay, work, live, sleep, be open, last, continue*
+
+## *Until* as a conjunction
+
+*Until* can also be followed by a clause (present simple for the future).
+
+- Wait here **until** I come back. (not ~~until I will come back~~)
+
+## *Till*
+
+*Till* = *until*. It's more informal and common in speech.
+
+- See you **till** later? → more common: *See you later.* — but: *I worked **till** late.*
+
+## *By* vs *until*: side by side
+
+| *by* (deadline) | *until* (continues) |
+|---|---|
+| I'll finish the report **by** 5. | I'll work on the report **until** 5. |
+| Be home **by** ten. | You can stay out **until** ten. |
+| The parcel will arrive **by** Friday. | I'll be away **until** Friday. |
 
 ## Common mistakes
 
-**1. 'until' for a deadline.** *~~Finish it until Friday~~* → **Finish it by Friday.**
+**1. *Until* for a deadline.** *~~Hand it in until Monday~~* → **by Monday.**
 
-**2. 'by' for a continuous situation.** *~~I'll wait by 6~~* → **I'll wait until 6.**
+**2. *By* for duration.** *~~I slept by noon~~* → **until noon.**
 
-**3. 'by' + a clause.** *~~By we arrived, it had ended~~* → **By the time we arrived, it had ended. Pro tip:** by = deadline (single action); until = keep doing it up to a point.
+**3. *Will* after *until*.** *~~until he will arrive~~* → **until he arrives.**
+
+**4. Forgetting the negative pattern.** *~~I went to bed only until midnight~~* → **I didn't go to bed until midnight.**
+
+**Pro tip:** ask "Does it keep happening up to that time?" Yes → **until**. Just one action before the deadline? → **by**.
