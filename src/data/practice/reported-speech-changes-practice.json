@@ -1,0 +1,1605 @@
+{
+  "tense": "reported-speech-changes",
+  "lessonTitle": "Changes in Reported Speech",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "that",
+        "then",
+        "there",
+        "the",
+        "day"
+      ],
+      "label": null,
+      "primary": "that"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the reported version of the word in brackets: a pronoun, a possessive, a time word or a place word. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Pronoun",
+        "before": "“I’m hungry.” → Pau said",
+        "after": "was hungry.",
+        "hint": "(I)",
+        "answers": [
+          "he"
+        ],
+        "display": "he",
+        "explain": "Pau is talking about himself, so ‘I’ becomes ‘he’."
+      },
+      {
+        "use": "Pronoun",
+        "before": "“We’re late.” → My friends said",
+        "after": "were late.",
+        "hint": "(we)",
+        "answers": [
+          "they"
+        ],
+        "display": "they",
+        "explain": "The speakers are now ‘they’, so ‘we’ becomes ‘they’."
+      },
+      {
+        "use": "Pronoun",
+        "before": "“I’ll call you.” → Laia said she would call",
+        "after": ".",
+        "hint": "(you)",
+        "answers": [
+          "me"
+        ],
+        "display": "me",
+        "explain": "Laia was speaking to me, so ‘you’ becomes ‘me’."
+      },
+      {
+        "use": "Possessive",
+        "before": "“This is my coat.” → Joan said it was",
+        "after": "coat.",
+        "hint": "(my)",
+        "answers": [
+          "her"
+        ],
+        "display": "her",
+        "explain": "Joan’s coat: ‘my’ becomes ‘her’."
+      },
+      {
+        "use": "Possessive",
+        "before": "“We love our new flat.” → They said they loved",
+        "after": "new flat.",
+        "hint": "(our)",
+        "answers": [
+          "their"
+        ],
+        "display": "their",
+        "explain": "‘Our’ becomes ‘their’ when you report about them."
+      },
+      {
+        "use": "Possessive",
+        "before": "“Your bag is on the chair.” → She said",
+        "after": "bag was on the chair.",
+        "hint": "(your)",
+        "answers": [
+          "my"
+        ],
+        "display": "my",
+        "explain": "She was speaking to me, so ‘your’ becomes ‘my’."
+      },
+      {
+        "use": "Time",
+        "before": "“I’m busy now.” → He said he was busy",
+        "after": ".",
+        "hint": "(now)",
+        "answers": [
+          "then"
+        ],
+        "display": "then",
+        "explain": "‘Now’ becomes ‘then’ (or ‘at that moment’)."
+      },
+      {
+        "use": "Time",
+        "before": "“I’ll finish it today.” → She said she would finish it",
+        "after": "day.",
+        "hint": "(today)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "‘Today’ becomes ‘that day’."
+      },
+      {
+        "use": "Time",
+        "before": "“I’m going out tonight.” → He said he was going out",
+        "after": "night.",
+        "hint": "(tonight)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "‘Tonight’ becomes ‘that night’."
+      },
+      {
+        "use": "Time",
+        "before": "“I saw her yesterday.” → He said he had seen her the day",
+        "after": ".",
+        "hint": "(yesterday)",
+        "answers": [
+          "before"
+        ],
+        "display": "before",
+        "explain": "‘Yesterday’ becomes ‘the day before’."
+      },
+      {
+        "use": "Time",
+        "before": "“The exam is tomorrow.” → She said the exam was the",
+        "after": "day.",
+        "hint": "(tomorrow)",
+        "answers": [
+          "next"
+        ],
+        "display": "next",
+        "explain": "‘Tomorrow’ becomes ‘the next day’."
+      },
+      {
+        "use": "Time",
+        "before": "“We moved last year.” → They said they had moved the year",
+        "after": ".",
+        "hint": "(last year)",
+        "answers": [
+          "before"
+        ],
+        "display": "before",
+        "explain": "‘Last year’ becomes ‘the year before’."
+      },
+      {
+        "use": "Time",
+        "before": "“I’ll visit you next week.” → She said she would visit me the",
+        "after": "week.",
+        "hint": "(next week)",
+        "answers": [
+          "following"
+        ],
+        "display": "following",
+        "explain": "‘Next week’ becomes ‘the following week’."
+      },
+      {
+        "use": "Time",
+        "before": "“I met him two days ago.” → She said she had met him two days",
+        "after": ".",
+        "hint": "(ago)",
+        "answers": [
+          "before"
+        ],
+        "display": "before",
+        "explain": "‘Ago’ becomes ‘before’ (or ‘earlier’)."
+      },
+      {
+        "use": "Place",
+        "before": "“I live here.” → He said he lived",
+        "after": ".",
+        "hint": "(here)",
+        "answers": [
+          "there"
+        ],
+        "display": "there",
+        "explain": "‘Here’ becomes ‘there’ when the place is different."
+      },
+      {
+        "use": "Demonstrative",
+        "before": "“I like this song.” → She said she liked",
+        "after": "song.",
+        "hint": "(this)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "‘This’ becomes ‘that’."
+      },
+      {
+        "use": "Demonstrative",
+        "before": "“These shoes are new.” → He said",
+        "after": "shoes were new.",
+        "hint": "(these)",
+        "answers": [
+          "those"
+        ],
+        "display": "those",
+        "explain": "‘These’ becomes ‘those’."
+      },
+      {
+        "use": "Time",
+        "before": "“I’m working this week.” → She said she was working",
+        "after": "week.",
+        "hint": "(this week)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "‘This week’ becomes ‘that week’."
+      },
+      {
+        "use": "Combined",
+        "before": "“I lost my keys here yesterday.” → He said he had lost",
+        "after": "keys there the day before.",
+        "hint": "(my)",
+        "answers": [
+          "his"
+        ],
+        "display": "his",
+        "explain": "He lost his own keys: ‘my’ becomes ‘his’."
+      },
+      {
+        "use": "Combined",
+        "before": "“We’ll come back tomorrow.” → They said they would come back the",
+        "after": "day.",
+        "hint": "(tomorrow)",
+        "answers": [
+          "following"
+        ],
+        "display": "following",
+        "explain": "‘Tomorrow’ can also become ‘the following day’."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each reported sentence — 20 examples with pronoun, time and place changes.",
+    "sentences": [
+      {
+        "use": "Pronoun",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "was",
+          "tired."
+        ]
+      },
+      {
+        "use": "Pronoun",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "would",
+          "call",
+          "me."
+        ]
+      },
+      {
+        "use": "Pronoun",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "were",
+          "lost."
+        ]
+      },
+      {
+        "use": "Possessive",
+        "tokens": [
+          "She",
+          "said",
+          "it",
+          "was",
+          "her",
+          "bag."
+        ]
+      },
+      {
+        "use": "Possessive",
+        "tokens": [
+          "He",
+          "said",
+          "his",
+          "phone",
+          "was",
+          "broken."
+        ]
+      },
+      {
+        "use": "Possessive",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "loved",
+          "their",
+          "school."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "was",
+          "busy",
+          "then."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "would",
+          "do",
+          "it",
+          "that",
+          "day."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "seen",
+          "him",
+          "the",
+          "day",
+          "before."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "He",
+          "said",
+          "the",
+          "match",
+          "was",
+          "the",
+          "next",
+          "day."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "had",
+          "moved",
+          "the",
+          "year",
+          "before."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "would",
+          "come",
+          "the",
+          "following",
+          "week."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "arrived",
+          "two",
+          "days",
+          "before."
+        ]
+      },
+      {
+        "use": "Place",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "lived",
+          "there."
+        ]
+      },
+      {
+        "use": "Place",
+        "tokens": [
+          "He",
+          "told",
+          "me",
+          "to",
+          "wait",
+          "there."
+        ]
+      },
+      {
+        "use": "Demonstrative",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "liked",
+          "that",
+          "dress."
+        ]
+      },
+      {
+        "use": "Demonstrative",
+        "tokens": [
+          "He",
+          "said",
+          "those",
+          "books",
+          "were",
+          "his."
+        ]
+      },
+      {
+        "use": "Time",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "was",
+          "going",
+          "out",
+          "that",
+          "night."
+        ]
+      },
+      {
+        "use": "Combined",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "lost",
+          "his",
+          "wallet",
+          "there."
+        ]
+      },
+      {
+        "use": "Combined",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "would",
+          "see",
+          "me",
+          "the",
+          "next",
+          "day."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the direct and reported word",
+    "subtitle": "Tap a word from direct speech, then tap what it usually becomes in reported speech.",
+    "leftLabel": "Direct",
+    "rightLabel": "Reported",
+    "rightLabelSub": "(later / elsewhere)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "now",
+        "right": "then"
+      },
+      {
+        "left": "today",
+        "right": "that day"
+      },
+      {
+        "left": "tonight",
+        "right": "that night"
+      },
+      {
+        "left": "yesterday",
+        "right": "the day before"
+      },
+      {
+        "left": "tomorrow",
+        "right": "the next day"
+      },
+      {
+        "left": "last week",
+        "right": "the week before"
+      },
+      {
+        "left": "next month",
+        "right": "the following month"
+      },
+      {
+        "left": "two days ago",
+        "right": "two days before"
+      },
+      {
+        "left": "this week",
+        "right": "that week"
+      },
+      {
+        "left": "here",
+        "right": "there"
+      },
+      {
+        "left": "this",
+        "right": "that"
+      },
+      {
+        "left": "these",
+        "right": "those"
+      },
+      {
+        "left": "I",
+        "right": "he / she"
+      },
+      {
+        "left": "we",
+        "right": "they"
+      },
+      {
+        "left": "my",
+        "right": "his / her"
+      },
+      {
+        "left": "our",
+        "right": "their"
+      },
+      {
+        "left": "last year",
+        "right": "the year before"
+      },
+      {
+        "left": "next week",
+        "right": "the following week"
+      },
+      {
+        "left": "this morning",
+        "right": "that morning"
+      },
+      {
+        "left": "a week ago",
+        "right": "a week before"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Change pronouns, possessives, time and place words when you report later or somewhere else.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Pronoun",
+        "text": "“I’m exhausted,” said Marc. → Marc said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was exhausted.",
+        "choices": [
+          "he",
+          "I",
+          "you",
+          "him"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Marc is talking about himself, so ‘I’ must become ‘he’, not stay ‘I’.",
+          "‘You’ would mean the listener was exhausted.",
+          "‘Him’ is an object pronoun and can’t be the subject."
+        ],
+        "explain": "Change ‘I’ to match the speaker: Marc → he."
+      },
+      {
+        "use": "Possessive",
+        "text": "“That’s my seat,” said Laia. → Laia said it was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> seat.",
+        "choices": [
+          "my",
+          "her",
+          "your",
+          "his"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Keeping ‘my’ would mean it’s your seat, the reporter’s.",
+          "",
+          "‘Your’ would mean the listener’s seat.",
+          "‘His’ is for a man; Laia is a woman."
+        ],
+        "explain": "Change ‘my’ to match the speaker: Laia → her."
+      },
+      {
+        "use": "Pronoun",
+        "text": "“I’ll help you,” Pau told me. → Pau said he would help <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "you",
+          "him",
+          "me",
+          "I"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘You’ was me, the person Pau spoke to.",
+          "‘Him’ would mean someone else.",
+          "",
+          "‘I’ can’t be an object."
+        ],
+        "explain": "Pau spoke to me, so ‘you’ becomes ‘me’."
+      },
+      {
+        "use": "Time",
+        "text": "“I’ll do it tomorrow.” (reported a week later) → She said she would do it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "tomorrow",
+          "yesterday",
+          "the day before",
+          "the next day"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "A week later, ‘tomorrow’ no longer makes sense.",
+          "‘Yesterday’ is the wrong direction in time.",
+          "‘The day before’ is the past, not the future.",
+          ""
+        ],
+        "explain": "‘Tomorrow’ becomes ‘the next day’ (or ‘the following day’)."
+      },
+      {
+        "use": "Time",
+        "text": "“I met him yesterday.” → She said she had met him <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "yesterday",
+          "the day before",
+          "the next day",
+          "tomorrow"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Reported later, ‘yesterday’ is no longer correct.",
+          "",
+          "‘The next day’ is the future.",
+          "‘Tomorrow’ is the future."
+        ],
+        "explain": "‘Yesterday’ becomes ‘the day before’ (or ‘the previous day’)."
+      },
+      {
+        "use": "Time",
+        "text": "“I’m busy now.” → He said he was busy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "now",
+          "there",
+          "then",
+          "that"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Now’ is the reporter’s moment, not his.",
+          "‘There’ is a place word.",
+          "",
+          "‘That’ needs a noun after it here."
+        ],
+        "explain": "‘Now’ becomes ‘then’ or ‘at that moment’."
+      },
+      {
+        "use": "Time",
+        "text": "“I’m going out tonight.” → She said she was going out <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "tonight",
+          "the night",
+          "this night",
+          "that night"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Tonight’ only works if you report the same day.",
+          "‘The night’ is incomplete.",
+          "‘This night’ isn’t natural English.",
+          ""
+        ],
+        "explain": "‘Tonight’ becomes ‘that night’."
+      },
+      {
+        "use": "Time",
+        "text": "“We bought it two weeks ago.” → They said they had bought it two weeks <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "before",
+          "ago",
+          "after",
+          "later"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Ago’ counts back from now; in reported speech use ‘before’.",
+          "‘After’ is the wrong direction.",
+          "‘Later’ is the wrong direction."
+        ],
+        "explain": "‘Ago’ becomes ‘before’ or ‘earlier’."
+      },
+      {
+        "use": "Time",
+        "text": "“I’ll start next month.” → He said he would start <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "next month",
+          "the month before",
+          "the following month",
+          "last month"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Next month’ only works if it’s still in the future now.",
+          "‘The month before’ is the past.",
+          "",
+          "‘Last month’ is the past."
+        ],
+        "explain": "‘Next month’ becomes ‘the following month’."
+      },
+      {
+        "use": "Place",
+        "text": "“I love it here.” → She said she loved it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "here",
+          "where",
+          "then",
+          "there"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Here’ is where you are now, not where she was.",
+          "‘Where’ is a question word.",
+          "‘Then’ is a time word.",
+          ""
+        ],
+        "explain": "‘Here’ becomes ‘there’."
+      },
+      {
+        "use": "Demonstrative",
+        "text": "“I want this one.” → He said he wanted <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> one.",
+        "choices": [
+          "that",
+          "this",
+          "these",
+          "those"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘This’ refers to something near you now.",
+          "‘These’ is plural.",
+          "‘Those’ is plural."
+        ],
+        "explain": "‘This’ becomes ‘that’."
+      },
+      {
+        "use": "Demonstrative",
+        "text": "“These cakes are delicious.” → She said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> cakes were delicious.",
+        "choices": [
+          "these",
+          "those",
+          "this",
+          "that"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘These’ refers to things near you now.",
+          "",
+          "‘This’ is singular.",
+          "‘That’ is singular."
+        ],
+        "explain": "‘These’ becomes ‘those’."
+      },
+      {
+        "use": "Combined",
+        "text": "“I left my bag here.” → He said he had left <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> bag <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "my / here",
+          "his / here",
+          "my / there",
+          "his / there"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Both words need to change.",
+          "‘Here’ must change to ‘there’.",
+          "‘My’ must change to ‘his’.",
+          ""
+        ],
+        "explain": "Change the possessive and the place word."
+      },
+      {
+        "use": "Combined",
+        "text": "“We’ll see you tomorrow.” → They said they would see me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "the next day",
+          "tomorrow",
+          "today",
+          "the day before"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Only correct if you report it the same day.",
+          "‘Today’ changes the meaning.",
+          "‘The day before’ is the past."
+        ],
+        "explain": "Reported later: tomorrow → the next day."
+      },
+      {
+        "use": "No change",
+        "text": "You report five minutes later, in the same room: “I’m tired.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tired.",
+        "choices": [
+          "had been",
+          "’s / was (both possible)",
+          "would be",
+          "has been"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Had been’ is two steps back.",
+          "",
+          "‘Would be’ changes the meaning.",
+          "‘Has been’ changes the meaning."
+        ],
+        "explain": "Reported soon and still true: backshift is optional."
+      },
+      {
+        "use": "No change",
+        "text": "Same day: “The match is tonight.” → He said the match is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "that night",
+          "the next night",
+          "tonight",
+          "the night before"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "If it’s still the same day, no change is needed.",
+          "‘The next night’ changes the meaning.",
+          "",
+          "‘The night before’ changes the meaning."
+        ],
+        "explain": "Same day, same place: keep the original time word."
+      },
+      {
+        "use": "Possessive",
+        "text": "“Our team won!” → They said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> team had won.",
+        "choices": [
+          "their",
+          "our",
+          "your",
+          "there"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Our’ would include you.",
+          "‘Your’ would mean the listener’s team.",
+          "‘There’ is a place word, not a possessive."
+        ],
+        "explain": "‘Our’ becomes ‘their’."
+      },
+      {
+        "use": "Time",
+        "text": "“I saw it last week.” → She said she had seen it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "last week",
+          "the week before",
+          "next week",
+          "the following week"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Reported later, ‘last week’ may be wrong.",
+          "",
+          "‘Next week’ is the future.",
+          "‘The following week’ is the future."
+        ],
+        "explain": "‘Last week’ becomes ‘the week before’ / ‘the previous week’."
+      },
+      {
+        "use": "Pronoun",
+        "text": "“You’re right,” she told me. → She said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was right.",
+        "choices": [
+          "you",
+          "she",
+          "I",
+          "me"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘You’ was me; in my report it becomes ‘I’.",
+          "‘She’ would mean she was right.",
+          "",
+          "‘Me’ can’t be the subject."
+        ],
+        "explain": "She spoke to me: ‘you’ → ‘I’."
+      },
+      {
+        "use": "Time",
+        "text": "“I’ll finish it this week.” → He said he would finish it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "this week",
+          "last week",
+          "the week before",
+          "that week"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘This week’ only works if it’s still the same week.",
+          "‘Last week’ changes the meaning.",
+          "‘The week before’ is the past.",
+          ""
+        ],
+        "explain": "‘This week’ becomes ‘that week’."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences — imagine they are reported a week later.",
+    "items": [
+      {
+        "tokens": [
+          "Pau",
+          "said",
+          "I",
+          "was",
+          "hungry.",
+          "(Pau",
+          "meant",
+          "himself.)"
+        ],
+        "errorIndex": 2,
+        "correction": "he",
+        "type": "Pronoun",
+        "message": "Pau talked about himself: ‘Pau said he was hungry’."
+      },
+      {
+        "tokens": [
+          "My",
+          "friends",
+          "said",
+          "we",
+          "were",
+          "lost.",
+          "(They",
+          "meant",
+          "themselves.)"
+        ],
+        "errorIndex": 3,
+        "correction": "they",
+        "type": "Pronoun",
+        "message": "Change ‘we’ to ‘they’. Pronouns change to match the person you are talking about."
+      },
+      {
+        "tokens": [
+          "Laia",
+          "said",
+          "it",
+          "was",
+          "my",
+          "bag.",
+          "(It",
+          "was",
+          "Laia’s",
+          "bag.)"
+        ],
+        "errorIndex": 4,
+        "correction": "her",
+        "type": "Possessive",
+        "message": "Laia’s bag: ‘her bag’. Possessives change with the pronouns."
+      },
+      {
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "loved",
+          "our",
+          "new",
+          "house.",
+          "(Their",
+          "house.)"
+        ],
+        "errorIndex": 4,
+        "correction": "their",
+        "type": "Possessive",
+        "message": "Their house: ‘their new house’. Possessives change with the pronouns."
+      },
+      {
+        "tokens": [
+          "Last",
+          "week",
+          "she",
+          "said",
+          "she",
+          "would",
+          "call",
+          "me",
+          "tomorrow."
+        ],
+        "errorIndex": 8,
+        "correction": "the next day",
+        "type": "Time",
+        "message": "Reported later: ‘tomorrow’ → ‘the next day’."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "seen",
+          "her",
+          "yesterday."
+        ],
+        "errorIndex": 6,
+        "correction": "the day before",
+        "type": "Time",
+        "message": "Reported later: ‘the day before’. Time words change when you report later."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "was",
+          "busy",
+          "now."
+        ],
+        "errorIndex": 5,
+        "correction": "then",
+        "type": "Time",
+        "message": "‘Now’ → ‘then’. Time words change when you report later."
+      },
+      {
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "had",
+          "moved",
+          "two",
+          "years",
+          "ago."
+        ],
+        "errorIndex": 7,
+        "correction": "before",
+        "type": "Time",
+        "message": "‘Ago’ → ‘before’. Time words change when you report later."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "was",
+          "going",
+          "out",
+          "tonight."
+        ],
+        "errorIndex": 6,
+        "correction": "that night",
+        "type": "Time",
+        "message": "‘Tonight’ → ‘that night’. Time words change when you report later."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "would",
+          "start",
+          "next",
+          "month."
+        ],
+        "errorIndex": 5,
+        "correction": "the following",
+        "type": "Time",
+        "message": "‘Next month’ → ‘the following month’. Time words change when you report later."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "lived",
+          "here",
+          "in",
+          "Madrid.",
+          "(We’re",
+          "in",
+          "Girona",
+          "now.)"
+        ],
+        "errorIndex": 4,
+        "correction": "there",
+        "type": "Place",
+        "message": "‘Here’ → ‘there’. Place words change when you are somewhere else."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "wanted",
+          "this",
+          "dress."
+        ],
+        "errorIndex": 4,
+        "correction": "that",
+        "type": "Demonstrative",
+        "message": "‘This’ → ‘that’. Demonstratives change when the thing is no longer near."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "these",
+          "shoes",
+          "were",
+          "too",
+          "small."
+        ],
+        "errorIndex": 2,
+        "correction": "those",
+        "type": "Demonstrative",
+        "message": "‘These’ → ‘those’. Demonstratives change when the thing is no longer near."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "is",
+          "tired",
+          "that",
+          "day."
+        ],
+        "errorIndex": 3,
+        "correction": "was",
+        "type": "Tense",
+        "message": "Backshift: ‘was’. After ‘said’ the tense moves back."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "will",
+          "come",
+          "the",
+          "next",
+          "day."
+        ],
+        "errorIndex": 3,
+        "correction": "would",
+        "type": "Tense",
+        "message": "Backshift: ‘would’. After ‘said’ the tense moves back."
+      },
+      {
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "have",
+          "seen",
+          "it",
+          "the",
+          "week",
+          "before."
+        ],
+        "errorIndex": 3,
+        "correction": "had",
+        "type": "Tense",
+        "message": "Backshift: ‘had seen’. After ‘said’ the tense moves back."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "me",
+          "she",
+          "would",
+          "come."
+        ],
+        "errorIndex": 1,
+        "correction": "told",
+        "type": "Said or told",
+        "message": "Person after: ‘told me’. ‘Tell’ needs a person; ‘say’ doesn’t."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "arrived",
+          "the",
+          "day",
+          "after."
+        ],
+        "errorIndex": 7,
+        "correction": "before",
+        "type": "Wrong time word",
+        "message": "‘Yesterday’ → ‘the day before’, not ‘after’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "the",
+          "exam",
+          "was",
+          "the",
+          "previous",
+          "day.",
+          "(She",
+          "said",
+          "“tomorrow”.)"
+        ],
+        "errorIndex": 6,
+        "correction": "next",
+        "type": "Wrong time word",
+        "message": "‘Tomorrow’ → ‘the next day’. Check the direction in time."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "would",
+          "come",
+          "the",
+          "folowing",
+          "week."
+        ],
+        "errorIndex": 6,
+        "correction": "following",
+        "type": "Spelling",
+        "message": "Spelling: ‘following’. Check the original words carefully."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, time and place words, multiple choice and spot-the-mistake. In the typing questions write the reported pronoun, possessive, time or place word. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "timeplace": "Time and place words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "timeplace",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Pronoun",
+        "sentText": "“I’m late.” → Marta said {{blank}} was late.",
+        "hint": "I",
+        "answers": [
+          "she"
+        ],
+        "display": "she",
+        "explain": "Marta talked about herself, so ‘I’ becomes ‘she’.",
+        "wrongNote": "Match the speaker: ‘she’."
+      },
+      {
+        "type": "fill",
+        "use": "Possessive",
+        "sentText": "“That’s my pen.” → Pol said it was {{blank}} pen.",
+        "hint": "my",
+        "answers": [
+          "his"
+        ],
+        "display": "his",
+        "explain": "Pol’s pen, so ‘my’ becomes ‘his’ in the report.",
+        "wrongNote": "Match the speaker: ‘his’."
+      },
+      {
+        "type": "fill",
+        "use": "Time",
+        "sentText": "“I’ll see you tomorrow.” → She said she would see me the {{blank}} day.",
+        "hint": "tomorrow",
+        "answers": [
+          "next"
+        ],
+        "display": "next",
+        "explain": "‘Tomorrow’ becomes ‘the next day’ when reported later.",
+        "wrongNote": "Tomorrow → the next day."
+      },
+      {
+        "type": "fill",
+        "use": "Place",
+        "sentText": "“Stay here.” → He told me to stay {{blank}} .",
+        "hint": "here",
+        "answers": [
+          "there"
+        ],
+        "display": "there",
+        "explain": "‘Here’ becomes ‘there’ when the place is different.",
+        "wrongNote": "Here → there."
+      },
+      {
+        "type": "order",
+        "use": "Pronoun",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "was",
+          "cold."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Time",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "left",
+          "the",
+          "day",
+          "before."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Place",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "worked",
+          "there."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Demonstrative",
+        "tokens": [
+          "She",
+          "said",
+          "that",
+          "book",
+          "was",
+          "hers."
+        ]
+      },
+      {
+        "type": "timeplace",
+        "use": "Timeplace",
+        "text": "‘yesterday’ in reported speech becomes…",
+        "choices": [
+          "the next day",
+          "the day before",
+          "that day",
+          "tomorrow"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘The next day’ is for ‘tomorrow’.",
+          "",
+          "‘That day’ is for ‘today’.",
+          "‘Tomorrow’ is the future."
+        ],
+        "explain": "yesterday → the day before / the previous day."
+      },
+      {
+        "type": "timeplace",
+        "use": "Timeplace",
+        "text": "‘next week’ in reported speech becomes…",
+        "choices": [
+          "the week before",
+          "that week",
+          "last week",
+          "the following week"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘The week before’ is for ‘last week’.",
+          "‘That week’ is for ‘this week’.",
+          "‘Last week’ is the past.",
+          ""
+        ],
+        "explain": "next week → the following week."
+      },
+      {
+        "type": "timeplace",
+        "use": "Timeplace",
+        "text": "‘these’ in reported speech becomes…",
+        "choices": [
+          "those",
+          "this",
+          "that",
+          "them"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘This’ is singular and near.",
+          "‘That’ is singular.",
+          "‘Them’ is a pronoun, not a demonstrative."
+        ],
+        "explain": "these → those."
+      },
+      {
+        "type": "timeplace",
+        "use": "Timeplace",
+        "text": "‘ago’ in reported speech becomes…",
+        "choices": [
+          "after",
+          "later",
+          "before",
+          "then"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘After’ is the wrong direction.",
+          "‘Later’ is the wrong direction.",
+          "",
+          "‘Then’ replaces ‘now’."
+        ],
+        "explain": "ago → before / earlier."
+      },
+      {
+        "type": "mc",
+        "use": "Pronoun",
+        "text": "“We’re ready.” → They said {{blank}} were ready.",
+        "choices": [
+          "we",
+          "you",
+          "they",
+          "them"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘We’ would include you.",
+          "‘You’ changes who is ready.",
+          "",
+          "‘Them’ can’t be the subject."
+        ],
+        "explain": "we → they."
+      },
+      {
+        "type": "mc",
+        "use": "Time",
+        "text": "“I’m leaving today.” → He said he was leaving {{blank}}.",
+        "choices": [
+          "that day",
+          "today",
+          "the next day",
+          "yesterday"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Only correct if it’s the same day.",
+          "Changes the meaning.",
+          "Changes the meaning."
+        ],
+        "explain": "today → that day."
+      },
+      {
+        "type": "mc",
+        "use": "Demonstrative",
+        "text": "“This is my favourite song.” → She said {{blank}} was her favourite song.",
+        "choices": [
+          "this",
+          "these",
+          "those",
+          "that"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘This’ points to now and here.",
+          "‘These’ is plural.",
+          "‘Those’ is plural.",
+          ""
+        ],
+        "explain": "this → that."
+      },
+      {
+        "type": "mc",
+        "use": "Combined",
+        "text": "“I saw your sister here.” → He said he had seen {{blank}} sister {{blank}}.",
+        "choices": [
+          "your / here",
+          "my / there",
+          "my / here",
+          "your / there"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Both words must change.",
+          "",
+          "‘Here’ must change.",
+          "‘Your’ must change to ‘my’."
+        ],
+        "explain": "your → my (he spoke to me); here → there."
+      },
+      {
+        "type": "error",
+        "use": "Pronoun",
+        "tokens": [
+          "Joan",
+          "said",
+          "I",
+          "was",
+          "tired.",
+          "(Joan",
+          "meant",
+          "herself.)"
+        ],
+        "errorIndex": 2,
+        "correction": "she",
+        "message": "Joan → ‘she’."
+      },
+      {
+        "type": "error",
+        "use": "Time",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "called",
+          "her",
+          "yesterday."
+        ],
+        "errorIndex": 6,
+        "correction": "the day before",
+        "message": "Reported later: ‘the day before’."
+      },
+      {
+        "type": "error",
+        "use": "Place",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "was",
+          "born",
+          "here.",
+          "(We’re",
+          "somewhere",
+          "else.)"
+        ],
+        "errorIndex": 5,
+        "correction": "there",
+        "message": "here → there."
+      },
+      {
+        "type": "error",
+        "use": "Demonstrative",
+        "tokens": [
+          "He",
+          "said",
+          "these",
+          "were",
+          "his",
+          "keys."
+        ],
+        "errorIndex": 2,
+        "correction": "those",
+        "message": "these → those."
+      }
+    ]
+  }
+}

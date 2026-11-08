@@ -29,45 +29,91 @@ related:
   - { title: "All reported speech", href: "/grammar/reported-speech/" }
   - { title: "Reported Statements & Backshift", href: "/grammar/reported-speech/reported-statements-backshift/" }
   - { title: "Reported Questions", href: "/grammar/reported-speech/reported-questions/" }
+next: { title: "Reported Speech without Backshift", href: "/grammar/reported-speech/reported-speech-no-backshift/" }
 draft: false
 ---
 
-## What changes
+## What changes in reported speech
 
-| Original | Reported |
+When we report someone's words **later** or **somewhere else**, three things often change:
+
+| What | Example |
 |---|---|
-| I, we, you | he/she/they, I/we (as needed) |
-| my, your, our | his/her, my, their |
-| now | then |
+| 1. the **tense** (backshift) | "I **am** here." → She said she **was** there. |
+| 2. **pronouns** and **possessives** | "**I** love **my** job." → He said **he** loved **his** job. |
+| 3. **time** and **place** words | "I'll do it **tomorrow**." → She said she would do it **the next day**. |
+
+## Pronouns and possessives
+
+Change them to match **who is speaking now** and **who you are talking about**.
+
+| Direct | Reported (about Marta) |
+|---|---|
+| "**I**'m tired." | Marta said **she** was tired. |
+| "This is **my** bag." | Marta said it was **her** bag. |
+| "**We** love **our** school." | They said **they** loved **their** school. |
+| "I'll call **you**." | She said she would call **me**. |
+
+> ⚠️ Typical error: ~~Pau said I was hungry.~~ (Pau was talking about himself) → *Pau said he was hungry.*
+
+## Time expressions
+
+| Direct speech | Reported speech |
+|---|---|
+| now | then / at that moment |
 | today | that day |
-| tomorrow | the next day |
-| yesterday | the day before |
-| last week | the week before |
+| tonight | that night |
+| yesterday | the day before / the previous day |
+| tomorrow | the next day / the following day |
+| last week | the week before / the previous week |
+| next month | the following month / the month after |
+| two days ago | two days before |
+| this week | that week |
+
+> ⚠️ Typical error: ~~She said she had seen him yesterday.~~ (reported a week later) → *She said she had seen him the day before.*
+
+## Place and demonstratives
+
+| Direct speech | Reported speech |
+|---|---|
 | here | there |
-| this / these | that / those |
+| this | that |
+| these | those |
+| come | go (often) |
 
-## When and how to change things
+- "I like **this** café." → She said she liked **that** café.
+- "Wait **here**." → He told me to wait **there**.
 
-### 1. Pronouns and possessives
+> ⚠️ Typical error: ~~He said he liked these shoes.~~ (you're not there now) → *He said he liked those shoes.*
 
-- "**I** forgot **my** keys." → She said **she** had forgotten **her** keys.
+## When NOT to change
 
-### 2. Time words
+### 1. Same day, same place
 
-- "I'll call you **tomorrow**." → He said he'd call me **the next day**.
-- "I saw her **yesterday**." → She said she'd seen her **the day before**.
+If you report the words **soon** and **in the same place**, keep the original words.
 
-### 3. Place and demonstratives
+- (Five minutes later) "Pau said he's coming **today**." ✓
 
-- "I like it **here**." → He said he liked it **there**.
-- "I made **these**." → She said she'd made **those**.
+### 2. The words are still true
 
-> ⚠️ Only shift when the situation changes. Reporting on the same day, *"I'm busy today"* → *She said she was busy today* is fine; a week later it becomes *that day*.
+- "The meeting is **tomorrow**." (reported the same day) → She said the meeting is **tomorrow**. ✓
+
+## Putting it all together
+
+> "I **saw** **your** brother **here** **yesterday**," Laia said.
+>
+> → Laia said **she had seen my** brother **there the day before**.
+
+Four changes: tense, pronoun, possessive, place and time.
 
 ## Common mistakes
 
-**1. Forgetting the pronoun shift.** *"I like your bag" → He said he liked **your** bag* → **He said he liked my bag.**
+**1. Not changing pronouns.** *~~She said I was late~~* (she meant herself) → **She said she was late.**
 
-**2. Keeping 'tomorrow'.** *He said he'd call me tomorrow* (reported later) → **He said he'd call me the next day.**
+**2. Keeping *yesterday / tomorrow* much later.** → **the day before / the next day.**
 
-**3. Keeping 'this/here'.** *She said she liked this place here* → **She said she liked that place there. Pro tip:** shift pronouns to the new speaker, move time words back, and turn here/this/these into there/that/those.
+**3. Keeping *this / here*.** → **that / there** when the place has changed.
+
+**4. *Ago* in reported speech.** *~~two weeks ago~~* → **two weeks before / earlier.**
+
+**Pro tip:** imagine you are telling the story a week later in a different town — then change *everything* that points to "now" and "here".
