@@ -29,38 +29,100 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Much, Many & A lot of", href: "/grammar/nouns-determiners/much-many-a-lot-of/" }
   - { title: "A few, A little & Enough", href: "/grammar/nouns-determiners/a-few-a-little-enough/" }
+next: { title: "Possessives: 's vs of", href: "/grammar/nouns-determiners/possessives-s-vs-of/" }
 draft: false
 ---
 
-## all, both, every, each
+## Quick overview
 
-| Word | How many | Noun & verb | Example |
+| Word | Number | Noun | Example |
 |---|---|---|---|
-| all | three or more (whole) | plural/uncountable + plural verb | **all** the students **are** here |
-| both | exactly two | plural + plural verb | **both** answers **are** right |
-| every | three or more (as a group) | singular + singular verb | **every** room **is** booked |
-| each | two or more (one by one) | singular + singular verb | **each** child **has** a book |
+| **both** | exactly 2 | plural | **Both** my parents work. |
+| **all** | 3 or more / the whole | plural or uncountable | **All** the students passed. |
+| **every** | 3 or more, as a group | singular | **Every** student passed. |
+| **each** | 2 or more, one by one | singular | **Each** student got a prize. |
 
-## When to use each
+## *Both* — two things
 
-### 1. all — the whole (3+)
+### 1. *Both* + plural noun
 
-- **All** the tickets **have** sold. I worked **all** day.
+- **Both** (the) girls are tall. — I like **both** films.
 
-### 2. both — the two
+### 2. *Both of* + *the / my* / pronoun
 
-- **Both** of my parents **are** teachers.
+- **Both of** my sisters live in Girona. — **Both of us** were tired.
 
-### 3. every / each — the individuals
+### 3. *Both … and …*
 
-- **Every** student **passed** the exam. **Each** answer **is** worth two points.
+- **Both** Anna **and** Joan came. — She's **both** clever **and** kind.
 
-> ⚠️ 'Every' and 'each' are singular: *~~Every students are here~~* → **Every student is here**. Use **each** (not every) for two: *There's a door on **each** side.*
+> ⚠️ Typical error: ~~Both of girls~~ → *Both girls / Both of the girls.*
+
+## *All* — the whole group
+
+### 1. *All* + plural or uncountable
+
+- **All** children need love. — **All** the food was delicious.
+
+### 2. *All of* + *the / my* / pronoun
+
+- **All of** my friends came. — I ate **all of it**.
+
+### 3. *All* + time words
+
+- **all** day, **all** night, **all** week (= the whole day…)
+
+> ⚠️ Typical error: ~~All the day~~ → *all day / the whole day.*
+
+## *Every* — all, seen as a group
+
+### 1. *Every* + singular noun + singular verb
+
+- **Every** room **has** a TV. — ~~Every rooms have…~~
+
+### 2. Frequency
+
+- **every** day, **every** week, **every** two hours
+
+### 3. Compounds
+
+- **everyone / everybody**, **everything**, **everywhere** (+ singular verb)
+
+> ⚠️ Typical error: ~~Everyone are here.~~ → *Everyone is here.*
+
+## *Each* — one by one
+
+### 1. *Each* + singular noun
+
+- **Each** player has a number. (we think about them individually)
+
+### 2. *Each of* + plural
+
+- **Each of** the rooms **has** a balcony.
+
+### 3. *Each* alone
+
+- The tickets cost €10 **each**.
+
+## *Every* vs *each*
+
+| **every** | **each** |
+|---|---|
+| 3 or more | 2 or more (also 2) |
+| the group as a whole | the members one by one |
+| no *of* (~~every of~~) | *each of* is fine |
+| **every** two days | the cost **each** |
+
+- She wore a ring on **each** hand. (2 hands → not *every*)
 
 ## Common mistakes
 
-**1. Plural verb after every/each.** *~~Each of them have a car~~* → **Each of them has a car.**
+**1. *Every* + plural.** *~~every days~~* → **every day**.
 
-**2. 'both' for three or more.** *~~both my three brothers~~* → **all my three brothers.**
+**2. *Every of*.** *~~every of the students~~* → **each of / all of the students**.
 
-**3. 'all' where you mean two.** *~~all my two hands~~* → **both my hands. Pro tip:** all = 3+ whole, both = 2, every/each = individuals (singular verb).
+**3. Plural verb after *every / each*.** *~~Each child have~~* → **Each child has**.
+
+**4. *All* for two.** *~~All my parents~~* → **Both my parents**.
+
+**Pro tip:** two → **both**; the whole group → **all**; one by one → **each**; every single one, as a group → **every**.
