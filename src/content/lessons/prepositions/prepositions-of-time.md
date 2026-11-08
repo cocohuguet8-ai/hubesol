@@ -29,39 +29,97 @@ related:
   - { title: "All about prepositions", href: "/grammar/prepositions/" }
   - { title: "Prepositions of Place: at/on/in", href: "/grammar/prepositions/prepositions-of-place/" }
   - { title: "In, On, At: time vs place", href: "/grammar/prepositions/in-on-at-time-vs-place/" }
+next: { title: "Prepositions of Place: at/on/in", href: "/grammar/prepositions/prepositions-of-place/" }
 draft: false
 ---
 
-## at, on, in for time
+## How to choose at, on or in
 
-Think **smallest to largest**: a point → a day → a longer period.
+Think of a pyramid: **at** for small, exact points; **on** for days; **in** for longer periods.
 
-| Preposition | Use | Examples |
+| Preposition | Used for | Examples |
 |---|---|---|
-| at | clock times, points | **at** 6 o'clock, **at** noon, **at** night, **at** the weekend |
-| on | days and dates | **on** Monday, **on** 5 May, **on** my birthday |
-| in | months, seasons, years, parts of day | **in** July, **in** summer, **in** 2025, **in** the morning |
+| **at** | exact times, points in the day, holidays/weekends (UK) | **at** 7 o'clock, **at** noon, **at** night, **at** Christmas, **at** the weekend |
+| **on** | days and dates | **on** Monday, **on** 5 May, **on** my birthday, **on** Christmas Day |
+| **in** | months, years, seasons, centuries, parts of the day | **in** July, **in** 2026, **in** winter, **in** the morning |
 
-## When to use each
+## When to use *at*
 
-### 1. at — a precise time or point
+### 1. Clock times
 
-- The train leaves **at** 9:15. I don't work **at** night.
+- The film starts **at** 8.30.
+- I get up **at** seven o'clock.
 
-### 2. on — a specific day or date
+> ⚠️ Typical error: ~~The class starts in 9 o'clock.~~ → Exact times take *at*: *at 9 o'clock.*
 
-- We met **on** Friday. Her party is **on** 3 June.
+### 2. Fixed expressions
 
-### 3. in — a longer period
+| at night | at noon / midday | at midnight | at lunchtime |
+|---|---|---|---|
+| **at** the weekend (UK) | **at** Christmas / Easter | **at** the moment | **at** the same time |
 
-- It's hot **in** August. I'll finish **in** the afternoon.
+- I never go out **at** night during exams.
 
-> ⚠️ No preposition with **today, tomorrow, yesterday, next, last, every**: *See you **tomorrow*** (not ~~on tomorrow~~); *I saw her **last week***.
+> ⚠️ Typical error: ~~in the night~~ → For general night-time use *at night*.
+
+## When to use *on*
+
+### 1. Days and dates
+
+- See you **on** Friday!
+- My birthday is **on** 12 March.
+
+> ⚠️ Typical error: ~~in Monday~~ → Days take *on*: *on Monday.*
+
+### 2. Specific days
+
+- **on** my birthday, **on** New Year's Eve, **on** Christmas Day
+- **on** Monday morning, **on** Saturday night
+
+## When to use *in*
+
+### 1. Longer periods
+
+- We moved here **in** 2019.
+- It often snows **in** January.
+- The castle was built **in** the 12th century.
+
+> ⚠️ Typical error: ~~on July~~ → Months take *in*: *in July.*
+
+### 2. Parts of the day
+
+- **in** the morning, **in** the afternoon, **in** the evening
+- But: **at** night, **at** noon.
+
+### 3. *In* + time = after
+
+- The train leaves **in** ten minutes. (ten minutes from now)
+
+## No preposition
+
+Don't use *at / on / in* before **this, next, last, every, today, tomorrow, yesterday**.
+
+| ✗ | ✓ |
+|---|---|
+| ~~on next Monday~~ | **next** Monday |
+| ~~in last summer~~ | **last** summer |
+| ~~at every day~~ | **every** day |
+
+## Morning, Monday morning
+
+| General | Specific day |
+|---|---|
+| **in** the morning | **on** Monday morning |
+| **in** the evening | **on** Friday evening |
 
 ## Common mistakes
 
-**1. 'in' instead of 'on' for days.** *~~in Monday~~* → **on Monday.**
+**1. *In* with clock times.** *~~in 5 o'clock~~* → **at 5 o'clock.**
 
-**2. 'on' instead of 'in' for months/years.** *~~on July~~* → **in July.**
+**2. *In* with days.** *~~in Saturday~~* → **on Saturday.**
 
-**3. Adding a preposition to 'tomorrow'.** *~~on tomorrow~~* → **tomorrow. Pro tip:** at = a point, on = a day/date, in = a longer period.
+**3. *On* with months.** *~~on August~~* → **in August.**
+
+**4. Preposition with *next / last*.** *~~on next week~~* → **next week.**
+
+**Pro tip:** the shorter the time, the smaller the word — **at** (minutes), **on** (days), **in** (months, years).
