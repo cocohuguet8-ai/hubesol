@@ -29,43 +29,83 @@ related:
   - { title: "All about prepositions", href: "/grammar/prepositions/" }
   - { title: "Prepositions of Place: at/on/in", href: "/grammar/prepositions/prepositions-of-place/" }
   - { title: "Dependent Prepositions", href: "/grammar/prepositions/dependent-prepositions/" }
+next: { title: "Between vs Among", href: "/grammar/prepositions/between-vs-among/" }
 draft: false
 ---
 
-## Prepositions of movement
+## How prepositions of movement work
 
-They show **direction** — where something goes.
+Prepositions of movement show the **direction** of an action. They usually follow verbs of movement: *go, come, walk, run, drive, fly, jump, climb, swim*.
 
-| Preposition | Meaning | Example |
+| Preposition | Movement | Example |
 |---|---|---|
-| to | destination | walk **to** the shop |
-| into | entering a space | run **into** the house |
-| onto | reaching a surface | climb **onto** the roof |
-| through | in one side, out the other | drive **through** the tunnel |
-| across | from one side to the other | swim **across** the river |
-| along | following a line | walk **along** the beach |
-| over / past | above / by and beyond | jump **over** the fence; drive **past** the school |
+| **to** | towards a destination | We walked **to** school. |
+| **into** | from outside to inside | She ran **into** the kitchen. |
+| **out of** | from inside to outside | He jumped **out of** the pool. |
+| **onto** | to a surface | The cat jumped **onto** the table. |
+| **off** | away from a surface | Get **off** the bus here. |
+| **through** | from one side to the other of a space | We drove **through** the tunnel. |
+| **across** | from one side to the other of a surface / line | She swam **across** the river. |
+| **along** | following a line | They walked **along** the beach. |
+| **up / down** | to a higher / lower place | He ran **up** the stairs. |
+| **over / under** | above / below something | The plane flew **over** the city. |
+| **past** | going by something | Walk **past** the church. |
+| **towards** | in the direction of | She ran **towards** me. |
+| **round / around** | in a circle | We walked **round** the lake. |
 
-## When to use each
+## *To* vs *into*
 
-### 1. to — a destination
+| *to* | *into* |
+|---|---|
+| destination | entering a space |
+| I went **to** the cinema. | I went **into** the cinema. (I entered it) |
 
-- We're going **to** the airport.
+> ⚠️ Typical error: ~~She went in the room.~~ → Movement inside: *She went into the room.*
 
-### 2. into / onto — entering or landing
+### No *to* with *home*
 
-- She stepped **into** the lift. The cat jumped **onto** the sofa.
+- I went **home**. (not ~~to home~~)
 
-### 3. through / across / along
+## *Into / out of* and *onto / off*
 
-- The path goes **through** the woods, **across** a bridge and **along** the river.
+| In | Out |
+|---|---|
+| get **into** a car / taxi | get **out of** a car / taxi |
+| get **on** / **onto** a bus, train, plane | get **off** a bus, train, plane |
 
-> ⚠️ 'Home' after a movement verb takes **no** preposition: *go **home***, *drive **home*** (not ~~to home~~).
+> ⚠️ Typical error: ~~Get out the bus.~~ → *Get off the bus.*
+
+## *Through* vs *across*
+
+### 1. *Through*: inside something with sides
+
+- We walked **through** the forest / the tunnel / the crowd.
+
+### 2. *Across*: over a flat surface or a line
+
+- We walked **across** the road / the bridge / the field.
+
+> ⚠️ Typical error: ~~We swam through the river.~~ → Side to side over the water: *across the river.*
+
+## *Along*, *past* and *towards*
+
+- Walk **along** the street until you see a bank.
+- Go **past** the bakery and turn left.
+- The dog ran **towards** the ball.
+
+## Giving directions
+
+| Go **along** this street. | Turn left. | Go **past** the school. | Walk **across** the square. | Go **up** the hill. |
+|---|---|---|---|---|
 
 ## Common mistakes
 
-**1. 'to' for entering a space.** *~~She walked to the room~~* (meaning inside) → **She walked into the room.**
+**1. *In* instead of *into* with movement.** *~~He jumped in the pool~~* (OK in speech) → **He jumped into the pool.**
 
-**2. 'in/on' for movement.** *~~Put the keys in the drawer~~* is fine for position, but for the action many prefer **into**: *Put the keys into the drawer.*
+**2. *To home*.** *~~I'm going to home~~* → **I'm going home.**
 
-**3. 'to home'.** *~~I went to home~~* → **I went home. Pro tip:** to = destination, into/onto = entering/landing, through/across/along = the path taken.
+**3. *Out* without *of*.** *~~He ran out the room~~* (informal US) → **He ran out of the room.**
+
+**4. *Through* for surfaces.** *~~across the forest~~* → **through the forest**; *~~through the road~~* → **across the road.**
+
+**Pro tip:** draw an arrow — if it goes **inside**, use *into*; if it crosses a **flat** area, *across*; if it passes **inside a space** with sides, *through*.
