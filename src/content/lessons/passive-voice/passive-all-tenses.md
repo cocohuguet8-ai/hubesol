@@ -30,49 +30,88 @@ related:
   - { title: "All about the passive", href: "/grammar/passive-voice/" }
   - { title: "Passive Voice: the basics", href: "/grammar/passive-voice/passive-voice-basics/" }
   - { title: "The 12 verb tenses", href: "/grammar/verb-tenses/" }
+next: { title: "Passive with Two Objects", href: "/grammar/passive-voice/passive-two-objects/" }
 draft: false
 ---
 
-## The passive in every tense
+## How to form the passive in every tense
 
-Keep the pattern **be + past participle** and just change **be**.
+The rule never changes: **be** (in the tense you need) + **past participle**.
 
 | Tense | Active | Passive |
 |---|---|---|
-| Present simple | They **make** it. | It **is made**. |
-| Past simple | They **made** it. | It **was made**. |
-| Present continuous | They **are making** it. | It **is being made**. |
-| Past continuous | They **were making** it. | It **was being made**. |
-| Present perfect | They **have made** it. | It **has been made**. |
-| Past perfect | They **had made** it. | It **had been made**. |
-| Future (will) | They **will make** it. | It **will be made**. |
-| Modal | They **must make** it. | It **must be made**. |
+| Present simple | They **clean** the room. | The room **is cleaned**. |
+| Present continuous | They **are cleaning** the room. | The room **is being cleaned**. |
+| Past simple | They **cleaned** the room. | The room **was cleaned**. |
+| Past continuous | They **were cleaning** the room. | The room **was being cleaned**. |
+| Present perfect | They **have cleaned** the room. | The room **has been cleaned**. |
+| Past perfect | They **had cleaned** the room. | The room **had been cleaned**. |
+| Future (*will*) | They **will clean** the room. | The room **will be cleaned**. |
+| *Going to* | They**'re going to clean** the room. | The room **is going to be cleaned**. |
+| Modals | They **must clean** the room. | The room **must be cleaned**. |
 
-The main verb stays as a **past participle** every time; only **be** moves.
+## Continuous passives: *being*
 
-## When and how to change things
+Add **being** between *be* and the participle.
 
-### 1. Perfect passives — has/had been
+- The road **is being repaired** at the moment.
+- When I arrived, dinner **was being served**.
 
-- The bridge **has been closed** for repairs.
-- By 6 p.m. the work **had been finished**.
+> ⚠️ Typical error: ~~The road is repairing.~~ → A road can't repair: *The road is being repaired.*
 
-### 2. Continuous passives — being
+## Perfect passives: *been*
 
-- Your order **is being processed** right now.
-- The stadium **was being cleaned** when we arrived.
+Add **been** between *have/has/had* and the participle.
 
-### 3. Modal passives — modal + be
+- My bike **has been stolen**!
+- By the time we arrived, all the tickets **had been sold**.
 
-- All bottles **can be recycled**.
-- The form **must be signed** in ink.
+> ⚠️ Typical error: ~~My bike has stolen.~~ → *My bike has been stolen.*
 
-> ⚠️ Avoid the ugly ones: *will be being done* / *has been being done* are technically possible but almost never used — rephrase (e.g. *is going to be done*).
+## Future and modal passives: *be*
+
+After *will*, *going to* and every modal, use **be** + participle.
+
+- The results **will be announced** on Friday.
+- The new stadium **is going to be built** next year.
+- Phones **must be switched off**.
+- This homework **should be finished** by Monday.
+
+> ⚠️ Typical error: ~~The results will announced.~~ → *will be announced.*
+
+### Modal perfect passive
+
+- The letter **should have been sent** yesterday.
+- The window **must have been broken** by the wind.
+
+## Negatives and questions
+
+### The first auxiliary does the work
+
+The first auxiliary makes the negative or the question.
+
+| Negative | Question |
+|---|---|
+| The room **isn't being** cleaned. | **Is** the room **being** cleaned? |
+| The email **hasn't been** sent. | **Has** the email **been** sent? |
+| It **won't be** finished. | **Will** it **be** finished? |
+
+## *Being* or *been*?
+
+| | Comes after | Example |
+|---|---|---|
+| **being** | am / is / are / was / were | It **is being** built. |
+| **been** | have / has / had | It **has been** built. |
+| **be** | will / modals / to | It **will be** built. |
 
 ## Common mistakes
 
-**1. Dropping 'been' in perfect passives.** *~~It has made~~* (passive meaning) → **It has been made.**
+**1. Mixing *being* and *been*.** *~~It has being built~~* → **It has been built.**
 
-**2. Forgetting 'being' in continuous passives.** *~~The house is painted right now~~* → **The house is being painted right now.**
+**2. Missing *be* after a modal.** *~~It must done~~* → **It must be done.**
 
-**3. Adding a participle after a modal + be wrongly.** *~~It must be make~~* → **It must be made. Pro tip:** first choose the tense of 'be', then add the fixed past participle.
+**3. Missing *been* in the perfect.** *~~The car has repaired~~* → **The car has been repaired.**
+
+**4. Active continuous instead of passive.** *~~The house is building~~* → **The house is being built.**
+
+**Pro tip:** say the active tense, then put *be* into that tense and add the participle — the rest follows automatically.
