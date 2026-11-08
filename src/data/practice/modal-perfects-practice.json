@@ -1,0 +1,1531 @@
+{
+  "tense": "modal-perfects",
+  "lessonTitle": "Modal Perfects",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "must",
+        "might",
+        "can’t",
+        "should",
+        "have"
+      ],
+      "label": null,
+      "primary": "have"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the modal perfect: modal + have + past participle. Read the clue to choose must, might, can’t, should or could. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Must have",
+        "before": "The streets are wet. It",
+        "after": "last night.",
+        "hint": "(must / rain)",
+        "answers": [
+          "must have rained"
+        ],
+        "display": "must have rained",
+        "explain": "Strong evidence about the past: must have + past participle."
+      },
+      {
+        "use": "Must have",
+        "before": "You walked thirty kilometres? You",
+        "after": "exhausted!",
+        "hint": "(must / be)",
+        "answers": [
+          "must have been"
+        ],
+        "display": "must have been",
+        "explain": "Sure deduction about the past: must have been."
+      },
+      {
+        "use": "Must have",
+        "before": "My pen isn’t here. Someone",
+        "after": "it.",
+        "hint": "(must / take)",
+        "answers": [
+          "must have taken"
+        ],
+        "display": "must have taken",
+        "explain": "A sure conclusion: must have + taken (irregular participle)."
+      },
+      {
+        "use": "Must have",
+        "before": "She speaks Italian perfectly. She",
+        "after": "in Italy.",
+        "hint": "(must / live)",
+        "answers": [
+          "must have lived"
+        ],
+        "display": "must have lived",
+        "explain": "Evidence → sure past deduction: must have lived."
+      },
+      {
+        "use": "Can’t have",
+        "before": "He",
+        "after": "us — we were hiding behind the car.",
+        "hint": "(can’t / see)",
+        "answers": [
+          "can’t have seen",
+          "can't have seen",
+          "cant have seen",
+          "cannot have seen"
+        ],
+        "display": "can’t have seen",
+        "explain": "Sure it didn’t happen: can’t have + seen."
+      },
+      {
+        "use": "Can’t have",
+        "before": "You",
+        "after": "already! You only started five minutes ago.",
+        "hint": "(can’t / finish)",
+        "answers": [
+          "can’t have finished",
+          "can't have finished",
+          "cant have finished",
+          "cannot have finished"
+        ],
+        "display": "can’t have finished",
+        "explain": "Impossible in the time: can’t have finished."
+      },
+      {
+        "use": "Can’t have",
+        "before": "She",
+        "after": "about the party. It was a secret.",
+        "hint": "(couldn’t / know)",
+        "answers": [
+          "couldn’t have known",
+          "couldn't have known",
+          "couldnt have known",
+          "could not have known"
+        ],
+        "display": "couldn’t have known",
+        "explain": "A softer negative deduction: couldn’t have + known."
+      },
+      {
+        "use": "Might have",
+        "before": "Pau is late. He",
+        "after": "the bus.",
+        "hint": "(might / miss)",
+        "answers": [
+          "might have missed"
+        ],
+        "display": "might have missed",
+        "explain": "Not sure what happened: might have + missed."
+      },
+      {
+        "use": "Might have",
+        "before": "I can’t find my keys. I",
+        "after": "them at school.",
+        "hint": "(may / leave)",
+        "answers": [
+          "may have left"
+        ],
+        "display": "may have left",
+        "explain": "A possible past event: may have + left."
+      },
+      {
+        "use": "Might have",
+        "before": "Don’t worry. She",
+        "after": "to charge her phone.",
+        "hint": "(could / forget)",
+        "answers": [
+          "could have forgotten"
+        ],
+        "display": "could have forgotten",
+        "explain": "A possible explanation: could have + forgotten."
+      },
+      {
+        "use": "Should have",
+        "before": "You",
+        "after": "me about the exam! I didn’t know.",
+        "hint": "(should / tell)",
+        "answers": [
+          "should have told"
+        ],
+        "display": "should have told",
+        "explain": "Criticism: it was right to tell me, but you didn’t."
+      },
+      {
+        "use": "Should have",
+        "before": "I",
+        "after": "so much cake. I feel sick.",
+        "hint": "(shouldn’t / eat)",
+        "answers": [
+          "shouldn’t have eaten",
+          "shouldn't have eaten",
+          "shouldnt have eaten",
+          "should not have eaten"
+        ],
+        "display": "shouldn’t have eaten",
+        "explain": "Regret: I ate it, and it was a mistake."
+      },
+      {
+        "use": "Should have",
+        "before": "We",
+        "after": "a table. The restaurant is full.",
+        "hint": "(should / book)",
+        "answers": [
+          "should have booked"
+        ],
+        "display": "should have booked",
+        "explain": "A past mistake: should have + booked."
+      },
+      {
+        "use": "Could have",
+        "before": "Be careful! You",
+        "after": "yourself.",
+        "hint": "(could / hurt)",
+        "answers": [
+          "could have hurt"
+        ],
+        "display": "could have hurt",
+        "explain": "It was possible, but it didn’t happen: could have hurt."
+      },
+      {
+        "use": "Could have",
+        "before": "We",
+        "after": "the match if we’d played better.",
+        "hint": "(could / win)",
+        "answers": [
+          "could have won"
+        ],
+        "display": "could have won",
+        "explain": "A missed possibility: could have + won."
+      },
+      {
+        "use": "Needn’t have",
+        "before": "You",
+        "after": "flowers — but thank you!",
+        "hint": "(needn’t / buy)",
+        "answers": [
+          "needn’t have bought",
+          "needn't have bought",
+          "neednt have bought",
+          "need not have bought"
+        ],
+        "display": "needn’t have bought",
+        "explain": "You did it, but it wasn’t necessary: needn’t have bought."
+      },
+      {
+        "use": "Would have",
+        "before": "I",
+        "after": "to the party, but I was ill.",
+        "hint": "(would / come)",
+        "answers": [
+          "would have come"
+        ],
+        "display": "would have come",
+        "explain": "An imaginary past result: would have + come."
+      },
+      {
+        "use": "Continuous",
+        "before": "He didn’t answer. He must have been",
+        "after": ".",
+        "hint": "(sleep)",
+        "answers": [
+          "sleeping"
+        ],
+        "display": "sleeping",
+        "explain": "An action in progress in the past: must have been + -ing."
+      },
+      {
+        "use": "Participle",
+        "before": "They should have",
+        "after": "home earlier.",
+        "hint": "(go)",
+        "answers": [
+          "gone"
+        ],
+        "display": "gone",
+        "explain": "After ‘have’ use the past participle: gone, not went."
+      },
+      {
+        "use": "Participle",
+        "before": "She can’t have",
+        "after": "this — it’s not her handwriting.",
+        "hint": "(write)",
+        "answers": [
+          "written"
+        ],
+        "display": "written",
+        "explain": "Irregular participle: write → written."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 modal perfects for deduction, criticism and missed chances.",
+    "sentences": [
+      {
+        "use": "Must have",
+        "tokens": [
+          "It",
+          "must",
+          "have",
+          "rained."
+        ]
+      },
+      {
+        "use": "Must have",
+        "tokens": [
+          "She",
+          "must",
+          "have",
+          "been",
+          "tired."
+        ]
+      },
+      {
+        "use": "Must have",
+        "tokens": [
+          "They",
+          "must",
+          "have",
+          "left",
+          "early."
+        ]
+      },
+      {
+        "use": "Can’t have",
+        "tokens": [
+          "He",
+          "can’t",
+          "have",
+          "seen",
+          "us."
+        ]
+      },
+      {
+        "use": "Can’t have",
+        "tokens": [
+          "You",
+          "can’t",
+          "have",
+          "finished",
+          "yet."
+        ]
+      },
+      {
+        "use": "Can’t have",
+        "tokens": [
+          "She",
+          "couldn’t",
+          "have",
+          "known."
+        ]
+      },
+      {
+        "use": "Might have",
+        "tokens": [
+          "He",
+          "might",
+          "have",
+          "missed",
+          "the",
+          "bus."
+        ]
+      },
+      {
+        "use": "Might have",
+        "tokens": [
+          "I",
+          "may",
+          "have",
+          "left",
+          "it",
+          "at",
+          "home."
+        ]
+      },
+      {
+        "use": "Might have",
+        "tokens": [
+          "They",
+          "could",
+          "have",
+          "got",
+          "lost."
+        ]
+      },
+      {
+        "use": "Should have",
+        "tokens": [
+          "You",
+          "should",
+          "have",
+          "called",
+          "me."
+        ]
+      },
+      {
+        "use": "Should have",
+        "tokens": [
+          "I",
+          "shouldn’t",
+          "have",
+          "said",
+          "that."
+        ]
+      },
+      {
+        "use": "Should have",
+        "tokens": [
+          "We",
+          "should",
+          "have",
+          "left",
+          "earlier."
+        ]
+      },
+      {
+        "use": "Could have",
+        "tokens": [
+          "You",
+          "could",
+          "have",
+          "hurt",
+          "yourself."
+        ]
+      },
+      {
+        "use": "Could have",
+        "tokens": [
+          "We",
+          "could",
+          "have",
+          "won",
+          "the",
+          "game."
+        ]
+      },
+      {
+        "use": "Needn’t have",
+        "tokens": [
+          "You",
+          "needn’t",
+          "have",
+          "waited."
+        ]
+      },
+      {
+        "use": "Would have",
+        "tokens": [
+          "I",
+          "would",
+          "have",
+          "helped",
+          "you."
+        ]
+      },
+      {
+        "use": "Continuous",
+        "tokens": [
+          "He",
+          "must",
+          "have",
+          "been",
+          "sleeping."
+        ]
+      },
+      {
+        "use": "Continuous",
+        "tokens": [
+          "They",
+          "might",
+          "have",
+          "been",
+          "joking."
+        ]
+      },
+      {
+        "use": "Couldn’t have",
+        "tokens": [
+          "It",
+          "couldn’t",
+          "have",
+          "been",
+          "better."
+        ]
+      },
+      {
+        "use": "Should have",
+        "tokens": [
+          "She",
+          "should",
+          "have",
+          "studied",
+          "more."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the situation and the comment",
+    "subtitle": "Tap a situation, then tap the best modal perfect comment.",
+    "leftLabel": "Situation",
+    "rightLabel": "Comment",
+    "rightLabelSub": "(modal perfect)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "The grass is wet.",
+        "right": "It must have rained."
+      },
+      {
+        "left": "She didn’t tell me.",
+        "right": "She should have told me."
+      },
+      {
+        "left": "He was at home all day.",
+        "right": "He can’t have been at the match."
+      },
+      {
+        "left": "I’m not sure why she’s late.",
+        "right": "She might have missed the train."
+      },
+      {
+        "left": "I ate too much.",
+        "right": "I shouldn’t have eaten so much."
+      },
+      {
+        "left": "You nearly fell off the wall.",
+        "right": "You could have hurt yourself."
+      },
+      {
+        "left": "The cake has gone.",
+        "right": "Someone must have eaten it."
+      },
+      {
+        "left": "We lost 3–2.",
+        "right": "We could have won."
+      },
+      {
+        "left": "He didn’t answer the phone.",
+        "right": "He might have been asleep."
+      },
+      {
+        "left": "You brought a present, but there was no need.",
+        "right": "You needn’t have bought anything."
+      },
+      {
+        "left": "She looks very brown.",
+        "right": "She must have been on holiday."
+      },
+      {
+        "left": "I didn’t study.",
+        "right": "I should have studied."
+      },
+      {
+        "left": "The door was locked.",
+        "right": "He can’t have gone in."
+      },
+      {
+        "left": "My bag isn’t here.",
+        "right": "I may have left it on the bus."
+      },
+      {
+        "left": "The test was very easy.",
+        "right": "It couldn’t have been easier."
+      },
+      {
+        "left": "You didn’t wear a coat.",
+        "right": "You should have worn a coat."
+      },
+      {
+        "left": "She’s got a medal.",
+        "right": "She must have won the race."
+      },
+      {
+        "left": "He doesn’t know about it.",
+        "right": "He can’t have heard the news."
+      },
+      {
+        "left": "I was ill, so I didn’t come.",
+        "right": "I would have come."
+      },
+      {
+        "left": "The road was icy.",
+        "right": "There could have been an accident."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Modal + have + past participle. Choose the modal by its meaning: sure, possible, impossible, criticism or missed chance.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Must have",
+        "text": "The floor is wet. Someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> water.",
+        "choices": [
+          "must have spilt",
+          "must spilt",
+          "must has spilt",
+          "mustn’t have spilt"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A past deduction needs ‘have’ between the modal and the participle.",
+          "After a modal, ‘have’ never changes to ‘has’.",
+          "‘Mustn’t have’ is not used for deduction."
+        ],
+        "explain": "Strong evidence about the past: must have + past participle."
+      },
+      {
+        "use": "Can’t have",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the exam — he didn’t study at all!",
+        "choices": [
+          "mustn’t have passed",
+          "can’t have passed",
+          "can’t passed",
+          "can’t have pass"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Mustn’t have’ is not used for negative deduction.",
+          "",
+          "‘Have’ is missing before the participle.",
+          "After ‘have’ use the participle ‘passed’, not the base verb."
+        ],
+        "explain": "Sure it didn’t happen: can’t have + past participle."
+      },
+      {
+        "use": "Might have",
+        "text": "I’m not sure why she’s late. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the bus.",
+        "choices": [
+          "must have missed",
+          "can’t have missed",
+          "might have missed",
+          "might missed"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must have’ means you’re sure, but you aren’t.",
+          "‘Can’t have’ means you’re sure it didn’t happen.",
+          "",
+          "‘Have’ is missing."
+        ],
+        "explain": "Not sure about the past: might have + past participle."
+      },
+      {
+        "use": "Should have",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me you were coming! I’d have made dinner.",
+        "choices": [
+          "should told",
+          "should have tell",
+          "must have told",
+          "should have told"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Have’ is missing.",
+          "After ‘have’ use the participle ‘told’.",
+          "‘Must have told’ is a deduction, not a criticism.",
+          ""
+        ],
+        "explain": "Criticism of a past action that didn’t happen: should have + participle."
+      },
+      {
+        "use": "Should have",
+        "text": "I feel terrible. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much pizza.",
+        "choices": [
+          "mustn’t have eaten",
+          "shouldn’t have eaten",
+          "shouldn’t eat",
+          "shouldn’t have ate"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Mustn’t have’ isn’t used for regret.",
+          "",
+          "‘Shouldn’t eat’ is about now, not the past.",
+          "‘Ate’ is past simple; use the participle ‘eaten’."
+        ],
+        "explain": "Regret about the past: shouldn’t have + past participle."
+      },
+      {
+        "use": "Could have",
+        "text": "Why did you climb that wall? You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> yourself!",
+        "choices": [
+          "could hurt",
+          "must have hurt",
+          "could have hurt",
+          "can’t have hurt"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Could hurt’ is about now or the future.",
+          "‘Must have hurt’ means you’re sure you did.",
+          "",
+          "‘Can’t have hurt’ means it was impossible."
+        ],
+        "explain": "It was possible but didn’t happen: could have + participle."
+      },
+      {
+        "use": "Could have",
+        "text": "We lost 1–0. We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> if we’d been luckier.",
+        "choices": [
+          "could won",
+          "must have won",
+          "can have won",
+          "could have won"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Have’ is missing.",
+          "‘Must have won’ is the opposite: we lost.",
+          "‘Can have’ isn’t used this way.",
+          ""
+        ],
+        "explain": "A missed possibility: could have + won."
+      },
+      {
+        "use": "Participle",
+        "text": "They should have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> home earlier.",
+        "choices": [
+          "gone",
+          "went",
+          "go",
+          "going"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Went’ is past simple; after ‘have’ use the participle.",
+          "After ‘have’ use the participle, not the base verb.",
+          "After ‘have’ use the participle, not -ing."
+        ],
+        "explain": "Modal + have + past participle: gone."
+      },
+      {
+        "use": "Participle",
+        "text": "She must have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the news by now.",
+        "choices": [
+          "hear",
+          "heared",
+          "heard",
+          "hearing"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘have’ use the participle.",
+          "‘Hear’ is irregular: heard.",
+          "",
+          "After ‘have’ use the participle, not -ing."
+        ],
+        "explain": "Irregular participle: hear → heard."
+      },
+      {
+        "use": "Would of",
+        "text": "Which is correct in writing?",
+        "choices": [
+          "could of",
+          "could has",
+          "could had",
+          "could have"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Could of’ is just how ‘could’ve’ sounds — never write it.",
+          "‘Has’ never follows a modal.",
+          "‘Had’ never follows a modal here.",
+          ""
+        ],
+        "explain": "Write ‘could have’ or ‘could’ve’."
+      },
+      {
+        "use": "Needn’t have",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a taxi. The station is only five minutes away!",
+        "choices": [
+          "needn’t have taken",
+          "mustn’t have taken",
+          "didn’t need take",
+          "needn’t taken"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Mustn’t have’ is the wrong structure.",
+          "‘Didn’t need take’ is missing ‘to’.",
+          "‘Have’ is missing."
+        ],
+        "explain": "You did it but it wasn’t necessary: needn’t have + participle."
+      },
+      {
+        "use": "Would have",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you, but my phone was dead.",
+        "choices": [
+          "would called",
+          "would have called",
+          "should have called",
+          "must have called"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Have’ is missing.",
+          "",
+          "‘Should have called’ is a criticism, not an imaginary result.",
+          "‘Must have called’ is a deduction."
+        ],
+        "explain": "An imaginary past result: would have + participle."
+      },
+      {
+        "use": "Continuous",
+        "text": "He didn’t hear the doorbell. He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> music.",
+        "choices": [
+          "must have listened to",
+          "must be listening to",
+          "must listened to",
+          "must have been listening to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Must have listened’ is possible, but the action was in progress: continuous fits better.",
+          "‘Must be listening’ is about now.",
+          "‘Have’ is missing.",
+          ""
+        ],
+        "explain": "An action in progress in the past: must have been + -ing."
+      },
+      {
+        "use": "Couldn’t have",
+        "text": "The concert was perfect. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> better!",
+        "choices": [
+          "couldn’t have been",
+          "can’t be",
+          "shouldn’t have been",
+          "mustn’t have been"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Can’t be’ is about now.",
+          "‘Shouldn’t have been’ is criticism.",
+          "‘Mustn’t have been’ isn’t used here."
+        ],
+        "explain": "‘Couldn’t have been better’ = it was the best possible."
+      },
+      {
+        "use": "Must have",
+        "text": "She’s got a suntan. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on holiday.",
+        "choices": [
+          "must be",
+          "must have been",
+          "can’t have been",
+          "should have been"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must be on holiday’ is about now; the tan shows a past holiday.",
+          "",
+          "‘Can’t have been’ contradicts the evidence.",
+          "‘Should have been’ is criticism."
+        ],
+        "explain": "Past deduction: must have been."
+      },
+      {
+        "use": "Can’t have",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Marta at the party. She was in Paris.",
+        "choices": [
+          "must have seen",
+          "should have seen",
+          "can’t have seen",
+          "can’t seen"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must have seen’ contradicts the evidence.",
+          "‘Should have seen’ is criticism.",
+          "",
+          "‘Have’ is missing."
+        ],
+        "explain": "Impossible in the past: can’t have seen."
+      },
+      {
+        "use": "Might have",
+        "text": "Where’s my phone? I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it in the car.",
+        "choices": [
+          "may have left",
+          "must left",
+          "may left",
+          "can’t have leave"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Have’ is missing.",
+          "‘Have’ is missing.",
+          "After ‘have’ use the participle ‘left’."
+        ],
+        "explain": "A possible past event: may have + left."
+      },
+      {
+        "use": "Should have",
+        "text": "We missed the start. We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> earlier.",
+        "choices": [
+          "must have left",
+          "should have left",
+          "can’t have left",
+          "should leave"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must have left’ is a deduction.",
+          "",
+          "‘Can’t have left’ is a negative deduction.",
+          "‘Should leave’ is about now."
+        ],
+        "explain": "A past mistake: should have left."
+      },
+      {
+        "use": "Have, not has",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "He must has forgotten.",
+          "He must have forgot.",
+          "He must have forgotten.",
+          "He must forgotten."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After a modal ‘have’ never changes to ‘has’.",
+          "‘Forget’ → participle ‘forgotten’.",
+          "",
+          "‘Have’ is missing."
+        ],
+        "explain": "Modal + have + past participle."
+      },
+      {
+        "use": "Mustn’t have",
+        "text": "Which sentence is a correct negative deduction?",
+        "choices": [
+          "She mustn’t have known.",
+          "She can’t knew.",
+          "She don’t must have known.",
+          "She can’t have known."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Mustn’t have’ isn’t used for deduction.",
+          "The structure needs ‘have’ + participle.",
+          "Modals don’t use ‘don’t’.",
+          ""
+        ],
+        "explain": "Negative past deduction: can’t have + participle."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "It",
+          "must",
+          "rained",
+          "last",
+          "night."
+        ],
+        "errorIndex": 2,
+        "correction": "have rained",
+        "type": "Missing have",
+        "message": "Past deduction: ‘It must have rained’."
+      },
+      {
+        "tokens": [
+          "You",
+          "should",
+          "told",
+          "me",
+          "earlier."
+        ],
+        "errorIndex": 2,
+        "correction": "have told",
+        "type": "Missing have",
+        "message": "Criticism: ‘You should have told me’."
+      },
+      {
+        "tokens": [
+          "They",
+          "might",
+          "gone",
+          "home",
+          "already."
+        ],
+        "errorIndex": 2,
+        "correction": "have gone",
+        "type": "Missing have",
+        "message": "Possibility: ‘They might have gone home’."
+      },
+      {
+        "tokens": [
+          "She",
+          "must",
+          "has",
+          "left",
+          "early."
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Has after a modal",
+        "message": "After a modal use ‘have’, never ‘has’."
+      },
+      {
+        "tokens": [
+          "He",
+          "should",
+          "had",
+          "called."
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Had after a modal",
+        "message": "After a modal use ‘have’: ‘should have called’."
+      },
+      {
+        "tokens": [
+          "You",
+          "should",
+          "have",
+          "went",
+          "to",
+          "bed."
+        ],
+        "errorIndex": 3,
+        "correction": "gone",
+        "type": "Past simple instead of participle",
+        "message": "After ‘have’ use the participle: ‘gone’."
+      },
+      {
+        "tokens": [
+          "She",
+          "must",
+          "have",
+          "forgot",
+          "her",
+          "keys."
+        ],
+        "errorIndex": 3,
+        "correction": "forgotten",
+        "type": "Past simple instead of participle",
+        "message": "Participle: ‘forgotten’."
+      },
+      {
+        "tokens": [
+          "We",
+          "could",
+          "have",
+          "took",
+          "the",
+          "train."
+        ],
+        "errorIndex": 3,
+        "correction": "taken",
+        "type": "Past simple instead of participle",
+        "message": "Participle: ‘taken’."
+      },
+      {
+        "tokens": [
+          "He",
+          "can’t",
+          "have",
+          "finish",
+          "already."
+        ],
+        "errorIndex": 3,
+        "correction": "finished",
+        "type": "Base verb instead of participle",
+        "message": "After ‘have’ use the participle: ‘finished’."
+      },
+      {
+        "tokens": [
+          "You",
+          "might",
+          "have",
+          "break",
+          "it."
+        ],
+        "errorIndex": 3,
+        "correction": "broken",
+        "type": "Base verb instead of participle",
+        "message": "Participle: ‘broken’."
+      },
+      {
+        "tokens": [
+          "He",
+          "mustn’t",
+          "have",
+          "seen",
+          "us",
+          "—",
+          "we",
+          "were",
+          "hiding."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Mustn’t have",
+        "message": "Negative deduction: ‘He can’t have seen us’."
+      },
+      {
+        "tokens": [
+          "She",
+          "mustn’t",
+          "have",
+          "known",
+          "about",
+          "it."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Mustn’t have",
+        "message": "Negative deduction: ‘She can’t have known’."
+      },
+      {
+        "tokens": [
+          "You",
+          "could",
+          "of",
+          "told",
+          "me!"
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Of instead of have",
+        "message": "Write ‘could have’, not ‘could of’."
+      },
+      {
+        "tokens": [
+          "I",
+          "should",
+          "of",
+          "listened",
+          "to",
+          "you."
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Of instead of have",
+        "message": "Write ‘should have’, not ‘should of’."
+      },
+      {
+        "tokens": [
+          "You",
+          "must",
+          "have",
+          "told",
+          "me",
+          "—",
+          "now",
+          "it’s",
+          "too",
+          "late!"
+        ],
+        "errorIndex": 1,
+        "correction": "should",
+        "type": "Wrong modal",
+        "message": "Criticism: ‘You should have told me’."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "not",
+          "sure.",
+          "He",
+          "must",
+          "have",
+          "gone",
+          "home."
+        ],
+        "errorIndex": 4,
+        "correction": "might",
+        "type": "Wrong modal",
+        "message": "Not sure → ‘He might have gone home’."
+      },
+      {
+        "tokens": [
+          "The",
+          "road",
+          "is",
+          "wet.",
+          "It",
+          "can’t",
+          "have",
+          "rained."
+        ],
+        "errorIndex": 5,
+        "correction": "must",
+        "type": "Wrong modal",
+        "message": "The evidence shows ‘It must have rained’."
+      },
+      {
+        "tokens": [
+          "He",
+          "must",
+          "have",
+          "been",
+          "sleep",
+          "when",
+          "I",
+          "called."
+        ],
+        "errorIndex": 4,
+        "correction": "sleeping",
+        "type": "Continuous",
+        "message": "Continuous: ‘must have been sleeping’."
+      },
+      {
+        "tokens": [
+          "You",
+          "needn’t",
+          "have",
+          "bring",
+          "anything."
+        ],
+        "errorIndex": 3,
+        "correction": "brought",
+        "type": "Needn’t have",
+        "message": "Participle: ‘brought’."
+      },
+      {
+        "tokens": [
+          "I",
+          "would",
+          "have",
+          "came,",
+          "but",
+          "I",
+          "was",
+          "ill."
+        ],
+        "errorIndex": 3,
+        "correction": "come",
+        "type": "Would have",
+        "message": "Participle: ‘come’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which meaning, multiple choice and spot-the-mistake. In the typing questions write modal + have + past participle. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "meaning": "Which meaning?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "meaning",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Must have",
+        "sentText": "There’s cake on his face. He {{blank}} it!",
+        "hint": "must / eat",
+        "answers": [
+          "must have eaten"
+        ],
+        "display": "must have eaten",
+        "explain": "Strong evidence about the past: must have eaten.",
+        "wrongNote": "Sure → must have + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Should have",
+        "sentText": "You {{blank}} for help.",
+        "hint": "should / ask",
+        "answers": [
+          "should have asked"
+        ],
+        "display": "should have asked",
+        "explain": "Criticism: it was right, but you didn’t do it.",
+        "wrongNote": "Criticism → should have + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Can’t have",
+        "sentText": "She {{blank}} far — her coat is still here.",
+        "hint": "can’t / go",
+        "answers": [
+          "can’t have gone",
+          "can't have gone",
+          "cant have gone",
+          "cannot have gone"
+        ],
+        "display": "can’t have gone",
+        "explain": "Sure it didn’t happen: can’t have gone.",
+        "wrongNote": "Impossible → can’t have + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Could have",
+        "sentText": "You {{blank}} ! Be more careful.",
+        "hint": "could / fall",
+        "answers": [
+          "could have fallen"
+        ],
+        "display": "could have fallen",
+        "explain": "Possible, but it didn’t happen: could have fallen.",
+        "wrongNote": "Missed danger → could have + participle."
+      },
+      {
+        "type": "order",
+        "use": "Must have",
+        "tokens": [
+          "She",
+          "must",
+          "have",
+          "forgotten."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Should have",
+        "tokens": [
+          "I",
+          "should",
+          "have",
+          "studied."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Might have",
+        "tokens": [
+          "They",
+          "might",
+          "have",
+          "left."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Can’t have",
+        "tokens": [
+          "He",
+          "can’t",
+          "have",
+          "known."
+        ]
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘You should have called me’ means…",
+        "choices": [
+          "I’m sure you called",
+          "you didn’t call, and that was wrong",
+          "perhaps you called",
+          "calling wasn’t necessary"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "That’s ‘must have called’.",
+          "",
+          "That’s ‘might have called’.",
+          "That’s ‘needn’t have called’."
+        ],
+        "explain": "‘Should have’ = criticism of something that didn’t happen."
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘She must have left’ means…",
+        "choices": [
+          "she didn’t leave, but it was right",
+          "perhaps she left",
+          "it was impossible for her to leave",
+          "I’m sure she left"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "That’s ‘should have left’.",
+          "That’s ‘might have left’.",
+          "That’s ‘can’t have left’.",
+          ""
+        ],
+        "explain": "‘Must have’ = a sure deduction about the past."
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘We could have won’ means…",
+        "choices": [
+          "winning was possible, but we didn’t win",
+          "I’m sure we won",
+          "we had to win",
+          "we won easily"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "That’s ‘must have won’.",
+          "That’s obligation.",
+          "That contradicts ‘could have’."
+        ],
+        "explain": "‘Could have’ = a missed possibility."
+      },
+      {
+        "type": "meaning",
+        "use": "Meaning",
+        "text": "‘You needn’t have waited’ means…",
+        "choices": [
+          "you didn’t wait",
+          "you had to wait",
+          "you waited, but it wasn’t necessary",
+          "perhaps you waited"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "That’s ‘didn’t need to wait’.",
+          "That’s obligation.",
+          "",
+          "That’s ‘might have waited’."
+        ],
+        "explain": "‘Needn’t have’ = done, but unnecessary."
+      },
+      {
+        "type": "mc",
+        "use": "Participle",
+        "text": "He might have {{blank}} the email.",
+        "choices": [
+          "delete",
+          "deleting",
+          "deleted",
+          "deletes"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘have’ use the participle.",
+          "After ‘have’ use the participle, not -ing.",
+          "",
+          "After ‘have’ use the participle, not -s."
+        ],
+        "explain": "Modal + have + past participle."
+      },
+      {
+        "type": "mc",
+        "use": "Must have",
+        "text": "The lights are off. They {{blank}} to bed.",
+        "choices": [
+          "must have gone",
+          "must gone",
+          "must have went",
+          "must go"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Have’ is missing.",
+          "‘Went’ is past simple; use ‘gone’.",
+          "‘Must go’ is obligation now."
+        ],
+        "explain": "Past deduction: must have gone."
+      },
+      {
+        "type": "mc",
+        "use": "Can’t have",
+        "text": "You {{blank}} the whole book in an hour!",
+        "choices": [
+          "mustn’t have read",
+          "can’t read",
+          "shouldn’t have read",
+          "can’t have read"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Mustn’t have’ isn’t used for deduction.",
+          "‘Can’t read’ is about now.",
+          "‘Shouldn’t have’ is criticism.",
+          ""
+        ],
+        "explain": "Impossible: can’t have read."
+      },
+      {
+        "type": "mc",
+        "use": "Should have",
+        "text": "I {{blank}} that. I’m sorry.",
+        "choices": [
+          "mustn’t have said",
+          "shouldn’t have said",
+          "can’t have said",
+          "shouldn’t said"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Mustn’t have’ isn’t used for regret.",
+          "",
+          "‘Can’t have said’ is a deduction.",
+          "‘Have’ is missing."
+        ],
+        "explain": "Regret: shouldn’t have said."
+      },
+      {
+        "type": "error",
+        "use": "Missing have",
+        "tokens": [
+          "She",
+          "must",
+          "left",
+          "early."
+        ],
+        "errorIndex": 2,
+        "correction": "have left",
+        "message": "Past deduction: ‘must have left’."
+      },
+      {
+        "type": "error",
+        "use": "Past simple instead of participle",
+        "tokens": [
+          "You",
+          "should",
+          "have",
+          "saw",
+          "it!"
+        ],
+        "errorIndex": 3,
+        "correction": "seen",
+        "message": "Participle: ‘seen’."
+      },
+      {
+        "type": "error",
+        "use": "Mustn’t have",
+        "tokens": [
+          "He",
+          "mustn’t",
+          "have",
+          "heard",
+          "me."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "message": "Negative deduction: ‘can’t have heard’."
+      },
+      {
+        "type": "error",
+        "use": "Of instead of have",
+        "tokens": [
+          "We",
+          "might",
+          "of",
+          "won."
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "message": "Write ‘might have’, never ‘might of’."
+      }
+    ]
+  }
+}

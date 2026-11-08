@@ -30,47 +30,89 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "May, Might & Could", href: "/grammar/modal-verbs/may-might-could-probability/" }
   - { title: "Third Conditional", href: "/grammar/conditionals/third-conditional/" }
+next: { title: "Would rather & Would prefer", href: "/grammar/modal-verbs/would-rather-would-prefer/" }
 draft: false
 ---
 
 ## How to form modal perfects
 
-The pattern is always **modal + have + past participle**.
+| Structure | Example |
+|---|---|
+| modal + **have** + past participle | She **must have left**. |
+| negative: modal + **not** + have + participle | He **can't have seen** us. |
+| continuous: modal + have + **been** + -ing | They **must have been sleeping**. |
 
-| Meaning | Form | Example |
+The modal never changes and *have* never becomes *has* or *had*. In speech, *have* is often contracted: *must've, should've, could've* — but never write ~~must of~~.
+
+## Deductions about the past
+
+| Certainty | Form | Example |
 |---|---|---|
-| Confident guess (positive) | must have + participle | **She must have left.** |
-| Impossible (negative guess) | can't / couldn't have + participle | **He can't have finished.** |
-| Possible guess | might / may / could have + participle | **They might have missed** it. |
-| Regret / criticism | should have + participle | **You should have called.** |
+| sure it happened | **must have** + participle | The ground is wet. It **must have rained**. |
+| possible | **might / may / could have** + participle | She **might have missed** the bus. |
+| sure it didn't happen | **can't / couldn't have** + participle | He **can't have finished** already! |
 
-The verb after *have* is a **past participle** (left, gone, seen, done).
+### 1. *Must have* — strong evidence
 
-## When to use each
+- You **must have been** tired after the trip.
+- Someone **must have taken** my pen.
 
-### 1. Must have — you're fairly sure
+> ⚠️ Typical error: ~~It must rained.~~ → The past needs *have* + participle: *It must have rained.*
 
-- The ground is wet. **It must have rained** in the night.
+### 2. *Can't have* — impossible
 
-### 2. Can't have / couldn't have — it's impossible
+- She **can't have seen** me — I was hiding.
 
-- **She can't have gone** far; her car is still here.
+> ⚠️ Typical error: ~~She mustn't have seen me.~~ → The negative deduction is *can't have*: *She can't have seen me.*
 
-### 3. Might/may/could have — a possibility
+### 3. *Might have* — not sure
 
-- I don't know why he's late. **He might have overslept.**
+- I don't know why he's late. He **might have overslept**.
 
-### 4. Should have — regret or criticism
+## Criticism and regret: *should have*
 
-- **I should have booked** earlier; now it's full.
-- **You shouldn't have paid** so much.
+*Should have* + participle = it was the right thing to do, but it **didn't** happen.
 
-> ⚠️ Typical error: never write ~~should of~~. The word is *have*: **should have gone**, **must have known**.
+- You **should have told** me! (you didn't tell me)
+- I **shouldn't have eaten** so much. (I ate a lot)
+
+> ⚠️ Typical error: ~~You should told me.~~ → *Should have told.*
+
+## Missed possibilities: *could have*
+
+*Could have* + participle = it was possible, but it **didn't** happen.
+
+- We **could have won** if we'd played better.
+- You **could have hurt** yourself! (but you didn't)
+
+### *Couldn't have* + comparative
+
+- The party was great — it **couldn't have been** better!
+
+## *Needn't have* and *would have*
+
+| Form | Meaning | Example |
+|---|---|---|
+| **needn't have** + participle | you did it, but it wasn't necessary | You **needn't have brought** a present. |
+| **would have** + participle | imaginary past result | I **would have come**, but I was ill. |
+
+See [Need & Needn't](/grammar/modal-verbs/need-neednt/) and [Third Conditional](/grammar/conditionals/third-conditional/).
+
+## Continuous modal perfects
+
+For an action **in progress** in the past:
+
+- He didn't answer. He **must have been sleeping**.
+- They **might have been joking**.
 
 ## Common mistakes
 
-**1. 'Of' instead of 'have'.** *~~I could of helped~~* → **I could have helped.**
+**1. Missing *have*.** *~~She must left~~* → **She must have left.**
 
-**2. Using the past simple instead of the participle.** *~~She must have went~~* → **She must have gone.**
+**2. Past simple instead of participle.** *~~He should have went~~* → **He should have gone.**
 
-**3. Wrong modal for the meaning.** *~~He must have finished — but maybe not~~* (if you're unsure) → **He might have finished. Pro tip:** must have = sure it's true; can't have = sure it's false; might have = not sure; should have = regret.
+**3. *Mustn't have* for negative deduction.** *~~He mustn't have known~~* → **He can't have known.**
+
+**4. Writing *of*.** *~~could of~~* → **could have / could've.**
+
+**Pro tip:** every modal perfect has the same skeleton — modal + have + past participle. Learn the participles and the rest is easy.
