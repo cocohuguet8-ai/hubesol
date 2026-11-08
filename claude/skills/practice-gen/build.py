@@ -91,6 +91,12 @@ def build(slug):
                        'categoryLabels': {'fill': 'Fill in the blank', 'order': 'Word order', ck: cl, 'mc': 'Grammar choices', 'error': 'Spot the mistake'},
                        'categoryOrder': ['fill', 'order', ck, 'mc', 'error'], 'items': items}
     json.dump(d, open(f'{R}/src/data/practice/{slug}-practice.json', 'w'), ensure_ascii=False, indent=2)
+    if hasattr(L, 'QUIZ_COMMON'):
+        qp = f'{R}/src/data/quizzes/{slug}-quiz-1.json'
+        qz = json.load(open(qp))
+        for n, c in L.QUIZ_COMMON.items():
+            qz['items'][n]['common'] = [{'answer': a, 'why': w} for a, w in c]
+        json.dump(qz, open(qp, 'w'), ensure_ascii=False, indent=2)
     p = glob.glob(f'{R}/src/content/lessons/*/{slug}.md')[0]
     txt = open(p).read()
     fm, body = re.match(r'---\n(.*?)\n---\n', txt, re.S).group(1), None
