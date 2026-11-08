@@ -26,41 +26,98 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "Must & Have to", href: "/grammar/modal-verbs/must-have-to-obligation/" }
   - { title: "Can, Could & Be able to", href: "/grammar/modal-verbs/can-could-ability/" }
+next: { title: "Need & Needn’t", href: "/grammar/modal-verbs/need-neednt/" }
 draft: false
 ---
 
-## The difference in one table
+## How the forms compare
 
-| | Can't | Mustn't |
+| Form | Main meaning | Example |
 |---|---|---|
-| Meaning | impossible / unable / not allowed | forbidden (a strong rule) |
-| Used for guesses? | yes (negative deduction) | no |
-| Example | It **can't be** true. | You **mustn't be** late. |
+| **can't** + base verb | it isn't allowed (a rule) · it isn't possible · I'm sure it isn't true | You **can't** park here. |
+| **mustn't** + base verb | it's forbidden — strong prohibition, often from the speaker | You **mustn't** touch that! |
+| **don't have to** + base verb | it isn't necessary | You **don't have to** come. |
 
-*Can't* is about what's **impossible**; *mustn't* is about what's **forbidden**.
+*Can't* and *mustn't* are both modals: base verb after them, no *-s*, no *to*.
 
-## When to use each
+## When *can't* and *mustn't* are similar
 
-### 1. Can't — impossible or unable
+For **rules and prohibitions**, both are possible and the meaning is very close.
 
-- I **can't lift** this box; it's too heavy. (unable)
-- That **can't be** right — check it again. (impossible)
+- You **can't** / **mustn't** smoke in the hospital.
+- Students **can't** / **mustn't** use phones in the exam.
 
-### 2. Mustn't — forbidden
+The difference is in **tone**:
 
-- You **mustn't use** your phone during the exam. (a rule)
-- We **mustn't forget** to lock up. (strong 'don't')
+| | Sounds like… |
+|---|---|
+| **can't** | a fact about the rules: it's not permitted |
+| **mustn't** | a strong order or warning from the speaker |
 
-### 3. Only 'can't' for negative deductions
+## When to use *can't*
 
-- **She can't have left** — her coat is still here. (it's impossible)
+### 1. Reporting a rule
 
-> ⚠️ Typical error: don't use *mustn't* for a guess. *He can't be at work — it's Sunday* — not ~~he mustn't be at work~~.
+- In Spain you **can't** vote until you're 18.
+- We **can't** wear trainers at school.
+
+> ⚠️ Typical error: ~~We don't can wear trainers.~~ → The negative of *can* is *can't*.
+
+### 2. Impossibility (no ability)
+
+*Mustn't* is never used for ability.
+
+- I **can't** swim. (✓) — not ~~I mustn't swim~~ (= swimming is forbidden for me)
+- She **can't** come — she's ill.
+
+> ⚠️ Typical error: ~~I mustn't open this jar — it's too tight.~~ → It's impossible, not forbidden: *I can't open this jar.*
+
+### 3. Logical deduction
+
+*Can't* = I'm sure it isn't true.
+
+- That **can't** be Laia — she's in London.
+
+See [Deduction: must, might & can't](/grammar/modal-verbs/deduction-must-might-cant/).
+
+## When to use *mustn't*
+
+### 1. Strong warnings
+
+- You **mustn't** play with matches!
+- You **mustn't** cross the road here — it's dangerous.
+
+### 2. The speaker's own rules and promises
+
+- I **mustn't** forget Mum's birthday again.
+- We **mustn't** tell anyone the secret.
+
+> ⚠️ Typical error: ~~I mustn't to forget.~~ → No *to*: *I mustn't forget.*
+
+## *Mustn't* ≠ *don't have to*
+
+The biggest trap: these negatives mean different things.
+
+| Sentence | Meaning |
+|---|---|
+| You **mustn't** wear jeans. | Jeans are forbidden. |
+| You **don't have to** wear jeans. | Jeans are optional — wear what you like. |
+
+## Past forms
+
+*Mustn't* has no past. Use **couldn't** or **wasn't/weren't allowed to**.
+
+- When I was ten, I **couldn't** stay up late.
+- We **weren't allowed to** use calculators.
 
 ## Common mistakes
 
-**1. Using 'mustn't' for a deduction.** *~~That mustn't be his car~~* → **That can't be his car.**
+**1. *Mustn't* for ability.** *~~I mustn't ride a bike~~* (you never learnt) → **I can't ride a bike.**
 
-**2. Using 'can't' when you mean forbidden and stated as a rule.** Both are common, but for a firm instruction, *mustn't* is clearer: **You mustn't tell anyone.**
+**2. *Mustn't* for "not necessary".** *~~You mustn't pay — it's free~~* → **You don't have to pay.**
 
-**3. Adding 'to'.** *~~You can't to go~~ / ~~You mustn't to go~~* → **You can't go / You mustn't go. Pro tip:** impossible → can't; forbidden → mustn't; guessing 'no way' → can't.
+**3. *Mustn't* in the past.** *~~Yesterday we mustn't go out~~* → **Yesterday we couldn't / weren't allowed to go out.**
+
+**4. *To* after the modal.** *~~You can't to enter~~* → **You can't enter.**
+
+**Pro tip:** ask "Is it forbidden, impossible or unnecessary?" Forbidden → *can't/mustn't*; impossible → *can't*; unnecessary → *don't have to*.
