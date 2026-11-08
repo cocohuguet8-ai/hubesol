@@ -29,39 +29,106 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
   - { title: "A few, A little & Enough", href: "/grammar/nouns-determiners/a-few-a-little-enough/" }
+next: { title: "A few, A little & Enough", href: "/grammar/nouns-determiners/a-few-a-little-enough/" }
 draft: false
 ---
 
-## much, many, a lot of
+## The basic rule
 
-| Word | Goes with | Best in | Example |
-|---|---|---|---|
-| much | uncountable | questions, negatives | **much** time, not **much** money |
-| many | countable plural | questions, negatives | **many** people, not **many** cars |
-| a lot of / lots of | both | positive sentences | **a lot of** time, **a lot of** friends |
+| | Countable (plural) | Uncountable |
+|---|---|---|
+| **many** | **many** friends | — |
+| **much** | — | **much** money |
+| **a lot of / lots of** | **a lot of** friends | **a lot of** money |
 
-Ask with **how much** (uncountable) and **how many** (countable).
+## *Many* and *much*
 
-## When to use each
+### 1. Mainly in negatives and questions
 
-### 1. much / many — questions and negatives
+- I haven't got **many** friends here. — Do you have **much** time?
 
-- Is there **much** traffic today? I don't have **many** friends here.
+### 2. *How many / How much*
 
-### 2. a lot of — positive sentences
+- **How many** cousins have you got? — **How much** water do you drink?
 
-- We have **a lot of** homework. She has **a lot of** books.
+### 3. *Much* in positive sentences sounds formal
 
-### 3. how much / how many — asking quantity
+- ~~I have much money.~~ → *I have a lot of money.* (natural speech)
 
-- **How much** water do you drink? **How many** hours did you sleep?
+> ⚠️ Typical error: ~~How much people came?~~ → *People* is countable: *How many people came?*
 
-> ⚠️ In positives, 'much' and 'many' alone can sound stiff: prefer *a lot of* — *We had a lot of fun* rather than *We had much fun.*
+## *A lot of / lots of*
+
+### 1. Mainly in positive sentences
+
+- She has **a lot of** books. — We had **lots of** fun.
+
+### 2. With countables and uncountables
+
+- **a lot of** cars / **a lot of** traffic
+
+### 3. Without a noun: *a lot*
+
+- I like it **a lot**. — Do you travel? — Yes, **a lot**. (no *of*)
+
+> ⚠️ Typical error: ~~I eat a lot of.~~ → No noun after it: *I eat a lot.*
+
+## *Too much / too many*, *so much / so many*
+
+| Pattern | Example |
+|---|---|
+| **too many** + plural | There are **too many** people here. |
+| **too much** + uncountable | You put **too much** salt in the soup. |
+| **so many / so much** | I've got **so much** homework! |
+
+## *Much / many* without a noun
+
+- Do you have any money? — Not **much**.
+- How many emails did you get? — Not **many**.
+
+## Positive, negative or question?
+
+| Sentence type | Countable | Uncountable |
+|---|---|---|
+| Positive | I've got **a lot of** friends. | I've got **a lot of** time. |
+| Negative | I haven't got **many** friends. | I haven't got **much** time. |
+| Question | Have you got **many** friends? | Have you got **much** time? |
+
+*A lot of* is also fine in negatives and questions: *Have you got a lot of homework?*
+
+## *Much* as an adverb
+
+*Much* and *a lot* can go with verbs and comparatives:
+
+- I don't go out **much**. — She doesn't like football **much**.
+- This bag is **much** bigger. — It's **a lot** cheaper online.
+
+> ⚠️ Typical error: ~~very much bigger~~ → *much bigger / a lot bigger.*
+
+## *Plenty of*
+
+*Plenty of* means "more than enough". It goes with countables and uncountables.
+
+- Don't worry, we've got **plenty of** time. — There are **plenty of** chairs.
+
+## From most to least
+
+| Countable | Uncountable |
+|---|---|
+| a lot of / lots of cars | a lot of / lots of money |
+| many cars | much money |
+| some cars | some money |
+| not many cars | not much money |
+| no cars | no money |
 
 ## Common mistakes
 
-**1. 'much' with a countable noun.** *~~much people~~* → **many people** (or a lot of people).
+**1. *Much* with plurals.** *~~much problems~~* → **many problems**.
 
-**2. 'many' with an uncountable noun.** *~~many money~~* → **much money** (or a lot of money).
+**2. *Many* with uncountables.** *~~many information~~* → **much / a lot of information**.
 
-**3. 'how much' with a countable noun.** *~~How much people?~~* → **How many people? Pro tip:** much = uncountable, many = countable, a lot of = both (and best in positives).
+**3. *A lot* + noun without *of*.** *~~a lot people~~* → **a lot of people**.
+
+**4. *Much* in positives.** *~~She drinks much coffee.~~* → **She drinks a lot of coffee.**
+
+**Pro tip:** in doubt in a positive sentence, use **a lot of** — it works with everything.
