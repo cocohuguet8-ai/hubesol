@@ -1,0 +1,1561 @@
+{
+  "tense": "reported-questions",
+  "lessonTitle": "Reported Questions",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "asked",
+        "if",
+        "whether",
+        "where",
+        "what"
+      ],
+      "label": null,
+      "primary": "asked"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the missing part of the reported question: if / whether, the question word, or the verb in statement order with backshift. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Yes/No",
+        "before": "“Are you tired?” → She asked",
+        "after": "I was tired.",
+        "hint": "if / that",
+        "answers": [
+          "if",
+          "whether"
+        ],
+        "display": "if",
+        "explain": "A yes/no question is reported with ‘if’ or ‘whether’."
+      },
+      {
+        "use": "Yes/No",
+        "before": "“Do you like pizza?” → He asked if I",
+        "after": "pizza.",
+        "hint": "(like)",
+        "answers": [
+          "liked"
+        ],
+        "display": "liked",
+        "explain": "No ‘do’ in reported questions; present simple moves back: liked."
+      },
+      {
+        "use": "Yes/No",
+        "before": "“Can you help me?” → She asked if I",
+        "after": "help her.",
+        "hint": "can / could",
+        "answers": [
+          "could"
+        ],
+        "display": "could",
+        "explain": "‘Can’ moves back to ‘could’ after ‘asked’."
+      },
+      {
+        "use": "Yes/No",
+        "before": "“Have you finished?” → The teacher asked whether we",
+        "after": ".",
+        "hint": "(finish)",
+        "answers": [
+          "had finished"
+        ],
+        "display": "had finished",
+        "explain": "Present perfect moves back to past perfect: had finished."
+      },
+      {
+        "use": "Yes/No",
+        "before": "“Will you come tomorrow?” → He asked if I",
+        "after": "the next day.",
+        "hint": "(come)",
+        "answers": [
+          "would come"
+        ],
+        "display": "would come",
+        "explain": "‘Will’ moves back to ‘would’."
+      },
+      {
+        "use": "Yes/No",
+        "before": "“Is it raining?” → She asked if it",
+        "after": ".",
+        "hint": "(rain)",
+        "answers": [
+          "was raining"
+        ],
+        "display": "was raining",
+        "explain": "Present continuous moves back: was raining."
+      },
+      {
+        "use": "Wh-",
+        "before": "“Where do you live?” → He asked where I",
+        "after": ".",
+        "hint": "(live)",
+        "answers": [
+          "lived"
+        ],
+        "display": "lived",
+        "explain": "Statement order (I lived) and backshift; no ‘do’."
+      },
+      {
+        "use": "Wh-",
+        "before": "“What are you doing?” → She asked what I",
+        "after": ".",
+        "hint": "(do)",
+        "answers": [
+          "was doing"
+        ],
+        "display": "was doing",
+        "explain": "Statement order: subject + was doing."
+      },
+      {
+        "use": "Wh-",
+        "before": "“When does the film start?” → He asked when the film",
+        "after": ".",
+        "hint": "(start)",
+        "answers": [
+          "started"
+        ],
+        "display": "started",
+        "explain": "No ‘does’; the subject comes first: the film started."
+      },
+      {
+        "use": "Wh-",
+        "before": "“Why did you leave?” → They asked why I",
+        "after": ".",
+        "hint": "(leave)",
+        "answers": [
+          "had left"
+        ],
+        "display": "had left",
+        "explain": "Past simple moves back to past perfect: had left."
+      },
+      {
+        "use": "Wh-",
+        "before": "“How old are you?” → She asked how old I",
+        "after": ".",
+        "hint": "(be)",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "Statement order: how old I was."
+      },
+      {
+        "use": "Wh-",
+        "before": "“Where is the station?” → A tourist asked me where the station",
+        "after": ".",
+        "hint": "(be)",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "The verb goes after the subject: the station was."
+      },
+      {
+        "use": "Wh-",
+        "before": "“What time is it?” → He asked what time it",
+        "after": ".",
+        "hint": "(be)",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "Statement order and backshift: it was."
+      },
+      {
+        "use": "Question word",
+        "before": "“",
+        "after": "broke the window?” → She asked who had broken the window.",
+        "hint": "who / what",
+        "answers": [
+          "Who"
+        ],
+        "display": "Who",
+        "explain": "‘Who’ is the subject here, so the order stays the same."
+      },
+      {
+        "use": "Question word",
+        "before": "“What happened?” → He asked what",
+        "after": ".",
+        "hint": "(happen)",
+        "answers": [
+          "had happened"
+        ],
+        "display": "had happened",
+        "explain": "‘What’ is the subject: no inversion; past simple → past perfect."
+      },
+      {
+        "use": "Reporting verb",
+        "before": "She",
+        "after": "me where I had bought my jacket.",
+        "hint": "asked / said",
+        "answers": [
+          "asked"
+        ],
+        "display": "asked",
+        "explain": "Questions are reported with ‘ask’ (+ person)."
+      },
+      {
+        "use": "Reporting verb",
+        "before": "He wanted to",
+        "after": "if the shop was open.",
+        "hint": "know / ask",
+        "answers": [
+          "know"
+        ],
+        "display": "know",
+        "explain": "Another reporting phrase for questions: wanted to know."
+      },
+      {
+        "use": "Reporting verb",
+        "before": "I",
+        "after": "why she hadn’t called.",
+        "hint": "wondered / asked to",
+        "answers": [
+          "wondered"
+        ],
+        "display": "wondered",
+        "explain": "‘Wonder’ can report a question you ask yourself."
+      },
+      {
+        "use": "Pronoun",
+        "before": "“Is this your bag?” → She asked if it was",
+        "after": "bag.",
+        "hint": "(your)",
+        "answers": [
+          "my"
+        ],
+        "display": "my",
+        "explain": "She was speaking to me, so ‘your’ becomes ‘my’."
+      },
+      {
+        "use": "Whether",
+        "before": "“Do you want tea or coffee?” → He asked",
+        "after": "I wanted tea or coffee.",
+        "hint": "whether / that",
+        "answers": [
+          "whether"
+        ],
+        "display": "whether",
+        "explain": "‘Whether’ is common with a choice: tea or coffee."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each reported question — statement order, no question mark.",
+    "sentences": [
+      {
+        "use": "Yes/No",
+        "tokens": [
+          "She",
+          "asked",
+          "if",
+          "I",
+          "was",
+          "tired."
+        ]
+      },
+      {
+        "use": "Yes/No",
+        "tokens": [
+          "He",
+          "asked",
+          "if",
+          "I",
+          "liked",
+          "jazz."
+        ]
+      },
+      {
+        "use": "Yes/No",
+        "tokens": [
+          "She",
+          "asked",
+          "whether",
+          "I",
+          "had",
+          "finished."
+        ]
+      },
+      {
+        "use": "Yes/No",
+        "tokens": [
+          "He",
+          "asked",
+          "if",
+          "I",
+          "could",
+          "swim."
+        ]
+      },
+      {
+        "use": "Yes/No",
+        "tokens": [
+          "They",
+          "asked",
+          "if",
+          "we",
+          "would",
+          "come."
+        ]
+      },
+      {
+        "use": "Yes/No",
+        "tokens": [
+          "She",
+          "asked",
+          "if",
+          "it",
+          "was",
+          "raining."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "He",
+          "asked",
+          "where",
+          "I",
+          "lived."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "She",
+          "asked",
+          "what",
+          "I",
+          "was",
+          "doing."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "He",
+          "asked",
+          "when",
+          "the",
+          "film",
+          "started."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "They",
+          "asked",
+          "why",
+          "I",
+          "had",
+          "left."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "She",
+          "asked",
+          "how",
+          "old",
+          "I",
+          "was."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "He",
+          "asked",
+          "where",
+          "the",
+          "station",
+          "was."
+        ]
+      },
+      {
+        "use": "Wh-",
+        "tokens": [
+          "She",
+          "asked",
+          "what",
+          "time",
+          "it",
+          "was."
+        ]
+      },
+      {
+        "use": "Question word",
+        "tokens": [
+          "He",
+          "asked",
+          "who",
+          "had",
+          "called."
+        ]
+      },
+      {
+        "use": "Question word",
+        "tokens": [
+          "She",
+          "asked",
+          "what",
+          "had",
+          "happened."
+        ]
+      },
+      {
+        "use": "Reporting verb",
+        "tokens": [
+          "He",
+          "wanted",
+          "to",
+          "know",
+          "where",
+          "I",
+          "worked."
+        ]
+      },
+      {
+        "use": "Reporting verb",
+        "tokens": [
+          "I",
+          "wondered",
+          "if",
+          "she",
+          "was",
+          "OK."
+        ]
+      },
+      {
+        "use": "Pronoun",
+        "tokens": [
+          "She",
+          "asked",
+          "if",
+          "it",
+          "was",
+          "my",
+          "coat."
+        ]
+      },
+      {
+        "use": "Whether",
+        "tokens": [
+          "He",
+          "asked",
+          "whether",
+          "I",
+          "wanted",
+          "tea."
+        ]
+      },
+      {
+        "use": "Ask + person",
+        "tokens": [
+          "She",
+          "asked",
+          "me",
+          "how",
+          "I",
+          "was."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the direct and reported question",
+    "subtitle": "Tap a direct question, then tap its reported version.",
+    "leftLabel": "Direct question",
+    "rightLabel": "Reported",
+    "rightLabelSub": "(asked…)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "“Are you hungry?”",
+        "right": "She asked if I was hungry."
+      },
+      {
+        "left": "“Where do you live?”",
+        "right": "She asked where I lived."
+      },
+      {
+        "left": "“Can you drive?”",
+        "right": "She asked if I could drive."
+      },
+      {
+        "left": "“What are you doing?”",
+        "right": "She asked what I was doing."
+      },
+      {
+        "left": "“Have you eaten?”",
+        "right": "She asked if I had eaten."
+      },
+      {
+        "left": "“Why did you leave?”",
+        "right": "She asked why I had left."
+      },
+      {
+        "left": "“Will you help me?”",
+        "right": "She asked if I would help her."
+      },
+      {
+        "left": "“How old are you?”",
+        "right": "She asked how old I was."
+      },
+      {
+        "left": "“Do you like cats?”",
+        "right": "She asked if I liked cats."
+      },
+      {
+        "left": "“When does it start?”",
+        "right": "She asked when it started."
+      },
+      {
+        "left": "“Who called?”",
+        "right": "She asked who had called."
+      },
+      {
+        "left": "“Is it cold?”",
+        "right": "She asked if it was cold."
+      },
+      {
+        "left": "“What happened?”",
+        "right": "She asked what had happened."
+      },
+      {
+        "left": "“Where is the bank?”",
+        "right": "She asked where the bank was."
+      },
+      {
+        "left": "“Did you see it?”",
+        "right": "She asked if I had seen it."
+      },
+      {
+        "left": "“How do you feel?”",
+        "right": "She asked how I felt."
+      },
+      {
+        "left": "“Are you coming?”",
+        "right": "She asked if I was coming."
+      },
+      {
+        "left": "“What time is it?”",
+        "right": "She asked what time it was."
+      },
+      {
+        "left": "“Can I sit here?”",
+        "right": "She asked if she could sit there."
+      },
+      {
+        "left": "“Which bus goes to Girona?”",
+        "right": "She asked which bus went to Girona."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Statement order, no do / does / did, if or whether for yes/no questions, and backshift.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Yes/No",
+        "text": "“Are you OK?” → She asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> OK.",
+        "choices": [
+          "if I was",
+          "was I",
+          "if was I",
+          "that I was"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Reported questions use statement order, not question order.",
+          "After ‘if’ the subject comes first: ‘if I was’.",
+          "‘That’ is for statements; a yes/no question needs ‘if’ or ‘whether’."
+        ],
+        "explain": "Yes/No question: asked + if + subject + verb. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“Where do you work?” → He asked where <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "did I work",
+          "I worked",
+          "do I work",
+          "I did work"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Did’ disappears in a reported question.",
+          "",
+          "Question order and no backshift.",
+          "‘I did work’ is emphatic and wrong here."
+        ],
+        "explain": "Wh- question: question word + subject + backshifted verb."
+      },
+      {
+        "use": "Wh-",
+        "text": "“What are you reading?” → She asked what <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "was I reading",
+          "I am reading",
+          "I was reading",
+          "am I reading"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Question order is wrong in reported speech.",
+          "No backshift after ‘asked’.",
+          "",
+          "Question order and no backshift."
+        ],
+        "explain": "Statement order + backshift: I was reading. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Yes/No",
+        "text": "“Do you speak French?” → He asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> French.",
+        "choices": [
+          "do I speak",
+          "if did I speak",
+          "that I spoke",
+          "if I spoke"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Question order and ‘do’ are wrong here.",
+          "‘Did’ disappears in reported questions.",
+          "‘That’ is for statements.",
+          ""
+        ],
+        "explain": "No ‘do’; if + subject + past simple. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“When did you arrive?” → They asked when <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "did I arrive",
+          "I had arrived",
+          "I did arrive",
+          "had I arrived"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Did’ disappears and the order changes.",
+          "",
+          "Emphatic and wrong.",
+          "Question order is wrong."
+        ],
+        "explain": "Past simple → past perfect, statement order. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“Where is the museum?” → A tourist asked me where the museum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "is",
+          "was it",
+          "was",
+          "did be"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘asked’, backshift: ‘was’.",
+          "‘Was it’ is question order.",
+          "",
+          "‘Did be’ is impossible."
+        ],
+        "explain": "Statement order: the museum was. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Question word",
+        "text": "“Who ate my sandwich?” → He asked who <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his sandwich.",
+        "choices": [
+          "did eat",
+          "ate did",
+          "has eaten",
+          "had eaten"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Did’ disappears.",
+          "Wrong order.",
+          "Present perfect isn’t backshifted.",
+          ""
+        ],
+        "explain": "‘Who’ is the subject: no inversion; past → past perfect."
+      },
+      {
+        "use": "If or that",
+        "text": "Which word introduces a reported yes/no question?",
+        "choices": [
+          "if",
+          "that",
+          "what",
+          "so"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘That’ introduces statements.",
+          "‘What’ is for wh- questions.",
+          "‘So’ shows a result."
+        ],
+        "explain": "Yes/No questions: if or whether. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Whether",
+        "text": "“Do you want pasta or rice?” → He asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I wanted pasta or rice.",
+        "choices": [
+          "that",
+          "what",
+          "whether",
+          "which"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘That’ is for statements.",
+          "‘What I wanted pasta’ is wrong.",
+          "",
+          "‘Which I wanted pasta’ is wrong."
+        ],
+        "explain": "‘Whether’ is common with a choice of two. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Will",
+        "text": "“Will you be at the party?” → She asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the party.",
+        "choices": [
+          "will be",
+          "was being",
+          "had been",
+          "would be"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Will’ isn’t backshifted after ‘asked’.",
+          "Changes the meaning.",
+          "Changes the meaning.",
+          ""
+        ],
+        "explain": "‘Will’ → ‘would’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Can",
+        "text": "“Can you lend me a pen?” → He asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lend him a pen.",
+        "choices": [
+          "could",
+          "can",
+          "would can",
+          "could to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Can’ isn’t backshifted.",
+          "Two modals can’t go together.",
+          "No ‘to’ after ‘could’."
+        ],
+        "explain": "‘Can’ → ‘could’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Reporting verb",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me if I had seen her keys.",
+        "choices": [
+          "said",
+          "asked",
+          "told",
+          "asked to"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Said me’ is wrong, and questions use ‘ask’.",
+          "",
+          "‘Told me if’ is wrong for questions.",
+          "No ‘to’ after ‘asked’ before a person."
+        ],
+        "explain": "Report questions with ‘ask’ + person. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Reporting verb",
+        "text": "He wanted <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> where the toilets were.",
+        "choices": [
+          "know",
+          "knowing",
+          "to knew",
+          "to know"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Want’ needs ‘to’.",
+          "‘Wanted knowing’ is wrong.",
+          "After ‘to’ use the base verb.",
+          ""
+        ],
+        "explain": "Wanted to know + wh- clause. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“Where have you been?” → Dad asked where I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "had been",
+          "have been",
+          "had I been",
+          "was been"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "After ‘asked’ the present perfect moves back to the past perfect.",
+          "Question order is wrong in a reported question.",
+          "‘Was been’ is not a correct form."
+        ],
+        "explain": "Present perfect → past perfect, in statement order: where I had been."
+      },
+      {
+        "use": "Pronoun",
+        "text": "“Is this your phone?” → He asked if it was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> phone.",
+        "choices": [
+          "your",
+          "my",
+          "his",
+          "our"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "He was speaking to me, so it changes to ‘my’.",
+          "",
+          "Only if it was his own phone.",
+          "Changes the meaning."
+        ],
+        "explain": "‘Your’ → ‘my’ when the question was to me. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“How much does it cost?” → She asked how much it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "does cost",
+          "did cost",
+          "cost",
+          "costs did"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Does’ disappears.",
+          "‘Did’ disappears.",
+          "",
+          "Wrong order."
+        ],
+        "explain": "Statement order + backshift: it cost (past of cost). Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“Why are you crying?” → Mum asked why I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "was crying",
+          "am crying",
+          "was I crying",
+          "did cry"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No backshift.",
+          "Question order.",
+          "Wrong structure."
+        ],
+        "explain": "Statement order + backshift: I was crying. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Yes/No",
+        "text": "“Have you ever been to London?” → She asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to London.",
+        "choices": [
+          "have ever been",
+          "had ever been",
+          "had ever went",
+          "was ever"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "No backshift.",
+          "",
+          "‘Went’ is not the participle.",
+          "‘Was ever’ is wrong."
+        ],
+        "explain": "Present perfect → past perfect. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Wh-",
+        "text": "“Which bus goes to the beach?” → He asked which bus <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the beach.",
+        "choices": [
+          "did go",
+          "goes did",
+          "went",
+          "does go"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Did’ disappears.",
+          "Wrong order.",
+          "",
+          "‘Does’ disappears."
+        ],
+        "explain": "‘Which bus’ is the subject: which bus went. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "use": "Ask + to",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "She asked to me where I lived.",
+          "She asked me where did I live.",
+          "She said me where I lived.",
+          "She asked me where I lived."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘to’ after ‘asked’.",
+          "Question order is wrong.",
+          "‘Said me’ is wrong.",
+          ""
+        ],
+        "explain": "Ask + person (no ‘to’) + wh- + statement order. Remember: statement order and backshift after ‘asked’."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "He",
+          "asked",
+          "when",
+          "I",
+          "did",
+          "arrive."
+        ],
+        "errorIndex": 4,
+        "correction": "had arrived",
+        "type": "Do in reported question",
+        "message": "No ‘did’ and backshift: ‘when I had arrived’."
+      },
+      {
+        "tokens": [
+          "He",
+          "asked",
+          "what",
+          "I",
+          "did",
+          "want."
+        ],
+        "errorIndex": 4,
+        "correction": "wanted",
+        "type": "Do in reported question",
+        "message": "No ‘did’: ‘He asked what I wanted’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "Last",
+          "week",
+          "a",
+          "tourist",
+          "asked",
+          "me",
+          "where",
+          "the",
+          "station",
+          "is."
+        ],
+        "errorIndex": 9,
+        "correction": "was",
+        "type": "Backshift",
+        "message": "After ‘asked’, backshift: ‘where the station was’."
+      },
+      {
+        "tokens": [
+          "Yesterday",
+          "he",
+          "asked",
+          "where",
+          "I",
+          "live."
+        ],
+        "errorIndex": 5,
+        "correction": "lived",
+        "type": "Backshift",
+        "message": "After ‘asked’: ‘where I lived’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "She",
+          "asked",
+          "if",
+          "I",
+          "am",
+          "hungry."
+        ],
+        "errorIndex": 4,
+        "correction": "was",
+        "type": "Backshift",
+        "message": "After ‘asked’: ‘if I was hungry’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "He",
+          "asked",
+          "if",
+          "I",
+          "will",
+          "come."
+        ],
+        "errorIndex": 4,
+        "correction": "would",
+        "type": "Backshift",
+        "message": "‘Will’ → ‘would’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "They",
+          "asked",
+          "if",
+          "I",
+          "can",
+          "swim."
+        ],
+        "errorIndex": 4,
+        "correction": "could",
+        "type": "Backshift",
+        "message": "‘Can’ → ‘could’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "She",
+          "asked",
+          "why",
+          "I",
+          "have",
+          "left",
+          "early."
+        ],
+        "errorIndex": 4,
+        "correction": "had",
+        "type": "Backshift",
+        "message": "Present perfect → past perfect: ‘had left’."
+      },
+      {
+        "tokens": [
+          "He",
+          "asked",
+          "that",
+          "I",
+          "was",
+          "ready."
+        ],
+        "errorIndex": 2,
+        "correction": "if",
+        "type": "If or that",
+        "message": "Yes/No question: ‘asked if I was ready’."
+      },
+      {
+        "tokens": [
+          "She",
+          "wanted",
+          "to",
+          "know",
+          "that",
+          "I",
+          "liked",
+          "jazz."
+        ],
+        "errorIndex": 4,
+        "correction": "if",
+        "type": "If or that",
+        "message": "Yes/No question: ‘if I liked jazz’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "She",
+          "wondered",
+          "me",
+          "where",
+          "I",
+          "worked."
+        ],
+        "errorIndex": 1,
+        "correction": "asked",
+        "type": "Wrong verb",
+        "message": "‘Wonder’ can’t take a person: ‘She asked me…’."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "me",
+          "if",
+          "I",
+          "was",
+          "OK."
+        ],
+        "errorIndex": 1,
+        "correction": "asked",
+        "type": "Said or asked",
+        "message": "Questions use ‘ask’: ‘He asked me if…’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "where",
+          "I",
+          "lived."
+        ],
+        "errorIndex": 1,
+        "correction": "asked",
+        "type": "Said or asked",
+        "message": "It was a question: ‘She asked me where I lived’."
+      },
+      {
+        "tokens": [
+          "“Is",
+          "this",
+          "your",
+          "book?”",
+          "→",
+          "She",
+          "asked",
+          "if",
+          "it",
+          "was",
+          "your",
+          "book."
+        ],
+        "errorIndex": 10,
+        "correction": "my",
+        "type": "Pronoun",
+        "message": "She asked me, so ‘my book’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "“Where",
+          "do",
+          "you",
+          "live?”",
+          "→",
+          "He",
+          "asked",
+          "what",
+          "I",
+          "lived."
+        ],
+        "errorIndex": 7,
+        "correction": "where",
+        "type": "Wrong question word",
+        "message": "Keep the question word: ‘where I lived’."
+      },
+      {
+        "tokens": [
+          "She",
+          "asked",
+          "if",
+          "I",
+          "had",
+          "saw",
+          "the",
+          "film."
+        ],
+        "errorIndex": 5,
+        "correction": "seen",
+        "type": "Past participle",
+        "message": "Participle: ‘had seen’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "He",
+          "asked",
+          "who",
+          "had",
+          "broke",
+          "the",
+          "window."
+        ],
+        "errorIndex": 4,
+        "correction": "broken",
+        "type": "Past participle",
+        "message": "Participle: ‘had broken’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "He",
+          "wanted",
+          "know",
+          "where",
+          "I",
+          "was."
+        ],
+        "errorIndex": 2,
+        "correction": "to know",
+        "type": "Want to know",
+        "message": "‘Want’ needs ‘to’: ‘wanted to know’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "Mum",
+          "asked",
+          "what",
+          "I",
+          "was",
+          "do."
+        ],
+        "errorIndex": 5,
+        "correction": "doing",
+        "type": "Continuous",
+        "message": "Past continuous: ‘was doing’. Remember: statement order and backshift after ‘asked’."
+      },
+      {
+        "tokens": [
+          "She",
+          "asked",
+          "wether",
+          "I",
+          "was",
+          "coming."
+        ],
+        "errorIndex": 2,
+        "correction": "whether",
+        "type": "Spelling",
+        "message": "Spelling: ‘whether’. Remember: statement order and backshift after ‘asked’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, yes/no or wh-, multiple choice and spot-the-mistake. In the typing questions write if / whether or the verb in statement order with backshift. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "type": "Yes/No or Wh-",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "type",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Yes/No",
+        "sentText": "“Are you coming?” → She asked {{blank}} I was coming.",
+        "hint": "if / that",
+        "answers": [
+          "if",
+          "whether"
+        ],
+        "display": "if",
+        "explain": "A yes/no question is reported with ‘if’ or ‘whether’.",
+        "wrongNote": "Yes/No → if / whether."
+      },
+      {
+        "type": "fill",
+        "use": "Wh-",
+        "sentText": "“Where are you going?” → He asked where I {{blank}} .",
+        "hint": "go",
+        "answers": [
+          "was going"
+        ],
+        "display": "was going",
+        "explain": "Statement order and backshift: I was going.",
+        "wrongNote": "Subject first, then verb."
+      },
+      {
+        "type": "fill",
+        "use": "Wh-",
+        "sentText": "“What did you buy?” → She asked what I {{blank}} .",
+        "hint": "buy",
+        "answers": [
+          "had bought"
+        ],
+        "display": "had bought",
+        "explain": "No ‘did’; past simple moves back to past perfect.",
+        "wrongNote": "Past simple → had + participle."
+      },
+      {
+        "type": "fill",
+        "use": "Can",
+        "sentText": "“Can you drive?” → He asked if I {{blank}} drive.",
+        "hint": "can / could",
+        "answers": [
+          "could"
+        ],
+        "display": "could",
+        "explain": "‘Can’ moves back to ‘could’ after ‘asked’.",
+        "wrongNote": "‘Can’ → ‘could’."
+      },
+      {
+        "type": "order",
+        "use": "Yes/No",
+        "tokens": [
+          "She",
+          "asked",
+          "if",
+          "I",
+          "was",
+          "cold."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Wh-",
+        "tokens": [
+          "He",
+          "asked",
+          "where",
+          "I",
+          "worked."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question word",
+        "tokens": [
+          "She",
+          "asked",
+          "who",
+          "had",
+          "called."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Ask + person",
+        "tokens": [
+          "He",
+          "asked",
+          "me",
+          "what",
+          "I",
+          "wanted."
+        ]
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "“Do you like football?” is reported with…",
+        "choices": [
+          "that",
+          "if / whether",
+          "what",
+          "who"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘That’ is for statements.",
+          "",
+          "‘What’ would change the question.",
+          "‘Who’ would change the question."
+        ],
+        "explain": "Yes/No questions → if / whether."
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "“Where do you live?” is reported with…",
+        "choices": [
+          "if",
+          "that",
+          "whether",
+          "where"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘If’ is for yes/no questions.",
+          "‘That’ is for statements.",
+          "‘Whether’ is for yes/no questions.",
+          ""
+        ],
+        "explain": "Wh- questions keep their question word."
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "“Who called?” → She asked who had called. The word order…",
+        "choices": [
+          "doesn’t change, because ‘who’ is the subject",
+          "changes to who called had",
+          "needs ‘did’",
+          "needs ‘if’"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Wrong order.",
+          "‘Did’ disappears in reported questions.",
+          "‘If’ is for yes/no questions."
+        ],
+        "explain": "When ‘who / what’ is the subject, keep the order."
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "“Is it far?” → He asked {{blank}} far.",
+        "choices": [
+          "was it",
+          "it was if",
+          "if it was",
+          "that was it"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Question order is wrong.",
+          "Wrong order.",
+          "",
+          "‘That’ is for statements."
+        ],
+        "explain": "Yes/No: if + subject + verb."
+      },
+      {
+        "type": "mc",
+        "use": "Wh-",
+        "text": "“What time does the bus leave?” → She asked what time the bus {{blank}}.",
+        "choices": [
+          "did leave",
+          "does leave",
+          "left",
+          "leaves did"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Did’ disappears.",
+          "‘Does’ disappears and no backshift.",
+          "",
+          "Wrong order."
+        ],
+        "explain": "Statement order + backshift: the bus left."
+      },
+      {
+        "type": "mc",
+        "use": "Yes/No",
+        "text": "“Have you got a pen?” → He asked {{blank}} a pen.",
+        "choices": [
+          "if I had got",
+          "had I got",
+          "have I got",
+          "that I had got"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Question order.",
+          "Question order and no backshift.",
+          "‘That’ is for statements."
+        ],
+        "explain": "if + subject + backshifted verb."
+      },
+      {
+        "type": "mc",
+        "use": "Reporting verb",
+        "text": "She {{blank}} me how old I was.",
+        "choices": [
+          "said",
+          "told",
+          "asked to",
+          "asked"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Said me’ is wrong.",
+          "‘Told’ isn’t used for questions.",
+          "No ‘to’ before the person.",
+          ""
+        ],
+        "explain": "Questions → ask + person."
+      },
+      {
+        "type": "mc",
+        "use": "Whether",
+        "text": "“Do you want to stay or go?” → She asked {{blank}} I wanted to stay or go.",
+        "choices": [
+          "that",
+          "whether",
+          "what",
+          "which"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘That’ is for statements, not questions.",
+          "",
+          "‘What I wanted to stay’ makes no sense.",
+          "‘Which I wanted’ is wrong here."
+        ],
+        "explain": "‘Whether’ is very common when the question offers a choice."
+      },
+      {
+        "type": "error",
+        "use": "Do in reported question",
+        "tokens": [
+          "She",
+          "asked",
+          "what",
+          "I",
+          "did",
+          "want."
+        ],
+        "errorIndex": 4,
+        "correction": "wanted",
+        "message": "No ‘did’: ‘She asked what I wanted’."
+      },
+      {
+        "type": "error",
+        "use": "If or that",
+        "tokens": [
+          "He",
+          "asked",
+          "that",
+          "I",
+          "was",
+          "tired."
+        ],
+        "errorIndex": 2,
+        "correction": "if",
+        "message": "Yes/No question → ‘if’."
+      },
+      {
+        "type": "error",
+        "use": "Backshift",
+        "tokens": [
+          "She",
+          "asked",
+          "where",
+          "I",
+          "work."
+        ],
+        "errorIndex": 4,
+        "correction": "worked",
+        "message": "After ‘asked’: ‘worked’."
+      },
+      {
+        "type": "error",
+        "use": "Said or asked",
+        "tokens": [
+          "He",
+          "said",
+          "me",
+          "if",
+          "I",
+          "was",
+          "OK."
+        ],
+        "errorIndex": 1,
+        "correction": "asked",
+        "message": "Questions are reported with ‘ask’: ‘He asked me…’."
+      }
+    ]
+  }
+}
