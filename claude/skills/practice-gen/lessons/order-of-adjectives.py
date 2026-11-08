@@ -206,7 +206,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake with an adjective. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake with an adjective. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Material form', 'I bought a small brown *wood* box.', 'wooden', 'As an adjective, ‘wood’ becomes ‘wooden’: ‘a small brown wooden box’.'),
   ('Material form', 'She wore a lovely red *wool* jumper.', 'woollen', 'The adjective is ‘woollen’: ‘a lovely red woollen jumper’.'),

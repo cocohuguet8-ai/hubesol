@@ -208,7 +208,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Wrong form', 'He made the cake *hisself*.', 'himself', 'The correct form is ‘himself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it.'),
   ('Wrong form', 'They enjoyed *theirselves* at the beach.', 'themselves', 'The correct form is ‘themselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it.'),

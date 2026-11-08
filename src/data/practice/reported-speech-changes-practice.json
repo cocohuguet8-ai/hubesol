@@ -3,15 +3,10 @@
   "lessonTitle": "Changes in Reported Speech",
   "grammar": {
     "orderAux": {
-      "words": [
-        "that",
-        "then",
-        "there",
-        "the",
-        "day"
-      ],
+      "words": [],
       "label": null,
-      "primary": "that"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -943,7 +938,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences — imagine they are reported a week later.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences — imagine they are reported a week later.",
     "items": [
       {
         "tokens": [
@@ -1325,7 +1320,7 @@
       {
         "type": "fill",
         "use": "Place",
-        "sentText": "“Stay here.” → He told me to stay {{blank}} .",
+        "sentText": "“Stay here.” → He told me to stay {{blank}}.",
         "hint": "here",
         "answers": [
           "there"

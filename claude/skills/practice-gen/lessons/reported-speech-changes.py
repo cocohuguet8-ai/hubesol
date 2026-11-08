@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences — imagine they are reported a week later.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences — imagine they are reported a week later.',
   [
   ('Pronoun', 'Pau said *I* was hungry. (Pau meant himself.)', 'he', 'Pau talked about himself: ‘Pau said he was hungry’.'),
   ('Pronoun', 'My friends said *we* were lost. (They meant themselves.)', 'they', 'Change ‘we’ to ‘they’. Pronouns change to match the person you are talking about.'),

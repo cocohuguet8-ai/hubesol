@@ -52,7 +52,7 @@ After a dependent preposition, a verb goes in the **-ing** form: *I'm good at **
 | at | of | in | about | with | for | to |
 |---|---|---|---|---|---|---|
 | good **at** | afraid **of** | interested **in** | worried **about** | bored **with** | famous **for** | kind **to** |
-| bad **at** | proud **of** | | excited **about** | angry **with** (a person) | responsible **for** | married **to** |
+| bad **at** | proud **of** | | excited **about** | angry **with / at** (a person) | responsible **for** | married **to** |
 | surprised **at / by** | tired **of** | | angry **about** (a thing) | pleased **with** | late **for** | similar **to** |
 | | full **of** | | nervous **about** | | sorry **for** | different **from / to** |
 

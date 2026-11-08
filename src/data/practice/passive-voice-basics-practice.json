@@ -7,11 +7,14 @@
         "is",
         "are",
         "was",
-        "were",
-        "by"
+        "were"
       ],
       "label": null,
-      "primary": "is"
+      "primary": "is",
+      "proper": [
+        "English",
+        "French"
+      ]
     }
   },
   "gapFill": {
@@ -944,7 +947,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [

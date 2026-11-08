@@ -228,7 +228,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Wrong form', 'My mother is *an* teacher.', 'a', '‘Teacher’ starts with a consonant sound: ‘a teacher’.'),
   ('Wrong article', 'He works as *the* mechanic in a small garage.', 'a', 'Jobs take a/an, not ‘the’: ‘as a mechanic’.'),

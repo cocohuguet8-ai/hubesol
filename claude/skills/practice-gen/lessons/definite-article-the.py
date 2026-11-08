@@ -232,7 +232,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('A for unique', '*A* sun is very strong today.', 'The', 'Only one sun: ‘the sun’. Ask “Which one?” — if the listener knows, use the; in general, no article.'),
   ('A for unique', 'Look at *a* moon — it’s full!', 'the', 'Only one moon: ‘the moon’. Ask “Which one?” — if the listener knows, use the; in general, no article.'),

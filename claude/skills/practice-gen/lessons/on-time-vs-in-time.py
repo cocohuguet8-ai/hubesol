@@ -210,7 +210,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('In time for punctual', 'The train left exactly *in* time.', 'on', 'Punctual: ‘on time’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally.'),
   ('In time for punctual', 'Please be *in* time for the meeting at nine.', 'on', 'Punctual for a scheduled time: ‘on time’.'),

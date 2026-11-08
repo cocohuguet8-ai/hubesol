@@ -10,7 +10,8 @@
         "be"
       ],
       "label": null,
-      "primary": "must"
+      "primary": "must",
+      "proper": []
     }
   },
   "gapFill": {
@@ -523,7 +524,7 @@
         "right": "It must be raining a lot."
       },
       {
-        "left": "The shop is closed on Sundays.",
+        "left": "It’s Sunday, and the shop always closes on Sundays.",
         "right": "It can’t be open today."
       },
       {
@@ -565,14 +566,14 @@
           "must",
           "can’t",
           "mustn’t",
-          "has to"
+          "must to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Can’t be exhausted’ is the opposite of what the evidence shows.",
           "‘Mustn’t’ is a prohibition, never used for deduction.",
-          "‘Has to’ is obligation, not a logical conclusion."
+          "‘Must’ is never followed by ‘to’."
         ],
         "explain": "Twelve hours of work is strong evidence, so you’re sure: must be exhausted."
       },
@@ -601,14 +602,14 @@
           "must",
           "can’t",
           "might",
-          "has to"
+          "mustn’t"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Must’ shows you’re sure, but you aren’t.",
           "‘Can’t’ means you’re sure it isn’t.",
           "",
-          "‘Has to’ is obligation."
+          "‘Mustn’t’ is a prohibition, not a deduction."
         ],
         "explain": "Without evidence it’s only a possibility, so ‘might be’ is the right choice."
       },
@@ -853,14 +854,14 @@
           "can’t",
           "must",
           "mustn’t",
-          "has to"
+          "must to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Must be having dinner’ at four contradicts the evidence.",
           "‘Mustn’t’ isn’t used for deduction.",
-          "‘Has to’ is obligation."
+          "‘Must’ is never followed by ‘to’."
         ],
         "explain": "Four o’clock is too early, so the negative continuous deduction is ‘can’t be having’."
       },
@@ -922,7 +923,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -976,43 +977,31 @@
           "here,",
           "so",
           "he",
-          "has",
-          "to",
-          "be",
+          "must",
+          "is",
           "at",
           "home."
         ],
-        "errorIndex": 6,
-        "correction": "must",
-        "type": "Have to for deduction",
-        "message": "Deduction uses ‘must’: ‘he must be at home’.",
-        "errorSpan": [
-          6,
-          7
-        ]
+        "errorIndex": 7,
+        "correction": "be",
+        "type": "Must + past form",
+        "message": "After ‘must’ use the base form: ‘he must be at home’."
       },
       {
         "tokens": [
-          "They",
-          "have",
-          "to",
-          "be",
-          "very",
-          "rich",
-          "—",
-          "look",
+          "Look",
           "at",
           "their",
-          "house!"
+          "house!",
+          "They",
+          "mustn’t",
+          "be",
+          "poor."
         ],
-        "errorIndex": 1,
-        "correction": "must",
-        "type": "Have to for deduction",
-        "message": "Deduction: ‘They must be very rich’.",
-        "errorSpan": [
-          1,
-          2
-        ]
+        "errorIndex": 5,
+        "correction": "can’t",
+        "type": "Mustn’t for deduction",
+        "message": "‘Mustn’t’ is a prohibition; for a sure negative deduction use ‘can’t’: ‘They can’t be poor’."
       },
       {
         "tokens": [
@@ -1301,7 +1290,7 @@
       {
         "type": "fill",
         "use": "Continuous",
-        "sentText": "Shh! The baby must be {{blank}} .",
+        "sentText": "Shh! The baby must be {{blank}}.",
         "hint": "sleep",
         "answers": [
           "sleeping"
@@ -1454,14 +1443,14 @@
           "can’t",
           "must",
           "mustn’t",
-          "have to"
+          "must to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Must’ contradicts the evidence.",
           "‘Mustn’t’ isn’t used for deduction.",
-          "‘Have to’ is obligation."
+          "‘Must’ is never followed by ‘to’."
         ],
         "explain": "Ten hours of sleep makes it very unlikely: can’t be tired."
       },
@@ -1523,10 +1512,10 @@
       },
       {
         "type": "error",
-        "use": "Have to for deduction",
+        "use": "Must + to",
         "tokens": [
           "She",
-          "has",
+          "must",
           "to",
           "be",
           "at",
@@ -1537,12 +1526,12 @@
           "is",
           "outside."
         ],
-        "errorIndex": 1,
-        "correction": "must",
-        "message": "Deduction uses ‘must’, not ‘has to’.",
+        "errorIndex": 2,
+        "correction": "be",
+        "message": "‘Must’ is never followed by ‘to’: ‘She must be at home’.",
         "errorSpan": [
-          1,
-          2
+          2,
+          3
         ]
       },
       {

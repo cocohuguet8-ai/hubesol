@@ -12,7 +12,8 @@
         "be"
       ],
       "label": null,
-      "primary": "been"
+      "primary": "been",
+      "proper": []
     }
   },
   "gapFill": {
@@ -915,7 +916,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1227,7 +1228,7 @@
       {
         "type": "fill",
         "use": "Present perfect",
-        "sentText": "The thief {{blank}} .",
+        "sentText": "The thief {{blank}}.",
         "hint": "arrest",
         "answers": [
           "has been arrested"

@@ -3,12 +3,10 @@
   "lessonTitle": "Compound Nouns",
   "grammar": {
     "orderAux": {
-      "words": [
-        "noun",
-        "noun"
-      ],
+      "words": [],
       "label": null,
-      "primary": "noun"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -235,7 +233,8 @@
         "display": "law",
         "explain": "‘Mother-in-law’ is written with hyphens. The main word goes last, and the first noun is usually singular."
       }
-    ]
+    ],
+    "formLabel": "noun"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -902,7 +901,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1214,7 +1213,7 @@
       {
         "type": "fill",
         "use": "Noun + noun",
-        "sentText": "I left my umbrella at the train {{blank}} .",
+        "sentText": "I left my umbrella at the train {{blank}}.",
         "hint": "train ___",
         "answers": [
           "station"
@@ -1238,7 +1237,7 @@
       {
         "type": "fill",
         "use": "Plural",
-        "sentText": "We need more coffee {{blank}} .",
+        "sentText": "We need more coffee {{blank}}.",
         "hint": "coffee ___",
         "answers": [
           "cups"
@@ -1509,6 +1508,7 @@
         "correction": "car",
         "message": "‘The car window’. The main word goes last, and the first noun is usually singular."
       }
-    ]
+    ],
+    "formLabel": "noun"
   }
 }

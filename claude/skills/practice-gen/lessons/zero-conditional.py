@@ -216,7 +216,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Will in the result', 'If you heat ice, it *will melt*.', 'melts', 'A general truth takes the present simple: ‘it melts’, not ‘it will melt’.'),
   ('Will in the if-clause', 'If you *will press* this button, the door opens.', 'press', 'Never use ‘will’ after ‘if’: ‘If you press this button…’.'),

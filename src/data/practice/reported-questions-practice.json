@@ -3,15 +3,10 @@
   "lessonTitle": "Reported Questions",
   "grammar": {
     "orderAux": {
-      "words": [
-        "asked",
-        "if",
-        "whether",
-        "where",
-        "what"
-      ],
+      "words": [],
       "label": null,
-      "primary": "asked"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -926,7 +921,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1273,7 +1268,7 @@
       {
         "type": "fill",
         "use": "Wh-",
-        "sentText": "“Where are you going?” → He asked where I {{blank}} .",
+        "sentText": "“Where are you going?” → He asked where I {{blank}}.",
         "hint": "go",
         "answers": [
           "was going"
@@ -1285,7 +1280,7 @@
       {
         "type": "fill",
         "use": "Wh-",
-        "sentText": "“What did you buy?” → She asked what I {{blank}} .",
+        "sentText": "“What did you buy?” → She asked what I {{blank}}.",
         "hint": "buy",
         "answers": [
           "had bought"

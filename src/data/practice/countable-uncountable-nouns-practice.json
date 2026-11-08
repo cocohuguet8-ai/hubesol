@@ -3,15 +3,10 @@
   "lessonTitle": "Countable & Uncountable Nouns",
   "grammar": {
     "orderAux": {
-      "words": [
-        "a",
-        "an",
-        "some",
-        "many",
-        "much"
-      ],
+      "words": [],
       "label": null,
-      "primary": "some"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -238,7 +233,8 @@
         "display": "cup",
         "explain": "We usually drink tea from a cup: ‘a cup of tea’. Ask: can I put a number in front? Yes → countable; no → uncountable."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -895,7 +891,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1489,6 +1485,7 @@
         "correction": "is",
         "message": "‘Hair’ is uncountable: singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

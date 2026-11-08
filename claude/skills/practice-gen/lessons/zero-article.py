@@ -209,7 +209,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('The for general', '*The life* is short.', 'Life', 'Life in general: zero article. In general or in a fixed phrase → no article; specific or known → the.'),
   ('The for general', '*The children* need lots of sleep.', 'Children', 'Children in general: zero article. In general or in a fixed phrase → no article; specific or known → the.'),

@@ -220,7 +220,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Present after wish', 'I wish I *have* a car.', 'had', 'A present wish takes the past simple: ‘I wish I had a car’.'),
   ('Present after wish', 'She wishes she *is* taller.', 'were', 'After ‘wish’ use ‘were’: ‘she wishes she were taller’.'),

@@ -226,7 +226,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Be + can', 'My sister is *can* play the violin.', 'able to', '‘Is can’ is impossible: ‘she is able to play’ (or simply ‘she can play’).'),
   ('-s on a modal', 'He *cans* run very fast.', 'can', 'Modals never take -s: ‘he can run’.'),

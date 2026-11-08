@@ -3,13 +3,10 @@
   "lessonTitle": "Much, Many & A lot of",
   "grammar": {
     "orderAux": {
-      "words": [
-        "much",
-        "many",
-        "a lot of"
-      ],
+      "words": [],
       "label": null,
-      "primary": "many"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -239,7 +236,8 @@
         "display": "much",
         "explain": "‘Milk’ is uncountable: ‘much’. Countable plural → many; uncountable → much; in positive sentences → a lot of."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -905,7 +903,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1241,7 +1239,7 @@
       {
         "type": "fill",
         "use": "A lot",
-        "sentText": "I enjoyed the film {{blank}} .",
+        "sentText": "I enjoyed the film {{blank}}.",
         "hint": "a lot (of)",
         "answers": [
           "a lot"
@@ -1512,6 +1510,7 @@
         "correction": "much!",
         "message": "‘Thanks so much’. Countable plural → many; uncountable → much; in positive sentences → a lot of."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

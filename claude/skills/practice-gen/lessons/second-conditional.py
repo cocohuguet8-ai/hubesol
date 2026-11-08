@@ -215,7 +215,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Would after if', 'If I *would have* more time, I’d read more.', 'had', 'No ‘would’ in the if-clause: ‘If I had more time…’.'),
   ('Would after if', 'If she *would know*, she’d tell us.', 'knew', 'The if-clause takes the past simple: ‘If she knew…’.'),

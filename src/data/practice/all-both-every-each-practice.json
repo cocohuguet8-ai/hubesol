@@ -3,14 +3,10 @@
   "lessonTitle": "All, Both, Every & Each",
   "grammar": {
     "orderAux": {
-      "words": [
-        "all",
-        "both",
-        "every",
-        "each"
-      ],
+      "words": [],
       "label": null,
-      "primary": "each"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -247,7 +243,8 @@
         "display": "every",
         "explain": "All of them, as a group: ‘every book’. Two → both; the whole group → all; every + singular noun; each = one by one."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -910,7 +907,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1513,6 +1510,7 @@
         "correction": "Each",
         "message": "Never ‘every of’. Two → both; the whole group → all; every + singular noun; each = one by one."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

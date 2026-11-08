@@ -55,7 +55,7 @@ const uid = 'wo';
     if (!dataEl) return;
     const payload = JSON.parse(dataEl.textContent);
     const questions = payload.sentences;
-    const orderAux = payload.orderAux;
+    const orderAux = payload.orderAux || { words: [] };
 
     let idx = 0, score = 0, answered = false;
     let results = [];
@@ -113,7 +113,7 @@ const uid = 'wo';
     const PROPER = new Set(['Anna','Ben','Tom','Sam','Tom\'s','TV','OK']);
     function tileLabel(word, first) {
       let w = String(word).replace(/[.,?!;:]+$/, '');
-      if (w === 'I' || /^I'/.test(w) || PROPER.has(w) || !/^[A-Z]/.test(w)) return w;
+      if (w === 'I' || /^I['’]/.test(w) || PROPER.has(w) || ((orderAux && orderAux.proper) || []).includes(w) || !/^[A-Z]/.test(w)) return w;
       // Sentence-initial words are lowercased so the capital never gives away the first word.
       if (LOWER_OK.has(w.toLowerCase()) || first) w = w.charAt(0).toLowerCase() + w.slice(1);
       return w;
@@ -234,7 +234,7 @@ const uid = 'wo';
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
       const label = orderAux.label;
-      if (!words.length) return "Check the word order: the article comes first, then any adjective, then the noun.";
+      if (!words.length) return genericOrderHint(builtWords, correctWords);
       const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       if (cIdx === -1) return genericOrderHint(builtWords, correctWords);

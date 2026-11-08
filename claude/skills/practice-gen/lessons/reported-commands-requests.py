@@ -219,7 +219,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Missing to', 'She told me *wait* outside.', 'to wait', 'A reported command needs ‘to’: ‘told me to wait’.'),
   ('Missing to', 'He asked us *help* him.', 'to help', 'A reported request needs ‘to’: ‘asked us to help’.'),

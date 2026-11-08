@@ -209,7 +209,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Plural first', 'I bought them in a *shoes* shop.', 'shoe', 'First noun singular: ‘shoe shop’. The main word goes last, and the first noun is usually singular.'),
   ('Plural first', 'Is there a *books* shop near here?', 'book', 'First noun singular: ‘book shop / bookshop’.'),

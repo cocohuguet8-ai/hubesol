@@ -216,7 +216,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Missing be', 'The house *built* in 1920.', 'was built', 'The passive needs ‘be’: ‘The house was built’.'),
   ('Missing be', 'My phone *stolen* yesterday.', 'was stolen', 'Passive: ‘My phone was stolen’.'),

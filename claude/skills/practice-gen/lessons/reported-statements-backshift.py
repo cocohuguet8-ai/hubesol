@@ -207,7 +207,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('No backshift', 'Yesterday she said she *is* tired.', 'was', 'After ‘said’: ‘she was tired’.'),
   ('No backshift', 'He told me he *likes* jazz.', 'liked', 'After ‘told’: ‘he liked jazz’.'),

@@ -211,7 +211,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Being or been', 'The car has *being* repaired.', 'been', 'After ‘has’ use ‘been’: ‘has been repaired’.'),
   ('Being or been', 'The tickets have *being* sold.', 'been', 'After ‘have’ use ‘been’.'),

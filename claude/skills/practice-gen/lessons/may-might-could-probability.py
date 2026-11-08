@@ -230,7 +230,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('-s on a modal', 'It *mights* rain this afternoon.', 'might', 'Modals never take -s: ‘It might rain’.'),
   ('-s on a modal', 'She *mays* be at the gym.', 'may', 'Modals never take -s: ‘She may be…’.'),

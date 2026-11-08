@@ -41,7 +41,7 @@ const uid = 'lc';
     <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({
       tense, lessonTitle,
       categoryLabels: data.categoryLabels, categoryOrder: data.categoryOrder,
-      items: data.items, orderAux
+      items: data.items, orderAux, formLabel: data.formLabel
     })} />
   </section>
 )}
@@ -57,7 +57,8 @@ const uid = 'lc';
     const CAT_LABELS = payload.categoryLabels;
     const CAT_ORDER = payload.categoryOrder;
     const items = payload.items;
-    const orderAux = payload.orderAux;
+    const orderAux = payload.orderAux || { words: [] };
+    const FORM = payload.formLabel || 'verb form';
 
     function normalize(s) {
       return s.toLowerCase().trim().replace(/[‘’`´]/g, "'").replace(/[.!?]+$/, '').replace(/\s+/g, ' ').trim();
@@ -189,10 +190,10 @@ const uid = 'lc';
         if (!PAST_REGULAR_TAIL.test(uLast) && PAST_REGULAR_TAIL.test(c)) {
           issues.push("This is a regular verb in the past — check the -ed ending and its spelling.");
         } else {
-          issues.push("Check the verb form — it should be “" + it.display + "”.");
+          issues.push("Check the " + FORM + " — it should be “" + it.display + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be “" + it.display + "”.";
+      if (issues.length === 0) return "Check the " + FORM + " — it should be “" + it.display + "”.";
       return issues.join(' ');
     }
 
@@ -236,7 +237,7 @@ const uid = 'lc';
           issues.push("Check the spelling of the past participle — it should be “" + cLast + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be “" + it.display + "”.";
+      if (issues.length === 0) return "Check the " + FORM + " — it should be “" + it.display + "”.";
       return issues.join(' ');
     }
 
@@ -270,7 +271,7 @@ const uid = 'lc';
       if (u.rest !== c.rest && c.rest) {
         issues.push("Check the verb after the auxiliary — it should be “" + c.rest + "”.");
       }
-      if (issues.length === 0) return "Check the verb form — it should be “" + correctText + "”.";
+      if (issues.length === 0) return "Check the " + FORM + " — it should be “" + correctText + "”.";
       return issues.join(' ');
     }
 
@@ -315,7 +316,7 @@ const uid = 'lc';
           issues.push("Check the spelling of the -ing form — it should be “" + c.rest + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be “" + correctText + "”.";
+      if (issues.length === 0) return "Check the " + FORM + " — it should be “" + correctText + "”.";
       return issues.join(' ');
     }
 
@@ -353,7 +354,7 @@ const uid = 'lc';
           else issues.push("Check the word order — it should be “" + correctText + "”.");
         }
       }
-      if (issues.length === 0) return "Check the verb form — it should be “" + correctText + "”.";
+      if (issues.length === 0) return "Check the " + FORM + " — it should be “" + correctText + "”.";
       return issues.join(' ');
     }
 
@@ -371,7 +372,7 @@ const uid = 'lc';
 
     function diagnoseOrder(builtWords, correctWords) {
       const words = orderAux.words;
-      if (!words.length) return "Check the word order: the article comes first, then any adjective, then the noun.";
+      if (!words.length) return genericOrderHint(builtWords, correctWords);
       const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
       if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
@@ -491,7 +492,7 @@ const uid = 'lc';
       if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
       if (tense === 'present-continuous') return diagnoseFillPresentContinuous(rawText, it.display);
       if (tense === 'past-continuous') return diagnosePastContinuousText(rawText, it.display);
-      return missingHintVerb(rawText, it.hint, it.display) || "Check the verb form — it should be “" + it.display + "”.";
+      return missingHintVerb(rawText, it.hint, it.display) || "Check the " + FORM + " — it should be “" + it.display + "”.";
     }
 
     function checkFill(it, input) {
@@ -542,7 +543,7 @@ const uid = 'lc';
       'one only both all most many much several first then').split(' '));
     function tileLabel(word) {
       let w = String(word).replace(/[.,?!;:]+$/, '');
-      if (w !== 'I' && !/^I'/.test(w) && /^[A-Z]/.test(w) && LOWER_OK.has(w.toLowerCase())) w = w.charAt(0).toLowerCase() + w.slice(1);
+      if (w !== 'I' && !/^I['’]/.test(w) && !(orderAux.proper || []).includes(w) && /^[A-Z]/.test(w) && LOWER_OK.has(w.toLowerCase())) w = w.charAt(0).toLowerCase() + w.slice(1);
       return w;
     }
     function placedLabel(word, pos) {
@@ -730,7 +731,7 @@ const uid = 'lc';
         const reason = it.wrongReasons[chosenIndex] || '';
         feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was “' + it.choices[it.correct] + '”.';
       }
-      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', it.choices[it.correct]) });
+      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', String(it.choices[it.correct]).split('→').pop().trim()) });
       scoreText.textContent = 'Score: ' + totalScore();
       appendNext();
     }

@@ -5,7 +5,8 @@
     "orderAux": {
       "words": [],
       "label": null,
-      "primary": ""
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -1199,7 +1200,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1553,7 +1554,7 @@
       {
         "type": "fill",
         "use": "Fact",
-        "sentText": "If you heat chocolate, it {{blank}} .",
+        "sentText": "If you heat chocolate, it {{blank}}.",
         "hint": "melt",
         "answers": [
           "melts"
@@ -1577,7 +1578,7 @@
       {
         "type": "fill",
         "use": "Rule",
-        "sentText": "If the bell {{blank}} , go to your classroom.",
+        "sentText": "If the bell {{blank}}, go to your classroom.",
         "hint": "ring",
         "answers": [
           "rings"
@@ -1589,7 +1590,7 @@
       {
         "type": "fill",
         "use": "Negative",
-        "sentText": "If Sam {{blank}} , he gets a headache.",
+        "sentText": "If Sam {{blank}}, he gets a headache.",
         "hint": "not eat",
         "answers": [
           "doesn’t eat",

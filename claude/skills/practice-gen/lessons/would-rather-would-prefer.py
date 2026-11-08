@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('-ing after rather', 'I’d rather *staying* at home.', 'stay', 'After ‘would rather’ use the base verb: ‘stay’.'),
   ('Past after rather', 'I’d rather *went* by train.', 'go', 'Same subject → base verb: ‘I’d rather go by train’.'),

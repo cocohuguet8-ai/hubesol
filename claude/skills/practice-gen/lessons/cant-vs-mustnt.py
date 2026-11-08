@@ -223,7 +223,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Mustn’t for ability', 'I *mustn’t* swim — I never learnt.', 'can’t', 'No ability = ‘can’t’: ‘I can’t swim’.'),
   ('Mustn’t for ability', 'My grandma *mustn’t* walk without a stick.', 'can’t', 'It’s about ability: ‘she can’t walk’.'),

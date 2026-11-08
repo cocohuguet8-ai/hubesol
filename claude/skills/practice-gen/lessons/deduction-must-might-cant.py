@@ -25,7 +25,7 @@ We use these modals when we **work something out** from evidence, not when we kn
 - The lights are on. They **must** be at home.
 - You've been running for an hour. You **must** be exhausted!
 
-> ⚠️ Typical error: ~~They have to be at home.~~ → For deduction, use *must*: *They must be at home.*
+> ℹ️ *Have to* is also possible for deduction (*You have to be joking!*), especially in American English — but *must* is the normal, safest choice: *They must be at home.*
 
 ### 2. With other verbs
 
@@ -86,7 +86,7 @@ For deductions about the **past** (*must have done*), see [Modal Perfects](/gram
 
 **1. *Mustn't* for negative deduction.** *~~It mustn't be true~~* → **It can't be true.**
 
-**2. *Have to* for deduction.** *~~She has to be rich~~* (deduction) → **She must be rich.**
+**2. *Must* + past form.** *~~She must was tired~~* → **She must be tired** (now) / **She must have been tired** (past).
 
 **3. *To* after the modal.** *~~He must to be ill~~* → **He must be ill.**
 
@@ -152,7 +152,7 @@ MATCH = {'title': 'Match the evidence and the deduction', 'subtitle': 'Tap the e
   ('She’s wearing a nurse’s uniform.', 'She must work at the hospital.'), ('He’s only six.', 'He can’t drive.'), ('The phone’s ringing.', 'It might be Dad.'),
   ('Everyone is wearing coats.', 'It must be cold outside.'), ('You’ve just had lunch.', 'You can’t be hungry.'), ('He hasn’t replied.', 'He may be busy.'),
   ('She’s got a big smile.', 'She must be happy.'), ('Marc is in London.', 'That can’t be Marc.'), ('There’s a noise in the kitchen.', 'It could be the cat.'),
-  ('The streets are full of water.', 'It must be raining a lot.'), ('The shop is closed on Sundays.', 'It can’t be open today.'), ('I don’t know the answer.', 'It might be B.'),
+  ('The streets are full of water.', 'It must be raining a lot.'), ('It’s Sunday, and the shop always closes on Sundays.', 'It can’t be open today.'), ('I don’t know the answer.', 'It might be B.'),
   ('He speaks Japanese fluently.', 'He must study a lot.'), ('She’s been asleep all day.', 'She can’t be tired.'), ('Their car isn’t here.', 'They might be on holiday.'),
   ('There’s music upstairs.', 'Someone must be playing the piano.'), ('The answer is 3 + 3 = 7.', 'That can’t be right.'),
   ]}
@@ -160,14 +160,14 @@ MATCH = {'title': 'Match the evidence and the deduction', 'subtitle': 'Tap the e
 MC = ('Beat the clock',
   '15 seconds per question. Must = sure it’s true, can’t = sure it isn’t, might = possible.',
   [
-  ('Must', 'She’s been working for twelve hours. She ___ be exhausted.', ['must', 'can’t', 'mustn’t', 'has to'],
-   ['‘Can’t be exhausted’ is the opposite of what the evidence shows.', '‘Mustn’t’ is a prohibition, never used for deduction.', '‘Has to’ is obligation, not a logical conclusion.'],
+  ('Must', 'She’s been working for twelve hours. She ___ be exhausted.', ['must', 'can’t', 'mustn’t', 'must to'],
+   ['‘Can’t be exhausted’ is the opposite of what the evidence shows.', '‘Mustn’t’ is a prohibition, never used for deduction.', '‘Must’ is never followed by ‘to’.'],
    'Twelve hours of work is strong evidence, so you’re sure: must be exhausted.'),
   ('Can’t', 'That ___ be Joan. She’s in Australia.', ['can’t', 'mustn’t', 'must', 'might'],
    ['‘Mustn’t’ is never used for a negative deduction.', '‘Must be Joan’ contradicts the evidence.', '‘Might’ shows doubt, but you’re sure.'],
    'Being in Australia makes it impossible, so the negative deduction is ‘can’t be’.'),
-  ('Might', 'I’m not sure who’s at the door. It ___ be the neighbour.', ['might', 'must', 'can’t', 'has to'],
-   ['‘Must’ shows you’re sure, but you aren’t.', '‘Can’t’ means you’re sure it isn’t.', '‘Has to’ is obligation.'],
+  ('Might', 'I’m not sure who’s at the door. It ___ be the neighbour.', ['might', 'must', 'can’t', 'mustn’t'],
+   ['‘Must’ shows you’re sure, but you aren’t.', '‘Can’t’ means you’re sure it isn’t.', '‘Mustn’t’ is a prohibition, not a deduction.'],
    'Without evidence it’s only a possibility, so ‘might be’ is the right choice.'),
   ('Must', 'They’ve got three cars and a pool. They ___ be rich.', ['must', 'can’t', 'might not', 'mustn’t'],
    ['‘Can’t be rich’ contradicts the evidence.', '‘Might not’ is a weak negative possibility.', '‘Mustn’t’ isn’t used for deduction.'],
@@ -208,8 +208,8 @@ MC = ('Beat the clock',
   ('Must', 'Pau got 10 out of 10. He ___ have studied a lot.', ['must', 'can’t', 'mustn’t', 'has'],
    ['‘Can’t have studied’ contradicts the evidence.', '‘Mustn’t’ isn’t used for deduction.', '‘Has have’ is wrong.'],
    'A perfect score is strong evidence: must (have studied).'),
-  ('Continuous', 'They ___ be having dinner — it’s only four o’clock.', ['can’t', 'must', 'mustn’t', 'has to'],
-   ['‘Must be having dinner’ at four contradicts the evidence.', '‘Mustn’t’ isn’t used for deduction.', '‘Has to’ is obligation.'],
+  ('Continuous', 'They ___ be having dinner — it’s only four o’clock.', ['can’t', 'must', 'mustn’t', 'must to'],
+   ['‘Must be having dinner’ at four contradicts the evidence.', '‘Mustn’t’ isn’t used for deduction.', '‘Must’ is never followed by ‘to’.'],
    'Four o’clock is too early, so the negative continuous deduction is ‘can’t be having’.'),
   ('Certainty', 'Which sentence shows the most certainty?', ['She must be ill.', 'She might be ill.', 'She could be ill.', 'She may be ill.'],
    ['‘Might’ shows doubt.', '‘Could’ shows possibility.', '‘May’ shows possibility.'],
@@ -223,13 +223,13 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Mustn’t for deduction', 'That *mustn’t* be Pol — he’s at school.', 'can’t', 'Negative deduction: ‘That can’t be Pol’.'),
   ('Mustn’t for deduction', 'You *mustn’t* be hungry — you’ve just eaten.', 'can’t', 'Negative deduction: ‘You can’t be hungry’.'),
   ('Mustn’t for deduction', 'It *mustn’t* be true!', 'can’t', 'Negative deduction: ‘It can’t be true!’.'),
-  ('Have to for deduction', 'His car is here, so he *has to* be at home.', 'must', 'Deduction uses ‘must’: ‘he must be at home’.'),
-  ('Have to for deduction', 'They *have to* be very rich — look at their house!', 'must', 'Deduction: ‘They must be very rich’.'),
+  ('Must + past form', 'His car is here, so he must *is* at home.', 'be', 'After ‘must’ use the base form: ‘he must be at home’.'),
+  ('Mustn’t for deduction', 'Look at their house! They *mustn’t* be poor.', 'can’t', '‘Mustn’t’ is a prohibition; for a sure negative deduction use ‘can’t’: ‘They can’t be poor’.'),
   ('Base verb', 'She must *is* tired after the trip.', 'be', 'After ‘must’ use ‘be’: ‘She must be tired’.'),
   ('Base verb', 'He can’t *knows* the answer.', 'know', 'After ‘can’t’ use the base verb: ‘know’.'),
   ('Base verb', 'They might *are* lost.', 'be', 'After ‘might’ use ‘be’: ‘They might be lost’.'),
@@ -280,8 +280,8 @@ LC = {
   ('Must', 'He’s always at the gym. He ___ love exercise.', ['must', 'can’t', 'mustn’t', 'needn’t'],
    ['‘Can’t’ contradicts the evidence.', '‘Mustn’t’ isn’t used for deduction.', '‘Needn’t’ is about necessity.'],
    'Always at the gym is strong evidence: must love exercise.'),
-  ('Can’t', 'You ___ be tired. You slept for ten hours!', ['can’t', 'must', 'mustn’t', 'have to'],
-   ['‘Must’ contradicts the evidence.', '‘Mustn’t’ isn’t used for deduction.', '‘Have to’ is obligation.'],
+  ('Can’t', 'You ___ be tired. You slept for ten hours!', ['can’t', 'must', 'mustn’t', 'must to'],
+   ['‘Must’ contradicts the evidence.', '‘Mustn’t’ isn’t used for deduction.', '‘Must’ is never followed by ‘to’.'],
    'Ten hours of sleep makes it very unlikely: can’t be tired.'),
   ('Might', 'Where’s Laia? She ___ be in the garden.', ['might', 'must', 'can’t', 'mustn’t'],
    ['‘Must’ needs evidence.', '‘Can’t’ means you’re sure she isn’t.', '‘Mustn’t’ isn’t used for deduction.'],
@@ -292,7 +292,7 @@ LC = {
   ],
  'error': [
   ('Mustn’t for deduction', 'That *mustn’t* be our train — it’s too early.', 'can’t', 'Negative deduction uses ‘can’t’.'),
-  ('Have to for deduction', 'She *has to* be at home — her bike is outside.', 'must', 'Deduction uses ‘must’, not ‘has to’.'),
+  ('Must + to', 'She must *to be* at home — her bike is outside.', 'be', '‘Must’ is never followed by ‘to’: ‘She must be at home’.'),
   ('Base verb', 'He must *is* joking.', 'be', 'After ‘must’ use ‘be’: ‘He must be joking’.'),
   ('Wrong certainty', 'I’m not sure. He *must* be in Madrid.', 'might', 'Not sure → ‘might’.'),
   ],

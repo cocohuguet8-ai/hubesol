@@ -3,18 +3,12 @@
   "lessonTitle": "Dependent Prepositions",
   "grammar": {
     "orderAux": {
-      "words": [
-        "of",
-        "in",
-        "on",
-        "at",
-        "for",
-        "about",
-        "with",
-        "to"
-      ],
+      "words": [],
       "label": null,
-      "primary": "of"
+      "primary": "",
+      "proper": [
+        "Paris"
+      ]
     }
   },
   "gapFill": {
@@ -124,12 +118,13 @@
         "use": "Adjective",
         "before": "Are you angry",
         "after": "me?",
-        "hint": "with / at",
+        "hint": "with / about",
         "answers": [
-          "with"
+          "with",
+          "at"
         ],
         "display": "with",
-        "explain": "Angry with a person. There’s no rule: learn the word and its preposition together as one chunk."
+        "explain": "Angry with (or at) a person; angry about a thing. There’s no rule: learn the word and its preposition together as one chunk."
       },
       {
         "use": "Verb",
@@ -241,7 +236,8 @@
         "display": "to",
         "explain": "The fixed chunk is ‘solution to’. There’s no rule: learn the word and its preposition together as one chunk."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -653,14 +649,14 @@
         "text": "She’s really worried <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her grandmother.",
         "choices": [
           "of",
-          "for",
+          "in",
           "with",
           "about"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Worried of’ is wrong.",
-          "‘Worried for’ is possible but less common.",
+          "‘Worried in’ is wrong.",
           "‘Worried with’ is wrong.",
           ""
         ],
@@ -904,7 +900,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1203,7 +1199,7 @@
       {
         "type": "fill",
         "use": "Verb",
-        "sentText": "I’m looking {{blank}} a new flat.",
+        "sentText": "I need somewhere to live, so I’m looking {{blank}} a new flat.",
         "hint": "for / at",
         "answers": [
           "for"
@@ -1482,6 +1478,7 @@
         "correction": "on",
         "message": "The chunk is ‘depend on’. There’s no rule: learn the word and its preposition together as one chunk."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

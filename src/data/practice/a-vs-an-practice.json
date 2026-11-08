@@ -3,12 +3,10 @@
   "lessonTitle": "A vs An",
   "grammar": {
     "orderAux": {
-      "words": [
-        "a",
-        "an"
-      ],
+      "words": [],
       "label": null,
-      "primary": "an"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -235,7 +233,8 @@
         "display": "a",
         "explain": "‘One’ starts with the sound /w/: a one-way ticket."
       }
-    ]
+    ],
+    "formLabel": "article"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -883,7 +882,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1450,6 +1449,7 @@
         "correction": "an",
         "message": "‘Eagle’ starts with a vowel sound: ‘an eagle’."
       }
-    ]
+    ],
+    "formLabel": "article"
   }
 }

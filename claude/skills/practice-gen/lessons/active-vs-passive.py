@@ -215,7 +215,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('No passive with happen', 'The accident *happen* at night last week.', 'happened', '‘Happen’ has no object and stays active: ‘happened’.'),
   ('No passive with die', 'My grandmother *die* in 2010.', 'died', 'Active past simple: ‘died’ — ‘die’ is never passive.'),

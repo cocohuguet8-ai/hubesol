@@ -224,7 +224,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('To after modal', 'Can I *going* out tonight?', 'go', 'After ‘can’ use the base verb: ‘Can I go out?’.'),
   ('Do with a modal', '*Do I can* sit here?', 'Can I', 'Modals make questions without ‘do’: ‘Can I sit here?’.'),

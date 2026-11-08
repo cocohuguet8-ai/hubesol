@@ -212,7 +212,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('This + plural', '*This* shoes are too small.', 'These', 'Plural noun: ‘these shoes’. Near → this/these; far → that/those; singular → this/that; plural → these/those.'),
   ('This + plural', 'I bought *this* apples at the market.', 'these', 'Plural noun: ‘these apples’. Near → this/these; far → that/those; singular → this/that; plural → these/those.'),

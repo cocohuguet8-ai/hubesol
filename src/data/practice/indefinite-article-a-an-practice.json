@@ -3,12 +3,12 @@
   "lessonTitle": "A/An: the indefinite article",
   "grammar": {
     "orderAux": {
-      "words": [
-        "a",
-        "an"
-      ],
+      "words": [],
       "label": null,
-      "primary": "a"
+      "primary": "",
+      "proper": [
+        "Rome"
+      ]
     }
   },
   "gapFill": {
@@ -240,7 +240,8 @@
         "display": "—",
         "explain": "‘Milk’ is uncountable here: no ‘a’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
       }
-    ]
+    ],
+    "formLabel": "article"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -905,7 +906,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1500,6 +1501,7 @@
         "correction": "some",
         "message": "‘Clothes’ is plural: ‘some new clothes’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
       }
-    ]
+    ],
+    "formLabel": "article"
   }
 }

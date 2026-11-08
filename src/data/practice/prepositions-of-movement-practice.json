@@ -3,15 +3,10 @@
   "lessonTitle": "Prepositions of Movement",
   "grammar": {
     "orderAux": {
-      "words": [
-        "to",
-        "into",
-        "out",
-        "through",
-        "across"
-      ],
+      "words": [],
       "label": null,
-      "primary": "into"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -238,7 +233,8 @@
         "display": "home",
         "explain": "No ‘to’ before ‘home’: we went home. Draw the arrow: entering (into), crossing a surface (across), passing inside a space (through)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -910,7 +906,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1522,6 +1518,7 @@
         "correction": "out of",
         "message": "Cars: ‘get out of the car’. Draw the arrow: entering (into), crossing a surface (across), passing inside a space (through)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

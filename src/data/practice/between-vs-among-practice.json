@@ -3,13 +3,12 @@
   "lessonTitle": "Between vs Among",
   "grammar": {
     "orderAux": {
-      "words": [
-        "between",
-        "among",
-        "and"
-      ],
+      "words": [],
       "label": null,
-      "primary": "between"
+      "primary": "",
+      "proper": [
+        "Lleida"
+      ]
     }
   },
   "gapFill": {
@@ -236,7 +235,8 @@
         "display": "between",
         "explain": "Time between two events (meals): between. Between = separate points (A and B); among = inside a group or mass."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -919,7 +919,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1275,7 +1275,7 @@
       {
         "type": "fill",
         "use": "Pronoun",
-        "sentText": "Sit between Laia and {{blank}} .",
+        "sentText": "Sit between Laia and {{blank}}.",
         "hint": "me / I",
         "answers": [
           "me"
@@ -1536,6 +1536,7 @@
         "correction": "me.",
         "message": "Object pronoun: ‘me’. Between = separate points (A and B); among = inside a group or mass."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

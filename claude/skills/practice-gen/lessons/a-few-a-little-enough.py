@@ -208,7 +208,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('A little + countable', 'I’ve got a *little* questions for you.', 'few', '‘Questions’ is countable: ‘a few questions’.'),
   ('A little + countable', 'We stayed a *little* days in London.', 'few', '‘Days’ is countable: ‘a few days’. Countable → a few; uncountable → a little; enough goes before nouns and after adjectives.'),

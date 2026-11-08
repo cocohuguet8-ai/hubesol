@@ -229,7 +229,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Much + plural', 'How *much* children have they got?', 'many', '‘Children’ is countable: ‘how many’. Countable plural → many; uncountable → much; in positive sentences → a lot of.'),
   ('Much + plural', 'There aren’t *much* shops in my village.', 'many', '‘Shops’ is countable: ‘many’. Countable plural → many; uncountable → much; in positive sentences → a lot of.'),

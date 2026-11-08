@@ -3,15 +3,10 @@
   "lessonTitle": "On time vs In time (and At the end vs In the end)",
   "grammar": {
     "orderAux": {
-      "words": [
-        "on",
-        "in",
-        "at",
-        "time",
-        "end"
-      ],
+      "words": [],
       "label": null,
-      "primary": "in"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -238,7 +233,8 @@
         "display": "to",
         "explain": "‘In time to’ + verb: in time to say goodbye. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -1007,7 +1003,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1685,6 +1681,7 @@
         "correction": "in",
         "message": "Early enough: ‘in time to’. On time = punctual; in time = early enough; at the end of = final point; in the end = finally."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

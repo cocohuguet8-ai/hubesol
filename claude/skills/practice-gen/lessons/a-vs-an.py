@@ -203,7 +203,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('A for vowel sound', 'I ate *a* orange for breakfast.', 'an', '‘Orange’ starts with a vowel sound: ‘an orange’.'),
   ('A for vowel sound', 'She’s *a* artist.', 'an', '‘Artist’ starts with a vowel sound: ‘an artist’.'),
