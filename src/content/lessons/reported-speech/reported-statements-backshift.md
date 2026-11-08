@@ -29,44 +29,84 @@ related:
   - { title: "All reported speech", href: "/grammar/reported-speech/" }
   - { title: "Say vs Tell", href: "/grammar/reported-speech/say-vs-tell/" }
   - { title: "Reported Questions", href: "/grammar/reported-speech/reported-questions/" }
+next: { title: "Changes in Reported Speech", href: "/grammar/reported-speech/reported-speech-changes/" }
 draft: false
 ---
 
 ## How to report a statement
 
-Use a reporting verb + (that) + the message with the tense **moved one step back**.
-
 | Direct speech | Reported speech |
 |---|---|
-| "I **am** tired." | She said she **was** tired. |
-| "I **work** here." | He said he **worked** there. |
-| "I **'m working**." | She said she **was working**. |
-| "I **'ve finished**." | He said he **had finished**. |
-| "I **will** call." | She said she **would** call. |
-| "I **can** swim." | He said he **could** swim. |
+| "I **am** tired," she said. | She said (that) she **was** tired. |
 
-*That* is optional, and pronouns and time words change to fit the new speaker and moment.
+When the reporting verb is in the **past** (*said, told*), the tense of the original words usually moves **one step back**. This is called **backshift**. *That* is optional.
 
-## When and how to change things
+## The backshift table
 
-### 1. Backshift the tense
+| Direct speech | → | Reported speech |
+|---|---|---|
+| present simple: "I **live** here." | → | past simple: she **lived** there |
+| present continuous: "I'**m working**." | → | past continuous: he **was working** |
+| past simple: "I **saw** it." | → | past perfect: she **had seen** it |
+| present perfect: "I'**ve finished**." | → | past perfect: he **had finished** |
+| past continuous: "I **was sleeping**." | → | past perfect continuous: she **had been sleeping** |
+| *will*: "I'**ll help**." | → | *would*: he **would help** |
+| *can*: "I **can** swim." | → | *could*: she **could** swim |
+| *may*: "I **may** come." | → | *might*: he **might** come |
+| *must*: "I **must** go." | → | *had to* (or *must*): she **had to** go |
 
-- "I **live** in Rome." → She said she **lived** in Rome.
+The **past perfect** doesn't change: "I **had** left." → She said she **had left**.
 
-### 2. Change the pronouns
+## When to use backshift
 
-- "**I** like **your** idea." → He said **he** liked **my** idea.
+### 1. Reporting after *said* / *told*
 
-### 3. Change time and place words
+- "I **love** pizza." → Pau said he **loved** pizza.
+- "We **are** late." → They told me they **were** late.
 
-- "I'll see you **tomorrow**." → She said she'd see me **the next day**.
+> ⚠️ Typical error: ~~Pau said he loves pizza yesterday.~~ → After *said*, move the tense back: *Pau said he loved pizza.*
 
-> ⚠️ You don't have to backshift if the statement is still true: *"The Earth is round" → She said the Earth is round* (still true).
+### 2. Past actions → past perfect
+
+- "I **lost** my keys." → She said she **had lost** her keys.
+- "We**'ve been** to Rome." → They said they **had been** to Rome.
+
+> ⚠️ Typical error: ~~She said she has lost her keys.~~ → *had lost.*
+
+### 3. Future and modals
+
+- "I**'ll call** you." → He said he **would call** me.
+- "You **can** stay." → She said I **could** stay.
+
+> ⚠️ Typical error: ~~He said he will call me.~~ → After *said*: *would call.*
+
+## Modals that don't change
+
+*Would, could, might, should* and *ought to* stay the same.
+
+- "You **should** rest." → The doctor said I **should** rest.
+- "I **could** help." → She said she **could** help.
+
+## Pronouns and possessives change too
+
+Change *I, my, we, our* to match the new speaker.
+
+- "**I**'m tired of **my** job." → Marta said **she** was tired of **her** job.
+
+More in [Changes in Reported Speech](/grammar/reported-speech/reported-speech-changes/).
+
+## When backshift is optional
+
+If the reporting verb is **present** (*says, has said*), don't backshift: *She says she **is** tired.* If the fact is still true, backshift is optional. See [Reported Speech without Backshift](/grammar/reported-speech/reported-speech-no-backshift/).
 
 ## Common mistakes
 
-**1. Keeping the original tense after a past verb.** *~~She said she is tired~~* → **She said she was tired.**
+**1. No backshift after *said*.** *~~He said he is hungry~~* → **He said he was hungry.**
 
-**2. Forgetting to change the pronoun.** *~~He said I was late~~* (when reporting "you are late") → **He said I was late** only if it really was about you; otherwise adjust: *He said she was late.*
+**2. Past simple instead of past perfect.** *~~She said she saw it~~* (possible in speech, but formally) → **She said she had seen it.**
 
-**3. Adding a question word order.** *~~She said that where did she live~~* → **She said (that) she lived there. Pro tip:** report a statement as a statement — normal word order, no question mark.
+**3. *Will* instead of *would*.** *~~They said they will come~~* → **They said they would come.**
+
+**4. Forgetting to change pronouns.** *~~She said I am tired~~* → **She said she was tired.**
+
+**Pro tip:** go one step back on the timeline — present → past, past → past perfect, *will* → *would*.

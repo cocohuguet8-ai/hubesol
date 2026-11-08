@@ -1,0 +1,1558 @@
+{
+  "tense": "reported-statements-backshift",
+  "lessonTitle": "Reported Statements & Backshift",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "said",
+        "that",
+        "had",
+        "would",
+        "was"
+      ],
+      "label": null,
+      "primary": "said"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the reported verb form after said / told: move the tense one step back. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Present simple",
+        "before": "“I live in Girona.” → She said she",
+        "after": "in Girona.",
+        "hint": "(live)",
+        "answers": [
+          "lived"
+        ],
+        "display": "lived",
+        "explain": "Present simple → past simple after ‘said’: lived."
+      },
+      {
+        "use": "Present simple",
+        "before": "“I like jazz.” → He said he",
+        "after": "jazz.",
+        "hint": "(like)",
+        "answers": [
+          "liked"
+        ],
+        "display": "liked",
+        "explain": "Present simple moves back to past simple: liked."
+      },
+      {
+        "use": "Present simple",
+        "before": "“We don’t eat meat.” → They said they",
+        "after": "meat.",
+        "hint": "(not eat)",
+        "answers": [
+          "didn’t eat",
+          "didn't eat",
+          "didnt eat",
+          "did not eat"
+        ],
+        "display": "didn’t eat",
+        "explain": "Negative present → negative past: didn’t eat."
+      },
+      {
+        "use": "Be",
+        "before": "“I am tired.” → Laia said she",
+        "after": "tired.",
+        "hint": "(be)",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "‘Am’ moves back to ‘was’."
+      },
+      {
+        "use": "Be",
+        "before": "“We are late.” → They told me they",
+        "after": "late.",
+        "hint": "(be)",
+        "answers": [
+          "were"
+        ],
+        "display": "were",
+        "explain": "‘Are’ moves back to ‘were’."
+      },
+      {
+        "use": "Present continuous",
+        "before": "“I’m studying.” → Pau said he",
+        "after": ".",
+        "hint": "(study)",
+        "answers": [
+          "was studying"
+        ],
+        "display": "was studying",
+        "explain": "Present continuous → past continuous: was studying."
+      },
+      {
+        "use": "Present continuous",
+        "before": "“We’re waiting for the bus.” → They said they",
+        "after": "for the bus.",
+        "hint": "(wait)",
+        "answers": [
+          "were waiting"
+        ],
+        "display": "were waiting",
+        "explain": "Plural, present continuous → were waiting."
+      },
+      {
+        "use": "Past simple",
+        "before": "“I saw the film.” → She said she",
+        "after": "the film.",
+        "hint": "(see)",
+        "answers": [
+          "had seen"
+        ],
+        "display": "had seen",
+        "explain": "Past simple → past perfect: had seen."
+      },
+      {
+        "use": "Past simple",
+        "before": "“I lost my phone.” → He told me he",
+        "after": "his phone.",
+        "hint": "(lose)",
+        "answers": [
+          "had lost"
+        ],
+        "display": "had lost",
+        "explain": "Past simple → past perfect: had lost."
+      },
+      {
+        "use": "Present perfect",
+        "before": "“I’ve finished my homework.” → She said she",
+        "after": "her homework.",
+        "hint": "(finish)",
+        "answers": [
+          "had finished"
+        ],
+        "display": "had finished",
+        "explain": "Present perfect → past perfect: had finished."
+      },
+      {
+        "use": "Present perfect",
+        "before": "“We’ve never been to Paris.” → They said they",
+        "after": "to Paris.",
+        "hint": "(never / be)",
+        "answers": [
+          "had never been"
+        ],
+        "display": "had never been",
+        "explain": "Present perfect → past perfect: had never been."
+      },
+      {
+        "use": "Past continuous",
+        "before": "“I was sleeping.” → He said he",
+        "after": ".",
+        "hint": "(sleep)",
+        "answers": [
+          "had been sleeping"
+        ],
+        "display": "had been sleeping",
+        "explain": "Past continuous → past perfect continuous: had been sleeping."
+      },
+      {
+        "use": "Will",
+        "before": "“I’ll help you.” → She said she",
+        "after": "me.",
+        "hint": "(help)",
+        "answers": [
+          "would help"
+        ],
+        "display": "would help",
+        "explain": "‘Will’ moves back to ‘would’."
+      },
+      {
+        "use": "Will",
+        "before": "“It won’t rain.” → The forecast said it",
+        "after": ".",
+        "hint": "(not rain)",
+        "answers": [
+          "wouldn’t rain",
+          "wouldn't rain",
+          "wouldnt rain",
+          "would not rain"
+        ],
+        "display": "wouldn’t rain",
+        "explain": "‘Won’t’ moves back to ‘wouldn’t’."
+      },
+      {
+        "use": "Can",
+        "before": "“I can swim.” → My sister said she",
+        "after": "swim.",
+        "hint": "can / could",
+        "answers": [
+          "could"
+        ],
+        "display": "could",
+        "explain": "‘Can’ moves back to ‘could’."
+      },
+      {
+        "use": "May",
+        "before": "“I may be late.” → He said he",
+        "after": "be late.",
+        "hint": "may / might",
+        "answers": [
+          "might"
+        ],
+        "display": "might",
+        "explain": "‘May’ moves back to ‘might’."
+      },
+      {
+        "use": "Must",
+        "before": "“I must leave early.” → She said she",
+        "after": "leave early.",
+        "hint": "must / had to",
+        "answers": [
+          "had to"
+        ],
+        "display": "had to",
+        "explain": "‘Must’ (obligation) usually becomes ‘had to’."
+      },
+      {
+        "use": "No change",
+        "before": "“You should rest.” → The doctor said I",
+        "after": "rest.",
+        "hint": "should / shall",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "‘Should’ doesn’t change in reported speech."
+      },
+      {
+        "use": "No change",
+        "before": "“I had already eaten.” → He said he",
+        "after": "already eaten.",
+        "hint": "had / has",
+        "answers": [
+          "had"
+        ],
+        "display": "had",
+        "explain": "The past perfect doesn’t change."
+      },
+      {
+        "use": "Going to",
+        "before": "“I’m going to call her.” → He said he",
+        "after": "call her.",
+        "hint": "was going to",
+        "answers": [
+          "was going to"
+        ],
+        "display": "was going to",
+        "explain": "‘Am going to’ moves back to ‘was going to’."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each reported statement — 20 examples with backshift.",
+    "sentences": [
+      {
+        "use": "Present simple",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "lived",
+          "in",
+          "Madrid."
+        ]
+      },
+      {
+        "use": "Present simple",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "didn’t",
+          "like",
+          "fish."
+        ]
+      },
+      {
+        "use": "Be",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "were",
+          "hungry."
+        ]
+      },
+      {
+        "use": "Be",
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "she",
+          "was",
+          "tired."
+        ]
+      },
+      {
+        "use": "Present continuous",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "was",
+          "working."
+        ]
+      },
+      {
+        "use": "Present continuous",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "were",
+          "leaving."
+        ]
+      },
+      {
+        "use": "Past simple",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "seen",
+          "him."
+        ]
+      },
+      {
+        "use": "Past simple",
+        "tokens": [
+          "He",
+          "told",
+          "us",
+          "he",
+          "had",
+          "lost",
+          "his",
+          "keys."
+        ]
+      },
+      {
+        "use": "Present perfect",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "finished."
+        ]
+      },
+      {
+        "use": "Present perfect",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "had",
+          "never",
+          "met."
+        ]
+      },
+      {
+        "use": "Past continuous",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "been",
+          "sleeping."
+        ]
+      },
+      {
+        "use": "Will",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "would",
+          "call",
+          "me."
+        ]
+      },
+      {
+        "use": "Will",
+        "tokens": [
+          "He",
+          "said",
+          "it",
+          "wouldn’t",
+          "be",
+          "easy."
+        ]
+      },
+      {
+        "use": "Can",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "could",
+          "help."
+        ]
+      },
+      {
+        "use": "May",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "might",
+          "come."
+        ]
+      },
+      {
+        "use": "Must",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "to",
+          "go."
+        ]
+      },
+      {
+        "use": "No change",
+        "tokens": [
+          "He",
+          "said",
+          "I",
+          "should",
+          "rest."
+        ]
+      },
+      {
+        "use": "Going to",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "were",
+          "going",
+          "to",
+          "move."
+        ]
+      },
+      {
+        "use": "That",
+        "tokens": [
+          "She",
+          "said",
+          "that",
+          "she",
+          "was",
+          "sorry."
+        ]
+      },
+      {
+        "use": "Told",
+        "tokens": [
+          "My",
+          "dad",
+          "told",
+          "me",
+          "he",
+          "was",
+          "proud."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the direct and reported tense",
+    "subtitle": "Tap a tense from direct speech, then tap the form it becomes after ‘said’.",
+    "leftLabel": "Direct speech",
+    "rightLabel": "Reported speech",
+    "rightLabelSub": "(after said)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I live",
+        "right": "she lived"
+      },
+      {
+        "left": "I am",
+        "right": "she was"
+      },
+      {
+        "left": "we are",
+        "right": "they were"
+      },
+      {
+        "left": "I’m working",
+        "right": "he was working"
+      },
+      {
+        "left": "I saw",
+        "right": "she had seen"
+      },
+      {
+        "left": "I’ve finished",
+        "right": "he had finished"
+      },
+      {
+        "left": "I was sleeping",
+        "right": "she had been sleeping"
+      },
+      {
+        "left": "I’ll help",
+        "right": "he would help"
+      },
+      {
+        "left": "I won’t go",
+        "right": "she wouldn’t go"
+      },
+      {
+        "left": "I can swim",
+        "right": "he could swim"
+      },
+      {
+        "left": "I may come",
+        "right": "she might come"
+      },
+      {
+        "left": "I must go",
+        "right": "he had to go"
+      },
+      {
+        "left": "I should rest",
+        "right": "she should rest"
+      },
+      {
+        "left": "I had left",
+        "right": "he had left"
+      },
+      {
+        "left": "I’m going to call",
+        "right": "she was going to call"
+      },
+      {
+        "left": "I don’t know",
+        "right": "he didn’t know"
+      },
+      {
+        "left": "I’ve never been",
+        "right": "she had never been"
+      },
+      {
+        "left": "I lost it",
+        "right": "he had lost it"
+      },
+      {
+        "left": "I can’t come",
+        "right": "she couldn’t come"
+      },
+      {
+        "left": "I’m leaving",
+        "right": "he was leaving"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. After said / told, move one step back: present → past, past → past perfect, will → would.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Present simple",
+        "text": "“I love chocolate.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> chocolate.",
+        "choices": [
+          "loved",
+          "loves",
+          "had loved",
+          "is loving"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "After ‘said’, the present simple normally moves back: ‘loves’ isn’t backshifted.",
+          "‘Had loved’ is two steps back: the original was present, not past.",
+          "‘Is loving’ is present continuous and doesn’t backshift."
+        ],
+        "explain": "Present simple → past simple after a past reporting verb."
+      },
+      {
+        "use": "Be",
+        "text": "“I am hungry.” → Pau said he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> hungry.",
+        "choices": [
+          "is",
+          "was",
+          "has been",
+          "were"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Is’ isn’t backshifted after ‘said’.",
+          "",
+          "‘Has been’ is present perfect, not the backshifted form.",
+          "‘He’ takes ‘was’, not ‘were’."
+        ],
+        "explain": "‘Am / is’ → ‘was’ in reported speech. This is the normal backshift of ‘be’ after a past reporting verb."
+      },
+      {
+        "use": "Present continuous",
+        "text": "“I’m watching TV.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV.",
+        "choices": [
+          "is watching",
+          "had watched",
+          "was watching",
+          "watched"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Is watching’ isn’t backshifted.",
+          "‘Had watched’ is past perfect: wrong time.",
+          "",
+          "‘Watched’ loses the continuous meaning."
+        ],
+        "explain": "Present continuous → past continuous. The action was in progress when it was said."
+      },
+      {
+        "use": "Past simple",
+        "text": "“I met him in 2020.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him in 2020.",
+        "choices": [
+          "has met",
+          "meets",
+          "was meeting",
+          "had met"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Has met’ is present perfect and can’t go with ‘in 2020’.",
+          "‘Meets’ is present.",
+          "‘Was meeting’ changes the meaning.",
+          ""
+        ],
+        "explain": "Past simple → past perfect: had met. The action was already finished when it was reported."
+      },
+      {
+        "use": "Present perfect",
+        "text": "“I’ve broken my arm.” → He told me he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his arm.",
+        "choices": [
+          "has broken",
+          "had broken",
+          "broke",
+          "was breaking"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Has broken’ isn’t backshifted.",
+          "",
+          "‘Broke’ is possible in speech, but the backshift is ‘had broken’.",
+          "‘Was breaking’ changes the meaning."
+        ],
+        "explain": "Present perfect → past perfect: had broken. The time moves one step back into the past."
+      },
+      {
+        "use": "Will",
+        "text": "“I’ll be there at six.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> there at six.",
+        "choices": [
+          "will be",
+          "was",
+          "would be",
+          "had been"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Will’ isn’t backshifted after ‘said’.",
+          "‘Was’ loses the future meaning.",
+          "",
+          "‘Had been’ is past perfect: wrong meaning."
+        ],
+        "explain": "‘Will’ → ‘would’ in reported speech. The future seen from the past uses ‘would’."
+      },
+      {
+        "use": "Will",
+        "text": "“We won’t tell anyone.” → They promised they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> anyone.",
+        "choices": [
+          "won’t tell",
+          "didn’t tell",
+          "hadn’t told",
+          "wouldn’t tell"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Won’t’ isn’t backshifted.",
+          "‘Didn’t tell’ changes the time.",
+          "‘Hadn’t told’ changes the meaning.",
+          ""
+        ],
+        "explain": "‘Won’t’ → ‘wouldn’t’. The future seen from the past uses ‘would’."
+      },
+      {
+        "use": "Can",
+        "text": "“I can’t come.” → Marta said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> come.",
+        "choices": [
+          "couldn’t",
+          "can’t",
+          "wouldn’t",
+          "mustn’t"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Can’t’ isn’t backshifted.",
+          "‘Wouldn’t’ changes the meaning.",
+          "‘Mustn’t’ changes the meaning."
+        ],
+        "explain": "‘Can’t’ → ‘couldn’t’. Ability moves back from ‘can’ to ‘could’."
+      },
+      {
+        "use": "May",
+        "text": "“I may be a bit late.” → He said he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a bit late.",
+        "choices": [
+          "may be",
+          "can be",
+          "might be",
+          "will be"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘May’ usually becomes ‘might’ after ‘said’.",
+          "‘Can be’ changes the meaning.",
+          "",
+          "‘Will’ changes the meaning and isn’t backshifted."
+        ],
+        "explain": "‘May’ → ‘might’. Possibility moves back from ‘may’ to ‘might’."
+      },
+      {
+        "use": "Must",
+        "text": "“I must finish this today.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> finish it that day.",
+        "choices": [
+          "must to",
+          "has to",
+          "musted",
+          "had to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘to’ after ‘must’.",
+          "‘Has to’ isn’t backshifted.",
+          "‘Musted’ doesn’t exist.",
+          ""
+        ],
+        "explain": "‘Must’ (obligation) → ‘had to’ (‘must’ can also stay). Obligation in the past is expressed with ‘had to’."
+      },
+      {
+        "use": "No change",
+        "text": "“You should see a doctor.” → My mum said I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> see a doctor.",
+        "choices": [
+          "should",
+          "shall",
+          "should have",
+          "had to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Shall’ is a different modal.",
+          "‘Should have’ is about the past.",
+          "‘Had to’ changes advice into obligation."
+        ],
+        "explain": "‘Should’ doesn’t change in reported speech. Some forms are already ‘back’ and can’t move further."
+      },
+      {
+        "use": "No change",
+        "text": "“I had already left.” → He said he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already left.",
+        "choices": [
+          "has",
+          "had",
+          "had had",
+          "was"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Has’ is present perfect.",
+          "",
+          "‘Had had’ is wrong: the past perfect doesn’t move back.",
+          "‘Was left’ is passive."
+        ],
+        "explain": "The past perfect stays the same. Some forms are already ‘back’ and can’t move further."
+      },
+      {
+        "use": "Going to",
+        "text": "“I’m going to move to Berlin.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> move to Berlin.",
+        "choices": [
+          "is going to",
+          "will",
+          "had gone to",
+          "was going to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Is going to’ isn’t backshifted.",
+          "‘Will’ isn’t backshifted.",
+          "‘Had gone to’ changes the meaning.",
+          ""
+        ],
+        "explain": "‘Am going to’ → ‘was going to’. Only the ‘be’ part of ‘going to’ moves back."
+      },
+      {
+        "use": "Pronoun",
+        "text": "“I’m tired of my job.” → Joan said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was tired of <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> job.",
+        "choices": [
+          "she / her",
+          "I / my",
+          "she / my",
+          "her / her"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "The pronouns must change to match Joan.",
+          "‘My’ must change to ‘her’.",
+          "‘Her’ can’t be the subject."
+        ],
+        "explain": "Change pronouns and possessives to match the speaker. The speaker is now someone else, so pronouns change."
+      },
+      {
+        "use": "Negative",
+        "text": "“I don’t know the answer.” → He said he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answer.",
+        "choices": [
+          "doesn’t know",
+          "didn’t know",
+          "hadn’t known",
+          "not knew"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Doesn’t know’ isn’t backshifted.",
+          "",
+          "‘Hadn’t known’ is two steps back.",
+          "The negative needs ‘didn’t’ + base verb."
+        ],
+        "explain": "Negative present → didn’t + base verb. The auxiliary ‘do’ moves back to ‘did’."
+      },
+      {
+        "use": "Past continuous",
+        "text": "“I was reading.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> reading.",
+        "choices": [
+          "was",
+          "has been",
+          "had been",
+          "is"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Was’ is common in speech, but the full backshift is ‘had been’.",
+          "‘Has been’ is present perfect.",
+          "",
+          "‘Is’ is present."
+        ],
+        "explain": "Past continuous → past perfect continuous: had been reading."
+      },
+      {
+        "use": "That",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "She said that she was ill.",
+          "She said that she is ill yesterday.",
+          "She said me that she was ill.",
+          "She told that she was ill."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "After ‘said’ and with ‘yesterday’, backshift is needed.",
+          "‘Said me’ is wrong.",
+          "‘Told’ needs a person."
+        ],
+        "explain": "Reported statement: said (that) + backshifted verb. ‘That’ is optional, but the backshift is needed."
+      },
+      {
+        "use": "Told",
+        "text": "“We’ve won!” → They told us they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "have won",
+          "had won",
+          "won",
+          "were winning"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Have won’ isn’t backshifted.",
+          "",
+          "‘Won’ is acceptable in speech, but the backshift is ‘had won’.",
+          "‘Were winning’ changes the meaning."
+        ],
+        "explain": "Present perfect → past perfect. ‘Told’ + person works like ‘said’ for backshift."
+      },
+      {
+        "use": "Will",
+        "text": "“It will be cold tomorrow.” → The forecast said it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> cold the next day.",
+        "choices": [
+          "will be",
+          "was",
+          "would be",
+          "is"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Will’ isn’t backshifted.",
+          "‘Was’ loses the future meaning.",
+          "",
+          "‘Is’ isn’t backshifted."
+        ],
+        "explain": "‘Will’ → ‘would’. The future seen from the past uses ‘would’."
+      },
+      {
+        "use": "Present simple",
+        "text": "“My brother works in a bank.” → She said her brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a bank.",
+        "choices": [
+          "work",
+          "had worked",
+          "was work",
+          "worked"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Work’ needs to be past.",
+          "‘Had worked’ is two steps back.",
+          "‘Was work’ is wrong.",
+          ""
+        ],
+        "explain": "Present simple → past simple: worked. The original words were in the present."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Yesterday",
+          "she",
+          "said",
+          "she",
+          "is",
+          "tired."
+        ],
+        "errorIndex": 4,
+        "correction": "was",
+        "type": "No backshift",
+        "message": "After ‘said’: ‘she was tired’."
+      },
+      {
+        "tokens": [
+          "He",
+          "told",
+          "me",
+          "he",
+          "likes",
+          "jazz."
+        ],
+        "errorIndex": 4,
+        "correction": "liked",
+        "type": "No backshift",
+        "message": "After ‘told’: ‘he liked jazz’."
+      },
+      {
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "are",
+          "waiting",
+          "outside."
+        ],
+        "errorIndex": 3,
+        "correction": "were",
+        "type": "No backshift",
+        "message": "After ‘said’: ‘they were waiting’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "will",
+          "call",
+          "me",
+          "later."
+        ],
+        "errorIndex": 3,
+        "correction": "would",
+        "type": "Will",
+        "message": "‘Will’ → ‘would’."
+      },
+      {
+        "tokens": [
+          "He",
+          "promised",
+          "he",
+          "won’t",
+          "be",
+          "late."
+        ],
+        "errorIndex": 3,
+        "correction": "wouldn’t",
+        "type": "Will",
+        "message": "‘Won’t’ → ‘wouldn’t’."
+      },
+      {
+        "tokens": [
+          "Pau",
+          "said",
+          "he",
+          "can",
+          "come",
+          "to",
+          "the",
+          "party."
+        ],
+        "errorIndex": 3,
+        "correction": "could",
+        "type": "Can",
+        "message": "‘Can’ → ‘could’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "has",
+          "finished",
+          "her",
+          "work."
+        ],
+        "errorIndex": 3,
+        "correction": "had",
+        "type": "Present perfect",
+        "message": "Present perfect → past perfect: ‘had finished’."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "saw",
+          "the",
+          "film",
+          "twice."
+        ],
+        "errorIndex": 4,
+        "correction": "seen",
+        "type": "Past simple",
+        "message": "Past perfect needs the participle: ‘had seen’."
+      },
+      {
+        "tokens": [
+          "She",
+          "told",
+          "me",
+          "she",
+          "had",
+          "went",
+          "to",
+          "Rome."
+        ],
+        "errorIndex": 5,
+        "correction": "gone",
+        "type": "Past simple",
+        "message": "Participle: ‘had gone’."
+      },
+      {
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "are",
+          "going",
+          "to",
+          "move",
+          "house."
+        ],
+        "errorIndex": 3,
+        "correction": "were",
+        "type": "Going to",
+        "message": "‘Are going to’ → ‘were going to’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "leave",
+          "early."
+        ],
+        "errorIndex": 4,
+        "correction": "to leave",
+        "type": "Must",
+        "message": "‘Must’ → ‘had to’: ‘she had to leave early’."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "may",
+          "be",
+          "late."
+        ],
+        "errorIndex": 3,
+        "correction": "might",
+        "type": "May",
+        "message": "‘May’ → ‘might’."
+      },
+      {
+        "tokens": [
+          "Marta",
+          "said",
+          "I",
+          "was",
+          "tired",
+          "of",
+          "her",
+          "job."
+        ],
+        "errorIndex": 2,
+        "correction": "she",
+        "type": "Pronoun",
+        "message": "Change the pronoun: ‘Marta said she was tired’."
+      },
+      {
+        "tokens": [
+          "Joan",
+          "said",
+          "she",
+          "had",
+          "lost",
+          "my",
+          "keys."
+        ],
+        "errorIndex": 5,
+        "correction": "her",
+        "type": "Possessive",
+        "message": "She lost her own keys: ‘her keys’."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "doesn’t",
+          "know",
+          "the",
+          "answer."
+        ],
+        "errorIndex": 3,
+        "correction": "didn’t",
+        "type": "Negative",
+        "message": "Negative backshift: ‘didn’t know’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "didn’t",
+          "knew",
+          "him."
+        ],
+        "errorIndex": 4,
+        "correction": "know",
+        "type": "Negative",
+        "message": "After ‘didn’t’ use the base verb: ‘know’."
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "had",
+          "already",
+          "ate."
+        ],
+        "errorIndex": 5,
+        "correction": "eaten",
+        "type": "Past perfect",
+        "message": "Past perfect needs the participle: ‘had already eaten’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "me",
+          "she",
+          "was",
+          "leaving."
+        ],
+        "errorIndex": 1,
+        "correction": "told",
+        "type": "Said or told",
+        "message": "Person after the verb: ‘told me’."
+      },
+      {
+        "tokens": [
+          "He",
+          "told",
+          "that",
+          "he",
+          "was",
+          "hungry."
+        ],
+        "errorIndex": 1,
+        "correction": "said",
+        "type": "Said or told",
+        "message": "No person: ‘He said that…’."
+      },
+      {
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "was",
+          "study",
+          "for",
+          "an",
+          "exam."
+        ],
+        "errorIndex": 4,
+        "correction": "studying",
+        "type": "Continuous",
+        "message": "Past continuous: ‘was studying’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which tense, multiple choice and spot-the-mistake. In the typing questions write the backshifted verb after said / told. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "tense": "Which tense?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "tense",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Present simple",
+        "sentText": "“I speak Italian.” → He said he {{blank}} Italian.",
+        "hint": "speak",
+        "answers": [
+          "spoke"
+        ],
+        "display": "spoke",
+        "explain": "Present simple moves back to past simple after ‘said’: spoke.",
+        "wrongNote": "Present → past simple."
+      },
+      {
+        "type": "fill",
+        "use": "Present perfect",
+        "sentText": "“I’ve lost my wallet.” → She said she {{blank}} her wallet.",
+        "hint": "lose",
+        "answers": [
+          "had lost"
+        ],
+        "display": "had lost",
+        "explain": "Present perfect moves back to past perfect: had lost.",
+        "wrongNote": "Present perfect → past perfect."
+      },
+      {
+        "type": "fill",
+        "use": "Will",
+        "sentText": "“I’ll phone you.” → He said he {{blank}} me.",
+        "hint": "phone",
+        "answers": [
+          "would phone"
+        ],
+        "display": "would phone",
+        "explain": "‘Will’ becomes ‘would’ in reported speech.",
+        "wrongNote": "‘Will’ → ‘would’."
+      },
+      {
+        "type": "fill",
+        "use": "Can",
+        "sentText": "“I can’t swim.” → She said she {{blank}} swim.",
+        "hint": "can / could",
+        "answers": [
+          "couldn’t",
+          "couldn't",
+          "couldnt",
+          "could not"
+        ],
+        "display": "couldn’t",
+        "explain": "‘Can’t’ becomes ‘couldn’t’ after ‘said’.",
+        "wrongNote": "‘Can’t’ → ‘couldn’t’."
+      },
+      {
+        "type": "order",
+        "use": "Be",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "was",
+          "busy."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Past simple",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "had",
+          "called."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Will",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "would",
+          "wait."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Can",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "couldn’t",
+          "come."
+        ]
+      },
+      {
+        "type": "tense",
+        "use": "Tense",
+        "text": "“I saw her.” In reported speech this becomes…",
+        "choices": [
+          "he has seen her",
+          "he had seen her",
+          "he sees her",
+          "he was seeing her"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Has seen’ is present perfect: not backshifted.",
+          "",
+          "‘Sees’ is present.",
+          "‘Was seeing’ changes the meaning."
+        ],
+        "explain": "Past simple moves back to past perfect."
+      },
+      {
+        "type": "tense",
+        "use": "Tense",
+        "text": "“I’m cooking.” In reported speech this becomes…",
+        "choices": [
+          "she is cooking",
+          "she had cooked",
+          "she cooked",
+          "she was cooking"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Is cooking’ isn’t backshifted.",
+          "‘Had cooked’ changes the meaning.",
+          "‘Cooked’ loses the continuous.",
+          ""
+        ],
+        "explain": "Present continuous moves back to past continuous."
+      },
+      {
+        "type": "tense",
+        "use": "Tense",
+        "text": "“I’ve been to Japan.” In reported speech this becomes…",
+        "choices": [
+          "he had been to Japan",
+          "he has been to Japan",
+          "he was to Japan",
+          "he went to Japan"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Has been’ isn’t backshifted.",
+          "‘Was to Japan’ is wrong.",
+          "‘Went’ is acceptable in speech but not the full backshift."
+        ],
+        "explain": "Present perfect moves back to past perfect."
+      },
+      {
+        "type": "tense",
+        "use": "Tense",
+        "text": "Which modal does NOT change in reported speech?",
+        "choices": [
+          "will",
+          "can",
+          "should",
+          "may"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Will’ becomes ‘would’.",
+          "‘Can’ becomes ‘could’.",
+          "",
+          "‘May’ becomes ‘might’."
+        ],
+        "explain": "Should, would, could, might and ought to stay the same."
+      },
+      {
+        "type": "mc",
+        "use": "Be",
+        "text": "“We are lost.” → They said they {{blank}} lost.",
+        "choices": [
+          "are",
+          "was",
+          "were",
+          "had"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Are’ isn’t backshifted.",
+          "‘They’ takes ‘were’.",
+          "",
+          "‘Had lost’ changes the meaning."
+        ],
+        "explain": "‘Are’ moves back to ‘were’."
+      },
+      {
+        "type": "mc",
+        "use": "Will",
+        "text": "“I’ll help.” → She said she {{blank}}.",
+        "choices": [
+          "would help",
+          "will help",
+          "helped",
+          "had helped"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Will’ isn’t backshifted.",
+          "‘Helped’ loses the future meaning.",
+          "‘Had helped’ changes the meaning."
+        ],
+        "explain": "‘Will’ moves back to ‘would’."
+      },
+      {
+        "type": "mc",
+        "use": "Must",
+        "text": "“I must go.” → He said he {{blank}} go.",
+        "choices": [
+          "has to",
+          "must to",
+          "musted",
+          "had to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Has to’ isn’t backshifted.",
+          "No ‘to’ after ‘must’.",
+          "‘Musted’ doesn’t exist.",
+          ""
+        ],
+        "explain": "‘Must’ often becomes ‘had to’."
+      },
+      {
+        "type": "mc",
+        "use": "Pronoun",
+        "text": "“I love my dog.” → Pau said {{blank}} loved {{blank}} dog.",
+        "choices": [
+          "I / my",
+          "he / his",
+          "he / my",
+          "him / his"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Pronouns must change.",
+          "",
+          "‘My’ must become ‘his’.",
+          "‘Him’ can’t be a subject."
+        ],
+        "explain": "Change I → he, my → his."
+      },
+      {
+        "type": "error",
+        "use": "No backshift",
+        "tokens": [
+          "She",
+          "said",
+          "she",
+          "lives",
+          "in",
+          "Lleida."
+        ],
+        "errorIndex": 3,
+        "correction": "lived",
+        "message": "After ‘said’: ‘she lived in Lleida’."
+      },
+      {
+        "type": "error",
+        "use": "Will",
+        "tokens": [
+          "He",
+          "said",
+          "he",
+          "will",
+          "be",
+          "late."
+        ],
+        "errorIndex": 3,
+        "correction": "would",
+        "message": "‘Will’ → ‘would’."
+      },
+      {
+        "type": "error",
+        "use": "Present perfect",
+        "tokens": [
+          "They",
+          "said",
+          "they",
+          "have",
+          "finished."
+        ],
+        "errorIndex": 3,
+        "correction": "had",
+        "message": "Present perfect → past perfect."
+      },
+      {
+        "type": "error",
+        "use": "Said or told",
+        "tokens": [
+          "She",
+          "said",
+          "us",
+          "she",
+          "was",
+          "leaving."
+        ],
+        "errorIndex": 1,
+        "correction": "told",
+        "message": "Person after: ‘told us’."
+      }
+    ]
+  }
+}
