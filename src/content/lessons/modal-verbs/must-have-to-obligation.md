@@ -28,44 +28,97 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "Must vs Have to", href: "/grammar/modal-verbs/must-vs-have-to/" }
   - { title: "Should & Ought to", href: "/grammar/modal-verbs/should-ought-to-advice/" }
+next: { title: "Must vs Have to", href: "/grammar/modal-verbs/must-vs-have-to/" }
 draft: false
 ---
 
-## How to use must and have to
+## How to form must and have to
 
-| Meaning | Form | Example |
+| | *must* | *have to* |
 |---|---|---|
-| Obligation from the speaker | must + base verb | **You must** finish this today. |
-| Obligation from outside | have to + base verb | **I have to** wear a uniform. |
-| Prohibition | mustn't + base verb | **You mustn't** touch that. |
-| No necessity | don't have to + base verb | **You don't have to** pay. |
-| Past obligation | had to + base verb | **We had to** leave early. |
+| Affirmative | I **must** go. | I **have to** go. / She **has to** go. |
+| Negative | I **mustn't** go. (= it's forbidden) | I **don't have to** go. (= it isn't necessary) |
+| Question | **Must** I go? (rare) | **Do** I **have to** go? |
+| Past | — | I **had to** go. |
+| Future | — | I**'ll have to** go. |
 
-*Must* never changes form and takes the base verb. *Have to* changes like a normal verb: **has to**, **had to**, **don't/doesn't have to**.
+*Must* is a modal: no *-s*, no *to*, no *do*. *Have to* is a normal verb: it changes for *he/she/it* (**has to**) and uses *do/does/did* in questions and negatives.
 
-## When to use each
+## When to use *must*
 
-### 1. Must — the speaker's obligation
+### 1. Strong obligation from the speaker
 
-- **I must remember** to call the dentist. (I feel it)
-- **You must wear** a helmet on site. (a rule the speaker states)
+The speaker feels it is necessary — a personal rule or strong advice.
 
-### 2. Have to — outside obligation
+- I **must** call my grandma tonight. It's her birthday.
+- You **must** try this cake — it's amazing!
 
-- **She has to work** on Saturdays. (her job requires it)
-- **Do I have to** book in advance? (asking about the rule)
+> ⚠️ Typical error: ~~I must to call my grandma.~~ → No *to* after *must*: *I must call…*
 
-### 3. The negatives — very different
+### 2. Written rules and signs
 
-- **You mustn't be** late. (it's not allowed)
-- **You don't have to be** early. (it's not necessary)
+- Passengers **must** wear a seatbelt.
+- All visitors **must** sign in at reception.
 
-> ⚠️ Typical error: *must* has no past. Use *had to*: *I had to wait an hour* — not ~~I must wait an hour yesterday~~.
+> ⚠️ Typical error: ~~She musts wear a uniform.~~ → Modals never take *-s*: *She must wear…*
+
+## When to use *have to*
+
+### 1. Obligation from outside
+
+Rules, laws or other people make it necessary.
+
+- I **have to** wear a uniform at school.
+- My dad **has to** start work at seven.
+
+> ⚠️ Typical error: ~~He have to work on Saturdays.~~ → Third person: *He has to work…*
+
+### 2. All the other tenses
+
+*Must* has no past or future, so we use *have to*.
+
+| Tense | Example |
+|---|---|
+| past | We **had to** wait an hour for the bus. |
+| future | You**'ll have to** show your passport. |
+| present perfect | I**'ve had to** cancel the trip. |
+| after a modal | You **might have to** pay extra. |
+
+> ⚠️ Typical error: ~~Yesterday I must stay at home.~~ → Past obligation: *Yesterday I had to stay at home.*
+
+## *Mustn't* vs *don't have to*
+
+This is the most important difference: the negatives mean **completely different things**.
+
+| | Meaning | Example |
+|---|---|---|
+| **mustn't** | it's forbidden — don't do it! | You **mustn't** use your phone in the exam. |
+| **don't have to** | it isn't necessary — you can choose | You **don't have to** come if you're busy. |
+
+See [Can't vs Mustn't](/grammar/modal-verbs/cant-vs-mustnt/).
+
+## Questions with *have to*
+
+| Question | Short answer |
+|---|---|
+| **Do** you **have to** wear a uniform? | Yes, I **do**. / No, I **don't**. |
+| **Does** she **have to** work today? | Yes, she **does**. / No, she **doesn't**. |
+| **Did** they **have to** pay? | Yes, they **did**. / No, they **didn't**. |
+
+## *Have got to*
+
+In informal British English, *have got to* = *have to* (present only).
+
+- I**'ve got to** go now. See you!
 
 ## Common mistakes
 
-**1. Mixing up the negatives.** *~~You mustn't pay, it's free~~* → **You don't have to pay, it's free.**
+**1. *To* after *must*.** *~~You must to listen~~* → **You must listen.**
 
-**2. Using 'must' for the past.** *~~Yesterday I must work~~* → **Yesterday I had to work.**
+**2. *Has to* for he/she/it.** *~~She have to~~* → **She has to.**
 
-**3. Adding 'to' after 'must'.** *~~You must to go~~* → **You must go. Pro tip:** obligation from you = must; obligation from outside = have to; forbidden = mustn't; not necessary = don't have to.
+**3. *Must* in the past.** *~~I must work yesterday~~* → **I had to work yesterday.**
+
+**4. Confusing the negatives.** *~~You mustn't come~~* (when you mean it's optional) → **You don't have to come.**
+
+**Pro tip:** for the past or future, forget *must* — use *had to* and *will have to*.
