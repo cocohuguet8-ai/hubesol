@@ -29,39 +29,87 @@ related:
   - { title: "All about prepositions", href: "/grammar/prepositions/" }
   - { title: "Prepositions of Time: at/on/in", href: "/grammar/prepositions/prepositions-of-time/" }
   - { title: "By vs Until", href: "/grammar/prepositions/by-vs-until/" }
+next: { title: "Dependent Prepositions", href: "/grammar/prepositions/dependent-prepositions/" }
 draft: false
 ---
 
-## Two confusing pairs
+## Two pairs that look the same
 
-| Phrase | Meaning | Example |
+| Expression | Meaning | Example |
 |---|---|---|
-| on time | punctual, at the scheduled time | The train left **on time**. |
-| in time (for/to) | early enough, not too late | We arrived **in time** for dinner. |
-| at the end (of) | at the finishing point | **at the end of** the film |
-| in the end | finally, after everything | **In the end**, we stayed home. |
+| **on time** | at the planned time — not late | The train left **on time**. |
+| **in time** | early enough (for something / to do something) | We arrived **in time** to see the start. |
+| **at the end (of)** | at the final point of something | **At the end of** the film, everyone clapped. |
+| **in the end** | finally, after a long time or many changes | **In the end**, we decided to stay at home. |
 
-## When to use each
+## When to use *on time*
 
-### 1. on time — punctual
+### 1. Punctual, at the scheduled time
 
-- The meeting started **on time**. She's always **on time**.
+- The meeting started **on time**.
+- Please be **on time** for the exam.
 
-### 2. in time — early enough
+> ⚠️ Typical error: ~~The bus was in time.~~ (you mean punctual) → *The bus was on time.*
 
-- We got to the station just **in time**. I finished **in time to** relax before the show.
+### 2. Opposite: late / early
 
-### 3. at the end vs in the end
+| early | **on time** | late |
+|---|---|---|
+| before the planned time | exactly at the planned time | after the planned time |
 
-- There's a twist **at the end of** the book. (the finishing point)
-- We argued for hours, but **in the end** we agreed. (finally)
+## When to use *in time*
 
-> ⚠️ Compare: *The plane took off **on time*** (punctual) vs *We reached the gate just **in time*** (before it was too late).
+### 1. Early enough (and so not too late)
+
+- We got to the station **in time** to catch the train.
+- The ambulance arrived **in time**.
+
+### 2. *In time for* + noun / *in time to* + verb
+
+- I got home **in time for** dinner.
+- She arrived **in time to** say goodbye.
+
+> ⚠️ Typical error: ~~We arrived on time for the end of the match~~ (you mean early enough) → *in time for the end of the match.*
+
+### 3. *Just in time*
+
+- We caught the plane **just in time** — the doors were closing!
+
+## When to use *at the end (of)*
+
+The final point of a period, place or event. Usually followed by *of*.
+
+- **At the end of** the lesson, we have a quiz.
+- The toilets are **at the end of** the corridor.
+
+> ⚠️ Typical error: ~~In the end of the film, they get married.~~ → The final point of something: *At the end of the film…*
+
+## When to use *in the end*
+
+Finally, after waiting, discussion or problems. It is **not** followed by *of*.
+
+- We argued for an hour, but **in the end** we agreed.
+- **In the end**, the match was cancelled.
+
+> ⚠️ Typical error: ~~At the end, I decided to buy the blue one~~ (after a long time choosing) → *In the end, I decided…*
+
+## Side by side
+
+| Sentence | Meaning |
+|---|---|
+| I arrived **on time**. | I wasn't late. |
+| I arrived **in time** to see the start. | Early enough for the start. |
+| **At the end of** the book, he dies. | The last pages. |
+| **In the end**, I liked the book. | After all, finally. |
 
 ## Common mistakes
 
-**1. 'in time' for 'punctual'.** *~~The train was in time~~* (meaning punctual) → **The train was on time.**
+**1. *In time* for punctuality.** *~~The flight left in time~~* → **on time.**
 
-**2. 'on time' for 'not too late'.** *~~We arrived on time to save him~~* → **We arrived in time to save him.**
+**2. *On time* for "early enough".** *~~We got there on time to see her~~* → **in time to see her.**
 
-**3. 'at the end' for 'finally'.** *~~At the end, we decided to leave~~* → **In the end, we decided to leave. Pro tip:** on time = punctual; in time = early enough; at the end (of) = the finish point; in the end = finally.
+**3. *In the end of*.** *~~in the end of the month~~* → **at the end of the month.**
+
+**4. *At the end* for "finally".** *~~At the end we went home~~* (after a long time) → **In the end, we went home.**
+
+**Pro tip:** **on time** = the clock says yes; **in time** = you didn't miss it. **at the end of** = a point; **in the end** = finally.
