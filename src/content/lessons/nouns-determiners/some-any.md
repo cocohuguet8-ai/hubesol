@@ -28,41 +28,85 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
   - { title: "Much, Many & A lot of", href: "/grammar/nouns-determiners/much-many-a-lot-of/" }
+next: { title: "Much, Many & A lot of", href: "/grammar/nouns-determiners/much-many-a-lot-of/" }
 draft: false
 ---
 
-## some vs any
+## The basic rule
 
-| Sentence type | Use | Example |
+| | **some** | **any** |
 |---|---|---|
-| Positive | some | I have **some** money. |
-| Negative | any | I don't have **any** money. |
-| Question (normal) | any | Do you have **any** money? |
-| Offer / request | some | Would you like **some** coffee? |
-| "It doesn't matter which" | any | Take **any** seat. |
+| Positive | I've got **some** money. | — |
+| Negative | — | I haven't got **any** money. |
+| Question | Would you like **some** tea? (offer) | Have you got **any** tea? |
+| Nouns | plural countable + uncountable | plural countable + uncountable |
 
-Both go with **plural countable** and **uncountable** nouns.
+## When to use *some*
 
-## When to use each
+### 1. Positive sentences
 
-### 1. some — positive sentences
+- There are **some** apples in the bowl. — I need **some** help.
 
-- There's **some** milk in the fridge. I bought **some** apples.
+### 2. Offers
 
-### 2. any — negatives and questions
+- Would you like **some** cake?
 
-- We don't have **any** sugar. Are there **any** tickets left?
+### 3. Requests
 
-### 3. some in offers and requests
+- Can I have **some** water, please? — Could you lend me **some** money?
 
-- Would you like **some** cake? Can I have **some** water?
+> ⚠️ Typical error: ~~Would you like any coffee?~~ → In offers use *some*: *Would you like some coffee?*
 
-> ⚠️ 'Any' in a positive sentence means *it doesn't matter which*: *You can call me at **any** time.*
+## When to use *any*
+
+### 1. Negative sentences
+
+- There aren't **any** eggs. — I don't have **any** time.
+
+### 2. Most questions
+
+- Are there **any** questions? — Did you buy **any** bread?
+
+### 3. With negative words: *never, without, hardly*
+
+- He left **without** **any** money. — I **never** have **any** free time.
+
+> ⚠️ Typical error: ~~I don't have some friends here.~~ → *I don't have any friends here.*
+
+### 4. *Any* in positives = "it doesn't matter which"
+
+- Take **any** seat you like. — **Any** student can join the club.
+
+## Compounds
+
+| | some- | any- |
+|---|---|---|
+| people | **someone / somebody** | **anyone / anybody** |
+| things | **something** | **anything** |
+| places | **somewhere** | **anywhere** |
+
+- There's **someone** at the door. — Is there **anyone** at home?
+- I didn't see **anything**. — Let's go **somewhere** nice.
+
+## *Some / any* vs *no*
+
+*No* = *not any*. Use it with a **positive** verb.
+
+| not … any | no |
+|---|---|
+| There aren't **any** chairs. | There are **no** chairs. |
+| I haven't got **any** money. | I've got **no** money. |
+
+> ⚠️ Typical error: ~~I haven't got no money.~~ → Double negative: *I haven't got any money / I've got no money.*
 
 ## Common mistakes
 
-**1. 'any' in a positive sentence (normal meaning).** *~~I have any questions~~* → **I have some questions.**
+**1. *Some* in negatives.** *~~We don't have some milk.~~* → **any milk**.
 
-**2. 'some' in a negative.** *~~I don't have some time~~* → **I don't have any time.**
+**2. *Any* in offers.** *~~Do you want any help? (offering)~~* → **Would you like some help?**
 
-**3. 'any' in an offer.** *~~Would you like any tea?~~* → **Would you like some tea? Pro tip:** positive/offer → some; negative/question → any.
+**3. Double negative.** *~~I didn't buy nothing.~~* → **I didn't buy anything.**
+
+**4. *Some* / *any* with singular countables.** *~~some book~~* → **a book**.
+
+**Pro tip:** expect a *yes*? → **some**. Negative or real question? → **any**.
