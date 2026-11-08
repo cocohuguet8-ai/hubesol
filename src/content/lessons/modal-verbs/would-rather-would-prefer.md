@@ -29,39 +29,88 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "Should & Ought to", href: "/grammar/modal-verbs/should-ought-to-advice/" }
   - { title: "Requests, Offers & Suggestions", href: "/grammar/modal-verbs/requests-offers-suggestions/" }
+next: { title: "All modal verbs", href: "/grammar/modal-verbs/" }
 draft: false
 ---
 
-## would rather vs would prefer
+## How to form would rather and would prefer
 
-| Structure | Followed by | Example |
+| Expression | Followed by | Example |
 |---|---|---|
-| would rather | base verb | **I'd rather** stay home. |
-| would rather … than | base verb | **I'd rather** walk **than** drive. |
-| would prefer | to-infinitive / noun | **I'd prefer** to stay. / **I'd prefer** tea. |
-| would prefer … rather than | (verb) rather than (verb) | **I'd prefer** to stay **rather than** go out. |
-| would rather + subject | past simple (about others) | **I'd rather** you **didn't** smoke. |
+| **would rather** ('d rather) | base verb (no *to*) | I**'d rather stay** at home. |
+| **would prefer** ('d prefer) | **to** + base verb | I**'d prefer to stay** at home. |
+| **would prefer** | noun | I**'d prefer** tea. |
+| would rather … **than** | base verb … base verb | I'd rather walk **than** take the bus. |
+| would prefer … **rather than** | to + verb … base verb | I'd prefer to walk **rather than** take the bus. |
 
-## When to use each
+Both talk about what we want in a **specific** situation (now or soon). In speech we nearly always contract: *I'd rather, she'd prefer*.
 
-### 1. would rather — base verb
+## *Would rather*
 
-- **I'd rather** have an early night. **Would** you **rather** sit inside or outside?
+### 1. Base verb, no *to*
 
-### 2. would prefer — to-infinitive or noun
+- I**'d rather watch** a film tonight.
+- She**'d rather not go** out. (negative: *rather not*)
 
-- **I'd prefer** to pay by card. **She'd prefer** a window seat.
+> ⚠️ Typical error: ~~I'd rather to stay here.~~ → No *to* after *would rather*: *I'd rather stay here.*
 
-### 3. Talking about other people — past simple
+### 2. Comparing two actions with *than*
 
-- **I'd rather** you **called** me later. **They'd rather** we **didn't** come.
+- I**'d rather walk than** take the bus.
+- We**'d rather eat** at home **than** go to a restaurant.
 
-> ⚠️ 'Would rather' takes no 'to': *I'd rather **go*** (not ~~to go~~). 'Would prefer' does: *I'd prefer **to go**.*
+> ⚠️ Typical error: ~~I'd rather walk that take the bus.~~ → The comparison word is *than*.
+
+### 3. Questions
+
+- **Would you rather** have pizza or pasta?
+- What **would you rather** do?
+
+## *Would prefer*
+
+### 1. *To* + base verb, or a noun
+
+- I**'d prefer to sit** by the window.
+- **Would** you **prefer** coffee or tea?
+
+> ⚠️ Typical error: ~~I'd prefer sit by the window.~~ → *Prefer* needs *to*: *I'd prefer to sit…*
+
+### 2. Negative
+
+- I**'d prefer not to** talk about it. (*not* before *to*)
+
+### 3. Comparing with *rather than*
+
+- I**'d prefer to stay** in **rather than** go out.
+
+## *Would rather* + another person
+
+When the subject changes, *would rather* is followed by a subject + **past simple**, even though the meaning is present or future.
+
+| Sentence | Meaning |
+|---|---|
+| I'd rather **you stayed**. | I want you to stay. |
+| She'd rather **we didn't** tell anyone. | She doesn't want us to tell anyone. |
+
+With *would prefer* + person, use **object + to**: I'd prefer **you to stay**.
+
+> ⚠️ Typical error: ~~I'd rather you stay.~~ (formal English) → *I'd rather you stayed.*
+
+## *Would prefer* vs *prefer*
+
+| | Meaning | Example |
+|---|---|---|
+| **prefer** | general preference | I **prefer** tea **to** coffee. (always) |
+| **would prefer** | specific moment | I**'d prefer** tea now, please. |
 
 ## Common mistakes
 
-**1. 'to' after 'would rather'.** *~~I'd rather to go~~* → **I'd rather go.**
+**1. *To* after *would rather*.** *~~I'd rather to go~~* → **I'd rather go.**
 
-**2. No 'to' after 'would prefer'.** *~~I'd prefer go~~* → **I'd prefer to go.**
+**2. Missing *to* after *would prefer*.** *~~I'd prefer go~~* → **I'd prefer to go.**
 
-**3. Present tense about others.** *~~I'd rather you don't smoke~~* → **I'd rather you didn't smoke. Pro tip:** rather + base verb; prefer + to-infinitive; about others → rather + past simple.
+**3. *That* instead of *than*.** *~~rather walk that drive~~* → **rather walk than drive.**
+
+**4. Present after *would rather* + person.** *~~I'd rather you don't smoke~~* → **I'd rather you didn't smoke.**
+
+**Pro tip:** *rather* takes no *to*; *prefer* needs *to*. Say "rather — no to, prefer — to" until it's automatic.
