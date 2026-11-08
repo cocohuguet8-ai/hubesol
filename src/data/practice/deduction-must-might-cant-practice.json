@@ -985,7 +985,11 @@
         "errorIndex": 6,
         "correction": "must",
         "type": "Have to for deduction",
-        "message": "Deduction uses ‘must’: ‘he must be at home’."
+        "message": "Deduction uses ‘must’: ‘he must be at home’.",
+        "errorSpan": [
+          6,
+          7
+        ]
       },
       {
         "tokens": [
@@ -1004,7 +1008,11 @@
         "errorIndex": 1,
         "correction": "must",
         "type": "Have to for deduction",
-        "message": "Deduction: ‘They must be very rich’."
+        "message": "Deduction: ‘They must be very rich’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1531,7 +1539,11 @@
         ],
         "errorIndex": 1,
         "correction": "must",
-        "message": "Deduction uses ‘must’, not ‘has to’."
+        "message": "Deduction uses ‘must’, not ‘has to’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "type": "error",

@@ -921,9 +921,13 @@
           "France."
         ],
         "errorIndex": 5,
-        "correction": "beautiful",
+        "correction": "France.",
         "type": "The with country",
-        "message": "Single countries take no article: ‘in France’ (or ‘in beautiful France’)."
+        "message": "Single countries take no article: ‘in France’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -935,9 +939,13 @@
           "now."
         ],
         "errorIndex": 3,
-        "correction": "northern",
+        "correction": "Portugal",
         "type": "The with country",
-        "message": "Single countries take no article: ‘in Portugal’."
+        "message": "Single countries take no article: ‘in Portugal’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -949,9 +957,13 @@
           "America."
         ],
         "errorIndex": 3,
-        "correction": "western",
+        "correction": "South",
         "type": "The with continent",
-        "message": "Continents take no article: ‘in South America’."
+        "message": "Continents take no article: ‘in South America’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -963,9 +975,13 @@
           "spring."
         ],
         "errorIndex": 2,
-        "correction": "beautiful",
+        "correction": "Rome",
         "type": "The with city",
-        "message": "Cities take no article: ‘Rome’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Cities take no article: ‘Rome’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -974,13 +990,17 @@
           "is",
           "on",
           "the",
-          "Gran",
-          "Via."
+          "Main",
+          "Street."
         ],
         "errorIndex": 4,
-        "correction": "busy",
+        "correction": "Main",
         "type": "The with street",
-        "message": "Street names usually take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Street names usually take no article: ‘on Main Street’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -992,9 +1012,13 @@
           "Banyoles."
         ],
         "errorIndex": 3,
-        "correction": "beautiful",
+        "correction": "Lake",
         "type": "The with lake",
-        "message": "‘Lake + name’ takes no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "‘Lake + name’ takes no article: ‘Lake Banyoles’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1005,9 +1029,13 @@
           "Everest."
         ],
         "errorIndex": 2,
-        "correction": "famous",
+        "correction": "Mount",
         "type": "The with mountain",
-        "message": "‘Mount + name’ takes no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "‘Mount + name’ takes no article: ‘Mount Everest’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1021,9 +1049,13 @@
           "week."
         ],
         "errorIndex": 3,
-        "correction": "sunny",
+        "correction": "Mallorca",
         "type": "The with island",
-        "message": "A single island takes no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "A single island takes no article: ‘in Mallorca’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1036,9 +1068,13 @@
           "Park."
         ],
         "errorIndex": 4,
-        "correction": "huge",
+        "correction": "Central",
         "type": "The with park",
-        "message": "Park names take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Park names take no article: ‘in Central Park’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1050,9 +1086,13 @@
           "London."
         ],
         "errorIndex": 4,
-        "correction": "east",
+        "correction": "London.",
         "type": "The with city",
-        "message": "Cities take no article: ‘in London’ (or ‘in east London’)."
+        "message": "Cities take no article: ‘in London’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1466,8 +1506,12 @@
           "Japan."
         ],
         "errorIndex": 3,
-        "correction": "rural",
-        "message": "Single countries take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "correction": "Japan.",
+        "message": "Single countries take no article.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "type": "error",
@@ -1495,8 +1539,12 @@
           "Michigan."
         ],
         "errorIndex": 3,
-        "correction": "beautiful",
-        "message": "‘Lake + name’: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "correction": "Lake",
+        "message": "‘Lake + name’: no article.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "type": "error",

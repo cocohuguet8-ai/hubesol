@@ -1219,9 +1219,13 @@
           "home."
         ],
         "errorIndex": 2,
-        "correction": "rains",
+        "correction": "rains,",
         "type": "Will after if",
-        "message": "No ‘will’ after ‘if’: ‘If it rains…’."
+        "message": "No ‘will’ after ‘if’: ‘If it rains…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1236,7 +1240,11 @@
         "errorIndex": 2,
         "correction": "call",
         "type": "Will after if",
-        "message": "The if-clause takes the present simple: ‘If you call me…’."
+        "message": "The if-clause takes the present simple: ‘If you call me…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1252,7 +1260,11 @@
         "errorIndex": 5,
         "correction": "see",
         "type": "Will after if",
-        "message": "Even when it comes second, the if-clause has no ‘will’: ‘if I see her’."
+        "message": "Even when it comes second, the if-clause has no ‘will’: ‘if I see her’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1282,10 +1294,14 @@
           "home",
           "tomorrow."
         ],
-        "errorIndex": 4,
-        "correction": "’ll stay",
+        "errorIndex": 3,
+        "correction": "I’ll stay",
         "type": "Missing will",
-        "message": "Tomorrow’s result needs ‘will’: ‘I’ll stay at home tomorrow’."
+        "message": "Tomorrow’s result needs ‘will’: ‘I’ll stay at home tomorrow’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1297,7 +1313,7 @@
           "him."
         ],
         "errorIndex": 2,
-        "correction": "calls",
+        "correction": "calls,",
         "type": "Missing -s",
         "message": "‘Tom’ is he, so add -s: ‘If Tom calls…’."
       },
@@ -1407,9 +1423,13 @@
           "it."
         ],
         "errorIndex": 2,
-        "correction": "hurry",
+        "correction": "hurry,",
         "type": "Unless + not",
-        "message": "‘Unless’ already means ‘if not’: ‘Unless you hurry…’."
+        "message": "‘Unless’ already means ‘if not’: ‘Unless you hurry…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1422,9 +1442,13 @@
           "arrive."
         ],
         "errorIndex": 5,
-        "correction": "arrive",
+        "correction": "arrive.",
         "type": "Will after linker",
-        "message": "After ‘when’ (future) use the present simple: ‘when I arrive’."
+        "message": "After ‘when’ (future) use the present simple: ‘when I arrive’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1441,7 +1465,11 @@
         "errorIndex": 6,
         "correction": "gets",
         "type": "Will after linker",
-        "message": "After ‘as soon as’ use the present simple: ‘as soon as she gets here’."
+        "message": "After ‘as soon as’ use the present simple: ‘as soon as she gets here’.",
+        "errorSpan": [
+          6,
+          7
+        ]
       },
       {
         "tokens": [
@@ -1457,7 +1485,11 @@
         "errorIndex": 4,
         "correction": "can",
         "type": "Two modals",
-        "message": "Two modals can’t go together: ‘you can go out’."
+        "message": "Two modals can’t go together: ‘you can go out’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1849,8 +1881,12 @@
           "help."
         ],
         "errorIndex": 2,
-        "correction": "asks",
-        "message": "No ‘will’ after ‘if’: ‘If she asks…’."
+        "correction": "asks,",
+        "message": "No ‘will’ after ‘if’: ‘If she asks…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",
@@ -1866,9 +1902,13 @@
           "the",
           "photos."
         ],
-        "errorIndex": 5,
-        "correction": "’ll show",
-        "message": "A future result needs will: ‘I’ll show you’."
+        "errorIndex": 4,
+        "correction": "I’ll show",
+        "message": "A future result needs will: ‘I’ll show you’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "type": "error",
@@ -1882,8 +1922,12 @@
           "fail."
         ],
         "errorIndex": 2,
-        "correction": "study",
-        "message": "‘Unless’ already means ‘if not’: ‘Unless you study…’."
+        "correction": "study,",
+        "message": "‘Unless’ already means ‘if not’: ‘Unless you study…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",

@@ -916,7 +916,11 @@
         "errorIndex": 0,
         "correction": "Life",
         "type": "The for general",
-        "message": "Life in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "Life in general: zero article. In general or in a fixed phrase → no article; specific or known → the.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -930,7 +934,11 @@
         "errorIndex": 0,
         "correction": "Children",
         "type": "The for general",
-        "message": "Children in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "Children in general: zero article. In general or in a fixed phrase → no article; specific or known → the.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -941,9 +949,13 @@
           "meat."
         ],
         "errorIndex": 3,
-        "correction": "red",
+        "correction": "meat.",
         "type": "The for general",
-        "message": "Meat in general: zero article (‘I don’t eat meat’ / ‘red meat’)."
+        "message": "Meat in general: zero article (‘I don’t eat meat’).",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -956,7 +968,11 @@
         "errorIndex": 0,
         "correction": "Honesty",
         "type": "The for general",
-        "message": "Abstract nouns in general: zero article."
+        "message": "Abstract nouns in general: zero article.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -969,9 +985,13 @@
           "hotel."
         ],
         "errorIndex": 2,
-        "correction": "our",
+        "correction": "breakfast",
         "type": "The for meal",
-        "message": "Meals: ‘had breakfast’ (or ‘had our breakfast’)."
+        "message": "Meals: ‘had breakfast’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -983,9 +1003,13 @@
           "now?"
         ],
         "errorIndex": 3,
-        "correction": "some",
+        "correction": "lunch",
         "type": "The for meal",
-        "message": "Meals: ‘have lunch’ (or ‘have some lunch’)."
+        "message": "Meals: ‘have lunch’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -996,9 +1020,13 @@
           "tennis."
         ],
         "errorIndex": 3,
-        "correction": "table",
+        "correction": "tennis.",
         "type": "The for sport",
-        "message": "Sports: zero article (‘plays tennis’ / ‘plays table tennis’)."
+        "message": "Sports: zero article (‘plays tennis’).",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1008,9 +1036,13 @@
           "Arabic."
         ],
         "errorIndex": 2,
-        "correction": "Moroccan",
+        "correction": "Arabic.",
         "type": "The for language",
-        "message": "Languages: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "Languages: zero article.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1020,9 +1052,13 @@
           "physics."
         ],
         "errorIndex": 2,
-        "correction": "doing",
+        "correction": "physics.",
         "type": "The for subject",
-        "message": "Subjects: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "Subjects: zero article.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1032,10 +1068,14 @@
           "the",
           "train."
         ],
-        "errorIndex": 3,
-        "correction": "night",
+        "errorIndex": 2,
+        "correction": "by train.",
         "type": "The for transport",
-        "message": "By + transport: zero article (‘by train’ / ‘by night train’)."
+        "message": "By + transport: zero article (‘by train’).",
+        "errorSpan": [
+          2,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1047,10 +1087,14 @@
           "a",
           "car."
         ],
-        "errorIndex": 5,
-        "correction": "electric",
+        "errorIndex": 4,
+        "correction": "by car.",
         "type": "A for transport",
-        "message": "By + transport: zero article (‘by car’)."
+        "message": "By + transport: zero article (‘by car’).",
+        "errorSpan": [
+          4,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1061,10 +1105,14 @@
           "the",
           "March."
         ],
-        "errorIndex": 4,
-        "correction": "early",
+        "errorIndex": 3,
+        "correction": "in March.",
         "type": "The for time",
-        "message": "Months: zero article (‘in March’ / ‘in early March’)."
+        "message": "Months: zero article (‘in March’).",
+        "errorSpan": [
+          3,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1075,10 +1123,14 @@
           "the",
           "Saturdays."
         ],
-        "errorIndex": 4,
-        "correction": "sunny",
+        "errorIndex": 3,
+        "correction": "on Saturdays.",
         "type": "The for time",
-        "message": "Days: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "Days: zero article.",
+        "errorSpan": [
+          3,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1091,10 +1143,14 @@
           "the",
           "bed."
         ],
-        "errorIndex": 6,
-        "correction": "my",
+        "errorIndex": 5,
+        "correction": "to bed.",
         "type": "The for place",
-        "message": "‘Go to bed’: zero article (‘to my bed’ is also correct)."
+        "message": "‘Go to bed’: zero article.",
+        "errorSpan": [
+          5,
+          7
+        ]
       },
       {
         "tokens": [
@@ -1107,10 +1163,14 @@
           "until",
           "three."
         ],
-        "errorIndex": 4,
-        "correction": "primary",
+        "errorIndex": 3,
+        "correction": "at school",
         "type": "The for place",
-        "message": "‘At school’ as students: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "‘At school’ as students: zero article.",
+        "errorSpan": [
+          3,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1122,10 +1182,14 @@
           "by",
           "bike."
         ],
-        "errorIndex": 3,
-        "correction": "his",
+        "errorIndex": 2,
+        "correction": "to work",
         "type": "The for place",
-        "message": "‘Go to work’: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "‘Go to work’: zero article.",
+        "errorSpan": [
+          2,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1461,7 +1525,11 @@
         ],
         "errorIndex": 0,
         "correction": "Cats",
-        "message": "Cats in general: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "message": "Cats in general: zero article. In general or in a fixed phrase → no article; specific or known → the.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "type": "error",
@@ -1474,8 +1542,12 @@
           "outside."
         ],
         "errorIndex": 2,
-        "correction": "our",
-        "message": "Meals: ‘have lunch’. In general or in a fixed phrase → no article; specific or known → the."
+        "correction": "lunch",
+        "message": "Meals: ‘have lunch’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",
@@ -1488,8 +1560,12 @@
           "Portuguese?"
         ],
         "errorIndex": 3,
-        "correction": "Brazilian",
-        "message": "Languages: zero article (‘speak Portuguese’ / ‘Brazilian Portuguese’)."
+        "correction": "Portuguese?",
+        "message": "Languages: zero article (‘speak Portuguese’).",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "type": "error",
@@ -1502,9 +1578,13 @@
           "the",
           "bed!"
         ],
-        "errorIndex": 4,
-        "correction": "your",
-        "message": "‘Go to bed’: zero article. In general or in a fixed phrase → no article; specific or known → the."
+        "errorIndex": 3,
+        "correction": "to bed!",
+        "message": "‘Go to bed’: zero article.",
+        "errorSpan": [
+          3,
+          5
+        ]
       }
     ]
   }

@@ -922,7 +922,7 @@
           "days."
         ],
         "errorIndex": 5,
-        "correction": "day",
+        "correction": "day.",
         "type": "Every + plural",
         "message": "‘Every’ + singular: ‘every day’. Two → both; the whole group → all; every + singular noun; each = one by one."
       },
@@ -1106,10 +1106,14 @@
           "the",
           "day."
         ],
-        "errorIndex": 3,
-        "correction": "that",
+        "errorIndex": 2,
+        "correction": "all day.",
         "type": "All the day",
-        "message": "‘All day’ (or ‘all that day’), not ‘all the day’."
+        "message": "‘All day’, not ‘all the day’.",
+        "errorSpan": [
+          2,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1135,7 +1139,7 @@
           "every."
         ],
         "errorIndex": 5,
-        "correction": "each",
+        "correction": "each.",
         "type": "Each alone",
         "message": "At the end, ‘each’ = per item. Two → both; the whole group → all; every + singular noun; each = one by one."
       },
@@ -1465,7 +1469,7 @@
           "weeks."
         ],
         "errorIndex": 4,
-        "correction": "week",
+        "correction": "week.",
         "message": "‘Every week’. Two → both; the whole group → all; every + singular noun; each = one by one."
       },
       {

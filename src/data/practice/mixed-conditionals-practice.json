@@ -1379,7 +1379,11 @@
         "errorIndex": 2,
         "correction": "hadn’t broken",
         "type": "Past condition",
-        "message": "‘Last month’ is past: ‘If I hadn’t broken my leg…’."
+        "message": "‘Last month’ is past: ‘If I hadn’t broken my leg…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1489,7 +1493,11 @@
         "errorIndex": 2,
         "correction": "had",
         "type": "Would in the if-clause",
-        "message": "No ‘would’ after ‘if’: ‘If I had studied…’."
+        "message": "No ‘would’ after ‘if’: ‘If I had studied…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1505,7 +1513,11 @@
         "errorIndex": 2,
         "correction": "were",
         "type": "Would in the if-clause",
-        "message": "No ‘would’ after ‘if’: ‘If she were braver…’."
+        "message": "No ‘would’ after ‘if’: ‘If she were braver…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1578,9 +1590,13 @@
           "dry."
         ],
         "errorIndex": 2,
-        "correction": "hadn’t",
+        "correction": "hadn’t rained",
         "type": "Negative",
-        "message": "Last night is past: ‘If it hadn’t rained…’."
+        "message": "Last night is past: ‘If it hadn’t rained…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -2055,7 +2071,11 @@
         ],
         "errorIndex": 2,
         "correction": "had",
-        "message": "No ‘would’ after ‘if’: ‘If I had listened…’."
+        "message": "No ‘would’ after ‘if’: ‘If I had listened…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",

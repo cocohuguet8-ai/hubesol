@@ -1142,9 +1142,13 @@
           "arrive."
         ],
         "errorIndex": 5,
-        "correction": "arrive",
+        "correction": "arrive.",
         "type": "Will after when",
-        "message": "No ‘will’ after ‘when’: ‘when I arrive’."
+        "message": "No ‘will’ after ‘when’: ‘when I arrive’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1157,9 +1161,13 @@
           "in."
         ],
         "errorIndex": 2,
-        "correction": "rains",
+        "correction": "rains,",
         "type": "Will after if",
-        "message": "No ‘will’ after ‘if’: ‘If it rains…’."
+        "message": "No ‘will’ after ‘if’: ‘If it rains…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1173,9 +1181,13 @@
           "know."
         ],
         "errorIndex": 6,
-        "correction": "know",
+        "correction": "know.",
         "type": "Will after linker",
-        "message": "No ‘will’ after ‘as soon as’: ‘as soon as you know’."
+        "message": "No ‘will’ after ‘as soon as’: ‘as soon as you know’.",
+        "errorSpan": [
+          6,
+          7
+        ]
       },
       {
         "tokens": [
@@ -1188,9 +1200,13 @@
           "stop."
         ],
         "errorIndex": 5,
-        "correction": "stops",
+        "correction": "stops.",
         "type": "Will after linker",
-        "message": "No ‘will’ after ‘until’: ‘until the rain stops’."
+        "message": "No ‘will’ after ‘until’: ‘until the rain stops’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1323,10 +1339,14 @@
           "her",
           "tomorrow."
         ],
-        "errorIndex": 5,
-        "correction": "’ll tell",
+        "errorIndex": 4,
+        "correction": "I’ll tell",
         "type": "Missing will",
-        "message": "The main clause needs ‘will’: ‘I’ll tell her’."
+        "message": "The main clause needs ‘will’: ‘I’ll tell her’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1358,7 +1378,11 @@
         "errorIndex": 2,
         "correction": "am",
         "type": "Wrong tense",
-        "message": "No ‘will’ after ‘when’: ‘When I am older…’."
+        "message": "No ‘will’ after ‘when’: ‘When I am older…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1372,9 +1396,13 @@
           "run."
         ],
         "errorIndex": 6,
-        "correction": "run",
+        "correction": "run.",
         "type": "Unless + not",
-        "message": "‘Unless’ already means ‘if not’: ‘unless you run’."
+        "message": "‘Unless’ already means ‘if not’: ‘unless you run’.",
+        "errorSpan": [
+          6,
+          7
+        ]
       },
       {
         "tokens": [
@@ -1430,9 +1458,13 @@
           "land."
         ],
         "errorIndex": 5,
-        "correction": "lands",
+        "correction": "lands.",
         "type": "Will after when",
-        "message": "No ‘will’ after ‘when’: ‘when the plane lands’."
+        "message": "No ‘will’ after ‘when’: ‘when the plane lands’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1445,7 +1477,7 @@
           "up."
         ],
         "errorIndex": 3,
-        "correction": "cries",
+        "correction": "cries,",
         "type": "Spelling",
         "message": "Consonant + -y → -ies: cry → cries."
       }
@@ -1772,8 +1804,12 @@
           "finish."
         ],
         "errorIndex": 5,
-        "correction": "finish",
-        "message": "No ‘will’ after ‘when’: ‘when I finish’."
+        "correction": "finish.",
+        "message": "No ‘will’ after ‘when’: ‘when I finish’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "type": "error",
@@ -1824,7 +1860,11 @@
         ],
         "errorIndex": 2,
         "correction": "need",
-        "message": "No ‘will’ after ‘if’: ‘If you need me…’."
+        "message": "No ‘will’ after ‘if’: ‘If you need me…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       }
     ]
   }

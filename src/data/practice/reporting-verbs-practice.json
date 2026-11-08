@@ -1500,8 +1500,12 @@
           "rules."
         ],
         "errorIndex": 2,
-        "correction": "to me",
-        "message": "‘Explain’ + thing + to + person: ‘explained the rules to me’."
+        "correction": "the rules to me.",
+        "message": "‘Explain’ + thing + to + person: ‘explained the rules to me’.",
+        "errorSpan": [
+          2,
+          4
+        ]
       }
     ]
   }

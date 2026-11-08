@@ -1041,9 +1041,13 @@
           "swim?"
         ],
         "errorIndex": 0,
-        "correction": "Can",
+        "correction": "Can you",
         "type": "Do with a modal",
-        "message": "Modals make questions without ‘do’: ‘Can you swim?’."
+        "message": "Modals make questions without ‘do’: ‘Can you swim?’.",
+        "errorSpan": [
+          0,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1055,7 +1059,11 @@
         "errorIndex": 1,
         "correction": "can’t",
         "type": "Do with a modal",
-        "message": "The negative is ‘can’t’: ‘I can’t drive’."
+        "message": "The negative is ‘can’t’: ‘I can’t drive’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1086,7 +1094,11 @@
         "errorIndex": 1,
         "correction": "will be able to",
         "type": "Two modals",
-        "message": "Two modals can’t go together: ‘I will be able to help’."
+        "message": "Two modals can’t go together: ‘I will be able to help’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1202,7 +1214,7 @@
           "do.”"
         ],
         "errorIndex": 6,
-        "correction": "can",
+        "correction": "can.”",
         "type": "Short answer",
         "message": "Repeat the modal: ‘Yes, I can’."
       },
@@ -1218,7 +1230,7 @@
           "didn’t.”"
         ],
         "errorIndex": 7,
-        "correction": "couldn’t",
+        "correction": "couldn’t.”",
         "type": "Short answer",
         "message": "Repeat the modal: ‘No, I couldn’t’."
       },
@@ -1260,7 +1272,7 @@
           "cooks."
         ],
         "errorIndex": 3,
-        "correction": "cook",
+        "correction": "cook.",
         "type": "Wrong negative",
         "message": "After ‘cannot’ use the base verb: ‘My dad cannot cook’."
       },
@@ -1576,7 +1588,11 @@
         ],
         "errorIndex": 1,
         "correction": "will be able to",
-        "message": "‘She will be able to drive’."
+        "message": "‘She will be able to drive’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "type": "error",

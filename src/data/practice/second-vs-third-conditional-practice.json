@@ -1326,7 +1326,11 @@
         "errorIndex": 2,
         "correction": "had",
         "type": "Would in the if-clause",
-        "message": "No ‘would’ in the if-clause: ‘If I had known…’."
+        "message": "No ‘would’ in the if-clause: ‘If I had known…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1341,7 +1345,11 @@
         "errorIndex": 2,
         "correction": "were",
         "type": "Would in the if-clause",
-        "message": "No ‘would’ in the if-clause: ‘If she were here…’."
+        "message": "No ‘would’ in the if-clause: ‘If she were here…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1428,7 +1436,7 @@
           "passed."
         ],
         "errorIndex": 4,
-        "correction": "yesterday",
+        "correction": "yesterday,",
         "type": "Time clue",
         "message": "The past perfect needs a past time: ‘yesterday’, not ‘tomorrow’."
       },
@@ -1444,7 +1452,7 @@
           "close."
         ],
         "errorIndex": 3,
-        "correction": "tomorrow",
+        "correction": "tomorrow,",
         "type": "Time clue",
         "message": "Second conditional (snowed + would close) fits the future: ‘tomorrow’."
       },
@@ -1462,9 +1470,13 @@
           "won."
         ],
         "errorIndex": 2,
-        "correction": "hadn’t",
+        "correction": "hadn’t fallen",
         "type": "Negative",
-        "message": "A past condition: ‘If he hadn’t fallen…’."
+        "message": "A past condition: ‘If he hadn’t fallen…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1547,9 +1559,13 @@
           "go?"
         ],
         "errorIndex": 7,
-        "correction": "go",
+        "correction": "go?",
         "type": "Question",
-        "message": "Imaginary present: ‘where would you go?’ — no ‘have’."
+        "message": "Imaginary present: ‘where would you go?’ — no ‘have’.",
+        "errorSpan": [
+          7,
+          8
+        ]
       },
       {
         "tokens": [
@@ -1959,7 +1975,11 @@
         ],
         "errorIndex": 2,
         "correction": "had",
-        "message": "No ‘would’ after ‘if’: ‘If we had money…’."
+        "message": "No ‘would’ after ‘if’: ‘If we had money…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",
@@ -1975,7 +1995,7 @@
           "winned."
         ],
         "errorIndex": 7,
-        "correction": "won",
+        "correction": "won.",
         "message": "‘Win’ is irregular: won."
       }
     ]

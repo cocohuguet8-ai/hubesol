@@ -1058,7 +1058,7 @@
           "nothing."
         ],
         "errorIndex": 3,
-        "correction": "anything",
+        "correction": "anything.",
         "type": "Double negative",
         "message": "Double negative: ‘didn’t say anything’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
       },
@@ -1071,7 +1071,7 @@
           "nowhere."
         ],
         "errorIndex": 4,
-        "correction": "anywhere",
+        "correction": "anywhere.",
         "type": "Double negative",
         "message": "Double negative: ‘couldn’t find it anywhere’."
       },
@@ -1097,7 +1097,7 @@
           "something."
         ],
         "errorIndex": 3,
-        "correction": "anything",
+        "correction": "anything.",
         "type": "Compound",
         "message": "Negative: ‘anything’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
       },
@@ -1168,7 +1168,7 @@
           "any?"
         ],
         "errorIndex": 7,
-        "correction": "some",
+        "correction": "some?",
         "type": "Any in offer",
         "message": "Offers use ‘some’: ‘would you like some?’"
       }
@@ -1474,7 +1474,7 @@
           "nothing."
         ],
         "errorIndex": 3,
-        "correction": "anything",
+        "correction": "anything.",
         "message": "Double negative. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
       },
       {

@@ -994,7 +994,7 @@
           "dog’s."
         ],
         "errorIndex": 3,
-        "correction": "dogs",
+        "correction": "dogs.",
         "type": "Apostrophe plural",
         "message": "Simple plural: no apostrophe. People and animals → ’s; things and parts of things → of."
       },
@@ -1006,7 +1006,7 @@
           "apple’s."
         ],
         "errorIndex": 3,
-        "correction": "apples",
+        "correction": "apples.",
         "type": "Apostrophe plural",
         "message": "Simple plural: no apostrophe. People and animals → ’s; things and parts of things → of."
       },
@@ -1125,7 +1125,7 @@
           "chemist."
         ],
         "errorIndex": 4,
-        "correction": "chemist’s",
+        "correction": "chemist’s.",
         "type": "Shop",
         "message": "Shop: ‘the chemist’s’. People and animals → ’s; things and parts of things → of."
       },
@@ -1499,7 +1499,7 @@
           "banana’s."
         ],
         "errorIndex": 2,
-        "correction": "bananas",
+        "correction": "bananas.",
         "message": "Simple plural: no apostrophe. People and animals → ’s; things and parts of things → of."
       },
       {

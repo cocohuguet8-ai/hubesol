@@ -1110,10 +1110,14 @@
           "for",
           "you."
         ],
-        "errorIndex": 6,
-        "correction": "’ll open",
+        "errorIndex": 5,
+        "correction": "I’ll open",
         "type": "Spontaneous offer",
-        "message": "A spontaneous offer: ‘I’ll open the door’."
+        "message": "A spontaneous offer: ‘I’ll open the door’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1152,7 +1156,7 @@
           "thank.”"
         ],
         "errorIndex": 4,
-        "correction": "please",
+        "correction": "please.”",
         "type": "Answer to offer",
         "message": "Accept an offer with ‘Yes, please’."
       },

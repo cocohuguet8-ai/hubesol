@@ -964,9 +964,13 @@
           "here?"
         ],
         "errorIndex": 0,
-        "correction": "Can",
+        "correction": "Can I",
         "type": "Do with a modal",
-        "message": "Modals make questions without ‘do’: ‘Can I sit here?’."
+        "message": "Modals make questions without ‘do’: ‘Can I sit here?’.",
+        "errorSpan": [
+          0,
+          2
+        ]
       },
       {
         "tokens": [
@@ -979,7 +983,11 @@
         "errorIndex": 1,
         "correction": "can’t",
         "type": "Wrong negative",
-        "message": "The negative is ‘can’t’: ‘You can’t park here’."
+        "message": "The negative is ‘can’t’: ‘You can’t park here’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -993,7 +1001,7 @@
           "could.”"
         ],
         "errorIndex": 7,
-        "correction": "can",
+        "correction": "can.”",
         "type": "Giving permission",
         "message": "We give permission with ‘can’, not ‘could’."
       },
@@ -1155,7 +1163,11 @@
         "errorIndex": 5,
         "correction": "sit",
         "type": "Do you mind",
-        "message": "After ‘if’ use the present simple: ‘if I sit here’."
+        "message": "After ‘if’ use the present simple: ‘if I sit here’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1168,7 +1180,7 @@
           "do.”"
         ],
         "errorIndex": 6,
-        "correction": "may",
+        "correction": "may.”",
         "type": "Short answer",
         "message": "Repeat the modal: ‘Yes, you may’."
       },
@@ -1522,7 +1534,7 @@
           "could.”"
         ],
         "errorIndex": 5,
-        "correction": "can",
+        "correction": "can.”",
         "message": "Give permission with ‘can’."
       },
       {
@@ -1551,8 +1563,12 @@
           "in?"
         ],
         "errorIndex": 0,
-        "correction": "Can",
-        "message": "No ‘do’ with modals: ‘Can I come in?’."
+        "correction": "Can I",
+        "message": "No ‘do’ with modals: ‘Can I come in?’.",
+        "errorSpan": [
+          0,
+          2
+        ]
       }
     ]
   }

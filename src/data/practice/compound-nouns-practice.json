@@ -943,7 +943,7 @@
           "teethbrush."
         ],
         "errorIndex": 4,
-        "correction": "tooth",
+        "correction": "toothbrush.",
         "type": "Plural first",
         "message": "‘Toothbrush’: singular first part. The main word goes last, and the first noun is usually singular."
       },
@@ -955,7 +955,7 @@
           "walk."
         ],
         "errorIndex": 2,
-        "correction": "minute",
+        "correction": "five-minute",
         "type": "Plural first",
         "message": "Singular in compounds: ‘five-minute walk’."
       },
@@ -968,7 +968,7 @@
           "cat."
         ],
         "errorIndex": 3,
-        "correction": "year",
+        "correction": "two-year-old",
         "type": "Plural first",
         "message": "‘Two-year-old’: singular. The main word goes last, and the first noun is usually singular."
       },
@@ -982,7 +982,7 @@
           "hotel."
         ],
         "errorIndex": 4,
-        "correction": "star",
+        "correction": "three-star",
         "type": "Plural first",
         "message": "‘Three-star hotel’: singular. The main word goes last, and the first noun is usually singular."
       },
@@ -1011,7 +1011,7 @@
           "ball."
         ],
         "errorIndex": 4,
-        "correction": "balls",
+        "correction": "balls.",
         "type": "Plural wrong word",
         "message": "Plural on the last word: ‘tennis balls’."
       },
@@ -1097,9 +1097,13 @@
           "thirsty."
         ],
         "errorIndex": 4,
-        "correction": "big",
+        "correction": "cup of tea?",
         "type": "Cup of",
-        "message": "You want tea to drink: ‘a cup of tea’ (or ‘a big cup’)."
+        "message": "You want tea to drink: ‘a cup of tea’ (a ‘tea cup’ is the empty cup).",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1475,7 +1479,7 @@
           "note."
         ],
         "errorIndex": 3,
-        "correction": "euro",
+        "correction": "ten-euro",
         "message": "‘Ten-euro note’. The main word goes last, and the first noun is usually singular."
       },
       {

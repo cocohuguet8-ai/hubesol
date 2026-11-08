@@ -1190,9 +1190,13 @@
           "it."
         ],
         "errorIndex": 2,
-        "correction": "hurry",
+        "correction": "hurry,",
         "type": "Double negative",
-        "message": "‘Unless’ already means ‘if not’: ‘Unless you hurry…’."
+        "message": "‘Unless’ already means ‘if not’: ‘Unless you hurry…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1208,7 +1212,11 @@
         "errorIndex": 5,
         "correction": "invites",
         "type": "Double negative",
-        "message": "No negative after ‘unless’: ‘unless she invites me’."
+        "message": "No negative after ‘unless’: ‘unless she invites me’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1220,9 +1228,13 @@
           "fail."
         ],
         "errorIndex": 2,
-        "correction": "study",
+        "correction": "study,",
         "type": "Will after linker",
-        "message": "No ‘will’ after ‘unless’: ‘Unless you study…’."
+        "message": "No ‘will’ after ‘unless’: ‘Unless you study…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1240,7 +1252,11 @@
         "errorIndex": 7,
         "correction": "are",
         "type": "Will after linker",
-        "message": "No ‘will’ after ‘as long as’: ‘as long as you are quiet’."
+        "message": "No ‘will’ after ‘as long as’: ‘as long as you are quiet’.",
+        "errorSpan": [
+          7,
+          8
+        ]
       },
       {
         "tokens": [
@@ -1256,7 +1272,11 @@
         "errorIndex": 5,
         "correction": "stops",
         "type": "Will after linker",
-        "message": "No ‘will’ after ‘provided that’: ‘provided that it stops raining’."
+        "message": "No ‘will’ after ‘provided that’: ‘provided that it stops raining’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1284,14 +1304,18 @@
           "bus",
           "as",
           "long",
-          "as*",
+          "as",
           "you",
           "hurry."
         ],
         "errorIndex": 4,
         "correction": "unless",
         "type": "Wrong linker",
-        "message": "The meaning is ‘if you don’t hurry’: ‘unless you hurry’."
+        "message": "The meaning is ‘if you don’t hurry’: ‘unless you hurry’.",
+        "errorSpan": [
+          4,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1338,7 +1362,7 @@
           "him."
         ],
         "errorIndex": 2,
-        "correction": "apologises",
+        "correction": "apologises,",
         "type": "Missing -s",
         "message": "‘He’ needs -s: ‘unless he apologises’."
       },
@@ -1372,7 +1396,7 @@
           "better."
         ],
         "errorIndex": 4,
-        "correction": "practise",
+        "correction": "practise,",
         "type": "Wrong form",
         "message": "A real future condition takes the present simple: ‘practise’."
       },
@@ -1387,10 +1411,14 @@
           "the",
           "train."
         ],
-        "errorIndex": 5,
-        "correction": "’ll miss",
+        "errorIndex": 4,
+        "correction": "you’ll miss",
         "type": "Wrong form",
-        "message": "The main clause needs ‘will’: ‘you’ll miss the train’."
+        "message": "The main clause needs ‘will’: ‘you’ll miss the train’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1418,7 +1446,7 @@
           "sleep."
         ],
         "errorIndex": 3,
-        "correction": "cries",
+        "correction": "cries,",
         "type": "Spelling",
         "message": "Consonant + -y → -ies: cry → cries."
       },
@@ -1468,10 +1496,14 @@
           "beach",
           "tomorrow."
         ],
-        "errorIndex": 4,
-        "correction": "’ll go",
+        "errorIndex": 3,
+        "correction": "we’ll go",
         "type": "Missing will",
-        "message": "Tomorrow’s result needs ‘will’: ‘we’ll go to the beach’."
+        "message": "Tomorrow’s result needs ‘will’: ‘we’ll go to the beach’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1509,7 +1541,11 @@
         "errorIndex": 9,
         "correction": "return",
         "type": "Will after linker",
-        "message": "No ‘will’ after ‘as long as’: ‘as long as you return it’."
+        "message": "No ‘will’ after ‘as long as’: ‘as long as you return it’.",
+        "errorSpan": [
+          9,
+          10
+        ]
       }
     ]
   },
@@ -1835,7 +1871,11 @@
         ],
         "errorIndex": 2,
         "correction": "wear",
-        "message": "‘Unless’ already means ‘if not’: ‘Unless you wear a coat…’."
+        "message": "‘Unless’ already means ‘if not’: ‘Unless you wear a coat…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",
@@ -1851,8 +1891,12 @@
           "happy."
         ],
         "errorIndex": 4,
-        "correction": "try",
-        "message": "No ‘will’ after ‘as long as’: ‘as long as you try’."
+        "correction": "try,",
+        "message": "No ‘will’ after ‘as long as’: ‘as long as you try’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "type": "error",
@@ -1862,13 +1906,17 @@
           "fail",
           "as",
           "long",
-          "as*",
+          "as",
           "you",
           "study."
         ],
         "errorIndex": 2,
         "correction": "unless",
-        "message": "The meaning is ‘if you don’t study’: ‘unless you study’."
+        "message": "The meaning is ‘if you don’t study’: ‘unless you study’.",
+        "errorSpan": [
+          2,
+          4
+        ]
       },
       {
         "type": "error",
@@ -1883,7 +1931,7 @@
           "picnic."
         ],
         "errorIndex": 2,
-        "correction": "rains",
+        "correction": "rains,",
         "message": "‘It’ needs -s: ‘unless it rains’."
       }
     ]
