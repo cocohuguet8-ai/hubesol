@@ -28,38 +28,96 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Countable & Uncountable Nouns", href: "/grammar/nouns-determiners/countable-uncountable-nouns/" }
   - { title: "This, That, These & Those", href: "/grammar/nouns-determiners/this-that-these-those/" }
+next: { title: "Reflexive Pronouns", href: "/grammar/nouns-determiners/reflexive-pronouns/" }
 draft: false
 ---
 
-## 's or of?
+## Two ways to show possession
 
-| Use 's | Use of |
+| **'s** (people & animals) | **of** (things & places) |
 |---|---|
-| People: **Anna's** bag | Things: the roof **of** the house |
-| Animals: the **dog's** tail | Abstract: the end **of** the story |
-| Groups: the **team's** win | Parts: the leg **of** the table |
-| Time: **today's** news, a **week's** rest | Ideas: the cause **of** the problem |
+| **Anna's** bag | the door **of** the car |
+| my **dad's** car | the end **of** the film |
+| the **dog's** bowl | the name **of** the street |
 
-## When and how to use them
+## How to form *'s*
 
-### 1. 's — people, animals, groups, time
+### 1. Singular noun + *'s*
 
-- **Maria's** brother; the **cat's** bowl; the **band's** new album; **a day's** work.
+- **Maria's** phone, my **brother's** room, the **teacher's** desk
 
-### 2. of — things and abstract nouns
+### 2. Plural noun ending in *-s* + *'*
 
-- the handle **of** the door; the beginning **of** the year; the point **of** the meeting.
+- my **parents'** house, the **students'** books, the **girls'** team
 
-### 3. The apostrophe with plurals
+### 3. Irregular plural + *'s*
 
-- one boy → **the boy's** ball; two boys → **the boys'** ball; **the children's** room (irregular plural).
+- the **children's** toys, **women's** clothes, **people's** opinions
 
-> ⚠️ Singular names still add 's: *James's car, the boss's office*. Plurals ending in -s take just an apostrophe: *the players' changing room.*
+> ⚠️ Typical error: ~~the childrens' toys~~ → *Children* has no -s: *the children's toys.*
+
+### 4. Names ending in *-s*
+
+- **James's** car / **James'** car (both are correct)
+
+## When to use *'s*
+
+### 1. People and animals
+
+- **Joan's** sister, the **cat's** tail
+
+### 2. Time expressions
+
+- **today's** news, **next week's** meeting, **a day's** work
+
+### 3. Places as organisations / shops
+
+- **Spain's** economy, at the **doctor's**, at **Sara's** (= Sara's house)
+
+## When to use *of*
+
+### 1. Things and parts of things
+
+- the top **of** the page, the legs **of** the table
+
+### 2. Long phrases
+
+- the name **of** the woman who lives next door
+
+> ⚠️ Typical error: ~~the car's door~~ sounds unnatural → *the door of the car / the car door.*
+
+### 3. Places and abstract ideas
+
+- the centre **of** the town, the history **of** Europe
+
+## Two owners: *'s* once or twice
+
+| Shared (one thing) | Separate (two things) |
+|---|---|
+| **Pau and Nil's** house (they live together) | **Pau's and Nil's** bikes (one each) |
+
+## Noun + noun (compound) as an alternative
+
+For things, we often just put two nouns together:
+
+- the **kitchen door**, a **car key**, the **bus stop** (not *the bus's stop*)
+
+## *'s* is not always possession!
+
+| Form | Meaning |
+|---|---|
+| He**'s** tall. | he **is** |
+| She**'s** got a cat. | she **has** |
+| **Tom's** bike | possession |
 
 ## Common mistakes
 
-**1. 'of' with a person.** *~~the car of my brother~~* → **my brother's car.**
+**1. Missing apostrophe.** *~~my sisters car~~* → **my sister's car**.
 
-**2. Apostrophe in the wrong place.** *~~the girls's team~~* → **the girls' team.**
+**2. Apostrophe in plurals without possession.** *~~I have two cat's.~~* → **two cats**.
 
-**3. 's for an ordinary thing.** *~~the table's leg~~* → **the leg of the table. Pro tip:** person/animal/group/time → 's; thing/abstract → of.
+**3. Wrong position.** *~~the students's books~~* → **the students' books**.
+
+**4. *'s* with things.** *~~the film's end~~* is possible but *the end of the film* is more natural.
+
+**Pro tip:** **who** owns it? a person → **'s**. **What** is it part of? a thing → **of**.
