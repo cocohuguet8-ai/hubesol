@@ -1,0 +1,1538 @@
+{
+  "tense": "must-vs-have-to",
+  "lessonTitle": "Must vs Have to",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "must",
+        "have",
+        "has",
+        "to"
+      ],
+      "label": null,
+      "primary": "must"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type must or the correct form of have to. Ask: does the obligation come from the speaker (must) or from outside (have to)? Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Speaker",
+        "before": "I",
+        "after": "stop biting my nails — it’s a terrible habit.",
+        "hint": "must / have to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "A personal decision by the speaker: must + base verb."
+      },
+      {
+        "use": "Speaker",
+        "before": "I",
+        "after": "remember to water the plants before I leave.",
+        "hint": "must / have to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "A reminder to yourself is typically ‘must’."
+      },
+      {
+        "use": "Speaker",
+        "before": "You",
+        "after": "come to our house for dinner soon!",
+        "hint": "must / have to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "An enthusiastic invitation or recommendation: must."
+      },
+      {
+        "use": "Speaker",
+        "before": "You",
+        "after": "try the croissants at that bakery.",
+        "hint": "must / have to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "A strong personal recommendation: must + base verb."
+      },
+      {
+        "use": "Written rule",
+        "before": "All students",
+        "after": "bring their ID card to the exam.",
+        "hint": "must / have to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "A formal written rule often uses ‘must’."
+      },
+      {
+        "use": "Outside rule",
+        "before": "At my school we",
+        "after": "wear a blue jumper.",
+        "hint": "must / have to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "Reporting a rule made by someone else: have to."
+      },
+      {
+        "use": "Outside rule",
+        "before": "In the UK, cars",
+        "after": "drive on the left.",
+        "hint": "must / have to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "A law of the country (outside obligation): have to."
+      },
+      {
+        "use": "Other people",
+        "before": "My dad",
+        "after": "travel to Madrid every week for work.",
+        "hint": "have to / has to",
+        "answers": [
+          "has to"
+        ],
+        "display": "has to",
+        "explain": "Another person’s obligation, third person: has to."
+      },
+      {
+        "use": "Other people",
+        "before": "Nurses often",
+        "after": "work at night.",
+        "hint": "must / have to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "Talking about other people’s duties: have to."
+      },
+      {
+        "use": "Past",
+        "before": "We",
+        "after": "stay indoors because of the storm.",
+        "hint": "must / had to",
+        "answers": [
+          "had to"
+        ],
+        "display": "had to",
+        "explain": "‘Must’ has no past form: had to."
+      },
+      {
+        "use": "Past",
+        "before": "I",
+        "after": "apologise to my teacher yesterday.",
+        "hint": "must / had to",
+        "answers": [
+          "had to"
+        ],
+        "display": "had to",
+        "explain": "Past obligation: had to + base verb."
+      },
+      {
+        "use": "Future",
+        "before": "You’ll",
+        "after": "book tickets in advance.",
+        "hint": "must / have to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "‘Will must’ is impossible: will have to."
+      },
+      {
+        "use": "After a modal",
+        "before": "We might",
+        "after": "change our plans.",
+        "hint": "must / have to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "After another modal use ‘have to’."
+      },
+      {
+        "use": "-ing form",
+        "before": "I hate",
+        "after": "get up early on Mondays.",
+        "hint": "having to",
+        "answers": [
+          "having to"
+        ],
+        "display": "having to",
+        "explain": "‘Hate’ + -ing: having to. ‘Must’ has no -ing form."
+      },
+      {
+        "use": "Mustn’t",
+        "before": "You",
+        "after": "tell Ana about the surprise party!",
+        "hint": "mustn’t / don’t have to",
+        "answers": [
+          "mustn’t",
+          "mustn't",
+          "mustnt",
+          "must not"
+        ],
+        "display": "mustn’t",
+        "explain": "Don’t do it — forbidden: mustn’t."
+      },
+      {
+        "use": "Don’t have to",
+        "before": "You",
+        "after": "bring a towel — the hotel gives you one.",
+        "hint": "mustn’t / don’t have to",
+        "answers": [
+          "don’t have to",
+          "don't have to",
+          "dont have to",
+          "do not have to"
+        ],
+        "display": "don’t have to",
+        "explain": "A casual party means a suit isn’t necessary: ‘don’t have to’ = you can choose."
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "I have to finish this exercise today?",
+        "hint": "do / must",
+        "answers": [
+          "Do"
+        ],
+        "display": "Do",
+        "explain": "Everyday questions about obligation use ‘Do … have to’."
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "Marc have to take the exam again?",
+        "hint": "do / does",
+        "answers": [
+          "Does"
+        ],
+        "display": "Does",
+        "explain": "He/she/it: Does + subject + have to?"
+      },
+      {
+        "use": "Speaker",
+        "before": "I really",
+        "after": "go now — it’s getting late.",
+        "hint": "must / had to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "The speaker decides it’s time to go: must."
+      },
+      {
+        "use": "Outside rule",
+        "before": "Passengers",
+        "after": "show their passports at the gate.",
+        "hint": "have to / has to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "An external rule (the airline): have to."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 10 with must (the speaker decides) and 10 with have to (outside rules and other tenses).",
+    "sentences": [
+      {
+        "use": "Speaker",
+        "tokens": [
+          "I",
+          "must",
+          "call",
+          "my",
+          "aunt",
+          "tonight."
+        ]
+      },
+      {
+        "use": "Speaker",
+        "tokens": [
+          "I",
+          "must",
+          "eat",
+          "more",
+          "vegetables."
+        ]
+      },
+      {
+        "use": "Speaker",
+        "tokens": [
+          "You",
+          "must",
+          "visit",
+          "us",
+          "in",
+          "summer."
+        ]
+      },
+      {
+        "use": "Speaker",
+        "tokens": [
+          "We",
+          "must",
+          "do",
+          "this",
+          "again",
+          "soon."
+        ]
+      },
+      {
+        "use": "Speaker",
+        "tokens": [
+          "You",
+          "must",
+          "see",
+          "this",
+          "film."
+        ]
+      },
+      {
+        "use": "Speaker",
+        "tokens": [
+          "I",
+          "must",
+          "get",
+          "some",
+          "sleep."
+        ]
+      },
+      {
+        "use": "Written rule",
+        "tokens": [
+          "Visitors",
+          "must",
+          "leave",
+          "their",
+          "bags",
+          "here."
+        ]
+      },
+      {
+        "use": "Written rule",
+        "tokens": [
+          "All",
+          "answers",
+          "must",
+          "be",
+          "in",
+          "English."
+        ]
+      },
+      {
+        "use": "Mustn’t",
+        "tokens": [
+          "You",
+          "mustn’t",
+          "forget",
+          "your",
+          "passport."
+        ]
+      },
+      {
+        "use": "Mustn’t",
+        "tokens": [
+          "We",
+          "mustn’t",
+          "make",
+          "any",
+          "noise."
+        ]
+      },
+      {
+        "use": "Outside rule",
+        "tokens": [
+          "I",
+          "have",
+          "to",
+          "wear",
+          "a",
+          "uniform."
+        ]
+      },
+      {
+        "use": "Outside rule",
+        "tokens": [
+          "We",
+          "have",
+          "to",
+          "be",
+          "home",
+          "by",
+          "ten."
+        ]
+      },
+      {
+        "use": "Other people",
+        "tokens": [
+          "She",
+          "has",
+          "to",
+          "work",
+          "on",
+          "Sundays."
+        ]
+      },
+      {
+        "use": "Past",
+        "tokens": [
+          "I",
+          "had",
+          "to",
+          "walk",
+          "to",
+          "school."
+        ]
+      },
+      {
+        "use": "Past",
+        "tokens": [
+          "They",
+          "had",
+          "to",
+          "pay",
+          "a",
+          "fine."
+        ]
+      },
+      {
+        "use": "Future",
+        "tokens": [
+          "You’ll",
+          "have",
+          "to",
+          "wait",
+          "outside."
+        ]
+      },
+      {
+        "use": "After a modal",
+        "tokens": [
+          "We",
+          "might",
+          "have",
+          "to",
+          "leave",
+          "early."
+        ]
+      },
+      {
+        "use": "Don’t have to",
+        "tokens": [
+          "You",
+          "don’t",
+          "have",
+          "to",
+          "come."
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Do",
+          "you",
+          "have",
+          "to",
+          "work",
+          "tomorrow?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Does",
+          "he",
+          "have",
+          "to",
+          "go?"
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Who decides?",
+    "subtitle": "Tap a sentence, then tap where the obligation comes from: the speaker (must) or an outside rule (have to).",
+    "leftLabel": "Sentence",
+    "rightLabel": "Who decides?",
+    "rightLabelSub": "(speaker / outside)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I must lose some weight.",
+        "right": "the speaker"
+      },
+      {
+        "left": "I have to wear a uniform.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "I must remember her birthday.",
+        "right": "the speaker"
+      },
+      {
+        "left": "We have to be in class by eight.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "You must come and see us!",
+        "right": "the speaker"
+      },
+      {
+        "left": "Drivers have to stop at red lights.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "I must phone Mum.",
+        "right": "the speaker"
+      },
+      {
+        "left": "My dad has to start at seven.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "You must try this pizza.",
+        "right": "the speaker"
+      },
+      {
+        "left": "Students have to switch off their phones.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "I must get fit.",
+        "right": "the speaker"
+      },
+      {
+        "left": "You have to be 18 to drive here.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "I must stop shouting.",
+        "right": "the speaker"
+      },
+      {
+        "left": "We have to pay to park.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "I must tidy my desk.",
+        "right": "the speaker"
+      },
+      {
+        "left": "Pilots have to have a licence.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "I really must go.",
+        "right": "the speaker"
+      },
+      {
+        "left": "Players have to wear shin pads.",
+        "right": "an outside rule"
+      },
+      {
+        "left": "We must meet more often.",
+        "right": "the speaker"
+      },
+      {
+        "left": "You have to queue here.",
+        "right": "an outside rule"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Must = the speaker decides; have to = outside rules, other people, and every tense must doesn’t have.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Speaker",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> go to bed earlier. I’m always tired.",
+        "choices": [
+          "must",
+          "have to",
+          "had to",
+          "mustn’t"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Have to’ suggests a rule from outside, but this is your own decision.",
+          "‘Had to’ is past, but the decision is about now.",
+          "‘Mustn’t’ means it’s forbidden — the opposite."
+        ],
+        "explain": "A personal decision made by the speaker: must + base verb."
+      },
+      {
+        "use": "Outside rule",
+        "text": "At work, my mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wear a uniform.",
+        "choices": [
+          "must",
+          "has to",
+          "have to",
+          "musts"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must’ sounds like the speaker’s opinion; this is the company’s rule about mum.",
+          "",
+          "‘Mum’ is she, so ‘have to’ needs -s: ‘has to’.",
+          "Modals never take -s."
+        ],
+        "explain": "An outside rule about another person: has to."
+      },
+      {
+        "use": "Speaker",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> come to the beach with us — it’ll be great fun!",
+        "choices": [
+          "have to",
+          "mustn’t",
+          "must",
+          "had to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Have to’ sounds like a rule; this is an enthusiastic invitation.",
+          "‘Mustn’t’ means it’s forbidden.",
+          "",
+          "‘Had to’ is past."
+        ],
+        "explain": "A warm invitation or recommendation: You must…!"
+      },
+      {
+        "use": "Outside rule",
+        "text": "In Spain, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be 18 to get a driving licence.",
+        "choices": [
+          "must to",
+          "had to",
+          "mustn’t",
+          "have to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Must’ never takes ‘to’.",
+          "‘Had to’ is past; the law is still true.",
+          "‘Mustn’t’ means it’s forbidden.",
+          ""
+        ],
+        "explain": "A law of the country: have to."
+      },
+      {
+        "use": "Past",
+        "text": "Yesterday we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wait an hour for the doctor.",
+        "choices": [
+          "must",
+          "had to",
+          "have to",
+          "musted"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must’ has no past form.",
+          "",
+          "‘Have to’ is present.",
+          "‘Musted’ doesn’t exist."
+        ],
+        "explain": "‘Must’ has no past form, so both kinds of obligation become ‘had to’ in the past."
+      },
+      {
+        "use": "Future",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> show your ticket at the door tonight.",
+        "choices": [
+          "’ll must",
+          "must to",
+          "’ll have to",
+          "had to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Will must’ is impossible.",
+          "No ‘to’ after ‘must’.",
+          "",
+          "‘Had to’ is past."
+        ],
+        "explain": "‘Will must’ is impossible, so future obligations are always ‘will have to’."
+      },
+      {
+        "use": "Written rule",
+        "text": "Sign at the pool: “Swimmers <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> shower before entering.”",
+        "choices": [
+          "must to",
+          "has to",
+          "musts",
+          "must"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘to’ after ‘must’.",
+          "‘Swimmers’ is plural, so not ‘has to’.",
+          "Modals never take -s.",
+          ""
+        ],
+        "explain": "Signs and formal written rules usually use ‘must’ because the writer is the authority."
+      },
+      {
+        "use": "Mustn’t",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> open this door. The alarm will ring.",
+        "choices": [
+          "mustn’t",
+          "don’t have to",
+          "didn’t have to",
+          "haven’t to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Don’t have to’ means it’s optional.",
+          "‘Didn’t have to’ is past and optional.",
+          "‘Haven’t to’ is not correct."
+        ],
+        "explain": "The alarm shows it’s forbidden, so use ‘mustn’t’ — not ‘don’t have to’ (optional)."
+      },
+      {
+        "use": "Don’t have to",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wear a suit. It’s a casual party.",
+        "choices": [
+          "mustn’t",
+          "must",
+          "don’t have to",
+          "have to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Mustn’t’ means a suit is forbidden.",
+          "‘Must’ means a suit is necessary.",
+          "",
+          "‘Have to’ means a suit is necessary."
+        ],
+        "explain": "Not necessary: don’t have to."
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we have to bring our own lunch?",
+        "choices": [
+          "Must",
+          "Have",
+          "Are",
+          "Do"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Must we have to’ uses two obligation words.",
+          "‘Have we have to’ is wrong.",
+          "‘Are we have to’ is wrong.",
+          ""
+        ],
+        "explain": "Everyday questions about obligation use ‘have to’ with do: Do + subject + have to?"
+      },
+      {
+        "use": "Other people",
+        "text": "Firefighters <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be very fit.",
+        "choices": [
+          "have to",
+          "must to",
+          "has to",
+          "had"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No ‘to’ after ‘must’.",
+          "‘Firefighters’ is plural, so ‘have to’.",
+          "‘Had be’ is wrong."
+        ],
+        "explain": "When we describe what other people’s jobs require, we normally use ‘have to’."
+      },
+      {
+        "use": "-ing form",
+        "text": "I don’t like <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> get up early.",
+        "choices": [
+          "must",
+          "having to",
+          "have to",
+          "to must"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must’ has no -ing form.",
+          "",
+          "After ‘like’ use -ing or ‘to’ + verb: ‘having to’.",
+          "‘To must’ doesn’t exist."
+        ],
+        "explain": "‘Must’ has no -ing form, so after like / hate / enjoy use ‘having to’."
+      },
+      {
+        "use": "After a modal",
+        "text": "We may <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> cancel the trip if it rains.",
+        "choices": [
+          "must",
+          "has to",
+          "to have",
+          "have to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘May must’ is impossible.",
+          "No -s after a modal.",
+          "No ‘to’ after ‘may’.",
+          ""
+        ],
+        "explain": "After another modal such as ‘may’ or ‘might’, use the base form ‘have to’."
+      },
+      {
+        "use": "Speaker",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tidy my room. It’s a disaster! (I’ve decided.)",
+        "choices": [
+          "must",
+          "have to",
+          "had to",
+          "don’t have to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Have to’ would mean someone else told you to.",
+          "‘Had to’ is past.",
+          "‘Don’t have to’ is the opposite."
+        ],
+        "explain": "‘I’ve decided’ shows the obligation comes from you, the speaker: must."
+      },
+      {
+        "use": "Outside rule",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tidy my room — my mum says so.",
+        "choices": [
+          "must",
+          "have to",
+          "mustn’t",
+          "had"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must’ suggests it’s your own decision; here mum decides.",
+          "",
+          "‘Mustn’t’ means it’s forbidden.",
+          "‘Had tidy’ is wrong."
+        ],
+        "explain": "‘My mum says so’ shows the obligation comes from outside, so use ‘have to’."
+      },
+      {
+        "use": "Past",
+        "text": "When I was little, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> go to bed at eight.",
+        "choices": [
+          "must",
+          "have to",
+          "had to",
+          "musted"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must’ has no past.",
+          "‘Have to’ is present.",
+          "",
+          "‘Musted’ doesn’t exist."
+        ],
+        "explain": "A rule from your childhood is in the past, and ‘must’ has no past: had to."
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother have to do military service?",
+        "choices": [
+          "Does",
+          "Do",
+          "Must",
+          "Has"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Your brother’ is he: ‘does’.",
+          "‘Must your brother have to’ is wrong.",
+          "‘Has your brother have to’ is wrong."
+        ],
+        "explain": "‘Your brother’ is he, so the question is ‘Does your brother have to…?’."
+      },
+      {
+        "use": "Negatives",
+        "text": "Which sentence means ‘it isn’t necessary’?",
+        "choices": [
+          "You mustn’t wait.",
+          "You don’t have to wait.",
+          "You must wait.",
+          "You have to wait."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Mustn’t’ = forbidden.",
+          "",
+          "‘Must’ = necessary.",
+          "‘Have to’ = necessary."
+        ],
+        "explain": "‘Don’t have to’ means it isn’t necessary — you can choose to do it or not."
+      },
+      {
+        "use": "Will must",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "You’ll must study harder.",
+          "You must to study harder.",
+          "You’ll have to study harder.",
+          "You’ll have study harder."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Two modals can’t go together.",
+          "No ‘to’ after ‘must’.",
+          "",
+          "‘Have’ needs ‘to’."
+        ],
+        "explain": "For the future we can’t use ‘will must’: the correct form is ‘will have to’."
+      },
+      {
+        "use": "Speaker",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> write to Granny. I haven’t written for months.",
+        "choices": [
+          "mustn’t",
+          "had to",
+          "have",
+          "must"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Mustn’t’ means it’s forbidden.",
+          "‘Had to’ is past.",
+          "‘Have write’ needs ‘to’.",
+          ""
+        ],
+        "explain": "You feel a personal duty to write — nobody is making you — so ‘must’ is natural."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Yesterday",
+          "I",
+          "must",
+          "work",
+          "late."
+        ],
+        "errorIndex": 2,
+        "correction": "had to",
+        "type": "Past",
+        "message": "‘Must’ has no past: ‘I had to work late’."
+      },
+      {
+        "tokens": [
+          "Last",
+          "summer",
+          "we",
+          "must",
+          "wear",
+          "masks."
+        ],
+        "errorIndex": 3,
+        "correction": "had to",
+        "type": "Past",
+        "message": "Past obligation: ‘we had to wear…’."
+      },
+      {
+        "tokens": [
+          "Next",
+          "week",
+          "you",
+          "will",
+          "must",
+          "take",
+          "an",
+          "exam."
+        ],
+        "errorIndex": 4,
+        "correction": "have to",
+        "type": "Future",
+        "message": "Future: ‘you’ll have to take an exam’."
+      },
+      {
+        "tokens": [
+          "You",
+          "must",
+          "trying",
+          "this",
+          "cake!"
+        ],
+        "errorIndex": 2,
+        "correction": "try",
+        "type": "Base verb",
+        "message": "After ‘must’ use the base verb: ‘You must try…’."
+      },
+      {
+        "tokens": [
+          "She",
+          "musts",
+          "finish",
+          "her",
+          "essay."
+        ],
+        "errorIndex": 1,
+        "correction": "must",
+        "type": "-s on must",
+        "message": "Modals never take -s."
+      },
+      {
+        "tokens": [
+          "My",
+          "brother",
+          "have",
+          "to",
+          "wear",
+          "braces."
+        ],
+        "errorIndex": 2,
+        "correction": "has",
+        "type": "Has to",
+        "message": "He → ‘has to’."
+      },
+      {
+        "tokens": [
+          "We",
+          "have",
+          "leave",
+          "at",
+          "six."
+        ],
+        "errorIndex": 2,
+        "correction": "to leave",
+        "type": "Missing to",
+        "message": "‘Have’ needs ‘to’: ‘have to leave’."
+      },
+      {
+        "tokens": [
+          "It’s",
+          "free",
+          "—",
+          "you",
+          "mustn’t",
+          "pay."
+        ],
+        "errorIndex": 4,
+        "correction": "don’t have to",
+        "type": "Wrong negative",
+        "message": "Not necessary: ‘you don’t have to pay’."
+      },
+      {
+        "tokens": [
+          "Stop!",
+          "You",
+          "needn’t",
+          "cross",
+          "the",
+          "road",
+          "now",
+          "—",
+          "a",
+          "car",
+          "is",
+          "coming."
+        ],
+        "errorIndex": 2,
+        "correction": "mustn’t",
+        "type": "Wrong negative",
+        "message": "Dangerous / forbidden: ‘you mustn’t cross’."
+      },
+      {
+        "tokens": [
+          "He",
+          "mustn’t",
+          "work",
+          "tomorrow",
+          "—",
+          "it’s",
+          "a",
+          "holiday."
+        ],
+        "errorIndex": 1,
+        "correction": "doesn’t have to",
+        "type": "Wrong negative",
+        "message": "No obligation: ‘he doesn’t have to work’."
+      },
+      {
+        "tokens": [
+          "Do",
+          "you",
+          "has",
+          "to",
+          "go",
+          "now?"
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Question",
+        "message": "After ‘do’ use ‘have’: ‘Do you have to go now?’."
+      },
+      {
+        "tokens": [
+          "Do",
+          "she",
+          "have",
+          "to",
+          "work",
+          "today?"
+        ],
+        "errorIndex": 0,
+        "correction": "Does",
+        "type": "Question",
+        "message": "She → ‘Does she have to…?’."
+      },
+      {
+        "tokens": [
+          "Does",
+          "he",
+          "has",
+          "to",
+          "come?"
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Question",
+        "message": "After ‘does’ use ‘have’."
+      },
+      {
+        "tokens": [
+          "Did",
+          "you",
+          "had",
+          "to",
+          "queue?"
+        ],
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "Question",
+        "message": "After ‘did’ use ‘have’."
+      },
+      {
+        "tokens": [
+          "I",
+          "hate",
+          "must",
+          "get",
+          "up",
+          "early."
+        ],
+        "errorIndex": 2,
+        "correction": "having to",
+        "type": "-ing form",
+        "message": "After ‘hate’ use -ing: ‘having to’."
+      },
+      {
+        "tokens": [
+          "We",
+          "might",
+          "must",
+          "cancel."
+        ],
+        "errorIndex": 2,
+        "correction": "have to",
+        "type": "After a modal",
+        "message": "After ‘might’ use ‘have to’."
+      },
+      {
+        "tokens": [
+          "I",
+          "must",
+          "calling",
+          "the",
+          "bank."
+        ],
+        "errorIndex": 2,
+        "correction": "call",
+        "type": "Base verb",
+        "message": "After ‘must’ use the base verb: ‘call’."
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "to",
+          "works",
+          "late."
+        ],
+        "errorIndex": 3,
+        "correction": "work",
+        "type": "Base verb",
+        "message": "After ‘has to’ use the base verb: ‘work’."
+      },
+      {
+        "tokens": [
+          "“Do",
+          "you",
+          "have",
+          "to",
+          "go?”",
+          "“Yes,",
+          "I",
+          "have.”"
+        ],
+        "errorIndex": 7,
+        "correction": "do",
+        "type": "Short answer",
+        "message": "Short answer for ‘do … have to’: ‘Yes, I do’."
+      },
+      {
+        "tokens": [
+          "She",
+          "had",
+          "to",
+          "go",
+          "to",
+          "the",
+          "dentist",
+          "tomorrow."
+        ],
+        "errorIndex": 1,
+        "correction": "has",
+        "type": "Wrong form",
+        "message": "Tomorrow (a fixed appointment) is present/future: ‘has to go’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, who decides, multiple choice and spot-the-mistake. In the typing questions write must or the correct form of have to. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "source": "Who decides?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "source",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Speaker",
+        "sentText": "I {{blank}} write that email today. I keep forgetting!",
+        "hint": "must / have to",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "Your own decision or reminder: must.",
+        "wrongNote": "Speaker’s decision → ‘must’."
+      },
+      {
+        "type": "fill",
+        "use": "Outside rule",
+        "sentText": "In our school we {{blank}} speak English in class.",
+        "hint": "must / have to",
+        "answers": [
+          "have to"
+        ],
+        "display": "have to",
+        "explain": "Reporting someone else’s rule: have to.",
+        "wrongNote": "Outside rule → ‘have to’."
+      },
+      {
+        "type": "fill",
+        "use": "Past",
+        "sentText": "I {{blank}} miss the party because I was ill.",
+        "hint": "must / had to",
+        "answers": [
+          "had to"
+        ],
+        "display": "had to",
+        "explain": "Past obligation: had to.",
+        "wrongNote": "Past → ‘had to’."
+      },
+      {
+        "type": "fill",
+        "use": "Other people",
+        "sentText": "Our neighbour {{blank}} walk her dog three times a day.",
+        "hint": "have to / has to",
+        "answers": [
+          "has to"
+        ],
+        "display": "has to",
+        "explain": "Another person (she): has to.",
+        "wrongNote": "He/she → ‘has to’."
+      },
+      {
+        "type": "order",
+        "use": "Speaker",
+        "tokens": [
+          "I",
+          "must",
+          "buy",
+          "a",
+          "present."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Outside rule",
+        "tokens": [
+          "We",
+          "have",
+          "to",
+          "wear",
+          "helmets."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Future",
+        "tokens": [
+          "You’ll",
+          "have",
+          "to",
+          "hurry."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question",
+        "tokens": [
+          "Do",
+          "I",
+          "have",
+          "to",
+          "sign",
+          "here?"
+        ]
+      },
+      {
+        "type": "source",
+        "use": "Source",
+        "text": "“I {{blank}} start running again. I feel so unfit!”",
+        "choices": [
+          "have to",
+          "must",
+          "had to",
+          "mustn’t"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "There’s no outside rule — it’s your own feeling.",
+          "",
+          "‘Had to’ is past.",
+          "‘Mustn’t’ is the opposite."
+        ],
+        "explain": "The speaker decides: must."
+      },
+      {
+        "type": "source",
+        "use": "Source",
+        "text": "“The doctor says I {{blank}} rest my knee for two weeks.”",
+        "choices": [
+          "must to",
+          "mustn’t",
+          "had",
+          "have to"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘to’ after ‘must’.",
+          "‘Mustn’t’ means it’s forbidden.",
+          "‘Had rest’ is wrong.",
+          ""
+        ],
+        "explain": "Someone else (the doctor) decides: have to."
+      },
+      {
+        "type": "source",
+        "use": "Source",
+        "text": "Notice: “Library books {{blank}} be returned by Friday.”",
+        "choices": [
+          "must",
+          "has to",
+          "must to",
+          "musts"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Books’ is plural, so not ‘has to’.",
+          "No ‘to’ after ‘must’.",
+          "No -s on modals."
+        ],
+        "explain": "Formal written rules use ‘must’."
+      },
+      {
+        "type": "source",
+        "use": "Source",
+        "text": "“My sister {{blank}} get up at five — she’s a baker.”",
+        "choices": [
+          "must",
+          "have to",
+          "has to",
+          "musts"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must’ would be your opinion; this is her job’s requirement.",
+          "She → ‘has to’.",
+          "",
+          "No -s on modals."
+        ],
+        "explain": "Other people’s job obligations: has to."
+      },
+      {
+        "type": "mc",
+        "use": "Past",
+        "text": "Last year Joan {{blank}} repeat the exam.",
+        "choices": [
+          "must",
+          "has to",
+          "had to",
+          "musted"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must’ has no past.",
+          "‘Has to’ is present.",
+          "",
+          "‘Musted’ doesn’t exist."
+        ],
+        "explain": "Past: had to."
+      },
+      {
+        "type": "mc",
+        "use": "Don’t have to",
+        "text": "We {{blank}} hurry. The film starts at nine.",
+        "choices": [
+          "don’t have to",
+          "mustn’t",
+          "must",
+          "have to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Mustn’t hurry’ means hurrying is forbidden.",
+          "‘Must’ is the opposite.",
+          "‘Have to’ is the opposite."
+        ],
+        "explain": "There’s time: don’t have to."
+      },
+      {
+        "type": "mc",
+        "use": "Speaker",
+        "text": "You {{blank}} watch this series — it’s amazing!",
+        "choices": [
+          "have to",
+          "had to",
+          "mustn’t",
+          "must"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Have to’ sounds like a rule.",
+          "‘Had to’ is past.",
+          "‘Mustn’t’ means it’s forbidden.",
+          ""
+        ],
+        "explain": "An enthusiastic recommendation: must."
+      },
+      {
+        "type": "mc",
+        "use": "Question",
+        "text": "{{blank}} you have to work on Saturdays?",
+        "choices": [
+          "Must",
+          "Do",
+          "Have",
+          "Are"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must you have to’ is wrong.",
+          "",
+          "‘Have you have to’ is wrong.",
+          "‘Are you have to’ is wrong."
+        ],
+        "explain": "Questions: Do … have to?"
+      },
+      {
+        "type": "error",
+        "use": "Past",
+        "tokens": [
+          "Yesterday",
+          "she",
+          "must",
+          "stay",
+          "late."
+        ],
+        "errorIndex": 2,
+        "correction": "had to",
+        "message": "‘Must’ has no past: ‘had to’."
+      },
+      {
+        "type": "error",
+        "use": "Has to",
+        "tokens": [
+          "He",
+          "have",
+          "to",
+          "study",
+          "tonight."
+        ],
+        "errorIndex": 1,
+        "correction": "has",
+        "message": "He → ‘has to’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong negative",
+        "tokens": [
+          "It’s",
+          "optional",
+          "—",
+          "you",
+          "mustn’t",
+          "come."
+        ],
+        "errorIndex": 4,
+        "correction": "don’t have to",
+        "message": "Optional → ‘don’t have to’."
+      },
+      {
+        "type": "error",
+        "use": "Future",
+        "tokens": [
+          "Tomorrow",
+          "I",
+          "will",
+          "must",
+          "get",
+          "up",
+          "early."
+        ],
+        "errorIndex": 3,
+        "correction": "have to",
+        "message": "‘I’ll have to get up early’."
+      }
+    ]
+  }
+}
