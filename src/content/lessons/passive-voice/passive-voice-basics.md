@@ -29,42 +29,95 @@ related:
   - { title: "All about the passive", href: "/grammar/passive-voice/" }
   - { title: "The passive in all tenses", href: "/grammar/passive-voice/passive-all-tenses/" }
   - { title: "Active vs Passive", href: "/grammar/passive-voice/active-vs-passive/" }
+next: { title: "Active vs Passive", href: "/grammar/passive-voice/active-vs-passive/" }
 draft: false
 ---
 
 ## How to form the passive
 
-Use **be + past participle**. The object of the active sentence becomes the subject.
+| Tense | Structure | Example |
+|---|---|---|
+| Present simple | am / is / are + past participle | English **is spoken** here. |
+| Past simple | was / were + past participle | The bridge **was built** in 1890. |
+| With *by* | … + by + agent | The film **was directed by** Spielberg. |
 
-| Active | Passive |
+The passive always has two parts: the verb **be** (which shows the tense and agrees with the subject) and the **past participle** (which never changes).
+
+| ✗ | ✓ |
 |---|---|
-| They **build** houses. | Houses **are built**. |
-| Someone **stole** my bike. | My bike **was stolen**. |
-| They **have sold** the car. | The car **has been sold**. |
-| A famous architect **designed** it. | It **was designed by** a famous architect. |
+| ~~The window broken.~~ | The window **was broken**. |
+| ~~Cars is made here.~~ | Cars **are made** here. |
+| ~~The cake was ate.~~ | The cake **was eaten**. |
 
-Only **be** changes to show the tense; the main verb stays as a **past participle** (built, stolen, sold).
+## Negatives and questions
+
+Make negatives and questions with **be**, as usual.
+
+- Rice **isn't grown** in Norway.
+- The letters **weren't sent** yesterday.
+- **Is** breakfast **included**?
+- When **was** the Eiffel Tower **built**?
 
 ## When to use the passive
 
-### 1. The doer is unknown
+### 1. The action is more important than the person
 
-- My wallet **was taken** on the bus. (I don't know who took it)
+- The museum **was opened** in 2005.
+- These shoes **are made** in Italy.
 
-### 2. The doer is obvious or unimportant
+> ⚠️ Typical error: ~~Someone opened the museum in 2005.~~ → Not wrong, but if *who* doesn't matter, the passive sounds more natural: *The museum was opened in 2005.*
 
-- The suspect **was arrested** last night. (obviously by the police)
+### 2. We don't know who did it
 
-### 3. To focus on the action or the receiver
+- My bike **was stolen** last night.
+- The window **has been** broken. (see [Passive in All Tenses](/grammar/passive-voice/passive-all-tenses/))
 
-- English **is spoken** all over the world.
+> ⚠️ Typical error: ~~My bike stole last night.~~ → A bike can't steal: *My bike was stolen.*
 
-> ⚠️ Add the doer only when it adds information: *The novel was written by Orwell* (useful) vs *The rubbish was collected* (no need to say "by the bin men").
+### 3. Facts, processes and the news
+
+The passive is common in science, instructions and news reports.
+
+- Water **is heated** to 100 °C.
+- Two people **were injured** in the accident.
+
+## The agent: *by*
+
+Use **by** + person/thing only when it is **important or new information**.
+
+| With *by* (useful) | Without *by* (not needed) |
+|---|---|
+| *Guernica* **was painted by Picasso**. | My car **was stolen**. (by someone) |
+| The song **was written by** my aunt. | English **is spoken** here. (by people) |
+
+> ⚠️ Typical error: ~~The thief was arrested by the police by the police.~~ → Don't add obvious agents: *The thief was arrested.*
+
+## *Is* or *are*? *Was* or *were*?
+
+*Be* agrees with the **new subject** of the passive sentence.
+
+| Singular | Plural |
+|---|---|
+| The cake **is** made with eggs. | Cakes **are** made with eggs. |
+| The letter **was** sent. | The letters **were** sent. |
+
+## Common past participles
+
+| Base | Participle | Base | Participle |
+|---|---|---|---|
+| make | made | write | written |
+| build | built | speak | spoken |
+| steal | stolen | take | taken |
+| sell | sold | find | found |
 
 ## Common mistakes
 
-**1. Forgetting 'be'.** *~~The house built in 1900~~* → **The house was built in 1900.**
+**1. Forgetting *be*.** *~~The house built in 1900~~* → **The house was built in 1900.**
 
-**2. Using the base verb, not the participle.** *~~It was make in China~~* → **It was made in China.**
+**2. Past simple instead of the participle.** *~~The book was wrote~~* → **The book was written.**
 
-**3. Making an intransitive verb passive.** *~~The accident was happened~~* → **The accident happened. Pro tip:** the passive needs an object to promote — verbs like happen, arrive and sleep can't be passive.
+**3. Wrong form of *be*.** *~~The tickets was sold~~* → **The tickets were sold.**
+
+**4. Using *from* for the agent.** *~~painted from Picasso~~* → **painted by Picasso.**
+
+**Pro tip:** check two things in every passive — the right **be** for the subject and tense, and the **past participle**.
