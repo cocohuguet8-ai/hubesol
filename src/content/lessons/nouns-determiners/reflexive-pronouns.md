@@ -28,40 +28,85 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Possessives: 's vs of", href: "/grammar/nouns-determiners/possessives-s-vs-of/" }
   - { title: "This, That, These & Those", href: "/grammar/nouns-determiners/this-that-these-those/" }
+next: { title: "Compound Nouns", href: "/grammar/nouns-determiners/compound-nouns/" }
 draft: false
 ---
 
-## The reflexive pronouns
+## The forms
 
 | Subject | Reflexive |
 |---|---|
-| I | myself |
-| you (one) | yourself |
-| he / she / it | himself / herself / itself |
-| we | ourselves |
-| you (plural) | yourselves |
-| they | themselves |
+| I | **myself** |
+| you (one person) | **yourself** |
+| he | **himself** |
+| she | **herself** |
+| it | **itself** |
+| we | **ourselves** |
+| you (more than one) | **yourselves** |
+| they | **themselves** |
 
-## When to use them
+Singular forms end in **-self**; plural forms end in **-selves**.
 
-### 1. Subject and object are the same
+> ⚠️ Typical error: ~~hisself~~, ~~theirselves~~ → *himself, themselves.*
 
-- I **hurt myself**. She **taught herself** to paint. They **enjoyed themselves**.
+## When to use reflexive pronouns
 
-### 2. For emphasis
+### 1. Subject and object are the same person
 
-- I built it **myself**. The **president himself** apologised.
+- I cut **myself**. (I cut me ✗)
+- She looked at **herself** in the mirror.
+- The cat is washing **itself**.
 
-### 3. by + reflexive = alone / without help
+### 2. Emphasis: "nobody else did it"
 
-- He lives **by himself**. Did you do this **by yourself**?
+- I made this cake **myself**!
+- The president **himself** answered the letter.
 
-> ⚠️ Don't use a reflexive after everyday verbs like wash, shave, dress, feel, relax: *I **feel** better* (not ~~feel myself better~~); *She **got dressed*** (not ~~dressed herself~~, unless stressing the effort).
+### 3. *By + reflexive* = alone / without help
+
+- He lives **by himself**. — Did you paint this room **by yourself**?
+
+### 4. Common verbs with reflexives
+
+| Verb | Example |
+|---|---|
+| enjoy yourself | **Enjoy yourselves** at the party! |
+| hurt yourself | Be careful — don't **hurt yourself**. |
+| help yourself | **Help yourself** to some cake. |
+| introduce yourself | Let me **introduce myself**. |
+| behave yourself | **Behave yourselves**, children! |
+
+## When NOT to use reflexive pronouns
+
+### 1. With many everyday verbs
+
+In English we do **not** say *wash/dress/shave/relax/feel myself* in normal situations:
+
+- I get up, **wash**, **get dressed** and have breakfast. (~~wash myself~~)
+- I **feel** tired. (~~feel myself tired~~)
+- Let's **relax**. (~~relax ourselves~~)
+
+> ⚠️ Typical error: ~~I shower myself every morning.~~ → *I have a shower every morning.*
+
+### 2. After prepositions of place
+
+- She put the bag **next to her**. (~~next to herself~~)
+
+## Reflexive vs *each other*
+
+| Reflexive | Each other |
+|---|---|
+| They looked at **themselves**. (each one in the mirror) | They looked at **each other**. (A → B, B → A) |
+| We blamed **ourselves**. | We blamed **each other**. |
 
 ## Common mistakes
 
-**1. Reflexive after 'feel'.** *~~I feel myself tired~~* → **I feel tired.**
+**1. Wrong form.** *~~ourself~~, ~~themself~~* → **ourselves, themselves**.
 
-**2. Wrong pronoun for emphasis.** *~~I made it me~~* → **I made it myself.**
+**2. Object pronoun instead.** *~~I hurt me.~~* → **I hurt myself.**
 
-**3. 'yourselves' for one person.** *~~Help yourselves~~ (to one guest)* → **Help yourself** (one person) / **Help yourselves** (more than one). **Pro tip:** reflexive when subject = object, or for emphasis; 'by + reflexive' = alone.
+**3. Reflexive with everyday verbs.** *~~I concentrate myself.~~* → **I concentrate.**
+
+**4. Confusing with *each other*.** *~~They love themselves~~* (meaning A loves B) → **each other**.
+
+**Pro tip:** use a reflexive when the **action comes back** to the subject — or to say **"nobody else did it"**.
