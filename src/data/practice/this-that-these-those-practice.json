@@ -1,0 +1,1489 @@
+{
+  "tense": "this-that-these-those",
+  "lessonTitle": "This, That, These & Those",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "label": null,
+      "primary": "these"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type this, that, these or those. Look at near/far and singular/plural. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Near singular",
+        "before": "",
+        "after": "bag is very heavy. (in my hand)",
+        "hint": "this / these",
+        "answers": [
+          "This",
+          "this"
+        ],
+        "display": "This",
+        "explain": "Near + singular: ‘this’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Near singular",
+        "before": "Is",
+        "after": "your phone? (on the table here)",
+        "hint": "this / these",
+        "answers": [
+          "this"
+        ],
+        "display": "this",
+        "explain": "Near + singular: ‘this’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Near plural",
+        "before": "",
+        "after": "biscuits are delicious! (I’m eating them)",
+        "hint": "this / these",
+        "answers": [
+          "These",
+          "these"
+        ],
+        "display": "These",
+        "explain": "Near + plural: ‘these’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Near plural",
+        "before": "Are",
+        "after": "your gloves? (here, on my chair)",
+        "hint": "this / these",
+        "answers": [
+          "these"
+        ],
+        "display": "these",
+        "explain": "Near + plural: ‘these’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far singular",
+        "before": "Look at",
+        "after": "bird in the sky!",
+        "hint": "that / those",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "Far + singular: ‘that’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far singular",
+        "before": "Who is",
+        "after": "man over there?",
+        "hint": "that / those",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "Far + singular: ‘that’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far plural",
+        "before": "",
+        "after": "houses on the hill are very old.",
+        "hint": "that / those",
+        "answers": [
+          "Those",
+          "those"
+        ],
+        "display": "Those",
+        "explain": "Far + plural: ‘those’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far plural",
+        "before": "Can you see",
+        "after": "boats on the sea?",
+        "hint": "that / those",
+        "answers": [
+          "those"
+        ],
+        "display": "those",
+        "explain": "Far + plural: ‘those’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Introducing",
+        "before": "Mum,",
+        "after": "is my friend Lucas.",
+        "hint": "this / that",
+        "answers": [
+          "this"
+        ],
+        "display": "this",
+        "explain": "Introducing someone next to you: ‘this is’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Phone",
+        "before": "Hello,",
+        "after": "is Marta. Can I speak to Joan?",
+        "hint": "this / that",
+        "answers": [
+          "this"
+        ],
+        "display": "this",
+        "explain": "On the phone, say who you are: ‘this is’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Reaction",
+        "before": "I passed my exam! —",
+        "after": "fantastic!",
+        "hint": "this / that",
+        "answers": [
+          "That’s",
+          "That's",
+          "Thats",
+          "That is",
+          "that’s",
+          "that's",
+          "thats",
+          "that is"
+        ],
+        "display": "That’s",
+        "explain": "Reacting to what someone said: ‘that’s’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Present time",
+        "before": "I’m very busy",
+        "after": "week.",
+        "hint": "this / that",
+        "answers": [
+          "this"
+        ],
+        "display": "this",
+        "explain": "Now / present: ‘this week’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Past time",
+        "before": "In",
+        "after": "days, people wrote letters.",
+        "hint": "these / those",
+        "answers": [
+          "those"
+        ],
+        "display": "those",
+        "explain": "The past + plural: ‘those days’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Present time",
+        "before": "",
+        "after": "days I go to bed early.",
+        "hint": "these / those",
+        "answers": [
+          "These",
+          "these"
+        ],
+        "display": "These",
+        "explain": "Now + plural: ‘these days’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Verb",
+        "before": "These",
+        "after": "my new trainers.",
+        "hint": "is / are",
+        "answers": [
+          "are"
+        ],
+        "display": "are",
+        "explain": "‘These’ is plural: ‘are’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Verb",
+        "before": "That",
+        "after": "a beautiful painting.",
+        "hint": "is / are",
+        "answers": [
+          "is"
+        ],
+        "display": "is",
+        "explain": "‘That’ is singular: ‘is’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Verb",
+        "before": "",
+        "after": "those your children?",
+        "hint": "Is / Are",
+        "answers": [
+          "Are",
+          "are"
+        ],
+        "display": "Are",
+        "explain": "‘Those’ is plural: ‘Are those…?’ Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "One",
+        "before": "Which T-shirt do you want? —",
+        "after": "one, please.",
+        "hint": "this / these",
+        "answers": [
+          "This",
+          "this"
+        ],
+        "display": "This",
+        "explain": "Singular + ‘one’: ‘this one’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Pronoun",
+        "before": "What’s",
+        "after": "? There, on the wall.",
+        "hint": "this / that",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "Far, no noun: ‘that’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Pronoun",
+        "before": "Try",
+        "after": "— they’re my favourite sweets.",
+        "hint": "these / those",
+        "answers": [
+          "these"
+        ],
+        "display": "these",
+        "explain": "Near plural, no noun: ‘these’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with this, that, these and those.",
+    "sentences": [
+      {
+        "use": "Near singular",
+        "tokens": [
+          "This",
+          "is",
+          "my",
+          "bag."
+        ]
+      },
+      {
+        "use": "Near singular",
+        "tokens": [
+          "This",
+          "book",
+          "is",
+          "great."
+        ]
+      },
+      {
+        "use": "Near plural",
+        "tokens": [
+          "These",
+          "are",
+          "my",
+          "keys."
+        ]
+      },
+      {
+        "use": "Near plural",
+        "tokens": [
+          "These",
+          "shoes",
+          "are",
+          "new."
+        ]
+      },
+      {
+        "use": "Far singular",
+        "tokens": [
+          "That",
+          "car",
+          "is",
+          "red."
+        ]
+      },
+      {
+        "use": "Far singular",
+        "tokens": [
+          "Who",
+          "is",
+          "that",
+          "girl?"
+        ]
+      },
+      {
+        "use": "Far plural",
+        "tokens": [
+          "Those",
+          "birds",
+          "are",
+          "loud."
+        ]
+      },
+      {
+        "use": "Far plural",
+        "tokens": [
+          "Look",
+          "at",
+          "those",
+          "clouds."
+        ]
+      },
+      {
+        "use": "Introducing",
+        "tokens": [
+          "This",
+          "is",
+          "my",
+          "sister."
+        ]
+      },
+      {
+        "use": "Phone",
+        "tokens": [
+          "Hello,",
+          "this",
+          "is",
+          "Tom."
+        ]
+      },
+      {
+        "use": "Reaction",
+        "tokens": [
+          "That’s",
+          "a",
+          "great",
+          "idea!"
+        ]
+      },
+      {
+        "use": "Present time",
+        "tokens": [
+          "I’m",
+          "busy",
+          "this",
+          "week."
+        ]
+      },
+      {
+        "use": "Past time",
+        "tokens": [
+          "I",
+          "remember",
+          "that",
+          "day."
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Is",
+          "this",
+          "your",
+          "coat?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Are",
+          "these",
+          "your",
+          "pens?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "What",
+          "is",
+          "that",
+          "over",
+          "there?"
+        ]
+      },
+      {
+        "use": "One",
+        "tokens": [
+          "I",
+          "want",
+          "this",
+          "one."
+        ]
+      },
+      {
+        "use": "One",
+        "tokens": [
+          "I",
+          "prefer",
+          "that",
+          "one."
+        ]
+      },
+      {
+        "use": "Past time",
+        "tokens": [
+          "Those",
+          "were",
+          "good",
+          "times."
+        ]
+      },
+      {
+        "use": "Present time",
+        "tokens": [
+          "These",
+          "days",
+          "I",
+          "cycle."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Which word?",
+    "subtitle": "Tap a description, then tap the right word.",
+    "leftLabel": "Situation",
+    "rightLabel": "Word",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "one apple in my hand",
+        "right": "this"
+      },
+      {
+        "left": "two apples in my hand",
+        "right": "these"
+      },
+      {
+        "left": "one star in the sky",
+        "right": "that"
+      },
+      {
+        "left": "many stars in the sky",
+        "right": "those"
+      },
+      {
+        "left": "the pen I’m holding",
+        "right": "this"
+      },
+      {
+        "left": "the shoes I’m wearing",
+        "right": "these"
+      },
+      {
+        "left": "a car across the street",
+        "right": "that"
+      },
+      {
+        "left": "the cars across the street",
+        "right": "those"
+      },
+      {
+        "left": "introducing a friend next to me",
+        "right": "this"
+      },
+      {
+        "left": "the photos on my phone",
+        "right": "these"
+      },
+      {
+        "left": "a house far away",
+        "right": "that"
+      },
+      {
+        "left": "the hills far away",
+        "right": "those"
+      },
+      {
+        "left": "the week we’re in now",
+        "right": "this"
+      },
+      {
+        "left": "nowadays (plural)",
+        "right": "these"
+      },
+      {
+        "left": "a day long ago",
+        "right": "that"
+      },
+      {
+        "left": "days long ago",
+        "right": "those"
+      },
+      {
+        "left": "on the phone: “Hi, ___ is Ana.”",
+        "right": "this"
+      },
+      {
+        "left": "the keys in my pocket",
+        "right": "these"
+      },
+      {
+        "left": "“___’s great news!”",
+        "right": "that"
+      },
+      {
+        "left": "the birds in that tree",
+        "right": "those"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Near → this / these. Far → that / those. One → this / that. Many → these / those.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Near singular",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sandwich is really good. Do you want some?",
+        "choices": [
+          "This",
+          "These",
+          "Those",
+          "That’s"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Sandwich’ is singular: not ‘these’.",
+          "‘Those’ is plural and far.",
+          "‘That’s sandwich’ isn’t English."
+        ],
+        "explain": "Near + singular: this. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far plural",
+        "text": "I love <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> earrings you’re wearing!",
+        "choices": [
+          "this",
+          "those",
+          "that",
+          "these"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘This’ is singular, but ‘earrings’ is plural.",
+          "",
+          "‘That’ is singular, but ‘earrings’ is plural.",
+          "The earrings are on the other person, not with me: ‘those’ fits better."
+        ],
+        "explain": "Plural, on the other person: those. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far singular",
+        "text": "Can you see <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> plane up there?",
+        "choices": [
+          "this",
+          "these",
+          "that",
+          "those"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The plane is far: not ‘this’.",
+          "‘Plane’ is singular.",
+          "",
+          "‘Plane’ is singular."
+        ],
+        "explain": "Far + singular: that. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far plural",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> trees over there are very tall.",
+        "choices": [
+          "These",
+          "That",
+          "This",
+          "Those"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "The trees are far: not ‘these’.",
+          "‘Trees’ is plural.",
+          "‘Trees’ is plural.",
+          ""
+        ],
+        "explain": "Far + plural: those. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Near plural",
+        "text": "Are <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your glasses? They were on my desk.",
+        "choices": [
+          "this",
+          "these",
+          "that",
+          "it"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Glasses’ is plural.",
+          "",
+          "‘Glasses’ is plural.",
+          "‘It’ doesn’t go with ‘are’."
+        ],
+        "explain": "Near + plural: these. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Introducing",
+        "text": "Dad, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is my teacher, Mr Puig.",
+        "choices": [
+          "these",
+          "those",
+          "this",
+          "it"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "One person: not ‘these’.",
+          "One person, next to you: not ‘those’.",
+          "",
+          "We don’t introduce people with ‘it’."
+        ],
+        "explain": "Introducing: this is… Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Phone",
+        "text": "Hi, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is Laura. Is Pau there?",
+        "choices": [
+          "that",
+          "these",
+          "here",
+          "this"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "On the phone, ‘that’ is used for the other person.",
+          "One person: not ‘these’.",
+          "‘Here is Laura’ isn’t natural.",
+          ""
+        ],
+        "explain": "Phone: this is… Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Reaction",
+        "text": "We won the match! — <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> amazing!",
+        "choices": [
+          "That’s",
+          "This",
+          "Those are",
+          "These are"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘This amazing’ has no verb.",
+          "Plural doesn’t fit.",
+          "Plural doesn’t fit."
+        ],
+        "explain": "Reaction: that’s… Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Verb",
+        "text": "These <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my favourite jeans.",
+        "choices": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘These’ is plural.",
+          "‘Am’ is only with ‘I’.",
+          "",
+          "We need a conjugated verb."
+        ],
+        "explain": "These are. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Verb",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that your sister?",
+        "choices": [
+          "Are",
+          "Am",
+          "Do",
+          "Is"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘That’ is singular.",
+          "‘Am’ is only with ‘I’.",
+          "‘Do’ doesn’t fit with a noun.",
+          ""
+        ],
+        "explain": "Is that…? Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Past time",
+        "text": "In <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> days, there were no cars.",
+        "choices": [
+          "those",
+          "these",
+          "this",
+          "that"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘These days’ means now.",
+          "‘Days’ is plural.",
+          "‘Days’ is plural."
+        ],
+        "explain": "Past + plural: those days. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Present time",
+        "text": "I’m on holiday <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> week!",
+        "choices": [
+          "that",
+          "this",
+          "these",
+          "those"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘That week’ is a different week.",
+          "",
+          "‘Week’ is singular.",
+          "‘Week’ is singular."
+        ],
+        "explain": "Now: this week. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "One",
+        "text": "Which pen is yours? — <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> one, on the left.",
+        "choices": [
+          "Those",
+          "These",
+          "It",
+          "That"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘One’ is singular.",
+          "‘One’ is singular.",
+          "‘It one’ isn’t English.",
+          ""
+        ],
+        "explain": "Singular + one: that one. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Pronoun",
+        "text": "What’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> noise? Can you hear it?",
+        "choices": [
+          "that",
+          "these",
+          "those",
+          "this is"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Noise’ is singular.",
+          "‘Noise’ is singular.",
+          "‘What’s this is’ isn’t English."
+        ],
+        "explain": "A sound from somewhere else: that. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Near singular",
+        "text": "I don’t like <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> soup. It’s too salty.",
+        "choices": [
+          "these",
+          "this",
+          "those",
+          "that’s"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Soup’ is uncountable/singular.",
+          "",
+          "‘Soup’ is singular.",
+          "‘That’s soup’ changes the meaning."
+        ],
+        "explain": "Near + singular: this soup. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far plural",
+        "text": "Who are <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> people at the door?",
+        "choices": [
+          "that",
+          "this",
+          "those",
+          "it"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘People’ is plural.",
+          "‘People’ is plural.",
+          "",
+          "‘It’ doesn’t fit."
+        ],
+        "explain": "Far + plural: those. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "These books are mine.",
+          "This books are mine.",
+          "These book is mine.",
+          "Those book are mine."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Books’ is plural.",
+          "‘These’ needs a plural noun.",
+          "‘Those’ needs a plural noun."
+        ],
+        "explain": "Plural: these books are. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "Those house is old.",
+          "That house is old.",
+          "That houses are old.",
+          "These house is old."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘House’ is singular.",
+          "",
+          "‘That’ needs a singular noun.",
+          "‘These’ needs a plural noun."
+        ],
+        "explain": "Singular: that house is. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Near plural",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> are my grandparents in the photo.",
+        "choices": [
+          "This",
+          "That",
+          "These",
+          "It"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Grandparents’ is plural.",
+          "‘Grandparents’ is plural.",
+          "",
+          "‘It are’ isn’t English."
+        ],
+        "explain": "Plural, in my hands: these are. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "use": "Far singular",
+        "text": "Is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your car in the car park?",
+        "choices": [
+          "this",
+          "those",
+          "these",
+          "that"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "The car is far.",
+          "‘Car’ is singular.",
+          "‘Car’ is singular.",
+          ""
+        ],
+        "explain": "Far + singular: that. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "This",
+          "shoes",
+          "are",
+          "too",
+          "small."
+        ],
+        "errorIndex": 0,
+        "correction": "These",
+        "type": "This + plural",
+        "message": "Plural noun: ‘these shoes’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "I",
+          "bought",
+          "this",
+          "apples",
+          "at",
+          "the",
+          "market."
+        ],
+        "errorIndex": 2,
+        "correction": "these",
+        "type": "This + plural",
+        "message": "Plural noun: ‘these apples’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Look",
+          "at",
+          "that",
+          "clouds!"
+        ],
+        "errorIndex": 2,
+        "correction": "those",
+        "type": "That + plural",
+        "message": "Plural noun: ‘those clouds’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "That",
+          "people",
+          "are",
+          "very",
+          "friendly."
+        ],
+        "errorIndex": 0,
+        "correction": "Those",
+        "type": "That + plural",
+        "message": "‘People’ is plural: ‘those people’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "These",
+          "book",
+          "is",
+          "very",
+          "interesting."
+        ],
+        "errorIndex": 0,
+        "correction": "This",
+        "type": "These + singular",
+        "message": "Singular noun: ‘this book’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Can",
+          "I",
+          "borrow",
+          "these",
+          "pencil?"
+        ],
+        "errorIndex": 3,
+        "correction": "this",
+        "type": "These + singular",
+        "message": "Singular noun: ‘this pencil’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Those",
+          "car",
+          "is",
+          "really",
+          "fast."
+        ],
+        "errorIndex": 0,
+        "correction": "That",
+        "type": "Those + singular",
+        "message": "Singular noun: ‘that car’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Who",
+          "lives",
+          "in",
+          "those",
+          "house?"
+        ],
+        "errorIndex": 3,
+        "correction": "that",
+        "type": "Those + singular",
+        "message": "Singular noun: ‘that house’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "These",
+          "is",
+          "my",
+          "friends",
+          "from",
+          "school."
+        ],
+        "errorIndex": 1,
+        "correction": "are",
+        "type": "Verb",
+        "message": "‘These’ is plural: ‘are’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Those",
+          "is",
+          "my",
+          "parents."
+        ],
+        "errorIndex": 1,
+        "correction": "are",
+        "type": "Verb",
+        "message": "‘Those’ is plural: ‘are’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "That",
+          "are",
+          "a",
+          "good",
+          "idea."
+        ],
+        "errorIndex": 1,
+        "correction": "is",
+        "type": "Verb",
+        "message": "‘That’ is singular: ‘is’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "This",
+          "are",
+          "my",
+          "brother,",
+          "Marc."
+        ],
+        "errorIndex": 1,
+        "correction": "is",
+        "type": "Verb",
+        "message": "‘This’ is singular: ‘is’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Is",
+          "these",
+          "your",
+          "keys?"
+        ],
+        "errorIndex": 0,
+        "correction": "Are",
+        "type": "Verb",
+        "message": "‘These’ is plural: ‘Are these…?’ Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "These",
+          "flower",
+          "are",
+          "beautiful."
+        ],
+        "errorIndex": 1,
+        "correction": "flowers",
+        "type": "Plural noun",
+        "message": "‘These’ needs a plural noun: ‘flowers’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Those",
+          "child",
+          "are",
+          "noisy."
+        ],
+        "errorIndex": 1,
+        "correction": "children",
+        "type": "Plural noun",
+        "message": "‘Those’ needs a plural noun: ‘children’."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "very",
+          "tired",
+          "that",
+          "week."
+        ],
+        "errorIndex": 3,
+        "correction": "this",
+        "type": "Time",
+        "message": "The present week: ‘this week’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "In",
+          "these",
+          "days,",
+          "there",
+          "was",
+          "no",
+          "internet."
+        ],
+        "errorIndex": 1,
+        "correction": "those",
+        "type": "Time",
+        "message": "The past: ‘in those days’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "Hello,",
+          "that",
+          "is",
+          "Pau",
+          "speaking."
+        ],
+        "errorIndex": 1,
+        "correction": "this",
+        "type": "Phone",
+        "message": "On the phone: ‘this is Pau’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "These",
+          "is",
+          "my",
+          "cousin",
+          "Anna."
+        ],
+        "errorIndex": 0,
+        "correction": "This",
+        "type": "Introducing",
+        "message": "One person: ‘This is my cousin’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "tokens": [
+          "I",
+          "don’t",
+          "want",
+          "this",
+          "one.",
+          "I",
+          "want",
+          "those",
+          "one."
+        ],
+        "errorIndex": 7,
+        "correction": "that",
+        "type": "One",
+        "message": "Singular ‘one’: ‘that one’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, near or far, multiple choice and spot-the-mistake. In the typing questions write this, that, these or those. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "distance": "Near or far?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "distance",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Near plural",
+        "sentText": "{{blank}} cookies are fresh. (on my plate)",
+        "hint": "this / these",
+        "answers": [
+          "These",
+          "these"
+        ],
+        "display": "These",
+        "explain": "Near + plural: ‘these’. Near → this/these; far → that/those; singular → this/that; plural → these/those.",
+        "wrongNote": "Near plural → these."
+      },
+      {
+        "type": "fill",
+        "use": "Far singular",
+        "sentText": "What’s {{blank}} building over there?",
+        "hint": "that / those",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "Far + singular: ‘that’. Near → this/these; far → that/those; singular → this/that; plural → these/those.",
+        "wrongNote": "Far singular → that."
+      },
+      {
+        "type": "fill",
+        "use": "Far plural",
+        "sentText": "Look at {{blank}} horses in the field!",
+        "hint": "that / those",
+        "answers": [
+          "those"
+        ],
+        "display": "those",
+        "explain": "Far + plural: ‘those’. Near → this/these; far → that/those; singular → this/that; plural → these/those.",
+        "wrongNote": "Far plural → those."
+      },
+      {
+        "type": "fill",
+        "use": "Introducing",
+        "sentText": "Everyone, {{blank}} is Sara.",
+        "hint": "this / that",
+        "answers": [
+          "this"
+        ],
+        "display": "this",
+        "explain": "Introducing: ‘this is’. Near → this/these; far → that/those; singular → this/that; plural → these/those.",
+        "wrongNote": "Introducing → this."
+      },
+      {
+        "type": "order",
+        "use": "Near singular",
+        "tokens": [
+          "This",
+          "is",
+          "my",
+          "room."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Far plural",
+        "tokens": [
+          "Those",
+          "are",
+          "my",
+          "friends."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Near plural",
+        "tokens": [
+          "These",
+          "are",
+          "new."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Far singular",
+        "tokens": [
+          "That",
+          "is",
+          "my",
+          "house."
+        ]
+      },
+      {
+        "type": "distance",
+        "use": "Distance",
+        "text": "A pen in your hand →",
+        "choices": [
+          "that pen",
+          "this pen",
+          "those pens",
+          "these pen"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘That’ is for far things.",
+          "",
+          "One pen, not many.",
+          "‘These’ needs a plural noun."
+        ],
+        "explain": "Near + singular: this. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "distance",
+        "use": "Distance",
+        "text": "Mountains far away →",
+        "choices": [
+          "these mountains",
+          "that mountains",
+          "this mountains",
+          "those mountains"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘These’ is for near things.",
+          "‘That’ is singular.",
+          "‘This’ is singular and near.",
+          ""
+        ],
+        "explain": "Far + plural: those. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "distance",
+        "use": "Distance",
+        "text": "Shoes you are wearing →",
+        "choices": [
+          "these shoes",
+          "those shoes",
+          "this shoes",
+          "that shoes"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "They’re on you: near.",
+          "‘This’ is singular.",
+          "‘That’ is singular and far."
+        ],
+        "explain": "Near + plural: these. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "distance",
+        "use": "Distance",
+        "text": "A day long ago →",
+        "choices": [
+          "this day",
+          "these days",
+          "that day",
+          "those day"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘This day’ is today.",
+          "‘These days’ means nowadays.",
+          "",
+          "‘Those’ needs a plural noun."
+        ],
+        "explain": "Past + singular: that day. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "mc",
+        "use": "Near singular",
+        "text": "{{blank}} is my new bike!",
+        "choices": [
+          "These",
+          "Those",
+          "This",
+          "They"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "One bike, near.",
+          "Plural and far.",
+          "",
+          "‘They is’ isn’t English."
+        ],
+        "explain": "Near + singular: this. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "mc",
+        "use": "Far plural",
+        "text": "Are {{blank}} your dogs in the park?",
+        "choices": [
+          "those",
+          "that",
+          "this",
+          "it"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Dogs’ is plural.",
+          "‘Dogs’ is plural.",
+          "‘It’ doesn’t fit."
+        ],
+        "explain": "Far + plural: those. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "mc",
+        "use": "Verb",
+        "text": "Those {{blank}} my cousins.",
+        "choices": [
+          "is",
+          "am",
+          "be",
+          "are"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Those’ is plural.",
+          "‘Am’ is for ‘I’.",
+          "We need a conjugated verb.",
+          ""
+        ],
+        "explain": "Those are. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "mc",
+        "use": "Reaction",
+        "text": "I got the job! — {{blank}} great news!",
+        "choices": [
+          "These are",
+          "That’s",
+          "Those",
+          "This are"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘News’ is singular.",
+          "",
+          "Missing a verb.",
+          "‘This are’ is wrong."
+        ],
+        "explain": "Reaction: that’s great news. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "error",
+        "use": "This + plural",
+        "tokens": [
+          "This",
+          "socks",
+          "are",
+          "wet."
+        ],
+        "errorIndex": 0,
+        "correction": "These",
+        "message": "Plural: ‘these socks’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "error",
+        "use": "Verb",
+        "tokens": [
+          "These",
+          "is",
+          "my",
+          "books."
+        ],
+        "errorIndex": 1,
+        "correction": "are",
+        "message": "‘These’ is plural. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "error",
+        "use": "Those + singular",
+        "tokens": [
+          "Those",
+          "boy",
+          "is",
+          "my",
+          "brother."
+        ],
+        "errorIndex": 0,
+        "correction": "That",
+        "message": "Singular: ‘that boy’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      },
+      {
+        "type": "error",
+        "use": "Time",
+        "tokens": [
+          "We’re",
+          "going",
+          "to",
+          "Paris",
+          "that",
+          "weekend",
+          "—",
+          "in",
+          "two",
+          "days!"
+        ],
+        "errorIndex": 4,
+        "correction": "this",
+        "message": "The coming weekend, now: ‘this weekend’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
+      }
+    ]
+  }
+}
