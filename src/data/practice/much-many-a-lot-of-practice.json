@@ -1059,10 +1059,14 @@
           "lot",
           "of."
         ],
-        "errorIndex": 5,
-        "correction": "too",
+        "errorIndex": 3,
+        "correction": "a lot.",
         "type": "Extra of",
-        "message": "No noun after it: ‘a lot’ (without ‘of’)."
+        "message": "No noun after it: ‘a lot’ (without ‘of’).",
+        "errorSpan": [
+          3,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1087,7 +1091,7 @@
           "day."
         ],
         "errorIndex": 2,
-        "correction": "lots",
+        "correction": "lots of",
         "type": "Much in positive",
         "message": "In positive sentences, use ‘a lot of / lots of’: ‘lots of coffee’."
       },
@@ -1159,7 +1163,7 @@
           "much."
         ],
         "errorIndex": 7,
-        "correction": "many",
+        "correction": "many.",
         "type": "Not many",
         "message": "Apples are countable: ‘not many’. Countable plural → many; uncountable → much; in positive sentences → a lot of."
       },
@@ -1171,7 +1175,7 @@
           "many!"
         ],
         "errorIndex": 3,
-        "correction": "much",
+        "correction": "much!",
         "type": "Thank you",
         "message": "Fixed phrase: ‘thank you so much’. Countable plural → many; uncountable → much; in positive sentences → a lot of."
       },
@@ -1505,7 +1509,7 @@
           "many!"
         ],
         "errorIndex": 2,
-        "correction": "much",
+        "correction": "much!",
         "message": "‘Thanks so much’. Countable plural → many; uncountable → much; in positive sentences → a lot of."
       }
     ]

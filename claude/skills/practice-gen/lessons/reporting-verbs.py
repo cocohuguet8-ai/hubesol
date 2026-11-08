@@ -275,6 +275,6 @@ LC = {
   ('Wrong pattern', 'He refused *helping* us.', 'to help', '‘Refuse’ + to + infinitive.'),
   ('Missing preposition', 'She apologised *breaking* the cup.', 'for breaking', '‘Apologise for’ + -ing.'),
   ('Wrong preposition', 'They accused her *for* lying.', 'of', '‘Accuse of’ + -ing.'),
-  ('Explain me', 'He explained *me* the rules.', 'to me', '‘Explain’ + thing + to + person: ‘explained the rules to me’.'),
+  ('Explain me', 'He explained *me the rules*.', 'the rules to me', '‘Explain’ + thing + to + person: ‘explained the rules to me’.'),
   ],
 }

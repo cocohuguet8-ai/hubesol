@@ -1250,7 +1250,11 @@
         "errorIndex": 2,
         "correction": "had",
         "type": "Would after if",
-        "message": "No ‘would’ in the if-clause: ‘If I had more time…’."
+        "message": "No ‘would’ in the if-clause: ‘If I had more time…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1263,9 +1267,13 @@
           "us."
         ],
         "errorIndex": 2,
-        "correction": "knew",
+        "correction": "knew,",
         "type": "Would after if",
-        "message": "The if-clause takes the past simple: ‘If she knew…’."
+        "message": "The if-clause takes the past simple: ‘If she knew…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1902,7 +1910,11 @@
         ],
         "errorIndex": 2,
         "correction": "were",
-        "message": "The advice phrase is ‘If I were you’ — no ‘would’ after ‘if’."
+        "message": "The advice phrase is ‘If I were you’ — no ‘would’ after ‘if’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",

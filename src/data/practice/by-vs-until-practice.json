@@ -1068,7 +1068,11 @@
         "errorIndex": 4,
         "correction": "come",
         "type": "Will after until",
-        "message": "Present simple after ‘until’: ‘until I come back’."
+        "message": "Present simple after ‘until’: ‘until I come back’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1080,9 +1084,13 @@
           "arrive."
         ],
         "errorIndex": 4,
-        "correction": "arrives",
+        "correction": "arrives.",
         "type": "Will after until",
-        "message": "Present simple: ‘until everyone arrives’."
+        "message": "Present simple: ‘until everyone arrives’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1100,7 +1108,11 @@
         "errorIndex": 4,
         "correction": "get",
         "type": "Will after by the time",
-        "message": "Present simple: ‘By the time you get here’."
+        "message": "Present simple: ‘By the time you get here’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1560,8 +1572,12 @@
           "ring."
         ],
         "errorIndex": 4,
-        "correction": "rings",
-        "message": "Present simple after ‘until’: ‘rings’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+        "correction": "rings.",
+        "message": "Present simple after ‘until’: ‘rings’. Ask: one action before a deadline (by) or something that continues up to a time (until)?",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "type": "error",

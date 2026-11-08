@@ -31,11 +31,23 @@ def place(item, pos):
     return use, text, choices, wr, explain
 
 def err_item(sent, corr):
-    toks = [x.replace('_', '\u00a0') for x in sent.split(' ')]
-    idx = [i for i, t in enumerate(toks) if '*' in t]
-    assert len(idx) == 1, sent
-    i = idx[0]; toks[i] = toks[i].replace('*', '')
-    return toks, i
+    # *word* = one-tile mistake; *two words* = mistake spanning several tiles (errorSpan)
+    a = sent.index('*'); b = sent.index('*', a + 1)
+    assert sent.count('*') == 2, sent
+    pre, mid, post = sent[:a], sent[a+1:b], sent[b+1:]
+    pt = pre.split(' ')[:-1] if pre.endswith(' ') or pre == '' else pre.split(' ')
+    # glue punctuation directly attached to the starred part
+    pre_toks = [t for t in pre.split(' ')]
+    left = pre_toks[-1] if pre_toks else ''
+    pre_toks = pre_toks[:-1]
+    mid_toks = mid.split(' ')
+    mid_toks[0] = left + mid_toks[0]
+    post_toks = post.split(' ')
+    mid_toks[-1] = mid_toks[-1] + post_toks[0]
+    post_toks = post_toks[1:]
+    toks = [x.replace('_', '\u00a0') for x in pre_toks + mid_toks + post_toks]
+    i = len(pre_toks); span = [i, i + len(mid_toks) - 1]
+    return toks, i, (span if span[1] > span[0] else None), left, post.split(' ')[0]
 
 def build(slug):
     spec = importlib.util.spec_from_file_location('L', f'/home/claude/gen/lessons/{slug}.py')
@@ -66,8 +78,11 @@ def build(slug):
     t, sub, items = L.ERR
     its = []
     for typ, s, corr, msg in items:
-        toks, i = err_item(s, corr)
-        its.append({'tokens': toks, 'errorIndex': i, 'correction': corr, 'type': typ, 'message': msg})
+        toks, i, sp, _pre, _suf = err_item(s, corr)
+        corr = (_pre if not corr.startswith(_pre) else '') + corr + (_suf if not corr.endswith(_suf) else '')
+        o = {'tokens': toks, 'errorIndex': i, 'correction': corr, 'type': typ, 'message': msg}
+        if sp: o['errorSpan'] = sp
+        its.append(o)
     d['errorCorrection'] = {'title': t, 'subtitle': sub, 'items': its}
     lc = L.LC; ck, cl = lc['custom']
     items = []
@@ -85,8 +100,11 @@ def build(slug):
             items.append({'type': typ, 'use': use, 'text': text.replace('___', '{{blank}}'), 'choices': ch,
                           'correct': ch.index(it[2][0]), 'wrongReasons': wr, 'explain': ex})
     for use, s, corr, msg in lc['error']:
-        toks, i = err_item(s, corr)
-        items.append({'type': 'error', 'use': use, 'tokens': toks, 'errorIndex': i, 'correction': corr, 'message': msg})
+        toks, i, sp, _pre, _suf = err_item(s, corr)
+        corr = (_pre if not corr.startswith(_pre) else '') + corr + (_suf if not corr.endswith(_suf) else '')
+        o = {'type': 'error', 'use': use, 'tokens': toks, 'errorIndex': i, 'correction': corr, 'message': msg}
+        if sp: o['errorSpan'] = sp
+        items.append(o)
     d['levelCheck'] = {'title': 'How well do you know it?', 'subtitle': lc['subtitle'],
                        'categoryLabels': {'fill': 'Fill in the blank', 'order': 'Word order', ck: cl, 'mc': 'Grammar choices', 'error': 'Spot the mistake'},
                        'categoryOrder': ['fill', 'order', ck, 'mc', 'error'], 'items': items}

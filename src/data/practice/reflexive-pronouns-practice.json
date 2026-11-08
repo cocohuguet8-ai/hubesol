@@ -897,7 +897,7 @@
           "hisself."
         ],
         "errorIndex": 4,
-        "correction": "himself",
+        "correction": "himself.",
         "type": "Wrong form",
         "message": "The correct form is ‘himself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
@@ -925,7 +925,7 @@
           "ourself."
         ],
         "errorIndex": 5,
-        "correction": "ourselves",
+        "correction": "ourselves.",
         "type": "Wrong form",
         "message": "Plural: ‘ourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
@@ -940,7 +940,7 @@
           "yourself."
         ],
         "errorIndex": 6,
-        "correction": "yourselves",
+        "correction": "yourselves.",
         "type": "Wrong form",
         "message": "Two people: ‘yourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
@@ -997,7 +997,7 @@
           "you?"
         ],
         "errorIndex": 3,
-        "correction": "yourself",
+        "correction": "yourself?",
         "type": "Object pronoun",
         "message": "Same person: ‘yourself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
@@ -1052,7 +1052,7 @@
           "himself."
         ],
         "errorIndex": 3,
-        "correction": "herself",
+        "correction": "herself.",
         "type": "Wrong person",
         "message": "Subject ‘she’: ‘herself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
@@ -1065,10 +1065,14 @@
           "happy",
           "today."
         ],
-        "errorIndex": 2,
-        "correction": "really",
+        "errorIndex": 1,
+        "correction": "feel",
         "type": "Unnecessary reflexive",
-        "message": "With ‘feel’ we don’t use a reflexive: ‘I feel really happy’."
+        "message": "With ‘feel’ we don’t use a reflexive: ‘I feel very happy’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1078,10 +1082,14 @@
           "relax",
           "yourself."
         ],
-        "errorIndex": 4,
-        "correction": "now",
+        "errorIndex": 3,
+        "correction": "relax.",
         "type": "Unnecessary reflexive",
-        "message": "‘Relax’ takes no reflexive: ‘relax now’."
+        "message": "‘Relax’ takes no reflexive: ‘Sit down and relax’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1094,23 +1102,32 @@
           "my",
           "exams."
         ],
-        "errorIndex": 4,
-        "correction": "more",
+        "errorIndex": 3,
+        "correction": "concentrate",
         "type": "Unnecessary reflexive",
-        "message": "‘Concentrate’ takes no reflexive: ‘concentrate more on’."
+        "message": "‘Concentrate’ takes no reflexive: ‘concentrate on’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
-          "I",
-          "shave",
-          "myself",
-          "every",
-          "morning."
+          "We",
+          "met",
+          "ourselves",
+          "at",
+          "the",
+          "café."
         ],
-        "errorIndex": 2,
-        "correction": "carefully",
+        "errorIndex": 1,
+        "correction": "met",
         "type": "Unnecessary reflexive",
-        "message": "Daily routine: usually no reflexive (‘I shave carefully’)."
+        "message": "‘Meet’ here takes no reflexive: ‘We met at the café’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1139,7 +1156,7 @@
           "himself."
         ],
         "errorIndex": 5,
-        "correction": "him",
+        "correction": "him.",
         "type": "Place",
         "message": "After a preposition of place: ‘beside him’."
       },
@@ -1154,7 +1171,7 @@
           "me."
         ],
         "errorIndex": 6,
-        "correction": "myself",
+        "correction": "myself.",
         "type": "By + reflexive",
         "message": "‘By myself’ = alone. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
@@ -1441,7 +1458,7 @@
           "hisself."
         ],
         "errorIndex": 2,
-        "correction": "himself",
+        "correction": "himself.",
         "message": "The form is ‘himself’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
       {
@@ -1453,7 +1470,7 @@
           "us."
         ],
         "errorIndex": 2,
-        "correction": "ourselves",
+        "correction": "ourselves.",
         "message": "Same people: ‘ourselves’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       },
       {
@@ -1465,9 +1482,13 @@
           "myself",
           "tired."
         ],
-        "errorIndex": 2,
-        "correction": "very",
-        "message": "‘Feel’ takes no reflexive. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
+        "errorIndex": 1,
+        "correction": "feel",
+        "message": "‘Feel’ takes no reflexive: ‘I feel tired’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "type": "error",

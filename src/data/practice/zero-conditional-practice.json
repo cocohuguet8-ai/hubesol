@@ -1212,9 +1212,13 @@
           "melt."
         ],
         "errorIndex": 5,
-        "correction": "melts",
+        "correction": "melts.",
         "type": "Will in the result",
-        "message": "A general truth takes the present simple: ‘it melts’, not ‘it will melt’."
+        "message": "A general truth takes the present simple: ‘it melts’, not ‘it will melt’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1231,20 +1235,24 @@
         "errorIndex": 2,
         "correction": "press",
         "type": "Will in the if-clause",
-        "message": "Never use ‘will’ after ‘if’: ‘If you press this button…’."
+        "message": "Never use ‘will’ after ‘if’: ‘If you press this button…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
           "If",
           "water",
-          "get",
+          "gets",
           "very",
           "cold,",
           "it",
           "freeze."
         ],
         "errorIndex": 6,
-        "correction": "freezes",
+        "correction": "freezes.",
         "type": "Missing -s",
         "message": "‘It’ needs the third-person -s: ‘it freezes’."
       },
@@ -1355,7 +1363,7 @@
           "cries."
         ],
         "errorIndex": 4,
-        "correction": "sleep",
+        "correction": "sleep,",
         "type": "Base verb after doesn’t",
         "message": "After ‘doesn’t’ use the base verb: ‘doesn’t sleep’."
       },
@@ -1435,7 +1443,11 @@
         "errorIndex": 4,
         "correction": "go",
         "type": "Will in the result",
-        "message": "A habit (every night) takes the present simple: ‘I go to bed early’."
+        "message": "A habit (every night) takes the present simple: ‘I go to bed early’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1450,7 +1462,11 @@
         "errorIndex": 1,
         "correction": "happens",
         "type": "Wrong question form",
-        "message": "With ‘what’ as the subject, no ‘does’: ‘What happens if you press this?’."
+        "message": "With ‘what’ as the subject, no ‘does’: ‘What happens if you press this?’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1463,7 +1479,7 @@
           "crys."
         ],
         "errorIndex": 6,
-        "correction": "cries",
+        "correction": "cries.",
         "type": "Spelling",
         "message": "Consonant + -y becomes -ies: cry → cries."
       },
@@ -1846,7 +1862,11 @@
         ],
         "errorIndex": 5,
         "correction": "gets",
-        "message": "A general truth takes the present simple: ‘it gets soft’."
+        "message": "A general truth takes the present simple: ‘it gets soft’.",
+        "errorSpan": [
+          5,
+          6
+        ]
       },
       {
         "type": "error",
@@ -1863,7 +1883,11 @@
         ],
         "errorIndex": 2,
         "correction": "finish",
-        "message": "Never use ‘will’ after ‘if’: ‘If you finish early…’."
+        "message": "Never use ‘will’ after ‘if’: ‘If you finish early…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",

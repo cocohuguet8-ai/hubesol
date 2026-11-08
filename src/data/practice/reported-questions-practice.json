@@ -938,9 +938,13 @@
           "arrive."
         ],
         "errorIndex": 4,
-        "correction": "had arrived",
+        "correction": "had arrived.",
         "type": "Do in reported question",
-        "message": "No ‘did’ and backshift: ‘when I had arrived’."
+        "message": "No ‘did’ and backshift: ‘when I had arrived’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -952,9 +956,13 @@
           "want."
         ],
         "errorIndex": 4,
-        "correction": "wanted",
+        "correction": "wanted.",
         "type": "Do in reported question",
-        "message": "No ‘did’: ‘He asked what I wanted’. Remember: statement order and backshift after ‘asked’."
+        "message": "No ‘did’: ‘He asked what I wanted’. Remember: statement order and backshift after ‘asked’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -970,7 +978,7 @@
           "is."
         ],
         "errorIndex": 9,
-        "correction": "was",
+        "correction": "was.",
         "type": "Backshift",
         "message": "After ‘asked’, backshift: ‘where the station was’."
       },
@@ -984,7 +992,7 @@
           "live."
         ],
         "errorIndex": 5,
-        "correction": "lived",
+        "correction": "lived.",
         "type": "Backshift",
         "message": "After ‘asked’: ‘where I lived’. Remember: statement order and backshift after ‘asked’."
       },
@@ -1211,7 +1219,7 @@
           "do."
         ],
         "errorIndex": 5,
-        "correction": "doing",
+        "correction": "doing.",
         "type": "Continuous",
         "message": "Past continuous: ‘was doing’. Remember: statement order and backshift after ‘asked’."
       },
@@ -1508,8 +1516,12 @@
           "want."
         ],
         "errorIndex": 4,
-        "correction": "wanted",
-        "message": "No ‘did’: ‘She asked what I wanted’."
+        "correction": "wanted.",
+        "message": "No ‘did’: ‘She asked what I wanted’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "type": "error",
@@ -1537,7 +1549,7 @@
           "work."
         ],
         "errorIndex": 4,
-        "correction": "worked",
+        "correction": "worked.",
         "message": "After ‘asked’: ‘worked’."
       },
       {

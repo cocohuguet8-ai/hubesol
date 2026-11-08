@@ -1014,9 +1014,13 @@
           "strong."
         ],
         "errorIndex": 3,
-        "correction": "very",
+        "correction": "strong enough.",
         "type": "Word order",
-        "message": "‘Enough’ goes after adjectives: ‘strong enough’ (or ‘isn’t very strong’)."
+        "message": "‘Enough’ goes after adjectives: ‘strong enough’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1027,9 +1031,13 @@
           "hot."
         ],
         "errorIndex": 3,
-        "correction": "very",
+        "correction": "hot enough.",
         "type": "Word order",
-        "message": "‘Enough’ goes after adjectives: ‘hot enough’ (or ‘isn’t very hot’)."
+        "message": "‘Enough’ goes after adjectives: ‘hot enough’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1040,10 +1048,14 @@
           "of",
           "chairs."
         ],
-        "errorIndex": 4,
-        "correction": "spare",
+        "errorIndex": 3,
+        "correction": "enough",
         "type": "Enough of",
-        "message": "‘Enough chairs’, not ‘enough of chairs’ (or ‘enough spare chairs’)."
+        "message": "‘Enough chairs’, not ‘enough of chairs’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1122,7 +1134,7 @@
           "minute."
         ],
         "errorIndex": 6,
-        "correction": "minutes",
+        "correction": "minutes.",
         "type": "Plural",
         "message": "After ‘a few’ use the plural. Countable → a few; uncountable → a little; enough goes before nouns and after adjectives."
       },
@@ -1162,10 +1174,14 @@
           "of",
           "bread."
         ],
-        "errorIndex": 3,
-        "correction": "fresh",
+        "errorIndex": 2,
+        "correction": "enough",
         "type": "Enough of",
-        "message": "‘Enough bread’, not ‘enough of bread’ (or ‘enough fresh bread’)."
+        "message": "‘Enough bread’, not ‘enough of bread’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1494,8 +1510,12 @@
           "big."
         ],
         "errorIndex": 2,
-        "correction": "very",
-        "message": "‘Big enough’, not ‘enough big’. Countable → a few; uncountable → a little; enough goes before nouns and after adjectives."
+        "correction": "big enough.",
+        "message": "‘Big enough’, not ‘enough big’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",

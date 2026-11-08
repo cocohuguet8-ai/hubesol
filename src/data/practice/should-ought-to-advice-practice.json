@@ -1018,9 +1018,13 @@
           "him?"
         ],
         "errorIndex": 0,
-        "correction": "Should",
+        "correction": "Should I",
         "type": "Do with a modal",
-        "message": "No ‘do’ with modals: ‘Should I tell him?’."
+        "message": "No ‘do’ with modals: ‘Should I tell him?’.",
+        "errorSpan": [
+          0,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1032,7 +1036,11 @@
         "errorIndex": 1,
         "correction": "shouldn’t",
         "type": "Wrong negative",
-        "message": "The negative is ‘shouldn’t’: ‘You shouldn’t worry’."
+        "message": "The negative is ‘shouldn’t’: ‘You shouldn’t worry’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1054,7 +1062,7 @@
           "hurried."
         ],
         "errorIndex": 2,
-        "correction": "hurry",
+        "correction": "hurry.",
         "type": "Had better",
         "message": "After ‘had better’ use the base verb: ‘You’d better hurry’."
       },
@@ -1137,7 +1145,7 @@
           "do.”"
         ],
         "errorIndex": 5,
-        "correction": "should",
+        "correction": "should.”",
         "type": "Short answer",
         "message": "Repeat the modal: ‘Yes, you should’."
       },
@@ -1479,7 +1487,7 @@
           "rested."
         ],
         "errorIndex": 2,
-        "correction": "rest",
+        "correction": "rest.",
         "message": "After ‘should’ use the base verb: ‘You should rest’."
       },
       {
@@ -1505,7 +1513,7 @@
           "going?"
         ],
         "errorIndex": 3,
-        "correction": "go",
+        "correction": "go?",
         "message": "After ‘should’ use the base verb: ‘Where should we go?’."
       },
       {

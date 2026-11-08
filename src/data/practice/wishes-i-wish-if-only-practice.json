@@ -1035,7 +1035,11 @@
         "errorIndex": 3,
         "correction": "hadn’t said",
         "type": "Past regret",
-        "message": "A past regret: ‘he wishes he hadn’t said that’."
+        "message": "A past regret: ‘he wishes he hadn’t said that’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1065,7 +1069,11 @@
         "errorIndex": 3,
         "correction": "had",
         "type": "Would with I",
-        "message": "Don’t use ‘would’ about yourself: ‘I wish I had more money’."
+        "message": "Don’t use ‘would’ about yourself: ‘I wish I had more money’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1080,7 +1088,11 @@
         "errorIndex": 3,
         "correction": "knew",
         "type": "Would with I",
-        "message": "Don’t use ‘would’ about yourself: ‘I wish I knew…’."
+        "message": "Don’t use ‘would’ about yourself: ‘I wish I knew…’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1096,7 +1108,11 @@
         "errorIndex": 3,
         "correction": "had",
         "type": "Would have",
-        "message": "After ‘wish’ use ‘had’ + participle: ‘I wish I had listened’."
+        "message": "After ‘wish’ use ‘had’ + participle: ‘I wish I had listened’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1112,7 +1128,11 @@
         "errorIndex": 3,
         "correction": "were",
         "type": "Would with states",
-        "message": "‘Would’ doesn’t go with ‘be’: ‘I wish he were nicer’."
+        "message": "‘Would’ doesn’t go with ‘be’: ‘I wish he were nicer’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1572,7 +1592,11 @@
         ],
         "errorIndex": 3,
         "correction": "were",
-        "message": "No ‘would’ about yourself: ‘I wish I were better…’."
+        "message": "No ‘would’ about yourself: ‘I wish I were better…’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "type": "error",

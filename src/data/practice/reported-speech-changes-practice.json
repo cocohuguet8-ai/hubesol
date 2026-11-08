@@ -1026,7 +1026,7 @@
           "tomorrow."
         ],
         "errorIndex": 8,
-        "correction": "the next day",
+        "correction": "the next day.",
         "type": "Time",
         "message": "Reported later: ‘tomorrow’ → ‘the next day’."
       },
@@ -1041,7 +1041,7 @@
           "yesterday."
         ],
         "errorIndex": 6,
-        "correction": "the day before",
+        "correction": "the day before.",
         "type": "Time",
         "message": "Reported later: ‘the day before’. Time words change when you report later."
       },
@@ -1055,7 +1055,7 @@
           "now."
         ],
         "errorIndex": 5,
-        "correction": "then",
+        "correction": "then.",
         "type": "Time",
         "message": "‘Now’ → ‘then’. Time words change when you report later."
       },
@@ -1071,7 +1071,7 @@
           "ago."
         ],
         "errorIndex": 7,
-        "correction": "before",
+        "correction": "before.",
         "type": "Time",
         "message": "‘Ago’ → ‘before’. Time words change when you report later."
       },
@@ -1086,7 +1086,7 @@
           "tonight."
         ],
         "errorIndex": 6,
-        "correction": "that night",
+        "correction": "that night.",
         "type": "Time",
         "message": "‘Tonight’ → ‘that night’. Time words change when you report later."
       },
@@ -1227,7 +1227,7 @@
           "after."
         ],
         "errorIndex": 7,
-        "correction": "before",
+        "correction": "before.",
         "type": "Wrong time word",
         "message": "‘Yesterday’ → ‘the day before’, not ‘after’."
       },
@@ -1564,7 +1564,7 @@
           "yesterday."
         ],
         "errorIndex": 6,
-        "correction": "the day before",
+        "correction": "the day before.",
         "message": "Reported later: ‘the day before’."
       },
       {
@@ -1582,7 +1582,7 @@
           "else.)"
         ],
         "errorIndex": 5,
-        "correction": "there",
+        "correction": "there.",
         "message": "here → there."
       },
       {

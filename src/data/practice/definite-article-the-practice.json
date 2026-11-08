@@ -1021,7 +1021,11 @@
         "errorIndex": 0,
         "correction": "Dogs",
         "type": "The for general",
-        "message": "Dogs in general: no ‘the’. Ask “Which one?” — if the listener knows, use the; in general, no article."
+        "message": "Dogs in general: no ‘the’. Ask “Which one?” — if the listener knows, use the; in general, no article.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -1031,9 +1035,13 @@
           "chocolate."
         ],
         "errorIndex": 2,
-        "correction": "eating",
+        "correction": "chocolate.",
         "type": "The for general",
-        "message": "Chocolate in general: no ‘the’ (‘I love chocolate’ / ‘I love eating chocolate’)."
+        "message": "Chocolate in general: no ‘the’ — ‘I love chocolate’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1046,7 +1054,11 @@
         "errorIndex": 0,
         "correction": "Money",
         "type": "The for general",
-        "message": "Money in general: no ‘the’. Ask “Which one?” — if the listener knows, use the; in general, no article."
+        "message": "Money in general: no ‘the’. Ask “Which one?” — if the listener knows, use the; in general, no article.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -1057,9 +1069,13 @@
           "snakes."
         ],
         "errorIndex": 3,
-        "correction": "big",
+        "correction": "snakes.",
         "type": "The for general",
-        "message": "Snakes in general: no ‘the’ — ‘I’m scared of snakes’."
+        "message": "Snakes in general: no ‘the’ — ‘I’m scared of snakes’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1071,9 +1087,13 @@
           "school."
         ],
         "errorIndex": 2,
-        "correction": "some",
+        "correction": "football",
         "type": "The for sport",
-        "message": "Sports take no article: ‘play football’."
+        "message": "Sports take no article: ‘play football’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1086,9 +1106,13 @@
           "TV."
         ],
         "errorIndex": 3,
-        "correction": "live",
+        "correction": "golf",
         "type": "The for sport",
-        "message": "Sports take no article: ‘watches golf’. Ask “Which one?” — if the listener knows, use the; in general, no article."
+        "message": "Sports take no article: ‘watches golf’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1100,9 +1124,13 @@
           "seven."
         ],
         "errorIndex": 2,
-        "correction": "our",
+        "correction": "breakfast",
         "type": "The for meal",
-        "message": "Meals take no article: ‘have breakfast’ (or ‘our breakfast’)."
+        "message": "Meals take no article: ‘have breakfast’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1113,9 +1141,13 @@
           "fluently."
         ],
         "errorIndex": 2,
-        "correction": "Mandarin",
+        "correction": "Chinese",
         "type": "The for language",
-        "message": "Languages take no article: ‘speaks Chinese’."
+        "message": "Languages take no article: ‘speaks Chinese’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1127,9 +1159,13 @@
           "university."
         ],
         "errorIndex": 2,
-        "correction": "organic",
+        "correction": "chemistry",
         "type": "The for subject",
-        "message": "Subjects take no article: ‘study chemistry’."
+        "message": "Subjects take no article: ‘study chemistry’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1144,7 +1180,11 @@
         "errorIndex": 0,
         "correction": "Life",
         "type": "The for general",
-        "message": "Life in general: no ‘the’. Ask “Which one?” — if the listener knows, use the; in general, no article."
+        "message": "Life in general: no ‘the’. Ask “Which one?” — if the listener knows, use the; in general, no article.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -1487,8 +1527,12 @@
           "Mondays."
         ],
         "errorIndex": 2,
-        "correction": "ice",
-        "message": "Sports take no article: ‘play hockey’. Ask “Which one?” — if the listener knows, use the; in general, no article."
+        "correction": "hockey",
+        "message": "Sports take no article: ‘play hockey’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "type": "error",
@@ -1516,8 +1560,12 @@
           "German?"
         ],
         "errorIndex": 3,
-        "correction": "any",
-        "message": "Languages take no article. Ask “Which one?” — if the listener knows, use the; in general, no article."
+        "correction": "German?",
+        "message": "Languages take no article: ‘speak German’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       }
     ]
   }

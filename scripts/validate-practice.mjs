@@ -63,6 +63,18 @@ function checkError(f, where, it) {
   if (!str(it.correction)) err(f, `${where}: falta correction`);
   else if (norm(it.correction) === norm(it.tokens.slice(span[0], span[1] + 1).join(' '))) err(f, `${where}: la correcció és igual a la paraula "errònia"`);
   if (!str(it.message)) err(f, `${where}: falta message`);
+  // La frase corregida (la que veu l'alumne) ha de ser coherent
+  if (str(it.correction) && Array.isArray(it.tokens)) {
+    const fixed = it.tokens.slice(0, span[0]).concat([it.correction], it.tokens.slice(span[1] + 1)).join(' ');
+    const words = norm(fixed).split(' ').filter(Boolean);
+    const rep = words.find((w, i) => i > 0 && w === words[i - 1] && !['had', 'that'].includes(w));
+    if (rep) err(f, `${where}: la frase corregida repeteix "${rep}" — marca les dues paraules amb errorSpan («${fixed}»)`);
+    if (/\b(must|can|could|might|may|should|will|would|shall|can’t|can't|mustn’t|mustn't|couldn’t|shouldn’t|won’t|wouldn’t)\s+to\b/i.test(fixed))
+      err(f, `${where}: la frase corregida té modal + «to» («${fixed}»)`);
+    const last = it.tokens[it.tokens.length - 1] || '';
+    if (/[.!?”"]$/.test(last) && !/[.!?”")]$/.test(fixed)) err(f, `${where}: la frase corregida perd la puntuació final («${fixed}»)`);
+    if (/[,.!?]{2}/.test(fixed.replace(/\.\.\./g, ''))) err(f, `${where}: puntuació duplicada a la frase corregida («${fixed}»)`);
+  }
 }
 
 function checkFill(f, where, answers, display) {

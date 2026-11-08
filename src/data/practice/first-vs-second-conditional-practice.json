@@ -1259,7 +1259,7 @@
           "pass."
         ],
         "errorIndex": 2,
-        "correction": "studies",
+        "correction": "studies,",
         "type": "Mixed forms",
         "message": "‘She’ll’ in the result → present simple in the if-clause: ‘studies’."
       },
@@ -1277,7 +1277,11 @@
         "errorIndex": 2,
         "correction": "is",
         "type": "Will after if",
-        "message": "No ‘will’ after ‘if’: ‘If it is sunny…’."
+        "message": "No ‘will’ after ‘if’: ‘If it is sunny…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1290,9 +1294,13 @@
           "you."
         ],
         "errorIndex": 2,
-        "correction": "knew",
+        "correction": "knew,",
         "type": "Would after if",
-        "message": "No ‘would’ after ‘if’: ‘If I knew…’."
+        "message": "No ‘would’ after ‘if’: ‘If I knew…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1300,7 +1308,7 @@
           "I",
           "was",
           "you,",
-          "I’ll",
+          "I’d",
           "rest."
         ],
         "errorIndex": 2,
@@ -1890,8 +1898,12 @@
           "start."
         ],
         "errorIndex": 2,
-        "correction": "comes",
-        "message": "No ‘will’ after ‘if’: ‘If she comes…’."
+        "correction": "comes,",
+        "message": "No ‘will’ after ‘if’: ‘If she comes…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       }
     ]
   }

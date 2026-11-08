@@ -1163,7 +1163,11 @@
         "errorIndex": 1,
         "correction": "can’t",
         "type": "Wrong negative",
-        "message": "The negative is ‘can’t’: ‘You can’t smoke here’."
+        "message": "The negative is ‘can’t’: ‘You can’t smoke here’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [

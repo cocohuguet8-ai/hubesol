@@ -1214,9 +1214,13 @@
           "lost."
         ],
         "errorIndex": 0,
-        "correction": "Had",
+        "correction": "Had we not",
         "type": "Contracted negative",
-        "message": "Don’t contract: ‘Had we not checked…’."
+        "message": "Don’t contract: ‘Had we not checked…’.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -1230,9 +1234,13 @@
           "up."
         ],
         "errorIndex": 0,
-        "correction": "Were",
+        "correction": "Were it not",
         "type": "Contracted negative",
-        "message": "Don’t contract: ‘Were it not for you…’."
+        "message": "Don’t contract: ‘Were it not for you…’.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -1247,9 +1255,13 @@
           "you."
         ],
         "errorIndex": 0,
-        "correction": "Were",
+        "correction": "Were I to know",
         "type": "Wrong auxiliary",
-        "message": "‘Did’ can’t invert. Use ‘Were I to know…’ or ‘If I knew…’."
+        "message": "‘Did’ can’t invert. Use ‘Were I to know…’ or ‘If I knew…’.",
+        "errorSpan": [
+          0,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1325,7 +1337,11 @@
         "errorIndex": 2,
         "correction": "have",
         "type": "Will after should",
-        "message": "No ‘will’ after ‘should’: ‘Should you have questions…’."
+        "message": "No ‘will’ after ‘should’: ‘Should you have questions…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1338,7 +1354,7 @@
           "suffer."
         ],
         "errorIndex": 2,
-        "correction": "to resign",
+        "correction": "to resign,",
         "type": "Missing to",
         "message": "Were + subject + to + verb: ‘Were she to resign’."
       },
@@ -1353,7 +1369,7 @@
           "helped."
         ],
         "errorIndex": 2,
-        "correction": "known",
+        "correction": "known,",
         "type": "Participle after had",
         "message": "After ‘had’ use the participle: ‘known’."
       },
@@ -1402,9 +1418,13 @@
           "know."
         ],
         "errorIndex": 0,
-        "correction": "Should",
+        "correction": "Should you not",
         "type": "Contracted negative",
-        "message": "Don’t contract: ‘Should you not agree…’."
+        "message": "Don’t contract: ‘Should you not agree…’.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "tokens": [
@@ -1846,8 +1866,12 @@
           "it."
         ],
         "errorIndex": 0,
-        "correction": "Had",
-        "message": "Don’t contract: ‘Had I not seen it…’."
+        "correction": "Had I not",
+        "message": "Don’t contract: ‘Had I not seen it…’.",
+        "errorSpan": [
+          0,
+          1
+        ]
       },
       {
         "type": "error",
