@@ -28,44 +28,81 @@ related:
   - { title: "All about articles", href: "/grammar/articles/" }
   - { title: "A/An: the indefinite article", href: "/grammar/articles/indefinite-article-a-an/" }
   - { title: "A/An vs The", href: "/grammar/articles/a-an-vs-the/" }
+next: { title: "A/An: the indefinite article", href: "/grammar/articles/indefinite-article-a-an/" }
 draft: false
 ---
 
-## The rule: follow the sound
+## How to choose a or an
 
-Use **a** before a **consonant sound** and **an** before a **vowel sound** — based on pronunciation, not spelling.
+The choice depends on the **sound** at the start of the next word — not the letter.
 
-| Use | Sound | Examples |
+| Use | Before | Examples |
 |---|---|---|
-| a | consonant sound | **a** car, **a** book, **a** house |
-| an | vowel sound | **an** apple, **an** egg, **an** idea |
-| a | 'you' sound | **a** university, **a** European, **a** one-way street |
-| an | silent h | **an** hour, **an** honest person, **an** honour |
+| **a** | a consonant **sound** | **a** dog, **a** car, **a** big apple, **a** university |
+| **an** | a vowel **sound** (a, e, i, o, u) | **an** apple, **an** egg, **an** island, **an** hour |
 
-## When and how to choose
+## When to use *a*
 
-### 1. Ordinary words — go by the first sound
+### 1. Words that start with a consonant sound
 
-- **a** dog, **a** flower, **an** orange, **an** umbrella
+- **a** book, **a** pen, **a** teacher, **a** house
 
-### 2. 'U' that sounds like 'you' → a
+### 2. Words that start with a vowel letter but a /j/ or /w/ sound
 
-- **a** university, **a** uniform, **a** useful tip
+| Word | Sound | Article |
+|---|---|---|
+| university | /juː/ "you" | **a** university |
+| uniform | /juː/ | **a** uniform |
+| European | /jʊə/ | **a** European city |
+| one | /w/ "won" | **a** one-way ticket |
 
-### 3. Silent 'h' → an
+> ⚠️ Typical error: ~~an university~~ → It starts with the sound "you": *a university.*
 
-- **an** hour, **an** honest mistake
+## When to use *an*
 
-### 4. Letters and abbreviations → the letter's sound
+### 1. Words that start with a vowel sound
 
-- **an** MP, **an** X-ray, **a** UFO, **a** UN report
+- **an** orange, **an** umbrella, **an** idea, **an** elephant
 
-> ⚠️ Typical error: *~~an university~~* → **a university** ("yoo"); *~~a hour~~* → **an hour** (silent h).
+> ⚠️ Typical error: ~~a orange~~ → Vowel sound: *an orange.*
+
+### 2. Silent *h*
+
+Some words start with **h** but the h is silent, so the first sound is a vowel.
+
+| Word | Sound | Article |
+|---|---|---|
+| hour | /aʊ/ | **an** hour |
+| honest | /ɒ/ | **an** honest man |
+| honour | /ɒ/ | **an** honour |
+
+> ⚠️ Typical error: ~~a hour~~ → The *h* is silent: *an hour.*
+
+### 3. Letters and abbreviations
+
+Say the letter's name: if it starts with a vowel sound, use *an*.
+
+- **an** MP3 player ("em"), **an** FBI agent ("ef"), **an** X-ray ("ex")
+- **a** UFO ("you"), **a** BBC programme ("bee")
+
+## The adjective decides
+
+The article goes with the word **directly after it**.
+
+| a / an + noun | a / an + adjective + noun |
+|---|---|
+| **an** apple | **a** big apple |
+| **a** house | **an** old house |
+| **a** car | **an** expensive car |
 
 ## Common mistakes
 
-**1. Going by spelling, not sound.** *~~an European~~* → **a European.**
+**1. Looking at the letter, not the sound.** *~~an uniform~~* → **a uniform.**
 
-**2. Missing the silent h.** *~~a honest answer~~* → **an honest answer.**
+**2. Pronounced *h*.** *~~an house~~* → **a house** (h is pronounced).
 
-**3. Wrong article before abbreviations.** *~~a MP~~* → **an MP. Pro tip:** say the word out loud — if it starts with a vowel sound, use 'an'.
+**3. Silent *h*.** *~~a hour~~* → **an hour.**
+
+**4. Forgetting the adjective.** *~~an big egg~~* → **a big egg.**
+
+**Pro tip:** say the word out loud — if your mouth starts with a vowel sound, use **an**.
