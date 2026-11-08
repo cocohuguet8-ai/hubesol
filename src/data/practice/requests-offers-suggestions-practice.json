@@ -1,0 +1,1522 @@
+{
+  "tense": "requests-offers-suggestions",
+  "lessonTitle": "Requests, Offers & Suggestions",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "Can",
+        "Could",
+        "Will",
+        "Would",
+        "Shall"
+      ],
+      "label": null,
+      "primary": "Could"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the missing word: a modal (can, could, would, shall, will), let’s, or the right verb form. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Request",
+        "before": "",
+        "after": "you pass me the salt, please?",
+        "hint": "could / shall",
+        "answers": [
+          "Could"
+        ],
+        "display": "Could",
+        "explain": "A polite request for someone to do something: Could you…?"
+      },
+      {
+        "use": "Request",
+        "before": "",
+        "after": "you help me with this box?",
+        "hint": "can / shall",
+        "answers": [
+          "Can"
+        ],
+        "display": "Can",
+        "explain": "An informal request to a friend: Can you…?"
+      },
+      {
+        "use": "Request",
+        "before": "",
+        "after": "you open the door for me, please?",
+        "hint": "would / shall",
+        "answers": [
+          "Would"
+        ],
+        "display": "Would",
+        "explain": "A polite request: Would you + base verb."
+      },
+      {
+        "use": "Request",
+        "before": "Would you mind",
+        "after": "the window?",
+        "hint": "(close)",
+        "answers": [
+          "closing"
+        ],
+        "display": "closing",
+        "explain": "‘Would you mind’ is followed by the -ing form: closing."
+      },
+      {
+        "use": "Request",
+        "before": "Would you mind",
+        "after": "during the film?",
+        "hint": "(not talk)",
+        "answers": [
+          "not talking"
+        ],
+        "display": "not talking",
+        "explain": "Negative after ‘mind’: not + -ing, ‘not talking’."
+      },
+      {
+        "use": "Request",
+        "before": "",
+        "after": "you be quiet, please? I’m trying to work.",
+        "hint": "will / shall",
+        "answers": [
+          "Will"
+        ],
+        "display": "Will",
+        "explain": "‘Will you…?’ is a direct, slightly stronger request."
+      },
+      {
+        "use": "Offer",
+        "before": "",
+        "after": "I carry your shopping?",
+        "hint": "shall / will",
+        "answers": [
+          "Shall"
+        ],
+        "display": "Shall",
+        "explain": "An offer: Shall I…? asks if the person wants your help."
+      },
+      {
+        "use": "Offer",
+        "before": "That looks heavy —",
+        "after": "help you.",
+        "hint": "I’ll / I",
+        "answers": [
+          "I’ll",
+          "I'll",
+          "Ill"
+        ],
+        "display": "I’ll",
+        "explain": "A spontaneous offer made now: I’ll + base verb."
+      },
+      {
+        "use": "Offer",
+        "before": "",
+        "after": "I get you anything from the shop?",
+        "hint": "can / shall",
+        "answers": [
+          "Can"
+        ],
+        "display": "Can",
+        "explain": "‘Can I…?’ also works for offers."
+      },
+      {
+        "use": "Offer",
+        "before": "Would you like",
+        "after": "cup of tea?",
+        "hint": "a / to",
+        "answers": [
+          "a"
+        ],
+        "display": "a",
+        "explain": "‘Would you like’ + noun: a cup of tea."
+      },
+      {
+        "use": "Offer",
+        "before": "Would you like",
+        "after": "come to my party?",
+        "hint": "a / to",
+        "answers": [
+          "to"
+        ],
+        "display": "to",
+        "explain": "‘Would you like’ + to + base verb for an invitation."
+      },
+      {
+        "use": "Suggestion",
+        "before": "",
+        "after": "we go to the beach this afternoon?",
+        "hint": "shall / will",
+        "answers": [
+          "Shall"
+        ],
+        "display": "Shall",
+        "explain": "A suggestion for both of us: Shall we…?"
+      },
+      {
+        "use": "Suggestion",
+        "before": "",
+        "after": "watch a film tonight.",
+        "hint": "let’s / shall",
+        "answers": [
+          "Let’s",
+          "Let's",
+          "Lets"
+        ],
+        "display": "Let’s",
+        "explain": "‘Let’s’ + base verb (no ‘to’) makes a suggestion."
+      },
+      {
+        "use": "Suggestion",
+        "before": "Why don’t we",
+        "after": "the bus? It’s quicker.",
+        "hint": "(take)",
+        "answers": [
+          "take"
+        ],
+        "display": "take",
+        "explain": "‘Why don’t we’ + base verb: take."
+      },
+      {
+        "use": "Suggestion",
+        "before": "How about",
+        "after": "for a walk?",
+        "hint": "(go)",
+        "answers": [
+          "going"
+        ],
+        "display": "going",
+        "explain": "‘How about’ is followed by -ing: going."
+      },
+      {
+        "use": "Suggestion",
+        "before": "What about",
+        "after": "pizza for dinner?",
+        "hint": "(have)",
+        "answers": [
+          "having"
+        ],
+        "display": "having",
+        "explain": "‘What about’ + -ing: having."
+      },
+      {
+        "use": "Suggestion",
+        "before": "We",
+        "after": "meet at the café at six.",
+        "hint": "could / shall",
+        "answers": [
+          "could"
+        ],
+        "display": "could",
+        "explain": "‘We could…’ is a gentle suggestion."
+      },
+      {
+        "use": "Answer",
+        "before": "“Shall I open the window?” “Yes,",
+        "after": ".”",
+        "hint": "please / thanks",
+        "answers": [
+          "please"
+        ],
+        "display": "please",
+        "explain": "Accept an offer politely: Yes, please."
+      },
+      {
+        "use": "Answer",
+        "before": "“Would you mind waiting?” “No, not at",
+        "after": ".”",
+        "hint": "all",
+        "answers": [
+          "all"
+        ],
+        "display": "all",
+        "explain": "To agree to ‘Would you mind…?’ answer ‘No, not at all’."
+      },
+      {
+        "use": "Suggestion",
+        "before": "Let’s not",
+        "after": "in all day.",
+        "hint": "(stay)",
+        "answers": [
+          "stay"
+        ],
+        "display": "stay",
+        "explain": "Negative suggestion: Let’s not + base verb."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 requests, offers and suggestions.",
+    "sentences": [
+      {
+        "use": "Request",
+        "tokens": [
+          "Could",
+          "you",
+          "close",
+          "the",
+          "door,",
+          "please?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Can",
+          "you",
+          "help",
+          "me,",
+          "please?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Would",
+          "you",
+          "lend",
+          "me",
+          "your",
+          "pen?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Would",
+          "you",
+          "mind",
+          "turning",
+          "the",
+          "music",
+          "down?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Will",
+          "you",
+          "be",
+          "quiet,",
+          "please?"
+        ]
+      },
+      {
+        "use": "Request",
+        "tokens": [
+          "Could",
+          "you",
+          "speak",
+          "more",
+          "slowly?"
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "Shall",
+          "I",
+          "make",
+          "some",
+          "coffee?"
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "Can",
+          "I",
+          "help",
+          "you",
+          "with",
+          "that?"
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "I’ll",
+          "carry",
+          "your",
+          "bag."
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "a",
+          "sandwich?"
+        ]
+      },
+      {
+        "use": "Offer",
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "to",
+          "join",
+          "us?"
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "Shall",
+          "we",
+          "go",
+          "out",
+          "tonight?"
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "Let’s",
+          "have",
+          "a",
+          "picnic."
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "Why",
+          "don’t",
+          "we",
+          "take",
+          "a",
+          "taxi?"
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "How",
+          "about",
+          "going",
+          "to",
+          "the",
+          "zoo?"
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "What",
+          "about",
+          "inviting",
+          "Marta?"
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "We",
+          "could",
+          "watch",
+          "a",
+          "film."
+        ]
+      },
+      {
+        "use": "Suggestion",
+        "tokens": [
+          "Let’s",
+          "not",
+          "argue",
+          "about",
+          "it."
+        ]
+      },
+      {
+        "use": "Answer",
+        "tokens": [
+          "Yes,",
+          "please.",
+          "That’s",
+          "very",
+          "kind."
+        ]
+      },
+      {
+        "use": "Answer",
+        "tokens": [
+          "No,",
+          "not",
+          "at",
+          "all."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the phrase and its function",
+    "subtitle": "Tap a sentence, then tap what it does: a request, an offer or a suggestion.",
+    "leftLabel": "Sentence",
+    "rightLabel": "Function",
+    "rightLabelSub": "(request / offer / suggestion)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "Could you help me?",
+        "right": "request"
+      },
+      {
+        "left": "Shall I help you?",
+        "right": "offer"
+      },
+      {
+        "left": "Shall we help them?",
+        "right": "suggestion"
+      },
+      {
+        "left": "Can you lend me £5?",
+        "right": "request"
+      },
+      {
+        "left": "I’ll lend you £5.",
+        "right": "offer"
+      },
+      {
+        "left": "Let’s go home.",
+        "right": "suggestion"
+      },
+      {
+        "left": "Would you open the window?",
+        "right": "request"
+      },
+      {
+        "left": "Would you like a biscuit?",
+        "right": "offer"
+      },
+      {
+        "left": "Why don’t we eat out?",
+        "right": "suggestion"
+      },
+      {
+        "left": "Would you mind waiting?",
+        "right": "request"
+      },
+      {
+        "left": "Can I carry that for you?",
+        "right": "offer"
+      },
+      {
+        "left": "How about a game of cards?",
+        "right": "suggestion"
+      },
+      {
+        "left": "Will you turn that off?",
+        "right": "request"
+      },
+      {
+        "left": "I’ll get the door.",
+        "right": "offer"
+      },
+      {
+        "left": "What about Saturday?",
+        "right": "suggestion"
+      },
+      {
+        "left": "Could you repeat that?",
+        "right": "request"
+      },
+      {
+        "left": "Shall I call a taxi?",
+        "right": "offer"
+      },
+      {
+        "left": "We could take the bus.",
+        "right": "suggestion"
+      },
+      {
+        "left": "Can you pass the bread?",
+        "right": "request"
+      },
+      {
+        "left": "Would you like to come?",
+        "right": "offer"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. You → request, I → offer, we → suggestion. Watch what follows each phrase.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Request",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you help me with my homework, please?",
+        "choices": [
+          "Could",
+          "Shall",
+          "Let’s",
+          "How about"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Shall you’ is not used for requests; ‘shall’ goes with I and we.",
+          "‘Let’s’ makes a suggestion and is not followed by ‘you’.",
+          "‘How about’ is followed by -ing, not ‘you help’."
+        ],
+        "explain": "A polite request asks someone else to act: ‘Could you…?’ + base verb."
+      },
+      {
+        "use": "Offer",
+        "text": "Your bags look heavy. <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I carry one?",
+        "choices": [
+          "Would",
+          "Shall",
+          "Will",
+          "Let’s"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Would I carry’ is not a natural offer.",
+          "",
+          "‘Will I carry’ asks about the future, not an offer.",
+          "‘Let’s I’ is impossible."
+        ],
+        "explain": "‘Shall I…?’ offers your help and asks if the other person wants it."
+      },
+      {
+        "use": "Suggestion",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we go to the beach tomorrow?",
+        "choices": [
+          "Would",
+          "Let’s",
+          "Shall",
+          "Could you"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Would we go’ is not a suggestion.",
+          "‘Let’s we go’ is wrong: ‘Let’s go’ already includes ‘we’.",
+          "",
+          "‘Could you we’ makes no sense."
+        ],
+        "explain": "‘Shall we…?’ suggests doing something together."
+      },
+      {
+        "use": "Let’s",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> watch a film tonight.",
+        "choices": [
+          "Let’s to",
+          "Shall",
+          "How about",
+          "Let’s"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘to’ after ‘let’s’.",
+          "‘Shall watch’ needs a subject and a question mark.",
+          "‘How about’ needs -ing: ‘How about watching’.",
+          ""
+        ],
+        "explain": "‘Let’s’ + base verb makes a direct suggestion that includes you and me."
+      },
+      {
+        "use": "How about",
+        "text": "How about <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a cake for Mum’s birthday?",
+        "choices": [
+          "make",
+          "making",
+          "to make",
+          "made"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After ‘how about’ we use the -ing form, not the base verb.",
+          "",
+          "‘How about to make’ is wrong: no infinitive here.",
+          "‘Made’ is past, and the idea is for the future."
+        ],
+        "explain": "‘How about / What about’ is followed by -ing or a noun."
+      },
+      {
+        "use": "Why don’t we",
+        "text": "Why don’t we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a taxi? It’s late.",
+        "choices": [
+          "taking",
+          "to take",
+          "take",
+          "took"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Why don’t we taking’ is wrong: after ‘don’t’ use the base verb.",
+          "No ‘to’ after ‘don’t’.",
+          "",
+          "‘Took’ is past."
+        ],
+        "explain": "‘Why don’t we’ + base verb is a friendly suggestion."
+      },
+      {
+        "use": "Would you mind",
+        "text": "Would you mind <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the music down?",
+        "choices": [
+          "turn",
+          "to turn",
+          "turned",
+          "turning"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Mind’ is followed by -ing, not the base verb.",
+          "‘Mind to turn’ is a common mistake: use -ing.",
+          "‘Turned’ is past.",
+          ""
+        ],
+        "explain": "‘Would you mind’ + -ing is a very polite request."
+      },
+      {
+        "use": "Would you mind",
+        "text": "“Would you mind waiting a moment?” “<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>”",
+        "choices": [
+          "No, not at all.",
+          "Yes, I would.",
+          "Yes, please.",
+          "Yes, I mind."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Yes, I would’ means you DO mind — it’s a refusal.",
+          "‘Yes, please’ answers an offer, not ‘mind’.",
+          "‘Yes, I mind’ is a refusal and sounds rude."
+        ],
+        "explain": "‘Mind’ means ‘object to’, so to agree you say ‘No, not at all’."
+      },
+      {
+        "use": "Offer",
+        "text": "The phone’s ringing. — Don’t worry, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it.",
+        "choices": [
+          "get",
+          "am getting",
+          "’ll get",
+          "got"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘I get it’ doesn’t make a spontaneous offer.",
+          "The present continuous is for plans already made.",
+          "",
+          "‘Got’ is past."
+        ],
+        "explain": "A decision or offer made at the moment of speaking uses ‘I’ll’."
+      },
+      {
+        "use": "Offer",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> like something to drink?",
+        "choices": [
+          "Do you",
+          "Shall you",
+          "Will you",
+          "Would you"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Do you like’ asks about general taste, not an offer now.",
+          "‘Shall you’ isn’t used.",
+          "‘Will you like’ is not natural.",
+          ""
+        ],
+        "explain": "‘Would you like…?’ is the polite way to offer something."
+      },
+      {
+        "use": "Offer",
+        "text": "Would you like <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the concert with us?",
+        "choices": [
+          "to come",
+          "come",
+          "coming",
+          "came"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "After ‘would you like’ a verb needs ‘to’.",
+          "‘Would you like coming’ is wrong.",
+          "‘Came’ is past."
+        ],
+        "explain": "‘Would you like’ + to + base verb for invitations."
+      },
+      {
+        "use": "Request",
+        "text": "Which request is the most polite?",
+        "choices": [
+          "Lend me your notes.",
+          "Would you mind lending me your notes?",
+          "Can you lend me your notes?",
+          "Give me your notes."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "An imperative alone sounds like an order.",
+          "",
+          "‘Can you’ is fine but less polite.",
+          "This sounds rude."
+        ],
+        "explain": "‘Would you mind + -ing’ is the softest, most polite request."
+      },
+      {
+        "use": "Suggestion",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> go to the museum if it rains.",
+        "choices": [
+          "shall",
+          "let’s",
+          "would like",
+          "could"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘We shall go’ sounds like a decision, not a gentle idea.",
+          "‘We let’s’ is impossible.",
+          "‘We would like go’ needs ‘to’ and is a wish.",
+          ""
+        ],
+        "explain": "‘We could…’ makes a gentle, open suggestion."
+      },
+      {
+        "use": "Negative suggestion",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> not stay up too late tonight.",
+        "choices": [
+          "Let’s",
+          "Shall",
+          "Why don’t",
+          "How about"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Shall not stay’ needs a subject and question form.",
+          "‘Why don’t not’ is a double negative.",
+          "‘How about not stay’ needs -ing."
+        ],
+        "explain": "Negative suggestion: Let’s not + base verb."
+      },
+      {
+        "use": "Answer",
+        "text": "“Shall I help you with the dishes?” “<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> That’s very kind.”",
+        "choices": [
+          "Yes, I shall.",
+          "Yes, please.",
+          "Yes, let’s.",
+          "No, not at all."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "We don’t answer an offer with ‘I shall’.",
+          "",
+          "‘Yes, let’s’ answers a suggestion.",
+          "‘Not at all’ answers ‘Would you mind…?’."
+        ],
+        "explain": "Accepting an offer: Yes, please."
+      },
+      {
+        "use": "Answer",
+        "text": "“Let’s go swimming.” “<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> It’s so hot!”",
+        "choices": [
+          "Yes, please.",
+          "No, not at all.",
+          "Good idea!",
+          "Yes, you can."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Yes, please’ answers an offer.",
+          "‘No, not at all’ answers ‘Would you mind…?’.",
+          "",
+          "‘Yes, you can’ gives permission."
+        ],
+        "explain": "Agreeing with a suggestion: Good idea! / Why not?"
+      },
+      {
+        "use": "Request",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you speak more slowly, please?",
+        "choices": [
+          "Could",
+          "Shall",
+          "Let’s",
+          "What about"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Shall you’ isn’t used for requests.",
+          "‘Let’s you’ is impossible.",
+          "‘What about’ needs -ing."
+        ],
+        "explain": "A polite request: Could you + base verb."
+      },
+      {
+        "use": "Will you",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you stop kicking my chair? It’s annoying!",
+        "choices": [
+          "Shall",
+          "Will",
+          "Let’s",
+          "How about"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Shall you’ isn’t used.",
+          "",
+          "‘Let’s you’ is impossible.",
+          "‘How about’ needs -ing."
+        ],
+        "explain": "‘Will you…?’ is a direct request, often when you’re annoyed."
+      },
+      {
+        "use": "What about",
+        "text": "What about <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Joan to the party?",
+        "choices": [
+          "invite",
+          "to invite",
+          "inviting",
+          "invited"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘what about’ use -ing.",
+          "No infinitive after ‘what about’.",
+          "",
+          "‘Invited’ is past."
+        ],
+        "explain": "‘What about’ + -ing: a suggestion."
+      },
+      {
+        "use": "Offer",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I open the window? It’s hot in here.",
+        "choices": [
+          "Would",
+          "Do",
+          "Let’s",
+          "Shall"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Would I open’ is not a natural offer.",
+          "‘Do I open’ is a general question.",
+          "‘Let’s I’ is impossible.",
+          ""
+        ],
+        "explain": "‘Shall I…?’ offers to do something."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Could",
+          "you",
+          "helping",
+          "me,",
+          "please?"
+        ],
+        "errorIndex": 2,
+        "correction": "help",
+        "type": "Form after modal",
+        "message": "After ‘could’ use the base verb: ‘Could you help me?’."
+      },
+      {
+        "tokens": [
+          "Shall",
+          "we",
+          "going",
+          "to",
+          "the",
+          "park?"
+        ],
+        "errorIndex": 2,
+        "correction": "go",
+        "type": "Form after modal",
+        "message": "After ‘shall’ use the base verb: ‘Shall we go?’."
+      },
+      {
+        "tokens": [
+          "Can",
+          "you",
+          "opens",
+          "the",
+          "window?"
+        ],
+        "errorIndex": 2,
+        "correction": "open",
+        "type": "Form after modal",
+        "message": "After ‘can’ use the base verb: ‘open’."
+      },
+      {
+        "tokens": [
+          "Let’s",
+          "going",
+          "to",
+          "the",
+          "cinema."
+        ],
+        "errorIndex": 1,
+        "correction": "go",
+        "type": "Form after let’s",
+        "message": "After ‘let’s’ use the base verb: ‘Let’s go…’."
+      },
+      {
+        "tokens": [
+          "Let’s",
+          "watched",
+          "a",
+          "film",
+          "tonight."
+        ],
+        "errorIndex": 1,
+        "correction": "watch",
+        "type": "Form after let’s",
+        "message": "After ‘let’s’ use the base verb: ‘watch’."
+      },
+      {
+        "tokens": [
+          "How",
+          "about",
+          "go",
+          "for",
+          "a",
+          "pizza?"
+        ],
+        "errorIndex": 2,
+        "correction": "going",
+        "type": "Form after how about",
+        "message": "‘How about’ + -ing: ‘How about going…?’."
+      },
+      {
+        "tokens": [
+          "What",
+          "about",
+          "visit",
+          "the",
+          "museum?"
+        ],
+        "errorIndex": 2,
+        "correction": "visiting",
+        "type": "Form after what about",
+        "message": "‘What about’ + -ing: ‘visiting’."
+      },
+      {
+        "tokens": [
+          "Would",
+          "you",
+          "mind",
+          "open",
+          "the",
+          "door?"
+        ],
+        "errorIndex": 3,
+        "correction": "opening",
+        "type": "Form after mind",
+        "message": "‘Mind’ + -ing: ‘Would you mind opening…?’."
+      },
+      {
+        "tokens": [
+          "Would",
+          "you",
+          "mind",
+          "wait",
+          "here?"
+        ],
+        "errorIndex": 3,
+        "correction": "waiting",
+        "type": "Form after mind",
+        "message": "‘Mind’ + -ing: ‘waiting’."
+      },
+      {
+        "tokens": [
+          "Why",
+          "don’t",
+          "we",
+          "going",
+          "by",
+          "train?"
+        ],
+        "errorIndex": 3,
+        "correction": "go",
+        "type": "Form after why don’t we",
+        "message": "‘Why don’t we’ + base verb: ‘go’."
+      },
+      {
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "come",
+          "with",
+          "us?"
+        ],
+        "errorIndex": 3,
+        "correction": "to come",
+        "type": "Would you like",
+        "message": "‘Would you like’ + to + verb: ‘to come’."
+      },
+      {
+        "tokens": [
+          "Do",
+          "you",
+          "like",
+          "a",
+          "cup",
+          "of",
+          "tea?",
+          "(an",
+          "offer",
+          "now)"
+        ],
+        "errorIndex": 0,
+        "correction": "Would",
+        "type": "Would you like",
+        "message": "An offer now: ‘Would you like…?’."
+      },
+      {
+        "tokens": [
+          "Shall",
+          "you",
+          "pass",
+          "me",
+          "the",
+          "sugar?"
+        ],
+        "errorIndex": 0,
+        "correction": "Could",
+        "type": "Shall you",
+        "message": "‘Shall’ isn’t used with ‘you’ for requests: ‘Could you…?’."
+      },
+      {
+        "tokens": [
+          "Your",
+          "hands",
+          "are",
+          "full",
+          "—",
+          "I",
+          "open",
+          "the",
+          "door",
+          "for",
+          "you."
+        ],
+        "errorIndex": 6,
+        "correction": "’ll open",
+        "type": "Spontaneous offer",
+        "message": "A spontaneous offer: ‘I’ll open the door’."
+      },
+      {
+        "tokens": [
+          "Let’s",
+          "goes",
+          "home",
+          "now."
+        ],
+        "errorIndex": 1,
+        "correction": "go",
+        "type": "Form after let’s",
+        "message": "After ‘let’s’ use the base verb: ‘Let’s go home’."
+      },
+      {
+        "tokens": [
+          "“Would",
+          "you",
+          "mind",
+          "helping?”",
+          "“Yes,",
+          "not",
+          "at",
+          "all.”"
+        ],
+        "errorIndex": 4,
+        "correction": "“No,",
+        "type": "Answer to mind",
+        "message": "To agree to ‘mind’, say ‘No, not at all’."
+      },
+      {
+        "tokens": [
+          "“Shall",
+          "I",
+          "help?”",
+          "“Yes,",
+          "thank.”"
+        ],
+        "errorIndex": 4,
+        "correction": "please",
+        "type": "Answer to offer",
+        "message": "Accept an offer with ‘Yes, please’."
+      },
+      {
+        "tokens": [
+          "Let’s",
+          "don’t",
+          "be",
+          "late",
+          "again."
+        ],
+        "errorIndex": 1,
+        "correction": "not",
+        "type": "Negative suggestion",
+        "message": "Negative suggestion: ‘Let’s not be late’."
+      },
+      {
+        "tokens": [
+          "Why",
+          "don’t",
+          "we",
+          "took",
+          "the",
+          "bus?"
+        ],
+        "errorIndex": 3,
+        "correction": "take",
+        "type": "Form after why don’t we",
+        "message": "After ‘why don’t we’ use the base verb: ‘take’."
+      },
+      {
+        "tokens": [
+          "Could",
+          "you",
+          "spoke",
+          "louder,",
+          "please?"
+        ],
+        "errorIndex": 2,
+        "correction": "speak",
+        "type": "Could you",
+        "message": "After ‘could’ use the base verb: ‘Could you speak louder?’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, request / offer / suggestion, multiple choice and spot-the-mistake. In the typing questions write the modal or the verb form that follows. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "function": "Request, offer or suggestion",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "function",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Request",
+        "sentText": "{{blank}} you turn off the light, please?",
+        "hint": "could / shall",
+        "answers": [
+          "Could"
+        ],
+        "display": "Could",
+        "explain": "A polite request asks someone else to act: Could you + base verb.",
+        "wrongNote": "Request → ‘Could you…?’."
+      },
+      {
+        "type": "fill",
+        "use": "Offer",
+        "sentText": "{{blank}} I bring some drinks?",
+        "hint": "shall / would",
+        "answers": [
+          "Shall"
+        ],
+        "display": "Shall",
+        "explain": "An offer says you will do it for them: Shall I + base verb?",
+        "wrongNote": "Offer → ‘Shall I…?’."
+      },
+      {
+        "type": "fill",
+        "use": "Suggestion",
+        "sentText": "How about {{blank}} tennis on Sunday?",
+        "hint": "play",
+        "answers": [
+          "playing"
+        ],
+        "display": "playing",
+        "explain": "A suggestion with ‘How about’ is always followed by the -ing form.",
+        "wrongNote": "After ‘how about’ use -ing."
+      },
+      {
+        "type": "fill",
+        "use": "Request",
+        "sentText": "Would you mind {{blank}} me?",
+        "hint": "help",
+        "answers": [
+          "helping"
+        ],
+        "display": "helping",
+        "explain": "The very polite request ‘Would you mind’ is followed by -ing.",
+        "wrongNote": "After ‘mind’ use -ing."
+      },
+      {
+        "type": "order",
+        "use": "Request",
+        "tokens": [
+          "Could",
+          "you",
+          "call",
+          "me",
+          "later?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Offer",
+        "tokens": [
+          "Shall",
+          "I",
+          "get",
+          "the",
+          "bill?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Suggestion",
+        "tokens": [
+          "Let’s",
+          "meet",
+          "at",
+          "five."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Suggestion",
+        "tokens": [
+          "Why",
+          "don’t",
+          "we",
+          "ask",
+          "Dad?"
+        ]
+      },
+      {
+        "type": "function",
+        "use": "Function",
+        "text": "‘Shall I make dinner?’ is…",
+        "choices": [
+          "a request",
+          "an offer",
+          "a suggestion",
+          "a complaint"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "A request asks someone else to act.",
+          "",
+          "A suggestion is for us both.",
+          "There’s nothing negative in it."
+        ],
+        "explain": "‘Shall I…?’ means I offer to do it for you: it’s an offer."
+      },
+      {
+        "type": "function",
+        "use": "Function",
+        "text": "‘Could you make dinner?’ is…",
+        "choices": [
+          "an offer",
+          "a suggestion",
+          "an order",
+          "a request"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "An offer is about you doing it.",
+          "A suggestion is for us both.",
+          "With ‘could’ and a question, it’s polite, not an order.",
+          ""
+        ],
+        "explain": "‘Could you…?’ means I ask you to do it: it’s a polite request."
+      },
+      {
+        "type": "function",
+        "use": "Function",
+        "text": "‘Shall we make dinner?’ is…",
+        "choices": [
+          "a suggestion",
+          "an offer",
+          "a request",
+          "a promise"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "An offer uses ‘I’.",
+          "A request uses ‘you’.",
+          "A promise is ‘I will…’."
+        ],
+        "explain": "‘Shall we…?’ means let’s do it together: it’s a suggestion."
+      },
+      {
+        "type": "function",
+        "use": "Function",
+        "text": "‘Would you like some cake?’ is…",
+        "choices": [
+          "a request",
+          "a suggestion",
+          "an offer",
+          "a question about taste"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "A request asks someone else to act.",
+          "A suggestion is for us both.",
+          "",
+          "That would be ‘Do you like cake?’."
+        ],
+        "explain": "‘Would you like…?’ offers something to the other person."
+      },
+      {
+        "type": "mc",
+        "use": "Let’s",
+        "text": "{{blank}} go home now. I’m tired.",
+        "choices": [
+          "Let’s to",
+          "Shall",
+          "Let’s",
+          "Would you"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "No ‘to’ after ‘let’s’.",
+          "‘Shall go’ needs a subject.",
+          "",
+          "‘Would you go home’ is a request, but ‘I’m tired’ suggests we both go."
+        ],
+        "explain": "A direct suggestion for us both: ‘Let’s’ + base verb, no ‘to’."
+      },
+      {
+        "type": "mc",
+        "use": "Would you mind",
+        "text": "“Would you mind closing the door?” “{{blank}}”",
+        "choices": [
+          "Not at all.",
+          "Yes, I would.",
+          "Yes, please.",
+          "Yes, let’s."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "That’s a refusal.",
+          "That answers an offer.",
+          "That answers a suggestion."
+        ],
+        "explain": "‘Mind’ means ‘object to’, so to agree you answer ‘Not at all’."
+      },
+      {
+        "type": "mc",
+        "use": "Why don’t we",
+        "text": "Why don’t we {{blank}} a picnic?",
+        "choices": [
+          "having",
+          "to have",
+          "had",
+          "have"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "After ‘don’t’ use the base verb.",
+          "No ‘to’ after ‘don’t’.",
+          "‘Had’ is past.",
+          ""
+        ],
+        "explain": "‘Why don’t we’ is followed by the base verb: ‘have a picnic’."
+      },
+      {
+        "type": "mc",
+        "use": "Offer",
+        "text": "I {{blank}} you a lift to the station. It’s on my way.",
+        "choices": [
+          "give",
+          "’ll give",
+          "gave",
+          "giving"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘I give you’ doesn’t make an offer.",
+          "",
+          "‘Gave’ is past.",
+          "‘Giving’ needs an auxiliary."
+        ],
+        "explain": "An offer decided at the moment of speaking: I’ll + base verb."
+      },
+      {
+        "type": "error",
+        "use": "Form after let’s",
+        "tokens": [
+          "Let’s",
+          "meeting",
+          "at",
+          "the",
+          "station."
+        ],
+        "errorIndex": 1,
+        "correction": "meet",
+        "message": "After ‘let’s’ use the base verb: ‘Let’s meet…’."
+      },
+      {
+        "type": "error",
+        "use": "Form after how about",
+        "tokens": [
+          "How",
+          "about",
+          "eat",
+          "sushi",
+          "tonight?"
+        ],
+        "errorIndex": 2,
+        "correction": "eating",
+        "message": "‘How about’ + -ing: ‘eating’."
+      },
+      {
+        "type": "error",
+        "use": "Form after mind",
+        "tokens": [
+          "Would",
+          "you",
+          "mind",
+          "close",
+          "the",
+          "window?"
+        ],
+        "errorIndex": 3,
+        "correction": "closing",
+        "message": "‘Mind’ + -ing: ‘closing’."
+      },
+      {
+        "type": "error",
+        "use": "Would you like",
+        "tokens": [
+          "Would",
+          "you",
+          "like",
+          "go",
+          "with",
+          "us?"
+        ],
+        "errorIndex": 3,
+        "correction": "to go",
+        "message": "‘Would you like’ + to + verb."
+      }
+    ]
+  }
+}
