@@ -1,0 +1,1527 @@
+{
+  "tense": "should-ought-to-advice",
+  "lessonTitle": "Should & Ought to",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "should",
+        "shouldn’t",
+        "ought"
+      ],
+      "label": null,
+      "primary": "should"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type should, shouldn’t, ought to or the base verb that follows. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Advice",
+        "before": "You look tired. You",
+        "after": "go to bed earlier.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "Advice about what is best to do: should + base verb."
+      },
+      {
+        "use": "Advice",
+        "before": "You",
+        "after": "eat so many sweets — they’re bad for your teeth.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "shouldn’t",
+          "shouldn't",
+          "shouldnt",
+          "should not"
+        ],
+        "display": "shouldn’t",
+        "explain": "Advice not to do something: shouldn’t + base verb."
+      },
+      {
+        "use": "Advice",
+        "before": "You",
+        "after": "wear a coat. It’s freezing outside.",
+        "hint": "ought to",
+        "answers": [
+          "ought to"
+        ],
+        "display": "ought to",
+        "explain": "‘Ought’ always needs ‘to’ before the base verb: ought to wear."
+      },
+      {
+        "use": "Advice",
+        "before": "If you have a headache, you should",
+        "after": "more water.",
+        "hint": "(drink)",
+        "answers": [
+          "drink"
+        ],
+        "display": "drink",
+        "explain": "After ‘should’ use the base verb, with no ‘to’ and no -s."
+      },
+      {
+        "use": "Advice",
+        "before": "Marc should",
+        "after": "more if he wants to pass.",
+        "hint": "(study)",
+        "answers": [
+          "study"
+        ],
+        "display": "study",
+        "explain": "After ‘should’ the verb stays in the base form: study, not studies."
+      },
+      {
+        "use": "Advice",
+        "before": "You",
+        "after": "stay up late before an exam.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "shouldn’t",
+          "shouldn't",
+          "shouldnt",
+          "should not"
+        ],
+        "display": "shouldn’t",
+        "explain": "It’s a bad idea, so the advice is negative: shouldn’t."
+      },
+      {
+        "use": "Right and wrong",
+        "before": "People",
+        "after": "recycle plastic bottles.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "Saying what is the right thing to do: should."
+      },
+      {
+        "use": "Right and wrong",
+        "before": "Children",
+        "after": "play near the road.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "shouldn’t",
+          "shouldn't",
+          "shouldnt",
+          "should not"
+        ],
+        "display": "shouldn’t",
+        "explain": "Saying what is wrong or dangerous: shouldn’t."
+      },
+      {
+        "use": "Right and wrong",
+        "before": "We",
+        "after": "help our neighbours more.",
+        "hint": "ought to",
+        "answers": [
+          "ought to"
+        ],
+        "display": "ought to",
+        "explain": "A moral opinion with ‘ought to’ (a little stronger than should)."
+      },
+      {
+        "use": "Asking",
+        "before": "",
+        "after": "I tell the teacher about it?",
+        "hint": "should / ought",
+        "answers": [
+          "Should"
+        ],
+        "display": "Should",
+        "explain": "Asking for advice: Should + subject + base verb?"
+      },
+      {
+        "use": "Asking",
+        "before": "What",
+        "after": "I buy for my mum’s birthday?",
+        "hint": "should / ought",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "A wh- question asking for advice: What should I…?"
+      },
+      {
+        "use": "Asking",
+        "before": "Where should we",
+        "after": "on holiday this year?",
+        "hint": "(go)",
+        "answers": [
+          "go"
+        ],
+        "display": "go",
+        "explain": "In the question, the base verb comes after the subject: should we go."
+      },
+      {
+        "use": "Expectation",
+        "before": "The train",
+        "after": "arrive at ten — it’s usually on time.",
+        "hint": "should / must",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "‘Should’ can show what we expect to happen."
+      },
+      {
+        "use": "Expectation",
+        "before": "The test",
+        "after": "be too hard. We’ve practised a lot.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "shouldn’t",
+          "shouldn't",
+          "shouldnt",
+          "should not"
+        ],
+        "display": "shouldn’t",
+        "explain": "Expecting something not to happen: shouldn’t be."
+      },
+      {
+        "use": "Had better",
+        "before": "You’d",
+        "after": "hurry, or you’ll miss the bus.",
+        "hint": "better",
+        "answers": [
+          "better"
+        ],
+        "display": "better",
+        "explain": "‘Had better’ is strong advice: there’s a problem if you don’t."
+      },
+      {
+        "use": "Had better",
+        "before": "We’d better not",
+        "after": "any noise — the baby is asleep.",
+        "hint": "(make)",
+        "answers": [
+          "make"
+        ],
+        "display": "make",
+        "explain": "‘Had better not’ + base verb: make."
+      },
+      {
+        "use": "If I were you",
+        "before": "If I were you, I’d",
+        "after": "to her.",
+        "hint": "(apologise)",
+        "answers": [
+          "apologise"
+        ],
+        "display": "apologise",
+        "explain": "Advice with ‘If I were you, I’d’ + base verb."
+      },
+      {
+        "use": "Why don’t you",
+        "before": "Why don’t you",
+        "after": "your brother for help?",
+        "hint": "(ask)",
+        "answers": [
+          "ask"
+        ],
+        "display": "ask",
+        "explain": "‘Why don’t you’ + base verb gives friendly advice."
+      },
+      {
+        "use": "Short answer",
+        "before": "“Should I wear a tie?” “Yes, you",
+        "after": ".”",
+        "hint": "should / do",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "Short answers repeat the modal: Yes, you should."
+      },
+      {
+        "use": "Short answer",
+        "before": "“Should we wait for him?” “No, we",
+        "after": ".”",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "shouldn’t",
+          "shouldn't",
+          "shouldnt",
+          "should not"
+        ],
+        "display": "shouldn’t",
+        "explain": "Negative short answer: No, we shouldn’t."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples of giving and asking for advice.",
+    "sentences": [
+      {
+        "use": "Advice",
+        "tokens": [
+          "You",
+          "should",
+          "see",
+          "a",
+          "doctor."
+        ]
+      },
+      {
+        "use": "Advice",
+        "tokens": [
+          "You",
+          "shouldn’t",
+          "eat",
+          "so",
+          "much",
+          "sugar."
+        ]
+      },
+      {
+        "use": "Advice",
+        "tokens": [
+          "You",
+          "ought",
+          "to",
+          "call",
+          "your",
+          "grandmother."
+        ]
+      },
+      {
+        "use": "Advice",
+        "tokens": [
+          "She",
+          "should",
+          "take",
+          "an",
+          "umbrella."
+        ]
+      },
+      {
+        "use": "Advice",
+        "tokens": [
+          "We",
+          "should",
+          "leave",
+          "now."
+        ]
+      },
+      {
+        "use": "Advice",
+        "tokens": [
+          "You",
+          "shouldn’t",
+          "worry",
+          "about",
+          "it."
+        ]
+      },
+      {
+        "use": "Right and wrong",
+        "tokens": [
+          "People",
+          "should",
+          "be",
+          "kind",
+          "to",
+          "animals."
+        ]
+      },
+      {
+        "use": "Right and wrong",
+        "tokens": [
+          "We",
+          "ought",
+          "to",
+          "save",
+          "more",
+          "water."
+        ]
+      },
+      {
+        "use": "Right and wrong",
+        "tokens": [
+          "You",
+          "shouldn’t",
+          "lie",
+          "to",
+          "your",
+          "friends."
+        ]
+      },
+      {
+        "use": "Asking",
+        "tokens": [
+          "Should",
+          "I",
+          "tell",
+          "him",
+          "the",
+          "truth?"
+        ]
+      },
+      {
+        "use": "Asking",
+        "tokens": [
+          "What",
+          "should",
+          "I",
+          "do",
+          "now?"
+        ]
+      },
+      {
+        "use": "Asking",
+        "tokens": [
+          "Where",
+          "should",
+          "we",
+          "meet?"
+        ]
+      },
+      {
+        "use": "Asking",
+        "tokens": [
+          "Should",
+          "we",
+          "bring",
+          "anything?"
+        ]
+      },
+      {
+        "use": "Expectation",
+        "tokens": [
+          "The",
+          "bus",
+          "should",
+          "be",
+          "here",
+          "soon."
+        ]
+      },
+      {
+        "use": "Expectation",
+        "tokens": [
+          "It",
+          "shouldn’t",
+          "take",
+          "long."
+        ]
+      },
+      {
+        "use": "Had better",
+        "tokens": [
+          "You’d",
+          "better",
+          "hurry",
+          "up."
+        ]
+      },
+      {
+        "use": "Had better",
+        "tokens": [
+          "We’d",
+          "better",
+          "not",
+          "be",
+          "late."
+        ]
+      },
+      {
+        "use": "If I were you",
+        "tokens": [
+          "If",
+          "I",
+          "were",
+          "you,",
+          "I’d",
+          "stay."
+        ],
+        "alts": [
+          [
+            "I’d",
+            "stay",
+            "if",
+            "I",
+            "were",
+            "you."
+          ]
+        ]
+      },
+      {
+        "use": "Why don’t you",
+        "tokens": [
+          "Why",
+          "don’t",
+          "you",
+          "try",
+          "again?"
+        ]
+      },
+      {
+        "use": "Short answer",
+        "tokens": [
+          "Yes,",
+          "you",
+          "should."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the problem and the advice",
+    "subtitle": "Tap a problem, then tap the best advice.",
+    "leftLabel": "Problem",
+    "rightLabel": "Advice",
+    "rightLabelSub": "(should / shouldn’t)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I’ve got a toothache.",
+        "right": "You should see a dentist."
+      },
+      {
+        "left": "I’m always tired.",
+        "right": "You should sleep more."
+      },
+      {
+        "left": "I’m cold.",
+        "right": "You should put on a jumper."
+      },
+      {
+        "left": "I failed my maths test.",
+        "right": "You should study harder."
+      },
+      {
+        "left": "I’m hungry.",
+        "right": "You should have a snack."
+      },
+      {
+        "left": "I can’t find my keys.",
+        "right": "You should look in your bag."
+      },
+      {
+        "left": "I spend too much money.",
+        "right": "You shouldn’t buy so many clothes."
+      },
+      {
+        "left": "My eyes hurt.",
+        "right": "You shouldn’t use your phone so much."
+      },
+      {
+        "left": "I’m always late.",
+        "right": "You should get up earlier."
+      },
+      {
+        "left": "I’ve got a cold.",
+        "right": "You should drink hot tea."
+      },
+      {
+        "left": "I want to get fit.",
+        "right": "You should go running."
+      },
+      {
+        "left": "I’ve had an argument with Pau.",
+        "right": "You should talk to him."
+      },
+      {
+        "left": "I’m bored.",
+        "right": "You should read a book."
+      },
+      {
+        "left": "My room is a mess.",
+        "right": "You should tidy it."
+      },
+      {
+        "left": "I feel stressed.",
+        "right": "You shouldn’t work so hard."
+      },
+      {
+        "left": "I can’t sleep.",
+        "right": "You shouldn’t drink coffee at night."
+      },
+      {
+        "left": "I want to learn French.",
+        "right": "You should take a course."
+      },
+      {
+        "left": "I’ve lost my wallet.",
+        "right": "You should tell the police."
+      },
+      {
+        "left": "My plants are dying.",
+        "right": "You should water them."
+      },
+      {
+        "left": "I’ve got an exam tomorrow.",
+        "right": "You shouldn’t go out tonight."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Should + base verb, ought + to + base verb — and no do in questions.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Advice",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> see a doctor about that cough.",
+        "choices": [
+          "should",
+          "should to",
+          "ought",
+          "shoulds"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Should’ is never followed by ‘to’ — the base verb comes straight after it.",
+          "‘Ought’ always needs ‘to’: ‘ought to see’.",
+          "Modal verbs never take -s, whatever the subject."
+        ],
+        "explain": "Advice: should + base verb. It’s the most common way to say what’s best."
+      },
+      {
+        "use": "Ought to",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wear a helmet on your bike.",
+        "choices": [
+          "ought",
+          "ought to",
+          "should to",
+          "oughts to"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Ought’ is the one modal that always needs ‘to’.",
+          "",
+          "‘Should’ never takes ‘to’.",
+          "Modals never take -s."
+        ],
+        "explain": "‘Ought to’ + base verb means the same as ‘should’, a little more strongly."
+      },
+      {
+        "use": "Negative",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> eat so much fast food.",
+        "choices": [
+          "don’t should",
+          "not should",
+          "shouldn’t",
+          "shouldn’t to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Modals don’t use ‘don’t’: the negative is ‘shouldn’t’.",
+          "‘Not’ goes after the modal: ‘should not’.",
+          "",
+          "No ‘to’ after ‘shouldn’t’."
+        ],
+        "explain": "Negative advice: shouldn’t + base verb."
+      },
+      {
+        "use": "Base verb",
+        "text": "Lucía should <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more vegetables.",
+        "choices": [
+          "eats",
+          "to eat",
+          "eating",
+          "eat"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "After ‘should’ the verb has no -s, even with ‘she’.",
+          "No ‘to’ after ‘should’.",
+          "After ‘should’ we use the base verb, not -ing.",
+          ""
+        ],
+        "explain": "After ‘should’, always the base verb: should eat."
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I bring a present to the party?",
+        "choices": [
+          "Do I should",
+          "Should",
+          "Ought",
+          "Am I should"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Modals make questions without ‘do’.",
+          "",
+          "‘Ought I bring’ is wrong; even ‘Ought I to’ is very rare.",
+          "‘Am I should’ mixes ‘be’ with a modal."
+        ],
+        "explain": "Asking for advice: Should + subject + base verb?"
+      },
+      {
+        "use": "Question order",
+        "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for the job interview?",
+        "choices": [
+          "I should wear",
+          "should I to wear",
+          "should I wear",
+          "do I should wear"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "In a question, the modal comes before the subject.",
+          "No ‘to’ after ‘should’.",
+          "",
+          "No ‘do’ with modals."
+        ],
+        "explain": "Wh- question with a modal: What + should + subject + base verb?"
+      },
+      {
+        "use": "Right and wrong",
+        "text": "People <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> drop litter in the street.",
+        "choices": [
+          "should",
+          "ought",
+          "ought not",
+          "shouldn’t"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Should drop litter’ says it’s a good idea — the opposite.",
+          "‘Ought drop’ needs ‘to’, and the meaning is wrong.",
+          "‘Ought not’ needs ‘to’: ‘ought not to drop’.",
+          ""
+        ],
+        "explain": "Saying something is wrong: shouldn’t + base verb."
+      },
+      {
+        "use": "Expectation",
+        "text": "The parcel <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> arrive tomorrow — they sent it yesterday.",
+        "choices": [
+          "should",
+          "must to",
+          "ought",
+          "shoulds"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Must’ never takes ‘to’, and it means obligation.",
+          "‘Ought’ needs ‘to’.",
+          "Modals never take -s."
+        ],
+        "explain": "‘Should’ can mean ‘I expect this will happen’."
+      },
+      {
+        "use": "Had better",
+        "text": "You’d <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> leave now or you’ll miss the train.",
+        "choices": [
+          "best",
+          "better to",
+          "better",
+          "should"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The phrase is ‘had better’, not ‘had best’ in everyday English.",
+          "No ‘to’ after ‘had better’.",
+          "",
+          "‘You’d should’ is impossible."
+        ],
+        "explain": "‘You’d better’ + base verb: strong advice with a warning."
+      },
+      {
+        "use": "Had better",
+        "text": "We’d better <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> make a noise. Grandma is sleeping.",
+        "choices": [
+          "don’t",
+          "no",
+          "not to",
+          "not"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Had better don’t’ is wrong: use ‘not’.",
+          "‘No’ can’t make a verb negative.",
+          "No ‘to’ after ‘had better not’.",
+          ""
+        ],
+        "explain": "Negative: had better not + base verb."
+      },
+      {
+        "use": "If I were you",
+        "text": "If I were you, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that phone. It’s too expensive.",
+        "choices": [
+          "wouldn’t buy",
+          "shouldn’t to buy",
+          "won’t buy",
+          "don’t buy"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No ‘to’ after ‘shouldn’t’, and the phrase needs ‘would’.",
+          "‘Won’t’ doesn’t follow ‘If I were you’.",
+          "‘If I were you’ needs ‘would’ in the result."
+        ],
+        "explain": "‘If I were you, I’d / I wouldn’t…’ is a common way to give advice."
+      },
+      {
+        "use": "Why don’t you",
+        "text": "Why don’t you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the manager?",
+        "choices": [
+          "speaking",
+          "speak",
+          "to speak",
+          "speaks"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After ‘don’t’ use the base verb, not -ing.",
+          "",
+          "No ‘to’ after ‘don’t’.",
+          "No -s after ‘don’t’."
+        ],
+        "explain": "‘Why don’t you’ + base verb is friendly advice."
+      },
+      {
+        "use": "Should or must",
+        "text": "It’s the law: you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wear a seatbelt in a car.",
+        "choices": [
+          "should",
+          "ought",
+          "had better to",
+          "must"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Should’ is advice; a law is an obligation.",
+          "‘Ought’ needs ‘to’, and it’s advice, not a law.",
+          "No ‘to’ after ‘had better’.",
+          ""
+        ],
+        "explain": "A law or rule is an obligation: must. ‘Should’ is only advice."
+      },
+      {
+        "use": "Should or must",
+        "text": "I think you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> try the chocolate cake. It’s delicious!",
+        "choices": [
+          "should",
+          "must to",
+          "have",
+          "ought"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No ‘to’ after ‘must’.",
+          "‘Have’ needs ‘to’ and means obligation.",
+          "‘Ought’ needs ‘to’."
+        ],
+        "explain": "‘I think you should…’ gives an opinion or recommendation."
+      },
+      {
+        "use": "Short answer",
+        "text": "“Should I call him?” “Yes, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.”",
+        "choices": [
+          "do",
+          "should",
+          "ought",
+          "shall"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Short answers repeat the modal, not ‘do’.",
+          "",
+          "‘Yes, you ought’ needs ‘to’.",
+          "‘Shall’ doesn’t answer ‘should’."
+        ],
+        "explain": "Short answer: Yes, you should."
+      },
+      {
+        "use": "Short answer",
+        "text": "“Should we take a taxi?” “No, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>. It’s close.”",
+        "choices": [
+          "don’t",
+          "mustn’t to",
+          "shouldn’t",
+          "aren’t"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Repeat the modal, not ‘do’.",
+          "No ‘to’ after ‘mustn’t’, and the meaning is too strong.",
+          "",
+          "‘Aren’t’ doesn’t answer ‘should’."
+        ],
+        "explain": "Negative short answer: No, we shouldn’t."
+      },
+      {
+        "use": "Third person",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "He should practise every day.",
+          "He shoulds practise every day.",
+          "He should practises every day.",
+          "He should to practise every day."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Modals never take -s.",
+          "After ‘should’ use the base verb.",
+          "No ‘to’ after ‘should’."
+        ],
+        "explain": "Should + base verb, the same for every subject."
+      },
+      {
+        "use": "Ought to",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "You ought apologise.",
+          "You ought to apologise.",
+          "You ought to apologising.",
+          "You oughts to apologise."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Ought’ needs ‘to’.",
+          "",
+          "After ‘to’ use the base verb.",
+          "Modals never take -s."
+        ],
+        "explain": "Ought + to + base verb."
+      },
+      {
+        "use": "Advice",
+        "text": "It’s raining. You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> take an umbrella.",
+        "choices": [
+          "shouldn’t",
+          "ought",
+          "should",
+          "should to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Shouldn’t take’ is the opposite advice.",
+          "‘Ought’ needs ‘to’.",
+          "",
+          "No ‘to’ after ‘should’."
+        ],
+        "explain": "Good advice for rain: should take an umbrella."
+      },
+      {
+        "use": "Expectation",
+        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be difficult to find the hotel — it’s next to the station.",
+        "choices": [
+          "should",
+          "ought",
+          "mustn’t",
+          "shouldn’t"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Should be difficult’ is the opposite of what the context says.",
+          "‘Ought’ needs ‘to’.",
+          "‘Mustn’t’ means it’s forbidden.",
+          ""
+        ],
+        "explain": "Expecting something easy: shouldn’t be difficult."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "You",
+          "should",
+          "sees",
+          "a",
+          "doctor."
+        ],
+        "errorIndex": 2,
+        "correction": "see",
+        "type": "-s after a modal",
+        "message": "After ‘should’ use the base verb: ‘You should see a doctor’."
+      },
+      {
+        "tokens": [
+          "You",
+          "ought",
+          "study",
+          "for",
+          "the",
+          "test."
+        ],
+        "errorIndex": 2,
+        "correction": "to study",
+        "type": "Missing to",
+        "message": "‘Ought’ always needs ‘to’: ‘ought to study’."
+      },
+      {
+        "tokens": [
+          "She",
+          "shoulds",
+          "go",
+          "home."
+        ],
+        "errorIndex": 1,
+        "correction": "should",
+        "type": "-s on a modal",
+        "message": "Modals never take -s: ‘She should go home’."
+      },
+      {
+        "tokens": [
+          "He",
+          "should",
+          "takes",
+          "a",
+          "break."
+        ],
+        "errorIndex": 2,
+        "correction": "take",
+        "type": "-s after a modal",
+        "message": "After ‘should’ use the base verb: ‘take’."
+      },
+      {
+        "tokens": [
+          "You",
+          "should",
+          "going",
+          "to",
+          "bed."
+        ],
+        "errorIndex": 2,
+        "correction": "go",
+        "type": "-ing after a modal",
+        "message": "After ‘should’ use the base verb: ‘go’."
+      },
+      {
+        "tokens": [
+          "You",
+          "should",
+          "called",
+          "her."
+        ],
+        "errorIndex": 2,
+        "correction": "call",
+        "type": "Past after a modal",
+        "message": "For present advice, use the base verb: ‘You should call her’."
+      },
+      {
+        "tokens": [
+          "Do",
+          "I",
+          "should",
+          "tell",
+          "him?"
+        ],
+        "errorIndex": 0,
+        "correction": "Should",
+        "type": "Do with a modal",
+        "message": "No ‘do’ with modals: ‘Should I tell him?’."
+      },
+      {
+        "tokens": [
+          "You",
+          "don’t",
+          "should",
+          "worry."
+        ],
+        "errorIndex": 1,
+        "correction": "shouldn’t",
+        "type": "Wrong negative",
+        "message": "The negative is ‘shouldn’t’: ‘You shouldn’t worry’."
+      },
+      {
+        "tokens": [
+          "What",
+          "should",
+          "I",
+          "doing",
+          "now?"
+        ],
+        "errorIndex": 3,
+        "correction": "do",
+        "type": "-ing after a modal",
+        "message": "After ‘should’ use the base verb: ‘What should I do?’."
+      },
+      {
+        "tokens": [
+          "You’d",
+          "better",
+          "hurried."
+        ],
+        "errorIndex": 2,
+        "correction": "hurry",
+        "type": "Had better",
+        "message": "After ‘had better’ use the base verb: ‘You’d better hurry’."
+      },
+      {
+        "tokens": [
+          "We’d",
+          "better",
+          "don’t",
+          "be",
+          "late."
+        ],
+        "errorIndex": 2,
+        "correction": "not",
+        "type": "Had better",
+        "message": "Negative: ‘We’d better not be late’."
+      },
+      {
+        "tokens": [
+          "You",
+          "have",
+          "better",
+          "leave",
+          "now."
+        ],
+        "errorIndex": 1,
+        "correction": "had",
+        "type": "Had better",
+        "message": "The phrase is ‘had better’ (’d better), not ‘have better’."
+      },
+      {
+        "tokens": [
+          "If",
+          "I",
+          "was",
+          "you,",
+          "I’d",
+          "rest."
+        ],
+        "errorIndex": 2,
+        "correction": "were",
+        "type": "If I were you",
+        "message": "The advice phrase is ‘If I were you’."
+      },
+      {
+        "tokens": [
+          "If",
+          "I",
+          "were",
+          "you,",
+          "I",
+          "will",
+          "apologise."
+        ],
+        "errorIndex": 5,
+        "correction": "would",
+        "type": "If I were you",
+        "message": "‘If I were you’ needs ‘would’: ‘I would apologise’."
+      },
+      {
+        "tokens": [
+          "Why",
+          "don’t",
+          "you",
+          "asking",
+          "the",
+          "teacher?"
+        ],
+        "errorIndex": 3,
+        "correction": "ask",
+        "type": "Why don’t you",
+        "message": "‘Why don’t you’ + base verb: ‘ask’."
+      },
+      {
+        "tokens": [
+          "“Should",
+          "I",
+          "go?”",
+          "“Yes,",
+          "you",
+          "do.”"
+        ],
+        "errorIndex": 5,
+        "correction": "should",
+        "type": "Short answer",
+        "message": "Repeat the modal: ‘Yes, you should’."
+      },
+      {
+        "tokens": [
+          "It’s",
+          "the",
+          "law",
+          "—",
+          "you",
+          "should",
+          "stop",
+          "at",
+          "a",
+          "red",
+          "light."
+        ],
+        "errorIndex": 5,
+        "correction": "must",
+        "type": "Should or must",
+        "message": "A law is an obligation: ‘you must stop’."
+      },
+      {
+        "tokens": [
+          "You",
+          "ought",
+          "not",
+          "eat",
+          "so",
+          "late."
+        ],
+        "errorIndex": 3,
+        "correction": "to eat",
+        "type": "Ought not",
+        "message": "Negative: ‘ought not to eat’."
+      },
+      {
+        "tokens": [
+          "The",
+          "bus",
+          "should",
+          "arrives",
+          "soon."
+        ],
+        "errorIndex": 3,
+        "correction": "arrive",
+        "type": "Expectation",
+        "message": "After ‘should’ use the base verb: ‘arrive’."
+      },
+      {
+        "tokens": [
+          "I",
+          "think",
+          "you",
+          "will",
+          "try",
+          "this",
+          "restaurant",
+          "—",
+          "it’s",
+          "great."
+        ],
+        "errorIndex": 3,
+        "correction": "should",
+        "type": "Wrong modal",
+        "message": "A recommendation uses ‘should’: ‘I think you should try…’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which advice phrase, multiple choice and spot-the-mistake. In the typing questions write should, shouldn’t, ought to or the base verb. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "phrase": "Advice phrases",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "phrase",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Advice",
+        "sentText": "You {{blank}} drink more water when it’s hot.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "Good advice: should + base verb, no ‘to’.",
+        "wrongNote": "Advice → ‘should’."
+      },
+      {
+        "type": "fill",
+        "use": "Negative",
+        "sentText": "You {{blank}} swim straight after lunch.",
+        "hint": "should / shouldn’t",
+        "answers": [
+          "shouldn’t",
+          "shouldn't",
+          "shouldnt",
+          "should not"
+        ],
+        "display": "shouldn’t",
+        "explain": "Advice not to do something: shouldn’t.",
+        "wrongNote": "Bad idea → ‘shouldn’t’."
+      },
+      {
+        "type": "fill",
+        "use": "Ought to",
+        "sentText": "We {{blank}} leave a tip for the waiter.",
+        "hint": "ought to",
+        "answers": [
+          "ought to"
+        ],
+        "display": "ought to",
+        "explain": "‘Ought’ always takes ‘to’: ought to leave.",
+        "wrongNote": "Write ‘ought to’."
+      },
+      {
+        "type": "fill",
+        "use": "Asking",
+        "sentText": "What {{blank}} I say to her?",
+        "hint": "should",
+        "answers": [
+          "should"
+        ],
+        "display": "should",
+        "explain": "Asking for advice: What should I…?",
+        "wrongNote": "Question → ‘should’ before the subject."
+      },
+      {
+        "type": "order",
+        "use": "Advice",
+        "tokens": [
+          "You",
+          "should",
+          "try",
+          "it."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Asking",
+        "tokens": [
+          "Should",
+          "I",
+          "wear",
+          "a",
+          "jacket?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Had better",
+        "tokens": [
+          "You’d",
+          "better",
+          "go",
+          "now."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Ought to",
+        "tokens": [
+          "We",
+          "ought",
+          "to",
+          "help",
+          "her."
+        ]
+      },
+      {
+        "type": "phrase",
+        "use": "Had better",
+        "text": "There’s a storm coming — you {{blank}} stay inside!",
+        "choices": [
+          "’d better to",
+          "’d better",
+          "better",
+          "should to"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "No ‘to’ after ‘had better’.",
+          "",
+          "It needs ‘had’: ‘you’d better’.",
+          "No ‘to’ after ‘should’."
+        ],
+        "explain": "‘Had better’ = strong advice with a warning."
+      },
+      {
+        "type": "phrase",
+        "use": "If I were you",
+        "text": "{{blank}}, I’d talk to her.",
+        "choices": [
+          "If I am you",
+          "When I were you",
+          "If I would be you",
+          "If I were you"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘If I am you’ is impossible.",
+          "‘When’ doesn’t work for imaginary advice.",
+          "No ‘would’ in the if-clause.",
+          ""
+        ],
+        "explain": "Fixed phrase: If I were you, I’d…"
+      },
+      {
+        "type": "phrase",
+        "use": "Why don’t you",
+        "text": "{{blank}} ask your sister to help you?",
+        "choices": [
+          "Why don’t you",
+          "Why you don’t",
+          "Why not you",
+          "Why do you not to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Question order: ‘Why don’t you…?’.",
+          "‘Why not you’ is wrong; ‘Why not ask’ is possible.",
+          "No ‘to’ here."
+        ],
+        "explain": "‘Why don’t you’ + base verb = friendly advice."
+      },
+      {
+        "type": "phrase",
+        "use": "Should or must",
+        "text": "Which is advice, not a rule?",
+        "choices": [
+          "You must wear a seatbelt.",
+          "You mustn’t smoke here.",
+          "You should eat more fruit.",
+          "You have to show your ID."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "That’s a law: obligation.",
+          "That’s a prohibition.",
+          "",
+          "That’s an external rule."
+        ],
+        "explain": "‘Should’ gives advice or an opinion."
+      },
+      {
+        "type": "mc",
+        "use": "Base verb",
+        "text": "My brother should {{blank}} his room.",
+        "choices": [
+          "tidies",
+          "to tidy",
+          "tidy",
+          "tidying"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "No -s after ‘should’.",
+          "No ‘to’ after ‘should’.",
+          "",
+          "No -ing after ‘should’."
+        ],
+        "explain": "Should + base verb."
+      },
+      {
+        "type": "mc",
+        "use": "Question",
+        "text": "{{blank}} we book a table?",
+        "choices": [
+          "Should",
+          "Do we should",
+          "Ought",
+          "Are we should"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No ‘do’ with modals.",
+          "‘Ought we book’ needs ‘to’ and is rare.",
+          "‘Are we should’ is impossible."
+        ],
+        "explain": "Question: Should we…?"
+      },
+      {
+        "type": "mc",
+        "use": "Expectation",
+        "text": "Don’t worry, it {{blank}} be a problem.",
+        "choices": [
+          "mustn’t",
+          "oughtn’t",
+          "doesn’t should",
+          "shouldn’t"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Mustn’t’ means it’s forbidden.",
+          "‘Oughtn’t’ needs ‘to’ and is rare.",
+          "No ‘do’ with modals.",
+          ""
+        ],
+        "explain": "Expecting no problem: shouldn’t be."
+      },
+      {
+        "type": "mc",
+        "use": "Ought to",
+        "text": "You {{blank}} thank her for the present.",
+        "choices": [
+          "ought",
+          "ought to",
+          "should to",
+          "oughts"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Ought’ needs ‘to’.",
+          "",
+          "No ‘to’ after ‘should’.",
+          "No -s on modals."
+        ],
+        "explain": "Ought + to + base verb."
+      },
+      {
+        "type": "error",
+        "use": "Past after should",
+        "tokens": [
+          "You",
+          "should",
+          "rested."
+        ],
+        "errorIndex": 2,
+        "correction": "rest",
+        "message": "After ‘should’ use the base verb: ‘You should rest’."
+      },
+      {
+        "type": "error",
+        "use": "Missing to",
+        "tokens": [
+          "We",
+          "ought",
+          "leave",
+          "now."
+        ],
+        "errorIndex": 2,
+        "correction": "to leave",
+        "message": "‘Ought’ needs ‘to’: ‘ought to leave’."
+      },
+      {
+        "type": "error",
+        "use": "-ing after a modal",
+        "tokens": [
+          "Where",
+          "should",
+          "we",
+          "going?"
+        ],
+        "errorIndex": 3,
+        "correction": "go",
+        "message": "After ‘should’ use the base verb: ‘Where should we go?’."
+      },
+      {
+        "type": "error",
+        "use": "-s after a modal",
+        "tokens": [
+          "She",
+          "should",
+          "gets",
+          "more",
+          "sleep."
+        ],
+        "errorIndex": 2,
+        "correction": "get",
+        "message": "After ‘should’ use the base verb."
+      }
+    ]
+  }
+}
