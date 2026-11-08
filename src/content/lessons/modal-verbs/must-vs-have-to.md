@@ -26,38 +26,90 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "Must & Have to", href: "/grammar/modal-verbs/must-have-to-obligation/" }
   - { title: "Can't vs Mustn't", href: "/grammar/modal-verbs/cant-vs-mustnt/" }
+next: { title: "Can’t vs Mustn’t", href: "/grammar/modal-verbs/cant-vs-mustnt/" }
 draft: false
 ---
 
-## The difference in one table
+## How the two forms compare
 
-| | Must | Have to |
+| | *must* | *have to* |
 |---|---|---|
-| Obligation from | the speaker (feeling / stated rule) | outside (law, job, others) |
-| Past form | — (use *had to*) | had to |
-| Negative | mustn't = forbidden | don't have to = not necessary |
-| Example | **I must call** the doctor. | **I have to wear** a uniform. |
+| Type of verb | modal (no -s, no do) | normal verb (has to, do/does/did) |
+| Who decides? | the **speaker** | someone **else**: rules, laws, situation |
+| Past | — | **had to** |
+| Future | — | **will have to** |
+| Negative meaning | **mustn't** = forbidden | **don't have to** = not necessary |
 
-Use *must* when the push comes from **you**; use *have to* when it comes from **the world around you**.
+In the present affirmative, both mean "it's necessary". The choice depends on **where the obligation comes from**.
 
-## When to use each
+## When to use *must*
 
-### Must — the speaker's own obligation
+### 1. The speaker's own feeling or decision
 
-- **I must stop** eating so late. (I feel it)
-- **You must show** your badge. (a rule I'm stating)
+- I **must** stop eating so much sugar. (my decision)
+- I **must** remember to call Laia. (a note to myself)
 
-### Have to — outside obligation
+> ⚠️ Typical error: ~~I have to remember to call Laia.~~ → Possible, but for a personal reminder *must* sounds more natural.
 
-- **We have to file** taxes by April. (the law)
-- **He has to travel** a lot for work. (his job)
+### 2. Strong advice or recommendations
 
-> ⚠️ The negatives are opposites: *You mustn't tell her* (don't — it's a secret) vs *You don't have to tell her* (you can if you want, but it's not required).
+- You **must** come and visit us!
+- You **must** read this book — it's fantastic.
+
+> ⚠️ Typical error: ~~You have to see this film!~~ → Not wrong in speech, but *must* is the classic choice for an enthusiastic recommendation.
+
+### 3. Formal written rules
+
+Signs, notices and instructions often use *must* because the writer is the authority.
+
+- Passengers **must** keep their luggage with them.
+- Answers **must** be written in pen.
+
+## When to use *have to*
+
+### 1. Rules and laws from outside
+
+- I **have to** wear a uniform. (the school's rule)
+- In Spain, you **have to** be 18 to vote. (the law)
+
+> ⚠️ Typical error: ~~I must wear a uniform at my school.~~ → Not wrong, but when you report a rule someone else made, *have to* is more natural.
+
+### 2. Talking about other people's obligations
+
+- My sister **has to** work on Sundays.
+- Do doctors **have to** work at night?
+
+### 3. Past, future and other forms
+
+| Tense | Example |
+|---|---|
+| past | I **had to** get up at six yesterday. |
+| future | You**'ll have to** wait. |
+| after *might / may* | We **might have to** cancel. |
+| -ing / infinitive | I hate **having to** queue. |
+
+## The negatives: a big difference
+
+| Sentence | Meaning |
+|---|---|
+| You **mustn't** tell her. | Don't tell her! It's forbidden. |
+| You **don't have to** tell her. | You can tell her or not — it's your choice. |
+
+## Questions
+
+*Must I…?* exists but is rare and formal. In everyday English we ask with *have to*.
+
+- **Do** I **have to** finish this today?
+- **Does** he **have to** come?
 
 ## Common mistakes
 
-**1. Using 'must' for the past.** *~~I must work late yesterday~~* → **I had to work late yesterday.**
+**1. *Must* for the past.** *~~I must work yesterday~~* → **I had to work yesterday.**
 
-**2. Swapping the negatives.** *~~You mustn't come if you're busy~~* (meaning it's optional) → **You don't have to come if you're busy.**
+**2. *Mustn't* for "not necessary".** *~~You mustn't bring anything~~* (when it's optional) → **You don't have to bring anything.**
 
-**3. Adding 'to' after 'must'.** *~~You must to sign here~~* → **You must sign here. Pro tip:** from me = must; from outside = have to; past = had to.
+**3. *Have to* without *do* in questions.** *~~Have you to go?~~* → **Do you have to go?**
+
+**4. *Will must*.** *~~I will must study~~* → **I will have to study.**
+
+**Pro tip:** *must* = "I say so"; *have to* = "the rules say so".
