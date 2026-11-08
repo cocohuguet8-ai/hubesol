@@ -29,43 +29,90 @@ related:
   - { title: "All about articles", href: "/grammar/articles/" }
   - { title: "A vs An", href: "/grammar/articles/a-vs-an/" }
   - { title: "A/An vs The", href: "/grammar/articles/a-an-vs-the/" }
+next: { title: "The: the definite article", href: "/grammar/articles/definite-article-the/" }
 draft: false
 ---
 
-## How to use a/an
+## What is the indefinite article?
 
-Use **a/an** with a **singular countable** noun. It means the thing is not specific — one of many, or new to the listener.
+**A** and **an** go before a **singular countable noun** when we don't mean one specific thing. (Choose *a* or *an* by the first **sound** of the next word.)
 
 | Use | Example |
 |---|---|
-| First mention | I read **a** book about Rome. |
-| One of many | Can I have **a** chair? |
-| Jobs and roles | She's **an** engineer. |
-| Meaning 'one' | Wait **a** minute. |
-| Exclamations | What **a** view! |
+| First mention | I saw **a** dog in the park. |
+| Jobs | She's **a** nurse. |
+| One of many | He's **a** friend of mine. |
+| "One" | I need **a** pen. |
+| Per / every | twice **a** week, 50 km **an** hour |
+| Exclamations | What **a** day! |
 
-Choose **a** or **an** by the following sound (a dog, an apple).
+## When to use a / an
 
-## When to use it
+### 1. First mention
 
-### 1. First time you mention something
+When we talk about something for the first time, the listener doesn't know which one yet.
 
-- **A** dog ran past. (Later: *The dog* was huge.)
+- I bought **a** new jacket yesterday.
+- There's **a** cat on the roof.
 
 ### 2. Jobs and roles
 
-- My sister is **a** lawyer and my brother is **an** actor.
+In English, jobs always need an article.
 
-### 3. Common expressions with 'one'
+- My mum is **a** teacher. — He wants to be **an** engineer.
 
-- It costs **a** euro. We meet once **a** week.
+> ⚠️ Typical error: ~~She is doctor.~~ → *She is a doctor.*
 
-> ⚠️ Don't use a/an with plural or uncountable nouns: *~~a shoes~~* → **shoes / a pair of shoes**; *~~an information~~* → **information / a piece of information**.
+### 3. One of a group
+
+- Lisbon is **a** beautiful city. (one of many beautiful cities)
+- It's **an** old song.
+
+### 4. Meaning "one"
+
+- I'd like **a** coffee, please. — Wait **a** minute.
+
+### 5. Per (time, speed, price)
+
+- I go swimming three times **a** week.
+- Apples are two euros **a** kilo.
+
+### 6. Exclamations with *what*
+
+- What **a** great idea! — What **an** amazing view!
+
+## When NOT to use a / an
+
+### 1. Plural nouns
+
+- ~~a books~~ → **books** / **some books**
+
+### 2. Uncountable nouns
+
+- ~~a water~~, ~~an information~~, ~~an advice~~ → **some water**, **some information**, **a piece of advice**
+
+> ⚠️ Typical error: ~~Can you give me an advice?~~ → *Can you give me some advice?*
+
+### 3. Before a possessive
+
+- ~~a my friend~~ → **a friend of mine** / **my friend**
+
+## Have / There is + a / an
+
+| Pattern | Example |
+|---|---|
+| have got + a | I've got **a** brother. |
+| there is + a | There's **a** bank near here. |
+| Is there + a | Is there **a** café? |
 
 ## Common mistakes
 
-**1. Dropping the article before a job.** *~~She is teacher~~* → **She is a teacher.**
+**1. No article with jobs.** *~~He's mechanic.~~* → **He's a mechanic.**
 
-**2. Using a/an with uncountables.** *~~Can I give you an advice?~~* → **Can I give you some advice?**
+**2. A with plurals.** *~~I have a cats.~~* → **I have cats.**
 
-**3. Using a/an with plurals.** *~~I bought a trousers~~* → **I bought some trousers. Pro tip:** a/an = one countable thing; for plurals or uncountables, use 'some' or no article.
+**3. A with uncountables.** *~~a homework~~* → **some homework**.
+
+**4. Missing article with singular nouns.** *~~I have car.~~* → **I have a car.**
+
+**Pro tip:** a singular countable noun almost never stands alone — it needs **a/an**, **the**, or a word like **my**.
