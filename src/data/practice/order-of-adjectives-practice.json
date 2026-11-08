@@ -920,35 +920,108 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word that is in the wrong place or wrong form. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake with an adjective. Tap the word you think is wrong. Twenty original sentences.",
     "items": [
       {
         "tokens": [
           "I",
-          "have",
+          "bought",
           "a",
-          "black",
           "small",
-          "dog."
+          "brown",
+          "wood",
+          "box."
         ],
-        "errorIndex": 3,
-        "correction": "very",
-        "type": "Colour before size",
-        "message": "Size before colour: ‘a small black dog’."
+        "errorIndex": 5,
+        "correction": "wooden",
+        "type": "Material form",
+        "message": "As an adjective, ‘wood’ becomes ‘wooden’: ‘a small brown wooden box’."
       },
       {
         "tokens": [
           "She",
           "wore",
           "a",
-          "red",
           "lovely",
-          "dress."
+          "red",
+          "wool",
+          "jumper."
         ],
-        "errorIndex": 3,
-        "correction": "really",
-        "type": "Colour before opinion",
-        "message": "Opinion before colour: ‘a lovely red dress’."
+        "errorIndex": 5,
+        "correction": "woollen",
+        "type": "Material form",
+        "message": "The adjective is ‘woollen’: ‘a lovely red woollen jumper’."
+      },
+      {
+        "tokens": [
+          "He",
+          "has",
+          "a",
+          "beautiful",
+          "old",
+          "gold",
+          "ring."
+        ],
+        "errorIndex": 5,
+        "correction": "golden",
+        "type": "Material form",
+        "message": "Here we need the adjective ‘golden’ (‘gold ring’ as a compound is also common)."
+      },
+      {
+        "tokens": [
+          "We",
+          "had",
+          "a",
+          "delicious",
+          "Italy",
+          "dinner."
+        ],
+        "errorIndex": 4,
+        "correction": "Italian",
+        "type": "Origin form",
+        "message": "Origin adjective: ‘Italian’, not the country name."
+      },
+      {
+        "tokens": [
+          "She",
+          "drives",
+          "an",
+          "old",
+          "Germany",
+          "car."
+        ],
+        "errorIndex": 4,
+        "correction": "German",
+        "type": "Origin form",
+        "message": "Origin adjective: ‘German’. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
+      },
+      {
+        "tokens": [
+          "I",
+          "love",
+          "this",
+          "cheap",
+          "France",
+          "wine."
+        ],
+        "errorIndex": 4,
+        "correction": "French",
+        "type": "Origin form",
+        "message": "Origin adjective: ‘French’. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "a",
+          "beautiful",
+          "China",
+          "vase."
+        ],
+        "errorIndex": 4,
+        "correction": "Chinese",
+        "type": "Origin form",
+        "message": "Origin adjective: ‘Chinese’. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
       },
       {
         "tokens": [
@@ -956,165 +1029,98 @@
           "live",
           "in",
           "a",
-          "grey",
-          "big",
-          "house."
+          "lovely",
+          "old",
+          "Spain",
+          "village."
+        ],
+        "errorIndex": 6,
+        "correction": "Spanish",
+        "type": "Origin form",
+        "message": "Origin adjective: ‘Spanish’. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
+      },
+      {
+        "tokens": [
+          "They",
+          "have",
+          "two",
+          "small",
+          "blacks",
+          "cats."
         ],
         "errorIndex": 4,
-        "correction": "really",
-        "type": "Colour before size",
-        "message": "Size before colour: ‘a big grey house’ (or ‘a really big house’)."
-      },
-      {
-        "tokens": [
-          "He",
-          "bought",
-          "a",
-          "new",
-          "nice",
-          "phone."
-        ],
-        "errorIndex": 3,
-        "correction": "really",
-        "type": "Age before opinion",
-        "message": "Opinion before age: ‘a nice new phone’ (or ‘a really nice phone’)."
-      },
-      {
-        "tokens": [
-          "I",
-          "bought",
-          "a",
-          "wooden",
-          "brown",
-          "box."
-        ],
-        "errorIndex": 3,
-        "correction": "small",
-        "type": "Material before colour",
-        "message": "Colour before material: ‘a brown wooden box’ (or ‘a small brown box’)."
+        "correction": "black",
+        "type": "Plural adjective",
+        "message": "Adjectives never take -s in English. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
       },
       {
         "tokens": [
           "She",
-          "has",
-          "a",
-          "silk",
-          "Chinese",
-          "scarf."
+          "bought",
+          "some",
+          "lovely",
+          "news",
+          "shoes."
         ],
-        "errorIndex": 3,
-        "correction": "beautiful",
-        "type": "Material before origin",
-        "message": "Origin before material: ‘a Chinese silk scarf’."
-      },
-      {
-        "tokens": [
-          "He",
-          "drives",
-          "a",
-          "German",
-          "old",
-          "car."
-        ],
-        "errorIndex": 3,
-        "correction": "very",
-        "type": "Origin before age",
-        "message": "Age before origin: ‘an old German car’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
+        "errorIndex": 4,
+        "correction": "new",
+        "type": "Plural adjective",
+        "message": "Adjectives never take -s. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
       },
       {
         "tokens": [
           "We",
-          "have",
-          "a",
-          "round",
-          "small",
-          "table."
-        ],
-        "errorIndex": 3,
-        "correction": "very",
-        "type": "Shape before size",
-        "message": "Size before shape: ‘a small round table’."
-      },
-      {
-        "tokens": [
-          "He",
-          "wore",
-          "a",
-          "grey",
+          "saw",
+          "three",
+          "bigs",
           "old",
-          "coat."
+          "trees."
         ],
         "errorIndex": 3,
-        "correction": "warm",
-        "type": "Colour before age",
-        "message": "Age before colour: ‘an old grey coat’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
-      },
-      {
-        "tokens": [
-          "We",
-          "had",
-          "an",
-          "Italian",
-          "delicious",
-          "dinner."
-        ],
-        "errorIndex": 3,
-        "correction": "absolutely",
-        "type": "Origin before opinion",
-        "message": "Opinion before origin: ‘a delicious Italian dinner’."
-      },
-      {
-        "tokens": [
-          "It’s",
-          "a",
-          "plastic",
-          "tiny",
-          "toy."
-        ],
-        "errorIndex": 2,
-        "correction": "really",
-        "type": "Material before size",
-        "message": "Size before material: ‘a tiny plastic toy’."
+        "correction": "big",
+        "type": "Plural adjective",
+        "message": "Adjectives never take -s: ‘three big old trees’."
       },
       {
         "tokens": [
           "I",
           "need",
-          "running",
-          "new",
-          "shoes."
+          "two",
+          "reds",
+          "cotton",
+          "T-shirts."
         ],
-        "errorIndex": 2,
-        "correction": "some",
-        "type": "Purpose not last",
-        "message": "Purpose goes next to the noun: ‘new running shoes’."
+        "errorIndex": 3,
+        "correction": "red",
+        "type": "Plural adjective",
+        "message": "Adjectives never take -s: ‘two red cotton T-shirts’."
+      },
+      {
+        "tokens": [
+          "It’s",
+          "a",
+          "old",
+          "wooden",
+          "house."
+        ],
+        "errorIndex": 1,
+        "correction": "an",
+        "type": "Article",
+        "message": "The article goes with the first adjective: ‘old’ starts with a vowel sound → ‘an old wooden house’."
       },
       {
         "tokens": [
           "She",
           "has",
-          "a",
-          "blonde",
-          "long",
-          "ponytail."
-        ],
-        "errorIndex": 3,
-        "correction": "lovely",
-        "type": "Colour before shape",
-        "message": "Shape/length before colour: ‘a long blonde ponytail’."
-      },
-      {
-        "tokens": [
-          "What",
-          "a",
-          "big",
+          "an",
           "beautiful",
-          "garden!"
+          "old",
+          "car."
         ],
         "errorIndex": 2,
-        "correction": "really",
-        "type": "Size before opinion",
-        "message": "Opinion before size: ‘a beautiful big garden’."
+        "correction": "a",
+        "type": "Article",
+        "message": "The first adjective is ‘beautiful’ (consonant sound) → ‘a beautiful old car’."
       },
       {
         "tokens": [
@@ -1127,7 +1133,7 @@
         "errorIndex": 4,
         "correction": "and boring",
         "type": "Missing and",
-        "message": "After ‘be’: ‘long and boring’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
+        "message": "After ‘be’, join two adjectives with ‘and’: ‘long and boring’."
       },
       {
         "tokens": [
@@ -1139,59 +1145,65 @@
         "errorIndex": 3,
         "correction": "and friendly",
         "type": "Missing and",
-        "message": "After ‘seem’: ‘kind and friendly’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
+        "message": "After ‘seem’, join two adjectives with ‘and’: ‘kind and friendly’."
       },
       {
         "tokens": [
-          "I",
-          "bought",
-          "a",
-          "dress",
-          "red."
+          "The",
+          "room",
+          "looks",
+          "clean",
+          "bright."
         ],
         "errorIndex": 4,
-        "correction": "too",
-        "type": "Adjective after noun",
-        "message": "Adjectives go before the noun: ‘a red dress’."
+        "correction": "and bright",
+        "type": "Missing and",
+        "message": "After ‘look’, join two adjectives with ‘and’: ‘clean and bright’."
       },
       {
         "tokens": [
-          "He",
-          "has",
+          "It",
+          "was",
           "a",
-          "car",
-          "fast."
+          "long",
+          "and",
+          "bored",
+          "film."
         ],
-        "errorIndex": 4,
-        "correction": "too",
-        "type": "Adjective after noun",
-        "message": "Adjectives go before the noun: ‘a fast car’."
+        "errorIndex": 5,
+        "correction": "boring",
+        "type": "-ed / -ing",
+        "message": "The film causes the feeling: ‘boring’ (people feel ‘bored’)."
       },
       {
         "tokens": [
-          "They",
-          "have",
-          "two",
-          "blacks",
-          "cats."
+          "What",
+          "an",
+          "interested",
+          "old",
+          "building!"
         ],
-        "errorIndex": 3,
-        "correction": "black",
-        "type": "Plural adjective",
-        "message": "Adjectives never take -s in English. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
+        "errorIndex": 2,
+        "correction": "interesting",
+        "type": "-ed / -ing",
+        "message": "The building causes the feeling: ‘interesting’."
       },
       {
         "tokens": [
-          "She",
-          "bought",
-          "some",
-          "news",
-          "shoes."
+          "The",
+          "kids",
+          "were",
+          "tired",
+          "and",
+          "exciting",
+          "after",
+          "the",
+          "trip."
         ],
-        "errorIndex": 3,
-        "correction": "new",
-        "type": "Plural adjective",
-        "message": "Adjectives never take -s. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
+        "errorIndex": 5,
+        "correction": "excited",
+        "type": "-ed / -ing",
+        "message": "People feel ‘excited’; a thing is ‘exciting’."
       }
     ]
   },
@@ -1361,7 +1373,7 @@
           "Material is near the end.",
           "Origin is near the end."
         ],
-        "explain": "Opinion first."
+        "explain": "Opinion first. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
       },
       {
         "type": "category",
@@ -1460,54 +1472,55 @@
       },
       {
         "type": "error",
-        "use": "Colour before size",
+        "use": "Origin form",
+        "tokens": [
+          "I",
+          "love",
+          "Japan",
+          "food."
+        ],
+        "errorIndex": 2,
+        "correction": "Japanese",
+        "message": "Origin adjective: ‘Japanese’. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
+      },
+      {
+        "type": "error",
+        "use": "Material form",
         "tokens": [
           "A",
-          "white",
           "big",
-          "cat."
+          "glasses",
+          "bottle."
         ],
-        "errorIndex": 1,
-        "correction": "fluffy",
-        "message": "Size before colour: ‘a big white cat’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
-      },
-      {
-        "type": "error",
-        "use": "Age before opinion",
-        "tokens": [
-          "A",
-          "new",
-          "lovely",
-          "song."
-        ],
-        "errorIndex": 1,
-        "correction": "really",
-        "message": "Opinion before age: ‘a lovely new song’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
-      },
-      {
-        "type": "error",
-        "use": "Material before colour",
-        "tokens": [
-          "A",
-          "metal",
-          "black",
-          "chair."
-        ],
-        "errorIndex": 1,
-        "correction": "comfortable",
-        "message": "Colour before material: ‘a black metal chair’."
+        "errorIndex": 2,
+        "correction": "glass",
+        "message": "Material before a noun: ‘glass’ (‘glasses’ are spectacles)."
       },
       {
         "type": "error",
         "use": "Plural adjective",
         "tokens": [
           "Two",
-          "reds",
-          "cars."
+          "whites",
+          "rabbits."
         ],
         "errorIndex": 1,
-        "correction": "red",
-        "message": "Adjectives never take -s. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
+        "correction": "white",
+        "message": "Adjectives never take -s. Check the adjective’s form: no plural -s, and the right adjective (not the noun or country)."
+      },
+      {
+        "type": "error",
+        "use": "Article",
+        "tokens": [
+          "It’s",
+          "a",
+          "amazing",
+          "old",
+          "castle."
+        ],
+        "errorIndex": 1,
+        "correction": "an",
+        "message": "‘Amazing’ starts with a vowel sound: ‘an amazing old castle’."
       }
     ]
   }
