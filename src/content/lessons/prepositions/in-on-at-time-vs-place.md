@@ -29,38 +29,91 @@ related:
   - { title: "All about prepositions", href: "/grammar/prepositions/" }
   - { title: "Prepositions of Time: at/on/in", href: "/grammar/prepositions/prepositions-of-time/" }
   - { title: "Prepositions of Place: at/on/in", href: "/grammar/prepositions/prepositions-of-place/" }
+next: { title: "Prepositions of Movement", href: "/grammar/prepositions/prepositions-of-movement/" }
 draft: false
 ---
 
-## in, on, at — one logic, two uses
+## The same three words, two jobs
 
-Go from **small to big**: *at* is the most precise, *in* is the broadest.
+*In, on* and *at* work for both **time** and **place**. The logic is similar: **at** = a point, **on** = a surface or a day, **in** = something bigger that surrounds you.
 
-| | at (point) | on (day / surface) | in (period / space) |
-|---|---|---|---|
-| Time | at 6 o'clock, at night | on Monday, on 5 May | in July, in 2025, in the morning |
-| Place | at the door, at home | on the table, on the wall | in the box, in London |
+| | Time | Place |
+|---|---|---|
+| **at** | at 6 o'clock, at night, at Christmas | at the door, at school, at a party |
+| **on** | on Monday, on 3 May, on my birthday | on the table, on the wall, on the bus |
+| **in** | in July, in 2026, in the morning | in the box, in the kitchen, in Girona |
 
-## When to use each
+## *At*: points
 
-### 1. at — the exact point
+### 1. Time: an exact moment
 
-- Time: The class starts **at** 9. · Place: Wait **at** the gate.
+- The train leaves **at** 10.15.
+- I'm free **at** lunchtime.
 
-### 2. on — a day or a surface
+### 2. Place: a specific point or activity
 
-- Time: We travel **on** Saturday. · Place: It's **on** the shelf.
+- I'll meet you **at** the station.
+- She's **at** work.
 
-### 3. in — a longer period or an enclosed space
+> ⚠️ Typical error: ~~I'll meet you in 10.15 in the station.~~ → *at 10.15 at the station.*
 
-- Time: I was born **in** May. · Place: She's **in** the kitchen.
+## *On*: days and surfaces
 
-> ⚠️ Fixed phrases break the pattern: *at night, in the morning, at home, on the bus, in bed*. Learn these separately.
+### 1. Time: days and dates
+
+- My exam is **on** Thursday.
+- We married **on** 21 June.
+
+### 2. Place: surfaces, lines and public transport
+
+- Your glasses are **on** the sofa.
+- I read **on** the train.
+
+> ⚠️ Typical error: ~~on July on the table~~ → *in July*, but *on the table*.
+
+## *In*: bigger periods and spaces
+
+### 1. Time: months, years, seasons, parts of the day
+
+- It snows **in** winter.
+- I study **in** the evening.
+
+### 2. Place: enclosed spaces, towns, countries
+
+- The cat is **in** the box.
+- They live **in** Portugal.
+
+> ⚠️ Typical error: ~~at the morning at Barcelona~~ → *in the morning in Barcelona.*
+
+## Mixing time and place in one sentence
+
+The usual order in English is **place before time**.
+
+- We had lunch **at** a café **on** Sunday.
+- She was born **in** Girona **in** 2010.
+- I'll see you **at** the gym **at** six.
+
+## Exceptions to remember
+
+| Time | Place |
+|---|---|
+| **at** night (not *in*) | **at** home (not *in*) |
+| **in** the morning (but **on** Monday morning) | **in** bed / **in** hospital |
+| **at** the weekend (UK) / **on** the weekend (US) | **on** the corner (street) / **in** the corner (room) |
+
+## No preposition
+
+Time: **no** preposition before *next, last, this, every, today, tomorrow*.
+Place: **no** preposition before *home* after *go / come*: *I went home* (not ~~to home~~).
 
 ## Common mistakes
 
-**1. Mixing time rules.** *~~on July~~* → **in July**; *~~in Monday~~* → **on Monday.**
+**1. *In* for clock times.** *~~in 8 o'clock~~* → **at 8 o'clock.**
 
-**2. Mixing place rules.** *~~in the wall~~* (a picture) → **on the wall**; *~~in home~~* → **at home.**
+**2. *At* for cities.** *~~at London~~* → **in London.**
 
-**3. Over-thinking it.** **Pro tip:** ask "is this a precise point (at), a day/surface (on), or a broad period/space (in)?" — the same question works for time and place.
+**3. *In* for days.** *~~in Friday~~* → **on Friday.**
+
+**4. *In* for surfaces.** *~~in the floor~~* → **on the floor.**
+
+**Pro tip:** for both time and place, go from small to big — **at** (a point) → **on** (a day / a surface) → **in** (a period / a space).
