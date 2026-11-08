@@ -1,0 +1,1583 @@
+{
+  "tense": "by-vs-until",
+  "lessonTitle": "By vs Until",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "by",
+        "until",
+        "till"
+      ],
+      "label": null,
+      "primary": "by"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type by or until. Ask: a deadline for one action (by) or something that continues up to a time (until)? Twenty original sentences.",
+    "questions": [
+      {
+        "use": "By",
+        "before": "Please send me your homework",
+        "after": "Friday.",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "A deadline for one action (send) takes ‘by’: not later than Friday."
+      },
+      {
+        "use": "By",
+        "before": "The new bridge will be finished",
+        "after": "the end of the year.",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "Finished at some point before the deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "before": "You must be back home",
+        "after": "eleven o’clock.",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "A deadline (be back) takes ‘by’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "before": "The parcel should arrive",
+        "after": "Tuesday.",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "Arrive is one action before a deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "before": "I need to decide",
+        "after": "tomorrow morning.",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "Decide is one action with a deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "before": "Can you pay the rent",
+        "after": "the 5th?",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "A payment deadline: by the 5th. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "before": "I’ll wait for you",
+        "after": "six o’clock.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Waiting continues up to six: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "before": "The library is open",
+        "after": "9 p.m.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Being open continues up to 9: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "before": "We stayed at the beach",
+        "after": "sunset.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Staying continues up to sunset: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "before": "He worked in the bakery",
+        "after": "he retired.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Working continued up to that moment: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "before": "Let’s play",
+        "after": "it gets dark.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Playing continues up to darkness: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Not until",
+        "before": "I didn’t get up",
+        "after": "eleven.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Not … until = it didn’t happen before eleven. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Not until",
+        "before": "The shop doesn’t open",
+        "after": "ten.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Negative + until: it opens only at ten. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By the time",
+        "before": "",
+        "after": "the time we arrived, everyone had gone.",
+        "hint": "by / until",
+        "answers": [
+          "By"
+        ],
+        "display": "By",
+        "explain": "Fixed expression: by the time + clause. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By the time",
+        "before": "I’ll be ready by the",
+        "after": "you get here.",
+        "hint": "time",
+        "answers": [
+          "time"
+        ],
+        "display": "time",
+        "explain": "Fixed expression: by the time. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until + clause",
+        "before": "Wait here until I",
+        "after": "back.",
+        "hint": "(come)",
+        "answers": [
+          "come"
+        ],
+        "display": "come",
+        "explain": "After ‘until’ use the present simple for the future, not ‘will’."
+      },
+      {
+        "use": "Until + clause",
+        "before": "Don’t open your presents until everyone",
+        "after": ".",
+        "hint": "(arrive)",
+        "answers": [
+          "arrives"
+        ],
+        "display": "arrives",
+        "explain": "Present simple after ‘until’: arrives. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "before": "By next summer, I’ll",
+        "after": "finished my degree.",
+        "hint": "have",
+        "answers": [
+          "have"
+        ],
+        "display": "have",
+        "explain": "‘By’ is common with the future perfect: will have finished."
+      },
+      {
+        "use": "Until",
+        "before": "I’m on holiday",
+        "after": "next Monday.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Being on holiday continues up to Monday: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Till",
+        "before": "We danced",
+        "after": "two in the morning.",
+        "hint": "till / by",
+        "answers": [
+          "till",
+          "until"
+        ],
+        "display": "till",
+        "explain": "‘Till’ is an informal ‘until’: dancing continued up to two."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with by and until.",
+    "sentences": [
+      {
+        "use": "By",
+        "tokens": [
+          "Finish",
+          "it",
+          "by",
+          "Friday."
+        ]
+      },
+      {
+        "use": "By",
+        "tokens": [
+          "Be",
+          "home",
+          "by",
+          "ten."
+        ]
+      },
+      {
+        "use": "By",
+        "tokens": [
+          "The",
+          "parcel",
+          "will",
+          "arrive",
+          "by",
+          "Monday."
+        ]
+      },
+      {
+        "use": "By",
+        "tokens": [
+          "I",
+          "need",
+          "an",
+          "answer",
+          "by",
+          "tomorrow."
+        ]
+      },
+      {
+        "use": "By",
+        "tokens": [
+          "Send",
+          "the",
+          "form",
+          "by",
+          "the",
+          "end",
+          "of",
+          "May."
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "I",
+          "waited",
+          "until",
+          "six."
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "The",
+          "shop",
+          "is",
+          "open",
+          "until",
+          "eight."
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "We",
+          "stayed",
+          "until",
+          "midnight."
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "She",
+          "lived",
+          "there",
+          "until",
+          "2020."
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "Wait",
+          "until",
+          "I",
+          "come",
+          "back."
+        ]
+      },
+      {
+        "use": "Not until",
+        "tokens": [
+          "I",
+          "didn’t",
+          "sleep",
+          "until",
+          "two."
+        ]
+      },
+      {
+        "use": "Not until",
+        "tokens": [
+          "It",
+          "doesn’t",
+          "open",
+          "until",
+          "ten."
+        ]
+      },
+      {
+        "use": "Not until",
+        "tokens": [
+          "He",
+          "didn’t",
+          "call",
+          "until",
+          "Sunday."
+        ]
+      },
+      {
+        "use": "By the time",
+        "tokens": [
+          "By",
+          "the",
+          "time",
+          "I",
+          "arrived,",
+          "it",
+          "had",
+          "finished."
+        ],
+        "alts": [
+          [
+            "it",
+            "had",
+            "finished",
+            "by",
+            "the",
+            "time",
+            "I",
+            "arrived."
+          ]
+        ]
+      },
+      {
+        "use": "By the time",
+        "tokens": [
+          "I’ll",
+          "be",
+          "ready",
+          "by",
+          "the",
+          "time",
+          "you",
+          "come."
+        ]
+      },
+      {
+        "use": "Till",
+        "tokens": [
+          "We",
+          "talked",
+          "till",
+          "late."
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "Keep",
+          "going",
+          "until",
+          "you",
+          "see",
+          "the",
+          "bank."
+        ]
+      },
+      {
+        "use": "By",
+        "tokens": [
+          "By",
+          "next",
+          "year",
+          "I’ll",
+          "be",
+          "eighteen."
+        ],
+        "alts": [
+          [
+            "I’ll",
+            "be",
+            "eighteen",
+            "by",
+            "next",
+            "year."
+          ]
+        ]
+      },
+      {
+        "use": "Until",
+        "tokens": [
+          "I’m",
+          "busy",
+          "until",
+          "Thursday."
+        ]
+      },
+      {
+        "use": "By",
+        "tokens": [
+          "The",
+          "work",
+          "must",
+          "be",
+          "done",
+          "by",
+          "noon."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "By or until?",
+    "subtitle": "Tap a sentence start, then tap the word that fits.",
+    "leftLabel": "Sentence start",
+    "rightLabel": "Word",
+    "rightLabelSub": "(by / until)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "Hand in your essay ___ Monday.",
+        "right": "by"
+      },
+      {
+        "left": "I’ll wait ___ you arrive.",
+        "right": "until"
+      },
+      {
+        "left": "Be home ___ ten.",
+        "right": "by"
+      },
+      {
+        "left": "The shop is open ___ eight.",
+        "right": "until"
+      },
+      {
+        "left": "Pay the bill ___ the 1st.",
+        "right": "by"
+      },
+      {
+        "left": "We stayed ___ midnight.",
+        "right": "until"
+      },
+      {
+        "left": "The parcel will come ___ Friday.",
+        "right": "by"
+      },
+      {
+        "left": "I slept ___ noon.",
+        "right": "until"
+      },
+      {
+        "left": "Finish the report ___ 5 p.m.",
+        "right": "by"
+      },
+      {
+        "left": "She worked there ___ 2019.",
+        "right": "until"
+      },
+      {
+        "left": "Decide ___ tomorrow.",
+        "right": "by"
+      },
+      {
+        "left": "Keep walking ___ you see a church.",
+        "right": "until"
+      },
+      {
+        "left": "I need it ___ Thursday.",
+        "right": "by"
+      },
+      {
+        "left": "I didn’t wake up ___ ten.",
+        "right": "until"
+      },
+      {
+        "left": "Return the book ___ next week.",
+        "right": "by"
+      },
+      {
+        "left": "Let’s play ___ it gets dark.",
+        "right": "until"
+      },
+      {
+        "left": "Reply ___ the end of the day.",
+        "right": "by"
+      },
+      {
+        "left": "I’m away ___ Sunday.",
+        "right": "until"
+      },
+      {
+        "left": "Be ready ___ six.",
+        "right": "by"
+      },
+      {
+        "left": "The film lasts ___ eleven.",
+        "right": "until"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. By = a deadline (one action, not later than); until = something continues up to that time.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "By",
+        "text": "You must return the library books <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Friday.",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "for"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Until Friday’ would mean you keep returning them up to Friday.",
+          "‘Since’ means from a past point until now.",
+          "‘For’ is for a length of time."
+        ],
+        "explain": "A deadline for one action: by Friday = not later than Friday."
+      },
+      {
+        "use": "Until",
+        "text": "I’ll wait for you here <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> five o’clock.",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "during"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘By five’ is a deadline, but waiting continues up to five.",
+          "",
+          "‘Since’ is for a past starting point.",
+          "‘During’ needs a period noun."
+        ],
+        "explain": "A continuous action up to a time: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "text": "The museum is open <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 7 p.m. on Saturdays.",
+        "choices": [
+          "by",
+          "at",
+          "until",
+          "since"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Open by 7’ would mean it opens before 7.",
+          "‘At 7’ is a point in time.",
+          "",
+          "‘Since’ is wrong here."
+        ],
+        "explain": "Being open continues up to 7: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "text": "The repairs will be finished <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the end of the month.",
+        "choices": [
+          "until",
+          "since",
+          "during",
+          "by"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Until the end’ would mean finishing continues — but ‘finish’ is one moment.",
+          "‘Since’ is wrong.",
+          "‘During’ changes the meaning.",
+          ""
+        ],
+        "explain": "Finish = one action before a deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Not until",
+        "text": "I didn’t go to bed <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 1 a.m.",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "for"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Didn’t … by 1 a.m.’ means you weren’t in bed at 1 a.m.",
+          "",
+          "‘Since’ is wrong.",
+          "‘For’ is for duration."
+        ],
+        "explain": "Not … until = it only happened at that time. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By the time",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the time we got to the cinema, the film had started.",
+        "choices": [
+          "Until",
+          "Since",
+          "By",
+          "For"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Until the time’ is less natural here.",
+          "‘Since the time’ changes the meaning.",
+          "",
+          "‘For the time’ is wrong."
+        ],
+        "explain": "Fixed expression: by the time + clause. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until + clause",
+        "text": "Stay inside until the rain <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "will stop",
+          "stopped",
+          "is stopping",
+          "stops"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘will’ after ‘until’.",
+          "‘Stopped’ is past.",
+          "The present simple is better after ‘until’.",
+          ""
+        ],
+        "explain": "Until + present simple for the future. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "text": "Please let me know <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Wednesday if you can come.",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "at"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Until Wednesday’ means continuously.",
+          "‘Since’ is wrong.",
+          "‘At Wednesday’ is wrong."
+        ],
+        "explain": "A deadline for a reply: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "text": "We lived in Lleida <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I was ten.",
+        "choices": [
+          "by",
+          "since",
+          "until",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘By I was ten’ is wrong.",
+          "‘Since’ is for a past point until now.",
+          "",
+          "‘During’ needs a noun."
+        ],
+        "explain": "Living continued up to that age: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "text": "Keep walking <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you see a big church.",
+        "choices": [
+          "by",
+          "since",
+          "for",
+          "until"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘By you see’ is wrong.",
+          "‘Since’ is wrong.",
+          "‘For’ is for duration.",
+          ""
+        ],
+        "explain": "Continue an action up to a point: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "text": "If you order now, it’ll arrive <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Thursday.",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "for"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Arrive until Thursday’ is wrong: arriving is one moment.",
+          "‘Since’ is wrong.",
+          "‘For’ is wrong."
+        ],
+        "explain": "Arrive (one action) before a deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Not until",
+        "text": "The baby didn’t start walking <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she was 18 months old.",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "for"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Didn’t … by 18 months’ means she still wasn’t walking then.",
+          "",
+          "‘Since’ is wrong.",
+          "‘For’ is wrong."
+        ],
+        "explain": "Not … until = the action started only then. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence describes a deadline?",
+        "choices": [
+          "Work on your essay until Monday.",
+          "Stay here until Monday.",
+          "Wait until Monday.",
+          "Finish your essay by Monday."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "That describes continuous work.",
+          "That describes a continuous stay.",
+          "That describes continuous waiting.",
+          ""
+        ],
+        "explain": "A deadline uses ‘by’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence describes something that continues?",
+        "choices": [
+          "I’ll be in the office until five.",
+          "I’ll be in the office by five.",
+          "Send it by five.",
+          "Be there by five."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "That means you arrive at some point before five.",
+          "That is a deadline.",
+          "That is a deadline."
+        ],
+        "explain": "Something that continues uses ‘until’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Till",
+        "text": "‘Till’ means the same as…",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "for"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘By’ is a deadline.",
+          "",
+          "‘Since’ is a starting point.",
+          "‘For’ is a duration."
+        ],
+        "explain": "‘Till’ is an informal form of ‘until’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "text": "I promise I’ll be home <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> midnight.",
+        "choices": [
+          "until",
+          "since",
+          "by",
+          "during"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Until midnight’ would mean you stay home up to midnight and then leave.",
+          "‘Since’ is wrong.",
+          "",
+          "‘During’ is wrong."
+        ],
+        "explain": "Arrive home (one action) not later than midnight: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "text": "He slept <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> noon on Sunday.",
+        "choices": [
+          "until",
+          "by",
+          "at",
+          "since"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Slept by noon’ is wrong.",
+          "‘At noon’ changes the meaning.",
+          "‘Since’ is wrong."
+        ],
+        "explain": "Sleeping continued up to noon: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "text": "By next year, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my driving test.",
+        "choices": [
+          "will pass until",
+          "will have passed",
+          "pass",
+          "am passing"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Will pass until’ is wrong.",
+          "",
+          "The present simple doesn’t fit.",
+          "The continuous doesn’t fit."
+        ],
+        "explain": "‘By’ + future time often uses the future perfect. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "Until",
+        "text": "The offer is valid <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the end of December.",
+        "choices": [
+          "by",
+          "since",
+          "until",
+          "for"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Valid by’ is wrong.",
+          "‘Since’ is wrong.",
+          "",
+          "‘For the end’ is wrong."
+        ],
+        "explain": "Valid continues up to that time: until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "use": "By",
+        "text": "All entries must be received <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 30 June.",
+        "choices": [
+          "until",
+          "since",
+          "during",
+          "by"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Until 30 June’ suggests continuous receiving.",
+          "‘Since’ is wrong.",
+          "‘During’ is wrong.",
+          ""
+        ],
+        "explain": "Official deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Please",
+          "hand",
+          "in",
+          "your",
+          "project",
+          "until",
+          "Friday."
+        ],
+        "errorIndex": 5,
+        "correction": "by",
+        "type": "Until for deadline",
+        "message": "A deadline: ‘by Friday’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "You",
+          "must",
+          "pay",
+          "the",
+          "fee",
+          "until",
+          "the",
+          "10th."
+        ],
+        "errorIndex": 5,
+        "correction": "by",
+        "type": "Until for deadline",
+        "message": "A payment deadline: ‘by the 10th’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "Be",
+          "home",
+          "until",
+          "ten,",
+          "please."
+        ],
+        "errorIndex": 2,
+        "correction": "by",
+        "type": "Until for deadline",
+        "message": "Arrive not later than ten: ‘by ten’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "The",
+          "parcel",
+          "will",
+          "arrive",
+          "until",
+          "Monday."
+        ],
+        "errorIndex": 4,
+        "correction": "by",
+        "type": "Until for deadline",
+        "message": "Arriving is one action: ‘by Monday’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "I’ll",
+          "wait",
+          "for",
+          "you",
+          "by",
+          "six",
+          "o’clock."
+        ],
+        "errorIndex": 4,
+        "correction": "until",
+        "type": "By for duration",
+        "message": "Waiting continues: ‘until six’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "The",
+          "shop",
+          "is",
+          "open",
+          "by",
+          "9",
+          "p.m."
+        ],
+        "errorIndex": 4,
+        "correction": "until",
+        "type": "By for duration",
+        "message": "Being open continues: ‘until 9 p.m.’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "We",
+          "stayed",
+          "at",
+          "the",
+          "party",
+          "by",
+          "midnight."
+        ],
+        "errorIndex": 5,
+        "correction": "until",
+        "type": "By for duration",
+        "message": "Staying continues: ‘until midnight’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "He",
+          "slept",
+          "by",
+          "noon."
+        ],
+        "errorIndex": 2,
+        "correction": "until",
+        "type": "By for duration",
+        "message": "Sleeping continues: ‘until noon’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "Wait",
+          "here",
+          "until",
+          "I",
+          "will",
+          "come",
+          "back."
+        ],
+        "errorIndex": 4,
+        "correction": "come",
+        "type": "Will after until",
+        "message": "Present simple after ‘until’: ‘until I come back’."
+      },
+      {
+        "tokens": [
+          "Don’t",
+          "start",
+          "until",
+          "everyone",
+          "will",
+          "arrive."
+        ],
+        "errorIndex": 4,
+        "correction": "arrives",
+        "type": "Will after until",
+        "message": "Present simple: ‘until everyone arrives’."
+      },
+      {
+        "tokens": [
+          "By",
+          "the",
+          "time",
+          "you",
+          "will",
+          "get",
+          "here,",
+          "I’ll",
+          "be",
+          "ready."
+        ],
+        "errorIndex": 4,
+        "correction": "get",
+        "type": "Will after by the time",
+        "message": "Present simple: ‘By the time you get here’."
+      },
+      {
+        "tokens": [
+          "I",
+          "didn’t",
+          "go",
+          "to",
+          "bed",
+          "by",
+          "midnight",
+          "—",
+          "I",
+          "was",
+          "up",
+          "until",
+          "then."
+        ],
+        "errorIndex": 5,
+        "correction": "until",
+        "type": "Not until",
+        "message": "‘Didn’t … until midnight’ = only at midnight."
+      },
+      {
+        "tokens": [
+          "Until",
+          "the",
+          "time",
+          "we",
+          "arrived,",
+          "the",
+          "film",
+          "had",
+          "started."
+        ],
+        "errorIndex": 0,
+        "correction": "By",
+        "type": "By the time",
+        "message": "Fixed expression: ‘By the time we arrived’."
+      },
+      {
+        "tokens": [
+          "I",
+          "lived",
+          "in",
+          "Rome",
+          "since",
+          "2018,",
+          "then",
+          "moved",
+          "to",
+          "Paris."
+        ],
+        "errorIndex": 4,
+        "correction": "until",
+        "type": "Since for until",
+        "message": "It continued up to 2018 and stopped: ‘until 2018’."
+      },
+      {
+        "tokens": [
+          "The",
+          "offer",
+          "is",
+          "valid",
+          "for",
+          "the",
+          "end",
+          "of",
+          "May."
+        ],
+        "errorIndex": 4,
+        "correction": "until",
+        "type": "For for until",
+        "message": "Valid up to that time: ‘until the end of May’."
+      },
+      {
+        "tokens": [
+          "I",
+          "need",
+          "your",
+          "decision",
+          "until",
+          "tomorrow."
+        ],
+        "errorIndex": 4,
+        "correction": "by",
+        "type": "Until for deadline",
+        "message": "A deadline: ‘by tomorrow’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "Keep",
+          "walking",
+          "by",
+          "you",
+          "see",
+          "the",
+          "station."
+        ],
+        "errorIndex": 2,
+        "correction": "until",
+        "type": "By for duration",
+        "message": "Continue up to a point: ‘until you see…’."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "on",
+          "holiday",
+          "by",
+          "next",
+          "Monday."
+        ],
+        "errorIndex": 3,
+        "correction": "until",
+        "type": "By for duration",
+        "message": "The holiday continues: ‘until next Monday’."
+      },
+      {
+        "tokens": [
+          "The",
+          "work",
+          "must",
+          "be",
+          "finished",
+          "until",
+          "noon."
+        ],
+        "errorIndex": 5,
+        "correction": "by",
+        "type": "Until for deadline",
+        "message": "Finishing is one moment: ‘by noon’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "tokens": [
+          "We",
+          "danced",
+          "untill",
+          "two."
+        ],
+        "errorIndex": 2,
+        "correction": "until",
+        "type": "Spelling",
+        "message": "Spelling: ‘until’ (one l). Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, deadline or continuous, multiple choice and spot-the-mistake. In the typing questions write by or until. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "which": "Deadline or continues?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "which",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "By",
+        "sentText": "You have to finish the test {{blank}} eleven.",
+        "hint": "by / until",
+        "answers": [
+          "by"
+        ],
+        "display": "by",
+        "explain": "Finish is one action before a deadline, so use ‘by’.",
+        "wrongNote": "Deadline → by."
+      },
+      {
+        "type": "fill",
+        "use": "Until",
+        "sentText": "You can stay here {{blank}} eleven.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Staying continues up to eleven and then stops: until.",
+        "wrongNote": "Continues → until."
+      },
+      {
+        "type": "fill",
+        "use": "Not until",
+        "sentText": "He didn’t call me {{blank}} the next day.",
+        "hint": "by / until",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "Not … until = the call came only the next day.",
+        "wrongNote": "Not … until."
+      },
+      {
+        "type": "fill",
+        "use": "By the time",
+        "sentText": "{{blank}} the time she woke up, we had left.",
+        "hint": "by / until",
+        "answers": [
+          "By"
+        ],
+        "display": "By",
+        "explain": "The fixed expression is ‘by the time’ + clause.",
+        "wrongNote": "By the time."
+      },
+      {
+        "type": "order",
+        "use": "By",
+        "tokens": [
+          "Reply",
+          "by",
+          "Friday."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Until",
+        "tokens": [
+          "Wait",
+          "until",
+          "I",
+          "call."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Not until",
+        "tokens": [
+          "It",
+          "didn’t",
+          "stop",
+          "until",
+          "six."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "By the time",
+        "tokens": [
+          "By",
+          "the",
+          "time",
+          "we",
+          "arrived,",
+          "they",
+          "had",
+          "gone."
+        ],
+        "alts": [
+          [
+            "they",
+            "had",
+            "gone",
+            "by",
+            "the",
+            "time",
+            "we",
+            "arrived."
+          ]
+        ]
+      },
+      {
+        "type": "which",
+        "use": "Which",
+        "text": "‘Return the keys {{blank}} Sunday.’ The action is…",
+        "choices": [
+          "continuous → until",
+          "a deadline → by",
+          "a duration → for",
+          "a starting point → since"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Returning is one action, not continuous.",
+          "",
+          "There’s no length of time.",
+          "There’s no starting point."
+        ],
+        "explain": "One action before a time → by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "which",
+        "use": "Which",
+        "text": "‘The road is closed {{blank}} Sunday.’ The situation…",
+        "choices": [
+          "is a deadline → by",
+          "is a duration → for",
+          "has a start → since",
+          "continues → until"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Being closed is a continuing situation, not a deadline.",
+          "There’s no length of time.",
+          "There’s no starting point.",
+          ""
+        ],
+        "explain": "A situation that continues → until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "which",
+        "use": "Which",
+        "text": "‘I’ll have saved €500 {{blank}} June.’",
+        "choices": [
+          "by",
+          "until",
+          "since",
+          "during"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Until June’ doesn’t work with the future perfect here.",
+          "‘Since’ is wrong.",
+          "‘During June’ changes the meaning."
+        ],
+        "explain": "Future perfect + deadline → by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "which",
+        "use": "Which",
+        "text": "‘She didn’t start talking {{blank}} she was two.’",
+        "choices": [
+          "by",
+          "since",
+          "until",
+          "for"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Didn’t … by’ changes the meaning.",
+          "‘Since’ is wrong.",
+          "",
+          "‘For’ is wrong."
+        ],
+        "explain": "Not … until = it happened only then. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "mc",
+        "use": "By",
+        "text": "Can you send me the photos {{blank}} tonight?",
+        "choices": [
+          "until",
+          "since",
+          "by",
+          "for"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Until tonight’ means continuously.",
+          "‘Since’ is wrong.",
+          "",
+          "‘For tonight’ means the purpose."
+        ],
+        "explain": "A deadline → by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "mc",
+        "use": "Until",
+        "text": "I’ll be at work {{blank}} six.",
+        "choices": [
+          "until",
+          "by",
+          "since",
+          "at"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘By six’ means you arrive before six.",
+          "‘Since’ is wrong.",
+          "‘At six’ is a point."
+        ],
+        "explain": "Continues up to six → until. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "mc",
+        "use": "Until + clause",
+        "text": "Don’t leave until I {{blank}} you.",
+        "choices": [
+          "will tell",
+          "told",
+          "am telling",
+          "tell"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "No ‘will’ after ‘until’.",
+          "‘Told’ is past.",
+          "The continuous doesn’t fit.",
+          ""
+        ],
+        "explain": "Until + present simple. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "mc",
+        "use": "By",
+        "text": "The keys must be returned {{blank}} 10 a.m.",
+        "choices": [
+          "until",
+          "by",
+          "since",
+          "during"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Until 10’ suggests continuously.",
+          "",
+          "‘Since’ is wrong.",
+          "‘During’ is wrong."
+        ],
+        "explain": "A deadline → by. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "error",
+        "use": "Until for deadline",
+        "tokens": [
+          "Send",
+          "your",
+          "answers",
+          "until",
+          "Monday."
+        ],
+        "errorIndex": 3,
+        "correction": "by",
+        "message": "A deadline takes ‘by’: ‘by Monday’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "error",
+        "use": "By for duration",
+        "tokens": [
+          "I",
+          "studied",
+          "by",
+          "midnight."
+        ],
+        "errorIndex": 2,
+        "correction": "until",
+        "message": "Studying continued: ‘until midnight’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "error",
+        "use": "Will after until",
+        "tokens": [
+          "Wait",
+          "until",
+          "the",
+          "bell",
+          "will",
+          "ring."
+        ],
+        "errorIndex": 4,
+        "correction": "rings",
+        "message": "Present simple after ‘until’: ‘rings’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      },
+      {
+        "type": "error",
+        "use": "By for duration",
+        "tokens": [
+          "The",
+          "pool",
+          "is",
+          "open",
+          "by",
+          "eight."
+        ],
+        "errorIndex": 4,
+        "correction": "until",
+        "message": "Being open continues: ‘until eight’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
+      }
+    ]
+  }
+}
