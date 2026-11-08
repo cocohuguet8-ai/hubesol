@@ -1,0 +1,1541 @@
+{
+  "tense": "need-neednt",
+  "lessonTitle": "Need & Needn’t",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "need",
+        "needn’t",
+        "don’t",
+        "to"
+      ],
+      "label": null,
+      "primary": "need"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type need(s) to, don’t / doesn’t need to, needn’t or the right verb form. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Need to",
+        "before": "I",
+        "after": "buy a present for my sister’s birthday.",
+        "hint": "need to / needn’t",
+        "answers": [
+          "need to"
+        ],
+        "display": "need to",
+        "explain": "Something necessary: need to + base verb."
+      },
+      {
+        "use": "Needs to",
+        "before": "My brother",
+        "after": "get a haircut — it’s too long.",
+        "hint": "need to / needs to",
+        "answers": [
+          "needs to"
+        ],
+        "display": "needs to",
+        "explain": "Third person singular: he needs to, with -s."
+      },
+      {
+        "use": "Needs to",
+        "before": "The kitchen",
+        "after": "be cleaned before the guests arrive.",
+        "hint": "need to / needs to",
+        "answers": [
+          "needs to"
+        ],
+        "display": "needs to",
+        "explain": "‘The kitchen’ is it, so ‘needs to’."
+      },
+      {
+        "use": "Need + noun",
+        "before": "Do you",
+        "after": "any help with your bags?",
+        "hint": "need / need to",
+        "answers": [
+          "need"
+        ],
+        "display": "need",
+        "explain": "Before a noun phrase, ‘need’ has no ‘to’: need any help."
+      },
+      {
+        "use": "Need + noun",
+        "before": "I",
+        "after": "a new pair of trainers.",
+        "hint": "need / need to",
+        "answers": [
+          "need"
+        ],
+        "display": "need",
+        "explain": "‘Need’ + noun directly: I need a new pair."
+      },
+      {
+        "use": "Needn’t",
+        "before": "You",
+        "after": "worry — everything will be fine.",
+        "hint": "needn’t / mustn’t",
+        "answers": [
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not"
+        ],
+        "display": "needn’t",
+        "explain": "Not necessary: needn’t + base verb."
+      },
+      {
+        "use": "Needn’t",
+        "before": "We",
+        "after": "hurry. The film doesn’t start until nine.",
+        "hint": "needn’t / mustn’t",
+        "answers": [
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not"
+        ],
+        "display": "needn’t",
+        "explain": "There’s time, so it isn’t necessary: needn’t."
+      },
+      {
+        "use": "Don’t need to",
+        "before": "You",
+        "after": "bring food. We’ve got plenty.",
+        "hint": "don’t need to / mustn’t",
+        "answers": [
+          "don’t need to",
+          "don't need to",
+          "dont need to",
+          "do not need to"
+        ],
+        "display": "don’t need to",
+        "explain": "Not necessary: don’t need to + base verb."
+      },
+      {
+        "use": "Doesn’t need to",
+        "before": "She",
+        "after": "study tonight — the exam was cancelled.",
+        "hint": "don’t / doesn’t need to",
+        "answers": [
+          "doesn’t need to",
+          "doesn't need to",
+          "doesnt need to",
+          "does not need to"
+        ],
+        "display": "doesn’t need to",
+        "explain": "Third person negative: doesn’t need to."
+      },
+      {
+        "use": "Base verb",
+        "before": "You needn’t",
+        "after": "if you’re busy.",
+        "hint": "(come)",
+        "answers": [
+          "come"
+        ],
+        "display": "come",
+        "explain": "After ‘needn’t’ use the base verb, with no ‘to’."
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "I need to show my passport?",
+        "hint": "do / need",
+        "answers": [
+          "Do"
+        ],
+        "display": "Do",
+        "explain": "Normal-verb question: Do + subject + need to?"
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "your dad need any help in the garden?",
+        "hint": "do / does",
+        "answers": [
+          "Does"
+        ],
+        "display": "Does",
+        "explain": "He/she/it: Does + subject + need…?"
+      },
+      {
+        "use": "Past",
+        "before": "We",
+        "after": "queue — there was nobody there.",
+        "hint": "didn’t need to / needn’t have",
+        "answers": [
+          "didn’t need to",
+          "didn't need to",
+          "didnt need to",
+          "did not need to"
+        ],
+        "display": "didn’t need to",
+        "explain": "It wasn’t necessary, so we didn’t queue: didn’t need to."
+      },
+      {
+        "use": "Past",
+        "before": "I",
+        "after": "take an umbrella because it was sunny.",
+        "hint": "didn’t need to / needn’t have",
+        "answers": [
+          "didn’t need to",
+          "didn't need to",
+          "didnt need to",
+          "did not need to"
+        ],
+        "display": "didn’t need to",
+        "explain": "Not necessary, so I didn’t do it: didn’t need to."
+      },
+      {
+        "use": "Needn’t have",
+        "before": "I",
+        "after": "cooked so much — only three people came.",
+        "hint": "didn’t need to / needn’t have",
+        "answers": [
+          "needn’t have",
+          "needn't have",
+          "neednt have",
+          "need not have"
+        ],
+        "display": "needn’t have",
+        "explain": "I did it, but it wasn’t necessary: needn’t have + participle."
+      },
+      {
+        "use": "Needn’t have",
+        "before": "You needn’t have",
+        "after": "flowers, but thank you!",
+        "hint": "(buy)",
+        "answers": [
+          "bought"
+        ],
+        "display": "bought",
+        "explain": "After ‘needn’t have’ use the past participle: bought."
+      },
+      {
+        "use": "Needn’t have",
+        "before": "We needn’t have",
+        "after": "so early — the train was late.",
+        "hint": "(leave)",
+        "answers": [
+          "left"
+        ],
+        "display": "left",
+        "explain": "Past participle of leave: left."
+      },
+      {
+        "use": "Need + -ing",
+        "before": "The windows need",
+        "after": ". They’re really dirty.",
+        "hint": "(clean)",
+        "answers": [
+          "cleaning"
+        ],
+        "display": "cleaning",
+        "explain": "‘Need + -ing’ has a passive meaning: need to be cleaned."
+      },
+      {
+        "use": "Mustn’t",
+        "before": "You",
+        "after": "tell her — it’s a secret!",
+        "hint": "needn’t / mustn’t",
+        "answers": [
+          "mustn’t",
+          "mustn't",
+          "mustnt",
+          "must not"
+        ],
+        "display": "mustn’t",
+        "explain": "Forbidden, not just unnecessary: mustn’t."
+      },
+      {
+        "use": "Short answer",
+        "before": "“Do we need to book?” “No, we",
+        "after": ".”",
+        "hint": "don’t / needn’t",
+        "answers": [
+          "don’t",
+          "don't",
+          "dont",
+          "do not"
+        ],
+        "display": "don’t",
+        "explain": "Short answer to a ‘do … need’ question: No, we don’t."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with need to, needn’t and the past forms.",
+    "sentences": [
+      {
+        "use": "Need to",
+        "tokens": [
+          "I",
+          "need",
+          "to",
+          "call",
+          "the",
+          "dentist."
+        ]
+      },
+      {
+        "use": "Needs to",
+        "tokens": [
+          "She",
+          "needs",
+          "to",
+          "rest."
+        ]
+      },
+      {
+        "use": "Needs to",
+        "tokens": [
+          "The",
+          "car",
+          "needs",
+          "to",
+          "be",
+          "repaired."
+        ]
+      },
+      {
+        "use": "Need + noun",
+        "tokens": [
+          "Do",
+          "you",
+          "need",
+          "a",
+          "pen?"
+        ]
+      },
+      {
+        "use": "Need + noun",
+        "tokens": [
+          "We",
+          "need",
+          "more",
+          "chairs."
+        ]
+      },
+      {
+        "use": "Needn’t",
+        "tokens": [
+          "You",
+          "needn’t",
+          "worry",
+          "about",
+          "it."
+        ]
+      },
+      {
+        "use": "Needn’t",
+        "tokens": [
+          "We",
+          "needn’t",
+          "leave",
+          "yet."
+        ]
+      },
+      {
+        "use": "Needn’t",
+        "tokens": [
+          "You",
+          "needn’t",
+          "bring",
+          "anything."
+        ]
+      },
+      {
+        "use": "Don’t need to",
+        "tokens": [
+          "You",
+          "don’t",
+          "need",
+          "to",
+          "wait."
+        ]
+      },
+      {
+        "use": "Doesn’t need to",
+        "tokens": [
+          "He",
+          "doesn’t",
+          "need",
+          "to",
+          "work",
+          "today."
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Do",
+          "I",
+          "need",
+          "to",
+          "pay",
+          "now?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Does",
+          "she",
+          "need",
+          "any",
+          "help?"
+        ]
+      },
+      {
+        "use": "Past",
+        "tokens": [
+          "We",
+          "didn’t",
+          "need",
+          "to",
+          "hurry."
+        ]
+      },
+      {
+        "use": "Past",
+        "tokens": [
+          "I",
+          "didn’t",
+          "need",
+          "to",
+          "take",
+          "a",
+          "coat."
+        ]
+      },
+      {
+        "use": "Needn’t have",
+        "tokens": [
+          "I",
+          "needn’t",
+          "have",
+          "worried."
+        ]
+      },
+      {
+        "use": "Needn’t have",
+        "tokens": [
+          "You",
+          "needn’t",
+          "have",
+          "bought",
+          "me",
+          "a",
+          "present."
+        ]
+      },
+      {
+        "use": "Needn’t have",
+        "tokens": [
+          "We",
+          "needn’t",
+          "have",
+          "left",
+          "so",
+          "early."
+        ]
+      },
+      {
+        "use": "Need + -ing",
+        "tokens": [
+          "The",
+          "grass",
+          "needs",
+          "cutting."
+        ]
+      },
+      {
+        "use": "Need + -ing",
+        "tokens": [
+          "My",
+          "shoes",
+          "need",
+          "cleaning."
+        ]
+      },
+      {
+        "use": "Mustn’t",
+        "tokens": [
+          "You",
+          "mustn’t",
+          "open",
+          "the",
+          "door."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the sentence and its meaning",
+    "subtitle": "Tap a sentence, then tap what it means.",
+    "leftLabel": "Sentence",
+    "rightLabel": "Meaning",
+    "rightLabelSub": "(necessary / not necessary / forbidden)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "I need to go now.",
+        "right": "necessary"
+      },
+      {
+        "left": "You needn’t come.",
+        "right": "not necessary"
+      },
+      {
+        "left": "You mustn’t come.",
+        "right": "forbidden"
+      },
+      {
+        "left": "She needs to study.",
+        "right": "necessary"
+      },
+      {
+        "left": "We don’t need to hurry.",
+        "right": "not necessary"
+      },
+      {
+        "left": "You mustn’t smoke here.",
+        "right": "forbidden"
+      },
+      {
+        "left": "The car needs washing.",
+        "right": "necessary"
+      },
+      {
+        "left": "You needn’t pay.",
+        "right": "not necessary"
+      },
+      {
+        "left": "You mustn’t touch it.",
+        "right": "forbidden"
+      },
+      {
+        "left": "I need a new coat.",
+        "right": "necessary"
+      },
+      {
+        "left": "He doesn’t need to work.",
+        "right": "not necessary"
+      },
+      {
+        "left": "Students mustn’t cheat.",
+        "right": "forbidden"
+      },
+      {
+        "left": "We need to leave early.",
+        "right": "necessary"
+      },
+      {
+        "left": "You needn’t worry.",
+        "right": "not necessary"
+      },
+      {
+        "left": "You mustn’t tell anyone.",
+        "right": "forbidden"
+      },
+      {
+        "left": "My hair needs cutting.",
+        "right": "necessary"
+      },
+      {
+        "left": "They don’t need to book.",
+        "right": "not necessary"
+      },
+      {
+        "left": "Children mustn’t play here.",
+        "right": "forbidden"
+      },
+      {
+        "left": "You need to sign here.",
+        "right": "necessary"
+      },
+      {
+        "left": "You needn’t bring a towel.",
+        "right": "not necessary"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Need to (normal verb), needn’t (modal, no to), and the two past forms.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Needs to",
+        "text": "My sister <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> finish her project by Friday.",
+        "choices": [
+          "needs to",
+          "need to",
+          "needn’t",
+          "needs"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "With ‘she’, the normal verb ‘need’ takes -s: ‘needs to’.",
+          "‘Needn’t’ means it isn’t necessary — the opposite.",
+          "‘Needs finish’ is missing ‘to’ before the verb."
+        ],
+        "explain": "Something necessary, third person: needs to + base verb."
+      },
+      {
+        "use": "Needn’t",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> bring a dictionary. I’ve got one.",
+        "choices": [
+          "needn’t to",
+          "needn’t",
+          "mustn’t",
+          "don’t need"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Needn’t’ as a modal never takes ‘to’.",
+          "",
+          "‘Mustn’t’ means bringing one is forbidden.",
+          "‘Don’t need’ needs ‘to’ before a verb: ‘don’t need to bring’."
+        ],
+        "explain": "Not necessary: needn’t + base verb (no to)."
+      },
+      {
+        "use": "Don’t need to",
+        "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> get up early tomorrow. It’s Sunday.",
+        "choices": [
+          "don’t need",
+          "mustn’t",
+          "don’t need to",
+          "needn’t to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Before a verb, ‘don’t need’ must be followed by ‘to’.",
+          "‘Mustn’t’ means getting up early is forbidden.",
+          "",
+          "No ‘to’ after ‘needn’t’."
+        ],
+        "explain": "Not necessary: don’t need to + base verb."
+      },
+      {
+        "use": "Need + noun",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new laptop — mine is very slow.",
+        "choices": [
+          "need to",
+          "needs",
+          "needn’t",
+          "need"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Need to’ is followed by a verb, not a noun.",
+          "With ‘I’, no -s.",
+          "‘Needn’t’ means it isn’t necessary.",
+          ""
+        ],
+        "explain": "Need + noun directly, without ‘to’."
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we need to take our passports?",
+        "choices": [
+          "Need",
+          "Do",
+          "Are",
+          "Must"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Need we need’ repeats the verb.",
+          "",
+          "‘Are we need’ is wrong.",
+          "‘Must we need’ is wrong."
+        ],
+        "explain": "Normal-verb question: Do + subject + need to?"
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your grandmother need any shopping?",
+        "choices": [
+          "Do",
+          "Is",
+          "Does",
+          "Needs"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Your grandmother’ is she: ‘does’.",
+          "‘Is your grandmother need’ is wrong.",
+          "",
+          "‘Needs your grandmother’ is wrong."
+        ],
+        "explain": "He / she / it question: Does + subject + need…?"
+      },
+      {
+        "use": "Needn’t or mustn’t",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> swim here — there are dangerous currents.",
+        "choices": [
+          "needn’t",
+          "don’t need to",
+          "didn’t need to",
+          "mustn’t"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Needn’t’ means it’s optional, but this is dangerous.",
+          "‘Don’t need to’ means it’s optional.",
+          "‘Didn’t need to’ is past.",
+          ""
+        ],
+        "explain": "Dangerous = forbidden: mustn’t."
+      },
+      {
+        "use": "Needn’t or mustn’t",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wear a tie. It’s a casual party.",
+        "choices": [
+          "needn’t",
+          "mustn’t",
+          "need to",
+          "needs to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Mustn’t’ means ties are forbidden.",
+          "‘Need to’ means it’s necessary.",
+          "‘Needs to’ is third person and means necessary."
+        ],
+        "explain": "Optional: needn’t + base verb."
+      },
+      {
+        "use": "Past",
+        "text": "It was sunny, so we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> take umbrellas. We left them at home.",
+        "choices": [
+          "needn’t have",
+          "mustn’t",
+          "didn’t need to",
+          "don’t need to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Needn’t have’ means we took them unnecessarily — but we left them at home.",
+          "‘Mustn’t’ is a present prohibition.",
+          "",
+          "‘Don’t need to’ is present."
+        ],
+        "explain": "Not necessary and not done: didn’t need to."
+      },
+      {
+        "use": "Needn’t have",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much food — half of it was left over.",
+        "choices": [
+          "didn’t need to cook",
+          "needn’t cook",
+          "mustn’t have cooked",
+          "needn’t have cooked"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Didn’t need to cook’ suggests you didn’t cook, but you did.",
+          "‘Needn’t cook’ is about the present or future.",
+          "‘Mustn’t have’ isn’t the right structure here.",
+          ""
+        ],
+        "explain": "Done, but unnecessary: needn’t have + past participle."
+      },
+      {
+        "use": "Needn’t have",
+        "text": "You needn’t have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me a present, but it’s lovely!",
+        "choices": [
+          "bought",
+          "buy",
+          "buying",
+          "to buy"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "After ‘have’ use the past participle, not the base verb.",
+          "After ‘have’ use the participle, not -ing.",
+          "No ‘to’ after ‘have’ here."
+        ],
+        "explain": "Needn’t have + past participle: bought."
+      },
+      {
+        "use": "Needn’t have",
+        "text": "We needn’t have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so early. The shop opened at ten.",
+        "choices": [
+          "leave",
+          "left",
+          "leaved",
+          "leaving"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After ‘have’ use the participle.",
+          "",
+          "‘Leave’ is irregular: left.",
+          "After ‘have’ use the participle, not -ing."
+        ],
+        "explain": "Irregular participle: leave → left."
+      },
+      {
+        "use": "Need + -ing",
+        "text": "The car is really dirty. It needs <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "wash",
+          "to washing",
+          "washed",
+          "washing"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "After ‘need’ in this meaning use -ing or ‘to be washed’.",
+          "‘To washing’ is wrong.",
+          "‘Needs washed’ is regional, not standard.",
+          ""
+        ],
+        "explain": "Need + -ing = needs to be done (passive meaning)."
+      },
+      {
+        "use": "Base verb",
+        "text": "You needn’t <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> about the test. It’s easy.",
+        "choices": [
+          "worry",
+          "to worry",
+          "worrying",
+          "worries"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No ‘to’ after the modal ‘needn’t’.",
+          "No -ing after a modal.",
+          "No -s after a modal."
+        ],
+        "explain": "Needn’t + base verb."
+      },
+      {
+        "use": "Third person",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "He need to see a doctor.",
+          "He needs to see a doctor.",
+          "He needs see a doctor.",
+          "He needn’t to see a doctor."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "The normal verb ‘need’ takes -s with ‘he’.",
+          "",
+          "‘Needs’ must be followed by ‘to’ before a verb.",
+          "No ‘to’ after ‘needn’t’."
+        ],
+        "explain": "He / she + needs to + base verb."
+      },
+      {
+        "use": "Needn’t",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "You needn’t to call me.",
+          "You don’t needn’t call me.",
+          "You needn’t call me.",
+          "You needn’t calling me."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "No ‘to’ after ‘needn’t’.",
+          "Double negative.",
+          "",
+          "No -ing after a modal."
+        ],
+        "explain": "Needn’t + base verb."
+      },
+      {
+        "use": "Short answer",
+        "text": "“Do I need to sign this?” “Yes, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.”",
+        "choices": [
+          "do",
+          "need",
+          "needs",
+          "are"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A ‘do’ question takes ‘do’ in the short answer.",
+          "‘Needs’ is third person and not a short answer.",
+          "‘Are’ doesn’t match the question."
+        ],
+        "explain": "Short answer: Yes, you do."
+      },
+      {
+        "use": "Past",
+        "text": "The exam was cancelled, so I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> study last night.",
+        "choices": [
+          "needn’t have",
+          "didn’t need to",
+          "mustn’t",
+          "don’t need to"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Needn’t have studied’ would mean you studied anyway.",
+          "",
+          "‘Mustn’t’ is a present prohibition.",
+          "‘Don’t need to’ is present."
+        ],
+        "explain": "Not necessary (and probably not done): didn’t need to."
+      },
+      {
+        "use": "Need to",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> go to the bank before it closes.",
+        "choices": [
+          "needn’t",
+          "needs to",
+          "need to",
+          "need"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Needn’t’ is the opposite meaning.",
+          "With ‘I’, no -s.",
+          "",
+          "‘Need go’ needs ‘to’ before the verb."
+        ],
+        "explain": "Something necessary: need to + base verb."
+      },
+      {
+        "use": "Need + noun",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you need anything from the supermarket?",
+        "choices": [
+          "Need",
+          "Are",
+          "Does",
+          "Do"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Need you need’ repeats the verb.",
+          "‘Are you need’ is wrong.",
+          "‘You’ takes ‘do’, not ‘does’.",
+          ""
+        ],
+        "explain": "Question: Do you need + noun?"
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "She",
+          "need",
+          "to",
+          "rest",
+          "after",
+          "the",
+          "match."
+        ],
+        "errorIndex": 1,
+        "correction": "needs",
+        "type": "Missing -s",
+        "message": "Third person: ‘She needs to rest’."
+      },
+      {
+        "tokens": [
+          "The",
+          "house",
+          "need",
+          "to",
+          "be",
+          "painted."
+        ],
+        "errorIndex": 2,
+        "correction": "needs",
+        "type": "Missing -s",
+        "message": "‘The house’ is it: ‘needs to be painted’."
+      },
+      {
+        "tokens": [
+          "You",
+          "don’t",
+          "need",
+          "come",
+          "if",
+          "you’re",
+          "tired."
+        ],
+        "errorIndex": 3,
+        "correction": "to come",
+        "type": "Missing to",
+        "message": "Before a verb: ‘don’t need to come’."
+      },
+      {
+        "tokens": [
+          "I",
+          "need",
+          "finish",
+          "this",
+          "by",
+          "six."
+        ],
+        "errorIndex": 2,
+        "correction": "to finish",
+        "type": "Missing to",
+        "message": "‘Need’ + to + verb: ‘need to finish’."
+      },
+      {
+        "tokens": [
+          "You",
+          "needn’t",
+          "worrying",
+          "about",
+          "me."
+        ],
+        "errorIndex": 2,
+        "correction": "worry",
+        "type": "-ing after needn’t",
+        "message": "After ‘needn’t’ use the base verb: ‘worry’."
+      },
+      {
+        "tokens": [
+          "He",
+          "needn’t",
+          "comes",
+          "tomorrow."
+        ],
+        "errorIndex": 2,
+        "correction": "come",
+        "type": "-s after needn’t",
+        "message": "After ‘needn’t’ use the base verb: ‘come’."
+      },
+      {
+        "tokens": [
+          "You",
+          "needn’t",
+          "touch",
+          "the",
+          "wires",
+          "—",
+          "it’s",
+          "dangerous!"
+        ],
+        "errorIndex": 1,
+        "correction": "mustn’t",
+        "type": "Needn’t for forbidden",
+        "message": "Dangerous = forbidden: ‘you mustn’t touch’."
+      },
+      {
+        "tokens": [
+          "You",
+          "mustn’t",
+          "pay",
+          "—",
+          "it’s",
+          "free."
+        ],
+        "errorIndex": 1,
+        "correction": "needn’t",
+        "type": "Mustn’t for not necessary",
+        "message": "Not necessary: ‘you needn’t pay’."
+      },
+      {
+        "tokens": [
+          "I",
+          "needn’t",
+          "have",
+          "took",
+          "a",
+          "taxi."
+        ],
+        "errorIndex": 3,
+        "correction": "taken",
+        "type": "Wrong past",
+        "message": "After ‘have’ use the participle: ‘taken’."
+      },
+      {
+        "tokens": [
+          "We",
+          "needn’t",
+          "have",
+          "went",
+          "so",
+          "early."
+        ],
+        "errorIndex": 3,
+        "correction": "gone",
+        "type": "Wrong past",
+        "message": "After ‘have’ use the participle: ‘gone’."
+      },
+      {
+        "tokens": [
+          "You",
+          "needn’t",
+          "have",
+          "buy",
+          "so",
+          "much",
+          "bread."
+        ],
+        "errorIndex": 3,
+        "correction": "bought",
+        "type": "Wrong past",
+        "message": "After ‘have’ use the participle: ‘bought’."
+      },
+      {
+        "tokens": [
+          "Need",
+          "you",
+          "need",
+          "any",
+          "help?"
+        ],
+        "errorIndex": 0,
+        "correction": "Do",
+        "type": "Question",
+        "message": "Question: ‘Do you need any help?’."
+      },
+      {
+        "tokens": [
+          "Do",
+          "she",
+          "need",
+          "to",
+          "go?"
+        ],
+        "errorIndex": 0,
+        "correction": "Does",
+        "type": "Question",
+        "message": "She → ‘Does she need to go?’."
+      },
+      {
+        "tokens": [
+          "Does",
+          "he",
+          "needs",
+          "a",
+          "lift?"
+        ],
+        "errorIndex": 2,
+        "correction": "need",
+        "type": "Question",
+        "message": "After ‘does’ use ‘need’ without -s."
+      },
+      {
+        "tokens": [
+          "He",
+          "don’t",
+          "need",
+          "to",
+          "work",
+          "today."
+        ],
+        "errorIndex": 1,
+        "correction": "doesn’t",
+        "type": "Negative",
+        "message": "He → ‘doesn’t need to’."
+      },
+      {
+        "tokens": [
+          "They",
+          "didn’t",
+          "needed",
+          "to",
+          "wait."
+        ],
+        "errorIndex": 2,
+        "correction": "need",
+        "type": "Negative",
+        "message": "After ‘didn’t’ use the base verb: ‘need’."
+      },
+      {
+        "tokens": [
+          "The",
+          "grass",
+          "needs",
+          "cut."
+        ],
+        "errorIndex": 3,
+        "correction": "cutting",
+        "type": "Need + -ing",
+        "message": "‘Need + -ing’: ‘needs cutting’."
+      },
+      {
+        "tokens": [
+          "I",
+          "needs",
+          "a",
+          "new",
+          "bike."
+        ],
+        "errorIndex": 1,
+        "correction": "need",
+        "type": "Need + noun",
+        "message": "With ‘I’ there is no -s: ‘I need a new bike’."
+      },
+      {
+        "tokens": [
+          "“Do",
+          "I",
+          "need",
+          "a",
+          "ticket?”",
+          "“Yes,",
+          "you",
+          "need.”"
+        ],
+        "errorIndex": 7,
+        "correction": "do",
+        "type": "Short answer",
+        "message": "Short answer: ‘Yes, you do’."
+      },
+      {
+        "tokens": [
+          "You",
+          "neednt",
+          "hurry."
+        ],
+        "errorIndex": 1,
+        "correction": "needn’t",
+        "type": "Spelling",
+        "message": "Spelling: ‘needn’t’ with an apostrophe."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which past form, multiple choice and spot-the-mistake. In the typing questions write need(s) to, needn’t, don’t need to or the right past form. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "past": "Didn’t need to or needn’t have",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "past",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Needs to",
+        "sentText": "My phone {{blank}} be charged.",
+        "hint": "need to / needs to",
+        "answers": [
+          "needs to"
+        ],
+        "display": "needs to",
+        "explain": "Third person singular: it needs to.",
+        "wrongNote": "It → ‘needs to’."
+      },
+      {
+        "type": "fill",
+        "use": "Needn’t",
+        "sentText": "You {{blank}} stay. I can finish on my own.",
+        "hint": "needn’t / mustn’t",
+        "answers": [
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not"
+        ],
+        "display": "needn’t",
+        "explain": "Not necessary: needn’t + base verb.",
+        "wrongNote": "Optional → ‘needn’t’."
+      },
+      {
+        "type": "fill",
+        "use": "Needn’t have",
+        "sentText": "I {{blank}} studied so hard — the test was easy.",
+        "hint": "didn’t need to / needn’t have",
+        "answers": [
+          "needn’t have",
+          "needn't have",
+          "neednt have",
+          "need not have"
+        ],
+        "display": "needn’t have",
+        "explain": "Done but unnecessary: needn’t have + participle.",
+        "wrongNote": "You did it → ‘needn’t have’."
+      },
+      {
+        "type": "fill",
+        "use": "Need + -ing",
+        "sentText": "This shirt needs {{blank}} .",
+        "hint": "iron",
+        "answers": [
+          "ironing"
+        ],
+        "display": "ironing",
+        "explain": "Need + -ing = needs to be ironed.",
+        "wrongNote": "Use -ing: ‘ironing’."
+      },
+      {
+        "type": "order",
+        "use": "Need to",
+        "tokens": [
+          "We",
+          "need",
+          "to",
+          "talk."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Needn’t",
+        "tokens": [
+          "You",
+          "needn’t",
+          "apologise."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question",
+        "tokens": [
+          "Do",
+          "you",
+          "need",
+          "a",
+          "hand?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Needn’t have",
+        "tokens": [
+          "I",
+          "needn’t",
+          "have",
+          "come."
+        ]
+      },
+      {
+        "type": "past",
+        "use": "Past",
+        "text": "The bus was free, so I {{blank}} buy a ticket. I just got on.",
+        "choices": [
+          "needn’t have",
+          "didn’t need to",
+          "mustn’t",
+          "needn’t"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Needn’t have bought’ means you bought one — you didn’t.",
+          "",
+          "‘Mustn’t’ is a present prohibition.",
+          "‘Needn’t’ is about now."
+        ],
+        "explain": "Not necessary, not done: didn’t need to."
+      },
+      {
+        "type": "past",
+        "use": "Past",
+        "text": "I bought a ticket, then I found out the bus was free. I {{blank}} bought it!",
+        "choices": [
+          "didn’t need to",
+          "mustn’t have",
+          "needn’t",
+          "needn’t have"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Didn’t need to bought’ is wrong: it needs the base verb, and the meaning is different.",
+          "‘Mustn’t have’ is the wrong structure.",
+          "‘Needn’t bought’ is wrong.",
+          ""
+        ],
+        "explain": "Done, but unnecessary: needn’t have + participle."
+      },
+      {
+        "type": "past",
+        "use": "Past",
+        "text": "Lucky you! You {{blank}} wait — the doctor saw you immediately.",
+        "choices": [
+          "didn’t need to",
+          "needn’t have",
+          "mustn’t",
+          "needn’t to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Needn’t have waited’ means you did wait.",
+          "‘Mustn’t’ is present.",
+          "No ‘to’ after ‘needn’t’."
+        ],
+        "explain": "You didn’t wait: didn’t need to."
+      },
+      {
+        "type": "past",
+        "use": "Past",
+        "text": "We waited an hour, but the doctor wasn’t even there. We {{blank}} waited.",
+        "choices": [
+          "didn’t need to",
+          "mustn’t have",
+          "needn’t have",
+          "don’t need to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Didn’t need to waited’ is wrong.",
+          "‘Mustn’t have’ is the wrong structure.",
+          "",
+          "‘Don’t need to’ is present."
+        ],
+        "explain": "You did wait, unnecessarily: needn’t have waited."
+      },
+      {
+        "type": "mc",
+        "use": "Needs to",
+        "text": "Our teacher {{blank}} mark our essays by Monday.",
+        "choices": [
+          "need to",
+          "needn’t to",
+          "needs to",
+          "needs"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "With ‘she’ use ‘needs to’.",
+          "No ‘to’ after ‘needn’t’.",
+          "",
+          "‘Needs mark’ needs ‘to’."
+        ],
+        "explain": "He / she + needs to."
+      },
+      {
+        "type": "mc",
+        "use": "Needn’t or mustn’t",
+        "text": "You {{blank}} use your phone in the exam. It’s against the rules.",
+        "choices": [
+          "mustn’t",
+          "needn’t",
+          "don’t need to",
+          "didn’t need to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Needn’t’ = optional.",
+          "‘Don’t need to’ = optional.",
+          "‘Didn’t need to’ is past."
+        ],
+        "explain": "Against the rules: mustn’t."
+      },
+      {
+        "type": "mc",
+        "use": "Question",
+        "text": "{{blank}} I need to bring anything?",
+        "choices": [
+          "Need",
+          "Am",
+          "Does",
+          "Do"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Need I need’ repeats the verb.",
+          "‘Am I need’ is wrong.",
+          "‘I’ takes ‘do’.",
+          ""
+        ],
+        "explain": "Question: Do I need to…?"
+      },
+      {
+        "type": "mc",
+        "use": "Base verb",
+        "text": "You needn’t {{blank}} the dishes. I’ll do them.",
+        "choices": [
+          "to wash",
+          "wash",
+          "washing",
+          "washed"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "No ‘to’ after ‘needn’t’.",
+          "",
+          "No -ing after a modal.",
+          "No past form after a modal."
+        ],
+        "explain": "Needn’t + base verb."
+      },
+      {
+        "type": "error",
+        "use": "-s after needn’t",
+        "tokens": [
+          "She",
+          "needn’t",
+          "comes",
+          "to",
+          "the",
+          "meeting."
+        ],
+        "errorIndex": 2,
+        "correction": "come",
+        "message": "After ‘needn’t’: base verb ‘come’."
+      },
+      {
+        "type": "error",
+        "use": "Missing -s",
+        "tokens": [
+          "My",
+          "dad",
+          "need",
+          "to",
+          "rest."
+        ],
+        "errorIndex": 2,
+        "correction": "needs",
+        "message": "He → ‘needs to’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong past",
+        "tokens": [
+          "You",
+          "needn’t",
+          "have",
+          "spend",
+          "so",
+          "much."
+        ],
+        "errorIndex": 3,
+        "correction": "spent",
+        "message": "After ‘have’: participle ‘spent’."
+      },
+      {
+        "type": "error",
+        "use": "Mustn’t for not necessary",
+        "tokens": [
+          "It’s",
+          "optional",
+          "—",
+          "you",
+          "mustn’t",
+          "do",
+          "it."
+        ],
+        "errorIndex": 4,
+        "correction": "needn’t",
+        "message": "Optional → ‘needn’t’."
+      }
+    ]
+  }
+}
