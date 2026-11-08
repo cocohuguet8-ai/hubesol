@@ -1,0 +1,1568 @@
+{
+  "tense": "deduction-must-might-cant",
+  "lessonTitle": "Deduction: must, might & can’t",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "must",
+        "might",
+        "can’t",
+        "be"
+      ],
+      "label": null,
+      "primary": "must"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type must, might or can’t — or the verb form after it. Use the evidence: sure yes → must; possible → might; sure no → can’t. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Must",
+        "before": "The lights are on. They",
+        "after": "be at home.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "Strong evidence that it’s true: must + be."
+      },
+      {
+        "use": "Must",
+        "before": "You’ve walked twenty kilometres! You",
+        "after": "be exhausted.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "Clear evidence, so you’re sure: must be exhausted."
+      },
+      {
+        "use": "Must",
+        "before": "She speaks perfect Italian. She",
+        "after": "have lived in Italy.",
+        "hint": "must / can’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "A logical conclusion from the evidence: must."
+      },
+      {
+        "use": "Must",
+        "before": "He’s wearing a chef’s hat. He",
+        "after": "work in the kitchen.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "Evidence (the hat) → sure conclusion: must + base verb."
+      },
+      {
+        "use": "Must",
+        "before": "Everyone is laughing. The film",
+        "after": "be really funny.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "The reaction is strong evidence: must be."
+      },
+      {
+        "use": "Can’t",
+        "before": "That",
+        "after": "be Joan — she’s on holiday in Greece.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
+        ],
+        "display": "can’t",
+        "explain": "You’re sure it isn’t true: can’t + be."
+      },
+      {
+        "use": "Can’t",
+        "before": "You",
+        "after": "be hungry. You’ve just eaten two sandwiches!",
+        "hint": "must / might / can’t",
+        "answers": [
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
+        ],
+        "display": "can’t",
+        "explain": "Evidence shows it’s impossible: can’t be."
+      },
+      {
+        "use": "Can’t",
+        "before": "The shop",
+        "after": "be open. All the lights are off.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
+        ],
+        "display": "can’t",
+        "explain": "Sure it’s not true: can’t, never mustn’t."
+      },
+      {
+        "use": "Can’t",
+        "before": "This",
+        "after": "be the right road. It’s a dead end!",
+        "hint": "must / might / can’t",
+        "answers": [
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
+        ],
+        "display": "can’t",
+        "explain": "A negative deduction from evidence: can’t be."
+      },
+      {
+        "use": "Might",
+        "before": "I don’t know where Laia is. She",
+        "after": "be at the library.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "might",
+          "may",
+          "could"
+        ],
+        "display": "might",
+        "explain": "No real evidence, just a possibility: might be."
+      },
+      {
+        "use": "Might",
+        "before": "Ask Pol. He",
+        "after": "know the answer.",
+        "hint": "must / might / can’t",
+        "answers": [
+          "might",
+          "may"
+        ],
+        "display": "might",
+        "explain": "It’s only possible: might + base verb."
+      },
+      {
+        "use": "Might",
+        "before": "The phone’s ringing. It",
+        "after": "be Mum.",
+        "hint": "must / could / can’t",
+        "answers": [
+          "could",
+          "might",
+          "may"
+        ],
+        "display": "could",
+        "explain": "One possibility among others: could be."
+      },
+      {
+        "use": "Might not",
+        "before": "She",
+        "after": "know about the meeting. Let’s tell her.",
+        "hint": "might not / can’t",
+        "answers": [
+          "might not",
+          "may not"
+        ],
+        "display": "might not",
+        "explain": "Perhaps she doesn’t know: might not."
+      },
+      {
+        "use": "Base verb",
+        "before": "He must",
+        "after": "very rich — look at his car!",
+        "hint": "(be)",
+        "answers": [
+          "be"
+        ],
+        "display": "be",
+        "explain": "After ‘must’ use the base verb ‘be’, not ‘is’."
+      },
+      {
+        "use": "Base verb",
+        "before": "They must",
+        "after": "animals. They’ve got six dogs.",
+        "hint": "(love)",
+        "answers": [
+          "love"
+        ],
+        "display": "love",
+        "explain": "After ‘must’ use the base verb: love."
+      },
+      {
+        "use": "Continuous",
+        "before": "Listen! Someone must be",
+        "after": "the drums upstairs.",
+        "hint": "(play)",
+        "answers": [
+          "playing"
+        ],
+        "display": "playing",
+        "explain": "An action happening now: must be + -ing."
+      },
+      {
+        "use": "Continuous",
+        "before": "He isn’t answering. He",
+        "after": "driving.",
+        "hint": "might be / must",
+        "answers": [
+          "might be"
+        ],
+        "display": "might be",
+        "explain": "Perhaps in progress now: might be + -ing."
+      },
+      {
+        "use": "Continuous",
+        "before": "They can’t be",
+        "after": "— it’s only seven o’clock.",
+        "hint": "(sleep)",
+        "answers": [
+          "sleeping"
+        ],
+        "display": "sleeping",
+        "explain": "Negative continuous deduction: can’t be + -ing."
+      },
+      {
+        "use": "Couldn’t",
+        "before": "It",
+        "after": "be the postman — there’s no post on Sundays.",
+        "hint": "couldn’t / mustn’t",
+        "answers": [
+          "couldn’t",
+          "couldn't",
+          "couldnt",
+          "could not"
+        ],
+        "display": "couldn’t",
+        "explain": "‘Couldn’t’ is a softer ‘can’t’ for negative deduction."
+      },
+      {
+        "use": "Must",
+        "before": "Your eyes are red. You",
+        "after": "be tired.",
+        "hint": "must / mustn’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "Red eyes are good evidence: must be tired."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 deductions with must, might and can’t.",
+    "sentences": [
+      {
+        "use": "Must",
+        "tokens": [
+          "She",
+          "must",
+          "be",
+          "at",
+          "work."
+        ]
+      },
+      {
+        "use": "Must",
+        "tokens": [
+          "You",
+          "must",
+          "be",
+          "very",
+          "tired."
+        ]
+      },
+      {
+        "use": "Must",
+        "tokens": [
+          "He",
+          "must",
+          "like",
+          "football."
+        ]
+      },
+      {
+        "use": "Must",
+        "tokens": [
+          "They",
+          "must",
+          "live",
+          "near",
+          "here."
+        ]
+      },
+      {
+        "use": "Must",
+        "tokens": [
+          "That",
+          "must",
+          "be",
+          "the",
+          "new",
+          "teacher."
+        ]
+      },
+      {
+        "use": "Can’t",
+        "tokens": [
+          "It",
+          "can’t",
+          "be",
+          "true."
+        ]
+      },
+      {
+        "use": "Can’t",
+        "tokens": [
+          "You",
+          "can’t",
+          "be",
+          "serious."
+        ]
+      },
+      {
+        "use": "Can’t",
+        "tokens": [
+          "She",
+          "can’t",
+          "be",
+          "at",
+          "home."
+        ]
+      },
+      {
+        "use": "Can’t",
+        "tokens": [
+          "That",
+          "can’t",
+          "be",
+          "our",
+          "bus."
+        ]
+      },
+      {
+        "use": "Can’t",
+        "tokens": [
+          "He",
+          "can’t",
+          "be",
+          "older",
+          "than",
+          "me."
+        ]
+      },
+      {
+        "use": "Might",
+        "tokens": [
+          "She",
+          "might",
+          "be",
+          "at",
+          "the",
+          "gym."
+        ]
+      },
+      {
+        "use": "Might",
+        "tokens": [
+          "It",
+          "could",
+          "be",
+          "a",
+          "mistake."
+        ]
+      },
+      {
+        "use": "Might",
+        "tokens": [
+          "They",
+          "may",
+          "be",
+          "lost."
+        ]
+      },
+      {
+        "use": "Might not",
+        "tokens": [
+          "He",
+          "might",
+          "not",
+          "know."
+        ]
+      },
+      {
+        "use": "Continuous",
+        "tokens": [
+          "Someone",
+          "must",
+          "be",
+          "cooking."
+        ]
+      },
+      {
+        "use": "Continuous",
+        "tokens": [
+          "She",
+          "might",
+          "be",
+          "sleeping."
+        ]
+      },
+      {
+        "use": "Continuous",
+        "tokens": [
+          "They",
+          "can’t",
+          "be",
+          "working",
+          "now."
+        ]
+      },
+      {
+        "use": "Continuous",
+        "tokens": [
+          "He",
+          "could",
+          "be",
+          "waiting",
+          "outside."
+        ]
+      },
+      {
+        "use": "Couldn’t",
+        "tokens": [
+          "It",
+          "couldn’t",
+          "be",
+          "the",
+          "postman."
+        ]
+      },
+      {
+        "use": "Must",
+        "tokens": [
+          "This",
+          "must",
+          "be",
+          "your",
+          "bag."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the evidence and the deduction",
+    "subtitle": "Tap the evidence, then tap the best deduction.",
+    "leftLabel": "Evidence",
+    "rightLabel": "Deduction",
+    "rightLabelSub": "(must / might / can’t)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "He’s yawning all the time.",
+        "right": "He must be tired."
+      },
+      {
+        "left": "The house is completely dark.",
+        "right": "They can’t be at home."
+      },
+      {
+        "left": "I’m not sure where she is.",
+        "right": "She might be at work."
+      },
+      {
+        "left": "She’s wearing a nurse’s uniform.",
+        "right": "She must work at the hospital."
+      },
+      {
+        "left": "He’s only six.",
+        "right": "He can’t drive."
+      },
+      {
+        "left": "The phone’s ringing.",
+        "right": "It might be Dad."
+      },
+      {
+        "left": "Everyone is wearing coats.",
+        "right": "It must be cold outside."
+      },
+      {
+        "left": "You’ve just had lunch.",
+        "right": "You can’t be hungry."
+      },
+      {
+        "left": "He hasn’t replied.",
+        "right": "He may be busy."
+      },
+      {
+        "left": "She’s got a big smile.",
+        "right": "She must be happy."
+      },
+      {
+        "left": "Marc is in London.",
+        "right": "That can’t be Marc."
+      },
+      {
+        "left": "There’s a noise in the kitchen.",
+        "right": "It could be the cat."
+      },
+      {
+        "left": "The streets are full of water.",
+        "right": "It must be raining a lot."
+      },
+      {
+        "left": "The shop is closed on Sundays.",
+        "right": "It can’t be open today."
+      },
+      {
+        "left": "I don’t know the answer.",
+        "right": "It might be B."
+      },
+      {
+        "left": "He speaks Japanese fluently.",
+        "right": "He must study a lot."
+      },
+      {
+        "left": "She’s been asleep all day.",
+        "right": "She can’t be tired."
+      },
+      {
+        "left": "Their car isn’t here.",
+        "right": "They might be on holiday."
+      },
+      {
+        "left": "There’s music upstairs.",
+        "right": "Someone must be playing the piano."
+      },
+      {
+        "left": "The answer is 3 + 3 = 7.",
+        "right": "That can’t be right."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Must = sure it’s true, can’t = sure it isn’t, might = possible.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Must",
+        "text": "She’s been working for twelve hours. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be exhausted.",
+        "choices": [
+          "must",
+          "can’t",
+          "mustn’t",
+          "has to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Can’t be exhausted’ is the opposite of what the evidence shows.",
+          "‘Mustn’t’ is a prohibition, never used for deduction.",
+          "‘Has to’ is obligation, not a logical conclusion."
+        ],
+        "explain": "Twelve hours of work is strong evidence, so you’re sure: must be exhausted."
+      },
+      {
+        "use": "Can’t",
+        "text": "That <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be Joan. She’s in Australia.",
+        "choices": [
+          "mustn’t",
+          "can’t",
+          "must",
+          "might"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Mustn’t’ is never used for a negative deduction.",
+          "",
+          "‘Must be Joan’ contradicts the evidence.",
+          "‘Might’ shows doubt, but you’re sure."
+        ],
+        "explain": "Being in Australia makes it impossible, so the negative deduction is ‘can’t be’."
+      },
+      {
+        "use": "Might",
+        "text": "I’m not sure who’s at the door. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be the neighbour.",
+        "choices": [
+          "must",
+          "can’t",
+          "might",
+          "has to"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must’ shows you’re sure, but you aren’t.",
+          "‘Can’t’ means you’re sure it isn’t.",
+          "",
+          "‘Has to’ is obligation."
+        ],
+        "explain": "Without evidence it’s only a possibility, so ‘might be’ is the right choice."
+      },
+      {
+        "use": "Must",
+        "text": "They’ve got three cars and a pool. They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be rich.",
+        "choices": [
+          "can’t",
+          "might not",
+          "mustn’t",
+          "must"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Can’t be rich’ contradicts the evidence.",
+          "‘Might not’ is a weak negative possibility.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          ""
+        ],
+        "explain": "Three cars and a pool are strong evidence, so the deduction is ‘must be rich’."
+      },
+      {
+        "use": "Can’t",
+        "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be cold. It’s 35 degrees!",
+        "choices": [
+          "must",
+          "can’t",
+          "mustn’t",
+          "don’t have to"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must be cold’ contradicts the evidence.",
+          "",
+          "‘Mustn’t’ is a prohibition.",
+          "‘Don’t have to’ is about necessity."
+        ],
+        "explain": "At 35 degrees it’s almost impossible to be cold: can’t be."
+      },
+      {
+        "use": "Base verb",
+        "text": "He must <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> really tired after the match.",
+        "choices": [
+          "is",
+          "to be",
+          "be",
+          "being"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After a modal use the base verb ‘be’, not ‘is’.",
+          "No ‘to’ after ‘must’.",
+          "",
+          "‘Must being’ is wrong; continuous is ‘must be + -ing’."
+        ],
+        "explain": "After ‘must’ the verb ‘be’ stays in the base form: must be."
+      },
+      {
+        "use": "Continuous",
+        "text": "Listen! Someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> singing in the shower.",
+        "choices": [
+          "must",
+          "can’t",
+          "must to be",
+          "must be"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Must singing’ needs ‘be’ before the -ing form.",
+          "‘Can’t singing’ is wrong and contradicts the evidence.",
+          "No ‘to’ after ‘must’.",
+          ""
+        ],
+        "explain": "You can hear it now, so it’s a continuous deduction: must be + -ing."
+      },
+      {
+        "use": "Continuous",
+        "text": "She isn’t answering. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be driving.",
+        "choices": [
+          "might",
+          "must to",
+          "mights",
+          "can’t to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "No ‘to’ after ‘must’.",
+          "Modals never take -s.",
+          "No ‘to’ after ‘can’t’."
+        ],
+        "explain": "Not answering suggests a possibility: she might be driving right now."
+      },
+      {
+        "use": "Mustn’t",
+        "text": "Which sentence is a correct negative deduction?",
+        "choices": [
+          "It mustn’t be true.",
+          "It doesn’t must be true.",
+          "It can’t be true.",
+          "It hasn’t to be true."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Mustn’t’ means prohibition, not deduction.",
+          "Modals don’t use ‘doesn’t’.",
+          "",
+          "‘Hasn’t to’ is not a correct form."
+        ],
+        "explain": "The opposite of ‘must be’ in deduction is ‘can’t be’."
+      },
+      {
+        "use": "Have to",
+        "text": "Which sentence is a deduction, not an obligation?",
+        "choices": [
+          "He has to be at home by ten.",
+          "He must be home by ten — it’s the rule.",
+          "He has to stay at home.",
+          "He must be at home — his car is outside."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "That’s an obligation (a time rule).",
+          "That’s an obligation.",
+          "That’s an obligation.",
+          ""
+        ],
+        "explain": "The evidence (his car) shows this ‘must’ is a logical conclusion."
+      },
+      {
+        "use": "Might not",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> know about the change of plan. Let’s call her.",
+        "choices": [
+          "might not",
+          "couldn’t",
+          "mustn’t",
+          "can’t to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Couldn’t know’ suggests it’s impossible.",
+          "‘Mustn’t’ is a prohibition.",
+          "No ‘to’ after ‘can’t’."
+        ],
+        "explain": "Perhaps she doesn’t know: the negative possibility is ‘might not’."
+      },
+      {
+        "use": "Couldn’t",
+        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be the postman — it’s a bank holiday.",
+        "choices": [
+          "mustn’t",
+          "couldn’t",
+          "might",
+          "must"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Mustn’t’ isn’t used for deduction.",
+          "",
+          "‘Might’ shows it’s possible, but the holiday rules it out.",
+          "‘Must’ contradicts the evidence."
+        ],
+        "explain": "‘Couldn’t’ works like a softer ‘can’t’ for negative deduction."
+      },
+      {
+        "use": "Must",
+        "text": "Your bag is so heavy! What’s in it? It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be full of books.",
+        "choices": [
+          "can’t",
+          "mustn’t",
+          "needn’t",
+          "must"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Can’t’ contradicts the weight.",
+          "‘Mustn’t’ is a prohibition.",
+          "‘Needn’t’ is about necessity.",
+          ""
+        ],
+        "explain": "The weight is good evidence, so ‘must be full of books’ is a strong deduction."
+      },
+      {
+        "use": "Can’t",
+        "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be the manager. He’s only seventeen!",
+        "choices": [
+          "can’t",
+          "must",
+          "might",
+          "mustn’t"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Must’ contradicts the evidence.",
+          "‘Might’ shows doubt, but his age rules it out.",
+          "‘Mustn’t’ isn’t used for deduction."
+        ],
+        "explain": "His age makes it very unlikely, so you’re sure it isn’t true: can’t be."
+      },
+      {
+        "use": "Might",
+        "text": "Where are my keys? They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be in the car — I’m not sure.",
+        "choices": [
+          "must",
+          "could",
+          "can’t",
+          "mustn’t"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Must’ means you’re sure, but ‘I’m not sure’.",
+          "",
+          "‘Can’t’ means you’re sure they aren’t.",
+          "‘Mustn’t’ is a prohibition."
+        ],
+        "explain": "‘I’m not sure’ shows it’s only possible: could be in the car."
+      },
+      {
+        "use": "Must",
+        "text": "Pau got 10 out of 10. He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> have studied a lot.",
+        "choices": [
+          "can’t",
+          "mustn’t",
+          "must",
+          "has"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Can’t have studied’ contradicts the evidence.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          "",
+          "‘Has have’ is wrong."
+        ],
+        "explain": "A perfect score is strong evidence: must (have studied)."
+      },
+      {
+        "use": "Continuous",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be having dinner — it’s only four o’clock.",
+        "choices": [
+          "can’t",
+          "must",
+          "mustn’t",
+          "has to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Must be having dinner’ at four contradicts the evidence.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          "‘Has to’ is obligation."
+        ],
+        "explain": "Four o’clock is too early, so the negative continuous deduction is ‘can’t be having’."
+      },
+      {
+        "use": "Certainty",
+        "text": "Which sentence shows the most certainty?",
+        "choices": [
+          "She might be ill.",
+          "She must be ill.",
+          "She could be ill.",
+          "She may be ill."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Might’ shows doubt.",
+          "",
+          "‘Could’ shows possibility.",
+          "‘May’ shows possibility."
+        ],
+        "explain": "‘Must’ shows about 95% certainty; might, may and could show 50% or less."
+      },
+      {
+        "use": "Must",
+        "text": "Mmm, something smells delicious. Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be cooking paella.",
+        "choices": [
+          "can’t",
+          "mustn’t",
+          "must",
+          "shouldn’t"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Can’t’ contradicts the smell.",
+          "‘Mustn’t’ is a prohibition.",
+          "",
+          "‘Shouldn’t’ is advice."
+        ],
+        "explain": "The smell is strong evidence of an action now: must be cooking."
+      },
+      {
+        "use": "Can’t",
+        "text": "This <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be my coat. Mine is blue.",
+        "choices": [
+          "must",
+          "mustn’t",
+          "might",
+          "can’t"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Must’ contradicts the colour.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          "‘Might’ shows doubt, but the colour is clear evidence.",
+          ""
+        ],
+        "explain": "The colour proves it isn’t yours: can’t be my coat."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "That",
+          "mustn’t",
+          "be",
+          "Pol",
+          "—",
+          "he’s",
+          "at",
+          "school."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Mustn’t for deduction",
+        "message": "Negative deduction: ‘That can’t be Pol’."
+      },
+      {
+        "tokens": [
+          "You",
+          "mustn’t",
+          "be",
+          "hungry",
+          "—",
+          "you’ve",
+          "just",
+          "eaten."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Mustn’t for deduction",
+        "message": "Negative deduction: ‘You can’t be hungry’."
+      },
+      {
+        "tokens": [
+          "It",
+          "mustn’t",
+          "be",
+          "true!"
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Mustn’t for deduction",
+        "message": "Negative deduction: ‘It can’t be true!’."
+      },
+      {
+        "tokens": [
+          "His",
+          "car",
+          "is",
+          "here,",
+          "so",
+          "he",
+          "has",
+          "to",
+          "be",
+          "at",
+          "home."
+        ],
+        "errorIndex": 6,
+        "correction": "must",
+        "type": "Have to for deduction",
+        "message": "Deduction uses ‘must’: ‘he must be at home’."
+      },
+      {
+        "tokens": [
+          "They",
+          "have",
+          "to",
+          "be",
+          "very",
+          "rich",
+          "—",
+          "look",
+          "at",
+          "their",
+          "house!"
+        ],
+        "errorIndex": 1,
+        "correction": "must",
+        "type": "Have to for deduction",
+        "message": "Deduction: ‘They must be very rich’."
+      },
+      {
+        "tokens": [
+          "She",
+          "must",
+          "is",
+          "tired",
+          "after",
+          "the",
+          "trip."
+        ],
+        "errorIndex": 2,
+        "correction": "be",
+        "type": "Base verb",
+        "message": "After ‘must’ use ‘be’: ‘She must be tired’."
+      },
+      {
+        "tokens": [
+          "He",
+          "can’t",
+          "knows",
+          "the",
+          "answer."
+        ],
+        "errorIndex": 2,
+        "correction": "know",
+        "type": "Base verb",
+        "message": "After ‘can’t’ use the base verb: ‘know’."
+      },
+      {
+        "tokens": [
+          "They",
+          "might",
+          "are",
+          "lost."
+        ],
+        "errorIndex": 2,
+        "correction": "be",
+        "type": "Base verb",
+        "message": "After ‘might’ use ‘be’: ‘They might be lost’."
+      },
+      {
+        "tokens": [
+          "He",
+          "musts",
+          "be",
+          "the",
+          "new",
+          "teacher."
+        ],
+        "errorIndex": 1,
+        "correction": "must",
+        "type": "-s on a modal",
+        "message": "Modals never take -s."
+      },
+      {
+        "tokens": [
+          "Someone",
+          "must",
+          "playing",
+          "the",
+          "guitar."
+        ],
+        "errorIndex": 2,
+        "correction": "be playing",
+        "type": "Continuous",
+        "message": "Continuous deduction: ‘must be playing’."
+      },
+      {
+        "tokens": [
+          "She",
+          "might",
+          "be",
+          "sleep",
+          "now."
+        ],
+        "errorIndex": 3,
+        "correction": "sleeping",
+        "type": "Continuous",
+        "message": "After ‘might be’ use -ing: ‘sleeping’."
+      },
+      {
+        "tokens": [
+          "I’m",
+          "not",
+          "sure",
+          "where",
+          "she",
+          "is.",
+          "She",
+          "must",
+          "be",
+          "at",
+          "work."
+        ],
+        "errorIndex": 7,
+        "correction": "might",
+        "type": "Wrong certainty",
+        "message": "Not sure → ‘She might be at work’."
+      },
+      {
+        "tokens": [
+          "The",
+          "lights",
+          "are",
+          "off.",
+          "They",
+          "must",
+          "be",
+          "at",
+          "home."
+        ],
+        "errorIndex": 5,
+        "correction": "can’t",
+        "type": "Wrong certainty",
+        "message": "The evidence suggests the opposite: ‘They can’t be at home’."
+      },
+      {
+        "tokens": [
+          "He’s",
+          "crying.",
+          "He",
+          "can’t",
+          "be",
+          "sad."
+        ],
+        "errorIndex": 3,
+        "correction": "must",
+        "type": "Wrong certainty",
+        "message": "Crying is evidence of sadness: ‘He must be sad’."
+      },
+      {
+        "tokens": [
+          "Everyone’s",
+          "wearing",
+          "shorts.",
+          "It",
+          "can’t",
+          "be",
+          "hot."
+        ],
+        "errorIndex": 4,
+        "correction": "must",
+        "type": "Wrong certainty",
+        "message": "The evidence shows ‘It must be hot’."
+      },
+      {
+        "tokens": [
+          "She",
+          "couldn’t",
+          "know",
+          "about",
+          "it",
+          "—",
+          "let’s",
+          "tell",
+          "her",
+          "just",
+          "in",
+          "case."
+        ],
+        "errorIndex": 1,
+        "correction": "might not",
+        "type": "Couldn’t for perhaps not",
+        "message": "Perhaps not: ‘She might not know’."
+      },
+      {
+        "tokens": [
+          "He’s",
+          "ten,",
+          "so",
+          "he",
+          "mustn’t",
+          "be",
+          "a",
+          "doctor."
+        ],
+        "errorIndex": 4,
+        "correction": "can’t",
+        "type": "Wrong modal",
+        "message": "Negative deduction: ‘He can’t be a doctor’."
+      },
+      {
+        "tokens": [
+          "It",
+          "mustn’t",
+          "be",
+          "the",
+          "cat",
+          "—",
+          "the",
+          "cat",
+          "is",
+          "outside."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Mustn’t for deduction",
+        "message": "Negative deduction: ‘It can’t be the cat’."
+      },
+      {
+        "tokens": [
+          "You",
+          "cant",
+          "be",
+          "serious!"
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "type": "Spelling",
+        "message": "Spelling: ‘can’t’ with an apostrophe."
+      },
+      {
+        "tokens": [
+          "That",
+          "can’t",
+          "been",
+          "right."
+        ],
+        "errorIndex": 2,
+        "correction": "be",
+        "type": "Wrong form",
+        "message": "After ‘can’t’ use ‘be’: ‘That can’t be right’."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, how sure, multiple choice and spot-the-mistake. In the typing questions write must, might or can’t, or the verb after them. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "certainty": "How sure?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "certainty",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Must",
+        "sentText": "She’s got a suntan. She {{blank}} have been on holiday.",
+        "hint": "must / can’t",
+        "answers": [
+          "must"
+        ],
+        "display": "must",
+        "explain": "A suntan is strong evidence, so the deduction is ‘must’.",
+        "wrongNote": "Sure it’s true → ‘must’."
+      },
+      {
+        "type": "fill",
+        "use": "Can’t",
+        "sentText": "He {{blank}} be French. He doesn’t speak a word of it.",
+        "hint": "must / can’t",
+        "answers": [
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
+        ],
+        "display": "can’t",
+        "explain": "Strong evidence it’s not true: ‘can’t be’.",
+        "wrongNote": "Sure it isn’t → ‘can’t’."
+      },
+      {
+        "type": "fill",
+        "use": "Might",
+        "sentText": "I’m not sure, but the answer {{blank}} be C.",
+        "hint": "must / might",
+        "answers": [
+          "might",
+          "may",
+          "could"
+        ],
+        "display": "might",
+        "explain": "Only a guess, no evidence: ‘might be’.",
+        "wrongNote": "Not sure → ‘might’."
+      },
+      {
+        "type": "fill",
+        "use": "Continuous",
+        "sentText": "Shh! The baby must be {{blank}} .",
+        "hint": "sleep",
+        "answers": [
+          "sleeping"
+        ],
+        "display": "sleeping",
+        "explain": "An action happening now: must be + -ing.",
+        "wrongNote": "After ‘must be’ use -ing."
+      },
+      {
+        "type": "order",
+        "use": "Must",
+        "tokens": [
+          "He",
+          "must",
+          "be",
+          "at",
+          "school."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Can’t",
+        "tokens": [
+          "That",
+          "can’t",
+          "be",
+          "right."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Might",
+        "tokens": [
+          "She",
+          "might",
+          "be",
+          "ill."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Continuous",
+        "tokens": [
+          "They",
+          "must",
+          "be",
+          "joking."
+        ]
+      },
+      {
+        "type": "certainty",
+        "use": "Certainty",
+        "text": "The evidence is very strong. Which modal fits a sure ‘yes’?",
+        "choices": [
+          "might",
+          "must",
+          "could",
+          "may"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Might’ shows only possibility.",
+          "",
+          "‘Could’ shows only possibility.",
+          "‘May’ shows only possibility."
+        ],
+        "explain": "‘Must’ = I’m sure it’s true (about 95%)."
+      },
+      {
+        "type": "certainty",
+        "use": "Certainty",
+        "text": "You’re sure it isn’t true. Which modal do you use?",
+        "choices": [
+          "mustn’t",
+          "might not",
+          "don’t have to",
+          "can’t"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Mustn’t’ is a prohibition, not a deduction.",
+          "‘Might not’ only means perhaps not.",
+          "‘Don’t have to’ is about necessity.",
+          ""
+        ],
+        "explain": "‘Can’t’ = I’m sure it isn’t true."
+      },
+      {
+        "type": "certainty",
+        "use": "Certainty",
+        "text": "‘She might be at home’ means…",
+        "choices": [
+          "perhaps she’s at home",
+          "I’m sure she’s at home",
+          "I’m sure she isn’t at home",
+          "she has to be at home"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "That’s ‘must be’.",
+          "That’s ‘can’t be’.",
+          "That’s an obligation."
+        ],
+        "explain": "‘Might’ = it’s possible, about 50%."
+      },
+      {
+        "type": "certainty",
+        "use": "Certainty",
+        "text": "Which word is NOT used for deduction?",
+        "choices": [
+          "must",
+          "can’t",
+          "mustn’t",
+          "might"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Must’ is used for a sure deduction.",
+          "‘Can’t’ is used for a sure negative deduction.",
+          "",
+          "‘Might’ is used for a possible deduction."
+        ],
+        "explain": "‘Mustn’t’ is only for prohibition — never for deduction."
+      },
+      {
+        "type": "mc",
+        "use": "Must",
+        "text": "He’s always at the gym. He {{blank}} love exercise.",
+        "choices": [
+          "can’t",
+          "mustn’t",
+          "must",
+          "needn’t"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Can’t’ contradicts the evidence.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          "",
+          "‘Needn’t’ is about necessity."
+        ],
+        "explain": "Always at the gym is strong evidence: must love exercise."
+      },
+      {
+        "type": "mc",
+        "use": "Can’t",
+        "text": "You {{blank}} be tired. You slept for ten hours!",
+        "choices": [
+          "can’t",
+          "must",
+          "mustn’t",
+          "have to"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Must’ contradicts the evidence.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          "‘Have to’ is obligation."
+        ],
+        "explain": "Ten hours of sleep makes it very unlikely: can’t be tired."
+      },
+      {
+        "type": "mc",
+        "use": "Might",
+        "text": "Where’s Laia? She {{blank}} be in the garden.",
+        "choices": [
+          "must",
+          "can’t",
+          "mustn’t",
+          "might"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Must’ needs evidence.",
+          "‘Can’t’ means you’re sure she isn’t.",
+          "‘Mustn’t’ isn’t used for deduction.",
+          ""
+        ],
+        "explain": "No evidence, just a guess: might be."
+      },
+      {
+        "type": "mc",
+        "use": "Base verb",
+        "text": "That must {{blank}} the new student.",
+        "choices": [
+          "is",
+          "be",
+          "to be",
+          "being"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "After a modal use ‘be’, not ‘is’.",
+          "",
+          "No ‘to’ after ‘must’.",
+          "‘Must being’ is wrong."
+        ],
+        "explain": "After ‘must’ the base verb is ‘be’."
+      },
+      {
+        "type": "error",
+        "use": "Mustn’t for deduction",
+        "tokens": [
+          "That",
+          "mustn’t",
+          "be",
+          "our",
+          "train",
+          "—",
+          "it’s",
+          "too",
+          "early."
+        ],
+        "errorIndex": 1,
+        "correction": "can’t",
+        "message": "Negative deduction uses ‘can’t’."
+      },
+      {
+        "type": "error",
+        "use": "Have to for deduction",
+        "tokens": [
+          "She",
+          "has",
+          "to",
+          "be",
+          "at",
+          "home",
+          "—",
+          "her",
+          "bike",
+          "is",
+          "outside."
+        ],
+        "errorIndex": 1,
+        "correction": "must",
+        "message": "Deduction uses ‘must’, not ‘has to’."
+      },
+      {
+        "type": "error",
+        "use": "Base verb",
+        "tokens": [
+          "He",
+          "must",
+          "is",
+          "joking."
+        ],
+        "errorIndex": 2,
+        "correction": "be",
+        "message": "After ‘must’ use ‘be’: ‘He must be joking’."
+      },
+      {
+        "type": "error",
+        "use": "Wrong certainty",
+        "tokens": [
+          "I’m",
+          "not",
+          "sure.",
+          "He",
+          "must",
+          "be",
+          "in",
+          "Madrid."
+        ],
+        "errorIndex": 4,
+        "correction": "might",
+        "message": "Not sure → ‘might’."
+      }
+    ]
+  }
+}

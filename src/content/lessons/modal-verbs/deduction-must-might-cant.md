@@ -29,39 +29,98 @@ related:
   - { title: "All modal verbs", href: "/grammar/modal-verbs/" }
   - { title: "May, Might & Could", href: "/grammar/modal-verbs/may-might-could-probability/" }
   - { title: "Modal Perfects", href: "/grammar/modal-verbs/modal-perfects/" }
+next: { title: "Modal Perfects", href: "/grammar/modal-verbs/modal-perfects/" }
 draft: false
 ---
 
-## must, might/could, can't for deduction
+## How to form deductions in the present
 
-| Modal | How sure | Example |
+| Certainty | Modal | Example |
 |---|---|---|
-| must | almost certain it's true | He **must be** ill — he never misses work. |
-| might / may / could | possible, not sure | She **might be** on her way. |
-| can't | almost certain it's false | That **can't be** the right address. |
+| I'm sure it's true (about 95%) | **must** + base verb | She **must be** tired. |
+| It's possible (about 50%) | **might / may / could** + base verb | She **might be** tired. |
+| I'm sure it's not true (about 95%) | **can't** + base verb | She **can't be** tired. |
 
-Use **modal + be** or **modal + base verb**. This is about how sure you are, not about rules.
+We use these modals when we **work something out** from evidence, not when we know the fact. They take the base verb — very often **be**.
 
-## When to use each
+| ✗ | ✓ |
+|---|---|
+| ~~He musts be rich.~~ | He **must** be rich. |
+| ~~She must to be at home.~~ | She **must be** at home. |
+| ~~It mustn't be true.~~ (deduction) | It **can't be** true. |
 
-### 1. must — you're almost sure
+## When to use *must* (I'm sure it's true)
 
-- The lights are on, so someone **must be** home.
+### 1. Strong evidence
 
-### 2. might / may / could — it's possible
+- The lights are on. They **must** be at home.
+- You've been running for an hour. You **must** be exhausted!
 
-- I'm not sure where she is. She **might be** at lunch. It **could be** the traffic.
+> ⚠️ Typical error: ~~They have to be at home.~~ → For deduction, use *must*: *They must be at home.*
 
-### 3. can't — you're almost sure it's false
+### 2. With other verbs
 
-- He **can't be** 40 — he looks so young. This **can't be** true.
+- He speaks five languages. He **must** travel a lot.
+- She's always smiling. She **must** love her job.
 
-> ⚠️ For a negative deduction, use **can't** (not mustn't): *She **can't** know about it* (I'm sure she doesn't), not ~~she mustn't know~~ (which is a prohibition).
+## When to use *can't* (I'm sure it's not true)
+
+### 1. The opposite of *must*
+
+- That **can't** be Marta — she's in Paris this week.
+- You **can't** be hungry. You've just had lunch!
+
+> ⚠️ Typical error: ~~That mustn't be Marta.~~ → The negative deduction is *can't*, never *mustn't*: *That can't be Marta.*
+
+### 2. *Couldn't* also works
+
+*Couldn't* is a little softer than *can't*.
+
+- It **couldn't** be the postman — it's Sunday.
+
+## When to use *might / may / could* (it's possible)
+
+### 1. Not enough evidence
+
+- I don't know where Pau is. He **might** be in the library.
+- That **could** be the answer, but I'm not sure.
+
+> ⚠️ Typical error: ~~He must be in the library~~ (when you have no evidence) → *He might be in the library.*
+
+### 2. Negative possibility
+
+Use **might not** / **may not** (not *couldn't*).
+
+- She **might not** know about the party.
+
+## Continuous deductions
+
+For an action happening **now**: modal + **be** + -ing.
+
+- Listen! Someone **must be playing** the piano.
+- He's not answering. He **might be driving**.
+- They **can't be sleeping** — it's only seven.
+
+## Evidence → deduction
+
+| Evidence | Deduction |
+|---|---|
+| The ground is wet. | It **must** have rained. *(past — see below)* |
+| She's wearing a uniform. | She **must** work here. |
+| He's yawning. | He **must** be tired. |
+| The shop is dark. | It **can't** be open. |
+| I'm not sure where she is. | She **might** be at work. |
+
+For deductions about the **past** (*must have done*), see [Modal Perfects](/grammar/modal-verbs/modal-perfects/).
 
 ## Common mistakes
 
-**1. 'mustn't' for a negative deduction.** *~~That mustn't be his car~~* → **That can't be his car.**
+**1. *Mustn't* for negative deduction.** *~~It mustn't be true~~* → **It can't be true.**
 
-**2. Adding 'to'.** *~~She must to be tired~~* → **She must be tired.**
+**2. *Have to* for deduction.** *~~She has to be rich~~* (deduction) → **She must be rich.**
 
-**3. Confusing deduction and obligation.** *You must be quiet* (rule) vs *You must be joking* (deduction). **Pro tip:** must = sure it's true; might/could = possible; can't = sure it's false.
+**3. *To* after the modal.** *~~He must to be ill~~* → **He must be ill.**
+
+**4. *Must* without evidence.** If you're only guessing, use *might*.
+
+**Pro tip:** *must* and *can't* are opposites — swap them to change a sure "yes" into a sure "no".
