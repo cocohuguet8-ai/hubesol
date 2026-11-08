@@ -31,8 +31,8 @@ def place(item, pos):
     return use, text, choices, wr, explain
 
 def err_item(sent, corr):
-    toks = sent.split(' ')
-    idx = [i for i, t in enumerate(toks) if t.startswith('*')]
+    toks = [x.replace('_', '\u00a0') for x in sent.split(' ')]
+    idx = [i for i, t in enumerate(toks) if '*' in t]
     assert len(idx) == 1, sent
     i = idx[0]; toks[i] = toks[i].replace('*', '')
     return toks, i
