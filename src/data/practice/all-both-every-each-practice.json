@@ -1,0 +1,1514 @@
+{
+  "tense": "all-both-every-each",
+  "lessonTitle": "All, Both, Every & Each",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "all",
+        "both",
+        "every",
+        "each"
+      ],
+      "label": null,
+      "primary": "each"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type all, both, every or each. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Both",
+        "before": "I have two brothers.",
+        "after": "of them play football.",
+        "hint": "all / both",
+        "answers": [
+          "Both",
+          "both"
+        ],
+        "display": "Both",
+        "explain": "Exactly two: ‘both of them’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Both",
+        "before": "She speaks",
+        "after": "English and French.",
+        "hint": "all / both",
+        "answers": [
+          "both"
+        ],
+        "display": "both",
+        "explain": "‘Both … and …’ joins two things. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Both",
+        "before": "I like",
+        "after": "colours — blue and green.",
+        "hint": "all / both",
+        "answers": [
+          "both"
+        ],
+        "display": "both",
+        "explain": "Two colours: ‘both’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "before": "",
+        "after": "the students in my class passed the exam.",
+        "hint": "all / both",
+        "answers": [
+          "All",
+          "all"
+        ],
+        "display": "All",
+        "explain": "The whole group (more than two): ‘all’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "before": "He ate",
+        "after": "the cake! There’s nothing left.",
+        "hint": "all / both",
+        "answers": [
+          "all"
+        ],
+        "display": "all",
+        "explain": "The whole cake: ‘all’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "before": "It rained",
+        "after": "day yesterday.",
+        "hint": "all / every",
+        "answers": [
+          "all"
+        ],
+        "display": "all",
+        "explain": "‘All day’ = the whole day. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "before": "",
+        "after": "of my friends came to the party.",
+        "hint": "all / both",
+        "answers": [
+          "All",
+          "all"
+        ],
+        "display": "All",
+        "explain": "More than two friends: ‘all of’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "before": "I go to the gym",
+        "after": "Monday.",
+        "hint": "every / each",
+        "answers": [
+          "every"
+        ],
+        "display": "every",
+        "explain": "Frequency: ‘every Monday’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "before": "",
+        "after": "room in the hotel has a balcony.",
+        "hint": "every / each",
+        "answers": [
+          "Every",
+          "every"
+        ],
+        "display": "Every",
+        "explain": "All the rooms, as a group: ‘every room’ (‘each’ is also possible)."
+      },
+      {
+        "use": "Every",
+        "before": "The bus comes",
+        "after": "ten minutes.",
+        "hint": "every / each",
+        "answers": [
+          "every"
+        ],
+        "display": "every",
+        "explain": "Repeated interval: ‘every ten minutes’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "before": "",
+        "after": "is waiting for you.",
+        "hint": "every- / each",
+        "answers": [
+          "Everyone",
+          "Everybody",
+          "everyone",
+          "everybody"
+        ],
+        "display": "Everyone",
+        "explain": "Compound with a singular verb: ‘everyone is’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "before": "I looked",
+        "after": "for my keys.",
+        "hint": "every- / each",
+        "answers": [
+          "everywhere"
+        ],
+        "display": "everywhere",
+        "explain": "All places: ‘everywhere’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "before": "The teacher gave a book to",
+        "after": "student.",
+        "hint": "every / each",
+        "answers": [
+          "each"
+        ],
+        "display": "each",
+        "explain": "One by one: ‘each student’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "before": "She had a bag in",
+        "after": "hand.",
+        "hint": "every / each",
+        "answers": [
+          "each"
+        ],
+        "display": "each",
+        "explain": "Two hands: ‘each’, not ‘every’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "before": "",
+        "after": "of the rooms has its own bathroom.",
+        "hint": "every / each",
+        "answers": [
+          "Each",
+          "each"
+        ],
+        "display": "Each",
+        "explain": "‘Each of’ + plural, singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "before": "The tickets cost twenty euros",
+        "after": ".",
+        "hint": "every / each",
+        "answers": [
+          "each"
+        ],
+        "display": "each",
+        "explain": "‘Each’ alone at the end = per item. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "before": "The two teams played well.",
+        "after": "team scored a goal.",
+        "hint": "every / each",
+        "answers": [
+          "Each",
+          "each"
+        ],
+        "display": "Each",
+        "explain": "Two teams, one by one: ‘each’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "before": "I’ve spent",
+        "after": "my money.",
+        "hint": "all / both",
+        "answers": [
+          "all"
+        ],
+        "display": "all",
+        "explain": "The whole amount: ‘all my money’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Both",
+        "before": "",
+        "after": "my parents are teachers.",
+        "hint": "all / both",
+        "answers": [
+          "Both",
+          "both"
+        ],
+        "display": "Both",
+        "explain": "Two parents: ‘both’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "before": "I’ve read",
+        "after": "book in this series.",
+        "hint": "every / each",
+        "answers": [
+          "every"
+        ],
+        "display": "every",
+        "explain": "All of them, as a group: ‘every book’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with all, both, every and each.",
+    "sentences": [
+      {
+        "use": "Both",
+        "tokens": [
+          "Both",
+          "my",
+          "parents",
+          "work."
+        ]
+      },
+      {
+        "use": "Both",
+        "tokens": [
+          "Both",
+          "of",
+          "us",
+          "were",
+          "tired."
+        ]
+      },
+      {
+        "use": "Both … and",
+        "tokens": [
+          "She",
+          "is",
+          "both",
+          "clever",
+          "and",
+          "kind."
+        ]
+      },
+      {
+        "use": "All",
+        "tokens": [
+          "All",
+          "the",
+          "students",
+          "passed."
+        ]
+      },
+      {
+        "use": "All",
+        "tokens": [
+          "I",
+          "ate",
+          "all",
+          "of",
+          "it."
+        ]
+      },
+      {
+        "use": "All",
+        "tokens": [
+          "It",
+          "rained",
+          "all",
+          "day."
+        ]
+      },
+      {
+        "use": "All",
+        "tokens": [
+          "All",
+          "children",
+          "need",
+          "love."
+        ]
+      },
+      {
+        "use": "Every",
+        "tokens": [
+          "Every",
+          "room",
+          "has",
+          "a",
+          "TV."
+        ]
+      },
+      {
+        "use": "Every",
+        "tokens": [
+          "I",
+          "swim",
+          "every",
+          "day."
+        ]
+      },
+      {
+        "use": "Every",
+        "tokens": [
+          "Everyone",
+          "is",
+          "here."
+        ]
+      },
+      {
+        "use": "Every",
+        "tokens": [
+          "The",
+          "bus",
+          "comes",
+          "every",
+          "hour."
+        ]
+      },
+      {
+        "use": "Every",
+        "tokens": [
+          "Everything",
+          "is",
+          "ready."
+        ]
+      },
+      {
+        "use": "Each",
+        "tokens": [
+          "Each",
+          "player",
+          "has",
+          "a",
+          "number."
+        ]
+      },
+      {
+        "use": "Each",
+        "tokens": [
+          "Each",
+          "of",
+          "the",
+          "rooms",
+          "has",
+          "a",
+          "bed."
+        ]
+      },
+      {
+        "use": "Each",
+        "tokens": [
+          "They",
+          "cost",
+          "ten",
+          "euros",
+          "each."
+        ]
+      },
+      {
+        "use": "Each",
+        "tokens": [
+          "She",
+          "had",
+          "a",
+          "ring",
+          "on",
+          "each",
+          "hand."
+        ]
+      },
+      {
+        "use": "All",
+        "tokens": [
+          "All",
+          "of",
+          "my",
+          "friends",
+          "came."
+        ]
+      },
+      {
+        "use": "Both",
+        "tokens": [
+          "I",
+          "like",
+          "both",
+          "films."
+        ]
+      },
+      {
+        "use": "Every",
+        "tokens": [
+          "I",
+          "go",
+          "there",
+          "every",
+          "week."
+        ]
+      },
+      {
+        "use": "Each",
+        "tokens": [
+          "Each",
+          "child",
+          "got",
+          "a",
+          "present."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Which word?",
+    "subtitle": "Tap a sentence, then tap the word that fills the gap.",
+    "leftLabel": "Sentence",
+    "rightLabel": "Word",
+    "rightLabelSub": "",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "___ my eyes are blue.",
+        "right": "both"
+      },
+      {
+        "left": "___ the people in the room laughed.",
+        "right": "all"
+      },
+      {
+        "left": "I brush my teeth ___ morning.",
+        "right": "every"
+      },
+      {
+        "left": "She held a cup in ___ hand.",
+        "right": "each"
+      },
+      {
+        "left": "___ Lisbon and Porto are in Portugal.",
+        "right": "both"
+      },
+      {
+        "left": "We danced ___ night.",
+        "right": "all"
+      },
+      {
+        "left": "___ student needs a password.",
+        "right": "every"
+      },
+      {
+        "left": "The pens cost €1 ___.",
+        "right": "each"
+      },
+      {
+        "left": "I’ve got two cats; ___ are black.",
+        "right": "both"
+      },
+      {
+        "left": "___ of the milk is gone.",
+        "right": "all"
+      },
+      {
+        "left": "___thing is fine, thanks.",
+        "right": "every"
+      },
+      {
+        "left": "___ of the twins has a bike.",
+        "right": "each"
+      },
+      {
+        "left": "___ of my hands are cold.",
+        "right": "both"
+      },
+      {
+        "left": "I spent ___ my money.",
+        "right": "all"
+      },
+      {
+        "left": "The train leaves ___ two hours.",
+        "right": "every"
+      },
+      {
+        "left": "The two girls ___ got a prize.",
+        "right": "each"
+      },
+      {
+        "left": "___ of us went — me and Pau.",
+        "right": "both"
+      },
+      {
+        "left": "___ children love stories.",
+        "right": "all"
+      },
+      {
+        "left": "I’ve seen ___ film he made.",
+        "right": "every"
+      },
+      {
+        "left": "___ side of the coin is different.",
+        "right": "each"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Two → both. The whole group → all. Group of singular nouns → every. One by one → each.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Both",
+        "text": "I’ve got two cousins and <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> live in London.",
+        "choices": [
+          "both",
+          "all",
+          "every",
+          "each"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘All’ is for more than two.",
+          "‘Every’ needs a noun after it.",
+          "‘Each live’ needs a singular verb: ‘each lives’."
+        ],
+        "explain": "Exactly two: both. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the windows were open.",
+        "choices": [
+          "Every",
+          "All",
+          "Each",
+          "Both"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Every’ needs a singular noun, without ‘the’.",
+          "",
+          "‘Each’ needs a singular noun or ‘each of’.",
+          "‘Both’ is only for two (and we don’t know there are two)."
+        ],
+        "explain": "The whole group + plural: all the windows. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> student must bring a dictionary.",
+        "choices": [
+          "All",
+          "Both",
+          "Every",
+          "Each of"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘All’ needs a plural noun: ‘all students’.",
+          "‘Both’ needs a plural noun.",
+          "",
+          "‘Each of’ needs ‘the’ + plural."
+        ],
+        "explain": "Every + singular noun. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "text": "I check my email <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> morning.",
+        "choices": [
+          "all",
+          "both",
+          "each of",
+          "every"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘All morning’ means the whole morning, not every day.",
+          "Not for frequency.",
+          "‘Each of morning’ is wrong.",
+          ""
+        ],
+        "explain": "Frequency: every morning. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "text": "The baby cried <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> night.",
+        "choices": [
+          "every",
+          "all",
+          "each",
+          "both"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Every night’ means many nights.",
+          "",
+          "‘Each night’ means many nights, one by one.",
+          "‘Both night’ is wrong."
+        ],
+        "explain": "The whole night: all night. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "text": "There’s a lamp on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> side of the bed.",
+        "choices": [
+          "every",
+          "all",
+          "each",
+          "both"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "A bed has two sides: ‘every’ needs three or more.",
+          "‘All side’ is wrong.",
+          "",
+          "‘Both’ needs a plural: ‘both sides’."
+        ],
+        "explain": "Two sides, one by one: each side. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of the players has a different shirt.",
+        "choices": [
+          "Every",
+          "All",
+          "Both",
+          "Each"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Every of’ is never correct.",
+          "‘All of … has’ — ‘all’ takes a plural verb.",
+          "‘Both … has’ — ‘both’ takes a plural verb.",
+          ""
+        ],
+        "explain": "Each of + plural + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is ready for the party.",
+        "choices": [
+          "Everything",
+          "All things",
+          "Each",
+          "Both"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘All things’ sounds unnatural here.",
+          "‘Each’ alone needs context.",
+          "‘Both’ is for two."
+        ],
+        "explain": "Everything + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Both",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Marc and his sister are doctors.",
+        "choices": [
+          "All",
+          "Every",
+          "Both",
+          "Each"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Both … and …’ is the pattern.",
+          "‘Every … and’ is wrong.",
+          "",
+          "‘Each … and’ is wrong."
+        ],
+        "explain": "Both … and … Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "text": "Trains leave <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> fifteen minutes.",
+        "choices": [
+          "each",
+          "all",
+          "both",
+          "every"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Each fifteen minutes’ isn’t used.",
+          "‘All fifteen minutes’ is wrong.",
+          "‘Both’ is for two.",
+          ""
+        ],
+        "explain": "Every + number + time. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "text": "The oranges cost 50 cents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "each",
+          "every",
+          "all",
+          "both"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Every’ can’t stand alone at the end.",
+          "‘All’ doesn’t mean ‘per item’.",
+          "‘Both’ is for two."
+        ],
+        "explain": "Per item: each. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "All",
+        "text": "Have you finished <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your homework?",
+        "choices": [
+          "every",
+          "all",
+          "each",
+          "both"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Every your homework’ is wrong.",
+          "",
+          "‘Each your homework’ is wrong.",
+          "‘Both’ is for two."
+        ],
+        "explain": "The whole amount: all your homework. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Both",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of my parents were born in Lleida.",
+        "choices": [
+          "Every",
+          "Each",
+          "All",
+          "Both"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Every of’ is wrong.",
+          "‘Each of … were’ — ‘each’ needs a singular verb.",
+          "‘All’ is for three or more; parents are two.",
+          ""
+        ],
+        "explain": "Two people: both of. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is talking about the new film.",
+        "choices": [
+          "Everyone",
+          "All",
+          "Both",
+          "Each"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘All is talking’ is wrong.",
+          "‘Both is talking’ is wrong.",
+          "‘Each is talking’ needs context."
+        ],
+        "explain": "Everyone + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Verb",
+        "text": "Every child <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a present.",
+        "choices": [
+          "get",
+          "gets",
+          "are getting",
+          "have got"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Every’ takes a singular verb.",
+          "",
+          "‘Are’ is plural.",
+          "‘Have’ is plural."
+        ],
+        "explain": "Every + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Verb",
+        "text": "All the shops <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> closed on Sunday.",
+        "choices": [
+          "is",
+          "has",
+          "are",
+          "was"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘All the shops’ is plural.",
+          "‘Has’ is singular and wrong meaning.",
+          "",
+          "‘Was’ is singular."
+        ],
+        "explain": "All + plural + plural verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "I go swimming every day.",
+          "I go swimming every days.",
+          "I go swimming all days.",
+          "I go swimming each of day."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Every’ + singular.",
+          "Not with plural ‘days’ here.",
+          "‘Each of day’ is wrong."
+        ],
+        "explain": "Every day. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Which",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "Every of the boys has a bike.",
+          "Each of the boys has a bike.",
+          "Each of the boys have a bike.",
+          "Each the boys has a bike."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Never ‘every of’.",
+          "",
+          "‘Each of’ takes a singular verb.",
+          "We need ‘of’."
+        ],
+        "explain": "Each of + plural + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Every",
+        "text": "We visit our grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> summer.",
+        "choices": [
+          "all",
+          "both",
+          "every",
+          "each of"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘All summer’ means the whole summer.",
+          "‘Both summer’ is wrong.",
+          "",
+          "‘Each of summer’ is wrong."
+        ],
+        "explain": "Frequency: every summer. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "use": "Each",
+        "text": "The two boxers looked at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> other.",
+        "choices": [
+          "every",
+          "all",
+          "both",
+          "each"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Fixed phrase: ‘each other’.",
+          "Not English.",
+          "Not English.",
+          ""
+        ],
+        "explain": "Fixed phrase: each other. Two → both; the whole group → all; every + singular noun; each = one by one."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "I",
+          "walk",
+          "to",
+          "school",
+          "every",
+          "days."
+        ],
+        "errorIndex": 5,
+        "correction": "day",
+        "type": "Every + plural",
+        "message": "‘Every’ + singular: ‘every day’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Every",
+          "students",
+          "has",
+          "a",
+          "locker."
+        ],
+        "errorIndex": 1,
+        "correction": "student",
+        "type": "Every + plural",
+        "message": "‘Every’ + singular: ‘every student’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Every",
+          "of",
+          "my",
+          "friends",
+          "has",
+          "a",
+          "phone."
+        ],
+        "errorIndex": 0,
+        "correction": "Each",
+        "type": "Every of",
+        "message": "Never ‘every of’: ‘each of / all of’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "I’ve",
+          "read",
+          "every",
+          "of",
+          "his",
+          "books."
+        ],
+        "errorIndex": 2,
+        "correction": "all",
+        "type": "Every of",
+        "message": "Never ‘every of’: ‘all of his books’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Everyone",
+          "are",
+          "happy",
+          "today."
+        ],
+        "errorIndex": 1,
+        "correction": "is",
+        "type": "Verb after every",
+        "message": "‘Everyone’ takes a singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Every",
+          "room",
+          "have",
+          "a",
+          "window."
+        ],
+        "errorIndex": 2,
+        "correction": "has",
+        "type": "Verb after every",
+        "message": "‘Every’ + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Each",
+          "child",
+          "have",
+          "a",
+          "name",
+          "tag."
+        ],
+        "errorIndex": 2,
+        "correction": "has",
+        "type": "Verb after each",
+        "message": "‘Each’ + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Each",
+          "of",
+          "the",
+          "girls",
+          "are",
+          "wearing",
+          "a",
+          "hat."
+        ],
+        "errorIndex": 4,
+        "correction": "is",
+        "type": "Verb after each",
+        "message": "‘Each of’ takes a singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "All",
+          "my",
+          "parents",
+          "are",
+          "from",
+          "Girona."
+        ],
+        "errorIndex": 0,
+        "correction": "Both",
+        "type": "All for two",
+        "message": "Two parents: ‘both’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "I’ve",
+          "got",
+          "two",
+          "sisters",
+          "and",
+          "all",
+          "of",
+          "them",
+          "are",
+          "older."
+        ],
+        "errorIndex": 5,
+        "correction": "both",
+        "type": "All for two",
+        "message": "Two people: ‘both of them’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "I",
+          "have",
+          "three",
+          "brothers",
+          "and",
+          "both",
+          "are",
+          "tall."
+        ],
+        "errorIndex": 5,
+        "correction": "all",
+        "type": "Both for more",
+        "message": "More than two: ‘all’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Both",
+          "of",
+          "girls",
+          "passed."
+        ],
+        "errorIndex": 1,
+        "correction": "the",
+        "type": "Both of",
+        "message": "Say ‘both girls’, ‘both the girls’ or ‘both of the girls’ — not ‘both of girls’."
+      },
+      {
+        "tokens": [
+          "She",
+          "wore",
+          "a",
+          "bracelet",
+          "on",
+          "every",
+          "wrist."
+        ],
+        "errorIndex": 5,
+        "correction": "each",
+        "type": "Every for two",
+        "message": "Two wrists: ‘each’, not ‘every’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "I",
+          "worked",
+          "all",
+          "the",
+          "day."
+        ],
+        "errorIndex": 3,
+        "correction": "that",
+        "type": "All the day",
+        "message": "‘All day’ (or ‘all that day’), not ‘all the day’."
+      },
+      {
+        "tokens": [
+          "The",
+          "bus",
+          "comes",
+          "each",
+          "ten",
+          "minutes."
+        ],
+        "errorIndex": 3,
+        "correction": "every",
+        "type": "Every + time",
+        "message": "Interval with a number: ‘every ten minutes’."
+      },
+      {
+        "tokens": [
+          "The",
+          "tickets",
+          "cost",
+          "five",
+          "euros",
+          "every."
+        ],
+        "errorIndex": 5,
+        "correction": "each",
+        "type": "Each alone",
+        "message": "At the end, ‘each’ = per item. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Both",
+          "Pere",
+          "or",
+          "Laia",
+          "are",
+          "coming."
+        ],
+        "errorIndex": 2,
+        "correction": "and",
+        "type": "Both and",
+        "message": "The pattern is ‘both … and …’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "All",
+          "student",
+          "must",
+          "wear",
+          "a",
+          "uniform."
+        ],
+        "errorIndex": 1,
+        "correction": "students",
+        "type": "All + singular",
+        "message": "‘All’ + plural: ‘all students’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "Everything",
+          "are",
+          "fine."
+        ],
+        "errorIndex": 1,
+        "correction": "is",
+        "type": "Everything",
+        "message": "‘Everything’ takes a singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "tokens": [
+          "They",
+          "love",
+          "every",
+          "other."
+        ],
+        "errorIndex": 2,
+        "correction": "each",
+        "type": "Each other",
+        "message": "Fixed phrase: ‘each other’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, how many, multiple choice and spot-the-mistake. In the typing questions write all, both, every or each. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "number": "How many?",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "number",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Both",
+        "sentText": "I have two dogs. {{blank}} of them are brown.",
+        "hint": "all / both",
+        "answers": [
+          "Both",
+          "both"
+        ],
+        "display": "Both",
+        "explain": "Two dogs: ‘both’. Two → both; the whole group → all; every + singular noun; each = one by one.",
+        "wrongNote": "Two → both."
+      },
+      {
+        "type": "fill",
+        "use": "All",
+        "sentText": "{{blank}} the cakes were sold in an hour.",
+        "hint": "all / both",
+        "answers": [
+          "All",
+          "all"
+        ],
+        "display": "All",
+        "explain": "The whole group: ‘all’. Two → both; the whole group → all; every + singular noun; each = one by one.",
+        "wrongNote": "Group → all."
+      },
+      {
+        "type": "fill",
+        "use": "Every",
+        "sentText": "I read the news {{blank}} morning.",
+        "hint": "every / each",
+        "answers": [
+          "every"
+        ],
+        "display": "every",
+        "explain": "Frequency: ‘every morning’. Two → both; the whole group → all; every + singular noun; each = one by one.",
+        "wrongNote": "Frequency → every."
+      },
+      {
+        "type": "fill",
+        "use": "Each",
+        "sentText": "The two winners {{blank}} got a medal.",
+        "hint": "every / each",
+        "answers": [
+          "each"
+        ],
+        "display": "each",
+        "explain": "One by one, two people: ‘each’. Two → both; the whole group → all; every + singular noun; each = one by one.",
+        "wrongNote": "One by one → each."
+      },
+      {
+        "type": "order",
+        "use": "Both",
+        "tokens": [
+          "Both",
+          "my",
+          "sisters",
+          "sing."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "All",
+        "tokens": [
+          "All",
+          "the",
+          "shops",
+          "are",
+          "closed."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Every",
+        "tokens": [
+          "I",
+          "run",
+          "every",
+          "day."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Each",
+        "tokens": [
+          "Each",
+          "room",
+          "has",
+          "a",
+          "key."
+        ]
+      },
+      {
+        "type": "number",
+        "use": "Number",
+        "text": "‘Both’ is for…",
+        "choices": [
+          "three or more",
+          "exactly two",
+          "one",
+          "uncountable nouns"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "That’s ‘all’.",
+          "",
+          "That’s ‘a / one’.",
+          "That’s ‘all’ (all the water)."
+        ],
+        "explain": "Both = two. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "number",
+        "use": "Number",
+        "text": "‘Every’ is for…",
+        "choices": [
+          "exactly two",
+          "uncountable nouns",
+          "plural nouns",
+          "three or more, as a group"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "For two use ‘both’ or ‘each’.",
+          "Uncountables take ‘all’.",
+          "‘Every’ takes singular nouns.",
+          ""
+        ],
+        "explain": "Every = all of a group of 3+, singular noun. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "number",
+        "use": "Number",
+        "text": "Which word can be used for TWO things one by one?",
+        "choices": [
+          "each",
+          "every",
+          "all",
+          "everyone"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Every’ needs three or more.",
+          "‘All’ is the whole group.",
+          "‘Everyone’ is for people in general."
+        ],
+        "explain": "Each works for two: each hand. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "number",
+        "use": "Number",
+        "text": "Which word takes a PLURAL verb?",
+        "choices": [
+          "every",
+          "each",
+          "all (the students)",
+          "everyone"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Every’ takes a singular verb.",
+          "‘Each’ takes a singular verb.",
+          "",
+          "‘Everyone’ takes a singular verb."
+        ],
+        "explain": "All the students are… Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "mc",
+        "use": "Every",
+        "text": "{{blank}} house in the street is white.",
+        "choices": [
+          "All",
+          "Both",
+          "Every",
+          "Each of"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘All’ needs a plural noun.",
+          "‘Both’ needs a plural noun.",
+          "",
+          "‘Each of’ needs ‘the’ + plural."
+        ],
+        "explain": "Every + singular noun. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "mc",
+        "use": "Both",
+        "text": "She invited {{blank}} of us — me and my brother.",
+        "choices": [
+          "both",
+          "all",
+          "every",
+          "each"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Two people: ‘both’.",
+          "‘Every of’ is wrong.",
+          "‘Each of us’ is possible but less natural here."
+        ],
+        "explain": "Two people: both of us. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "mc",
+        "use": "All",
+        "text": "We stayed in bed {{blank}} morning.",
+        "choices": [
+          "every",
+          "each",
+          "both",
+          "all"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Every morning’ means many mornings.",
+          "‘Each morning’ means many mornings.",
+          "‘Both morning’ is wrong.",
+          ""
+        ],
+        "explain": "The whole morning: all morning. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "mc",
+        "use": "Verb",
+        "text": "Each of my friends {{blank}} a bike.",
+        "choices": [
+          "have",
+          "has",
+          "are having",
+          "were"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Each of’ takes a singular verb.",
+          "",
+          "Plural verb.",
+          "Plural verb."
+        ],
+        "explain": "Each of + singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "error",
+        "use": "Every + plural",
+        "tokens": [
+          "I",
+          "see",
+          "her",
+          "every",
+          "weeks."
+        ],
+        "errorIndex": 4,
+        "correction": "week",
+        "message": "‘Every week’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "error",
+        "use": "All for two",
+        "tokens": [
+          "All",
+          "my",
+          "hands",
+          "are",
+          "dirty."
+        ],
+        "errorIndex": 0,
+        "correction": "Both",
+        "message": "Two hands: ‘both’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "error",
+        "use": "Verb after every",
+        "tokens": [
+          "Everybody",
+          "love",
+          "pizza."
+        ],
+        "errorIndex": 1,
+        "correction": "loves",
+        "message": "Singular verb. Two → both; the whole group → all; every + singular noun; each = one by one."
+      },
+      {
+        "type": "error",
+        "use": "Every of",
+        "tokens": [
+          "Every",
+          "of",
+          "the",
+          "rooms",
+          "is",
+          "clean."
+        ],
+        "errorIndex": 0,
+        "correction": "Each",
+        "message": "Never ‘every of’. Two → both; the whole group → all; every + singular noun; each = one by one."
+      }
+    ]
+  }
+}
