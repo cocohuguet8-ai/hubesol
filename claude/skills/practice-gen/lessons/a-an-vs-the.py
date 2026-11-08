@@ -212,7 +212,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('A for second mention', 'I bought a dress. *A* dress is red.', 'The', 'Second mention: ‘the dress’. Ask: does the listener know which one? No → a/an. Yes → the.'),
   ('A for second mention', 'We met a man and a woman. *A* woman was French.', 'The', 'Second mention: ‘the woman’. Ask: does the listener know which one? No → a/an. Yes → the.'),

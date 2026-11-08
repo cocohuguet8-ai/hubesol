@@ -3,12 +3,10 @@
   "lessonTitle": "Some & Any",
   "grammar": {
     "orderAux": {
-      "words": [
-        "some",
-        "any"
-      ],
+      "words": [],
       "label": null,
-      "primary": "any"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -237,7 +235,8 @@
         "display": "something",
         "explain": "Offers use some-compounds: ‘something’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -892,7 +891,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1490,6 +1489,7 @@
         "correction": "some",
         "message": "Positive: ‘some’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

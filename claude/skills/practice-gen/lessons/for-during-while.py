@@ -210,7 +210,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('During + duration', 'I studied *during* three hours.', 'for', 'A length of time takes ‘for’: ‘for three hours’.'),
   ('During + duration', 'We waited *during* twenty minutes.', 'for', 'Duration: ‘for twenty minutes’. Check what follows: a duration (for), a noun (during), or subject + verb (while).'),

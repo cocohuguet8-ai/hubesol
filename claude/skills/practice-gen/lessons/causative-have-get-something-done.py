@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Base verb', 'I had my car *repair* yesterday.', 'repaired', 'After the object use the participle: ‘repaired’.'),
   ('Base verb', 'She got her nails *paint*.', 'painted', 'Participle: ‘painted’.'),

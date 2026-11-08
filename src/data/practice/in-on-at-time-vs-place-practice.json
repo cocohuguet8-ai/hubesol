@@ -3,13 +3,10 @@
   "lessonTitle": "In, On, At: time vs place",
   "grammar": {
     "orderAux": {
-      "words": [
-        "in",
-        "on",
-        "at"
-      ],
+      "words": [],
       "label": null,
-      "primary": "at"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -236,7 +233,8 @@
         "display": "in",
         "explain": "Time: a season or period takes ‘in’. Small to big: at (a point) → on (a day or surface) → in (a period or space)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -920,7 +918,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1513,6 +1511,7 @@
         "correction": "on",
         "message": "A surface takes ‘on’: ‘on the sofa’. Small to big: at (a point) → on (a day or surface) → in (a period or space)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

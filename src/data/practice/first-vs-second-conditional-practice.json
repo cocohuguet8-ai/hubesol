@@ -10,7 +10,8 @@
         "’d"
       ],
       "label": null,
-      "primary": "will"
+      "primary": "will",
+      "proper": []
     }
   },
   "gapFill": {
@@ -1198,7 +1199,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences — some first, some second conditional.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences — some first, some second conditional.",
     "items": [
       {
         "tokens": [
@@ -1572,7 +1573,7 @@
       {
         "type": "fill",
         "use": "First",
-        "sentText": "If it snows, the school {{blank}} .",
+        "sentText": "If it snows, the school {{blank}}.",
         "hint": "close",
         "answers": [
           "will close"

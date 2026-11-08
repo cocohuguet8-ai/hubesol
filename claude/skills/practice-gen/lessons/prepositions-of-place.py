@@ -221,7 +221,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('In for surface', 'Your book is *in* the table.', 'on', 'A surface takes ‘on’: ‘on the table’. Picture it: a point (at), a surface or line (on), a space around it (in).'),
   ('In for surface', 'There’s a poster *in* the wall.', 'on', 'A wall is a surface: ‘on the wall’. Picture it: a point (at), a surface or line (on), a space around it (in).'),

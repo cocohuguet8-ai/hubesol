@@ -3,12 +3,10 @@
   "lessonTitle": "Zero Article",
   "grammar": {
     "orderAux": {
-      "words": [
-        "the",
-        "a"
-      ],
+      "words": [],
       "label": null,
-      "primary": "the"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -254,7 +252,8 @@
         "display": "the",
         "explain": "Visiting the building, not studying: ‘the school’."
       }
-    ]
+    ],
+    "formLabel": "article"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -904,7 +903,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1586,6 +1585,7 @@
           5
         ]
       }
-    ]
+    ],
+    "formLabel": "article"
   }
 }

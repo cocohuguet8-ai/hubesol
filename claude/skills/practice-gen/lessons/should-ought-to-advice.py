@@ -222,7 +222,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('-s after a modal', 'You should *sees* a doctor.', 'see', 'After ‘should’ use the base verb: ‘You should see a doctor’.'),
   ('Missing to', 'You ought *study* for the test.', 'to study', '‘Ought’ always needs ‘to’: ‘ought to study’.'),

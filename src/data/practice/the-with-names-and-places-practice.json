@@ -3,11 +3,15 @@
   "lessonTitle": "The with Names & Places",
   "grammar": {
     "orderAux": {
-      "words": [
-        "the"
-      ],
+      "words": [],
       "label": null,
-      "primary": "the"
+      "primary": "",
+      "proper": [
+        "Girona",
+        "Japan",
+        "Mount",
+        "Paris"
+      ]
     }
   },
   "gapFill": {
@@ -244,7 +248,8 @@
         "display": "—",
         "explain": "Names with ’s take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
       }
-    ]
+    ],
+    "formLabel": "article"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -908,7 +913,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1560,6 +1565,7 @@
         "correction": "the",
         "message": "Plural names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
       }
-    ]
+    ],
+    "formLabel": "article"
   }
 }

@@ -88,7 +88,7 @@ Think of it like this:
 '''
 
 GAP = ('Fill in the gaps',
-  'Type by or until. Ask: a deadline for one action (by) or something that continues up to a time (until)? Twenty original sentences.',
+  'Type the missing word — usually by or until. Ask: a deadline for one action (by) or something that continues up to a time (until)? Twenty original sentences.',
   [
   ('By', 'Please send me your homework [[by]] Friday.', 'by / until', 'A deadline for one action (send) takes ‘by’: not later than Friday.'),
   ('By', 'The new bridge will be finished [[by]] the end of the year.', 'by / until', 'Finished at some point before the deadline: by. Ask: one action before a deadline (by) or something that continues up to a time (until)?'),
@@ -143,7 +143,7 @@ MATCH = {'title': 'By or until?', 'subtitle': 'Tap a sentence start, then tap th
   ('Hand in your essay ___ Monday.', 'by'), ('I’ll wait ___ you arrive.', 'until'), ('Be home ___ ten.', 'by'), ('The shop is open ___ eight.', 'until'),
   ('Pay the bill ___ the 1st.', 'by'), ('We stayed ___ midnight.', 'until'), ('The parcel will come ___ Friday.', 'by'), ('I slept ___ noon.', 'until'),
   ('Finish the report ___ 5 p.m.', 'by'), ('She worked there ___ 2019.', 'until'), ('Decide ___ tomorrow.', 'by'), ('Keep walking ___ you see a church.', 'until'),
-  ('I need it ___ Thursday.', 'by'), ('I didn’t wake up ___ ten.', 'until'), ('Return the book ___ next week.', 'by'), ('Let’s play ___ it gets dark.', 'until'),
+  ('It’s a deadline: I need it ___ Thursday.', 'by'), ('I slept late: I didn’t wake up ___ ten.', 'until'), ('Return the book ___ next week.', 'by'), ('Let’s play ___ it gets dark.', 'until'),
   ('Reply ___ the end of the day.', 'by'), ('I’m away ___ Sunday.', 'until'), ('Be ready ___ six.', 'by'), ('The film lasts ___ eleven.', 'until'),
   ]}
 
@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Until for deadline', 'Please hand in your project *until* Friday.', 'by', 'A deadline: ‘by Friday’. Ask: one action before a deadline (by) or something that continues up to a time (until)?'),
   ('Until for deadline', 'You must pay the fee *until* the 10th.', 'by', 'A payment deadline: ‘by the 10th’. Ask: one action before a deadline (by) or something that continues up to a time (until)?'),
@@ -226,7 +226,7 @@ ERR = ('Find the mistake',
   ('Will after until', 'Wait here until I *will come* back.', 'come', 'Present simple after ‘until’: ‘until I come back’.'),
   ('Will after until', 'Don’t start until everyone *will arrive*.', 'arrives', 'Present simple: ‘until everyone arrives’.'),
   ('Will after by the time', 'By the time you *will get* here, I’ll be ready.', 'get', 'Present simple: ‘By the time you get here’.'),
-  ('Not until', 'I didn’t go to bed *by* midnight — I was up until then.', 'until', '‘Didn’t … until midnight’ = only at midnight.'),
+  ('Until', 'I waited for you *by* midnight, then I went home.', 'until', 'Waiting continues up to a time: ‘I waited for you until midnight’.'),
   ('By the time', '*Until* the time we arrived, the film had started.', 'By', 'Fixed expression: ‘By the time we arrived’.'),
   ('Since for until', 'I lived in Rome *since* 2018, then moved to Paris.', 'until', 'It continued up to 2018 and stopped: ‘until 2018’.'),
   ('For for until', 'The offer is valid *for* the end of May.', 'until', 'Valid up to that time: ‘until the end of May’.'),
@@ -250,7 +250,7 @@ LC = {
   ('By', 'Reply by Friday.', []),
   ('Until', 'Wait until I call.', []),
   ('Not until', 'It didn’t stop until six.', []),
-  ('By the time', 'By the time we arrived, they had gone.', ['they had gone by the time we arrived.']),
+  ('By the time', 'By the time we arrived, they had gone.', ['they had gone by the time we arrived.', 'By the time they arrived, we had gone.', 'we had gone by the time they arrived.']),
   ],
  'customItems': [
   ('Which', '‘Return the keys ___ Sunday.’ The action is…', ['a deadline → by', 'continuous → until', 'a duration → for', 'a starting point → since'],

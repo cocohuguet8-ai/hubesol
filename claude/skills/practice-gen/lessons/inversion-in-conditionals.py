@@ -220,7 +220,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Keeping if', '*If* I known the truth, I would have acted.', 'Had', 'Use inversion without ‘if’: ‘Had I known the truth…’.'),
   ('Contracted negative', '*Hadn’t we* checked, we would have been lost.', 'Had we not', 'Don’t contract: ‘Had we not checked…’.'),

@@ -56,7 +56,7 @@ We use these modals when we **work something out** from evidence, not when we kn
 - The lights are on. They **must** be at home.
 - You've been running for an hour. You **must** be exhausted!
 
-> ⚠️ Typical error: ~~They have to be at home.~~ → For deduction, use *must*: *They must be at home.*
+> ℹ️ *Have to* is also possible for deduction (*You have to be joking!*), especially in American English — but *must* is the normal, safest choice: *They must be at home.*
 
 ### 2. With other verbs
 
@@ -117,7 +117,7 @@ For deductions about the **past** (*must have done*), see [Modal Perfects](/gram
 
 **1. *Mustn't* for negative deduction.** *~~It mustn't be true~~* → **It can't be true.**
 
-**2. *Have to* for deduction.** *~~She has to be rich~~* (deduction) → **She must be rich.**
+**2. *Must* + past form.** *~~She must was tired~~* → **She must be tired** (now) / **She must have been tired** (past).
 
 **3. *To* after the modal.** *~~He must to be ill~~* → **He must be ill.**
 

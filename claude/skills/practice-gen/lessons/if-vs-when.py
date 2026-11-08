@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Will after when', 'I’ll call you when I *will arrive*.', 'arrive', 'No ‘will’ after ‘when’: ‘when I arrive’.'),
   ('Will after if', 'If it *will rain*, we’ll stay in.', 'rains', 'No ‘will’ after ‘if’: ‘If it rains…’.'),

@@ -211,7 +211,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Do in reported question', 'He asked when I *did arrive*.', 'had arrived', 'No ‘did’ and backshift: ‘when I had arrived’.'),
   ('Do in reported question', 'He asked what I *did want*.', 'wanted', 'No ‘did’: ‘He asked what I wanted’. Remember: statement order and backshift after ‘asked’.'),

@@ -221,7 +221,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Missing -s', 'She *need* to rest after the match.', 'needs', 'Third person: ‘She needs to rest’.'),
   ('Missing -s', 'The house *need* to be painted.', 'needs', '‘The house’ is it: ‘needs to be painted’.'),

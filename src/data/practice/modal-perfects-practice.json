@@ -11,7 +11,8 @@
         "have"
       ],
       "label": null,
-      "primary": "have"
+      "primary": "have",
+      "proper": []
     }
   },
   "gapFill": {
@@ -922,7 +923,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1271,7 +1272,7 @@
       {
         "type": "fill",
         "use": "Could have",
-        "sentText": "You {{blank}} ! Be more careful.",
+        "sentText": "You {{blank}}! Be more careful.",
         "hint": "could / fall",
         "answers": [
           "could have fallen"

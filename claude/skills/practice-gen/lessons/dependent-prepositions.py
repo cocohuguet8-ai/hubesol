@@ -22,7 +22,7 @@ After a dependent preposition, a verb goes in the **-ing** form: *I'm good at **
 | at | of | in | about | with | for | to |
 |---|---|---|---|---|---|---|
 | good **at** | afraid **of** | interested **in** | worried **about** | bored **with** | famous **for** | kind **to** |
-| bad **at** | proud **of** | | excited **about** | angry **with** (a person) | responsible **for** | married **to** |
+| bad **at** | proud **of** | | excited **about** | angry **with / at** (a person) | responsible **for** | married **to** |
 | surprised **at / by** | tired **of** | | angry **about** (a thing) | pleased **with** | late **for** | similar **to** |
 | | full **of** | | nervous **about** | | sorry **for** | different **from / to** |
 
@@ -96,7 +96,7 @@ GAP = ('Fill in the gaps',
   ('Adjective', 'Girona is famous [[for]] its old town.', 'for / of', 'The fixed chunk is ‘famous for’. There’s no rule: learn the word and its preposition together as one chunk.'),
   ('Adjective', 'The box was full [[of]] old photos.', 'of / with', 'The fixed chunk is ‘full of’. There’s no rule: learn the word and its preposition together as one chunk.'),
   ('Adjective', 'Your bag is similar [[to]] mine.', 'to / with', 'The fixed chunk is ‘similar to’. There’s no rule: learn the word and its preposition together as one chunk.'),
-  ('Adjective', 'Are you angry [[with]] me?', 'with / at', 'Angry with a person. There’s no rule: learn the word and its preposition together as one chunk.'),
+  ('Adjective', 'Are you angry [[with|at]] me?', 'with / about', 'Angry with (or at) a person; angry about a thing. There’s no rule: learn the word and its preposition together as one chunk.'),
   ('Verb', 'Listen [[to]] this song — it’s amazing!', 'to / —', '‘Listen’ always needs ‘to’ before the thing you hear.'),
   ('Verb', 'We waited [[for]] the bus for twenty minutes.', 'for / —', 'The fixed chunk is ‘wait for’. There’s no rule: learn the word and its preposition together as one chunk.'),
   ('Verb', 'I’m looking [[for]] my phone. Have you seen it?', 'for / at', '‘Look for’ = try to find. There’s no rule: learn the word and its preposition together as one chunk.'),
@@ -164,8 +164,8 @@ MC = ('Beat the clock',
   ('Verb', 'We’ve been waiting ___ you for an hour!', ['for', '—', 'to', 'on'],
    ['‘Waiting you’ is wrong: ‘wait’ needs ‘for’.', '‘Wait to’ is followed by a verb.', '‘Wait on’ means serve.'],
    'The chunk is ‘wait for’. There’s no rule: learn the word and its preposition together as one chunk.'),
-  ('Adjective', 'She’s really worried ___ her grandmother.', ['about', 'of', 'for', 'with'],
-   ['‘Worried of’ is wrong.', '‘Worried for’ is possible but less common.', '‘Worried with’ is wrong.'],
+  ('Adjective', 'She’s really worried ___ her grandmother.', ['about', 'of', 'in', 'with'],
+   ['‘Worried of’ is wrong.', '‘Worried in’ is wrong.', '‘Worried with’ is wrong.'],
    'The chunk is ‘worried about’. There’s no rule: learn the word and its preposition together as one chunk.'),
   ('Adjective', 'Barcelona is famous ___ its architecture.', ['for', 'of', 'by', 'with'],
    ['‘Famous of’ is wrong.', '‘Famous by’ is wrong.', '‘Famous with’ is wrong.'],
@@ -209,7 +209,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Wrong preposition', 'I’m interested *on* photography.', 'in', 'The chunk is ‘interested in’. There’s no rule: learn the word and its preposition together as one chunk.'),
   ('Wrong preposition', 'She’s very good *in* languages.', 'at', 'The chunk is ‘good at’. There’s no rule: learn the word and its preposition together as one chunk.'),
@@ -238,7 +238,7 @@ LC = {
  'custom': ('chunk', 'Which chunk?'),
  'fill': [
   ('Adjective', 'He’s good [[at]] solving problems.', 'at / in', 'The fixed chunk is ‘good at’, followed by -ing.', 'good at.'),
-  ('Verb', 'I’m looking [[for]] a new flat.', 'for / at', '‘Look for’ means try to find something. There’s no rule: learn the word and its preposition together as one chunk.', 'look for.'),
+  ('Verb', 'I need somewhere to live, so I’m looking [[for]] a new flat.', 'for / at', '‘Look for’ means try to find something. There’s no rule: learn the word and its preposition together as one chunk.', 'look for.'),
   ('Adjective', 'She’s scared [[of]] flying.', 'of / from', 'The fixed chunk is ‘scared of’ (like ‘afraid of’).', 'scared of.'),
   ('Verb', 'It depends [[on]] the price.', 'on / of', 'The fixed chunk is ‘depend on’, never ‘depend of’.', 'depend on.'),
   ],

@@ -230,7 +230,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Double negative', 'Unless you *don’t hurry*, you’ll miss it.', 'hurry', '‘Unless’ already means ‘if not’: ‘Unless you hurry…’.'),
   ('Double negative', 'I won’t go unless she *doesn’t invite* me.', 'invites', 'No negative after ‘unless’: ‘unless she invites me’.'),

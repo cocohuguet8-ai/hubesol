@@ -223,7 +223,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Every + plural', 'I walk to school every *days*.', 'day', '‘Every’ + singular: ‘every day’. Two → both; the whole group → all; every + singular noun; each = one by one.'),
   ('Every + plural', 'Every *students* has a locker.', 'student', '‘Every’ + singular: ‘every student’. Two → both; the whole group → all; every + singular noun; each = one by one.'),

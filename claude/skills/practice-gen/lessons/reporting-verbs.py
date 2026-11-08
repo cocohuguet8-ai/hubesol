@@ -204,7 +204,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Wrong pattern', 'She refused *doing* her homework.', 'to do', '‘Refuse’ + to + infinitive: ‘refused to do’.'),
   ('Wrong pattern', 'He offered *helping* me.', 'to help', '‘Offer’ + to + infinitive: ‘offered to help’.'),

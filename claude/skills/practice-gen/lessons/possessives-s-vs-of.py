@@ -219,7 +219,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Missing apostrophe', 'This is my *sisters* phone.', 'sister’s', 'Possession: ‘my sister’s phone’. People and animals → ’s; things and parts of things → of.'),
   ('Missing apostrophe', 'I found *Pauls* keys.', 'Paul’s', 'Possession: ‘Paul’s keys’. People and animals → ’s; things and parts of things → of.'),

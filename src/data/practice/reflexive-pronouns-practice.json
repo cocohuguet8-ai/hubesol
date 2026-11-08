@@ -3,18 +3,10 @@
   "lessonTitle": "Reflexive Pronouns",
   "grammar": {
     "orderAux": {
-      "words": [
-        "myself",
-        "yourself",
-        "himself",
-        "herself",
-        "itself",
-        "ourselves",
-        "yourselves",
-        "themselves"
-      ],
+      "words": [],
       "label": null,
-      "primary": "myself"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -241,7 +233,8 @@
         "display": "yourself",
         "explain": "‘Proud of yourself’ — one person. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       }
-    ]
+    ],
+    "formLabel": "pronoun"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -886,7 +879,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1212,7 +1205,7 @@
       {
         "type": "fill",
         "use": "Same person",
-        "sentText": "Be careful or you’ll burn {{blank}} !",
+        "sentText": "Be careful or you’ll burn {{blank}}!",
         "hint": "you (one) → ?",
         "answers": [
           "yourself"
@@ -1224,7 +1217,7 @@
       {
         "type": "fill",
         "use": "Emphasis",
-        "sentText": "We built this treehouse {{blank}} .",
+        "sentText": "We built this treehouse {{blank}}.",
         "hint": "we → ?",
         "answers": [
           "ourselves"
@@ -1236,7 +1229,7 @@
       {
         "type": "fill",
         "use": "By + reflexive",
-        "sentText": "My uncle lives by {{blank}} .",
+        "sentText": "My uncle lives by {{blank}}.",
         "hint": "he → ?",
         "answers": [
           "himself"
@@ -1503,6 +1496,7 @@
         "correction": "each other",
         "message": "A ↔ B: ‘each other’. Use a reflexive when the action comes back to the subject, or to say nobody else did it."
       }
-    ]
+    ],
+    "formLabel": "pronoun"
   }
 }

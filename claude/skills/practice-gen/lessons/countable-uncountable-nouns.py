@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Plural uncountable', 'She gave me some useful *advices*.', 'advice', '‘Advice’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable.'),
   ('Plural uncountable', 'We bought new *furnitures* for the living room.', 'furniture', '‘Furniture’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable.'),

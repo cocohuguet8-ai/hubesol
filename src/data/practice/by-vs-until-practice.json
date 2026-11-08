@@ -3,18 +3,15 @@
   "lessonTitle": "By vs Until",
   "grammar": {
     "orderAux": {
-      "words": [
-        "by",
-        "until",
-        "till"
-      ],
+      "words": [],
       "label": null,
-      "primary": "by"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type by or until. Ask: a deadline for one action (by) or something that continues up to a time (until)? Twenty original sentences.",
+    "subtitle": "Type the missing word — usually by or until. Ask: a deadline for one action (by) or something that continues up to a time (until)? Twenty original sentences.",
     "questions": [
       {
         "use": "By",
@@ -237,7 +234,8 @@
         "display": "till",
         "explain": "‘Till’ is an informal ‘until’: dancing continued up to two."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -535,11 +533,11 @@
         "right": "until"
       },
       {
-        "left": "I need it ___ Thursday.",
+        "left": "It’s a deadline: I need it ___ Thursday.",
         "right": "by"
       },
       {
-        "left": "I didn’t wake up ___ ten.",
+        "left": "I slept late: I didn’t wake up ___ ten.",
         "right": "until"
       },
       {
@@ -938,7 +936,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1117,23 +1115,20 @@
       {
         "tokens": [
           "I",
-          "didn’t",
-          "go",
-          "to",
-          "bed",
+          "waited",
+          "for",
+          "you",
           "by",
-          "midnight",
-          "—",
+          "midnight,",
+          "then",
           "I",
-          "was",
-          "up",
-          "until",
-          "then."
+          "went",
+          "home."
         ],
-        "errorIndex": 5,
+        "errorIndex": 4,
         "correction": "until",
-        "type": "Not until",
-        "message": "‘Didn’t … until midnight’ = only at midnight."
+        "type": "Until",
+        "message": "Waiting continues up to a time: ‘I waited for you until midnight’."
       },
       {
         "tokens": [
@@ -1378,6 +1373,26 @@
             "time",
             "we",
             "arrived."
+          ],
+          [
+            "By",
+            "the",
+            "time",
+            "they",
+            "arrived,",
+            "we",
+            "had",
+            "gone."
+          ],
+          [
+            "we",
+            "had",
+            "gone",
+            "by",
+            "the",
+            "time",
+            "they",
+            "arrived."
           ]
         ]
       },
@@ -1594,6 +1609,7 @@
         "correction": "until",
         "message": "Being open continues: ‘until eight’. Ask: one action before a deadline (by) or something that continues up to a time (until)?"
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

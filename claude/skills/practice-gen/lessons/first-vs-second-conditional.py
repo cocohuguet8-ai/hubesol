@@ -212,7 +212,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences — some first, some second conditional.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences — some first, some second conditional.',
   [
   ('Mixed forms', 'If I had time, I *will* help you.', 'would', 'Past in the if-clause → ‘would’ in the result.'),
   ('Mixed forms', 'If it rains, we *would* stay at home.', 'will', 'Present in the if-clause → ‘will’ in the result.'),

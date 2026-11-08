@@ -217,7 +217,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Missing it', '*Is* said that the castle is haunted.', 'It is', 'English needs a subject: ‘It is said that…’.'),
   ('Wrong infinitive', 'He is said to *steal* the money last year.', 'have stolen', 'An earlier action needs the perfect infinitive: ‘to have stolen’.'),

@@ -215,7 +215,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Present result', 'If I had slept more, I wouldn’t *felt* so tired now.', 'feel', '‘Now’ → present result: wouldn’t + base verb, ‘wouldn’t feel’.'),
   ('Present result', 'If she had saved money, she would *had* a car now.', 'have', 'Present result: after ‘would’ use the base verb, ‘would have a car’.'),

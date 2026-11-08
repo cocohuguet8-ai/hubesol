@@ -3,13 +3,10 @@
   "lessonTitle": "For, During & While",
   "grammar": {
     "orderAux": {
-      "words": [
-        "for",
-        "during",
-        "while"
-      ],
+      "words": [],
       "label": null,
-      "primary": "during"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -236,7 +233,8 @@
         "display": "during",
         "explain": "An event (the meeting): during. Check what follows: a duration (for), a noun (during), or subject + verb (while)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -954,7 +952,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1563,6 +1561,7 @@
         "correction": "during",
         "message": "When it happened: ‘during the speech’. Check what follows: a duration (for), a noun (during), or subject + verb (while)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

@@ -49,17 +49,61 @@ def err_item(sent, corr):
     i = len(pre_toks); span = [i, i + len(mid_toks) - 1]
     return toks, i, (span if span[1] > span[0] else None), left, post.split(' ')[0]
 
+
+AUXSET = set("""will won’t ’ll would wouldn’t ’d had hadn’t have has haven’t hasn’t can can’t could couldn’t may might
+must mustn’t should shouldn’t ought need needn’t is are was were be been being do does did don’t doesn’t didn’t""".split())
+FORM_BY_HUB = {'prepositions': 'preposition', 'articles': 'article', 'nouns-determiners': 'word'}
+FORM_BY_SLUG = {'reflexive-pronouns': 'pronoun', 'compound-nouns': 'noun'}
+NO_AUX = {'inversion-in-conditionals'}
+
+def hub_of(slug):
+    import glob, re
+    for f in glob.glob(f'{R}/src/content/lessons/*/{slug}.md'):
+        m = re.search(r'^hubSlug: "([^"]+)"', open(f).read(), re.M)
+        if m: return m.group(1)
+    return ''
+
+COMMON = set('''i you he she it we they this that these those there here what when where why who which how a an the my your his her our their
+some any every each no all both many much one do does did is are was were be have has had will would can could should must may might
+not never always yesterday today tomorrow last next if unless when as please let let’s don’t'''.split())
+
+KNOWN = set('''Paris London Rome Madrid Barcelona Girona Lleida Tarragona Valencia Lisbon Berlin Tokyo York Spain France Italy Germany Portugal
+Japan China England Britain Scotland Wales Ireland Europe Asia Africa America English French Spanish Catalan German Italian Chinese Japanese
+Monday Tuesday Wednesday Thursday Friday Saturday Sunday January February March April June July August September October November December
+Christmas Easter Anna Ben Tom Sam Pau Marc Laia Joan Nil Marta Maria Pere Pol Biel Sara Lucas Leo Lucy Grandma Grandpa Mum Dad Mr Mrs Ms'''.split())
+
+def proper_nouns(L):
+    import re
+    texts = [L.BODY]
+    def walk(o):
+        if isinstance(o, str): texts.append(o)
+        elif isinstance(o, dict): [walk(v) for v in o.values()]
+        elif isinstance(o, (list, tuple)): [walk(v) for v in o]
+    for name in ('GAP', 'ORDER', 'MATCH', 'MC', 'ERR', 'LC'): walk(getattr(L, name))
+    blob = '\n'.join(texts)
+    lower = set(re.findall(r"\b[a-z][\w’']*", blob))
+    midcap = set(re.findall(r"(?<=[a-z,;] )([A-Z][\wÀ-ÿ]+)", blob))
+    firsts = set()
+    for it in list(L.ORDER[2]) + list(L.LC['order']):
+        w = it[1].split(' ')[0].rstrip('.,!?')
+        if w[:1].isupper() and "’" not in w and "'" not in w and (w in KNOWN or (w in midcap and w.lower() not in lower and w.lower() not in COMMON)): firsts.add(w)
+    return sorted(firsts)
+
 def build(slug):
     spec = importlib.util.spec_from_file_location('L', f'/home/claude/gen/lessons/{slug}.py')
     L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
     d = {'tense': slug, 'lessonTitle': L.TITLE,
-         'grammar': {'orderAux': {'words': L.AUX[0], 'label': L.AUX[1], 'primary': L.AUX[2]}}}
+         'grammar': {'orderAux': {'words': [] if slug in NO_AUX else [w for w in L.AUX[0] if w.lower() in AUXSET],
+                                  'label': L.AUX[1], 'primary': L.AUX[2] if L.AUX[2].lower() in AUXSET and slug not in NO_AUX else '',
+                                  'proper': proper_nouns(L)}}}
+    hub = hub_of(slug); form = FORM_BY_SLUG.get(slug) or FORM_BY_HUB.get(hub)
     t, sub, items = L.GAP
     qs = []
     for use, s, hint, ex in items:
         b, a, ans = parse_fill(s)
         qs.append({'use': use, 'before': b, 'after': a, 'hint': hint, 'answers': variants(ans), 'display': ans[0], 'explain': ex})
     d['gapFill'] = {'title': t, 'subtitle': sub, 'questions': qs}
+    if form: d['gapFill']['formLabel'] = form
     t, sub, items = L.ORDER
     ss = []
     for it in items:
@@ -88,7 +132,7 @@ def build(slug):
     items = []
     for use, s, hint, ex, wn in lc['fill']:
         b, a, ans = parse_fill(s)
-        items.append({'type': 'fill', 'use': use, 'sentText': f'{b} {{{{blank}}}} {a}'.strip(), 'hint': hint,
+        items.append({'type': 'fill', 'use': use, 'sentText': (f'{b} {{{{blank}}}}' + ('' if a[:1] in '.,!?;:' else ' ') + a).strip(), 'hint': hint,
                       'answers': variants(ans), 'display': ans[0], 'explain': ex, 'wrongNote': wn})
     for it in lc['order']:
         o = {'type': 'order', 'use': it[0], 'tokens': it[1].split(' ')}
@@ -108,6 +152,7 @@ def build(slug):
     d['levelCheck'] = {'title': 'How well do you know it?', 'subtitle': lc['subtitle'],
                        'categoryLabels': {'fill': 'Fill in the blank', 'order': 'Word order', ck: cl, 'mc': 'Grammar choices', 'error': 'Spot the mistake'},
                        'categoryOrder': ['fill', 'order', ck, 'mc', 'error'], 'items': items}
+    if form: d['levelCheck']['formLabel'] = form
     json.dump(d, open(f'{R}/src/data/practice/{slug}-practice.json', 'w'), ensure_ascii=False, indent=2)
     if hasattr(L, 'QUIZ_COMMON'):
         qp = f'{R}/src/data/quizzes/{slug}-quiz-1.json'

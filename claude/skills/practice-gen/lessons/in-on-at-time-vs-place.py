@@ -213,7 +213,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Time: clock', 'The class starts *in* 9 o’clock.', 'at', 'Clock times take ‘at’. Small to big: at (a point) → on (a day or surface) → in (a period or space).'),
   ('Time: day', 'I’ll call you *in* Friday.', 'on', 'Days take ‘on’. Small to big: at (a point) → on (a day or surface) → in (a period or space).'),

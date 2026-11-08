@@ -9,7 +9,8 @@
         "’ll"
       ],
       "label": null,
-      "primary": "will"
+      "primary": "will",
+      "proper": []
     }
   },
   "gapFill": {
@@ -1206,7 +1207,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1618,7 +1619,7 @@
       {
         "type": "fill",
         "use": "Unless",
-        "sentText": "Unless she {{blank}} , she’ll miss the bus.",
+        "sentText": "Unless she {{blank}}, she’ll miss the bus.",
         "hint": "run",
         "answers": [
           "runs"

@@ -207,7 +207,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Wrong result', 'If I lived near the beach, I *will* swim every day.', 'would', '‘Lived’ (imaginary now) needs ‘would’ in the result: ‘I would swim’.'),
   ('Second for the past', 'If I *knew* about the party last week, I would have gone.', 'had known', 'A past condition needs ‘had known’.'),

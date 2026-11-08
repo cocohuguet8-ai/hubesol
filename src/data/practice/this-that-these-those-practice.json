@@ -3,14 +3,10 @@
   "lessonTitle": "This, That, These & Those",
   "grammar": {
     "orderAux": {
-      "words": [
-        "this",
-        "that",
-        "these",
-        "those"
-      ],
+      "words": [],
       "label": null,
-      "primary": "these"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -250,7 +246,8 @@
         "display": "these",
         "explain": "Near plural, no noun: ‘these’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -899,7 +896,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1484,6 +1481,7 @@
         "correction": "this",
         "message": "The coming weekend, now: ‘this weekend’. Near → this/these; far → that/those; singular → this/that; plural → these/those."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

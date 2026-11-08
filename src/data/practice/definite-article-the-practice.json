@@ -3,11 +3,10 @@
   "lessonTitle": "The: the definite article",
   "grammar": {
     "orderAux": {
-      "words": [
-        "the"
-      ],
+      "words": [],
       "label": null,
-      "primary": "the"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -246,7 +245,8 @@
         "display": "The",
         "explain": "‘In this café’ makes it specific: ‘the coffee’. Ask “Which one?” — if the listener knows, use the; in general, no article."
       }
-    ]
+    ],
+    "formLabel": "article"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -902,7 +902,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1567,6 +1567,7 @@
           4
         ]
       }
-    ]
+    ],
+    "formLabel": "article"
   }
 }

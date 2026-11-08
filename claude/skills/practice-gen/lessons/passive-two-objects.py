@@ -218,7 +218,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Object pronoun', '*Me* was given a present.', 'I', 'Subject pronoun: ‘I was given a present’.'),
   ('Object pronoun', '*Him* was offered a job.', 'He', 'Subject pronoun: ‘He was offered a job’.'),

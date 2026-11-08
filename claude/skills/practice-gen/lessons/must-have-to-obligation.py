@@ -222,7 +222,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Base verb', 'You must *listening* to the teacher.', 'listen', 'After ‘must’ use the base verb: ‘You must listen’.'),
   ('-s on a modal', 'She *musts* wear a uniform.', 'must', 'Modals never take -s: ‘She must wear…’.'),

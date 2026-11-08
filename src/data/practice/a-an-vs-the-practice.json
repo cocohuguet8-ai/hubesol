@@ -3,13 +3,12 @@
   "lessonTitle": "A/An vs The",
   "grammar": {
     "orderAux": {
-      "words": [
-        "a",
-        "an",
-        "the"
-      ],
+      "words": [],
       "label": null,
-      "primary": "the"
+      "primary": "",
+      "proper": [
+        "Rome"
+      ]
     }
   },
   "gapFill": {
@@ -240,7 +239,8 @@
         "display": "the",
         "explain": "Instruments take ‘the’. Ask: does the listener know which one? No → a/an. Yes → the."
       }
-    ]
+    ],
+    "formLabel": "article"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -900,7 +900,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1518,6 +1518,7 @@
         "correction": "a",
         "message": "Jobs take a/an: ‘a waiter’. Ask: does the listener know which one? No → a/an. Yes → the."
       }
-    ]
+    ],
+    "formLabel": "article"
   }
 }

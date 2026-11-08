@@ -3,13 +3,10 @@
   "lessonTitle": "Prepositions of Place: at/on/in",
   "grammar": {
     "orderAux": {
-      "words": [
-        "at",
-        "on",
-        "in"
-      ],
+      "words": [],
       "label": null,
-      "primary": "in"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -236,7 +233,8 @@
         "display": "on",
         "explain": "Where two streets meet: on the corner."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -915,7 +913,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1511,6 +1509,7 @@
         "correction": "at",
         "message": "Fixed expression: ‘at home’. Picture it: a point (at), a surface or line (on), a space around it (in)."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

@@ -214,7 +214,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Missing have', 'It must *rained* last night.', 'have rained', 'Past deduction: ‘It must have rained’.'),
   ('Missing have', 'You should *told* me earlier.', 'have told', 'Criticism: ‘You should have told me’.'),

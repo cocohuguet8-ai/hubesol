@@ -219,7 +219,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Person after say', 'She *said* me that she was ill.', 'told', 'A person follows: ‘She told me…’.'),
   ('Person after say', 'He *said* us the answer.', 'told', 'A person follows: ‘He told us the answer’.'),

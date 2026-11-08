@@ -3,13 +3,10 @@
   "lessonTitle": "Prepositions of Time: at/on/in",
   "grammar": {
     "orderAux": {
-      "words": [
-        "at",
-        "on",
-        "in"
-      ],
+      "words": [],
       "label": null,
-      "primary": "on"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -236,7 +233,8 @@
         "display": "at",
         "explain": "Fixed point in the day: at lunchtime."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -918,7 +916,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1256,7 +1254,7 @@
       {
         "type": "fill",
         "use": "No preposition",
-        "sentText": "I’ll finish it {{blank}} .",
+        "sentText": "I’ll finish it {{blank}}.",
         "hint": "tomorrow / on tomorrow",
         "answers": [
           "tomorrow"
@@ -1516,6 +1514,7 @@
         "correction": "in",
         "message": "Years take ‘in’: ‘in 2010’."
       }
-    ]
+    ],
+    "formLabel": "preposition"
   }
 }

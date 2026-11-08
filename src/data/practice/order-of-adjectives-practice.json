@@ -3,14 +3,10 @@
   "lessonTitle": "Order of Adjectives",
   "grammar": {
     "orderAux": {
-      "words": [
-        "opinion",
-        "size",
-        "age",
-        "colour"
-      ],
+      "words": [],
       "label": null,
-      "primary": "size"
+      "primary": "",
+      "proper": []
     }
   },
   "gapFill": {
@@ -237,7 +233,8 @@
         "display": "and",
         "explain": "After ‘be’: ‘cheap and comfortable’. Order: opinion → size → age → shape → colour → origin → material → purpose → noun."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -920,7 +917,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake with an adjective. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake with an adjective. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1522,6 +1519,7 @@
         "correction": "an",
         "message": "‘Amazing’ starts with a vowel sound: ‘an amazing old castle’."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

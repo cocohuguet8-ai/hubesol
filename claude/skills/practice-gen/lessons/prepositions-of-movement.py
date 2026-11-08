@@ -205,7 +205,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('In for into', 'She ran *in* the house to get her coat.', 'into', 'Movement inside: ‘into the house’. Draw the arrow: entering (into), crossing a surface (across), passing inside a space (through).'),
   ('At for to', 'We flew *at* Rome last summer.', 'to', 'A destination takes ‘to’: ‘flew to Rome’.'),

@@ -210,7 +210,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('The with country', 'I spent a year in *the France*.', 'France', 'Single countries take no article: ‘in France’.'),
   ('The with country', 'They live in *the Portugal* now.', 'Portugal', 'Single countries take no article: ‘in Portugal’.'),

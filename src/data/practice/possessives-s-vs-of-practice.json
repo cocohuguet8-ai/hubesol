@@ -3,12 +3,12 @@
   "lessonTitle": "Possessives: 's vs of",
   "grammar": {
     "orderAux": {
-      "words": [
-        "'s",
-        "of"
-      ],
+      "words": [],
       "label": null,
-      "primary": "'s"
+      "primary": "",
+      "proper": [
+        "Pau"
+      ]
     }
   },
   "gapFill": {
@@ -271,7 +271,8 @@
         "display": "James’s",
         "explain": "Names ending in -s: ‘James’s’ or ‘James’’. People and animals → ’s; things and parts of things → of."
       }
-    ]
+    ],
+    "formLabel": "word"
   },
   "wordOrder": {
     "title": "Put it in order",
@@ -944,7 +945,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1530,6 +1531,7 @@
         "correction": "men’s",
         "message": "Irregular plural: ‘men’s’. People and animals → ’s; things and parts of things → of."
       }
-    ]
+    ],
+    "formLabel": "word"
   }
 }

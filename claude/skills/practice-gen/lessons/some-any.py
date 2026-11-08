@@ -210,7 +210,7 @@ MC = ('Beat the clock',
   ])
 
 ERR = ('Find the mistake',
-  'Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.',
+  'Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.',
   [
   ('Some in negative', 'We don’t have *some* eggs.', 'any', 'Negatives use ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any.'),
   ('Some in negative', 'There isn’t *some* sugar in my coffee.', 'any', 'Negative sentence: ‘any’. Expect a yes (positive, offer, request)? → some. Negative or real question? → any.'),

@@ -3,14 +3,13 @@
   "lessonTitle": "Reported Commands & Requests",
   "grammar": {
     "orderAux": {
-      "words": [
-        "told",
-        "asked",
-        "to",
-        "not"
-      ],
+      "words": [],
       "label": null,
-      "primary": "told"
+      "primary": "",
+      "proper": [
+        "Dad",
+        "Mum"
+      ]
     }
   },
   "gapFill": {
@@ -935,7 +934,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
     "items": [
       {
         "tokens": [
@@ -1317,7 +1316,7 @@
       {
         "type": "fill",
         "use": "Pronoun",
-        "sentText": "“Help me.” → She asked me to help {{blank}} .",
+        "sentText": "“Help me.” → She asked me to help {{blank}}.",
         "hint": "me",
         "answers": [
           "her"
