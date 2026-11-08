@@ -28,38 +28,90 @@ related:
   - { title: "All nouns & determiners", href: "/grammar/nouns-determiners/" }
   - { title: "Some & Any", href: "/grammar/nouns-determiners/some-any/" }
   - { title: "Much, Many & A lot of", href: "/grammar/nouns-determiners/much-many-a-lot-of/" }
+next: { title: "Some & Any", href: "/grammar/nouns-determiners/some-any/" }
 draft: false
 ---
 
 ## Countable vs uncountable
 
-| | Countable | Uncountable |
-|---|---|---|
-| Plural? | yes — a book, two books | no — water, not "waters" |
-| a/an or number? | yes — a car, three cars | no — not "an advice" |
-| Quantity words | many, a few, a number | much, a little, an amount |
-| To count them | just use a number | use a unit — a piece of, a glass of |
+| Countable | Uncountable |
+|---|---|
+| can be counted: one, two, three… | can't be counted one by one |
+| singular and plural | only one form (no plural) |
+| **a** chair, two **chairs** | **furniture** |
+| **an** apple, **apples** | **fruit** |
+| **a** job, **jobs** | **work** |
 
-## When and how to use them
+## Countable nouns
 
-### 1. Countable — count them directly
+### 1. Singular: need *a / an / the / my…*
 
-- I have **two brothers** and **a sister**.
+- I've got **a** bike. — ~~I've got bike.~~
 
-### 2. Uncountable — no plural, no a/an
+### 2. Plural: add *-s / -es*
 
-- Can I have **some water**? I need **information**, not ~~an information~~.
+- two **books**, three **boxes**, many **people**
 
-### 3. Count uncountables with a unit
+### 3. Words that go with countables
 
-- **a piece of** advice, **a slice of** bread, **two cups of** coffee
+- **many**, **a few**, **few**, **a number of**, numbers (*three*, *ten*)
 
-> ⚠️ Watch these uncountables: **information, advice, furniture, news, money, bread, luggage, work** — no plural, no a/an.
+## Uncountable nouns
+
+### 1. No *a / an*, no plural
+
+- ~~an information~~, ~~informations~~ → **information**, **some information**
+
+> ⚠️ Typical error: ~~I need an advice.~~ → *I need some advice / a piece of advice.*
+
+### 2. Singular verb
+
+- The news **is** good. — My hair **is** long. — Money **doesn't** grow on trees.
+
+### 3. Words that go with uncountables
+
+- **much**, **a little**, **little**, **an amount of**
+
+## Common uncountable nouns
+
+| Group | Examples |
+|---|---|
+| Food & drink | water, milk, bread, rice, cheese, sugar |
+| Materials | wood, glass, paper, plastic |
+| Abstract ideas | love, advice, information, help, news |
+| Collections | furniture, luggage, money, homework |
+| Weather | weather, rain, snow, traffic |
+
+> ⚠️ Typical error: ~~The weather are nice.~~ → *The weather is nice.*
+
+## Counting uncountables
+
+Use a **unit word** + *of*:
+
+| Unit | Example |
+|---|---|
+| a piece of | a piece of advice / furniture / cake |
+| a slice of | a slice of bread / pizza |
+| a glass / bottle of | a glass of water, a bottle of milk |
+| a loaf of | a loaf of bread |
+| a cup of | a cup of tea |
+
+## Both countable and uncountable
+
+Some nouns change meaning:
+
+- **Coffee** is expensive. (the drink) — Two **coffees**, please. (two cups)
+- I don't have **time**. — I've been there three **times**. (occasions)
+- The window is made of **glass**. — I need my **glasses**. (spectacles)
 
 ## Common mistakes
 
-**1. Making an uncountable plural.** *~~She gave me some advices~~* → **She gave me some advice.**
+**1. Plural uncountables.** *~~furnitures, advices, homeworks~~* → **furniture, advice, homework**.
 
-**2. Using a/an with an uncountable.** *~~I need an information~~* → **I need some information.**
+**2. *A / an* with uncountables.** *~~a bread~~* → **a loaf of bread / some bread**.
 
-**3. 'How many' with an uncountable.** *~~How many money?~~* → **How much money? Pro tip:** if you can put a number directly in front, it's countable; if not, use a unit or 'some'.
+**3. Plural verb.** *~~The news are bad.~~* → **The news is bad.**
+
+**4. *Much* with countables.** *~~much cars~~* → **many cars**.
+
+**Pro tip:** ask *"Can I put a number in front?"* — yes → countable; no → uncountable.
