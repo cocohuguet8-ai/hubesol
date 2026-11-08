@@ -1,0 +1,1517 @@
+{
+  "tense": "the-with-names-and-places",
+  "lessonTitle": "The with Names & Places",
+  "grammar": {
+    "orderAux": {
+      "words": [
+        "the"
+      ],
+      "label": null,
+      "primary": "the"
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the, or — (dash) when no article is needed. Twenty original sentences.",
+    "questions": [
+      {
+        "use": "Country",
+        "before": "My cousin lives in",
+        "after": "Germany.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Most countries take no article: ‘Germany’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Country",
+        "before": "We flew to",
+        "after": "United States last summer.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "‘States’ makes it a group: ‘the United States’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Country",
+        "before": "Have you ever been to",
+        "after": "Netherlands?",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Plural country name: ‘the Netherlands’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Country",
+        "before": "London is the capital of",
+        "after": "UK.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "‘Kingdom’ countries take ‘the’: ‘the UK’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Continent",
+        "before": "Kenya is in",
+        "after": "Africa.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Continents take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Ocean",
+        "before": "They sailed across",
+        "after": "Atlantic.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Oceans take ‘the’: ‘the Atlantic’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Sea",
+        "before": "We swam in",
+        "after": "Mediterranean.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Seas take ‘the’: ‘the Mediterranean’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "River",
+        "before": "",
+        "after": "Ebro is the longest river in Catalonia.",
+        "hint": "the / —",
+        "answers": [
+          "The",
+          "the"
+        ],
+        "display": "The",
+        "explain": "Rivers take ‘the’: ‘the Ebro’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Lake",
+        "before": "We had a picnic by",
+        "after": "Lake Banyoles.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Lakes take no article: ‘Lake Banyoles’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Mountains",
+        "before": "We go skiing in",
+        "after": "Pyrenees.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Mountain ranges take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Mountain",
+        "before": "Have you climbed",
+        "after": "Mount Kilimanjaro?",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Single mountains take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Islands",
+        "before": "My grandparents live in",
+        "after": "Balearic Islands.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Island groups take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Island",
+        "before": "We spent a week in",
+        "after": "Menorca.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "A single island: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "City",
+        "before": "She was born in",
+        "after": "Paris.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Cities take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Street",
+        "before": "There’s a great café on",
+        "after": "Oxford Street.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Streets take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Park",
+        "before": "Let’s go for a walk in",
+        "after": "Hyde Park.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Parks take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Museum",
+        "before": "We saw the Mona Lisa at",
+        "after": "Louvre.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Museums usually take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Hotel",
+        "before": "They stayed at",
+        "after": "Hilton.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Hotels usually take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Of pattern",
+        "before": "We visited",
+        "after": "Tower of London.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Names with ‘of’ take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Possessive name",
+        "before": "Let’s meet at",
+        "after": "McDonald’s.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Names with ’s take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each sentence — 20 examples with names and places.",
+    "sentences": [
+      {
+        "use": "Country",
+        "tokens": [
+          "I",
+          "live",
+          "in",
+          "Spain."
+        ]
+      },
+      {
+        "use": "Country",
+        "tokens": [
+          "She",
+          "lives",
+          "in",
+          "the",
+          "USA."
+        ]
+      },
+      {
+        "use": "Country",
+        "tokens": [
+          "The",
+          "Netherlands",
+          "is",
+          "flat."
+        ]
+      },
+      {
+        "use": "Continent",
+        "tokens": [
+          "Japan",
+          "is",
+          "in",
+          "Asia."
+        ]
+      },
+      {
+        "use": "Ocean",
+        "tokens": [
+          "We",
+          "crossed",
+          "the",
+          "Pacific."
+        ]
+      },
+      {
+        "use": "Sea",
+        "tokens": [
+          "I",
+          "swam",
+          "in",
+          "the",
+          "Red",
+          "Sea."
+        ]
+      },
+      {
+        "use": "River",
+        "tokens": [
+          "The",
+          "Nile",
+          "is",
+          "very",
+          "long."
+        ]
+      },
+      {
+        "use": "Lake",
+        "tokens": [
+          "Lake",
+          "Como",
+          "is",
+          "beautiful."
+        ]
+      },
+      {
+        "use": "Mountains",
+        "tokens": [
+          "We",
+          "hiked",
+          "in",
+          "the",
+          "Alps."
+        ]
+      },
+      {
+        "use": "Mountain",
+        "tokens": [
+          "Mount",
+          "Etna",
+          "is",
+          "a",
+          "volcano."
+        ]
+      },
+      {
+        "use": "Islands",
+        "tokens": [
+          "We",
+          "visited",
+          "the",
+          "Canary",
+          "Islands."
+        ]
+      },
+      {
+        "use": "Island",
+        "tokens": [
+          "Sicily",
+          "is",
+          "an",
+          "island."
+        ]
+      },
+      {
+        "use": "City",
+        "tokens": [
+          "Girona",
+          "is",
+          "in",
+          "Catalonia."
+        ]
+      },
+      {
+        "use": "Street",
+        "tokens": [
+          "I",
+          "work",
+          "on",
+          "Main",
+          "Street."
+        ]
+      },
+      {
+        "use": "Park",
+        "tokens": [
+          "We",
+          "ran",
+          "in",
+          "Central",
+          "Park."
+        ]
+      },
+      {
+        "use": "Museum",
+        "tokens": [
+          "We",
+          "went",
+          "to",
+          "the",
+          "Prado."
+        ]
+      },
+      {
+        "use": "Hotel",
+        "tokens": [
+          "They",
+          "stayed",
+          "at",
+          "the",
+          "Ritz."
+        ]
+      },
+      {
+        "use": "Of pattern",
+        "tokens": [
+          "I",
+          "study",
+          "at",
+          "the",
+          "University",
+          "of",
+          "Girona."
+        ]
+      },
+      {
+        "use": "Country",
+        "tokens": [
+          "He",
+          "is",
+          "from",
+          "the",
+          "Philippines."
+        ]
+      },
+      {
+        "use": "River",
+        "tokens": [
+          "Paris",
+          "is",
+          "on",
+          "the",
+          "Seine."
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "The or no article?",
+    "subtitle": "Tap a place name, then tap the article it needs.",
+    "leftLabel": "Place",
+    "rightLabel": "Article",
+    "rightLabelSub": "(the / —)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "___ Italy",
+        "right": "—"
+      },
+      {
+        "left": "___ United Kingdom",
+        "right": "the"
+      },
+      {
+        "left": "___ Europe",
+        "right": "—"
+      },
+      {
+        "left": "___ Atlantic",
+        "right": "the"
+      },
+      {
+        "left": "___ Thames",
+        "right": "the"
+      },
+      {
+        "left": "___ Lake Geneva",
+        "right": "—"
+      },
+      {
+        "left": "___ Himalayas",
+        "right": "the"
+      },
+      {
+        "left": "___ Mount Everest",
+        "right": "—"
+      },
+      {
+        "left": "___ Bahamas",
+        "right": "the"
+      },
+      {
+        "left": "___ Ibiza",
+        "right": "—"
+      },
+      {
+        "left": "___ Madrid",
+        "right": "—"
+      },
+      {
+        "left": "___ Baltic Sea",
+        "right": "the"
+      },
+      {
+        "left": "___ Fifth Avenue",
+        "right": "—"
+      },
+      {
+        "left": "___ British Museum",
+        "right": "the"
+      },
+      {
+        "left": "___ Czech Republic",
+        "right": "the"
+      },
+      {
+        "left": "___ Australia",
+        "right": "—"
+      },
+      {
+        "left": "___ Danube",
+        "right": "the"
+      },
+      {
+        "left": "___ Times Square",
+        "right": "—"
+      },
+      {
+        "left": "___ Rocky Mountains",
+        "right": "the"
+      },
+      {
+        "left": "___ Harrods",
+        "right": "—"
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Plural names, groups, seas and rivers → the. Single countries, cities, lakes and mountains → no article.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Country",
+        "text": "My best friend moved to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Canada.",
+        "choices": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Single country names take no article.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Most countries: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Country",
+        "text": "She’s studying in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> United Kingdom.",
+        "choices": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Kingdom’ names need ‘the’.",
+          "",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Kingdom / Republic / States → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Country",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Maldives are famous for their beaches.",
+        "choices": [
+          "—",
+          "A",
+          "The",
+          "An"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Plural country names need ‘the’.",
+          "Names don’t take ‘a’.",
+          "",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Plural name → the Maldives. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Continent",
+        "text": "Brazil is the biggest country in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> South America.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Continents take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’.",
+          ""
+        ],
+        "explain": "Continents: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Ocean",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Indian Ocean is warm.",
+        "choices": [
+          "—",
+          "The",
+          "A",
+          "An"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Oceans need ‘the’.",
+          "",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Oceans → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "River",
+        "text": "Budapest is on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Danube.",
+        "choices": [
+          "—",
+          "a",
+          "the",
+          "an"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Rivers need ‘the’.",
+          "Names don’t take ‘a’.",
+          "",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Rivers → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Lake",
+        "text": "We went sailing on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Lake Garda.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Lake + name’ takes no article.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’.",
+          ""
+        ],
+        "explain": "Lakes: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Mountains",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Andes run through seven countries.",
+        "choices": [
+          "The",
+          "—",
+          "A",
+          "An"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Mountain ranges need ‘the’.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Ranges → the Andes. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Mountain",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Mount Fuji is the highest mountain in Japan.",
+        "choices": [
+          "The",
+          "A",
+          "—",
+          "An"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Mount + name’ takes no article.",
+          "Names don’t take ‘a’.",
+          "",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Single mountain: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Islands",
+        "text": "We’re going to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Canary Islands in May.",
+        "choices": [
+          "—",
+          "a",
+          "an",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Island groups need ‘the’.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’.",
+          ""
+        ],
+        "explain": "Island groups → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Island",
+        "text": "Have you ever been to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Crete?",
+        "choices": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A single island takes no article.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Single island: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Street",
+        "text": "The shop is on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Baker Street.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Streets take no article.",
+          "",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Streets: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Museum",
+        "text": "Have you visited <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Guggenheim in Bilbao?",
+        "choices": [
+          "—",
+          "a",
+          "an",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Museums usually take ‘the’.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’.",
+          ""
+        ],
+        "explain": "Museums → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Of pattern",
+        "text": "We saw <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Statue of Liberty.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Names with ‘of’ need ‘the’.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "The … of … → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Of pattern",
+        "text": "He studies at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Oxford University.",
+        "choices": [
+          "the",
+          "—",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Without ‘of’, this name takes no article.",
+          "",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "No ‘of’: Oxford University. (But: the University of Oxford.)"
+      },
+      {
+        "use": "Possessive name",
+        "text": "I bought these jeans at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Harrods.",
+        "choices": [
+          "the",
+          "a",
+          "—",
+          "an"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Names with ’s take no article.",
+          "Names don’t take ‘a’.",
+          "",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Possessive names: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "I live near the Mediterranean.",
+          "I live near Mediterranean.",
+          "I live near a Mediterranean.",
+          "I live near the Mediterranean Lake."
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Seas need ‘the’.",
+          "Names don’t take ‘a’.",
+          "The Mediterranean is a sea, not a lake."
+        ],
+        "explain": "Seas → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Which",
+        "text": "Which is correct?",
+        "choices": [
+          "We visited the Lake Tahoe.",
+          "We visited Lake Tahoe.",
+          "We visited a Lake Tahoe.",
+          "We visited Lake the Tahoe."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Lake + name’: no article.",
+          "",
+          "Names don’t take ‘a’.",
+          "Wrong word order."
+        ],
+        "explain": "Lakes: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "City",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Barcelona is famous for its architecture.",
+        "choices": [
+          "The",
+          "A",
+          "—",
+          "An"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Cities take no article.",
+          "Names don’t take ‘a’.",
+          "",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Cities: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "use": "Country",
+        "text": "He was born in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Czech Republic.",
+        "choices": [
+          "—",
+          "a",
+          "an",
+          "the"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Republic’ names need ‘the’.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’.",
+          ""
+        ],
+        "explain": "Republic → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong. Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "I",
+          "spent",
+          "a",
+          "year",
+          "in",
+          "the",
+          "France."
+        ],
+        "errorIndex": 5,
+        "correction": "beautiful",
+        "type": "The with country",
+        "message": "Single countries take no article: ‘in France’ (or ‘in beautiful France’)."
+      },
+      {
+        "tokens": [
+          "They",
+          "live",
+          "in",
+          "the",
+          "Portugal",
+          "now."
+        ],
+        "errorIndex": 3,
+        "correction": "northern",
+        "type": "The with country",
+        "message": "Single countries take no article: ‘in Portugal’."
+      },
+      {
+        "tokens": [
+          "Peru",
+          "is",
+          "in",
+          "the",
+          "South",
+          "America."
+        ],
+        "errorIndex": 3,
+        "correction": "western",
+        "type": "The with continent",
+        "message": "Continents take no article: ‘in South America’."
+      },
+      {
+        "tokens": [
+          "We",
+          "visited",
+          "the",
+          "Rome",
+          "last",
+          "spring."
+        ],
+        "errorIndex": 2,
+        "correction": "beautiful",
+        "type": "The with city",
+        "message": "Cities take no article: ‘Rome’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "Our",
+          "school",
+          "is",
+          "on",
+          "the",
+          "Gran",
+          "Via."
+        ],
+        "errorIndex": 4,
+        "correction": "busy",
+        "type": "The with street",
+        "message": "Street names usually take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "We",
+          "swam",
+          "in",
+          "the",
+          "Lake",
+          "Banyoles."
+        ],
+        "errorIndex": 3,
+        "correction": "beautiful",
+        "type": "The with lake",
+        "message": "‘Lake + name’ takes no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "He",
+          "climbed",
+          "the",
+          "Mount",
+          "Everest."
+        ],
+        "errorIndex": 2,
+        "correction": "famous",
+        "type": "The with mountain",
+        "message": "‘Mount + name’ takes no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "We",
+          "stayed",
+          "in",
+          "the",
+          "Mallorca",
+          "for",
+          "a",
+          "week."
+        ],
+        "errorIndex": 3,
+        "correction": "sunny",
+        "type": "The with island",
+        "message": "A single island takes no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "We",
+          "had",
+          "lunch",
+          "in",
+          "the",
+          "Central",
+          "Park."
+        ],
+        "errorIndex": 4,
+        "correction": "huge",
+        "type": "The with park",
+        "message": "Park names take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "She",
+          "grew",
+          "up",
+          "in",
+          "the",
+          "London."
+        ],
+        "errorIndex": 4,
+        "correction": "east",
+        "type": "The with city",
+        "message": "Cities take no article: ‘in London’ (or ‘in east London’)."
+      },
+      {
+        "tokens": [
+          "My",
+          "uncle",
+          "works",
+          "in",
+          "a",
+          "USA."
+        ],
+        "errorIndex": 4,
+        "correction": "the",
+        "type": "A with country",
+        "message": "‘States’ makes it a group: ‘the USA’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "London",
+          "is",
+          "on",
+          "a",
+          "Thames."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "A with river",
+        "message": "Rivers take ‘the’: ‘the Thames’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "We",
+          "sailed",
+          "on",
+          "a",
+          "North",
+          "Sea."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "A with sea",
+        "message": "Seas take ‘the’: ‘the North Sea’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "Whales",
+          "live",
+          "in",
+          "an",
+          "Arctic",
+          "Ocean."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "A with ocean",
+        "message": "Oceans take ‘the’: ‘the Arctic Ocean’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "We",
+          "went",
+          "hiking",
+          "in",
+          "a",
+          "Alps."
+        ],
+        "errorIndex": 4,
+        "correction": "the",
+        "type": "A with mountains",
+        "message": "Mountain ranges take ‘the’: ‘the Alps’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "They",
+          "live",
+          "on",
+          "a",
+          "Faroe",
+          "Islands."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "A with islands",
+        "message": "Island groups take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "She’s",
+          "from",
+          "a",
+          "Netherlands."
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "type": "A with country",
+        "message": "Plural country names take ‘the’: ‘the Netherlands’."
+      },
+      {
+        "tokens": [
+          "We",
+          "went",
+          "to",
+          "a",
+          "Prado",
+          "on",
+          "Sunday."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "type": "A with museum",
+        "message": "Museums usually take ‘the’: ‘the Prado’."
+      },
+      {
+        "tokens": [
+          "We",
+          "visited",
+          "a",
+          "Tower",
+          "of",
+          "London."
+        ],
+        "errorIndex": 2,
+        "correction": "the",
+        "type": "A with of",
+        "message": "Names with ‘of’ take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "tokens": [
+          "Wales",
+          "is",
+          "part",
+          "of",
+          "a",
+          "United",
+          "Kingdom."
+        ],
+        "errorIndex": 4,
+        "correction": "the",
+        "type": "A with kingdom",
+        "message": "‘Kingdom’ names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, place type, multiple choice and spot-the-mistake. In the typing questions write the, or — (dash) for no article. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "type": "Type of place",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "type",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "River",
+        "sentText": "Seville is on {{blank}} Guadalquivir.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Rivers take ‘the’.",
+        "wrongNote": "River → the."
+      },
+      {
+        "type": "fill",
+        "use": "Country",
+        "sentText": "Have you ever been to {{blank}} Mexico?",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Single countries take no article.",
+        "wrongNote": "Single country → no article."
+      },
+      {
+        "type": "fill",
+        "use": "Continent",
+        "sentText": "The Rockies are in {{blank}} North America.",
+        "hint": "the / —",
+        "answers": [
+          "—",
+          "-"
+        ],
+        "display": "—",
+        "explain": "Continents take no article.",
+        "wrongNote": "Continent → no article."
+      },
+      {
+        "type": "fill",
+        "use": "Country",
+        "sentText": "Manila is the capital of {{blank}} Philippines.",
+        "hint": "the / —",
+        "answers": [
+          "the"
+        ],
+        "display": "the",
+        "explain": "Plural country names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t.",
+        "wrongNote": "Plural name → the."
+      },
+      {
+        "type": "order",
+        "use": "River",
+        "tokens": [
+          "The",
+          "Thames",
+          "is",
+          "in",
+          "London."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Lake",
+        "tokens": [
+          "Lake",
+          "Tahoe",
+          "is",
+          "cold."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Country",
+        "tokens": [
+          "I",
+          "love",
+          "Italy."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Islands",
+        "tokens": [
+          "The",
+          "Azores",
+          "are",
+          "green."
+        ]
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "Which place type takes ‘the’?",
+        "choices": [
+          "lakes",
+          "rivers",
+          "cities",
+          "streets"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Lakes take no article: Lake Garda.",
+          "",
+          "Cities take no article.",
+          "Streets take no article."
+        ],
+        "explain": "Rivers → the Rhine, the Nile. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "Which place type takes NO article?",
+        "choices": [
+          "mountain ranges",
+          "oceans",
+          "island groups",
+          "single mountains"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Ranges take ‘the’: the Alps.",
+          "Oceans take ‘the’.",
+          "Island groups take ‘the’.",
+          ""
+        ],
+        "explain": "Single mountains: Mount Etna. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "Why ‘the USA’ but ‘Spain’?",
+        "choices": [
+          "‘States’ makes it a group",
+          "the USA is bigger",
+          "Spain is in Europe",
+          "it’s random"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Size doesn’t matter.",
+          "Location doesn’t matter.",
+          "It isn’t random."
+        ],
+        "explain": "Group / plural names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "type",
+        "use": "Type",
+        "text": "Why ‘the University of Girona’ but ‘Girona University’?",
+        "choices": [
+          "universities always take the",
+          "Girona is a city",
+          "the ‘of’ pattern takes the",
+          "it’s random"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Without ‘of’ there’s no ‘the’.",
+          "The city isn’t the reason.",
+          "",
+          "It isn’t random."
+        ],
+        "explain": "The … of … → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "mc",
+        "use": "Sea",
+        "text": "Venice is on {{blank}} Adriatic Sea.",
+        "choices": [
+          "—",
+          "a",
+          "the",
+          "an"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "Seas need ‘the’.",
+          "Names don’t take ‘a’.",
+          "",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Seas → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "mc",
+        "use": "Continent",
+        "text": "Australia is both a country and {{blank}} continent.",
+        "choices": [
+          "a",
+          "the",
+          "—",
+          "an"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "Here ‘continent’ is a common noun: one of many.",
+          "A singular countable noun needs an article.",
+          "‘Continent’ starts with a consonant sound."
+        ],
+        "explain": "Common noun, one of many: a continent. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "mc",
+        "use": "City",
+        "text": "The Sagrada Família is in {{blank}} Barcelona.",
+        "choices": [
+          "the",
+          "a",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Cities take no article.",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’.",
+          ""
+        ],
+        "explain": "Cities: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "mc",
+        "use": "Hotel",
+        "text": "We had tea at {{blank}} Savoy.",
+        "choices": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "Hotels usually take ‘the’.",
+          "",
+          "Names don’t take ‘a’.",
+          "Names don’t take ‘an’."
+        ],
+        "explain": "Hotels → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "error",
+        "use": "The with country",
+        "tokens": [
+          "We",
+          "travelled",
+          "around",
+          "the",
+          "Japan."
+        ],
+        "errorIndex": 3,
+        "correction": "rural",
+        "message": "Single countries take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "error",
+        "use": "A with river",
+        "tokens": [
+          "Cairo",
+          "is",
+          "on",
+          "a",
+          "Nile."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "message": "Rivers take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "error",
+        "use": "The with lake",
+        "tokens": [
+          "They",
+          "live",
+          "near",
+          "the",
+          "Lake",
+          "Michigan."
+        ],
+        "errorIndex": 3,
+        "correction": "beautiful",
+        "message": "‘Lake + name’: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      },
+      {
+        "type": "error",
+        "use": "A with islands",
+        "tokens": [
+          "We",
+          "flew",
+          "to",
+          "a",
+          "Bahamas."
+        ],
+        "errorIndex": 3,
+        "correction": "the",
+        "message": "Plural names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+      }
+    ]
+  }
+}
