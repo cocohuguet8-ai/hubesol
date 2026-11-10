@@ -45,7 +45,7 @@ const uid = 'mt';
       </div>
     </div>
 
-    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({ pairs: data.pairs, reviewArrowPrefix: data.reviewArrowPrefix || '' })} />
+    <script type="application/json" id={`${uid}-data`} set:html={JSON.stringify({ pairs: data.pairs, reviewArrowPrefix: data.reviewArrowPrefix || '', categoriesFirst: !!data.categoriesFirst, leftLabel: data.leftLabel, rightLabel: data.rightLabel })} />
   </section>
 )}
 
@@ -57,6 +57,7 @@ const uid = 'mt';
     const payload = JSON.parse(dataEl.textContent);
     const pairs = payload.pairs;
     const reviewArrowPrefix = payload.reviewArrowPrefix;
+    const categoriesFirst = payload.categoriesFirst;
 
     const leftCol = document.getElementById(`${uid}-leftCol`);
     const rightCol = document.getElementById(`${uid}-rightCol`);
@@ -107,6 +108,7 @@ const uid = 'mt';
         // Few distinct answers (e.g. Past Simple / Present Perfect): show each
         // category once as a reusable button instead of 20 identical tiles.
         board.classList.add('matching-board--categories');
+        if (categoriesFirst) board.classList.add('matching-board--categories-first');
         categories.forEach((cat) => {
           const b = document.createElement('button');
           b.type = 'button';
@@ -136,12 +138,46 @@ const uid = 'mt';
     }
 
     function clearSelection() {
-      const sel = leftCol.querySelector('.selected');
+      const sel = board.querySelector('.selected');
       if (sel) sel.classList.remove('selected');
       selectedLeft = null;
     }
 
+    // Category-first mode (categories shown on the left): tap the category, then the item.
+    function onCategoryFirstItemClick(item, el) {
+      if (el.classList.contains('matched')) return;
+      if (!selectedLeft) {
+        feedback.className = 'practice-feedback show';
+        feedback.textContent = 'First tap the ' + payload.rightLabel.toLowerCase() + ' on the left, then the ' + payload.leftLabel.toLowerCase() + '.';
+        return;
+      }
+      attempts++;
+      const cat = selectedLeft.word;
+      if (item.match === cat) {
+        el.classList.add('matched');
+        matchedCount++;
+        feedback.className = 'practice-feedback show ok';
+        feedback.innerHTML = '<b>Correct.</b> “' + item.word + '” → “' + cat + '”.';
+      } else {
+        el.classList.add('wrongflash');
+        setTimeout(() => { el.classList.remove('wrongflash'); }, 450);
+        feedback.className = 'practice-feedback show bad';
+        feedback.innerHTML = '<b>Not quite.</b> “' + item.word + '” doesn’t take “' + cat + '” — try again.';
+      }
+      clearSelection();
+      updateStats();
+      if (matchedCount === pairs.length) setTimeout(showScore, 500);
+    }
+
+    function onCategoryFirstCategoryClick(item, el) {
+      if (selectedLeft && selectedLeft.word === item.word) { clearSelection(); return; }
+      clearSelection();
+      selectedLeft = item;
+      el.classList.add('selected');
+    }
+
     function onLeftClick(item, el) {
+      if (categoriesFirst && categoryMode) return onCategoryFirstItemClick(item, el);
       if (el.classList.contains('matched')) return;
       if (selectedLeft && selectedLeft.id === item.id) {
         clearSelection();
@@ -153,6 +189,7 @@ const uid = 'mt';
     }
 
     function onRightClick(item, el) {
+      if (categoriesFirst && categoryMode) return onCategoryFirstCategoryClick(item, el);
       if (el.classList.contains('matched')) return;
       if (!selectedLeft) {
         feedback.className = 'practice-feedback show';
