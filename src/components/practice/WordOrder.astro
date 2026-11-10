@@ -203,13 +203,14 @@ const uid = 'wo';
           }
           answerZone.appendChild(t);
         });
-        // End mark is a fixed, non-tappable character after the tiles (HQ-097): it never reveals the last word.
-        const em = document.createElement('span');
-        em.className = 'wordorder-endmark';
-        em.setAttribute('aria-hidden', 'true');
-        em.textContent = endMark(questions[idx].tokens);
-        answerZone.appendChild(em);
       }
+      // End mark is a fixed, non-tappable character after the tiles (HQ-097): it never reveals the last word.
+      // It is visible from the start, so the learner knows if the sentence is a question or a statement.
+      const em = document.createElement('span');
+      em.className = 'wordorder-endmark' + (built.length === 0 ? ' empty' : '');
+      em.setAttribute('aria-hidden', 'true');
+      em.textContent = endMark(questions[idx].tokens);
+      answerZone.appendChild(em);
       const q = questions[idx];
       checkBtn.disabled = answered || built.length !== q.tokens.length;
     }
