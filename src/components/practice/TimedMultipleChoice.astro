@@ -49,8 +49,6 @@ const uid = 'tm';
 )}
 
 <script>
-  // Quote the correct answer unless it already contains quotes (avoids “‘old’ …”).
-  function answerQuoted(t) { return /^[‘“"']/.test(t) ? t : '“' + t + '”'; }
   function initTimedMC() {
     const uid = 'tm';
     const dataEl = document.getElementById(`${uid}-data`);
@@ -242,10 +240,10 @@ const uid = 'tm';
       } else {
         feedback.className = 'practice-feedback show bad';
         if (index === -1) {
-          feedback.innerHTML = '<b>Time’s up.</b> The answer was ' + answerQuoted(q.choices[q.correct]) + '. ' + q.explain;
+          feedback.innerHTML = '<b>Time’s up.</b> The answer was <b>' + q.choices[q.correct] + '</b>. ' + q.explain;
         } else {
           const reason = q.wrongReasons[index] || '';
-          feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was ' + answerQuoted(q.choices[q.correct]) + '.';
+          feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was <b>' + q.choices[q.correct] + '</b>.';
         }
       }
 
