@@ -486,7 +486,7 @@ const uid = 'lc';
     }
 
     function diagnoseFill(rawText, it) {
-      if (tense === 'a-an-vs-one') return diagnoseArticle(rawText, it.display);
+      if (tense === 'a-an-vs-one' || tense === 'a-vs-an') return diagnoseArticle(rawText, it.display);
       if (tense === 'past-simple') return diagnoseFillPastSimple(rawText, it);
       if (tense === 'past-perfect') return diagnoseFillPastPerfect(rawText, it);
       if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
@@ -541,14 +541,14 @@ const uid = 'lc';
       'not never always usually often sometimes yesterday today tomorrow last next this tonight ' +
       'at in on by for since after before while as if because during until ' +
       'one only both all most many much several first then').split(' '));
-    function tileLabel(word) {
+    function tileLabel(word, first) {
       let w = String(word).replace(/[.,?!;:]+$/, '');
-      if (w !== 'I' && !/^I['’]/.test(w) && !(orderAux.proper || []).includes(w) && /^[A-Z]/.test(w) && LOWER_OK.has(w.toLowerCase())) w = w.charAt(0).toLowerCase() + w.slice(1);
+      if (w !== 'I' && !/^I['’]/.test(w) && !(orderAux.proper || []).includes(w) && /^[A-Z]/.test(w) && (first || LOWER_OK.has(w.toLowerCase()))) w = w.charAt(0).toLowerCase() + w.slice(1);
       return w;
     }
+    // Same as the Put it in order activity: no capital on any tile, so it never gives away the first word (HQ-149).
     function placedLabel(word, pos) {
-      const w = tileLabel(word);
-      return pos === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+      return tileLabel(word, word === items[idx].tokens[0]);
     }
     function endMark(tokens) {
       const m = String(tokens[tokens.length - 1] || '').match(/[.?!]+$/);
@@ -616,7 +616,7 @@ const uid = 'lc';
         const t = document.createElement('button');
         t.type = 'button';
         t.className = 'wordorder-tile';
-        t.textContent = tileLabel(item.word);
+        t.textContent = tileLabel(item.word, item.word === it.tokens[0]);
         t.addEventListener('click', () => {
           if (answered) return;
           item.used = true;

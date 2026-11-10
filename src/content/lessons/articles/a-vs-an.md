@@ -39,7 +39,7 @@ The choice depends on the **sound** at the start of the next word — not the le
 | Use | Before | Examples |
 |---|---|---|
 | **a** | a consonant **sound** | **a** dog, **a** car, **a** big apple, **a** university |
-| **an** | a vowel **sound** (a, e, i, o, u) | **an** apple, **an** egg, **an** island, **an** hour |
+| **an** | a vowel **sound** (not just the letters a, e, i, o, u) | **an** apple, **an** egg, **an** island, **an** hour |
 
 ## When to use *a*
 
