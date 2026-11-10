@@ -403,7 +403,7 @@ const uid = 'gf';
     }
 
     function diagnose(rawText, q) {
-      if (tense === 'a-an-vs-one') return diagnoseArticle(rawText, q.display);
+      if (tense === 'a-an-vs-one' || tense === 'a-vs-an') return diagnoseArticle(rawText, q.display);
       if (tense === 'past-simple') return diagnosePastSimple(rawText, q);
       if (tense === 'past-perfect') return diagnosePastPerfect(rawText, q);
       if (tense === 'present-perfect') return diagnosePresentPerfect(rawText, q);
