@@ -47,6 +47,8 @@ const uid = 'lc';
 )}
 
 <script>
+  // Quote the correct answer unless it already contains quotes (avoids “‘old’ …”).
+  function answerQuoted(t) { return /^[‘“"']/.test(t) ? t : '“' + t + '”'; }
   function initLevelCheck() {
     const uid = 'lc';
     const dataEl = document.getElementById(`${uid}-data`);
@@ -729,7 +731,7 @@ const uid = 'lc';
       } else {
         feedback.className = 'practice-feedback show bad';
         const reason = it.wrongReasons[chosenIndex] || '';
-        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was “' + it.choices[it.correct] + '”.';
+        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was ' + answerQuoted(it.choices[it.correct]) + '.';
       }
       results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', String(it.choices[it.correct]).split('→').pop().trim()) });
       scoreText.textContent = 'Score: ' + totalScore();
