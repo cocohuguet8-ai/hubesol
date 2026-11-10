@@ -1285,38 +1285,38 @@
       {
         "type": "sound",
         "use": "Sound",
-        "text": "In ‘___ old car’, which word decides the article?",
+        "text": "Why is it ‘an old car’ and not ‘a old car’?",
         "choices": [
-          "old",
-          "car",
-          "the subject",
-          "the verb"
+          "‘car’ starts with a consonant sound",
+          "‘old’ starts with a vowel sound",
+          "‘old’ is an adjective",
+          "‘car’ is a singular noun"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
+          "The article goes with the word right after it, not with the noun at the end.",
           "",
-          "The article goes with the word right after it.",
-          "The subject doesn’t affect the article.",
-          "The verb doesn’t affect the article."
+          "Adjectives don’t decide it: ‘a big car’ takes ‘a’. The sound counts.",
+          "Singular nouns take ‘a’ or ‘an’; the next sound decides which."
         ],
-        "explain": "The next word (‘old’) decides: an old car. Remember: the first sound of the next word decides — not its first letter."
+        "explain": "‘Old’ comes right after the article and starts with the vowel sound /əʊ/: an old car. Remember: the first sound of the next word decides — not its first letter."
       },
       {
         "type": "sound",
         "use": "Sound",
         "text": "Why ‘an hour’ but ‘a house’?",
         "choices": [
-          "‘hour’ is longer",
-          "‘house’ is a building",
+          "‘hour’ is uncountable, ‘house’ is countable",
+          "‘house’ starts with a vowel sound",
           "the h is silent in ‘hour’",
-          "it’s random"
+          "‘an’ is for time words, ‘a’ for places"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Length doesn’t matter.",
-          "The meaning doesn’t matter.",
+          "Both are countable: an hour, two hours; a house, two houses.",
+          "‘House’ starts with a pronounced /h/, a consonant sound: a house.",
           "",
-          "It isn’t random: it’s about sound."
+          "There’s no such rule: it’s a one-hour trip, an old house. Only the sound counts."
         ],
         "explain": "Silent h → vowel sound → an. Remember: the first sound of the next word decides — not its first letter."
       },
