@@ -589,6 +589,9 @@ footer.site .inner { max-width: var(--max); margin: 0 auto; padding: 1.3rem 1rem
 .matching-board--categories > div > * { grid-column: auto; }
 .matching-board--categories .matching-col-label { grid-row: auto; }
 .matching-board--categories > div:last-child { position: sticky; top: 6rem; }
+/* Categories on the left, items on the right (tap category first) */
+.matching-board--categories-first { grid-template-columns: 1fr 1.6fr; }
+.matching-board--categories-first > div:last-child { order: -1; }
 .matching-category { font-weight: 600; text-align: center; }
 .wordorder-end { align-self: flex-end; font-weight: 600; margin-left: -0.5rem; }
 
