@@ -377,6 +377,8 @@ const uid = 'gf';
 
     // The hint gives the verb; the answer is the whole verb phrase. If the verb is missing, say so.
     function missingHintVerb(rawText, hint, display) {
+      // A hint like “(since / for)” offers a choice between two words, not a verb to include.
+      if (/^\(.*\/.*\)$/.test(String(hint || '').trim())) return '';
       const hv = String(hint || '').replace(/[()]/g, '').split('/').pop().trim().toLowerCase();
       if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0 || /^\(?do\/does\)?$/i.test(String(hint || '').trim())) return '';
       const u = normalize(rawText);
@@ -413,7 +415,7 @@ const uid = 'gf';
         const m = diagnosePresentSimple(rawText, q);
         if (m) return m;
       }
-      return missingHintVerb(rawText, q.hint, q.display) || "Check the " + FORM + " — it should be “" + q.display + "”.";
+      return missingHintVerb(rawText, q.hint, q.display) || "Check the " + (/^\(.*\/.*\)$/.test(String(q.hint || '').trim()) ? "word" : FORM) + " — it should be “" + q.display + "”.";
     }
 
     function startQuiz() {
