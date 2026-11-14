@@ -38,7 +38,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + had (**’d**) + past participle | She **had finished**. / They**’d left**. |
+| Affirmative | subject + had (**’d**) + past participle | She **had finished**. / **They’d left**. |
 | Negative | subject + hadn’t + past participle | We **hadn’t arrived**. |
 | Question | Had + subject + past participle? | **Had** you **met** before? |
 

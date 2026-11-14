@@ -476,6 +476,8 @@ const uid = 'lc';
 
     // The hint gives the verb; the answer is the whole verb phrase. If the verb is missing, say so.
     function missingHintVerb(rawText, hint, display) {
+      // A hint like “(since / for)” offers a choice between two words, not a verb to include.
+      if (/^\(.*\/.*\)$/.test(String(hint || '').trim())) return '';
       const hv = String(hint || '').replace(/[()]/g, '').split('/').pop().trim().toLowerCase();
       if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0) return '';
       const u = normalize(rawText);
@@ -492,7 +494,7 @@ const uid = 'lc';
       if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
       if (tense === 'present-continuous') return diagnoseFillPresentContinuous(rawText, it.display);
       if (tense === 'past-continuous') return diagnosePastContinuousText(rawText, it.display);
-      return missingHintVerb(rawText, it.hint, it.display) || "Check the " + FORM + " — it should be “" + it.display + "”.";
+      return missingHintVerb(rawText, it.hint, it.display) || "Check the " + (/^\(.*\/.*\)$/.test(String(it.hint || '').trim()) ? "word" : FORM) + " — it should be “" + it.display + "”.";
     }
 
     function checkFill(it, input) {

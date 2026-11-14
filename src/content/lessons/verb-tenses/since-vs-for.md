@@ -49,8 +49,8 @@ The quick test: can you count it (*two hours, three weeks, ten years*)? Then it�
 
 | Form | Structure | Example |
 |---|---|---|
-| Present perfect | have/has + past participle + since/for | I**’ve known** her **since** 2015. |
-| Present perfect continuous | have/has been + verb-ing + since/for | She**’s been working** here **for** six months. |
+| Present perfect | have/has + past participle + since/for | **I’ve known** her **since** 2015. |
+| Present perfect continuous | have/has been + verb-ing + since/for | **She’s been working** here **for** six months. |
 | Negative | haven’t/hasn’t + past participle + since/for | We **haven’t seen** him **since** June. |
 
 ## When to use since and for
