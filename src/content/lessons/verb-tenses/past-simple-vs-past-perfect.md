@@ -102,7 +102,7 @@ Use it to show that one action happened before the other.
 | Word | Usually goes with | Example |
 |---|---|---|
 | already / just | past perfect | The film **had already** started. |
-| never … before | past perfect | I**’d never** flown **before**. |
+| never … before | past perfect | **I’d never** flown **before**. |
 | yesterday / last week / ago | past simple | We **met** two years **ago**. |
 | then / after that | past simple | I ate, **then** I went out. |
 
