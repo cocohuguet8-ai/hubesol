@@ -110,8 +110,8 @@ For actions in progress now:
 
 These adverbs mean the same as *may/might* but use a normal verb.
 
-- **Maybe** she**'s** busy. = She **might** be busy.
-- **Perhaps** we**'ll** win. = We **may** win.
+- **Maybe** **she's** busy. = She **might** be busy.
+- **Perhaps** **we'll** win. = We **may** win.
 
 ## Questions
 
