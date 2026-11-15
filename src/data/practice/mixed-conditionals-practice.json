@@ -1105,7 +1105,7 @@
       },
       {
         "use": "Present → past",
-        "text": "If you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so shy, you might have won the talent show.",
+        "text": "You’ve always been shy. If you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so shy, you might have won the talent show.",
         "choices": [
           "hadn’t been",
           "aren’t",
@@ -1114,12 +1114,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Shyness is a permanent trait, so the present form is better.",
+          "You’ve always been shy: it is a permanent trait, so the present form is better.",
           "‘Aren’t’ is a real fact.",
           "No ‘would’ in the if-clause.",
           ""
         ],
-        "explain": "Shyness is a general, present trait, so the if-clause uses ‘weren’t’, not ‘hadn’t been’."
+        "explain": "You’ve always been shy, so it is a present trait: the if-clause uses ‘weren’t’, not ‘hadn’t been’."
       },
       {
         "use": "Pure or mixed",
