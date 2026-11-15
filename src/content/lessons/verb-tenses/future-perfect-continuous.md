@@ -36,7 +36,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + will have been + verb-**ing** | She**’ll have been working**. |
+| Affirmative | subject + will have been + verb-**ing** | **She’ll have been working**. |
 | Negative | subject + won’t have been + verb-ing | They **won’t have been waiting** long. |
 | Question | Will + subject + have been + verb-ing? | How long **will** you **have been driving**? |
 
@@ -73,16 +73,16 @@ The activity explains how someone will feel or look.
 
 ### 3. Anniversaries and milestones
 
-- In June, we**’ll have been running** this school for twenty years.
+- In June, **we’ll have been running** this school for twenty years.
 
 ## Future perfect continuous or future perfect?
 
 | Sentence | Meaning |
 |---|---|
-| By June, I**’ll have been writing** this book for two years. | how long the activity lasts |
-| By June, I**’ll have written** three chapters. | a quantity / a result |
-| By then, he**’ll have been working** all day. | the activity (he’ll be tired) |
-| By then, he**’ll have finished** the job. | completion |
+| By June, **I’ll have been writing** this book for two years. | how long the activity lasts |
+| By June, **I’ll have written** three chapters. | a quantity / a result |
+| By then, **he’ll have been working** all day. | the activity (he’ll be tired) |
+| By then, **he’ll have finished** the job. | completion |
 
 ## State verbs
 
