@@ -47,7 +47,7 @@ The rule never changes: **be** (in the tense you need) + **past participle**.
 | Present perfect | They **have cleaned** the room. | The room **has been cleaned**. |
 | Past perfect | They **had cleaned** the room. | The room **had been cleaned**. |
 | Future (*will*) | They **will clean** the room. | The room **will be cleaned**. |
-| *Going to* | They**'re going to clean** the room. | The room **is going to be cleaned**. |
+| *Going to* | **They're going to clean** the room. | The room **is going to be cleaned**. |
 | Modals | They **must clean** the room. | The room **must be cleaned**. |
 
 ## Continuous passives: *being*
