@@ -65,8 +65,8 @@ More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
 
 With *go*, the present perfect has two participles. **Been** = went and came back; **gone** = went and is still there.
 
-- She**’s been** to Paris. (She’s back now.)
-- She**’s gone** to Paris. (She’s there now.)
+- **She’s been** to Paris. (She’s back now.)
+- **She’s gone** to Paris. (She’s there now.)
 
 More in [Been vs Gone](/grammar/verb-tenses/been-vs-gone/).
 
