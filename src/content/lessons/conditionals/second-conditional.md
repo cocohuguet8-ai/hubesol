@@ -37,13 +37,13 @@ draft: false
 | Clause | Verb form | Example |
 |---|---|---|
 | If-clause (the condition) | if + past simple | **If I had** more money, |
-| Main clause (the result) | would / wouldn't + base verb | I**'d travel** round the world. |
+| Main clause (the result) | would / wouldn't + base verb | **I'd travel** round the world. |
 
 The if-clause uses the **past simple**, but it does **not** talk about the past: it talks about an **imaginary** present or an **unlikely** future. The result uses **would** (*'d*) or **wouldn't** + the base verb. Comma rule: comma after the if-clause when it comes first; no comma when it comes second.
 
 | Form | Example |
 |---|---|
-| Affirmative | If she lived nearer, she**'d visit** more often. |
+| Affirmative | If she lived nearer, **she'd visit** more often. |
 | Negative | If I **didn't have** a car, I **wouldn't go** out much. |
 | Question | What **would** you **do** if you **won** the lottery? |
 | Result first | I'd help you **if I knew** the answer. |
@@ -63,8 +63,8 @@ With *be*, we often use **were** for every subject, especially in advice and for
 
 The situation is not true now. We imagine it.
 
-- **If I had** a dog, I**'d walk** it every morning. (I don't have a dog.)
-- **If we lived** by the sea, we**'d swim** every day. (We don't.)
+- **If I had** a dog, **I'd walk** it every morning. (I don't have a dog.)
+- **If we lived** by the sea, **we'd swim** every day. (We don't.)
 
 > ⚠️ Typical error: ~~If I have a dog, I'd walk it.~~ → An imaginary present needs the past simple: *If I had a dog…*
 
@@ -72,14 +72,14 @@ The situation is not true now. We imagine it.
 
 We don't really expect it to happen.
 
-- **If I won** the lottery, I**'d buy** a house in the mountains.
+- **If I won** the lottery, **I'd buy** a house in the mountains.
 - **If aliens landed** in Girona, what **would** you **do**?
 
 > ⚠️ Typical error: ~~If I would win the lottery, I'd buy a house.~~ → Never use *would* in the if-clause: *If I won the lottery…*
 
 ### 3. Advice with *If I were you*
 
-- **If I were you**, I**'d take** the job.
+- **If I were you**, **I'd take** the job.
 - I **wouldn't worry** about it **if I were you**.
 
 > ⚠️ Typical error: ~~If I am you, I'll take the job.~~ → Advice uses the second conditional: *If I were you, I'd take the job.*
@@ -88,7 +88,7 @@ We don't really expect it to happen.
 
 | Result | Meaning | Example |
 |---|---|---|
-| would | certain imaginary result | If I had time, I**'d help**. |
+| would | certain imaginary result | If I had time, **I'd help**. |
 | could | ability or possibility | If I had a car, I **could drive** you. |
 | might | less certain | If you asked her, she **might say** yes. |
 
@@ -100,7 +100,7 @@ The difference is how **real** the speaker thinks the situation is.
 |---|---|---|
 | Meaning | real, likely | imaginary, unlikely |
 | Form | if + present, will | if + past, would |
-| Example | If I **see** her, I**'ll tell** her. | If I **saw** a ghost, I**'d scream**. |
+| Example | If I **see** her, **I'll tell** her. | If I **saw** a ghost, **I'd scream**. |
 
 See [First vs Second Conditional](/grammar/conditionals/first-vs-second-conditional/).
 
