@@ -7,7 +7,7 @@ FUNC={'a','an','the','in','on','at','by','for','since','during','while','until',
 CONTR=[('have','’ve'),('has','’s'),('had','’d'),('is','’s'),('are','’re'),('am','’m'),('will','’ll'),('would','’d'),('not','n’t')]
 NOTVERB={'bring','sing','swing','sting','wing','string','cling','fling','sling','during','morning','evening','something','anything','nothing','everything','thing','king','spring','ring','wedding','building','meeting','feeling','shopping','cooking','swimming','running','reading','painting','clothing'}
 EMB={'ask','asks','asked','know','knew','knows','wonder','wondered','wonders','say','said','tell','told','see','saw','remember','remembered','explain','explained','understand','understood','decide','decided','forget','forgot'}
-PROP={'January','February','March','April','May','August','September','October','November','December','I','TV','Mum','Dad','Anna','Ben','Tom','Sam','Maria','Paul','Lucy','Girona','English','Spanish','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','June','July','London','Paris','Lisbon','Rome','Barcelona','Christmas'}
+PROP={'Grandma','Tom’s','January','February','March','April','May','August','September','October','November','December','I','TV','Mum','Dad','Anna','Ben','Tom','Sam','Maria','Paul','Lucy','Girona','English','Spanish','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','June','July','London','Paris','Lisbon','Rome','Barcelona','Christmas'}
 P=collections.defaultdict(list)   # slug -> [(classe, detall)]
 def add(s,c,d): P[s].append((c,d))
 def norm(x): return re.sub(r'[’\']',"'",x.lower()).strip()
@@ -16,7 +16,11 @@ def check_alts(s,where,tokens,alts):
     end=tokens[-1][-1] if tokens[-1][-1] in '.?!' else None
     if end is None: add(s,'ordre: frase sense signe final',f'{where} {tokens}')
     sub=re.compile(r'^(when|because|before|after|until|while|if|by|as|once|since|although)$',re.I)
+    caps={w.strip('.,?!').lower():w.strip('.,?!') for j,w in enumerate(tokens) if (j>0 or w.strip('.,?!') in PROP) and w[0].isupper() and w.strip('.,?!')!='I'}
     for a in alts or []:
+        for w in a:
+            c=w.strip('.,?!')
+            if c.lower() in caps and c!=caps[c.lower()]: add(s,'ordre: nom propi en minúscula a una alternativa',f'{where} {" ".join(a)}')
         for i,w in enumerate(a[:-1]):
             if w[-1] in '.?!': add(s,'ordre: alternativa amb punt/interrogant a mig frase (la revisió final queda mal puntuada)',f'{where} {" ".join(a)}')
         if a[-1][-1] not in '.?!': add(s,'ordre: alternativa sense signe final',f'{where} {" ".join(a)}')
