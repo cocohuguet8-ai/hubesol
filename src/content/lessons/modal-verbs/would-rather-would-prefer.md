@@ -37,9 +37,9 @@ draft: false
 
 | Expression | Followed by | Example |
 |---|---|---|
-| **would rather** ('d rather) | base verb (no *to*) | I**'d rather stay** at home. |
-| **would prefer** ('d prefer) | **to** + base verb | I**'d prefer to stay** at home. |
-| **would prefer** | noun | I**'d prefer** tea. |
+| **would rather** ('d rather) | base verb (no *to*) | **I'd rather stay** at home. |
+| **would prefer** ('d prefer) | **to** + base verb | **I'd prefer to stay** at home. |
+| **would prefer** | noun | **I'd prefer** tea. |
 | would rather … **than** | base verb … base verb | I'd rather walk **than** take the bus. |
 | would prefer … **rather than** | to + verb … base verb | I'd prefer to walk **rather than** take the bus. |
 
@@ -49,15 +49,15 @@ Both talk about what we want in a **specific** situation (now or soon). In speec
 
 ### 1. Base verb, no *to*
 
-- I**'d rather watch** a film tonight.
-- She**'d rather not go** out. (negative: *rather not*)
+- **I'd rather watch** a film tonight.
+- **She'd rather not go** out. (negative: *rather not*)
 
 > ⚠️ Typical error: ~~I'd rather to stay here.~~ → No *to* after *would rather*: *I'd rather stay here.*
 
 ### 2. Comparing two actions with *than*
 
-- I**'d rather walk than** take the bus.
-- We**'d rather eat** at home **than** go to a restaurant.
+- **I'd rather walk than** take the bus.
+- **We'd rather eat** at home **than** go to a restaurant.
 
 > ⚠️ Typical error: ~~I'd rather walk that take the bus.~~ → The comparison word is *than*.
 
@@ -70,18 +70,18 @@ Both talk about what we want in a **specific** situation (now or soon). In speec
 
 ### 1. *To* + base verb, or a noun
 
-- I**'d prefer to sit** by the window.
+- **I'd prefer to sit** by the window.
 - **Would** you **prefer** coffee or tea?
 
 > ⚠️ Typical error: ~~I'd prefer sit by the window.~~ → *Prefer* needs *to*: *I'd prefer to sit…*
 
 ### 2. Negative
 
-- I**'d prefer not to** talk about it. (*not* before *to*)
+- **I'd prefer not to** talk about it. (*not* before *to*)
 
 ### 3. Comparing with *rather than*
 
-- I**'d prefer to stay** in **rather than** go out.
+- **I'd prefer to stay** in **rather than** go out.
 
 ## *Would rather* + another person
 
@@ -101,7 +101,7 @@ With *would prefer* + person, use **object + to**: I'd prefer **you to stay**.
 | | Meaning | Example |
 |---|---|---|
 | **prefer** | general preference | I **prefer** tea **to** coffee. (always) |
-| **would prefer** | specific moment | I**'d prefer** tea now, please. |
+| **would prefer** | specific moment | **I'd prefer** tea now, please. |
 
 ## Common mistakes
 
