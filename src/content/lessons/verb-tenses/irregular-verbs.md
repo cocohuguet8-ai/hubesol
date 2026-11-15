@@ -112,7 +112,7 @@ Use the second form alone, without *did* or *have*.
 
 Use the third form after *have, has* and *had*.
 
-- I**’ve never eaten** sushi.
+- **I’ve never eaten** sushi.
 - They **had** already **left**.
 
 ### 3. Past participle: the passive
