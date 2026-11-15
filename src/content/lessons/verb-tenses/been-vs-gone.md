@@ -38,7 +38,7 @@ Both *been* and *gone* are past participles of the verb *go* when we talk about 
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + have/has + been/gone (to) | She**’s been** to Paris. / He**’s gone** to work. |
+| Affirmative | subject + have/has + been/gone (to) | **She’s been** to Paris. / **He’s gone** to work. |
 | Negative | subject + haven’t/hasn’t + been (to) | I **haven’t been** to the gym this week. |
 | Question | Have/Has + subject + been (to)? | **Have** you ever **been** to Japan? |
 
