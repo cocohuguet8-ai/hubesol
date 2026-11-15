@@ -39,7 +39,7 @@ draft: false
 |---|---|---|
 | Use | habits, facts, permanent things | now, temporary things, arrangements |
 | Signal words | always, usually, every day, on Mondays | now, at the moment, today, this week |
-| Example | She **works** in a bank. | She**’s working** late today. |
+| Example | She **works** in a bank. | **She’s working** late today. |
 | State verbs | yes — I **know** | no — ~~I’m knowing~~ |
 
 The key question: is it **generally true**, or is it **happening around now?** General truths and habits take the present simple; actions in progress take the present continuous.
@@ -49,7 +49,7 @@ The key question: is it **generally true**, or is it **happening around now?** G
 | Form | Present Simple | Present Continuous |
 |---|---|---|
 | Affirmative | subject + base verb (+ **-s** with he/she/it) | subject + am/is/are + verb-ing |
-| | He **plays** tennis. | He**’s playing** tennis. |
+| | He **plays** tennis. | **He’s playing** tennis. |
 | Negative | subject + don’t/doesn’t + base verb | subject + am/is/are not + verb-ing |
 | | She **doesn’t eat** meat. | She **isn’t eating**. |
 | Question | Do/Does + subject + base verb? | Am/Is/Are + subject + verb-ing? |
@@ -91,9 +91,9 @@ True for a period around now, but not permanent.
 | Sentence | Meaning |
 |---|---|
 | I **live** in Barcelona. | It’s my home. |
-| I**’m living** in Barcelona this year. | Temporary — I’ll move later. |
+| **I’m living** in Barcelona this year. | Temporary — I’ll move later. |
 | He **works** from home. | Always. |
-| He**’s working** from home this week. | Only this week. |
+| **He’s working** from home this week. | Only this week. |
 
 ## State verbs
 
