@@ -39,7 +39,7 @@ The present continuous can point to the future when there is a **fixed arrangeme
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + am/is/are + verb-**ing** + future time | I**’m seeing** the dentist **tomorrow**. |
+| Affirmative | subject + am/is/are + verb-**ing** + future time | **I’m seeing** the dentist **tomorrow**. |
 | Negative | subject + am/is/are not + verb-ing | We **aren’t going** out tonight. |
 | Question | Am/Is/Are + subject + verb-ing? | **Are** you **doing** anything on Saturday? |
 
@@ -63,15 +63,15 @@ The form is the same as the present continuous for now. The **time word** (*toni
 
 You have agreed a time and place with someone.
 
-- I**’m having** dinner with Ana tonight.
+- **I’m having** dinner with Ana tonight.
 - **They’re getting** married in June.
 
 ### 2. Things you have booked or organised
 
 There is a ticket, an appointment or a booking.
 
-- We**’re flying** to Rome on Friday.
-- She**’s starting** her new job on Monday.
+- **We’re flying** to Rome on Friday.
+- **She’s starting** her new job on Monday.
 
 > ⚠️ Typical error: ✗ ~~I meet Sara at six tonight.~~ → ✓ **I’m meeting Sara at six tonight.** (A personal arrangement.)
 
@@ -83,8 +83,8 @@ There is a ticket, an appointment or a booking.
 
 | Form | Meaning | Example |
 |---|---|---|
-| present continuous | a fixed arrangement (time, place, people) | We**’re meeting** at six. |
-| going to | an intention — decided, but maybe not arranged | We**’re going to meet** sometime soon. |
+| present continuous | a fixed arrangement (time, place, people) | **We’re meeting** at six. |
+| going to | an intention — decided, but maybe not arranged | **We’re going to meet** sometime soon. |
 | will | a decision made now | OK, **I’ll meet** you at six. |
 | present simple | a timetable | The train **leaves** at 6.15. |
 
