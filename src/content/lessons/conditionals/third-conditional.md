@@ -43,9 +43,9 @@ The third conditional is about the **past**. It imagines a different past and it
 
 | Form | Example |
 |---|---|
-| Affirmative | If we**'d left** earlier, we**'d have caught** the train. |
+| Affirmative | If **we'd left** earlier, **we'd have caught** the train. |
 | Negative | If it **hadn't rained**, we **wouldn't have cancelled** the match. |
-| Question | What **would** you **have done** if you**'d missed** the flight? |
+| Question | What **would** you **have done** if **you'd missed** the flight? |
 | Result first | I'd have called you **if I'd had** your number. |
 
 ## Contractions: *'d* = *had* or *would*
@@ -54,8 +54,8 @@ In the third conditional, *'d* appears in both clauses with different meanings.
 
 | Clause | *'d* means | Example |
 |---|---|---|
-| If-clause | **had** | If I**'d known** … (= had known) |
-| Main clause | **would** | … I**'d have helped**. (= would have helped) |
+| If-clause | **had** | If **I'd known** … (= had known) |
+| Main clause | **would** | … **I'd have helped**. (= would have helped) |
 
 In speech, *would have* often sounds like **"would've"** /ˈwʊdəv/. Never write ~~would of~~.
 
