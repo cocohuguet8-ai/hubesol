@@ -1,0 +1,212 @@
+# LR auto-fix: when Learner Review (acting as cocohuguet8-ai) opens or labels an issue with
+# `lr-auto`, Claude fixes it on branch lr/issue-<n>. All checks run HERE, before the PR exists,
+# because PRs/pushes made with GITHUB_TOKEN do not trigger other workflows (validate.yml won't run).
+# If everything is green, the PR is opened and the commit gets status `lr-gate` = success;
+# lr-merge.yml (workflow_run) then decides whether to merge. See docs/LR-AUTOFIX.md.
+name: LR auto-fix
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  statuses: write
+
+concurrency:
+  # opened+labeled can both fire for one issue: serialize per issue; the 2nd run skips itself.
+  group: lr-fix-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+env:
+  OWNER_LOGIN: cocohuguet8-ai
+  MAX_FILES: "6"
+  ISSUE: ${{ github.event.issue.number }}
+  BRANCH: lr/issue-${{ github.event.issue.number }}
+  GH_TOKEN: ${{ github.token }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+jobs:
+  fix:
+    if: >-
+      github.event.issue.user.login == 'cocohuguet8-ai' &&
+      github.event.sender.login == 'cocohuguet8-ai' &&
+      github.event.issue.state == 'open' &&
+      github.event.issue.pull_request == null &&
+      ((github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'lr-auto')) ||
+       (github.event.action == 'labeled' && github.event.label.name == 'lr-auto'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Should this run? (labels read live, not from the event)
+        id: pre
+        run: |
+          labels=$(gh issue view "$ISSUE" -R "$GITHUB_REPOSITORY" --json labels,state -q '[.state] + [.labels[].name] | join(",")')
+          echo "live: $labels"
+          skip=""
+          case ",$labels," in *",lr-needs-coco,"*|*",lr-fixed,"*) skip="issue already has lr-needs-coco or lr-fixed";; esac
+          case ",$labels," in *",lr-auto,"*) ;; *) skip="lr-auto label no longer present";; esac
+          [ "${labels%%,*}" = "OPEN" ] || skip="issue is closed"
+          open_pr=$(gh pr list -R "$GITHUB_REPOSITORY" --head "$BRANCH" --state open --json number -q '.[0].number')
+          [ -n "$open_pr" ] && skip="PR #$open_pr already open for this issue"
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+          [ -n "$skip" ] && echo "::notice::Skipping: $skip" || true
+
+      - uses: actions/checkout@v4
+        if: steps.pre.outputs.skip == ''
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        if: steps.pre.outputs.skip == ''
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.pre.outputs.skip == ''
+        id: base
+        run: |
+          npm ci --no-audit --no-fund
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          mkdir -p "$RUNNER_TEMP/lr"
+
+      - name: Claude fixes the issue (files only, no git)
+        if: steps.pre.outputs.skip == ''
+        id: claude
+        continue-on-error: true
+        timeout-minutes: 30
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          claude_args: >-
+            --max-turns 25
+            --permission-mode default
+            --allowedTools "Read,Edit,MultiEdit,Write,Glob,Grep,Bash(npm run validate),Bash(npm run lint),Bash(npm run build),Bash(python3 claude/skills/audit_semantic.py:*),Bash(git diff:*),Bash(git status)"
+            --disallowedTools "WebFetch,WebSearch"
+          prompt: |
+            You are fixing ONE problem on the HubESOL English-learning site (Astro 4, repo root = current dir).
+            Learner Review reported it in GitHub issue #${{ github.event.issue.number }}.
+
+            ISSUE TITLE: ${{ github.event.issue.title }}
+            ISSUE BODY:
+            ${{ github.event.issue.body }}
+
+            RULES (a script enforces them after you finish; breaking any = the fix is thrown away):
+            - You may ONLY change these paths:
+                src/content/lessons/<hub>/<slug>.md
+                src/data/practice/*.json
+                src/data/quizzes/*.json
+                src/components/** (.astro/.js/.mjs/.ts/.css only; shared pieces such as the quiz)
+              Never touch .github/, package.json, lockfiles, astro.config.mjs, tsconfig.json, scripts/, claude/, public/, docs/ or anything else.
+              Do not create new files there and do not delete files.
+            - At most ${{ env.MAX_FILES }} files. Make the smallest change that fixes exactly what the issue describes. No refactors, no unrelated improvements.
+            - Keep the existing JSON schemas and the conventions of the other lessons. Use typographic apostrophes (’) as the existing content does.
+            - Before finishing run, and make pass: `npm run validate`, `npm run lint`, `npm run build`,
+              and `python3 claude/skills/audit_semantic.py . <slug>` for every lesson slug you touched (must end with "Lliçons amb troballes: 0").
+              If you edit a component, run `python3 claude/skills/audit_semantic.py .` (all lessons).
+            - Do NOT run git commit/push, do not create branches or PRs: the workflow does that.
+            - Finally, write a short note to the file `lr-note.md` in the repo root (it is NOT committed):
+              first line exactly `STATUS: fixed` or `STATUS: cannot-fix`, then 2-6 lines in Catalan explaining what you changed (or why you could not fix it safely).
+            - If the issue is unclear, needs a decision from a human, or the fix would need a file outside the allowed paths, make NO code changes and write `STATUS: cannot-fix` with the reason.
+
+      - name: Guard - collect and check the changed files
+        if: steps.pre.outputs.skip == ''
+        id: guard
+        run: |
+          set -u
+          R="$RUNNER_TEMP/lr"; : > "$R/reason"
+          if [ -f lr-note.md ]; then mv lr-note.md "$R/note.md"; else echo "(Claude no ha deixat nota)" > "$R/note.md"; fi
+          if [ "${{ steps.claude.outcome }}" != "success" ]; then
+            echo "Claude ha fallat o s'ha aturat (sense token, límit de torns o error). Mira el registre de l'execució." > "$R/reason"; exit 0
+          fi
+          git add -A
+          git diff --cached --name-status "${{ steps.base.outputs.sha }}" > "$R/status.txt"
+          cat "$R/status.txt"
+          n=$(wc -l < "$R/status.txt")
+          if [ "$n" -eq 0 ]; then
+            if head -1 "$R/note.md" | grep -q 'STATUS: cannot-fix'; then echo "Claude diu que no ho pot arreglar sol." > "$R/reason"
+            else echo "Claude no ha fet cap canvi." > "$R/reason"; fi
+            exit 0
+          fi
+          [ "$n" -le "$MAX_FILES" ] || { echo "Massa fitxers canviats ($n > $MAX_FILES)." > "$R/reason"; exit 0; }
+          ok='^(src/content/lessons/[A-Za-z0-9_-]+/[A-Za-z0-9_.-]+\.md|src/data/practice/[A-Za-z0-9_.-]+\.json|src/data/quizzes/[A-Za-z0-9_.-]+\.json|src/components/[A-Za-z0-9_/.-]+\.(astro|js|mjs|ts|css))$'
+          while IFS=$'\t' read -r st path rest; do
+            [ "$st" = "M" ] || { echo "Canvi no permès ($st) a $path: només es poden modificar fitxers existents." > "$R/reason"; exit 0; }
+            case "$path" in *..*) echo "Ruta no permesa: $path" > "$R/reason"; exit 0;; esac
+            echo "$path" | grep -Eq "$ok" || { echo "Fitxer fora de les rutes permeses: $path" > "$R/reason"; exit 0; }
+          done < "$R/status.txt"
+          cut -f2 "$R/status.txt" > "$R/files.txt"
+          echo "ok=true" >> "$GITHUB_OUTPUT"
+
+      - name: Checks - validate, lint, build, semantic audit, broken links, e2e
+        if: steps.guard.outputs.ok == 'true'
+        id: checks
+        run: |
+          R="$RUNNER_TEMP/lr"
+          fail() { echo "$1" > "$R/reason"; exit 1; }
+          npm run validate || fail "npm run validate ha fallat."
+          npm run lint     || fail "npm run lint ha fallat."
+          npm run build    || fail "npm run build ha fallat."
+          python3 claude/skills/audit_semantic.py . | tee "$R/audit.txt"
+          grep -q '^Lliçons amb troballes: 0$' "$R/audit.txt" || fail "L'auditoria semàntica (audit_semantic.py) té troballes."
+          curl -sSfL -o "$R/lychee.tgz" https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-unknown-linux-gnu.tar.gz
+          echo "1f4e0ef7f6554a6ed33dd7ac144fb2e1bbed98598e7af973042fc5cd43951c9a  $R/lychee.tgz" | sha256sum -c - || fail "No s'ha pogut verificar lychee."
+          tar -xzf "$R/lychee.tgz" -C "$R"
+          LY=$(find "$R" -type f -name lychee | head -1)
+          "$LY" --offline --no-progress --root-dir "$PWD/dist" 'dist/**/*.html' || fail "Hi ha enllaços interns trencats (lychee)."
+          npx playwright install --with-deps chromium
+          npm run e2e || fail "Les proves e2e (Playwright) han fallat."
+
+      - name: Push branch, open PR, mark lr-gate green
+        if: steps.checks.outcome == 'success'
+        id: pr
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          R="$RUNNER_TEMP/lr"
+          fail() { echo "$1" > "$R/reason"; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git reset -q
+          xargs -a "$R/files.txt" -d '\n' git add --
+          git commit -q -m "LR fix #$ISSUE: $ISSUE_TITLE" -m "Fixes #$ISSUE"
+          git push -f origin "$BRANCH" || fail "No s'ha pogut pujar la branca $BRANCH."
+          head_sha=$(git rev-parse HEAD)
+          {
+            echo "Fixes #$ISSUE"; echo
+            echo "Arreglat automàticament per Claude a partir de l'encàrrec de Learner Review."; echo
+            echo "### Nota de Claude"; sed -n '2,20p' "$R/note.md"; echo
+            echo "### Fitxers"; sed 's/^/- `/; s/$/`/' "$R/files.txt"; echo
+            echo "### Comprovacions (totes en verd abans d'obrir aquest PR)"
+            echo "validate · lint · build · audit_semantic (0 troballes) · lychee (enllaços interns) · e2e"; echo
+            echo "Execució: $RUN_URL"
+          } > "$R/body.md"
+          url=$(gh pr create -R "$GITHUB_REPOSITORY" --base main --head "$BRANCH" \
+                --title "LR #$ISSUE: $ISSUE_TITLE" --body-file "$R/body.md" --label lr-auto) \
+            || fail "No s'ha pogut obrir el PR (cal activar «Allow GitHub Actions to create and approve pull requests» a Settings → Actions)."
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$head_sha" \
+            -f state=success -f context=lr-gate -f description="validate, lint, build, audit, links, e2e green" \
+            -f target_url="$RUN_URL" >/dev/null
+          gh issue comment "$ISSUE" -R "$GITHUB_REPOSITORY" --body "🤖 Claude ha preparat l'arreglament i totes les proves han passat: $url. Es publicarà sol si no s'ha arribat al límit diari."
+
+      - name: Stop and hand over to Coco (lr-needs-coco)
+        if: always() && steps.pre.outputs.skip == '' && steps.pr.outcome != 'success'
+        run: |
+          R="$RUNNER_TEMP/lr"
+          reason=$(cat "$R/reason" 2>/dev/null); [ -n "$reason" ] || reason="Error inesperat al flux automàtic."
+          {
+            echo "🤖 **Aturat: cal la Coco.**"; echo
+            echo "**Motiu:** $reason"; echo
+            if [ -f "$R/note.md" ]; then echo "**Nota de Claude:**"; sed -n '1,20p' "$R/note.md" | sed 's/^/> /'; echo; fi
+            if [ -s "$R/status.txt" ]; then echo "**Canvis proposats (no publicats):**"; sed 's/^/- /' "$R/status.txt"; echo; fi
+            echo "Execució: $RUN_URL"
+          } > "$R/comment.md"
+          gh issue comment "$ISSUE" -R "$GITHUB_REPOSITORY" --body-file "$R/comment.md"
+          gh issue edit "$ISSUE" -R "$GITHUB_REPOSITORY" --add-label lr-needs-coco
