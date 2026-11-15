@@ -106,7 +106,7 @@ In conversation, *if* is almost always better. Inversion can sound old-fashioned
 
 Inversion also works in mixed conditionals:
 
-- **Had** I **taken** the job, I**'d be** living in Paris now.
+- **Had** I **taken** the job, **I'd be** living in Paris now.
 
 See [Mixed Conditionals](/grammar/conditionals/mixed-conditionals/).
 
