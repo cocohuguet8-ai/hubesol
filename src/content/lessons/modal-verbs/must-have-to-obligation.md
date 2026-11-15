@@ -40,7 +40,7 @@ draft: false
 | Negative | I **mustn't** go. (= it's forbidden) | I **don't have to** go. (= it isn't necessary) |
 | Question | **Must** I go? (rare) | **Do** I **have to** go? |
 | Past | — | I **had to** go. |
-| Future | — | I**'ll have to** go. |
+| Future | — | **I'll have to** go. |
 
 *Must* is a modal: no *-s*, no *to*, no *do*. *Have to* is a normal verb: it changes for *he/she/it* (**has to**) and uses *do/does/did* in questions and negatives.
 
@@ -80,8 +80,8 @@ Rules, laws or other people make it necessary.
 | Tense | Example |
 |---|---|
 | past | We **had to** wait an hour for the bus. |
-| future | You**'ll have to** show your passport. |
-| present perfect | I**'ve had to** cancel the trip. |
+| future | **You'll have to** show your passport. |
+| present perfect | **I've had to** cancel the trip. |
 | after a modal | You **might have to** pay extra. |
 
 > ⚠️ Typical error: ~~Yesterday I must stay at home.~~ → Past obligation: *Yesterday I had to stay at home.*
@@ -109,7 +109,7 @@ See [Can't vs Mustn't](/grammar/modal-verbs/cant-vs-mustnt/).
 
 In informal British English, *have got to* = *have to* (present only).
 
-- I**'ve got to** go now. See you!
+- **I've got to** go now. See you!
 
 ## Common mistakes
 
