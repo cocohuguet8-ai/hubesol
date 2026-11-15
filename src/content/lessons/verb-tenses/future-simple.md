@@ -34,7 +34,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + will (**’ll**) + base verb | She **will call** later. / I**’ll help**. |
+| Affirmative | subject + will (**’ll**) + base verb | She **will call** later. / **I’ll help**. |
 | Negative | subject + won’t + base verb | They **won’t come**. |
 | Question | Will + subject + base verb? | **Will** you **help** me? |
 
@@ -96,7 +96,7 @@ With *I* and *we*, use **Shall** in questions to offer help or make a suggestion
 | deciding now | will | I’m thirsty. — **I’ll get** you a drink. |
 | a plan made before now | going to | **I’m going to visit** my aunt on Sunday. |
 | prediction from what you can see now | going to | Look at the sky! **It’s going to rain.** |
-| opinion about the future | will | **I think** you**’ll** like her. |
+| opinion about the future | will | **I think** **you’ll** like her. |
 
 More in [Will vs Going to](/grammar/verb-tenses/will-vs-going-to/).
 
