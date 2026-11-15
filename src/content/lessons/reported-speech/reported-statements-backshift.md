@@ -69,13 +69,13 @@ The **past perfect** doesn't change: "I **had** left." → She said she **had le
 ### 2. Past actions → past perfect
 
 - "I **lost** my keys." → She said she **had lost** her keys.
-- "We**'ve been** to Rome." → They said they **had been** to Rome.
+- "**We've been** to Rome." → They said they **had been** to Rome.
 
 > ⚠️ Typical error: ~~She said she has lost her keys.~~ → *had lost.*
 
 ### 3. Future and modals
 
-- "I**'ll call** you." → He said he **would call** me.
+- "**I'll call** you." → He said he **would call** me.
 - "You **can** stay." → She said I **could** stay.
 
 > ⚠️ Typical error: ~~He said he will call me.~~ → After *said*: *would call.*
