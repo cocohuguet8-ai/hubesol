@@ -40,9 +40,9 @@ These four adverbs are very common with the present perfect (have/has + past par
 
 | Adverb | Meaning | Sentence type | Position | Example |
 |---|---|---|---|---|
-| already | sooner than expected | positive (and surprised questions) | between have and the participle | I**’ve already finished**. |
+| already | sooner than expected | positive (and surprised questions) | between have and the participle | **I’ve already finished**. |
 | yet | up to now | negative and question | end of the sentence | Have you finished **yet**? |
-| just | a very short time ago | positive | between have and the participle | She**’s just left**. |
+| just | a very short time ago | positive | between have and the participle | **She’s just left**. |
 | still | it hasn’t changed | negative (and other tenses) | before haven’t/hasn’t | I **still haven’t heard**. |
 
 **Short answers:** *Have you done it yet? — Yes, I’ve already done it. / No, not yet.*
@@ -53,8 +53,8 @@ These four adverbs are very common with the present perfect (have/has + past par
 
 The action is finished, maybe earlier than you thought.
 
-- We**’ve already seen** this film.
-- He**’s already gone** home.
+- **We’ve already seen** this film.
+- **He’s already gone** home.
 
 ### 2. yet — up to now (negatives and questions)
 
@@ -70,7 +70,7 @@ We expect the action to happen, but it hasn’t happened so far.
 The action happened very recently.
 
 - The train **has just left**.
-- I**’ve just finished** lunch.
+- **I’ve just finished** lunch.
 
 ### 4. still — it continues
 
