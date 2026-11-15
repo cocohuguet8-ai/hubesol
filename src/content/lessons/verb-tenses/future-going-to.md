@@ -37,7 +37,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + am/is/are + going to + base verb | She**’s going to travel**. |
+| Affirmative | subject + am/is/are + going to + base verb | **She’s going to travel**. |
 | Negative | subject + am/is/are + not + going to + base verb | They **aren’t going to come**. |
 | Question | Am/Is/Are + subject + going to + base verb? | **Are** you **going to study**? |
 
@@ -73,7 +73,7 @@ You can see the future in what is happening now.
 
 ### 3. Things that are about to happen
 
-- Hurry up! The film**’s going to start**.
+- Hurry up! The **film’s going to start**.
 
 > ⚠️ Typical error: ✗ ~~The phone’s ringing. I’m going to answer it.~~ (deciding now) → ✓ **I’ll answer it.**
 
@@ -93,7 +93,7 @@ You can see the future in what is happening now.
 | plan made before now | going to | **I’m going to buy** a bike — I’ve saved the money. |
 | decision made now | will | That bike’s on sale! **I’ll buy** it. |
 | prediction from evidence | going to | She’s running too fast — **she’s going to fall**. |
-| prediction from opinion | will | **I think** she**’ll win**. |
+| prediction from opinion | will | **I think** **she’ll win**. |
 
 More in [Will vs Going to](/grammar/verb-tenses/will-vs-going-to/).
 
