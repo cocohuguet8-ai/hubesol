@@ -34,8 +34,8 @@ draft: false
 
 | | If-clause | Result clause | Example |
 |---|---|---|---|
-| First conditional | if + present simple | will / won't + base verb | **If it rains**, we**'ll stay** in. |
-| Second conditional | if + past simple | would / wouldn't + base verb | **If it rained**, we**'d stay** in. |
+| First conditional | if + present simple | will / won't + base verb | **If it rains**, **we'll stay** in. |
+| Second conditional | if + past simple | would / wouldn't + base verb | **If it rained**, **we'd stay** in. |
 
 The grammar changes, but the big difference is **how real** the speaker thinks the situation is. Same comma rule for both: comma after the if-clause when it comes first.
 
@@ -43,27 +43,27 @@ The grammar changes, but the big difference is **how real** the speaker thinks t
 
 | Speaker thinks… | Use | Example |
 |---|---|---|
-| It's real or quite possible | **First** | If I **pass** my exams, I**'ll celebrate**. |
-| It's imaginary, unlikely or impossible | **Second** | If I **became** a millionaire, I**'d retire**. |
+| It's real or quite possible | **First** | If I **pass** my exams, **I'll celebrate**. |
+| It's imaginary, unlikely or impossible | **Second** | If I **became** a millionaire, **I'd retire**. |
 
 The **same** situation can take either conditional. It depends on the speaker.
 
-- **If I see** Laura tomorrow, I**'ll tell** her. (I'll probably see her.)
-- **If I saw** Laura tomorrow, I**'d tell** her. (I don't think I'll see her.)
+- **If I see** Laura tomorrow, **I'll tell** her. (I'll probably see her.)
+- **If I saw** Laura tomorrow, **I'd tell** her. (I don't think I'll see her.)
 
 ## When to use the first conditional
 
 ### 1. Real future possibilities
 
-- **If the train is** on time, I**'ll be** home at six.
-- **If you finish** early, we**'ll go** for a coffee.
+- **If the train is** on time, **I'll be** home at six.
+- **If you finish** early, **we'll go** for a coffee.
 
 > ⚠️ Typical error: ~~If the train will be on time, I'll be home at six.~~ → No *will* after *if*: *If the train is on time…*
 
 ### 2. Warnings, promises and offers
 
-- **If you're** late again, you**'ll lose** your place.
-- **If you help** me, I**'ll help** you.
+- **If you're** late again, **you'll lose** your place.
+- **If you help** me, **I'll help** you.
 
 > ⚠️ Typical error: ~~If you help me, I would help you.~~ (a real promise) → A real promise takes *will*: *I'll help you.*
 
@@ -73,14 +73,14 @@ The **same** situation can take either conditional. It depends on the speaker.
 
 The situation is not true now.
 
-- **If I had** a car, I**'d drive** to work. (I don't have one.)
-- **If she lived** here, she**'d know** the area. (She doesn't.)
+- **If I had** a car, **I'd drive** to work. (I don't have one.)
+- **If she lived** here, **she'd know** the area. (She doesn't.)
 
 > ⚠️ Typical error: ~~If I have a car, I'd drive to work.~~ → An imaginary present needs the past: *If I had a car…*
 
 ### 2. Unlikely or impossible futures
 
-- **If I won** the lottery, I**'d buy** an island.
+- **If I won** the lottery, **I'd buy** an island.
 - **If dinosaurs came** back, the world **would change**.
 
 > ⚠️ Typical error: ~~If I win the lottery, I'll buy an island.~~ → Grammatically possible, but it sounds like you really expect to win. For a dream, use the second conditional.
@@ -88,7 +88,7 @@ The situation is not true now.
 ### 3. Polite requests and advice
 
 - **Would** you mind **if I opened** the window?
-- **If I were** you, I**'d say** yes.
+- **If I were** you, **I'd say** yes.
 
 ## Signals that help you choose
 
