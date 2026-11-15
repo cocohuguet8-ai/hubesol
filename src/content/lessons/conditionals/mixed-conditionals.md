@@ -9,7 +9,7 @@ answerLead: "Mixed conditionals combine two different times in one sentence. The
 answerPoints:
   - "Past condition → present result — If I had studied, I'd have a better job now."
   - "Present condition → past result — If I were braver, I would have said something."
-answerNote: "Match each half to its own time: past perfect for a past condition, 'would' + base verb for a present result (and the reverse for the other type)."
+answerNote: "Match each half to its own time. Past condition → present result: if + past perfect, would + base verb. Present condition → past result: if + past simple, would have + past participle."
 quiz: "mixed-conditionals-quiz-1"
 faq:
   - q: "What is a mixed conditional?"
