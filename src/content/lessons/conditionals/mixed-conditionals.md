@@ -38,8 +38,8 @@ A mixed conditional joins the **if-clause of one conditional** with the **result
 
 | Type | If-clause | Result clause | Example |
 |---|---|---|---|
-| Past → present | if + had + past participle (third) | would + base verb (second) | **If I had taken** the job, I**'d be** rich now. |
-| Present → past | if + past simple (second) | would have + past participle (third) | **If I spoke** Chinese, I**'d have got** the job. |
+| Past → present | if + had + past participle (third) | would + base verb (second) | **If I had taken** the job, **I'd be** rich now. |
+| Present → past | if + past simple (second) | would have + past participle (third) | **If I spoke** Chinese, **I'd have got** the job. |
 
 Comma rule: comma after the if-clause when it comes first.
 
@@ -48,8 +48,8 @@ Comma rule: comma after the if-clause when it comes first.
 Something different in the **past** would change the **present**.
 
 - **If I had gone** to bed earlier, I **wouldn't be** so tired now.
-- **If she hadn't missed** the flight, she**'d be** in Paris today.
-- **If we had bought** that house, we**'d live** by the sea.
+- **If she hadn't missed** the flight, **she'd be** in Paris today.
+- **If we had bought** that house, **we'd live** by the sea.
 
 > ⚠️ Typical error: ~~If I had gone to bed earlier, I wouldn't have been so tired now.~~ → *Now* is the present: *I wouldn't be so tired now.*
 
@@ -58,8 +58,8 @@ Something different in the **past** would change the **present**.
 Something that is **always** or **generally** true now explains a **past** result.
 
 - **If I were** more organised, I **wouldn't have forgotten** your birthday.
-- **If he didn't** live so far away, he**'d have come** to the party.
-- **If she spoke** better English, she**'d have passed** the interview.
+- **If he didn't** live so far away, **he'd have come** to the party.
+- **If she spoke** better English, **she'd have passed** the interview.
 
 > ⚠️ Typical error: ~~If I had been more organised, I wouldn't have forgotten your birthday.~~ → Possible, but it means you were disorganised only that day. If it's your character, use *If I were more organised…*
 
@@ -72,7 +72,7 @@ Look for **time clues** in each clause separately.
 | If-clause | *last year, yesterday, when I was a child* | *always, in general, these days*, a permanent fact |
 | Result | *yesterday, last night, then* | *now, today, still* |
 
-- If I **hadn't broken** my leg **last month**, I**'d play** in the final **today**. (past → present)
+- If I **hadn't broken** my leg **last month**, **I'd play** in the final **today**. (past → present)
 
 ## Negatives
 
@@ -80,8 +80,8 @@ Both types are often negative, because we imagine the opposite of reality.
 
 | Reality | Mixed conditional |
 |---|---|
-| I didn't study medicine. I'm not a doctor. | If I **had studied** medicine, I**'d be** a doctor. |
-| I'm afraid of flying. I didn't go to Japan. | If I **weren't** afraid of flying, I**'d have gone** to Japan. |
+| I didn't study medicine. I'm not a doctor. | If I **had studied** medicine, **I'd be** a doctor. |
+| I'm afraid of flying. I didn't go to Japan. | If I **weren't** afraid of flying, **I'd have gone** to Japan. |
 
 ## *Could* and *might*
 
