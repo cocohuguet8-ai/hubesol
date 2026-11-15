@@ -1417,14 +1417,14 @@
           "will falls",
           "fell",
           "will fall",
-          "falling"
+          "has fallen"
         ],
         "correct": 2,
         "wrongReasons": [
           "Will never adds -s — ‘will fall’, not ‘will falls’.",
           "Wrong tense: ‘soon’ is the future — ‘fell’ is past.",
           "",
-          "An -ing form like ‘falling’ can’t be the verb on its own — here you need ‘will fall’."
+          "The present perfect describes a finished result, but ‘soon’ points to the future."
         ],
         "explain": "Will never adds -s — ‘the baby will fall’, not ‘will falls’."
       },
@@ -1476,14 +1476,14 @@
           "will give",
           "give",
           "gave",
-          "giving"
+          "have given"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Missing will: a promise about tomorrow needs will.",
           "Wrong tense: ‘tomorrow’ is the future — ‘gave’ is past.",
-          "An -ing form like ‘giving’ can’t be the verb on its own — here you need ‘will give’."
+          "The present perfect describes something already done, but ‘tomorrow’ points to the future."
         ],
         "explain": "A promise about the future."
       },

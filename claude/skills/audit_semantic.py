@@ -5,13 +5,14 @@ import json,glob,os,re,sys,collections
 R=sys.argv[1]; ONLY=set(sys.argv[2:])
 FUNC={'a','an','the','in','on','at','by','for','since','during','while','until','to','of','with','from','into','about','some','any','much','many','one','than','as','too','enough','few','little','all','both','each','every','no','who','which','that','whose','when','where','because','if','so','but','and','or','before','after','already','yet','just','still','ever','never','always','usually','often','not'}
 CONTR=[('have','’ve'),('has','’s'),('had','’d'),('is','’s'),('are','’re'),('am','’m'),('will','’ll'),('would','’d'),('not','n’t')]
-NOTVERB={'during','morning','evening','something','anything','nothing','everything','thing','king','spring','ring','wedding','building','meeting','feeling','shopping','cooking','swimming','running','reading','painting','clothing'}
+NOTVERB={'bring','sing','swing','sting','wing','string','cling','fling','sling','during','morning','evening','something','anything','nothing','everything','thing','king','spring','ring','wedding','building','meeting','feeling','shopping','cooking','swimming','running','reading','painting','clothing'}
 EMB={'ask','asks','asked','know','knew','knows','wonder','wondered','wonders','say','said','tell','told','see','saw','remember','remembered','explain','explained','understand','understood','decide','decided','forget','forgot'}
-PROP={'I','TV','Mum','Dad','Anna','Ben','Tom','Sam','Maria','Paul','Lucy','Girona','English','Spanish','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','June','July','London','Paris','Lisbon','Rome','Barcelona','Christmas'}
+PROP={'January','February','March','April','May','August','September','October','November','December','I','TV','Mum','Dad','Anna','Ben','Tom','Sam','Maria','Paul','Lucy','Girona','English','Spanish','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','June','July','London','Paris','Lisbon','Rome','Barcelona','Christmas'}
 P=collections.defaultdict(list)   # slug -> [(classe, detall)]
 def add(s,c,d): P[s].append((c,d))
 def norm(x): return re.sub(r'[’\']',"'",x.lower()).strip()
 def check_alts(s,where,tokens,alts):
+    CANON={w.strip('.,?!') for w in tokens[1:] if w[0].isupper()}
     end=tokens[-1][-1] if tokens[-1][-1] in '.?!' else None
     if end is None: add(s,'ordre: frase sense signe final',f'{where} {tokens}')
     sub=re.compile(r'^(when|because|before|after|until|while|if|by|as|once|since|although)$',re.I)
@@ -21,7 +22,7 @@ def check_alts(s,where,tokens,alts):
         if a[-1][-1] not in '.?!': add(s,'ordre: alternativa sense signe final',f'{where} {" ".join(a)}')
         if a[0][0].isupper() and a[0].strip('.,?!') not in PROP and not a[0].startswith('I’'): add(s,'ordre: alternativa començada amb majúscula',f'{where} {" ".join(a)}')
         for w in a[1:]:
-            if w[0].isupper() and w.strip('.,?!') not in PROP and not w.startswith('I’') : add(s,'ordre: majúscula a mig frase a una alternativa',f'{where} {" ".join(a)}'); break
+            if w[0].isupper() and w.strip('.,?!') not in PROP and w.strip('.,?!') not in CANON and not w.startswith('I’') : add(s,'ordre: majúscula a mig frase a una alternativa',f'{where} {" ".join(a)}'); break
     # clàusula subordinada sense alternativa permutada
     q0=tokens[0].lower(); stmt=end=='.' and q0 not in ('who','what','when','where','why','how','which','do','does','did','is','are','was','were','have','has','had','can','could','will','would','should')
     has_clause=stmt and ((q0 in ('when','because','before','after','until','while','by') and any(w.endswith(',') for w in tokens[:-1])) or (q0 not in ('when','because','before','after','until','while','by') and any(2<=i<=len(tokens)-3 and w.lower() in ('when','because','before','after','until','while') for i,w in enumerate(tokens) if not (set(x.lower() for x in tokens[:i]) & EMB))))
@@ -34,7 +35,7 @@ def check_mc(s,where,choices,correct,wr,text):
     if len(set(norm(c) for c in choices))!=len(choices): add(s,'opcions duplicades',f'{where} {choices}')
     if not (0<=correct<len(choices)): add(s,'índex correcte fora de rang',where)
     for c in choices:
-        if ' ' in choices[correct] and re.fullmatch(r'[a-z]+ing',c.strip()) and c.strip() not in NOTVERB: add(s,'distractor impossible (-ing sol)',f'{where} {c!r}')
+        if ' ' in choices[correct] and not any(x.strip().startswith('to ') or re.fullmatch(r'[a-z]+ing',choices[correct].strip()) for x in choices) and re.fullmatch(r'[a-z]+ing',c.strip()) and c.strip() not in NOTVERB: add(s,'distractor impossible (-ing sol)',f'{where} {c!r}')
         if re.search(r'\b(are|is|do|does|did|was|were)\s+(you|he|she|they|we|it|I)\s+been\b',c,re.I): add(s,'distractor impossible',f'{where} {c!r}')
     wl=list(wr.values()) if isinstance(wr,dict) else (wr or [])
     if len([x for x in wl if x])<len(choices)-1: add(s,'falten wrongReasons',where)
