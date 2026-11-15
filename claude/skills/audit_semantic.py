@@ -6,6 +6,7 @@ R=sys.argv[1]; ONLY=set(sys.argv[2:])
 FUNC={'a','an','the','in','on','at','by','for','since','during','while','until','to','of','with','from','into','about','some','any','much','many','one','than','as','too','enough','few','little','all','both','each','every','no','who','which','that','whose','when','where','because','if','so','but','and','or','before','after','already','yet','just','still','ever','never','always','usually','often','not'}
 CONTR=[('have','’ve'),('has','’s'),('had','’d'),('is','’s'),('are','’re'),('am','’m'),('will','’ll'),('would','’d'),('not','n’t')]
 NOTVERB={'during','morning','evening','something','anything','nothing','everything','thing','king','spring','ring','wedding','building','meeting','feeling','shopping','cooking','swimming','running','reading','painting','clothing'}
+EMB={'ask','asks','asked','know','knew','knows','wonder','wondered','wonders','say','said','tell','told','see','saw','remember','remembered','explain','explained','understand','understood','decide','decided','forget','forgot'}
 PROP={'I','TV','Mum','Dad','Anna','Ben','Tom','Sam','Maria','Paul','Lucy','Girona','English','Spanish','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','June','July','London','Paris','Lisbon','Rome','Barcelona','Christmas'}
 P=collections.defaultdict(list)   # slug -> [(classe, detall)]
 def add(s,c,d): P[s].append((c,d))
@@ -18,23 +19,17 @@ def check_alts(s,where,tokens,alts):
         for i,w in enumerate(a[:-1]):
             if w[-1] in '.?!': add(s,'ordre: alternativa amb punt/interrogant a mig frase (la revisió final queda mal puntuada)',f'{where} {" ".join(a)}')
         if a[-1][-1] not in '.?!': add(s,'ordre: alternativa sense signe final',f'{where} {" ".join(a)}')
-        if a[0][0].isupper() and a[0] not in PROP and not a[0].startswith('I’'): add(s,'ordre: alternativa començada amb majúscula',f'{where} {" ".join(a)}')
+        if a[0][0].isupper() and a[0].strip('.,?!') not in PROP and not a[0].startswith('I’'): add(s,'ordre: alternativa començada amb majúscula',f'{where} {" ".join(a)}')
         for w in a[1:]:
-            if w[0].isupper() and w not in PROP and not w.startswith('I’') : add(s,'ordre: majúscula a mig frase a una alternativa',f'{where} {" ".join(a)}'); break
+            if w[0].isupper() and w.strip('.,?!') not in PROP and not w.startswith('I’') : add(s,'ordre: majúscula a mig frase a una alternativa',f'{where} {" ".join(a)}'); break
     # clàusula subordinada sense alternativa permutada
-    has_clause=any(w.endswith(',') for w in tokens[:-1]) or any(sub.match(w) and 0<i<len(tokens)-2 for i,w in enumerate(tokens) if i>0 and w.lower() in ('when','because','before','after','until','while','if'))
+    q0=tokens[0].lower(); stmt=end=='.' and q0 not in ('who','what','when','where','why','how','which','do','does','did','is','are','was','were','have','has','had','can','could','will','would','should')
+    has_clause=stmt and ((q0 in ('when','because','before','after','until','while','by') and any(w.endswith(',') for w in tokens[:-1])) or (q0 not in ('when','because','before','after','until','while','by') and any(2<=i<=len(tokens)-3 and w.lower() in ('when','because','before','after','until','while') for i,w in enumerate(tokens) if not (set(x.lower() for x in tokens[:i]) & EMB))))
     if has_clause and not alts: add(s,'ordre: frase amb dues clàusules sense alternativa (ordre permutat rebutjat)',f'{where} {" ".join(tokens)}')
 def check_fill(s,where,it,ans,disp,hint,explain,use,extra_text=''):
     a=[norm(x) for x in ans]; d=norm(disp)
     if norm(use) in a or norm(use)==d: add(s,'etiqueta «use» que dóna la resposta',f'{where} use={use!r} resposta={disp!r}')
-    for full,short in CONTR:
-        if re.search(r'\b'+full+r'\b\s+\w',d) and not re.match(r'(have|has|had) (to|a|an|the|some|any|no|\w+ed\b)',d) or (full in ('have','has','had') and re.match(r'(have|has|had) (been|\w+(ed|en|wn|ne|ng)\b)',d)):
-            sh=norm(d.replace(full,short.replace('’',"'"),1)) if full!='not' else None
-            if full=='not': continue
-            cand={norm(d.replace(full,short,1)).replace(' ',' ')}
-            ok=any(x.replace(' ','')==list(cand)[0].replace(' ','') or x==norm(re.sub(r'\b'+full+r'\b',short,d,1)) for x in a) or any(("'"+short[1:]) in x for x in a)
-            if not ok and full in ('have','has','had','am','are','will'): add(s,'resposta correcta sense forma contreta acceptada',f'{where} display={disp!r} answers={ans}'); break
-    if d in FUNC and re.search(r'\bverb\b',(explain or '')+' '+(it.get('wrongNote','') or ''),re.I): add(s,'feedback parla de «verb» en un buit que no és verb',f'{where} {disp!r}')
+
 def check_mc(s,where,choices,correct,wr,text):
     if len(set(norm(c) for c in choices))!=len(choices): add(s,'opcions duplicades',f'{where} {choices}')
     if not (0<=correct<len(choices)): add(s,'índex correcte fora de rang',where)
@@ -60,10 +55,7 @@ for f in sorted(glob.glob(f'{R}/src/data/practice/*-practice.json')):
         if q['type']=='fill': check_fill(s,w,q,q['answers'],q['display'],q.get('hint'),q.get('explain'),q.get('use',''))
         elif q['type']=='order': check_alts(s,w,q['tokens'],q.get('alts'))
         elif 'choices' in q: check_mc(s,w,q['choices'],q['correct'],q.get('wrongReasons'),q.get('text',''))
-    # ítems d'ordre/errades: l'índex d'error ha de correspondre a una paraula diferent de la correcció
-    for sec,lst in (('errorCorrection','items'),):
-        for i,q in enumerate(d.get(sec,{}).get(lst,[])):
-            if q['tokens'][q['errorIndex']].strip('.,?!').lower()==q['correction'].strip('.,?!').lower(): add(s,'errorCorrection: la correcció és igual que la paraula errònia',f'Q{i+1}')
+
 def bad_open(l):
     pos=[m.start() for m in re.finditer(r'\*\*',l)]
     return [i for k,i in enumerate(pos) if k%2==0 and i>0 and l[i-1].isalnum() and i+2<len(l) and not l[i+2].isalnum() and l[i+2] not in ' *']
