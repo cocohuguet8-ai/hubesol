@@ -38,8 +38,8 @@ draft: false
 | Structure | Followed by | Meaning | Example |
 |---|---|---|---|
 | used to | base verb | a past habit or state (not now) | I **used to** smoke. |
-| be used to | noun / -ing | accustomed to (a state) | I**’m used to** the noise. |
-| get used to | noun / -ing | becoming accustomed (a change) | You**’ll get used to** it. |
+| be used to | noun / -ing | accustomed to (a state) | **I’m used to** the noise. |
+| get used to | noun / -ing | becoming accustomed (a change) | **You’ll get used to** it. |
 
 The key question: is it about **the past** (then, not now)? Use *used to* + base verb. Is it about **being familiar** with something? Use *be* or *get used to* + noun or -ing.
 
@@ -64,15 +64,15 @@ The key question: is it about **the past** (then, not now)? Use *used to* + base
 
 The situation is normal for you, not strange.
 
-- He**’s used to getting up** early.
-- I**’m not used to** this weather.
+- **He’s used to getting up** early.
+- **I’m not used to** this weather.
 
 ### 3. get used to — becoming accustomed
 
 The situation was new or strange, and it is changing or has changed.
 
 - It was strange at first, but I **got used to driving** on the left.
-- Don’t worry — you**’ll get used to** the new job.
+- Don’t worry — **you’ll get used to** the new job.
 
 > ⚠️ Typical error: ✗ ~~I’m used to work late.~~ → ✓ **I’m used to working late.** (After *be/get used to*, use -ing or a noun.)
 
