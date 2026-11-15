@@ -38,9 +38,9 @@ draft: false
 |---|---|---|
 | Present simple | get / gets + past participle | He **gets paid** on Fridays. |
 | Past simple | got + past participle | My phone **got stolen**. |
-| Present continuous | is / are getting + participle | They**'re getting married**. |
-| Present perfect | has / have got(ten) + participle | She**'s got promoted**. |
-| Future | will get + participle | You**'ll get hurt**. |
+| Present continuous | is / are getting + participle | **They're getting married**. |
+| Present perfect | has / have got(ten) + participle | **She's got promoted**. |
+| Future | will get + participle | **You'll get hurt**. |
 
 *Get* replaces *be* in the passive. Because *get* is a normal verb, it needs **do / does / did** in questions and negatives.
 
