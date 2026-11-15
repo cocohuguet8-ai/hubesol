@@ -48,7 +48,7 @@ The one question that decides it: **can you say exactly when?** If yes, use the 
 | Form | Past Simple | Present Perfect |
 |---|---|---|
 | Affirmative | subject + past form | subject + have/has + past participle |
-| | She **called** me. / We **went** home. | She**’s called** me. / We**’ve gone** home. |
+| | She **called** me. / We **went** home. | **She’s called** me. / **We’ve gone** home. |
 | Negative | subject + didn’t + base verb | subject + haven’t/hasn’t + past participle |
 | | I **didn’t see** it. | I **haven’t seen** it. |
 | Question | Did + subject + base verb? | Have/Has + subject + past participle? |
@@ -97,9 +97,9 @@ The action is over and we say (or both people know) when it happened.
 | yesterday, last week, in 2019, ago | past simple | I **saw** her two days **ago**. |
 | when…? / what time…? | past simple | **When did** you **meet** him? |
 | ever, never | present perfect | **Have** you **ever been** to Paris? |
-| just, already, yet | present perfect | I**’ve just finished**. |
-| since, for (continuing) | present perfect | She**’s worked** here **for** a year. |
-| today, this week, this year | both — present perfect if the period is not finished | I**’ve drunk** three coffees **today**. |
+| just, already, yet | present perfect | **I’ve just finished**. |
+| since, for (continuing) | present perfect | **She’s worked** here **for** a year. |
+| today, this week, this year | both — present perfect if the period is not finished | **I’ve drunk** three coffees **today**. |
 
 ## Common mistakes
 
