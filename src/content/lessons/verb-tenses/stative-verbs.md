@@ -53,8 +53,8 @@ Because they describe states, they normally use the **simple** form, not the con
 |---|---|---|
 | Present | I **know** the answer. | ~~I’m knowing~~ |
 | Past | She **wanted** a dog. | ~~She was wanting~~ |
-| Present perfect | We**’ve known** each other for years. | ~~We’ve been knowing~~ |
-| Future | You**’ll understand** later. | ~~You’ll be understanding~~ |
+| Present perfect | **We’ve known** each other for years. | ~~We’ve been knowing~~ |
+| Future | **You’ll understand** later. | ~~You’ll be understanding~~ |
 
 ## When to use the simple form
 
@@ -81,11 +81,11 @@ Some verbs are stative in one meaning and active in another. Only the active mea
 
 | Verb | Stative (a state) | Active (an action) |
 |---|---|---|
-| have | I **have** a car. (own) | I**’m having** lunch. (eat) |
-| think | I **think** it’s good. (opinion) | I**’m thinking** about it. (process) |
-| see | I **see** what you mean. (understand) | I**’m seeing** the doctor. (meet) |
-| taste | The soup **tastes** great. | He**’s tasting** the soup. (testing it) |
-| be | He **is** rude. (always) | He**’s being** rude. (right now, unusual) |
+| have | I **have** a car. (own) | **I’m having** lunch. (eat) |
+| think | I **think** it’s good. (opinion) | **I’m thinking** about it. (process) |
+| see | I **see** what you mean. (understand) | **I’m seeing** the doctor. (meet) |
+| taste | The soup **tastes** great. | **He’s tasting** the soup. (testing it) |
+| be | He **is** rude. (always) | **He’s being** rude. (right now, unusual) |
 
 ## Senses with can
 
