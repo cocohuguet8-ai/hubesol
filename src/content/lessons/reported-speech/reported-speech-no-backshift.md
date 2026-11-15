@@ -42,8 +42,8 @@ Backshift (present → past, past → past perfect) is the normal rule after *sa
 | 1. Present reporting verb | She **says** she **is** tired. |
 | 2. Facts that are still true | He said the Earth **goes** round the Sun. |
 | 3. Situations still true now | Pau said he **lives** in Girona. (he still does) |
-| 4. Recent reports | (5 minutes ago) Laia said she**'s** coming. |
-| 5. Past perfect, *would, could, should, might* | "I'd left." → She said she**'d left**. |
+| 4. Recent reports | (5 minutes ago) Laia said **she's** coming. |
+| 5. Past perfect, *would, could, should, might* | "I'd left." → She said **she'd left**. |
 
 ## 1. Present reporting verbs
 
@@ -53,7 +53,7 @@ If the reporting verb is **present simple, present perfect** or **future**, neve
 |---|---|
 | says | Mum **says** dinner **is** ready. |
 | has said | The teacher **has said** the test **will be** easy. |
-| will say | He**'ll say** he **doesn't** know. |
+| will say | **He'll say** he **doesn't** know. |
 
 > ⚠️ Typical error: ~~She says she was tired.~~ (she's tired now) → After *says*, keep the tense: *She says she is tired.*
 
