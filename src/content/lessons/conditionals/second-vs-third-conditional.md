@@ -34,8 +34,8 @@ draft: false
 
 | | If-clause | Result clause | Example |
 |---|---|---|---|
-| Second conditional | if + past simple | would + base verb | **If I had** a car, I**'d drive** to work. |
-| Third conditional | if + had + past participle | would have + past participle | **If I had had** a car, I**'d have driven** to work. |
+| Second conditional | if + past simple | would + base verb | **If I had** a car, **I'd drive** to work. |
+| Third conditional | if + had + past participle | would have + past participle | **If I had had** a car, **I'd have driven** to work. |
 
 Both are **unreal**: they imagine something that isn't true. The difference is **time**.
 
@@ -43,24 +43,24 @@ Both are **unreal**: they imagine something that isn't true. The difference is *
 
 | Conditional | Time | Example |
 |---|---|---|
-| **Second** | imaginary **present** or unlikely **future** | If I **knew** her number, I**'d call** her. (I don't know it now.) |
-| **Third** | imaginary **past** | If I **had known** her number, I**'d have called** her. (I didn't know it then.) |
+| **Second** | imaginary **present** or unlikely **future** | If I **knew** her number, **I'd call** her. (I don't know it now.) |
+| **Third** | imaginary **past** | If I **had known** her number, **I'd have called** her. (I didn't know it then.) |
 
-- **If it were** sunny, we**'d go** to the beach. (It isn't sunny today.)
-- **If it had been** sunny, we**'d have gone** to the beach. (It wasn't sunny yesterday.)
+- **If it were** sunny, **we'd go** to the beach. (It isn't sunny today.)
+- **If it had been** sunny, **we'd have gone** to the beach. (It wasn't sunny yesterday.)
 
 ## When to use the second conditional
 
 ### 1. Something not true now
 
-- **If I lived** in Barcelona, I**'d go** to the beach every weekend.
-- **If he were** here, he**'d know** what to do.
+- **If I lived** in Barcelona, **I'd go** to the beach every weekend.
+- **If he were** here, **he'd know** what to do.
 
 > ⚠️ Typical error: ~~If I had lived in Barcelona, I'd go to the beach every weekend.~~ (you don't live there now) → For now, use the past simple: *If I lived…*
 
 ### 2. An unlikely future
 
-- **If I won** the competition next month, I**'d buy** a new laptop.
+- **If I won** the competition next month, **I'd buy** a new laptop.
 
 > ⚠️ Typical error: ~~If I had won the competition next month…~~ → The future can't take the past perfect: *If I won…*
 
@@ -69,7 +69,7 @@ Both are **unreal**: they imagine something that isn't true. The difference is *
 ### 1. Something that didn't happen in the past
 
 - **If we had left** on time, we **wouldn't have missed** the plane.
-- **If she had studied**, she**'d have passed**.
+- **If she had studied**, **she'd have passed**.
 
 > ⚠️ Typical error: ~~If we left on time yesterday, we wouldn't have missed the plane.~~ → A past condition needs the past perfect: *If we had left…*
 
@@ -92,7 +92,7 @@ Both are **unreal**: they imagine something that isn't true. The difference is *
 
 Sometimes a past condition has a **present** result. Then we mix them — see [Mixed Conditionals](/grammar/conditionals/mixed-conditionals/).
 
-- **If I had taken** the job, I**'d be** rich now.
+- **If I had taken** the job, **I'd be** rich now.
 
 ## Common mistakes
 
