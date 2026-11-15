@@ -100,7 +100,7 @@ In the zero conditional, *if* and *when* (or *whenever*) mean almost the same, b
 |---|---|---|
 | Meaning | always true | one possible future situation |
 | Form | if + present, present | if + present, will + verb |
-| Example | If you heat ice, it **melts**. | If it's sunny tomorrow, we**'ll go** to the beach. |
+| Example | If you heat ice, it **melts**. | If it's sunny tomorrow, **we'll go** to the beach. |
 
 See [First Conditional](/grammar/conditionals/first-conditional/).
 
