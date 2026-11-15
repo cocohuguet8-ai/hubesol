@@ -54,7 +54,7 @@ AUXSET = set("""will won’t ’ll would wouldn’t ’d had hadn’t have has h
 must mustn’t should shouldn’t ought need needn’t is are was were be been being do does did don’t doesn’t didn’t""".split())
 FORM_BY_HUB = {'prepositions': 'preposition', 'articles': 'article', 'nouns-determiners': 'word'}
 FORM_BY_SLUG = {'reflexive-pronouns': 'pronoun', 'compound-nouns': 'noun'}
-NO_AUX = {'inversion-in-conditionals'}
+NO_AUX = {'inversion-in-conditionals', 'cleft-sentences'}
 
 def hub_of(slug):
     import glob, re

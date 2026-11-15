@@ -1,0 +1,1678 @@
+{
+  "tense": "cleft-sentences",
+  "lessonTitle": "Cleft Sentences",
+  "grammar": {
+    "orderAux": {
+      "words": [],
+      "label": null,
+      "primary": "",
+      "proper": []
+    }
+  },
+  "gapFill": {
+    "title": "Fill in the gaps",
+    "subtitle": "Type the missing word or form to complete each cleft sentence. Twenty original sentences with it-clefts, wh-clefts and thing-clefts.",
+    "questions": [
+      {
+        "use": "Focus on a person",
+        "before": "It was Maria",
+        "after": "found the missing keys.",
+        "hint": "(linking word)",
+        "answers": [
+          "who",
+          "that"
+        ],
+        "display": "who",
+        "explain": "Focus on the subject, a person: It + was + Maria + who / that + verb."
+      },
+      {
+        "use": "Focus on a person",
+        "before": "It is our head teacher",
+        "after": "decides the exam dates.",
+        "hint": "(linking word)",
+        "answers": [
+          "who",
+          "that"
+        ],
+        "display": "who",
+        "explain": "The focus is the person who does the action, so who or that introduces the verb ‘decides’."
+      },
+      {
+        "use": "Focus on a thing",
+        "before": "It was the blue jacket",
+        "after": "she bought, not the red one.",
+        "hint": "(linking word)",
+        "answers": [
+          "that",
+          "which"
+        ],
+        "display": "that",
+        "explain": "Focus on the object, a thing: It + was + the blue jacket + that + she bought."
+      },
+      {
+        "use": "Focus on time",
+        "before": "It",
+        "after": "last Friday that we finally met.",
+        "hint": "(be)",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "The meeting is finished, so ‘be’ is past: It was last Friday that we met."
+      },
+      {
+        "use": "Focus on place",
+        "before": "It is in Girona",
+        "after": "I grew up.",
+        "hint": "(linking word)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "Focus on a place: It is + in Girona + that + clause."
+      },
+      {
+        "use": "Focus on a reason",
+        "before": "It was because of the storm",
+        "after": "the match stopped.",
+        "hint": "(linking word)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "Focus on the reason: It was + because of the storm + that + clause."
+      },
+      {
+        "use": "Negative",
+        "before": "Last year, it",
+        "after": "the money that mattered to her.",
+        "hint": "(be)",
+        "answers": [
+          "wasn’t",
+          "wasn't",
+          "wasnt",
+          "was not"
+        ],
+        "display": "wasn’t",
+        "explain": "The negative goes on ‘be’. ‘Last year’ is past, so: it wasn’t the money that mattered."
+      },
+      {
+        "use": "Negative",
+        "before": "It wasn’t",
+        "after": "midnight that the noise stopped.",
+        "hint": "(linking word)",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "The pattern is It wasn’t until + time + that + clause."
+      },
+      {
+        "use": "Question",
+        "before": "",
+        "after": "it Maria who called you last night?",
+        "hint": "(be)",
+        "answers": [
+          "Was"
+        ],
+        "display": "Was",
+        "explain": "The question form puts ‘be’ first: Was it Maria who…? ‘Last night’ is past, so ‘was’."
+      },
+      {
+        "use": "Wh-cleft",
+        "before": "",
+        "after": "I need most right now is a long holiday.",
+        "hint": "(wh-word)",
+        "answers": [
+          "What"
+        ],
+        "display": "What",
+        "explain": "A wh-cleft starts with ‘What’ + clause, then be, then the focus."
+      },
+      {
+        "use": "Wh-cleft",
+        "before": "What surprised everyone",
+        "after": "his calm reaction.",
+        "hint": "(be)",
+        "answers": [
+          "was"
+        ],
+        "display": "was",
+        "explain": "The what-clause is followed by ‘be’. The surprise happened in the past, so ‘was’."
+      },
+      {
+        "use": "Focus on an action",
+        "before": "What she did was",
+        "after": "the police.",
+        "hint": "(call)",
+        "answers": [
+          "call",
+          "to call"
+        ],
+        "display": "call",
+        "explain": "After ‘what she did was’ use the base verb (or to + base verb), not the past form."
+      },
+      {
+        "use": "Focus on an action",
+        "before": "What I want to do is",
+        "after": "for a whole year.",
+        "hint": "(travel)",
+        "answers": [
+          "travel",
+          "to travel"
+        ],
+        "display": "travel",
+        "explain": "The focus is an action, so use the base verb or to + base verb after ‘is’."
+      },
+      {
+        "use": "Place, reason, manner",
+        "before": "",
+        "after": "we stayed in Paris was a tiny hotel near the river.",
+        "hint": "(wh-word)",
+        "answers": [
+          "Where"
+        ],
+        "display": "Where",
+        "explain": "The focus is a place (a tiny hotel near the river), so the cleft clause starts with ‘Where’."
+      },
+      {
+        "use": "Place, reason, manner",
+        "before": "",
+        "after": "he left the company was that the pay was far too low.",
+        "hint": "(wh-word)",
+        "answers": [
+          "Why"
+        ],
+        "display": "Why",
+        "explain": "The focus gives the reason (the pay was too low), so the cleft clause starts with ‘Why’."
+      },
+      {
+        "use": "Place, reason, manner",
+        "before": "",
+        "after": "she won the match was by staying calm under pressure.",
+        "hint": "(wh-word)",
+        "answers": [
+          "How"
+        ],
+        "display": "How",
+        "explain": "The focus gives the way she did it (by staying calm), so the cleft clause starts with ‘How’."
+      },
+      {
+        "use": "Reversed focus",
+        "before": "A long holiday is",
+        "after": "I need.",
+        "hint": "(wh-word)",
+        "answers": [
+          "what"
+        ],
+        "display": "what",
+        "explain": "In a reverse wh-cleft the focus comes first, then ‘is what’ + clause."
+      },
+      {
+        "use": "Introducing a problem",
+        "before": "The problem",
+        "after": "that the website is far too slow.",
+        "hint": "(be)",
+        "answers": [
+          "is"
+        ],
+        "display": "is",
+        "explain": "In a thing-cleft, ‘be’ links the noun (problem) to the that-clause. The problem exists now, so ‘is’."
+      },
+      {
+        "use": "Introducing a problem",
+        "before": "The only",
+        "after": "I want is some peace and quiet.",
+        "hint": "(noun)",
+        "answers": [
+          "thing"
+        ],
+        "display": "thing",
+        "explain": "A thing-cleft opens with a noun such as ‘thing’: The only thing I want is…"
+      },
+      {
+        "use": "Introducing a problem",
+        "before": "The sad fact is",
+        "after": "many people never vote.",
+        "hint": "(linking word)",
+        "answers": [
+          "that"
+        ],
+        "display": "that",
+        "explain": "After ‘the fact is’, the that-clause gives the information."
+      }
+    ]
+  },
+  "wordOrder": {
+    "title": "Put it in order",
+    "subtitle": "Tap the words to build each cleft sentence — 20 examples with it-clefts, wh-clefts and thing-clefts. Some sentences can be built in more than one correct order.",
+    "sentences": [
+      {
+        "use": "Focus on a person",
+        "tokens": [
+          "It",
+          "was",
+          "Maria",
+          "who",
+          "found",
+          "the",
+          "keys."
+        ]
+      },
+      {
+        "use": "Focus on a person",
+        "tokens": [
+          "It",
+          "is",
+          "our",
+          "teacher",
+          "who",
+          "chooses",
+          "the",
+          "film."
+        ]
+      },
+      {
+        "use": "Focus on a thing",
+        "tokens": [
+          "It",
+          "was",
+          "the",
+          "noise",
+          "that",
+          "woke",
+          "the",
+          "baby."
+        ]
+      },
+      {
+        "use": "Focus on a thing",
+        "tokens": [
+          "It",
+          "was",
+          "the",
+          "red",
+          "scarf",
+          "that",
+          "she",
+          "lost."
+        ]
+      },
+      {
+        "use": "Focus on time",
+        "tokens": [
+          "It",
+          "was",
+          "last",
+          "summer",
+          "that",
+          "we",
+          "first",
+          "met."
+        ]
+      },
+      {
+        "use": "Focus on place",
+        "tokens": [
+          "It",
+          "was",
+          "in",
+          "Girona",
+          "that",
+          "they",
+          "got",
+          "married."
+        ]
+      },
+      {
+        "use": "Focus on a reason",
+        "tokens": [
+          "It",
+          "was",
+          "the",
+          "rain",
+          "that",
+          "made",
+          "us",
+          "stay",
+          "home."
+        ]
+      },
+      {
+        "use": "Negative",
+        "tokens": [
+          "It",
+          "wasn’t",
+          "the",
+          "money",
+          "that",
+          "mattered."
+        ]
+      },
+      {
+        "use": "Focus on a person",
+        "tokens": [
+          "It",
+          "was",
+          "the",
+          "manager",
+          "who",
+          "signed",
+          "the",
+          "contract."
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Was",
+          "it",
+          "your",
+          "brother",
+          "who",
+          "called?"
+        ]
+      },
+      {
+        "use": "Question",
+        "tokens": [
+          "Who",
+          "was",
+          "it",
+          "that",
+          "called",
+          "you?"
+        ]
+      },
+      {
+        "use": "Wh-cleft",
+        "tokens": [
+          "What",
+          "I",
+          "need",
+          "is",
+          "a",
+          "holiday."
+        ],
+        "alts": [
+          [
+            "a",
+            "holiday",
+            "is",
+            "what",
+            "I",
+            "need."
+          ]
+        ]
+      },
+      {
+        "use": "Wh-cleft",
+        "tokens": [
+          "What",
+          "surprised",
+          "me",
+          "was",
+          "his",
+          "reaction."
+        ],
+        "alts": [
+          [
+            "his",
+            "reaction",
+            "was",
+            "what",
+            "surprised",
+            "me."
+          ]
+        ]
+      },
+      {
+        "use": "Wh-cleft",
+        "tokens": [
+          "What",
+          "the",
+          "team",
+          "wants",
+          "is",
+          "a",
+          "new",
+          "coach."
+        ],
+        "alts": [
+          [
+            "a",
+            "new",
+            "coach",
+            "is",
+            "what",
+            "the",
+            "team",
+            "wants."
+          ]
+        ]
+      },
+      {
+        "use": "Focus on an action",
+        "tokens": [
+          "What",
+          "she",
+          "did",
+          "was",
+          "call",
+          "the",
+          "police."
+        ]
+      },
+      {
+        "use": "Place, reason, manner",
+        "tokens": [
+          "Where",
+          "she",
+          "went",
+          "is",
+          "still",
+          "a",
+          "mystery."
+        ]
+      },
+      {
+        "use": "Place, reason, manner",
+        "tokens": [
+          "Why",
+          "he",
+          "left",
+          "remains",
+          "unclear."
+        ]
+      },
+      {
+        "use": "Reversed focus",
+        "tokens": [
+          "The",
+          "noise",
+          "is",
+          "why",
+          "she",
+          "left."
+        ],
+        "alts": [
+          [
+            "why",
+            "she",
+            "left",
+            "is",
+            "the",
+            "noise."
+          ]
+        ]
+      },
+      {
+        "use": "Introducing a problem",
+        "tokens": [
+          "The",
+          "problem",
+          "is",
+          "that",
+          "the",
+          "website",
+          "is",
+          "slow."
+        ]
+      },
+      {
+        "use": "Introducing a problem",
+        "tokens": [
+          "The",
+          "only",
+          "thing",
+          "I",
+          "want",
+          "is",
+          "some",
+          "peace."
+        ],
+        "alts": [
+          [
+            "some",
+            "peace",
+            "is",
+            "the",
+            "only",
+            "thing",
+            "I",
+            "want."
+          ]
+        ]
+      }
+    ]
+  },
+  "matching": {
+    "title": "Match the plain sentence and its cleft",
+    "subtitle": "Tap a plain sentence, then tap the cleft sentence that gives the same information with a focus.",
+    "leftLabel": "Plain sentence",
+    "rightLabel": "Cleft sentence",
+    "rightLabelSub": "(with focus)",
+    "reviewArrowPrefix": "",
+    "pairs": [
+      {
+        "left": "Maria found the keys.",
+        "right": "It was Maria who found the keys."
+      },
+      {
+        "left": "We met in Girona.",
+        "right": "It was in Girona that we met."
+      },
+      {
+        "left": "Tom lost his phone on Monday.",
+        "right": "It was on Monday that Tom lost his phone."
+      },
+      {
+        "left": "The noise woke the baby.",
+        "right": "It was the noise that woke the baby."
+      },
+      {
+        "left": "She stayed in because of the storm.",
+        "right": "It was because of the storm that she stayed in."
+      },
+      {
+        "left": "Our teacher chose the film.",
+        "right": "It was our teacher who chose the film."
+      },
+      {
+        "left": "The money didn’t matter.",
+        "right": "It wasn’t the money that mattered."
+      },
+      {
+        "left": "The storm didn’t stop until midnight.",
+        "right": "It wasn’t until midnight that the storm stopped."
+      },
+      {
+        "left": "I need a holiday.",
+        "right": "What I need is a holiday."
+      },
+      {
+        "left": "She called the police.",
+        "right": "What she did was call the police."
+      },
+      {
+        "left": "His reaction surprised me.",
+        "right": "What surprised me was his reaction."
+      },
+      {
+        "left": "The team wants a new coach.",
+        "right": "What the team wants is a new coach."
+      },
+      {
+        "left": "Nobody knows where she went.",
+        "right": "Where she went is a mystery."
+      },
+      {
+        "left": "Nobody explained how they did it.",
+        "right": "How they did it was never explained."
+      },
+      {
+        "left": "The noise annoys her.",
+        "right": "The noise is what annoys her."
+      },
+      {
+        "left": "The website is too slow.",
+        "right": "The problem is that the website is too slow."
+      },
+      {
+        "left": "We have no time.",
+        "right": "The trouble is that we have no time."
+      },
+      {
+        "left": "I only want some peace.",
+        "right": "The only thing I want is some peace."
+      },
+      {
+        "left": "The exams worry me most.",
+        "right": "The thing that worries me most is the exams."
+      },
+      {
+        "left": "Many people never vote.",
+        "right": "The sad fact is that many people never vote."
+      }
+    ]
+  },
+  "timedMC": {
+    "title": "Beat the clock",
+    "subtitle": "15 seconds per question. Check what is being emphasised, and watch the linking words and the verb forms.",
+    "timeLimit": 15,
+    "showHintVerb": false,
+    "questions": [
+      {
+        "use": "Focus on a person",
+        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Anna who broke the window, not Ben.",
+        "choices": [
+          "was",
+          "were",
+          "did",
+          "has"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘It’ never changes, and ‘were’ doesn’t agree with ‘it’.",
+          "‘Did’ can’t be the verb ‘be’ in an it-cleft.",
+          "‘Has’ is not the verb ‘be’, which every it-cleft needs."
+        ],
+        "explain": "An it-cleft needs ‘be’ after ‘it’. The window was broken in the past: It was Anna who…"
+      },
+      {
+        "use": "Focus on a thing",
+        "text": "It was the keys <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she lost, not her wallet.",
+        "choices": [
+          "what",
+          "that",
+          "where",
+          "whose"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘What’ can’t follow a noun focus like ‘the keys’.",
+          "",
+          "‘Where’ is for places, and ‘the keys’ is a thing.",
+          "‘Whose’ shows possession, which isn’t the meaning here."
+        ],
+        "explain": "After a thing in focus, ‘that’ introduces the rest of the sentence."
+      },
+      {
+        "use": "Focus on a thing",
+        "text": "It was the price <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> put people off, not the quality.",
+        "choices": [
+          "who",
+          "where",
+          "that",
+          "what"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Who’ is for people, but the price is a thing.",
+          "‘Where’ is for places, but the price is a thing.",
+          "",
+          "‘What’ can’t follow a noun focus like ‘the price’."
+        ],
+        "explain": "After a thing in focus, ‘that’ links it to the verb ‘put’."
+      },
+      {
+        "use": "Focus on a place",
+        "text": "It was in Barcelona <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> they first met.",
+        "choices": [
+          "who",
+          "what",
+          "whom",
+          "that"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Who’ is for people, and ‘in Barcelona’ is a place.",
+          "‘What’ doesn’t link a place focus to the clause.",
+          "‘Whom’ is for people, and ‘in Barcelona’ is a place.",
+          ""
+        ],
+        "explain": "For places, times and reasons, the linking word is ‘that’."
+      },
+      {
+        "use": "Focus on time",
+        "text": "It wasn’t <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> midnight that the music stopped.",
+        "choices": [
+          "since",
+          "until",
+          "during",
+          "while"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Since’ would need a starting point in a present perfect sentence.",
+          "",
+          "‘During’ doesn’t fit the pattern ‘It wasn’t… that’.",
+          "‘While’ is a conjunction and can’t come before ‘midnight’."
+        ],
+        "explain": "The fixed pattern is It wasn’t until + time + that + clause."
+      },
+      {
+        "use": "Wh-cleft",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I need is a long holiday.",
+        "choices": [
+          "That",
+          "Which",
+          "What",
+          "It"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘That’ can’t be the subject in this wh-cleft.",
+          "‘Which’ needs a choice of things, but nothing is given.",
+          "",
+          "‘It’ needs a ‘that’ or ‘who’ clause after the focus."
+        ],
+        "explain": "A wh-cleft starts with ‘What’ + clause, then be, then the focus."
+      },
+      {
+        "use": "Wh-cleft",
+        "text": "What surprised everyone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his reaction.",
+        "choices": [
+          "were",
+          "did",
+          "has",
+          "was"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Were’ doesn’t agree with ‘what surprised everyone’, which is singular.",
+          "‘Did’ can’t link the clause to the focus.",
+          "‘Has’ can’t link the clause to the focus.",
+          ""
+        ],
+        "explain": "After the what-clause you need ‘be’. The surprise was in the past: was."
+      },
+      {
+        "use": "Focus on an action",
+        "text": "What he did <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> walk out of the meeting.",
+        "choices": [
+          "was",
+          "were",
+          "does",
+          "had"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Were’ doesn’t agree with the singular ‘what he did’.",
+          "‘Does’ is not the linking verb ‘be’.",
+          "‘Had’ is not the linking verb ‘be’."
+        ],
+        "explain": "‘What he did’ is in the past, so the verb ‘be’ is ‘was’, followed by the base verb ‘walk’."
+      },
+      {
+        "use": "Focus on an action",
+        "text": "What she did was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the police.",
+        "choices": [
+          "called",
+          "calls",
+          "call",
+          "has called"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "After ‘what she did was’, we don’t repeat the past form.",
+          "The verb has no -s here; it is a base verb.",
+          "",
+          "A present perfect form can’t follow ‘what she did was’."
+        ],
+        "explain": "After ‘what… did was’, use the base verb (or to + base verb)."
+      },
+      {
+        "use": "Where / why / how",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> we stayed in Paris was a tiny hotel near the river.",
+        "choices": [
+          "What",
+          "Why",
+          "Who",
+          "Where"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘What’ doesn’t fit: we stayed in a place, so the clause needs ‘where’.",
+          "‘Why’ would ask for a reason, but the focus is a place.",
+          "‘Who’ would ask for a person, but the focus is a place.",
+          ""
+        ],
+        "explain": "The focus (a tiny hotel near the river) is a place, so the cleft clause starts with ‘Where’."
+      },
+      {
+        "use": "Where / why / how",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she won the match was by staying calm under pressure.",
+        "choices": [
+          "How",
+          "What",
+          "Where",
+          "Who"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘What she won the match’ is not a possible clause here.",
+          "‘Where’ would ask for a place, but the focus is a way of doing something.",
+          "‘Who’ would ask for a person, but the focus is a way of doing something."
+        ],
+        "explain": "The focus (by staying calm) is a way of doing something, so the cleft clause starts with ‘How’."
+      },
+      {
+        "use": "Reversed focus",
+        "text": "The noise is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> annoys her.",
+        "choices": [
+          "that",
+          "what",
+          "who",
+          "where"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘That’ can’t introduce a reverse wh-cleft here; the sentence needs ‘what’.",
+          "",
+          "‘Who’ is for people, but the noise is a thing.",
+          "‘Where’ is for places, but the noise is a thing."
+        ],
+        "explain": "A reverse wh-cleft has the structure focus + is + what + clause."
+      },
+      {
+        "use": "Introducing a problem",
+        "text": "The problem <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that the website is too slow.",
+        "choices": [
+          "are",
+          "does",
+          "has",
+          "is"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘Are’ doesn’t agree with the singular ‘the problem’.",
+          "‘Does’ can’t link the noun and the that-clause.",
+          "‘Has’ can’t link the noun and the that-clause.",
+          ""
+        ],
+        "explain": "In a thing-cleft, ‘be’ links the noun (problem) and the that-clause."
+      },
+      {
+        "use": "Introducing a problem",
+        "text": "The only thing I want right now <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> some peace and quiet.",
+        "choices": [
+          "is",
+          "are",
+          "does",
+          "was"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Are’ doesn’t agree with ‘the only thing’, which is singular.",
+          "‘Does’ can’t link the noun phrase and the focus.",
+          "‘Was’ is past, but ‘want’ is present."
+        ],
+        "explain": "‘The only thing I want’ is singular and present, so the linking verb is ‘is’."
+      },
+      {
+        "use": "Question",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it Maria who called you last night?",
+        "choices": [
+          "Did",
+          "Was",
+          "Has",
+          "Does"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Did’ can’t be followed by ‘it Maria who’ in a cleft question.",
+          "",
+          "‘Has’ is not the verb ‘be’.",
+          "‘Does’ is present, but the call was last night."
+        ],
+        "explain": "A cleft question puts ‘be’ first: Was it Maria who…?"
+      },
+      {
+        "use": "Negative",
+        "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the money that mattered; it was the people.",
+        "choices": [
+          "didn’t",
+          "hadn’t",
+          "wasn’t",
+          "weren’t"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Didn’t’ can’t be followed by ‘the money that mattered’ in this pattern.",
+          "‘Hadn’t’ would be past perfect, which does not fit.",
+          "",
+          "‘Weren’t’ doesn’t agree with ‘it’."
+        ],
+        "explain": "The negative goes on ‘be’: It wasn’t the money that mattered."
+      },
+      {
+        "use": "Focus on a reason",
+        "text": "It was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the storm that the match stopped.",
+        "choices": [
+          "because of",
+          "because",
+          "although",
+          "so"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Because’ needs a full clause, but ‘the storm’ is a noun phrase.",
+          "‘Although’ shows contrast, not a reason.",
+          "‘So’ can’t come before a noun phrase."
+        ],
+        "explain": "Before a noun phrase, use ‘because of’: It was because of the storm that…"
+      },
+      {
+        "use": "Contrast",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "Was Tom who broke the vase.",
+          "It was Tom who broke the vase.",
+          "It were Tom who broke the vase.",
+          "It was Tom who he broke the vase."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "An it-cleft can’t leave out ‘it’.",
+          "",
+          "‘It’ is singular, so ‘were’ is wrong.",
+          "The subject can’t be repeated: ‘who he’ is wrong."
+        ],
+        "explain": "It + was + focus + who + verb, with no repeated subject."
+      },
+      {
+        "use": "Wh-cleft",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "What I really love the music.",
+          "What I really love it is the music.",
+          "What I really love is the music.",
+          "What I really love are the music."
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The verb ‘be’ is missing.",
+          "You can’t add ‘it’ after the what-clause.",
+          "",
+          "‘Are’ doesn’t agree with ‘the music’, which is singular."
+        ],
+        "explain": "What + clause + is + focus, with no extra words."
+      },
+      {
+        "use": "Formal writing",
+        "text": "Which sentence is more suitable for a formal report?",
+        "choices": [
+          "The survey shows costs are rising, you know.",
+          "Costs are rising and stuff, the survey says.",
+          "Survey says costs rising.",
+          "What this survey shows is that costs are rising."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘You know’ is a spoken filler and doesn’t belong in a formal report.",
+          "‘And stuff’ is too vague and informal for a report.",
+          "It is too short and incomplete for a formal report.",
+          ""
+        ],
+        "explain": "A wh-cleft with a clear subject suits formal reports and speeches."
+      }
+    ]
+  },
+  "errorCorrection": {
+    "title": "Find the mistake",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
+    "items": [
+      {
+        "tokens": [
+          "Was",
+          "Maria",
+          "who",
+          "called",
+          "me",
+          "yesterday."
+        ],
+        "errorIndex": 0,
+        "correction": "It was",
+        "type": "Missing it",
+        "message": "An it-cleft needs ‘it’: It was Maria who called."
+      },
+      {
+        "tokens": [
+          "It",
+          "were",
+          "the",
+          "students",
+          "who",
+          "complained",
+          "about",
+          "the",
+          "noise."
+        ],
+        "errorIndex": 1,
+        "correction": "was",
+        "type": "Plural verb",
+        "message": "‘It’ is always singular: It was the students who complained."
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "the",
+          "keys",
+          "who",
+          "she",
+          "lost",
+          "on",
+          "the",
+          "train."
+        ],
+        "errorIndex": 4,
+        "correction": "that",
+        "type": "Wrong linking word",
+        "message": "‘Who’ is for people. For a thing use ‘that’: It was the keys that she lost."
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "Anna",
+          "what",
+          "broke",
+          "the",
+          "window."
+        ],
+        "errorIndex": 3,
+        "correction": "who",
+        "type": "Wrong linking word",
+        "message": "Use ‘who’ or ‘that’ after a person, not ‘what’: It was Anna who broke the window."
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "Maria",
+          "who",
+          "she",
+          "found",
+          "the",
+          "keys."
+        ],
+        "errorIndex": 4,
+        "correction": "found",
+        "type": "Repeated subject",
+        "message": "Don’t repeat the subject: It was Maria who found the keys.",
+        "errorSpan": [
+          4,
+          5
+        ]
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "in",
+          "Girona",
+          "that",
+          "we",
+          "there",
+          "got",
+          "married."
+        ],
+        "errorIndex": 6,
+        "correction": "got",
+        "type": "Extra word",
+        "message": "Don’t add ‘there’: the place is already the focus.",
+        "errorSpan": [
+          6,
+          7
+        ]
+      },
+      {
+        "tokens": [
+          "It",
+          "wasn’t",
+          "since",
+          "midnight",
+          "that",
+          "the",
+          "music",
+          "stopped."
+        ],
+        "errorIndex": 2,
+        "correction": "until",
+        "type": "Wrong preposition",
+        "message": "The pattern is It wasn’t until + time + that…"
+      },
+      {
+        "tokens": [
+          "It",
+          "didn’t",
+          "the",
+          "money",
+          "that",
+          "mattered."
+        ],
+        "errorIndex": 1,
+        "correction": "wasn’t",
+        "type": "Wrong negative",
+        "message": "The negative of an it-cleft goes on ‘be’: It wasn’t the money…"
+      },
+      {
+        "tokens": [
+          "Did",
+          "it",
+          "your",
+          "brother",
+          "who",
+          "called?"
+        ],
+        "errorIndex": 0,
+        "correction": "Was",
+        "type": "Cleft question",
+        "message": "A cleft question uses ‘be’: Was it your brother who called?"
+      },
+      {
+        "tokens": [
+          "What",
+          "I",
+          "need",
+          "a",
+          "holiday."
+        ],
+        "errorIndex": 3,
+        "correction": "is",
+        "type": "Missing be",
+        "message": "A wh-cleft needs ‘be’ before the focus: What I need is a holiday."
+      },
+      {
+        "tokens": [
+          "What",
+          "surprised",
+          "me",
+          "his",
+          "reaction."
+        ],
+        "errorIndex": 3,
+        "correction": "was",
+        "type": "Missing be",
+        "message": "The verb ‘be’ is missing: What surprised me was his reaction."
+      },
+      {
+        "tokens": [
+          "That",
+          "I",
+          "need",
+          "is",
+          "a",
+          "long",
+          "holiday."
+        ],
+        "errorIndex": 0,
+        "correction": "What",
+        "type": "Wrong wh-word",
+        "message": "A wh-cleft starts with ‘What’: What I need is a long holiday."
+      },
+      {
+        "tokens": [
+          "What",
+          "she",
+          "did",
+          "was",
+          "called",
+          "the",
+          "police."
+        ],
+        "errorIndex": 4,
+        "correction": "call",
+        "type": "Past form after did",
+        "message": "After ‘what she did was’, use the base verb: call, not called."
+      },
+      {
+        "tokens": [
+          "What",
+          "he",
+          "did",
+          "was",
+          "walked",
+          "out",
+          "of",
+          "the",
+          "meeting."
+        ],
+        "errorIndex": 4,
+        "correction": "walk",
+        "type": "Past form after did",
+        "message": "After ‘what he did was’, use the base verb: walk, not walked."
+      },
+      {
+        "tokens": [
+          "What",
+          "surprised",
+          "everyone",
+          "were",
+          "his",
+          "calm",
+          "reaction."
+        ],
+        "errorIndex": 3,
+        "correction": "was",
+        "type": "Agreement",
+        "message": "The what-clause is singular, so ‘was’ with the singular ‘reaction’."
+      },
+      {
+        "tokens": [
+          "What",
+          "we",
+          "stayed",
+          "in",
+          "Paris",
+          "was",
+          "a",
+          "tiny",
+          "hotel",
+          "by",
+          "the",
+          "river."
+        ],
+        "errorIndex": 0,
+        "correction": "Where",
+        "type": "Wrong wh-word",
+        "message": "For a place, use ‘Where’: Where we stayed in Paris was a tiny hotel by the river."
+      },
+      {
+        "tokens": [
+          "Where",
+          "she",
+          "won",
+          "the",
+          "match",
+          "was",
+          "by",
+          "staying",
+          "calm."
+        ],
+        "errorIndex": 0,
+        "correction": "How",
+        "type": "Wrong wh-word",
+        "message": "For the way something was done, use ‘How’: How she won the match was by staying calm."
+      },
+      {
+        "tokens": [
+          "A",
+          "long",
+          "holiday",
+          "is",
+          "that",
+          "I",
+          "need."
+        ],
+        "errorIndex": 4,
+        "correction": "what",
+        "type": "Reverse cleft",
+        "message": "A reverse wh-cleft uses ‘what’: A long holiday is what I need."
+      },
+      {
+        "tokens": [
+          "The",
+          "problem",
+          "are",
+          "that",
+          "the",
+          "website",
+          "is",
+          "slow."
+        ],
+        "errorIndex": 2,
+        "correction": "is",
+        "type": "Thing-cleft",
+        "message": "‘The problem’ is singular, so ‘is’."
+      },
+      {
+        "tokens": [
+          "It",
+          "was",
+          "my",
+          "sister",
+          "which",
+          "taught",
+          "me",
+          "to",
+          "swim."
+        ],
+        "errorIndex": 4,
+        "correction": "who",
+        "type": "Wrong linking word",
+        "message": "‘Which’ isn’t used for people. Use ‘who’ or ‘that’: It was my sister who taught me to swim."
+      }
+    ]
+  },
+  "levelCheck": {
+    "title": "How well do you know it?",
+    "subtitle": "20 mixed questions — typing, word order, which linking word, multiple choice and spot-the-mistake. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "categoryLabels": {
+      "fill": "Fill in the blank",
+      "order": "Word order",
+      "linking": "Linking words",
+      "mc": "Grammar choices",
+      "error": "Spot the mistake"
+    },
+    "categoryOrder": [
+      "fill",
+      "order",
+      "linking",
+      "mc",
+      "error"
+    ],
+    "items": [
+      {
+        "type": "fill",
+        "use": "Focus on a person",
+        "sentText": "It was Tom {{blank}} fixed the broken printer.",
+        "hint": "relative word",
+        "answers": [
+          "who",
+          "that"
+        ],
+        "display": "who",
+        "explain": "Focus on a person who did the action: It was Tom who / that fixed it.",
+        "wrongNote": "Use ‘who’ or ‘that’ after a person in an it-cleft."
+      },
+      {
+        "type": "fill",
+        "use": "Focus on an action",
+        "sentText": "What he did was {{blank}} to everyone.",
+        "hint": "apologise",
+        "answers": [
+          "apologise",
+          "to apologise"
+        ],
+        "display": "apologise",
+        "explain": "After ‘what he did was’ use the base verb, or to + base verb.",
+        "wrongNote": "Use the base verb after ‘what… did was’: apologise, not apologised."
+      },
+      {
+        "type": "fill",
+        "use": "Negative",
+        "sentText": "It wasn’t {{blank}} after dinner that she told us.",
+        "hint": "linking word",
+        "answers": [
+          "until"
+        ],
+        "display": "until",
+        "explain": "The pattern is It wasn’t until + time + that + clause.",
+        "wrongNote": "The pattern needs ‘until’."
+      },
+      {
+        "type": "fill",
+        "use": "Wh-cleft",
+        "sentText": "{{blank}} annoys me most is the constant noise.",
+        "hint": "wh-word",
+        "answers": [
+          "What"
+        ],
+        "display": "What",
+        "explain": "A wh-cleft starts with ‘What’ + clause + be + focus.",
+        "wrongNote": "Start the wh-cleft with ‘What’."
+      },
+      {
+        "type": "order",
+        "use": "Focus on a person",
+        "tokens": [
+          "It",
+          "was",
+          "Anna",
+          "who",
+          "won",
+          "the",
+          "prize."
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Wh-cleft",
+        "tokens": [
+          "What",
+          "I",
+          "like",
+          "is",
+          "the",
+          "quiet."
+        ],
+        "alts": [
+          [
+            "the",
+            "quiet",
+            "is",
+            "what",
+            "I",
+            "like."
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Question",
+        "tokens": [
+          "Was",
+          "it",
+          "Tom",
+          "who",
+          "called?"
+        ]
+      },
+      {
+        "type": "order",
+        "use": "Introducing a problem",
+        "tokens": [
+          "The",
+          "trouble",
+          "is",
+          "that",
+          "we",
+          "have",
+          "no",
+          "time."
+        ]
+      },
+      {
+        "type": "linking",
+        "use": "Linking words",
+        "text": "It was last summer {{blank}} we first visited Lisbon.",
+        "choices": [
+          "who",
+          "that",
+          "what",
+          "which"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Who’ is for people, but ‘last summer’ is a time.",
+          "",
+          "‘What’ doesn’t link a time focus to the clause.",
+          "‘Which’ is too formal and not used after a time focus."
+        ],
+        "explain": "After a time in focus, the linking word is ‘that’."
+      },
+      {
+        "type": "linking",
+        "use": "Linking words",
+        "text": "It is our manager {{blank}} makes the final decision.",
+        "choices": [
+          "what",
+          "where",
+          "whose",
+          "who"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "‘What’ can’t follow a person focus.",
+          "‘Where’ is for places.",
+          "‘Whose’ shows possession, which isn’t the meaning here.",
+          ""
+        ],
+        "explain": "After a person who does the action, use ‘who’ (or ‘that’)."
+      },
+      {
+        "type": "linking",
+        "use": "Linking words",
+        "text": "The sad fact is {{blank}} many young people never vote.",
+        "choices": [
+          "that",
+          "what",
+          "who",
+          "where"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘What’ can’t follow ‘the sad fact is’.",
+          "‘Who’ would need a person as the focus.",
+          "‘Where’ would need a place as the focus."
+        ],
+        "explain": "A thing-cleft with ‘fact’ is followed by a that-clause."
+      },
+      {
+        "type": "linking",
+        "use": "Linking words",
+        "text": "A cold drink is {{blank}} I need right now.",
+        "choices": [
+          "that",
+          "who",
+          "what",
+          "where"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘That’ can’t introduce a reverse wh-cleft.",
+          "‘Who’ is for people, but a cold drink is a thing.",
+          "",
+          "‘Where’ is for places, but a cold drink is a thing."
+        ],
+        "explain": "A reverse wh-cleft has the structure focus + is + what + clause."
+      },
+      {
+        "type": "mc",
+        "use": "Contrast",
+        "text": "It {{blank}} the teacher who made the mistake, it was the student.",
+        "choices": [
+          "weren’t",
+          "didn’t",
+          "wasn’t",
+          "hadn’t"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Weren’t’ doesn’t agree with ‘it’.",
+          "‘Didn’t’ can’t be followed by ‘the teacher who’.",
+          "",
+          "‘Hadn’t’ can’t be followed by ‘the teacher who’."
+        ],
+        "explain": "The negative goes on ‘be’, and the past ‘made’ needs ‘wasn’t’."
+      },
+      {
+        "type": "mc",
+        "use": "Wh-cleft",
+        "text": "What she did {{blank}} close the door quietly.",
+        "choices": [
+          "was",
+          "were",
+          "did",
+          "has"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "‘Were’ doesn’t agree with the singular ‘what she did’.",
+          "‘Did’ can’t link the clause and the focus.",
+          "‘Has’ can’t link the clause and the focus."
+        ],
+        "explain": "The linking verb is ‘be’, and ‘did’ shows the past: was."
+      },
+      {
+        "type": "mc",
+        "use": "Cleft sentence",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "Was Maria who called me.",
+          "It were Maria who called me.",
+          "It was Maria who she called me.",
+          "It was Maria who called me."
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "An it-cleft needs ‘it’.",
+          "‘It’ is singular, so ‘were’ is wrong.",
+          "The subject can’t be repeated.",
+          ""
+        ],
+        "explain": "It + was + focus + who + verb."
+      },
+      {
+        "type": "mc",
+        "use": "Reason",
+        "text": "Which sentence is correct?",
+        "choices": [
+          "What she left remains a mystery.",
+          "Why she left remains a mystery.",
+          "Why she left it remains a mystery.",
+          "Why she left are a mystery."
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘What she left’ has a different meaning.",
+          "",
+          "You can’t add ‘it’ after the clause.",
+          "‘Are’ doesn’t agree with the singular clause."
+        ],
+        "explain": "‘Why’ + clause is the subject of ‘remains’."
+      },
+      {
+        "type": "error",
+        "use": "Missing it",
+        "tokens": [
+          "Was",
+          "Maria",
+          "who",
+          "found",
+          "the",
+          "keys."
+        ],
+        "errorIndex": 0,
+        "correction": "It was",
+        "message": "An it-cleft needs ‘it’: It was Maria who found the keys."
+      },
+      {
+        "type": "error",
+        "use": "Plural verb",
+        "tokens": [
+          "It",
+          "were",
+          "the",
+          "students",
+          "who",
+          "complained."
+        ],
+        "errorIndex": 1,
+        "correction": "was",
+        "message": "‘It’ is singular: It was the students who complained."
+      },
+      {
+        "type": "error",
+        "use": "Past form after did",
+        "tokens": [
+          "What",
+          "he",
+          "did",
+          "was",
+          "walked",
+          "away."
+        ],
+        "errorIndex": 4,
+        "correction": "walk",
+        "message": "After ‘what he did was’, use the base verb."
+      },
+      {
+        "type": "error",
+        "use": "Wrong linking word",
+        "tokens": [
+          "It",
+          "was",
+          "the",
+          "book",
+          "who",
+          "she",
+          "wanted."
+        ],
+        "errorIndex": 4,
+        "correction": "that",
+        "message": "‘Who’ is for people. For a thing use ‘that’."
+      }
+    ]
+  }
+}
