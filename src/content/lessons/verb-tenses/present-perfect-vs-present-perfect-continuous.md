@@ -48,7 +48,7 @@ The key question: are you counting a **result**, or describing the **activity**?
 | Form | Present Perfect | Present Perfect Continuous |
 |---|---|---|
 | Affirmative | have/has + past participle | have/has + been + verb-ing |
-| | She**’s written** two emails. | She**’s been writing** emails. |
+| | **She’s written** two emails. | **She’s been writing** emails. |
 | Negative | haven’t/hasn’t + past participle | haven’t/hasn’t + been + verb-ing |
 | | I **haven’t finished**. | I **haven’t been sleeping** well. |
 | Question | Have/Has + subject + past participle? | Have/Has + subject + been + verb-ing? |
@@ -85,10 +85,10 @@ Numbers and quantities need the simple form.
 
 | Sentence | Meaning |
 |---|---|
-| I**’ve painted** the room. | It’s finished — come and look. |
-| I**’ve been painting** the room. | That’s what I was doing (maybe not finished) — that’s why I’m covered in paint. |
-| He**’s read** my report. | He has finished it. |
-| He**’s been reading** my report. | He started it; maybe he hasn’t finished. |
+| **I’ve painted** the room. | It’s finished — come and look. |
+| **I’ve been painting** the room. | That’s what I was doing (maybe not finished) — that’s why I’m covered in paint. |
+| **He’s read** my report. | He has finished it. |
+| **He’s been reading** my report. | He started it; maybe he hasn’t finished. |
 
 ## State verbs
 
