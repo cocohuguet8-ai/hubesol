@@ -54,11 +54,11 @@ Only *have* / *get* changes. The object and the participle stay the same.
 | Tense | Example |
 |---|---|
 | present simple | She **has** her nails **done** every month. |
-| present continuous | We**'re having** the kitchen **painted**. |
+| present continuous | **We're having** the kitchen **painted**. |
 | past simple | I **had** my car **repaired** yesterday. |
-| present perfect | They**'ve had** the house **cleaned**. |
-| future | I**'ll get** my eyes **tested** next week. |
-| *going to* | He**'s going to have** his teeth **checked**. |
+| present perfect | **They've had** the house **cleaned**. |
+| future | **I'll get** my eyes **tested** next week. |
+| *going to* | **He's going to have** his teeth **checked**. |
 | modal | You **should get** your bike **fixed**. |
 
 ## When to use the causative
