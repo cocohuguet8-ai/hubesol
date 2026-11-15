@@ -34,7 +34,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + have/has + been + verb-**ing** | She **has been working**. / We**’ve been waiting**. |
+| Affirmative | subject + have/has + been + verb-**ing** | She **has been working**. / **We’ve been waiting**. |
 | Negative | subject + haven’t/hasn’t + been + verb-ing | They **haven’t been sleeping**. |
 | Question | Have/Has + subject + been + verb-ing? | **Have** you **been waiting** long? |
 
