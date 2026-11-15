@@ -37,13 +37,13 @@ draft: false
 | Clause | Verb form | Example |
 |---|---|---|
 | If-clause (the condition) | if + present simple | **If it rains** tomorrow, |
-| Main clause (the result) | will / won't + base verb | we**'ll stay** at home. |
+| Main clause (the result) | will / won't + base verb | **we'll stay** at home. |
 
 The if-clause uses the **present simple**, even though it talks about the future. The result uses **will** (*'ll*) or **won't** + the base verb. If the if-clause comes first, put a **comma** after it; if it comes second, no comma.
 
 | Form | Example |
 |---|---|
-| Affirmative | If you study, you**'ll pass**. |
+| Affirmative | If you study, **you'll pass**. |
 | Negative | If you don't hurry, you **won't catch** the bus. |
 | Question | What **will** you **do** if she **says** no? |
 | Result first | You'll pass **if you study**. |
@@ -54,22 +54,22 @@ The if-clause uses the **present simple**, even though it talks about the future
 
 The condition is possible and we think the result will probably happen.
 
-- **If it's sunny** on Saturday, we**'ll go** to the beach.
-- **If I see** Marta, I**'ll give** her your message.
+- **If it's sunny** on Saturday, **we'll go** to the beach.
+- **If I see** Marta, **I'll give** her your message.
 
 > ⚠️ Typical error: ~~If it will rain, we'll stay home.~~ → No *will* in the if-clause: *If it rains, we'll stay home.*
 
 ### 2. Warnings and threats
 
-- **If you touch** that, you**'ll burn** yourself.
-- **If you don't stop** shouting, I**'ll call** your parents.
+- **If you touch** that, **you'll burn** yourself.
+- **If you don't stop** shouting, **I'll call** your parents.
 
 > ⚠️ Typical error: ~~If you don't stop, I call your parents.~~ → A future result needs *will*: *I'll call your parents.*
 
 ### 3. Promises and offers
 
-- **If you help** me with this, I**'ll buy** you lunch.
-- I**'ll drive** you to the station **if you want**.
+- **If you help** me with this, **I'll buy** you lunch.
+- **I'll drive** you to the station **if you want**.
 
 > ⚠️ Typical error: ~~If you will help me, I'll buy you lunch.~~ → Promise or not, the if-clause takes the present simple: *If you help me…*
 
@@ -79,7 +79,7 @@ The condition is possible and we think the result will probably happen.
 
 | Result | Meaning | Example |
 |---|---|---|
-| be going to | a plan or clear result | If he's late again, he**'s going to lose** his job. |
+| be going to | a plan or clear result | If he's late again, **he's going to lose** his job. |
 | can / could | possibility, ability | If you finish early, you **can leave**. |
 | might / may | less certain | If we hurry, we **might catch** the train. |
 | should / must | advice, obligation | If you feel ill, you **should stay** in bed. |
@@ -103,7 +103,7 @@ More in [Unless, as long as, provided that](/grammar/conditionals/unless-as-long
 |---|---|---|
 | Meaning | real, likely future | imaginary or unlikely |
 | Form | if + present, will + verb | if + past, would + verb |
-| Example | If I **have** time, I**'ll help** you. | If I **had** time, I**'d help** you. |
+| Example | If I **have** time, **I'll help** you. | If I **had** time, **I'd help** you. |
 
 ## Common mistakes
 
