@@ -99,7 +99,7 @@ The usual changes apply: tense, pronouns, time and place.
 
 A reported question is a statement — finish with a **full stop**.
 
-- He asked where I lived**.** (not ~~lived?~~)
+- He asked where I **lived.** (not ~~lived?~~)
 
 ## Common mistakes
 
