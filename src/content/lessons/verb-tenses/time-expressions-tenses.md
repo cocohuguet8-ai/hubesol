@@ -39,11 +39,11 @@ draft: false
 | Tense | Typical time expressions | Example |
 |---|---|---|
 | Present simple | always, usually, often, every day, on Mondays | I **usually walk** to work. |
-| Present continuous | now, right now, at the moment, today, this week | I**’m working** from home **today**. |
-| Present perfect | ever, never, just, already, yet, so far, since, for, recently | I**’ve just finished**. |
+| Present continuous | now, right now, at the moment, today, this week | **I’m working** from home **today**. |
+| Present perfect | ever, never, just, already, yet, so far, since, for, recently | **I’ve just finished**. |
 | Past simple | yesterday, last week, in 2019, ago, when | I **saw** her **yesterday**. |
 | Past continuous | while, at 8pm yesterday, all evening | I **was cooking** **at eight**. |
-| Future (will / going to) | tomorrow, next week, soon, later, in the future | I**’ll call** you **later**. |
+| Future (will / going to) | tomorrow, next week, soon, later, in the future | **I’ll call** you **later**. |
 
 ## The three big signals
 
@@ -74,7 +74,7 @@ These expressions point to a moment that is over.
 These expressions connect the past with the present.
 
 - **Have** you **ever been** to Japan?
-- I**’ve lived** here **since** 2020.
+- **I’ve lived** here **since** 2020.
 
 > ⚠️ Typical error: ✗ ~~I live here since 2020.~~ → ✓ **I’ve lived here since 2020.**
 
@@ -91,10 +91,10 @@ These expressions connect the past with the present.
 
 | Expression | Tense | Example |
 |---|---|---|
-| today / this week | present perfect if the period isn’t finished | I**’ve had** three coffees **today**. |
+| today / this week | present perfect if the period isn’t finished | **I’ve had** three coffees **today**. |
 | today / this week | past simple if you mean a finished part of it | I **had** a coffee **this morning**. (It’s now the afternoon.) |
 | when | past simple or past continuous | **When** she called, I **was cooking**. |
-| for | present perfect (continuing) or past simple (finished) | I**’ve worked** here **for** a year. / I **worked** there **for** a year. |
+| for | present perfect (continuing) or past simple (finished) | **I’ve worked** here **for** a year. / I **worked** there **for** a year. |
 
 ## Common mistakes
 
