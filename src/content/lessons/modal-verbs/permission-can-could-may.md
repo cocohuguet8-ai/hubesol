@@ -108,7 +108,7 @@ All three are modal verbs: **base verb** after them, no *-s*, no *to*, no *do* i
 
 | Expression | Example |
 |---|---|
-| be allowed to | We**'re** not **allowed to** run in the corridor. |
+| be allowed to | **We're** not **allowed to** run in the corridor. |
 | Do you mind if…? | **Do you mind if** I sit here? |
 | let + person + verb | My parents **let** me **stay** out until ten. |
 
