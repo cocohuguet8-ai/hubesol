@@ -38,7 +38,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + will have (**’ll have**) + past participle | She**’ll have left**. |
+| Affirmative | subject + will have (**’ll have**) + past participle | **She’ll have left**. |
 | Negative | subject + won’t have + past participle | They **won’t have finished**. |
 | Question | Will + subject + have + past participle? | **Will** you **have arrived** by then? |
 
@@ -80,7 +80,7 @@ The action will be finished before a certain time in the future. Often with *by*
 
 ### 3. Predictions about the past (it’s probably done)
 
-- Don’t call now — they**’ll have gone** to bed.
+- Don’t call now — **they’ll have gone** to bed.
 
 ## By and by the time
 
@@ -96,8 +96,8 @@ The action will be finished before a certain time in the future. Often with *by*
 
 | Sentence | Meaning |
 |---|---|
-| By ten, I**’ll have finished**. | done before ten |
-| At ten, I**’ll be finishing**. | in progress at ten |
+| By ten, **I’ll have finished**. | done before ten |
+| At ten, **I’ll be finishing**. | in progress at ten |
 
 ## Common mistakes
 
