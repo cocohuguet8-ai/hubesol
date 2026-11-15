@@ -14,7 +14,7 @@
     "subtitle": "Type the missing part of the reported question: if / whether, the question word, or the verb in statement order with backshift. Twenty original sentences.",
     "questions": [
       {
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "before": "“Are you tired?” → She asked",
         "after": "I was tired.",
         "hint": "if / that",
@@ -26,7 +26,7 @@
         "explain": "A yes/no question is reported with ‘if’ or ‘whether’."
       },
       {
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "before": "“Do you like pizza?” → He asked if I",
         "after": "pizza.",
         "hint": "(like)",
@@ -37,7 +37,7 @@
         "explain": "No ‘do’ in reported questions; present simple moves back: liked."
       },
       {
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "before": "“Can you help me?” → She asked if I",
         "after": "help her.",
         "hint": "can / could",
@@ -48,7 +48,7 @@
         "explain": "‘Can’ moves back to ‘could’ after ‘asked’."
       },
       {
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "before": "“Have you finished?” → The teacher asked whether we",
         "after": ".",
         "hint": "(finish)",
@@ -59,7 +59,7 @@
         "explain": "Present perfect moves back to past perfect: had finished."
       },
       {
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "before": "“Will you come tomorrow?” → He asked if I",
         "after": "the next day.",
         "hint": "(come)",
@@ -70,7 +70,7 @@
         "explain": "‘Will’ moves back to ‘would’."
       },
       {
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "before": "“Is it raining?” → She asked if it",
         "after": ".",
         "hint": "(rain)",
@@ -81,7 +81,7 @@
         "explain": "Present continuous moves back: was raining."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“Where do you live?” → He asked where I",
         "after": ".",
         "hint": "(live)",
@@ -92,7 +92,7 @@
         "explain": "Statement order (I lived) and backshift; no ‘do’."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“What are you doing?” → She asked what I",
         "after": ".",
         "hint": "(do)",
@@ -103,7 +103,7 @@
         "explain": "Statement order: subject + was doing."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“When does the film start?” → He asked when the film",
         "after": ".",
         "hint": "(start)",
@@ -114,7 +114,7 @@
         "explain": "No ‘does’; the subject comes first: the film started."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“Why did you leave?” → They asked why I",
         "after": ".",
         "hint": "(leave)",
@@ -125,7 +125,7 @@
         "explain": "Past simple moves back to past perfect: had left."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“How old are you?” → She asked how old I",
         "after": ".",
         "hint": "(be)",
@@ -136,7 +136,7 @@
         "explain": "Statement order: how old I was."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“Where is the station?” → A tourist asked me where the station",
         "after": ".",
         "hint": "(be)",
@@ -147,7 +147,7 @@
         "explain": "The verb goes after the subject: the station was."
       },
       {
-        "use": "Wh-",
+        "use": "Fill the gap",
         "before": "“What time is it?” → He asked what time it",
         "after": ".",
         "hint": "(be)",
@@ -158,7 +158,7 @@
         "explain": "Statement order and backshift: it was."
       },
       {
-        "use": "Question word",
+        "use": "Fill the gap",
         "before": "“",
         "after": "broke the window?” → She asked who had broken the window.",
         "hint": "who / what",
@@ -169,7 +169,7 @@
         "explain": "‘Who’ is the subject here, so the order stays the same."
       },
       {
-        "use": "Question word",
+        "use": "Fill the gap",
         "before": "“What happened?” → He asked what",
         "after": ".",
         "hint": "(happen)",
@@ -180,7 +180,7 @@
         "explain": "‘What’ is the subject: no inversion; past simple → past perfect."
       },
       {
-        "use": "Reporting verb",
+        "use": "Fill the gap",
         "before": "She",
         "after": "me where I had bought my jacket.",
         "hint": "asked / said",
@@ -191,7 +191,7 @@
         "explain": "Questions are reported with ‘ask’ (+ person)."
       },
       {
-        "use": "Reporting verb",
+        "use": "Fill the gap",
         "before": "He wanted to",
         "after": "if the shop was open.",
         "hint": "know / ask",
@@ -202,7 +202,7 @@
         "explain": "Another reporting phrase for questions: wanted to know."
       },
       {
-        "use": "Reporting verb",
+        "use": "Fill the gap",
         "before": "I",
         "after": "why she hadn’t called.",
         "hint": "wondered / asked to",
@@ -213,7 +213,7 @@
         "explain": "‘Wonder’ can report a question you ask yourself."
       },
       {
-        "use": "Pronoun",
+        "use": "Fill the gap",
         "before": "“Is this your bag?” → She asked if it was",
         "after": "bag.",
         "hint": "(your)",
@@ -224,7 +224,7 @@
         "explain": "She was speaking to me, so ‘your’ becomes ‘my’."
       },
       {
-        "use": "Whether",
+        "use": "Fill the gap",
         "before": "“Do you want tea or coffee?” → He asked",
         "after": "I wanted tea or coffee.",
         "hint": "whether / that",
@@ -558,7 +558,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Yes/No",
+        "use": "Choose the answer",
         "text": "“Are you OK?” → She asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> OK.",
         "choices": [
           "if I was",
@@ -576,7 +576,7 @@
         "explain": "Yes/No question: asked + if + subject + verb. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“Where do you work?” → He asked where <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "did I work",
@@ -594,7 +594,7 @@
         "explain": "Wh- question: question word + subject + backshifted verb."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“What are you reading?” → She asked what <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "was I reading",
@@ -612,7 +612,7 @@
         "explain": "Statement order + backshift: I was reading. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Yes/No",
+        "use": "Choose the answer",
         "text": "“Do you speak French?” → He asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> French.",
         "choices": [
           "do I speak",
@@ -630,7 +630,7 @@
         "explain": "No ‘do’; if + subject + past simple. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“When did you arrive?” → They asked when <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "did I arrive",
@@ -648,7 +648,7 @@
         "explain": "Past simple → past perfect, statement order. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“Where is the museum?” → A tourist asked me where the museum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "is",
@@ -666,7 +666,7 @@
         "explain": "Statement order: the museum was. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Question word",
+        "use": "Choose the answer",
         "text": "“Who ate my sandwich?” → He asked who <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his sandwich.",
         "choices": [
           "did eat",
@@ -684,7 +684,7 @@
         "explain": "‘Who’ is the subject: no inversion; past → past perfect."
       },
       {
-        "use": "If or that",
+        "use": "Choose the answer",
         "text": "Which word introduces a reported yes/no question?",
         "choices": [
           "if",
@@ -702,7 +702,7 @@
         "explain": "Yes/No questions: if or whether. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Whether",
+        "use": "Choose the answer",
         "text": "“Do you want pasta or rice?” → He asked <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I wanted pasta or rice.",
         "choices": [
           "that",
@@ -720,7 +720,7 @@
         "explain": "‘Whether’ is common with a choice of two. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Will",
+        "use": "Choose the answer",
         "text": "“Will you be at the party?” → She asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at the party.",
         "choices": [
           "will be",
@@ -738,7 +738,7 @@
         "explain": "‘Will’ → ‘would’. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Can",
+        "use": "Choose the answer",
         "text": "“Can you lend me a pen?” → He asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lend him a pen.",
         "choices": [
           "could",
@@ -756,7 +756,7 @@
         "explain": "‘Can’ → ‘could’. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Reporting verb",
+        "use": "Choose the answer",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me if I had seen her keys.",
         "choices": [
           "said",
@@ -774,7 +774,7 @@
         "explain": "Report questions with ‘ask’ + person. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Reporting verb",
+        "use": "Choose the answer",
         "text": "He wanted <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> where the toilets were.",
         "choices": [
           "know",
@@ -792,7 +792,7 @@
         "explain": "Wanted to know + wh- clause. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“Where have you been?” → Dad asked where I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "had been",
@@ -810,7 +810,7 @@
         "explain": "Present perfect → past perfect, in statement order: where I had been."
       },
       {
-        "use": "Pronoun",
+        "use": "Choose the answer",
         "text": "“Is this your phone?” → He asked if it was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> phone.",
         "choices": [
           "your",
@@ -828,7 +828,7 @@
         "explain": "‘Your’ → ‘my’ when the question was to me. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“How much does it cost?” → She asked how much it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "does cost",
@@ -846,7 +846,7 @@
         "explain": "Statement order + backshift: it cost (past of cost). Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“Why are you crying?” → Mum asked why I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "was crying",
@@ -864,7 +864,7 @@
         "explain": "Statement order + backshift: I was crying. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Yes/No",
+        "use": "Choose the answer",
         "text": "“Have you ever been to London?” → She asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to London.",
         "choices": [
           "have ever been",
@@ -882,7 +882,7 @@
         "explain": "Present perfect → past perfect. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“Which bus goes to the beach?” → He asked which bus <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the beach.",
         "choices": [
           "did go",
@@ -900,7 +900,7 @@
         "explain": "‘Which bus’ is the subject: which bus went. Remember: statement order and backshift after ‘asked’."
       },
       {
-        "use": "Ask + to",
+        "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
           "She asked to me where I lived.",
@@ -1425,7 +1425,7 @@
       },
       {
         "type": "mc",
-        "use": "Wh-",
+        "use": "Choose the answer",
         "text": "“What time does the bus leave?” → She asked what time the bus {{blank}}.",
         "choices": [
           "did leave",
@@ -1444,7 +1444,7 @@
       },
       {
         "type": "mc",
-        "use": "Yes/No",
+        "use": "Choose the answer",
         "text": "“Have you got a pen?” → He asked {{blank}} a pen.",
         "choices": [
           "if I had got",
@@ -1463,7 +1463,7 @@
       },
       {
         "type": "mc",
-        "use": "Reporting verb",
+        "use": "Choose the answer",
         "text": "She {{blank}} me how old I was.",
         "choices": [
           "said",
@@ -1482,7 +1482,7 @@
       },
       {
         "type": "mc",
-        "use": "Whether",
+        "use": "Choose the answer",
         "text": "“Do you want to stay or go?” → She asked {{blank}} I wanted to stay or go.",
         "choices": [
           "that",
