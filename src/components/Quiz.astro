@@ -106,7 +106,7 @@ const { quiz, next, back } = Astro.props;
         if (!r.ok) {
           const c = document.createElement('div');
           c.className = 'rcorrect';
-          c.textContent = 'Correct answer: ' + r.right;
+          c.textContent = 'Correct answer: ' + r.right + (/[.!?]$/.test(r.right) ? '' : '.');
           sent.appendChild(c);
         }
         const mark = document.createElement('span');
@@ -137,7 +137,17 @@ const { quiz, next, back } = Astro.props;
       }
       const answers = JSON.parse(q.dataset.answers);
       const common = JSON.parse(q.dataset.common);
-      const ok = answers.some((a) => norm(a) === norm(raw));
+      // "'d" can be had or would, and "'s" is or has: accept any matching reading.
+      const readings = (x) => {
+        const base = String(x).toLowerCase().replace(/[‘’`´]/g, "'");
+        const reS = /\b(he|she|it|that|there|here|what|who|where)'s\b/g;
+        let vs = [base];
+        vs = vs.flatMap((t) => (/'d\b/.test(t) ? [t.replace(/'d\b/g, ' had'), t.replace(/'d\b/g, ' would')] : [t]));
+        vs = vs.flatMap((t) => (t.search(reS) >= 0 ? [t.replace(reS, '$1 is'), t.replace(reS, '$1 has')] : [t]));
+        return vs.map(norm);
+      };
+      const typed = readings(raw);
+      const ok = answers.some((a) => readings(a).some((r) => typed.includes(r)));
       input.disabled = true;
       btn.disabled = true;
       explEl.hidden = false;

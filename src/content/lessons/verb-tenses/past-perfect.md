@@ -15,7 +15,7 @@ faq:
   - q: "When do I use the past perfect?"
     a: "When you talk about a past action that happened before another past action, and you want to make the order clear: By the time I arrived, they had left."
   - q: "What is the difference between the past simple and the past perfect?"
-    a: "The past simple is for a single finished action; the past perfect shows that an action happened before another past moment."
+    a: "The past simple tells finished past events, one after another; the past perfect shows that an action happened before another past moment."
   - q: "Do I always need the past perfect for earlier actions?"
     a: "No. If the order is already clear (with after, before or then), the past simple is often enough: After she left, I cleaned up."
   - q: "Is ‘had had’ correct?"
