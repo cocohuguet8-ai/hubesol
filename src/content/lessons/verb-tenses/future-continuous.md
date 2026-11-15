@@ -37,7 +37,7 @@ draft: false
 
 | Form | Structure | Example |
 |---|---|---|
-| Affirmative | subject + will be + verb-**ing** | She**’ll be working**. |
+| Affirmative | subject + will be + verb-**ing** | **She’ll be working**. |
 | Negative | subject + won’t be + verb-ing | They **won’t be coming**. |
 | Question | Will + subject + be + verb-ing? | **Will** you **be joining** us? |
 
@@ -81,8 +81,8 @@ It sounds softer than *will* + base verb, because you are asking about plans, no
 
 | Sentence | Meaning |
 |---|---|
-| At ten, I**’ll be writing** the report. | in progress at ten |
-| By ten, I**’ll have written** the report. | finished before ten |
+| At ten, **I’ll be writing** the report. | in progress at ten |
+| By ten, **I’ll have written** the report. | finished before ten |
 
 More in [Future Perfect](/grammar/verb-tenses/future-perfect/).
 
