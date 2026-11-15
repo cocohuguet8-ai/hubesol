@@ -38,8 +38,8 @@ Both words introduce a clause with the **present simple** when we talk about the
 
 | Word | Clause | Main clause | Example |
 |---|---|---|---|
-| if | if + present simple | will + base verb | **If** I **see** her, I**'ll tell** her. |
-| when | when + present simple | will + base verb | **When** I **see** her, I**'ll tell** her. |
+| if | if + present simple | will + base verb | **If** I **see** her, **I'll tell** her. |
+| when | when + present simple | will + base verb | **When** I **see** her, **I'll tell** her. |
 
 The grammar is the same. The **meaning** is different. Comma rule: comma after the *if*/*when* clause when it comes first.
 
