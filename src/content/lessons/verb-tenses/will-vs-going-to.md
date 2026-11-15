@@ -48,7 +48,7 @@ The key question: **when was it decided?** Decided as you speak → *will*. Deci
 | Form | Will | Going to |
 |---|---|---|
 | Affirmative | subject + will (’ll) + base verb | subject + am/is/are + going to + base verb |
-| | She**’ll help** you. | She**’s going to help** you. |
+| | **She’ll help** you. | **She’s going to help** you. |
 | Negative | subject + won’t + base verb | subject + am/is/are not + going to + base verb |
 | | They **won’t come**. | They **aren’t going to come**. |
 | Question | Will + subject + base verb? | Am/Is/Are + subject + going to + base verb? |
