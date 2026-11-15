@@ -1,0 +1,150 @@
+# LR merge gate: runs when an "LR auto-fix" run finishes (workflow_run fires even though that
+# workflow's own pushes/PRs, made with GITHUB_TOKEN, can't trigger workflows), or by hand.
+# It squash-merges an open `lr-auto` PR only if:
+#   - the head commit has status `lr-gate` = success (set by lr-fix.yml after validate, lint,
+#     build, audit_semantic, lychee and e2e all passed on that exact commit),
+#   - the PR still only touches allowed paths (<= 6 modified files) and is mergeable,
+#   - fewer than 10 lr-auto PRs were merged today (Europe/Madrid day).
+# Otherwise it labels PR + issue `lr-needs-coco` and comments why. Merging to main publishes
+# (Cloudflare Pages). See docs/LR-AUTOFIX.md.
+name: LR merge gate
+
+on:
+  workflow_run:
+    workflows: ["LR auto-fix"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "PR number to evaluate (empty = all open lr-auto PRs)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  statuses: read
+
+concurrency:
+  # One gate at a time so the daily cap can't be overrun. A dropped pending run is harmless:
+  # every run re-scans all open lr-auto PRs.
+  group: lr-merge
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ONLY_PR: ${{ github.event.inputs.pr }}
+      DAILY_CAP: "10"
+      MAX_FILES: "6"
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Gate and merge
+        shell: python3 {0}
+        run: |
+          import json, os, re, subprocess, time
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          REPO, CAP, MAXF = os.environ["REPO"], int(os.environ["DAILY_CAP"]), int(os.environ["MAX_FILES"])
+          RUN_URL, ONLY = os.environ["RUN_URL"], os.environ.get("ONLY_PR", "").strip()
+          OK = re.compile(r"^(src/content/lessons/[A-Za-z0-9_-]+/[A-Za-z0-9_.-]+\.md"
+                          r"|src/data/practice/[A-Za-z0-9_.-]+\.json"
+                          r"|src/data/quizzes/[A-Za-z0-9_.-]+\.json"
+                          r"|src/components/[A-Za-z0-9_/.-]+\.(astro|js|mjs|ts|css))$")
+          MAD = ZoneInfo("Europe/Madrid")
+
+          def gh(*args, check=True):
+              r = subprocess.run(["gh", *args], capture_output=True, text=True)
+              if check and r.returncode != 0:
+                  raise RuntimeError(f"gh {' '.join(args[:3])}: {r.stderr.strip()}")
+              return r.stdout
+
+          def api(path, *extra):
+              return json.loads(gh("api", path, *extra) or "null")
+
+          def comment(num, body):
+              gh("api", "-X", "POST", f"repos/{REPO}/issues/{num}/comments", "-f", f"body={body}", check=False)
+
+          def label(num, *names):
+              args = []
+              for n in names: args += ["-f", f"labels[]={n}"]
+              gh("api", "-X", "POST", f"repos/{REPO}/issues/{num}/labels", *args, check=False)
+
+          def stop(pr, issue, why):
+              print(f"PR #{pr} -> lr-needs-coco: {why}")
+              msg = f"🤖 **Aturat: cal la Coco.**\n\n**Motiu:** {why}\n\nExecució: {RUN_URL}"
+              for n in {pr, issue} - {None}:
+                  label(n, "lr-needs-coco"); comment(n, msg)
+
+          def merged_today():
+              today = datetime.now(MAD).date()
+              prs = json.loads(gh("pr", "list", "-R", REPO, "--state", "merged", "--label", "lr-auto",
+                                  "--limit", "100", "--json", "number,mergedAt"))
+              return sum(1 for p in prs if p.get("mergedAt") and
+                         datetime.fromisoformat(p["mergedAt"].replace("Z", "+00:00")).astimezone(MAD).date() == today)
+
+          if ONLY:
+              cands = [api(f"repos/{REPO}/pulls/{ONLY}")]
+          else:
+              cands = json.loads(gh("pr", "list", "-R", REPO, "--state", "open", "--label", "lr-auto",
+                                    "--base", "main", "--limit", "50", "--json", "number"))
+              cands = [api(f"repos/{REPO}/pulls/{c['number']}") for c in cands]
+          cands.sort(key=lambda p: p["number"])
+          print(f"{len(cands)} candidate PR(s)")
+
+          done = merged_today()
+          print(f"lr merges today (Europe/Madrid): {done}/{CAP}")
+
+          for pr in cands:
+              n, head, ref = pr["number"], pr["head"]["sha"], pr["head"]["ref"]
+              labels = {l["name"] for l in pr["labels"]}
+              m = re.fullmatch(r"lr/issue-(\d+)", ref)
+              issue = int(m.group(1)) if m else None
+              if pr["state"] != "open" or "lr-auto" not in labels or "lr-needs-coco" in labels:
+                  print(f"PR #{n}: not eligible (state/labels)"); continue
+              if not m or pr["base"]["ref"] != "main" or pr["head"]["repo"]["full_name"] != REPO \
+                 or pr["user"]["login"] != "github-actions[bot]":
+                  stop(n, issue, "Aquest PR no l'ha creat el flux automàtic (branca, base o autor inesperats)."); continue
+
+              st = api(f"repos/{REPO}/commits/{head}/statuses?per_page=100")
+              gate = next((s for s in st if s["context"] == "lr-gate"), None)  # newest first
+              if not gate or gate["state"] != "success":
+                  print(f"PR #{n}: lr-gate not green on {head[:7]} -> waiting"); continue
+
+              files = api(f"repos/{REPO}/pulls/{n}/files?per_page=100")
+              bad = [f["filename"] for f in files if f["status"] != "modified" or not OK.match(f["filename"]) or ".." in f["filename"]]
+              if bad or not files or len(files) > MAXF:
+                  stop(n, issue, f"Fitxers no permesos o massa fitxers ({len(files)}): {', '.join(bad) or '-'}"); continue
+
+              for _ in range(10):
+                  pr = api(f"repos/{REPO}/pulls/{n}")
+                  if pr["mergeable"] is not None: break
+                  time.sleep(6)
+              if pr["mergeable"] is not True or pr["head"]["sha"] != head:
+                  stop(n, issue, "El PR no es pot fusionar net (conflicte amb main o ha canviat mentrestant)."); continue
+
+              if done >= CAP:
+                  stop(n, issue, f"daily cap reached: ja s'han publicat {done} arreglaments automàtics avui (màxim {CAP}). "
+                                 "Per publicar-lo: treu l'etiqueta lr-needs-coco del PR i torna a executar «LR merge gate» (o fusiona'l a mà)."); continue
+
+              r = subprocess.run(["gh", "api", "-X", "PUT", f"repos/{REPO}/pulls/{n}/merge",
+                                  "-f", "merge_method=squash", "-f", f"sha={head}",
+                                  "-f", f"commit_title=LR fix #{issue}: {pr['title']} (#{n})"],
+                                 capture_output=True, text=True)
+              if r.returncode != 0:
+                  stop(n, issue, f"La fusió ha fallat: {r.stderr.strip()[:300]}"); continue
+              sha = json.loads(r.stdout).get("sha", "")
+              done += 1
+              print(f"PR #{n} merged as {sha[:7]} ({done}/{CAP} today)")
+              label(n, "lr-fixed"); label(issue, "lr-fixed")
+              comment(issue, f"✅ Publicat. PR #{n} fusionat a main (commit {sha[:7]}); Cloudflare Pages el desplega en pocs minuts.\n\n"
+                             f"Per desfer-ho: revertir el commit {sha[:7]} (vegeu docs/LR-AUTOFIX.md).")
+              gh("issue", "close", str(issue), "-R", REPO, check=False)
+              gh("api", "-X", "DELETE", f"repos/{REPO}/git/refs/heads/{ref}", check=False)
