@@ -38,7 +38,7 @@ draft: false
 | used to (affirmative) | subject + used to + base verb | I **used to play** tennis. |
 | used to (negative) | subject + didn’t use to + base verb | I **didn’t use to like** it. |
 | used to (question) | Did + subject + use to + base verb? | **Did** you **use to live** here? |
-| would (affirmative) | subject + would (**’d**) + base verb | We**’d visit** every summer. |
+| would (affirmative) | subject + would (**’d**) + base verb | **We’d visit** every summer. |
 
 After *did* and *didn’t*, it’s **use to** (no *-d*), because *did* already shows the past: *Did you use to…? / I didn’t use to…*
 
@@ -76,7 +76,7 @@ For actions that happened again and again, often when telling a story or remembe
 
 Stories often start with *used to* and continue with *would*.
 
-- When I was little, we **used to** go to my grandma’s. She**’d make** pancakes and we**’d play** in the garden.
+- When I was little, we **used to** go to my grandma’s. **She’d make** pancakes and **we’d play** in the garden.
 
 ## Used to, would or past simple?
 
