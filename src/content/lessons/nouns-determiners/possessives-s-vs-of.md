@@ -106,8 +106,8 @@ For things, we often just put two nouns together:
 
 | Form | Meaning |
 |---|---|
-| He**'s** tall. | he **is** |
-| She**'s** got a cat. | she **has** |
+| **He's** tall. | he **is** |
+| **She's** got a cat. | she **has** |
 | **Tom's** bike | possession |
 
 ## Common mistakes
