@@ -735,7 +735,11 @@ const uid = 'lc';
         const reason = it.wrongReasons[chosenIndex] || '';
         feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was <b>' + it.choices[it.correct] + '</b>.';
       }
-      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', String(it.choices[it.correct]).split('→').pop().trim()) });
+      const fullAns = String(it.choices[it.correct]).split('→').pop().trim();
+      // A contraction answer (’d better) attaches to the word before the gap: no space; avoid doubled final punctuation.
+      let detailText = (it.text || it.sentText || '').replace(/ \{\{blank\}\}/, /^[’']/.test(fullAns) ? '{{blank}}' : ' {{blank}}');
+      detailText = detailText.replace('{{blank}}', fullAns).replace(/([.?!])\1+$/, '$1');
+      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: detailText });
       scoreText.textContent = 'Score: ' + totalScore();
       appendNext();
     }
