@@ -380,12 +380,14 @@ const uid = 'lc';
       // Name the auxiliary that is actually in this sentence (never a fixed label).
       const aux = correctWords[cIdx];
       const first = (correctWords[0] || '').toLowerCase();
-      const afterWh = cIdx === 1 && WH_WORDS.indexOf(first) !== -1;
+      // "How long had they…", "How many … had": wh-phrase of up to 2 words before the auxiliary.
+      const afterWh = WH_WORDS.indexOf(first) !== -1 && (cIdx === 1 || (first === 'how' && cIdx === 2));
+      const whPhrase = correctWords.slice(0, cIdx).join(' ');
 
       if (bIdx === -1) return "Don’t forget “" + aux + "” in this sentence.";
       if (bIdx !== cIdx) {
         if (cIdx === 0) return "In a question, “" + aux + "” comes first, before the subject.";
-        if (afterWh) return "In a question with “" + correctWords[0] + "”, “" + aux + "” comes right after it, before the subject.";
+        if (afterWh) return "In a question with “" + whPhrase + "”, “" + aux + "” comes right after it, before the subject.";
         return "“" + aux + "” goes right after the subject, not somewhere else.";
       }
       return "Check the order of the words after “" + aux + "”.";
