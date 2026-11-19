@@ -1490,8 +1490,8 @@
       {
         "tokens": [
           "Where",
-          "did",
           "you",
+          "had",
           "lived",
           "before",
           "you",
@@ -1499,12 +1499,12 @@
           "here?"
         ],
         "errorIndex": 1,
-        "correction": "had you lived",
-        "type": "Wrong tense",
-        "message": "A question about the earlier situation takes ‘had you lived’.",
+        "correction": "had you",
+        "type": "Word order",
+        "message": "In a question, ‘had’ goes before the subject: ‘Where had you lived’.",
         "errorSpan": [
           1,
-          3
+          2
         ]
       },
       {
