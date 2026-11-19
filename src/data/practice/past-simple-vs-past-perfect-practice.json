@@ -1876,7 +1876,6 @@
         "use": "Wrong tense",
         "tokens": [
           "She",
-          "had",
           "opened",
           "the",
           "door",
@@ -1885,12 +1884,12 @@
           "walked",
           "in."
         ],
-        "errorIndex": 6,
+        "errorIndex": 5,
         "correction": "walked",
         "message": "A simple sequence takes the past simple.",
         "errorSpan": [
-          6,
-          7
+          5,
+          6
         ]
       },
       {
