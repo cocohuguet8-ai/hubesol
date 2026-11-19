@@ -14,7 +14,7 @@ answerNote: "Numbers + noun before another noun are singular and hyphenated: a t
 quiz: "compound-nouns-quiz-1"
 faq:
   - q: "Why is it 'a shoe shop', not 'a shoes shop'?"
-    a: "The first noun acts like an adjective, so it stays singular: a shoe shop, a book shelf, a tooth brush — even though it sells shoes or holds books."
+    a: "The first noun acts like an adjective, so it stays singular: a shoe shop, a book shelf, a toothbrush — even though it sells shoes or holds books."
   - q: "Which part becomes plural?"
     a: "Only the last word: bus stops, car parks, toothbrushes. For 'mother-in-law' the plural is 'mothers-in-law' (the main noun is 'mother')."
   - q: "One word, two words, or a hyphen?"
