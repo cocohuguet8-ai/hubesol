@@ -144,6 +144,8 @@ const { quiz, next, back } = Astro.props;
         let vs = [base];
         vs = vs.flatMap((t) => (/'d\b/.test(t) ? [t.replace(/'d\b/g, ' had'), t.replace(/'d\b/g, ' would')] : [t]));
         vs = vs.flatMap((t) => (t.search(reS) >= 0 ? [t.replace(reS, '$1 is'), t.replace(reS, '$1 has')] : [t]));
+        // Blank right after the printed subject ("It ___"): a bare "'s believed" = "is/has believed".
+        vs = vs.flatMap((t) => (/^'s\s/.test(t) ? [t.replace(/^'s\b/, 'is'), t.replace(/^'s\b/, 'has')] : [t]));
         return vs.map(norm);
       };
       const typed = readings(raw);
