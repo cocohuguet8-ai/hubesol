@@ -135,7 +135,10 @@
       "question": "She works in a shoes shop.",
       "hint": "Type the whole corrected sentence.",
       "answers": ["She works in a shoe shop"],
-      "explanation": "The first noun in a compound stays singular: a shoe shop."
+      "explanation": "The first noun in a compound stays singular: a shoe shop.",
+      "common": [
+        {"answer": "She works in a shoe-shop", "why": "Your noun is singular, which is right, but ‘shoe shop’ is normally written as two words, without a hyphen."}
+      ]
     },
     {
       "type": "write",
