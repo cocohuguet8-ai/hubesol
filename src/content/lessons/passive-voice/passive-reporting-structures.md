@@ -61,8 +61,8 @@ The subject of the second clause moves to the front, and the verb becomes an **i
 
 | Time of the second action | Infinitive | Example |
 |---|---|---|
-| same time (now) | **to + base verb** | She **is thought to live** in Paris. |
-| happening now | **to be + -ing** | He **is believed to be hiding** in the mountains. |
+| same time (now): a state or general fact | **to + base verb** | She **is thought to live** in Paris. (a general fact: she lives there) |
+| happening now: an action in progress at this moment | **to be + -ing** | He **is believed to be hiding** in the mountains. (right now, at this moment) |
 | earlier (past) | **to have + past participle** | The painting **is said to have been stolen** in 1990. |
 | earlier, in progress | **to have been + -ing** | They **are thought to have been working** together. |
 
