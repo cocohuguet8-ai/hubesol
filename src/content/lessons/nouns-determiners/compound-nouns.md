@@ -40,8 +40,8 @@ A **compound noun** is two (or more) words that work together as **one noun**.
 | Type | Example |
 |---|---|
 | noun + noun | **bus stop**, **football**, **toothbrush** |
-| adjective + noun | **blackboard**, **swimming pool**, **high school** |
-| verb-ing + noun | **washing machine**, **dining room** |
+| adjective + noun | **blackboard**, **high school** |
+| verb-ing + noun | **swimming pool**, **washing machine**, **dining room** |
 | noun + verb-ing | **bird-watching**, **sightseeing** |
 
 ## The main word comes last
