@@ -4,7 +4,7 @@ description: "How to form the past perfect continuous, when to use it, and the m
 level: "B2"
 hub: "Verb Tenses"
 hubSlug: "verb-tenses"
-answerBox: "The past perfect continuous (had been + verb-ing) says how long an action had been in progress before a point in the past (By 6pm I had been working for eight hours) or explains a past result with an earlier activity (She was tired because she had been running). Use had been + -ing. For a completed earlier action, use the past perfect (I had finished)."
+answerBox: "The past perfect continuous (had been + verb-ing) says how long an action had been in progress before a point in the past (By 6pm, I had been working for eight hours) or explains a past result with an earlier activity (She was tired because she had been running). Use had been + -ing. For a completed earlier action, use the past perfect (I had finished)."
 answerLead: "The past perfect continuous (had been + verb-ing) is for how long an action had lasted before a past point. Use it for:"
 answerPoints:
   - "Duration before a past moment — By 6pm, I had been working for eight hours."
