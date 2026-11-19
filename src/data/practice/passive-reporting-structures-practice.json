@@ -1135,19 +1135,20 @@
       {
         "tokens": [
           "It",
-          "are",
+          "is",
           "said",
           "to",
           "be",
-          "wolves",
+          "no",
+          "water",
           "in",
           "this",
-          "forest."
+          "well."
         ],
         "errorIndex": 0,
         "correction": "There",
         "type": "There or it",
-        "message": "Existence: ‘There are said to be wolves’."
+        "message": "Existence: ‘There is said to be no water…’."
       },
       {
         "tokens": [
@@ -1561,15 +1562,15 @@
           "thought",
           "to",
           "be",
-          "a",
-          "problem",
-          "with",
-          "the",
-          "engine."
+          "no",
+          "hope",
+          "of",
+          "finding",
+          "survivors."
         ],
         "errorIndex": 0,
         "correction": "There",
-        "message": "Existence: ‘There is thought to be a problem’."
+        "message": "Existence: ‘There is thought to be no hope…’."
       }
     ]
   }
