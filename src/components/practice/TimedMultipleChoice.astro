@@ -297,7 +297,9 @@ const uid = 'tm';
         } else {
           yourDiv.className = 'ryour';
           const yourText = a.chosenIndex === -1 ? 'No answer (time ran out)' : a.q.choices[a.chosenIndex];
-          yourDiv.textContent = 'Your answer: ' + yourText + '. Correct: ' + a.q.choices[a.q.correct] + '.';
+          const endMark = (t) => (/[.!?]$/.test(t) ? '' : '.');
+          const correctText = a.q.choices[a.q.correct];
+          yourDiv.textContent = 'Your answer: ' + yourText + endMark(yourText) + ' Correct: ' + correctText + endMark(correctText);
         }
         row.appendChild(yourDiv);
         list.appendChild(row);
