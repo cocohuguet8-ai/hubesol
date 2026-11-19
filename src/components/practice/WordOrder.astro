@@ -259,6 +259,9 @@ const uid = 'wo';
         if (cIdx > 0 && !afterWh && (builtWords[0] || '').toLowerCase() !== (correctWords[0] || '').toLowerCase()) return genericOrderHint(builtWords, correctWords);
         if (cIdx === 0) return "In a question, “" + aux + "” comes first, before the subject.";
         if (afterWh) return "In a question with “" + whPhrase + "”, “" + aux + "” comes right after it, before the subject.";
+        if (correctWords.slice(cIdx + 1, cIdx + 3).some((w) => w.toLowerCase() === 'been') && correctWords.some((w, k) => k > cIdx && /ing$/.test(w))) {
+          return "“" + aux + "” goes between its subject and “been” + -ing.";
+        }
         return "“" + aux + "” goes between its subject and the past participle.";
       }
       if (cIdx === 0 && /ing$/.test(correctWords[2] || '')) {
