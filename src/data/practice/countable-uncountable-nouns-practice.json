@@ -929,14 +929,15 @@
         "tokens": [
           "I",
           "have",
-          "too",
-          "many",
+          "a",
+          "lot",
+          "of",
           "homeworks."
         ],
-        "errorIndex": 4,
-        "correction": "exercises.",
+        "errorIndex": 5,
+        "correction": "homework.",
         "type": "Plural uncountable",
-        "message": "‘Homework’ is uncountable; with ‘many’ use a countable noun like ‘exercises’."
+        "message": "‘Homework’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
       },
       {
         "tokens": [
