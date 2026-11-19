@@ -523,7 +523,7 @@ const uid = 'lc';
         feedback.className = 'practice-feedback show bad';
         let specific = diagnoseFill(raw, it);
         // Drop the generic "Check ... — it should be X" line: it only repeats the correct form.
-        if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
+        if (specific && /^Check [^"“”]*— it should be ["“”][^"“”]*["“”]\.?$/.test(specific)) specific = '';
         const escForm = String(it.display).toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const mentionsForm = !!specific && new RegExp('[\'"‘’“”]' + escForm + '[\'"‘’“”]').test(String(specific).toLowerCase());
         feedback.innerHTML = (mentionsForm ? '<b>Not quite.</b> ' : '<b>Not quite — the correct form is “' + it.display + '”.</b> ') + (specific || '') + (it.wrongNote ? ' ' + it.wrongNote : '');
