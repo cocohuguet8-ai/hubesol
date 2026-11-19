@@ -1003,12 +1003,13 @@
           "You",
           "should",
           "called",
-          "her."
+          "her",
+          "tomorrow."
         ],
         "errorIndex": 2,
         "correction": "call",
         "type": "Past after a modal",
-        "message": "For present advice, use the base verb: ‘You should call her’."
+        "message": "For present advice, use the base verb: ‘You should call her tomorrow’."
       },
       {
         "tokens": [
@@ -1201,7 +1202,7 @@
           "I",
           "think",
           "you",
-          "will",
+          "shoud",
           "try",
           "this",
           "restaurant",
@@ -1211,8 +1212,8 @@
         ],
         "errorIndex": 3,
         "correction": "should",
-        "type": "Wrong modal",
-        "message": "A recommendation uses ‘should’: ‘I think you should try…’."
+        "type": "Spelling",
+        "message": "The modal is spelled ‘should’: ‘I think you should try…’."
       }
     ]
   },
