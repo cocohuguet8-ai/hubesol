@@ -1160,16 +1160,16 @@
       {
         "tokens": [
           "I",
-          "drank",
-          "a",
-          "bottle",
-          "of",
-          "tea."
+          "did",
+          "my",
+          "homeworks",
+          "last",
+          "night."
         ],
         "errorIndex": 3,
-        "correction": "cup",
-        "type": "Unit word",
-        "message": "We normally say ‘a cup of tea’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "correction": "homework",
+        "type": "Plural uncountable",
+        "message": "‘Homework’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
       }
     ]
   },
