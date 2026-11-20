@@ -775,12 +775,12 @@
       },
       {
         "use": "Recent report",
-        "text": "Pol (two seconds ago): “I’m coming!” → Pol says he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> coming.",
+        "text": "Pol (two seconds ago): “I’m coming!” → Pol says <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> coming.",
         "choices": [
-          "was",
-          "’s",
-          "had been",
-          "would be"
+          "he was",
+          "he’s",
+          "he had been",
+          "he would be"
         ],
         "correct": 1,
         "wrongReasons": [
