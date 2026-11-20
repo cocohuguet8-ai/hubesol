@@ -380,7 +380,7 @@ const uid = 'gf';
       // A hint like “(since / for)” offers a choice between two words, not a verb to include.
       if (/^\(.*\/.*\)$/.test(String(hint || '').trim())) return '';
       const hv = String(hint || '').replace(/[()]/g, '').split('/').pop().trim().toLowerCase();
-      if (!hv || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0 || /^\(?do\/does\)?$/i.test(String(hint || '').trim())) return '';
+      if (!hv || !/[a-z]/i.test(hv) || hv === 'auxiliary' || hv.indexOf('auxiliary') === 0 || /^\(?do\/does\)?$/i.test(String(hint || '').trim())) return '';
       const u = normalize(rawText);
       if (u && u.split(' ').indexOf(hv) === -1 && String(display).toLowerCase().split(' ').indexOf(hv) !== -1) {
         return 'Type the whole verb phrase, including the verb from the hint (“' + hv + '”).';
