@@ -35,7 +35,7 @@ draft: false
 
 ## What is the indefinite article?
 
-**A** and **an** go before a **singular countable noun** when we don't mean one specific thing. (Choose *a* or *an* by the first **sound** of the next word.)
+**A** and **an** go before a **singular countable noun** when we don't mean one specific thing. (Choose *a* or *an* by the first **sound** of the next word — see below.)
 
 | Use | Example |
 |---|---|
@@ -45,6 +45,20 @@ draft: false
 | "One" | I need **a** pen. |
 | Per / every | twice **a** week, 50 km **an** hour |
 | Exclamations | What **a** day! |
+
+## A or an? Choose by sound
+
+Use **a** before a **consonant sound** and **an** before a **vowel sound**. It depends on how the word is *pronounced*, not on how it is spelled.
+
+| Rule | Example |
+|---|---|
+| **an** + vowel sound (a, e, i, o, u sounds) | **an** apple, **an** egg, **an** umbrella |
+| **a** + consonant sound | **a** book, **a** car, **a** house |
+| Silent *h* → vowel sound → **an** | **an** hour, **an** honest man, **an** honour |
+| *u* pronounced /juː/ (like "you") → consonant sound → **a** | **a** university, **a** uniform, **a** European city |
+| Pronounced *h* → **a** | **a** hotel, **a** horse |
+
+> ⚠️ Typical error: ~~an university~~ → *a university* · ~~a hour~~ → *an hour*
 
 ## When to use a / an
 
