@@ -17,7 +17,7 @@
         "use": "Singular countable",
         "before": "I bought",
         "after": "new lamp for my room.",
-        "hint": "a / an / some",
+        "hint": "(a / an / some)",
         "answers": [
           "a"
         ],
@@ -28,7 +28,7 @@
         "use": "Singular countable",
         "before": "She’s got",
         "after": "umbrella in her bag.",
-        "hint": "a / an / some",
+        "hint": "(a / an / some)",
         "answers": [
           "an"
         ],
@@ -39,7 +39,7 @@
         "use": "Uncountable",
         "before": "Can I have",
         "after": "water, please?",
-        "hint": "a / an / some",
+        "hint": "(a / an / some)",
         "answers": [
           "some"
         ],
@@ -50,7 +50,7 @@
         "use": "Uncountable",
         "before": "We need",
         "after": "information about the course.",
-        "hint": "a / an / some",
+        "hint": "(a / an / some)",
         "answers": [
           "some"
         ],
@@ -61,7 +61,7 @@
         "use": "Uncountable",
         "before": "My teacher gave me",
         "after": "good advice.",
-        "hint": "a / an / some",
+        "hint": "(a / an / some)",
         "answers": [
           "some"
         ],
@@ -105,7 +105,7 @@
         "use": "No plural",
         "before": "We bought some new",
         "after": "for the flat.",
-        "hint": "furniture",
+        "hint": "(uncountable)",
         "answers": [
           "furniture"
         ],
@@ -116,7 +116,7 @@
         "use": "No plural",
         "before": "I have a lot of",
         "after": "tonight.",
-        "hint": "homework",
+        "hint": "(uncountable)",
         "answers": [
           "homework"
         ],
@@ -127,7 +127,7 @@
         "use": "Singular verb",
         "before": "The news",
         "after": "really good today.",
-        "hint": "is / are",
+        "hint": "(is / are)",
         "answers": [
           "is"
         ],
@@ -138,7 +138,7 @@
         "use": "Singular verb",
         "before": "Your hair",
         "after": "beautiful.",
-        "hint": "is / are",
+        "hint": "(is / are)",
         "answers": [
           "is"
         ],
@@ -149,7 +149,7 @@
         "use": "Singular verb",
         "before": "The weather",
         "after": "terrible this week.",
-        "hint": "is / are",
+        "hint": "(is / are)",
         "answers": [
           "is"
         ],
@@ -160,7 +160,7 @@
         "use": "Plural verb",
         "before": "The children",
         "after": "in the garden.",
-        "hint": "is / are",
+        "hint": "(is / are)",
         "answers": [
           "are"
         ],
@@ -171,7 +171,7 @@
         "use": "Many / much",
         "before": "How",
         "after": "brothers have you got?",
-        "hint": "many / much",
+        "hint": "(many / much)",
         "answers": [
           "many"
         ],
@@ -182,7 +182,7 @@
         "use": "Many / much",
         "before": "How",
         "after": "money do you need?",
-        "hint": "many / much",
+        "hint": "(many / much)",
         "answers": [
           "much"
         ],
@@ -193,7 +193,7 @@
         "use": "Many / much",
         "before": "There isn’t",
         "after": "milk in the fridge.",
-        "hint": "many / much",
+        "hint": "(many / much)",
         "answers": [
           "much"
         ],
@@ -204,7 +204,7 @@
         "use": "Many / much",
         "before": "There aren’t",
         "after": "eggs left.",
-        "hint": "many / much",
+        "hint": "(many / much)",
         "answers": [
           "many"
         ],
@@ -215,7 +215,7 @@
         "use": "Unit word",
         "before": "Would you like a",
         "after": "of cake?",
-        "hint": "piece / slice",
+        "hint": "(piece / slice)",
         "answers": [
           "piece",
           "slice"
@@ -227,7 +227,7 @@
         "use": "Unit word",
         "before": "I’ll have a",
         "after": "of tea, please.",
-        "hint": "cup / glass",
+        "hint": "(cup / glass)",
         "answers": [
           "cup"
         ],
@@ -1195,7 +1195,7 @@
         "type": "fill",
         "use": "Uncountable",
         "sentText": "I need {{blank}} help with my project.",
-        "hint": "a / some",
+        "hint": "(a / some)",
         "answers": [
           "some"
         ],
@@ -1207,7 +1207,7 @@
         "type": "fill",
         "use": "Many / much",
         "sentText": "How {{blank}} eggs do we need?",
-        "hint": "many / much",
+        "hint": "(many / much)",
         "answers": [
           "many"
         ],
@@ -1219,7 +1219,7 @@
         "type": "fill",
         "use": "Singular verb",
         "sentText": "The news {{blank}} on TV now.",
-        "hint": "is / are",
+        "hint": "(is / are)",
         "answers": [
           "is"
         ],
