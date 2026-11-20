@@ -4,11 +4,11 @@ description: "How to form the first conditional, when to use it, and the mistake
 level: "B1"
 hub: "Conditionals"
 hubSlug: "conditionals"
-answerBox: "The first conditional (if + present simple, will + base verb) talks about a real, likely future: If it rains, I'll stay home. The if-clause uses the present simple — never 'will' — and the result clause uses will (or be going to, a modal, or an imperative). Use it for future possibilities, warnings, promises and offers."
+answerBox: "The first conditional (if + present simple, will + base verb) talks about a real, likely future: If it rains, I'll stay home. The if-clause uses the present simple — never 'will' — and the result clause uses will (or be going to, a modal, or an imperative). Use it for future possibilities, warnings, threats, promises and offers."
 answerLead: "The first conditional (if + present simple, will + base verb) is for a real future possibility. Use it for:"
 answerPoints:
   - "A likely future result — If it rains, I'll stay home."
-  - "Warnings, promises and offers — If you touch that, you'll burn yourself."
+  - "Warnings, threats, promises and offers — If you touch that, you'll burn yourself."
 answerNote: "The if-clause uses the present simple (not 'will'); the result uses will. You can replace will with 'be going to', a modal, or an imperative."
 quiz: "first-conditional-quiz-1"
 faq:
@@ -22,7 +22,7 @@ faq:
     a: "Yes: I'll stay home if it rains. Use no comma when the if-clause is second."
 teacherObjectives:
   - "Can form the first conditional with if + present simple and will + base verb (CEFR B1)."
-  - "Can use it for future possibilities, warnings, promises and offers."
+  - "Can use it for future possibilities, warnings, threats, promises and offers."
   - "Can avoid 'will' in the if-clause."
 related:
   - { title: "All conditionals", href: "/grammar/conditionals/" }
