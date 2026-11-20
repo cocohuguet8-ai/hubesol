@@ -161,7 +161,7 @@
         "use": "Can’t move back",
         "before": "“I had already eaten.” → He said he",
         "after": "already eaten.",
-        "hint": "had",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -172,7 +172,7 @@
         "use": "Can’t move back",
         "before": "“You should rest.” → The doctor said I",
         "after": "rest.",
-        "hint": "should",
+        "hint": "(auxiliary)",
         "answers": [
           "should"
         ],
@@ -183,7 +183,7 @@
         "use": "Can’t move back",
         "before": "“It might snow.” → They said it",
         "after": "snow.",
-        "hint": "might",
+        "hint": "(auxiliary)",
         "answers": [
           "might"
         ],
@@ -194,7 +194,7 @@
         "use": "Can’t move back",
         "before": "“I would love to come.” → She said she",
         "after": "love to come.",
-        "hint": "would",
+        "hint": "(auxiliary)",
         "answers": [
           "would"
         ],
@@ -1311,7 +1311,7 @@
         "type": "fill",
         "use": "Can’t move back",
         "sentText": "“You should study.” → She said I {{blank}} study.",
-        "hint": "should",
+        "hint": "(auxiliary)",
         "answers": [
           "should"
         ],
