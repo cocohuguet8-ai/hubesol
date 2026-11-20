@@ -80,6 +80,7 @@ In English, jobs always need an article.
 ### 6. Exclamations with *what*
 
 - What **a** great idea! — What **an** amazing view!
+- With plurals and uncountable nouns there is no article: What lovely weather! — What terrible shoes! (not ~~What a lovely weather!~~)
 
 ## When NOT to use a / an
 
