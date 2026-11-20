@@ -71,7 +71,7 @@ When we talk about something for the first time, the listener doesn't know which
 
 ### 2. Jobs and roles
 
-In English, jobs always need an article.
+When you say what someone’s job is, use *a/an* with the singular job word. (Plural jobs and titles used as a unique role, like *She became president*, don’t take *a/an*.)
 
 - My mum is **a** teacher. — He wants to be **an** engineer.
 
