@@ -110,8 +110,8 @@ See [Reported Statements & Backshift](/grammar/reported-speech/reported-statemen
 
 **2. Keeping the present when it's no longer true.** *~~She said she lives in Paris~~* (she moved last year) → **She said she lived in Paris.**
 
-**3. Moving modals that don't change.** *~~He said I should have rest~~* → **He said I should rest.**
+**3. Changing a modal that doesn’t need to change.** *~~He said I should rested~~* → **He said I should rest.**
 
-**4. Double backshift of the past perfect.** *~~She said she had had left~~* → **She said she had left.**
+**4. Wrong verb form in the past perfect.** *~~She said she had went~~* → **She said she had left.**
 
 **Pro tip:** ask "Is it still true right now?" If yes, you can keep the original tense.
