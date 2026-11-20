@@ -1322,7 +1322,8 @@
         "tokens": [
           "If",
           "I",
-          "had",
+          "will",
+          "have",
           "time",
           "tomorrow,",
           "I’ll",
@@ -1331,8 +1332,12 @@
         ],
         "errorIndex": 2,
         "correction": "have",
-        "type": "Wrong tense",
-        "message": "With ‘I’ll’ in the result, the if-clause takes the present simple: ‘have’."
+        "type": "Will in the if-clause",
+        "message": "After ‘if’ we use the present simple, not ‘will’: ‘If I have time tomorrow, I’ll help you’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
