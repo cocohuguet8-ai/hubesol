@@ -733,7 +733,7 @@ const uid = 'lc';
       } else {
         feedback.className = 'practice-feedback show bad';
         const reason = it.wrongReasons[chosenIndex] || '';
-        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was <b>' + it.choices[it.correct] + '</b>.';
+        feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was <b>' + it.choices[it.correct] + '</b>' + (/[.!?]$/.test(String(it.choices[it.correct]).trim()) ? '' : '.');
       }
       results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', String(it.choices[it.correct]).split('→').pop().trim()) });
       scoreText.textContent = 'Score: ' + totalScore();
