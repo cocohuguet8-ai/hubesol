@@ -55,7 +55,7 @@
         "'Coffee's cup' adds an incorrect apostrophe.",
         "'Coffees cup' wrongly pluralises the first noun.",
         "Correct! First noun singular: 'coffee cup'.",
-        "'Cup coffee' is the wrong order."
+        "'Cup coffee' is the wrong order: the correct form is 'coffee cup'."
       ]
     },
     {
@@ -88,7 +88,7 @@
         "Correct! Compound noun, first part singular: 'washing machine'.",
         "'Washings machine' is not correct.",
         "'Washing's machine' adds an incorrect apostrophe.",
-        "'Machine washing' is the wrong order."
+        "'Machine washing' is the wrong order: the correct form is 'washing machine'."
       ]
     },
     {
@@ -126,7 +126,7 @@
       "answers": ["minute"],
       "explanation": "In a compound like this the noun stays singular: a ten-minute walk.",
       "common": [
-        {"answer": "minutes", "why": "The first part of a compound stays singular: a ten-minute walk."}
+        {"answer": "minutes", "why": "‘Minutes’ is plural, but here ‘minute’ works like an adjective and takes no -s."}
       ]
     },
     {
