@@ -188,7 +188,7 @@
           "might"
         ],
         "display": "might",
-        "explain": "‘Might’ stays the same. Keep the original tense unless the situation has changed."
+        "explain": "‘Might’ stays the same."
       },
       {
         "use": "Can’t move back",
@@ -681,7 +681,7 @@
           "",
           "‘Was left’ is passive."
         ],
-        "explain": "The past perfect can’t move back further. Keep the original tense unless the situation has changed."
+        "explain": "The past perfect can’t move back further."
       },
       {
         "use": "Can’t move back",
@@ -699,7 +699,7 @@
           "‘Had to’ changes advice into obligation.",
           ""
         ],
-        "explain": "‘Should’ doesn’t change in reported speech. Keep the original tense unless the situation has changed."
+        "explain": "‘Should’ doesn’t change in reported speech."
       },
       {
         "use": "Can’t move back",
@@ -735,7 +735,7 @@
           "",
           "‘Wouldn’t know’ changes the meaning."
         ],
-        "explain": "After a future reporting verb, keep the present. Keep the original tense unless the situation has changed."
+        "explain": "After a future reporting verb, keep the present."
       },
       {
         "use": "Past simple",
@@ -771,7 +771,7 @@
           "Double backshift.",
           "‘This film’ is singular."
         ],
-        "explain": "After ‘says’, keep the present. Keep the original tense unless the situation has changed."
+        "explain": "After ‘says’, keep the present."
       },
       {
         "use": "Recent report",
@@ -789,7 +789,7 @@
           "Double backshift.",
           "‘Would be’ changes the meaning."
         ],
-        "explain": "Present reporting verb about now: keep the present. Keep the original tense unless the situation has changed."
+        "explain": "Present reporting verb about now: keep the present."
       },
       {
         "use": "Fact",
@@ -825,7 +825,7 @@
           "After ‘has said’ no backshift.",
           "After ‘will say’ no backshift."
         ],
-        "explain": "Past reporting verb + no longer true → backshift. Keep the original tense unless the situation has changed."
+        "explain": "Past reporting verb + no longer true → backshift."
       },
       {
         "use": "Which",
@@ -843,7 +843,7 @@
           "Double backshift after a present verb.",
           "After ‘wouldn’t’ use the base verb."
         ],
-        "explain": "Present reporting verb → keep the tense. Keep the original tense unless the situation has changed."
+        "explain": "Present reporting verb → keep the tense."
       },
       {
         "use": "Can’t move back",
@@ -861,7 +861,7 @@
           "",
           "‘Had love’ is wrong."
         ],
-        "explain": "‘Would’ doesn’t change. Keep the original tense unless the situation has changed."
+        "explain": "‘Would’ doesn’t change."
       },
       {
         "use": "Can’t move back",
@@ -879,7 +879,7 @@
           "‘Could have’ changes the meaning.",
           "‘Had could’ is impossible."
         ],
-        "explain": "‘Could’ (past ability) doesn’t change. Keep the original tense unless the situation has changed."
+        "explain": "‘Could’ (past ability) doesn’t change."
       },
       {
         "use": "No longer true",
@@ -915,7 +915,7 @@
           "",
           "‘Would close’ changes the meaning."
         ],
-        "explain": "Signs ‘say’ in the present: keep the tense. Keep the original tense unless the situation has changed."
+        "explain": "Signs ‘say’ in the present: keep the tense."
       },
       {
         "use": "Still true",
@@ -933,7 +933,7 @@
           "‘Have’ (possess) isn’t continuous.",
           ""
         ],
-        "explain": "Still true: keep the present (had is also possible). Keep the original tense unless the situation has changed."
+        "explain": "Still true: keep the present (had is also possible)."
       }
     ]
   },
@@ -1016,7 +1016,7 @@
         "errorIndex": 3,
         "correction": "is",
         "type": "Backshift after will say",
-        "message": "After ‘will say’, keep the present. Keep the original tense unless the situation has changed."
+        "message": "After ‘will say’, keep the present."
       },
       {
         "tokens": [
@@ -1111,7 +1111,7 @@
         "errorIndex": 5,
         "correction": "rest.",
         "type": "Should",
-        "message": "‘Should’ + base verb: ‘should rest’. Keep the original tense unless the situation has changed."
+        "message": "‘Should’ + base verb: ‘should rest’."
       },
       {
         "tokens": [
@@ -1124,7 +1124,7 @@
         "errorIndex": 3,
         "correction": "might",
         "type": "Might",
-        "message": "Modals never take -s: ‘might rain’. Keep the original tense unless the situation has changed."
+        "message": "Modals never take -s: ‘might rain’."
       },
       {
         "tokens": [
@@ -1156,7 +1156,7 @@
         "errorIndex": 3,
         "correction": "could",
         "type": "Could",
-        "message": "Past ability: ‘could swim’. Keep the original tense unless the situation has changed."
+        "message": "Past ability: ‘could swim’."
       },
       {
         "tokens": [
@@ -1201,7 +1201,7 @@
         "errorIndex": 1,
         "correction": "says",
         "type": "Third person",
-        "message": "‘Laia’ needs -s: ‘says’. Keep the original tense unless the situation has changed."
+        "message": "‘Laia’ needs -s: ‘says’."
       },
       {
         "tokens": [
@@ -1218,7 +1218,7 @@
         "errorIndex": 1,
         "correction": "said",
         "type": "Said or told",
-        "message": "No person: ‘He said that…’. Keep the original tense unless the situation has changed."
+        "message": "No person: ‘He said that…’."
       },
       {
         "tokens": [
@@ -1232,7 +1232,7 @@
         "errorIndex": 4,
         "correction": "gone",
         "type": "Past participle",
-        "message": "Participle: ‘had gone’. Keep the original tense unless the situation has changed."
+        "message": "Participle: ‘had gone’."
       },
       {
         "tokens": [
