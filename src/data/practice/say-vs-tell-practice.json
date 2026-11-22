@@ -14,13 +14,13 @@
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type say, says, said, tell, tells or told. Remember: tell + person; say + words (or say + to + person). Twenty original sentences.",
+    "subtitle": "Type the correct form of say or tell. Twenty original sentences.",
     "questions": [
       {
         "use": "Fill the gap",
         "before": "Laia",
         "after": "that she was tired after the trip.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "said"
         ],
@@ -31,7 +31,7 @@
         "use": "Fill the gap",
         "before": "Laia",
         "after": "me that she was tired after the trip.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "told"
         ],
@@ -42,7 +42,7 @@
         "use": "Fill the gap",
         "before": "The weather forecast",
         "after": "it would rain all weekend.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "said"
         ],
@@ -53,7 +53,7 @@
         "use": "Fill the gap",
         "before": "Can you",
         "after": "me the way to the station?",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
@@ -64,7 +64,7 @@
         "use": "Fill the gap",
         "before": "Please",
         "after": "your parents about the trip.",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
@@ -75,7 +75,7 @@
         "use": "Fill the gap",
         "before": "What did he",
         "after": "? I couldn’t hear him.",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "say"
         ],
@@ -86,7 +86,7 @@
         "use": "Fill the gap",
         "before": "What did the doctor",
         "after": "you?",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
@@ -97,7 +97,7 @@
         "use": "Fill the gap",
         "before": "She said goodbye",
         "after": "everyone and left.",
-        "hint": "to / —",
+        "hint": "Type one word.",
         "answers": [
           "to"
         ],
@@ -108,7 +108,7 @@
         "use": "Fill the gap",
         "before": "“I’m ready,” Marc",
         "after": ".",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "said"
         ],
@@ -119,7 +119,7 @@
         "use": "Fill the gap",
         "before": "My grandpa",
         "after": "us a story every night.",
-        "hint": "says / tells",
+        "hint": "Type the verb.",
         "answers": [
           "tells"
         ],
@@ -130,7 +130,7 @@
         "use": "Fill the gap",
         "before": "My dad always",
         "after": "that I should read more.",
-        "hint": "says / tells",
+        "hint": "Type the verb.",
         "answers": [
           "says"
         ],
@@ -141,7 +141,7 @@
         "use": "Fill the gap",
         "before": "You should always",
         "after": "the truth.",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
@@ -152,7 +152,7 @@
         "use": "Fill the gap",
         "before": "He",
         "after": "a lie to get out of trouble.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "told"
         ],
@@ -163,7 +163,7 @@
         "use": "Fill the gap",
         "before": "Don’t forget to",
         "after": "thank you to your aunt.",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "say"
         ],
@@ -174,7 +174,7 @@
         "use": "Fill the gap",
         "before": "Can you",
         "after": "the difference between these two photos?",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
@@ -185,7 +185,7 @@
         "use": "Fill the gap",
         "before": "She",
         "after": "sorry for being late.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "said"
         ],
@@ -196,7 +196,7 @@
         "use": "Fill the gap",
         "before": "The teacher",
         "after": "us to open our books.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "told"
         ],
@@ -207,7 +207,7 @@
         "use": "Fill the gap",
         "before": "Mum",
         "after": "me not to stay up late.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "told"
         ],
@@ -218,7 +218,7 @@
         "use": "Fill the gap",
         "before": "My little brother can’t",
         "after": "the time yet.",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
@@ -229,7 +229,7 @@
         "use": "Fill the gap",
         "before": "Everybody laughed when he",
         "after": "a joke.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "told"
         ],
@@ -496,7 +496,7 @@
         "right": "say"
       },
       {
-        "left": "___ the time",
+        "left": "___ us the answer",
         "right": "tell"
       },
       {
@@ -549,15 +549,13 @@
         "choices": [
           "told",
           "said",
-          "says",
-          "tells to"
+          "says"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Said’ can’t be followed directly by a person like ‘me’.",
-          "‘Says me’ has the same problem — and it’s present, not past.",
-          "‘Tell to me’ is wrong: ‘tell’ takes the person directly."
+          "‘Says me’ has the same problem — and it’s present, not past."
         ],
         "explain": "A person comes straight after the verb, so ‘tell’ (past: told) is needed."
       },
@@ -565,17 +563,15 @@
         "use": "Choose the answer",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she was moving to London.",
         "choices": [
-          "told",
-          "said",
           "tells",
-          "told to"
+          "said",
+          "told"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Told’ needs a person after it: ‘told me / us’.",
-          "",
           "‘Tells’ is present and still needs a person.",
-          "‘Told to’ is used for instructions, not reported statements."
+          "",
+          "‘Told’ needs a person after it: ‘told me / us’."
         ],
         "explain": "No person after the verb, so ‘say’ (past: said) is right."
       },
@@ -601,17 +597,15 @@
         "use": "Choose the answer",
         "text": "Always <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the truth, even when it’s difficult.",
         "choices": [
-          "say",
-          "speak",
+          "tell",
           "talk",
-          "tell"
+          "say"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘Say the truth’ is a very common mistake: the fixed phrase uses ‘tell’.",
-          "‘Speak the truth’ is old-fashioned or literary.",
+          "",
           "‘Talk the truth’ is wrong.",
-          ""
+          "‘Say the truth’ is a very common mistake: the fixed phrase uses ‘tell’."
         ],
         "explain": "The fixed phrase is ‘tell the truth’."
       },
@@ -692,14 +686,12 @@
         "text": "The coach <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us to warm up before the match.",
         "choices": [
           "said",
-          "said to",
           "told",
           "tell"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "‘Said us to’ is wrong: ‘say’ can’t take a person directly.",
-          "‘Said to us to warm up’ is very unnatural.",
           "",
           "‘Tell’ is present; the coach spoke in the past."
         ],
@@ -709,17 +701,15 @@
         "use": "Choose the answer",
         "text": "“We’re going to win,” the captain <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "told",
-          "told us",
-          "tells to",
-          "said"
+          "tell",
+          "said",
+          "told"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
-          "‘Told’ needs a person, and direct speech normally uses ‘said’.",
-          "Possible, but ‘said’ is the normal verb after a quote.",
-          "‘Tells to’ is wrong.",
-          ""
+          "‘Tell’ needs a person and the past form here.",
+          "",
+          "‘Told’ needs a person, and direct speech normally uses ‘said’."
         ],
         "explain": "After a direct quote, ‘said’ is the usual verb."
       },
@@ -729,14 +719,12 @@
         "choices": [
           "tell",
           "say",
-          "say to",
           "speak"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Say me’ is wrong.",
-          "‘Say to me how’ is very unnatural.",
           "‘Speak me’ is wrong."
         ],
         "explain": "‘Tell me’ = give me information."
@@ -781,17 +769,15 @@
         "use": "Choose the answer",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a lie and got into trouble.",
         "choices": [
-          "told",
-          "said",
           "spoke",
-          "did"
+          "said",
+          "told"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "‘Said a lie’ is a common mistake.",
           "‘Spoke a lie’ is wrong.",
-          "‘Did a lie’ is wrong."
+          "‘Said a lie’ is a common mistake.",
+          ""
         ],
         "explain": "Fixed phrase: tell a lie → told a lie."
       },
@@ -801,15 +787,13 @@
         "choices": [
           "Tell to Joan I’ll call her.",
           "Tell Joan I’ll call her.",
-          "Say Joan I’ll call her.",
-          "Say to Joan that I’ll call her tell."
+          "Say Joan I’ll call her."
         ],
         "correct": 1,
         "wrongReasons": [
           "No ‘to’ after ‘tell’.",
           "",
-          "‘Say’ can’t take a person directly.",
-          "This makes no sense."
+          "‘Say’ can’t take a person directly."
         ],
         "explain": "‘Tell’ + person directly: Tell Joan…"
       },
@@ -817,17 +801,15 @@
         "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
-          "He said me the news.",
-          "He told to me the news.",
           "He told me the news.",
-          "He said the news me."
+          "He told to me the news.",
+          "He said me the news."
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "‘Said me’ is wrong.",
-          "No ‘to’ after ‘told’.",
           "",
-          "Wrong word order."
+          "No ‘to’ after ‘told’.",
+          "‘Said me’ is wrong."
         ],
         "explain": "‘Tell’ + person + thing: told me the news."
       },
@@ -837,15 +819,13 @@
         "choices": [
           "tell",
           "say",
-          "speak",
-          "talk"
+          "speak"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Say the difference’ is wrong.",
-          "‘Speak the difference’ is wrong.",
-          "‘Talk the difference’ is wrong."
+          "‘Speak the difference’ is wrong."
         ],
         "explain": "Fixed phrase: tell the difference."
       },
@@ -853,17 +833,15 @@
         "use": "Choose the answer",
         "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the sign that the shop opens at ten.",
         "choices": [
-          "tells",
-          "says",
           "tell",
-          "said to"
+          "says",
+          "tells"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Tells’ would need a person.",
-          "",
           "‘Tell’ needs -s and a person.",
-          "‘Said to’ is wrong here."
+          "",
+          "‘Tells’ would need a person."
         ],
         "explain": "Signs and texts ‘say’ something."
       },
@@ -872,14 +850,12 @@
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Pau about the party, but he forgot.",
         "choices": [
           "said",
-          "said to",
           "told",
           "tell"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "‘Said Pau’ is wrong.",
-          "‘Said to Pau about the party’ is unnatural.",
           "",
           "‘Tell’ is present; this is past."
         ],
@@ -889,17 +865,15 @@
         "use": "Choose the answer",
         "text": "Grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us a story every night.",
         "choices": [
-          "says",
-          "says to",
+          "tells",
           "speaks",
-          "tells"
+          "says"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘Says us’ is wrong.",
-          "‘Says to us a story’ is wrong.",
+          "",
           "‘Speaks us’ is wrong.",
-          ""
+          "‘Says us’ is wrong."
         ],
         "explain": "Tell + person + a story."
       }
@@ -1075,17 +1049,18 @@
       },
       {
         "tokens": [
-          "He",
+          "I",
           "can’t",
           "say",
           "the",
-          "time",
-          "yet."
+          "difference",
+          "between",
+          "them."
         ],
         "errorIndex": 2,
         "correction": "tell",
         "type": "Fixed phrase",
-        "message": "Fixed phrase: ‘tell the time’."
+        "message": "Fixed phrase: ‘tell the difference’."
       },
       {
         "tokens": [
@@ -1202,9 +1177,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "Tell",
+        "use": "Fill the gap",
         "sentText": "He {{blank}} us he was leaving.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "told"
         ],
@@ -1214,9 +1189,9 @@
       },
       {
         "type": "fill",
-        "use": "Say",
+        "use": "Fill the gap",
         "sentText": "He {{blank}} he was leaving.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "said"
         ],
@@ -1226,21 +1201,21 @@
       },
       {
         "type": "fill",
-        "use": "Fixed phrase",
+        "use": "Fill the gap",
         "sentText": "Don’t {{blank}} lies to your friends.",
-        "hint": "say / tell",
+        "hint": "Type the verb.",
         "answers": [
           "tell"
         ],
         "display": "tell",
-        "explain": "The fixed phrase is ‘tell lies’, never ‘say lies’.",
+        "explain": "The fixed phrase is ‘tell lies’, not ‘say lies’.",
         "wrongNote": "Lies → ‘tell’."
       },
       {
         "type": "fill",
-        "use": "Fixed phrase",
+        "use": "Fill the gap",
         "sentText": "We {{blank}} goodbye at the station.",
-        "hint": "said / told",
+        "hint": "Type the verb.",
         "answers": [
           "said"
         ],
@@ -1250,7 +1225,7 @@
       },
       {
         "type": "order",
-        "use": "Tell",
+        "use": "Put in order",
         "tokens": [
           "She",
           "told",
@@ -1261,7 +1236,7 @@
       },
       {
         "type": "order",
-        "use": "Say",
+        "use": "Put in order",
         "tokens": [
           "He",
           "said",
@@ -1272,7 +1247,7 @@
       },
       {
         "type": "order",
-        "use": "Say to",
+        "use": "Put in order",
         "tokens": [
           "I",
           "said",
@@ -1283,7 +1258,7 @@
       },
       {
         "type": "order",
-        "use": "Instructions",
+        "use": "Put in order",
         "tokens": [
           "Mum",
           "told",
@@ -1409,17 +1384,15 @@
       {
         "type": "mc",
         "use": "Choose the answer",
-        "text": "The doctor {{blank}} me to rest for a week.",
+        "text": "Yesterday the doctor {{blank}} me to rest for a week.",
         "choices": [
           "said",
-          "said to",
           "tells",
           "told"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "‘Said me to’ is wrong.",
-          "‘Said to me to rest’ is unnatural.",
           "This happened in the past.",
           ""
         ],
