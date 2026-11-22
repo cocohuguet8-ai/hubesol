@@ -26,7 +26,12 @@
           "will stay",
           "’ll stay",
           "'ll stay",
-          "ll stay"
+          "ll stay",
+          "are going to stay",
+          "’re going to stay",
+          "'re going to stay",
+          "might stay",
+          "may stay"
         ],
         "display": "will stay",
         "explain": "The result of a likely future condition takes will + base verb: ‘will stay’."
@@ -64,10 +69,14 @@
           "'ll miss",
           "ll miss",
           "might miss",
-          "may miss"
+          "may miss",
+          "could miss",
+          "are going to miss",
+          "’re going to miss",
+          "'re going to miss"
         ],
         "display": "will miss",
-        "explain": "The result clause comes first here, but it still takes will + base verb."
+        "explain": "The result clause comes first here, but it still takes will + base verb (might, may and be going to also work)."
       },
       {
         "use": "Fill the gap",
@@ -75,10 +84,12 @@
         "after": "nice, we’ll have a picnic.",
         "hint": "(be)",
         "answers": [
-          "is"
+          "is",
+          "’s",
+          "'s"
         ],
         "display": "is",
-        "explain": "Present simple of ‘be’ with ‘the weather’ (it): ‘is’, not ‘will be’."
+        "explain": "Present simple of ‘be’ with ‘the weather’ (it): ‘is’ or ‘’s’, not ‘will be’."
       },
       {
         "use": "Fill the gap",
@@ -89,10 +100,15 @@
           "won’t catch",
           "won't catch",
           "wont catch",
-          "will not catch"
+          "will not catch",
+          "might not catch",
+          "may not catch",
+          "aren’t going to catch",
+          "aren't going to catch",
+          "are not going to catch"
         ],
         "display": "won’t catch",
-        "explain": "A negative future result: won’t + base verb, ‘won’t catch’."
+        "explain": "A negative future result: won’t + base verb, ‘won’t catch’ (might not or aren’t going to also work)."
       },
       {
         "use": "Fill the gap",
@@ -117,10 +133,15 @@
           "won’t go",
           "won't go",
           "wont go",
-          "will not go"
+          "will not go",
+          "might not go",
+          "may not go",
+          "aren’t going to go",
+          "aren't going to go",
+          "are not going to go"
         ],
         "display": "won’t go",
-        "explain": "The negative result uses won’t + base verb: ‘won’t go’."
+        "explain": "The negative result uses won’t + base verb: ‘won’t go’ (might not or aren’t going to also work)."
       },
       {
         "use": "Fill the gap",
@@ -131,10 +152,15 @@
           "will burn",
           "’ll burn",
           "'ll burn",
-          "ll burn"
+          "ll burn",
+          "are going to burn",
+          "’re going to burn",
+          "'re going to burn",
+          "might burn",
+          "may burn"
         ],
         "display": "will burn",
-        "explain": "A warning about a likely result: will + base verb."
+        "explain": "A warning about a likely result: will + base verb (might or be going to also work)."
       },
       {
         "use": "Fill the gap",
@@ -156,10 +182,14 @@
           "will make",
           "’ll make",
           "'ll make",
-          "ll make"
+          "ll make",
+          "am going to make",
+          "’m going to make",
+          "'m going to make",
+          "can make"
         ],
         "display": "will make",
-        "explain": "A promise: will + base verb in the result, ‘I’ll make’."
+        "explain": "A promise: will + base verb in the result, ‘I’ll make’ (‘I can make’ also works)."
       },
       {
         "use": "Fill the gap",
@@ -181,10 +211,11 @@
           "will close",
           "’ll close",
           "'ll close",
-          "ll close"
+          "ll close",
+          "can close"
         ],
         "display": "will close",
-        "explain": "An offer made now about a future action: ‘I’ll close’."
+        "explain": "An offer made now about a future action: ‘I’ll close’ (‘I can close’ also works)."
       },
       {
         "use": "Fill the gap",
@@ -203,10 +234,11 @@
         "after": "the match?",
         "hint": "(they / cancel)",
         "answers": [
-          "will they cancel"
+          "will they cancel",
+          "are they going to cancel"
         ],
         "display": "will they cancel",
-        "explain": "A future question: will + subject + base verb, ‘will they cancel’."
+        "explain": "A future question: will + subject + base verb, ‘will they cancel’ (‘are they going to cancel’ also works)."
       },
       {
         "use": "Fill the gap",
@@ -316,6 +348,17 @@
             "I",
             "see",
             "her."
+          ],
+          [
+            "I’ll",
+            "give",
+            "her",
+            "the",
+            "book",
+            "if",
+            "I",
+            "see",
+            "Anna."
           ]
         ]
       },
@@ -794,8 +837,8 @@
         "right": "you’ll feel sick."
       },
       {
-        "left": "If my team wins,",
-        "right": "I’ll be really happy."
+        "left": "If my team wins the final,",
+        "right": "the whole city will celebrate."
       },
       {
         "left": "If you don’t water the plants,",
@@ -815,7 +858,7 @@
       },
       {
         "left": "If the café is closed,",
-        "right": "we’ll find another café."
+        "right": "we’ll go to the one next door."
       },
       {
         "left": "If you shout,",
@@ -827,7 +870,7 @@
       },
       {
         "left": "If I get the job,",
-        "right": "I’ll move to Barcelona."
+        "right": "I’ll start work in September."
       },
       {
         "left": "If you don’t charge your phone,",
@@ -857,7 +900,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Never use ‘will’ in the if-clause: the condition takes the present simple.",
+          "‘Will’ doesn’t go in the if-clause: the condition takes the present simple.",
           "‘Rained’ is past; it belongs to the second conditional (imaginary).",
           "‘Would’ belongs to the result of the second conditional, not the if-clause."
         ],
@@ -865,7 +908,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "If you study, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the exam.",
+        "text": "If you study tonight, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the exam tomorrow.",
         "choices": [
           "pass",
           "will pass",
@@ -874,7 +917,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "A future result needs ‘will’; the present simple here sounds like a general truth.",
+          "‘Pass’ is present simple; a result about tomorrow needs ‘will’.",
           "",
           "‘Passed’ is past, but the exam is in the future.",
           "‘Would pass’ is second conditional: imaginary, not a likely future."
@@ -901,7 +944,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "If you don’t hurry, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the bus.",
+        "text": "If you don’t hurry now, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the bus.",
         "choices": [
           "don’t catch",
           "didn’t catch",
@@ -910,7 +953,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "A future result needs ‘won’t’, not the present simple.",
+          "A future result needs ‘won’t’: the bus hasn’t gone yet, so the present simple doesn’t fit.",
           "‘Didn’t catch’ is past; the bus hasn’t gone yet.",
           "‘Wouldn’t’ makes it imaginary (second conditional).",
           ""
@@ -939,14 +982,14 @@
         "use": "Choose the answer",
         "text": "If you touch that wire, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a shock.",
         "choices": [
-          "get",
+          "’ve got",
           "got",
           "’ll get",
           "’d get"
         ],
         "correct": 2,
         "wrongReasons": [
-          "A warning about the future needs ‘will’: ‘you’ll get’.",
+          "‘Have got’ is present perfect: it doesn’t fit a warning about the future.",
           "‘Got’ is past; the danger is in the future.",
           "",
           "’d get’ (would) is for imaginary situations, not a real warning."
@@ -993,14 +1036,14 @@
         "use": "Choose the answer",
         "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> if you miss the last train?",
         "choices": [
-          "do you do",
+          "would you do",
           "you will do",
           "will you do",
           "did you do"
         ],
         "correct": 2,
         "wrongReasons": [
-          "This asks about one future situation, so ‘will’ is needed.",
+          "‘Would you do’ belongs to the second conditional (if you missed…).",
           "Question order is will + subject + verb: ‘will you do’.",
           "",
           "‘Did you do’ asks about the past."
@@ -1009,7 +1052,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "If it snows, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the school close?",
+        "text": "If it snows tomorrow, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the school close?",
         "choices": [
           "does",
           "is",
@@ -1018,7 +1061,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Does’ asks about a general truth; this is one future situation.",
+          "‘Does’ asks about a general rule; ‘tomorrow’ points to one future situation.",
           "‘Is close’ isn’t a correct form.",
           "‘Did’ asks about the past.",
           ""
@@ -1039,7 +1082,7 @@
           "",
           "‘Will can’ is impossible: two modals can’t go together. Use ‘can’ or ‘will be able to’.",
           "‘Could have’ is for the past.",
-          "‘Must’ is never followed by ‘to’."
+          "‘Must’ is followed by the base verb, without ‘to’."
         ],
         "explain": "The result can use a modal: can + base verb."
       },
@@ -1049,14 +1092,14 @@
         "choices": [
           "will",
           "might",
-          "did",
+          "would",
           "would have"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Will’ sounds certain, but the speaker is not sure.",
           "",
-          "‘Did’ is past; this is future.",
+          "‘Would’ belongs to the second conditional (imaginary situations).",
           "‘Would have’ is third conditional (the past)."
         ],
         "explain": "‘Might’ shows a less certain result."
@@ -1065,14 +1108,14 @@
         "use": "Choose the answer",
         "text": "If you see Ana, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her I said hi.",
         "choices": [
-          "you tell",
+          "tells",
           "will tell",
           "told",
           "tell"
         ],
         "correct": 3,
         "wrongReasons": [
-          "An instruction is an imperative with no subject: ‘tell her’.",
+          "An instruction has no -s: ‘tell her’.",
           "‘Will tell’ needs a subject and isn’t an instruction.",
           "‘Told’ is past.",
           ""
@@ -1081,7 +1124,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you leave now, you’ll be late.",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you hurry, you’ll miss the bus.",
         "choices": [
           "Unless",
           "If",
@@ -1091,11 +1134,11 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘If you leave now, you’ll be late’ is the opposite meaning.",
-          "‘When you leave now’ doesn’t make sense: leaving makes you late?",
-          "‘As long as’ means ‘only if’, which reverses the meaning."
+          "‘If you hurry, you’ll miss the bus’ says hurrying makes you miss it: the opposite meaning.",
+          "‘When you hurry, you’ll miss the bus’ doesn’t make sense: hurrying shouldn’t make you miss it.",
+          "‘As long as’ means ‘only if’, which also reverses the meaning."
         ],
-        "explain": "‘Unless’ = ‘if not’: if you don’t leave now, you’ll be late."
+        "explain": "‘Unless’ = ‘if not’: if you don’t hurry, you’ll miss the bus."
       },
       {
         "use": "Choose the answer",
@@ -1146,7 +1189,7 @@
         "wrongReasons": [
           "",
           "‘Had’ is the second conditional, but the result here is ‘I’ll’ (real future).",
-          "‘Would’ never goes in the if-clause.",
+          "‘Would’ doesn’t normally go in the if-clause.",
           "No ‘will’ after ‘if’."
         ],
         "explain": "A real possibility with ‘I’ll’ in the result: present simple ‘have’."
@@ -1180,7 +1223,7 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Never ‘will’ after ‘if’.",
+          "No ‘will’ after ‘if’ here.",
           "‘The price’ is it, so add -es: ‘goes’.",
           "",
           "‘Went’ is past or second conditional."
@@ -1189,7 +1232,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "If it doesn’t rain, the plants <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> grow.",
+        "text": "If it doesn’t rain next week, the plants <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> grow.",
         "choices": [
           "don’t",
           "didn’t",
@@ -1323,34 +1366,40 @@
       {
         "tokens": [
           "If",
-          "I",
-          "had",
-          "time",
+          "it",
+          "rains",
           "tomorrow,",
-          "I’ll",
-          "help",
-          "you."
+          "we",
+          "stayed",
+          "at",
+          "home."
         ],
-        "errorIndex": 2,
-        "correction": "have",
+        "errorIndex": 5,
+        "correction": "will stay",
         "type": "Wrong tense",
-        "message": "With ‘I’ll’ in the result, the if-clause takes the present simple: ‘have’."
+        "message": "A result about tomorrow needs ‘will’: ‘we will stay at home’."
       },
       {
         "tokens": [
           "If",
-          "you",
-          "hurry,",
-          "you",
-          "would",
-          "catch",
-          "the",
-          "bus."
+          "he’s",
+          "late",
+          "again,",
+          "he",
+          "going",
+          "to",
+          "lose",
+          "his",
+          "job."
         ],
         "errorIndex": 4,
-        "correction": "will",
-        "type": "Wrong tense",
-        "message": "A real future takes ‘will’; ‘would’ is for imaginary situations."
+        "correction": "he’s going",
+        "type": "Missing be",
+        "message": "‘Be going to’ needs ‘be’: ‘he’s going to lose his job’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1597,10 +1646,17 @@
           "will go",
           "’ll go",
           "'ll go",
-          "ll go"
+          "ll go",
+          "can go",
+          "could go",
+          "might go",
+          "may go",
+          "are going to go",
+          "’re going to go",
+          "'re going to go"
         ],
         "display": "will go",
-        "explain": "The result takes will + base verb: ‘will go’.",
+        "explain": "The result takes will + base verb: ‘will go’ (can, might or be going to also work).",
         "wrongNote": "Use will + base verb: ‘will go’."
       },
       {
@@ -1612,10 +1668,15 @@
           "won’t be",
           "won't be",
           "wont be",
-          "will not be"
+          "will not be",
+          "might not be",
+          "may not be",
+          "aren’t going to be",
+          "aren't going to be",
+          "are not going to be"
         ],
         "display": "won’t be",
-        "explain": "A negative future result: won’t + base verb.",
+        "explain": "A negative future result: won’t + base verb (might not or aren’t going to also work).",
         "wrongNote": "Use won’t + base verb: ‘won’t be’."
       },
       {
@@ -1728,14 +1789,14 @@
           "will should",
           "should",
           "should to",
-          "are should"
+          "ought"
         ],
         "correct": 1,
         "wrongReasons": [
           "Two modals can’t go together: no ‘will should’.",
           "",
           "‘Should’ is followed by the base verb, not ‘to’.",
-          "‘Are should’ isn’t a possible form."
+          "‘Ought’ needs ‘to’: ‘ought to see’."
         ],
         "explain": "Advice in the result clause: should + base verb."
       },
@@ -1744,14 +1805,14 @@
         "use": "Choose the answer",
         "text": "If he’s late again, he {{blank}} lose his job.",
         "choices": [
-          "’s go to",
+          "’s going",
           "going to",
           "will going to",
           "’s going to"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Be going to’ needs ‘go’ + -ing: ‘is going to’.",
+          "‘Be going to’ needs ‘to’: ‘he’s going to lose’.",
           "It needs ‘be’: ‘he’s going to’.",
           "Never mix ‘will’ and ‘going to’.",
           ""
@@ -1764,14 +1825,14 @@
         "text": "If you get lost, {{blank}} me.",
         "choices": [
           "call",
-          "you will calling",
+          "don’t call",
           "calls",
           "to call"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: after ‘will’ use the base verb; an instruction needs the imperative.",
+          "‘Don’t call’ means the opposite: this instruction needs the positive imperative.",
           "An imperative never has -s.",
           "An imperative has no ‘to’."
         ],
@@ -1785,14 +1846,14 @@
           "might to",
           "will might",
           "might",
-          "mights"
+          "must to"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Might’ is followed by the base verb, no ‘to’.",
           "Two modals can’t go together.",
           "",
-          "Modals never take -s."
+          "‘Must’ is followed by the base verb, without ‘to’."
         ],
         "explain": "‘Might’ + base verb shows a possible, less certain result."
       },
@@ -1821,14 +1882,14 @@
         "text": "If you don’t stop, I {{blank}} the teacher.",
         "choices": [
           "’ll tell",
-          "tell",
+          "tells",
           "told",
           "would tell"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "A warning about the future needs ‘will’.",
+          "‘I’ takes no -s, and a warning about the future needs ‘I’ll tell’.",
           "‘Told’ is past.",
           "‘Would tell’ belongs to the second conditional (imagined situations). This is a real warning, so use will."
         ],
@@ -1867,7 +1928,7 @@
         "wrongReasons": [
           "The result is ‘I’ll’, a real future, so not the past.",
           "",
-          "‘Would’ never goes after ‘if’ here.",
+          "‘Would’ doesn’t go in this if-clause.",
           "No ‘will’ after ‘if’."
         ],
         "explain": "A real possibility with ‘I’ll’: present simple ‘win’."

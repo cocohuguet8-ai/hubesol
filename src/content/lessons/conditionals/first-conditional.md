@@ -4,7 +4,7 @@ description: "How to form the first conditional, when to use it, and the mistake
 level: "B1"
 hub: "Conditionals"
 hubSlug: "conditionals"
-answerBox: "The first conditional (if + present simple, will + base verb) talks about a real, likely future: If it rains, I'll stay home. The if-clause uses the present simple — never 'will' — and the result clause uses will (or be going to, a modal, or an imperative). Use it for future possibilities, warnings, threats, promises and offers."
+answerBox: "The first conditional (if + present simple, will + base verb) talks about a real, likely future: If it rains, I'll stay home. The if-clause uses the present simple — not 'will' — and the result clause uses will (or be going to, a modal, or an imperative). Use it for future possibilities, warnings, threats, promises and offers."
 answerLead: "The first conditional (if + present simple, will + base verb) is for a real future possibility. Use it for:"
 answerPoints:
   - "A likely future result — If it rains, I'll stay home."
