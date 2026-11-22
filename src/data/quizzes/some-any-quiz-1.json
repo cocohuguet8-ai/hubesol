@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "There's ___ milk in the fridge.",
-      "options": ["a", "any", "some", "much"],
+      "options": [
+        "a",
+        "any",
+        "some",
+        "much"
+      ],
       "answer": 2,
       "explanations": [
         "'A milk' is wrong — milk is uncountable.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I don't have ___ money.",
-      "options": ["some", "any", "a", "much of"],
+      "options": [
+        "some",
+        "any",
+        "a",
+        "much of"
+      ],
       "answer": 1,
       "explanations": [
         "'Some' isn't normally used in negatives.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Would you like ___ tea?",
-      "options": ["some", "any", "a", "many"],
+      "options": [
+        "some",
+        "any",
+        "a",
+        "many"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Offers use 'some': 'Would you like some tea?'",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Are there ___ tickets left?",
-      "options": ["much", "some", "a", "any"],
+      "options": [
+        "much",
+        "some",
+        "a",
+        "any"
+      ],
       "answer": 3,
       "explanations": [
         "'Much' is for uncountables; 'tickets' is countable.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Can I have ___ water, please?",
-      "options": ["many", "any", "a", "some"],
+      "options": [
+        "many",
+        "any",
+        "a",
+        "some"
+      ],
       "answer": 3,
       "explanations": [
         "'Many' is for countable plurals.",
@@ -60,35 +85,50 @@
     },
     {
       "question": "I saw ___ at the door but I'm not sure who.",
-      "options": ["no one", "anyone", "someone", "anybody's"],
+      "options": [
+        "no one",
+        "anyone",
+        "someone",
+        "nobody"
+      ],
       "answer": 2,
       "explanations": [
         "'No one' means nobody was there.",
         "'Anyone' is for negatives/questions.",
         "Correct! Positive sentence takes 'someone'.",
-        "'Anybody's' is a possessive form."
+        "'Nobody' means there was no one at the door."
       ]
     },
     {
       "question": "We didn't buy ___ at the shop.",
-      "options": ["something", "anything", "nothing", "anythings"],
+      "options": [
+        "something",
+        "anything",
+        "nothing",
+        "anywhere"
+      ],
       "answer": 1,
       "explanations": [
         "'Something' is for positives.",
         "Correct! Negative sentence takes 'anything'.",
         "'Didn't buy nothing' is a double negative.",
-        "'Anythings' isn't a word."
+        "'Anywhere' is for places, not things."
       ]
     },
     {
       "question": "You can sit in ___ seat — they're all free.",
-      "options": ["any", "some", "no", "a some"],
+      "options": [
+        "any",
+        "some",
+        "no",
+        "every"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Any' here means 'it doesn't matter which'.",
         "'Some seat' doesn't give the 'whichever' meaning.",
         "'No seat' means none.",
-        "'A some' is not correct."
+        "'Every seat' doesn't give the 'whichever' meaning."
       ]
     },
     {
@@ -109,7 +149,12 @@
     },
     {
       "question": "Which sentence type uses 'some'?",
-      "options": ["All questions.", "Negatives only.", "Positive sentences and offers/requests.", "Never in offers."],
+      "options": [
+        "All questions.",
+        "Negatives only.",
+        "Positive sentences and offers/requests.",
+        "Never in offers."
+      ],
       "answer": 2,
       "explanations": [
         "Most questions take 'any' (offers are the exception).",
@@ -123,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "I don't have ___ money.",
       "hint": "Type some or any.",
-      "answers": ["any"],
+      "answers": [
+        "any"
+      ],
       "explanation": "Negative sentence, so 'any'.",
       "common": [
-        {"answer": "some", "why": "In a negative sentence we use 'any'."}
+        {
+          "answer": "some",
+          "why": "In a negative sentence we use 'any'."
+        }
       ]
     },
     {
@@ -134,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "Would you like any tea?",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Would you like some tea"],
+      "answers": [
+        "Would you like some tea"
+      ],
       "explanation": "In an offer we use 'some'."
     },
     {
@@ -142,10 +194,15 @@
       "kind": "Fill in the gap",
       "question": "I looked everywhere, but I couldn't find my keys ___.",
       "hint": "Type something, anything or anywhere.",
-      "answers": ["anywhere"],
+      "answers": [
+        "anywhere"
+      ],
       "explanation": "Negative sentence, so the 'any-' word: anywhere.",
       "common": [
-        {"answer": "somewhere", "why": "After 'couldn't' we use the 'any-' word: anywhere."}
+        {
+          "answer": "somewhere",
+          "why": "After 'couldn't' we use the 'any-' word: anywhere."
+        }
       ]
     }
   ]

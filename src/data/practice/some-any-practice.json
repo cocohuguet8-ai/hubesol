@@ -11,7 +11,7 @@
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type some, any, or a compound (someone, anything…). Twenty original sentences.",
+    "subtitle": "Type some, any, or a compound (someone, anything…). Twenty original sentences. In these exercises, ordinary questions take any; offers and requests take some.",
     "questions": [
       {
         "use": "Fill the gap",
@@ -216,7 +216,7 @@
       {
         "use": "Fill the gap",
         "before": "There are",
-        "after": "buses after midnight.",
+        "after": "buses after midnight. (The last one leaves at 11 p.m.)",
         "hint": "any / no",
         "answers": [
           "no"
@@ -433,7 +433,7 @@
   },
   "matching": {
     "title": "Some or any?",
-    "subtitle": "Tap a sentence, then tap the word that fills the gap.",
+    "subtitle": "Tap a sentence, then tap the word that fills the gap. In these exercises, ordinary questions take any; offers and requests take some.",
     "leftLabel": "Sentence",
     "rightLabel": "Word",
     "rightLabelSub": "(some / any)",
@@ -523,7 +523,7 @@
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. Positive, offers, requests → some. Negatives and real questions → any.",
+    "subtitle": "15 seconds per question. Positive, offers, requests → some. Negatives and real questions → any. In these exercises, ordinary questions take any; offers and requests take some.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
@@ -639,14 +639,14 @@
         "use": "Choose the answer",
         "text": "Call me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> time — I’m always free.",
         "choices": [
-          "some",
+          "much",
           "no",
           "a",
           "any"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Some time’ means at a certain time, not ‘whenever’.",
+          "‘Much time’ is for amounts of time, not ‘whenever’.",
           "‘No time’ means never.",
           "‘A time’ doesn’t give this meaning.",
           ""
@@ -773,7 +773,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Real question: ‘any’.",
+          "A neutral question normally uses ‘any’.",
           "‘No’ doesn’t fit.",
           "No ‘a’ with plurals."
         ],
@@ -891,7 +891,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences. In these exercises, ordinary questions take any; offers and requests take some.",
     "items": [
       {
         "tokens": [
@@ -1175,7 +1175,7 @@
   },
   "levelCheck": {
     "title": "How well do you know it?",
-    "subtitle": "20 mixed questions — typing, word order, which situation, multiple choice and spot-the-mistake. In the typing questions write one word. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "subtitle": "20 mixed questions — typing, word order, which situation, multiple choice and spot-the-mistake. In the typing questions write one word. One pass, then a breakdown of where you’re strong and where to go back and practise. In these exercises, ordinary questions take any; offers and requests take some.",
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
