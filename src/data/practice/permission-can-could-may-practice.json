@@ -21,9 +21,11 @@
         "use": "Fill the gap",
         "before": "",
         "after": "I borrow your rubber, Joan?",
-        "hint": "can / may",
+        "hint": "(permission)",
         "answers": [
-          "Can"
+          "Can",
+          "Could",
+          "May"
         ],
         "display": "Can",
         "explain": "An informal question to a classmate: ‘Can I…?’."
@@ -32,9 +34,11 @@
         "use": "Fill the gap",
         "before": "Dad,",
         "after": "I watch TV after dinner?",
-        "hint": "can / may",
+        "hint": "(permission)",
         "answers": [
-          "can"
+          "can",
+          "could",
+          "may"
         ],
         "display": "can",
         "explain": "Everyday family request: ‘can’ + base verb."
@@ -43,7 +47,7 @@
         "use": "Fill the gap",
         "before": "You",
         "after": "use your phone during the exam.",
-        "hint": "can / can’t",
+        "hint": "(permission)",
         "answers": [
           "can’t",
           "can't",
@@ -57,9 +61,10 @@
         "use": "Fill the gap",
         "before": "You",
         "after": "park here at weekends — it’s free.",
-        "hint": "can / can’t",
+        "hint": "(permission)",
         "answers": [
-          "can"
+          "can",
+          "may"
         ],
         "display": "can",
         "explain": "Something allowed: can + base verb."
@@ -68,7 +73,7 @@
         "use": "Fill the gap",
         "before": "Students",
         "after": "eat in the library.",
-        "hint": "can / can’t",
+        "hint": "(permission)",
         "answers": [
           "can’t",
           "can't",
@@ -82,9 +87,11 @@
         "use": "Fill the gap",
         "before": "",
         "after": "I leave early today? I have a doctor’s appointment.",
-        "hint": "could / can",
+        "hint": "(permission)",
         "answers": [
-          "Could"
+          "Could",
+          "Can",
+          "May"
         ],
         "display": "Could",
         "explain": "A polite request to a teacher: ‘Could I…?’."
@@ -93,9 +100,11 @@
         "use": "Fill the gap",
         "before": "Excuse me,",
         "after": "I sit here?",
-        "hint": "could / may",
+        "hint": "(permission)",
         "answers": [
-          "could"
+          "could",
+          "can",
+          "may"
         ],
         "display": "could",
         "explain": "Asking a stranger politely: ‘Could I…?’."
@@ -104,9 +113,11 @@
         "use": "Fill the gap",
         "before": "",
         "after": "I come in?",
-        "hint": "may / can",
+        "hint": "(permission)",
         "answers": [
-          "May"
+          "May",
+          "Can",
+          "Could"
         ],
         "display": "May",
         "explain": "A very polite, formal request: ‘May I…?’."
@@ -115,9 +126,11 @@
         "use": "Fill the gap",
         "before": "",
         "after": "I see your ticket, please?",
-        "hint": "may / could",
+        "hint": "(permission)",
         "answers": [
-          "May"
+          "May",
+          "Could",
+          "Can"
         ],
         "display": "May",
         "explain": "Formal official request: ‘May I see…?’."
@@ -126,9 +139,10 @@
         "use": "Fill the gap",
         "before": "Visitors",
         "after": "take photos, but not with flash.",
-        "hint": "may / can",
+        "hint": "(permission)",
         "answers": [
-          "may"
+          "may",
+          "can"
         ],
         "display": "may",
         "explain": "Formal permission on a notice: ‘may’."
@@ -137,18 +151,18 @@
         "use": "Fill the gap",
         "before": "Passengers",
         "after": "use the toilets while the train is in the station.",
-        "hint": "may not / can",
+        "hint": "(permission)",
         "answers": [
           "may not"
         ],
         "display": "may not",
-        "explain": "A formal rule: ‘may not’ (never contracted)."
+        "explain": "A formal rule: ‘may not’ (not contracted)."
       },
       {
         "use": "Fill the gap",
         "before": "When I was little, I",
         "after": "only watch TV at weekends.",
-        "hint": "can / could",
+        "hint": "(permission)",
         "answers": [
           "could"
         ],
@@ -159,7 +173,7 @@
         "use": "Fill the gap",
         "before": "At my old school we",
         "after": "wear jeans.",
-        "hint": "could / couldn’t",
+        "hint": "(permission)",
         "answers": [
           "couldn’t",
           "couldn't",
@@ -173,20 +187,22 @@
         "use": "Fill the gap",
         "before": "“Can I open the window?” “Yes, of course you",
         "after": ".”",
-        "hint": "can / could",
+        "hint": "(permission)",
         "answers": [
-          "can"
+          "can",
+          "may"
         ],
         "display": "can",
-        "explain": "We give permission with ‘can’, never ‘could’."
+        "explain": "We give permission with ‘can’ (or ‘may’), not ‘could’."
       },
       {
         "use": "Fill the gap",
         "before": "“May I use your pen?” “Yes, you",
         "after": ".”",
-        "hint": "may / could",
+        "hint": "(permission)",
         "answers": [
-          "may"
+          "may",
+          "can"
         ],
         "display": "may",
         "explain": "A formal yes repeats ‘may’: Yes, you may."
@@ -195,7 +211,7 @@
         "use": "Fill the gap",
         "before": "“Can we go swimming?” “No, you",
         "after": ". It’s too cold.”",
-        "hint": "can / can’t",
+        "hint": "(permission)",
         "answers": [
           "can’t",
           "can't",
@@ -209,7 +225,7 @@
         "use": "Fill the gap",
         "before": "We aren’t",
         "after": "to run in the corridors.",
-        "hint": "allowed",
+        "hint": "(permission)",
         "answers": [
           "allowed"
         ],
@@ -220,7 +236,7 @@
         "use": "Fill the gap",
         "before": "Will we be",
         "after": "to bring food on the trip?",
-        "hint": "allowed",
+        "hint": "(permission)",
         "answers": [
           "allowed"
         ],
@@ -231,7 +247,7 @@
         "use": "Fill the gap",
         "before": "My parents",
         "after": "me stay out until ten on Fridays.",
-        "hint": "let",
+        "hint": "(permission)",
         "answers": [
           "let"
         ],
@@ -242,7 +258,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "you mind if I close the door?",
-        "hint": "do / can",
+        "hint": "(permission)",
         "answers": [
           "Do"
         ],
@@ -678,7 +694,7 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "We don’t give permission with ‘could’.",
+          "‘Could’ isn’t the usual way to give permission; use ‘can’.",
           "No ‘to’ after ‘may’.",
           "",
           "Short answers repeat a modal, not ‘do’."
@@ -696,12 +712,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘May not’ is never contracted in modern English.",
+          "‘Mayn’t’ isn’t used in modern English.",
           "Modals don’t use ‘don’t’.",
           "‘Not’ goes after the modal.",
           ""
         ],
-        "explain": "Formal notices use ‘may not’, and it is written as two words, never contracted."
+        "explain": "Formal notices use ‘may not’, and it is written as two words, not contracted."
       },
       {
         "use": "Choose the answer",
@@ -788,10 +804,10 @@
         "wrongReasons": [
           "‘Allow’ needs ‘to’: ‘allow me to have’.",
           "",
-          "‘Let’ is never followed by ‘to’.",
+          "‘Let’ isn’t followed by ‘to’.",
           "‘My parents can me’ is wrong."
         ],
-        "explain": "‘Let’ is followed by a person and the base verb, never by ‘to’: let me have."
+        "explain": "‘Let’ is followed by a person and the base verb, without ‘to’: let me have."
       },
       {
         "use": "Choose the answer",
@@ -1267,9 +1283,11 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "{{blank}} I play with your ball?",
-        "hint": "can / may",
+        "hint": "(permission)",
         "answers": [
-          "Can"
+          "Can",
+          "Could",
+          "May"
         ],
         "display": "Can",
         "explain": "An informal request among friends: Can I…?",
@@ -1279,9 +1297,11 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "{{blank}} I help you, sir?",
-        "hint": "may / can",
+        "hint": "(permission)",
         "answers": [
-          "May"
+          "May",
+          "Can",
+          "Could"
         ],
         "display": "May",
         "explain": "Formal and polite: May I…?",
@@ -1291,7 +1311,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "At primary school we {{blank}} leave the playground.",
-        "hint": "could / couldn’t",
+        "hint": "(permission)",
         "answers": [
           "couldn’t",
           "couldn't",
@@ -1306,7 +1326,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Are we {{blank}} to leave early?",
-        "hint": "allowed",
+        "hint": "(permission)",
         "answers": [
           "allowed"
         ],
