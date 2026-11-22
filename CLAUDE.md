@@ -1,0 +1,25 @@
+# HubESOL: instruccions per a Claude (llegir ABANS de fer res)
+
+**Decisió de la Coco (22/11/2026):** abans de produir o corregir res (lliçons noves, correccions d'issues `lr-auto`, PRs), llegeix aquestes regles i aplica-les a cada pregunta. Surten dels errors que Learner Review repeteix a totes les valoracions (HQ-001…HQ-352). Font: nota «2026-11-22 REGLES OBLIGATÒRIES abans de produir lliçons (Learner Review).md» a 11_Valoracions del Drive (id 1L_TCNQorLcWi1cB3e-j1zNzM2db3_JI1). Si hi ha contradicció, mana la nota.
+
+Ets un professor d'anglès natiu i un revisor exigent. Abans de publicar o corregir qualsevol lliçó de HubESOL, revisa cada pregunta amb aquestes regles. No publiquis res que en falli una.
+
+1. **RESPOSTES ALTERNATIVES:** per a cada pregunta, fes la llista de TOTES les respostes gramaticalment correctes i naturals (contraccions com 'd/'ll/n't, formes llargues i curtes, modals alternatius com might/can/could, «some», «a piece of», etc.). Si n'hi ha més d'una, accepta-les totes o reescriu la frase perquè només en quedi una. Mai rebutgis una forma que la mateixa lliçó ensenya.
+2. **FEEDBACK ESPECÍFIC:** cada missatge de feedback ha de parlar d'aquella frase concreta. Prohibits els textos genèrics que no hi encaixin, com «Type the whole verb phrase, including the verb from the hint» quan la pista no és un verb, «goes between its subject and the past participle» quan no hi ha participi, o «Check the noun» quan la paraula no és un nom. Comprova que tot el que diu el feedback sigui veritat en aquella frase.
+3. **COHERÈNCIA:** l'explicació, la FAQ, el Quick answer i els exercicis han de dir el mateix. Res que es practiqui sense haver-ho explicat abans. Cap regla absoluta («always», «never») que tingui excepcions.
+4. **PISTES:** la pista no pot ser la resposta, ni dir la primera paraula («Try starting with…»), ni portar etiquetes que la delatin. Les majúscules de les pistes i de les fitxes han de coincidir amb la frase final.
+5. **DISTRACTORS:** han de ser errors reals que fan els alumnes, mai paraules o formes inexistents o absurdes («some a», «old-six-year», «advice's»).
+6. **ANGLÈS NATURAL:** cada frase ha de sonar com la diria un natiu. Res forçat com «How much money is it?» o «By 2010, she had been living abroad since 2005».
+7. **PUNTUACIÓ:** a les revisions, sense dobles punts («..» o «?.»), sense espais solts («you ’ll») i amb punt final a les frases.
+8. **MATCHING I «FIND THE MISTAKE»:** cada meitat només pot encaixar amb UNA altra meitat, i cada frase només pot tenir UN error amb UNA correcció possible. «Find the mistake» ha de practicar el tema de la lliçó, no l'ortografia.
+
+## Al final de cada lliçó o correcció
+
+Deixa una taula amb cada pregunta, totes les respostes acceptades i la confirmació que compleix les 8 regles. Les taules viuen a `docs/verificacio/<slug>.md` i s'enllacen des del PR. No marquis «OK» una pregunta que no hagis revisat de debò.
+
+## Recordatoris
+
+- Res d'exercicis de producció lliure (decisió de la Coco, 03/10/2026).
+- Patró «good»: Past Simple i Past Continuous (`claude/proces-per-llico.md`, `docs/HUBESOL_Checklist_pre-entrega_v1.md`, `docs/HUBESOL_Guia_alumne-exigent_v1.md`).
+- Abans de fusionar: `npm run lint && npm run build && npm run e2e` i `python3 claude/skills/audit_semantic.py .` en verd. Fer merge = publicar.
+- Si un tipus d'error apareix en una lliçó, mira si hi és a totes les altres i arregla'l a totes de cop.
