@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "\"I'm hungry.\" → She said she ___ hungry.",
-      "options": ["is", "has been", "will be", "was"],
+      "options": [
+        "is",
+        "has been",
+        "will be",
+        "was"
+      ],
       "answer": 3,
       "explanations": [
         "After 'said', present simple backshifts to past simple.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "\"I work in a bank.\" → He said he ___ in a bank.",
-      "options": ["works", "had worked", "worked", "would work"],
+      "options": [
+        "works",
+        "had worked",
+        "worked",
+        "would work"
+      ],
       "answer": 2,
       "explanations": [
         "'Works' keeps the present after a past reporting verb.",
@@ -27,10 +37,15 @@
     },
     {
       "question": "\"I've finished the report.\" → She said she ___ the report.",
-      "options": ["finished", "had finished", "has finished", "would finish"],
+      "options": [
+        "had finish",
+        "had finished",
+        "has finished",
+        "would finish"
+      ],
       "answer": 1,
       "explanations": [
-        "'Finished' is possible informally, but the standard backshift is the past perfect.",
+        "After 'had' you need the past participle: 'had finished'.",
         "Correct! Present perfect → past perfect: 'She said she had finished the report'.",
         "'Has finished' keeps the present perfect, which should backshift.",
         "'Would finish' is the backshift of 'will finish'."
@@ -38,7 +53,12 @@
     },
     {
       "question": "\"I will call you.\" → He said he ___ call me.",
-      "options": ["would", "will", "wills", "had"],
+      "options": [
+        "would",
+        "will",
+        "wills",
+        "had"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Will' → 'would': 'He said he would call me'.",
@@ -49,18 +69,28 @@
     },
     {
       "question": "\"I can swim.\" → She said she ___ swim.",
-      "options": ["can", "can to", "could", "would can"],
+      "options": [
+        "can",
+        "can to",
+        "could",
+        "would can"
+      ],
       "answer": 2,
       "explanations": [
         "'Can' should backshift after 'said'.",
-        "Never add 'to' after a modal.",
+        "Don't add 'to' after a modal.",
         "Correct! 'Can' → 'could': 'She said she could swim'.",
         "'Would can' is not correct English."
       ]
     },
     {
       "question": "\"I like your jacket.\" → He said he liked ___ jacket.",
-      "options": ["your", "their", "his", "my"],
+      "options": [
+        "your",
+        "their",
+        "his",
+        "my"
+      ],
       "answer": 3,
       "explanations": [
         "'Your' refers to the original listener; the pronoun must shift.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "\"I'll see you tomorrow.\" (said on Monday) → She said she'd see me ___.",
-      "options": ["tomorrow", "the next day", "yesterday", "now"],
+      "options": [
+        "tomorrow",
+        "the next day",
+        "yesterday",
+        "now"
+      ],
       "answer": 1,
       "explanations": [
         "'Tomorrow' shifts when we report later.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "\"We are moving house.\" → They said they ___ house.",
-      "options": ["were moving", "are moving", "had moved", "would move"],
+      "options": [
+        "were moving",
+        "are moving",
+        "had moved",
+        "would move"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Present continuous → past continuous: 'They said they were moving house'.",
@@ -128,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "\"I am very tired,\" Tom said. → Tom said he ___ very tired.",
       "hint": "Move the tense one step back.",
-      "answers": ["was"],
+      "answers": [
+        "was"
+      ],
       "explanation": "Present simple backshifts to past simple: am → was.",
       "common": [
-        {"answer": "is", "why": "After a past reporting verb the tense moves back: 'was'."}
+        {
+          "answer": "is",
+          "why": "After a past reporting verb the tense moves back: 'was'."
+        }
       ]
     },
     {
@@ -139,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "She said she has finished the report.",
       "hint": "Type the whole corrected sentence. Move the tense one step back.",
-      "answers": ["She said she had finished the report"],
+      "answers": [
+        "She said she had finished the report"
+      ],
       "explanation": "Present perfect backshifts to past perfect: has finished → had finished."
     },
     {
@@ -147,10 +194,15 @@
       "kind": "Fill in the gap",
       "question": "\"I can drive,\" he said. → He said he ___ drive.",
       "hint": "Move the tense one step back.",
-      "answers": ["could"],
+      "answers": [
+        "could"
+      ],
       "explanation": "'Can' backshifts to 'could'.",
       "common": [
-        {"answer": "can", "why": "After a past reporting verb 'can' becomes 'could'."}
+        {
+          "answer": "can",
+          "why": "After a past reporting verb 'can' becomes 'could'."
+        }
       ]
     }
   ]
