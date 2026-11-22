@@ -20,7 +20,7 @@ faq:
   - q: "What are the common exceptions?"
     a: "Time: at night, at the weekend, in the morning. Place: at home, on the bus, in bed. Learn these as fixed phrases."
   - q: "Why 'at the weekend' but 'on Monday'?"
-    a: "'At the weekend' (British English) is a fixed expression treated as a point; individual days always take 'on'."
+    a: "'At the weekend' (British English) is a fixed expression treated as a point; individual days take 'on'."
 teacherObjectives:
   - "Can apply the small-to-big logic of at/on/in to both time and place (CEFR A2)."
   - "Can select the right preposition in mixed time-and-place contexts."

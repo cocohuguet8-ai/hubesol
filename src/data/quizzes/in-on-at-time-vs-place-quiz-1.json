@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "TIME: The shop opens ___ 9 o'clock.",
-      "options": ["at", "on", "in", "—"],
+      "options": [
+        "at",
+        "on",
+        "in",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A precise time takes 'at': 'at 9 o'clock'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "PLACE: Someone is ___ the door.",
-      "options": ["in", "on", "at", "—"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'In the door' would mean inside it.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "TIME: We're meeting ___ Saturday.",
-      "options": ["at", "on", "in", "—"],
+      "options": [
+        "at",
+        "on",
+        "in",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'At' is for precise times.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "PLACE: The notice is ___ the board.",
-      "options": ["—", "at", "in", "on"],
+      "options": [
+        "—",
+        "at",
+        "in",
+        "on"
+      ],
       "answer": 3,
       "explanations": [
         "A surface needs 'on'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "TIME: It's very cold ___ December.",
-      "options": ["—", "on", "at", "in"],
+      "options": [
+        "—",
+        "on",
+        "at",
+        "in"
+      ],
       "answer": 3,
       "explanations": [
         "A month needs 'in'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "PLACE: The children are playing ___ the garden.",
-      "options": ["at", "on", "in", "—"],
+      "options": [
+        "at",
+        "on",
+        "in",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'At the garden' is not natural here.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "TIME: I usually read ___ night.",
-      "options": ["in", "at", "on", "—"],
+      "options": [
+        "in",
+        "at",
+        "on",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'In the morning' but 'at night'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "PLACE: I'm ___ home this evening.",
-      "options": ["at", "in", "on", "—"],
+      "options": [
+        "at",
+        "in",
+        "on",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'At home' is a fixed expression.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "What's the small-to-big order of these prepositions?",
-      "options": ["in → on → at", "at → on → in", "on → at → in", "at → in → on"],
+      "options": [
+        "in → on → at",
+        "at → on → in",
+        "on → at → in",
+        "at → in → on"
+      ],
       "answer": 1,
       "explanations": [
         "This is the reverse order.",
@@ -123,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "TIME: My birthday is ___ March.",
       "hint": "Type in, on or at.",
-      "answers": ["in"],
+      "answers": [
+        "in"
+      ],
       "explanation": "Months take 'in': in March.",
       "common": [
-        {"answer": "on", "why": "'On' is for days and dates. Months take 'in'."}
+        {
+          "answer": "on",
+          "why": "'On' is for days and dates. Months take 'in'."
+        }
       ]
     },
     {
@@ -134,18 +184,25 @@
       "kind": "Correct the mistake",
       "question": "PLACE: The picture is in the wall.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["The picture is on the wall"],
+      "answers": [
+        "The picture is on the wall"
+      ],
       "explanation": "A surface takes 'on': on the wall."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
-      "question": "PLACE: My sister is ___ the airport now.",
+      "question": "PLACE: My sister is waiting ___ the bus stop now.",
       "hint": "Type in, on or at.",
-      "answers": ["at"],
-      "explanation": "A point or location, so 'at'.",
+      "answers": [
+        "at"
+      ],
+      "explanation": "A point where people wait, so 'at'.",
       "common": [
-        {"answer": "in", "why": "'At the airport' is the usual pattern for a location point."}
+        {
+          "answer": "in",
+          "why": "'In' would mean inside it. A bus stop is a point where people wait: 'at the bus stop'."
+        }
       ]
     }
   ]
