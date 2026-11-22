@@ -11,7 +11,7 @@
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type a or an. If the sentence needs no article, type — (a dash). Twenty original sentences.",
+    "subtitle": "Type a or an. If the sentence needs no article, type — (a dash) or some. In a few sentences you can also type per or one. Twenty original sentences.",
     "formLabel": "article",
     "questions": [
       {
@@ -36,7 +36,7 @@
           "some"
         ],
         "display": "—",
-        "explain": "‘Dolphins’ is plural, so there is no a/an. Leave the gap empty (—) or use ‘some’."
+        "explain": "‘Dolphins’ is plural, so there is no a/an. Type — (a dash) in the gap, or type ‘some’."
       },
       {
         "use": "Fill the gap",
@@ -256,24 +256,13 @@
       {
         "use": "Put it in order",
         "tokens": [
-          "I",
-          "saw",
-          "a",
-          "fox",
-          "in",
+          "A",
+          "cat",
+          "was",
+          "sleeping",
+          "on",
           "the",
-          "garden."
-        ],
-        "alts": [
-          [
-            "in",
-            "the",
-            "garden,",
-            "I",
-            "saw",
-            "a",
-            "fox."
-          ]
+          "sofa."
         ]
       },
       {
@@ -282,11 +271,11 @@
           "There",
           "is",
           "an",
-          "old",
-          "church",
-          "near",
-          "my",
-          "town."
+          "empty",
+          "seat",
+          "next",
+          "to",
+          "me."
         ]
       },
       {
@@ -349,11 +338,9 @@
         "use": "Put it in order",
         "tokens": [
           "The",
-          "car",
-          "was",
-          "going",
-          "fifty",
-          "kilometres",
+          "bus",
+          "leaves",
+          "twice",
           "an",
           "hour."
         ]
@@ -407,12 +394,12 @@
       {
         "use": "Put it in order",
         "tokens": [
-          "I",
+          "We",
           "have",
           "got",
           "a",
-          "younger",
-          "brother."
+          "spare",
+          "room."
         ]
       },
       {
@@ -948,7 +935,7 @@
         "correct": 2,
         "wrongReasons": [
           "‘Honest’ starts with a silent h, so it begins with a vowel sound: ‘an honest’.",
-          "‘Conversation’ is singular and countable, so it needs a/an.",
+          "‘Conversation’ is singular and countable, so it needs an article: ‘an’, because ‘honest’ starts with a silent h (a vowel sound).",
           ""
         ],
         "explain": "Silent h gives a vowel sound: an honest conversation."
@@ -1005,15 +992,14 @@
       },
       {
         "tokens": [
-          "It",
-          "takes",
+          "My",
+          "lesson",
+          "finishes",
+          "in",
           "a",
-          "hour",
-          "to",
-          "get",
-          "there."
+          "hour."
         ],
-        "errorIndex": 2,
+        "errorIndex": 4,
         "correction": "an",
         "type": "Wrong a / an",
         "message": "‘Hour’ has a silent h, so it starts with a vowel sound: ‘an hour’."
@@ -1035,16 +1021,17 @@
       },
       {
         "tokens": [
-          "Have",
+          "Would",
           "you",
-          "got",
+          "like",
           "a",
-          "umbrella?"
+          "ice",
+          "cream?"
         ],
         "errorIndex": 3,
         "correction": "an",
         "type": "Wrong a / an",
-        "message": "‘Umbrella’ starts with a vowel sound (/ʌ/), so we say ‘an umbrella’."
+        "message": "‘Ice’ starts with a vowel sound (/aɪ/), so we say ‘an ice cream’."
       },
       {
         "tokens": [
@@ -1087,46 +1074,44 @@
       },
       {
         "tokens": [
-          "I",
-          "need",
-          "a",
-          "information",
-          "about",
-          "the",
-          "course."
-        ],
-        "errorIndex": 2,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘Information’ is uncountable, so it can’t take a/an: ‘some information’ or ‘a piece of information’."
-      },
-      {
-        "tokens": [
-          "He",
-          "gave",
-          "us",
-          "a",
-          "good",
-          "news."
+          "She",
+          "lives",
+          "in",
+          "an",
+          "European",
+          "city."
         ],
         "errorIndex": 3,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘News’ looks plural but is uncountable, so it can’t take a/an: ‘some good news’ or ‘a piece of good news’."
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘European’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a European city’."
       },
       {
         "tokens": [
-          "Our",
-          "teacher",
-          "gave",
-          "us",
-          "a",
-          "homework."
+          "I",
+          "wear",
+          "an",
+          "uniform",
+          "to",
+          "work."
         ],
-        "errorIndex": 4,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘Homework’ is uncountable, so it can’t take ‘a’: say ‘some homework’."
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘Uniform’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a uniform’."
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "an",
+          "new",
+          "bike."
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘New’ starts with a consonant sound, so we say ‘a new bike’."
       },
       {
         "tokens": [
@@ -1147,21 +1132,18 @@
       },
       {
         "tokens": [
-          "I",
-          "bought",
+          "He",
+          "is",
           "a",
-          "new",
-          "shoes",
-          "yesterday."
+          "heir",
+          "to",
+          "the",
+          "throne."
         ],
         "errorIndex": 2,
-        "correction": "new",
-        "type": "A + plural",
-        "message": "‘Shoes’ is plural, so there is no ‘a’: ‘new shoes’ (or ‘a pair of new shoes’).",
-        "errorSpan": [
-          2,
-          3
-        ]
+        "correction": "an",
+        "type": "Wrong a / an",
+        "message": "‘Heir’ has a silent h, so it starts with a vowel sound: ‘an heir’."
       },
       {
         "tokens": [
@@ -1179,17 +1161,17 @@
       },
       {
         "tokens": [
-          "Apples",
-          "cost",
-          "two",
-          "euros",
-          "the",
-          "kilo."
+          "I’d",
+          "like",
+          "a",
+          "ice",
+          "cream,",
+          "please."
         ],
-        "errorIndex": 4,
-        "correction": "a",
-        "type": "Per",
-        "message": "‘A’ means ‘per’ in prices: ‘two euros a kilo’, not ‘the kilo’."
+        "errorIndex": 2,
+        "correction": "an",
+        "type": "Wrong a / an",
+        "message": "‘Ice cream’ starts with a vowel sound, so we say ‘an ice cream’."
       },
       {
         "tokens": [
@@ -1223,17 +1205,16 @@
       },
       {
         "tokens": [
-          "I",
-          "saw",
-          "fox",
-          "in",
-          "the",
-          "garden."
+          "We’ve",
+          "got",
+          "dog",
+          "called",
+          "Max."
         ],
         "errorIndex": 2,
-        "correction": "a fox",
+        "correction": "a dog",
         "type": "Missing article",
-        "message": "‘Fox’ is singular and countable, so it needs a/an when we mention it for the first time: ‘a fox’."
+        "message": "‘Dog’ is singular and countable, so it needs a/an when we mention it for the first time: ‘a fox’."
       },
       {
         "tokens": [
