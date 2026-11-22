@@ -82,7 +82,7 @@ The result clause can be an **imperative** (an order or instruction).
 - **If the alarm rings**, **leave** the building.
 - **If you don't understand** a word, **check** the dictionary.
 
-> ⚠️ Typical error: ~~If you will finish early, wait outside.~~ → Never use *will* after *if*: *If you finish early, wait outside.*
+> ⚠️ Typical error: ~~If you will finish early, wait outside.~~ → Don’t use *will* after *if*: *If you finish early, wait outside.*
 
 ## If or when?
 
@@ -108,7 +108,7 @@ See [First Conditional](/grammar/conditionals/first-conditional/).
 
 **1. Using *will* in the result clause for a fact.** A general truth does not need the future. *~~If you don't water plants, they will die~~* (as a general fact) → **If you don't water plants, they die.**
 
-**2. Using *will* in the if-clause.** After *if*, use the present simple, never *will*. *~~If you will press this button~~* → **If you press this button.**
+**2. Using *will* in the if-clause.** After *if*, use the present simple, not *will*. *~~If you will press this button~~* → **If you press this button.**
 
 **3. Forgetting the third-person -s.** The present simple still needs *-s* with *he, she, it*. *~~If water get very cold, it freeze~~* → **If water gets very cold, it freezes.**
 
