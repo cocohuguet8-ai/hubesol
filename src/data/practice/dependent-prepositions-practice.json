@@ -19,7 +19,7 @@
         "use": "Adjective",
         "before": "My sister is really good",
         "after": "drawing.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -30,7 +30,7 @@
         "use": "Adjective",
         "before": "I’m not very interested",
         "after": "football.",
-        "hint": "in / on",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -41,7 +41,7 @@
         "use": "Adjective",
         "before": "He’s afraid",
         "after": "dogs.",
-        "hint": "of / from",
+        "hint": "(preposition)",
         "answers": [
           "of"
         ],
@@ -52,7 +52,7 @@
         "use": "Adjective",
         "before": "We’re all very proud",
         "after": "you!",
-        "hint": "of / for",
+        "hint": "(preposition)",
         "answers": [
           "of"
         ],
@@ -63,7 +63,7 @@
         "use": "Adjective",
         "before": "She’s worried",
         "after": "her exams.",
-        "hint": "about / of",
+        "hint": "(preposition)",
         "answers": [
           "about"
         ],
@@ -74,7 +74,7 @@
         "use": "Adjective",
         "before": "I’m tired",
         "after": "waiting. Let’s go.",
-        "hint": "of / from",
+        "hint": "(preposition)",
         "answers": [
           "of"
         ],
@@ -85,7 +85,7 @@
         "use": "Adjective",
         "before": "Girona is famous",
         "after": "its old town.",
-        "hint": "for / of",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -96,7 +96,7 @@
         "use": "Adjective",
         "before": "The box was full",
         "after": "old photos.",
-        "hint": "of / with",
+        "hint": "(preposition)",
         "answers": [
           "of"
         ],
@@ -107,7 +107,7 @@
         "use": "Adjective",
         "before": "Your bag is similar",
         "after": "mine.",
-        "hint": "to / with",
+        "hint": "(preposition)",
         "answers": [
           "to"
         ],
@@ -118,7 +118,7 @@
         "use": "Adjective",
         "before": "Are you angry",
         "after": "me?",
-        "hint": "with / about",
+        "hint": "(preposition)",
         "answers": [
           "with",
           "at"
@@ -130,18 +130,18 @@
         "use": "Verb",
         "before": "Listen",
         "after": "this song — it’s amazing!",
-        "hint": "to / —",
+        "hint": "(preposition)",
         "answers": [
           "to"
         ],
         "display": "to",
-        "explain": "‘Listen’ always needs ‘to’ before the thing you hear."
+        "explain": "‘Listen’ needs ‘to’ before the thing you hear."
       },
       {
         "use": "Verb",
         "before": "We waited",
         "after": "the bus for twenty minutes.",
-        "hint": "for / —",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -152,7 +152,7 @@
         "use": "Verb",
         "before": "I’m looking",
         "after": "my phone. Have you seen it?",
-        "hint": "for / at",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -163,7 +163,7 @@
         "use": "Verb",
         "before": "It depends",
         "after": "the weather.",
-        "hint": "on / of",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -174,7 +174,7 @@
         "use": "Verb",
         "before": "This jacket belongs",
         "after": "my brother.",
-        "hint": "to / of",
+        "hint": "(preposition)",
         "answers": [
           "to"
         ],
@@ -185,7 +185,7 @@
         "use": "Verb",
         "before": "I completely agree",
         "after": "you.",
-        "hint": "with / to",
+        "hint": "(preposition)",
         "answers": [
           "with"
         ],
@@ -196,7 +196,7 @@
         "use": "Verb",
         "before": "She applied",
         "after": "a job at the hospital.",
-        "hint": "for / to",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -207,7 +207,7 @@
         "use": "Verb",
         "before": "Who’s going to pay",
         "after": "the pizza?",
-        "hint": "for / —",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -218,7 +218,7 @@
         "use": "Noun",
         "before": "What’s the reason",
         "after": "the delay?",
-        "hint": "for / of",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -229,12 +229,13 @@
         "use": "Noun",
         "before": "Have you found a solution",
         "after": "the problem?",
-        "hint": "to / for",
+        "hint": "(preposition)",
         "answers": [
-          "to"
+          "to",
+          "for"
         ],
         "display": "to",
-        "explain": "The fixed chunk is ‘solution to’."
+        "explain": "The usual chunk is ‘solution to’ (‘solution for’ is also used)."
       }
     ],
     "formLabel": "preposition"
@@ -442,7 +443,7 @@
   },
   "matching": {
     "title": "Match the word and its preposition",
-    "subtitle": "Tap a word, then tap the preposition that always follows it.",
+    "subtitle": "Tap a word, then tap the preposition that usually follows it.",
     "leftLabel": "Word",
     "rightLabel": "Preposition",
     "rightLabelSub": "(dependent)",
@@ -521,12 +522,12 @@
         "right": "for"
       },
       {
-        "left": "pleased",
-        "right": "with"
+        "left": "married",
+        "right": "to"
       },
       {
-        "left": "solution",
-        "right": "to"
+        "left": "responsible",
+        "right": "for"
       }
     ]
   },
@@ -709,8 +710,8 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "After a preposition we never use the base verb.",
-          "After a preposition we never use ‘to’ + verb.",
+          "After a preposition we don’t use the base verb.",
+          "After a preposition we don’t use ‘to’ + verb.",
           "‘Cooked’ is past.",
           ""
         ],
@@ -836,7 +837,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Full with’ is less correct; the chunk is ‘full of’.",
+          "‘Full with’ is not used: the chunk is ‘full of’.",
           "‘Full from’ is wrong.",
           "‘Full by’ is wrong."
         ],
@@ -846,14 +847,14 @@
         "use": "Adjective",
         "text": "I’m so excited <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the trip!",
         "choices": [
-          "for",
+          "to",
           "about",
           "of",
           "with"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Excited for’ is American and informal.",
+          "‘Excited to’ is followed by a verb (excited to go), not a noun.",
           "",
           "‘Excited of’ is wrong.",
           "‘Excited with’ is wrong."
@@ -874,7 +875,7 @@
           "‘Bad in’ is a common mistake.",
           "‘Bad on’ is wrong.",
           "",
-          "‘Bad with’ is possible informally, but ‘bad at’ is standard."
+          "‘Bad with’ goes with a noun (bad with money), not with an -ing form: ‘bad at remembering’."
         ],
         "explain": "The chunk is ‘bad at’ + -ing."
       },
@@ -882,14 +883,14 @@
         "use": "Noun",
         "text": "Is there a solution <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> this problem?",
         "choices": [
-          "for",
+          "into",
           "of",
           "at",
           "to"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Solution for’ is common but ‘to’ is the standard chunk.",
+          "‘Solution into’ is wrong: the chunk is ‘solution to’.",
           "‘Solution of’ is wrong.",
           "‘Solution at’ is wrong.",
           ""
@@ -1188,7 +1189,7 @@
         "type": "fill",
         "use": "Adjective",
         "sentText": "He’s good {{blank}} solving problems.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -1200,7 +1201,7 @@
         "type": "fill",
         "use": "Verb",
         "sentText": "I need somewhere to live, so I’m looking {{blank}} a new flat.",
-        "hint": "for / at",
+        "hint": "(preposition)",
         "answers": [
           "for"
         ],
@@ -1212,7 +1213,7 @@
         "type": "fill",
         "use": "Adjective",
         "sentText": "She’s scared {{blank}} flying.",
-        "hint": "of / from",
+        "hint": "(preposition)",
         "answers": [
           "of"
         ],
@@ -1224,12 +1225,12 @@
         "type": "fill",
         "use": "Verb",
         "sentText": "It depends {{blank}} the price.",
-        "hint": "on / of",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
         "display": "on",
-        "explain": "The fixed chunk is ‘depend on’, never ‘depend of’.",
+        "explain": "The fixed chunk is ‘depend on’, not ‘depend of’.",
         "wrongNote": "depend on."
       },
       {
@@ -1411,14 +1412,14 @@
         "use": "Adjective",
         "text": "She’s kind {{blank}} animals.",
         "choices": [
-          "with",
+          "at",
           "to",
           "for",
           "of"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Kind with’ is less standard.",
+          "‘Kind at’ is wrong: the chunk is ‘kind to’.",
           "",
           "‘Kind for’ is wrong.",
           "‘Kind of’ means ‘a type of’."

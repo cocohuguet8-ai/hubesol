@@ -5,7 +5,7 @@ level: "B1"
 hub: "Prepositions"
 hubSlug: "prepositions"
 answerBox: "Dependent prepositions are fixed to a particular verb or adjective and must be learned together: good at, interested in, afraid of, depend on, listen to, wait for, belong to. There is no rule you can guess from — they are collocations. After the preposition, a verb takes the -ing form: interested in learning, good at cooking, tired of waiting."
-answerLead: "Some verbs and adjectives are always followed by a fixed preposition. Learn them as pairs:"
+answerLead: "Some verbs and adjectives are usually followed by a fixed preposition. Learn them as pairs:"
 answerPoints:
   - "Adjective + preposition — good at, interested in, afraid of, proud of."
   - "Verb + preposition — depend on, listen to, wait for, apologise for."
@@ -34,7 +34,7 @@ draft: false
 
 ## What are dependent prepositions?
 
-Some adjectives, verbs and nouns are always followed by a **specific preposition**. The preposition "depends" on the word before it — there's no rule, so learn them together as a chunk.
+Some adjectives, verbs and nouns are usually followed by a **specific preposition**. The preposition "depends" on the word before it — there's no rule, so learn them together as a chunk.
 
 | Word + preposition | Example |
 |---|---|
