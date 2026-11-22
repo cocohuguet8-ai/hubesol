@@ -154,13 +154,16 @@
           "wasn’t cancelled",
           "wasn't cancelled",
           "wasnt cancelled",
-          "was not cancelled"
+          "was not cancelled",
+          "wasn’t canceled",
+          "wasn't canceled",
+          "was not canceled"
         ],
         "display": "wasn’t cancelled",
         "explain": "Negative past passive: wasn’t + cancelled."
       },
       {
-        "use": "No object",
+        "use": "Verb form",
         "before": "The accident",
         "after": "at midnight.",
         "hint": "(happen)",
@@ -171,7 +174,7 @@
         "explain": "‘Happen’ has no object, so it can’t be passive: happened."
       },
       {
-        "use": "No object",
+        "use": "Verb form",
         "before": "My grandmother",
         "after": "in 2019.",
         "hint": "(die)",
@@ -179,10 +182,10 @@
           "died"
         ],
         "display": "died",
-        "explain": "‘Die’ has no object: always active, ‘died’."
+        "explain": "‘Die’ has no object: active, ‘died’."
       },
       {
-        "use": "No object",
+        "use": "Verb form",
         "before": "The train",
         "after": "late.",
         "hint": "(arrive)",
@@ -193,18 +196,19 @@
         "explain": "‘Arrive’ has no object: active only."
       },
       {
-        "use": "Choice",
+        "use": "Verb form",
         "before": "My sister",
         "after": "this picture. I’m so proud of her!",
         "hint": "(paint)",
         "answers": [
-          "painted"
+          "painted",
+          "has painted"
         ],
         "display": "painted",
         "explain": "The person is important, so the active is natural: painted."
       },
       {
-        "use": "Choice",
+        "use": "Verb form",
         "before": "Breakfast",
         "after": "from 7 to 10.",
         "hint": "(serve)",
@@ -215,7 +219,7 @@
         "explain": "Who serves it doesn’t matter: present passive, is served."
       },
       {
-        "use": "Choice",
+        "use": "Verb form",
         "before": "Our team",
         "after": "the cup last night!",
         "hint": "(win)",
@@ -226,7 +230,7 @@
         "explain": "In conversation about your team, the active is direct: won."
       },
       {
-        "use": "Choice",
+        "use": "Verb form",
         "before": "The results",
         "after": "yesterday.",
         "hint": "(publish)",
@@ -613,7 +617,7 @@
         "explain": "Object ‘us’ → subject ‘we’."
       },
       {
-        "use": "No object",
+        "use": "Active or passive",
         "text": "Which verb can’t be made passive?",
         "choices": [
           "build",
@@ -631,7 +635,7 @@
         "explain": "‘Happen’ has no object, so a passive like ‘was happened’ is impossible."
       },
       {
-        "use": "No object",
+        "use": "Active or passive",
         "text": "The accident <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at 8 p.m.",
         "choices": [
           "was happened",
@@ -667,7 +671,7 @@
         "explain": "Agent: by + person."
       },
       {
-        "use": "Agent needed?",
+        "use": "Active or passive",
         "text": "The police arrested the thief. → Which passive is best?",
         "choices": [
           "The thief was arrested.",
@@ -739,7 +743,7 @@
         "explain": "Negative past passive: wasn’t invited."
       },
       {
-        "use": "Choice",
+        "use": "Active or passive",
         "text": "Which sentence sounds more natural in conversation?",
         "choices": [
           "This cake was made by my mum.",
@@ -757,7 +761,7 @@
         "explain": "When the person matters, the active is usually more natural."
       },
       {
-        "use": "Choice",
+        "use": "Active or passive",
         "text": "Which sentence is best for a news report?",
         "choices": [
           "Someone rescued two climbers yesterday.",
@@ -829,7 +833,7 @@
         "explain": "Object ‘him’ → subject ‘he’."
       },
       {
-        "use": "No object",
+        "use": "Active or passive",
         "text": "Which sentence is correct?",
         "choices": [
           "My grandfather died last year.",
@@ -844,7 +848,7 @@
           "‘Die’ can’t be passive.",
           "‘Die’ can’t be passive."
         ],
-        "explain": "‘Die’ has no object: always active."
+        "explain": "‘Die’ has no object: active."
       },
       {
         "use": "Topic",
@@ -932,7 +936,7 @@
         "errorIndex": 2,
         "correction": "died",
         "type": "No passive with die",
-        "message": "Active past simple: ‘died’ — ‘die’ is never passive."
+        "message": "Active past simple: ‘died’ — ‘die’ has no passive."
       },
       {
         "tokens": [
@@ -946,7 +950,7 @@
         "errorIndex": 2,
         "correction": "arrived",
         "type": "No passive with arrive",
-        "message": "Active past simple: ‘arrived’ — ‘arrive’ is never passive."
+        "message": "Active past simple: ‘arrived’ — ‘arrive’ has no passive."
       },
       {
         "tokens": [
@@ -1170,16 +1174,16 @@
       },
       {
         "tokens": [
-          "The",
-          "results",
-          "were",
-          "publised",
-          "today."
+          "Dinner",
+          "is",
+          "cook",
+          "every",
+          "night."
         ],
-        "errorIndex": 3,
-        "correction": "published",
-        "type": "Spelling",
-        "message": "Spelling: ‘published’."
+        "errorIndex": 2,
+        "correction": "cooked",
+        "type": "Wrong participle",
+        "message": "After ‘is’ use the past participle: ‘is cooked’."
       }
     ]
   },
@@ -1239,7 +1243,7 @@
       },
       {
         "type": "fill",
-        "use": "No object",
+        "use": "Active or passive",
         "sentText": "The concert {{blank}} at nine.",
         "hint": "start",
         "answers": [
@@ -1291,7 +1295,7 @@
       },
       {
         "type": "choice",
-        "use": "Choice",
+        "use": "Active or passive",
         "text": "You want to say who made it: ‘{{blank}} this necklace.’",
         "choices": [
           "This necklace was made",
@@ -1310,7 +1314,7 @@
       },
       {
         "type": "choice",
-        "use": "Choice",
+        "use": "Active or passive",
         "text": "You don’t know who did it: ‘My car {{blank}} last night.’",
         "choices": [
           "stole",
@@ -1329,7 +1333,7 @@
       },
       {
         "type": "choice",
-        "use": "Choice",
+        "use": "Active or passive",
         "text": "Which verb must stay active?",
         "choices": [
           "arrive",
@@ -1348,17 +1352,17 @@
       },
       {
         "type": "choice",
-        "use": "Choice",
+        "use": "Active or passive",
         "text": "A science report: ‘The water {{blank}} to 80 °C.’",
         "choices": [
-          "heated",
+          "were heated",
           "we heated it",
           "was heated",
           "was heat"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘The water heated’ is unclear in a report.",
+          "‘The water’ is singular: ‘was heated’.",
           "Reports usually avoid ‘we’.",
           "",
           "After ‘was’ use the participle."
@@ -1405,17 +1409,17 @@
       },
       {
         "type": "mc",
-        "use": "No object",
+        "use": "Active or passive",
         "text": "The fire {{blank}} in the kitchen.",
         "choices": [
-          "was started",
+          "was start",
           "is started",
           "were started",
           "started"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Possible if someone started it on purpose, but here it simply began.",
+          "‘Was start’ is wrong: after ‘was’ you need a participle, and here the fire simply began.",
           "Wrong tense and meaning.",
           "‘The fire’ is singular.",
           ""
