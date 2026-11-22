@@ -4,83 +4,77 @@
   "level": "A2",
   "items": [
     {
-      "question": "My mother is ___ doctor.",
+      "question": "My neighbour is ___ pilot.",
       "options": [
-        "—",
-        "the",
+        "an",
         "a",
-        "an"
+        "—"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "Jobs need an article in English.",
-        "'The doctor' would mean a specific, known doctor.",
-        "Correct! Use a/an before a job: 'a doctor'.",
-        "'An' is for a vowel sound; 'doctor' starts with a consonant sound."
+        "‘Pilot’ starts with a consonant sound (/p/), so ‘an’ doesn’t fit.",
+        "Correct! A job takes a/an, and ‘pilot’ starts with a consonant sound: ‘a pilot’.",
+        "A singular job needs a/an: ‘a pilot’."
       ]
     },
     {
       "question": "I need ___ new phone; mine is broken.",
       "options": [
-        "a",
-        "the",
         "an",
-        "—"
-      ],
-      "answer": 0,
-      "explanations": [
-        "Correct! First mention, one of many: 'a new phone'.",
-        "'The new phone' would suggest a specific known one.",
-        "'Phone' starts with a consonant sound, so 'a', not 'an'.",
-        "A singular countable noun needs an article here."
-      ]
-    },
-    {
-      "question": "Can you give me ___ information about the course?",
-      "options": [
-        "an",
-        "some",
-        "a",
-        "one"
-      ],
-      "answer": 1,
-      "explanations": [
-        "'Information' is uncountable; you can't use 'an'.",
-        "Correct! Uncountable nouns take 'some': 'some information'.",
-        "'Information' is uncountable; you can't use 'a'.",
-        "'One information' is wrong; say 'a piece of information'."
-      ]
-    },
-    {
-      "question": "We go to the gym twice ___ week.",
-      "options": [
-        "in",
-        "the",
-        "an",
+        "—",
         "a"
-      ],
-      "answer": 3,
-      "explanations": [
-        "'In week' is not correct English.",
-        "'The week' changes the meaning.",
-        "'Week' starts with a consonant sound → 'a'.",
-        "Correct! 'a' means 'per' here: 'twice a week'."
-      ]
-    },
-    {
-      "question": "Which is correct?",
-      "options": [
-        "I bought a new shoes.",
-        "I bought an new shoes.",
-        "I bought new shoes.",
-        "I bought one new shoes."
       ],
       "answer": 2,
       "explanations": [
-        "'A' can't go with a plural noun.",
-        "'An' can't go with a plural noun either.",
-        "Correct! A plural noun takes no a/an: 'new shoes'.",
-        "'One' can't go with a plural noun."
+        "‘New’ starts with a consonant sound (/n/), so ‘an’ doesn’t fit.",
+        "‘Phone’ is singular and countable, so it needs an article.",
+        "Correct! Any new phone, and ‘new’ starts with a consonant sound: ‘a new phone’."
+      ]
+    },
+    {
+      "question": "Could you give me ___ information about the course?",
+      "options": [
+        "a",
+        "an",
+        "some",
+        "one"
+      ],
+      "answer": 2,
+      "explanations": [
+        "‘Information’ is uncountable, so it can’t take ‘a’.",
+        "‘Information’ is uncountable, so it can’t take ‘an’.",
+        "Correct! Uncountable nouns take ‘some’ instead of a/an: ‘some information’.",
+        "‘One information’ doesn’t work; to count it, say ‘a piece of information’."
+      ]
+    },
+    {
+      "question": "We have English lessons twice ___ week.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": 1,
+      "explanations": [
+        "‘Twice the week’ is a common slip; to mean ‘per’ we use ‘a’.",
+        "Correct! Here ‘a’ means ‘per’ (every): ‘twice a week’.",
+        "‘Week’ starts with a consonant sound (/w/), so ‘an’ doesn’t fit.",
+        "‘Twice week’ is missing the article that means ‘per’."
+      ]
+    },
+    {
+      "question": "She has ___ green eyes.",
+      "options": [
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": 2,
+      "explanations": [
+        "‘Eyes’ is plural, so ‘a’ can’t go before it.",
+        "‘Eyes’ is plural, so ‘an’ can’t go before it.",
+        "Correct! A plural noun takes no a/an: ‘green eyes’."
       ]
     },
     {
@@ -93,74 +87,68 @@
       ],
       "answer": 0,
       "explanations": [
-        "Correct! Exclamations with a singular countable noun use 'a': 'What a beautiful day!'",
-        "'The' doesn't fit this exclamation.",
-        "'Beautiful' starts with a consonant sound → 'a'.",
-        "The exclamation needs an article here."
+        "Correct! In an exclamation with a singular noun we say ‘what a/an’: ‘What a beautiful day!’",
+        "In an exclamation with a singular noun we say ‘what a/an’, not ‘what the’.",
+        "‘Beautiful’ starts with a consonant sound (/b/), so ‘an’ doesn’t fit.",
+        "A singular countable noun after ‘what’ needs a/an."
       ]
     },
     {
-      "question": "He works as ___ engineer.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "—"
-      ],
-      "answer": 1,
-      "explanations": [
-        "'Engineer' has a vowel sound, so 'an', not 'a'.",
-        "Correct! 'Engineer' starts with a vowel sound → 'an engineer'.",
-        "'The engineer' would mean a specific one.",
-        "Jobs need an article in English."
-      ]
-    },
-    {
-      "question": "Choose the correct version of: 'She gave me an advice.'",
-      "options": [
-        "The sentence is already correct.",
-        "She gave me a advice.",
-        "She gave me an advices.",
-        "She gave me some advice."
-      ],
-      "answer": 3,
-      "explanations": [
-        "'An advice' is incorrect.",
-        "'A advice' is still wrong — advice is uncountable.",
-        "'Advices' isn't a word; advice has no plural.",
-        "Correct! 'Advice' is uncountable: 'some advice' (or 'a piece of advice')."
-      ]
-    },
-    {
-      "question": "There's ___ message for you on the desk.",
+      "question": "He works as ___ electrician.",
       "options": [
         "an",
         "a",
-        "the",
         "—"
-      ],
-      "answer": 1,
-      "explanations": [
-        "'Message' starts with a consonant sound → 'a'.",
-        "Correct! First mention, singular countable: 'a message'.",
-        "'The message' would suggest one already known.",
-        "A singular countable noun needs an article here."
-      ]
-    },
-    {
-      "question": "When do you use a/an?",
-      "options": [
-        "With a singular countable noun that is non-specific.",
-        "With plural nouns talking in general.",
-        "With uncountable nouns like water.",
-        "When the noun is specific and known."
       ],
       "answer": 0,
       "explanations": [
-        "Correct! a/an goes with a singular countable, non-specific noun.",
-        "Plurals in general take no article.",
-        "Uncountables don't take a/an.",
-        "A specific, known noun takes 'the'."
+        "Correct! A job takes a/an, and ‘electrician’ starts with a vowel sound: ‘an electrician’.",
+        "‘Electrician’ starts with a vowel sound (/ɪ/), so ‘a’ doesn’t fit.",
+        "After ‘works as’, a singular job takes a/an."
+      ]
+    },
+    {
+      "question": "Which sentence is correct?",
+      "options": [
+        "She gave me some advice.",
+        "She gave me an advice.",
+        "She gave me a advice."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct! ‘Advice’ is uncountable: ‘some advice’ (or ‘a piece of advice’).",
+        "‘Advice’ is uncountable, so it can’t take ‘an’; say ‘some advice’ or ‘a piece of advice’.",
+        "‘Advice’ is uncountable, so it can’t take ‘a’ either."
+      ]
+    },
+    {
+      "question": "We waited for about ___ hour.",
+      "options": [
+        "an",
+        "the",
+        "a",
+        "—"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct! ‘Hour’ has a silent h, so it starts with a vowel sound: ‘an hour’.",
+        "‘The hour’ would mean a particular hour we both know; here we only say how long.",
+        "‘Hour’ has a silent h, so it starts with a vowel sound; ‘a’ doesn’t fit.",
+        "‘Hour’ is singular and countable, so it needs an article."
+      ]
+    },
+    {
+      "question": "Which is the correct way to say it?",
+      "options": [
+        "He’s a my cousin.",
+        "He’s my cousin.",
+        "He’s cousin of mine."
+      ],
+      "answer": 1,
+      "explanations": [
+        "We don’t put ‘a’ before ‘my’: say ‘my cousin’ or ‘a cousin of mine’.",
+        "Correct! With ‘my’ we don’t need a/an: ‘my cousin’.",
+        "‘Cousin’ is singular and countable, so it needs an article: ‘a cousin of mine’."
       ]
     }
   ]

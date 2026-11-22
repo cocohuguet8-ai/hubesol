@@ -463,6 +463,30 @@ const uid = 'lc';
       if (idx > 0) setTimeout(() => { input.focus({ preventScroll: true }); }, 50);
     }
 
+    // ---- indefinite article (a/an/no article) diagnosis ----
+    function diagnoseIndefinite(rawText, correctText) {
+      const u = rawText.toLowerCase().trim().replace(/\s+/g, ' ');
+      const c = correctText.toLowerCase().trim();
+      const none = (x) => x === '—' || x === '–' || x === '-' || x === 'none' || x === 'no article';
+      const isAAn = (x) => x === 'a' || x === 'an';
+      if (!u) return "You left it blank — even a guess helps you learn the pattern.";
+      if (isAAn(c) && isAAn(u))
+        return "Use <b>a</b> before a consonant <i>sound</i> and <b>an</b> before a vowel <i>sound</i> — the sound matters, not the letter.";
+      if (isAAn(c) && none(u))
+        return "This is a singular countable noun, so it needs <b>a</b> or <b>an</b>.";
+      if (isAAn(c) && u === 'the')
+        return "This doesn’t point to one particular thing that both people already know, so <b>the</b> doesn’t fit here. Use <b>a</b> or <b>an</b>.";
+      if (isAAn(c) && u === 'some')
+        return "<b>Some</b> goes with plural or uncountable nouns. This noun is singular and countable, so it needs <b>a</b> or <b>an</b>.";
+      if (isAAn(c) && u === 'one')
+        return "The number doesn’t matter here, so we use <b>a</b> or <b>an</b> rather than <b>one</b>.";
+      if (none(c) && isAAn(u))
+        return "This noun is plural or uncountable, so it can’t take <b>a</b> or <b>an</b>.";
+      if (none(c) && u === 'the')
+        return "This doesn’t point to one particular thing that both people already know, so <b>the</b> doesn’t fit here.";
+      return "Check your answer — it should be “" + correctText + "”.";
+    }
+
     // ---- article diagnosis (a/an vs one) ----
     function diagnoseArticle(rawText, correctText) {
       const u = rawText.toLowerCase().trim().replace(/\s+/g, ' ');
@@ -492,6 +516,7 @@ const uid = 'lc';
 
     function diagnoseFill(rawText, it) {
       if (tense === 'a-an-vs-one' || tense === 'a-vs-an') return diagnoseArticle(rawText, it.display);
+      if (tense === 'indefinite-article-a-an') return diagnoseIndefinite(rawText, it.display);
       if (tense === 'past-simple') return diagnoseFillPastSimple(rawText, it);
       if (tense === 'past-perfect') return diagnoseFillPastPerfect(rawText, it);
       if (tense === 'present-perfect') return diagnoseFillPresentPerfect(rawText, it.display);
