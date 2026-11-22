@@ -75,7 +75,7 @@ We don't really expect it to happen.
 - **If I won** the lottery, **I'd buy** a house in the mountains.
 - **If aliens landed** in Girona, what **would** you **do**?
 
-> ⚠️ Typical error: ~~If I would win the lottery, I'd buy a house.~~ → Never use *would* in the if-clause: *If I won the lottery…*
+> ⚠️ Typical error: ~~If I would win the lottery, I'd buy a house.~~ → Don’t use *would* in the if-clause: *If I won the lottery…*
 
 ### 3. Advice with *If I were you*
 
