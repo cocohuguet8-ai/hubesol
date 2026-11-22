@@ -16,9 +16,9 @@
     "subtitle": "20 original sentences covering an action before another past action, reasons and results, experience before a point (already / just / never), negatives, and questions — always with had, never have/has.",
     "questions": [
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "before": "When I arrived, they",
-        "after": "the office.",
+        "after": "the office, so the rooms were empty.",
         "hint": "(leave)",
         "answers": [
           "had left",
@@ -30,7 +30,7 @@
         "explain": "Leaving happened before you arrived — the earlier of two past actions."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "before": "By the time he called, I",
         "after": "to bed.",
         "hint": "(go)",
@@ -45,7 +45,7 @@
         "explain": "‘Go’ is irregular: the past participle is gone, not went."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "before": "By the time her friends knocked on the door, she",
         "after": "her homework.",
         "hint": "(finish)",
@@ -59,7 +59,7 @@
         "explain": "She finished before her friends knocked — ‘by the time’ needs had + past participle (regular: finished)."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "before": "By the time he left the house, he",
         "after": "two bowls of cereal.",
         "hint": "(eat)",
@@ -74,7 +74,7 @@
         "explain": "‘Eat’ is irregular: the past participle is eaten, not ate. ‘By the time’ marks the later past moment."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "before": "By the time we got to the stadium, the race",
         "after": ".",
         "hint": "(start)",
@@ -88,7 +88,7 @@
         "explain": "The race started before we got to the stadium — ‘by the time’ needs had + past participle."
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "before": "He fell asleep as soon as he got home — by then he",
         "after": "thirty kilometres.",
         "hint": "(walk)",
@@ -102,7 +102,7 @@
         "explain": "‘By then’ points to a past moment; the walking was complete before it, which explains why he was so tired."
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "before": "The carpet was wet because the cat",
         "after": "over a vase of flowers.",
         "hint": "(just / knock)",
@@ -110,13 +110,17 @@
           "had just knocked",
           "'d just knocked",
           "d just knocked",
-          "’d just knocked"
+          "’d just knocked",
+          "had knocked",
+          "'d knocked",
+          "d knocked",
+          "’d knocked"
         ],
         "display": "had just knocked",
         "explain": "The cat knocked the vase over shortly before — had just + past participle gives the earlier cause of the wet carpet."
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "before": "She felt confident on exam day: by then she",
         "after": "every unit of the book twice.",
         "hint": "(study)",
@@ -130,7 +134,7 @@
         "explain": "‘By then’ needs had + past participle. Consonant + y → change y to i before -ed: studied."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "before": "When we got to the cinema, the film",
         "after": ".",
         "hint": "(already / start)",
@@ -138,13 +142,17 @@
           "had already started",
           "'d already started",
           "d already started",
-          "’d already started"
+          "’d already started",
+          "had started",
+          "'d started",
+          "d started",
+          "’d started"
         ],
         "display": "had already started",
         "explain": "‘Already’ sits between had and the past participle."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "before": "When we moved to Canada, I was amazed: I",
         "after": "snow before.",
         "hint": "(never / see)",
@@ -159,7 +167,7 @@
         "explain": "‘See’ is irregular: the past participle is seen, not saw. ‘Never … before’ looks back from a past moment."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "before": "When I rang her at 9 p.m., she",
         "after": "her shift at the hospital.",
         "hint": "(just / finish)",
@@ -167,13 +175,17 @@
           "had just finished",
           "'d just finished",
           "d just finished",
-          "’d just finished"
+          "’d just finished",
+          "had finished",
+          "'d finished",
+          "d finished",
+          "’d finished"
         ],
         "display": "had just finished",
         "explain": "‘Just’ describes something completed a short time before the past moment of my call."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "before": "She",
         "after": "the answer before he explained it.",
         "hint": "(already / guess)",
@@ -181,13 +193,17 @@
           "had already guessed",
           "'d already guessed",
           "d already guessed",
-          "’d already guessed"
+          "’d already guessed",
+          "had guessed",
+          "'d guessed",
+          "d guessed",
+          "’d guessed"
         ],
         "display": "had already guessed",
         "explain": "She guessed before his explanation — ‘already’ goes between had and guessed."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "before": "At our first restaurant in Japan, we were nervous because we",
         "after": "sushi before.",
         "hint": "(never / try)",
@@ -201,7 +217,7 @@
         "explain": "Consonant + y → change y to i before -ed: tried. ‘Never … before’ looks back from a past moment."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "before": "He was upset because he",
         "after": "from his son since Christmas.",
         "hint": "(not / hear)",
@@ -215,7 +231,7 @@
         "explain": "‘Since Christmas’ needs a perfect tense, and the story is past, so use hadn’t + past participle: heard."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "before": "By the time the meeting ended at three, I",
         "after": "anything all day.",
         "hint": "(not / eat)",
@@ -229,7 +245,7 @@
         "explain": "‘Hadn’t’ + past participle — the participle of eat is eaten. ‘By the time’ marks the later past moment."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "before": "By last Friday’s deadline, they",
         "after": "the project, so they asked for more time.",
         "hint": "(not / finish)",
@@ -243,7 +259,7 @@
         "explain": "‘By last Friday’s deadline’ is a past point: hadn’t + past participle — never ‘hadn’t finish’."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "before": "By her eightieth birthday, my grandma still",
         "after": "a smartphone, so we gave her one as a present.",
         "hint": "(not / use)",
@@ -257,10 +273,10 @@
         "explain": "Negative past perfect: hadn’t + past participle. Up to that birthday, she had no experience of smartphones."
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "before": "",
         "after": "you heard of the band before that festival?",
-        "hint": "(had / have)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -268,10 +284,10 @@
         "explain": "Past perfect questions start with ‘had’, whatever the subject."
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "before": "",
         "after": "they arrived when you called?",
-        "hint": "(had / have)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -279,10 +295,10 @@
         "explain": "‘Had’ + subject + past participle — the main verb stays in its participle form."
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "before": "",
         "after": "he finished his work before the meeting started?",
-        "hint": "(had / have)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -296,7 +312,7 @@
     "subtitle": "Tap the words to build each sentence — 20 examples covering an action before another past action, reasons and results, already/just/never, negatives, and questions.",
     "sentences": [
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "tokens": [
           "When",
           "we",
@@ -325,7 +341,7 @@
         ]
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "tokens": [
           "By",
           "the",
@@ -354,7 +370,7 @@
         ]
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "tokens": [
           "Someone",
           "had",
@@ -381,7 +397,7 @@
         ]
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "tokens": [
           "The",
           "concert",
@@ -406,7 +422,7 @@
         ]
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "tokens": [
           "By",
           "the",
@@ -437,7 +453,7 @@
         ]
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "tokens": [
           "She",
           "was",
@@ -462,7 +478,7 @@
         ]
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "tokens": [
           "The",
           "kitchen",
@@ -491,7 +507,7 @@
         ]
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "tokens": [
           "He",
           "couldn’t",
@@ -518,7 +534,7 @@
         ]
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "tokens": [
           "When",
           "the",
@@ -547,7 +563,7 @@
         ]
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "tokens": [
           "She",
           "had",
@@ -576,7 +592,7 @@
         ]
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "tokens": [
           "The",
           "match",
@@ -620,7 +636,7 @@
         ]
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "tokens": [
           "He",
           "had",
@@ -647,7 +663,7 @@
         ]
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "tokens": [
           "I",
           "had",
@@ -674,7 +690,7 @@
         ]
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "tokens": [
           "He",
           "was",
@@ -701,7 +717,7 @@
         ]
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "tokens": [
           "My",
           "phone",
@@ -726,7 +742,7 @@
         ]
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "tokens": [
           "The",
           "plumber",
@@ -753,7 +769,7 @@
         ]
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "tokens": [
           "They",
           "hadn’t",
@@ -780,7 +796,7 @@
         ]
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "tokens": [
           "Had",
           "you",
@@ -805,7 +821,7 @@
         ]
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "tokens": [
           "Had",
           "the",
@@ -828,7 +844,7 @@
         ]
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "tokens": [
           "Had",
           "he",
@@ -955,7 +971,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "text": "By the time we arrived, the shop <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "closed",
@@ -973,7 +989,7 @@
         "explain": "The closing happened before we arrived — the earlier of two past actions."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "text": "When she opened the fridge, she realised someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all the milk.",
         "choices": [
           "had drank",
@@ -991,7 +1007,7 @@
         "explain": "‘Drink’ is irregular: the past participle is drunk, not drank."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "text": "I couldn’t get in because I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys at home.",
         "choices": [
           "have left",
@@ -1009,7 +1025,7 @@
         "explain": "Leaving the keys is the earlier of two past events."
       },
       {
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "text": "By the time the ambulance arrived, the patient <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "had already recovered",
@@ -1027,7 +1043,7 @@
         "explain": "‘Already’ confirms this finished before the ambulance’s arrival."
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "text": "He was exhausted because he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all day.",
         "choices": [
           "has travelled",
@@ -1045,7 +1061,7 @@
         "explain": "Past perfect explains the reason: travelling happened before he felt exhausted."
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "text": "The grass was wet because it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> during the night.",
         "choices": [
           "has rained",
@@ -1063,7 +1079,7 @@
         "explain": "The rain is the earlier cause of the later, wet-grass result."
       },
       {
-        "use": "Reason / result",
+        "use": "Past perfect",
         "text": "She felt proud because she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the marathon.",
         "choices": [
           "had finished",
@@ -1081,7 +1097,7 @@
         "explain": "Finishing the marathon is the earlier action explaining her pride."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "text": "By the time the guests arrived, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the table.",
         "choices": [
           "has just set",
@@ -1099,7 +1115,7 @@
         "explain": "‘Just’ shows this finished a short time before the guests arrived."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that restaurant before, so he didn’t know what to order.",
         "choices": [
           "has never tried",
@@ -1117,7 +1133,7 @@
         "explain": "An experience missing before a past point — past perfect."
       },
       {
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the news by the time I called her.",
         "choices": [
           "was already hearing",
@@ -1135,7 +1151,7 @@
         "explain": "‘By the time’ signals the earlier of two past events."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "text": "By the time the exam started, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the last chapter.",
         "choices": [
           "didn’t read",
@@ -1153,7 +1169,7 @@
         "explain": "Negative past perfect: by the time the exam started, the reading still hadn’t happened."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the results by the time the meeting started.",
         "choices": [
           "hadn’t received",
@@ -1171,7 +1187,7 @@
         "explain": "‘By the time’ + negative past perfect: hadn’t received."
       },
       {
-        "use": "Negative",
+        "use": "Past perfect",
         "text": "She was upset because she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> enough time to prepare.",
         "choices": [
           "hadn’t had",
@@ -1189,7 +1205,7 @@
         "explain": "‘Have’ → ‘had’ as a past participle, so ‘hadn’t had’ is correct."
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you ever visited Japan before that trip?",
         "choices": [
           "Did",
@@ -1207,7 +1223,7 @@
         "explain": "Past perfect questions start with ‘had’, whatever the subject."
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she finished the report when you asked for it?",
         "choices": [
           "Has",
@@ -1225,7 +1241,7 @@
         "explain": "‘Had’ + subject + past participle asks which past event came first."
       },
       {
-        "use": "Question",
+        "use": "Past perfect",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the train left when you reached the platform?",
         "choices": [
           "Were",
@@ -1243,7 +1259,7 @@
         "explain": "A question about which of two past events happened first: had + subject + past participle."
       },
       {
-        "use": "Irregular participles",
+        "use": "Past perfect",
         "text": "By the time I got to the office, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three letters.",
         "choices": [
           "wrote",
@@ -1261,7 +1277,7 @@
         "explain": "‘Write’ is irregular: write → wrote → written. The letters were finished before I arrived."
       },
       {
-        "use": "Irregular participles",
+        "use": "Past perfect",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the window before anyone noticed.",
         "choices": [
           "had broken",
@@ -1279,7 +1295,7 @@
         "explain": "‘Break’ is irregular: break → broke → broken."
       },
       {
-        "use": "Irregular participles",
+        "use": "Past perfect",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my homework before the teacher checked it.",
         "choices": [
           "had did",
@@ -1297,7 +1313,7 @@
         "explain": "‘Do’ is irregular: do → did → done."
       },
       {
-        "use": "Irregular participles",
+        "use": "Past perfect",
         "text": "By the time we woke up, Dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> halfway to the coast.",
         "choices": [
           "has driven",
@@ -1699,7 +1715,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "sentText": "By the time we got home, the rain {{blank}}.",
         "hint": "stop",
         "answers": [
@@ -1713,7 +1729,7 @@
       },
       {
         "type": "fill",
-        "use": "Negative",
+        "use": "Past perfect",
         "sentText": "By the time the bus came, she {{blank}} her breakfast.",
         "hint": "not / finish",
         "answers": [
@@ -1727,7 +1743,7 @@
       },
       {
         "type": "fill",
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "sentText": "I was nervous that evening because I {{blank}} my girlfriend’s parents before.",
         "hint": "never / meet",
         "answers": [
@@ -1741,9 +1757,9 @@
       },
       {
         "type": "fill",
-        "use": "Question",
+        "use": "Past perfect",
         "sentText": "{{blank}} your sister ever been abroad before her school trip to Paris?",
-        "hint": "(auxiliary — past perfect)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -1752,7 +1768,7 @@
       },
       {
         "type": "order",
-        "use": "Earlier past action",
+        "use": "Past perfect",
         "tokens": [
           "The",
           "ice",
@@ -1782,7 +1798,7 @@
       },
       {
         "type": "order",
-        "use": "Reason / result",
+        "use": "Past perfect",
         "tokens": [
           "He",
           "was",
@@ -1810,7 +1826,7 @@
       },
       {
         "type": "order",
-        "use": "Negative",
+        "use": "Past perfect",
         "tokens": [
           "They",
           "hadn’t",
@@ -1823,7 +1839,7 @@
       },
       {
         "type": "order",
-        "use": "Question",
+        "use": "Past perfect",
         "tokens": [
           "Had",
           "the",
@@ -1851,7 +1867,7 @@
       },
       {
         "type": "irregular",
-        "use": "Irregular participle",
+        "use": "Past perfect",
         "text": "She {{blank}} the old letters away before I could read them.",
         "hintVerb": "(throw)",
         "choices": [
@@ -1871,7 +1887,7 @@
       },
       {
         "type": "irregular",
-        "use": "Irregular participle",
+        "use": "Past perfect",
         "text": "He {{blank}} the book twice by the time the film came out.",
         "hintVerb": "(read)",
         "choices": [
@@ -1891,7 +1907,7 @@
       },
       {
         "type": "irregular",
-        "use": "Irregular participle",
+        "use": "Past perfect",
         "text": "She {{blank}} the door before I could stop her.",
         "hintVerb": "(shut)",
         "choices": [
@@ -1911,7 +1927,7 @@
       },
       {
         "type": "irregular",
-        "use": "Irregular participle",
+        "use": "Past perfect",
         "text": "By the time we got to the river, my brother {{blank}} three fish.",
         "hintVerb": "(catch)",
         "choices": [
@@ -1931,7 +1947,7 @@
       },
       {
         "type": "mc",
-        "use": "Question — earlier action",
+        "use": "Past perfect",
         "text": "{{blank}} the baby fallen asleep when you got home?",
         "choices": [
           "Had",
@@ -1950,7 +1966,7 @@
       },
       {
         "type": "mc",
-        "use": "Reason / result",
+        "use": "Past perfect",
         "text": "I didn’t recognise him at first because he {{blank}} a beard since I last saw him.",
         "choices": [
           "had grown",
@@ -1969,7 +1985,7 @@
       },
       {
         "type": "mc",
-        "use": "Negative",
+        "use": "Past perfect",
         "text": "He {{blank}} that song before, so he didn’t recognise it.",
         "choices": [
           "hadn’t heard",
@@ -1988,7 +2004,7 @@
       },
       {
         "type": "mc",
-        "use": "Already / just / never",
+        "use": "Past perfect",
         "text": "By 8 a.m. the shop {{blank}} its doors.",
         "choices": [
           "had already opened",
