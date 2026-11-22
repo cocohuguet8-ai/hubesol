@@ -36,11 +36,11 @@ draft: false
 
 ## What is the indefinite article?
 
-**A** and **an** go before a **singular countable noun** when we don't mean one specific thing. (Choose *a* or *an* by the first **sound** of the next word — see below.)
+**A** and **an** go before a **singular countable noun**. They mean "one" of something, but not a specific one we both know. (Choose *a* or *an* by the first **sound** of the next word — see below.)
 
 | Use | Example |
 |---|---|
-| A new or non-specific thing | I saw **a** dog in the park. I need **a** pen. |
+| A new or non-specific thing (a/an = "one") | I saw **a** dog in the park. I need **a** pen. Wait **a** minute. |
 | Job or role | She's **a** nurse. |
 | Per (every) | twice **a** week, 50 km **an** hour |
 | Exclamation | What **a** day! |
@@ -63,12 +63,12 @@ Use **a** before a **consonant sound** and **an** before a **vowel sound**. It d
 
 ### 1. A new or non-specific thing
 
-When we mention something for the first time, or mean any one of many, the listener doesn't know which one yet. A/an can also mean "one".
+When we mention something for the first time, or mean any one of many, the listener doesn't know which one yet.
 
 - I bought **a** new jacket yesterday.
 - There's **a** cat on the roof.
 - I need **a** pen. — Can I have **a** coffee, please?
-- Wait **a** minute.
+- Wait **a** minute. (A/an here means "one": *Wait one minute* is also correct, with more stress on the number.)
 - Lisbon is **a** beautiful city. (one of many beautiful cities)
 
 ### 2. Jobs and roles
