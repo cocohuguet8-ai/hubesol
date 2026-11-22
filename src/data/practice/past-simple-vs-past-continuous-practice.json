@@ -96,7 +96,7 @@
         "kind": "question",
         "before": "What",
         "after": "you doing when I called you?",
-        "hint": "(did / were)",
+        "hint": "(auxiliary)",
         "answers": [
           "were"
         ],
@@ -156,7 +156,7 @@
         "kind": "question",
         "before": "Where",
         "after": "you living in 2015?",
-        "hint": "(did / were)",
+        "hint": "(auxiliary)",
         "answers": [
           "were"
         ],
@@ -228,7 +228,7 @@
         "kind": "question",
         "before": "What",
         "after": "you do last weekend?",
-        "hint": "(did / were)",
+        "hint": "(auxiliary)",
         "answers": [
           "did"
         ],
@@ -791,14 +791,14 @@
         "use": "In progress",
         "text": "While we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner, the lights went out.",
         "choices": [
-          "had",
+          "was having",
           "were having",
           "have had",
           "are having"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "‘We’ takes ‘were’, not ‘was’: ‘were having’.",
           "",
           "Wrong tense: this is a past story — use the past continuous after ‘while’.",
           "Wrong tense: the lights ‘went out’ — the story is in the past."
@@ -809,14 +809,14 @@
         "use": "In progress",
         "text": "As she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the phone, her bus arrived.",
         "choices": [
-          "talked",
+          "were talking",
           "has talked",
           "was talking",
           "is talking"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: ‘as’ introduces an action in progress when the bus arrived — use the past continuous.",
+          "‘She’ takes ‘was’, not ‘were’: ‘was talking’.",
           "Wrong tense: the story is in the past — use the past continuous.",
           "",
           "Wrong tense: the story is in the past, not the present."
@@ -863,14 +863,14 @@
         "use": "In progress",
         "text": "While I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV, the lights went out.",
         "choices": [
-          "watched",
+          "were watching",
           "have watched",
           "was watching",
           "am watching"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "‘I’ takes ‘was’, not ‘were’: ‘was watching’.",
           "Wrong tense: the story is in the past — use the past continuous.",
           "",
           "Wrong tense: the story is in the past, not the present."
@@ -971,14 +971,14 @@
         "use": "Background",
         "text": "The sun <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and the birds were singing when we woke up.",
         "choices": [
-          "shone",
+          "were shining",
           "was shining",
           "has shone",
           "shines"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: it sets the scene next to ‘were singing’ — use the past continuous.",
+          "‘The sun’ takes ‘was’, not ‘were’: ‘was shining’.",
           "",
           "Wrong tense: the story is in the past — use the past continuous.",
           "Wrong tense: the story is in the past, not the present."
@@ -1043,14 +1043,14 @@
         "use": "In progress",
         "text": "While we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for the bus, it started to rain.",
         "choices": [
-          "waited",
+          "was waiting",
           "have waited",
           "were waiting",
           "are waiting"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "‘We’ takes ‘were’, not ‘was’: ‘were waiting’.",
           "Wrong tense: the story is in the past — use the past continuous.",
           "",
           "Wrong tense: the story is in the past, not the present."
@@ -1097,14 +1097,14 @@
         "use": "Interrupted",
         "text": "As I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> down the street, I saw my old teacher.",
         "choices": [
-          "walked",
+          "were walking",
           "have walked",
           "was walking",
           "am walking"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: ‘as’ introduces the action in progress — use the past continuous.",
+          "‘I’ takes ‘was’, not ‘were’: ‘was walking’.",
           "Wrong tense: the story is in the past — use the past continuous.",
           "",
           "Wrong tense: the story is in the past, not the present."
@@ -1157,38 +1157,44 @@
       },
       {
         "tokens": [
+          "While",
           "I",
-          "read",
-          "a",
-          "book",
-          "when",
+          "was",
+          "cooked",
+          "dinner,",
           "the",
-          "lights",
-          "went",
-          "out."
+          "phone",
+          "rang."
         ],
-        "errorIndex": 1,
-        "correction": "was reading",
-        "type": "Wrong tense",
-        "message": "The reading was the longer action in progress — use the past continuous."
+        "errorIndex": 3,
+        "correction": "cooking",
+        "type": "Wrong form",
+        "message": "After ‘was’ use the -ing form: ‘was cooking’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
-          "While",
-          "we",
-          "waited",
-          "for",
+          "When",
           "the",
-          "bus,",
-          "it",
-          "started",
-          "to",
-          "rain."
+          "teacher",
+          "came",
+          "in,",
+          "the",
+          "students",
+          "were",
+          "talk."
         ],
-        "errorIndex": 2,
-        "correction": "were waiting",
-        "type": "Wrong tense",
-        "message": "‘While’ introduces the longer action in progress — use the past continuous."
+        "errorIndex": 8,
+        "correction": "talking.",
+        "type": "Wrong form",
+        "message": "After ‘were’ use the -ing form: ‘were talking’.",
+        "errorSpan": [
+          8,
+          8
+        ]
       },
       {
         "tokens": [
@@ -1251,19 +1257,21 @@
       },
       {
         "tokens": [
-          "She",
-          "broke",
-          "her",
-          "arm",
-          "while",
-          "she",
-          "played",
-          "tennis."
+          "Were",
+          "you",
+          "sleep",
+          "when",
+          "I",
+          "called?"
         ],
-        "errorIndex": 6,
-        "correction": "was playing",
-        "type": "Wrong tense",
-        "message": "‘While’ introduces the longer action in progress — use the past continuous."
+        "errorIndex": 2,
+        "correction": "sleeping",
+        "type": "Wrong form",
+        "message": "After ‘were you’ use the -ing form: ‘Were you sleeping…?’",
+        "errorSpan": [
+          2,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1360,42 +1368,41 @@
       },
       {
         "tokens": [
-          "As",
+          "She",
+          "were",
+          "sleeping",
+          "when",
           "I",
-          "walked",
-          "down",
-          "the",
-          "street,",
-          "I",
-          "saw",
-          "my",
-          "old",
-          "teacher."
+          "arrived."
         ],
-        "errorIndex": 2,
-        "correction": "was walking",
-        "type": "Wrong tense",
-        "message": "‘As’ introduces the action in progress — use the past continuous."
+        "errorIndex": 1,
+        "correction": "was",
+        "type": "Subject-verb agreement",
+        "message": "With ‘she’ use ‘was’: ‘She was sleeping’.",
+        "errorSpan": [
+          1,
+          1
+        ]
       },
       {
         "tokens": [
-          "The",
-          "sun",
-          "shone",
-          "and",
-          "the",
-          "birds",
-          "were",
-          "singing",
+          "It",
+          "was",
+          "rain",
           "when",
           "we",
-          "woke",
-          "up."
+          "left",
+          "the",
+          "house."
         ],
         "errorIndex": 2,
-        "correction": "was shining",
-        "type": "Wrong tense",
-        "message": "Scene-setting next to ‘were singing’ — use the past continuous."
+        "correction": "raining",
+        "type": "Wrong form",
+        "message": "After ‘was’ use the -ing form: ‘was raining’.",
+        "errorSpan": [
+          2,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1727,14 +1734,14 @@
         "use": "In progress",
         "text": "As we {{blank}} home, we met an old friend.",
         "choices": [
-          "walked",
+          "was walking",
           "were walking",
           "have walked",
           "walk"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘as’ introduces the action in progress — use the past continuous.",
+          "‘We’ takes ‘were’, not ‘was’: ‘were walking’.",
           "",
           "Wrong tense: the story is in the past — use the past continuous.",
           "Wrong tense: the story is in the past, not the present."
@@ -1765,14 +1772,14 @@
         "use": "In progress",
         "text": "While Mum {{blank}} dinner, the electricity went off.",
         "choices": [
-          "cooked",
+          "were cooking",
           "was cooking",
           "has cooked",
           "cooks"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘while’ introduces the longer action in progress — use the past continuous.",
+          "‘Mum’ takes ‘was’, not ‘were’: ‘was cooking’.",
           "",
           "Wrong tense: the story is in the past — use the past continuous.",
           "Wrong tense: the story is in the past, not the present."
