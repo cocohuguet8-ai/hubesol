@@ -293,7 +293,7 @@ const uid = 'tm';
         const yourDiv = document.createElement('div');
         if (a.correct) {
           yourDiv.className = 'rcorrect';
-          yourDiv.textContent = 'Your answer: ' + a.q.choices[a.chosenIndex] + ' — correct';
+          yourDiv.textContent = 'Your answer: ' + a.q.choices[a.chosenIndex] + ' (correct)';
         } else {
           yourDiv.className = 'ryour';
           const yourText = a.chosenIndex === -1 ? 'No answer (time ran out)' : a.q.choices[a.chosenIndex];
