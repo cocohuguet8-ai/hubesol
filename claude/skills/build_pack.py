@@ -58,6 +58,7 @@ mc = [i for i in quiz['items'] if i.get('type') != 'write'][:10]
 for n, it in enumerate(mc, 1):
     q = Paragraph(f'<b>{n}.</b> {clean(it["question"])}', base)
     o = [Paragraph('ABCD'[k] + '. ' + clean(x), base) for k, x in enumerate(it['options'])]
+    o += [Paragraph('', base)] * (4 - len(o))  # ítems de 3 opcions
     ot = Table([[o[0], o[1]], [o[2], o[3]]], colWidths=[90*mm, 90*mm])
     S.append(KeepTogether([q, ot, Spacer(1, 4)]))
 S.append(PageBreak())
