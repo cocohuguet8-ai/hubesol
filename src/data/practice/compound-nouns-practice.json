@@ -597,14 +597,14 @@
         "choices": [
           "hours",
           "hour’s",
-          "hourly",
+          "hours-long",
           "hour"
         ],
         "correct": 3,
         "wrongReasons": [
           "Number + noun before another noun: singular.",
           "With hyphens we don’t use ’s.",
-          "Different word.",
+          "Plural error: in a number compound the noun stays singular (three-hour), even with ‘long’ added.",
           ""
         ],
         "explain": "A three-hour journey. The main word goes last, and the first noun is usually singular."
@@ -616,14 +616,14 @@
           "six-years-old",
           "six-year-old",
           "six-year-olds",
-          "old-six-year"
+          "six-year’s-old"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Year’ stays singular in the compound.",
           "",
           "Plural only if we mean several daughters.",
-          "Wrong order."
+          "No apostrophe: the age is not possessive. Number + singular noun + adjective: six-year-old."
         ],
         "explain": "A six-year-old daughter. The main word goes last, and the first noun is usually singular."
       },
@@ -884,14 +884,14 @@
         "text": "He’s the new <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> manager.",
         "choices": [
           "sale",
-          "sale’s",
+          "salesman",
           "selling",
           "sales"
         ],
         "correct": 3,
         "wrongReasons": [
           "Exception: ‘sales manager’.",
-          "No apostrophe.",
+          "‘Salesman’ is a person; the compound uses the plural noun ‘sales’ to describe the department: sales manager.",
           "Not the usual job title.",
           ""
         ],
