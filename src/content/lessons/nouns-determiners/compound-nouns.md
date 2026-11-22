@@ -4,17 +4,17 @@ description: "How compound nouns work — two nouns together, which one is plura
 level: "B1"
 hub: "Nouns & Determiners"
 hubSlug: "nouns-determiners"
-answerBox: "A compound noun is two (or more) words that work as one noun. The first noun acts like an adjective and stays singular: a shoe shop (not 'shoes shop'), a five-minute walk (not 'five-minutes'). Only the last word takes the plural: bus stops, toothbrushes. They may be written as two words (bus stop), one word (toothbrush), or with a hyphen (mother-in-law). Stress usually falls on the first part: a GREENhouse."
+answerBox: "A compound noun is two (or more) words that work as one noun. The first noun acts like an adjective and is usually singular: a shoe shop (not 'shoes shop'), a five-minute walk (not 'five-minutes'). Only the last word takes the plural: bus stops, toothbrushes. They may be written as two words (bus stop), one word (toothbrush), or with a hyphen (mother-in-law). Stress usually falls on the first part: a GREENhouse."
 answerLead: "A compound noun combines words into one idea. Key rules:"
 answerPoints:
-  - "The first noun is like an adjective and stays singular — a car park, a toothbrush."
+  - "The first noun is like an adjective and is usually singular — a car park, a toothbrush."
   - "Only the last word is made plural — bus stops, swimming pools."
   - "Written as one word, two words, or hyphenated — depends on the item."
 answerNote: "Numbers + noun before another noun are singular and hyphenated: a ten-year-old boy, a two-hour film."
 quiz: "compound-nouns-quiz-1"
 faq:
   - q: "Why is it 'a shoe shop', not 'a shoes shop'?"
-    a: "The first noun acts like an adjective, so it stays singular: a shoe shop, a book shelf, a toothbrush — even though it sells shoes or holds books."
+    a: "The first noun acts like an adjective, so it is usually singular: a shoe shop, a bookshelf, a toothbrush — even though it sells shoes or holds books. (A few exceptions keep the -s: a clothes shop, a sports centre.)"
   - q: "Which part becomes plural?"
     a: "Only the last word: bus stops, car parks, toothbrushes. For 'mother-in-law' the plural is 'mothers-in-law' (the main noun is 'mother')."
   - q: "One word, two words, or a hyphen?"
@@ -72,8 +72,10 @@ There's no simple rule — check a dictionary.
 
 ## The first noun is usually singular
 
-- a **shoe** shop (~~a shoes shop~~) — a **toothbrush** (~~teethbrush~~)
-- a **ten-minute** walk — a **five-year-old** boy (~~five-years-old~~)
+- a **shoe** shop, not ~~a shoes shop~~
+- a **toothbrush**, not ~~a teeth brush~~
+- a **ten-minute** walk, not ~~a ten-minutes walk~~
+- a **five-year-old** boy, not ~~a five-years-old boy~~
 
 > ⚠️ Typical error: ~~a books shop~~ → *a bookshop.*
 

@@ -50,7 +50,8 @@ draft: false
 
 ### 2. Plural: add *-s / -es*
 
-- two **books**, three **boxes**, many **people**
+- two **books**, three **boxes**
+- irregular plurals: **child → children**, **woman → women**, **mouse → mice**, **person → people**
 
 ### 3. Words that go with countables
 
@@ -67,6 +68,7 @@ draft: false
 ### 2. Singular verb
 
 - The news **is** good. — My hair **is** long. — Money **doesn't** grow on trees.
+- Subjects that end in *-s* but are uncountable also take a singular verb: **Mathematics** **is** difficult. **Physics** **is** my favourite subject.
 
 ### 3. Words that go with uncountables
 
@@ -80,7 +82,7 @@ draft: false
 | Materials | wood, glass, paper, plastic |
 | Abstract ideas | love, advice, information, help, news |
 | Collections | furniture, luggage, money, homework |
-| Weather | weather, rain, snow, traffic |
+| Weather & traffic | weather, rain, snow, traffic |
 
 > ⚠️ Typical error: ~~The weather are nice.~~ → *The weather is nice.*
 

@@ -16,10 +16,10 @@
     },
     {
       "question": "There are three ___ on this street.",
-      "options": ["bus stopes", "buses stops", "bus stop", "bus stops"],
+      "options": ["bus's stops", "buses stops", "bus stop", "bus stops"],
       "answer": 3,
       "explanations": [
-        "'Bus stopes' is misspelled.",
+        "'Bus's stops' adds an incorrect apostrophe.",
         "'Buses stops' wrongly pluralises the first noun.",
         "'Bus stop' is singular but 'three' needs a plural.",
         "Correct! Only the last word takes the plural: 'bus stops'."
@@ -27,13 +27,13 @@
     },
     {
       "question": "It's only a ___ walk from here.",
-      "options": ["five minute's", "five-minutes", "five-minute", "fives-minute"],
+      "options": ["five minute's", "five-minutes", "five-minute", "five minutes"],
       "answer": 2,
       "explanations": [
         "'Five minute's' adds an incorrect apostrophe.",
         "'Five-minutes' wrongly keeps the plural.",
         "Correct! A number + noun before a noun is singular: 'a five-minute walk'.",
-        "'Fives-minute' is not correct."
+        "'Five minutes' is plural and has no hyphen."
       ]
     },
     {
@@ -60,34 +60,34 @@
     },
     {
       "question": "We stayed in a hotel with two ___ .",
-      "options": ["swimming pooles", "swimmings pool", "swimming pool", "swimming pools"],
+      "options": ["swimming pool's", "swim pools", "swimming pool", "swimming pools"],
       "answer": 3,
       "explanations": [
-        "'Swimming pooles' is misspelled.",
-        "'Swimmings pool' pluralises the wrong word.",
+        "'Swimming pool's' adds an incorrect apostrophe.",
+        "'Swim pools' is not the usual compound: we say 'swimming pool'.",
         "'Swimming pool' is singular but 'two' needs a plural.",
         "Correct! Only the last word is plural: 'swimming pools'."
       ]
     },
     {
       "question": "She's a ___ girl.",
-      "options": ["ten-years-old", "ten-year-old", "ten year olds", "ten-year's-old"],
+      "options": ["ten-years-old", "ten-year-old", "ten year olds", "ten years old"],
       "answer": 1,
       "explanations": [
         "'Ten-years-old' wrongly keeps the plural.",
         "Correct! Singular, hyphenated before the noun: 'a ten-year-old girl'.",
         "'Ten year olds' is missing hyphens and is plural.",
-        "'Ten-year's-old' adds an incorrect apostrophe."
+        "'Ten years old' is fine after 'is', but before a noun we say 'ten-year-old'."
       ]
     },
     {
       "question": "Put your dirty clothes in the ___ .",
-      "options": ["washing machine", "washings machine", "washing's machine", "machine washing"],
+      "options": ["washing machine", "wash machine", "washed machine", "machine washing"],
       "answer": 0,
       "explanations": [
         "Correct! Compound noun, first part singular: 'washing machine'.",
-        "'Washings machine' is not correct.",
-        "'Washing's machine' adds an incorrect apostrophe.",
+        "'Wash machine' is not the usual compound: we say 'washing machine'.",
+        "'Washed machine' is wrong: the first part is the -ing form, 'washing'.",
         "'Machine washing' is the wrong order."
       ]
     },
@@ -121,8 +121,8 @@
     {
       "type": "write",
       "kind": "Fill in the gap",
-      "question": "It's only a ten-___ walk from here.",
-      "hint": "Use the word 'minute'.",
+      "question": "The station is ten minutes away. It's only a ten-___ walk from here.",
+      "hint": "A singular noun.",
       "answers": ["minute"],
       "explanation": "In a compound like this the noun stays singular: a ten-minute walk.",
       "common": [
