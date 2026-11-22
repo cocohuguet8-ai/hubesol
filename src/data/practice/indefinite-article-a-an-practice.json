@@ -256,24 +256,13 @@
       {
         "use": "Put it in order",
         "tokens": [
-          "I",
-          "saw",
-          "a",
-          "fox",
-          "in",
+          "A",
+          "cat",
+          "was",
+          "sleeping",
+          "on",
           "the",
-          "garden."
-        ],
-        "alts": [
-          [
-            "in",
-            "the",
-            "garden,",
-            "I",
-            "saw",
-            "a",
-            "fox."
-          ]
+          "sofa."
         ]
       },
       {
@@ -282,11 +271,11 @@
           "There",
           "is",
           "an",
-          "old",
-          "church",
-          "near",
-          "my",
-          "town."
+          "empty",
+          "seat",
+          "next",
+          "to",
+          "me."
         ]
       },
       {
@@ -349,11 +338,9 @@
         "use": "Put it in order",
         "tokens": [
           "The",
-          "car",
-          "was",
-          "going",
-          "fifty",
-          "kilometres",
+          "bus",
+          "leaves",
+          "twice",
           "an",
           "hour."
         ]
@@ -407,12 +394,12 @@
       {
         "use": "Put it in order",
         "tokens": [
-          "I",
+          "We",
           "have",
           "got",
           "a",
-          "younger",
-          "brother."
+          "spare",
+          "room."
         ]
       },
       {
@@ -1005,15 +992,14 @@
       },
       {
         "tokens": [
-          "It",
-          "takes",
+          "My",
+          "lesson",
+          "finishes",
+          "in",
           "a",
-          "hour",
-          "to",
-          "get",
-          "there."
+          "hour."
         ],
-        "errorIndex": 2,
+        "errorIndex": 4,
         "correction": "an",
         "type": "Wrong a / an",
         "message": "‘Hour’ has a silent h, so it starts with a vowel sound: ‘an hour’."
@@ -1035,16 +1021,17 @@
       },
       {
         "tokens": [
-          "Have",
+          "Would",
           "you",
-          "got",
+          "like",
           "a",
-          "umbrella?"
+          "ice",
+          "cream?"
         ],
         "errorIndex": 3,
         "correction": "an",
         "type": "Wrong a / an",
-        "message": "‘Umbrella’ starts with a vowel sound (/ʌ/), so we say ‘an umbrella’."
+        "message": "‘Ice’ starts with a vowel sound (/aɪ/), so we say ‘an ice cream’."
       },
       {
         "tokens": [
@@ -1223,17 +1210,16 @@
       },
       {
         "tokens": [
-          "I",
-          "saw",
-          "fox",
-          "in",
-          "the",
-          "garden."
+          "We’ve",
+          "got",
+          "dog",
+          "called",
+          "Max."
         ],
         "errorIndex": 2,
-        "correction": "a fox",
+        "correction": "a dog",
         "type": "Missing article",
-        "message": "‘Fox’ is singular and countable, so it needs a/an when we mention it for the first time: ‘a fox’."
+        "message": "‘Dog’ is singular and countable, so it needs a/an when we mention it for the first time: ‘a fox’."
       },
       {
         "tokens": [
