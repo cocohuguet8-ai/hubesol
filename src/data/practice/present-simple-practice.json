@@ -17,7 +17,7 @@
     "subtitle": "Type the present simple form. Twenty original sentences — facts, habits, and timetables. Watch the third-person -s.",
     "questions": [
       {
-        "use": "Fact",
+        "use": "Present simple",
         "kind": "statement",
         "before": "Water",
         "after": "at 100°C.",
@@ -29,7 +29,7 @@
         "explain": "A scientific fact, always true — present simple."
       },
       {
-        "use": "Fact",
+        "use": "Present simple",
         "kind": "statement",
         "before": "The sun",
         "after": "in the east.",
@@ -41,7 +41,7 @@
         "explain": "A permanent truth, not something happening now — present simple."
       },
       {
-        "use": "Fact",
+        "use": "Present simple",
         "kind": "statement",
         "before": "Ice",
         "after": "at 0°C.",
@@ -53,7 +53,7 @@
         "explain": "A fact that’s always true takes the present simple."
       },
       {
-        "use": "Fact — negative",
+        "use": "Present simple",
         "kind": "statement",
         "before": "Oil",
         "after": "with water.",
@@ -68,7 +68,7 @@
         "explain": "Negative fact with ‘it’ — doesn’t + base verb."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "kind": "statement",
         "before": "She",
         "after": "to work every day.",
@@ -80,7 +80,7 @@
         "explain": "‘Every day’ signals a routine — present simple, plus -s for ‘she’."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "kind": "statement",
         "before": "I",
         "after": "up at seven every morning.",
@@ -92,7 +92,7 @@
         "explain": "A routine with ‘I’ — no -s."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "kind": "statement",
         "before": "He",
         "after": "coffee every morning.",
@@ -104,7 +104,7 @@
         "explain": "A routine with ‘he’ — add -s."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "kind": "statement",
         "before": "We",
         "after": "dinner together on Sundays.",
@@ -116,7 +116,7 @@
         "explain": "A routine with ‘we’ — no -s (and note: ‘have’, not ‘haves’)."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "kind": "statement",
         "before": "They",
         "after": "tennis on Saturdays.",
@@ -128,7 +128,7 @@
         "explain": "A routine with ‘they’ — no -s."
       },
       {
-        "use": "Habit — negative",
+        "use": "Present simple",
         "kind": "statement",
         "before": "He",
         "after": "meat.",
@@ -143,7 +143,7 @@
         "explain": "Negative habit with ‘he’ — doesn’t + base verb, no -s on the main verb."
       },
       {
-        "use": "Habit — negative",
+        "use": "Present simple",
         "kind": "statement",
         "before": "I",
         "after": "coffee at night.",
@@ -158,11 +158,11 @@
         "explain": "Negative habit with ‘I’ — don’t + base verb."
       },
       {
-        "use": "Habit — question",
+        "use": "Present simple",
         "kind": "question",
         "before": "",
         "after": "you usually walk to work?",
-        "hint": "(do/does)",
+        "hint": "(auxiliary)",
         "answers": [
           "do"
         ],
@@ -170,11 +170,11 @@
         "explain": "Present simple questions with ‘you’ start with ‘do’."
       },
       {
-        "use": "Habit — question",
+        "use": "Present simple",
         "kind": "question",
         "before": "",
         "after": "your uncle work at weekends?",
-        "hint": "(do/does)",
+        "hint": "(auxiliary)",
         "answers": [
           "does"
         ],
@@ -182,7 +182,7 @@
         "explain": "With ‘your uncle’ (he), the question auxiliary is ‘does’ — and the main verb stays ‘work’, not ‘works’."
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "kind": "statement",
         "before": "The train",
         "after": "at six.",
@@ -194,7 +194,7 @@
         "explain": "A fixed timetable — present simple, plus -s."
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "kind": "statement",
         "before": "The film",
         "after": "at eight tonight.",
@@ -206,7 +206,7 @@
         "explain": "A scheduled event, even though it’s ‘tonight’ — present simple."
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "kind": "statement",
         "before": "The shop",
         "after": "at nine on weekdays.",
@@ -218,7 +218,7 @@
         "explain": "A fixed schedule — present simple."
       },
       {
-        "use": "Timetable — negative",
+        "use": "Present simple",
         "kind": "statement",
         "before": "The museum",
         "after": "on Mondays.",
@@ -233,11 +233,11 @@
         "explain": "Negative timetable fact — doesn’t + base verb."
       },
       {
-        "use": "Timetable — question",
+        "use": "Present simple",
         "kind": "question",
         "before": "",
         "after": "the bus leave at six?",
-        "hint": "(do/does)",
+        "hint": "(auxiliary)",
         "answers": [
           "does"
         ],
@@ -245,7 +245,7 @@
         "explain": "Question about a timetable — ‘does’ + base verb."
       },
       {
-        "use": "Spelling — habit",
+        "use": "Present simple",
         "kind": "statement",
         "before": "She",
         "after": "TV every evening.",
@@ -257,7 +257,7 @@
         "explain": "Verbs ending in -ch add -es: watch → watches."
       },
       {
-        "use": "Spelling — habit",
+        "use": "Present simple",
         "kind": "statement",
         "before": "He",
         "after": "English every week.",
@@ -275,7 +275,7 @@
     "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing statements, negatives and questions.",
     "sentences": [
       {
-        "use": "Fact",
+        "use": "Present simple",
         "tokens": [
           "Bees",
           "make",
@@ -283,7 +283,7 @@
         ]
       },
       {
-        "use": "Fact",
+        "use": "Present simple",
         "tokens": [
           "Plants",
           "need",
@@ -293,7 +293,7 @@
         ]
       },
       {
-        "use": "Fact",
+        "use": "Present simple",
         "tokens": [
           "Penguins",
           "live",
@@ -303,7 +303,7 @@
         ]
       },
       {
-        "use": "Fact — negative",
+        "use": "Present simple",
         "tokens": [
           "Money",
           "doesn’t",
@@ -313,7 +313,7 @@
         ]
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "tokens": [
           "She",
           "always",
@@ -323,7 +323,7 @@
         ]
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "tokens": [
           "My",
           "brother",
@@ -333,7 +333,7 @@
         ]
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "tokens": [
           "We",
           "often",
@@ -354,7 +354,7 @@
         ]
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "tokens": [
           "Grandma",
           "reads",
@@ -375,7 +375,7 @@
         ]
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "tokens": [
           "They",
           "usually",
@@ -398,7 +398,7 @@
         ]
       },
       {
-        "use": "Habit — negative",
+        "use": "Present simple",
         "tokens": [
           "She",
           "doesn’t",
@@ -408,7 +408,7 @@
         ]
       },
       {
-        "use": "Habit — negative",
+        "use": "Present simple",
         "tokens": [
           "My",
           "parents",
@@ -419,7 +419,7 @@
         ]
       },
       {
-        "use": "Question — habit",
+        "use": "Present simple",
         "tokens": [
           "Where",
           "do",
@@ -430,7 +430,7 @@
         ]
       },
       {
-        "use": "Question — habit",
+        "use": "Present simple",
         "tokens": [
           "Does",
           "your",
@@ -442,7 +442,7 @@
         ]
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "tokens": [
           "The",
           "concert",
@@ -465,7 +465,7 @@
         ]
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "tokens": [
           "The",
           "new",
@@ -486,7 +486,7 @@
         ]
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "tokens": [
           "The",
           "bank",
@@ -505,7 +505,7 @@
         ]
       },
       {
-        "use": "Timetable — negative",
+        "use": "Present simple",
         "tokens": [
           "Trains",
           "don’t",
@@ -524,7 +524,7 @@
         ]
       },
       {
-        "use": "Question — timetable",
+        "use": "Present simple",
         "tokens": [
           "What",
           "time",
@@ -535,7 +535,7 @@
         ]
       },
       {
-        "use": "Spelling — habit",
+        "use": "Present simple",
         "tokens": [
           "He",
           "washes",
@@ -556,7 +556,7 @@
         ]
       },
       {
-        "use": "Spelling — habit",
+        "use": "Present simple",
         "tokens": [
           "The",
           "baby",
@@ -673,7 +673,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Fact",
+        "use": "Present simple",
         "text": "A triangle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three sides.",
         "choices": [
           "has",
@@ -691,7 +691,7 @@
         "explain": "A fact that’s always true — present simple; ‘have’ becomes ‘has’ with ‘it’."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "text": "My mum usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shopping on Fridays.",
         "choices": [
           "is doing",
@@ -709,7 +709,7 @@
         "explain": "‘On Fridays’ signals a routine — present simple; with ‘she’, ‘do’ becomes ‘does’."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "text": "My grandparents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a nap after lunch every day.",
         "choices": [
           "has",
@@ -727,7 +727,7 @@
         "explain": "‘Every day’ is a routine; ‘my grandparents’ (they) takes the base form ‘have’."
       },
       {
-        "use": "Habit — question",
+        "use": "Present simple",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your brother share a room with you now?",
         "choices": [
           "Do",
@@ -745,7 +745,7 @@
         "explain": "Yes/no question with ‘your brother’ (he) — ‘does’ + base verb ‘share’."
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "text": "The ferry <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at half past ten every day.",
         "choices": [
           "sails",
@@ -763,7 +763,7 @@
         "explain": "A regular timetable — present simple, plus -s for ‘the ferry’."
       },
       {
-        "use": "Habit — negative",
+        "use": "Present simple",
         "text": "My dad usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sugar in his tea.",
         "choices": [
           "don’t take",
@@ -781,7 +781,7 @@
         "explain": "Negative habit with ‘my dad’ (he) — doesn’t + base verb ‘take’."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "text": "I usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my emails three times a day.",
         "choices": [
           "checks",
@@ -799,7 +799,7 @@
         "explain": "‘Three times a day’ signals a routine; with ‘I’, use the base verb — no -s."
       },
       {
-        "use": "Spelling & form",
+        "use": "Present simple",
         "text": "He usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the 7.30 train.",
         "choices": [
           "catch",
@@ -817,7 +817,7 @@
         "explain": "Verbs ending in -ch add -es: catch → catches."
       },
       {
-        "use": "Form",
+        "use": "Present simple",
         "text": "My uncle usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Paris for work.",
         "choices": [
           "flies",
@@ -835,7 +835,7 @@
         "explain": "Consonant + -y → -ies: fly → flies."
       },
       {
-        "use": "Timetable — negative",
+        "use": "Present simple",
         "text": "The supermarket <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> until ten on weekdays.",
         "choices": [
           "don’t close",
@@ -853,7 +853,7 @@
         "explain": "Negative timetable fact with ‘it’ — doesn’t + base verb ‘close’."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our grandparents every summer.",
         "choices": [
           "visits",
@@ -871,7 +871,7 @@
         "explain": "‘Every summer’ is a routine, so it takes the present simple; ‘we’ takes the base form ‘visit’."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "text": "He usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his teeth twice a day.",
         "choices": [
           "brush",
@@ -889,7 +889,7 @@
         "explain": "‘Twice a day’ — a routine; verbs ending in -sh add -es: brush → brushes."
       },
       {
-        "use": "Fact",
+        "use": "Present simple",
         "text": "The Earth <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> around the Sun.",
         "choices": [
           "moves",
@@ -907,7 +907,7 @@
         "explain": "A scientific fact — present simple, plus -s."
       },
       {
-        "use": "Timetable",
+        "use": "Present simple",
         "text": "The plane <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> at noon tomorrow.",
         "choices": [
           "left",
@@ -925,7 +925,7 @@
         "explain": "A scheduled departure, even ‘tomorrow’ — present simple."
       },
       {
-        "use": "Habit — negative",
+        "use": "Present simple",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in this office on Saturdays.",
         "choices": [
           "doesn’t work",
@@ -943,7 +943,7 @@
         "explain": "Negative habit with ‘they’ — don’t + base verb."
       },
       {
-        "use": "Habit — question",
+        "use": "Present simple",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your parents live near here now?",
         "choices": [
           "Do",
@@ -961,7 +961,7 @@
         "explain": "Plural subject ‘your parents’ — ‘do’ + base verb."
       },
       {
-        "use": "Spelling & form",
+        "use": "Present simple",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three languages — he’s a translator.",
         "choices": [
           "speaks",
@@ -979,7 +979,7 @@
         "explain": "A permanent fact about him — present simple, plus -s for ‘he’."
       },
       {
-        "use": "Fact",
+        "use": "Present simple",
         "text": "Birds <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> south in winter.",
         "choices": [
           "flies",
@@ -997,7 +997,7 @@
         "explain": "Plural subject ‘birds’ — base verb, no -s."
       },
       {
-        "use": "Timetable — question",
+        "use": "Present simple",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shop close early on Sundays now?",
         "choices": [
           "Do",
@@ -1015,7 +1015,7 @@
         "explain": "‘The shop’ (it) — ‘does’ + base verb."
       },
       {
-        "use": "Habit/routine",
+        "use": "Present simple",
         "text": "I usually <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the gym on Mondays and Wednesdays.",
         "choices": [
           "goes",
@@ -1336,7 +1336,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Fact",
+        "use": "Present simple",
         "sentText": "Light {{blank}} faster than sound.",
         "hint": "travel",
         "answers": [
@@ -1347,7 +1347,7 @@
       },
       {
         "type": "fill",
-        "use": "Habit/routine",
+        "use": "Present simple",
         "sentText": "Ben {{blank}} his bike to school every day.",
         "hint": "ride",
         "answers": [
@@ -1358,7 +1358,7 @@
       },
       {
         "type": "fill",
-        "use": "Habit — negative",
+        "use": "Present simple",
         "sentText": "He {{blank}} breakfast on weekdays.",
         "hint": "not / have",
         "answers": [
@@ -1372,7 +1372,7 @@
       },
       {
         "type": "fill",
-        "use": "Timetable",
+        "use": "Present simple",
         "sentText": "The next train to Barcelona {{blank}} at 9.15.",
         "hint": "depart",
         "answers": [
@@ -1383,7 +1383,7 @@
       },
       {
         "type": "order",
-        "use": "Habit/routine",
+        "use": "Present simple",
         "tokens": [
           "My",
           "aunt",
@@ -1396,7 +1396,7 @@
       },
       {
         "type": "order",
-        "use": "Question — habit",
+        "use": "Present simple",
         "tokens": [
           "How",
           "often",
@@ -1408,7 +1408,7 @@
       },
       {
         "type": "order",
-        "use": "Habit — negative",
+        "use": "Present simple",
         "tokens": [
           "My",
           "grandad",
@@ -1419,7 +1419,7 @@
       },
       {
         "type": "order",
-        "use": "Timetable",
+        "use": "Present simple",
         "tokens": [
           "Our",
           "flight",
@@ -1439,7 +1439,7 @@
       },
       {
         "type": "s",
-        "use": "Spelling & form",
+        "use": "Present simple",
         "text": "Alex {{blank}} fishing with his dad every weekend.",
         "hintVerb": "(go)",
         "choices": [
@@ -1459,7 +1459,7 @@
       },
       {
         "type": "s",
-        "use": "Spelling & form",
+        "use": "Present simple",
         "text": "Dad {{blank}} eggs for breakfast every Sunday.",
         "hintVerb": "(fry)",
         "choices": [
@@ -1479,7 +1479,7 @@
       },
       {
         "type": "s",
-        "use": "Irregular",
+        "use": "Present simple",
         "text": "Our school {{blank}} a big library.",
         "hintVerb": "(have)",
         "choices": [
@@ -1499,7 +1499,7 @@
       },
       {
         "type": "s",
-        "use": "Spelling & form",
+        "use": "Present simple",
         "text": "My mum {{blank}} with a good book every evening.",
         "hintVerb": "(relax)",
         "choices": [
@@ -1519,7 +1519,7 @@
       },
       {
         "type": "mc",
-        "use": "Habit — question",
+        "use": "Present simple",
         "text": "{{blank}} your cat sleep on your bed every night?",
         "choices": [
           "Will",
@@ -1538,7 +1538,7 @@
       },
       {
         "type": "mc",
-        "use": "Fact",
+        "use": "Present simple",
         "text": "Lemons {{blank}} sour.",
         "choices": [
           "taste",
@@ -1557,7 +1557,7 @@
       },
       {
         "type": "mc",
-        "use": "Habit — negative",
+        "use": "Present simple",
         "text": "My sister {{blank}} spicy food.",
         "choices": [
           "don’t like",
@@ -1576,7 +1576,7 @@
       },
       {
         "type": "mc",
-        "use": "Timetable — question",
+        "use": "Present simple",
         "text": "When {{blank}} the summer holidays usually start?",
         "choices": [
           "does",
