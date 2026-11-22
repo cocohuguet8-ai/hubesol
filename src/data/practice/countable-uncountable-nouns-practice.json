@@ -956,16 +956,16 @@
       {
         "tokens": [
           "Our",
-          "luggages",
+          "luggage",
           "are",
           "in",
           "the",
           "car."
         ],
-        "errorIndex": 1,
-        "correction": "bags",
-        "type": "Plural uncountable",
-        "message": "‘Luggage’ is uncountable; ‘bags’ is countable and fits ‘are’."
+        "errorIndex": 2,
+        "correction": "is",
+        "type": "Plural verb",
+        "message": "‘Luggage’ is uncountable, so it takes a singular verb: ‘Our luggage is in the car.’"
       },
       {
         "tokens": [
