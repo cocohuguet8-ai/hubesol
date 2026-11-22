@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I'd rather ___ at home tonight.",
-      "options": ["staying", "to stay", "stay", "stayed"],
+      "options": [
+        "staying",
+        "to stay",
+        "stay",
+        "stayed"
+      ],
       "answer": 2,
       "explanations": [
         "'-ing' doesn't follow 'would rather'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I'd prefer ___ by train.",
-      "options": ["to travel", "travel", "travelling", "travelled"],
+      "options": [
+        "to travel",
+        "travel",
+        "travelling",
+        "travelled"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Would prefer' + to-infinitive: 'I'd prefer to travel'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I'd rather walk ___ wait for the bus.",
-      "options": ["rather", "to", "that", "than"],
+      "options": [
+        "rather",
+        "to",
+        "that",
+        "than"
+      ],
       "answer": 3,
       "explanations": [
         "'Rather' would repeat the word.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "I'd rather you ___ me before nine.",
-      "options": ["call", "called", "to call", "calling"],
+      "options": [
+        "call",
+        "called",
+        "to call",
+        "calling"
+      ],
       "answer": 1,
       "explanations": [
         "'Call' (present) is wrong for this structure.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Would you rather ___ inside or outside?",
-      "options": ["sit", "to sit", "sitting", "sat"],
+      "options": [
+        "sit",
+        "to sit",
+        "sitting",
+        "sat"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Would rather' + base verb: 'rather sit'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "She'd prefer ___ window seat.",
-      "options": ["having", "to a", "to have a well", "a"],
+      "options": [
+        "having",
+        "to a",
+        "to have a well",
+        "a"
+      ],
       "answer": 3,
       "explanations": [
         "'Having' doesn't follow 'would prefer' here.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "I'd prefer to stay in ___ go out tonight.",
-      "options": ["that", "than", "rather than", "instead"],
+      "options": [
+        "that",
+        "than",
+        "rather than",
+        "instead"
+      ],
       "answer": 2,
       "explanations": [
         "'That' is not correct here.",
@@ -101,14 +136,14 @@
       "options": [
         "I'd rather you didn't tell anyone.",
         "I'd rather you don't tell anyone.",
-        "I'd rather you not tell anyone.",
+        "I'd rather you won't tell anyone.",
         "I'd rather you to not tell anyone."
       ],
       "answer": 0,
       "explanations": [
         "Correct! About others: 'would rather + past simple': 'you didn't tell'.",
-        "'Don't' (present) is wrong here.",
-        "'You not tell' is not correct.",
+        "This lesson teaches the past simple after 'would rather' + person: 'didn't'.",
+        "'Won't' is future; 'would rather' + person takes the past simple: 'didn't'.",
         "'You to not tell' is not correct."
       ]
     },
@@ -133,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "I'd rather ___ at home tonight. (stay)",
       "hint": "Type one word.",
-      "answers": ["stay"],
+      "answers": [
+        "stay"
+      ],
       "explanation": "'Would rather' + base verb.",
       "common": [
-        {"answer": "to stay", "why": "No 'to' after 'would rather'."}
+        {
+          "answer": "to stay",
+          "why": "No 'to' after 'would rather'."
+        }
       ]
     },
     {
@@ -144,7 +184,10 @@
       "kind": "Correct the mistake",
       "question": "I'd prefer go by train.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I'd prefer to go by train", "I would prefer to go by train"],
+      "answers": [
+        "I'd prefer to go by train",
+        "I would prefer to go by train"
+      ],
       "explanation": "'Would prefer' takes the to-infinitive."
     },
     {
@@ -152,10 +195,15 @@
       "kind": "Fill in the gap",
       "question": "I'd rather you ___ smoke here. (not)",
       "hint": "Type two words.",
-      "answers": ["didn't"],
+      "answers": [
+        "didn't"
+      ],
       "explanation": "'Would rather' + another subject + past simple.",
       "common": [
-        {"answer": "don't", "why": "About another person we use the past simple: didn't."}
+        {
+          "answer": "don't",
+          "why": "About another person we use the past simple: didn't."
+        }
       ]
     }
   ]
