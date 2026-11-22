@@ -86,7 +86,7 @@
         "use": "Pronoun",
         "before": "They gave him a medal. →",
         "after": "was given a medal.",
-        "hint": "he / him",
+        "hint": "subject pronoun",
         "answers": [
           "He"
         ],
@@ -97,7 +97,7 @@
         "use": "Pronoun",
         "before": "They told us the news. →",
         "after": "were told the news.",
-        "hint": "we / us",
+        "hint": "subject pronoun",
         "answers": [
           "We"
         ],
@@ -108,7 +108,7 @@
         "use": "Pronoun",
         "before": "They lent them a car. →",
         "after": "were lent a car.",
-        "hint": "they / them",
+        "hint": "subject pronoun",
         "answers": [
           "They"
         ],
@@ -119,7 +119,7 @@
         "use": "Thing subject",
         "before": "My aunt gave me a watch. → A watch was given",
         "after": "me.",
-        "hint": "to / for",
+        "hint": "preposition",
         "answers": [
           "to"
         ],
@@ -130,7 +130,7 @@
         "use": "Thing subject",
         "before": "They sent her a letter. → A letter was sent",
         "after": "her.",
-        "hint": "to / for",
+        "hint": "preposition",
         "answers": [
           "to"
         ],
@@ -141,7 +141,7 @@
         "use": "Thing subject",
         "before": "Mum made me a cake. → A cake was made",
         "after": "me.",
-        "hint": "to / for",
+        "hint": "preposition",
         "answers": [
           "for"
         ],
@@ -152,7 +152,7 @@
         "use": "Thing subject",
         "before": "Dad bought her a bike. → A bike was bought",
         "after": "her.",
-        "hint": "to / for",
+        "hint": "preposition",
         "answers": [
           "for"
         ],
@@ -174,7 +174,7 @@
         "use": "Agreement",
         "before": "Two emails",
         "after": "sent to me this morning.",
-        "hint": "was / were",
+        "hint": "be",
         "answers": [
           "were"
         ],
@@ -185,7 +185,7 @@
         "use": "Agreement",
         "before": "I",
         "after": "sent two emails this morning.",
-        "hint": "was / were",
+        "hint": "be",
         "answers": [
           "was"
         ],
@@ -678,7 +678,7 @@
         "explain": "The most natural passive starts with the person."
       },
       {
-        "use": "Missing to",
+        "use": "Two objects",
         "text": "Which sentence is correct?",
         "choices": [
           "A prize was awarded to Joan.",
@@ -696,7 +696,7 @@
         "explain": "When the thing is the subject, put ‘to’ before the person: awarded to Joan."
       },
       {
-        "use": "Extra to",
+        "use": "Two objects",
         "text": "Which sentence is correct?",
         "choices": [
           "I was shown to the photos.",
@@ -1231,7 +1231,7 @@
         "type": "fill",
         "use": "Pronoun",
         "sentText": "They told me the truth. → {{blank}} was told the truth.",
-        "hint": "I / me",
+        "hint": "subject pronoun",
         "answers": [
           "I"
         ],
@@ -1243,7 +1243,7 @@
         "type": "fill",
         "use": "Thing subject",
         "sentText": "The photos were sent {{blank}} all the parents.",
-        "hint": "to / for",
+        "hint": "preposition",
         "answers": [
           "to"
         ],
@@ -1255,7 +1255,7 @@
         "type": "fill",
         "use": "Agreement",
         "sentText": "The players {{blank}} given new shirts.",
-        "hint": "was / were",
+        "hint": "be",
         "answers": [
           "were"
         ],
