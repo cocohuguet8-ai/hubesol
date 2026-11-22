@@ -5,10 +5,15 @@
   "items": [
     {
       "question": "Look at those clouds! It ___ rain.",
-      "options": ["will", "rains", "is going to", "rained"],
+      "options": [
+        "going to",
+        "rains",
+        "is going to",
+        "rained"
+      ],
       "answer": 2,
       "explanations": [
-        "'Will' works for a general prediction, but here there's evidence (the clouds), which prefers going to.",
+        "'It going to rain' is missing 'is': 'It is going to rain'.",
         "'Rains' is present simple (a habit or fact), not this prediction.",
         "Correct! A prediction based on present evidence takes going to: 'it's going to rain'.",
         "'Rained' is past simple, but this is about the near future."
@@ -16,18 +21,28 @@
     },
     {
       "question": "I've decided: I ___ a new language next year.",
-      "options": ["'m going to study", "will study", "study", "studied"],
+      "options": [
+        "'m going to study",
+        "going to study",
+        "study",
+        "studied"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A plan you've already decided takes going to: 'I'm going to study'.",
-        "'Will study' suggests a decision made right now, but you've already decided.",
+        "'I going to study' is missing 'am': 'I'm going to study'.",
         "'Study' is present simple, which doesn't fit a specific future intention.",
         "'Studied' is past simple, but this plan is for next year."
       ]
     },
     {
       "question": "She ___ going to travel around Asia.",
-      "options": ["be", "are", "am", "is"],
+      "options": [
+        "be",
+        "are",
+        "am",
+        "is"
+      ],
       "answer": 3,
       "explanations": [
         "'Be' is the base form; here it must be 'is'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "___ you ___ to watch the match tonight?",
-      "options": ["Do / going", "Are / going", "Will / going", "Is / going"],
+      "options": [
+        "Do / going",
+        "Are / going",
+        "Will / going",
+        "Is / going"
+      ],
       "answer": 1,
       "explanations": [
         "'Do you going' mixes structures. Use 'Are you going to…?'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "The phone's ringing. — I ___ it.",
-      "options": ["'ll answer", "'m going to answer", "answer", "answered"],
+      "options": [
+        "'ll answer",
+        "'m going to answer",
+        "answer",
+        "answered"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! An on-the-spot decision takes will: 'I'll answer it.'",
@@ -60,7 +85,12 @@
     },
     {
       "question": "We ___ going to buy a car this year.",
-      "options": ["won't", "don't", "not", "aren't"],
+      "options": [
+        "won't",
+        "don't",
+        "not",
+        "aren't"
+      ],
       "answer": 3,
       "explanations": [
         "'Won't' is the negative of will, a different future form.",
@@ -71,10 +101,15 @@
     },
     {
       "question": "He's driving far too fast — he ___ crash!",
-      "options": ["will", "is going to", "crashes", "crashed"],
+      "options": [
+        "going to",
+        "is going to",
+        "crashes",
+        "crashed"
+      ],
       "answer": 1,
       "explanations": [
-        "'Will' is a general prediction, but here you can see it coming, which prefers going to.",
+        "'He going to crash' is missing 'is': 'he is going to crash'.",
         "Correct! A prediction from present evidence takes going to: 'he's going to crash'.",
         "'Crashes' is present simple (a habit or fact), not this prediction.",
         "'Crashed' is past simple, but this is about to happen."
@@ -82,18 +117,28 @@
     },
     {
       "question": "They ___ married in June — the wedding is booked.",
-      "options": ["get", "will get", "are going to get", "got"],
+      "options": [
+        "get",
+        "are going get",
+        "are going to get",
+        "got"
+      ],
       "answer": 2,
       "explanations": [
         "'Get' is present simple, which doesn't fit this specific future plan.",
-        "'Will get' suggests a decision made now, but the wedding is already booked.",
+        "After 'going' you need 'to': 'are going to get'.",
         "Correct! A fixed plan decided before now takes going to: 'are going to get married'.",
         "'Got' is past simple, but the wedding is in June."
       ]
     },
     {
       "question": "Choose the sentence with the same meaning as: 'My plan is to open a café.'",
-      "options": ["I'll open a café.", "I'm going to open a café.", "I open a café.", "I opened a café."],
+      "options": [
+        "I'll open a café.",
+        "I'm going to open a café.",
+        "I open a café.",
+        "I opened a café."
+      ],
       "answer": 1,
       "explanations": [
         "'I'll open' suggests a decision made at this moment, but you already have a plan.",
@@ -108,14 +153,14 @@
         "I'm going to study medicine.",
         "I'm gonna study medicine.",
         "I gonna study medicine.",
-        "I will gonna study."
+        "I am going study medicine."
       ],
       "answer": 0,
       "explanations": [
         "Correct! Write the full form 'going to' in exams and formal writing.",
         "'Gonna' is informal and shouldn't be written in exams.",
         "'I gonna' also drops 'be' and uses informal 'gonna' — wrong on both counts.",
-        "'Will gonna' mixes two futures and uses informal 'gonna'."
+        "After 'going' you need 'to': 'I am going to study'."
       ]
     },
     {
@@ -123,10 +168,17 @@
       "kind": "Fill in the gap",
       "question": "Look at those clouds! It ___ rain. (prediction from evidence)",
       "hint": "Type three words.",
-      "answers": ["is going to"],
+      "answers": [
+        "is going to",
+        "'s going to",
+        "’s going to"
+      ],
       "explanation": "Evidence now: be going to.",
       "common": [
-        {"answer": "will", "why": "With visible evidence we prefer 'going to'."}
+        {
+          "answer": "will",
+          "why": "With visible evidence we prefer 'going to'."
+        }
       ]
     },
     {
@@ -134,18 +186,28 @@
       "kind": "Correct the mistake",
       "question": "I going to study medicine next year.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I'm going to study medicine next year", "I am going to study medicine next year"],
+      "answers": [
+        "I'm going to study medicine next year",
+        "I am going to study medicine next year"
+      ],
       "explanation": "'Going to' needs am/is/are."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "We ___ to buy a new car. We've already saved the money.",
-      "hint": "Type three words.",
-      "answers": ["are going"],
+      "hint": "Type two words.",
+      "answers": [
+        "are going",
+        "'re going",
+        "’re going"
+      ],
       "explanation": "A plan decided before now: be going to.",
       "common": [
-        {"answer": "will", "why": "A plan made earlier uses 'going to'."}
+        {
+          "answer": "will",
+          "why": "A plan made earlier uses 'going to'."
+        }
       ]
     }
   ]
