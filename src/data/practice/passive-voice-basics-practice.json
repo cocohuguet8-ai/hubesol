@@ -22,7 +22,7 @@
     "subtitle": "Type the passive form of the verb in brackets: am / is / are or was / were + past participle. Twenty original sentences.",
     "questions": [
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "English",
         "after": "in many countries.",
         "hint": "(speak)",
@@ -33,7 +33,7 @@
         "explain": "A general fact in the present: is + past participle spoken."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "These trainers",
         "after": "in Vietnam.",
         "hint": "(make)",
@@ -44,7 +44,7 @@
         "explain": "Plural subject in the present: are + made."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "The museum",
         "after": "by thousands of people every year.",
         "hint": "(visit)",
@@ -55,7 +55,7 @@
         "explain": "Singular subject, regular participle: is visited."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "Paella",
         "after": "in a large, flat pan.",
         "hint": "(cook)",
@@ -66,7 +66,7 @@
         "explain": "A process described in the present passive: is cooked."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "Rice",
         "after": "in Iceland — it’s too cold.",
         "hint": "(not grow)",
@@ -80,10 +80,10 @@
         "explain": "Negative present passive: isn’t + grown."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "",
         "after": "breakfast included in the price?",
-        "hint": "is / are",
+        "hint": "be",
         "answers": [
           "Is"
         ],
@@ -91,7 +91,7 @@
         "explain": "Question: is + subject + past participle."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "The Sagrada Família",
         "after": "by Gaudí.",
         "hint": "(design)",
@@ -102,7 +102,7 @@
         "explain": "A past fact with a famous agent: was designed by."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "My bike",
         "after": "last night.",
         "hint": "(steal)",
@@ -113,7 +113,7 @@
         "explain": "We don’t know who did it: was + stolen (irregular)."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "The first iPhone",
         "after": "in 2007.",
         "hint": "(sell)",
@@ -124,7 +124,7 @@
         "explain": "Past passive: was + sold (irregular participle)."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "Two people",
         "after": "in the accident.",
         "hint": "(injure)",
@@ -135,7 +135,7 @@
         "explain": "Plural subject in the past: were + injured."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "The letters",
         "after": "on Monday.",
         "hint": "(send)",
@@ -146,7 +146,7 @@
         "explain": "Plural, past: were sent."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "The match",
         "after": "because of the rain.",
         "hint": "(not play)",
@@ -160,10 +160,10 @@
         "explain": "Negative past passive: wasn’t + played."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "When",
         "after": "the bridge built?",
-        "hint": "was / were",
+        "hint": "be",
         "answers": [
           "was"
         ],
@@ -171,7 +171,7 @@
         "explain": "Past passive question with a singular subject: was."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "This book",
         "after": "by my favourite author.",
         "hint": "(write)",
@@ -182,7 +182,7 @@
         "explain": "Irregular participle: write → written."
       },
       {
-        "use": "Past",
+        "use": "Passive form",
         "before": "The thieves",
         "after": "the next day.",
         "hint": "(catch)",
@@ -193,10 +193,10 @@
         "explain": "Plural, past: were + caught."
       },
       {
-        "use": "Agent",
+        "use": "Passive form",
         "before": "Guernica was painted",
         "after": "Picasso.",
-        "hint": "by / from",
+        "hint": "preposition",
         "answers": [
           "by"
         ],
@@ -204,7 +204,7 @@
         "explain": "The agent is introduced with ‘by’, not ‘from’."
       },
       {
-        "use": "Participle",
+        "use": "Passive form",
         "before": "The cake was",
         "after": "in five minutes!",
         "hint": "(eat)",
@@ -215,7 +215,7 @@
         "explain": "After ‘was’ use the participle: eaten, not ate."
       },
       {
-        "use": "Participle",
+        "use": "Passive form",
         "before": "A wallet was",
         "after": "in the park.",
         "hint": "(find)",
@@ -226,7 +226,7 @@
         "explain": "Irregular participle: find → found."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "The rubbish",
         "after": "every Tuesday.",
         "hint": "(collect)",
@@ -237,7 +237,7 @@
         "explain": "A regular routine in the present passive: is collected."
       },
       {
-        "use": "Present",
+        "use": "Passive form",
         "before": "Our classes",
         "after": "in English.",
         "hint": "(teach)",
@@ -684,7 +684,7 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘From’ is a very common mistake: the agent always takes ‘by’.",
+          "‘From’ is a very common mistake: the agent takes ‘by’.",
           "‘Of’ isn’t used for the agent.",
           "",
           "‘With’ is for an instrument, not the person."
@@ -695,14 +695,14 @@
         "use": "Choose the answer",
         "text": "Coffee <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Britain. It’s too cold.",
         "choices": [
-          "doesn’t grow",
+          "doesn’t grown",
           "isn’t growing",
           "not grown",
           "isn’t grown"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Doesn’t grow’ is possible for plants, but here the focus is farming: the passive.",
+          "After ‘doesn’t’ use the base verb, and this sentence needs the passive anyway.",
           "‘Isn’t growing’ is continuous active.",
           "‘Not grown’ is missing ‘is’.",
           ""
@@ -876,14 +876,14 @@
         "text": "The museum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on Mondays.",
         "choices": [
           "is closed",
-          "closes",
+          "close",
           "is closing",
           "closed"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Closes’ is active and possible, but the passive describes the state here.",
+          "‘The museum close’ is wrong: it needs ‘is closed’ here.",
           "‘Is closing’ means right now.",
           "‘Closed’ alone is past active."
         ],
@@ -1103,17 +1103,17 @@
       {
         "tokens": [
           "This",
-          "photo",
+          "novel",
           "was",
-          "taken",
+          "written",
           "of",
-          "my",
-          "dad."
+          "George",
+          "Orwell."
         ],
         "errorIndex": 4,
         "correction": "by",
         "type": "Wrong agent preposition",
-        "message": "Agent: ‘taken by my dad’."
+        "message": "The agent takes ‘by’: ‘written by George Orwell’."
       },
       {
         "tokens": [
@@ -1179,15 +1179,16 @@
       },
       {
         "tokens": [
-          "Two",
-          "people",
-          "were",
-          "injuried."
+          "Were",
+          "the",
+          "parcel",
+          "delivered",
+          "yesterday?"
         ],
-        "errorIndex": 3,
-        "correction": "injured.",
-        "type": "Spelling",
-        "message": "Spelling: ‘injured’."
+        "errorIndex": 0,
+        "correction": "Was",
+        "type": "Wrong be",
+        "message": "‘The parcel’ is singular: ‘Was the parcel delivered?’."
       },
       {
         "tokens": [
@@ -1241,7 +1242,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Present",
+        "use": "Passive form",
         "sentText": "Chocolate {{blank}} from cocoa beans.",
         "hint": "make",
         "answers": [
@@ -1253,7 +1254,7 @@
       },
       {
         "type": "fill",
-        "use": "Past",
+        "use": "Passive form",
         "sentText": "The castle {{blank}} in the 12th century.",
         "hint": "build",
         "answers": [
@@ -1265,7 +1266,7 @@
       },
       {
         "type": "fill",
-        "use": "Past",
+        "use": "Passive form",
         "sentText": "The winners {{blank}} by the public.",
         "hint": "choose",
         "answers": [
@@ -1277,7 +1278,7 @@
       },
       {
         "type": "fill",
-        "use": "Negative",
+        "use": "Passive form",
         "sentText": "The shop {{blank}} on Sundays.",
         "hint": "not open",
         "answers": [
@@ -1333,7 +1334,7 @@
       },
       {
         "type": "participle",
-        "use": "Participle",
+        "use": "Passive form",
         "text": "The book was {{blank}} in 1950.",
         "choices": [
           "wrote",
@@ -1352,7 +1353,7 @@
       },
       {
         "type": "participle",
-        "use": "Participle",
+        "use": "Passive form",
         "text": "The money was {{blank}} in a box.",
         "choices": [
           "hid",
@@ -1371,7 +1372,7 @@
       },
       {
         "type": "participle",
-        "use": "Participle",
+        "use": "Passive form",
         "text": "All the tickets were {{blank}} in a day.",
         "choices": [
           "sold",
@@ -1390,7 +1391,7 @@
       },
       {
         "type": "participle",
-        "use": "Participle",
+        "use": "Passive form",
         "text": "He was {{blank}} to the hospital.",
         "choices": [
           "took",
@@ -1409,7 +1410,7 @@
       },
       {
         "type": "mc",
-        "use": "Be",
+        "use": "Passive form",
         "text": "These photos {{blank}} in Venice.",
         "choices": [
           "was taken",
@@ -1428,7 +1429,7 @@
       },
       {
         "type": "mc",
-        "use": "Agent",
+        "use": "Passive form",
         "text": "The telephone was invented {{blank}} Bell.",
         "choices": [
           "by",
@@ -1447,7 +1448,7 @@
       },
       {
         "type": "mc",
-        "use": "Question",
+        "use": "Passive form",
         "text": "{{blank}} the parcel delivered yesterday?",
         "choices": [
           "Did",
@@ -1466,7 +1467,7 @@
       },
       {
         "type": "mc",
-        "use": "Present",
+        "use": "Passive form",
         "text": "Football {{blank}} all over the world.",
         "choices": [
           "plays",
