@@ -1087,46 +1087,44 @@
       },
       {
         "tokens": [
-          "I",
-          "need",
-          "a",
-          "information",
-          "about",
-          "the",
-          "course."
-        ],
-        "errorIndex": 2,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘Information’ is uncountable, so it can’t take a/an: ‘some information’ or ‘a piece of information’."
-      },
-      {
-        "tokens": [
-          "He",
-          "gave",
-          "us",
-          "a",
-          "good",
-          "news."
+          "She",
+          "lives",
+          "in",
+          "an",
+          "European",
+          "city."
         ],
         "errorIndex": 3,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘News’ looks plural but is uncountable, so it can’t take a/an: ‘some good news’ or ‘a piece of good news’."
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘European’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a European city’."
       },
       {
         "tokens": [
-          "Our",
-          "teacher",
-          "gave",
-          "us",
-          "a",
-          "homework."
+          "I",
+          "wear",
+          "an",
+          "uniform",
+          "to",
+          "work."
         ],
-        "errorIndex": 4,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘Homework’ is uncountable, so it can’t take ‘a’: say ‘some homework’."
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘Uniform’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a uniform’."
+      },
+      {
+        "tokens": [
+          "She",
+          "has",
+          "an",
+          "new",
+          "bike."
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘New’ starts with a consonant sound, so we say ‘a new bike’."
       },
       {
         "tokens": [
@@ -1147,21 +1145,18 @@
       },
       {
         "tokens": [
-          "I",
-          "bought",
+          "He",
+          "is",
           "a",
-          "new",
-          "shoes",
-          "yesterday."
+          "heir",
+          "to",
+          "the",
+          "throne."
         ],
         "errorIndex": 2,
-        "correction": "new",
-        "type": "A + plural",
-        "message": "‘Shoes’ is plural, so there is no ‘a’: ‘new shoes’ (or ‘a pair of new shoes’).",
-        "errorSpan": [
-          2,
-          3
-        ]
+        "correction": "an",
+        "type": "Wrong a / an",
+        "message": "‘Heir’ has a silent h, so it starts with a vowel sound: ‘an heir’."
       },
       {
         "tokens": [
@@ -1179,17 +1174,17 @@
       },
       {
         "tokens": [
-          "Apples",
-          "cost",
-          "two",
-          "euros",
-          "the",
-          "kilo."
+          "I’d",
+          "like",
+          "a",
+          "ice",
+          "cream,",
+          "please."
         ],
-        "errorIndex": 4,
-        "correction": "a",
-        "type": "Per",
-        "message": "‘A’ means ‘per’ in prices: ‘two euros a kilo’, not ‘the kilo’."
+        "errorIndex": 2,
+        "correction": "an",
+        "type": "Wrong a / an",
+        "message": "‘Ice cream’ starts with a vowel sound, so we say ‘an ice cream’."
       },
       {
         "tokens": [
