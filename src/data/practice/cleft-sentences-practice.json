@@ -66,10 +66,11 @@
         "after": "I grew up.",
         "hint": "(linking word)",
         "answers": [
-          "that"
+          "that",
+          "where"
         ],
         "display": "that",
-        "explain": "Focus on a place: It is + in Girona + that + clause."
+        "explain": "Focus on a place: It is + in Girona + that (or where) + clause."
       },
       {
         "use": "Focus on a reason",
@@ -102,7 +103,8 @@
         "after": "midnight that the noise stopped.",
         "hint": "(linking word)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "The pattern is It wasn’t until + time + that + clause."
@@ -144,25 +146,37 @@
         "use": "Focus on an action",
         "before": "What she did was",
         "after": "the police.",
-        "hint": "(call)",
+        "hint": "(base verb)",
         "answers": [
           "call",
-          "to call"
+          "phone",
+          "ring",
+          "contact",
+          "to call",
+          "to phone",
+          "to ring",
+          "to contact"
         ],
         "display": "call",
-        "explain": "After ‘what she did was’ use the base verb (or to + base verb), not the past form."
+        "explain": "After ‘what she did was’ use the base verb (or to + base verb): call, phone…"
       },
       {
         "use": "Focus on an action",
         "before": "What I want to do is",
-        "after": "for a whole year.",
-        "hint": "(travel)",
+        "after": "the world for a whole year.",
+        "hint": "(base verb)",
         "answers": [
           "travel",
-          "to travel"
+          "see",
+          "explore",
+          "tour",
+          "to travel",
+          "to see",
+          "to explore",
+          "to tour"
         ],
         "display": "travel",
-        "explain": "The focus is an action, so use the base verb or to + base verb after ‘is’."
+        "explain": "The focus is an action, so use the base verb (or to + base verb): travel, see…"
       },
       {
         "use": "Place, reason, manner",
@@ -654,7 +668,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘It’ never changes, and ‘were’ doesn’t agree with ‘it’.",
+          "‘It’ doesn’t change, and ‘were’ doesn’t agree with ‘it’.",
           "‘Did’ can’t be the verb ‘be’ in an it-cleft.",
           "‘Has’ is not the verb ‘be’, which every it-cleft needs."
         ],
@@ -1037,7 +1051,7 @@
         "errorIndex": 1,
         "correction": "was",
         "type": "Plural verb",
-        "message": "‘It’ is always singular: It was the students who complained."
+        "message": "‘It’ is singular: It was the students who complained."
       },
       {
         "tokens": [
@@ -1166,7 +1180,7 @@
           "holiday."
         ],
         "errorIndex": 3,
-        "correction": "is",
+        "correction": "is a",
         "type": "Missing be",
         "message": "A wh-cleft needs ‘be’ before the focus: What I need is a holiday."
       },
@@ -1179,7 +1193,7 @@
           "reaction."
         ],
         "errorIndex": 3,
-        "correction": "was",
+        "correction": "was his",
         "type": "Missing be",
         "message": "The verb ‘be’ is missing: What surprised me was his reaction."
       },
@@ -1367,10 +1381,12 @@
         "type": "fill",
         "use": "Focus on an action",
         "sentText": "What he did was {{blank}} to everyone.",
-        "hint": "apologise",
+        "hint": "(say sorry)",
         "answers": [
           "apologise",
-          "to apologise"
+          "apologize",
+          "to apologise",
+          "to apologize"
         ],
         "display": "apologise",
         "explain": "After ‘what he did was’ use the base verb, or to + base verb.",

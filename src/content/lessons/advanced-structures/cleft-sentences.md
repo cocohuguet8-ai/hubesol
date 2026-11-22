@@ -10,7 +10,7 @@ answerPoints:
   - "It-cleft — It was Maria who found the keys."
   - "Wh-cleft — What I need is a holiday."
   - "Thing-cleft — The problem is that the website is slow."
-answerNote: "The verb be always sits in the middle. Use clefts to emphasise or contrast, not in every sentence."
+answerNote: "The verb be sits in the middle. Use clefts to emphasise or contrast, not in every sentence."
 quiz: "cleft-sentences-quiz-1"
 faq:
   - q: "What is a cleft sentence?"
@@ -64,7 +64,7 @@ Use **It + be + focus + that / who + the rest of the sentence**. The focus can b
 
 - Use **who** or **that** for people, and **that** for everything else.
 - *Be* shows the time of the sentence (*is* or *was*). The verb in the second part keeps its own tense: *It was Tom who had called earlier.*
-- *It* never changes, even when the focus is plural: **It was the students who complained.**
+- *It* doesn’t change, even when the focus is plural: **It was the students who complained.**
 
 ### Negatives and questions
 
@@ -72,7 +72,7 @@ Use **It + be + focus + that / who + the rest of the sentence**. The focus can b
 - **Was it Maria who called?** / **Who was it that called?**
 - **It wasn’t until midnight that the storm stopped.** (= The storm didn’t stop until midnight.)
 
-> ⚠️ Typical error: ~~Was Maria who called.~~ → An *it*-cleft always needs *it*: *It was Maria who called.*
+> ⚠️ Typical error: ~~Was Maria who called.~~ → An *it*-cleft needs *it*: *It was Maria who called.*
 
 ## *Wh*-clefts
 
@@ -82,7 +82,7 @@ Use **What + clause + be + focus**. The *what*-clause sets the scene, and the fo
 - **What surprised me was** his reaction.
 - **What the team wants is** a new coach.
 
-When the *what*-clause has the verb **do**, the focus is an action. After *be*, use the **base verb** or *to* + base verb. Never repeat the past form.
+When the *what*-clause has the verb **do**, the focus is an action. After *be*, use the **base verb** or *to* + base verb. Don’t repeat the past form.
 
 - **What she did was call** the police.
 - **What I want to do is (to) travel** for a year.
