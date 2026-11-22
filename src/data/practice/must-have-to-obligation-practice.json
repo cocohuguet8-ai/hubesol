@@ -22,40 +22,43 @@
         "use": "Fill the gap",
         "before": "I",
         "after": "remember to buy milk on the way home.",
-        "hint": "must / have to",
+        "hint": "(obligation)",
         "answers": [
-          "must"
+          "must",
+          "have to"
         ],
         "display": "must",
-        "explain": "A personal reminder from the speaker: must + base verb."
+        "explain": "A personal reminder from the speaker: must + base verb (have to also works)."
       },
       {
         "use": "Fill the gap",
         "before": "You",
         "after": "see that film — it’s brilliant!",
-        "hint": "must / have to",
+        "hint": "(obligation)",
         "answers": [
-          "must"
+          "must",
+          "have to"
         ],
         "display": "must",
-        "explain": "A strong recommendation from the speaker: must + base verb."
+        "explain": "A strong recommendation from the speaker: must + base verb (have to also works)."
       },
       {
         "use": "Fill the gap",
         "before": "All passengers",
         "after": "show their tickets before boarding.",
-        "hint": "must / have to",
+        "hint": "(obligation)",
         "answers": [
-          "must"
+          "must",
+          "have to"
         ],
         "display": "must",
-        "explain": "A written, formal rule often uses ‘must’."
+        "explain": "A written, formal rule often uses ‘must’ (have to also works)."
       },
       {
         "use": "Fill the gap",
         "before": "You",
         "after": "touch the oven — it’s very hot!",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(obligation)",
         "answers": [
           "mustn’t",
           "mustn't",
@@ -69,7 +72,7 @@
         "use": "Fill the gap",
         "before": "Students",
         "after": "use their phones during the exam.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(obligation)",
         "answers": [
           "mustn’t",
           "mustn't",
@@ -83,7 +86,7 @@
         "use": "Fill the gap",
         "before": "I",
         "after": "wear a uniform at my school.",
-        "hint": "must / have to",
+        "hint": "(obligation)",
         "answers": [
           "have to"
         ],
@@ -94,7 +97,7 @@
         "use": "Fill the gap",
         "before": "My mum",
         "after": "get up at six for work.",
-        "hint": "have to / has to",
+        "hint": "(obligation)",
         "answers": [
           "has to"
         ],
@@ -105,7 +108,7 @@
         "use": "Fill the gap",
         "before": "Pol",
         "after": "take his medicine twice a day.",
-        "hint": "have to / has to",
+        "hint": "(obligation)",
         "answers": [
           "has to"
         ],
@@ -116,7 +119,7 @@
         "use": "Fill the gap",
         "before": "You",
         "after": "come if you don’t want to.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(obligation)",
         "answers": [
           "don’t have to",
           "don't have to",
@@ -130,7 +133,7 @@
         "use": "Fill the gap",
         "before": "It’s Saturday, so I",
         "after": "get up early.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(obligation)",
         "answers": [
           "don’t have to",
           "don't have to",
@@ -144,7 +147,7 @@
         "use": "Fill the gap",
         "before": "My brother",
         "after": "do homework at the weekend.",
-        "hint": "don’t / doesn’t have to",
+        "hint": "(obligation)",
         "answers": [
           "doesn’t have to",
           "doesn't have to",
@@ -158,7 +161,7 @@
         "use": "Fill the gap",
         "before": "We",
         "after": "wait two hours at the airport yesterday.",
-        "hint": "must / had to",
+        "hint": "(obligation)",
         "answers": [
           "had to"
         ],
@@ -169,7 +172,7 @@
         "use": "Fill the gap",
         "before": "She",
         "after": "walk home because she missed the bus.",
-        "hint": "must / had to",
+        "hint": "(obligation)",
         "answers": [
           "had to"
         ],
@@ -180,7 +183,7 @@
         "use": "Fill the gap",
         "before": "We",
         "after": "pay — the concert was free.",
-        "hint": "mustn’t / didn’t have to",
+        "hint": "(obligation)",
         "answers": [
           "didn’t have to",
           "didn't have to",
@@ -194,7 +197,7 @@
         "use": "Fill the gap",
         "before": "You’ll",
         "after": "show your passport at the border.",
-        "hint": "must / have to",
+        "hint": "(obligation)",
         "answers": [
           "have to"
         ],
@@ -205,7 +208,7 @@
         "use": "Fill the gap",
         "before": "If you miss the bus, you’ll",
         "after": "walk.",
-        "hint": "must / have to",
+        "hint": "(obligation)",
         "answers": [
           "have to"
         ],
@@ -216,7 +219,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "you have to wear a tie at work?",
-        "hint": "do / must",
+        "hint": "(obligation)",
         "answers": [
           "Do"
         ],
@@ -227,7 +230,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "your sister have to study tonight?",
-        "hint": "do / does",
+        "hint": "(obligation)",
         "answers": [
           "Does"
         ],
@@ -238,7 +241,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "you have to queue for the tickets?",
-        "hint": "do / did",
+        "hint": "(obligation)",
         "answers": [
           "Did"
         ],
@@ -249,7 +252,7 @@
         "use": "Fill the gap",
         "before": "I’ve",
         "after": "change my plans three times this week.",
-        "hint": "had to",
+        "hint": "(obligation)",
         "answers": [
           "had to"
         ],
@@ -608,8 +611,8 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Must’ is never followed by ‘to’: the base verb comes straight after.",
-          "Modal verbs never take -s.",
+          "‘Must’ isn’t followed by ‘to’: the base verb comes straight after.",
+          "Modal verbs don’t take -s.",
           "‘Must’ doesn’t need ‘be’ before it."
         ],
         "explain": "A personal obligation the speaker feels: must + base verb."
@@ -627,7 +630,7 @@
         "wrongReasons": [
           "With ‘she’ the form is ‘has to’, not ‘have to’.",
           "",
-          "‘Must’ never takes ‘to’.",
+          "‘Must’ doesn’t takes ‘to’.",
           "‘Has wear’ needs ‘to’ in between."
         ],
         "explain": "Third person singular: has to + base verb."
@@ -662,7 +665,7 @@
         "correct": 3,
         "wrongReasons": [
           "‘Will must’ is impossible: two modals can’t go together.",
-          "‘Must’ never takes ‘to’.",
+          "‘Must’ doesn’t takes ‘to’.",
           "‘Had to’ is past, but this is next year.",
           ""
         ],
@@ -716,7 +719,7 @@
         "correct": 3,
         "wrongReasons": [
           "With ‘she’ use ‘doesn’t’, not ‘don’t’.",
-          "‘Must’ never takes ‘to’.",
+          "‘Must’ doesn’t takes ‘to’.",
           "‘Hasn’t to’ is not a correct form.",
           ""
         ],
@@ -789,7 +792,7 @@
         "wrongReasons": [
           "",
           "No ‘to’ after ‘must’.",
-          "Modals never take -s.",
+          "Modals don’t take -s.",
           "‘Have stop’ needs ‘to’."
         ],
         "explain": "Written rules and signs often use ‘must’."
@@ -798,14 +801,14 @@
         "use": "Choose the answer",
         "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> visit the Sagrada Família. It’s amazing!",
         "choices": [
-          "have to",
+          "has to",
           "must",
           "had to",
           "mustn’t"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Have to’ suggests an outside rule; this is the speaker’s strong advice.",
+          "‘You’ takes ‘have to’, not ‘has to’; and a recommendation from the speaker is ‘must’.",
           "",
           "‘Had to’ is past.",
           "‘Mustn’t’ means it’s forbidden."
@@ -987,7 +990,7 @@
         "errorIndex": 1,
         "correction": "must",
         "type": "-s on a modal",
-        "message": "Modals never take -s: ‘She must wear…’."
+        "message": "Modals don’t take -s: ‘She must wear…’."
       },
       {
         "tokens": [
@@ -1268,7 +1271,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "My brother {{blank}} tidy his room every Saturday.",
-        "hint": "have to / has to",
+        "hint": "(obligation)",
         "answers": [
           "has to"
         ],
@@ -1280,7 +1283,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "We {{blank}} run to catch the train this morning.",
-        "hint": "must / had to",
+        "hint": "(obligation)",
         "answers": [
           "had to"
         ],
@@ -1292,7 +1295,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "You {{blank}} tell anyone — it’s a secret!",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(obligation)",
         "answers": [
           "mustn’t",
           "mustn't",
@@ -1307,7 +1310,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "You’ll {{blank}} wait until tomorrow.",
-        "hint": "have to",
+        "hint": "(obligation)",
         "answers": [
           "have to"
         ],
