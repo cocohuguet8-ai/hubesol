@@ -19,7 +19,7 @@
     "subtitle": "Type the correct form of the verb in brackets. Read the clue: real and likely → first conditional; imaginary or unlikely → second. Twenty original sentences.",
     "questions": [
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If it",
         "after": "tomorrow, we’ll take umbrellas.",
         "hint": "(rain)",
@@ -30,7 +30,7 @@
         "explain": "A real future with ‘we’ll’: first conditional, so the present simple ‘rains’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If you call me tonight, I",
         "after": ".",
         "hint": "(answer)",
@@ -38,13 +38,16 @@
           "will answer",
           "’ll answer",
           "'ll answer",
-          "ll answer"
+          "ll answer",
+          "can answer",
+          "may answer",
+          "might answer"
         ],
         "display": "will answer",
         "explain": "A real possibility (tonight): first conditional, will + base verb."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If Pau",
         "after": "his driving test, his dad will lend him the car.",
         "hint": "(pass)",
@@ -55,7 +58,7 @@
         "explain": "First conditional with ‘will’ in the result: present simple with -es for ‘he’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "We",
         "after": "the start if we don’t leave now.",
         "hint": "(miss)",
@@ -63,13 +66,14 @@
           "will miss",
           "’ll miss",
           "'ll miss",
-          "ll miss"
+          "ll miss",
+          "might miss"
         ],
         "display": "will miss",
         "explain": "A real danger right now: first conditional, ‘will miss’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If the shop",
         "after": "still open, I’ll get some milk.",
         "hint": "(be)",
@@ -80,7 +84,7 @@
         "explain": "A real possibility: first conditional, present simple ‘is’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If I",
         "after": "a million euros, I’d buy a castle.",
         "hint": "(have)",
@@ -91,7 +95,7 @@
         "explain": "A dream with ‘I’d’: second conditional, past simple ‘had’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If cats could talk, they",
         "after": "all day.",
         "hint": "(complain)",
@@ -105,7 +109,7 @@
         "explain": "An impossible situation: second conditional, would + base verb."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If my grandma",
         "after": "nearer, I’d see her every week.",
         "hint": "(live)",
@@ -116,7 +120,7 @@
         "explain": "She doesn’t live near (imaginary): past simple ‘lived’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If I were the head teacher, I",
         "after": "homework.",
         "hint": "(ban)",
@@ -130,7 +134,7 @@
         "explain": "‘If I were’ is imaginary, so the result takes would + base verb."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If we",
         "after": "phones, we’d talk more.",
         "hint": "(not have)",
@@ -144,7 +148,7 @@
         "explain": "An imaginary present: negative past simple, ‘didn’t have’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If you",
         "after": "your vegetables, you won’t get dessert.",
         "hint": "(not eat)",
@@ -158,7 +162,7 @@
         "explain": "A real warning with ‘won’t’: present simple negative, ‘don’t eat’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If he",
         "after": "older, he could drive.",
         "hint": "(be)",
@@ -170,7 +174,7 @@
         "explain": "He isn’t older (imaginary): ‘were’ for all subjects."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If I",
         "after": "Jordi at football, I’ll give him his jacket.",
         "hint": "(see)",
@@ -181,7 +185,7 @@
         "explain": "You will probably see him: first conditional, present simple ‘see’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If I",
         "after": "a UFO, I’d film it.",
         "hint": "(see)",
@@ -192,7 +196,7 @@
         "explain": "Seeing a UFO is very unlikely: second conditional, past simple ‘saw’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If the bus is late, I",
         "after": ".",
         "hint": "(walk)",
@@ -200,24 +204,28 @@
           "will walk",
           "’ll walk",
           "'ll walk",
-          "ll walk"
+          "ll walk",
+          "might walk"
         ],
         "display": "will walk",
         "explain": "A real, everyday possibility: will + base verb."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If the bus were free, more people",
         "after": "it.",
         "hint": "(use)",
         "answers": [
-          "would use"
+          "would use",
+          "’d use",
+          "'d use",
+          "d use"
         ],
         "display": "would use",
         "explain": "The bus isn’t free (imaginary): would + base verb."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "What would you do if you",
         "after": "be invisible?",
         "hint": "(can)",
@@ -228,7 +236,7 @@
         "explain": "An impossible ability: the past of ‘can’ is ‘could’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "What will you do if you",
         "after": "a place at university?",
         "hint": "(not get)",
@@ -242,7 +250,7 @@
         "explain": "A real worry about the future: first conditional, ‘don’t get’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "before": "If I",
         "after": "the answer, I’d tell you — but I don’t.",
         "hint": "(know)",
@@ -253,7 +261,7 @@
         "explain": "‘But I don’t’ shows it’s imaginary: past simple ‘knew’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "before": "If I",
         "after": "the answer, I’ll put my hand up.",
         "hint": "(know)",
@@ -270,7 +278,7 @@
     "subtitle": "Tap the words to build each sentence — 10 first conditionals and 10 second conditionals. Check the verb forms before you start.",
     "sentences": [
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "it’s",
@@ -295,7 +303,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "you",
@@ -314,7 +322,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "I’ll",
           "call",
@@ -335,7 +343,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "she",
@@ -356,7 +364,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "we",
@@ -379,7 +387,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "What",
           "will",
@@ -402,7 +410,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "the",
@@ -427,7 +435,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "You",
           "won’t",
@@ -452,7 +460,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "you",
@@ -475,7 +483,7 @@
         ]
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I",
@@ -498,7 +506,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I",
@@ -519,7 +527,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I",
@@ -540,7 +548,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "we",
@@ -567,7 +575,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "She’d",
           "be",
@@ -592,7 +600,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I",
@@ -617,7 +625,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "What",
           "would",
@@ -642,7 +650,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "he",
@@ -665,7 +673,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I",
@@ -690,7 +698,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "We",
           "wouldn’t",
@@ -715,7 +723,7 @@
         ]
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "it",
@@ -836,7 +844,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "If it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sunny tomorrow, we’ll have a barbecue.",
         "choices": [
           "is",
@@ -848,13 +856,13 @@
         "wrongReasons": [
           "",
           "‘Was’ is second conditional, but the result is ‘we’ll’ (first).",
-          "‘Would’ never goes in the if-clause.",
-          "‘Will’ never goes in the if-clause."
+          "‘Would’ doesn’t go in the if-clause here.",
+          "‘Will’ doesn’t go in the if-clause here."
         ],
         "explain": "Real future with ‘we’ll’: first conditional, present simple ‘is’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a superpower, I’d choose invisibility.",
         "choices": [
           "have",
@@ -866,31 +874,31 @@
         "wrongReasons": [
           "‘Have’ is first conditional, but superpowers are imaginary and the result is ‘I’d’.",
           "",
-          "‘Will’ never goes after ‘if’.",
-          "‘Would’ never goes after ‘if’."
+          "‘Will’ doesn’t go after ‘if’ here.",
+          "‘Would’ doesn’t go after ‘if’ here."
         ],
         "explain": "An imaginary situation with ‘I’d’: past simple ‘had’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "If you finish your homework, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> watch a film.",
         "choices": [
           "could",
           "would",
           "can",
-          "will can"
+          "can to"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Could’ would make it imaginary; this is a real promise.",
           "‘Would’ belongs to the second conditional.",
           "",
-          "Two modals can’t go together."
+          "No ‘to’ after ‘can’."
         ],
         "explain": "A real possibility: first conditional with a modal, ‘can watch’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If I were you, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that jacket.",
         "choices": [
           "won’t buy",
@@ -908,7 +916,7 @@
         "explain": "Advice: If I were you, I wouldn’t…"
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "If the train <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late, I’ll get a taxi.",
         "choices": [
           "were",
@@ -926,7 +934,7 @@
         "explain": "First conditional: if + present simple, ‘is’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If my dog <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> speak, it would tell funny stories.",
         "choices": [
           "can",
@@ -937,32 +945,32 @@
         "correct": 2,
         "wrongReasons": [
           "A talking dog is impossible, so use the past ‘could’, not ‘can’.",
-          "‘Will’ never goes after ‘if’.",
+          "‘Will’ doesn’t go after ‘if’ here.",
           "",
-          "‘Would’ never goes after ‘if’."
+          "‘Would’ doesn’t go after ‘if’ here."
         ],
         "explain": "An impossible ability: ‘could’ in the if-clause."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "If you don’t wear a helmet, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> hurt.",
         "choices": [
           "would get",
           "got",
-          "get",
+          "gets",
           "might get"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Would’ makes it imaginary; this is a real warning.",
           "‘Got’ is past.",
-          "A future result needs a modal or ‘will’.",
+          "‘You’ takes ‘get’, not ‘gets’, and a future result needs ‘will’ or ‘might’.",
           ""
         ],
         "explain": "A real warning: first conditional with ‘might’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the mountains, we’d ski every weekend.",
         "choices": [
           "lived",
@@ -980,7 +988,7 @@
         "explain": "Imaginary present: past simple ‘lived’."
       },
       {
-        "use": "First or second",
+        "use": "Conditionals",
         "text": "I’m sure I’ll see her later. If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her, I’ll tell her.",
         "choices": [
           "saw",
@@ -998,7 +1006,7 @@
         "explain": "The speaker is sure: first conditional, present simple ‘see’."
       },
       {
-        "use": "First or second",
+        "use": "Conditionals",
         "text": "I’ll never meet the Queen of Spain, but if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her, I’d curtsy.",
         "choices": [
           "meet",
@@ -1016,7 +1024,7 @@
         "explain": "‘I’ll never’ → unlikely: second conditional, past ‘met’."
       },
       {
-        "use": "Mixed forms",
+        "use": "Conditionals",
         "text": "Which sentence is correct?",
         "choices": [
           "If I had time, I’d help you.",
@@ -1034,7 +1042,7 @@
         "explain": "Second conditional: if + past, would + verb."
       },
       {
-        "use": "Mixed forms",
+        "use": "Conditionals",
         "text": "Which sentence is correct?",
         "choices": [
           "If it rains, we’d stay in.",
@@ -1052,7 +1060,7 @@
         "explain": "First conditional: if + present, will + verb."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> if you could live anywhere?",
         "choices": [
           "will you choose",
@@ -1070,7 +1078,7 @@
         "explain": "An imaginary question: would + subject + verb."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "What <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> if you fail the exam on Friday?",
         "choices": [
           "will you do",
@@ -1088,7 +1096,7 @@
         "explain": "A real future question: What will you do…?"
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so shy, she’d make more friends.",
         "choices": [
           "isn’t",
@@ -1106,7 +1114,7 @@
         "explain": "Imaginary present: negative past of ‘be’, weren’t."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys, I’ll call you.",
         "choices": [
           "lost",
@@ -1124,7 +1132,7 @@
         "explain": "A real possibility: present simple ‘lose’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If people <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> less meat, the planet would be healthier.",
         "choices": [
           "ate",
@@ -1142,7 +1150,7 @@
         "explain": "Second conditional: past simple ‘ate’."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "If it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> raining soon, we’ll go to the park.",
         "choices": [
           "stopped",
@@ -1160,7 +1168,7 @@
         "explain": "First conditional: present simple with -s, ‘stops’."
       },
       {
-        "use": "Second",
+        "use": "Conditionals",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the party if I didn’t have to work.",
         "choices": [
           "will go",
@@ -1178,19 +1186,19 @@
         "explain": "Imaginary result: would + base verb."
       },
       {
-        "use": "First",
+        "use": "Conditionals",
         "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> cold if you don’t take a coat.",
         "choices": [
           "’d be",
           "were",
-          "are",
+          "be",
           "’ll be"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Don’t take’ is present, so the result needs ‘will’.",
           "‘Were’ belongs in an if-clause.",
-          "A future result needs ‘will’.",
+          "‘Be’ needs ‘will’ before it: ‘you’ll be cold’.",
           ""
         ],
         "explain": "A real warning: you’ll be cold."
@@ -1307,7 +1315,7 @@
         "tokens": [
           "If",
           "I",
-          "was",
+          "am",
           "you,",
           "I’d",
           "rest."
@@ -1315,7 +1323,7 @@
         "errorIndex": 2,
         "correction": "were",
         "type": "If I were you",
-        "message": "The advice phrase is ‘If I were you’ (and then ‘I’d rest’)."
+        "message": "Advice with ‘If I were you’ is second conditional: ‘If I were you, I’d rest’."
       },
       {
         "tokens": [
@@ -1548,7 +1556,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "First",
+        "use": "Conditionals",
         "sentText": "If you {{blank}} to my party, you’ll meet my friends.",
         "hint": "come",
         "answers": [
@@ -1560,7 +1568,7 @@
       },
       {
         "type": "fill",
-        "use": "Second",
+        "use": "Conditionals",
         "sentText": "If I {{blank}} a pet tiger, everyone would be scared.",
         "hint": "have",
         "answers": [
@@ -1572,7 +1580,7 @@
       },
       {
         "type": "fill",
-        "use": "First",
+        "use": "Conditionals",
         "sentText": "If it snows, the school {{blank}}.",
         "hint": "close",
         "answers": [
@@ -1584,7 +1592,7 @@
       },
       {
         "type": "fill",
-        "use": "Second",
+        "use": "Conditionals",
         "sentText": "If he were nicer, people {{blank}} him more.",
         "hint": "like",
         "answers": [
@@ -1596,7 +1604,7 @@
       },
       {
         "type": "order",
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I’m",
@@ -1616,7 +1624,7 @@
       },
       {
         "type": "order",
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "If",
           "I",
@@ -1638,7 +1646,7 @@
       },
       {
         "type": "order",
-        "use": "First",
+        "use": "Conditionals",
         "tokens": [
           "We’ll",
           "win",
@@ -1660,7 +1668,7 @@
       },
       {
         "type": "order",
-        "use": "Second",
+        "use": "Conditionals",
         "tokens": [
           "We’d",
           "win",
@@ -1682,7 +1690,7 @@
       },
       {
         "type": "real",
-        "use": "Real",
+        "use": "Conditionals",
         "text": "Tomorrow is Saturday. If we {{blank}} up early, we’ll go hiking.",
         "choices": [
           "got",
@@ -1701,7 +1709,7 @@
       },
       {
         "type": "real",
-        "use": "Imaginary",
+        "use": "Conditionals",
         "text": "I’m not a doctor, but if I {{blank}} one, I’d work abroad.",
         "choices": [
           "am",
@@ -1720,7 +1728,7 @@
       },
       {
         "type": "real",
-        "use": "Real",
+        "use": "Conditionals",
         "text": "The forecast says rain. If it {{blank}}, the match will be cancelled.",
         "choices": [
           "rains",
@@ -1739,7 +1747,7 @@
       },
       {
         "type": "real",
-        "use": "Imaginary",
+        "use": "Conditionals",
         "text": "Humans can’t breathe underwater. If we {{blank}}, we’d live in the sea.",
         "choices": [
           "can",
@@ -1758,7 +1766,7 @@
       },
       {
         "type": "mc",
-        "use": "Mixed forms",
+        "use": "Conditionals",
         "text": "If I {{blank}} you, I wouldn’t worry.",
         "choices": [
           "am",
@@ -1777,7 +1785,7 @@
       },
       {
         "type": "mc",
-        "use": "First",
+        "use": "Conditionals",
         "text": "If she calls, I {{blank}} you know.",
         "choices": [
           "’ll let",
@@ -1796,7 +1804,7 @@
       },
       {
         "type": "mc",
-        "use": "Second",
+        "use": "Conditionals",
         "text": "If we {{blank}} more money, we’d buy a bigger flat.",
         "choices": [
           "have",
@@ -1815,7 +1823,7 @@
       },
       {
         "type": "mc",
-        "use": "First or second",
+        "use": "Conditionals",
         "text": "I hope I pass. If I {{blank}}, I’ll be so happy!",
         "choices": [
           "passed",
