@@ -388,7 +388,14 @@ const uid = 'lc';
       if (bIdx !== cIdx) {
         if (cIdx === 0) return "In a question, “" + aux + "” comes first, before the subject.";
         if (afterWh) return "In a question with “" + whPhrase + "”, “" + aux + "” comes right after it, before the subject.";
-        return "“" + aux + "” goes right after the subject, not somewhere else.";
+        // Explain this sentence's real order: what precedes the auxiliary within its clause, and what follows it.
+        let start = 0;
+        for (let k = cIdx - 1; k >= 0; k--) { if (/[,;:]$/.test(correctWords[k])) { start = k + 1; break; } }
+        const before = correctWords.slice(start, cIdx).join(' ');
+        const after = correctWords[cIdx + 1] ? " and is followed by “" + correctWords[cIdx + 1].replace(/[.,?!;:]+$/, '') + "”" : '';
+        return before
+          ? "In this sentence “" + aux + "” comes right after “" + before + "”" + after + "."
+          : "In this sentence “" + aux + "” starts the clause" + after + ".";
       }
       return "Check the order of the words after “" + aux + "”.";
     }
