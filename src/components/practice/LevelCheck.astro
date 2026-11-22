@@ -388,7 +388,8 @@ const uid = 'lc';
       if (bIdx !== cIdx) {
         if (cIdx === 0) return "In a question, “" + aux + "” comes first, before the subject.";
         if (afterWh) return "In a question with “" + whPhrase + "”, “" + aux + "” comes right after it, before the subject.";
-        return "“" + aux + "” goes right after the subject, not somewhere else.";
+        const prev = (correctWords[cIdx - 1] || '').replace(/[.,?!;:]+$/g, '');
+        return "Check where “" + aux + "” goes: in “" + correctWords.join(' ') + "” it comes right after “" + prev + "”.";
       }
       return "Check the order of the words after “" + aux + "”.";
     }
