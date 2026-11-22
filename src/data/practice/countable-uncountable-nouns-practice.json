@@ -37,8 +37,8 @@
       },
       {
         "use": "Uncountable",
-        "before": "Can I have",
-        "after": "water, please?",
+        "before": "There is",
+        "after": "water on the floor.",
         "hint": "a / an / some",
         "answers": [
           "some"
@@ -103,9 +103,9 @@
       },
       {
         "use": "No plural",
-        "before": "We bought some new",
+        "before": "We bought a bed, a table and a sofa: all new",
         "after": "for the flat.",
-        "hint": "furniture",
+        "hint": "furniture / furnitures",
         "answers": [
           "furniture"
         ],
@@ -116,12 +116,13 @@
         "use": "No plural",
         "before": "I have a lot of",
         "after": "tonight.",
-        "hint": "homework",
+        "hint": "homework / homeworks",
         "answers": [
-          "homework"
+          "homework",
+          "work"
         ],
         "display": "homework",
-        "explain": "‘Homework’ is uncountable: never ‘homeworks’."
+        "explain": "‘Homework’ is uncountable: never ‘homeworks’ (‘a lot of work’ is also fine)."
       },
       {
         "use": "Singular verb",
@@ -215,24 +216,28 @@
         "use": "Unit word",
         "before": "Would you like a",
         "after": "of cake?",
-        "hint": "piece / slice",
+        "hint": "a unit word",
         "answers": [
           "piece",
-          "slice"
+          "slice",
+          "bit"
         ],
         "display": "piece",
-        "explain": "Use a unit word to count uncountables: ‘a piece of cake’ (‘a slice of cake’ also works)."
+        "explain": "Use a unit word to count uncountables: ‘a piece of cake’ (‘a slice of cake’ or ‘a bit of cake’ also work)."
       },
       {
         "use": "Unit word",
         "before": "I’ll have a",
         "after": "of tea, please.",
-        "hint": "cup / glass",
+        "hint": "a container",
         "answers": [
-          "cup"
+          "cup",
+          "mug",
+          "glass",
+          "pot"
         ],
         "display": "cup",
-        "explain": "We usually drink tea from a cup: ‘a cup of tea’."
+        "explain": "We name the container: ‘a cup of tea’ (‘a mug’, ‘a glass’ or ‘a pot of tea’ also work)."
       }
     ],
     "formLabel": "word"
@@ -554,14 +559,14 @@
           "homeworks",
           "homework",
           "a homework",
-          "homework’s"
+          "an homework"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Homework’ has no plural form.",
           "",
           "Uncountables don’t take ‘a’.",
-          "The apostrophe shows possession, not a plural."
+          "Uncountables don’t take ‘an’ either."
         ],
         "explain": "‘Homework’ is uncountable: no -s."
       },
@@ -572,14 +577,14 @@
           "are",
           "were",
           "is",
-          "have"
+          "have been"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Information’ is uncountable: singular verb.",
           "‘Were’ is plural (or past).",
           "",
-          "‘Have’ doesn’t fit the meaning."
+          "‘Information’ takes a singular verb: not ‘have been’."
         ],
         "explain": "Uncountable + singular verb: is."
       },
@@ -589,14 +594,14 @@
         "choices": [
           "many",
           "few",
-          "a",
+          "a lot of",
           "much"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Time’ (= amount) is uncountable: not ‘many’.",
           "‘Few’ goes with plural countables.",
-          "‘How a’ isn’t English.",
+          "‘How a lot of’ isn’t English: we say ‘how much’.",
           ""
         ],
         "explain": "Uncountable: how much."
@@ -642,15 +647,15 @@
         "text": "Could I have a <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of bread?",
         "choices": [
           "bread",
-          "some",
-          "many",
+          "part",
+          "bar",
           "slice"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘A bread of bread’ is wrong.",
-          "‘A some of’ is wrong.",
-          "‘A many of’ is wrong.",
+          "‘A bread of bread’ repeats the noun: we need a unit word.",
+          "‘A part of bread’ isn’t the usual unit: we say ‘a slice of bread’.",
+          "‘Bar’ is for chocolate or soap, not bread.",
           ""
         ],
         "explain": "Unit word: a slice of bread."
@@ -662,14 +667,14 @@
           "furniture",
           "furnitures",
           "a furniture",
-          "furniture’s"
+          "some furnitures"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Furniture’ has no plural.",
           "Uncountables don’t take ‘a’.",
-          "The apostrophe isn’t a plural."
+          "‘Furniture’ has no plural, even after ‘some’."
         ],
         "explain": "‘Furniture’ is uncountable."
       },
@@ -696,14 +701,14 @@
         "text": "I’ve been to Italy three <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "time",
-          "timing",
+          "timings",
           "a time",
           "times"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Time’ meaning ‘occasion’ is countable: plural after ‘three’.",
-          "‘Timing’ is a different word.",
+          "‘Timings’ means schedules, not occasions.",
           "We need the plural.",
           ""
         ],
@@ -715,15 +720,15 @@
         "choices": [
           "coffees",
           "coffee",
-          "coffee’s",
-          "coffeeses"
+          "coffies",
+          "coffee’s"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "In a café, ‘coffee’ = a cup, so it’s countable.",
-          "The apostrophe isn’t a plural.",
-          "Not a word."
+          "In a café, ‘coffee’ = a cup, so it’s countable: two coffees.",
+          "‘Coffee’ + -s is spelled ‘coffees’, not ‘coffies’.",
+          "The apostrophe isn’t a plural."
         ],
         "explain": "Two cups: two coffees."
       },
@@ -751,15 +756,15 @@
         "choices": [
           "hairs",
           "a hair",
-          "hair’s",
-          "hair"
+          "hair",
+          "some hairs"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "Hair on your head is uncountable.",
           "Uncountable: no ‘a’.",
-          "Not a plural.",
-          ""
+          "",
+          "Hair on your head is uncountable: no plural."
         ],
         "explain": "Head hair: uncountable."
       },
@@ -823,14 +828,14 @@
         "choices": [
           "The news is surprising.",
           "The news are surprising.",
-          "The new is surprising.",
+          "Some news are surprising.",
           "A news is surprising."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘News’ takes a singular verb.",
-          "‘The new’ is a different word.",
+          "‘News’ takes a singular verb, even after ‘some’.",
           "‘News’ doesn’t take ‘a’."
         ],
         "explain": "‘News’ = uncountable + singular verb."
@@ -860,14 +865,14 @@
           "glass",
           "a glass",
           "glasses",
-          "glasss"
+          "a glasses"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Glass’ (material) is different from ‘glasses’ (spectacles).",
           "‘A glass’ is for drinking.",
           "",
-          "Not a word."
+          "‘A’ can’t go with a plural."
         ],
         "explain": "Spectacles: glasses (always plural)."
       },
@@ -979,7 +984,7 @@
         "errorIndex": 3,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Bread’ is uncountable: ‘some bread’."
+        "message": "‘Bread’ is uncountable: ‘some bread’ (or ‘a loaf of bread’)."
       },
       {
         "tokens": [
@@ -1006,7 +1011,7 @@
         "errorIndex": 2,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Information’ is uncountable: ‘some information’."
+        "message": "‘News’ is uncountable: ‘some good news’ (or ‘a piece of good news’)."
       },
       {
         "tokens": [
@@ -1020,7 +1025,7 @@
         "errorIndex": 2,
         "correction": "is",
         "type": "Plural verb",
-        "message": "‘News’ takes a singular verb."
+        "message": "‘Information’ is uncountable: ‘some information’ (or ‘a piece of information’)."
       },
       {
         "tokens": [
@@ -1134,13 +1139,17 @@
           "There",
           "are",
           "four",
-          "persons",
+          "womens",
           "waiting."
         ],
         "errorIndex": 3,
-        "correction": "people",
+        "correction": "women",
         "type": "Wrong plural",
-        "message": "Normal plural of ‘person’: ‘people’."
+        "message": "Irregular plural: ‘woman’ → ‘women’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1159,17 +1168,21 @@
       },
       {
         "tokens": [
-          "I",
-          "drank",
-          "a",
+          "He",
+          "bought",
+          "two",
           "bottle",
           "of",
-          "tea."
+          "milk."
         ],
         "errorIndex": 3,
-        "correction": "cup",
-        "type": "Unit word",
-        "message": "We normally say ‘a cup of tea’."
+        "correction": "bottles",
+        "type": "Singular after number",
+        "message": "After ‘two’ the unit word is plural: ‘two bottles of milk’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       }
     ]
   },
@@ -1342,19 +1355,19 @@
       {
         "type": "type",
         "use": "Type",
-        "text": "Why ‘two coffees’ is correct?",
+        "text": "Why is ‘two coffees’ correct?",
         "choices": [
           "coffee is always countable",
-          "it’s a mistake",
+          "it is a mistake",
           "it means two cups",
-          "it means two kinds of milk"
+          "it is always plural"
         ],
         "correct": 2,
         "wrongReasons": [
           "Coffee as a drink in general is uncountable.",
           "It’s correct in a café.",
           "",
-          "It has nothing to do with milk."
+          "‘Coffee’ is only plural when we count cups."
         ],
         "explain": "In a café, ‘a coffee’ = a cup of coffee."
       },
@@ -1427,7 +1440,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Three chocolates’ means individual sweets — different meaning.",
+          "‘Three chocolates of chocolate’ makes no sense: we need a unit word.",
           "",
           "After ‘three’ use the plural.",
           "‘Much’ doesn’t fit here."
@@ -1459,7 +1472,8 @@
         ],
         "errorIndex": 3,
         "correction": "some",
-        "message": "‘Advice’ is uncountable."
+        "message": "‘Advice’ is uncountable.",
+        "explain": "‘Advice’ is uncountable: ‘some advice’ (or ‘a piece of advice’)."
       },
       {
         "type": "error",

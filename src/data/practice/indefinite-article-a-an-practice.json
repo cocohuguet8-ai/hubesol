@@ -46,7 +46,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "‘Nurse’ is a singular countable noun, so after ‘is’ it takes a/an: ‘a nurse’. Plurals and uncountables don’t take a/an."
+        "explain": "‘Nurse’ is a singular countable noun, so after ‘is’ it takes a/an: ‘a nurse’."
       },
       {
         "use": "Job",
@@ -57,7 +57,7 @@
           "an"
         ],
         "display": "an",
-        "explain": "Job + vowel sound: ‘an architect’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Job + vowel sound: ‘an architect’."
       },
       {
         "use": "Job",
@@ -79,7 +79,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "One of many big cities: ‘a big city’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "One of many big cities: ‘a big city’."
       },
       {
         "use": "One of many",
@@ -90,7 +90,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "One friend among several: ‘a friend of mine’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "One friend among several: ‘a friend of mine’."
       },
       {
         "use": "One",
@@ -101,7 +101,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "‘A’ here means ‘one’: a glass of water. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘A’ here means ‘one’: a glass of water."
       },
       {
         "use": "One",
@@ -112,7 +112,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "‘A minute’ = one minute. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘A minute’ = one minute."
       },
       {
         "use": "Per",
@@ -123,7 +123,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "‘A’ means ‘per’: twice a week. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘A’ means ‘per’: twice a week."
       },
       {
         "use": "Per",
@@ -134,7 +134,7 @@
           "an"
         ],
         "display": "an",
-        "explain": "‘Per’ + silent h: ‘an hour’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Per’ + silent h: ‘an hour’."
       },
       {
         "use": "Exclamation",
@@ -145,7 +145,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "‘What’ + singular countable noun needs ‘a’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘What’ + singular countable noun needs ‘a’."
       },
       {
         "use": "Exclamation",
@@ -156,7 +156,7 @@
           "an"
         ],
         "display": "an",
-        "explain": "‘What’ + ‘amazing’ (vowel sound): ‘what an’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘What’ + ‘amazing’ (vowel sound): ‘what an’."
       },
       {
         "use": "There is",
@@ -167,7 +167,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "First mention after ‘Is there’: ‘a bank’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "First mention after ‘Is there’: ‘a bank’."
       },
       {
         "use": "Have got",
@@ -191,7 +191,7 @@
           "some"
         ],
         "display": "—",
-        "explain": "Plural noun: no ‘a’. Write the dash. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Plural noun: no ‘a’. Write the dash."
       },
       {
         "use": "Plural",
@@ -200,11 +200,10 @@
         "hint": "a / an / —",
         "answers": [
           "—",
-          "-",
-          "some"
+          "-"
         ],
         "display": "—",
-        "explain": "‘Eyes’ is plural, so no indefinite article. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Eyes’ is plural, so no indefinite article."
       },
       {
         "use": "Uncountable",
@@ -217,7 +216,7 @@
           "some"
         ],
         "display": "—",
-        "explain": "‘Information’ is uncountable: never ‘an information’."
+        "explain": "‘Information’ is uncountable: ‘an information’ is not possible."
       },
       {
         "use": "Uncountable",
@@ -230,7 +229,7 @@
           "some"
         ],
         "display": "—",
-        "explain": "‘Advice’ is uncountable: no ‘a’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Advice’ is uncountable: no ‘a’."
       },
       {
         "use": "Uncountable",
@@ -240,10 +239,11 @@
         "answers": [
           "—",
           "-",
-          "some"
+          "some",
+          "any"
         ],
         "display": "—",
-        "explain": "‘Milk’ is uncountable here: no ‘a’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Milk’ is uncountable here: no ‘a’."
       }
     ],
     "formLabel": "article"
@@ -345,6 +345,15 @@
           "twice",
           "a",
           "week."
+        ],
+        "alts": [
+          [
+            "twice",
+            "a",
+            "week",
+            "I",
+            "swim."
+          ]
         ]
       },
       {
@@ -446,6 +455,16 @@
           "once",
           "a",
           "month."
+        ],
+        "alts": [
+          [
+            "once",
+            "a",
+            "month",
+            "we",
+            "eat",
+            "out."
+          ]
         ]
       },
       {
@@ -489,7 +508,7 @@
         "right": "exclamation"
       },
       {
-        "left": "I’d like a coffee, please.",
+        "left": "I’d like a coffee and two teas, please.",
         "right": "meaning “one”"
       },
       {
@@ -537,7 +556,7 @@
         "right": "exclamation"
       },
       {
-        "left": "Can I borrow a pencil?",
+        "left": "We stayed in Rome for a week.",
         "right": "meaning “one”"
       },
       {
@@ -572,7 +591,7 @@
           "‘The’ would mean the listener already knows her.",
           "A singular countable noun needs an article."
         ],
-        "explain": "First mention + vowel sound: an interesting woman. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "First mention + vowel sound: an interesting woman."
       },
       {
         "use": "Job",
@@ -590,7 +609,7 @@
           "‘The police officer’ suggests a specific one we know.",
           "Jobs need an article in English."
         ],
-        "explain": "Jobs take a/an: a police officer. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Jobs take a/an: a police officer."
       },
       {
         "use": "Job",
@@ -608,7 +627,7 @@
           "",
           "‘Work as’ + job needs an article."
         ],
-        "explain": "‘Work as’ + job: as an engineer. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Work as’ + job: as an engineer."
       },
       {
         "use": "Plural",
@@ -626,7 +645,7 @@
           "‘One’ doesn’t go with a plural noun.",
           ""
         ],
-        "explain": "Plural noun: no indefinite article. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Plural noun: no indefinite article."
       },
       {
         "use": "Uncountable",
@@ -644,7 +663,7 @@
           "‘Advice’ is uncountable: never ‘a advice’.",
           "‘One advice’ is wrong; say ‘a piece of advice’."
         ],
-        "explain": "Uncountable noun: some advice. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Uncountable noun: some advice."
       },
       {
         "use": "Per",
@@ -662,7 +681,7 @@
           "",
           "‘Per a’ is not English."
         ],
-        "explain": "‘A’ means ‘per’: once a month. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘A’ means ‘per’: once a month."
       },
       {
         "use": "Exclamation",
@@ -676,11 +695,11 @@
         "correct": 3,
         "wrongReasons": [
           "‘Terrible’ starts with a consonant sound.",
-          "‘What the’ isn’t used in exclamations.",
+          "‘The’ doesn’t fit this exclamation: we say ‘What a …!’.",
           "Singular countable after ‘what’ needs ‘a’.",
           ""
         ],
-        "explain": "What + a + adjective + singular noun. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "What + a + adjective + singular noun."
       },
       {
         "use": "Exclamation",
@@ -696,9 +715,9 @@
           "",
           "‘Weather’ is uncountable: no ‘a’.",
           "‘Weather’ is uncountable: no ‘an’.",
-          "‘What the’ isn’t used in exclamations."
+          "‘The’ doesn’t fit this exclamation."
         ],
-        "explain": "Uncountable after ‘what’: no article. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Uncountable after ‘what’: no article."
       },
       {
         "use": "One",
@@ -716,7 +735,7 @@
           "",
           "‘Any’ is for questions and negatives, not for a request like this."
         ],
-        "explain": "‘Some orange juice’ is the natural request. (‘An orange juice’ = one glass is also possible in a café.) Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Some orange juice’ is the natural request. (‘An orange juice’ = one glass is also possible in a café.)"
       },
       {
         "use": "There is",
@@ -730,11 +749,11 @@
         "correct": 3,
         "wrongReasons": [
           "‘Supermarket’ starts with a consonant sound.",
-          "‘There’s the’ is unusual for first mention.",
+          "‘The’ would mean we both already know which supermarket; this is the first mention.",
           "A singular countable noun needs an article.",
           ""
         ],
-        "explain": "‘There is’ + first mention: a supermarket. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘There is’ + first mention: a supermarket."
       },
       {
         "use": "Have got",
@@ -752,7 +771,7 @@
           "‘The umbrella’ is a specific one.",
           "A singular countable noun needs an article."
         ],
-        "explain": "Have got + an umbrella. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Have got + an umbrella."
       },
       {
         "use": "One of many",
@@ -770,7 +789,7 @@
           "‘The English writer’ suggests only one.",
           "A singular noun needs an article."
         ],
-        "explain": "One of many English writers: an English writer. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "One of many English writers: an English writer."
       },
       {
         "use": "Uncountable",
@@ -788,11 +807,11 @@
           "‘One furniture’ is wrong; say ‘a piece of furniture’.",
           ""
         ],
-        "explain": "Uncountable: some furniture. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Uncountable: some furniture."
       },
       {
         "use": "Possessive",
-        "text": "He’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> old friend of my father’s.",
+        "text": "He’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> old friend of mine.",
         "choices": [
           "an",
           "a",
@@ -804,9 +823,9 @@
           "",
           "‘Old’ starts with a vowel sound.",
           "‘The’ would suggest the only one.",
-          "‘My old friend of my father’s’ repeats the possessive."
+          "‘My old friend of mine’ repeats the possessive."
         ],
-        "explain": "a/an + noun + of + possessive: an old friend of my father’s."
+        "explain": "a/an + noun + of + possessive: an old friend of mine."
       },
       {
         "use": "Per",
@@ -824,7 +843,7 @@
           "‘The hour’ isn’t used for speed.",
           "‘Per a’ is not English."
         ],
-        "explain": "‘Per’ + silent h: an hour. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Per’ + silent h: an hour."
       },
       {
         "use": "Job",
@@ -842,7 +861,7 @@
           "",
           "Roles need an article."
         ],
-        "explain": "Role: a student. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Role: a student."
       },
       {
         "use": "Which",
@@ -860,7 +879,7 @@
           "‘Actress’ starts with a vowel sound.",
           "‘The actress’ means a specific one we know."
         ],
-        "explain": "Job + vowel sound: an actress. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Job + vowel sound: an actress."
       },
       {
         "use": "Which",
@@ -878,7 +897,7 @@
           "‘Homework’ is uncountable.",
           "‘One homework’ is wrong."
         ],
-        "explain": "Uncountable: some homework. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Uncountable: some homework."
       },
       {
         "use": "First mention",
@@ -896,7 +915,7 @@
           "",
           "A singular noun needs an article."
         ],
-        "explain": "First mention: a strange dream. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "First mention: a strange dream."
       },
       {
         "use": "Plural",
@@ -914,7 +933,7 @@
           "‘One’ doesn’t go with a plural.",
           ""
         ],
-        "explain": "Plural job: no article. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Plural job: no article."
       }
     ]
   },
@@ -1004,7 +1023,7 @@
         "errorIndex": 2,
         "correction": "an",
         "type": "Wrong form",
-        "message": "Silent h: ‘an hour’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "Silent h: ‘an hour’."
       },
       {
         "tokens": [
@@ -1023,28 +1042,30 @@
           "I",
           "bought",
           "a",
-          "shoes",
+          "trousers",
           "yesterday."
         ],
         "errorIndex": 2,
         "correction": "some",
         "type": "A + plural",
-        "message": "‘Shoes’ is plural: ‘some shoes’ or just ‘shoes’."
+        "message": "‘Trousers’ is plural: ‘some trousers’ or ‘a pair of trousers’."
       },
       {
         "tokens": [
-          "We",
-          "saw",
+          "They",
+          "have",
           "a",
-          "dolphins",
-          "in",
-          "the",
-          "sea."
+          "two",
+          "children."
         ],
         "errorIndex": 2,
-        "correction": "some",
+        "errorSpan": [
+          2,
+          3
+        ],
+        "correction": "two",
         "type": "A + plural",
-        "message": "‘Dolphins’ is plural: ‘some dolphins’ or just ‘dolphins’."
+        "message": "‘Two children’ is plural: no ‘a’."
       },
       {
         "tokens": [
@@ -1058,7 +1079,7 @@
         "errorIndex": 4,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Advice’ is uncountable: ‘some advice’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "‘Advice’ is uncountable: ‘some advice’."
       },
       {
         "tokens": [
@@ -1074,17 +1095,17 @@
       },
       {
         "tokens": [
-          "I",
-          "drink",
+          "He",
+          "gave",
+          "us",
           "a",
-          "water",
-          "every",
-          "morning."
+          "good",
+          "news."
         ],
-        "errorIndex": 2,
+        "errorIndex": 3,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Water’ is uncountable: ‘some water’ (or ‘a glass of water’)."
+        "message": "‘News’ is uncountable: ‘some good news’ (or ‘a piece of good news’)."
       },
       {
         "tokens": [
@@ -1097,7 +1118,7 @@
         "errorIndex": 3,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Money’ is uncountable: ‘some money’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "‘Money’ is uncountable: ‘some money’."
       },
       {
         "tokens": [
@@ -1111,21 +1132,22 @@
         "errorIndex": 4,
         "correction": "a",
         "type": "Per",
-        "message": "‘A’ means ‘per’: ‘twice a week’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "‘A’ means ‘per’: ‘twice a week’."
       },
       {
         "tokens": [
-          "Tomatoes",
-          "are",
-          "three",
-          "euros",
+          "He",
+          "drives",
+          "at",
+          "50",
+          "miles",
           "the",
-          "kilo."
+          "hour."
         ],
-        "errorIndex": 4,
-        "correction": "a",
+        "errorIndex": 5,
+        "correction": "an",
         "type": "Per",
-        "message": "For prices per unit we normally say ‘a kilo’."
+        "message": "‘An’ means ‘per’: ‘50 miles an hour’."
       },
       {
         "tokens": [
@@ -1137,20 +1159,23 @@
         "errorIndex": 1,
         "correction": "a",
         "type": "Exclamation",
-        "message": "Exclamations: ‘What a lovely house!’ Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "Exclamations: ‘What a lovely house!’"
       },
       {
         "tokens": [
-          "He’s",
+          "She’s",
+          "a",
           "my",
-          "friend",
-          "of",
-          "mine."
+          "friend."
         ],
         "errorIndex": 1,
-        "correction": "a",
+        "errorSpan": [
+          1,
+          2
+        ],
+        "correction": "my",
         "type": "Possessive",
-        "message": "Say ‘a friend of mine’ or ‘my friend’, not both."
+        "message": "No ‘a’ before ‘my’: ‘She’s my friend’ (or ‘a friend of mine’)."
       },
       {
         "tokens": [
@@ -1158,31 +1183,34 @@
           "saw",
           "the",
           "fox",
-          "in",
+          "for",
           "the",
-          "garden",
-          "—",
-          "it",
-          "was",
-          "beautiful!"
+          "first",
+          "time",
+          "yesterday."
         ],
         "errorIndex": 2,
         "correction": "a",
         "type": "Wrong article",
-        "message": "First mention, the listener doesn’t know it yet: ‘a fox’."
+        "message": "First mention: the listener doesn’t know the fox yet, so ‘a fox’."
       },
       {
         "tokens": [
-          "My",
-          "dad",
-          "is",
+          "He",
+          "wants",
+          "to",
+          "be",
           "the",
-          "pilot."
+          "vet",
+          "when",
+          "he",
+          "grows",
+          "up."
         ],
-        "errorIndex": 3,
+        "errorIndex": 4,
         "correction": "a",
         "type": "Wrong article",
-        "message": "For jobs we use ‘a/an’: ‘a pilot’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "For jobs we use a/an: ‘a vet’."
       },
       {
         "tokens": [
@@ -1226,7 +1254,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "Jobs need an article in English: ‘a lawyer’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it.",
+        "explain": "Jobs need an article in English: ‘a lawyer’.",
         "wrongNote": "Job → a/an."
       },
       {
@@ -1238,7 +1266,7 @@
           "a"
         ],
         "display": "a",
-        "explain": "‘A’ means ‘per’: three times a day. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it.",
+        "explain": "‘A’ means ‘per’: three times a day.",
         "wrongNote": "Per → a."
       },
       {
@@ -1252,7 +1280,7 @@
           "some"
         ],
         "display": "—",
-        "explain": "‘Bread’ is uncountable: no ‘a’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it.",
+        "explain": "‘Bread’ is uncountable: no ‘a’.",
         "wrongNote": "Uncountable → no a/an."
       },
       {
@@ -1264,7 +1292,7 @@
           "an"
         ],
         "display": "an",
-        "explain": "First mention + vowel sound: ‘an old photo’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it.",
+        "explain": "First mention + vowel sound: ‘an old photo’.",
         "wrongNote": "First mention → a/an."
       },
       {
@@ -1286,6 +1314,15 @@
           "once",
           "a",
           "week."
+        ],
+        "alts": [
+          [
+            "once",
+            "a",
+            "week",
+            "I",
+            "run."
+          ]
         ]
       },
       {
@@ -1325,7 +1362,7 @@
           "Exclamations start with ‘what’.",
           "‘Dentist’ is singular."
         ],
-        "explain": "Jobs take a/an. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Jobs take a/an."
       },
       {
         "type": "use",
@@ -1344,7 +1381,7 @@
           "It isn’t introducing a new thing.",
           ""
         ],
-        "explain": "‘A’ = per / every. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘A’ = per / every."
       },
       {
         "type": "use",
@@ -1363,7 +1400,7 @@
           "‘Information’ isn’t plural.",
           "First mention of a countable noun would need ‘a’."
         ],
-        "explain": "Uncountable nouns never take a/an. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Information’ is uncountable here, so there is no a/an."
       },
       {
         "type": "use",
@@ -1382,7 +1419,7 @@
           "",
           "There’s no ‘what’."
         ],
-        "explain": "First mention of a singular countable noun. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "First mention of a singular countable noun."
       },
       {
         "type": "mc",
@@ -1401,7 +1438,7 @@
           "",
           "‘One’ doesn’t go with a plural."
         ],
-        "explain": "Plural: no indefinite article. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Plural: no indefinite article."
       },
       {
         "type": "mc",
@@ -1417,10 +1454,10 @@
         "wrongReasons": [
           "",
           "‘Awful’ starts with a vowel sound.",
-          "‘What the’ isn’t used.",
+          "‘The’ doesn’t fit this exclamation.",
           "Singular countable needs an article."
         ],
-        "explain": "What + an + awful noise. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "What + an + awful noise."
       },
       {
         "type": "mc",
@@ -1439,7 +1476,7 @@
           "‘One advice’ is wrong.",
           ""
         ],
-        "explain": "Uncountable: some advice. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Uncountable: some advice."
       },
       {
         "type": "mc",
@@ -1458,21 +1495,20 @@
           "‘The actor’ is a specific one.",
           "Jobs need an article."
         ],
-        "explain": "Job + vowel sound: an actor. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "Job + vowel sound: an actor."
       },
       {
         "type": "error",
-        "use": "Wrong article",
+        "use": "Missing article",
         "tokens": [
           "My",
           "cousin",
           "is",
-          "the",
           "nurse."
         ],
         "errorIndex": 3,
-        "correction": "a",
-        "message": "Jobs take a/an: ‘a nurse’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "correction": "a nurse.",
+        "message": "Jobs take a/an: ‘a nurse’."
       },
       {
         "type": "error",
@@ -1485,7 +1521,7 @@
         ],
         "errorIndex": 2,
         "correction": "some",
-        "message": "‘Help’ is uncountable: ‘some help’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "‘Help’ is uncountable: ‘some help’."
       },
       {
         "type": "error",
@@ -1500,7 +1536,7 @@
         ],
         "errorIndex": 4,
         "correction": "a",
-        "message": "‘Once a month’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "‘Once a month’."
       },
       {
         "type": "error",
@@ -1514,7 +1550,7 @@
         ],
         "errorIndex": 2,
         "correction": "some",
-        "message": "‘Clothes’ is plural: ‘some new clothes’. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "message": "‘Clothes’ is plural: ‘some new clothes’."
       }
     ],
     "formLabel": "article"

@@ -6,14 +6,14 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | G1 | Fill in the gaps | I bought ___ new lamp for my room. | a | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G2 | Fill in the gaps | She’s got ___ umbrella in her bag. | an | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G3 | Fill in the gaps | Can I have ___ water, please? | some | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G3 | Fill in the gaps | There is ___ water on the floor. | some | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G4 | Fill in the gaps | We need ___ information about the course. | some | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G5 | Fill in the gaps | My teacher gave me ___ good advice. | some | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G6 | Fill in the gaps | There are three ___ on the table. | books | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G7 | Fill in the gaps | I saw two ___ in the garden. | foxes | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G8 | Fill in the gaps | Many ___ came to the party. | people | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G9 | Fill in the gaps | We bought some new ___ for the flat. | furniture | ✎ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G10 | Fill in the gaps | I have a lot of ___ tonight. | homework | ✎ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G9 | Fill in the gaps | We bought a bed, a table and a sofa: all new ___ for the flat. | furniture | ✎ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G10 | Fill in the gaps | I have a lot of ___ tonight. | homework / work | ✎ | ✓ | ✓ | ✎ | — | — | ✓ | — |
 | G11 | Fill in the gaps | The news ___ really good today. | is | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G12 | Fill in the gaps | Your hair ___ beautiful. | is | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G13 | Fill in the gaps | The weather ___ terrible this week. | is | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -22,8 +22,8 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | G16 | Fill in the gaps | How ___ money do you need? | much | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G17 | Fill in the gaps | There isn’t ___ milk in the fridge. | much | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G18 | Fill in the gaps | There aren’t ___ eggs left. | many | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G19 | Fill in the gaps | Would you like a ___ of cake? | piece / slice | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G20 | Fill in the gaps | I’ll have a ___ of tea, please. | cup | ✎ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G19 | Fill in the gaps | Would you like a ___ of cake? | piece / slice / bit | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G20 | Fill in the gaps | I’ll have a ___ of tea, please. | cup / mug / glass / pot | ✎ | ✓ | ✓ | ✎ | — | — | ✓ | — |
 | W1 | Put it in order | (ordena les fitxes) | I have a bike. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
 | W2 | Put it in order | (ordena les fitxes) | She has two cats. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
 | W3 | Put it in order | (ordena les fitxes) | Many people live here. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -101,9 +101,9 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E15 | Find the mistake | There isn’t many time left. | There isn’t much time left. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E16 | Find the mistake | I have three brother. | I have three brothers. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E17 | Find the mistake | Two childs are playing outside. | Two children are playing outside. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E18 | Find the mistake | There are four persons waiting. | There are four people waiting. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
+| E18 | Find the mistake | There are four womens waiting. | There are four women waiting. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
 | E19 | Find the mistake | We’ve got two dog and a cat. | We’ve got two dogs and a cat. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | I drank a bottle of tea. | I drank a cup of tea. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
+| E20 | Find the mistake | He bought two bottle of milk. | He bought two bottles of milk. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
 | L1 | Level check | I need ___ help with my project. | some | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | How ___ eggs do we need? | many | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L3 | Level check | The news ___ on TV now. | is | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -115,7 +115,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | L9 | Level check | Which noun is uncountable? | luggage | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | L10 | Level check | Which noun is countable? | coin | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | L11 | Level check | Which pair is countable + uncountable with the same idea? | job / work | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| L12 | Level check | Why ‘two coffees’ is correct? | it means two cups | ✓ | ✓ | ✓ | ✓ | ✎ | ✎ | — | — |
+| L12 | Level check | Why is ‘two coffees’ correct? | it means two cups | ✓ | ✓ | ✓ | ✓ | ✎ | ✎ | — | — |
 | L13 | Level check | There’s ___ cheese in the fridge. | some | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | L14 | Level check | We didn’t take ___ photos. | many | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | L15 | Level check | Physics ___ difficult for me. | is | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
