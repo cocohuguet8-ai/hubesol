@@ -4,12 +4,12 @@ description: "When you don't need to backshift the tense in reported speech — 
 level: "B2"
 hub: "Reported Speech"
 hubSlug: "reported-speech"
-answerBox: "Backshift isn't always necessary. Keep the original tense when: the reporting verb is in the present (She says she is tired); the statement is still true or a general truth (He said the Earth is round; She said she lives in Rome — and still does); or you report something very recently and it's clearly still valid. Modals like would, could, should, might, must and ought to don't change. It's often optional — backshifting is also correct."
+answerBox: "Backshift isn't always necessary. Keep the original tense when: the reporting verb is in the present (She says she is tired); the statement is still true or a general truth (He said the Earth is round; She said she lives in Rome — and still does); or you report something very recently and it's clearly still valid. Modals like would, could, should and might stay the same; must can stay or become had to. It's often optional — backshifting is also correct."
 answerLead: "You can keep the original tense (no backshift) in these cases:"
 answerPoints:
   - "Present reporting verb — She says (that) she's busy."
   - "Still true or a general truth — He said water boils at 100°C."
-  - "Unreal-past modals stay — would, could, should, might, must don't change."
+  - "Would, could, should and might stay the same after a past reporting verb."
 answerNote: "After a past reporting verb, backshift is still the safe default; not backshifting is an option when the statement remains true."
 quiz: "reported-speech-no-backshift-quiz-1"
 faq:
@@ -17,14 +17,14 @@ faq:
     a: "When the reporting verb is present (He says he's tired), when the fact is still true or general (She said she works here — she still does), or right after something is said."
   - q: "Do general truths backshift?"
     a: "They don't have to: The teacher said that light travels faster than sound. Keeping the present highlights that it's always true."
-  - q: "Which modals never change?"
-    a: "Would, could, should, might, must, ought to and used to stay the same: He said he would help; She said we must leave."
+  - q: "Which modals stay the same?"
+    a: "Would, could, should, might and ought to stay the same: He said he would help; She said we should leave. Must can stay or become had to: She said we must / had to leave."
   - q: "Is backshifting wrong when the fact is still true?"
-    a: "No — both are correct: She said she is/was Italian. Backshift is never wrong after a past reporting verb; not backshifting is just an option."
+    a: "No — both are correct: She said she is/was Italian. Backshift is a safe choice after a past reporting verb; not backshifting is just an option."
 teacherObjectives:
   - "Can keep the original tense with a present reporting verb (CEFR B2)."
   - "Can leave still-true facts and general truths un-backshifted."
-  - "Can recognise that would/could/should/might/must don't change."
+  - "Can recognise that would/could/should/might stay the same."
 related:
   - { title: "All reported speech", href: "/grammar/reported-speech/" }
   - { title: "Reported Statements & Backshift", href: "/grammar/reported-speech/reported-statements-backshift/" }
@@ -43,11 +43,11 @@ Backshift (present → past, past → past perfect) is the normal rule after *sa
 | 2. Facts that are still true | He said the Earth **goes** round the Sun. |
 | 3. Situations still true now | Pau said he **lives** in Girona. (he still does) |
 | 4. Recent reports | (5 minutes ago) Laia said **she's** coming. |
-| 5. Past perfect, *would, could, should, might* | "I'd left." → She said **she'd left**. |
+| 5. Past perfect, *would, could, should, might* | "I'd left." → She said **she'd left**. (they stay the same) |
 
 ## 1. Present reporting verbs
 
-If the reporting verb is **present simple, present perfect** or **future**, never backshift.
+If the reporting verb is **present simple, present perfect** or **future**, we normally keep the original tense.
 
 | Reporting verb | Example |
 |---|---|
@@ -59,12 +59,12 @@ If the reporting verb is **present simple, present perfect** or **future**, neve
 
 ## 2. General truths and facts
 
-Facts that are always true can stay in the present, even after *said*.
+Facts that are always true can stay in the present, even after *said* (backshift is also possible).
 
 - Our teacher **said** water **boils** at 100 °C.
 - He **told** us that Paris **is** the capital of France.
 
-> ⚠️ Typical error: ~~She said that the sun rose in the east.~~ → Correct but strange; for a permanent fact, prefer *rises*.
+> Note: *She said the sun rose in the east* is also correct, but for a permanent fact the present (*rises*) is more natural.
 
 ## 3. Situations that are still true
 
@@ -97,8 +97,8 @@ In everyday English, a past simple often stays the same, especially with a time 
 
 | Question | If yes… |
 |---|---|
-| Is the reporting verb present (*says, has said*)? | Don't backshift. |
-| Is it a general truth? | Don't need to backshift. |
+| Is the reporting verb present (*says, has said*)? | Keep the tense. |
+| Is it a general truth? | You can keep the present. |
 | Is it still true now? | Backshift is optional. |
 | Is it no longer true? | Backshift. |
 
@@ -110,8 +110,8 @@ See [Reported Statements & Backshift](/grammar/reported-speech/reported-statemen
 
 **2. Keeping the present when it's no longer true.** *~~She said she lives in Paris~~* (she moved last year) → **She said she lived in Paris.**
 
-**3. Moving modals that don't change.** *~~He said I should have rest~~* → **He said I should rest.**
+**3. Changing a modal that stays the same.** *~~He said I shall rest~~* → **He said I should rest.**
 
-**4. Double backshift of the past perfect.** *~~She said she had had left~~* → **She said she had left.**
+**4. Changing the past perfect.** *~~She said she was finishing~~* (the direct words were "I had finished") → **She said she had finished.**
 
 **Pro tip:** ask "Is it still true right now?" If yes, you can keep the original tense.

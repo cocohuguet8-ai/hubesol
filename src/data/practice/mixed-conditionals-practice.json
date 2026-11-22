@@ -40,7 +40,8 @@
           "wouldn’t be",
           "wouldn't be",
           "wouldnt be",
-          "would not be"
+          "would not be",
+          "might not be"
         ],
         "display": "wouldn’t be",
         "explain": "‘Now’ shows a present result: wouldn’t + base verb."
@@ -54,7 +55,9 @@
           "would be",
           "’d be",
           "'d be",
-          "d be"
+          "d be",
+          "might be",
+          "could be"
         ],
         "display": "would be",
         "explain": "‘Today’ is now: would + be."
@@ -82,7 +85,9 @@
           "would be",
           "’d be",
           "'d be",
-          "d be"
+          "d be",
+          "might be",
+          "could be"
         ],
         "display": "would be",
         "explain": "A present result of a past decision: would be."
@@ -110,7 +115,8 @@
           "wouldn’t be",
           "wouldn't be",
           "wouldnt be",
-          "would not be"
+          "would not be",
+          "might not be"
         ],
         "display": "wouldn’t be",
         "explain": "‘Now’ → present result: wouldn’t be."
@@ -124,7 +130,9 @@
           "would have",
           "’d have",
           "'d have",
-          "d have"
+          "d have",
+          "might have",
+          "could have"
         ],
         "display": "would have",
         "explain": "A present result (today): would + have (the verb ‘have’, not a past form)."
@@ -157,7 +165,7 @@
       },
       {
         "use": "Present → past",
-        "before": "If I",
+        "before": "I’m so disorganised! If I",
         "after": "more organised, I wouldn’t have forgotten your birthday.",
         "hint": "(be)",
         "answers": [
@@ -176,14 +184,15 @@
           "wouldn’t have forgotten",
           "wouldn't have forgotten",
           "wouldnt have forgotten",
-          "would not have forgotten"
+          "would not have forgotten",
+          "might not have forgotten"
         ],
         "display": "wouldn’t have forgotten",
         "explain": "The forgetting was in the past: wouldn’t have + forgotten."
       },
       {
         "use": "Present → past",
-        "before": "If he",
+        "before": "He lives far away. If he",
         "after": "so far away, he would have come to the party.",
         "hint": "(not live)",
         "answers": [
@@ -204,7 +213,9 @@
           "would have passed",
           "’d have passed",
           "'d have passed",
-          "d have passed"
+          "d have passed",
+          "might have passed",
+          "could have passed"
         ],
         "display": "would have passed",
         "explain": "The interview was in the past: would have + passed."
@@ -240,7 +251,7 @@
       },
       {
         "use": "Present → past",
-        "before": "If my brother",
+        "before": "My brother can’t cook. If he",
         "after": "how to cook, he would have made dinner yesterday.",
         "hint": "(know)",
         "answers": [
@@ -258,14 +269,16 @@
           "would have driven",
           "’d have driven",
           "'d have driven",
-          "d have driven"
+          "d have driven",
+          "might have driven",
+          "could have driven"
         ],
         "display": "would have driven",
         "explain": "The wedding was in the past: would have + driven."
       },
       {
         "use": "Present → past",
-        "before": "If I",
+        "before": "I hate horror films. If I",
         "after": "horror films, I would have gone with you last night.",
         "hint": "(like)",
         "answers": [
@@ -283,7 +296,9 @@
           "would have helped",
           "’d have helped",
           "'d have helped",
-          "d have helped"
+          "d have helped",
+          "might have helped",
+          "could have helped"
         ],
         "display": "would have helped",
         "explain": "Saturday is past: would have + helped."
@@ -1034,7 +1049,7 @@
       },
       {
         "use": "Present → past",
-        "text": "If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more organised, I wouldn’t have missed the deadline.",
+        "text": "I’m always disorganised. If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more organised, I wouldn’t have missed the deadline.",
         "choices": [
           "had been",
           "am",
@@ -1043,7 +1058,7 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Had been’ is possible but means only that time; a character trait is present.",
+          "Being disorganised is a permanent trait (present), so ‘had been’ doesn’t fit.",
           "‘Am’ is a real fact.",
           "",
           "No ‘would’ in the if-clause."
@@ -1070,7 +1085,7 @@
       },
       {
         "use": "Present → past",
-        "text": "If she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Italian, she would have understood the film.",
+        "text": "She doesn’t speak Italian. If she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Italian, she would have understood the film.",
         "choices": [
           "spoke",
           "had spoken",
@@ -1088,7 +1103,7 @@
       },
       {
         "use": "Present → past",
-        "text": "If I weren’t allergic to cats, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kitten.",
+        "text": "If I weren’t allergic to cats, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kitten last week.",
         "choices": [
           "would take",
           "will take",
@@ -1232,7 +1247,7 @@
       },
       {
         "use": "Present → past",
-        "text": "If my dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to music, he would have come to the concert.",
+        "text": "My dad never listens to music. If he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to music, he would have come to the concert.",
         "choices": [
           "listened",
           "had listened",
@@ -1268,7 +1283,7 @@
       },
       {
         "use": "Present → past",
-        "text": "If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> how to swim, I would have joined you in the lake.",
+        "text": "I can’t swim. If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> how to swim, I would have joined you in the lake.",
         "choices": [
           "had known",
           "know",
@@ -1673,20 +1688,26 @@
       {
         "tokens": [
           "If",
-          "you",
-          "had",
-          "studyed",
-          "harder,",
-          "you’d",
-          "be",
-          "at",
-          "university",
+          "she",
+          "hadn’t",
+          "lost",
+          "her",
+          "job,",
+          "she",
+          "would",
+          "have",
+          "been",
+          "happy",
           "now."
         ],
-        "errorIndex": 3,
-        "correction": "studied",
-        "type": "Spelling",
-        "message": "Consonant + -y → -ied: studied."
+        "errorIndex": 7,
+        "errorSpan": [
+          7,
+          9
+        ],
+        "correction": "would be",
+        "type": "Present result",
+        "message": "‘Now’ is present: ‘she would be happy now’."
       }
     ]
   },
@@ -1732,7 +1753,9 @@
           "would be",
           "’d be",
           "'d be",
-          "d be"
+          "d be",
+          "might be",
+          "could be"
         ],
         "display": "would be",
         "explain": "‘Now’ → present result: would be.",
@@ -1741,7 +1764,7 @@
       {
         "type": "fill",
         "use": "Present → past",
-        "sentText": "If I {{blank}} good at maths, I would have helped you with the test.",
+        "sentText": "I’m bad at maths. If I {{blank}} good at maths, I would have helped you with the test.",
         "hint": "be",
         "answers": [
           "were",
@@ -1760,7 +1783,9 @@
           "would have finished",
           "’d have finished",
           "'d have finished",
-          "d have finished"
+          "d have finished",
+          "might have finished",
+          "could have finished"
         ],
         "display": "would have finished",
         "explain": "‘Yesterday’ → past result: would have + finished.",
@@ -1980,7 +2005,8 @@
           "‘Have’ is a real fact.",
           "No ‘would’ in the if-clause."
         ],
-        "explain": "Present trait → past simple ‘had’."
+        "explain": "Present trait → past simple ‘had’.",
+        "sentText": "I’ve got a terrible memory. If I {{blank}} a better one, I wouldn’t have forgotten her name."
       },
       {
         "type": "mc",

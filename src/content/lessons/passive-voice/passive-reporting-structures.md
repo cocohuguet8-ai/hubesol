@@ -19,7 +19,7 @@ faq:
   - q: "How do I report an earlier action?"
     a: "Use 'to have + past participle': He is believed to have escaped; They are said to have known about it."
   - q: "Which verbs are used?"
-    a: "Reporting verbs like say, believe, think, know, report, expect, consider, understand — usually in the present passive (is said, are believed)."
+    a: "Reporting verbs like say, believe, think, know, report, expect, consider, understand, claim — usually in the present passive (is said, are believed)."
 teacherObjectives:
   - "Can form impersonal (It is said that…) and personal (He is said to…) passive reports (CEFR C1)."
   - "Can use 'to have + past participle' for an earlier time reference."
@@ -113,4 +113,4 @@ With *there*, use **there + passive + to be**:
 
 **4. *Say* with a person object.** *~~He is said me…~~* — reporting passives don't take a person object.
 
-**Pro tip:** if the second action happened **before** the reporting, you always need **to have + participle**.
+**Pro tip:** if the second action happened **before** the reporting, you need **to have + participle**.

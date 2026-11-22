@@ -57,7 +57,7 @@ Something different in the **past** would change the **present**.
 
 Something that is **always** or **generally** true now explains a **past** result.
 
-- **If I were** more organised, I **wouldn't have forgotten** your birthday.
+- **If I were** more organised, I **wouldn't have forgotten** your birthday. (In informal speech *was* is also common: *If I was more organised…*)
 - **If he didn't** live so far away, **he'd have come** to the party.
 - **If she spoke** better English, **she'd have passed** the interview.
 

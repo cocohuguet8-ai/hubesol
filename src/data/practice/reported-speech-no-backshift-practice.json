@@ -26,7 +26,9 @@
         "after": "ready. Come and eat!",
         "hint": "(be)",
         "answers": [
-          "is"
+          "is",
+          "’s",
+          "'s"
         ],
         "display": "is",
         "explain": "After a present reporting verb (‘says’), keep the original tense: is."
@@ -51,7 +53,12 @@
         "after": "tomorrow.",
         "hint": "(rain)",
         "answers": [
-          "will rain"
+          "will rain",
+          "is going to rain",
+          "’s going to rain",
+          "'s going to rain",
+          "’ll rain",
+          "'ll rain"
         ],
         "display": "will rain",
         "explain": "After ‘says’, ‘will’ stays ‘will’."
@@ -62,7 +69,9 @@
         "after": "his phone again.",
         "hint": "(lose)",
         "answers": [
-          "has lost"
+          "has lost",
+          "’s lost",
+          "'s lost"
         ],
         "display": "has lost",
         "explain": "After ‘says’, the present perfect stays: has lost."
@@ -73,7 +82,9 @@
         "after": "on Friday.",
         "hint": "(be)",
         "answers": [
-          "is"
+          "is",
+          "’s",
+          "'s"
         ],
         "display": "is",
         "explain": "After ‘has told’ (present perfect), keep the tense: is."
@@ -84,10 +95,11 @@
         "after": "at 100 °C.",
         "hint": "(boil)",
         "answers": [
-          "boils"
+          "boils",
+          "boiled"
         ],
         "display": "boils",
-        "explain": "A general scientific truth can stay in the present: boils."
+        "explain": "A general scientific truth can stay in the present: boils (boiled is also possible, but less natural)."
       },
       {
         "use": "Fact",
@@ -95,10 +107,11 @@
         "after": "round the Sun.",
         "hint": "(go)",
         "answers": [
-          "goes"
+          "goes",
+          "went"
         ],
         "display": "goes",
-        "explain": "A permanent fact keeps the present simple: goes."
+        "explain": "A permanent fact keeps the present simple: goes (went is also possible, but less natural)."
       },
       {
         "use": "Fact",
@@ -106,10 +119,13 @@
         "after": "the capital of Catalonia.",
         "hint": "(be)",
         "answers": [
-          "is"
+          "is",
+          "’s",
+          "'s",
+          "was"
         ],
         "display": "is",
-        "explain": "A fact that is still true: is (no backshift needed)."
+        "explain": "A fact that is still true: is (was is also possible after ‘said’)."
       },
       {
         "use": "Still true",
@@ -161,45 +177,49 @@
         "use": "Can’t move back",
         "before": "“I had already eaten.” → He said he",
         "after": "already eaten.",
-        "hint": "had",
+        "hint": "(no change)",
         "answers": [
-          "had"
+          "had",
+          "’d",
+          "'d"
         ],
         "display": "had",
-        "explain": "The past perfect can’t move further back: had."
+        "explain": "The past perfect can’t move further back: had (or ’d)."
       },
       {
         "use": "Can’t move back",
         "before": "“You should rest.” → The doctor said I",
         "after": "rest.",
-        "hint": "should",
+        "hint": "(no change)",
         "answers": [
           "should"
         ],
         "display": "should",
-        "explain": "‘Should’ never changes in reported speech."
+        "explain": "‘Should’ stays the same: should."
       },
       {
         "use": "Can’t move back",
         "before": "“It might snow.” → They said it",
         "after": "snow.",
-        "hint": "might",
+        "hint": "(no change)",
         "answers": [
           "might"
         ],
         "display": "might",
-        "explain": "‘Might’ stays the same. Keep the original tense unless the situation has changed."
+        "explain": "‘Might’ stays the same: might."
       },
       {
         "use": "Can’t move back",
         "before": "“I would love to come.” → She said she",
         "after": "love to come.",
-        "hint": "would",
+        "hint": "(no change)",
         "answers": [
-          "would"
+          "would",
+          "’d",
+          "'d"
         ],
         "display": "would",
-        "explain": "‘Would’ stays the same."
+        "explain": "‘Would’ stays the same: would (or ’d)."
       },
       {
         "use": "Past simple",
@@ -207,10 +227,13 @@
         "after": "born in 2009.",
         "hint": "(be)",
         "answers": [
-          "was"
+          "was",
+          "had been",
+          "’d been",
+          "'d been"
         ],
         "display": "was",
-        "explain": "With a fixed past date, the past simple usually stays: was born."
+        "explain": "With a fixed past date, the past simple usually stays: was born (had been born is possible but less natural)."
       },
       {
         "use": "Recent report",
@@ -221,15 +244,16 @@
           "is",
           "’s",
           "'s",
-          "s"
+          "s",
+          "was"
         ],
         "display": "is",
-        "explain": "A very recent report about now: no backshift needed."
+        "explain": "Very recent and still true: ‘is’ (or ‘was’) both work after ‘said’."
       },
       {
         "use": "Future report",
-        "before": "I’m sure he’ll say he",
-        "after": "anything about it.",
+        "before": "Ask Pau: he’ll say he",
+        "after": "the answer right now.",
         "hint": "(not know)",
         "answers": [
           "doesn’t know",
@@ -238,7 +262,7 @@
           "does not know"
         ],
         "display": "doesn’t know",
-        "explain": "After a future reporting verb (‘will say’), keep the tense."
+        "explain": "After a future reporting verb (‘will say’) about now, keep the present: doesn’t know."
       },
       {
         "use": "Present reporting verb",
@@ -246,7 +270,9 @@
         "after": "excellent.",
         "hint": "(be)",
         "answers": [
-          "is"
+          "is",
+          "’s",
+          "'s"
         ],
         "display": "is",
         "explain": "After ‘says’, keep the present: is."
@@ -520,7 +546,7 @@
         "right": "backshift"
       },
       {
-        "left": "“I’m tired,” he said yesterday.",
+        "left": "“I’m tired,” he said yesterday. (He’s fine now.)",
         "right": "backshift"
       },
       {
@@ -536,7 +562,7 @@
         "right": "keep the tense"
       },
       {
-        "left": "“I’ll call.” (last month)",
+        "left": "“I’ll call,” she said last month. (She didn’t.)",
         "right": "backshift"
       },
       {
@@ -552,7 +578,7 @@
         "right": "optional"
       },
       {
-        "left": "“I can’t swim,” he said years ago.",
+        "left": "“I can’t swim,” he said years ago. (He can now.)",
         "right": "backshift"
       },
       {
@@ -609,20 +635,20 @@
           "‘Had been’ is a double backshift.",
           "‘The test’ is singular."
         ],
-        "explain": "After a present perfect reporting verb, keep the tense."
+        "explain": "After a present perfect reporting verb, keep the tense: is."
       },
       {
         "use": "Fact",
         "text": "Our science teacher said that light <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> faster than sound.",
         "choices": [
-          "travelled",
+          "travel",
           "had travelled",
           "travels",
           "would travel"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Possible, but for a permanent scientific fact the present is more natural.",
+          "‘Light’ is singular, so the verb needs -s: travels.",
           "‘Had travelled’ makes no sense for a permanent fact.",
           "",
           "‘Would travel’ changes the meaning."
@@ -633,19 +659,19 @@
         "use": "Still true",
         "text": "Marc said he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Barcelona — he still does.",
         "choices": [
-          "is living yesterday",
+          "live",
           "had lived",
           "will live",
           "lives"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Is living yesterday’ is wrong.",
-          "‘Had lived’ suggests he doesn’t live there now.",
+          "‘He’ takes -s: lives.",
+          "‘Had lived’ would mean an earlier time than he said it, not the situation he still has.",
           "‘Will live’ changes the meaning.",
           ""
         ],
-        "explain": "Still true now: you can keep the present (‘lived’ is also correct)."
+        "explain": "Still true now: you can keep the present (‘lived’ is also correct, but it isn’t offered here)."
       },
       {
         "use": "No longer true",
@@ -681,7 +707,7 @@
           "",
           "‘Was left’ is passive."
         ],
-        "explain": "The past perfect can’t move back further. Keep the original tense unless the situation has changed."
+        "explain": "The past perfect can’t move back further."
       },
       {
         "use": "Can’t move back",
@@ -699,7 +725,7 @@
           "‘Had to’ changes advice into obligation.",
           ""
         ],
-        "explain": "‘Should’ doesn’t change in reported speech. Keep the original tense unless the situation has changed."
+        "explain": "‘Should’ doesn’t change in reported speech."
       },
       {
         "use": "Can’t move back",
@@ -721,7 +747,7 @@
       },
       {
         "use": "Future report",
-        "text": "If you ask him, he’ll say he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answer.",
+        "text": "If you ask him now, he’ll say he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answer.",
         "choices": [
           "didn’t know",
           "hadn’t known",
@@ -735,7 +761,7 @@
           "",
           "‘Wouldn’t know’ changes the meaning."
         ],
-        "explain": "After a future reporting verb, keep the present. Keep the original tense unless the situation has changed."
+        "explain": "After a future reporting verb about now, keep the present."
       },
       {
         "use": "Past simple",
@@ -771,7 +797,7 @@
           "Double backshift.",
           "‘This film’ is singular."
         ],
-        "explain": "After ‘says’, keep the present. Keep the original tense unless the situation has changed."
+        "explain": "After ‘says’, keep the present."
       },
       {
         "use": "Recent report",
@@ -789,25 +815,25 @@
           "Double backshift.",
           "‘Would be’ changes the meaning."
         ],
-        "explain": "Present reporting verb about now: keep the present. Keep the original tense unless the situation has changed."
+        "explain": "Present reporting verb about now: keep the present."
       },
       {
         "use": "Fact",
         "text": "The guide told us that the Pyrenees <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> between Spain and France.",
         "choices": [
-          "were",
+          "is",
           "had been",
           "would be",
           "are"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Possible, but a permanent fact sounds better in the present.",
+          "‘The Pyrenees’ is plural, so ‘is’ doesn’t agree.",
           "Double backshift.",
           "‘Would be’ changes the meaning.",
           ""
         ],
-        "explain": "Permanent geographical fact: present is natural. Permanent facts don’t need backshift."
+        "explain": "A permanent geographical fact stays in the present: are."
       },
       {
         "use": "Which",
@@ -825,11 +851,11 @@
           "After ‘has said’ no backshift.",
           "After ‘will say’ no backshift."
         ],
-        "explain": "Past reporting verb + no longer true → backshift. Keep the original tense unless the situation has changed."
+        "explain": "Past reporting verb + no longer true → backshift."
       },
       {
         "use": "Which",
-        "text": "Which sentence is correct?",
+        "text": "He doesn’t like fish. Which sentence reports this correctly?",
         "choices": [
           "He says he didn’t like fish.",
           "He says he doesn’t like fish.",
@@ -838,12 +864,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "After ‘says’ (now), don’t move the tense back.",
+          "He doesn’t like fish now, and ‘says’ is present, so keep ‘doesn’t’.",
           "",
           "Double backshift after a present verb.",
           "After ‘wouldn’t’ use the base verb."
         ],
-        "explain": "Present reporting verb → keep the tense. Keep the original tense unless the situation has changed."
+        "explain": "Present reporting verb → keep the tense."
       },
       {
         "use": "Can’t move back",
@@ -861,7 +887,7 @@
           "",
           "‘Had love’ is wrong."
         ],
-        "explain": "‘Would’ doesn’t change. Keep the original tense unless the situation has changed."
+        "explain": "‘Would’ doesn’t change."
       },
       {
         "use": "Can’t move back",
@@ -879,7 +905,7 @@
           "‘Could have’ changes the meaning.",
           "‘Had could’ is impossible."
         ],
-        "explain": "‘Could’ (past ability) doesn’t change. Keep the original tense unless the situation has changed."
+        "explain": "‘Could’ (past ability) doesn’t change."
       },
       {
         "use": "No longer true",
@@ -915,7 +941,7 @@
           "",
           "‘Would close’ changes the meaning."
         ],
-        "explain": "Signs ‘say’ in the present: keep the tense. Keep the original tense unless the situation has changed."
+        "explain": "Signs ‘say’ in the present: keep the tense."
       },
       {
         "use": "Still true",
@@ -928,12 +954,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Double past perfect is wrong.",
+          "‘Had had’ would put the cat before the telling, but you saw it this morning.",
           "‘He’ takes ‘has’.",
           "‘Have’ (possess) isn’t continuous.",
           ""
         ],
-        "explain": "Still true: keep the present (had is also possible). Keep the original tense unless the situation has changed."
+        "explain": "Still true: keep the present (‘had’ is also possible, but it isn’t offered here)."
       }
     ]
   },
@@ -1016,23 +1042,23 @@
         "errorIndex": 3,
         "correction": "is",
         "type": "Backshift after will say",
-        "message": "After ‘will say’, keep the present. Keep the original tense unless the situation has changed."
+        "message": "After ‘will say’, keep the present."
       },
       {
         "tokens": [
-          "Our",
-          "teacher",
-          "said",
-          "water",
-          "boil",
-          "at",
-          "100",
-          "°C."
+          "The",
+          "weather",
+          "app",
+          "says",
+          "it",
+          "would",
+          "rain",
+          "tomorrow."
         ],
         "errorIndex": 4,
-        "correction": "boils",
-        "type": "Fact",
-        "message": "A fact with ‘water’ needs -s: ‘water boils’."
+        "correction": "will",
+        "type": "Backshift after says",
+        "message": "After ‘says’, keep the future: ‘will rain’."
       },
       {
         "tokens": [
@@ -1073,31 +1099,80 @@
       },
       {
         "tokens": [
-          "She",
+          "Last",
+          "week",
+          "he",
           "said",
-          "she",
-          "had",
-          "already",
-          "ate."
+          "he",
+          "has",
+          "a",
+          "cold,",
+          "but",
+          "now",
+          "he’s",
+          "better."
         ],
-        "errorIndex": 5,
-        "correction": "eaten.",
-        "type": "Past perfect",
-        "message": "The past perfect needs the participle: ‘had already eaten’."
+        "errorIndex": 4,
+        "correction": "had",
+        "type": "No longer true",
+        "message": "No longer true: backshift to ‘had’."
       },
       {
         "tokens": [
-          "They",
+          "When",
+          "I",
+          "was",
+          "ten,",
+          "my",
+          "mum",
           "said",
-          "it",
-          "might",
-          "rained",
-          "later."
+          "I",
+          "can’t",
+          "go",
+          "out",
+          "alone.",
+          "Now",
+          "I",
+          "can."
+        ],
+        "errorIndex": 8,
+        "correction": "couldn’t",
+        "type": "No longer true",
+        "message": "No longer true: ‘couldn’t go out’."
+      },
+      {
+        "tokens": [
+          "Last",
+          "week",
+          "he",
+          "said",
+          "he",
+          "is",
+          "ill,",
+          "so",
+          "he",
+          "missed",
+          "school."
         ],
         "errorIndex": 4,
-        "correction": "rain",
-        "type": "Might",
-        "message": "After ‘might’ use the base verb: ‘might rain’."
+        "correction": "was",
+        "type": "No longer true",
+        "message": "No longer true: backshift to ‘was’."
+      },
+      {
+        "tokens": [
+          "He",
+          "says",
+          "he",
+          "had",
+          "a",
+          "headache",
+          "now."
+        ],
+        "errorIndex": 3,
+        "correction": "has",
+        "type": "Backshift after says",
+        "message": "After ‘says’ (about now), keep the present: ‘has a headache’."
       },
       {
         "tokens": [
@@ -1105,41 +1180,13 @@
           "doctor",
           "said",
           "I",
-          "should",
-          "rested."
-        ],
-        "errorIndex": 5,
-        "correction": "rest.",
-        "type": "Should",
-        "message": "‘Should’ + base verb: ‘should rest’. Keep the original tense unless the situation has changed."
-      },
-      {
-        "tokens": [
-          "They",
-          "said",
-          "it",
-          "mights",
-          "rain."
-        ],
-        "errorIndex": 3,
-        "correction": "might",
-        "type": "Might",
-        "message": "Modals never take -s: ‘might rain’. Keep the original tense unless the situation has changed."
-      },
-      {
-        "tokens": [
-          "She",
-          "said",
-          "she",
-          "would",
-          "loved",
-          "to",
-          "come."
+          "shall",
+          "rest."
         ],
         "errorIndex": 4,
-        "correction": "love",
-        "type": "Would",
-        "message": "After ‘would’ use the base verb: ‘love’."
+        "correction": "should",
+        "type": "Modal",
+        "message": "After a past reporting verb the advice stays ‘should’, not ‘shall’."
       },
       {
         "tokens": [
@@ -1156,21 +1203,23 @@
         "errorIndex": 3,
         "correction": "could",
         "type": "Could",
-        "message": "Past ability: ‘could swim’. Keep the original tense unless the situation has changed."
+        "message": "Past ability: ‘could swim’."
       },
       {
         "tokens": [
-          "Everyone",
+          "My",
+          "dad",
           "says",
-          "the",
-          "film",
-          "were",
-          "great."
+          "he",
+          "would",
+          "be",
+          "late",
+          "tonight."
         ],
         "errorIndex": 4,
-        "correction": "is",
-        "type": "Present reporting verb",
-        "message": "After ‘says’, singular present: ‘is great’."
+        "correction": "will",
+        "type": "Backshift after says",
+        "message": "After ‘says’, keep the future: ‘will be late’."
       },
       {
         "tokens": [
@@ -1192,64 +1241,94 @@
       },
       {
         "tokens": [
-          "Laia",
-          "say",
+          "My",
+          "sister",
+          "said",
           "she",
           "is",
-          "coming."
+          "vegetarian",
+          "two",
+          "years",
+          "ago,",
+          "but",
+          "now",
+          "she",
+          "eats",
+          "meat."
         ],
-        "errorIndex": 1,
-        "correction": "says",
-        "type": "Third person",
-        "message": "‘Laia’ needs -s: ‘says’. Keep the original tense unless the situation has changed."
+        "errorIndex": 4,
+        "correction": "was",
+        "type": "No longer true",
+        "message": "No longer true: backshift to ‘was’."
       },
       {
         "tokens": [
           "He",
           "told",
-          "that",
-          "the",
-          "Earth",
-          "goes",
-          "round",
-          "the",
-          "Sun."
+          "me",
+          "he",
+          "has",
+          "a",
+          "flat",
+          "in",
+          "Girona,",
+          "but",
+          "he",
+          "sold",
+          "it",
+          "in",
+          "May."
         ],
-        "errorIndex": 1,
-        "correction": "said",
-        "type": "Said or told",
-        "message": "No person: ‘He said that…’. Keep the original tense unless the situation has changed."
+        "errorIndex": 4,
+        "correction": "had",
+        "type": "No longer true",
+        "message": "No longer true: backshift to ‘had’."
       },
       {
         "tokens": [
-          "She",
+          "The",
+          "coach",
           "said",
-          "she",
-          "had",
-          "went",
-          "home."
+          "we",
+          "can",
+          "train",
+          "tomorrow,",
+          "but",
+          "it",
+          "rained",
+          "and",
+          "we",
+          "couldn’t."
         ],
         "errorIndex": 4,
-        "correction": "gone",
-        "type": "Past participle",
-        "message": "Participle: ‘had gone’. Keep the original tense unless the situation has changed."
+        "correction": "could",
+        "type": "No longer true",
+        "message": "The plan changed, so backshift: ‘could train’."
       },
       {
         "tokens": [
           "Our",
           "teacher",
           "said",
-          "the",
-          "Sun",
-          "rised",
+          "last",
+          "year",
+          "that",
+          "we",
+          "will",
+          "have",
+          "an",
+          "exam",
           "in",
-          "the",
-          "east."
+          "June,",
+          "but",
+          "it",
+          "was",
+          "cancelled."
         ],
-        "errorIndex": 5,
-        "correction": "rises",
-        "type": "Fact",
-        "message": "A permanent fact: ‘rises’ (and the past would be ‘rose’)."
+        "errorIndex": 7,
+        "correction": "would",
+        "type": "No longer true",
+        "message": "Past report of a plan that didn’t happen: ‘would have’."
       }
     ]
   },
@@ -1311,12 +1390,12 @@
         "type": "fill",
         "use": "Can’t move back",
         "sentText": "“You should study.” → She said I {{blank}} study.",
-        "hint": "should",
+        "hint": "(no change)",
         "answers": [
           "should"
         ],
         "display": "should",
-        "explain": "‘Should’ never changes in reported speech.",
+        "explain": "‘Should’ stays the same in reported speech.",
         "wrongNote": "‘Should’ stays."
       },
       {
@@ -1375,7 +1454,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Backshift is only after past reporting verbs.",
+          "Backshift is for past reporting verbs, not for ‘says’.",
           "",
           "The past perfect is a backshift form.",
           "‘Would’ is a backshift form."
@@ -1387,14 +1466,14 @@
         "use": "Rule",
         "text": "For a general scientific truth after ‘said’, you…",
         "choices": [
-          "must use the past perfect",
-          "must use would",
-          "must use the future",
+          "have to use the past perfect",
+          "have to use would",
+          "have to use the future",
           "can keep the present"
         ],
         "correct": 3,
         "wrongReasons": [
-          "The past perfect would be strange for a permanent fact.",
+          "The past perfect isn’t needed for a permanent fact.",
           "‘Would’ changes the meaning.",
           "The future changes the meaning.",
           ""
@@ -1451,8 +1530,8 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "After ‘says’, ‘will’ doesn’t change to ‘would’.",
-          "‘Was’ is wrong.",
+          "After ‘says’, ‘will’ stays ‘will’.",
+          "‘Was’ doesn’t fit ‘tomorrow’.",
           "",
           "Double backshift."
         ],
@@ -1471,9 +1550,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "That was in the past and may not be true now.",
-          "Wrong tense.",
-          "Wrong tense."
+          "‘Wants’ would mean she still wants to be a vet; the sentence is about her childhood.",
+          "‘Has wanted’ doesn’t fit a past report.",
+          "‘Will want’ doesn’t fit a past report."
         ],
         "explain": "Past situation → backshift."
       },

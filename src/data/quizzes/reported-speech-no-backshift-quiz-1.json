@@ -16,72 +16,72 @@
     },
     {
       "question": "The teacher told us that water ___ at 100°C. (general truth)",
-      "options": ["would boil", "boiled", "had boiled", "boils"],
+      "options": ["would boil", "boil", "had boiled", "boils"],
       "answer": 3,
       "explanations": [
         "'Would boil' changes the meaning.",
-        "'Boiled' is possible but the present highlights the timeless fact.",
+        "'Boil' needs -s after 'water': 'boils'.",
         "'Had boiled' over-backshifts a general truth.",
         "Correct! A general truth can stay in the present: 'water boils'."
       ]
     },
     {
-      "question": "He said he ___ help us move on Saturday. (modal)",
-      "options": ["would have", "will", "would", "wills"],
+      "question": "He said he ___ help us move the next day. (modal)",
+      "options": ["would have", "can", "would", "will"],
       "answer": 2,
       "explanations": [
         "'Would have' changes the meaning to the past.",
-        "'Will' should backshift after 'said'.",
+        "'Can' doesn't fit 'the next day' in a past report.",
         "Correct! 'Will' backshifts to 'would', which then doesn't change further.",
-        "'Wills' is not a word."
+        "'Will' doesn't fit 'the next day' in a past report."
       ]
     },
     {
       "question": "She told me she ___ in Rome. (still true now)",
-      "options": ["lives", "lived", "had lived", "would live"],
+      "options": ["lives", "live", "had lived", "would live"],
       "answer": 0,
       "explanations": [
         "Correct! Still true, so you can keep the present: 'she lives in Rome'.",
-        "'Lived' is also possible, but 'lives' shows it's still true.",
+        "'She' takes -s: 'lives'.",
         "'Had lived' suggests she no longer does.",
         "'Would live' changes the meaning."
       ]
     },
     {
       "question": "They said we ___ leave before dark. (modal)",
-      "options": ["musted", "must", "had must", "would must"],
-      "answer": 1,
+      "options": ["should", "should to", "shall", "ought"],
+      "answer": 0,
       "explanations": [
-        "'Musted' isn't a word.",
-        "Correct! 'Must' doesn't change in reported speech.",
-        "'Had must' is not correct.",
-        "'Would must' is not correct."
+        "Correct! 'Should' doesn't change in reported speech.",
+        "'Should' is followed by the base verb, without 'to'.",
+        "'Shall' is a different modal and doesn't fit advice here.",
+        "'Ought' needs 'to': 'ought to leave'."
       ]
     },
     {
-      "question": "My friend says the shop ___ at nine. (present reporting verb)",
+      "question": "My friend says the shop ___ at nine every day. (present reporting verb)",
       "options": ["opens", "opened", "had opened", "would open"],
       "answer": 0,
       "explanations": [
         "Correct! With 'says', keep the present: 'opens at nine'.",
-        "'Opened' backshifts, but 'says' doesn't require it.",
+        "'Opened' is past, but this is a habit that is true now.",
         "'Had opened' over-backshifts.",
         "'Would open' changes the meaning."
       ]
     },
     {
       "question": "She said she ___ swim when she was young. (modal, unchanged)",
-      "options": ["cans", "can", "could have", "could"],
+      "options": ["would", "can", "could have", "could"],
       "answer": 3,
       "explanations": [
-        "'Cans' is not a word.",
-        "'Can' should backshift after 'said'.",
+        "'Would' is not used for past ability here.",
+        "'Can' doesn't fit 'when she was young'.",
         "'Could have' changes the meaning.",
-        "Correct! 'Can' backshifts to 'could', which then stays."
+        "Correct! 'Could' (past ability) doesn't change."
       ]
     },
     {
-      "question": "Choose the correct version of: 'She says she was hungry.'",
+      "question": "She is hungry right now. Choose the correct version of: 'She says she was hungry.'",
       "options": [
         "She says she would be hungry.",
         "She says she had been hungry.",
@@ -99,17 +99,17 @@
     {
       "question": "Choose the correct version of: 'He said he would helped us.'",
       "options": [
-        "He said he will help us.",
+        "He said he would to help us.",
         "He said he would helped us.",
         "He said he would help us.",
-        "He said he helped would us."
+        "He said he would helping us."
       ],
       "answer": 2,
       "explanations": [
-        "'Will' should backshift to 'would'.",
+        "'Would' is followed by the base verb, without 'to'.",
         "'Would helped' is incorrect.",
-        "Correct! 'Would' + base verb: 'would help'.",
-        "'Helped would' is the wrong order."
+        "Correct! After 'would' use the base verb: 'would help'.",
+        "'Would helping' is incorrect."
       ]
     },
     {
@@ -132,8 +132,8 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "Maria says she ___ tired. (be)",
-      "hint": "Type is or was.",
-      "answers": ["is"],
+      "hint": "Type one word.",
+      "answers": ["is", "’s", "'s"],
       "explanation": "With a present reporting verb ('says') there is no backshift.",
       "common": [
         {"answer": "was", "why": "With 'says' the tense doesn't move back: she is tired."}
@@ -144,7 +144,7 @@
       "kind": "Correct the mistake",
       "question": "He said he would helped us.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["He said he would help us"],
+      "answers": ["He said he would help us", "He said he’d help us", "He said he'd help us"],
       "explanation": "After 'would' we use the base verb."
     },
     {

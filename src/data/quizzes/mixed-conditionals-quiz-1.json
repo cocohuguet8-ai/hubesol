@@ -22,7 +22,7 @@
         "'Accepted' (past simple) is the second conditional; a past condition needs the past perfect.",
         "Correct! Past condition uses the past perfect: 'If she had accepted the offer'.",
         "'Accepts' is present simple, but the condition is in the past.",
-        "The if-clause never uses 'would'."
+        "The if-clause doesn't use 'would'."
       ]
     },
     {
@@ -37,14 +37,14 @@
       ]
     },
     {
-      "question": "If he ___ afraid of flying, he would have visited us last summer.",
+      "question": "He has a fear of flying. If he ___ afraid of flying, he would have visited us last summer.",
       "options": ["weren't", "hadn't been", "isn't", "wouldn't be"],
       "answer": 0,
       "explanations": [
         "Correct! A permanent present condition takes the past simple: 'If he weren't afraid of flying'.",
         "'Hadn't been' would make it a normal third conditional about the past, not his ongoing fear.",
         "'Isn't' is present simple, but this is hypothetical.",
-        "The if-clause never uses 'would'."
+        "The if-clause doesn't use 'would'."
       ]
     },
     {
@@ -66,7 +66,7 @@
         "‘Were’ (past simple) is the second conditional; ‘when we were younger’ points to a past condition, which needs the past perfect.",
         "Correct! The past time clue ‘when we were younger’ needs the past perfect: ‘If we had been more careful’.",
         "'Are' is present simple, but the condition is in the past.",
-        "The if-clause never uses 'would'."
+        "The if-clause doesn't use 'would'."
       ]
     },
     {
@@ -93,7 +93,7 @@
         "Correct! A general present state + past result: 'If I weren't so tired (in general), I would have enjoyed the party'.",
         "'Hadn't been' would be a standard third conditional about that night only; the context 'always tired these days' shows an ongoing state, so 'weren't' fits.",
         "'Am not' is present simple, but this is hypothetical.",
-        "The if-clause never uses 'would'."
+        "The if-clause doesn't use 'would'."
       ]
     },
     {
@@ -128,7 +128,7 @@
       "kind": "Fill in the gap",
       "question": "If she had taken the job, she ___ in Paris now. (live)",
       "hint": "Use would + verb.",
-      "answers": ["would be living", "would live"],
+      "answers": ["would be living", "would live", "’d be living", "'d be living", "’d live", "'d live", "might be living", "might live", "could be living", "could live"],
       "explanation": "Past condition, present result: would be living / would live.",
       "common": [
         {"answer": "would have lived", "why": "The result is about now, so 'would live', not 'would have lived'."}
@@ -139,7 +139,7 @@
       "kind": "Correct the mistake",
       "question": "If I had saved money, I would have been rich now.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["If I had saved money, I would be rich now", "If I had saved money, I'd be rich now"],
+      "answers": ["If I had saved money, I would be rich now", "If I had saved money, I'd be rich now", "I would be rich now if I had saved money", "I'd be rich now if I had saved money"],
       "explanation": "'Now' means the result is in the present: would be."
     },
     {
@@ -147,11 +147,9 @@
       "kind": "Fill in the gap",
       "question": "If I ___ more organised, I wouldn't have forgotten my passport.",
       "hint": "Type one word.",
-      "answers": ["were"],
+      "answers": ["were", "was"],
       "explanation": "Present condition, past result: if + past simple (were), would have + participle.",
-      "common": [
-        {"answer": "was", "why": "In standard English we use 'were' for all subjects."}
-      ]
+      "common": []
     }
   ]
 }
