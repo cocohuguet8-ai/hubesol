@@ -29,7 +29,7 @@ Deixa una taula amb cada pregunta, totes les respostes acceptades i la confirmac
 - **Una regla per tipus d'error**, no revisió cas per cas: quan un tipus d'error apareix, es corregeix a totes les lliçons.
 - **Cap exercici «write» als quizzes** (només elecció múltiple). El validador falla si n'hi ha.
 - **Matching per categories** només si cada frase encaixa amb UNA sola categoria (regla 8). Si no, es reescriu.
-- **Distractors:** abans d'inventar-ne un de fals, es deixa l'ítem amb menys opcions (mínim 2 al quiz només si el validador ho permet) o es canvia la frase.
+- **Distractors:** abans d'inventar-ne un de fals, es deixa l'ítem amb menys opcions o es canvia la frase.
 - **Respostes alternatives acceptades:** should/ought to, contraccions, can/could/may, would a used-to, will/going to, «play guitar» i «the guitar».
 - **Backshift opcional:** s'accepten les dues formes quan ambdues són naturals; el context ho aclareix.
 - **Ortografia (-ing/-ed, plurals en -ies…):** només a les lliçons que l'ensenyen. A la resta, Find the mistake practica el tema de la lliçó.
