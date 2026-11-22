@@ -5,10 +5,13 @@
   "items": [
     {
       "question": "Have you finished your homework ___ ?",
-      "options": ["already", "yet", "just", "still"],
-      "answer": 1,
+      "options": [
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
       "explanations": [
-        "'Already' is for positive statements.",
         "Correct! Questions use 'yet' at the end: 'finished yet?'",
         "'Just' means a moment ago (positive).",
         "'Still' goes before the verb, not at the end."
@@ -16,21 +19,27 @@
     },
     {
       "question": "I've ___ eaten, thanks — I'm full.",
-      "options": ["already", "yet", "still not", "yet not"],
+      "options": [
+        "already",
+        "yet",
+        "still not"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A positive with 'sooner than expected' takes 'already'.",
         "'Yet' is for negatives and questions.",
-        "'Still not' would mean you haven't eaten.",
-        "'Yet not' is not correct word order."
+        "'Still not' would mean you haven't eaten."
       ]
     },
     {
       "question": "The film has ___ started — we're two minutes late.",
-      "options": ["already yet", "yet", "still", "just"],
-      "answer": 3,
+      "options": [
+        "yet",
+        "still",
+        "just"
+      ],
+      "answer": 2,
       "explanations": [
-        "'Already yet' is not correct.",
         "'Yet' is for negatives and questions.",
         "'Still' means it continues, not 'a moment ago'.",
         "Correct! A very short time ago takes 'just': 'has just started'."
@@ -38,7 +47,12 @@
     },
     {
       "question": "It's midday and she ___ hasn't got up.",
-      "options": ["just", "yet", "still", "already"],
+      "options": [
+        "just",
+        "yet",
+        "still",
+        "already"
+      ],
       "answer": 2,
       "explanations": [
         "'Just' means a moment ago.",
@@ -49,7 +63,12 @@
     },
     {
       "question": "Where does 'yet' go? 'I haven't seen ___ .'",
-      "options": ["already it", "yet it", "it yet", "just it"],
+      "options": [
+        "already it",
+        "yet it",
+        "it yet",
+        "just it"
+      ],
       "answer": 2,
       "explanations": [
         "'Already' is for positives.",
@@ -60,7 +79,12 @@
     },
     {
       "question": "A: Do you want lunch? B: No thanks, I've ___ had some.",
-      "options": ["just", "yet", "still", "not yet"],
+      "options": [
+        "just",
+        "yet",
+        "still",
+        "not yet"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Just' — a moment ago: 'I've just had some'.",
@@ -71,10 +95,13 @@
     },
     {
       "question": "Are we there ___ ?",
-      "options": ["already", "yet", "just", "still"],
-      "answer": 1,
+      "options": [
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
       "explanations": [
-        "'Already' is for positive surprise, not this question.",
         "Correct! A question takes 'yet' at the end: 'Are we there yet?'",
         "'Just' means a moment ago.",
         "'Still' would go before the verb."
@@ -82,12 +109,15 @@
     },
     {
       "question": "He started an hour ago and he's ___ working.",
-      "options": ["just not", "yet", "already not", "still"],
-      "answer": 3,
+      "options": [
+        "just not",
+        "yet",
+        "still"
+      ],
+      "answer": 2,
       "explanations": [
         "'Just not' is not correct here.",
         "'Yet' is for negatives and questions.",
-        "'Already not' is not correct.",
         "Correct! 'Still working' = the action continues."
       ]
     },
@@ -109,7 +139,12 @@
     },
     {
       "question": "Which adverb is used in NEGATIVES and QUESTIONS at the end?",
-      "options": ["still", "already", "just", "yet"],
+      "options": [
+        "still",
+        "already",
+        "just",
+        "yet"
+      ],
       "answer": 3,
       "explanations": [
         "'Still' goes before the verb.",
@@ -123,18 +158,21 @@
       "kind": "Fill in the gap",
       "question": "Have you finished your homework ___? (up to now)",
       "hint": "Type one word.",
-      "answers": ["yet"],
+      "answers": [
+        "yet",
+        "already"
+      ],
       "explanation": "'Yet' goes at the end of questions and negatives.",
-      "common": [
-        {"answer": "already", "why": "'Already' is for positive sentences, usually before the main verb."}
-      ]
+      "common": []
     },
     {
       "type": "write",
       "kind": "Correct the mistake",
       "question": "I haven't still finished the report.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I still haven't finished the report"],
+      "answers": [
+        "I still haven't finished the report"
+      ],
       "explanation": "'Still' goes before the negative auxiliary."
     },
     {
@@ -142,10 +180,16 @@
       "kind": "Fill in the gap",
       "question": "Don't worry, I've ___ called her. (a moment ago)",
       "hint": "Type one word.",
-      "answers": ["just"],
+      "answers": [
+        "just",
+        "already"
+      ],
       "explanation": "'Just' = a very short time ago.",
       "common": [
-        {"answer": "yet", "why": "'Yet' is not used in positive sentences."}
+        {
+          "answer": "yet",
+          "why": "'Yet' is not used in positive sentences."
+        }
       ]
     }
   ]
