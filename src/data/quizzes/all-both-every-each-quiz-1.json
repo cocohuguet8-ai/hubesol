@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "___ student in the class passed the exam.",
-      "options": ["All", "Every", "Both", "Every of"],
+      "options": [
+        "All",
+        "Every",
+        "Both",
+        "Every of"
+      ],
       "answer": 1,
       "explanations": [
         "'All student' is wrong; 'all' takes a plural noun.",
@@ -15,30 +20,45 @@
       ]
     },
     {
-      "question": "___ of my parents are doctors.",
-      "options": ["Both", "Every", "Each", "All the two"],
+      "question": "I have two cousins, and ___ of them are doctors.",
+      "options": [
+        "Both",
+        "Every",
+        "Each",
+        "All"
+      ],
       "answer": 0,
       "explanations": [
-        "Correct! 'Both' is for exactly two: 'Both of my parents'.",
+        "Correct! 'Both' is for exactly two: 'both of them'.",
         "'Every' takes a singular noun and verb.",
-        "'Each of my parents' would need 'is', not 'are'.",
-        "'All the two' is not correct."
+        "'Each of them' would need 'is', not 'are'.",
+        "'All' is for three or more."
       ]
     },
     {
-      "question": "___ the tickets have sold out.",
-      "options": ["Each", "Every", "All", "Both"],
+      "question": "___ 500 tickets have sold out.",
+      "options": [
+        "Each",
+        "Every",
+        "All",
+        "Both"
+      ],
       "answer": 2,
       "explanations": [
-        "'Each ticket' would need a singular verb.",
-        "'Every ticket' would need a singular verb.",
-        "Correct! 'All' + plural noun + plural verb: 'All the tickets have'.",
+        "'Each' needs a singular noun and verb: 'each ticket has'.",
+        "'Every' needs a singular noun and verb: 'every ticket has'.",
+        "Correct! 'All' + plural noun + plural verb: 'All 500 tickets have'.",
         "'Both' is only for two."
       ]
     },
     {
       "question": "Each of them ___ a different opinion.",
-      "options": ["having", "have", "are having", "has"],
+      "options": [
+        "having",
+        "have",
+        "are having",
+        "has"
+      ],
       "answer": 3,
       "explanations": [
         "'Having' can't be the main verb here.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "There's a chair on ___ side of the table. (two sides)",
-      "options": ["each", "every", "all", "both"],
+      "options": [
+        "each",
+        "every",
+        "all",
+        "both"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! For two, use 'each': 'each side'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "___ room in the hotel is fully booked.",
-      "options": ["Each of", "All", "Both", "Every"],
+      "options": [
+        "Each of",
+        "All",
+        "Both",
+        "Every"
+      ],
       "answer": 3,
       "explanations": [
         "'Each of room' is not correct.",
@@ -71,13 +101,18 @@
     },
     {
       "question": "I've read ___ of these books and enjoyed them. (three books)",
-      "options": ["every", "both", "all", "each one is"],
+      "options": [
+        "every",
+        "both",
+        "all",
+        "none"
+      ],
       "answer": 2,
       "explanations": [
         "'Every of' is not correct English.",
         "'Both' is only for two.",
         "Correct! 'All of these books' — three or more.",
-        "'Each one is' doesn't fit this sentence."
+        "'None' says you haven't read any, which doesn't fit 'enjoyed them'."
       ]
     },
     {
@@ -100,21 +135,26 @@
       "question": "Choose the correct version of: 'Both my three sisters live abroad.'",
       "options": [
         "Both my three sisters live abroad.",
-        "All my three sisters live abroad.",
-        "Every my three sisters live abroad.",
+        "All three of my sisters live abroad.",
+        "Every three of my sisters live abroad.",
         "Each my three sisters live abroad."
       ],
       "answer": 1,
       "explanations": [
         "'Both' is only for two.",
-        "Correct! For three, use 'all': 'All my three sisters'.",
-        "'Every my' is not correct English.",
+        "Correct! For three, use 'all': 'All three of my sisters'.",
+        "'Every three of' is not correct here.",
         "'Each my' is not correct English."
       ]
     },
     {
       "question": "Which words take a SINGULAR verb?",
-      "options": ["every and each", "all and both", "both and each", "all and every"],
+      "options": [
+        "every and each",
+        "all and both",
+        "both and each",
+        "all and every"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Every' and 'each' take a singular noun and verb.",
@@ -127,11 +167,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "I have two sisters. ___ of them live in Girona.",
-      "hint": "Type one word: all, both, each or every.",
-      "answers": ["Both"],
+      "hint": "Type one word.",
+      "answers": [
+        "Both"
+      ],
       "explanation": "'Both' is for two people or things.",
       "common": [
-        {"answer": "all", "why": "'All' is for three or more. For two we say 'both'."}
+        {
+          "answer": "all",
+          "why": "'All' is for three or more. For two we say 'both'."
+        }
       ]
     },
     {
@@ -139,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "Each of them have a car.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Each of them has a car"],
+      "answers": [
+        "Each of them has a car"
+      ],
       "explanation": "'Each' takes a singular verb: 'has'."
     },
     {
@@ -147,7 +194,9 @@
       "kind": "Complete the sentence",
       "question": "Every student in my class speaks English. → ___ the students in my class speak English.",
       "hint": "Type one word.",
-      "answers": ["All"],
+      "answers": [
+        "All"
+      ],
       "explanation": "'All' goes with a plural noun and a plural verb: all the students speak."
     }
   ]

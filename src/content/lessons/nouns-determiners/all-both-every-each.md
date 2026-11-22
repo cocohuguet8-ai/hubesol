@@ -104,6 +104,10 @@ draft: false
 
 - The tickets cost €10 **each**.
 
+### 4. *Each other*
+
+- The two boxers looked at **each other**. (one another: *each other*, not *every other*)
+
 ## *Every* vs *each*
 
 | **every** | **each** |
