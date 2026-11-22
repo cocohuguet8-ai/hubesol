@@ -5,78 +5,101 @@
   "items": [
     {
       "question": "___ are loyal animals. (in general)",
-      "options": ["The dogs", "Dogs", "A dog", "The dog"],
+      "options": [
+        "The dogs",
+        "Dogs",
+        "A dog",
+        "The dog"
+      ],
       "answer": 1,
       "explanations": [
         "'The dogs' points to specific dogs, not dogs in general.",
         "Correct! General plurals take no article: 'Dogs are loyal animals'.",
-        "'A' can't go with a plural noun.",
-        "'An' can't go with a plural noun."
+        "'A dog' is one dog, not dogs in general.",
+        "'The dog' means one specific dog."
       ]
     },
     {
       "question": "___ is essential for life. (in general)",
-      "options": ["The water", "A water", "Waters", "Water"],
-      "answer": 3,
+      "options": [
+        "The water",
+        "A water",
+        "Water"
+      ],
+      "answer": 2,
       "explanations": [
         "'The water' would mean specific water.",
-        "'A water' — water is uncountable, so no 'a'.",
-        "'An water' is wrong — water is uncountable.",
+        "'A water' means one portion, not water in general.",
         "Correct! Uncountables in general take no article: 'Water is essential'."
       ]
     },
     {
       "question": "I usually have ___ at eight.",
-      "options": ["a breakfast", "the breakfast", "breakfast", "breakfasts"],
+      "options": [
+        "a breakfast",
+        "the breakfast",
+        "breakfast"
+      ],
       "answer": 2,
       "explanations": [
         "'A breakfast' only works when described (a big breakfast).",
         "'The breakfast' would need a specific one.",
-        "Correct! Meals take no article: 'have breakfast'.",
-        "'An breakfast' is wrong."
+        "Correct! Meals take no article: 'have breakfast'."
       ]
     },
     {
       "question": "The children go to ___ by bus.",
-      "options": ["school", "the school", "a school", "schools"],
-      "answer": 0,
+      "options": [
+        "the school",
+        "a school",
+        "school"
+      ],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Go to school' (as students) takes no article.",
         "'The school' means the building, changing the meaning.",
         "'A school' would mean any school.",
-        "'An school' is wrong."
+        "Correct! 'Go to school' (as students) takes no article."
       ]
     },
     {
       "question": "___ lives in ___ . (a person and a country)",
-      "options": ["Sara / Italy", "The Sara / the Italy", "A Sara / an Italy", "Sara / the Italy"],
-      "answer": 0,
+      "options": [
+        "The Sara / Italy",
+        "Sara / the Italy",
+        "Sara / Italy"
+      ],
+      "answer": 2,
       "explanations": [
-        "Correct! 'Sara lives in Italy' — no article with names or most countries.",
-        "Names and most countries take no article.",
-        "Names and countries don't take a/an.",
-        "'Italy' doesn't take 'the' (unlike the USA)."
+        "Names take no article, even if Catalan says 'la Sara'.",
+        "'Italy' takes no 'the' (unlike the USA).",
+        "Correct! 'Sara lives in Italy' — no article with names or most countries."
       ]
     },
     {
       "question": "___ can't buy happiness.",
-      "options": ["The money", "A money", "Money", "An money"],
-      "answer": 2,
+      "options": [
+        "Moneys",
+        "Money",
+        "The money"
+      ],
+      "answer": 1,
       "explanations": [
-        "'The money' would be specific money.",
-        "'A money' — money is uncountable.",
+        "'Money' is uncountable: it has no plural.",
         "Correct! Uncountable in general: 'Money can't buy happiness'.",
-        "'An money' is wrong."
+        "'The money' would be specific money."
       ]
     },
     {
       "question": "She's learning ___ at university.",
-      "options": ["an Japanese", "the Japanese", "a Japanese", "Japanese"],
-      "answer": 3,
+      "options": [
+        "the Japanese",
+        "Japaneses",
+        "Japanese"
+      ],
+      "answer": 2,
       "explanations": [
-        "Languages don't take 'an'.",
         "'The Japanese' would mean the Japanese people.",
-        "Languages don't take 'a'.",
+        "Languages have no plural form here.",
         "Correct! Languages take no article: 'learning Japanese'."
       ]
     },
@@ -84,27 +107,28 @@
       "question": "Choose the correct version of: 'I go to the bed at eleven.'",
       "options": [
         "I go to a bed at eleven.",
-        "I go to bed at eleven.",
-        "I go to an bed at eleven.",
-        "The sentence is already correct."
+        "The sentence is already correct.",
+        "I go to bed at eleven."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
         "'A bed' changes it to a random bed.",
-        "Correct! The fixed phrase is 'go to bed' — no article.",
-        "'An bed' is wrong.",
-        "'Go to the bed' wrongly adds 'the'."
+        "'Go to the bed' wrongly adds 'the'.",
+        "Correct! The fixed phrase is 'go to bed' — no article."
       ]
     },
     {
       "question": "Which sentence talks about music IN GENERAL?",
-      "options": ["I love a music.", "I love the music.", "I love music.", "I love an music."],
-      "answer": 2,
+      "options": [
+        "I love the music.",
+        "I love music.",
+        "I love musics."
+      ],
+      "answer": 1,
       "explanations": [
-        "'A music' — music is uncountable.",
         "'The music' means specific music (e.g. at a party).",
         "Correct! General uncountable: 'I love music' (no article).",
-        "'An music' is wrong."
+        "'Music' is uncountable: it has no plural."
       ]
     },
     {
@@ -128,7 +152,9 @@
       "kind": "Correct the mistake",
       "question": "The money can't buy happiness.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Money can't buy happiness"],
+      "answers": [
+        "Money can't buy happiness"
+      ],
       "explanation": "We mean money in general, so no article."
     },
     {
@@ -136,7 +162,9 @@
       "kind": "Correct the mistake",
       "question": "We go to the bed at eleven.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["We go to bed at eleven"],
+      "answers": [
+        "We go to bed at eleven"
+      ],
       "explanation": "'Go to bed' is a fixed phrase with no article."
     },
     {
@@ -144,10 +172,15 @@
       "kind": "Fill in the gap",
       "question": "I usually go to work ___ car.",
       "hint": "Type one word.",
-      "answers": ["by"],
+      "answers": [
+        "by"
+      ],
       "explanation": "'By car' is a fixed phrase with no article.",
       "common": [
-        {"answer": "in", "why": "We say 'by car' with no article. 'In my car' needs 'my'."}
+        {
+          "answer": "in",
+          "why": "We say 'by car' with no article. 'In my car' needs 'my'."
+        }
       ]
     }
   ]
