@@ -5,10 +5,15 @@
   "items": [
     {
       "question": "I ___ this song — turn it up!",
-      "options": ["'m loving", "was loving", "loves", "love"],
+      "options": [
+        "am love",
+        "was loving",
+        "loves",
+        "love"
+      ],
       "answer": 3,
       "explanations": [
-        "'Love' is a stative verb (a feeling) and isn't used in the continuous.",
+        "'Am love' mixes 'be' with a base verb. A feeling takes the simple present: 'love'.",
         "'Was loving' is past continuous, but this is a present state.",
         "'Loves' is for he/she/it. With 'I' the form is 'love'.",
         "Correct! State verbs like 'love' use the simple: 'I love'."
@@ -16,7 +21,12 @@
     },
     {
       "question": "She ___ the answer.",
-      "options": ["knows", "is knowing", "know", "was knowing"],
+      "options": [
+        "knows",
+        "is knowing",
+        "know",
+        "was knowing"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Know' uses the simple: 'she knows'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Be quiet, please — we ___ lunch right now.",
-      "options": ["have", "has", "are having", "were having"],
+      "options": [
+        "have",
+        "has",
+        "are having",
+        "were having"
+      ],
       "answer": 2,
       "explanations": [
         "Here 'have' means the action of eating, so it can be continuous.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "I ___ a new laptop.",
-      "options": ["'m having", "have", "has", "am have"],
+      "options": [
+        "'m having",
+        "have",
+        "has",
+        "am have"
+      ],
       "answer": 1,
       "explanations": [
         "Here 'have' means possession, which is stative — no continuous.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "This soup ___ delicious.",
-      "options": ["is tasting", "tastes", "taste", "tasted"],
+      "options": [
+        "is tasting",
+        "tastes",
+        "taste",
+        "tasted"
+      ],
       "answer": 1,
       "explanations": [
         "'Taste' meaning 'have a flavour' is stative — no continuous.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "Ah, I ___ what you mean now.",
-      "options": ["see", "'m seeing", "sees", "saw"],
+      "options": [
+        "see",
+        "'m seeing",
+        "sees",
+        "saw"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'See' = understand uses the simple: 'I see what you mean'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "___ you ___ me?",
-      "options": ["Are / believing", "Do / believing", "Are / believe", "Do / believe"],
+      "options": [
+        "Are / believing",
+        "Do / believing",
+        "Are / believe",
+        "Do / believe"
+      ],
       "answer": 3,
       "explanations": [
         "'Believe' is stative and isn't used in the continuous.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "He ___ about changing jobs at the moment.",
-      "options": ["thinks", "think", "is thinking", "thought"],
+      "options": [
+        "thinks",
+        "think",
+        "is thinking",
+        "thought"
+      ],
       "answer": 2,
       "explanations": [
         "Here 'think' means the process of considering, which can be continuous.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "That ___ like a great idea.",
-      "options": ["sounds", "is sounding", "sound", "sounded"],
+      "options": [
+        "sounds",
+        "is sounding",
+        "sound",
+        "sounded"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Sound' (an impression) uses the simple: 'sounds like a great idea'.",
@@ -123,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "I ___ this song! Turn it up! (love)",
       "hint": "Type one word.",
-      "answers": ["love"],
+      "answers": [
+        "love"
+      ],
       "explanation": "'Love' is stative: present simple.",
       "common": [
-        {"answer": "am loving", "why": "Feelings use the simple form."}
+        {
+          "answer": "am loving",
+          "why": "Feelings use the simple form."
+        }
       ]
     },
     {
@@ -134,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "I'm having a new laptop.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I have a new laptop"],
+      "answers": [
+        "I have a new laptop"
+      ],
       "explanation": "'Have' for possession is stative."
     },
     {
@@ -142,10 +194,16 @@
       "kind": "Fill in the gap",
       "question": "Be quiet, please. We ___ lunch right now. (have)",
       "hint": "Type two words.",
-      "answers": ["are having", "'re having"],
+      "answers": [
+        "are having",
+        "'re having"
+      ],
       "explanation": "'Have' meaning eat is an action verb.",
       "common": [
-        {"answer": "have", "why": "'Have lunch' is an action, so it can be continuous."}
+        {
+          "answer": "have",
+          "why": "'Have lunch' is an action, so it can be continuous."
+        }
       ]
     }
   ]
