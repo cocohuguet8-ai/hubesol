@@ -679,7 +679,7 @@
         "right": "Completed — not continuous"
       },
       {
-        "left": "At 8pm tonight we…",
+        "left": "Don’t call at 8pm tonight — we…",
         "right": "In progress at a future time"
       },
       {
@@ -703,7 +703,7 @@
         "right": "Completed — not continuous"
       },
       {
-        "left": "When you arrive, I…",
+        "left": "When you arrive, I… (waiting at the gate)",
         "right": "In progress at a future time"
       },
       {
@@ -739,7 +739,7 @@
         "right": "Completed — not continuous"
       },
       {
-        "left": "At midnight they…",
+        "left": "At midnight they… (still dancing)",
         "right": "In progress at a future time"
       },
       {
@@ -760,14 +760,14 @@
         "choices": [
           "will be flying",
           "will flying",
-          "fly",
+          "will be fly",
           "flew"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong form: the future continuous is will be + verb-ing.",
-          "Wrong tense: the action is in progress at a future time — use will be + -ing.",
+          "After ‘will’ you need ‘be’ + -ing: ‘will be flying’.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
         "explain": "An action in progress at a future moment — use will be + -ing."
@@ -792,7 +792,7 @@
       },
       {
         "use": "In progress",
-        "text": "At ten tomorrow morning, she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> an exam.",
+        "text": "At ten tomorrow morning, she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> an exam — don’t disturb her.",
         "choices": [
           "took",
           "will taking",
@@ -902,14 +902,14 @@
         "use": "In progress",
         "text": "When you arrive, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for you at the gate.",
         "choices": [
-          "wait",
+          "will be wait",
           "will waiting",
           "will be waiting",
           "waited"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: the action is in progress at a future time — use will be + -ing.",
+          "After ‘will’ you need ‘be’ + -ing: ‘will be waiting’.",
           "Wrong form: the future continuous is will be + verb-ing.",
           "",
           "Wrong tense: the sentence is about the future, not the past."
@@ -995,14 +995,14 @@
           "will be sitting",
           "will sitting",
           "sat",
-          "will have sat"
+          "will have sit"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong form: the future continuous is will be + verb-ing.",
           "Wrong tense: the sentence is about the future, not the past.",
-          "Wrong tense: will have + past participle is for an action completed by a future time, not one in progress."
+          "Wrong form: the past participle of ‘sit’ is ‘sat’, and the action is in progress, not completed."
         ],
         "explain": "An action in progress at a future moment — use will be + -ing."
       },
@@ -1026,7 +1026,7 @@
       },
       {
         "use": "In progress",
-        "text": "In an hour she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kids to school.",
+        "text": "Don’t call her at eight — she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kids to school.",
         "choices": [
           "drove",
           "will driving",
@@ -1425,23 +1425,20 @@
       },
       {
         "tokens": [
-          "In",
-          "an",
-          "hour",
-          "I",
-          "will",
-          "be",
-          "be",
-          "waiting",
-          "here."
+          "Will",
+          "she",
+          "coming",
+          "to",
+          "the",
+          "party?"
         ],
-        "errorIndex": 6,
-        "correction": "be",
-        "type": "Repeated word",
-        "message": "‘Be’ appears twice — use it once.",
+        "errorIndex": 2,
+        "correction": "be coming",
+        "type": "Missing ‘be’",
+        "message": "In a question: ‘Will she be coming…?’",
         "errorSpan": [
-          5,
-          6
+          2,
+          2
         ]
       },
       {
@@ -1665,14 +1662,14 @@
         "use": "In progress",
         "text": "Don’t call at nine — I {{blank}} my exam.",
         "choices": [
-          "will take",
+          "will be take",
           "will be taking",
           "will taking",
           "took"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: the action is in progress — use will be + -ing.",
+          "After ‘will’ you need ‘be’ + -ing: ‘will be taking’.",
           "",
           "Wrong form: the future continuous is will be + verb-ing.",
           "Wrong tense: the sentence is about the future, not the past."
