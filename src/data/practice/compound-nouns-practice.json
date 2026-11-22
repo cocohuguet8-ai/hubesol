@@ -1225,10 +1225,11 @@
       {
         "type": "fill",
         "use": "Singular first",
-        "sentText": "It’s a two- {{blank}} film.",
+        "sentText": "It’s a two-{{blank}} film.",
         "hint": "two-___",
         "answers": [
-          "hour"
+          "hour",
+          "minute"
         ],
         "display": "hour",
         "explain": "Singular in compounds.",
@@ -1240,7 +1241,8 @@
         "sentText": "We need more coffee {{blank}}.",
         "hint": "coffee ___",
         "answers": [
-          "cups"
+          "cups",
+          "mugs"
         ],
         "display": "cups",
         "explain": "Plural on the last word. The main word goes last, and the first noun is usually singular.",
