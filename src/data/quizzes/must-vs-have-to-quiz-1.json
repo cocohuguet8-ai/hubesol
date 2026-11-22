@@ -5,40 +5,60 @@
   "items": [
     {
       "question": "I keep oversleeping. I really ___ buy a louder alarm.",
-      "options": ["must to", "have to", "had to", "must"],
+      "options": [
+        "must to",
+        "mustn’t",
+        "had to",
+        "must"
+      ],
       "answer": 3,
       "explanations": [
-        "Never add 'to' after 'must'.",
-        "'Have to' suggests an outside rule; here it's your own feeling.",
+        "Don't add 'to' after 'must'.",
+        "'Mustn't' means forbidden; here you want to say it's necessary.",
         "'Had to' is past; this is present.",
         "Correct! A personal feeling takes 'must': 'I must buy a louder alarm'."
       ]
     },
     {
       "question": "At my company, we ___ clock in by nine.",
-      "options": ["must to", "must", "have to", "had to"],
+      "options": [
+        "must to",
+        "mustn’t",
+        "have to",
+        "had to"
+      ],
       "answer": 2,
       "explanations": [
-        "Never add 'to' after 'must'.",
-        "'Must' is possible, but 'have to' fits an external rule better.",
+        "Don't add 'to' after 'must'.",
+        "'Mustn't' means forbidden, not necessary.",
         "Correct! A workplace rule (from outside) takes 'have to': 'we have to clock in'.",
         "'Had to' is past; this is a present rule."
       ]
     },
     {
       "question": "Yesterday the car broke down, so I ___ take the bus.",
-      "options": ["had to", "have to", "must", "must to"],
+      "options": [
+        "had to",
+        "have to",
+        "must",
+        "must to"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Past obligation takes 'had to': 'I had to take the bus'.",
         "'Have to' is present; this is past ('yesterday').",
         "'Must' has no past form.",
-        "Never add 'to' after 'must'."
+        "Don't add 'to' after 'must'."
       ]
     },
     {
       "question": "It's a secret. You ___ tell anyone.",
-      "options": ["don't have to", "mustn't", "must", "have to"],
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "have to"
+      ],
       "answer": 1,
       "explanations": [
         "'Don't have to tell' means it's optional — but here it's forbidden.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "It's a casual party — you ___ dress up.",
-      "options": ["mustn't", "don't have to", "must", "have to"],
+      "options": [
+        "mustn't",
+        "don't have to",
+        "must",
+        "have to"
+      ],
       "answer": 1,
       "explanations": [
         "'Mustn't dress up' would forbid dressing up.",
@@ -60,12 +85,17 @@
     },
     {
       "question": "She ___ wear glasses for driving; it's on her licence.",
-      "options": ["has to", "have to", "must to", "haves to"],
+      "options": [
+        "has to",
+        "have to",
+        "must to",
+        "haves to"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! An external rule + 'she' gives 'has to': 'She has to wear glasses'.",
         "'Have to' doesn't agree with 'she'.",
-        "Never add 'to' after 'must'.",
+        "Don't add 'to' after 'must'.",
         "'Haves to' is not a word."
       ]
     },
@@ -96,25 +126,35 @@
       "answer": 2,
       "explanations": [
         "'Have to' is present; the sentence is about last week.",
-        "'Must to' is never correct.",
+        "'Must to' is not correct.",
         "Correct! Past obligation takes 'had to': 'Last week I had to finish two reports'.",
         "'Must' can't refer to the past."
       ]
     },
     {
       "question": "Passengers ___ fasten their seatbelts during take-off.",
-      "options": ["don't have to", "mustn't", "must", "must to"],
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "must to"
+      ],
       "answer": 2,
       "explanations": [
         "'Don't have to' would make it optional.",
         "'Mustn't fasten' would forbid it.",
         "Correct! A stated safety rule takes 'must': 'Passengers must fasten their seatbelts'.",
-        "Never add 'to' after 'must'."
+        "Don't add 'to' after 'must'."
       ]
     },
     {
       "question": "The ticket is already paid, so you ___ bring any money.",
-      "options": ["don't have to", "mustn't", "must", "have to"],
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "have to"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! No necessity takes 'don't have to': 'You don't have to bring any money'.",
@@ -128,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "I really ___ exercise more. It's my own decision.",
       "hint": "Type one word.",
-      "answers": ["must"],
+      "answers": [
+        "must"
+      ],
       "explanation": "Obligation that comes from the speaker: must.",
       "common": [
-        {"answer": "have to", "why": "'Have to' is for outside rules. This is your own feeling."}
+        {
+          "answer": "have to",
+          "why": "'Have to' is for outside rules. This is your own feeling."
+        }
       ]
     },
     {
@@ -139,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "I must work late yesterday.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I had to work late yesterday"],
+      "answers": [
+        "I had to work late yesterday"
+      ],
       "explanation": "'Must' has no past. Use 'had to'."
     },
     {
@@ -147,10 +194,16 @@
       "kind": "Fill in the gap",
       "question": "You ___ come if you're busy. It's optional.",
       "hint": "Type three words.",
-      "answers": ["don't have to", "do not have to"],
+      "answers": [
+        "don't have to",
+        "do not have to"
+      ],
       "explanation": "Not necessary = don't have to.",
       "common": [
-        {"answer": "mustn't", "why": "'Mustn't' means forbidden, not optional."}
+        {
+          "answer": "mustn't",
+          "why": "'Mustn't' means forbidden, not optional."
+        }
       ]
     }
   ]
