@@ -706,17 +706,17 @@
         "choices": [
           "a",
           "the",
-          "an",
-          "some a"
+          "some",
+          "any"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Orange’ starts with a vowel sound.",
+          "‘Orange’ starts with a vowel sound, so ‘a’ doesn’t fit.",
           "‘The’ is for a specific one.",
           "",
-          "‘Some a’ is not English."
+          "‘Any’ is for questions and negatives, not for a request like this."
         ],
-        "explain": "In a café, ‘an orange juice’ = one glass. Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
+        "explain": "‘Some orange juice’ is the natural request. (‘An orange juice’ = one glass is also possible in a café.) Remember: a singular countable noun needs a/an; plurals and uncountables don’t take it."
       },
       {
         "use": "There is",
