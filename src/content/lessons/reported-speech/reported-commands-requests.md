@@ -10,7 +10,7 @@ answerPoints:
   - "Commands use 'tell' — 'Sit down.' → He told me to sit down."
   - "Requests use 'ask' — 'Please help.' → She asked me to help."
   - "Negatives put 'not' before 'to' — 'Don't go.' → He told me not to go."
-answerNote: "No tenses to backshift here — just the to-infinitive. Always include the person (told me, asked her), unlike 'say'."
+answerNote: "No tenses to backshift here — just the to-infinitive. Include the person after tell (told me), unlike 'say'."
 quiz: "reported-commands-requests-quiz-1"
 faq:
   - q: "How do I report a command?"
@@ -42,7 +42,7 @@ draft: false
 | Request | "**Can you** help me?" | She **asked me to help** her. |
 | Negative request | "Please **don't** be late." | He **asked me not to be** late. |
 
-The pattern is always: **verb + person + (not) to + base verb**. No tense change is needed — the infinitive stays the same.
+The pattern is: **verb + person + (not) to + base verb**. No tense change is needed — the infinitive stays the same.
 
 | ✗ | ✓ |
 |---|---|
@@ -119,4 +119,4 @@ More in [Reporting Verbs](/grammar/reported-speech/reporting-verbs/).
 
 **4. Missing the person.** *~~He told to hurry~~* → **He told us to hurry.**
 
-**Pro tip:** commands and requests never need backshift — just *told / asked + person + (not) to + verb*.
+**Pro tip:** commands and requests don’t need backshift — just *told / asked + person + (not) to + verb*.

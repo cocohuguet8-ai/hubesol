@@ -31,9 +31,10 @@
         "use": "Command",
         "before": "“Open your books.” → She",
         "after": "us to open our books.",
-        "hint": "told / said",
+        "hint": "(reporting verb)",
         "answers": [
-          "told"
+          "told",
+          "asked"
         ],
         "display": "told",
         "explain": "Commands use ‘tell’ + person: told us."
@@ -64,9 +65,10 @@
         "use": "Negative command",
         "before": "“Don’t shout.” → Mum told us",
         "after": "shout.",
-        "hint": "not to / don’t",
+        "hint": "(negative)",
         "answers": [
-          "not to"
+          "not to",
+          "to not"
         ],
         "display": "not to",
         "explain": "A negative command is reported with ‘not to’."
@@ -77,7 +79,8 @@
         "after": "the paintings.",
         "hint": "(not touch)",
         "answers": [
-          "not to touch"
+          "not to touch",
+          "to not touch"
         ],
         "display": "not to touch",
         "explain": "told + person + not to + base verb. Remember the pattern: told / asked + person + (not) to + verb."
@@ -97,7 +100,7 @@
         "use": "Request",
         "before": "“Can you help me?” → My sister",
         "after": "me to help her.",
-        "hint": "asked / told",
+        "hint": "(reporting verb)",
         "answers": [
           "asked"
         ],
@@ -118,8 +121,8 @@
       {
         "use": "Request",
         "before": "“Please wait here.” → She asked us to wait",
-        "after": ".",
-        "hint": "here / there",
+        "after": ". (We are somewhere else now.)",
+        "hint": "(place word)",
         "answers": [
           "there"
         ],
@@ -143,7 +146,8 @@
         "after": "anyone.",
         "hint": "(not tell)",
         "answers": [
-          "not to tell"
+          "not to tell",
+          "to not tell"
         ],
         "display": "not to tell",
         "explain": "Negative request: asked + person + not to + verb."
@@ -154,7 +158,8 @@
         "after": "so much noise.",
         "hint": "(not make)",
         "answers": [
-          "not to make"
+          "not to make",
+          "to not make"
         ],
         "display": "not to make",
         "explain": "Negative request: not to make."
@@ -185,9 +190,10 @@
         "use": "Order",
         "before": "“Stop the car!” → The police officer",
         "after": "him to stop the car.",
-        "hint": "ordered / said",
+        "hint": "(reporting verb)",
         "answers": [
-          "ordered"
+          "ordered",
+          "told"
         ],
         "display": "ordered",
         "explain": "A very strong command: ordered + person + to."
@@ -198,7 +204,8 @@
         "after": "near the edge.",
         "hint": "(not go)",
         "answers": [
-          "not to go"
+          "not to go",
+          "to not go"
         ],
         "display": "not to go",
         "explain": "warn + person + not to + base verb."
@@ -218,7 +225,7 @@
         "use": "Person needed",
         "before": "“Hurry up!” → He told",
         "after": "to hurry up.",
-        "hint": "us / —",
+        "hint": "(pronoun)",
         "answers": [
           "us"
         ],
@@ -658,7 +665,7 @@
           "‘Tell’ needs a person here.",
           "‘Told that we to hurry’ is wrong."
         ],
-        "explain": "‘Tell’ always needs a person before ‘to’. Remember the pattern: told / asked + person + (not) to + verb."
+        "explain": "‘Tell’ needs a person before ‘to’. Remember the pattern: told / asked + person + (not) to + verb."
       },
       {
         "use": "Negative request",
@@ -689,7 +696,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘To was’ is impossible: the infinitive never changes.",
+          "‘To was’ is impossible: the infinitive doesn’t change.",
           "‘To been’ is wrong.",
           "The -ing form doesn’t fit.",
           ""
@@ -716,7 +723,7 @@
       },
       {
         "use": "Place",
-        "text": "“Wait here.” → She told us to wait <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "text": "“Wait here.” (We are somewhere else now.) → She told us to wait <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "here",
           "where",
@@ -842,16 +849,16 @@
       },
       {
         "use": "Not to",
-        "text": "Which sentence is the most standard?",
+        "text": "Which sentence is correct?",
         "choices": [
-          "He told me to not worry.",
+          "He told me to don’t worry.",
           "He told me don’t worry.",
           "He told me not to worry.",
           "He told me not worry."
         ],
         "correct": 2,
         "wrongReasons": [
-          "Common in speech, but ‘not to worry’ is the standard form.",
+          "After ‘to’ use the base verb, with ‘not’ before ‘to’: ‘not to worry’.",
           "‘Don’t’ disappears in reported speech.",
           "",
           "‘To’ is missing."
@@ -1245,17 +1252,21 @@
       },
       {
         "tokens": [
-          "He",
-          "adviced",
+          "She",
+          "reminded",
           "me",
-          "to",
-          "study",
-          "more."
+          "closing",
+          "the",
+          "door."
         ],
-        "errorIndex": 1,
-        "correction": "advised",
-        "type": "Spelling",
-        "message": "The verb is ‘advise’: ‘advised’. Pattern: told / asked + person + (not) to + verb."
+        "errorIndex": 3,
+        "correction": "to close",
+        "type": "Missing to",
+        "message": "After ‘reminded me’ use ‘to’ + base verb: ‘reminded me to close’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       }
     ]
   },
@@ -1293,19 +1304,19 @@
         "type": "fill",
         "use": "Negative command",
         "sentText": "“Don’t run.” → She told us {{blank}} run.",
-        "hint": "not to / don’t",
+        "hint": "(negative)",
         "answers": [
           "not to"
         ],
         "display": "not to",
-        "explain": "A negative command uses ‘not to’, never ‘don’t’.",
+        "explain": "A negative command uses ‘not to’, not ‘don’t’.",
         "wrongNote": "Negative → not to."
       },
       {
         "type": "fill",
         "use": "Request",
         "sentText": "“Could you call me?” → He {{blank}} me to call him.",
-        "hint": "asked / told",
+        "hint": "(reporting verb)",
         "answers": [
           "asked"
         ],
