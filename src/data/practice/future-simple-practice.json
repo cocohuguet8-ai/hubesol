@@ -54,10 +54,13 @@
           "will rain",
           "'ll rain",
           "ll rain",
-          "’ll rain"
+          "’ll rain",
+          "is going to rain",
+          "’s going to rain",
+          "'s going to rain"
         ],
         "display": "will rain",
-        "explain": "A prediction about the future."
+        "explain": "A prediction about the future. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Prediction",
@@ -69,10 +72,13 @@
           "will love",
           "'ll love",
           "ll love",
-          "’ll love"
+          "’ll love",
+          "are going to love",
+          "’re going to love",
+          "'re going to love"
         ],
         "display": "will love",
-        "explain": "A prediction/opinion about the future, with ‘you’."
+        "explain": "A prediction/opinion about the future, with ‘you’. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Promise",
@@ -99,7 +105,10 @@
           "won't come",
           "wont come",
           "won’t come",
-          "will not come"
+          "will not come",
+          "’ll not come",
+          "'ll not come",
+          "ll not come"
         ],
         "display": "won’t come",
         "explain": "The negative of will is won’t, for every subject."
@@ -114,10 +123,18 @@
           "won't be",
           "wont be",
           "won’t be",
-          "will not be"
+          "will not be",
+          "’ll not be",
+          "'ll not be",
+          "ll not be",
+          "isn’t going to be",
+          "isn't going to be",
+          "is not going to be",
+          "’s not going to be",
+          "'s not going to be"
         ],
         "display": "won’t be",
-        "explain": "Won’t + base verb — no change for ‘she’."
+        "explain": "Won’t + base verb — no change for ‘she’. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Question",
@@ -150,10 +167,16 @@
         "after": "late tonight, I’m sure.",
         "hint": "be",
         "answers": [
-          "will be"
+          "will be",
+          "’ll be",
+          "'ll be",
+          "ll be",
+          "is going to be",
+          "’s going to be",
+          "'s going to be"
         ],
         "display": "will be",
-        "explain": "Will never adds -s — the same form for every subject, including ‘he’."
+        "explain": "Will never adds -s — the same form for every subject, including ‘he’. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Invariant form",
@@ -162,10 +185,16 @@
         "after": "the match on Saturday, I’m sure.",
         "hint": "win",
         "answers": [
-          "will win"
+          "will win",
+          "’ll win",
+          "'ll win",
+          "ll win",
+          "is going to win",
+          "’s going to win",
+          "'s going to win"
         ],
         "display": "will win",
-        "explain": "Will never adds -s — ‘our team will win’, not ‘will wins’."
+        "explain": "Will never adds -s — ‘our team will win’, not ‘will wins’. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Request",
@@ -186,10 +215,16 @@
         "after": "it later.",
         "hint": "need",
         "answers": [
-          "will need"
+          "will need",
+          "’ll need",
+          "'ll need",
+          "ll need",
+          "are going to need",
+          "’re going to need",
+          "'re going to need"
         ],
         "display": "will need",
-        "explain": "Predictions often come with ‘probably’ or ‘maybe’."
+        "explain": "Predictions often come with ‘probably’ or ‘maybe’. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Instant decision",
@@ -213,7 +248,10 @@
         "after": "you as soon as I land.",
         "hint": "text",
         "answers": [
-          "will text"
+          "will text",
+          "’ll text",
+          "'ll text",
+          "ll text"
         ],
         "display": "will text",
         "explain": "A promise about the future takes will."
@@ -228,10 +266,18 @@
           "won't be",
           "wont be",
           "won’t be",
-          "will not be"
+          "will not be",
+          "’ll not be",
+          "'ll not be",
+          "ll not be",
+          "isn’t going to be",
+          "isn't going to be",
+          "is not going to be",
+          "’s not going to be",
+          "'s not going to be"
         ],
         "display": "won’t be",
-        "explain": "A negative prediction about this evening — won’t + base verb."
+        "explain": "A negative prediction about this evening — won’t + base verb. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Invariant form — negative",
@@ -243,10 +289,18 @@
           "won't arrive",
           "wont arrive",
           "won’t arrive",
-          "will not arrive"
+          "will not arrive",
+          "’ll not arrive",
+          "'ll not arrive",
+          "ll not arrive",
+          "aren’t going to arrive",
+          "aren't going to arrive",
+          "are not going to arrive",
+          "’re not going to arrive",
+          "'re not going to arrive"
         ],
         "display": "won’t arrive",
-        "explain": "Won’t is the same for every subject, including ‘they’."
+        "explain": "Won’t is the same for every subject, including ‘they’. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Question — request",
@@ -267,10 +321,16 @@
         "after": "most diseases.",
         "hint": "cure",
         "answers": [
-          "will cure"
+          "will cure",
+          "’ll cure",
+          "'ll cure",
+          "ll cure",
+          "are going to cure",
+          "’re going to cure",
+          "'re going to cure"
         ],
         "display": "will cure",
-        "explain": "A long-term prediction about the future — will, not the present simple."
+        "explain": "A long-term prediction about the future — will, not the present simple. (‘be going to’ also works for a prediction.)"
       },
       {
         "use": "Promise",
