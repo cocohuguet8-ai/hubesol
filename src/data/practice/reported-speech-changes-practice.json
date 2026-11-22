@@ -11,10 +11,10 @@
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type the reported version of the word in brackets: a pronoun, a possessive, a time word or a place word. Twenty original sentences.",
+    "subtitle": "Type the reported version of the word in brackets: a pronoun, a possessive, a time word or a place word. Imagine you are reporting a week later, somewhere else. Twenty original sentences.",
     "questions": [
       {
-        "use": "Pronoun",
+        "use": "Fill the gap",
         "before": "“I’m hungry.” → Pau said",
         "after": "was hungry.",
         "hint": "(I)",
@@ -25,7 +25,7 @@
         "explain": "Pau is talking about himself, so ‘I’ becomes ‘he’."
       },
       {
-        "use": "Pronoun",
+        "use": "Fill the gap",
         "before": "“We’re late.” → My friends said",
         "after": "were late.",
         "hint": "(we)",
@@ -36,7 +36,7 @@
         "explain": "The speakers are now ‘they’, so ‘we’ becomes ‘they’."
       },
       {
-        "use": "Pronoun",
+        "use": "Fill the gap",
         "before": "“I’ll call you.” → Laia said she would call",
         "after": ".",
         "hint": "(you)",
@@ -47,7 +47,7 @@
         "explain": "Laia was speaking to me, so ‘you’ becomes ‘me’."
       },
       {
-        "use": "Possessive",
+        "use": "Fill the gap",
         "before": "“This is my coat.” → Joan said it was",
         "after": "coat.",
         "hint": "(my)",
@@ -58,7 +58,7 @@
         "explain": "Joan’s coat: ‘my’ becomes ‘her’."
       },
       {
-        "use": "Possessive",
+        "use": "Fill the gap",
         "before": "“We love our new flat.” → They said they loved",
         "after": "new flat.",
         "hint": "(our)",
@@ -69,7 +69,7 @@
         "explain": "‘Our’ becomes ‘their’ when you report about them."
       },
       {
-        "use": "Possessive",
+        "use": "Fill the gap",
         "before": "“Your bag is on the chair.” → She said",
         "after": "bag was on the chair.",
         "hint": "(your)",
@@ -80,18 +80,20 @@
         "explain": "She was speaking to me, so ‘your’ becomes ‘my’."
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I’m busy now.” → He said he was busy",
         "after": ".",
         "hint": "(now)",
         "answers": [
-          "then"
+          "then",
+          "at that time",
+          "at that moment"
         ],
         "display": "then",
-        "explain": "‘Now’ becomes ‘then’ (or ‘at that moment’)."
+        "explain": "‘Now’ becomes ‘then’ (or ‘at that moment’). (‘at that time’ also works.)"
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I’ll finish it today.” → She said she would finish it",
         "after": "day.",
         "hint": "(today)",
@@ -102,7 +104,7 @@
         "explain": "‘Today’ becomes ‘that day’."
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I’m going out tonight.” → He said he was going out",
         "after": "night.",
         "hint": "(tonight)",
@@ -113,7 +115,7 @@
         "explain": "‘Tonight’ becomes ‘that night’."
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I saw her yesterday.” → He said he had seen her the day",
         "after": ".",
         "hint": "(yesterday)",
@@ -124,18 +126,19 @@
         "explain": "‘Yesterday’ becomes ‘the day before’."
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“The exam is tomorrow.” → She said the exam was the",
         "after": "day.",
         "hint": "(tomorrow)",
         "answers": [
-          "next"
+          "next",
+          "following"
         ],
         "display": "next",
-        "explain": "‘Tomorrow’ becomes ‘the next day’."
+        "explain": "‘Tomorrow’ becomes ‘the next day’. (‘the following day’ also works.)"
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“We moved last year.” → They said they had moved the year",
         "after": ".",
         "hint": "(last year)",
@@ -146,29 +149,31 @@
         "explain": "‘Last year’ becomes ‘the year before’."
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I’ll visit you next week.” → She said she would visit me the",
         "after": "week.",
         "hint": "(next week)",
         "answers": [
-          "following"
+          "following",
+          "next"
         ],
         "display": "following",
-        "explain": "‘Next week’ becomes ‘the following week’."
+        "explain": "‘Next week’ becomes ‘the following week’. (‘the next week’ also works.)"
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I met him two days ago.” → She said she had met him two days",
         "after": ".",
         "hint": "(ago)",
         "answers": [
-          "before"
+          "before",
+          "earlier"
         ],
         "display": "before",
-        "explain": "‘Ago’ becomes ‘before’ (or ‘earlier’)."
+        "explain": "‘Ago’ becomes ‘before’ (or ‘earlier’). (‘two days earlier’ also works.)"
       },
       {
-        "use": "Place",
+        "use": "Fill the gap",
         "before": "“I live here.” → He said he lived",
         "after": ".",
         "hint": "(here)",
@@ -179,7 +184,7 @@
         "explain": "‘Here’ becomes ‘there’ when the place is different."
       },
       {
-        "use": "Demonstrative",
+        "use": "Fill the gap",
         "before": "“I like this song.” → She said she liked",
         "after": "song.",
         "hint": "(this)",
@@ -190,7 +195,7 @@
         "explain": "‘This’ becomes ‘that’."
       },
       {
-        "use": "Demonstrative",
+        "use": "Fill the gap",
         "before": "“These shoes are new.” → He said",
         "after": "shoes were new.",
         "hint": "(these)",
@@ -201,7 +206,7 @@
         "explain": "‘These’ becomes ‘those’."
       },
       {
-        "use": "Time",
+        "use": "Fill the gap",
         "before": "“I’m working this week.” → She said she was working",
         "after": "week.",
         "hint": "(this week)",
@@ -212,7 +217,7 @@
         "explain": "‘This week’ becomes ‘that week’."
       },
       {
-        "use": "Combined",
+        "use": "Fill the gap",
         "before": "“I lost my keys here yesterday.” → He said he had lost",
         "after": "keys there the day before.",
         "hint": "(my)",
@@ -223,15 +228,16 @@
         "explain": "He lost his own keys: ‘my’ becomes ‘his’."
       },
       {
-        "use": "Combined",
+        "use": "Fill the gap",
         "before": "“We’ll come back tomorrow.” → They said they would come back the",
         "after": "day.",
         "hint": "(tomorrow)",
         "answers": [
-          "following"
+          "following",
+          "next"
         ],
         "display": "following",
-        "explain": "‘Tomorrow’ can also become ‘the following day’."
+        "explain": "‘Tomorrow’ can also become ‘the following day’. (‘the next day’ also works.)"
       }
     ]
   },
@@ -575,7 +581,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Pronoun",
+        "use": "Choose the answer",
         "text": "“I’m exhausted,” said Marc. → Marc said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was exhausted.",
         "choices": [
           "he",
@@ -593,7 +599,7 @@
         "explain": "Change ‘I’ to match the speaker: Marc → he."
       },
       {
-        "use": "Possessive",
+        "use": "Choose the answer",
         "text": "“That’s my seat,” said Laia. → Laia said it was <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> seat.",
         "choices": [
           "my",
@@ -611,7 +617,7 @@
         "explain": "Change ‘my’ to match the speaker: Laia → her."
       },
       {
-        "use": "Pronoun",
+        "use": "Choose the answer",
         "text": "“I’ll help you,” Pau told me. → Pau said he would help <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "you",
@@ -629,7 +635,7 @@
         "explain": "Pau spoke to me, so ‘you’ becomes ‘me’."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I’ll do it tomorrow.” (reported a week later) → She said she would do it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "tomorrow",
@@ -647,7 +653,7 @@
         "explain": "‘Tomorrow’ becomes ‘the next day’ (or ‘the following day’)."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I met him yesterday.” → She said she had met him <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "yesterday",
@@ -665,7 +671,7 @@
         "explain": "‘Yesterday’ becomes ‘the day before’ (or ‘the previous day’)."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I’m busy now.” → He said he was busy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "now",
@@ -683,7 +689,7 @@
         "explain": "‘Now’ becomes ‘then’ or ‘at that moment’."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I’m going out tonight.” → She said she was going out <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "tonight",
@@ -701,7 +707,7 @@
         "explain": "‘Tonight’ becomes ‘that night’."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“We bought it two weeks ago.” → They said they had bought it two weeks <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "before",
@@ -719,7 +725,7 @@
         "explain": "‘Ago’ becomes ‘before’ or ‘earlier’."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I’ll start next month.” → He said he would start <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "next month",
@@ -737,25 +743,23 @@
         "explain": "‘Next month’ becomes ‘the following month’."
       },
       {
-        "use": "Place",
+        "use": "Choose the answer",
         "text": "“I love it here.” → She said she loved it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "here",
-          "where",
+          "there",
           "then",
-          "there"
+          "here"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘Here’ is where you are now, not where she was.",
-          "‘Where’ is a question word.",
+          "",
           "‘Then’ is a time word.",
-          ""
+          "‘Here’ is where you are now, not where she was."
         ],
         "explain": "‘Here’ becomes ‘there’."
       },
       {
-        "use": "Demonstrative",
+        "use": "Choose the answer",
         "text": "“I want this one.” → He said he wanted <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> one.",
         "choices": [
           "that",
@@ -773,7 +777,7 @@
         "explain": "‘This’ becomes ‘that’."
       },
       {
-        "use": "Demonstrative",
+        "use": "Choose the answer",
         "text": "“These cakes are delicious.” → She said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> cakes were delicious.",
         "choices": [
           "these",
@@ -791,7 +795,7 @@
         "explain": "‘These’ becomes ‘those’."
       },
       {
-        "use": "Combined",
+        "use": "Choose the answer",
         "text": "“I left my bag here.” → He said he had left <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> bag <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "my / here",
@@ -809,7 +813,7 @@
         "explain": "Change the possessive and the place word."
       },
       {
-        "use": "Combined",
+        "use": "Choose the answer",
         "text": "“We’ll see you tomorrow.” → They said they would see me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "the next day",
@@ -827,7 +831,7 @@
         "explain": "Reported later: tomorrow → the next day."
       },
       {
-        "use": "No change",
+        "use": "Choose the answer",
         "text": "You report five minutes later, in the same room: “I’m tired.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tired.",
         "choices": [
           "had been",
@@ -845,7 +849,7 @@
         "explain": "Reported soon and still true: backshift is optional."
       },
       {
-        "use": "No change",
+        "use": "Choose the answer",
         "text": "Same day: “The match is tonight.” → He said the match is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "that night",
@@ -863,7 +867,7 @@
         "explain": "Same day, same place: keep the original time word."
       },
       {
-        "use": "Possessive",
+        "use": "Choose the answer",
         "text": "“Our team won!” → They said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> team had won.",
         "choices": [
           "their",
@@ -881,7 +885,7 @@
         "explain": "‘Our’ becomes ‘their’."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I saw it last week.” → She said she had seen it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "last week",
@@ -899,7 +903,7 @@
         "explain": "‘Last week’ becomes ‘the week before’ / ‘the previous week’."
       },
       {
-        "use": "Pronoun",
+        "use": "Choose the answer",
         "text": "“You’re right,” she told me. → She said <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> was right.",
         "choices": [
           "you",
@@ -917,7 +921,7 @@
         "explain": "She spoke to me: ‘you’ → ‘I’."
       },
       {
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I’ll finish it this week.” → He said he would finish it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "this week",
@@ -1126,7 +1130,11 @@
           "she",
           "wanted",
           "this",
-          "dress."
+          "dress.",
+          "(We’re",
+          "somewhere",
+          "else",
+          "now.)"
         ],
         "errorIndex": 4,
         "correction": "that",
@@ -1141,7 +1149,11 @@
           "shoes",
           "were",
           "too",
-          "small."
+          "small.",
+          "(We’re",
+          "somewhere",
+          "else",
+          "now.)"
         ],
         "errorIndex": 2,
         "correction": "those",
@@ -1219,7 +1231,10 @@
           "arrived",
           "the",
           "day",
-          "after."
+          "after.",
+          "(He",
+          "said",
+          "“yesterday”.)"
         ],
         "errorIndex": 7,
         "correction": "before.",
@@ -1251,21 +1266,24 @@
           "said",
           "he",
           "would",
-          "come",
-          "the",
-          "folowing",
-          "week."
+          "help",
+          "you.",
+          "(He",
+          "was",
+          "talking",
+          "to",
+          "me.)"
         ],
-        "errorIndex": 6,
-        "correction": "following",
-        "type": "Spelling",
-        "message": "Spelling: ‘following’. Check the original words carefully."
+        "errorIndex": 5,
+        "correction": "me.",
+        "type": "Pronoun",
+        "message": "He was talking to me, so ‘you’ becomes ‘me’."
       }
     ]
   },
   "levelCheck": {
     "title": "How well do you know it?",
-    "subtitle": "20 mixed questions — typing, word order, time and place words, multiple choice and spot-the-mistake. In the typing questions write the reported pronoun, possessive, time or place word. One pass, then a breakdown of where you’re strong and where to go back and practise.",
+    "subtitle": "20 mixed questions — typing, word order, time and place words, multiple choice and spot-the-mistake. In the typing questions write the reported pronoun, possessive, time or place word. Imagine you are reporting a week later, somewhere else. One pass, then a breakdown of where you’re strong and where to go back and practise.",
     "categoryLabels": {
       "fill": "Fill in the blank",
       "order": "Word order",
@@ -1283,7 +1301,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Pronoun",
+        "use": "Fill the gap",
         "sentText": "“I’m late.” → Marta said {{blank}} was late.",
         "hint": "I",
         "answers": [
@@ -1295,7 +1313,7 @@
       },
       {
         "type": "fill",
-        "use": "Possessive",
+        "use": "Fill the gap",
         "sentText": "“That’s my pen.” → Pol said it was {{blank}} pen.",
         "hint": "my",
         "answers": [
@@ -1307,7 +1325,7 @@
       },
       {
         "type": "fill",
-        "use": "Time",
+        "use": "Fill the gap",
         "sentText": "“I’ll see you tomorrow.” → She said she would see me the {{blank}} day.",
         "hint": "tomorrow",
         "answers": [
@@ -1319,7 +1337,7 @@
       },
       {
         "type": "fill",
-        "use": "Place",
+        "use": "Fill the gap",
         "sentText": "“Stay here.” → He told me to stay {{blank}}.",
         "hint": "here",
         "answers": [
@@ -1331,7 +1349,7 @@
       },
       {
         "type": "order",
-        "use": "Pronoun",
+        "use": "Put in order",
         "tokens": [
           "He",
           "said",
@@ -1342,7 +1360,7 @@
       },
       {
         "type": "order",
-        "use": "Time",
+        "use": "Put in order",
         "tokens": [
           "She",
           "said",
@@ -1356,7 +1374,7 @@
       },
       {
         "type": "order",
-        "use": "Place",
+        "use": "Put in order",
         "tokens": [
           "He",
           "said",
@@ -1367,7 +1385,7 @@
       },
       {
         "type": "order",
-        "use": "Demonstrative",
+        "use": "Put in order",
         "tokens": [
           "She",
           "said",
@@ -1455,7 +1473,7 @@
       },
       {
         "type": "mc",
-        "use": "Pronoun",
+        "use": "Choose the answer",
         "text": "“We’re ready.” → They said {{blank}} were ready.",
         "choices": [
           "we",
@@ -1474,7 +1492,7 @@
       },
       {
         "type": "mc",
-        "use": "Time",
+        "use": "Choose the answer",
         "text": "“I’m leaving today.” → He said he was leaving {{blank}}.",
         "choices": [
           "that day",
@@ -1493,7 +1511,7 @@
       },
       {
         "type": "mc",
-        "use": "Demonstrative",
+        "use": "Choose the answer",
         "text": "“This is my favourite song.” → She said {{blank}} was her favourite song.",
         "choices": [
           "this",
@@ -1512,7 +1530,7 @@
       },
       {
         "type": "mc",
-        "use": "Combined",
+        "use": "Choose the answer",
         "text": "“I saw your sister here.” → He said he had seen {{blank}} sister {{blank}}.",
         "choices": [
           "your / here",
@@ -1531,7 +1549,7 @@
       },
       {
         "type": "error",
-        "use": "Pronoun",
+        "use": "Find the mistake",
         "tokens": [
           "Joan",
           "said",
@@ -1548,7 +1566,7 @@
       },
       {
         "type": "error",
-        "use": "Time",
+        "use": "Find the mistake",
         "tokens": [
           "He",
           "said",
@@ -1564,7 +1582,7 @@
       },
       {
         "type": "error",
-        "use": "Place",
+        "use": "Find the mistake",
         "tokens": [
           "She",
           "said",
@@ -1582,7 +1600,7 @@
       },
       {
         "type": "error",
-        "use": "Demonstrative",
+        "use": "Find the mistake",
         "tokens": [
           "He",
           "said",
