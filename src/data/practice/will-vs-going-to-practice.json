@@ -147,10 +147,15 @@
           "will have",
           "'ll have",
           "ll have",
-          "’ll have"
+          "’ll have",
+          "am going to have",
+          "’m going to have",
+          "'m going to have",
+          "m going to have",
+          "going to have"
         ],
         "display": "will have",
-        "explain": "Choosing on the spot — use will."
+        "explain": "Choosing as you speak — will is the usual choice (‘going to’ also works after a moment’s thought)."
       },
       {
         "use": "Fill the gap",
@@ -651,7 +656,7 @@
         "right": "Going to"
       },
       {
-        "left": "ordering food on the spot",
+        "left": "offering to carry someone’s heavy bag",
         "right": "Will"
       },
       {
@@ -1233,22 +1238,21 @@
       {
         "tokens": [
           "A:",
-          "What",
-          "would",
-          "you",
-          "like?",
+          "The",
+          "phone",
+          "is",
+          "ringing.",
           "B:",
           "I’m",
           "going",
           "to",
-          "have",
-          "the",
-          "fish."
+          "answer",
+          "it."
         ],
         "errorIndex": 6,
         "correction": "I’ll",
         "type": "Instant decision",
-        "message": "Choosing on the spot — use will, not going to.",
+        "message": "A reaction at the moment of speaking takes will, not going to.",
         "errorSpan": [
           6,
           8
@@ -1681,14 +1685,12 @@
         "text": "I’ve just seen the menu. I {{blank}} the pasta, I think.",
         "choices": [
           "will have",
-          "am going to have",
           "have",
           "have had"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: you decide as you speak — use will, not going to.",
           "Wrong tense: the present simple is not used for an instant decision.",
           "Wrong tense: the present perfect does not talk about the future."
         ],

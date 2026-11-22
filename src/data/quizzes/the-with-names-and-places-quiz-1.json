@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "My cousin lives in ___ Netherlands.",
-      "options": ["—", "a", "the", "an"],
+      "options": [
+        "—",
+        "a",
+        "the",
+        "an"
+      ],
       "answer": 2,
       "explanations": [
         "This plural name needs 'the', unlike France.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "We took a boat down ___ Amazon.",
-      "options": ["a", "the", "—", "an"],
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
       "answer": 1,
       "explanations": [
         "Rivers don't take 'a'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "She's studying in ___ Japan this year.",
-      "options": ["—", "the", "a", "an"],
+      "options": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Most countries take no article: 'Japan'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "They climbed ___ Mount Everest.",
-      "options": ["an", "the", "a", "—"],
+      "options": [
+        "an",
+        "the",
+        "a",
+        "—"
+      ],
       "answer": 3,
       "explanations": [
         "Mountains don't take 'an'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "We hiked in ___ Alps last summer.",
-      "options": ["a", "—", "the", "an"],
+      "options": [
+        "a",
+        "—",
+        "the",
+        "an"
+      ],
       "answer": 2,
       "explanations": [
         "Ranges don't take 'a'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "The tour includes ___ British Museum.",
-      "options": ["a", "the", "—", "an"],
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
       "answer": 1,
       "explanations": [
         "It doesn't take 'a'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "He flew into ___ Heathrow Airport.",
-      "options": ["—", "the", "a", "an"],
+      "options": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Airports named after a place take no article: 'Heathrow Airport'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "She graduated from ___ University of Cambridge.",
-      "options": ["an", "a", "—", "the"],
+      "options": [
+        "an",
+        "a",
+        "—",
+        "the"
+      ],
       "answer": 3,
       "explanations": [
         "It doesn't take 'an'.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "Which type of name takes 'the'?",
-      "options": ["Single lakes.", "Single cities.", "Rivers, seas and mountain ranges.", "Most countries."],
+      "options": [
+        "Single lakes.",
+        "Single cities.",
+        "Rivers, seas and mountain ranges.",
+        "Most countries."
+      ],
       "answer": 2,
       "explanations": [
         "Single lakes take no article (Lake Como).",
@@ -117,33 +162,6 @@
         "Correct! Rivers, seas and ranges take 'the' (the Nile, the Alps).",
         "Most countries take no article (Spain)."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "They visited ___ Alps last winter.",
-      "hint": "Type one word.",
-      "answers": ["the"],
-      "explanation": "Mountain ranges have plural names and take 'the': the Alps.",
-      "common": [
-        {"answer": "a", "why": "'Alps' is a plural name, so it takes 'the'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She studies at University of Oxford.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["She studies at the University of Oxford"],
-      "explanation": "Names built with 'of' take 'the': the University of Oxford."
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She lives in the France.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["She lives in France"],
-      "explanation": "Most single country names take no article: France."
     }
   ]
 }

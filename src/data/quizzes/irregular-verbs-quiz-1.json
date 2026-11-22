@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "The past simple of 'buy' is ___.",
-      "options": ["buyed", "bought", "brought", "buys"],
+      "options": [
+        "buyed",
+        "bought",
+        "brought",
+        "buys"
+      ],
       "answer": 1,
       "explanations": [
         "'Buy' is irregular, so 'buyed' doesn't exist. The past is 'bought'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I have ___ my homework.",
-      "options": ["did", "doed", "done", "does"],
+      "options": [
+        "did",
+        "doed",
+        "done",
+        "does"
+      ],
       "answer": 2,
       "explanations": [
         "'Did' is the past simple. After 'have', use the past participle: 'done'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "She ___ to Italy last year.",
-      "options": ["goed", "going", "gone", "went"],
+      "options": [
+        "goed",
+        "going",
+        "gone",
+        "went"
+      ],
       "answer": 3,
       "explanations": [
         "'Go' is irregular and never takes -ed. The past simple is 'went'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Have you ever ___ sushi?",
-      "options": ["eaten", "ate", "eated", "eat"],
+      "options": [
+        "eaten",
+        "ate",
+        "eated",
+        "eat"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'eat → ate → eaten', and after 'have' you need the participle: 'eaten'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "They ___ the match yesterday.",
-      "options": ["winned", "has won", "won", "win"],
+      "options": [
+        "winned",
+        "has won",
+        "won",
+        "win"
+      ],
       "answer": 2,
       "explanations": [
         "'Win' is irregular, so 'winned' doesn't exist. The past is 'won'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "He has ___ his keys again.",
-      "options": ["lost", "losed", "loosed", "loses"],
+      "options": [
+        "lost",
+        "losed",
+        "loosed",
+        "loses"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'lose → lost → lost', so after 'has' the form is 'lost'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "The past participle of 'write' is ___.",
-      "options": ["wrote", "written", "writed", "wrotten"],
+      "options": [
+        "wrote",
+        "written",
+        "writed",
+        "wrotten"
+      ],
       "answer": 1,
       "explanations": [
         "'Wrote' is the past simple. The past participle is 'written'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "We ___ a great time at the party.",
-      "options": ["haved", "have", "has", "had"],
+      "options": [
+        "haved",
+        "have",
+        "has",
+        "had"
+      ],
       "answer": 3,
       "explanations": [
         "'Have' is irregular and doesn't take -ed. The past is 'had'.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "She ___ her leg while she was skiing.",
-      "options": ["breaked", "broke", "broken", "breaks"],
+      "options": [
+        "breaked",
+        "broke",
+        "broken",
+        "breaks"
+      ],
       "answer": 1,
       "explanations": [
         "'Break' is irregular and doesn't take -ed. The past simple is 'broke'.",
         "Correct! 'break → broke → broken'. For the past simple, use 'broke'.",
         "'Broken' is the past participle (used with have). Alone, use 'broke'.",
         "'Breaks' is present simple. The action is in the past: 'broke'."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I have ___ my homework. (do)",
-      "hint": "Type the past participle.",
-      "answers": ["done"],
-      "explanation": "The participle of 'do' is 'done'.",
-      "common": [
-        {"answer": "did", "why": "After 'have' use the past participle: done."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She goed to Italy last year.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["She went to Italy last year"],
-      "explanation": "'Go' is irregular: went."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "He ___ me a nice present yesterday. (buy)",
-      "hint": "Type the past simple.",
-      "answers": ["bought"],
-      "explanation": "The past simple of 'buy' is 'bought'.",
-      "common": [
-        {"answer": "buyed", "why": "'Buy' is irregular: bought."}
       ]
     }
   ]

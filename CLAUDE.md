@@ -23,3 +23,17 @@ Deixa una taula amb cada pregunta, totes les respostes acceptades i la confirmac
 - Patró «good»: Past Simple i Past Continuous (`claude/proces-per-llico.md`, `docs/HUBESOL_Checklist_pre-entrega_v1.md`, `docs/HUBESOL_Guia_alumne-exigent_v1.md`).
 - Abans de fusionar: `npm run lint && npm run build && npm run e2e` i `python3 claude/skills/audit_semantic.py .` en verd. Fer merge = publicar.
 - Si un tipus d'error apareix en una lliçó, mira si hi és a totes les altres i arregla'l a totes de cop.
+
+## Decisions de la Coco (22/11/2026), també obligatòries
+
+- **Una regla per tipus d'error**, no revisió cas per cas: quan un tipus d'error apareix, es corregeix a totes les lliçons.
+- **Cap exercici «write» als quizzes** (només elecció múltiple). El validador falla si n'hi ha.
+- **Matching per categories** només si cada frase encaixa amb UNA sola categoria (regla 8). Si no, es reescriu.
+- **Distractors:** abans d'inventar-ne un de fals, es deixa l'ítem amb menys opcions o es canvia la frase.
+- **Respostes alternatives acceptades:** should/ought to, contraccions, can/could/may, would a used-to, will/going to, «play guitar» i «the guitar».
+- **Backshift opcional:** s'accepten les dues formes quan ambdues són naturals; el context ho aclareix.
+- **Ortografia (-ing/-ed, plurals en -ies…):** només a les lliçons que l'ensenyen. A la resta, Find the mistake practica el tema de la lliçó.
+- **Pistes dels buits d'una paraula:** «Type one word.»
+- **Anglès britànic (Cambridge) com a forma principal;** les formes americanes s'accepten com a alternativa (learnt/learned, towards/toward…).
+- **Present perfect simple amb durada** és correcte i s'accepta («I've lived here for years»).
+- **Will / going to:** una elecció feta en el moment de parlar (restaurant, menú) admet les dues formes. Per a ofertes, promeses i reaccions immediates només «will».

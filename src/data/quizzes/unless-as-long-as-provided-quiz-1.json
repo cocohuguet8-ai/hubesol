@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "___ you hurry, you'll miss the bus.",
-      "options": ["In case", "As long as", "Provided that", "Unless"],
+      "options": [
+        "In case",
+        "As long as",
+        "Provided that",
+        "Unless"
+      ],
       "answer": 3,
       "explanations": [
         "'In case' is for precautions, not this condition.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "You can borrow my car ___ you drive carefully.",
-      "options": ["as long as", "unless", "in case", "so that"],
+      "options": [
+        "as long as",
+        "unless",
+        "in case",
+        "so that"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'As long as' states the condition: 'as long as you drive carefully'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Take an umbrella ___ it rains later.",
-      "options": ["unless", "as long as", "in case", "provided that"],
+      "options": [
+        "unless",
+        "as long as",
+        "in case",
+        "provided that"
+      ],
       "answer": 2,
       "explanations": [
         "'Unless' means 'if not', which doesn't fit here.",
@@ -54,7 +69,12 @@
     },
     {
       "question": "We'll start on Monday ___ everyone agrees.",
-      "options": ["unless", "in case", "provided that", "even if"],
+      "options": [
+        "unless",
+        "in case",
+        "provided that",
+        "even if"
+      ],
       "answer": 2,
       "explanations": [
         "'Unless everyone agrees' means the opposite.",
@@ -81,7 +101,12 @@
     },
     {
       "question": "You can stay out late ___ you text me when you arrive.",
-      "options": ["as long as", "unless", "in case", "otherwise"],
+      "options": [
+        "as long as",
+        "unless",
+        "in case",
+        "otherwise"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'As long as you text me' states the strict condition.",
@@ -92,7 +117,12 @@
     },
     {
       "question": "I won't say anything ___ you want me to.",
-      "options": ["as long as", "unless", "provided that", "in case"],
+      "options": [
+        "as long as",
+        "unless",
+        "provided that",
+        "in case"
+      ],
       "answer": 1,
       "explanations": [
         "'As long as' would mean 'only on condition that', reversing the sense.",
@@ -103,7 +133,12 @@
     },
     {
       "question": "Choose the correct verb: 'Provided that you ___ on time, you can join.'",
-      "options": ["arrived", "will arrive", "would arrive", "arrive"],
+      "options": [
+        "arrived",
+        "will arrive",
+        "would arrive",
+        "arrive"
+      ],
       "answer": 3,
       "explanations": [
         "'Arrived' (past) doesn't fit this real future.",
@@ -126,36 +161,6 @@
         "'Even if' would remove the condition — not the meaning here.",
         "This misreads 'as long as' as a precaution.",
         "This reverses the meaning."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I won't go to the party ___ you come with me.",
-      "hint": "Type the linker.",
-      "answers": ["unless"],
-      "explanation": "'Unless' means 'if not': if you don't come with me.",
-      "common": [
-        {"answer": "as long as", "why": "'As long as' means 'only if'. Here the meaning is 'if not', so 'unless'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "Unless you don't hurry, you'll miss the bus.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["Unless you hurry, you'll miss the bus", "Unless you hurry, you will miss the bus"],
-      "explanation": "'Unless' already means 'if not', so no second negative."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "You can use my phone ___ you give it back tonight.",
-      "hint": "Type the linker.",
-      "answers": ["as long as", "provided that", "providing that", "provided", "providing", "so long as"],
-      "explanation": "'As long as' means 'only if this condition is met'.",
-      "common": [
-        {"answer": "unless", "why": "'Unless' means 'if not'. Here the condition is positive, so 'as long as'."}
       ]
     }
   ]

@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "She says she ___ tired. (present reporting verb)",
-      "options": ["was", "is", "had been", "would be"],
+      "options": [
+        "was",
+        "is",
+        "had been",
+        "would be"
+      ],
       "answer": 1,
       "explanations": [
         "'Was' backshifts, but 'says' doesn't require it.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "The teacher told us that water ___ at 100°C. (general truth)",
-      "options": ["would boil", "boil", "had boiled", "boils"],
+      "options": [
+        "would boil",
+        "boil",
+        "had boiled",
+        "boils"
+      ],
       "answer": 3,
       "explanations": [
         "'Would boil' changes the meaning.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "He said he ___ help us move the next day. (modal)",
-      "options": ["would have", "can", "would", "will"],
+      "options": [
+        "would have",
+        "can",
+        "would",
+        "will"
+      ],
       "answer": 2,
       "explanations": [
         "'Would have' changes the meaning to the past.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "She told me she ___ in Rome. (still true now)",
-      "options": ["lives", "live", "had lived", "would live"],
+      "options": [
+        "lives",
+        "live",
+        "had lived",
+        "would live"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Still true, so you can keep the present: 'she lives in Rome'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "They said we ___ leave before dark. (modal)",
-      "options": ["should", "should to", "shall", "ought"],
+      "options": [
+        "should",
+        "should to",
+        "shall",
+        "ought"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Should' doesn't change in reported speech.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "My friend says the shop ___ at nine every day. (present reporting verb)",
-      "options": ["opens", "opened", "had opened", "would open"],
+      "options": [
+        "opens",
+        "opened",
+        "had opened",
+        "would open"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! With 'says', keep the present: 'opens at nine'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "She said she ___ swim when she was young. (modal, unchanged)",
-      "options": ["would", "can", "could have", "could"],
+      "options": [
+        "would",
+        "can",
+        "could have",
+        "could"
+      ],
       "answer": 3,
       "explanations": [
         "'Would' is not used for past ability here.",
@@ -126,36 +161,6 @@
         "Backshift is common but not always required.",
         "It's not limited to questions.",
         "It's not limited to commands."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "Maria says she ___ tired. (be)",
-      "hint": "Type one word.",
-      "answers": ["is", "’s", "'s"],
-      "explanation": "With a present reporting verb ('says') there is no backshift.",
-      "common": [
-        {"answer": "was", "why": "With 'says' the tense doesn't move back: she is tired."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "He said he would helped us.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["He said he would help us", "He said he’d help us", "He said he'd help us"],
-      "explanation": "After 'would' we use the base verb."
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "\"I can swim,\" she says. → She says she ___ swim.",
-      "hint": "Type one word.",
-      "answers": ["can"],
-      "explanation": "Present reporting verb: no backshift, so 'can' stays.",
-      "common": [
-        {"answer": "could", "why": "With 'says' we don't backshift, so 'can' stays 'can'."}
       ]
     }
   ]

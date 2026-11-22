@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "___ I sit here? (informal)",
-      "options": ["Must", "May", "Can", "Should"],
+      "options": [
+        "Must",
+        "May",
+        "Can",
+        "Should"
+      ],
       "answer": 2,
       "explanations": [
         "'Must I…?' asks about obligation, not permission.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "___ I come in? (formal, at an office)",
-      "options": ["May", "Can", "Must", "Would"],
+      "options": [
+        "May",
+        "Can",
+        "Must",
+        "Would"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'May I…?' is the formal way to ask permission.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "'Could I borrow your charger?' — 'Yes, you ___ .'",
-      "options": ["could", "can", "may not", "must"],
+      "options": [
+        "could",
+        "can",
+        "may not",
+        "must"
+      ],
       "answer": 1,
       "explanations": [
         "'You could' sounds like advice, not permission.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Sorry, you ___ park here — it's for staff only.",
-      "options": ["should", "couldn't", "may", "can't"],
+      "options": [
+        "should",
+        "couldn't",
+        "may",
+        "can't"
+      ],
       "answer": 3,
       "explanations": [
         "'Should' gives advice.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "___ I ask you a question, please? (polite)",
-      "options": ["Could", "Must", "Should", "Will"],
+      "options": [
+        "Could",
+        "Must",
+        "Should",
+        "Will"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Could I…?' is a polite way to ask permission.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "Students ___ use the lab after 6 p.m. (giving permission, formal)",
-      "options": ["should", "could", "must", "may"],
+      "options": [
+        "should",
+        "could",
+        "must",
+        "may"
+      ],
       "answer": 3,
       "explanations": [
         "'Should' gives advice.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Passengers ___ smoke anywhere on the train.",
-      "options": ["may", "may not", "could", "can be"],
+      "options": [
+        "may",
+        "may not",
+        "could",
+        "can be"
+      ],
       "answer": 1,
       "explanations": [
         "'May' would allow it.",
@@ -114,43 +149,18 @@
     },
     {
       "question": "Which is used to ASK but not to GIVE permission?",
-      "options": ["could", "can", "may", "cannot"],
+      "options": [
+        "could",
+        "can",
+        "may",
+        "cannot"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Could' asks politely but isn't used to give permission.",
         "'Can' both asks and gives.",
         "'May' both asks and gives.",
         "'Cannot' refuses permission."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "'Could I borrow your pen?' — 'Yes, you ___.'",
-      "hint": "Type one word.",
-      "answers": ["can", "may"],
-      "explanation": "We give permission with can or may.",
-      "common": [
-        {"answer": "could", "why": "We don't normally give permission with 'could'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "Can I to go home?",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["Can I go home"],
-      "explanation": "No 'to' after a modal."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "___ I come in, please? (very formal)",
-      "hint": "Type one word.",
-      "answers": ["May"],
-      "explanation": "'May' is the most formal way to ask permission.",
-      "common": [
-        {"answer": "Can", "why": "'Can' is informal. The sentence asks for formal, so 'May'."}
       ]
     }
   ]

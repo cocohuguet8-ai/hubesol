@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Present continuous: The bridge ___ at the moment.",
-      "options": ["is repaired", "is repairing", "is being repaired", "has been repaired"],
+      "options": [
+        "is repaired",
+        "is repairing",
+        "is being repaired",
+        "has been repaired"
+      ],
       "answer": 2,
       "explanations": [
         "'Is repaired' is present simple passive, not continuous.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "Present perfect: The parcels ___ already.",
-      "options": ["have delivered", "have been delivered", "are delivered", "were delivered"],
+      "options": [
+        "have delivered",
+        "have been delivered",
+        "are delivered",
+        "were delivered"
+      ],
       "answer": 1,
       "explanations": [
         "'Have delivered' is active and misses 'been'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Modal: This bottle ___ .",
-      "options": ["can be recycled", "can recycle", "can be recycle", "can recycled"],
+      "options": [
+        "can be recycled",
+        "can recycle",
+        "can be recycle",
+        "can recycled"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Modal passive = modal + be + participle: 'can be recycled'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Past perfect: By the time we arrived, the room ___ .",
-      "options": ["had cleaned", "has been cleaned", "was cleaning", "had been cleaned"],
+      "options": [
+        "had cleaned",
+        "has been cleaned",
+        "was cleaning",
+        "had been cleaned"
+      ],
       "answer": 3,
       "explanations": [
         "'Had cleaned' is active; the room was cleaned by someone.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Past continuous: When I called, my car ___ .",
-      "options": ["was repaired", "is being repaired", "was being repaired", "had been repaired"],
+      "options": [
+        "was repaired",
+        "is being repaired",
+        "was being repaired",
+        "had been repaired"
+      ],
       "answer": 2,
       "explanations": [
         "'Was repaired' is past simple passive, not continuous.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "Future: The results ___ next week.",
-      "options": ["will announce", "will be announced", "will be announce", "are announced"],
+      "options": [
+        "will announce",
+        "will be announced",
+        "will be announce",
+        "are announced"
+      ],
       "answer": 1,
       "explanations": [
         "'Will announce' is active and needs a doer.",
@@ -87,7 +117,12 @@
     },
     {
       "question": "Present simple: Millions of emails ___ every second.",
-      "options": ["send", "have sent", "are sending", "are sent"],
+      "options": [
+        "send",
+        "have sent",
+        "are sending",
+        "are sent"
+      ],
       "answer": 3,
       "explanations": [
         "'Send' is active and needs a doer.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "Present perfect (singular): The decision ___ .",
-      "options": ["have been made", "has made", "has been made", "was been made"],
+      "options": [
+        "have been made",
+        "has made",
+        "has been made",
+        "was been made"
+      ],
       "answer": 2,
       "explanations": [
         "'The decision' is singular, so use 'has', not 'have'.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "Which passive form is best avoided as too clumsy?",
-      "options": ["It is being built.", "It will be being built.", "It has been built.", "It was built."],
+      "options": [
+        "It is being built.",
+        "It will be being built.",
+        "It has been built.",
+        "It was built."
+      ],
       "answer": 1,
       "explanations": [
         "'Is being built' is a normal continuous passive.",
@@ -117,33 +162,6 @@
         "'Has been built' is a normal perfect passive.",
         "'Was built' is a normal past passive."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "The house ___ right now. (paint)",
-      "hint": "Use the continuous passive.",
-      "answers": ["is being painted"],
-      "explanation": "Present continuous passive: is being + past participle.",
-      "common": [
-        {"answer": "is painted", "why": "Right now means continuous, so we need 'being': is being painted."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "The parcels have delivered already.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["The parcels have been delivered already"],
-      "explanation": "Present perfect passive: have been + past participle."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "The letters must ___ before Friday. (send)",
-      "hint": "Use the passive after 'must'.",
-      "answers": ["be sent"],
-      "explanation": "Modal passive: must + be + past participle."
     }
   ]
 }

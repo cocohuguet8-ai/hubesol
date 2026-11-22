@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "\"I'll help you.\" → He offered ___ me.",
-      "options": ["help", "helping", "to help", "that help"],
+      "options": [
+        "help",
+        "helping",
+        "to help",
+        "that help"
+      ],
       "answer": 2,
       "explanations": [
         "'Help' is missing 'to'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "\"You should rest.\" → The doctor advised me ___.",
-      "options": ["that rest", "resting", "rest", "to rest"],
+      "options": [
+        "that rest",
+        "resting",
+        "rest",
+        "to rest"
+      ],
       "answer": 3,
       "explanations": [
         "'That rest' isn't correct here.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "\"Let's leave early.\" → She suggested ___ early.",
-      "options": ["leaving", "to leave", "me to leave", "leave"],
+      "options": [
+        "leaving",
+        "to leave",
+        "me to leave",
+        "leave"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Suggest + -ing': 'She suggested leaving early'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "\"No, I won't do it.\" → He refused ___ it.",
-      "options": ["doing", "to do", "do", "that do"],
+      "options": [
+        "doing",
+        "to do",
+        "do",
+        "that do"
+      ],
       "answer": 1,
       "explanations": [
         "'Refuse' doesn't take '-ing'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "\"I'm sorry I'm late.\" → She apologised ___ late.",
-      "options": ["that being", "to be", "being", "for being"],
+      "options": [
+        "that being",
+        "to be",
+        "being",
+        "for being"
+      ],
       "answer": 3,
       "explanations": [
         "'That being' isn't correct here.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "\"Don't forget the meeting.\" → He reminded me ___ the meeting.",
-      "options": ["attending", "to attend", "attend", "of attend"],
+      "options": [
+        "attending",
+        "to attend",
+        "attend",
+        "of attend"
+      ],
       "answer": 1,
       "explanations": [
         "'-ing' doesn't follow 'remind + object' here.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "\"It was me who broke it.\" → She admitted ___ it.",
-      "options": ["to break", "break", "breaking", "that break"],
+      "options": [
+        "to break",
+        "break",
+        "breaking",
+        "that break"
+      ],
       "answer": 2,
       "explanations": [
         "'Admit' doesn't take a to-infinitive.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "\"I promise I'll be there.\" → She promised ___ there.",
-      "options": ["to be", "being", "be", "that be"],
+      "options": [
+        "to be",
+        "being",
+        "be",
+        "that be"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Promise' takes a to-infinitive: 'She promised to be there'.",
@@ -109,40 +149,18 @@
     },
     {
       "question": "\"You really should apply for it.\" → She encouraged me ___ for it.",
-      "options": ["apply", "applying", "to apply", "for applying"],
+      "options": [
+        "apply",
+        "applying",
+        "to apply",
+        "for applying"
+      ],
       "answer": 2,
       "explanations": [
         "'Apply' is missing 'to'.",
         "'-ing' doesn't follow 'encourage + object'.",
         "Correct! 'Encourage + object + to-infinitive': 'encouraged me to apply'.",
         "'For applying' is not the right pattern here."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "\"I'll help you,\" he said. → He offered ___ me.",
-      "hint": "Type the missing words.",
-      "answers": ["to help"],
-      "explanation": "Offer + to-infinitive."
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "He suggested me to leave.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["He suggested leaving", "He suggested that I leave", "He suggested that I should leave"],
-      "explanation": "'Suggest' takes -ing or a that-clause, not object + to-infinitive."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "He apologised ___ being late.",
-      "hint": "Type one word.",
-      "answers": ["for"],
-      "explanation": "Apologise for + -ing.",
-      "common": [
-        {"answer": "about", "why": "The pattern is 'apologise for', not 'apologise about'."}
       ]
     }
   ]

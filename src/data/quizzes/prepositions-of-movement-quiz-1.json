@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "We're driving ___ the airport now.",
-      "options": ["into", "to", "onto", "at"],
+      "options": [
+        "into",
+        "to",
+        "onto",
+        "at"
+      ],
       "answer": 1,
       "explanations": [
         "'Into' means entering an enclosed space.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "She walked ___ the room and sat down.",
-      "options": ["into", "to", "onto", "in"],
+      "options": [
+        "into",
+        "to",
+        "onto",
+        "in"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Entering a space takes 'into': 'into the room'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "The cat jumped ___ the table.",
-      "options": ["at", "into", "to", "onto"],
+      "options": [
+        "at",
+        "into",
+        "to",
+        "onto"
+      ],
       "answer": 3,
       "explanations": [
         "'At' shows position, not movement.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "The train went ___ a long tunnel.",
-      "options": ["along", "across", "through", "over"],
+      "options": [
+        "along",
+        "across",
+        "through",
+        "over"
+      ],
       "answer": 2,
       "explanations": [
         "'Along' means following a line.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Be careful crossing ___ the road.",
-      "options": ["through", "across", "along", "into"],
+      "options": [
+        "through",
+        "across",
+        "along",
+        "into"
+      ],
       "answer": 1,
       "explanations": [
         "'Through' means in one side and out the other of something you go inside.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "We walked ___ the river for an hour.",
-      "options": ["along", "across", "through", "onto"],
+      "options": [
+        "along",
+        "across",
+        "through",
+        "onto"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Following a line takes 'along': 'along the river'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "It's late — let's go ___ .",
-      "options": ["into home", "to home", "at home", "home"],
+      "options": [
+        "into home",
+        "to home",
+        "at home",
+        "home"
+      ],
       "answer": 3,
       "explanations": [
         "'Into home' is incorrect.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "He climbed ___ the wall to get the ball.",
-      "options": ["along", "through", "over", "into"],
+      "options": [
+        "along",
+        "through",
+        "over",
+        "into"
+      ],
       "answer": 2,
       "explanations": [
         "'Along the wall' means following it.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "Which preposition shows entering an enclosed space?",
-      "options": ["along", "to", "across", "into"],
+      "options": [
+        "along",
+        "to",
+        "across",
+        "into"
+      ],
       "answer": 3,
       "explanations": [
         "'Along' means following a line.",
         "'To' shows a destination.",
         "'Across' means from one side to the other.",
         "Correct! 'Into' = movement inside an enclosed space."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "We walked ___ the tunnel and came out the other side.",
-      "hint": "Type one word.",
-      "answers": ["through"],
-      "explanation": "In one side and out the other: 'through'.",
-      "common": [
-        {"answer": "across", "why": "'Across' is for crossing a surface. A tunnel is 'through'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I went to home after school.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I went home after school"],
-      "explanation": "We say 'go home' with no preposition."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "He swam ___ the river to the other side.",
-      "hint": "Type one word.",
-      "answers": ["across"],
-      "explanation": "From one side to the other: 'across'.",
-      "common": [
-        {"answer": "through", "why": "'Through' is for going in one side and out the other. A river is crossed 'across'."}
       ]
     }
   ]

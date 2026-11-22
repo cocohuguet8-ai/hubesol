@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "You ___ book in advance — the restaurant is never full.",
-      "options": ["needn't", "need", "needn't to", "don't need"],
+      "options": [
+        "needn't",
+        "need",
+        "needn't to",
+        "don't need"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Needn't' + base verb = it isn't necessary.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I ___ renew my passport before the trip.",
-      "options": ["needn't to", "needn't", "need", "need to"],
+      "options": [
+        "needn't to",
+        "needn't",
+        "need",
+        "need to"
+      ],
       "answer": 3,
       "explanations": [
         "'Needn't to' is not correct.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I ___ cooked — nobody was hungry and it all went to waste.",
-      "options": ["don't need to", "didn't need to", "needn't have", "needn't"],
+      "options": [
+        "don't need to",
+        "didn't need to",
+        "needn't have",
+        "needn't"
+      ],
       "answer": 2,
       "explanations": [
         "'Don't need to' is present, not past.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "We ___ hurry — the train doesn't leave for an hour.",
-      "options": ["need to", "don't need to", "needn't have", "didn't need to"],
+      "options": [
+        "need to",
+        "don't need to",
+        "needn't have",
+        "didn't need to"
+      ],
       "answer": 1,
       "explanations": [
         "'Need to hurry' means it is necessary.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "In the end I ___ pay, because my friend had already paid.",
-      "options": ["needn't", "needn't have", "don't need to", "didn't need to"],
+      "options": [
+        "needn't",
+        "needn't have",
+        "don't need to",
+        "didn't need to"
+      ],
       "answer": 3,
       "explanations": [
         "'Needn't' is present and missing 'have'.",
@@ -76,7 +101,12 @@
     },
     {
       "question": "Do we ___ bring our own towels?",
-      "options": ["needn't", "need to", "need", "needn't to"],
+      "options": [
+        "needn't",
+        "need to",
+        "need",
+        "needn't to"
+      ],
       "answer": 1,
       "explanations": [
         "'Needn't' isn't used in this 'do' question.",
@@ -131,36 +161,6 @@
         "'Didn't need to' = wasn't necessary (often not done).",
         "'Don't need to' = present, not necessary.",
         "Correct! 'Needn't have + participle' = done unnecessarily."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "You ___ worry. Everything is fine.",
-      "hint": "Type the missing words.",
-      "answers": ["needn't", "don't need to"],
-      "explanation": "'Needn't' = it isn't necessary.",
-      "common": [
-        {"answer": "mustn't", "why": "'Mustn't' means forbidden. Here it's just not necessary."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "You needn't to worry.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["You needn't worry"],
-      "explanation": "'Needn't' is a modal: no 'to'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I took an umbrella but it didn't rain. I ___ have taken it.",
-      "hint": "Type one word.",
-      "answers": ["needn't"],
-      "explanation": "'Needn't have + participle' = you did it, but it wasn't necessary.",
-      "common": [
-        {"answer": "didn't need", "why": "The pattern here is needn't have + participle."}
       ]
     }
   ]

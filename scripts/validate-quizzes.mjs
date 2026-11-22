@@ -95,8 +95,7 @@ for (const file of files) {
   }
 
   // Ítems d'escriure
-  if (wr.length === 0) err(f, "cap ítem d'escriure (type=write) — el quiz és 100% elecció múltiple");
-  else if (wr.length < MIN_WRITE) warn(f, `només ${wr.length} ítems d'escriure (recomanat ${MIN_WRITE})`);
+  if (wr.length) err(f, `ítems type=write (${wr.length}): decisió de la Coco 22/11/2026, el quiz és només elecció múltiple`);
   for (const [it, n] of wr) {
     const w = `ítem #${n} (write)`;
     if (!str(it.kind)) err(f, `${w}: falta kind`);
@@ -111,14 +110,6 @@ for (const file of files) {
     // Pista visible dins l'enunciat que regala la resposta
     if (it.answers.some((a) => norm(it.question).includes(`(${norm(a)})`))) warn(f, `${w}: l'enunciat conté la resposta entre parèntesis`);
   }
-}
-
-// Cada lliçó ha de tenir com a mínim una activitat d'escriure (al quiz o a la pràctica)
-for (const l of lessonList) {
-  if (l.draft || !l.quiz || !quizIds.has(l.quiz)) continue;
-  let hasWrite = false;
-  try { hasWrite = JSON.parse(readFileSync(join(QUIZ_DIR, l.quiz + '.json'), 'utf8')).items.some((it) => it.type === 'write'); } catch {}
-  if (!hasWrite && !practiceSlugs.has(l.slug)) err(l.slug + '.md', "la lliçó no té cap activitat d'escriure (ni al quiz ni a la pràctica)");
 }
 
 console.log(`\n${files.length} quizzes revisats · ${errors} errors · ${warnings} avisos`);

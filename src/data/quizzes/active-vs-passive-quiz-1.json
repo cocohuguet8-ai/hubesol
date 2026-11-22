@@ -69,7 +69,12 @@
     },
     {
       "question": "Best sentence when you DON'T know who did it:",
-      "options": ["Someone stole my bike.", "My bike was stolen.", "My bike is stealing.", "My bike stole."],
+      "options": [
+        "Someone stole my bike.",
+        "My bike was stolen.",
+        "My bike is stealing.",
+        "My bike stole."
+      ],
       "answer": 1,
       "explanations": [
         "'Someone stole' works, but the passive keeps the focus on the bike.",
@@ -157,34 +162,6 @@
         "Hiding the doer is a reason to use the passive.",
         "Correct! The active is the clear, direct default that names the doer."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "A thief stole my bike. → My bike ___ by a thief. (steal)",
-      "hint": "Use the verb in brackets in the passive.",
-      "answers": ["was stolen"],
-      "explanation": "Past simple passive: was + past participle.",
-      "common": [
-        {"answer": "stolen", "why": "The passive needs 'be' too: was stolen."},
-        {"answer": "was stole", "why": "The passive needs the past participle: stolen."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "The cake ate by the boy.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["The cake was eaten by the boy"],
-      "explanation": "The passive is be + past participle: was eaten."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "The results ___ next week. (publish)",
-      "hint": "Use will + passive.",
-      "answers": ["will be published"],
-      "explanation": "Future passive: will be + past participle."
     }
   ]
 }

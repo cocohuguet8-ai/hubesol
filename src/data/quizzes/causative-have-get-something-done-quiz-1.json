@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I don't repair cars myself. I ___ .",
-      "options": ["repair my car", "have repaired my car", "have my car repair", "have my car repaired"],
+      "options": [
+        "repair my car",
+        "have repaired my car",
+        "have my car repair",
+        "have my car repaired"
+      ],
       "answer": 3,
       "explanations": [
         "'Repair my car' means you do it yourself.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "She ___ last week — it looks great and short now.",
-      "options": ["cut her hair", "had her hair cut", "had cut her hair", "has her hair cut"],
+      "options": [
+        "cut her hair",
+        "had her hair cut",
+        "had cut her hair",
+        "has her hair cut"
+      ],
       "answer": 1,
       "explanations": [
         "'Cut her hair' means she did it herself.",
@@ -43,7 +53,12 @@
     },
     {
       "question": "Choose the informal version of 'I had my phone fixed.'",
-      "options": ["I got my phone fixed.", "I get fix my phone.", "I had fixed my phone.", "I fixed my phone."],
+      "options": [
+        "I got my phone fixed.",
+        "I get fix my phone.",
+        "I had fixed my phone.",
+        "I fixed my phone."
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Get' is the informal equivalent: 'I got my phone fixed'.",
@@ -54,7 +69,12 @@
     },
     {
       "question": "They ___ at the airport — someone took it from the carousel.",
-      "options": ["had their bag stolen", "stole their bag", "had stolen their bag", "have their bag steal"],
+      "options": [
+        "had their bag stolen",
+        "stole their bag",
+        "had stolen their bag",
+        "have their bag steal"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Something happened to them: 'had their bag stolen'.",
@@ -113,7 +133,12 @@
     },
     {
       "question": "Put the tense correctly: 'She ___ her eyes tested every year.'",
-      "options": ["have", "having", "had been", "has"],
+      "options": [
+        "have",
+        "having",
+        "had been",
+        "has"
+      ],
       "answer": 3,
       "explanations": [
         "'Have' doesn’t agree with ‘she’: she has.",
@@ -137,33 +162,6 @@
         "Correct! 'I painted the fence' — you did it.",
         "'Having the fence painted' means someone is doing it for you."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I had my car ___ yesterday. (repair)",
-      "hint": "Type the correct form of the verb.",
-      "answers": ["repaired"],
-      "explanation": "Have + object + past participle: had my car repaired.",
-      "common": [
-        {"answer": "repair", "why": "After the object we need the past participle: repaired."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I had repaired my car yesterday. (A mechanic did it.)",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I had my car repaired yesterday"],
-      "explanation": "Object first, then the past participle: had my car repaired."
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "A hairdresser cut my hair yesterday. → I ___ my hair cut yesterday.",
-      "hint": "Type one word.",
-      "answers": ["had", "got"],
-      "explanation": "Have/get + object + past participle: I had (or got) my hair cut."
     }
   ]
 }

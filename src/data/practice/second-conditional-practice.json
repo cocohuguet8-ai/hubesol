@@ -1548,19 +1548,26 @@
       },
       {
         "tokens": [
-          "If",
           "I",
-          "studyed",
-          "more,",
-          "I’d",
-          "get",
-          "better",
-          "marks."
+          "don’t",
+          "have",
+          "a",
+          "car,",
+          "but",
+          "if",
+          "I",
+          "had",
+          "one,",
+          "I",
+          "will",
+          "drive",
+          "to",
+          "work."
         ],
-        "errorIndex": 2,
-        "correction": "studied",
-        "type": "Spelling",
-        "message": "Consonant + -y → -ied: study → studied."
+        "errorIndex": 11,
+        "correction": "would",
+        "type": "Wrong modal",
+        "message": "An imaginary situation (‘if I had’) takes ‘would’: ‘I would drive’."
       },
       {
         "tokens": [

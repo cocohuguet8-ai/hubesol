@@ -162,48 +162,6 @@
         "This order is mixed up.",
         "'in' is broader than 'on', so this is wrong."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "TIME: My birthday is ___ March.",
-      "hint": "Type in, on or at.",
-      "answers": [
-        "in"
-      ],
-      "explanation": "Months take 'in': in March.",
-      "common": [
-        {
-          "answer": "on",
-          "why": "'On' is for days and dates. Months take 'in'."
-        }
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "PLACE: The picture is in the wall.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": [
-        "The picture is on the wall"
-      ],
-      "explanation": "A surface takes 'on': on the wall."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "PLACE: My sister is waiting ___ the bus stop now.",
-      "hint": "Type in, on or at.",
-      "answers": [
-        "at"
-      ],
-      "explanation": "A point where people wait, so 'at'.",
-      "common": [
-        {
-          "answer": "in",
-          "why": "'In' would mean inside it. A bus stop is a point where people wait: 'at the bus stop'."
-        }
-      ]
     }
   ]
 }

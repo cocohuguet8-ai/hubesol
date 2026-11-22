@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I bought new shoes at the ___ .",
-      "options": ["shoes shop", "shoe shop", "shoe's shop", "shoes' shop"],
+      "options": [
+        "shoes shop",
+        "shoe shop",
+        "shoe's shop",
+        "shoes' shop"
+      ],
       "answer": 1,
       "explanations": [
         "'Shoes shop' wrongly makes the first noun plural.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "There are three ___ on this street.",
-      "options": ["bus's stops", "buses stops", "bus stop", "bus stops"],
+      "options": [
+        "bus's stops",
+        "buses stops",
+        "bus stop",
+        "bus stops"
+      ],
       "answer": 3,
       "explanations": [
         "'Bus's stops' adds an incorrect apostrophe.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "It's only a ___ walk from here.",
-      "options": ["five minute's", "five-minutes", "five-minute", "five minutes"],
+      "options": [
+        "five minute's",
+        "five-minutes",
+        "five-minute",
+        "five minutes"
+      ],
       "answer": 2,
       "explanations": [
         "'Five minute's' adds an incorrect apostrophe.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Both my ___ came to the wedding.",
-      "options": ["mothers-in-law", "mother-in-laws", "mothers-in-laws", "mother-in-law's"],
+      "options": [
+        "mothers-in-law",
+        "mother-in-laws",
+        "mothers-in-laws",
+        "mother-in-law's"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! The main noun 'mother' takes the plural: 'mothers-in-law'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Can you pass me a ___ ?",
-      "options": ["coffee's cup", "coffees cup", "coffee cup", "cup coffee"],
+      "options": [
+        "coffee's cup",
+        "coffees cup",
+        "coffee cup",
+        "cup coffee"
+      ],
       "answer": 2,
       "explanations": [
         "'Coffee's cup' adds an incorrect apostrophe.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "We stayed in a hotel with two ___ .",
-      "options": ["swimming pool's", "swim pools", "swimming pool", "swimming pools"],
+      "options": [
+        "swimming pool's",
+        "swim pools",
+        "swimming pool",
+        "swimming pools"
+      ],
       "answer": 3,
       "explanations": [
         "'Swimming pool's' adds an incorrect apostrophe.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "She's a ___ girl.",
-      "options": ["ten-years-old", "ten-year-old", "ten year olds", "ten years old"],
+      "options": [
+        "ten-years-old",
+        "ten-year-old",
+        "ten year olds",
+        "ten years old"
+      ],
       "answer": 1,
       "explanations": [
         "'Ten-years-old' wrongly keeps the plural.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "Put your dirty clothes in the ___ .",
-      "options": ["washing machine", "wash machine", "washed machine", "machine washing"],
+      "options": [
+        "washing machine",
+        "wash machine",
+        "washed machine",
+        "machine washing"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Compound noun, first part singular: 'washing machine'.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "In a compound noun, which part is normally made plural?",
-      "options": ["Both words.", "Only the first word.", "Only the last word.", "Neither word."],
+      "options": [
+        "Both words.",
+        "Only the first word.",
+        "Only the last word.",
+        "Neither word."
+      ],
       "answer": 2,
       "explanations": [
         "You don't pluralise both.",
         "The first noun stays singular.",
         "Correct! Only the final element takes the plural (bus stops).",
         "Plurals do change the last word."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "It's only a ten-___ walk from here.",
-      "hint": "Use the word 'minute'.",
-      "answers": ["minute"],
-      "explanation": "In a compound like this the noun stays singular: a ten-minute walk.",
-      "common": [
-        {"answer": "minutes", "why": "The first part of a compound stays singular: a ten-minute walk."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She works in a shoes shop.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["She works in a shoe shop"],
-      "explanation": "The first noun in a compound stays singular: a shoe shop."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "She has two ___.",
-      "hint": "Write the plural of 'mother-in-law'.",
-      "answers": ["mothers-in-law"],
-      "explanation": "Only the main noun takes the plural: mothers-in-law.",
-      "common": [
-        {"answer": "mother-in-laws", "why": "We pluralise the main noun, not the end: mothers-in-law."}
       ]
     }
   ]

@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Your keys are ___ the kitchen table.",
-      "options": ["on", "in", "at", "—"],
+      "options": [
+        "on",
+        "in",
+        "at",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A surface takes 'on': 'on the table'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "There's some milk ___ the fridge.",
-      "options": ["on", "in", "at", "—"],
+      "options": [
+        "on",
+        "in",
+        "at",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'On the fridge' means on top of it.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I'll meet you ___ the bus stop.",
-      "options": ["—", "on", "in", "at"],
+      "options": [
+        "—",
+        "on",
+        "in",
+        "at"
+      ],
       "answer": 3,
       "explanations": [
         "A meeting point needs 'at'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "She's not here — she's ___ work.",
-      "options": ["on", "in", "at", "—"],
+      "options": [
+        "on",
+        "in",
+        "at",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'On work' is not correct.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "We were ___ the bus when it broke down.",
-      "options": ["—", "in", "at", "on"],
+      "options": [
+        "—",
+        "in",
+        "at",
+        "on"
+      ],
       "answer": 3,
       "explanations": [
         "A bus takes 'on'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "They live ___ Spain.",
-      "options": ["in", "on", "at", "—"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Countries and areas take 'in': 'in Spain'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Get ___ the car — we're late!",
-      "options": ["on", "in", "at", "—"],
+      "options": [
+        "on",
+        "in",
+        "at",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'On the car' means on top of it.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "The picture is ___ the wall.",
-      "options": ["at", "in", "on", "—"],
+      "options": [
+        "at",
+        "in",
+        "on",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'At the wall' is not natural here.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "Which shape does 'on' describe?",
-      "options": ["A surface or a line.", "An enclosed space.", "A single point only.", "A country or city."],
+      "options": [
+        "A surface or a line.",
+        "An enclosed space.",
+        "A single point only.",
+        "A country or city."
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'On' describes a surface or line (on the table, on the left).",
         "Enclosed spaces take 'in'.",
         "A single point takes 'at'.",
         "Countries and cities take 'in'."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "He's still ___ bed.",
-      "hint": "Type at, on or in.",
-      "answers": ["in"],
-      "explanation": "Fixed phrase: in bed.",
-      "common": [
-        {"answer": "on", "why": "The fixed phrase is 'in bed'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I'm in home now.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I'm at home now"],
-      "explanation": "The fixed phrase is 'at home'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "We came to the city ___ the train.",
-      "hint": "Type at, on or in.",
-      "answers": ["on"],
-      "explanation": "We say 'on the train' (and on the bus).",
-      "common": [
-        {"answer": "in", "why": "With trains and buses we say 'on'."}
       ]
     }
   ]

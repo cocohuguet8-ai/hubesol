@@ -6,12 +6,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | G1 | Fill in the gaps | If I ___ more free time these days, I’d learn Italian. | had | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G2 | Fill in the gaps | If I ___ more time last summer, I’d have learnt Italian. | had had / ’d had / 'd had / d had | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G3 | Fill in the gaps | If she lived closer, she ___ us more often. | would visit / ’d visit / 'd visit / d visit / could visit / might visit | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G4 | Fill in the gaps | If she had lived closer then, she ___ us more. | would have visited / ’d have visited / 'd have visited / d have visited / could have visited / might have visited | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G3 | Fill in the gaps | If she lived closer, she ___ us more often. | would visit / ’d visit / 'd visit / d visit / could visit / might visit | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G4 | Fill in the gaps | If she had lived closer then, she ___ us more. | would have visited / ’d have visited / 'd have visited / d have visited / could have visited / might have visited | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G5 | Fill in the gaps | If it ___ sunny today, we’d go to the beach. | were / was | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G6 | Fill in the gaps | If it ___ sunny yesterday, we’d have gone to the beach. | had been / ’d been / 'd been / d been | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G7 | Fill in the gaps | If I knew the answer, I ___ you. | would tell / ’d tell / 'd tell / d tell / could tell / might tell | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G8 | Fill in the gaps | If I had known the answer, I ___ you. | would have told / ’d have told / 'd have told / d have told / could have told / might have told | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G7 | Fill in the gaps | If I knew the answer, I ___ you. | would tell / ’d tell / 'd tell / d tell / could tell / might tell | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G8 | Fill in the gaps | If I had known the answer, I ___ you. | would have told / ’d have told / 'd have told / d have told / could have told / might have told | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G9 | Fill in the gaps | If we ___ the match next Saturday, we’d go to the final. | won | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G10 | Fill in the gaps | If we ___ last Saturday, we’d have gone to the final. | had won / ’d won / 'd won / d won | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G11 | Fill in the gaps | If my phone ___ , I’d call you right now. | worked | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -75,18 +75,18 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | T9 | Beat the clock | What __________________ if you could speak to animals? | would you do | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T10 | Beat the clock | What __________________ if you had missed the last bus? | would you have done | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T11 | Beat the clock | Which sentence is correct? | If I had known, I would have helped. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| T12 | Beat the clock | Which sentence is correct? (You don’t live by the sea now.) | If I lived by the sea, I’d swim every day. | ✓ | ✓ | ✓ | ✓ | ✎ | ✓ | — | — |
-| T13 | Beat the clock | If you had told me earlier, I __________________ the tickets. | could have bought | ✓ | ✓ | ✓ | ✓ | ✎ | ✓ | — | — |
-| T14 | Beat the clock | If he __________________ so much, he’d have more money. | didn’t spend | ✓ | ✓ | ✓ | ✓ | ✎ | ✓ | — | — |
+| T12 | Beat the clock | Which sentence is correct? (You don’t live by the sea now.) | If I lived by the sea, I’d swim every day. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+| T13 | Beat the clock | If you had told me earlier, I __________________ the tickets. | could have bought | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+| T14 | Beat the clock | If he __________________ so much, he’d have more money. | didn’t spend | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T15 | Beat the clock | If we __________________ a map, we wouldn’t have got lost. | had taken | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T16 | Beat the clock | If I were taller, I __________________ basketball. | would play | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| T17 | Beat the clock | If the alarm had rung (I was late this morning), I __________________ late. | wouldn’t have been | ✎ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+| T17 | Beat the clock | If the alarm had rung (I was late this morning), I __________________ late. | wouldn’t have been | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T18 | Beat the clock | If I had more time __________________, I’d read more books. | these days | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T19 | Beat the clock | If you had come __________________, you’d have met my cousin. | yesterday | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | T20 | Beat the clock | If they __________________ harder, they would have won the cup. | had played | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | E1 | Find the mistake | If I lived near the beach, I will swim every day. | If I lived near the beach, I would swim every day. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E2 | Find the mistake | If I knew about the party last week, I would have gone. | If I had known about the party last week, I would have gone. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E3 | Find the mistake | If I had seen him yesterday, I would told him. | If I had seen him yesterday, I would have told him. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
+| E3 | Find the mistake | If I had seen him yesterday, I would told him. | If I had seen him yesterday, I would have told him. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E4 | Find the mistake | If it were sunny today, we will go out. | If it were sunny today, we would go out. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E5 | Find the mistake | If I would have known, I’d have come. | If I had known, I’d have come. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E6 | Find the mistake | If she would be here, she’d help. | If she were here, she’d help. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
@@ -95,15 +95,15 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E9 | Find the mistake | If I were rich, I would bought a castle. | If I were rich, I would buy a castle. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E10 | Find the mistake | If he had more time, he would learnt the piano. | If he had more time, he would learn the piano. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E11 | Find the mistake | If I had studied tomorrow, I would have passed. | If I had studied yesterday, I would have passed. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E12 | Find the mistake | If it snowed tomorrow, the school will close. | If it snowed tomorrow, the school would close. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
+| E12 | Find the mistake | If it snowed tomorrow, the school will close. | If it snowed tomorrow, the school would close. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E13 | Find the mistake | If he didn’t fall last week, he would have won. | If he hadn’t fallen last week, he would have won. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E14 | Find the mistake | If I had known, I won’t have worried. | If I had known, I wouldn’t have worried. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E15 | Find the mistake | If I had had a car, I can have driven you. | If I had had a car, I could have driven you. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E16 | Find the mistake | If I had been you, I’d have call him yesterday. | If I had been you, I’d have called him yesterday. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
+| E16 | Find the mistake | If I had been you, I’d have call him yesterday. | If I had been you, I’d have called him yesterday. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E17 | Find the mistake | What would you done if you had won? | What would you have done if you had won? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | If you could fly, where would you have go? | If you could fly, where would you go? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E19 | Find the mistake | If you’d come, you would of loved it. | If you’d come, you would have loved it. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | If we had planned it, we would have enjoied it more. | If we had planned it, we would have enjoyed it more. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E20 | Find the mistake | If we had planned it better, we would have enjoy it more. | If we had planned it better, we would have enjoyed it more. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | If I ___ German, I’d work in Berlin. | spoke | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | If I ___ German, I’d have got that job last year. | had spoken / ’d spoken / 'd spoken / d spoken | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L3 | Level check | If we had a garden, we ___ vegetables. | would grow / ’d grow / 'd grow / d grow / could grow / might grow | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -126,14 +126,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | L20 | Level check | If she had tried, she would have winned. | If she had tried, she would have won. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | Q1 | Quiz | If I ___ Japanese, I'd apply for the job now. | spoke | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q2 | Quiz | If I ___ Japanese, I would have got that job last year. | had spoken | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q3 | Quiz | If she had left earlier, she ___ the train. | would have caught | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+| Q3 | Quiz | If she had left earlier, she ___ the train. (She missed it.) | would have caught | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q4 | Quiz | If I had a bigger flat, I ___ a dog. | would get | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q5 | Quiz | Which sentence is about the PAST? | If I had trained harder, I would have won. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q6 | Quiz | If I ___ about the meeting, I would have come yesterday. | had known | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q7 | Quiz | If we ___ more money, we'd buy a house these days. | had | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q8 | Quiz | Choose the correct version of: 'If I knew, I would have told you.' | If I had known, I would have told you. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+| Q8 | Quiz | Choose the correct version of: 'If I knew about it yesterday, I would have told you.' | If I had known about it yesterday, I would have told you. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | If he weren't so rude, people ___ him more. (in general, now) | would like | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | Choose the past version of: 'If I were rich, I'd help.' | If I had been rich, I would have helped. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | If I ___ the answer, I would tell you. (know) | knew | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | If I knew about the accident, I would have helped. | If I had known about the accident, I would have helped / If I had known about the accident, I'd have helped | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | He didn't study, so he failed. → If he ___ studied, he wouldn't have failed. | had | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |

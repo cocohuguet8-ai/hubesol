@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Make it passive (person first): 'They gave me a medal.'",
-      "options": ["I was given a medal.", "A medal was given me.", "I was gave a medal.", "Me was given a medal."],
+      "options": [
+        "I was given a medal.",
+        "A medal was given me.",
+        "I was gave a medal.",
+        "Me was given a medal."
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Person as subject: 'I was given a medal'.",
@@ -32,7 +37,12 @@
     },
     {
       "question": "'The company offered him a job.' → (natural passive)",
-      "options": ["Him was offered a job.", "A job was offered him.", "He was offer a job.", "He was offered a job."],
+      "options": [
+        "Him was offered a job.",
+        "A job was offered him.",
+        "He was offer a job.",
+        "He was offered a job."
+      ],
       "answer": 3,
       "explanations": [
         "'Him' can't be the subject.",
@@ -59,7 +69,12 @@
     },
     {
       "question": "Add the missing word: 'A letter was sent ___ every customer.'",
-      "options": ["at", "for", "to", "by"],
+      "options": [
+        "at",
+        "for",
+        "to",
+        "by"
+      ],
       "answer": 2,
       "explanations": [
         "'At' is not correct.",
@@ -134,43 +149,18 @@
     },
     {
       "question": "Which verb does NOT normally take two objects?",
-      "options": ["send", "give", "arrive", "offer"],
+      "options": [
+        "send",
+        "give",
+        "arrive",
+        "offer"
+      ],
       "answer": 2,
       "explanations": [
         "'Send' takes two objects (send someone something).",
         "'Give' takes two objects (give someone something).",
         "Correct! 'Arrive' has no object at all, so no two-object passive.",
         "'Offer' takes two objects (offer someone something)."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "The teacher showed the students a video. → The students ___ a video.",
-      "hint": "Type the passive verb.",
-      "answers": ["were shown"],
-      "explanation": "The person becomes the subject: The students were shown a video.",
-      "common": [
-        {"answer": "were showed", "why": "The past participle of 'show' is 'shown'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I was given me a book.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I was given a book"],
-      "explanation": "'I' is already the subject, so don't repeat 'me'."
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "They sent her a parcel. → A parcel ___ her.",
-      "hint": "Type the missing words.",
-      "answers": ["was sent to"],
-      "explanation": "Thing first needs 'to': A parcel was sent to her.",
-      "common": [
-        {"answer": "was sent", "why": "With the thing first, we need 'to' before the person."}
       ]
     }
   ]

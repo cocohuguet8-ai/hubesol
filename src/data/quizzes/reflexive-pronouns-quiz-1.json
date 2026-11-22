@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Be careful with the knife — you might cut ___ .",
-      "options": ["you", "yourself", "yourselves", "yours"],
+      "options": [
+        "you",
+        "yourself",
+        "yourselves",
+        "yours"
+      ],
       "answer": 1,
       "explanations": [
         "'You' isn't reflexive.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "The children really enjoyed ___ at the party.",
-      "options": ["theirs", "themself", "them", "themselves"],
+      "options": [
+        "theirs",
+        "themself",
+        "them",
+        "themselves"
+      ],
       "answer": 3,
       "explanations": [
         "'Theirs' is possessive.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I don't need help — I'll do it ___ .",
-      "options": ["mine", "me", "myself", "himself"],
+      "options": [
+        "mine",
+        "me",
+        "myself",
+        "himself"
+      ],
       "answer": 2,
       "explanations": [
         "'Mine' is possessive.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "She taught ___ to play the guitar.",
-      "options": ["herself", "her", "hers", "himself"],
+      "options": [
+        "herself",
+        "her",
+        "hers",
+        "himself"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Subject = object: 'taught herself'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "He lives ___ himself in the countryside. (alone)",
-      "options": ["with", "by", "for", "on"],
+      "options": [
+        "with",
+        "by",
+        "for",
+        "on"
+      ],
       "answer": 1,
       "explanations": [
         "'With himself' doesn't mean alone.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "Please help ___ to some cake. (to one guest)",
-      "options": ["yourself", "yourselves", "you", "yours"],
+      "options": [
+        "yourself",
+        "yourselves",
+        "you",
+        "yours"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! One guest: 'help yourself'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "The manager ___ came to apologise. (emphasis)",
-      "options": ["themselves", "her", "hers", "herself"],
+      "options": [
+        "themselves",
+        "her",
+        "hers",
+        "herself"
+      ],
       "answer": 3,
       "explanations": [
         "'Themselves' is plural and the wrong person.",
@@ -127,33 +162,6 @@
         "Possessives (my, mine) show possession.",
         "Reflexives are used in all sentence types, not just questions."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "She taught ___ to play the guitar.",
-      "hint": "Type a reflexive pronoun.",
-      "answers": ["herself"],
-      "explanation": "Subject and object are the same person, so 'herself'.",
-      "common": [
-        {"answer": "her", "why": "When the subject and object are the same person we use 'herself', not 'her'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I feel myself tired today.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I feel tired today"],
-      "explanation": "After 'feel' we don't use a reflexive pronoun."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I don't need help. I'll do it by ___.",
-      "hint": "Type a reflexive pronoun.",
-      "answers": ["myself"],
-      "explanation": "'By myself' means alone, without help."
     }
   ]
 }

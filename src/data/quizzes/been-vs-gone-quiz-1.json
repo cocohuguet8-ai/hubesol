@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "\"Where were you?\" \"I've ___ to the shops. Look, I bought bread.\"",
-      "options": ["went", "gone", "been", "being"],
+      "options": [
+        "went",
+        "gone",
+        "been",
+        "being"
+      ],
       "answer": 2,
       "explanations": [
         "'Went' isn't used after 'have'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "\"Where's Dad?\" \"He's ___ to the garage — he'll be back soon.\"",
-      "options": ["been", "gone", "went", "being"],
+      "options": [
+        "been",
+        "gone",
+        "went",
+        "being"
+      ],
       "answer": 1,
       "explanations": [
         "'Been' would mean he's back.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I've ___ to Japan twice in my life.",
-      "options": ["being", "gone", "went", "been"],
+      "options": [
+        "being",
+        "gone",
+        "went",
+        "been"
+      ],
       "answer": 3,
       "explanations": [
         "'Being' is not correct here.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "She's not here — she's ___ to a meeting.",
-      "options": ["gone", "been", "went", "being"],
+      "options": [
+        "gone",
+        "been",
+        "went",
+        "being"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! She's still away, so 'gone'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "\"You look tired.\" \"Yes, I've just ___ to the gym.\"",
-      "options": ["been", "gone", "went", "being"],
+      "options": [
+        "been",
+        "gone",
+        "went",
+        "being"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! You're back and telling them, so 'been'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "They've ___ on holiday and won't be back until Sunday.",
-      "options": ["went", "been", "gone", "being"],
+      "options": [
+        "went",
+        "been",
+        "gone",
+        "being"
+      ],
       "answer": 2,
       "explanations": [
         "'Went' isn't used after 'have'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Have you ever ___ to a live concert?",
-      "options": ["being", "gone", "went", "been"],
+      "options": [
+        "being",
+        "gone",
+        "went",
+        "been"
+      ],
       "answer": 3,
       "explanations": [
         "'Being' is not correct here.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "The kids aren't home — they've ___ to school.",
-      "options": ["been", "gone", "went", "being"],
+      "options": [
+        "been",
+        "gone",
+        "went",
+        "being"
+      ],
       "answer": 1,
       "explanations": [
         "'Been' would mean they're back.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "'Has gone to' tells you the person is…",
-      "options": ["still away.", "back home.", "someone with experience of a place.", "about to leave."],
+      "options": [
+        "still away.",
+        "back home.",
+        "someone with experience of a place.",
+        "about to leave."
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Has gone to' = went and is still away.",
         "'Back home' would be 'has been to'.",
         "Experience uses 'has been to'.",
         "It means they've already left and are away."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "'Where's Ana?' — 'She's ___ to the bank. She'll be back soon.'",
-      "hint": "Type one word.",
-      "answers": ["gone"],
-      "explanation": "'Gone' = went and is still away.",
-      "common": [
-        {"answer": "been", "why": "'Been' means she has come back. She's still away, so 'gone'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "How was your trip? — I've gone to Spain.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["How was your trip? I've been to Spain", "How was your trip? — I've been to Spain"],
-      "explanation": "The person has come back, so 'been'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I've ___ to Paris three times. (experience)",
-      "hint": "Type one word.",
-      "answers": ["been"],
-      "explanation": "Experience = been.",
-      "common": [
-        {"answer": "gone", "why": "'Gone' would mean you are still in Paris."}
       ]
     }
   ]

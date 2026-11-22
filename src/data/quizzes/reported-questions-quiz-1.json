@@ -160,47 +160,6 @@
         "This wrongly adds a question mark.",
         "Correct! Statement order, backshift, no question mark: 'She asked when the film started'."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "\"Where does she work?\" → He asked where she ___. (work)",
-      "hint": "Type one word.",
-      "answers": [
-        "worked"
-      ],
-      "explanation": "Reported questions backshift: does work → worked.",
-      "common": [
-        {
-          "answer": "works",
-          "why": "After a past reporting verb the tense moves back: 'worked'."
-        },
-        {
-          "answer": "did work",
-          "why": "Reported questions don't use do/does/did: 'worked'."
-        }
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "He asked what was my name.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": [
-        "He asked what my name was"
-      ],
-      "explanation": "Reported questions use statement word order: what my name was."
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "\"Are you hungry?\" she asked me. → She asked me ___ I was hungry.",
-      "hint": "Type one word.",
-      "answers": [
-        "if",
-        "whether"
-      ],
-      "explanation": "Yes/no questions are reported with 'if' or 'whether'."
     }
   ]
 }
