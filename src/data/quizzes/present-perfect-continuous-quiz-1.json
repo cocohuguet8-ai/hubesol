@@ -4,7 +4,7 @@
   "level": "B1",
   "items": [
     {
-      "question": "I’m exhausted because I ___ all day.",
+      "question": "I’m exhausted because I ___ since six o’clock this morning.",
       "options": [
         "have been working",
         "worked",
@@ -14,9 +14,9 @@
       "answer": 0,
       "explanations": [
         "Correct! A recent activity explaining a result now takes the present perfect continuous: ‘have been working’.",
-        "‘Worked’ (past simple) needs a finished time and doesn’t link the activity to now.",
-        "‘Work’ is present simple (a habit), not this ongoing activity.",
-        "‘Am working’ is present continuous (only now), but this has been going on all day up to now."
+        "‘Worked’ (past simple) doesn’t link the activity to now; ‘since six this morning’ needs the present perfect.",
+        "‘Work’ is present simple (a habit); ‘since’ needs a tense that links the past to now.",
+        "‘Am working’ is present continuous (only now); ‘since six this morning’ needs the present perfect continuous."
       ]
     },
     {
@@ -39,14 +39,14 @@
       "question": "Your hands are filthy! What ___ you ___?",
       "options": [
         "are / doing",
-        "did / do",
+        "have / doing",
         "have / been doing",
         "have / done"
       ],
       "answer": 2,
       "explanations": [
         "‘Are you doing’ is only about this moment, not the recent activity.",
-        "‘Did you do’ asks about a finished time, not the recent activity behind the dirty hands.",
+        "Missing ‘been’: the continuous needs have/has BEEN + -ing (‘What have you been doing?’).",
         "Correct! A recent activity with a visible result now takes the continuous: ‘have you been doing’.",
         "‘Have you done’ focuses on a completed result, not the ongoing activity."
       ]
@@ -54,15 +54,15 @@
     {
       "question": "I ___ three cups of coffee today.",
       "options": [
-        "‘ve been drinking",
-        "drank",
+        "’ve been drinking",
+        "was drinking",
         "drink",
-        "‘ve drunk"
+        "’ve drunk"
       ],
       "answer": 3,
       "explanations": [
         "‘Been drinking’ describes the activity, but ‘three cups’ is a finished quantity.",
-        "‘Drank’ needs a finished time; ‘today’ isn’t finished, so use the present perfect.",
+        "‘Was drinking’ is past continuous; ‘three cups’ is a completed quantity linked to today.",
         "‘Drink’ is present simple (a habit), not this count up to now.",
         "Correct! For a completed quantity (three cups), use the present perfect simple: ‘have drunk’."
       ]
@@ -70,9 +70,9 @@
     {
       "question": "We ___ each other since university.",
       "options": [
-        "‘ve been knowing",
+        "’ve been knowing",
         "know",
-        "‘ve known",
+        "’ve known",
         "knew"
       ],
       "answer": 2,
@@ -86,17 +86,17 @@
     {
       "question": "He ___ five kilometres today — that’s why he’s tired.",
       "options": [
-        "‘s run",
-        "‘s been running",
+        "’s run",
+        "’s been running",
         "runs",
-        "ran"
+        "’s running"
       ],
       "answer": 0,
       "explanations": [
         "Correct! A completed quantity (five km) takes the present perfect simple: ‘has run’.",
         "‘Been running’ describes the activity, but ‘five kilometres’ is a finished amount.",
         "‘Runs’ is present simple (a habit), not this count up to now.",
-        "‘Ran’ needs a finished time; ‘today’ isn’t finished, so use the present perfect."
+        "‘Is running’ is about now; the five kilometres are a completed distance."
       ]
     },
     {
@@ -151,14 +151,14 @@
       "question": "The ground is wet — it ___.",
       "options": [
         "rains",
-        "rained",
+        "have been raining",
         "has been raining",
         "is raining"
       ],
       "answer": 2,
       "explanations": [
         "‘Rains’ is present simple (a general fact), not this recent activity.",
-        "‘Rained’ needs a finished time and doesn’t link the result to now.",
+        "Subject-verb agreement: ‘it’ takes ‘has’, not ‘have’.",
         "Correct! A recent activity explaining the result now (wet ground) takes the continuous: ‘has been raining’.",
         "‘Is raining’ would mean it’s raining right now, but the ground being wet suggests it has recently stopped."
       ]
@@ -198,13 +198,13 @@
     {
       "type": "write",
       "kind": "Correct the mistake",
-      "question": "I’ve been writing two essays this week.",
+      "question": "I’ve been eating three sandwiches today.",
       "hint": "Type the whole corrected sentence.",
       "answers": [
-        "I've written two essays this week",
-        "Ive written two essays this week",
-        "I’ve written two essays this week",
-        "I have written two essays this week"
+        "I've eaten three sandwiches today",
+        "I’ve eaten three sandwiches today",
+        "Ive eaten three sandwiches today",
+        "I have eaten three sandwiches today"
       ],
       "explanation": "A quantity uses the present perfect simple."
     }

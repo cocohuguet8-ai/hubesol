@@ -113,7 +113,7 @@
           "cannot"
         ],
         "display": "can’t",
-        "explain": "Sure it’s not true: can’t, never mustn’t."
+        "explain": "Sure it’s not true: ‘can’t be’ (not ‘mustn’t’)."
       },
       {
         "use": "Fill the gap",
@@ -149,7 +149,8 @@
         "hint": "must / might / can’t",
         "answers": [
           "might",
-          "may"
+          "may",
+          "could"
         ],
         "display": "might",
         "explain": "It’s only possible: might + base verb."
@@ -218,7 +219,9 @@
         "after": "driving.",
         "hint": "might be / must",
         "answers": [
-          "might be"
+          "might be",
+          "may be",
+          "could be"
         ],
         "display": "might be",
         "explain": "Perhaps in progress now: might be + -ing."
@@ -243,7 +246,11 @@
           "couldn’t",
           "couldn't",
           "couldnt",
-          "could not"
+          "could not",
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
         ],
         "display": "couldn’t",
         "explain": "‘Couldn’t’ is a softer ‘can’t’ for negative deduction."
@@ -266,7 +273,7 @@
     "subtitle": "Tap the words to build each sentence — 20 deductions with must, might and can’t.",
     "sentences": [
       {
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "She",
           "must",
@@ -276,7 +283,7 @@
         ]
       },
       {
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "You",
           "must",
@@ -286,7 +293,7 @@
         ]
       },
       {
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "He",
           "must",
@@ -295,7 +302,7 @@
         ]
       },
       {
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "They",
           "must",
@@ -305,7 +312,7 @@
         ]
       },
       {
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "That",
           "must",
@@ -316,7 +323,7 @@
         ]
       },
       {
-        "use": "Can’t",
+        "use": "Deduction",
         "tokens": [
           "It",
           "can’t",
@@ -325,7 +332,7 @@
         ]
       },
       {
-        "use": "Can’t",
+        "use": "Deduction",
         "tokens": [
           "You",
           "can’t",
@@ -334,7 +341,7 @@
         ]
       },
       {
-        "use": "Can’t",
+        "use": "Deduction",
         "tokens": [
           "She",
           "can’t",
@@ -344,7 +351,7 @@
         ]
       },
       {
-        "use": "Can’t",
+        "use": "Deduction",
         "tokens": [
           "That",
           "can’t",
@@ -354,7 +361,7 @@
         ]
       },
       {
-        "use": "Can’t",
+        "use": "Deduction",
         "tokens": [
           "He",
           "can’t",
@@ -365,7 +372,7 @@
         ]
       },
       {
-        "use": "Might",
+        "use": "Deduction",
         "tokens": [
           "She",
           "might",
@@ -376,7 +383,7 @@
         ]
       },
       {
-        "use": "Might",
+        "use": "Deduction",
         "tokens": [
           "It",
           "could",
@@ -386,7 +393,7 @@
         ]
       },
       {
-        "use": "Might",
+        "use": "Deduction",
         "tokens": [
           "They",
           "may",
@@ -395,7 +402,7 @@
         ]
       },
       {
-        "use": "Might not",
+        "use": "Deduction",
         "tokens": [
           "He",
           "might",
@@ -404,7 +411,7 @@
         ]
       },
       {
-        "use": "Continuous",
+        "use": "Deduction",
         "tokens": [
           "Someone",
           "must",
@@ -413,7 +420,7 @@
         ]
       },
       {
-        "use": "Continuous",
+        "use": "Deduction",
         "tokens": [
           "She",
           "might",
@@ -422,7 +429,7 @@
         ]
       },
       {
-        "use": "Continuous",
+        "use": "Deduction",
         "tokens": [
           "They",
           "can’t",
@@ -432,7 +439,7 @@
         ]
       },
       {
-        "use": "Continuous",
+        "use": "Deduction",
         "tokens": [
           "He",
           "could",
@@ -442,7 +449,7 @@
         ]
       },
       {
-        "use": "Couldn’t",
+        "use": "Deduction",
         "tokens": [
           "It",
           "couldn’t",
@@ -452,7 +459,7 @@
         ]
       },
       {
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "This",
           "must",
@@ -493,7 +500,7 @@
       },
       {
         "left": "The phone’s ringing.",
-        "right": "It might be Dad."
+        "right": "It might be Dad calling."
       },
       {
         "left": "Everyone is wearing coats.",
@@ -572,8 +579,8 @@
         "wrongReasons": [
           "",
           "‘Can’t be exhausted’ is the opposite of what the evidence shows.",
-          "‘Mustn’t’ is a prohibition, never used for deduction.",
-          "‘Must’ is never followed by ‘to’."
+          "‘Mustn’t’ is a prohibition, notr used for deduction.",
+          "‘Must’ isn’t followed by ‘to’."
         ],
         "explain": "Twelve hours of work is strong evidence, so you’re sure: must be exhausted."
       },
@@ -588,7 +595,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Mustn’t’ is never used for a negative deduction.",
+          "‘Mustn’t’ isn’t used for a negative deduction.",
           "",
           "‘Must be Joan’ contradicts the evidence.",
           "‘Might’ shows doubt, but you’re sure."
@@ -698,7 +705,7 @@
         "wrongReasons": [
           "",
           "No ‘to’ after ‘must’.",
-          "Modals never take -s.",
+          "Modals don’t take -s.",
           "No ‘to’ after ‘can’t’."
         ],
         "explain": "Not answering suggests a possibility: she might be driving right now."
@@ -836,14 +843,14 @@
           "can’t",
           "mustn’t",
           "must",
-          "has"
+          "must to"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Can’t have studied’ contradicts the evidence.",
           "‘Mustn’t’ isn’t used for deduction.",
           "",
-          "‘Has have’ is wrong."
+          "‘Must’ isn’t followed by ‘to’."
         ],
         "explain": "A perfect score is strong evidence: must (have studied)."
       },
@@ -861,7 +868,7 @@
           "",
           "‘Must be having dinner’ at four contradicts the evidence.",
           "‘Mustn’t’ isn’t used for deduction.",
-          "‘Must’ is never followed by ‘to’."
+          "‘Must’ isn’t followed by ‘to’."
         ],
         "explain": "Four o’clock is too early, so the negative continuous deduction is ‘can’t be having’."
       },
@@ -1055,7 +1062,7 @@
         "errorIndex": 1,
         "correction": "must",
         "type": "-s on a modal",
-        "message": "Modals never take -s."
+        "message": "Modals don’t take -s."
       },
       {
         "tokens": [
@@ -1204,15 +1211,20 @@
       },
       {
         "tokens": [
-          "You",
-          "cant",
+          "They",
+          "might",
+          "to",
           "be",
-          "serious!"
+          "late."
         ],
-        "errorIndex": 1,
-        "correction": "can’t",
-        "type": "Spelling",
-        "message": "Spelling: ‘can’t’ with an apostrophe."
+        "errorIndex": 2,
+        "correction": "be",
+        "type": "Extra word",
+        "message": "Don’t add ‘to’ after a modal: ‘They might be late’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1301,7 +1313,7 @@
       },
       {
         "type": "order",
-        "use": "Must",
+        "use": "Deduction",
         "tokens": [
           "He",
           "must",
@@ -1312,7 +1324,7 @@
       },
       {
         "type": "order",
-        "use": "Can’t",
+        "use": "Deduction",
         "tokens": [
           "That",
           "can’t",
@@ -1322,7 +1334,7 @@
       },
       {
         "type": "order",
-        "use": "Might",
+        "use": "Deduction",
         "tokens": [
           "She",
           "might",
@@ -1332,7 +1344,7 @@
       },
       {
         "type": "order",
-        "use": "Continuous",
+        "use": "Deduction",
         "tokens": [
           "They",
           "must",
@@ -1414,7 +1426,7 @@
           "",
           "‘Might’ is used for a possible deduction."
         ],
-        "explain": "‘Mustn’t’ is only for prohibition — never for deduction."
+        "explain": "‘Mustn’t’ is only for prohibition, not for deduction."
       },
       {
         "type": "mc",
@@ -1450,7 +1462,7 @@
           "",
           "‘Must’ contradicts the evidence.",
           "‘Mustn’t’ isn’t used for deduction.",
-          "‘Must’ is never followed by ‘to’."
+          "‘Must’ isn’t followed by ‘to’."
         ],
         "explain": "Ten hours of sleep makes it very unlikely: can’t be tired."
       },
@@ -1528,7 +1540,7 @@
         ],
         "errorIndex": 2,
         "correction": "be",
-        "message": "‘Must’ is never followed by ‘to’: ‘She must be at home’.",
+        "message": "‘Must’ isn’t followed by ‘to’: ‘She must be at home’.",
         "errorSpan": [
           2,
           3

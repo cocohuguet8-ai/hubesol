@@ -18,7 +18,7 @@
     "subtitle": "Type the correct form of the verb — simple for a state, continuous for an action in progress. Twenty original sentences.",
     "questions": [
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "I really",
         "after": "this song.",
@@ -27,10 +27,10 @@
           "love"
         ],
         "display": "love",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘love’ is a feeling here, so use the simple present: ‘love’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "She",
         "after": "the answer.",
@@ -39,10 +39,10 @@
           "knows"
         ],
         "display": "knows",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘know’ is a thought here, so use the simple present: ‘knows’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "I",
         "after": "lunch at the moment.",
@@ -57,7 +57,7 @@
         "explain": "Here have means “eat” — an action in progress, so use the continuous."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "We",
         "after": "a new car.",
@@ -69,7 +69,7 @@
         "explain": "Here have means “own” — a state, so use the simple."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "He",
         "after": "tea to coffee.",
@@ -78,10 +78,10 @@
           "prefers"
         ],
         "display": "prefers",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘prefer’ is a preference here, so use the simple present: ‘prefers’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "Be quiet! The baby",
         "after": ".",
@@ -93,10 +93,10 @@
           "’s sleeping"
         ],
         "display": "is sleeping",
-        "explain": "An action in progress now — use the continuous."
+        "explain": "‘Be quiet!’ shows an action in progress, so use the continuous: ‘is sleeping’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "Sorry, I",
         "after": ". Can you repeat that?",
@@ -107,10 +107,10 @@
           "do not understand"
         ],
         "display": "don’t understand",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘understand’ is a thought here, so use the simple present: ‘don't understand’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "This soup",
         "after": "delicious.",
@@ -119,10 +119,10 @@
           "tastes"
         ],
         "display": "tastes",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘taste’ is a sense here, so use the simple present: ‘tastes’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "I",
         "after": "about changing jobs.",
@@ -131,13 +131,16 @@
           "am thinking",
           "'m thinking",
           "m thinking",
-          "’m thinking"
+          "’m thinking",
+          "have been thinking",
+          "’ve been thinking",
+          "'ve been thinking"
         ],
         "display": "am thinking",
         "explain": "Here think means “consider” — a process in progress, so use the continuous."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "I",
         "after": "it’s a good idea.",
@@ -149,7 +152,7 @@
         "explain": "Here think means “have an opinion” — a state, so use the simple."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "She",
         "after": "a shop in town.",
@@ -158,10 +161,10 @@
           "owns"
         ],
         "display": "owns",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘own’ is possession here, so use the simple present: ‘owns’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "They",
         "after": "football in the park right now.",
@@ -173,10 +176,10 @@
           "’re playing"
         ],
         "display": "are playing",
-        "explain": "An action in progress now — use the continuous."
+        "explain": "‘right now’ shows an action in progress, so use the continuous: ‘are playing’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "I",
         "after": "what you mean.",
@@ -188,7 +191,7 @@
         "explain": "Here see means “understand” — a state, so use the simple."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "He",
         "after": "the doctor this afternoon.",
@@ -197,13 +200,19 @@
           "is seeing",
           "'s seeing",
           "s seeing",
-          "’s seeing"
+          "’s seeing",
+          "will see",
+          "’ll see",
+          "'ll see",
+          "is going to see",
+          "’s going to see",
+          "'s going to see"
         ],
         "display": "is seeing",
         "explain": "Here see means “meet” — an arrangement, so the continuous is correct."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "This bag",
         "after": "to me.",
@@ -212,10 +221,10 @@
           "belongs"
         ],
         "display": "belongs",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘belong’ is possession here, so use the simple present: ‘belongs’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "I",
         "after": "a coffee, please.",
@@ -224,10 +233,10 @@
           "want"
         ],
         "display": "want",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘want’ is a desire here, so use the simple present: ‘want’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "The children",
         "after": "TV at the moment.",
@@ -239,10 +248,10 @@
           "’re watching"
         ],
         "display": "are watching",
-        "explain": "An action in progress now — use the continuous."
+        "explain": "‘at the moment’ shows an action in progress, so use the continuous: ‘are watching’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "It",
         "after": "like rain.",
@@ -251,10 +260,10 @@
           "looks"
         ],
         "display": "looks",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘look’ is an appearance here, so use the simple present: ‘looks’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "We",
         "after": "more time.",
@@ -263,10 +272,10 @@
           "need"
         ],
         "display": "need",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘need’ is a need here, so use the simple present: ‘need’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "kind": "statement",
         "before": "Shh! I",
         "after": "to the radio.",
@@ -278,7 +287,7 @@
           "’m listening"
         ],
         "display": "am listening",
-        "explain": "An action in progress now — use the continuous."
+        "explain": "‘Shh!’ shows an action in progress, so use the continuous: ‘am listening’."
       }
     ]
   },
@@ -287,7 +296,7 @@
     "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences with stative and active verbs.",
     "sentences": [
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "I",
           "want",
@@ -297,7 +306,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "She",
           "knows",
@@ -306,7 +315,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "I’m",
           "having",
@@ -327,7 +336,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "We",
           "have",
@@ -337,7 +346,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "He",
           "prefers",
@@ -347,7 +356,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "The",
           "baby",
@@ -368,7 +377,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "I",
           "don’t",
@@ -377,7 +386,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "This",
           "soup",
@@ -386,7 +395,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "I’m",
           "thinking",
@@ -396,7 +405,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "I",
           "think",
@@ -407,7 +416,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "She",
           "owns",
@@ -418,7 +427,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "They",
           "are",
@@ -439,7 +448,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "I",
           "see",
@@ -449,7 +458,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "He’s",
           "seeing",
@@ -470,7 +479,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "This",
           "bag",
@@ -480,7 +489,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "The",
           "children",
@@ -505,7 +514,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "It",
           "looks",
@@ -514,7 +523,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "We",
           "need",
@@ -523,7 +532,7 @@
         ]
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "Shh!",
           "I’m",
@@ -534,7 +543,7 @@
         ]
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "I",
           "love",
@@ -641,7 +650,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a coffee, please.",
         "choices": [
           "want",
@@ -652,14 +661,14 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘am wanting’ is continuous, but ‘want’ here is a desire: use the simple present.",
+          "‘wanted’ is past, but the sentence is about now.",
+          "‘wants’ doesn’t agree with the subject: use ‘want’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘want’ is a desire here, so use the simple present: ‘want’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answer.",
         "choices": [
           "is knowing",
@@ -669,15 +678,15 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
+          "‘is knowing’ is continuous, but ‘know’ here is a thought: use the simple present.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘knew’ is past, but the sentence is about now.",
+          "‘know’ doesn’t agree with the subject: use ‘knows’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘know’ is a thought here, so use the simple present: ‘knows’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "Be quiet! The baby <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "sleeps",
@@ -687,15 +696,15 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: the action is happening now — use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘sleeps’ is present simple, but the action is happening now: use ‘is sleeping’.",
+          "‘slept’ is past, but the sentence is about now.",
           "",
-          "Wrong tense: the action is happening now — use the continuous."
+          "‘sleep’ is present simple, but the action is happening now: use ‘is sleeping’."
         ],
-        "explain": "An action in progress now — use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘is sleeping’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lunch at the moment.",
         "choices": [
           "have",
@@ -705,15 +714,15 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: the action is happening now — use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject.",
+          "‘have’ is present simple, but the action is happening now: use ‘am having’.",
+          "‘had’ is past, but the sentence is about now.",
+          "‘has’ is present simple, but the action is happening now: use ‘am having’.",
           ""
         ],
-        "explain": "Here have means “eat” — an action in progress, so use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘am having’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new car.",
         "choices": [
           "are having",
@@ -723,15 +732,15 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: have meaning “own” is a state — avoid the continuous.",
+          "‘are having’ is continuous, but ‘have’ here is possession: use the simple present.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘had’ is past, but the sentence is about now.",
+          "‘has’ doesn’t agree with the subject: use ‘have’."
         ],
-        "explain": "Here have means “own” — a state, so use the simple."
+        "explain": "‘have’ is possession here, so use the simple present: ‘have’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "This soup <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> delicious.",
         "choices": [
           "is tasting",
@@ -741,15 +750,15 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘is tasting’ is continuous, but ‘taste’ here is a sense: use the simple present.",
+          "‘tasted’ is past, but the sentence is about now.",
           "",
-          "Wrong form: the verb must agree with the subject."
+          "‘taste’ doesn’t agree with the subject: use ‘tastes’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘taste’ is a sense here, so use the simple present: ‘tastes’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> about changing jobs.",
         "choices": [
           "think",
@@ -759,15 +768,15 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: this is a process in progress, so use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject.",
+          "‘think’ is present simple, but the action is happening now: use ‘am thinking’.",
+          "‘thought’ is past, but the sentence is about now.",
+          "‘thinks’ is present simple, but the action is happening now: use ‘am thinking’.",
           ""
         ],
-        "explain": "Here think means “consider” — a process, so use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘am thinking’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it’s a good idea.",
         "choices": [
           "think",
@@ -778,14 +787,14 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: think meaning “have an opinion” is a state — avoid the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘am thinking’ is continuous, but ‘think’ here is an opinion: use the simple present.",
+          "‘thought’ is past, but the sentence is about now.",
+          "‘thinks’ doesn’t agree with the subject: use ‘think’."
         ],
-        "explain": "Here think means “have an opinion” — a state, so use the simple."
+        "explain": "‘think’ is an opinion here, so use the simple present: ‘think’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a shop in town.",
         "choices": [
           "is owning",
@@ -795,15 +804,15 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘is owning’ is continuous, but ‘own’ here is possession: use the simple present.",
+          "‘owned’ is past, but the sentence is about now.",
           "",
-          "Wrong form: the verb must agree with the subject."
+          "‘own’ doesn’t agree with the subject: use ‘owns’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘own’ is possession here, so use the simple present: ‘owns’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> football in the park right now.",
         "choices": [
           "play",
@@ -813,15 +822,15 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: the action is happening now — use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject.",
+          "‘play’ is present simple, but the action is happening now: use ‘are playing’.",
+          "‘played’ is past, but the sentence is about now.",
+          "‘plays’ is present simple, but the action is happening now: use ‘are playing’.",
           ""
         ],
-        "explain": "An action in progress now — use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘are playing’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> what you mean.",
         "choices": [
           "see",
@@ -832,14 +841,14 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘am seeing’ is continuous, but ‘see’ here is understanding: use the simple present.",
+          "‘saw’ is past, but the sentence is about now.",
+          "‘sees’ doesn’t agree with the subject: use ‘see’."
         ],
-        "explain": "Here see means “understand” — a state, so use the simple."
+        "explain": "‘see’ is understanding here, so use the simple present: ‘see’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the doctor right now.",
         "choices": [
           "sees",
@@ -849,15 +858,15 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: the action is happening now — use the continuous.",
+          "‘sees’ is present simple, but the action is happening now: use ‘is seeing’.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘saw’ is past, but the sentence is about now.",
+          "‘see’ is present simple, but the action is happening now: use ‘is seeing’."
         ],
-        "explain": "An action in progress now — use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘is seeing’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "This bag <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to me.",
         "choices": [
           "is belonging",
@@ -867,15 +876,15 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject.",
+          "‘is belonging’ is continuous, but ‘belong’ here is possession: use the simple present.",
+          "‘belonged’ is past, but the sentence is about now.",
+          "‘belong’ doesn’t agree with the subject: use ‘belongs’.",
           ""
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘belong’ is possession here, so use the simple present: ‘belongs’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "The children <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV at the moment.",
         "choices": [
           "are watching",
@@ -886,14 +895,14 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: the action is happening now — use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘watch’ is present simple, but the action is happening now: use ‘are watching’.",
+          "‘watched’ is past, but the sentence is about now.",
+          "‘watches’ is present simple, but the action is happening now: use ‘are watching’."
         ],
-        "explain": "An action in progress now — use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘are watching’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> like rain.",
         "choices": [
           "is looking",
@@ -903,15 +912,15 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
+          "‘is looking’ is continuous, but ‘look’ here is an appearance: use the simple present.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘looked’ is past, but the sentence is about now.",
+          "‘look’ doesn’t agree with the subject: use ‘looks’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘look’ is an appearance here, so use the simple present: ‘looks’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more time.",
         "choices": [
           "are needing",
@@ -921,15 +930,15 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘are needing’ is continuous, but ‘need’ here is a need: use the simple present.",
+          "‘needed’ is past, but the sentence is about now.",
           "",
-          "Wrong form: the verb must agree with the subject."
+          "‘needs’ doesn’t agree with the subject: use ‘need’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘need’ is a need here, so use the simple present: ‘need’."
       },
       {
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "Shh! I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the radio.",
         "choices": [
           "am listening",
@@ -940,14 +949,14 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: the action is happening now — use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘listen’ is present simple, but the action is happening now: use ‘am listening’.",
+          "‘listened’ is past, but the sentence is about now.",
+          "‘listens’ is present simple, but the action is happening now: use ‘am listening’."
         ],
-        "explain": "An action in progress now — use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘am listening’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you. Can you repeat that?",
         "choices": [
           "am not understanding",
@@ -957,33 +966,33 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
+          "‘am not understanding’ is continuous, but ‘understand’ here is a thought: use the simple present.",
           "",
-          "Wrong form: the verb must agree with the subject.",
-          "Wrong form: check the verb form and the subject."
+          "‘doesn’t understand’ doesn’t agree with the subject: use ‘don’t understand’.",
+          "‘didn’t understood’ doesn’t agree with the subject: use ‘don’t understand’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘understand’ is a thought here, so use the simple present: ‘don’t understand’."
       },
       {
-        "use": "State",
-        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you very much.",
+        "use": "Simple or continuous",
+        "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you completely.",
         "choices": [
-          "am loving",
-          "loved",
-          "love",
-          "loves"
+          "am trusting",
+          "trusted",
+          "trust",
+          "trusts"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘am trusting’ is continuous, but ‘trust’ here is a state: use the simple present.",
+          "‘trusted’ is past, but the sentence is about now.",
           "",
-          "Wrong form: the verb must agree with the subject."
+          "‘trusts’ doesn’t agree with the subject: use ‘trust’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘trust’ is a state here, so use the simple present: ‘trust’."
       },
       {
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new phone. It’s in her bag.",
         "choices": [
           "is having",
@@ -993,12 +1002,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong form: have meaning “own” is a state — avoid the continuous.",
-          "Wrong form: the verb must agree with the subject.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘is having’ is continuous, but ‘have’ here is possession: use the simple present.",
+          "‘have’ doesn’t agree with the subject: use ‘has’.",
+          "‘had’ is past, but the sentence is about now.",
           ""
         ],
-        "explain": "Here have means “own” — a state, so use the simple."
+        "explain": "‘have’ is possession here, so use the simple present: ‘has’."
       }
     ]
   },
@@ -1065,14 +1074,13 @@
           "Honestly,",
           "I",
           "am",
-          "loving",
-          "this",
-          "song."
+          "believing",
+          "you."
         ],
         "errorIndex": 3,
-        "correction": "love",
+        "correction": "believe",
         "type": "Stative in continuous",
-        "message": "State verbs avoid the continuous: use the simple form.",
+        "message": "‘Believe’ is a state verb (an opinion): use the simple present, ‘I believe you’.",
         "errorSpan": [
           2,
           3
@@ -1314,18 +1322,16 @@
       },
       {
         "tokens": [
-          "Listen!",
-          "I",
-          "am",
-          "hearing",
-          "a",
-          "strange",
-          "noise."
+          "This",
+          "room",
+          "is",
+          "smelling",
+          "awful."
         ],
         "errorIndex": 3,
-        "correction": "hear",
+        "correction": "smells",
         "type": "Stative in continuous",
-        "message": "State verbs avoid the continuous: use the simple form.",
+        "message": "‘Smell’ describes a sense impression here: use the simple present, ‘smells’.",
         "errorSpan": [
           2,
           3
@@ -1374,29 +1380,29 @@
     "items": [
       {
         "type": "fill",
-        "use": "State",
+        "use": "Simple or continuous",
         "sentText": "I {{blank}} a coffee, please.",
         "hint": "want",
         "answers": [
           "want"
         ],
         "display": "want",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘want’ is a desire here, so use the simple present: ‘want’."
       },
       {
         "type": "fill",
-        "use": "State",
+        "use": "Simple or continuous",
         "sentText": "She {{blank}} the answer.",
         "hint": "know",
         "answers": [
           "knows"
         ],
         "display": "knows",
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘know’ is a thought here, so use the simple present: ‘knows’."
       },
       {
         "type": "fill",
-        "use": "Action",
+        "use": "Simple or continuous",
         "sentText": "Be quiet! The baby {{blank}}.",
         "hint": "sleep",
         "answers": [
@@ -1406,11 +1412,11 @@
           "’s sleeping"
         ],
         "display": "is sleeping",
-        "explain": "An action in progress now — use the continuous."
+        "explain": "‘Be quiet!’ shows an action in progress: continuous ‘is sleeping’."
       },
       {
         "type": "fill",
-        "use": "Action",
+        "use": "Simple or continuous",
         "sentText": "I {{blank}} lunch at the moment.",
         "hint": "have",
         "answers": [
@@ -1424,7 +1430,7 @@
       },
       {
         "type": "order",
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "I",
           "love",
@@ -1434,7 +1440,7 @@
       },
       {
         "type": "order",
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "They",
           "are",
@@ -1445,7 +1451,7 @@
       },
       {
         "type": "order",
-        "use": "State",
+        "use": "Simple or continuous",
         "tokens": [
           "This",
           "soup",
@@ -1455,7 +1461,7 @@
       },
       {
         "type": "order",
-        "use": "Action",
+        "use": "Simple or continuous",
         "tokens": [
           "I’m",
           "thinking",
@@ -1517,7 +1523,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Know is always a state.",
+          "Know is a state verb.",
           "Love is a state.",
           "Own is a state."
         ],
@@ -1546,7 +1552,7 @@
       },
       {
         "type": "mc",
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "I {{blank}} a coffee, please.",
         "choices": [
           "am wanting",
@@ -1556,16 +1562,16 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
+          "‘am wanting’ is continuous, but ‘want’ here is a desire: use the simple present.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘wanted’ is past, but the sentence is about now.",
+          "‘wants’ doesn’t agree with the subject: use ‘want’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘want’ is a desire here, so use the simple present: ‘want’."
       },
       {
         "type": "mc",
-        "use": "Action",
+        "use": "Simple or continuous",
         "text": "The baby {{blank}} right now.",
         "choices": [
           "sleeps",
@@ -1575,16 +1581,16 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: the action is happening now — use the continuous.",
-          "Wrong tense: the sentence is about now, not the past.",
+          "‘sleeps’ is present simple, but the action is happening now: use ‘is sleeping’.",
+          "‘slept’ is past, but the sentence is about now.",
           "",
-          "Wrong tense: the action is happening now — use the continuous."
+          "‘sleep’ is present simple, but the action is happening now: use ‘is sleeping’."
         ],
-        "explain": "An action in progress now — use the continuous."
+        "explain": "The action is in progress now, so use the continuous: ‘is sleeping’."
       },
       {
         "type": "mc",
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "We {{blank}} a new car.",
         "choices": [
           "are having",
@@ -1594,16 +1600,16 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: have meaning “own” is a state — avoid the continuous.",
+          "‘are having’ is continuous, but ‘have’ here is possession: use the simple present.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘had’ is past, but the sentence is about now.",
+          "‘has’ doesn’t agree with the subject: use ‘have’."
         ],
-        "explain": "Here have means “own” — a state, so use the simple."
+        "explain": "‘have’ is possession here, so use the simple present: ‘have’."
       },
       {
         "type": "mc",
-        "use": "State",
+        "use": "Simple or continuous",
         "text": "This soup {{blank}} delicious.",
         "choices": [
           "is tasting",
@@ -1613,12 +1619,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: this is a state verb — it avoids the continuous.",
+          "‘is tasting’ is continuous, but ‘taste’ here is a sense: use the simple present.",
           "",
-          "Wrong tense: the sentence is about now, not the past.",
-          "Wrong form: the verb must agree with the subject."
+          "‘tasted’ is past, but the sentence is about now.",
+          "‘taste’ doesn’t agree with the subject: use ‘tastes’."
         ],
-        "explain": "A state (feeling, thought, sense or possession) — use the simple, not the continuous."
+        "explain": "‘taste’ is a sense here, so use the simple present: ‘tastes’."
       },
       {
         "type": "error",

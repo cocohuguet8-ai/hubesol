@@ -82,7 +82,7 @@ We want another person (or thing) to change.
 
 ### 2. Not for states
 
-*Would* goes with actions, not with states like *be, have, know*.
+*Would* is for actions and behaviour someone can change (*stop, listen, help*). For states that can’t change, such as *be taller, have, know*, use the past simple.
 
 - ✗ ~~I wish he would be taller.~~ → ✓ **I wish he were taller.**
 

@@ -18,7 +18,7 @@
     "subtitle": "Type the correct form of the verb in brackets after wish or if only: past simple for now, had + participle for the past, would for complaints. Twenty original sentences.",
     "questions": [
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "I wish I",
         "after": "a bigger bedroom.",
         "hint": "(have)",
@@ -29,7 +29,7 @@
         "explain": "A wish about now takes the past simple: have → had."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "I wish I",
         "after": "closer to my school.",
         "hint": "(live)",
@@ -40,7 +40,7 @@
         "explain": "You don’t live close now: the past simple ‘lived’."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "My sister wishes she",
         "after": "taller.",
         "hint": "(be)",
@@ -49,10 +49,10 @@
           "was"
         ],
         "display": "were",
-        "explain": "With ‘be’ use ‘were’ for all subjects after ‘wish’."
+        "explain": "With ‘be’ use ‘were’ after ‘wish’ (‘was’ is also common in informal speech)."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "I wish I",
         "after": "the answer to this question.",
         "hint": "(know)",
@@ -63,7 +63,7 @@
         "explain": "A present wish: irregular past simple, know → knew."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "If only it",
         "after": "so cold today!",
         "hint": "(not be)",
@@ -81,7 +81,7 @@
         "explain": "A present wish (today): negative past of ‘be’, wasn’t / weren’t."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "I wish we",
         "after": "so much homework.",
         "hint": "(not have)",
@@ -95,7 +95,7 @@
         "explain": "A present wish: negative past simple, didn’t + have."
       },
       {
-        "use": "Ability",
+        "use": "Wishes",
         "before": "I wish I",
         "after": "play the guitar.",
         "hint": "(can)",
@@ -106,7 +106,7 @@
         "explain": "For an ability you don’t have, use ‘could’ after ‘wish’."
       },
       {
-        "use": "Ability",
+        "use": "Wishes",
         "before": "I wish we",
         "after": "at the beach longer.",
         "hint": "(can / stay)",
@@ -117,7 +117,7 @@
         "explain": "A wish about an ability or possibility now: could + base verb."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "I wish I",
         "after": "harder for the exam.",
         "hint": "(study)",
@@ -131,7 +131,7 @@
         "explain": "A regret about the past: had + past participle."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "He wishes he",
         "after": "so much cake.",
         "hint": "(not eat)",
@@ -145,7 +145,7 @@
         "explain": "A past regret: hadn’t + eaten (irregular participle)."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "If only I",
         "after": "my umbrella!",
         "hint": "(bring)",
@@ -159,7 +159,7 @@
         "explain": "A strong past regret: had + brought."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "I wish I",
         "after": "that to my friend.",
         "hint": "(not say)",
@@ -173,7 +173,7 @@
         "explain": "You said it and regret it: hadn’t + said."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "We wish we",
         "after": "the concert last night.",
         "hint": "(see)",
@@ -187,7 +187,7 @@
         "explain": "‘Last night’ is past: had + seen."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "She wishes she",
         "after": "the job in London.",
         "hint": "(take)",
@@ -201,18 +201,20 @@
         "explain": "A past regret: had + taken."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "before": "I wish my brother",
         "after": "playing loud music.",
         "hint": "(stop)",
         "answers": [
-          "would stop"
+          "would stop",
+          "’d stop",
+          "'d stop"
         ],
         "display": "would stop",
         "explain": "A complaint about someone’s habit: would + base verb."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "before": "I wish you",
         "after": "me all the time.",
         "hint": "(not interrupt)",
@@ -226,40 +228,44 @@
         "explain": "A complaint about your behaviour: wouldn’t + base verb."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "before": "I wish it",
         "after": "raining!",
         "hint": "(stop)",
         "answers": [
-          "would stop"
+          "would stop",
+          "’d stop",
+          "'d stop"
         ],
         "display": "would stop",
         "explain": "You want the weather to change: would + stop."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "before": "If only the bus",
         "after": "!",
         "hint": "(come)",
         "answers": [
-          "would come"
+          "would come",
+          "’d come",
+          "'d come"
         ],
         "display": "would come",
         "explain": "Impatient wish for a change: would + come."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "before": "I wish my parents",
-        "after": "me stay out later.",
-        "hint": "(let)",
+        "after": "me more pocket money.",
+        "hint": "(give)",
         "answers": [
-          "let"
+          "gave"
         ],
-        "display": "let",
-        "explain": "A present wish: ‘let’ has the same past simple form."
+        "display": "gave",
+        "explain": "A present wish: irregular past simple, give → gave."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "before": "If only we",
         "after": "the train!",
         "hint": "(not miss)",
@@ -279,7 +285,7 @@
     "subtitle": "Tap the words to build each wish — 20 examples about the present, the past, abilities and annoying habits.",
     "sentences": [
       {
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -290,7 +296,7 @@
         ]
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -301,7 +307,7 @@
         ]
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "She",
           "wishes",
@@ -311,7 +317,7 @@
         ]
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -322,7 +328,7 @@
         ]
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -333,7 +339,7 @@
         ]
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "If",
           "only",
@@ -344,7 +350,7 @@
         ]
       },
       {
-        "use": "Ability",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -354,7 +360,7 @@
         ]
       },
       {
-        "use": "Ability",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -365,7 +371,7 @@
         ]
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -376,7 +382,7 @@
         ]
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -388,7 +394,7 @@
         ]
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "He",
           "wishes",
@@ -401,7 +407,7 @@
         ]
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "If",
           "only",
@@ -412,7 +418,7 @@
         ]
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -423,7 +429,7 @@
         ]
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "They",
           "wish",
@@ -435,7 +441,7 @@
         ]
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -445,7 +451,7 @@
         ]
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -456,7 +462,7 @@
         ]
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -466,7 +472,7 @@
         ]
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "tokens": [
           "If",
           "only",
@@ -477,7 +483,7 @@
         ]
       },
       {
-        "use": "Hope",
+        "use": "Wishes",
         "tokens": [
           "I",
           "hope",
@@ -488,7 +494,7 @@
         ]
       },
       {
-        "use": "Hope",
+        "use": "Wishes",
         "tokens": [
           "I",
           "hope",
@@ -597,7 +603,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Present",
+        "use": "Wishes",
         "text": "I wish I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a bigger flat.",
         "choices": [
           "had",
@@ -610,12 +616,12 @@
           "",
           "After ‘wish’ the verb goes one step back: present ‘have’ becomes ‘had’.",
           "‘Would’ is for complaints about others, not your own situation.",
-          "‘Will’ never follows ‘wish’ for a present situation."
+          "‘Will’ doesn’t follow ‘wish’ for a present situation."
         ],
         "explain": "A wish about the present: wish + past simple."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "text": "She wishes she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> better at maths.",
         "choices": [
           "is",
@@ -633,7 +639,7 @@
         "explain": "With ‘be’ after ‘wish’, use ‘were’."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "text": "I wish I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answer — I’m stuck.",
         "choices": [
           "know",
@@ -651,7 +657,7 @@
         "explain": "A present wish: knew."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "text": "I wish I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the party last night. It was great!",
         "choices": [
           "went",
@@ -669,7 +675,7 @@
         "explain": "A past regret: had + past participle."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "text": "He wishes he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that text to his ex.",
         "choices": [
           "didn’t send",
@@ -687,7 +693,7 @@
         "explain": "Past regret: hadn’t + sent."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "text": "If only I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my keys at home!",
         "choices": [
           "didn’t leave",
@@ -705,7 +711,7 @@
         "explain": "A strong past regret: If only + hadn’t left."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "text": "I wish my neighbours <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much noise.",
         "choices": [
           "don’t make",
@@ -717,13 +723,13 @@
         "wrongReasons": [
           "After ‘wish’ the present ‘don’t’ can’t be used.",
           "‘Hadn’t made’ is a past regret; the noise is a habit now.",
-          "‘Won’t’ never follows ‘wish’.",
+          "‘Won’t’ doesn’t follow ‘wish’.",
           ""
         ],
         "explain": "A complaint about others’ habits: wouldn’t + base verb."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "text": "I wish it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> raining. I want to go out!",
         "choices": [
           "would stop",
@@ -736,12 +742,12 @@
           "",
           "‘Stops’ is present; after ‘wish’ use ‘would’ for a wanted change.",
           "‘Had stopped’ is about the past.",
-          "‘Will’ never follows ‘wish’."
+          "‘Will’ doesn’t follow ‘wish’."
         ],
         "explain": "Wanting a change (the weather): would + base verb."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "text": "I wish you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me when I’m talking.",
         "choices": [
           "don’t interrupt",
@@ -754,12 +760,12 @@
           "After ‘wish’ the present ‘don’t’ can’t be used.",
           "After ‘didn’t’ use the base verb.",
           "",
-          "‘Won’t’ never follows ‘wish’."
+          "‘Won’t’ doesn’t follow ‘wish’."
         ],
         "explain": "A complaint about someone’s behaviour: wouldn’t + base verb."
       },
       {
-        "use": "Ability",
+        "use": "Wishes",
         "text": "I wish I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> speak Chinese.",
         "choices": [
           "can",
@@ -777,7 +783,7 @@
         "explain": "A wish about ability: could."
       },
       {
-        "use": "Ability",
+        "use": "Wishes",
         "text": "We wish we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> come to your wedding, but we’re abroad.",
         "choices": [
           "could",
@@ -789,13 +795,13 @@
         "wrongReasons": [
           "",
           "‘Can’ is present; after ‘wish’ use ‘could’.",
-          "‘Will’ never follows ‘wish’.",
+          "‘Will’ doesn’t follow ‘wish’.",
           "‘Had could’ isn’t a possible form."
         ],
         "explain": "An impossible thing now: could + base verb."
       },
       {
-        "use": "Would with I",
+        "use": "Wishes",
         "text": "Which sentence is correct?",
         "choices": [
           "I wish I would have more free time.",
@@ -808,30 +814,30 @@
           "Don’t use ‘would’ about yourself after ‘wish’.",
           "",
           "After ‘wish’ the present ‘have’ moves back to ‘had’.",
-          "‘Will’ never follows ‘wish’."
+          "‘Will’ doesn’t follow ‘wish’."
         ],
         "explain": "Present wish about yourself: wish + past simple."
       },
       {
-        "use": "Would with states",
+        "use": "Wishes",
         "text": "Which sentence is correct?",
         "choices": [
-          "I wish he would be more patient.",
-          "I wish he is more patient.",
-          "I wish he will be more patient.",
-          "I wish he were more patient."
+          "I wish he would be taller.",
+          "I wish he is taller.",
+          "I wish he will be taller.",
+          "I wish he were taller."
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Would’ goes with actions, not states like ‘be’ — this is a common mistake.",
+          "‘Would’ is for changeable behaviour; his height can’t change, so use ‘were’.",
           "After ‘wish’ use the past, not ‘is’.",
-          "‘Will’ never follows ‘wish’.",
+          "‘Will’ doesn’t follow ‘wish’: use the past form ‘were’.",
           ""
         ],
-        "explain": "States after ‘wish’ use the past: were."
+        "explain": "A state he can’t change after ‘wish’ uses the past: were."
       },
       {
-        "use": "Would have",
+        "use": "Wishes",
         "text": "Which sentence is correct?",
         "choices": [
           "I wish I had listened.",
@@ -849,7 +855,7 @@
         "explain": "Past regret: wish + had + participle."
       },
       {
-        "use": "Wish or hope",
+        "use": "Wishes",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you have a great time in Paris next week!",
         "choices": [
           "wish",
@@ -867,7 +873,7 @@
         "explain": "For something possible in the future, use ‘hope’ + present."
       },
       {
-        "use": "Wish or hope",
+        "use": "Wishes",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> I had a twin sister.",
         "choices": [
           "hope",
@@ -885,7 +891,7 @@
         "explain": "An impossible situation: ‘wish’ + past."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "text": "If only I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so shy!",
         "choices": [
           "weren’t",
@@ -897,13 +903,13 @@
         "wrongReasons": [
           "",
           "‘Am not’ is present; after ‘if only’ use the past.",
-          "‘Will’ never follows ‘if only’.",
+          "‘Will’ doesn’t follow ‘if only’.",
           "‘Hadn’t been’ is about a past moment, but shyness is now."
         ],
         "explain": "A present wish: weren’t."
       },
       {
-        "use": "Past",
+        "use": "Wishes",
         "text": "They wish they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> more photos on holiday.",
         "choices": [
           "took",
@@ -921,7 +927,7 @@
         "explain": "Past regret: had taken."
       },
       {
-        "use": "Present",
+        "use": "Wishes",
         "text": "I wish my phone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> better photos.",
         "choices": [
           "takes",
@@ -934,12 +940,12 @@
           "‘Takes’ is present; after ‘wish’ use the past.",
           "‘Had taken’ is about the past; this is about your phone now.",
           "",
-          "‘Will’ never follows ‘wish’."
+          "‘Will’ doesn’t follow ‘wish’."
         ],
         "explain": "A present wish about a thing’s quality: past simple took."
       },
       {
-        "use": "Complaint",
+        "use": "Wishes",
         "text": "If only my dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> smoking!",
         "choices": [
           "gives up",
@@ -951,7 +957,7 @@
         "wrongReasons": [
           "‘Gives up’ is present; after ‘if only’ use ‘would’ for a wanted change.",
           "‘Had given up’ is a past regret.",
-          "‘Will’ never follows ‘if only’.",
+          "‘Will’ doesn’t follow ‘if only’.",
           ""
         ],
         "explain": "Wanting someone to change: would + give up."
@@ -1121,14 +1127,12 @@
           "he",
           "would",
           "be",
-          "nicer",
-          "to",
-          "me."
+          "taller."
         ],
         "errorIndex": 3,
         "correction": "were",
         "type": "Would with states",
-        "message": "‘Would’ doesn’t go with ‘be’: ‘I wish he were nicer’.",
+        "message": "Height can’t change, so ‘would’ doesn’t fit: ‘I wish he were taller’.",
         "errorSpan": [
           3,
           4
@@ -1298,7 +1302,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Present",
+        "use": "Wishes",
         "sentText": "I wish I {{blank}} my own room.",
         "hint": "have",
         "answers": [
@@ -1310,7 +1314,7 @@
       },
       {
         "type": "fill",
-        "use": "Past",
+        "use": "Wishes",
         "sentText": "I wish I {{blank}} my phone yesterday.",
         "hint": "not lose",
         "answers": [
@@ -1325,7 +1329,7 @@
       },
       {
         "type": "fill",
-        "use": "Complaint",
+        "use": "Wishes",
         "sentText": "I wish you {{blank}} me with the dishes.",
         "hint": "help",
         "answers": [
@@ -1337,7 +1341,7 @@
       },
       {
         "type": "fill",
-        "use": "Ability",
+        "use": "Wishes",
         "sentText": "I wish I {{blank}} dance like you.",
         "hint": "can",
         "answers": [
@@ -1349,7 +1353,7 @@
       },
       {
         "type": "order",
-        "use": "Present",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -1360,7 +1364,7 @@
       },
       {
         "type": "order",
-        "use": "Past",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -1372,7 +1376,7 @@
       },
       {
         "type": "order",
-        "use": "Complaint",
+        "use": "Wishes",
         "tokens": [
           "I",
           "wish",
@@ -1384,7 +1388,7 @@
       },
       {
         "type": "order",
-        "use": "Ability",
+        "use": "Wishes",
         "tokens": [
           "If",
           "only",
@@ -1395,7 +1399,7 @@
       },
       {
         "type": "wishhope",
-        "use": "Hope",
+        "use": "Wishes",
         "text": "I {{blank}} the weather is nice for your trip.",
         "choices": [
           "wish",
@@ -1414,7 +1418,7 @@
       },
       {
         "type": "wishhope",
-        "use": "Wish",
+        "use": "Wishes",
         "text": "I {{blank}} I could live on the moon.",
         "choices": [
           "hope",
@@ -1433,7 +1437,7 @@
       },
       {
         "type": "wishhope",
-        "use": "Hope",
+        "use": "Wishes",
         "text": "We {{blank}} you feel better soon.",
         "choices": [
           "hope",
@@ -1452,7 +1456,7 @@
       },
       {
         "type": "wishhope",
-        "use": "Wish",
+        "use": "Wishes",
         "text": "She {{blank}} she hadn’t sold her old bike.",
         "choices": [
           "hopes",
@@ -1471,7 +1475,7 @@
       },
       {
         "type": "mc",
-        "use": "Present",
+        "use": "Wishes",
         "text": "I wish I {{blank}} so tired every morning.",
         "choices": [
           "am not",
@@ -1482,7 +1486,7 @@
         "correct": 2,
         "wrongReasons": [
           "After ‘wish’ use the past, not ‘am not’.",
-          "‘Will’ never follows ‘wish’.",
+          "‘Will’ doesn’t follow ‘wish’.",
           "",
           "‘Would’ doesn’t go with ‘be’ about yourself."
         ],
@@ -1490,7 +1494,7 @@
       },
       {
         "type": "mc",
-        "use": "Past",
+        "use": "Wishes",
         "text": "If only I {{blank}} the bus this morning!",
         "choices": [
           "hadn’t missed",
@@ -1509,7 +1513,7 @@
       },
       {
         "type": "mc",
-        "use": "Complaint",
+        "use": "Wishes",
         "text": "I wish my cat {{blank}} on my bed.",
         "choices": [
           "doesn’t sleep",
@@ -1521,14 +1525,14 @@
         "wrongReasons": [
           "After ‘wish’ the present ‘doesn’t’ can’t be used.",
           "‘Hadn’t slept’ is a past regret.",
-          "‘Won’t’ never follows ‘wish’.",
+          "‘Won’t’ doesn’t follow ‘wish’.",
           ""
         ],
         "explain": "Complaint about a habit: wouldn’t + verb."
       },
       {
         "type": "mc",
-        "use": "Would with I",
+        "use": "Wishes",
         "text": "Which is correct?",
         "choices": [
           "I wish I would know.",
@@ -1541,7 +1545,7 @@
           "No ‘would’ about yourself.",
           "",
           "After ‘wish’ use the past.",
-          "‘Will’ never follows ‘wish’."
+          "‘Will’ doesn’t follow ‘wish’."
         ],
         "explain": "Present wish: wish + past simple."
       },

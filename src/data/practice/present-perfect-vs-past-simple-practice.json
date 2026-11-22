@@ -20,7 +20,7 @@
     "subtitle": "Type the whole verb phrase — the past simple or the present perfect, whichever the signal word or context calls for. Twenty original sentences.",
     "questions": [
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "Rome in 2019.",
@@ -32,7 +32,7 @@
         "explain": "‘In 2019’ is a finished time — use the past simple."
       },
       {
-        "use": "Unspecified time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "that film already.",
@@ -47,7 +47,7 @@
         "explain": "No specific time — an experience, so use the present perfect."
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "We",
         "after": "here since 2020.",
@@ -62,7 +62,7 @@
         "explain": "‘Since 2020’ with a situation that continues — present perfect."
       },
       {
-        "use": "Question — when",
+        "use": "Past simple or present perfect",
         "kind": "question",
         "before": "When",
         "after": "you arrive? Was the flight OK?",
@@ -74,7 +74,7 @@
         "explain": "‘When’ asks for a specific time — it takes the past simple."
       },
       {
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "my keys — I can’t get in.",
@@ -89,7 +89,7 @@
         "explain": "A recent action with a visible result now — present perfect."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "We",
         "after": "the match last night.",
@@ -101,7 +101,7 @@
         "explain": "‘Last night’ is a finished time — use the past simple."
       },
       {
-        "use": "Unspecified time — never",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "Up to now, I",
         "after": "sushi.",
@@ -116,19 +116,21 @@
         "explain": "‘Never’ signals an experience with no specific time — present perfect."
       },
       {
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "Look! She",
         "after": "her arm!",
         "hint": "break",
         "answers": [
-          "has broken"
+          "has broken",
+          "’s broken",
+          "'s broken"
         ],
         "display": "has broken",
         "explain": "A recent action with a visible result now — present perfect."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "him yesterday.",
@@ -140,7 +142,7 @@
         "explain": "‘Yesterday’ is a finished time — use the past simple, not the present perfect."
       },
       {
-        "use": "Negative — unspecified time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "Sorry, I",
         "after": "your email yet — I’ll read it tonight.",
@@ -149,13 +151,15 @@
           "haven't read",
           "have not read",
           "havent read",
-          "haven’t read"
+          "haven’t read",
+          "’ve not read",
+          "'ve not read"
         ],
         "display": "haven’t read",
         "explain": "‘Yet’ signals the present perfect, even in the negative."
       },
       {
-        "use": "Negative — finished time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "Tom",
         "after": "to school last Friday because he was ill.",
@@ -170,7 +174,7 @@
         "explain": "‘Last Friday’ is a finished time — use the past simple, even in the negative."
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "here for five years, and I still love it.",
@@ -185,7 +189,7 @@
         "explain": "‘For five years’ with a job you still have — present perfect."
       },
       {
-        "use": "Finished — no longer true",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "My grandad",
         "after": "a taxi for twenty years, but he’s retired now.",
@@ -197,7 +201,7 @@
         "explain": "He doesn’t drive a taxi now — the situation is over, so use the past simple, even with ‘for’."
       },
       {
-        "use": "Question — ever",
+        "use": "Past simple or present perfect",
         "kind": "question",
         "before": "",
         "after": "you ever been to Japan?",
@@ -209,7 +213,7 @@
         "explain": "‘Ever’ signals the present perfect."
       },
       {
-        "use": "Unspecified time — already",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "my homework already.",
@@ -224,7 +228,7 @@
         "explain": "‘Already’ signals the present perfect."
       },
       {
-        "use": "Finished time — ago",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "My sister",
         "after": "her driving test three weeks ago.",
@@ -236,19 +240,21 @@
         "explain": "‘Three weeks ago’ names a finished time — use the past simple."
       },
       {
-        "use": "Unspecified time — just",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "Oh no! The train",
         "after": ".",
         "hint": "just / leave",
         "answers": [
-          "has just left"
+          "has just left",
+          "’s just left",
+          "'s just left"
         ],
         "display": "has just left",
         "explain": "‘Just’ + a result now (you’ve missed it) — present perfect."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "my grandmother last week.",
@@ -260,7 +266,7 @@
         "explain": "‘Last week’ is a finished time — use the past simple."
       },
       {
-        "use": "Negative — continuing situation",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "I",
         "after": "to the gym since January.",
@@ -269,13 +275,15 @@
           "haven't been",
           "have not been",
           "havent been",
-          "haven’t been"
+          "haven’t been",
+          "’ve not been",
+          "'ve not been"
         ],
         "display": "haven’t been",
         "explain": "‘Since January’ with a situation continuing to now — present perfect, even in the negative."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "kind": "statement",
         "before": "They",
         "after": "the project two days ago.",
@@ -293,7 +301,7 @@
     "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing both tenses.",
     "sentences": [
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "My",
           "parents",
@@ -316,7 +324,7 @@
         ]
       },
       {
-        "use": "Unspecified time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "I’ve",
           "used",
@@ -327,7 +335,7 @@
         ]
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "tokens": [
           "My",
           "brother",
@@ -352,7 +360,7 @@
         ]
       },
       {
-        "use": "Question — when",
+        "use": "Past simple or present perfect",
         "tokens": [
           "When",
           "did",
@@ -364,7 +372,7 @@
         ]
       },
       {
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "tokens": [
           "I’ve",
           "forgotten",
@@ -373,7 +381,7 @@
         ]
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "We",
           "went",
@@ -396,7 +404,7 @@
         ]
       },
       {
-        "use": "Unspecified time — never",
+        "use": "Past simple or present perfect",
         "tokens": [
           "My",
           "dad",
@@ -406,7 +414,7 @@
         ]
       },
       {
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "tokens": [
           "I’ve",
           "cut",
@@ -415,7 +423,7 @@
         ]
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "She",
           "phoned",
@@ -434,7 +442,7 @@
         ]
       },
       {
-        "use": "Negative — unspecified time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "We",
           "haven’t",
@@ -445,7 +453,7 @@
         ]
       },
       {
-        "use": "Negative — finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "He",
           "didn’t",
@@ -470,7 +478,7 @@
         ]
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "tokens": [
           "I’ve",
           "had",
@@ -493,7 +501,7 @@
         ]
       },
       {
-        "use": "Question — ever",
+        "use": "Past simple or present perfect",
         "tokens": [
           "Have",
           "you",
@@ -504,7 +512,7 @@
         ]
       },
       {
-        "use": "Unspecified time — already",
+        "use": "Past simple or present perfect",
         "tokens": [
           "The",
           "concert",
@@ -514,7 +522,7 @@
         ]
       },
       {
-        "use": "Finished time — ago",
+        "use": "Past simple or present perfect",
         "tokens": [
           "My",
           "cousin",
@@ -539,7 +547,7 @@
         ]
       },
       {
-        "use": "Unspecified time — just",
+        "use": "Past simple or present perfect",
         "tokens": [
           "The",
           "rain",
@@ -549,7 +557,7 @@
         ]
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "They",
           "got",
@@ -568,7 +576,7 @@
         ]
       },
       {
-        "use": "Negative — continuing situation",
+        "use": "Past simple or present perfect",
         "tokens": [
           "We",
           "haven’t",
@@ -589,7 +597,7 @@
         ]
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "Dad",
           "washed",
@@ -610,7 +618,7 @@
         ]
       },
       {
-        "use": "Question — when",
+        "use": "Past simple or present perfect",
         "tokens": [
           "When",
           "did",
@@ -717,7 +725,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "text": "The Titanic <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in 1912.",
         "choices": [
           "sank",
@@ -735,7 +743,7 @@
         "explain": "‘In 1912’ is a finished time — past simple."
       },
       {
-        "use": "Unspecified time",
+        "use": "Past simple or present perfect",
         "text": "My brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> three marathons in his life, and he wants to run another one.",
         "choices": [
           "ran",
@@ -753,7 +761,7 @@
         "explain": "Experience up to now (‘in his life’, and he still runs) — present perfect."
       },
       {
-        "use": "Question — when",
+        "use": "Past simple or present perfect",
         "text": "When <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you buy that jacket?",
         "choices": [
           "have",
@@ -771,7 +779,7 @@
         "explain": "‘When’ asks for a specific time — past simple: ‘When did you buy…?’"
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "text": "Lucy <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her best friend since nursery school.",
         "choices": [
           "knew",
@@ -789,7 +797,7 @@
         "explain": "‘Since nursery school’ with a situation that continues — present perfect."
       },
       {
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "text": "Oh no! Somebody <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my bike — it isn’t here!",
         "choices": [
           "has stolen",
@@ -807,7 +815,7 @@
         "explain": "A recent action with a result now (no bike!) — present perfect."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> camping in the mountains last weekend.",
         "choices": [
           "have gone",
@@ -825,7 +833,7 @@
         "explain": "‘Last weekend’ is a finished time — past simple."
       },
       {
-        "use": "Unspecified time — never",
+        "use": "Past simple or present perfect",
         "text": "My uncle <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a mobile phone — he says he doesn’t need one.",
         "choices": [
           "never had",
@@ -843,7 +851,7 @@
         "explain": "‘Never’ up to now — present perfect."
       },
       {
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "text": "Look! The cat <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> all the milk — the bowl is empty.",
         "choices": [
           "drank",
@@ -861,7 +869,7 @@
         "explain": "A recent action with a visible result now — present perfect."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a really strange dream last night.",
         "choices": [
           "had",
@@ -879,7 +887,7 @@
         "explain": "‘Last night’ is a finished time — past simple."
       },
       {
-        "use": "Negative — unspecified time",
+        "use": "Past simple or present perfect",
         "text": "Don’t take the plates away — Sam <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his dinner yet.",
         "choices": [
           "didn’t eat",
@@ -897,7 +905,7 @@
         "explain": "‘Yet’ signals the present perfect, even negative."
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> married for thirty years, and they’re still happy.",
         "choices": [
           "were",
@@ -915,7 +923,7 @@
         "explain": "‘For thirty years’ with a situation that continues — present perfect."
       },
       {
-        "use": "Question — ever",
+        "use": "Past simple or present perfect",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your dad ever cooked dinner for the whole family?",
         "choices": [
           "Did",
@@ -933,7 +941,7 @@
         "explain": "‘Ever’ signals the present perfect: ‘Has your dad ever cooked…?’"
       },
       {
-        "use": "Unspecified time — already",
+        "use": "Past simple or present perfect",
         "text": "Don’t cook tonight — Mum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a pizza already.",
         "choices": [
           "has ordered",
@@ -951,7 +959,7 @@
         "explain": "‘Already’ signals the present perfect."
       },
       {
-        "use": "Finished time — ago",
+        "use": "Past simple or present perfect",
         "text": "My friend <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me a message ten minutes ago.",
         "choices": [
           "has sent",
@@ -969,7 +977,7 @@
         "explain": "‘Ago’ names a finished time — past simple."
       },
       {
-        "use": "Unspecified time — just",
+        "use": "Past simple or present perfect",
         "text": "Be careful — I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the floor, and it’s still wet.",
         "choices": [
           "has just cleaned",
@@ -987,7 +995,7 @@
         "explain": "‘Just’ + a result now (the wet floor) — present perfect."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "text": "Mozart <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his first piece of music when he was five.",
         "choices": [
           "wrote",
@@ -1005,7 +1013,7 @@
         "explain": "‘When he was five’ is a finished time — past simple."
       },
       {
-        "use": "Negative — continuing situation",
+        "use": "Past simple or present perfect",
         "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for three weeks, and the garden is very dry.",
         "choices": [
           "didn’t rain",
@@ -1023,7 +1031,7 @@
         "explain": "‘For three weeks’ up to now — present perfect, even in the negative."
       },
       {
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "text": "My team <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the final last Saturday.",
         "choices": [
           "have won",
@@ -1041,7 +1049,7 @@
         "explain": "‘Last Saturday’ is a finished time — past simple."
       },
       {
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Paris since 2015.",
         "choices": [
           "lived",
@@ -1059,7 +1067,7 @@
         "explain": "‘Since 2015’ with a continuing situation — present perfect."
       },
       {
-        "use": "Negative — finished time",
+        "use": "Past simple or present perfect",
         "text": "Sorry, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your call last night — my phone was off.",
         "choices": [
           "haven’t answered",
@@ -1243,23 +1251,25 @@
       },
       {
         "tokens": [
-          "She",
-          "taught",
+          "We",
+          "have",
+          "met",
+          "your",
+          "brother",
           "at",
-          "this",
-          "school",
-          "for",
-          "twenty",
-          "years",
-          "and",
-          "she",
-          "still",
-          "does."
+          "the",
+          "party",
+          "last",
+          "night."
         ],
         "errorIndex": 1,
-        "correction": "has taught",
+        "correction": "met",
         "type": "Wrong tense",
-        "message": "She still teaches there, so ‘for twenty years’ needs the present perfect."
+        "message": "‘Last night’ is a finished time: use the past simple ‘met’.",
+        "errorSpan": [
+          1,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1453,7 +1463,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "sentText": "The school {{blank}} a new library in 2022.",
         "hint": "build",
         "answers": [
@@ -1464,7 +1474,7 @@
       },
       {
         "type": "fill",
-        "use": "Unspecified time",
+        "use": "Past simple or present perfect",
         "sentText": "I {{blank}} this book three times — it’s my favourite.",
         "hint": "read",
         "answers": [
@@ -1475,7 +1485,7 @@
       },
       {
         "type": "fill",
-        "use": "Continuing situation",
+        "use": "Past simple or present perfect",
         "sentText": "My mum {{blank}} her own business since 2021.",
         "hint": "have",
         "answers": [
@@ -1486,7 +1496,7 @@
       },
       {
         "type": "fill",
-        "use": "Question — when",
+        "use": "Past simple or present perfect",
         "sentText": "When {{blank}} the storm begin? I was asleep.",
         "hint": "(auxiliary — past simple)",
         "answers": [
@@ -1497,7 +1507,7 @@
       },
       {
         "type": "order",
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "tokens": [
           "I’ve",
           "spilt",
@@ -1507,7 +1517,7 @@
       },
       {
         "type": "order",
-        "use": "Finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "We",
           "flew",
@@ -1529,7 +1539,7 @@
       },
       {
         "type": "order",
-        "use": "Question — ever",
+        "use": "Past simple or present perfect",
         "tokens": [
           "Have",
           "you",
@@ -1542,7 +1552,7 @@
       },
       {
         "type": "order",
-        "use": "Negative — finished time",
+        "use": "Past simple or present perfect",
         "tokens": [
           "They",
           "didn’t",
@@ -1646,7 +1656,7 @@
       },
       {
         "type": "mc",
-        "use": "Result now",
+        "use": "Past simple or present perfect",
         "text": "Look! It {{blank}} — everything is white.",
         "choices": [
           "snowed",
@@ -1665,7 +1675,7 @@
       },
       {
         "type": "mc",
-        "use": "Finished time — ago",
+        "use": "Past simple or present perfect",
         "text": "We {{blank}} our new flat three months ago.",
         "choices": [
           "have rented",
@@ -1684,7 +1694,7 @@
       },
       {
         "type": "mc",
-        "use": "Unspecified time — already",
+        "use": "Past simple or present perfect",
         "text": "Don’t tell Jack the news — he {{blank}} it already.",
         "choices": [
           "has heard",
@@ -1703,7 +1713,7 @@
       },
       {
         "type": "mc",
-        "use": "Negative — continuing situation",
+        "use": "Past simple or present perfect",
         "text": "Mia {{blank}} a single day of school since September.",
         "choices": [
           "didn’t miss",

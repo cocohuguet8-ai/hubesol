@@ -6,14 +6,14 @@
     {
       "question": "I ___ my keys, so I can’t open the door.",
       "options": [
-        "lost",
+        "have lose",
         "was losing",
         "have lost",
         "lose"
       ],
       "answer": 2,
       "explanations": [
-        "‘Lost’ (past simple) is possible alone, but the result matters now (‘I can’t open the door’), which the present perfect shows best.",
+        "After ‘have’ you need the participle ‘lost’, not ‘lose’.",
         "‘Was losing’ (past continuous) describes an action in progress, but losing keys is instant.",
         "Correct! A recent action with a present result takes the present perfect: ‘have lost’.",
         "‘Lose’ is the base present form. The action is finished with a result now: ‘have lost’."
@@ -38,14 +38,14 @@
     {
       "question": "___ you ever ___ a famous person?",
       "options": [
-        "Did / meet",
+        "Has / met",
         "Did / met",
         "Have / meet",
         "Have / met"
       ],
       "answer": 3,
       "explanations": [
-        "‘Ever’ with a life experience (no specific time) calls for the present perfect, not the past simple.",
+        "‘Has’ goes with he/she/it; with ‘you’ use ‘have’.",
         "After ‘did’ we’d need the base form, and an unspecified experience takes the present perfect anyway.",
         "‘Have’ is right, but the past participle of ‘meet’ is ‘met’, not ‘meet’.",
         "Correct! Experience questions use ‘Have + subject + ever + past participle’: ‘Have you ever met…?’."
@@ -102,14 +102,14 @@
     {
       "question": "I ___ that film three times. It’s my favourite.",
       "options": [
-        "saw",
+        "have saw",
         "had seen",
         "see",
         "have seen"
       ],
       "answer": 3,
       "explanations": [
-        "‘Saw’ needs a finished time. Here we count experiences up to now, so use the present perfect.",
+        "After ‘have’ you need the participle ‘seen’, not the past simple ‘saw’.",
         "‘Had seen’ is past perfect, used for an action before another past moment — not the case here.",
         "‘See’ is the base present form and can’t express a repeated past experience.",
         "Correct! Experiences counted up to now (‘three times’) take the present perfect: ‘have seen’."
@@ -150,14 +150,14 @@
     {
       "question": "___ you ___ your keys? We can’t leave without them.",
       "options": [
-        "Did / lose",
+        "Are / lost",
         "Did / lost",
         "Have / lose",
         "Have / lost"
       ],
       "answer": 3,
       "explanations": [
-        "There’s no finished time, and the result matters now, so the present perfect fits better than the past simple.",
+        "‘Are you lost your keys?’ mixes ‘be’ with a participle: the present perfect is ‘Have you lost…?’.",
         "After ‘did’ we’d use the base form ‘lose’, but the present result calls for the present perfect here.",
         "‘Have’ is right, but you need the past participle ‘lost’, not ‘lose’.",
         "Correct! An action with a present result and no stated time takes the present perfect: ‘Have you lost…?’."
@@ -185,9 +185,10 @@
       "question": "We have visited that museum last Sunday.",
       "hint": "Type the whole corrected sentence.",
       "answers": [
-        "We visited that museum last Sunday"
+        "We visited that museum last Sunday",
+        "We visited that museum last Sunday."
       ],
-      "explanation": "‘Yesterday’ needs the past simple."
+      "explanation": "‘Last Sunday’ is a finished time: use the past simple."
     },
     {
       "type": "write",
@@ -195,7 +196,8 @@
       "question": "When have you arrived?",
       "hint": "Type the whole corrected sentence.",
       "answers": [
-        "When did you arrive"
+        "When did you arrive",
+        "When did you arrive?"
       ],
       "explanation": "‘When’ questions take the past simple."
     }
