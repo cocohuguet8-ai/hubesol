@@ -262,6 +262,9 @@ const uid = 'wo';
         if (correctWords.slice(cIdx + 1, cIdx + 3).some((w) => w.toLowerCase() === 'been') && correctWords.some((w, k) => k > cIdx && /ing$/.test(w))) {
           return "“" + aux + "” goes between its subject and “been” + -ing.";
         }
+        if (/^(will|won[’']t|[’']ll)$/i.test(aux)) {
+          return "“" + aux + "” goes between its subject and the base verb.";
+        }
         return "“" + aux + "” goes between its subject and the past participle.";
       }
       if (cIdx === 0 && /ing$/.test(correctWords[2] || '')) {
