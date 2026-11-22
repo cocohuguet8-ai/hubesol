@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "___ book in my hand is really good.",
-      "options": ["This", "These", "That", "Those"],
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Near + singular = 'this book'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "Look at ___ birds in the sky over there.",
-      "options": ["these", "those", "this", "that"],
+      "options": [
+        "these",
+        "those",
+        "this",
+        "that"
+      ],
       "answer": 1,
       "explanations": [
         "'These' is for near things.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "___ shoes I'm wearing are new.",
-      "options": ["Those", "This", "That", "These"],
+      "options": [
+        "Those",
+        "This",
+        "That",
+        "These"
+      ],
       "answer": 3,
       "explanations": [
         "'Those' is far.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Can you see ___ house on the hill?",
-      "options": ["these", "this", "that", "those"],
+      "options": [
+        "these",
+        "this",
+        "that",
+        "those"
+      ],
       "answer": 2,
       "explanations": [
         "'These' is plural.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "___ is my sister, Anna. (introducing someone next to you)",
-      "options": ["That", "This", "These", "Those"],
+      "options": [
+        "That",
+        "This",
+        "These",
+        "Those"
+      ],
       "answer": 1,
       "explanations": [
         "'That is' points to someone further away.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "Whose keys are ___ on the far table?",
-      "options": ["this", "these", "those", "that"],
+      "options": [
+        "this",
+        "these",
+        "those",
+        "that"
+      ],
       "answer": 2,
       "explanations": [
         "'This' is singular.",
@@ -71,10 +101,13 @@
     },
     {
       "question": "I love ___ song that's playing right now.",
-      "options": ["that one's", "these", "those", "this"],
-      "answer": 3,
+      "options": [
+        "these",
+        "those",
+        "this"
+      ],
+      "answer": 2,
       "explanations": [
-        "'That one's' doesn't fit before 'song'.",
         "'These' is plural.",
         "'Those' is far and plural.",
         "Correct! Something happening now/near = 'this song'."
@@ -82,7 +115,12 @@
     },
     {
       "question": "___ days, everyone used a paper map. (distant past)",
-      "options": ["In those", "In these", "In this", "In that"],
+      "options": [
+        "In those",
+        "In these",
+        "In this",
+        "In that"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A distant time takes 'those': 'In those days'.",
@@ -109,7 +147,12 @@
     },
     {
       "question": "Which pair is NEAR + PLURAL?",
-      "options": ["that", "this", "these", "those"],
+      "options": [
+        "that",
+        "this",
+        "these",
+        "those"
+      ],
       "answer": 2,
       "explanations": [
         "'That' is far and singular.",
@@ -122,11 +165,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "Do you like ___ jacket here in my hands?",
-      "hint": "Type this, that, these or those.",
-      "answers": ["this"],
+      "hint": "Type one word.",
+      "answers": [
+        "this"
+      ],
       "explanation": "One thing, near me: 'this'.",
       "common": [
-        {"answer": "that", "why": "'That' is for things far away. The jacket is in my hands, so 'this'."}
+        {
+          "answer": "that",
+          "why": "'That' is for things far away. The jacket is in my hands, so 'this'."
+        }
       ]
     },
     {
@@ -134,18 +182,25 @@
       "kind": "Correct the mistake",
       "question": "I love this books.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I love these books"],
+      "answers": [
+        "I love these books"
+      ],
       "explanation": "'Books' is plural, so 'these'."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "Look at the mountains far away. Look at ___ mountains!",
-      "hint": "Type this, that, these or those.",
-      "answers": ["those"],
+      "hint": "Type one word.",
+      "answers": [
+        "those"
+      ],
       "explanation": "Many things, far away: 'those'.",
       "common": [
-        {"answer": "these", "why": "'These' is for things near you. The mountains are far away, so 'those'."}
+        {
+          "answer": "these",
+          "why": "'These' is for things near you. The mountains are far away, so 'those'."
+        }
       ]
     }
   ]
