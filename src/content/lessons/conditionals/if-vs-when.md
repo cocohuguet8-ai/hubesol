@@ -9,7 +9,7 @@ answerLead: "Both link a future condition to a result, but they differ in certai
 answerPoints:
   - "if — a possibility that may not happen (If I have time, I'll help)."
   - "when — a certainty; only the time is open (When I finish, I'll rest)."
-answerNote: "After if and when, use the present simple for the future — never 'will': When it starts, not 'when it will start'."
+answerNote: "After if and when, use the present simple for the future — not 'will': When it starts, not 'when it will start'."
 quiz: "if-vs-when-quiz-1"
 faq:
   - q: "What's the difference between 'if' and 'when' for the future?"
