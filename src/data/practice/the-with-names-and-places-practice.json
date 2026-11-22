@@ -28,7 +28,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Most countries take no article: ‘Germany’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Most countries take no article: ‘Germany’."
       },
       {
         "use": "Country",
@@ -39,7 +39,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "‘States’ makes it a group: ‘the United States’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "‘States’ makes it a group: ‘the United States’."
       },
       {
         "use": "Country",
@@ -50,7 +50,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Plural country name: ‘the Netherlands’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Plural country name: ‘the Netherlands’."
       },
       {
         "use": "Country",
@@ -61,7 +61,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "‘Kingdom’ countries take ‘the’: ‘the UK’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "‘Kingdom’ countries take ‘the’: ‘the UK’."
       },
       {
         "use": "Continent",
@@ -73,7 +73,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Continents take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Continents take no article."
       },
       {
         "use": "Ocean",
@@ -84,7 +84,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Oceans take ‘the’: ‘the Atlantic’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Oceans take ‘the’: ‘the Atlantic’."
       },
       {
         "use": "Sea",
@@ -95,7 +95,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Seas take ‘the’: ‘the Mediterranean’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Seas take ‘the’: ‘the Mediterranean’."
       },
       {
         "use": "River",
@@ -107,7 +107,7 @@
           "the"
         ],
         "display": "The",
-        "explain": "Rivers take ‘the’: ‘the Ebro’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Rivers take ‘the’: ‘the Ebro’."
       },
       {
         "use": "Lake",
@@ -119,7 +119,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Lakes take no article: ‘Lake Banyoles’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Lakes take no article: ‘Lake Banyoles’."
       },
       {
         "use": "Mountains",
@@ -130,7 +130,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Mountain ranges take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Mountain ranges take ‘the’."
       },
       {
         "use": "Mountain",
@@ -142,7 +142,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Single mountains take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Single mountains take no article."
       },
       {
         "use": "Islands",
@@ -153,7 +153,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Island groups take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Island groups take ‘the’."
       },
       {
         "use": "Island",
@@ -165,7 +165,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "A single island: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "A single island: no article."
       },
       {
         "use": "City",
@@ -177,7 +177,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Cities take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Cities take no article."
       },
       {
         "use": "Street",
@@ -189,7 +189,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Streets take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Streets take no article."
       },
       {
         "use": "Park",
@@ -201,7 +201,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Parks take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Parks take no article."
       },
       {
         "use": "Museum",
@@ -212,7 +212,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Museums usually take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Museums usually take ‘the’."
       },
       {
         "use": "Hotel",
@@ -223,7 +223,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Hotels usually take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Hotels usually take ‘the’."
       },
       {
         "use": "Of pattern",
@@ -234,7 +234,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Names with ‘of’ take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Names with ‘of’ take ‘the’."
       },
       {
         "use": "Possessive name",
@@ -246,7 +246,7 @@
           "-"
         ],
         "display": "—",
-        "explain": "Names with ’s take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Names with ’s take no article."
       }
     ],
     "formLabel": "article"
@@ -565,7 +565,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Most countries: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Most countries: no article."
       },
       {
         "use": "Country",
@@ -583,7 +583,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Kingdom / Republic / States → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Kingdom / Republic / States → the."
       },
       {
         "use": "Country",
@@ -601,7 +601,7 @@
           "",
           "Names don’t take ‘an’."
         ],
-        "explain": "Plural name → the Maldives. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Plural name → the Maldives."
       },
       {
         "use": "Continent",
@@ -614,12 +614,12 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Continents take no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t.",
+          "Continents take no article.",
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’.",
           ""
         ],
-        "explain": "Continents: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Continents: no article."
       },
       {
         "use": "Ocean",
@@ -637,7 +637,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Oceans → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Oceans → the."
       },
       {
         "use": "River",
@@ -655,7 +655,7 @@
           "",
           "Names don’t take ‘an’."
         ],
-        "explain": "Rivers → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Rivers → the."
       },
       {
         "use": "Lake",
@@ -673,7 +673,7 @@
           "Names don’t take ‘an’.",
           ""
         ],
-        "explain": "Lakes: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Lakes: no article."
       },
       {
         "use": "Mountains",
@@ -691,7 +691,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Ranges → the Andes. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Ranges → the Andes."
       },
       {
         "use": "Mountain",
@@ -709,7 +709,7 @@
           "",
           "Names don’t take ‘an’."
         ],
-        "explain": "Single mountain: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Single mountain: no article."
       },
       {
         "use": "Islands",
@@ -727,7 +727,7 @@
           "Names don’t take ‘an’.",
           ""
         ],
-        "explain": "Island groups → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Island groups → the."
       },
       {
         "use": "Island",
@@ -745,7 +745,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Single island: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Single island: no article."
       },
       {
         "use": "Street",
@@ -763,7 +763,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Streets: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Streets: no article."
       },
       {
         "use": "Museum",
@@ -781,7 +781,7 @@
           "Names don’t take ‘an’.",
           ""
         ],
-        "explain": "Museums → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Museums → the."
       },
       {
         "use": "Of pattern",
@@ -799,7 +799,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "The … of … → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "The … of … → the."
       },
       {
         "use": "Of pattern",
@@ -835,7 +835,7 @@
           "",
           "Names don’t take ‘an’."
         ],
-        "explain": "Possessive names: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Possessive names: no article."
       },
       {
         "use": "Which",
@@ -853,7 +853,7 @@
           "Names don’t take ‘a’.",
           "The Mediterranean is a sea, not a lake."
         ],
-        "explain": "Seas → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Seas → the."
       },
       {
         "use": "Which",
@@ -871,7 +871,7 @@
           "Names don’t take ‘a’.",
           "Wrong word order."
         ],
-        "explain": "Lakes: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Lakes: no article."
       },
       {
         "use": "City",
@@ -889,7 +889,7 @@
           "",
           "Names don’t take ‘an’."
         ],
-        "explain": "Cities: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Cities: no article."
       },
       {
         "use": "Country",
@@ -907,7 +907,7 @@
           "Names don’t take ‘an’.",
           ""
         ],
-        "explain": "Republic → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Republic → the."
       }
     ]
   },
@@ -1111,7 +1111,7 @@
         "errorIndex": 4,
         "correction": "the",
         "type": "A with country",
-        "message": "‘States’ makes it a group: ‘the USA’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "‘States’ makes it a group: ‘the USA’."
       },
       {
         "tokens": [
@@ -1124,7 +1124,7 @@
         "errorIndex": 3,
         "correction": "the",
         "type": "A with river",
-        "message": "Rivers take ‘the’: ‘the Thames’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Rivers take ‘the’: ‘the Thames’."
       },
       {
         "tokens": [
@@ -1138,7 +1138,7 @@
         "errorIndex": 3,
         "correction": "the",
         "type": "A with sea",
-        "message": "Seas take ‘the’: ‘the North Sea’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Seas take ‘the’: ‘the North Sea’."
       },
       {
         "tokens": [
@@ -1152,7 +1152,7 @@
         "errorIndex": 3,
         "correction": "the",
         "type": "A with ocean",
-        "message": "Oceans take ‘the’: ‘the Arctic Ocean’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Oceans take ‘the’: ‘the Arctic Ocean’."
       },
       {
         "tokens": [
@@ -1166,7 +1166,7 @@
         "errorIndex": 4,
         "correction": "the",
         "type": "A with mountains",
-        "message": "Mountain ranges take ‘the’: ‘the Alps’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Mountain ranges take ‘the’: ‘the Alps’."
       },
       {
         "tokens": [
@@ -1180,7 +1180,7 @@
         "errorIndex": 3,
         "correction": "the",
         "type": "A with islands",
-        "message": "Island groups take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Island groups take ‘the’."
       },
       {
         "tokens": [
@@ -1221,7 +1221,7 @@
         "errorIndex": 2,
         "correction": "the",
         "type": "A with of",
-        "message": "Names with ‘of’ take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Names with ‘of’ take ‘the’."
       },
       {
         "tokens": [
@@ -1236,7 +1236,7 @@
         "errorIndex": 4,
         "correction": "the",
         "type": "A with kingdom",
-        "message": "‘Kingdom’ names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "‘Kingdom’ names take ‘the’."
       }
     ]
   },
@@ -1305,7 +1305,7 @@
           "the"
         ],
         "display": "the",
-        "explain": "Plural country names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t.",
+        "explain": "Plural country names take ‘the’.",
         "wrongNote": "Plural name → the."
       },
       {
@@ -1365,7 +1365,7 @@
           "Cities take no article.",
           "Streets take no article."
         ],
-        "explain": "Rivers → the Rhine, the Nile. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Rivers → the Rhine, the Nile."
       },
       {
         "type": "type",
@@ -1384,7 +1384,7 @@
           "Island groups take ‘the’.",
           ""
         ],
-        "explain": "Single mountains: Mount Etna. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Single mountains: Mount Etna."
       },
       {
         "type": "type",
@@ -1403,7 +1403,7 @@
           "Location doesn’t matter.",
           "It isn’t random."
         ],
-        "explain": "Group / plural names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Group / plural names take ‘the’."
       },
       {
         "type": "type",
@@ -1422,7 +1422,7 @@
           "",
           "It isn’t random."
         ],
-        "explain": "The … of … → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "The … of … → the."
       },
       {
         "type": "mc",
@@ -1441,7 +1441,7 @@
           "",
           "Names don’t take ‘an’."
         ],
-        "explain": "Seas → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Seas → the."
       },
       {
         "type": "mc",
@@ -1460,7 +1460,7 @@
           "A singular countable noun needs an article.",
           "‘Continent’ starts with a consonant sound."
         ],
-        "explain": "Common noun, one of many: a continent. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Common noun, one of many: a continent."
       },
       {
         "type": "mc",
@@ -1479,7 +1479,7 @@
           "Names don’t take ‘an’.",
           ""
         ],
-        "explain": "Cities: no article. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Cities: no article."
       },
       {
         "type": "mc",
@@ -1498,7 +1498,7 @@
           "Names don’t take ‘a’.",
           "Names don’t take ‘an’."
         ],
-        "explain": "Hotels → the. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "explain": "Hotels → the."
       },
       {
         "type": "error",
@@ -1530,7 +1530,7 @@
         ],
         "errorIndex": 3,
         "correction": "the",
-        "message": "Rivers take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Rivers take ‘the’."
       },
       {
         "type": "error",
@@ -1563,7 +1563,7 @@
         ],
         "errorIndex": 3,
         "correction": "the",
-        "message": "Plural names take ‘the’. Plural names, groups, seas and rivers take the; single countries, cities, lakes and mountains don’t."
+        "message": "Plural names take ‘the’."
       }
     ],
     "formLabel": "article"

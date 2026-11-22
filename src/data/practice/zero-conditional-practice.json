@@ -160,7 +160,7 @@
           "arrive"
         ],
         "display": "arrive",
-        "explain": "A school rule: if + present simple, ‘you arrive’ — never ‘will arrive’ after if."
+        "explain": "A school rule: if + present simple, ‘you arrive’ — not ‘will arrive’ after if."
       },
       {
         "use": "Rule",
@@ -750,7 +750,7 @@
     "pairs": [
       {
         "left": "If you heat ice,",
-        "right": "it melts."
+        "right": "it turns into water."
       },
       {
         "left": "If you mix black and white,",
@@ -825,8 +825,8 @@
         "right": "it barks."
       },
       {
-        "left": "If you heat butter,",
-        "right": "it gets soft."
+        "left": "If you put butter in the fridge,",
+        "right": "it gets hard."
       }
     ]
   },
@@ -865,7 +865,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Never use ‘will’ after ‘if’ in a conditional: the if-clause takes the present simple.",
+          "Don’t use ‘will’ after ‘if’ in a conditional: the if-clause takes the present simple.",
           "",
           "‘Mixes’ is for he/she/it. With ‘you’ use the base form: ‘mix’.",
           "‘Mixed’ is past simple, but this colour rule is always true."
@@ -955,7 +955,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Never use ‘will’ in the if-clause: the condition takes the present simple.",
+          "Don’t use ‘will’ in the if-clause: the condition takes the present simple.",
           "‘Was’ is past, but this traffic rule is always true.",
           "‘Be’ is the base form; ‘the light’ (it) needs ‘is’.",
           ""
@@ -1045,7 +1045,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Never use ‘will’ in the if-clause: ‘if you miss’.",
+          "Don’t use ‘will’ in the if-clause: ‘if you miss’.",
           "",
           "‘Misses’ is for he/she/it; with ‘you’ use ‘miss’.",
           "‘Missed’ is past; the question is about a general situation."
@@ -1101,7 +1101,7 @@
         "wrongReasons": [
           "A fact that is always true doesn’t need ‘will’ in the result.",
           "",
-          "Never use ‘will’ in the if-clause.",
+          "Don’t use ‘will’ in the if-clause.",
           "‘Heated’ is past; a general fact takes the present simple."
         ],
         "explain": "Zero conditional: present simple in both clauses."
@@ -1118,7 +1118,7 @@
         "correct": 2,
         "wrongReasons": [
           "‘My mum’ is she, so add -s: ‘gets’.",
-          "Never use ‘will’ after ‘if’.",
+          "Don’t use ‘will’ after ‘if’.",
           "",
           "‘Was’ is past; this habit is still true now."
         ],
@@ -1189,7 +1189,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Never use ‘will’ after ‘if’: the condition takes the present simple.",
+          "Don’t use ‘will’ after ‘if’: the condition takes the present simple.",
           "‘Combines’ is for he/she/it; ‘you’ takes ‘combine’.",
           "‘Combined’ is past; this is a general fact.",
           ""
@@ -1236,7 +1236,7 @@
         "errorIndex": 2,
         "correction": "press",
         "type": "Will in the if-clause",
-        "message": "Never use ‘will’ after ‘if’: ‘If you press this button…’.",
+        "message": "Don’t use ‘will’ after ‘if’: ‘If you press this button…’.",
         "errorSpan": [
           2,
           3
@@ -1472,34 +1472,37 @@
       {
         "tokens": [
           "If",
-          "my",
-          "sister",
-          "is",
-          "sad,",
-          "she",
-          "crys."
+          "you",
+          "leave",
+          "milk",
+          "in",
+          "the",
+          "sun,",
+          "it",
+          "went",
+          "off."
         ],
-        "errorIndex": 6,
-        "correction": "cries.",
-        "type": "Spelling",
-        "message": "Consonant + -y becomes -ies: cry → cries."
+        "errorIndex": 8,
+        "correction": "goes",
+        "type": "Wrong tense",
+        "message": "This is always true, so use the present simple: ‘it goes off’."
       },
       {
         "tokens": [
-          "If",
-          "my",
-          "brother",
-          "is",
-          "late,",
-          "he",
-          "gos",
-          "by",
-          "taxi."
+          "Water",
+          "boils",
+          "if",
+          "you",
+          "heating",
+          "it",
+          "to",
+          "100",
+          "°C."
         ],
-        "errorIndex": 6,
-        "correction": "goes",
-        "type": "Spelling",
-        "message": "Verbs ending in -o add -es: go → goes."
+        "errorIndex": 4,
+        "correction": "heat",
+        "type": "Wrong word",
+        "message": "After ‘if’ use the present simple: ‘you heat’, not ‘heating’."
       },
       {
         "tokens": [
@@ -1718,21 +1721,22 @@
       {
         "type": "ifwhen",
         "use": "Choose the answer",
-        "text": "Plants die {{blank}} they get water.",
+        "text": "Ice melts {{blank}} you heat it.",
         "choices": [
           "if",
-          "when",
           "because",
-          "unless"
+          "although",
+          "until"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "With ‘if’ the meaning is the opposite: plants die if they get water?",
-          "‘When they get water’ would mean they die every time you water them.",
-          "‘Because’ makes water the reason they die, which is wrong.",
-          ""
+          "",
+          "‘Because’ gives a reason, not a condition.",
+          "‘Although’ shows contrast; there is none here.",
+          "‘Until’ means up to a time, not a condition."
         ],
-        "explain": "‘Unless’ = ‘if not’: plants die if they don’t get water."
+        "explain": "‘If’ introduces the condition: ice melts if you heat it.",
+        "sentText": null
       },
       {
         "type": "ifwhen",
@@ -1805,7 +1809,7 @@
         "wrongReasons": [
           "",
           "‘My parents’ is they, so no -s: ‘work’.",
-          "After ‘if’ use the present simple, never ‘will’.",
+          "After ‘if’ use the present simple, not ‘will’.",
           "‘Worked’ is past; this habit is still true."
         ],
         "explain": "A habit with ‘they’: present simple base form."
@@ -1841,7 +1845,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Never use ‘will’ after ‘if’.",
+          "Don’t use ‘will’ after ‘if’.",
           "",
           "An instruction is an imperative, with no -s: ‘close’.",
           "‘Were’ makes it imaginary; a rule takes the present simple."
@@ -1884,7 +1888,7 @@
         ],
         "errorIndex": 2,
         "correction": "finish",
-        "message": "Never use ‘will’ after ‘if’: ‘If you finish early…’.",
+        "message": "Don’t use ‘will’ after ‘if’: ‘If you finish early…’.",
         "errorSpan": [
           2,
           3
