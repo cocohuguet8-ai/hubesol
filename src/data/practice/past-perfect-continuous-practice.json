@@ -106,8 +106,8 @@
       {
         "use": "Duration",
         "kind": "statement",
-        "before": "By 2010, she",
-        "after": "abroad since 2005.",
+        "before": "Before she came home, she",
+        "after": "abroad for five years.",
         "hint": "live",
         "answers": [
           "had been living",
@@ -430,15 +430,14 @@
       {
         "use": "Duration",
         "tokens": [
-          "By",
-          "2010",
-          "she",
+          "She",
           "had",
           "been",
           "living",
           "abroad",
-          "since",
-          "2005."
+          "for",
+          "five",
+          "years."
         ]
       },
       {
@@ -761,7 +760,7 @@
         "right": "Completed earlier action"
       },
       {
-        "left": "By 2010 she had been living abroad since 2005",
+        "left": "She had been living abroad for five years",
         "right": "Duration before a past point"
       },
       {
@@ -946,7 +945,7 @@
       },
       {
         "use": "Duration",
-        "text": "By 2010, she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> abroad since 2005.",
+        "text": "She spoke fluently because she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> abroad for years.",
         "choices": [
           "has been living",
           "was living",
@@ -1430,17 +1429,15 @@
       },
       {
         "tokens": [
-          "By",
-          "2010",
-          "she",
+          "She",
           "had",
           "been",
           "live",
           "abroad",
-          "since",
-          "2005."
+          "for",
+          "years."
         ],
-        "errorIndex": 5,
+        "errorIndex": 3,
         "correction": "living",
         "type": "Wrong form",
         "message": "After ‘had been’ use the -ing form."
