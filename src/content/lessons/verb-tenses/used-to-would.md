@@ -18,7 +18,7 @@ faq:
     a: "Use ‘didn’t use to’ (drop the -d after did): I didn’t use to like coffee."
   - q: "What about ‘be used to’?"
     a: "That’s different: ‘be used to + -ing’ means ‘be accustomed to’ (I’m used to getting up early). ‘Used to + base verb’ is a past habit."
-  - q: "Can I always use the past simple instead?"
+  - q: "Can I use the past simple instead?"
     a: "Often yes: I smoked for years = I used to smoke. But ‘used to’ stresses that it’s no longer true."
 teacherObjectives:
   - "Can use ‘used to’ for past habits and states, and ‘would’ for repeated past actions (CEFR B1)."

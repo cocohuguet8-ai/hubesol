@@ -16,7 +16,7 @@
     "subtitle": "Type the whole verb phrase — ‘used to’ or ‘would’ plus the verb in brackets, whichever the context allows. Remember: ‘would’ can’t describe a past state. Twenty original sentences.",
     "questions": [
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "When I was a kid, I",
         "after": "football every weekend.",
@@ -29,7 +29,7 @@
         "explain": "A repeated past action, now finished — ‘used to play’ (or ‘would play’, because it’s an action)."
       },
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "He",
         "after": ", but he quit five years ago.",
@@ -41,7 +41,7 @@
         "explain": "A finished habit — ‘used to smoke’."
       },
       {
-        "use": "State",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "There",
         "after": "a cinema on this street.",
@@ -53,7 +53,7 @@
         "explain": "A past state, now finished — only ‘used to’ works here, not ‘would’."
       },
       {
-        "use": "State",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "She",
         "after": "really long hair.",
@@ -65,7 +65,7 @@
         "explain": "A past state (appearance) — ‘would’ is impossible here; only ‘used to’."
       },
       {
-        "use": "State — trap",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "I",
         "after": "in ghosts when I was a kid.",
@@ -77,7 +77,7 @@
         "explain": "‘Believe’ is a state verb — ‘would believe’ is wrong. Use ‘used to’."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "Every summer, we",
         "after": "our grandparents.",
@@ -90,7 +90,7 @@
         "explain": "A repeated past action, often in storytelling — ‘would’ (or ‘used to’) works."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "On Sundays, my dad",
         "after": "a big lunch.",
@@ -103,7 +103,7 @@
         "explain": "A repeated action — ‘would cook’ fits the storytelling tone."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "When I was young, I",
         "after": "to school every day.",
@@ -116,7 +116,7 @@
         "explain": "A repeated action — you can write either ‘would walk’ or ‘used to walk’."
       },
       {
-        "use": "Negative",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "I",
         "after": "tomatoes when I was a child.",
@@ -131,7 +131,7 @@
         "explain": "Negative form: ‘didn’t use to’ — no ‘-d’ after ‘did’."
       },
       {
-        "use": "Negative",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "We",
         "after": "a car — we always walked.",
@@ -146,11 +146,11 @@
         "explain": "Negative with a past state: ‘didn’t use to have’."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "kind": "question",
         "before": "",
         "after": "you use to play an instrument as a kid?",
-        "hint": "(did / would)",
+        "hint": "(auxiliary)",
         "answers": [
           "Did"
         ],
@@ -158,11 +158,11 @@
         "explain": "Questions with ‘used to’ start with ‘Did’, like any past simple question."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "kind": "question",
         "before": "Did you",
         "after": "in Madrid?",
-        "hint": "use to / live",
+        "hint": "live",
         "answers": [
           "use to live"
         ],
@@ -170,11 +170,11 @@
         "explain": "After ‘Did’, it’s ‘use to’ — no ‘-d’."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "kind": "question",
         "before": "Did she",
         "after": "professionally?",
-        "hint": "use to / dance",
+        "hint": "dance",
         "answers": [
           "use to dance"
         ],
@@ -182,7 +182,7 @@
         "explain": "‘Use to’ (not ‘used to’) straight after ‘Did’."
       },
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "They",
         "after": "camping every August when the kids were small.",
@@ -195,7 +195,7 @@
         "explain": "A repeated past action — ‘used to go’ (or ‘would go’, because it’s an action, not a state)."
       },
       {
-        "use": "State",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "This building",
         "after": "a school.",
@@ -207,7 +207,7 @@
         "explain": "A past state — ‘used to be’, not ‘would be’."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "Every winter, my grandmother",
         "after": "us jumpers.",
@@ -220,7 +220,7 @@
         "explain": "A repeated action, told like a story — ‘would knit’ fits well."
       },
       {
-        "use": "State — trap",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "I",
         "after": "a bike when I was ten.",
@@ -232,7 +232,7 @@
         "explain": "‘Own’ is a state verb — ‘would own’ is wrong. Use ‘used to’."
       },
       {
-        "use": "Negative",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "He",
         "after": "meat, but now he does.",
@@ -247,11 +247,11 @@
         "explain": "Negative: ‘didn’t use to eat’ — the ‘-d’ only appears on ‘did’."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "kind": "question",
         "before": "",
         "after": "your school use to have a uniform?",
-        "hint": "(did / would)",
+        "hint": "(auxiliary)",
         "answers": [
           "Did"
         ],
@@ -259,7 +259,7 @@
         "explain": "The question auxiliary is ‘Did’, and ‘use to’ keeps no ‘-d’ after it."
       },
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "kind": "statement",
         "before": "When she was little, my sister",
         "after": "to be an astronaut.",
@@ -668,25 +668,25 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "State — trap",
+        "use": "Used to / would",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a lot of free time when I was a student.",
         "choices": [
           "used to have",
           "would have",
-          "have used to",
+          "was having",
           "am used to having"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Have’ (free time) is a past state — ‘would’ can’t be used for states.",
-          "Wrong word order: it’s ‘used to have’.",
+          "‘Was having’ doesn’t describe a past state like having free time.",
           "‘Be used to’ means ‘accustomed to’, not a past state."
         ],
         "explain": "A past state — only ‘used to’ works."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "text": "Every Sunday, my grandfather <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us to the park.",
         "choices": [
           "used to took",
@@ -704,7 +704,7 @@
         "explain": "A repeated action told as a story — ‘would take’."
       },
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the guitar, but I stopped years ago.",
         "choices": [
           "was playing",
@@ -722,7 +722,7 @@
         "explain": "A finished habit — ‘used to play’."
       },
       {
-        "use": "Negative",
+        "use": "Used to / would",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> spicy food as a child.",
         "choices": [
           "wasn’t used to like",
@@ -740,7 +740,7 @@
         "explain": "Negative: ‘didn’t use to’ — no ‘-d’ after ‘did’."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you use to get pocket money?",
         "choices": [
           "Did",
@@ -758,7 +758,7 @@
         "explain": "Questions with ‘used to’ start with ‘Did’."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "text": "Did you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a band?",
         "choices": [
           "used to play",
@@ -776,25 +776,25 @@
         "explain": "After ‘Did’, it’s ‘use to’ with no ‘-d’."
       },
       {
-        "use": "State — trap",
+        "use": "Used to / would",
         "text": "There <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a farm where the mall is now.",
         "choices": [
           "was being",
           "would be",
           "used to be",
-          "was used to be"
+          "had been"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘There was being’ is not a correct form — ‘there used to be’.",
           "‘Be’ here describes a past state — ‘would’ is impossible with states.",
           "",
-          "Mixes two different constructions."
+          "‘Had been’ is past perfect: it doesn’t describe a past state that is now finished."
         ],
         "explain": "A past state — only ‘used to be’ is possible."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "text": "When we were kids, on rainy days we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> board games all afternoon.",
         "choices": [
           "had played",
@@ -812,25 +812,25 @@
         "explain": "A repeated action, storytelling style — ‘would play’."
       },
       {
-        "use": "Confusion — be used to",
+        "use": "Used to / would",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late on Saturdays, but now the baby wakes us at six.",
         "choices": [
           "used to sleep",
           "are used to sleep",
           "used to sleeping",
-          "are used to sleeping"
+          "were used to sleep"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Not a valid combination — ‘be used to’ is followed by ‘-ing’, and it means ‘accustomed to’.",
           "‘Used to’ for a past habit takes the base verb ‘sleep’, not ‘-ing’.",
-          "This means ‘we’re accustomed to sleeping late’ now — but the sentence says that habit has stopped."
+          "‘Used to’ meaning ‘accustomed’ takes -ing, not the base verb."
         ],
         "explain": "A finished past habit is ‘used to’ + base verb — not ‘be used to + -ing’ (accustomed to)."
       },
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "text": "My brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> comic books, but he gave them all away when he left school.",
         "choices": [
           "has collected",
@@ -848,25 +848,25 @@
         "explain": "A finished habit — ‘used to collect’."
       },
       {
-        "use": "Negative",
+        "use": "Used to / would",
         "text": "My grandparents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a television when they were young.",
         "choices": [
           "wouldn’t have",
           "didn’t used to have",
           "didn’t use to have",
-          "hadn’t used to have"
+          "weren’t used to have"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Would’ can’t be used for a past state (having a TV).",
           "No ‘-d’ after ‘did’ — ‘use to’, not ‘used to’.",
           "",
-          "No ‘had’ with ‘used to’ — the negative is ‘didn’t use to have’."
+          "‘Weren’t used to’ means ‘weren’t accustomed to’ and needs -ing."
         ],
         "explain": "Negative past state: ‘didn’t use to have’ — only ‘used to’ covers states."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "text": "When I was little, my mother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to us every night.",
         "choices": [
           "has read",
@@ -884,7 +884,7 @@
         "explain": "A repeated past action told as a story — ‘would read’."
       },
       {
-        "use": "State — trap",
+        "use": "Used to / would",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the answer, but I’ve forgotten it now.",
         "choices": [
           "used to know",
@@ -902,7 +902,7 @@
         "explain": "‘Know’ is a state — only ‘used to know’ works."
       },
       {
-        "use": "Question",
+        "use": "Used to / would",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> she use to work here?",
         "choices": [
           "Was",
@@ -920,7 +920,7 @@
         "explain": "‘Did’ + subject + ‘use to’ + base verb."
       },
       {
-        "use": "Habit",
+        "use": "Used to / would",
         "text": "When I was a kid, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> fish and chips every Friday.",
         "choices": [
           "used to eat",
@@ -938,7 +938,7 @@
         "explain": "A finished weekly habit — ‘used to eat’."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "text": "When I was young, my grandparents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> us all together at Christmas.",
         "choices": [
           "had gathered",
@@ -956,7 +956,7 @@
         "explain": "A repeated festive action — ‘would gather’."
       },
       {
-        "use": "State — trap",
+        "use": "Used to / would",
         "text": "This town <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> much smaller fifty years ago.",
         "choices": [
           "used to be",
@@ -974,7 +974,7 @@
         "explain": "A past state — ‘used to be’ only."
       },
       {
-        "use": "Negative",
+        "use": "Used to / would",
         "text": "When he was young, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the countryside.",
         "choices": [
           "didn’t use to live",
@@ -992,7 +992,7 @@
         "explain": "Negative past state — ‘didn’t use to live’."
       },
       {
-        "use": "Confusion — be used to",
+        "use": "Used to / would",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a big city, but now she lives in a village.",
         "choices": [
           "used to living",
@@ -1010,7 +1010,7 @@
         "explain": "A finished past state is ‘used to’ + base verb, not ‘be used to + -ing’."
       },
       {
-        "use": "Would — action",
+        "use": "Used to / would",
         "text": "When we were kids, we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the corner shop after school.",
         "choices": [
           "have gone",
@@ -1375,7 +1375,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Habit",
+        "use": "Used to / would",
         "sentText": "I {{blank}} my nails, but I stopped last year.",
         "hint": "bite",
         "answers": [
@@ -1386,7 +1386,7 @@
       },
       {
         "type": "fill",
-        "use": "State",
+        "use": "Used to / would",
         "sentText": "My grandad {{blank}} a postman.",
         "hint": "be",
         "answers": [
@@ -1397,7 +1397,7 @@
       },
       {
         "type": "fill",
-        "use": "Would — action",
+        "use": "Used to / would",
         "sentText": "At weekends, my brother and I {{blank}} our bikes for hours.",
         "hint": "ride",
         "answers": [
@@ -1409,7 +1409,7 @@
       },
       {
         "type": "fill",
-        "use": "Negative",
+        "use": "Used to / would",
         "sentText": "My brother {{blank}} reading, but now he loves books.",
         "hint": "not / enjoy",
         "answers": [
@@ -1492,7 +1492,7 @@
       },
       {
         "type": "choice",
-        "use": "State vs action",
+        "use": "Used to / would",
         "text": "‘He ___ be very shy at school.’ Which form fits?",
         "hintVerb": "",
         "choices": [
@@ -1512,7 +1512,7 @@
       },
       {
         "type": "choice",
-        "use": "State vs action",
+        "use": "Used to / would",
         "text": "‘As kids, we ___ build dens in the woods.’ Which form fits?",
         "hintVerb": "",
         "choices": [
@@ -1532,7 +1532,7 @@
       },
       {
         "type": "choice",
-        "use": "State vs action",
+        "use": "Used to / would",
         "text": "‘This café ___ be a bank.’ Which form fits?",
         "hintVerb": "",
         "choices": [
@@ -1552,7 +1552,7 @@
       },
       {
         "type": "choice",
-        "use": "Confusion — be used to",
+        "use": "Used to / would",
         "text": "‘He ___ every morning, but he gave it up.’ Which form fits a finished past habit?",
         "hintVerb": "",
         "choices": [
@@ -1572,7 +1572,7 @@
       },
       {
         "type": "mc",
-        "use": "Question",
+        "use": "Used to / would",
         "text": "Did your parents {{blank}} you to bed early?",
         "choices": [
           "use to send",
@@ -1591,7 +1591,7 @@
       },
       {
         "type": "mc",
-        "use": "Would — action",
+        "use": "Used to / would",
         "text": "When I was at primary school, my older sister {{blank}} me with my homework.",
         "choices": [
           "would help",
@@ -1610,7 +1610,7 @@
       },
       {
         "type": "mc",
-        "use": "Negative",
+        "use": "Used to / would",
         "text": "We {{blank}} a garden in our old flat.",
         "choices": [
           "didn’t use to have",
@@ -1629,7 +1629,7 @@
       },
       {
         "type": "mc",
-        "use": "State — trap",
+        "use": "Used to / would",
         "text": "When I was little, my dad {{blank}} a beard.",
         "choices": [
           "used to have",
