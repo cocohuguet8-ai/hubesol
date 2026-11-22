@@ -12,7 +12,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | G6 | Fill in the gaps | A: The phone’s ringing. B: I ___ it. | will get / 'll get / ll get / ’ll get | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G7 | Fill in the gaps | My cousin has got a place at drama school. He ___ acting. | is going to study / 's going to study / s going to study / ’s going to study | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G8 | Fill in the gaps | What ___ you going to do this weekend? | are | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G9 | Fill in the gaps | A: What would you like? B: I ___ the fish, please. | will have / 'll have / ll have / ’ll have | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G9 | Fill in the gaps | A: What would you like? B: I ___ the fish, please. | will have / 'll have / ll have / ’ll have / am going to have / ’m going to have / 'm going to have / m going to have / going to have | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G10 | Fill in the gaps | Careful! The glass is on the edge. It ___ ! | is going to fall / 's going to fall / s going to fall / ’s going to fall | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G11 | Fill in the gaps | I promise I ___ late again. | won't be / will not be / won’t be | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G12 | Fill in the gaps | We’ve saved some money and we ___ a new flat in Girona. | are going to buy / 're going to buy / re going to buy / ’re going to buy | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -50,7 +50,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | M4 | Matching | an intention you decided last week | Going to | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
 | M5 | Matching | offering to help | Will | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
 | M6 | Matching | black clouds in the sky | Going to | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
-| M7 | Matching | ordering food on the spot | Will | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
+| M7 | Matching | offering to carry someone’s heavy bag | Will | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
 | M8 | Matching | a glass about to fall off a table | Going to | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
 | M9 | Matching | a general prediction | Will | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
 | M10 | Matching | a woman nine months pregnant | Going to | — | ✓ | ✓ | — | ✓ | — | ✓ | ✓ |
@@ -88,11 +88,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E2 | Find the mistake | I will study medicine. I’ve already enrolled. | I am going to study medicine. I’ve already enrolled. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E3 | Find the mistake | The sky is very dark. It will rain soon. | The sky is very dark. It is going to rain soon. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E4 | Find the mistake | I promise I’m going to be on time. | I promise I’ll be on time. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E5 | Find the mistake | It will rains tomorrow, so take an umbrella. | It will rain tomorrow, so take an umbrella. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E5 | Find the mistake | It will rains tomorrow, so take an umbrella. | It will rain tomorrow, so take an umbrella. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E6 | Find the mistake | We will move house next month. We signed the contract yesterday. | We are going to move house next month. We signed the contract yesterday. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E7 | Find the mistake | A: There’s someone at the door. B: I’m going to see who it is. | A: There’s someone at the door. B: I’ll see who it is. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E8 | Find the mistake | Careful! You will fall off the chair! | Careful! You are going to fall off the chair! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E9 | Find the mistake | A: What would you like? B: I’m going to have the fish. | A: What would you like? B: I’ll have the fish. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E9 | Find the mistake | A: The phone is ringing. B: I’m going to answer it. | A: The phone is ringing. B: I’ll answer it. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E10 | Find the mistake | My brother will start a new job on Monday. He got it last week. | My brother is going to start a new job on Monday. He got it last week. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E11 | Find the mistake | Don’t worry. I’m going to help you with that. | Don’t worry. I’ll help you with that. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E12 | Find the mistake | The tank is empty. We will run out of petrol. | The tank is empty. We are going to run out of petrol. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
@@ -102,7 +102,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E16 | Find the mistake | Are you going to visited your cousins this summer? | Are you going to visit your cousins this summer? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E17 | Find the mistake | He are going to buy a new car next week. | He is going to buy a new car next week. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | They aren’t going to coming to the party. | They aren’t going to come to the party. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E19 | Find the mistake | Wait! I am going to open the door for you. | Wait! I’ll open the door for you. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E19 | Find the mistake | Wait! I am going to open the door for you. | Wait! I’ll open the door for you. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E20 | Find the mistake | My parents will buy a new flat. They have already saved the money. | My parents are going to buy a new flat. They have already saved the money. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | A: There’s no bread. B: Oh, I ___ some from the shop. | will get / 'll get / ll get / ’ll get | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | I’ve got the ticket, so I ___ my grandma this weekend. | am going to visit / 'm going to visit / m going to visit / ’m going to visit | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -134,6 +134,3 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | Look at the sky — it ___ snow soon. | is going to | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the sentence with the same meaning as: 'I've already decided to sell my car.' | I'm going to sell my car. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | This bag looks really heavy. — ___ I carry it for you? | Shall | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | The phone's ringing. — I ___ it. (get) | will get / 'll get | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | I will study medicine; I've already enrolled. | I'm going to study medicine; I've already enrolled / I am going to study medicine; I've already enrolled | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | It rains tomorrow. | It will rain tomorrow / It's going to rain tomorrow | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |

@@ -15,7 +15,7 @@ faq:
   - q: "What's the simplest rule?"
     a: "If you decide as you speak, use will. If the decision was made before, or you can see the evidence now, use going to."
   - q: "Are they ever interchangeable?"
-    a: "For general predictions, both are often fine: It will rain / It's going to rain. The difference is clearer with decisions and evidence."
+    a: "For general predictions, both are often fine: It will rain / It's going to rain. For a choice you make as you speak (I’ll have / I’m going to have the fish), both are natural too. The difference is clearer with offers, promises, reactions and evidence."
   - q: "Which one for promises?"
     a: "Use will: I'll always love you. Going to is not normally used for promises."
   - q: "Which for arrangements with other people?"
@@ -59,6 +59,8 @@ The key question: **when was it decided?** Decided as you speak → *will*. Deci
 ### 1. A decision made now
 
 - **I’ll have** the fish, please.
+
+If you have just thought about it (for example, reading a menu), *I’m going to have the fish* is natural too. *Will* is the safe choice here. It is the only natural one for offers, promises and quick reactions (*The phone’s ringing. I’ll get it.*).
 
 ### 2. Promises and offers
 
