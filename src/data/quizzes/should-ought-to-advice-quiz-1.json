@@ -8,8 +8,8 @@
       "options": ["must to", "should to", "shoulds", "should"],
       "answer": 3,
       "explanations": [
-        "Never add 'to' after 'must'.",
-        "Never add 'to' after 'should'.",
+        "'Must' isn't followed by 'to'.",
+        "'Should' isn't followed by 'to'.",
         "Modals never add -s.",
         "Correct! Advice takes 'should' + base verb: 'You should get some rest'."
       ]
@@ -31,8 +31,8 @@
       "answer": 0,
       "explanations": [
         "Correct! 'Ought to' keeps 'to': 'You ought to apologise'.",
-        "'Ought' always needs 'to'.",
-        "Never add 'to' after 'should'.",
+        "'Ought' needs 'to': 'ought to apologise'.",
+        "'Should' isn't followed by 'to'.",
         "Modals never add -s."
       ]
     },
@@ -127,8 +127,8 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "You look ill. You ___ see a doctor.",
-      "hint": "Type one word.",
-      "answers": ["should"],
+      "hint": "Type one or two words.",
+      "answers": ["should", "ought to", "’d better", "'d better", "had better"],
       "explanation": "Advice: should + base verb.",
       "common": [
         {"answer": "must", "why": "'Must' is too strong for simple advice."}
@@ -146,8 +146,8 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "You didn't call her. You ___ have called her. (past advice)",
-      "hint": "Type one word.",
-      "answers": ["should"],
+      "hint": "Type one or two words.",
+      "answers": ["should", "ought to"],
       "explanation": "Past advice: should have + participle.",
       "common": [
         {"answer": "must", "why": "'Must have' is a guess, not advice."}

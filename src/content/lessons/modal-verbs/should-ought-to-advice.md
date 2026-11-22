@@ -42,7 +42,7 @@ draft: false
 | Negative | shouldn't + base verb | You **shouldn't worry**. |
 | Question | Should + subject + base verb? | **Should** I **call** her? |
 
-*Should* is a modal verb: no *-s*, no *to* after it, no *do* in questions. *Ought* is the only modal that **always** takes *to*.
+*Should* is a modal verb: no *-s*, no *to* after it, no *do* in questions. Unlike *should*, *ought* needs *to*.
 
 | ✗ | ✓ |
 |---|---|
@@ -93,12 +93,26 @@ They mean almost the same. *Should* is much more common, especially in questions
 | negative | shouldn't | ought not to (rare) |
 | question | Should I…? | Ought I to…? (very rare) |
 
+## Short answers
+
+We answer a *should* question with the modal, not with *do*.
+
+- "**Should** I wear a tie?" "Yes, you **should**."
+- "**Should** we wait for him?" "No, we **shouldn't**."
+
+## Advice about the past: *should have*
+
+For something that didn't happen, use *should have* + past participle (or *shouldn't have* for regret).
+
+- You didn't call her. You **should have called** her.
+- I feel sick. I **shouldn't have eaten** so much cake.
+
 ## Other ways to give advice
 
 | Phrase | Followed by | Example |
 |---|---|---|
-| If I were you, I'd… | base verb | **If I were you, I'd** apologise. |
-| You'd better… | base verb | **You'd better** hurry. (strong: or there's a problem) |
+| If I were you, I'd… / I wouldn't… | base verb | **If I were you, I'd** apologise. / **I wouldn't** buy it. |
+| You'd better… / You'd better not… | base verb | **You'd better** hurry. (strong: or there's a problem) / **We'd better not** be late. |
 | Why don't you…? | base verb | **Why don't you** ask for help? |
 
 *Had better* is stronger than *should*: it suggests a bad result if you don't do it.

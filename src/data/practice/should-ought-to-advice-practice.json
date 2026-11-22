@@ -23,7 +23,8 @@
         "after": "go to bed earlier.",
         "hint": "should / shouldn’t",
         "answers": [
-          "should"
+          "should",
+          "ought to"
         ],
         "display": "should",
         "explain": "Advice about what is best to do: should + base verb."
@@ -37,7 +38,10 @@
           "shouldn’t",
           "shouldn't",
           "shouldnt",
-          "should not"
+          "should not",
+          "ought not to",
+          "oughtn’t to",
+          "oughtn't to"
         ],
         "display": "shouldn’t",
         "explain": "Advice not to do something: shouldn’t + base verb."
@@ -46,12 +50,13 @@
         "use": "Advice",
         "before": "You",
         "after": "wear a coat. It’s freezing outside.",
-        "hint": "ought to",
+        "hint": "should / ought to",
         "answers": [
-          "ought to"
+          "ought to",
+          "should"
         ],
         "display": "ought to",
-        "explain": "‘Ought’ always needs ‘to’ before the base verb: ought to wear."
+        "explain": "Advice: ‘ought to’ + base verb (‘should’ is also correct): ought to wear."
       },
       {
         "use": "Advice",
@@ -84,7 +89,10 @@
           "shouldn’t",
           "shouldn't",
           "shouldnt",
-          "should not"
+          "should not",
+          "ought not to",
+          "oughtn’t to",
+          "oughtn't to"
         ],
         "display": "shouldn’t",
         "explain": "It’s a bad idea, so the advice is negative: shouldn’t."
@@ -95,7 +103,8 @@
         "after": "recycle plastic bottles.",
         "hint": "should / shouldn’t",
         "answers": [
-          "should"
+          "should",
+          "ought to"
         ],
         "display": "should",
         "explain": "Saying what is the right thing to do: should."
@@ -109,7 +118,10 @@
           "shouldn’t",
           "shouldn't",
           "shouldnt",
-          "should not"
+          "should not",
+          "ought not to",
+          "oughtn’t to",
+          "oughtn't to"
         ],
         "display": "shouldn’t",
         "explain": "Saying what is wrong or dangerous: shouldn’t."
@@ -118,31 +130,36 @@
         "use": "Right and wrong",
         "before": "We",
         "after": "help our neighbours more.",
-        "hint": "ought to",
+        "hint": "should / ought to",
         "answers": [
-          "ought to"
+          "ought to",
+          "should"
         ],
         "display": "ought to",
-        "explain": "A moral opinion with ‘ought to’ (a little stronger than should)."
+        "explain": "A moral opinion: ‘ought to’ or ‘should’ + base verb (‘ought to’ is a little stronger)."
       },
       {
         "use": "Asking",
         "before": "",
         "after": "I tell the teacher about it?",
-        "hint": "should / ought",
+        "hint": "(asking for advice)",
         "answers": [
-          "Should"
+          "Should",
+          "Shall",
+          "shall",
+          "should"
         ],
         "display": "Should",
-        "explain": "Asking for advice: Should + subject + base verb?"
+        "explain": "Asking for advice: Should + subject + base verb? (‘Shall I…?’ also works.)"
       },
       {
         "use": "Asking",
         "before": "What",
         "after": "I buy for my mum’s birthday?",
-        "hint": "should / ought",
+        "hint": "(asking for advice)",
         "answers": [
-          "should"
+          "should",
+          "shall"
         ],
         "display": "should",
         "explain": "A wh- question asking for advice: What should I…?"
@@ -164,10 +181,14 @@
         "after": "arrive at ten — it’s usually on time.",
         "hint": "should / must",
         "answers": [
-          "should"
+          "should",
+          "ought to",
+          "will",
+          "’ll",
+          "'ll"
         ],
         "display": "should",
-        "explain": "‘Should’ can show what we expect to happen."
+        "explain": "‘Should’ shows what we expect to happen (‘ought to’ and ‘will’ also work)."
       },
       {
         "use": "Expectation",
@@ -178,16 +199,22 @@
           "shouldn’t",
           "shouldn't",
           "shouldnt",
-          "should not"
+          "should not",
+          "ought not to",
+          "oughtn’t to",
+          "oughtn't to",
+          "won’t",
+          "won't",
+          "will not"
         ],
         "display": "shouldn’t",
-        "explain": "Expecting something not to happen: shouldn’t be."
+        "explain": "Expecting something not to happen: shouldn’t be (‘won’t’ also works)."
       },
       {
         "use": "Had better",
         "before": "You’d",
         "after": "hurry, or you’ll miss the bus.",
-        "hint": "better",
+        "hint": "(strong advice)",
         "answers": [
           "better"
         ],
@@ -233,7 +260,8 @@
         "after": ".”",
         "hint": "should / do",
         "answers": [
-          "should"
+          "should",
+          "ought to"
         ],
         "display": "should",
         "explain": "Short answers repeat the modal: Yes, you should."
@@ -247,7 +275,10 @@
           "shouldn’t",
           "shouldn't",
           "shouldnt",
-          "should not"
+          "should not",
+          "ought not to",
+          "oughtn’t to",
+          "oughtn't to"
         ],
         "display": "shouldn’t",
         "explain": "Negative short answer: No, we shouldn’t."
@@ -484,16 +515,16 @@
         "right": "You should see a dentist."
       },
       {
-        "left": "I’m always tired.",
+        "left": "I only sleep five hours a night.",
         "right": "You should sleep more."
       },
       {
-        "left": "I’m cold.",
+        "left": "I’m freezing.",
         "right": "You should put on a jumper."
       },
       {
         "left": "I failed my maths test.",
-        "right": "You should study harder."
+        "right": "You should ask your teacher for help."
       },
       {
         "left": "I’m hungry.",
@@ -512,7 +543,7 @@
         "right": "You shouldn’t use your phone so much."
       },
       {
-        "left": "I’m always late.",
+        "left": "I’m always late for school.",
         "right": "You should get up earlier."
       },
       {
@@ -556,7 +587,7 @@
         "right": "You should water them."
       },
       {
-        "left": "I’ve got an exam tomorrow.",
+        "left": "I’ve got an exam tomorrow morning and a party tonight.",
         "right": "You shouldn’t go out tonight."
       }
     ]
@@ -580,7 +611,7 @@
         "wrongReasons": [
           "",
           "‘Should’ is never followed by ‘to’ — the base verb comes straight after it.",
-          "‘Ought’ always needs ‘to’: ‘ought to see’.",
+          "‘Ought’ needs ‘to’: ‘ought to see’.",
           "Modal verbs never take -s, whatever the subject."
         ],
         "explain": "Advice: should + base verb. It’s the most common way to say what’s best."
@@ -596,7 +627,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Ought’ is the one modal that always needs ‘to’.",
+          "‘Ought’ needs ‘to’: ‘ought to wear’.",
           "",
           "‘Should’ never takes ‘to’.",
           "Modals never take -s."
@@ -637,7 +668,7 @@
           "After ‘should’ we use the base verb, not -ing.",
           ""
         ],
-        "explain": "After ‘should’, always the base verb: should eat."
+        "explain": "After ‘should’, use the base verb: should eat."
       },
       {
         "use": "Choose the answer",
@@ -715,14 +746,14 @@
         "use": "Choose the answer",
         "text": "You’d <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> leave now or you’ll miss the train.",
         "choices": [
-          "best",
+          "better not",
           "better to",
           "better",
           "should"
         ],
         "correct": 2,
         "wrongReasons": [
-          "The phrase is ‘had better’, not ‘had best’ in everyday English.",
+          "‘Better not’ would mean the opposite: don’t leave now.",
           "No ‘to’ after ‘had better’.",
           "",
           "‘You’d should’ is impossible."
@@ -825,14 +856,14 @@
         "choices": [
           "do",
           "should",
-          "ought",
+          "would",
           "shall"
         ],
         "correct": 1,
         "wrongReasons": [
           "Short answers repeat the modal, not ‘do’.",
           "",
-          "‘Yes, you ought’ needs ‘to’.",
+          "‘Would’ doesn’t answer ‘should’.",
           "‘Shall’ doesn’t answer ‘should’."
         ],
         "explain": "Short answer: Yes, you should."
@@ -958,7 +989,7 @@
         "errorIndex": 2,
         "correction": "to study",
         "type": "Missing to",
-        "message": "‘Ought’ always needs ‘to’: ‘ought to study’."
+        "message": "‘Ought’ needs ‘to’: ‘ought to study’."
       },
       {
         "tokens": [
@@ -1198,21 +1229,20 @@
       },
       {
         "tokens": [
-          "I",
-          "think",
+          "Why",
           "you",
-          "will",
+          "don’t",
           "try",
-          "this",
-          "restaurant",
-          "—",
-          "it’s",
-          "great."
+          "again?"
         ],
-        "errorIndex": 3,
-        "correction": "should",
-        "type": "Wrong modal",
-        "message": "A recommendation uses ‘should’: ‘I think you should try…’."
+        "errorIndex": 1,
+        "errorSpan": [
+          1,
+          2
+        ],
+        "correction": "don’t you",
+        "type": "Why don’t you",
+        "message": "The order is ‘Why don’t you try again?’."
       }
     ]
   },
@@ -1240,7 +1270,8 @@
         "sentText": "You {{blank}} drink more water when it’s hot.",
         "hint": "should / shouldn’t",
         "answers": [
-          "should"
+          "should",
+          "ought to"
         ],
         "display": "should",
         "explain": "Good advice: should + base verb, no ‘to’.",
@@ -1255,7 +1286,10 @@
           "shouldn’t",
           "shouldn't",
           "shouldnt",
-          "should not"
+          "should not",
+          "ought not to",
+          "oughtn’t to",
+          "oughtn't to"
         ],
         "display": "shouldn’t",
         "explain": "Advice not to do something: shouldn’t.",
@@ -1265,24 +1299,26 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "We {{blank}} leave a tip for the waiter.",
-        "hint": "ought to",
+        "hint": "should / ought to",
         "answers": [
-          "ought to"
+          "ought to",
+          "should"
         ],
         "display": "ought to",
-        "explain": "‘Ought’ always takes ‘to’: ought to leave.",
+        "explain": "‘Ought’ takes ‘to’: ought to leave (‘should’ also works).",
         "wrongNote": "Write ‘ought to’."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "What {{blank}} I say to her?",
-        "hint": "should",
+        "hint": "(asking for advice)",
         "answers": [
-          "should"
+          "should",
+          "shall"
         ],
         "display": "should",
-        "explain": "Asking for advice: What should I…?",
+        "explain": "Asking for advice: What should I…? (‘shall’ also works.)",
         "wrongNote": "Question → ‘should’ before the subject."
       },
       {
