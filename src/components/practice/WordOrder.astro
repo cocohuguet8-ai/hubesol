@@ -262,6 +262,13 @@ const uid = 'wo';
         if (correctWords.slice(cIdx + 1, cIdx + 3).some((w) => w.toLowerCase() === 'been') && correctWords.some((w, k) => k > cIdx && /ing$/.test(w))) {
           return "“" + aux + "” goes between its subject and “been” + -ing.";
         }
+        const nextW = (correctWords[cIdx + 1] || '').toLowerCase();
+        const nextW2 = (correctWords[cIdx + 2] || '').toLowerCase();
+        if (/^(ought|should|shouldn’t|shouldn't|oughtn’t|oughtn't)$/.test(aux.toLowerCase())) {
+          if (nextW === 'to' && nextW2 === 'have') return "“" + aux + (aux.toLowerCase() === 'ought' ? " to" : "") + " have” + past participle comes right after the subject.".replace(/^“(\S+) to have”/, "“$1 to have”");
+          if (nextW === 'to') return "“" + aux + " to” + the base verb comes right after the subject.";
+          return "“" + aux + "” + the base verb comes right after the subject.";
+        }
         return "“" + aux + "” goes between its subject and the past participle.";
       }
       if (cIdx === 0 && /ing$/.test(correctWords[2] || '')) {
