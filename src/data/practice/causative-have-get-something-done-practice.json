@@ -17,7 +17,7 @@
     "subtitle": "Type the causative: have / get in the right tense + object + past participle, or just the missing part. Twenty original sentences.",
     "questions": [
       {
-        "use": "Past",
+        "use": "Causative",
         "before": "I",
         "after": "yesterday. Do you like it?",
         "hint": "(have / my hair / cut)",
@@ -28,7 +28,7 @@
         "explain": "Someone else cut it: had + object + past participle."
       },
       {
-        "use": "Past",
+        "use": "Causative",
         "before": "She",
         "after": "last week.",
         "hint": "(have / her car / repair)",
@@ -39,7 +39,7 @@
         "explain": "A mechanic did it: had + her car + repaired."
       },
       {
-        "use": "Past",
+        "use": "Causative",
         "before": "We",
         "after": "for our passports.",
         "hint": "(get / our photo / take)",
@@ -50,7 +50,7 @@
         "explain": "Informal causative: got + object + taken."
       },
       {
-        "use": "Present",
+        "use": "Causative",
         "before": "My mum",
         "after": "every month.",
         "hint": "(have / her nails / do)",
@@ -61,7 +61,7 @@
         "explain": "A regular service, present simple: has + her nails + done."
       },
       {
-        "use": "Present",
+        "use": "Causative",
         "before": "How often do you",
         "after": "?",
         "hint": "(get / your car / wash)",
@@ -72,7 +72,7 @@
         "explain": "After ‘do you’ use the base form ‘get’ + object + participle."
       },
       {
-        "use": "Continuous",
+        "use": "Causative",
         "before": "We’re",
         "after": "this week.",
         "hint": "(have / the kitchen / paint)",
@@ -83,7 +83,7 @@
         "explain": "In progress now: are having + object + painted."
       },
       {
-        "use": "Perfect",
+        "use": "Causative",
         "before": "They’ve just",
         "after": ".",
         "hint": "(have / the roof / fix)",
@@ -94,7 +94,7 @@
         "explain": "Present perfect causative: have had + object + fixed."
       },
       {
-        "use": "Future",
+        "use": "Causative",
         "before": "I’ll",
         "after": "next week.",
         "hint": "(get / my eyes / test)",
@@ -105,7 +105,7 @@
         "explain": "Future causative: will get + object + tested."
       },
       {
-        "use": "Going to",
+        "use": "Causative",
         "before": "He’s going to",
         "after": ".",
         "hint": "(have / his teeth / check)",
@@ -116,7 +116,7 @@
         "explain": "Planned future: going to have + object + checked."
       },
       {
-        "use": "Modal",
+        "use": "Causative",
         "before": "You should",
         "after": "before the trip.",
         "hint": "(get / your bike / fix)",
@@ -127,7 +127,7 @@
         "explain": "Advice: should get + object + fixed."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "before": "I had my laptop",
         "after": "at the shop.",
         "hint": "(repair)",
@@ -138,7 +138,7 @@
         "explain": "After the object use the past participle: repaired."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "before": "She got her dress",
         "after": "by a tailor.",
         "hint": "(make)",
@@ -149,7 +149,7 @@
         "explain": "Irregular participle: make → made."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "before": "We had a new door",
         "after": "in.",
         "hint": "(put)",
@@ -160,7 +160,7 @@
         "explain": "‘Put’ has the same participle: put."
       },
       {
-        "use": "Bad experience",
+        "use": "Causative",
         "before": "He",
         "after": "on the metro.",
         "hint": "(have / his wallet / steal)",
@@ -171,7 +171,7 @@
         "explain": "A bad thing that happened to him: had + wallet + stolen."
       },
       {
-        "use": "Bad experience",
+        "use": "Causative",
         "before": "We had our windows",
         "after": "in the storm.",
         "hint": "(break)",
@@ -182,10 +182,10 @@
         "explain": "Causative for a bad experience: had + windows + broken."
       },
       {
-        "use": "Question",
+        "use": "Causative",
         "before": "",
-        "after": "you have your hair cut?",
-        "hint": "did / had",
+        "after": "you have your hair cut last week?",
+        "hint": "auxiliary",
         "answers": [
           "Did"
         ],
@@ -193,18 +193,19 @@
         "explain": "Causative questions use ‘did’ + have."
       },
       {
-        "use": "Question",
+        "use": "Causative",
         "before": "Where do you",
         "after": "your nails done?",
-        "hint": "have / had",
+        "hint": "verb",
         "answers": [
-          "have"
+          "have",
+          "get"
         ],
         "display": "have",
-        "explain": "After ‘do you’ use the base form ‘have’."
+        "explain": "After ‘do you’ use the base form ‘have’. (‘get’ also works.)"
       },
       {
-        "use": "Negative",
+        "use": "Causative",
         "before": "I",
         "after": "my car cleaned — I did it myself.",
         "hint": "(not have)",
@@ -218,7 +219,7 @@
         "explain": "Negative past causative: didn’t have + object + participle."
       },
       {
-        "use": "Negative",
+        "use": "Causative",
         "before": "She",
         "after": "her hair dyed any more.",
         "hint": "(not get)",
@@ -232,7 +233,7 @@
         "explain": "Negative present: doesn’t get + object + participle."
       },
       {
-        "use": "Self or service",
+        "use": "Causative",
         "before": "I",
         "after": "my own hair yesterday — what a disaster!",
         "hint": "(cut)",
@@ -563,7 +564,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Word order",
+        "use": "Causative",
         "text": "Which sentence means a hairdresser cut it?",
         "choices": [
           "I had my hair cut.",
@@ -581,7 +582,7 @@
         "explain": "Causative order is have + object + participle: someone else did it."
       },
       {
-        "use": "Past",
+        "use": "Causative",
         "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her car <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> last week.",
         "choices": [
           "had / repair",
@@ -599,7 +600,7 @@
         "explain": "Past causative: had + her car + repaired."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "text": "I’m going to have my teeth <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "clean",
@@ -617,7 +618,7 @@
         "explain": "Have + object + past participle: cleaned."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "text": "We had a new kitchen <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> last year.",
         "choices": [
           "fit",
@@ -635,7 +636,7 @@
         "explain": "Causative: had + a new kitchen + fitted."
       },
       {
-        "use": "Question",
+        "use": "Causative",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you have your eyes tested last month?",
         "choices": [
           "Had",
@@ -653,7 +654,7 @@
         "explain": "Causative questions in the past use ‘did’ + have."
       },
       {
-        "use": "Question",
+        "use": "Causative",
         "text": "How often <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you get your hair cut?",
         "choices": [
           "are",
@@ -671,7 +672,7 @@
         "explain": "Present habit question: do + subject + get…?"
       },
       {
-        "use": "Continuous",
+        "use": "Causative",
         "text": "We can’t use the bathroom. We’re <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it redecorated.",
         "choices": [
           "have",
@@ -689,7 +690,7 @@
         "explain": "Present continuous causative: are having + object + participle."
       },
       {
-        "use": "Perfect",
+        "use": "Causative",
         "text": "They’ve just <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the windows replaced.",
         "choices": [
           "had",
@@ -707,7 +708,7 @@
         "explain": "Present perfect causative: have had + object + participle."
       },
       {
-        "use": "Future",
+        "use": "Causative",
         "text": "I’ll <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my phone fixed tomorrow.",
         "choices": [
           "got",
@@ -725,7 +726,7 @@
         "explain": "Future causative: will get + object + participle."
       },
       {
-        "use": "Modal",
+        "use": "Causative",
         "text": "You should <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that cough looked at by a doctor.",
         "choices": [
           "had",
@@ -743,25 +744,25 @@
         "explain": "Advice with a causative: should have + object + participle."
       },
       {
-        "use": "Bad experience",
+        "use": "Causative",
         "text": "Poor Joan! She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on the bus.",
         "choices": [
           "had her bag stolen",
           "stole her bag",
           "had stolen her bag",
-          "has her bag steal"
+          "had her bag stole"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "That means Joan stole it!",
           "That means Joan stole it earlier.",
-          "After the object use the participle ‘stolen’."
+          "After the object use the participle ‘stolen’, not the past simple ‘stole’."
         ],
         "explain": "A bad experience: had + object + participle."
       },
       {
-        "use": "Self or service",
+        "use": "Causative",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the walls myself. It took all weekend!",
         "choices": [
           "had the walls painted",
@@ -779,7 +780,7 @@
         "explain": "‘Myself’ means you did it: no causative."
       },
       {
-        "use": "Get or have",
+        "use": "Causative",
         "text": "Which sentence is more informal?",
         "choices": [
           "I had my bike fixed.",
@@ -797,7 +798,7 @@
         "explain": "‘Get’ makes the causative more informal."
       },
       {
-        "use": "Negative",
+        "use": "Causative",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my car washed — I did it myself.",
         "choices": [
           "didn’t have",
@@ -815,7 +816,7 @@
         "explain": "Negative past causative: didn’t have + object + participle."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "text": "She had her dress <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by a famous designer.",
         "choices": [
           "make",
@@ -833,7 +834,7 @@
         "explain": "Irregular participle: make → made."
       },
       {
-        "use": "Word order",
+        "use": "Causative",
         "text": "Which sentence is correct?",
         "choices": [
           "We got designed our garden.",
@@ -851,7 +852,7 @@
         "explain": "Order: get + object + past participle."
       },
       {
-        "use": "Present",
+        "use": "Causative",
         "text": "My dad <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his suits dry-cleaned.",
         "choices": [
           "has",
@@ -869,7 +870,7 @@
         "explain": "Present simple causative: has + object + participle."
       },
       {
-        "use": "Bad experience",
+        "use": "Causative",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our car broken into last night.",
         "choices": [
           "have",
@@ -887,7 +888,7 @@
         "explain": "A bad past experience: had + object + participle."
       },
       {
-        "use": "Going to",
+        "use": "Causative",
         "text": "She’s going to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> her photo taken for her new ID.",
         "choices": [
           "had",
@@ -905,7 +906,7 @@
         "explain": "Going to + have + object + participle."
       },
       {
-        "use": "Participle",
+        "use": "Causative",
         "text": "Have you had your hair <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>? It looks great!",
         "choices": [
           "cutted",
@@ -1212,12 +1213,13 @@
           "had",
           "my",
           "jacket",
-          "dryclened."
+          "dry-clean",
+          "yesterday."
         ],
         "errorIndex": 4,
-        "correction": "dry-cleaned.",
-        "type": "Spelling",
-        "message": "Spelling: ‘dry-cleaned’."
+        "correction": "dry-cleaned",
+        "type": "Base verb",
+        "message": "After the object use the participle: ‘dry-cleaned’."
       }
     ]
   },
@@ -1241,7 +1243,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Past",
+        "use": "Causative",
         "sentText": "I {{blank}} at the shop.",
         "hint": "have / my bike / fix",
         "answers": [
@@ -1253,7 +1255,7 @@
       },
       {
         "type": "fill",
-        "use": "Future",
+        "use": "Causative",
         "sentText": "We’ll {{blank}} next week.",
         "hint": "get / the carpet / clean",
         "answers": [
@@ -1265,9 +1267,9 @@
       },
       {
         "type": "fill",
-        "use": "Question",
-        "sentText": "{{blank}} you have your phone screen replaced?",
-        "hint": "did / had",
+        "use": "Causative",
+        "sentText": "{{blank}} you have your phone screen replaced last week?",
+        "hint": "auxiliary",
         "answers": [
           "Did"
         ],
@@ -1277,7 +1279,7 @@
       },
       {
         "type": "fill",
-        "use": "Participle",
+        "use": "Causative",
         "sentText": "She had her portrait {{blank}} by an artist.",
         "hint": "paint",
         "answers": [
@@ -1333,7 +1335,7 @@
       },
       {
         "type": "service",
-        "use": "Service",
+        "use": "Causative",
         "text": "A plumber came. We {{blank}} the sink unblocked.",
         "choices": [
           "unblocked",
@@ -1352,7 +1354,7 @@
       },
       {
         "type": "service",
-        "use": "Service",
+        "use": "Causative",
         "text": "I {{blank}} my room myself on Saturday.",
         "choices": [
           "had my room tidied",
@@ -1371,7 +1373,7 @@
       },
       {
         "type": "service",
-        "use": "Service",
+        "use": "Causative",
         "text": "Which sentence means someone else did the work?",
         "choices": [
           "They had the house painted.",
@@ -1390,7 +1392,7 @@
       },
       {
         "type": "service",
-        "use": "Service",
+        "use": "Causative",
         "text": "Which sentence describes something bad that happened to you?",
         "choices": [
           "I stole my phone.",
@@ -1409,7 +1411,7 @@
       },
       {
         "type": "mc",
-        "use": "Participle",
+        "use": "Causative",
         "text": "He had his car {{blank}} yesterday.",
         "choices": [
           "service",
@@ -1428,7 +1430,7 @@
       },
       {
         "type": "mc",
-        "use": "Word order",
+        "use": "Causative",
         "text": "Which is correct?",
         "choices": [
           "I got my watch repaired.",
@@ -1447,7 +1449,7 @@
       },
       {
         "type": "mc",
-        "use": "Present",
+        "use": "Causative",
         "text": "How often do you {{blank}} your hair cut?",
         "choices": [
           "had",
@@ -1466,7 +1468,7 @@
       },
       {
         "type": "mc",
-        "use": "Continuous",
+        "use": "Causative",
         "text": "They’re {{blank}} a swimming pool built.",
         "choices": [
           "have",

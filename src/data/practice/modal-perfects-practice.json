@@ -20,68 +20,78 @@
     "subtitle": "Type the modal perfect: modal + have + past participle. Read the clue to choose must, might, can’t, should or could. Twenty original sentences.",
     "questions": [
       {
-        "use": "Must have",
-        "before": "The streets are wet. It",
+        "use": "Modal perfects",
+        "before": "The streets are wet. I’m sure it",
         "after": "last night.",
-        "hint": "(must / rain)",
+        "hint": "(rain)",
         "answers": [
-          "must have rained"
+          "must have rained",
+          "must’ve rained",
+          "must've rained"
         ],
         "display": "must have rained",
         "explain": "Strong evidence about the past: must have + past participle."
       },
       {
-        "use": "Must have",
+        "use": "Modal perfects",
         "before": "You walked thirty kilometres? You",
         "after": "exhausted!",
-        "hint": "(must / be)",
+        "hint": "(be)",
         "answers": [
-          "must have been"
+          "must have been",
+          "must’ve been",
+          "must've been"
         ],
         "display": "must have been",
         "explain": "Sure deduction about the past: must have been."
       },
       {
-        "use": "Must have",
-        "before": "My pen isn’t here. Someone",
+        "use": "Modal perfects",
+        "before": "My pen isn’t here. I’m sure someone",
         "after": "it.",
-        "hint": "(must / take)",
+        "hint": "(take)",
         "answers": [
-          "must have taken"
+          "must have taken",
+          "must’ve taken",
+          "must've taken"
         ],
         "display": "must have taken",
         "explain": "A sure conclusion: must have + taken (irregular participle)."
       },
       {
-        "use": "Must have",
-        "before": "She speaks Italian perfectly. She",
+        "use": "Modal perfects",
+        "before": "She speaks Italian perfectly. She definitely",
         "after": "in Italy.",
-        "hint": "(must / live)",
+        "hint": "(live)",
         "answers": [
-          "must have lived"
+          "must have lived",
+          "must’ve lived",
+          "must've lived"
         ],
         "display": "must have lived",
         "explain": "Evidence → sure past deduction: must have lived."
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "before": "He",
         "after": "us — we were hiding behind the car.",
-        "hint": "(can’t / see)",
+        "hint": "(see)",
         "answers": [
           "can’t have seen",
           "can't have seen",
           "cant have seen",
-          "cannot have seen"
+          "cannot have seen",
+          "couldn’t have seen",
+          "couldn't have seen"
         ],
         "display": "can’t have seen",
         "explain": "Sure it didn’t happen: can’t have + seen."
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "before": "You",
         "after": "already! You only started five minutes ago.",
-        "hint": "(can’t / finish)",
+        "hint": "(finish)",
         "answers": [
           "can’t have finished",
           "can't have finished",
@@ -92,68 +102,100 @@
         "explain": "Impossible in the time: can’t have finished."
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "before": "She",
         "after": "about the party. It was a secret.",
-        "hint": "(couldn’t / know)",
+        "hint": "(know)",
         "answers": [
           "couldn’t have known",
           "couldn't have known",
           "couldnt have known",
-          "could not have known"
+          "could not have known",
+          "can’t have known",
+          "can't have known"
         ],
         "display": "couldn’t have known",
         "explain": "A softer negative deduction: couldn’t have + known."
       },
       {
-        "use": "Might have",
-        "before": "Pau is late. He",
+        "use": "Modal perfects",
+        "before": "Pau is late. Perhaps he",
         "after": "the bus.",
-        "hint": "(might / miss)",
+        "hint": "(miss)",
         "answers": [
-          "might have missed"
+          "might have missed",
+          "may have missed",
+          "could have missed",
+          "might’ve missed",
+          "might've missed",
+          "may’ve missed",
+          "may've missed",
+          "could’ve missed",
+          "could've missed"
         ],
         "display": "might have missed",
         "explain": "Not sure what happened: might have + missed."
       },
       {
-        "use": "Might have",
-        "before": "I can’t find my keys. I",
+        "use": "Modal perfects",
+        "before": "I can’t find my keys. Maybe I",
         "after": "them at school.",
-        "hint": "(may / leave)",
+        "hint": "(leave)",
         "answers": [
-          "may have left"
+          "may have left",
+          "might have left",
+          "could have left",
+          "may’ve left",
+          "may've left",
+          "might’ve left",
+          "might've left",
+          "could’ve left",
+          "could've left"
         ],
         "display": "may have left",
         "explain": "A possible past event: may have + left."
       },
       {
-        "use": "Might have",
-        "before": "Don’t worry. She",
+        "use": "Modal perfects",
+        "before": "Don’t worry. Maybe she",
         "after": "to charge her phone.",
-        "hint": "(could / forget)",
+        "hint": "(forget)",
         "answers": [
-          "could have forgotten"
+          "could have forgotten",
+          "might have forgotten",
+          "may have forgotten",
+          "could’ve forgotten",
+          "could've forgotten",
+          "might’ve forgotten",
+          "might've forgotten",
+          "may’ve forgotten",
+          "may've forgotten"
         ],
         "display": "could have forgotten",
         "explain": "A possible explanation: could have + forgotten."
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "before": "You",
         "after": "me about the exam! I didn’t know.",
-        "hint": "(should / tell)",
+        "hint": "(tell)",
         "answers": [
-          "should have told"
+          "should have told",
+          "could have told",
+          "ought to have told",
+          "should’ve told",
+          "should've told",
+          "could’ve told",
+          "could've told"
         ],
         "display": "should have told",
         "explain": "Criticism: it was right to tell me, but you didn’t."
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "before": "I",
         "after": "so much cake. I feel sick.",
-        "hint": "(shouldn’t / eat)",
+        "hint": "(eat)",
         "answers": [
           "shouldn’t have eaten",
           "shouldn't have eaten",
@@ -164,43 +206,56 @@
         "explain": "Regret: I ate it, and it was a mistake."
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "before": "We",
         "after": "a table. The restaurant is full.",
-        "hint": "(should / book)",
+        "hint": "(book)",
         "answers": [
-          "should have booked"
+          "should have booked",
+          "ought to have booked",
+          "should’ve booked",
+          "should've booked"
         ],
         "display": "should have booked",
         "explain": "A past mistake: should have + booked."
       },
       {
-        "use": "Could have",
+        "use": "Modal perfects",
         "before": "Be careful! You",
         "after": "yourself.",
-        "hint": "(could / hurt)",
+        "hint": "(hurt)",
         "answers": [
-          "could have hurt"
+          "could have hurt",
+          "might have hurt",
+          "could’ve hurt",
+          "could've hurt",
+          "might’ve hurt",
+          "might've hurt"
         ],
         "display": "could have hurt",
         "explain": "It was possible, but it didn’t happen: could have hurt."
       },
       {
-        "use": "Could have",
+        "use": "Modal perfects",
         "before": "We",
         "after": "the match if we’d played better.",
-        "hint": "(could / win)",
+        "hint": "(win)",
         "answers": [
-          "could have won"
+          "could have won",
+          "might have won",
+          "could’ve won",
+          "could've won",
+          "might’ve won",
+          "might've won"
         ],
         "display": "could have won",
         "explain": "A missed possibility: could have + won."
       },
       {
-        "use": "Needn’t have",
+        "use": "Modal perfects",
         "before": "You",
         "after": "flowers — but thank you!",
-        "hint": "(needn’t / buy)",
+        "hint": "(buy)",
         "answers": [
           "needn’t have bought",
           "needn't have bought",
@@ -211,18 +266,20 @@
         "explain": "You did it, but it wasn’t necessary: needn’t have bought."
       },
       {
-        "use": "Would have",
+        "use": "Modal perfects",
         "before": "I",
         "after": "to the party, but I was ill.",
-        "hint": "(would / come)",
+        "hint": "(come)",
         "answers": [
-          "would have come"
+          "would have come",
+          "would’ve come",
+          "would've come"
         ],
         "display": "would have come",
         "explain": "An imaginary past result: would have + come."
       },
       {
-        "use": "Continuous",
+        "use": "Modal perfects",
         "before": "He didn’t answer. He must have been",
         "after": ".",
         "hint": "(sleep)",
@@ -233,7 +290,7 @@
         "explain": "An action in progress in the past: must have been + -ing."
       },
       {
-        "use": "Participle",
+        "use": "Modal perfects",
         "before": "They should have",
         "after": "home earlier.",
         "hint": "(go)",
@@ -244,7 +301,7 @@
         "explain": "After ‘have’ use the past participle: gone, not went."
       },
       {
-        "use": "Participle",
+        "use": "Modal perfects",
         "before": "She can’t have",
         "after": "this — it’s not her handwriting.",
         "hint": "(write)",
@@ -261,7 +318,7 @@
     "subtitle": "Tap the words to build each sentence — 20 modal perfects for deduction, criticism and missed chances.",
     "sentences": [
       {
-        "use": "Must have",
+        "use": "Modal perfects",
         "tokens": [
           "It",
           "must",
@@ -270,7 +327,7 @@
         ]
       },
       {
-        "use": "Must have",
+        "use": "Modal perfects",
         "tokens": [
           "She",
           "must",
@@ -280,7 +337,7 @@
         ]
       },
       {
-        "use": "Must have",
+        "use": "Modal perfects",
         "tokens": [
           "They",
           "must",
@@ -290,7 +347,7 @@
         ]
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "tokens": [
           "He",
           "can’t",
@@ -300,7 +357,7 @@
         ]
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "tokens": [
           "You",
           "can’t",
@@ -310,7 +367,7 @@
         ]
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "tokens": [
           "She",
           "couldn’t",
@@ -319,7 +376,7 @@
         ]
       },
       {
-        "use": "Might have",
+        "use": "Modal perfects",
         "tokens": [
           "He",
           "might",
@@ -330,7 +387,7 @@
         ]
       },
       {
-        "use": "Might have",
+        "use": "Modal perfects",
         "tokens": [
           "I",
           "may",
@@ -342,7 +399,7 @@
         ]
       },
       {
-        "use": "Might have",
+        "use": "Modal perfects",
         "tokens": [
           "They",
           "could",
@@ -352,7 +409,7 @@
         ]
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "tokens": [
           "You",
           "should",
@@ -362,7 +419,7 @@
         ]
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "tokens": [
           "I",
           "shouldn’t",
@@ -372,7 +429,7 @@
         ]
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "tokens": [
           "We",
           "should",
@@ -382,7 +439,7 @@
         ]
       },
       {
-        "use": "Could have",
+        "use": "Modal perfects",
         "tokens": [
           "You",
           "could",
@@ -392,7 +449,7 @@
         ]
       },
       {
-        "use": "Could have",
+        "use": "Modal perfects",
         "tokens": [
           "We",
           "could",
@@ -403,7 +460,7 @@
         ]
       },
       {
-        "use": "Needn’t have",
+        "use": "Modal perfects",
         "tokens": [
           "You",
           "needn’t",
@@ -412,7 +469,7 @@
         ]
       },
       {
-        "use": "Would have",
+        "use": "Modal perfects",
         "tokens": [
           "I",
           "would",
@@ -422,7 +479,7 @@
         ]
       },
       {
-        "use": "Continuous",
+        "use": "Modal perfects",
         "tokens": [
           "He",
           "must",
@@ -432,7 +489,7 @@
         ]
       },
       {
-        "use": "Continuous",
+        "use": "Modal perfects",
         "tokens": [
           "They",
           "might",
@@ -442,7 +499,7 @@
         ]
       },
       {
-        "use": "Couldn’t have",
+        "use": "Modal perfects",
         "tokens": [
           "It",
           "couldn’t",
@@ -452,7 +509,7 @@
         ]
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "tokens": [
           "She",
           "should",
@@ -560,7 +617,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Must have",
+        "use": "Modal perfects",
         "text": "The floor is wet. Someone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> water.",
         "choices": [
           "must have spilt",
@@ -578,7 +635,7 @@
         "explain": "Strong evidence about the past: must have + past participle."
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "text": "He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the exam — he didn’t study at all!",
         "choices": [
           "mustn’t have passed",
@@ -596,7 +653,7 @@
         "explain": "Sure it didn’t happen: can’t have + past participle."
       },
       {
-        "use": "Might have",
+        "use": "Modal perfects",
         "text": "I’m not sure why she’s late. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the bus.",
         "choices": [
           "must have missed",
@@ -614,7 +671,7 @@
         "explain": "Not sure about the past: might have + past participle."
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me you were coming! I’d have made dinner.",
         "choices": [
           "should told",
@@ -632,7 +689,7 @@
         "explain": "Criticism of a past action that didn’t happen: should have + participle."
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "text": "I feel terrible. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much pizza.",
         "choices": [
           "mustn’t have eaten",
@@ -650,7 +707,7 @@
         "explain": "Regret about the past: shouldn’t have + past participle."
       },
       {
-        "use": "Could have",
+        "use": "Modal perfects",
         "text": "Why did you climb that wall? You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> yourself!",
         "choices": [
           "could hurt",
@@ -668,7 +725,7 @@
         "explain": "It was possible but didn’t happen: could have + participle."
       },
       {
-        "use": "Could have",
+        "use": "Modal perfects",
         "text": "We lost 1–0. We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> if we’d been luckier.",
         "choices": [
           "could won",
@@ -686,7 +743,7 @@
         "explain": "A missed possibility: could have + won."
       },
       {
-        "use": "Participle",
+        "use": "Modal perfects",
         "text": "They should have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> home earlier.",
         "choices": [
           "gone",
@@ -704,7 +761,7 @@
         "explain": "Modal + have + past participle: gone."
       },
       {
-        "use": "Participle",
+        "use": "Modal perfects",
         "text": "She must have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the news by now.",
         "choices": [
           "hear",
@@ -722,7 +779,7 @@
         "explain": "Irregular participle: hear → heard."
       },
       {
-        "use": "Would of",
+        "use": "Modal perfects",
         "text": "Which is correct in writing?",
         "choices": [
           "could of",
@@ -740,7 +797,7 @@
         "explain": "Write ‘could have’ or ‘could’ve’."
       },
       {
-        "use": "Needn’t have",
+        "use": "Modal perfects",
         "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a taxi. The station is only five minutes away!",
         "choices": [
           "needn’t have taken",
@@ -758,7 +815,7 @@
         "explain": "You did it but it wasn’t necessary: needn’t have + participle."
       },
       {
-        "use": "Would have",
+        "use": "Modal perfects",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you, but my phone was dead.",
         "choices": [
           "would called",
@@ -776,17 +833,17 @@
         "explain": "An imaginary past result: would have + participle."
       },
       {
-        "use": "Continuous",
+        "use": "Modal perfects",
         "text": "He didn’t hear the doorbell. He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> music.",
         "choices": [
-          "must have listened to",
+          "must have listening to",
           "must be listening to",
           "must listened to",
           "must have been listening to"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Must have listened’ is possible, but the action was in progress: continuous fits better.",
+          "After ‘have’ use a participle (‘listened’) or ‘been listening’, not ‘listening’ alone.",
           "‘Must be listening’ is about now.",
           "‘Have’ is missing.",
           ""
@@ -794,7 +851,7 @@
         "explain": "An action in progress in the past: must have been + -ing."
       },
       {
-        "use": "Couldn’t have",
+        "use": "Modal perfects",
         "text": "The concert was perfect. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> better!",
         "choices": [
           "couldn’t have been",
@@ -812,7 +869,7 @@
         "explain": "‘Couldn’t have been better’ = it was the best possible."
       },
       {
-        "use": "Must have",
+        "use": "Modal perfects",
         "text": "She’s got a suntan. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> on holiday.",
         "choices": [
           "must be",
@@ -830,7 +887,7 @@
         "explain": "Past deduction: must have been."
       },
       {
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "text": "You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Marta at the party. She was in Paris.",
         "choices": [
           "must have seen",
@@ -848,7 +905,7 @@
         "explain": "Impossible in the past: can’t have seen."
       },
       {
-        "use": "Might have",
+        "use": "Modal perfects",
         "text": "Where’s my phone? I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> it in the car.",
         "choices": [
           "may have left",
@@ -866,7 +923,7 @@
         "explain": "A possible past event: may have + left."
       },
       {
-        "use": "Should have",
+        "use": "Modal perfects",
         "text": "We missed the start. We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> earlier.",
         "choices": [
           "must have left",
@@ -884,7 +941,7 @@
         "explain": "A past mistake: should have left."
       },
       {
-        "use": "Have, not has",
+        "use": "Modal perfects",
         "text": "Which sentence is correct?",
         "choices": [
           "He must has forgotten.",
@@ -902,7 +959,7 @@
         "explain": "Modal + have + past participle."
       },
       {
-        "use": "Mustn’t have",
+        "use": "Modal perfects",
         "text": "Which sentence is a correct negative deduction?",
         "choices": [
           "She mustn’t have known.",
@@ -1232,9 +1289,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "Must have",
+        "use": "Modal perfects",
         "sentText": "There’s cake on his face. He {{blank}} it!",
-        "hint": "must / eat",
+        "hint": "(eat)",
         "answers": [
           "must have eaten"
         ],
@@ -1244,9 +1301,9 @@
       },
       {
         "type": "fill",
-        "use": "Should have",
+        "use": "Modal perfects",
         "sentText": "You {{blank}} for help.",
-        "hint": "should / ask",
+        "hint": "(ask)",
         "answers": [
           "should have asked"
         ],
@@ -1256,9 +1313,9 @@
       },
       {
         "type": "fill",
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "sentText": "She {{blank}} far — her coat is still here.",
-        "hint": "can’t / go",
+        "hint": "(go)",
         "answers": [
           "can’t have gone",
           "can't have gone",
@@ -1271,9 +1328,9 @@
       },
       {
         "type": "fill",
-        "use": "Could have",
+        "use": "Modal perfects",
         "sentText": "You {{blank}}! Be more careful.",
-        "hint": "could / fall",
+        "hint": "(fall)",
         "answers": [
           "could have fallen"
         ],
@@ -1283,7 +1340,7 @@
       },
       {
         "type": "order",
-        "use": "Must have",
+        "use": "Modal perfects",
         "tokens": [
           "She",
           "must",
@@ -1293,7 +1350,7 @@
       },
       {
         "type": "order",
-        "use": "Should have",
+        "use": "Modal perfects",
         "tokens": [
           "I",
           "should",
@@ -1303,7 +1360,7 @@
       },
       {
         "type": "order",
-        "use": "Might have",
+        "use": "Modal perfects",
         "tokens": [
           "They",
           "might",
@@ -1313,7 +1370,7 @@
       },
       {
         "type": "order",
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "tokens": [
           "He",
           "can’t",
@@ -1399,7 +1456,7 @@
       },
       {
         "type": "mc",
-        "use": "Participle",
+        "use": "Modal perfects",
         "text": "He might have {{blank}} the email.",
         "choices": [
           "delete",
@@ -1418,7 +1475,7 @@
       },
       {
         "type": "mc",
-        "use": "Must have",
+        "use": "Modal perfects",
         "text": "The lights are off. They {{blank}} to bed.",
         "choices": [
           "must have gone",
@@ -1437,7 +1494,7 @@
       },
       {
         "type": "mc",
-        "use": "Can’t have",
+        "use": "Modal perfects",
         "text": "You {{blank}} the whole book in an hour!",
         "choices": [
           "mustn’t have read",
@@ -1456,7 +1513,7 @@
       },
       {
         "type": "mc",
-        "use": "Should have",
+        "use": "Modal perfects",
         "text": "I {{blank}} that. I’m sorry.",
         "choices": [
           "mustn’t have said",

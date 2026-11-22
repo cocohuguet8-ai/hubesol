@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "How ___ people came to the party?",
-      "options": ["lot of", "much", "a lot", "many"],
+      "options": [
+        "lot of",
+        "much",
+        "a lot",
+        "many"
+      ],
       "answer": 3,
       "explanations": [
         "'How lot of' is not correct.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I don't have ___ time today.",
-      "options": ["a lot", "many", "much", "few"],
+      "options": [
+        "a lot",
+        "many",
+        "much",
+        "few"
+      ],
       "answer": 2,
       "explanations": [
         "'A lot' needs 'of': 'a lot of time'.",
@@ -27,18 +37,28 @@
     },
     {
       "question": "We have ___ homework this weekend. (positive)",
-      "options": ["many", "a lot of", "a many", "much of"],
+      "options": [
+        "many",
+        "a lot of",
+        "lots",
+        "much of"
+      ],
       "answer": 1,
       "explanations": [
         "'Many' is for countable plurals.",
         "Correct! Positive + uncountable is natural with 'a lot of'.",
-        "'A many' is not correct.",
+        "'Lots' needs 'of' before a noun: 'lots of homework'.",
         "'Much of' needs a specific noun (much of the homework)."
       ]
     },
     {
       "question": "Is there ___ milk left?",
-      "options": ["much", "many", "a lot", "few"],
+      "options": [
+        "much",
+        "many",
+        "a lot",
+        "few"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Milk' is uncountable, and 'much' fits the question.",
@@ -49,18 +69,28 @@
     },
     {
       "question": "She has ___ friends in London. (positive)",
-      "options": ["a lot of", "much", "a much", "any"],
+      "options": [
+        "a lot of",
+        "much",
+        "lot of",
+        "any"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Positive + countable is natural with 'a lot of'.",
         "'Much' is for uncountable nouns.",
-        "'A much' is not correct.",
+        "'Lot of' needs 'a': 'a lot of friends'.",
         "'Any' is for negatives/questions."
       ]
     },
     {
       "question": "How ___ sugar do you want in your tea?",
-      "options": ["few", "many", "a lot", "much"],
+      "options": [
+        "few",
+        "many",
+        "a lot",
+        "much"
+      ],
       "answer": 3,
       "explanations": [
         "'Few' is for countable nouns.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "There aren't ___ eggs left.",
-      "options": ["a lot", "much", "many", "a little"],
+      "options": [
+        "a lot",
+        "much",
+        "many",
+        "a little"
+      ],
       "answer": 2,
       "explanations": [
         "'A lot' needs 'of' here.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "We didn't spend ___ money on the trip.",
-      "options": ["many", "much", "a lot", "few"],
+      "options": [
+        "many",
+        "much",
+        "a lot",
+        "few"
+      ],
       "answer": 1,
       "explanations": [
         "'Many' is for countable nouns.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "Which works with BOTH countable and uncountable nouns?",
-      "options": ["a lot of", "much", "many", "how many"],
+      "options": [
+        "a lot of",
+        "much",
+        "many",
+        "how many"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'A lot of' works with both.",
@@ -123,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "How ___ brothers and sisters have you got?",
       "hint": "Type much or many.",
-      "answers": ["many"],
+      "answers": [
+        "many"
+      ],
       "explanation": "'Brothers and sisters' is countable and plural, so 'many'.",
       "common": [
-        {"answer": "much", "why": "'Much' is for uncountable nouns. Brothers and sisters are countable, so 'many'."}
+        {
+          "answer": "much",
+          "why": "'Much' is for uncountable nouns. Brothers and sisters are countable, so 'many'."
+        }
       ]
     },
     {
@@ -134,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "I don't have many time.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I don't have much time"],
+      "answers": [
+        "I don't have much time"
+      ],
       "explanation": "'Time' is uncountable, so 'much'."
     },
     {
@@ -142,7 +194,9 @@
       "kind": "Complete the sentence",
       "question": "We have lots of homework this weekend. → We have a ___ homework this weekend.",
       "hint": "Type two words.",
-      "answers": ["lot of"],
+      "answers": [
+        "lot of"
+      ],
       "explanation": "'A lot of' means the same as 'lots of'."
     }
   ]

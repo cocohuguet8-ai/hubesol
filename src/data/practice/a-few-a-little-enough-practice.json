@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "I’ve got",
         "after": "questions about the homework.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a few"
         ],
@@ -28,7 +28,7 @@
         "use": "Fill the gap",
         "before": "We stayed in Rome for",
         "after": "days.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a few"
         ],
@@ -38,8 +38,8 @@
       {
         "use": "Fill the gap",
         "before": "There are",
-        "after": "biscuits left in the box.",
-        "hint": "a few / a little",
+        "after": "biscuits left in the box. Help yourself.",
+        "hint": "(quantity)",
         "answers": [
           "a few"
         ],
@@ -50,7 +50,7 @@
         "use": "Fill the gap",
         "before": "Can I have",
         "after": "sugar in my tea?",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a little"
         ],
@@ -61,7 +61,7 @@
         "use": "Fill the gap",
         "before": "She speaks",
         "after": "German.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a little"
         ],
@@ -72,7 +72,7 @@
         "use": "Fill the gap",
         "before": "We need",
         "after": "more time.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a little"
         ],
@@ -83,7 +83,7 @@
         "use": "Fill the gap",
         "before": "The village is very quiet —",
         "after": "tourists go there.",
-        "hint": "few / little",
+        "hint": "(quantity)",
         "answers": [
           "few"
         ],
@@ -94,7 +94,7 @@
         "use": "Fill the gap",
         "before": "There’s",
         "after": "hope of finding the cat now.",
-        "hint": "few / little",
+        "hint": "(quantity)",
         "answers": [
           "little"
         ],
@@ -105,7 +105,7 @@
         "use": "Fill the gap",
         "before": "Do we have",
         "after": "chairs for everyone?",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -116,7 +116,7 @@
         "use": "Fill the gap",
         "before": "There isn’t",
         "after": "milk for a cake.",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -127,7 +127,7 @@
         "use": "Fill the gap",
         "before": "This coat isn’t warm",
         "after": "for winter.",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -138,7 +138,7 @@
         "use": "Fill the gap",
         "before": "Is the water hot",
         "after": "for a bath?",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -149,7 +149,7 @@
         "use": "Fill the gap",
         "before": "You aren’t speaking loudly",
         "after": ".",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -160,7 +160,7 @@
         "use": "Fill the gap",
         "before": "She’s old",
         "after": "to vote.",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -171,7 +171,7 @@
         "use": "Fill the gap",
         "before": "Quite",
         "after": "students passed with top marks.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a few"
         ],
@@ -182,7 +182,7 @@
         "use": "Fill the gap",
         "before": "I’ve only got",
         "after": "money left.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a little"
         ],
@@ -193,7 +193,7 @@
         "use": "Fill the gap",
         "before": "I’ll be ready in",
         "after": "minutes.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a few"
         ],
@@ -204,7 +204,7 @@
         "use": "Fill the gap",
         "before": "Add",
         "after": "salt to the pasta water.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a little"
         ],
@@ -215,7 +215,7 @@
         "use": "Fill the gap",
         "before": "I didn’t get",
         "after": "sleep last night.",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -226,7 +226,7 @@
         "use": "Fill the gap",
         "before": "He isn’t tall",
         "after": "to reach the shelf.",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -646,14 +646,14 @@
         "choices": [
           "enough hot",
           "hot a little",
-          "a few hot",
+          "hotter enough",
           "hot enough"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Enough’ goes after the adjective.",
           "Wrong word order.",
-          "Not English.",
+          "‘Enough’ goes with the plain adjective: ‘hot enough’.",
           ""
         ],
         "explain": "Adjective + enough: hot enough."
@@ -664,15 +664,15 @@
         "choices": [
           "hard enough",
           "enough hard",
-          "enough harder",
-          "a few hard"
+          "hardly enough",
+          "harder enough"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Enough’ goes after an adverb.",
-          "Not English.",
-          "Not English."
+          "‘Hardly’ means almost not at all; the adverb here is ‘hard’.",
+          "‘Enough’ goes with the plain adverb: ‘hard enough’."
         ],
         "explain": "Adverb + enough: hard enough."
       },
@@ -806,17 +806,17 @@
         "use": "Choose the answer",
         "text": "There are <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> teachers for so many students.",
         "choices": [
-          "enough not",
-          "a few enough",
+          "no enough",
+          "a little",
           "not enough",
-          "little enough"
+          "not enough of"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong order.",
-          "Not English.",
+          "‘No enough’ is a common slip: the negative is ‘not enough’.",
+          "‘Teachers’ is countable, so not ‘a little’.",
           "",
-          "Not English."
+          "‘Enough’ goes directly before the noun: ‘not enough teachers’."
         ],
         "explain": "There aren’t enough / there are not enough."
       },
@@ -826,14 +826,14 @@
         "choices": [
           "The room isn’t big enough.",
           "The room isn’t enough big.",
-          "The room isn’t big a few.",
+          "The room hasn’t big enough.",
           "The room isn’t big little."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Enough’ goes after adjectives.",
-          "Not English.",
+          "Use ‘isn’t’ with an adjective: ‘isn’t big enough’.",
           "Not English."
         ],
         "explain": "Big enough."
@@ -1234,7 +1234,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I invited {{blank}} friends for dinner.",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a few"
         ],
@@ -1246,7 +1246,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Would you like {{blank}} cream?",
-        "hint": "a few / a little",
+        "hint": "(quantity)",
         "answers": [
           "a little"
         ],
@@ -1258,7 +1258,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "The bed isn’t long {{blank}} for him.",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -1270,7 +1270,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Have you got {{blank}} money?",
-        "hint": "enough",
+        "hint": "(quantity)",
         "answers": [
           "enough"
         ],
@@ -1365,14 +1365,14 @@
           "after it",
           "before it",
           "at the start",
-          "never with adjectives"
+          "instead of the adjective"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "That’s with nouns.",
           "Not natural.",
-          "It goes with adjectives often."
+          "‘Enough’ goes with the adjective; it doesn’t replace it."
         ],
         "explain": "Adjective + enough: big enough."
       },
@@ -1384,14 +1384,14 @@
           "some people came, OK",
           "lots of people came",
           "almost nobody came",
-          "nobody was invited"
+          "too many people came"
         ],
         "correct": 2,
         "wrongReasons": [
           "That would be ‘a few’.",
           "That’s the opposite.",
           "",
-          "It’s about coming, not invitations."
+          "‘Few’ means a small number, not too many."
         ],
         "explain": "Few (no ‘a’) = negative idea."
       },
@@ -1439,15 +1439,15 @@
         "text": "Are you {{blank}} to carry that?",
         "choices": [
           "enough strong",
-          "strong a few",
-          "a little enough",
+          "strong of enough",
+          "enough of strong",
           "strong enough"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Enough’ goes after the adjective.",
-          "Not English.",
-          "Not English.",
+          "Adjective + ‘enough’, with no ‘of’.",
+          "‘Enough’ goes after the adjective, with no ‘of’.",
           ""
         ],
         "explain": "Strong enough."

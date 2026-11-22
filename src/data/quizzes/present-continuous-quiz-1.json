@@ -6,15 +6,15 @@
     {
       "question": "Be quiet! The baby ___.",
       "options": [
-        "sleeps",
         "is sleeping",
+        "sleeps",
         "has slept",
         "sleep"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "‘Sleeps’ is present simple (a habit). Right now we need the present continuous: ‘is sleeping’.",
         "Correct! An action happening right now takes the present continuous: ‘is sleeping’.",
+        "‘Sleeps’ is present simple (a habit). Right now we need the present continuous: ‘is sleeping’.",
         "‘Has slept’ looks back at a finished action. The baby is sleeping now.",
         "‘Sleep’ is the base form and doesn’t agree with ‘the baby’. Use ‘is sleeping’."
       ]
@@ -23,16 +23,16 @@
       "question": "They ___ TV at the moment.",
       "options": [
         "watch",
-        "are watching",
+        "is watching",
         "have watched",
-        "is watching"
+        "are watching"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanations": [
         "‘Watch’ is present simple (a habit). ‘At the moment’ needs ‘are watching’.",
-        "Correct! ‘At the moment’ signals now, so use are + verb-ing.",
+        "‘Is’ is singular, but ‘they’ takes ‘are’: ‘are watching’.",
         "‘Have watched’ is present perfect, not an action in progress now.",
-        "‘Is’ is singular, but ‘they’ takes ‘are’: ‘are watching’."
+        "Correct! ‘At the moment’ signals now, so use are + verb-ing."
       ]
     },
     {
@@ -185,13 +185,13 @@
     {
       "type": "write",
       "kind": "Correct the mistake",
-      "question": "I’m going to the gym every day.",
+      "question": "Water is boiling at 100 degrees Celsius.",
       "hint": "Type the whole corrected sentence.",
       "answers": [
-        "I go to the gym every day",
-        "I go to the gym every day."
+        "Water boils at 100 degrees Celsius",
+        "Water boils at 100 degrees Celsius."
       ],
-      "explanation": "A habit uses the present simple."
+      "explanation": "A scientific fact uses the present simple."
     },
     {
       "type": "write",

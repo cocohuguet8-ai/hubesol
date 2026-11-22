@@ -139,7 +139,7 @@
         "kind": "question",
         "before": "",
         "after": "you coming to the party on Saturday?",
-        "hint": "(Are / Do)",
+        "hint": "(auxiliary)",
         "answers": [
           "Are",
           "are"
@@ -328,7 +328,7 @@
         "kind": "question",
         "before": "What time",
         "after": "you meeting Sam tomorrow?",
-        "hint": "(are / do)",
+        "hint": "(auxiliary)",
         "answers": [
           "are"
         ],
@@ -838,14 +838,14 @@
         "choices": [
           "am seeing",
           "see",
-          "will see",
+          "am see",
           "saw"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: the present simple is only for timetables — a personal arrangement takes the present continuous.",
-          "Wrong form: ‘will’ is for decisions made now — this is already arranged.",
+          "After ‘am/is/are’ the verb needs -ing: ‘am seeing’.",
           "Wrong tense: the time word points to the future, not the past."
         ],
         "explain": "‘I’ve booked an appointment’ shows a fixed arrangement, so use the present continuous: am seeing."
@@ -946,14 +946,14 @@
         "choices": [
           "have",
           "had",
-          "will have",
+          "am have",
           "am having"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong tense: the present simple is only for timetables — a personal arrangement takes the present continuous.",
           "Wrong tense: the time word points to the future, not the past.",
-          "Wrong form: ‘will’ is for decisions made now — this is already arranged.",
+          "After ‘am/is/are’ the verb needs -ing: ‘am having’.",
           ""
         ],
         "explain": "Dinner with Ana is a plan with another person for tonight: present continuous — am having."
@@ -1145,14 +1145,14 @@
           "meet",
           "am meeting",
           "met",
-          "will meet"
+          "am meet"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: the present simple is only for timetables — a personal arrangement takes the present continuous.",
           "",
           "Wrong tense: the time word points to the future, not the past.",
-          "Wrong form: ‘will’ is for decisions made now — this is already arranged."
+          "After ‘am/is/are’ the verb needs -ing: ‘am meeting’."
         ],
         "explain": "‘I’ve got an appointment’ shows a fixed arrangement: am meeting."
       },
@@ -1216,8 +1216,7 @@
       {
         "tokens": [
           "We",
-          "will",
-          "meet",
+          "meeting",
           "Sara",
           "at",
           "six",
@@ -1227,11 +1226,11 @@
         ],
         "errorIndex": 1,
         "correction": "are meeting",
-        "type": "Wrong tense",
-        "message": "A fixed arrangement takes the present continuous.",
+        "type": "Missing ‘be’",
+        "message": "Arrangement: ‘We are meeting Sara…’ — the verb ‘be’ is needed.",
         "errorSpan": [
           1,
-          2
+          1
         ]
       },
       {
@@ -1373,26 +1372,22 @@
       },
       {
         "tokens": [
-          "Dad",
-          "will",
-          "drive",
-          "us",
+          "Does",
+          "your",
+          "sister",
+          "coming",
           "to",
           "the",
-          "airport",
-          "on",
-          "Monday,",
-          "as",
-          "we",
-          "arranged."
+          "party",
+          "tomorrow?"
         ],
-        "errorIndex": 1,
-        "correction": "is driving",
-        "type": "Wrong form",
-        "message": "A fixed arrangement takes the present continuous.",
+        "errorIndex": 0,
+        "correction": "Is",
+        "type": "Wrong auxiliary",
+        "message": "A question about an arrangement takes ‘is’ + -ing: ‘Is your sister coming…?’",
         "errorSpan": [
-          1,
-          2
+          0,
+          0
         ]
       },
       {
@@ -1510,9 +1505,8 @@
       },
       {
         "tokens": [
-          "I",
-          "will",
-          "have",
+          "I’ll",
+          "having",
           "dinner",
           "with",
           "Ana",
@@ -1521,13 +1515,13 @@
           "we",
           "arranged."
         ],
-        "errorIndex": 1,
-        "correction": "am having",
-        "type": "Wrong tense",
-        "message": "A fixed arrangement takes the present continuous.",
+        "errorIndex": 0,
+        "correction": "I’m",
+        "type": "Wrong form",
+        "message": "Arrangement: ‘I’m having dinner’, not ‘I’ll having’.",
         "errorSpan": [
-          1,
-          2
+          0,
+          0
         ]
       },
       {
@@ -1759,14 +1753,14 @@
         "choices": [
           "visit",
           "am visiting",
-          "will visit",
+          "am visit",
           "visited"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: the present simple is only for timetables — a personal arrangement takes the present continuous.",
           "",
-          "Wrong form: ‘will’ is for decisions made now — this is already arranged.",
+          "After ‘am/is/are’ the verb needs -ing: ‘am visiting’.",
           "Wrong tense: ‘Friday’ points to the future, not the past."
         ],
         "explain": "A fixed arrangement — present continuous."

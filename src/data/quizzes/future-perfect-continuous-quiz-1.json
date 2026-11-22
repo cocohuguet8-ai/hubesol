@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "By May, I ___ here for ten years.",
-      "options": ["'ll work", "worked", "work", "'ll have been working"],
+      "options": [
+        "'ll work",
+        "worked",
+        "work",
+        "'ll have been working"
+      ],
       "answer": 3,
       "explanations": [
         "'Will work' is a single future action, not the duration up to May.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "By then, she ___ studying for hours.",
-      "options": ["will have been", "will have", "will be", "has been"],
+      "options": [
+        "will have been",
+        "will have",
+        "will be",
+        "has been"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Future perfect continuous = will have been + -ing: 'will have been studying'.",
@@ -27,10 +37,15 @@
     },
     {
       "question": "By 6, I ___ for eight hours.",
-      "options": ["'ll have driven", "'ll have been driving", "drive", "drove"],
+      "options": [
+        "'ll have been drive",
+        "'ll have been driving",
+        "drive",
+        "drove"
+      ],
       "answer": 1,
       "explanations": [
-        "'Will have driven' focuses on completion, but 'for eight hours' stresses duration.",
+        "After 'will have been' you need the -ing form: 'will have been driving'.",
         "Correct! Duration up to a future point takes the future perfect continuous: 'will have been driving'.",
         "'Drive' is present simple, not this future duration.",
         "'Drove' is past simple, but this is about the future."
@@ -38,7 +53,12 @@
     },
     {
       "question": "By June, I ___ her for a year.",
-      "options": ["'ll have been knowing", "know", "'ll have known", "knew"],
+      "options": [
+        "'ll have been knowing",
+        "know",
+        "'ll have known",
+        "knew"
+      ],
       "answer": 2,
       "explanations": [
         "'Know' is a stative verb and isn't used in the continuous.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "They ___ waiting long by the time we get there.",
-      "options": ["don't have", "won't", "won't have been", "aren't"],
+      "options": [
+        "don't have",
+        "won't",
+        "won't have been",
+        "aren't"
+      ],
       "answer": 2,
       "explanations": [
         "'Don't have' is present simple, not this future form.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "He'll be tired — he ___ all night.",
-      "options": ["'ll have been driving", "'ll drive", "drives", "drove"],
+      "options": [
+        "'ll have been driving",
+        "'ll drive",
+        "drives",
+        "drove"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Explaining a future state through a long prior activity takes the future perfect continuous: 'will have been driving'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "How long ___ you ___ by 5pm?",
-      "options": ["are / travel", "do / travel", "will / travelling", "will / have been travelling"],
+      "options": [
+        "are / travel",
+        "do / travel",
+        "will / travelling",
+        "will / have been travelling"
+      ],
       "answer": 3,
       "explanations": [
         "'Are you travel' mixes structures. Use 'will you have been travelling'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "By Friday, I ___ the whole course.",
-      "options": ["'ll have been completing", "'ll have completed", "complete", "completed"],
+      "options": [
+        "'ll have been completing",
+        "'ll have completed",
+        "complete",
+        "completed"
+      ],
       "answer": 1,
       "explanations": [
         "'Complete' describes a finished result, so the continuous doesn't fit.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "By the end of today, we ___ for six hours.",
-      "options": ["rehearse", "'ll rehearse", "'ll have been rehearsing", "rehearsed"],
+      "options": [
+        "rehearse",
+        "'ll rehearse",
+        "'ll have been rehearsing",
+        "rehearsed"
+      ],
       "answer": 2,
       "explanations": [
         "'Rehearse' is present simple, not this future duration.",
@@ -123,10 +168,16 @@
       "kind": "Fill in the gap",
       "question": "By May, I ___ living here for ten years. (will + ?)",
       "hint": "Type three words.",
-      "answers": ["will have been", "'ll have been"],
+      "answers": [
+        "will have been",
+        "'ll have been"
+      ],
       "explanation": "Future perfect continuous: will have been + -ing.",
       "common": [
-        {"answer": "will be", "why": "Duration up to a future point needs 'will have been'."}
+        {
+          "answer": "will be",
+          "why": "Duration up to a future point needs 'will have been'."
+        }
       ]
     },
     {
@@ -134,7 +185,10 @@
       "kind": "Correct the mistake",
       "question": "By Friday I'll have been completing the course.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["By Friday I'll have completed the course", "By Friday I will have completed the course"],
+      "answers": [
+        "By Friday I'll have completed the course",
+        "By Friday I will have completed the course"
+      ],
       "explanation": "A completed result uses the future perfect simple."
     },
     {
@@ -142,7 +196,10 @@
       "kind": "Correct the mistake",
       "question": "I'll have been knowing her for years.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I'll have known her for years", "I will have known her for years"],
+      "answers": [
+        "I'll have known her for years",
+        "I will have known her for years"
+      ],
       "explanation": "'Know' is stative: no continuous."
     }
   ]

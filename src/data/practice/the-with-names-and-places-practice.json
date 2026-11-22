@@ -19,22 +19,23 @@
     "subtitle": "Type the, or — (dash) when no article is needed. Twenty original sentences.",
     "questions": [
       {
-        "use": "Country",
+        "use": "Place name",
         "before": "My cousin lives in",
         "after": "Germany.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Most countries take no article: ‘Germany’."
       },
       {
-        "use": "Country",
+        "use": "Place name",
         "before": "We flew to",
         "after": "United States last summer.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -42,10 +43,10 @@
         "explain": "‘States’ makes it a group: ‘the United States’."
       },
       {
-        "use": "Country",
+        "use": "Place name",
         "before": "Have you ever been to",
         "after": "Netherlands?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -53,10 +54,10 @@
         "explain": "Plural country name: ‘the Netherlands’."
       },
       {
-        "use": "Country",
+        "use": "Place name",
         "before": "London is the capital of",
         "after": "UK.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -64,22 +65,23 @@
         "explain": "‘Kingdom’ countries take ‘the’: ‘the UK’."
       },
       {
-        "use": "Continent",
+        "use": "Place name",
         "before": "Kenya is in",
         "after": "Africa.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Continents take no article."
       },
       {
-        "use": "Ocean",
+        "use": "Place name",
         "before": "They sailed across",
         "after": "Atlantic.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -87,10 +89,10 @@
         "explain": "Oceans take ‘the’: ‘the Atlantic’."
       },
       {
-        "use": "Sea",
+        "use": "Place name",
         "before": "We swam in",
         "after": "Mediterranean.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -98,10 +100,10 @@
         "explain": "Seas take ‘the’: ‘the Mediterranean’."
       },
       {
-        "use": "River",
+        "use": "Place name",
         "before": "",
         "after": "Ebro is the longest river in Catalonia.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -110,22 +112,23 @@
         "explain": "Rivers take ‘the’: ‘the Ebro’."
       },
       {
-        "use": "Lake",
+        "use": "Place name",
         "before": "We had a picnic by",
         "after": "Lake Banyoles.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Lakes take no article: ‘Lake Banyoles’."
       },
       {
-        "use": "Mountains",
+        "use": "Place name",
         "before": "We go skiing in",
         "after": "Pyrenees.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -133,22 +136,23 @@
         "explain": "Mountain ranges take ‘the’."
       },
       {
-        "use": "Mountain",
+        "use": "Place name",
         "before": "Have you climbed",
         "after": "Mount Kilimanjaro?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Single mountains take no article."
       },
       {
-        "use": "Islands",
+        "use": "Place name",
         "before": "My grandparents live in",
         "after": "Balearic Islands.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -156,58 +160,62 @@
         "explain": "Island groups take ‘the’."
       },
       {
-        "use": "Island",
+        "use": "Place name",
         "before": "We spent a week in",
         "after": "Menorca.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "A single island: no article."
       },
       {
-        "use": "City",
+        "use": "Place name",
         "before": "She was born in",
         "after": "Paris.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Cities take no article."
       },
       {
-        "use": "Street",
+        "use": "Place name",
         "before": "There’s a great café on",
         "after": "Oxford Street.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Streets take no article."
       },
       {
-        "use": "Park",
+        "use": "Place name",
         "before": "Let’s go for a walk in",
         "after": "Hyde Park.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Parks take no article."
       },
       {
-        "use": "Museum",
+        "use": "Place name",
         "before": "We saw the Mona Lisa at",
         "after": "Louvre.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -215,10 +223,10 @@
         "explain": "Museums usually take ‘the’."
       },
       {
-        "use": "Hotel",
+        "use": "Place name",
         "before": "They stayed at",
         "after": "Hilton.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -226,10 +234,10 @@
         "explain": "Hotels usually take ‘the’."
       },
       {
-        "use": "Of pattern",
+        "use": "Place name",
         "before": "We visited",
         "after": "Tower of London.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -237,13 +245,14 @@
         "explain": "Names with ‘of’ take ‘the’."
       },
       {
-        "use": "Possessive name",
+        "use": "Place name",
         "before": "Let’s meet at",
         "after": "McDonald’s.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "–"
         ],
         "display": "—",
         "explain": "Names with ’s take no article."
@@ -550,362 +559,284 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Country",
+        "use": "Place name",
         "text": "My best friend moved to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Canada.",
         "choices": [
           "—",
-          "the",
-          "a",
-          "an"
+          "the"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Single country names take no article.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          "Single country names take no article."
         ],
         "explain": "Most countries: no article."
       },
       {
-        "use": "Country",
+        "use": "Place name",
         "text": "She’s studying in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> United Kingdom.",
         "choices": [
-          "—",
           "the",
-          "a",
-          "an"
+          "—"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "‘Kingdom’ names need ‘the’.",
           "",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          "‘Kingdom’ names need ‘the’."
         ],
         "explain": "Kingdom / Republic / States → the."
       },
       {
-        "use": "Country",
+        "use": "Place name",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Maldives are famous for their beaches.",
         "choices": [
           "—",
-          "A",
-          "The",
-          "An"
+          "The"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Plural country names need ‘the’.",
-          "Names don’t take ‘a’.",
-          "",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Plural name → the Maldives."
       },
       {
-        "use": "Continent",
+        "use": "Place name",
         "text": "Brazil is the biggest country in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> South America.",
         "choices": [
-          "the",
-          "a",
-          "an",
-          "—"
+          "—",
+          "the"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "Continents take no article.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’.",
-          ""
+          "",
+          "Continents take no article."
         ],
         "explain": "Continents: no article."
       },
       {
-        "use": "Ocean",
+        "use": "Place name",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Indian Ocean is warm.",
         "choices": [
           "—",
-          "The",
-          "A",
-          "An"
+          "The"
         ],
         "correct": 1,
         "wrongReasons": [
           "Oceans need ‘the’.",
-          "",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Oceans → the."
       },
       {
-        "use": "River",
+        "use": "Place name",
         "text": "Budapest is on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Danube.",
         "choices": [
-          "—",
-          "a",
           "the",
-          "an"
+          "—"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Rivers need ‘the’.",
-          "Names don’t take ‘a’.",
           "",
-          "Names don’t take ‘an’."
+          "Rivers need ‘the’."
         ],
         "explain": "Rivers → the."
       },
       {
-        "use": "Lake",
+        "use": "Place name",
         "text": "We went sailing on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Lake Garda.",
         "choices": [
           "the",
-          "a",
-          "an",
           "—"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
           "‘Lake + name’ takes no article.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’.",
           ""
         ],
         "explain": "Lakes: no article."
       },
       {
-        "use": "Mountains",
+        "use": "Place name",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Andes run through seven countries.",
         "choices": [
-          "The",
           "—",
-          "A",
-          "An"
+          "The"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "Mountain ranges need ‘the’.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Ranges → the Andes."
       },
       {
-        "use": "Mountain",
+        "use": "Place name",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Mount Fuji is the highest mountain in Japan.",
         "choices": [
           "The",
-          "A",
-          "—",
-          "An"
+          "—"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "‘Mount + name’ takes no article.",
-          "Names don’t take ‘a’.",
-          "",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Single mountain: no article."
       },
       {
-        "use": "Islands",
+        "use": "Place name",
         "text": "We’re going to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Canary Islands in May.",
         "choices": [
-          "—",
-          "a",
-          "an",
-          "the"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Island groups need ‘the’.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’.",
-          ""
-        ],
-        "explain": "Island groups → the."
-      },
-      {
-        "use": "Island",
-        "text": "Have you ever been to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Crete?",
-        "choices": [
-          "—",
           "the",
-          "a",
-          "an"
+          "—"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "A single island takes no article.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          "Island groups need ‘the’."
+        ],
+        "explain": "Island groups → the."
+      },
+      {
+        "use": "Place name",
+        "text": "Have you ever been to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Crete?",
+        "choices": [
+          "—",
+          "the"
+        ],
+        "correct": 0,
+        "wrongReasons": [
+          "",
+          "A single island takes no article."
         ],
         "explain": "Single island: no article."
       },
       {
-        "use": "Street",
+        "use": "Place name",
         "text": "The shop is on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Baker Street.",
         "choices": [
-          "the",
           "—",
-          "a",
-          "an"
+          "the"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Streets take no article.",
           "",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          "Streets take no article."
         ],
         "explain": "Streets: no article."
       },
       {
-        "use": "Museum",
+        "use": "Place name",
         "text": "Have you visited <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Guggenheim in Bilbao?",
         "choices": [
           "—",
-          "a",
-          "an",
           "the"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
           "Museums usually take ‘the’.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’.",
           ""
         ],
         "explain": "Museums → the."
       },
       {
-        "use": "Of pattern",
+        "use": "Place name",
         "text": "We saw <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Statue of Liberty.",
         "choices": [
-          "the",
           "—",
-          "a",
-          "an"
+          "the"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "Names with ‘of’ need ‘the’.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "The … of … → the."
       },
       {
-        "use": "Of pattern",
+        "use": "Place name",
         "text": "He studies at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Oxford University.",
         "choices": [
           "the",
-          "—",
-          "a",
-          "an"
+          "—"
         ],
         "correct": 1,
         "wrongReasons": [
           "Without ‘of’, this name takes no article.",
-          "",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "No ‘of’: Oxford University. (But: the University of Oxford.)"
       },
       {
-        "use": "Possessive name",
+        "use": "Place name",
         "text": "I bought these jeans at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Harrods.",
         "choices": [
-          "the",
-          "a",
           "—",
-          "an"
+          "the"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Names with ’s take no article.",
-          "Names don’t take ‘a’.",
           "",
-          "Names don’t take ‘an’."
+          "Names with ’s take no article."
         ],
         "explain": "Possessive names: no article."
       },
       {
-        "use": "Which",
+        "use": "Place name",
         "text": "Which is correct?",
         "choices": [
           "I live near the Mediterranean.",
           "I live near Mediterranean.",
-          "I live near a Mediterranean.",
           "I live near the Mediterranean Lake."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Seas need ‘the’.",
-          "Names don’t take ‘a’.",
           "The Mediterranean is a sea, not a lake."
         ],
         "explain": "Seas → the."
       },
       {
-        "use": "Which",
+        "use": "Place name",
         "text": "Which is correct?",
         "choices": [
-          "We visited the Lake Tahoe.",
           "We visited Lake Tahoe.",
-          "We visited a Lake Tahoe.",
-          "We visited Lake the Tahoe."
+          "We visited the Lake Tahoe."
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "‘Lake + name’: no article.",
           "",
-          "Names don’t take ‘a’.",
-          "Wrong word order."
+          "‘Lake + name’: no article."
         ],
         "explain": "Lakes: no article."
       },
       {
-        "use": "City",
+        "use": "Place name",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Barcelona is famous for its architecture.",
         "choices": [
           "The",
-          "A",
-          "—",
-          "An"
+          "—"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Cities take no article.",
-          "Names don’t take ‘a’.",
-          "",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Cities: no article."
       },
       {
-        "use": "Country",
+        "use": "Place name",
         "text": "He was born in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Czech Republic.",
         "choices": [
-          "—",
-          "a",
-          "an",
-          "the"
+          "the",
+          "—"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘Republic’ names need ‘the’.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’.",
-          ""
+          "",
+          "‘Republic’ names need ‘the’."
         ],
         "explain": "Republic → the."
       }
@@ -1105,54 +1036,66 @@
           "uncle",
           "works",
           "in",
-          "a",
           "USA."
         ],
         "errorIndex": 4,
-        "correction": "the",
-        "type": "A with country",
-        "message": "‘States’ makes it a group: ‘the USA’."
+        "correction": "the USA.",
+        "type": "Missing the",
+        "message": "‘States’ makes it a group: ‘the USA’.",
+        "errorSpan": [
+          4,
+          4
+        ]
       },
       {
         "tokens": [
           "London",
           "is",
           "on",
-          "a",
           "Thames."
         ],
         "errorIndex": 3,
-        "correction": "the",
-        "type": "A with river",
-        "message": "Rivers take ‘the’: ‘the Thames’."
+        "correction": "the Thames.",
+        "type": "Missing the",
+        "message": "Rivers take ‘the’: ‘the Thames’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
           "We",
           "sailed",
           "on",
-          "a",
           "North",
           "Sea."
         ],
         "errorIndex": 3,
-        "correction": "the",
-        "type": "A with sea",
-        "message": "Seas take ‘the’: ‘the North Sea’."
+        "correction": "the North",
+        "type": "Missing the",
+        "message": "Seas take ‘the’: ‘the North Sea’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
           "Whales",
           "live",
           "in",
-          "an",
           "Arctic",
           "Ocean."
         ],
         "errorIndex": 3,
-        "correction": "the",
-        "type": "A with ocean",
-        "message": "Oceans take ‘the’: ‘the Arctic Ocean’."
+        "correction": "the Arctic",
+        "type": "Missing the",
+        "message": "Oceans take ‘the’: ‘the Arctic Ocean’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1160,68 +1103,83 @@
           "went",
           "hiking",
           "in",
-          "a",
           "Alps."
         ],
         "errorIndex": 4,
-        "correction": "the",
-        "type": "A with mountains",
-        "message": "Mountain ranges take ‘the’: ‘the Alps’."
+        "correction": "the Alps.",
+        "type": "Missing the",
+        "message": "Mountain ranges take ‘the’: ‘the Alps’.",
+        "errorSpan": [
+          4,
+          4
+        ]
       },
       {
         "tokens": [
           "They",
           "live",
           "on",
-          "a",
           "Faroe",
           "Islands."
         ],
         "errorIndex": 3,
-        "correction": "the",
-        "type": "A with islands",
-        "message": "Island groups take ‘the’."
+        "correction": "the Faroe",
+        "type": "Missing the",
+        "message": "Island groups take ‘the’: ‘the Faroe Islands’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
           "She’s",
           "from",
-          "a",
           "Netherlands."
         ],
         "errorIndex": 2,
-        "correction": "the",
-        "type": "A with country",
-        "message": "Plural country names take ‘the’: ‘the Netherlands’."
+        "correction": "the Netherlands.",
+        "type": "Missing the",
+        "message": "Plural country names take ‘the’: ‘the Netherlands’.",
+        "errorSpan": [
+          2,
+          2
+        ]
       },
       {
         "tokens": [
           "We",
           "went",
           "to",
-          "a",
           "Prado",
           "on",
           "Sunday."
         ],
         "errorIndex": 3,
-        "correction": "the",
-        "type": "A with museum",
-        "message": "Museums usually take ‘the’: ‘the Prado’."
+        "correction": "the Prado",
+        "type": "Missing the",
+        "message": "Museums usually take ‘the’: ‘the Prado’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
           "We",
           "visited",
-          "a",
           "Tower",
           "of",
           "London."
         ],
         "errorIndex": 2,
-        "correction": "the",
-        "type": "A with of",
-        "message": "Names with ‘of’ take ‘the’."
+        "correction": "the Tower",
+        "type": "Missing the",
+        "message": "Names with ‘of’ take ‘the’: ‘the Tower of London’.",
+        "errorSpan": [
+          2,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1229,14 +1187,17 @@
           "is",
           "part",
           "of",
-          "a",
           "United",
           "Kingdom."
         ],
         "errorIndex": 4,
-        "correction": "the",
-        "type": "A with kingdom",
-        "message": "‘Kingdom’ names take ‘the’."
+        "correction": "the United",
+        "type": "Missing the",
+        "message": "‘Kingdom’ names take ‘the’: ‘the United Kingdom’.",
+        "errorSpan": [
+          4,
+          4
+        ]
       }
     ]
   },
@@ -1260,9 +1221,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "River",
+        "use": "Place name",
         "sentText": "Seville is on {{blank}} Guadalquivir.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -1272,9 +1233,9 @@
       },
       {
         "type": "fill",
-        "use": "Country",
+        "use": "Place name",
         "sentText": "Have you ever been to {{blank}} Mexico?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -1285,9 +1246,9 @@
       },
       {
         "type": "fill",
-        "use": "Continent",
+        "use": "Place name",
         "sentText": "The Rockies are in {{blank}} North America.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -1298,9 +1259,9 @@
       },
       {
         "type": "fill",
-        "use": "Country",
+        "use": "Place name",
         "sentText": "Manila is the capital of {{blank}} Philippines.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -1426,77 +1387,63 @@
       },
       {
         "type": "mc",
-        "use": "Sea",
+        "use": "Place name",
         "text": "Venice is on {{blank}} Adriatic Sea.",
         "choices": [
           "—",
-          "a",
-          "the",
-          "an"
+          "the"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Seas need ‘the’.",
-          "Names don’t take ‘a’.",
-          "",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Seas → the."
       },
       {
         "type": "mc",
-        "use": "Continent",
+        "use": "Place name",
         "text": "Australia is both a country and {{blank}} continent.",
         "choices": [
           "a",
           "the",
-          "—",
-          "an"
+          "—"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Here ‘continent’ is a common noun: one of many.",
-          "A singular countable noun needs an article.",
-          "‘Continent’ starts with a consonant sound."
+          "A singular countable noun needs an article."
         ],
         "explain": "Common noun, one of many: a continent."
       },
       {
         "type": "mc",
-        "use": "City",
+        "use": "Place name",
         "text": "The Sagrada Família is in {{blank}} Barcelona.",
         "choices": [
           "the",
-          "a",
-          "an",
           "—"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
           "Cities take no article.",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’.",
           ""
         ],
         "explain": "Cities: no article."
       },
       {
         "type": "mc",
-        "use": "Hotel",
+        "use": "Place name",
         "text": "We had tea at {{blank}} Savoy.",
         "choices": [
           "—",
-          "the",
-          "a",
-          "an"
+          "the"
         ],
         "correct": 1,
         "wrongReasons": [
           "Hotels usually take ‘the’.",
-          "",
-          "Names don’t take ‘a’.",
-          "Names don’t take ‘an’."
+          ""
         ],
         "explain": "Hotels → the."
       },

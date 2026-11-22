@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "I have two brothers.",
         "after": "of them play football.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "Both",
           "both"
@@ -29,7 +29,7 @@
         "use": "Fill the gap",
         "before": "She speaks",
         "after": "English and French.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "both"
         ],
@@ -40,7 +40,7 @@
         "use": "Fill the gap",
         "before": "I like",
         "after": "colours — blue and green.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "both"
         ],
@@ -51,7 +51,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "the students in my class passed the exam.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "All",
           "all"
@@ -63,7 +63,7 @@
         "use": "Fill the gap",
         "before": "He ate",
         "after": "the cake! There’s nothing left.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "all"
         ],
@@ -74,7 +74,7 @@
         "use": "Fill the gap",
         "before": "It rained",
         "after": "day yesterday.",
-        "hint": "all / every",
+        "hint": "(quantifier)",
         "answers": [
           "all"
         ],
@@ -85,7 +85,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "of my friends came to the party.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "All",
           "all"
@@ -97,30 +97,33 @@
         "use": "Fill the gap",
         "before": "I go to the gym",
         "after": "Monday.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
-          "every"
+          "every",
+          "each"
         ],
         "display": "every",
-        "explain": "Frequency: ‘every Monday’."
+        "explain": "Frequency: ‘every Monday’ (‘each Monday’ is also possible)."
       },
       {
         "use": "Fill the gap",
         "before": "",
         "after": "room in the hotel has a balcony.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
           "Every",
-          "every"
+          "every",
+          "Each",
+          "each"
         ],
         "display": "Every",
-        "explain": "All the rooms, as a group: ‘every room’ (‘each’ is also possible)."
+        "explain": "All the rooms, one by one or as a group: ‘every room’ / ‘each room’."
       },
       {
         "use": "Fill the gap",
         "before": "The bus comes",
         "after": "ten minutes.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
           "every"
         ],
@@ -131,7 +134,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "is waiting for you.",
-        "hint": "every- / each",
+        "hint": "(pronoun)",
         "answers": [
           "Everyone",
           "Everybody",
@@ -145,7 +148,7 @@
         "use": "Fill the gap",
         "before": "I looked",
         "after": "for my keys.",
-        "hint": "every- / each",
+        "hint": "(adverb)",
         "answers": [
           "everywhere"
         ],
@@ -156,18 +159,19 @@
         "use": "Fill the gap",
         "before": "The teacher gave a book to",
         "after": "student.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
-          "each"
+          "each",
+          "every"
         ],
         "display": "each",
-        "explain": "One by one: ‘each student’."
+        "explain": "One by one: ‘each student’ (‘every student’ is also possible)."
       },
       {
         "use": "Fill the gap",
         "before": "She had a bag in",
         "after": "hand.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
           "each"
         ],
@@ -178,7 +182,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "of the rooms has its own bathroom.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
           "Each",
           "each"
@@ -190,7 +194,7 @@
         "use": "Fill the gap",
         "before": "The tickets cost twenty euros",
         "after": ".",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
           "each"
         ],
@@ -201,7 +205,7 @@
         "use": "Fill the gap",
         "before": "The two teams played well.",
         "after": "team scored a goal.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
           "Each",
           "each"
@@ -213,7 +217,7 @@
         "use": "Fill the gap",
         "before": "I’ve spent",
         "after": "my money.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "all"
         ],
@@ -224,7 +228,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "my parents are teachers.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "Both",
           "both"
@@ -236,12 +240,13 @@
         "use": "Fill the gap",
         "before": "I’ve read",
         "after": "book in this series.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
-          "every"
+          "every",
+          "each"
         ],
         "display": "every",
-        "explain": "All of them, as a group: ‘every book’."
+        "explain": "All of them, as a group: ‘every book’ (‘each book’ is also possible)."
       }
     ],
     "formLabel": "word"
@@ -295,8 +300,8 @@
           "I",
           "ate",
           "all",
-          "of",
-          "it."
+          "the",
+          "cake."
         ]
       },
       {
@@ -464,7 +469,7 @@
         "right": "all"
       },
       {
-        "left": "I brush my teeth ___ morning.",
+        "left": "___one is here.",
         "right": "every"
       },
       {
@@ -476,11 +481,11 @@
         "right": "both"
       },
       {
-        "left": "We danced ___ night.",
+        "left": "We danced ___ night long.",
         "right": "all"
       },
       {
-        "left": "___ student needs a password.",
+        "left": "I looked ___where for it.",
         "right": "every"
       },
       {
@@ -516,7 +521,7 @@
         "right": "every"
       },
       {
-        "left": "The two girls ___ got a prize.",
+        "left": "The two girls got a medal ___.",
         "right": "each"
       },
       {
@@ -524,11 +529,11 @@
         "right": "both"
       },
       {
-        "left": "___ children love stories.",
+        "left": "___ 30 children love stories.",
         "right": "all"
       },
       {
-        "left": "I’ve seen ___ film he made.",
+        "left": "___body loves pizza.",
         "right": "every"
       },
       {
@@ -563,7 +568,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the windows were open.",
+        "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ten windows were open.",
         "choices": [
           "Every",
           "All",
@@ -572,12 +577,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Every’ needs a singular noun, without ‘the’.",
+          "‘Every’ takes a singular noun and verb: ‘every window was’.",
           "",
-          "‘Each’ needs a singular noun or ‘each of’.",
-          "‘Both’ is only for two (and we don’t know there are two)."
+          "‘Each’ takes a singular noun: ‘each window’.",
+          "‘Both’ is only for two, but there are ten."
         ],
-        "explain": "The whole group + plural: all the windows."
+        "explain": "‘All’ + plural noun + plural verb: all ten windows were open."
       },
       {
         "use": "Choose the answer",
@@ -599,25 +604,25 @@
       },
       {
         "use": "Choose the answer",
-        "text": "I check my email <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> morning.",
+        "text": "I check my email <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> morning — it’s a daily habit.",
         "choices": [
           "all",
           "both",
-          "each of",
+          "any",
           "every"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘All morning’ means the whole morning, not every day.",
-          "Not for frequency.",
-          "‘Each of morning’ is wrong.",
+          "‘All morning’ means the whole morning, not a daily habit.",
+          "‘Both’ is only for two.",
+          "‘Any morning’ means ‘whichever morning’, not a daily habit.",
           ""
         ],
         "explain": "Frequency: every morning."
       },
       {
         "use": "Choose the answer",
-        "text": "The baby cried <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> night.",
+        "text": "The baby cried <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> night long.",
         "choices": [
           "every",
           "all",
@@ -626,12 +631,12 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Every night’ means many nights.",
+          "‘Every night long’ is wrong: the phrase is ‘all night long’.",
           "",
-          "‘Each night’ means many nights, one by one.",
+          "‘Each night long’ is wrong: the phrase is ‘all night long’.",
           "‘Both night’ is wrong."
         ],
-        "explain": "The whole night: all night."
+        "explain": "‘All night (long)’ = the whole night."
       },
       {
         "use": "Choose the answer",
@@ -662,7 +667,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Every of’ is never correct.",
+          "‘Each of the players’ + singular verb; ‘every of’ is not used.",
           "‘All of … has’ — ‘all’ takes a plural verb.",
           "‘Both … has’ — ‘both’ takes a plural verb.",
           ""
@@ -674,16 +679,16 @@
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is ready for the party.",
         "choices": [
           "Everything",
-          "All things",
+          "Every",
           "Each",
           "Both"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘All things’ sounds unnatural here.",
-          "‘Each’ alone needs context.",
-          "‘Both’ is for two."
+          "‘Every’ needs a noun: ‘every room’, or use ‘everything’.",
+          "‘Each’ needs a noun or ‘of’: ‘each room is ready’.",
+          "‘Both’ is for two and takes a plural verb."
         ],
         "explain": "Everything + singular verb."
       },
@@ -825,7 +830,7 @@
         "correct": 2,
         "wrongReasons": [
           "‘All the shops’ is plural.",
-          "‘Has’ is singular and wrong meaning.",
+          "‘Has’ is singular: ‘the shops are’.",
           "",
           "‘Was’ is singular."
         ],
@@ -838,14 +843,14 @@
           "I go swimming every day.",
           "I go swimming every days.",
           "I go swimming all days.",
-          "I go swimming each of day."
+          "I go swimming each days."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Every’ + singular.",
-          "Not with plural ‘days’ here.",
-          "‘Each of day’ is wrong."
+          "‘Every’ + singular: ‘every day’.",
+          "‘All days’ is not how we say a habit: use ‘every day’.",
+          "‘Each’ + singular: ‘each day’, not ‘each days’."
         ],
         "explain": "Every day."
       },
@@ -860,7 +865,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Never ‘every of’.",
+          "‘Every of’ is not used: ‘each of the boys’.",
           "",
           "‘Each of’ takes a singular verb.",
           "We need ‘of’."
@@ -869,19 +874,19 @@
       },
       {
         "use": "Choose the answer",
-        "text": "We visit our grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> summer.",
+        "text": "We visit our grandma <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> summer, as a tradition.",
         "choices": [
           "all",
           "both",
           "every",
-          "each of"
+          "any"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘All summer’ means the whole summer.",
+          "‘All summer’ means the whole summer, not a tradition each year.",
           "‘Both summer’ is wrong.",
           "",
-          "‘Each of summer’ is wrong."
+          "‘Any summer’ means ‘whichever summer’."
         ],
         "explain": "Frequency: every summer."
       },
@@ -896,9 +901,9 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Fixed phrase: ‘each other’.",
-          "Not English.",
-          "Not English.",
+          "‘Every other’ means ‘alternate’ (every other day), not ‘one another’.",
+          "‘All other’ doesn’t work for two people looking at one another.",
+          "‘Both other’ is not a phrase.",
           ""
         ],
         "explain": "Fixed phrase: each other."
@@ -949,7 +954,7 @@
         "errorIndex": 0,
         "correction": "Each",
         "type": "Every of",
-        "message": "Never ‘every of’: ‘each of / all of’."
+        "message": "‘Every of’ isn’t used: say ‘each of my friends has’."
       },
       {
         "tokens": [
@@ -963,7 +968,7 @@
         "errorIndex": 2,
         "correction": "all",
         "type": "Every of",
-        "message": "Never ‘every of’: ‘all of his books’."
+        "message": "‘Every of’ isn’t used: say ‘all of his books’."
       },
       {
         "tokens": [
@@ -1071,14 +1076,19 @@
       {
         "tokens": [
           "Both",
-          "of",
-          "girls",
-          "passed."
+          "my",
+          "parents",
+          "is",
+          "teachers."
         ],
-        "errorIndex": 1,
-        "correction": "the",
-        "type": "Both of",
-        "message": "Say ‘both girls’, ‘both the girls’ or ‘both of the girls’ — not ‘both of girls’."
+        "errorIndex": 3,
+        "correction": "are",
+        "type": "Verb after both",
+        "message": "‘Both’ takes a plural verb: ‘Both my parents are’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1157,16 +1167,20 @@
       {
         "tokens": [
           "All",
-          "student",
-          "must",
-          "wear",
-          "a",
-          "uniform."
+          "the",
+          "shops",
+          "is",
+          "closed",
+          "today."
         ],
-        "errorIndex": 1,
-        "correction": "students",
-        "type": "All + singular",
-        "message": "‘All’ + plural: ‘all students’."
+        "errorIndex": 3,
+        "correction": "are",
+        "type": "Verb after all",
+        "message": "‘All the shops’ is plural: ‘are closed’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1215,7 +1229,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I have two dogs. {{blank}} of them are brown.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "Both",
           "both"
@@ -1228,7 +1242,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "{{blank}} the cakes were sold in an hour.",
-        "hint": "all / both",
+        "hint": "(quantifier)",
         "answers": [
           "All",
           "all"
@@ -1241,25 +1255,26 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I read the news {{blank}} morning.",
-        "hint": "every / each",
+        "hint": "(quantifier)",
         "answers": [
-          "every"
+          "every",
+          "each"
         ],
         "display": "every",
-        "explain": "Frequency: ‘every morning’.",
+        "explain": "Frequency: ‘every morning’ (‘each morning’ is also possible).",
         "wrongNote": "Frequency → every."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
-        "sentText": "The two winners {{blank}} got a medal.",
-        "hint": "every / each",
+        "sentText": "The two winners got a medal {{blank}}.",
+        "hint": "(quantifier)",
         "answers": [
           "each"
         ],
         "display": "each",
-        "explain": "One by one, two people: ‘each’.",
-        "wrongNote": "One by one → each."
+        "explain": "‘Each’ at the end = per person: ‘a medal each’.",
+        "wrongNote": "Per person → each."
       },
       {
         "type": "order",
@@ -1420,7 +1435,7 @@
       {
         "type": "mc",
         "use": "Choose the answer",
-        "text": "We stayed in bed {{blank}} morning.",
+        "text": "We stayed in bed {{blank}} morning on Sunday.",
         "choices": [
           "every",
           "each",
@@ -1429,9 +1444,9 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Every morning’ means many mornings.",
-          "‘Each morning’ means many mornings.",
-          "‘Both morning’ is wrong.",
+          "‘Every morning on Sunday’ doesn’t fit one day.",
+          "‘Each morning on Sunday’ doesn’t fit one day.",
+          "‘Both’ is only for two.",
           ""
         ],
         "explain": "The whole morning: all morning."
@@ -1508,7 +1523,7 @@
         ],
         "errorIndex": 0,
         "correction": "Each",
-        "message": "Never ‘every of’."
+        "message": "‘Every of’ isn’t used."
       }
     ],
     "formLabel": "word"

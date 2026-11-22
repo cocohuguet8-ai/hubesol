@@ -128,7 +128,7 @@
       "kind": "Fill in the gap",
       "question": "___ I carry your bag? (an offer)",
       "hint": "Type one word.",
-      "answers": ["Shall", "Can"],
+      "answers": ["Shall", "Can", "Could", "May"],
       "explanation": "Offers: Shall I / Can I.",
       "common": [
         {"answer": "Shall we", "why": "An offer uses 'I', not 'we'."}
@@ -147,10 +147,10 @@
       "kind": "Fill in the gap",
       "question": "___ we go for a walk? (a suggestion)",
       "hint": "Type one word.",
-      "answers": ["Shall"],
-      "explanation": "Suggestions together: Shall we…?",
+      "answers": ["Shall", "Should", "Could", "Can"],
+      "explanation": "Suggestions together: Shall we…? (Should we / Could we also work.)",
       "common": [
-        {"answer": "Can", "why": "For a suggestion together we use 'Shall we'."}
+        {"answer": "Would", "why": "'Would we…?' is not a suggestion."}
       ]
     }
   ]

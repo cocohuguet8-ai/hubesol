@@ -100,7 +100,7 @@
         "kind": "question",
         "before": "What",
         "after": "you going to do this weekend?",
-        "hint": "(are / will)",
+        "hint": "(auxiliary)",
         "answers": [
           "are"
         ],
@@ -142,7 +142,7 @@
         "kind": "statement",
         "before": "Look at the sky. It",
         "after": "be a beautiful day.",
-        "hint": "(will / going to)",
+        "hint": "(structure)",
         "answers": [
           "is going to",
           "'s going to",
@@ -172,7 +172,7 @@
         "kind": "question",
         "before": "Who",
         "after": "he going to invite to his birthday?",
-        "hint": "(is / will)",
+        "hint": "(auxiliary)",
         "answers": [
           "is"
         ],
@@ -230,7 +230,7 @@
         "kind": "statement",
         "before": "Be quiet! The baby",
         "after": "wake up!",
-        "hint": "(will / going to)",
+        "hint": "(structure)",
         "answers": [
           "is going to",
           "'s going to",
@@ -260,7 +260,7 @@
         "kind": "question",
         "before": "",
         "after": "you going to wear that hat to the party?",
-        "hint": "(Are / Will)",
+        "hint": "(auxiliary)",
         "answers": [
           "Are",
           "are"
@@ -273,7 +273,7 @@
         "kind": "statement",
         "before": "She",
         "after": "come to the party. She’s got an exam.",
-        "hint": "not",
+        "hint": "(negative)",
         "answers": [
           "isn't going to",
           "is not going to",
@@ -304,7 +304,7 @@
         "kind": "statement",
         "before": "Look at the score! Our team",
         "after": "win.",
-        "hint": "(will / going to)",
+        "hint": "(structure)",
         "answers": [
           "is going to",
           "'s going to",
@@ -755,14 +755,14 @@
         "text": "I’ve decided: next year I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> medicine.",
         "choices": [
           "am going to study",
-          "will study",
+          "going to study",
           "study",
           "studied"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘I am going to study’.",
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
@@ -772,14 +772,14 @@
         "use": "Evidence",
         "text": "Look at those black clouds! It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "will rain",
+          "going to rain",
           "is going to rain",
           "rains",
           "rained"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: you can see the evidence now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘It is going to rain’.",
           "",
           "Wrong tense: a prediction from evidence takes going to, not the present simple.",
           "Wrong tense: the sentence is about the future, not the past."
@@ -790,14 +790,14 @@
         "use": "Plan",
         "text": "My sister has applied to university. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a doctor.",
         "choices": [
-          "will be",
+          "is going be",
           "is",
           "is going to be",
           "was"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "After ‘going’ you need ‘to’: ‘is going to be’.",
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "",
           "Wrong tense: the sentence is about the future, not the past."
@@ -808,15 +808,15 @@
         "use": "Plan",
         "text": "We’ve booked the tickets, so we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to Rome in May.",
         "choices": [
-          "fly",
-          "will fly",
+          "are going fly",
+          "going to fly",
           "flew",
           "are going to fly"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: a personal plan takes going to, not the present simple.",
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "After ‘going’ you need ‘to’: ‘are going to fly’.",
+          "‘Going to’ needs am/is/are before it: ‘we are going to fly’.",
           "Wrong tense: the sentence is about the future, not the past.",
           ""
         ],
@@ -826,14 +826,14 @@
         "use": "Evidence",
         "text": "Careful! You <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that glass!",
         "choices": [
-          "will drop",
+          "going to drop",
           "are going to drop",
           "drop",
           "dropped"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: you can see the evidence now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘You are going to drop’.",
           "",
           "Wrong tense: a prediction from evidence takes going to, not the present simple.",
           "Wrong tense: the sentence is about the future, not the past."
@@ -864,14 +864,14 @@
         "choices": [
           "paint",
           "painted",
-          "will paint",
+          "is going to paint",
           "are going to paint"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "Wrong tense: the sentence is about the future, not the past.",
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "‘They’ takes ‘are’, not ‘is’.",
           ""
         ],
         "explain": "A plan decided before now — use going to."
@@ -883,14 +883,14 @@
           "isn’t going to",
           "didn’t",
           "hasn’t",
-          "doesn’t"
+          "not going to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: the sentence is about the future, not the past.",
           "Wrong tense: the present perfect does not talk about the future.",
-          "Wrong tense: a personal plan takes going to, not the present simple."
+          "‘Not going to’ needs ‘is’: ‘isn’t going to’."
         ],
         "explain": "A plan decided before now — use going to."
       },
@@ -898,14 +898,14 @@
         "use": "Evidence",
         "text": "Look at the score! Our team <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> win.",
         "choices": [
-          "will",
+          "going to",
           "wins",
           "is going to",
           "won"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: you can see the evidence now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘Our team is going to win’.",
           "Wrong tense: a prediction from evidence takes going to, not the present simple.",
           "",
           "Wrong tense: the sentence is about the future, not the past."
@@ -916,14 +916,14 @@
         "use": "Plan",
         "text": "A: What are your plans? B: I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> visit my grandparents on Sunday.",
         "choices": [
-          "will",
+          "going to",
           "visit",
           "am",
           "am going to"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘I am going to visit’.",
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "Wrong form: going to needs am/is/are before it and the base verb after it.",
           ""
@@ -935,15 +935,15 @@
         "text": "The baby has opened her eyes. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wake up.",
         "choices": [
           "is going to",
-          "has to",
-          "does",
+          "going to",
+          "is going",
           "had to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: going to needs am/is/are before it and the base verb after it.",
-          "Wrong form: going to needs am/is/are before it and the base verb after it.",
+          "‘Going to’ needs am/is/are before it: ‘She is going to wake up’.",
+          "After ‘going’ you need ‘to’: ‘is going to wake up’.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
         "explain": "A prediction from evidence you can see — use going to."
@@ -952,14 +952,14 @@
         "use": "Plan",
         "text": "We’ve saved the money. We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a new car next month.",
         "choices": [
-          "buy",
+          "going to buy",
           "are going to buy",
           "bought",
           "have bought"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "‘Going to’ needs am/is/are before it: ‘We are going to buy’.",
           "",
           "Wrong tense: the sentence is about the future, not the past.",
           "Wrong tense: the present perfect does not talk about the future."
@@ -971,14 +971,14 @@
         "text": "Don’t worry. It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> rain today — the sky is clear.",
         "choices": [
           "didn’t",
-          "doesn’t",
+          "not going to",
           "hasn’t",
           "isn’t going to"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong tense: the sentence is about the future, not the past.",
-          "Wrong tense: a prediction from evidence takes going to, not the present simple.",
+          "‘Not going to’ needs ‘is’: ‘isn’t going to’.",
           "Wrong tense: the present perfect does not talk about the future.",
           ""
         ],
@@ -989,15 +989,15 @@
         "text": "I’ve told my grandparents. I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> them on Sunday.",
         "choices": [
           "am going to visit",
-          "will visit",
-          "visit",
+          "am going visit",
+          "going to visit",
           "visited"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: the plan was decided before now — use going to, not will.",
-          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "After ‘going’ you need ‘to’: ‘am going to visit’.",
+          "‘Going to’ needs am/is/are before it: ‘I am going to visit’.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
         "explain": "A plan decided before now — use going to."
@@ -1006,14 +1006,14 @@
         "use": "Evidence",
         "text": "She’s nine months pregnant. She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> have a baby very soon.",
         "choices": [
-          "will",
+          "going to",
           "is going to",
           "has",
           "had"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: you can see the evidence now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘She is going to have’.",
           "",
           "Wrong tense: the present perfect does not talk about the future.",
           "Wrong tense: the sentence is about the future, not the past."
@@ -1024,17 +1024,17 @@
         "use": "Plan",
         "text": "My parents have booked a house. They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in Italy this summer.",
         "choices": [
-          "stay",
+          "going to stay",
           "stayed",
           "are going to stay",
-          "will stay"
+          "are going stay"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: a personal plan takes going to, not the present simple.",
+          "‘Going to’ needs am/is/are before it: ‘They are going to stay’.",
           "Wrong tense: the sentence is about the future, not the past.",
           "",
-          "Wrong form: the plan was decided before now — use going to, not will."
+          "After ‘going’ you need ‘to’: ‘are going to stay’."
         ],
         "explain": "A plan decided before now — use going to."
       },
@@ -1063,14 +1063,14 @@
           "bakes",
           "is going to bake",
           "baked",
-          "will bake"
+          "is going bake"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "",
           "Wrong tense: the sentence is about the future, not the past.",
-          "Wrong form: the plan was decided before now — use going to, not will."
+          "After ‘going’ you need ‘to’: ‘is going to bake’."
         ],
         "explain": "A plan decided before now — use going to."
       },
@@ -1078,14 +1078,14 @@
         "use": "Plan",
         "text": "Tom has enrolled in a course. He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> learn Spanish.",
         "choices": [
-          "will",
+          "going to",
           "learns",
           "is going to",
           "learned"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘He is going to learn’.",
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "",
           "Wrong tense: the sentence is about the future, not the past."
@@ -1096,14 +1096,14 @@
         "use": "Evidence",
         "text": "Look at the sky! It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> be a beautiful day.",
         "choices": [
-          "will",
+          "going to",
           "is",
           "has",
           "is going to"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong form: you can see the evidence now — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘It is going to be’.",
           "Wrong form: going to needs am/is/are before it and the base verb after it.",
           "Wrong tense: the present perfect does not talk about the future.",
           ""
@@ -1456,7 +1456,7 @@
         "type": "fill",
         "use": "Evidence",
         "sentText": "Look at that car! It {{blank}} crash!",
-        "hint": "(will / going to)",
+        "hint": "(structure)",
         "answers": [
           "is going to",
           "'s going to",
@@ -1484,7 +1484,7 @@
         "type": "fill",
         "use": "Question — plan",
         "sentText": "What {{blank}} you going to do tomorrow?",
-        "hint": "(are / will)",
+        "hint": "(auxiliary)",
         "answers": [
           "are"
         ],
@@ -1625,14 +1625,14 @@
         "text": "We’ve booked a hotel. We {{blank}} in Rome.",
         "choices": [
           "are going to stay",
-          "will stay",
+          "are going stay",
           "stay",
           "stayed"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: the plan was decided before now — use going to, not will.",
+          "After ‘going’ you need ‘to’: ‘are going to stay’.",
           "Wrong tense: a personal plan takes going to, not the present simple.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
@@ -1643,14 +1643,14 @@
         "use": "Evidence",
         "text": "Look! That boy {{blank}} fall.",
         "choices": [
-          "will",
+          "going to",
           "is going to",
           "falls",
           "fell"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: you can see it happening — use going to, not will.",
+          "‘Going to’ needs am/is/are before it: ‘That boy is going to fall’.",
           "",
           "Wrong tense: the present simple does not predict from evidence.",
           "Wrong tense: the sentence is about the future, not the past."

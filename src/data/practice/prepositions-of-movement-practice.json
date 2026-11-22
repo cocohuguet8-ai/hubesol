@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "Every morning I walk",
         "after": "school with my sister.",
-        "hint": "to / into",
+        "hint": "preposition",
         "answers": [
           "to"
         ],
@@ -28,7 +28,7 @@
         "use": "Fill the gap",
         "before": "She opened the door and walked",
         "after": "the classroom.",
-        "hint": "to / into",
+        "hint": "preposition",
         "answers": [
           "into"
         ],
@@ -39,7 +39,7 @@
         "use": "Fill the gap",
         "before": "The children ran",
         "after": "the building when the bell rang.",
-        "hint": "out of / off",
+        "hint": "preposition",
         "answers": [
           "out of"
         ],
@@ -50,18 +50,19 @@
         "use": "Fill the gap",
         "before": "The cat jumped",
         "after": "the kitchen table.",
-        "hint": "onto / into",
+        "hint": "preposition",
         "answers": [
-          "onto"
+          "onto",
+          "on"
         ],
         "display": "onto",
-        "explain": "Movement to a surface: onto the table."
+        "explain": "Movement to a surface: onto the table. (‘on’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "Get",
         "after": "the bus at the next stop.",
-        "hint": "off / out of",
+        "hint": "preposition",
         "answers": [
           "off"
         ],
@@ -72,18 +73,19 @@
         "use": "Fill the gap",
         "before": "Quick, get",
         "after": "the car — it’s raining!",
-        "hint": "into / onto",
+        "hint": "preposition",
         "answers": [
-          "into"
+          "into",
+          "in"
         ],
         "display": "into",
-        "explain": "Entering a car or taxi: get into the car."
+        "explain": "Entering a car or taxi: get into the car. (‘in’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "He climbed",
         "after": "the taxi.",
-        "hint": "out of / off",
+        "hint": "preposition",
         "answers": [
           "out of"
         ],
@@ -94,7 +96,7 @@
         "use": "Fill the gap",
         "before": "We drove",
         "after": "a long tunnel under the mountain.",
-        "hint": "through / across",
+        "hint": "preposition",
         "answers": [
           "through"
         ],
@@ -105,7 +107,7 @@
         "use": "Fill the gap",
         "before": "They walked",
         "after": "the forest for two hours.",
-        "hint": "through / across",
+        "hint": "preposition",
         "answers": [
           "through"
         ],
@@ -116,7 +118,7 @@
         "use": "Fill the gap",
         "before": "Be careful when you walk",
         "after": "the road.",
-        "hint": "through / across",
+        "hint": "preposition",
         "answers": [
           "across"
         ],
@@ -127,7 +129,7 @@
         "use": "Fill the gap",
         "before": "She swam",
         "after": "the river to the other bank.",
-        "hint": "through / across",
+        "hint": "preposition",
         "answers": [
           "across"
         ],
@@ -138,7 +140,7 @@
         "use": "Fill the gap",
         "before": "We walked",
         "after": "the beach at sunset.",
-        "hint": "along / across",
+        "hint": "preposition",
         "answers": [
           "along"
         ],
@@ -149,7 +151,7 @@
         "use": "Fill the gap",
         "before": "He ran",
         "after": "the stairs to his bedroom.",
-        "hint": "up / down",
+        "hint": "preposition",
         "answers": [
           "up"
         ],
@@ -160,7 +162,7 @@
         "use": "Fill the gap",
         "before": "The ball rolled",
         "after": "the hill.",
-        "hint": "up / down",
+        "hint": "preposition",
         "answers": [
           "down"
         ],
@@ -171,29 +173,31 @@
         "use": "Fill the gap",
         "before": "Go",
         "after": "the church and turn left.",
-        "hint": "past / through",
+        "hint": "preposition",
         "answers": [
-          "past"
+          "past",
+          "by"
         ],
         "display": "past",
-        "explain": "Moving beside something and beyond it: past."
+        "explain": "Moving beside something and beyond it: past. (‘by’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "The dog ran",
         "after": "its owner.",
-        "hint": "towards / into",
+        "hint": "preposition",
         "answers": [
-          "towards"
+          "towards",
+          "toward"
         ],
         "display": "towards",
-        "explain": "In the direction of: towards."
+        "explain": "In the direction of: towards. (‘toward’ is the American form.)"
       },
       {
         "use": "Fill the gap",
         "before": "The horse jumped",
         "after": "the fence.",
-        "hint": "over / under",
+        "hint": "preposition",
         "answers": [
           "over"
         ],
@@ -204,7 +208,7 @@
         "use": "Fill the gap",
         "before": "The boat went",
         "after": "the bridge.",
-        "hint": "over / under",
+        "hint": "preposition",
         "answers": [
           "under"
         ],
@@ -215,18 +219,19 @@
         "use": "Fill the gap",
         "before": "We cycled",
         "after": "the lake.",
-        "hint": "round / through",
+        "hint": "preposition",
         "answers": [
-          "round"
+          "round",
+          "around"
         ],
         "display": "round",
-        "explain": "In a circle: round (around) the lake."
+        "explain": "In a circle: round (around) the lake. (‘around’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "After the party we went",
         "after": "by taxi.",
-        "hint": "home / to home",
+        "hint": "preposition",
         "answers": [
           "home"
         ],
@@ -547,14 +552,14 @@
         "text": "She opened the door and went <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kitchen.",
         "choices": [
           "into",
-          "to",
+          "at",
           "onto",
           "through"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘To the kitchen’ is the destination, but ‘into’ shows the movement of entering.",
+          "‘At’ shows position, not movement.",
           "‘Onto’ is for moving to a surface.",
           "‘Through’ means passing from one side to the other."
         ],
@@ -566,14 +571,14 @@
         "choices": [
           "off",
           "out of",
-          "from of",
+          "out",
           "outside"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Off’ is for surfaces and public transport.",
           "",
-          "‘From of’ is wrong.",
+          "‘Out’ needs ‘of’ before the noun: ‘out of the water’.",
           "‘Outside’ is a position, not this movement."
         ],
         "explain": "From inside to outside: out of."
@@ -639,14 +644,14 @@
           "across",
           "over",
           "through",
-          "along"
+          "at"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Across’ is for flat surfaces.",
           "‘Over’ means above it.",
           "",
-          "‘Along’ means following a line."
+          "‘At’ shows position, not movement."
         ],
         "explain": "Inside a space from end to end: through."
       },
@@ -729,14 +734,14 @@
           "over",
           "under",
           "through",
-          "across"
+          "along"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Under’ is below.",
           "‘Through’ would mean breaking it.",
-          "‘Across’ is for flat surfaces."
+          "‘Along’ follows the length of something."
         ],
         "explain": "Above and to the other side: over."
       },
@@ -800,14 +805,14 @@
         "choices": [
           "into",
           "on",
-          "in",
+          "up",
           "at"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Into the bus’ is less natural.",
           "",
-          "‘In the bus’ is wrong for getting on.",
+          "‘Get up’ means to stand or rise, not to board.",
           "‘At the bus’ is wrong."
         ],
         "explain": "Getting on public transport: get on."
@@ -1183,16 +1188,17 @@
       },
       {
         "tokens": [
-          "He",
+          "The",
+          "cat",
           "ran",
-          "toward",
+          "out",
           "the",
-          "door."
+          "room."
         ],
-        "errorIndex": 2,
-        "correction": "towards",
-        "type": "Spelling",
-        "message": "British English: ‘towards’ (American: ‘toward’)."
+        "errorIndex": 3,
+        "correction": "out of",
+        "type": "Out for out of",
+        "message": "Leaving a space: ‘out of the room’."
       }
     ]
   },
@@ -1218,21 +1224,23 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "He walked {{blank}} the shop to buy bread.",
-        "hint": "to / into",
+        "hint": "preposition",
         "answers": [
-          "into"
+          "into",
+          "to"
         ],
         "display": "into",
-        "explain": "Entering a space from outside: into the shop.",
+        "explain": "Entering a space from outside: into the shop. (‘to the shop’ also works.)",
         "wrongNote": "Entering → into."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
-        "sentText": "We ran {{blank}} the playground.",
-        "hint": "through / across",
+        "sentText": "We ran {{blank}} the playground to the other side.",
+        "hint": "preposition",
         "answers": [
-          "across"
+          "across",
+          "over"
         ],
         "display": "across",
         "explain": "From one side of a flat area to the other: across.",
@@ -1242,7 +1250,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "The ball went {{blank}} the window and broke it.",
-        "hint": "through / across",
+        "hint": "preposition",
         "answers": [
           "through"
         ],
@@ -1254,12 +1262,13 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "She fell {{blank}} her bike.",
-        "hint": "off / out of",
+        "hint": "preposition",
         "answers": [
-          "off"
+          "off",
+          "from"
         ],
         "display": "off",
-        "explain": "Away from a surface or seat: off.",
+        "explain": "Away from a surface or seat: off. (‘fell from’ also works.)",
         "wrongNote": "Surface → off."
       },
       {
@@ -1332,14 +1341,14 @@
         "choices": [
           "through",
           "into",
-          "under",
+          "at",
           "across"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Through’ is for spaces with sides.",
           "‘Into’ is for entering.",
-          "‘Under’ is below.",
+          "‘At’ shows position, not movement.",
           ""
         ],
         "explain": "Flat surfaces → across."
@@ -1388,14 +1397,14 @@
         "text": "She took the keys {{blank}} her bag.",
         "choices": [
           "off",
-          "from of",
+          "out",
           "out of",
           "outside"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Off’ is for surfaces.",
-          "‘From of’ is wrong.",
+          "‘Out’ needs ‘of’ before the noun: ‘out of her bag’.",
           "",
           "‘Outside’ is a position."
         ],
@@ -1444,14 +1453,14 @@
         "use": "Choose the answer",
         "text": "The plane was flying {{blank}} the airport.",
         "choices": [
-          "into",
+          "in",
           "towards",
           "onto",
           "off"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Into the airport’ means crashing into it.",
+          "‘In the airport’ shows position, not direction.",
           "",
           "‘Onto’ means landing on it.",
           "‘Off’ means away."

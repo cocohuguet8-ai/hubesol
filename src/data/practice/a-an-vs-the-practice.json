@@ -16,10 +16,10 @@
     "subtitle": "Type a, an or the. Ask yourself: does the listener know which one? Twenty original sentences.",
     "questions": [
       {
-        "use": "First → second",
+        "use": "Articles",
         "before": "I saw",
         "after": "cat in the street. The cat was black.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -27,10 +27,10 @@
         "explain": "First mention: the listener doesn’t know it yet, so ‘a cat’."
       },
       {
-        "use": "First → second",
+        "use": "Articles",
         "before": "I saw a cat in the street.",
         "after": "cat was black.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "The",
           "the"
@@ -39,10 +39,10 @@
         "explain": "Second mention: now we know which cat, so ‘the cat’."
       },
       {
-        "use": "First → second",
+        "use": "Articles",
         "before": "We bought",
         "after": "sofa and two chairs.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -50,10 +50,10 @@
         "explain": "First mention of a singular noun: ‘a sofa’."
       },
       {
-        "use": "First → second",
+        "use": "Articles",
         "before": "We bought a sofa and two chairs.",
         "after": "sofa is grey.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "The",
           "the"
@@ -62,10 +62,10 @@
         "explain": "Second mention: ‘the sofa’."
       },
       {
-        "use": "First → second",
+        "use": "Articles",
         "before": "There was",
         "after": "old man on the bus.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "an"
         ],
@@ -73,10 +73,10 @@
         "explain": "First mention + vowel sound: ‘an old man’."
       },
       {
-        "use": "Any one",
+        "use": "Articles",
         "before": "Can I borrow",
         "after": "pencil? Any pencil is fine.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -84,10 +84,10 @@
         "explain": "Any pencil, not a specific one: ‘a’."
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "before": "Can I borrow",
         "after": "pencil on your desk?",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -95,10 +95,10 @@
         "explain": "‘On your desk’ tells us which: ‘the’."
       },
       {
-        "use": "Any one",
+        "use": "Articles",
         "before": "Is there",
         "after": "bus stop near here?",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -106,10 +106,10 @@
         "explain": "Any bus stop: ‘a’."
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "before": "Where’s",
         "after": "remote control? I can’t find it.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -117,10 +117,10 @@
         "explain": "The one we have at home: ‘the’."
       },
       {
-        "use": "One of many",
+        "use": "Articles",
         "before": "Lisbon is",
         "after": "beautiful city.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -128,10 +128,10 @@
         "explain": "One of many beautiful cities: ‘a’."
       },
       {
-        "use": "Only one",
+        "use": "Articles",
         "before": "Madrid is",
         "after": "capital of Spain.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -139,10 +139,10 @@
         "explain": "There’s only one capital of Spain: ‘the’."
       },
       {
-        "use": "Job",
+        "use": "Articles",
         "before": "My mum is",
         "after": "engineer.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "an"
         ],
@@ -150,10 +150,10 @@
         "explain": "Jobs take a/an; vowel sound: ‘an engineer’."
       },
       {
-        "use": "Unique",
+        "use": "Articles",
         "before": "",
         "after": "moon is very bright tonight.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "The",
           "the"
@@ -162,10 +162,10 @@
         "explain": "Only one moon: ‘the moon’."
       },
       {
-        "use": "Superlative",
+        "use": "Articles",
         "before": "It was",
         "after": "best day of my life.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -173,10 +173,10 @@
         "explain": "Superlatives take ‘the’."
       },
       {
-        "use": "Describing",
+        "use": "Articles",
         "before": "She has",
         "after": "lovely garden.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -184,10 +184,10 @@
         "explain": "Describing what she has: ‘a lovely garden’."
       },
       {
-        "use": "Identifying",
+        "use": "Articles",
         "before": "",
         "after": "garden behind our house is huge.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "The",
           "the"
@@ -196,10 +196,10 @@
         "explain": "‘Behind our house’ identifies it: ‘the garden’."
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "before": "Did you lock",
         "after": "front door?",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -207,10 +207,10 @@
         "explain": "Our front door, we both know it: ‘the’."
       },
       {
-        "use": "First mention",
+        "use": "Articles",
         "before": "I had",
         "after": "amazing dream last night.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "an"
         ],
@@ -218,10 +218,10 @@
         "explain": "First mention + vowel sound: ‘an amazing dream’."
       },
       {
-        "use": "Per",
+        "use": "Articles",
         "before": "I go to the gym three times",
         "after": "week.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -229,10 +229,10 @@
         "explain": "‘A’ means ‘per’: three times a week."
       },
       {
-        "use": "Instrument",
+        "use": "Articles",
         "before": "Can you play",
         "after": "piano?",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -247,7 +247,7 @@
     "subtitle": "Tap the words to build each sentence — 20 examples with a, an and the.",
     "sentences": [
       {
-        "use": "First mention",
+        "use": "Articles",
         "tokens": [
           "I",
           "saw",
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "use": "Second mention",
+        "use": "Articles",
         "tokens": [
           "The",
           "dog",
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "use": "First mention",
+        "use": "Articles",
         "tokens": [
           "We",
           "met",
@@ -274,7 +274,7 @@
         ]
       },
       {
-        "use": "Second mention",
+        "use": "Articles",
         "tokens": [
           "The",
           "actor",
@@ -283,7 +283,7 @@
         ]
       },
       {
-        "use": "Any one",
+        "use": "Articles",
         "tokens": [
           "Can",
           "I",
@@ -293,7 +293,7 @@
         ]
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "tokens": [
           "Pass",
           "me",
@@ -303,7 +303,7 @@
         ]
       },
       {
-        "use": "Any one",
+        "use": "Articles",
         "tokens": [
           "Is",
           "there",
@@ -313,7 +313,7 @@
         ]
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "tokens": [
           "Where",
           "is",
@@ -322,7 +322,7 @@
         ]
       },
       {
-        "use": "One of many",
+        "use": "Articles",
         "tokens": [
           "She",
           "is",
@@ -331,7 +331,7 @@
         ]
       },
       {
-        "use": "Only one",
+        "use": "Articles",
         "tokens": [
           "He",
           "is",
@@ -340,7 +340,7 @@
         ]
       },
       {
-        "use": "Unique",
+        "use": "Articles",
         "tokens": [
           "The",
           "sun",
@@ -349,7 +349,7 @@
         ]
       },
       {
-        "use": "Superlative",
+        "use": "Articles",
         "tokens": [
           "It",
           "is",
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "use": "Describing",
+        "use": "Articles",
         "tokens": [
           "He",
           "has",
@@ -369,7 +369,7 @@
         ]
       },
       {
-        "use": "Identifying",
+        "use": "Articles",
         "tokens": [
           "The",
           "house",
@@ -380,7 +380,7 @@
         ]
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "tokens": [
           "Close",
           "the",
@@ -389,7 +389,7 @@
         ]
       },
       {
-        "use": "Job",
+        "use": "Articles",
         "tokens": [
           "My",
           "dad",
@@ -399,7 +399,7 @@
         ]
       },
       {
-        "use": "Per",
+        "use": "Articles",
         "tokens": [
           "I",
           "run",
@@ -409,7 +409,7 @@
         ]
       },
       {
-        "use": "Instrument",
+        "use": "Articles",
         "tokens": [
           "She",
           "plays",
@@ -418,7 +418,7 @@
         ]
       },
       {
-        "use": "Only one",
+        "use": "Articles",
         "tokens": [
           "Rome",
           "is",
@@ -429,7 +429,7 @@
         ]
       },
       {
-        "use": "One of many",
+        "use": "Articles",
         "tokens": [
           "Rome",
           "is",
@@ -537,7 +537,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "First mention",
+        "use": "Articles",
         "text": "Last week I read <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> book about sharks.",
         "choices": [
           "a",
@@ -555,7 +555,7 @@
         "explain": "First mention: a book."
       },
       {
-        "use": "Second mention",
+        "use": "Articles",
         "text": "I read a book about sharks. <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> book was fascinating.",
         "choices": [
           "A",
@@ -573,7 +573,7 @@
         "explain": "Second mention: the book."
       },
       {
-        "use": "Any one",
+        "use": "Articles",
         "text": "Excuse me, is there <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> toilet in this building?",
         "choices": [
           "the",
@@ -591,8 +591,8 @@
         "explain": "Any toilet: a."
       },
       {
-        "use": "Specific",
-        "text": "Excuse me, where’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> toilet?",
+        "use": "Articles",
+        "text": "Excuse me, where’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> toilet in your flat?",
         "choices": [
           "a",
           "an",
@@ -609,7 +609,7 @@
         "explain": "The one in this place: the toilet."
       },
       {
-        "use": "Only one",
+        "use": "Articles",
         "text": "Who is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> president of your club?",
         "choices": [
           "a",
@@ -627,7 +627,7 @@
         "explain": "Only one: the president."
       },
       {
-        "use": "One of many",
+        "use": "Articles",
         "text": "My friend Tom is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> member of the club.",
         "choices": [
           "the",
@@ -645,7 +645,7 @@
         "explain": "One of many: a member."
       },
       {
-        "use": "Superlative",
+        "use": "Articles",
         "text": "It’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> most expensive restaurant in town.",
         "choices": [
           "a",
@@ -655,15 +655,15 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Superlatives never take ‘a’.",
-          "Superlatives never take ‘an’.",
+          "Superlatives normally take ‘the’, not ‘a’.",
+          "Superlatives normally take ‘the’, not ‘an’.",
           "Superlatives need ‘the’.",
           ""
         ],
         "explain": "Superlative: the most expensive."
       },
       {
-        "use": "Unique",
+        "use": "Articles",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> earth is the third planet from the sun.",
         "choices": [
           "The",
@@ -681,7 +681,7 @@
         "explain": "Unique: the earth."
       },
       {
-        "use": "Job",
+        "use": "Articles",
         "text": "Her husband is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> electrician.",
         "choices": [
           "the",
@@ -699,7 +699,7 @@
         "explain": "Job + vowel sound: an electrician."
       },
       {
-        "use": "Identifying",
+        "use": "Articles",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> girl with long hair is my cousin.",
         "choices": [
           "A",
@@ -717,7 +717,7 @@
         "explain": "Identified by a phrase: the girl."
       },
       {
-        "use": "Describing",
+        "use": "Articles",
         "text": "My cousin is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> girl with long hair.",
         "choices": [
           "a",
@@ -735,7 +735,7 @@
         "explain": "Describing: a girl with long hair."
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "text": "Can you turn on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> light? It’s dark.",
         "choices": [
           "a",
@@ -753,7 +753,7 @@
         "explain": "Specific: the light."
       },
       {
-        "use": "First mention",
+        "use": "Articles",
         "text": "We saw <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> owl in the forest.",
         "choices": [
           "the",
@@ -771,7 +771,7 @@
         "explain": "First mention + vowel sound: an owl."
       },
       {
-        "use": "Instrument",
+        "use": "Articles",
         "text": "He’s learning to play <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> saxophone.",
         "choices": [
           "the",
@@ -789,7 +789,7 @@
         "explain": "Instrument: the saxophone."
       },
       {
-        "use": "Per",
+        "use": "Articles",
         "text": "The tickets cost ten euros <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> person.",
         "choices": [
           "the",
@@ -807,7 +807,7 @@
         "explain": "‘A’ = per: ten euros a person."
       },
       {
-        "use": "Only one",
+        "use": "Articles",
         "text": "What’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> name of your teacher?",
         "choices": [
           "a",
@@ -825,7 +825,7 @@
         "explain": "Only one name: the name."
       },
       {
-        "use": "Which",
+        "use": "Articles",
         "text": "Which is correct?",
         "choices": [
           "I have a sister. The sister lives in Rome.",
@@ -843,7 +843,7 @@
         "explain": "First mention a, second mention the. (More natural: ‘She lives in Rome.’)"
       },
       {
-        "use": "Which",
+        "use": "Articles",
         "text": "Which is correct?",
         "choices": [
           "She’s a best singer in the band.",
@@ -853,15 +853,15 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Superlatives never take ‘a’.",
+          "Superlatives normally take ‘the’, not ‘a’.",
           "",
           "Superlatives need ‘the’.",
-          "Superlatives never take ‘an’."
+          "Superlatives normally take ‘the’, not ‘an’."
         ],
         "explain": "Superlative: the best."
       },
       {
-        "use": "Any one",
+        "use": "Articles",
         "text": "I’m hungry. I want <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sandwich.",
         "choices": [
           "the",
@@ -879,7 +879,7 @@
         "explain": "Any one: a sandwich."
       },
       {
-        "use": "Specific",
+        "use": "Articles",
         "text": "Who ate <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> sandwich I left in the fridge?",
         "choices": [
           "a",
@@ -1043,37 +1043,35 @@
       },
       {
         "tokens": [
-          "Can",
-          "you",
-          "open",
+          "Mum",
+          "made",
           "a",
-          "window?",
-          "It’s",
-          "hot",
-          "in",
-          "here."
+          "cake.",
+          "A",
+          "cake",
+          "was",
+          "delicious."
         ],
-        "errorIndex": 3,
-        "correction": "the",
-        "type": "A for specific",
-        "message": "The window in this room: ‘the’."
+        "errorIndex": 4,
+        "correction": "The",
+        "type": "A for second mention",
+        "message": "Second mention: ‘The cake was delicious’."
       },
       {
         "tokens": [
+          "I",
+          "have",
+          "a",
+          "bike.",
           "A",
-          "man",
-          "in",
-          "the",
-          "blue",
-          "shirt",
+          "bike",
           "is",
-          "my",
-          "boss."
+          "blue."
         ],
-        "errorIndex": 0,
+        "errorIndex": 4,
         "correction": "The",
-        "type": "A for specific",
-        "message": "‘In the blue shirt’ identifies him: ‘the man’."
+        "type": "A for second mention",
+        "message": "Second mention: ‘The bike is blue’."
       },
       {
         "tokens": [
@@ -1218,9 +1216,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "First mention",
+        "use": "Articles",
         "sentText": "I found {{blank}} wallet in the park.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "a"
         ],
@@ -1230,9 +1228,9 @@
       },
       {
         "type": "fill",
-        "use": "Second mention",
+        "use": "Articles",
         "sentText": "I found a wallet in the park. {{blank}} wallet was empty.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "The",
           "the"
@@ -1243,9 +1241,9 @@
       },
       {
         "type": "fill",
-        "use": "Only one",
+        "use": "Articles",
         "sentText": "Who is {{blank}} captain of the team?",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "the"
         ],
@@ -1255,9 +1253,9 @@
       },
       {
         "type": "fill",
-        "use": "Job",
+        "use": "Articles",
         "sentText": "My neighbour is {{blank}} artist.",
-        "hint": "a / an / the",
+        "hint": "(article)",
         "answers": [
           "an"
         ],
@@ -1267,7 +1265,7 @@
       },
       {
         "type": "order",
-        "use": "First mention",
+        "use": "Articles",
         "tokens": [
           "I",
           "saw",
@@ -1277,7 +1275,7 @@
       },
       {
         "type": "order",
-        "use": "Second mention",
+        "use": "Articles",
         "tokens": [
           "The",
           "bird",
@@ -1287,7 +1285,7 @@
       },
       {
         "type": "order",
-        "use": "Superlative",
+        "use": "Articles",
         "tokens": [
           "It",
           "is",
@@ -1298,7 +1296,7 @@
       },
       {
         "type": "order",
-        "use": "Job",
+        "use": "Articles",
         "tokens": [
           "She",
           "is",
@@ -1384,7 +1382,7 @@
       },
       {
         "type": "mc",
-        "use": "Second mention",
+        "use": "Articles",
         "text": "I ordered a pizza. {{blank}} pizza was cold.",
         "choices": [
           "A",
@@ -1403,7 +1401,7 @@
       },
       {
         "type": "mc",
-        "use": "Any one",
+        "use": "Articles",
         "text": "I need {{blank}} new laptop.",
         "choices": [
           "a",
@@ -1422,7 +1420,7 @@
       },
       {
         "type": "mc",
-        "use": "Superlative",
+        "use": "Articles",
         "text": "This is {{blank}} worst day ever!",
         "choices": [
           "a",
@@ -1432,8 +1430,8 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "Superlatives never take ‘a’.",
-          "Superlatives never take ‘an’.",
+          "Superlatives normally take ‘the’, not ‘a’.",
+          "Superlatives normally take ‘the’, not ‘an’.",
           "Superlatives need ‘the’.",
           ""
         ],
@@ -1441,7 +1439,7 @@
       },
       {
         "type": "mc",
-        "use": "Identifying",
+        "use": "Articles",
         "text": "{{blank}} boy next to Anna is her brother.",
         "choices": [
           "A",

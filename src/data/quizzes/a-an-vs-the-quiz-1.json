@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I saw ___ film last night. ___ film was brilliant.",
-      "options": ["the / A", "a / The", "a / A", "the / The"],
+      "options": [
+        "the / A",
+        "a / The",
+        "a / A",
+        "the / The"
+      ],
       "answer": 1,
       "explanations": [
         "First mention needs a/an, not 'the'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "Could you pass me ___ salt? (it's on the table)",
-      "options": ["—", "a", "an", "the"],
+      "options": [
+        "—",
+        "a",
+        "an",
+        "the"
+      ],
       "answer": 3,
       "explanations": [
         "The specific salt on the table needs 'the'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I'm looking for ___ job. (any job)",
-      "options": ["an", "the", "a", "—"],
+      "options": [
+        "an",
+        "the",
+        "a",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'Job' starts with a consonant sound → 'a'.",
@@ -37,30 +52,45 @@
       ]
     },
     {
-      "question": "She's ___ architect. She designed ___ new library in town.",
-      "options": ["an / the", "the / a", "a / the", "an / a"],
+      "question": "She's ___ architect. She designed ___ library you visited yesterday.",
+      "options": [
+        "an / the",
+        "the / a",
+        "a / the",
+        "an / a"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Job 'an architect'; specific building 'the new library'.",
         "Jobs take a/an, not 'the'.",
         "'Architect' has a vowel sound → 'an', not 'a'.",
-        "The specific library in town takes 'the', not 'a'."
+        "The library you visited is a specific one, so 'the', not 'a'."
       ]
     },
     {
-      "question": "Let's watch ___ sunset from the hill.",
-      "options": ["an", "a", "the", "—"],
+      "question": "Look at ___ sun — it's setting behind the hill.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
-        "'An' doesn't fit; 'sunset' is specific here.",
-        "'A sunset' would be any sunset.",
-        "Correct! The one happening now is specific: 'the sunset'.",
-        "The specific sunset needs 'the'."
+        "'An' is for singular nouns starting with a vowel sound; 'sun' starts with a consonant sound and is unique.",
+        "There is only one sun, so we say 'the sun'.",
+        "Correct! The sun is unique, so 'the'.",
+        "A singular noun needs an article here: 'the sun'."
       ]
     },
     {
       "question": "There's ___ message and ___ parcel for you. ___ parcel looks heavy.",
-      "options": ["the / the / A", "a / a / The", "a / a / A", "the / a / The"],
+      "options": [
+        "the / the / A",
+        "a / a / The",
+        "a / a / A",
+        "the / a / The"
+      ],
       "answer": 1,
       "explanations": [
         "First mentions should be a/an, not 'the'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Close ___ window, please. It's cold.",
-      "options": ["—", "a", "an", "the"],
+      "options": [
+        "—",
+        "a",
+        "an",
+        "the"
+      ],
       "answer": 3,
       "explanations": [
         "The specific window needs 'the'.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "We climbed ___ mountain. ___ view from the top was amazing.",
-      "options": ["the / A", "a / The", "a / A", "an / The"],
+      "options": [
+        "the / A",
+        "a / The",
+        "a / A",
+        "an / The"
+      ],
       "answer": 1,
       "explanations": [
         "First mention needs a/an.",
@@ -127,11 +167,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "I'm looking for ___ job. Any job is fine.",
-      "hint": "Type a, an or the.",
-      "answers": ["a"],
+      "hint": "Type one word.",
+      "answers": [
+        "a"
+      ],
       "explanation": "Any job, not a specific one: 'a job'.",
       "common": [
-        {"answer": "the", "why": "'The' points to one specific job both of us know. Here any job is fine."}
+        {
+          "answer": "the",
+          "why": "'The' points to one specific job both of us know. Here any job is fine."
+        }
       ]
     },
     {
@@ -139,18 +184,25 @@
       "kind": "Correct the mistake",
       "question": "Neil Armstrong walked on a moon in 1969.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Neil Armstrong walked on the moon in 1969"],
+      "answers": [
+        "Neil Armstrong walked on the moon in 1969"
+      ],
       "explanation": "There is one Moon we all know, so we say 'the moon'."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "I live in a small house. ___ house is very old.",
-      "hint": "Type a, an or the.",
-      "answers": ["The"],
+      "hint": "Type one word.",
+      "answers": [
+        "The"
+      ],
       "explanation": "Second mention: now it is specific, so 'the house'.",
       "common": [
-        {"answer": "a", "why": "On the second mention the noun is already known, so not 'a'."}
+        {
+          "answer": "a",
+          "why": "On the second mention the noun is already known, so not 'a'."
+        }
       ]
     }
   ]

@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I ___ three emails this morning.",
-      "options": ["'ve been writing", "wrote", "write", "'ve written"],
+      "options": [
+        "'ve been writing",
+        "wrote",
+        "write",
+        "'ve written"
+      ],
       "answer": 3,
       "explanations": [
         "'Been writing' describes the activity, but 'three emails' is a finished quantity.",
@@ -16,21 +21,27 @@
     },
     {
       "question": "Sorry I'm late! How long ___ you ___?",
-      "options": ["have / been waiting", "have / waited", "did / wait", "are / waiting"],
+      "options": [
+        "have / been waiting",
+        "did / wait",
+        "are / waiting"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'How long' + the ongoing activity takes the continuous: 'have you been waiting'.",
-        "'Have you waited' focuses on a result; for the duration of the activity, use the continuous.",
         "'Did you wait' asks about a finished time, not duration up to now.",
         "'Are you waiting' is only about this moment."
       ]
     },
     {
       "question": "Your clothes are covered in paint! You ___.",
-      "options": ["'ve painted", "painted", "'ve been painting", "paint"],
-      "answer": 2,
+      "options": [
+        "painted",
+        "'ve been painting",
+        "paint"
+      ],
+      "answer": 1,
       "explanations": [
-        "'Have painted' focuses on a finished result, but the paint on your clothes points to the recent activity.",
         "'Painted' needs a finished time and doesn't link the activity to now.",
         "Correct! A recent activity with a visible result now takes the continuous: 'have been painting'.",
         "'Paint' is present simple (a habit), not this recent activity."
@@ -38,7 +49,12 @@
     },
     {
       "question": "Great news — I ___ my essay at last!",
-      "options": ["'ve been finishing", "'ve finished", "finish", "was finishing"],
+      "options": [
+        "'ve been finishing",
+        "'ve finished",
+        "finish",
+        "was finishing"
+      ],
       "answer": 1,
       "explanations": [
         "'Finish' isn't used in the continuous to mean a completed result.",
@@ -49,7 +65,12 @@
     },
     {
       "question": "We ___ each other since we were children.",
-      "options": ["'ve known", "'ve been knowing", "know", "knew"],
+      "options": [
+        "'ve known",
+        "'ve been knowing",
+        "know",
+        "knew"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! State verbs take the present perfect simple: 'have known'.",
@@ -60,7 +81,12 @@
     },
     {
       "question": "He ___ ten kilometres today.",
-      "options": ["'s been running", "ran", "runs", "'s run"],
+      "options": [
+        "'s been running",
+        "ran",
+        "runs",
+        "'s run"
+      ],
       "answer": 3,
       "explanations": [
         "'Been running' describes the activity, but 'ten kilometres' is a finished amount.",
@@ -71,10 +97,13 @@
     },
     {
       "question": "I'm exhausted — I ___ all day.",
-      "options": ["'ve shopped", "'ve been shopping", "shop", "shopped"],
-      "answer": 1,
+      "options": [
+        "'ve been shopping",
+        "shop",
+        "shopped"
+      ],
+      "answer": 0,
       "explanations": [
-        "'Have shopped' focuses on a result; here the point is the tiring activity across the day.",
         "Correct! A long activity with a result now (exhaustion) takes the continuous: 'have been shopping'.",
         "'Shop' is present simple (a habit), not this ongoing activity.",
         "'Shopped' needs a finished time and doesn't link to now."
@@ -82,7 +111,12 @@
     },
     {
       "question": "At last, the builders ___ the bridge.",
-      "options": ["'ve been building", "build", "'ve built", "built"],
+      "options": [
+        "'ve been building",
+        "build",
+        "'ve built",
+        "built"
+      ],
       "answer": 2,
       "explanations": [
         "'Been building' describes the ongoing activity, but 'at last' points to the finished result.",
@@ -94,14 +128,14 @@
     {
       "question": "Choose the sentence with the same meaning as: 'I started waiting an hour ago and I'm still waiting.'",
       "options": [
-        "I've waited an hour.",
+        "I was waiting for an hour.",
         "I waited for an hour.",
         "I've been waiting for an hour.",
         "I wait for an hour."
       ],
       "answer": 2,
       "explanations": [
-        "'I've waited an hour' focuses on the result; the sentence stresses the ongoing activity.",
+        "'Was waiting' is past: the waiting isn't finished.",
         "'Waited' (past simple) suggests the waiting has stopped, but you're still waiting.",
         "Correct! An action continuing up to now, focusing on duration, takes the continuous: 'have been waiting'.",
         "'I wait for an hour' is a present habit, not this specific ongoing action."
@@ -127,11 +161,17 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "I ___ three emails this morning. (write)",
-      "hint": "Type two words.",
-      "answers": ["have written", "'ve written"],
+      "hint": "Type the verb phrase.",
+      "answers": [
+        "have written",
+        "'ve written"
+      ],
       "explanation": "A quantity: present perfect simple.",
       "common": [
-        {"answer": "have been writing", "why": "A number needs the simple form."}
+        {
+          "answer": "have been writing",
+          "why": "A number needs the simple form."
+        }
       ]
     },
     {
@@ -139,7 +179,9 @@
       "kind": "Correct the mistake",
       "question": "How long have you waited?",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["How long have you been waiting"],
+      "answers": [
+        "How long have you been waiting"
+      ],
       "explanation": "Duration of an activity: continuous."
     },
     {
@@ -147,7 +189,10 @@
       "kind": "Correct the mistake",
       "question": "I've been having this car for years.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I've had this car for years", "I have had this car for years"],
+      "answers": [
+        "I've had this car for years",
+        "I have had this car for years"
+      ],
       "explanation": "'Have' (possession) is stative."
     }
   ]

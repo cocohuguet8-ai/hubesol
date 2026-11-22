@@ -40,7 +40,7 @@ draft: false
 | Negative | subject + am/is/are + not + verb-ing | They **aren’t listening**. |
 | Question | Am/Is/Are + subject + verb-ing? | **Are** you **coming**? |
 
-Use **am** with *I*, **is** with *he/she/it*, and **are** with *you/we/they*. The main verb always takes **-ing**, and the verb *be* can never be left out.
+Use **am** with *I*, **is** with *he/she/it*, and **are** with *you/we/they*. The main verb always takes **-ing**, and the verb *be* can’t be left out.
 
 ## When to use the present continuous
 

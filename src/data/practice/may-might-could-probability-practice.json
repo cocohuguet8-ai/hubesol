@@ -37,7 +37,8 @@
         "hint": "might / will",
         "answers": [
           "might",
-          "may"
+          "may",
+          "could"
         ],
         "display": "might",
         "explain": "The speaker isn’t sure: might + base verb."
@@ -48,8 +49,9 @@
         "after": "move to Barcelona next year.",
         "hint": "may / will",
         "answers": [
+          "might",
           "may",
-          "might"
+          "could"
         ],
         "display": "may",
         "explain": "A possible plan, not certain: may + base verb."
@@ -61,7 +63,8 @@
         "hint": "might / must",
         "answers": [
           "might",
-          "may"
+          "may",
+          "could"
         ],
         "display": "might",
         "explain": "A possible situation: might + be."
@@ -73,7 +76,8 @@
         "hint": "might / must",
         "answers": [
           "might",
-          "may"
+          "may",
+          "could"
         ],
         "display": "might",
         "explain": "Perhaps she knows now: might + base verb."
@@ -84,9 +88,9 @@
         "after": "be the postman.",
         "hint": "could / can",
         "answers": [
-          "could",
           "might",
-          "may"
+          "may",
+          "could"
         ],
         "display": "could",
         "explain": "You don’t know who is knocking, so it’s a present possibility: could be."
@@ -97,8 +101,9 @@
         "after": "be in the shower.",
         "hint": "may / will",
         "answers": [
+          "might",
           "may",
-          "might"
+          "could"
         ],
         "display": "may",
         "explain": "Perhaps he’s in the shower: may be."
@@ -109,7 +114,8 @@
         "after": "have time to call you tonight.",
         "hint": "might not / couldn’t",
         "answers": [
-          "might not"
+          "might not",
+          "may not"
         ],
         "display": "might not",
         "explain": "Perhaps I won’t: might not + base verb."
@@ -120,7 +126,8 @@
         "after": "like the surprise, so let’s ask first.",
         "hint": "may not / can’t",
         "answers": [
-          "may not"
+          "may not",
+          "might not"
         ],
         "display": "may not",
         "explain": "Perhaps they won’t like it: may not + base verb."
@@ -131,10 +138,11 @@
         "after": "finish until nine.",
         "hint": "might not / couldn’t",
         "answers": [
-          "might not"
+          "might not",
+          "may not"
         ],
         "display": "might not",
-        "explain": "Negative possibility: might not, never ‘couldn’t’."
+        "explain": "Negative possibility: might not or may not (not ‘couldn’t’, which means impossible)."
       },
       {
         "use": "Fill the gap",
@@ -164,7 +172,9 @@
         "after": "having dinner.",
         "hint": "might be / might",
         "answers": [
-          "might be"
+          "might be",
+          "may be",
+          "could be"
         ],
         "display": "might be",
         "explain": "An action perhaps in progress now: might be + -ing."
@@ -186,10 +196,12 @@
         "after": "fall.",
         "hint": "could / can’t",
         "answers": [
-          "could"
+          "could",
+          "might",
+          "may"
         ],
         "display": "could",
-        "explain": "Climbing the wall is risky — a fall is possible: could + base verb."
+        "explain": "Be careful on the ice: a fall is possible, so could + base verb."
       },
       {
         "use": "Fill the gap",
@@ -197,7 +209,9 @@
         "after": "take it.",
         "hint": "might / must",
         "answers": [
-          "might"
+          "might",
+          "may",
+          "could"
         ],
         "display": "might",
         "explain": "A possible risk: might + base verb."
@@ -208,7 +222,8 @@
         "after": "she’s ill. She looks very pale.",
         "hint": "maybe / might",
         "answers": [
-          "Maybe"
+          "Maybe",
+          "Perhaps"
         ],
         "display": "Maybe",
         "explain": "‘Maybe’ is an adverb + normal verb: Maybe she’s ill."
@@ -219,7 +234,8 @@
         "after": "we’ll win the match — who knows?",
         "hint": "perhaps / may",
         "answers": [
-          "Perhaps"
+          "Perhaps",
+          "Maybe"
         ],
         "display": "Perhaps",
         "explain": "‘Perhaps’ + will: Perhaps we’ll win."
@@ -241,7 +257,8 @@
         "after": "this be the right address?",
         "hint": "could / may",
         "answers": [
-          "Could"
+          "Could",
+          "Might"
         ],
         "display": "Could",
         "explain": "‘Could’ can ask about a possibility: Could this be…?"
@@ -555,7 +572,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Modals never take -s, even with ‘it’.",
+          "Modals don’t take -s, even with ‘it’.",
           "‘Might’ is followed by the base verb with no ‘to’.",
           "‘Might’ doesn’t need ‘be’ before it."
         ],
@@ -593,7 +610,7 @@
           "‘Can’ isn’t used for a specific present possibility like this.",
           "No ‘to’ after a modal.",
           "",
-          "Modals never take -s."
+          "Modals don’t take -s."
         ],
         "explain": "A present possibility: could be."
       },
@@ -613,7 +630,7 @@
           "Modals don’t use ‘doesn’t’.",
           ""
         ],
-        "explain": "Her cold means perhaps she won’t come: might not + base verb, never ‘couldn’t’."
+        "explain": "Her cold means perhaps she won’t come: might not + base verb, not ‘couldn’t’."
       },
       {
         "use": "Choose the answer",
@@ -647,7 +664,7 @@
           "‘Might sleeping’ needs ‘be’ before the -ing form.",
           "No ‘to’ after ‘might’.",
           "",
-          "Modals never take -s."
+          "Modals don’t take -s."
         ],
         "explain": "The baby is perhaps sleeping right now, so use ‘might be’ + -ing."
       },
@@ -709,19 +726,19 @@
         "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
-          "Maybe it might rain.",
+          "It maybe will rain.",
           "Maybe it mights rain.",
           "May be it rain.",
           "Maybe it will rain."
         ],
         "correct": 3,
         "wrongReasons": [
-          "Don’t use ‘maybe’ and ‘might’ together.",
-          "Modal verbs never take -s: ‘It might be cold’.",
+          "‘Maybe’ goes at the start of the clause; as a verb it is two words (may be).",
+          "Modal verbs don’t take -s: ‘It might be cold’.",
           "‘May be it rain’ is wrong.",
           ""
         ],
-        "explain": "Use ‘maybe’ with ‘will’, or ‘might’ on its own — never both together."
+        "explain": "Use ‘maybe’ with ‘will’, or ‘might’ on its own."
       },
       {
         "use": "Choose the answer",
@@ -920,7 +937,7 @@
         "errorIndex": 1,
         "correction": "might",
         "type": "-s on a modal",
-        "message": "Modals never take -s: ‘It might rain’."
+        "message": "Modals don’t take -s: ‘It might rain’."
       },
       {
         "tokens": [
@@ -934,7 +951,7 @@
         "errorIndex": 1,
         "correction": "may",
         "type": "-s on a modal",
-        "message": "Modals never take -s: ‘She may be…’."
+        "message": "Modals don’t take -s: ‘She may be…’."
       },
       {
         "tokens": [
@@ -1036,16 +1053,21 @@
       },
       {
         "tokens": [
-          "Maybe",
-          "it",
+          "I",
           "might",
-          "snow",
-          "tonight."
+          "to",
+          "see",
+          "him",
+          "later."
         ],
         "errorIndex": 2,
-        "correction": "will",
-        "type": "Maybe + modal",
-        "message": "Don’t combine: ‘Maybe it will snow’ or ‘It might snow’."
+        "correction": "see",
+        "type": "Extra word",
+        "message": "After a modal use the base verb without ‘to’: ‘I might see him later’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1164,17 +1186,18 @@
       },
       {
         "tokens": [
-          "We",
-          "migth",
-          "go",
+          "She",
+          "may",
+          "not",
+          "comes",
           "to",
           "the",
-          "cinema."
+          "party."
         ],
-        "errorIndex": 1,
-        "correction": "might",
-        "type": "Spelling",
-        "message": "Spelling: ‘might’."
+        "errorIndex": 3,
+        "correction": "come",
+        "type": "-s after a modal",
+        "message": "After ‘may not’ use the base verb: ‘She may not come’."
       },
       {
         "tokens": [

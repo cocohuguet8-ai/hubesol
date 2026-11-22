@@ -78,7 +78,7 @@ The situation was new or strange, and it is changing or has changed.
 
 ## The to is a preposition
 
-In *be/get used to*, **to** is a preposition, like *in* or *about*. That’s why it is followed by a noun, a pronoun or **-ing**, never the base verb.
+In *be/get used to*, **to** is a preposition, like *in* or *about*. That’s why it is followed by a noun, a pronoun or **-ing**, not the base verb.
 
 - I’m used to **the noise**. / I’m used to **it**. / I’m used to **sleeping** with the noise.
 

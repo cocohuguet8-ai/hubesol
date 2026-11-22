@@ -41,7 +41,7 @@ draft: false
 | Negative | subject + won’t be + verb-ing | They **won’t be coming**. |
 | Question | Will + subject + be + verb-ing? | **Will** you **be joining** us? |
 
-**Will be** is the same for every subject, and the main verb always takes **-ing**. The verb *be* is never left out. In a question with a question word, *will* comes next: *What **will** you **be doing** at ten?*
+**Will be** is the same for every subject, and the main verb takes **-ing** (except state verbs such as *know*). Don’t leave out the verb *be*. In a question with a question word, *will* comes next: *What **will** you **be doing** at ten?*
 
 **Short answers:** *Will you be working on Saturday? — Yes, I will. / No, I won’t.*
 

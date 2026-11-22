@@ -115,7 +115,7 @@
         "use": "Present perfect",
         "before": "",
         "after": "the parcel been delivered?",
-        "hint": "has / is",
+        "hint": "auxiliary",
         "answers": [
           "Has"
         ],
@@ -181,7 +181,7 @@
         "use": "Modal",
         "before": "Phones",
         "after": "off during the exam.",
-        "hint": "(switch)",
+        "hint": "(must / switch)",
         "answers": [
           "must be switched"
         ],
@@ -192,7 +192,7 @@
         "use": "Modal",
         "before": "This form",
         "after": "by a parent.",
-        "hint": "(sign)",
+        "hint": "(should / sign)",
         "answers": [
           "should be signed"
         ],
@@ -203,7 +203,7 @@
         "use": "Modal",
         "before": "The project",
         "after": "in pairs.",
-        "hint": "(do)",
+        "hint": "(can / do)",
         "answers": [
           "can be done"
         ],
@@ -214,7 +214,7 @@
         "use": "Modal perfect",
         "before": "The letter",
         "after": "last week.",
-        "hint": "(send)",
+        "hint": "(should / send)",
         "answers": [
           "should have been sent"
         ],
@@ -222,10 +222,10 @@
         "explain": "Modal perfect passive: should have been sent."
       },
       {
-        "use": "Being or been",
+        "use": "Auxiliary",
         "before": "The car has",
         "after": "repaired. You can collect it.",
-        "hint": "being / been",
+        "hint": "auxiliary",
         "answers": [
           "been"
         ],
@@ -233,10 +233,10 @@
         "explain": "After ‘has’ use ‘been’."
       },
       {
-        "use": "Being or been",
+        "use": "Auxiliary",
         "before": "The car is",
         "after": "repaired. Come back tomorrow.",
-        "hint": "being / been",
+        "hint": "auxiliary",
         "answers": [
           "being"
         ],
@@ -646,14 +646,14 @@
         "use": "Past continuous",
         "text": "The film <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> when the power went off.",
         "choices": [
-          "was showing",
+          "was show",
           "had been shown",
           "was being shown",
           "is being shown"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Was showing’ is possible for cinemas, but here the passive is needed for ‘the film’ being shown.",
+          "After ‘was’ the verb needs -ing or a participle; here the film needs the passive ‘was being shown’.",
           "‘Had been shown’ means it was already finished.",
           "",
           "‘Is’ is present."
@@ -679,7 +679,7 @@
         "explain": "Going to passive: is going to be + participle."
       },
       {
-        "use": "Being or been",
+        "use": "Auxiliary",
         "text": "The results have <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> published online.",
         "choices": [
           "been",
@@ -697,7 +697,7 @@
         "explain": "Perfect passive: have / has / had + been."
       },
       {
-        "use": "Being or been",
+        "use": "Auxiliary",
         "text": "The results are <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> checked right now.",
         "choices": [
           "been",
@@ -1303,7 +1303,7 @@
       },
       {
         "type": "aux",
-        "use": "Aux",
+        "use": "Auxiliary",
         "text": "The bridge has {{blank}} closed.",
         "choices": [
           "being",
@@ -1313,16 +1313,16 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "After ‘has’ we never use ‘being’.",
+          "After ‘has’ we don’t use ‘being’.",
           "",
-          "After ‘has’ we never use ‘be’.",
+          "After ‘has’ we don’t use ‘be’.",
           "‘Has is’ is impossible."
         ],
         "explain": "After have / has / had → been."
       },
       {
         "type": "aux",
-        "use": "Aux",
+        "use": "Auxiliary",
         "text": "The bridge is {{blank}} repaired.",
         "choices": [
           "been",
@@ -1341,7 +1341,7 @@
       },
       {
         "type": "aux",
-        "use": "Aux",
+        "use": "Auxiliary",
         "text": "The bridge will {{blank}} opened soon.",
         "choices": [
           "be",
@@ -1360,7 +1360,7 @@
       },
       {
         "type": "aux",
-        "use": "Aux",
+        "use": "Auxiliary",
         "text": "The bridge should have {{blank}} finished last year.",
         "choices": [
           "be",
@@ -1385,14 +1385,14 @@
           "had closed",
           "has been closed",
           "had been closed",
-          "was being close"
+          "been closed"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Had closed’ is active.",
           "‘Has been’ is present perfect.",
           "",
-          "After ‘being’ use the participle."
+          "‘Been closed’ needs ‘had’ before it."
         ],
         "explain": "Before a past moment: had been + participle."
       },

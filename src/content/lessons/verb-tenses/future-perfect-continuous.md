@@ -40,7 +40,7 @@ draft: false
 | Negative | subject + won’t have been + verb-ing | They **won’t have been waiting** long. |
 | Question | Will + subject + have been + verb-ing? | How long **will** you **have been driving**? |
 
-**Will have been** is the same for every subject, and the main verb always takes **-ing**. It joins two ideas: the future perfect (*will have*) and the continuous (*been* + -ing). In a question with a question word, *will* comes next: *How long **will** they **have been** married?*
+**Will have been** is the same for every subject, and the main verb takes **-ing** (state verbs such as *know* avoid the continuous). It joins two ideas: the future perfect (*will have*) and the continuous (*been* + -ing). In a question with a question word, *will* comes next: *How long **will** they **have been** married?*
 
 **Short answers:** *Will you have been working here for ten years? — Yes, I will. / No, I won’t.*
 

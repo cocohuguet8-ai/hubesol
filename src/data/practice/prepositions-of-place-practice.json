@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "I’ll wait for you",
         "after": "the bus stop.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -28,7 +28,7 @@
         "use": "Fill the gap",
         "before": "There’s someone",
         "after": "the door. Can you open it?",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -39,7 +39,7 @@
         "use": "Fill the gap",
         "before": "My mum is",
         "after": "work until six.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -50,7 +50,7 @@
         "use": "Fill the gap",
         "before": "We met",
         "after": "Laia’s birthday party.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -61,7 +61,7 @@
         "use": "Fill the gap",
         "before": "I stayed",
         "after": "home all weekend.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -72,7 +72,7 @@
         "use": "Fill the gap",
         "before": "They live",
         "after": "15 Carrer Nou.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -83,7 +83,7 @@
         "use": "Fill the gap",
         "before": "Your phone is",
         "after": "the kitchen table.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -94,7 +94,7 @@
         "use": "Fill the gap",
         "before": "There’s a beautiful painting",
         "after": "the wall.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -105,7 +105,7 @@
         "use": "Fill the gap",
         "before": "Our flat is",
         "after": "the third floor.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -116,7 +116,7 @@
         "use": "Fill the gap",
         "before": "I left my jacket",
         "after": "the train.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -127,7 +127,7 @@
         "use": "Fill the gap",
         "before": "The answer is",
         "after": "page 42.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -138,7 +138,7 @@
         "use": "Fill the gap",
         "before": "Turn left and the bakery is",
         "after": "the right.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -149,7 +149,7 @@
         "use": "Fill the gap",
         "before": "The milk is",
         "after": "the fridge.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -160,7 +160,7 @@
         "use": "Fill the gap",
         "before": "My grandparents live",
         "after": "a small village near Olot.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -171,7 +171,7 @@
         "use": "Fill the gap",
         "before": "She has lived",
         "after": "Germany for two years.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -182,7 +182,7 @@
         "use": "Fill the gap",
         "before": "The kids are playing",
         "after": "the garden.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -193,7 +193,7 @@
         "use": "Fill the gap",
         "before": "Get",
         "after": "the car — we’re late!",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -204,7 +204,7 @@
         "use": "Fill the gap",
         "before": "He’s still",
         "after": "bed. He’s got a fever.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -215,7 +215,7 @@
         "use": "Fill the gap",
         "before": "There’s a lamp",
         "after": "the corner of the room.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -226,12 +226,13 @@
         "use": "Fill the gap",
         "before": "There’s a café",
         "after": "the corner of our street.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
-          "on"
+          "on",
+          "at"
         ],
         "display": "on",
-        "explain": "Where two streets meet: on the corner."
+        "explain": "Where two streets meet: on the corner (‘at the corner’ is also used)."
       }
     ],
     "formLabel": "preposition"
@@ -466,7 +467,7 @@
         "right": "at"
       },
       {
-        "left": "___ the table",
+        "left": "___ the shelf",
         "right": "on"
       },
       {
@@ -478,7 +479,7 @@
         "right": "at"
       },
       {
-        "left": "___ the wall",
+        "left": "___ the ceiling",
         "right": "on"
       },
       {
@@ -510,7 +511,7 @@
         "right": "in"
       },
       {
-        "left": "___ the door",
+        "left": "___ a concert",
         "right": "at"
       },
       {
@@ -522,7 +523,7 @@
         "right": "in"
       },
       {
-        "left": "___ school",
+        "left": "___ the end of the road",
         "right": "at"
       },
       {
@@ -534,7 +535,7 @@
         "right": "in"
       },
       {
-        "left": "___ the station",
+        "left": "___ the cash desk",
         "right": "at"
       },
       {
@@ -625,14 +626,14 @@
         "use": "Choose the answer",
         "text": "He isn’t at home. He’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> work.",
         "choices": [
-          "in",
+          "inside",
           "at",
           "on",
           "to"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘In work’ is wrong for being at your job.",
+          "‘Inside work’ is wrong for being at your job.",
           "",
           "‘On work’ is wrong.",
           "‘To work’ shows movement."
@@ -643,14 +644,14 @@
         "use": "Choose the answer",
         "text": "I always read <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the train.",
         "choices": [
-          "in",
+          "into",
           "at",
           "on",
           "by"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘In the train’ is less natural; public transport takes ‘on’.",
+          "‘Into’ shows movement; public transport takes ‘on’.",
           "‘At the train’ is wrong.",
           "",
           "‘By train’ is how you travel, not where you read."
@@ -716,14 +717,14 @@
         "text": "There were lots of people <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the concert.",
         "choices": [
           "on",
-          "in",
+          "by",
           "to",
           "at"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘On the concert’ is wrong.",
-          "‘In the concert’ is possible inside the hall, but for the event use ‘at’.",
+          "‘By the concert’ means next to it, not at the event.",
           "‘To’ shows movement.",
           ""
         ],
@@ -807,15 +808,15 @@
         "choices": [
           "in",
           "on",
-          "at",
-          "by the"
+          "onto",
+          "to"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘In the coast’ is wrong.",
           "",
-          "‘At the coast’ is possible but less common for a town’s position.",
-          "‘By the the coast’ repeats ‘the’."
+          "‘Onto’ shows movement.",
+          "‘To the coast’ shows direction, not position."
         ],
         "explain": "Lines like coasts and rivers take ‘on’."
       },
@@ -824,14 +825,14 @@
         "text": "There’s a plant <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the corner of the classroom.",
         "choices": [
           "on",
-          "at",
+          "to",
           "in",
           "into"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘On the corner’ is for street corners.",
-          "‘At the corner’ is possible but ‘in’ is best inside a room.",
+          "‘To the corner’ shows direction, not position.",
           "",
           "‘Into’ shows movement."
         ],
@@ -868,7 +869,7 @@
         "wrongReasons": [
           "‘In’ is for the street or town without a number.",
           "",
-          "‘On Oxford Road’ is fine without the number, but with a number use ‘at’.",
+          "‘On Oxford Road’ is for the street without the number; with a number use ‘at’.",
           "‘By’ means next to."
         ],
         "explain": "Full address with a number: at."
@@ -1214,7 +1215,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "There’s a cat {{blank}} the roof.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -1226,7 +1227,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "We live {{blank}} a small town.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -1238,7 +1239,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "She’s {{blank}} the dentist’s.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -1250,7 +1251,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I saw her {{blank}} the train.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -1381,14 +1382,14 @@
         "use": "Choose the answer",
         "text": "He’s not here — he’s {{blank}} school.",
         "choices": [
-          "in",
+          "inside",
           "on",
           "at",
           "to"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘In school’ is American English or means inside the building.",
+          "‘Inside school’ is wrong for being a student there.",
           "‘On school’ is wrong.",
           "",
           "‘To school’ shows movement."
@@ -1401,14 +1402,14 @@
         "text": "The bakery is {{blank}} Carrer Major.",
         "choices": [
           "on",
-          "in",
+          "into",
           "at",
           "to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘In Carrer Major’ is possible in British English, but ‘on’ is more common.",
+          "‘Into’ shows movement.",
           "Without a number, ‘at’ is wrong.",
           "‘To’ shows movement."
         ],

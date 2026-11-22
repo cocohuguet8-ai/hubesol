@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "The film starts",
         "after": "half past eight.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -28,18 +28,18 @@
         "use": "Fill the gap",
         "before": "I usually go to bed",
         "after": "eleven o’clock.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
         "display": "at",
-        "explain": "An exact time on the clock always takes ‘at’."
+        "explain": "An exact time on the clock takes ‘at’."
       },
       {
         "use": "Fill the gap",
         "before": "My little brother is scared of the dark, so he sleeps with a light on",
         "after": "night.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -50,7 +50,7 @@
         "use": "Fill the gap",
         "before": "We always visit our grandparents",
         "after": "Christmas.",
-        "hint": "at / on",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -61,7 +61,7 @@
         "use": "Fill the gap",
         "before": "Sorry, I can’t talk",
         "after": "the moment — I’m in class.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -72,7 +72,7 @@
         "use": "Fill the gap",
         "before": "We have a maths test",
         "after": "Friday.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -83,7 +83,7 @@
         "use": "Fill the gap",
         "before": "My birthday is",
         "after": "14 July.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -94,7 +94,7 @@
         "use": "Fill the gap",
         "before": "They got married",
         "after": "a sunny Saturday in May.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -105,7 +105,7 @@
         "use": "Fill the gap",
         "before": "We open our presents",
         "after": "Christmas Day.",
-        "hint": "at / on",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -116,7 +116,7 @@
         "use": "Fill the gap",
         "before": "I’ve got football practice",
         "after": "Monday evening.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -127,7 +127,7 @@
         "use": "Fill the gap",
         "before": "It’s very hot in Spain",
         "after": "August.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -138,7 +138,7 @@
         "use": "Fill the gap",
         "before": "My parents met",
         "after": "2005.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -149,7 +149,7 @@
         "use": "Fill the gap",
         "before": "We go skiing",
         "after": "winter.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -160,7 +160,7 @@
         "use": "Fill the gap",
         "before": "I study better",
         "after": "the morning.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -171,7 +171,7 @@
         "use": "Fill the gap",
         "before": "The cathedral was built",
         "after": "the 14th century.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -182,7 +182,7 @@
         "use": "Fill the gap",
         "before": "Hurry up! The bus leaves",
         "after": "five minutes.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -191,42 +191,45 @@
       },
       {
         "use": "Fill the gap",
-        "before": "See you",
-        "after": "Monday!",
-        "hint": "next / on next",
+        "before": "I’ll call you",
+        "after": "week.",
+        "hint": "(time word)",
         "answers": [
-          "next"
+          "next",
+          "this"
         ],
         "display": "next",
-        "explain": "Write just ‘next’: no preposition goes before next."
+        "explain": "No preposition before next or this: ‘next week’, ‘this week’."
       },
       {
         "use": "Fill the gap",
         "before": "We went to Italy",
-        "after": "summer.",
-        "hint": "last / in last",
+        "after": "year.",
+        "hint": "(time word)",
         "answers": [
-          "last"
+          "last",
+          "this"
         ],
         "display": "last",
-        "explain": "Write just ‘last’: no preposition goes before last."
+        "explain": "No preposition before last or this: ‘last year’, ‘this year’."
       },
       {
         "use": "Fill the gap",
         "before": "I walk to school",
         "after": "day.",
-        "hint": "every / at every",
+        "hint": "(time word)",
         "answers": [
-          "every"
+          "every",
+          "each"
         ],
         "display": "every",
-        "explain": "Write just ‘every’: no preposition goes before every."
+        "explain": "No preposition before every or each: ‘every day’, ‘each day’."
       },
       {
         "use": "Fill the gap",
         "before": "I’m usually hungry",
         "after": "lunchtime.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -553,7 +556,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "The concert starts <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> nine o’clock.",
         "choices": [
           "at",
@@ -568,10 +571,10 @@
           "‘In’ is for longer periods like months or years.",
           "A clock time needs a preposition: you can’t leave it out."
         ],
-        "explain": "Clock times always take ‘at’: at nine o’clock. The bigger the time period, the bigger the word: at → on → in."
+        "explain": "Clock times take ‘at’: at nine o’clock. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "We’ve got a party <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Saturday.",
         "choices": [
           "at",
@@ -589,7 +592,7 @@
         "explain": "Days of the week take ‘on’: on Saturday. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "My cousin was born <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 2012.",
         "choices": [
           "on",
@@ -607,7 +610,7 @@
         "explain": "Years take ‘in’: in 2012. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "It’s cold here <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> January.",
         "choices": [
           "on",
@@ -625,7 +628,7 @@
         "explain": "Months take ‘in’: in January. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "Her birthday is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 2 October.",
         "choices": [
           "in",
@@ -643,25 +646,25 @@
         "explain": "Dates take ‘on’: on 2 October. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "I can’t sleep <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> night when it’s hot.",
         "choices": [
           "in",
           "on",
           "at",
-          "during the"
+          "to"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘In the night’ is used for a specific night, but the general phrase is ‘at night’.",
           "‘On night’ is wrong.",
           "",
-          "‘During the night’ needs ‘the’ and isn’t one option here."
+          "‘To night’ is wrong."
         ],
         "explain": "Fixed phrase: at night (but in the morning / afternoon / evening)."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "I always have a shower <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the morning.",
         "choices": [
           "at",
@@ -679,7 +682,7 @@
         "explain": "Parts of the day: in the morning, in the evening. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "I’ll see you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Tuesday morning.",
         "choices": [
           "on",
@@ -697,7 +700,7 @@
         "explain": "Day + part of day takes ‘on’: on Tuesday morning. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "We’re going to Paris <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> next week.",
         "choices": [
           "on",
@@ -715,7 +718,7 @@
         "explain": "No at / on / in before next, last, this, every. Words like next, last, this and every replace the preposition."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "She started her new job <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> last Monday.",
         "choices": [
           "on",
@@ -733,25 +736,25 @@
         "explain": "No preposition before ‘last’: last Monday. Words like next, last, this and every replace the preposition."
       },
       {
-        "use": "Choose the answer",
-        "text": "Many families get together <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Easter.",
+        "use": "Prepositions of time",
+        "text": "Many shops are closed <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> New Year’s Day.",
         "choices": [
           "at",
           "on",
           "in",
           "by"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
+          "‘At’ is for clock times and holiday periods, not one named day.",
           "",
-          "‘On Easter’ is American English for the day; in British English the holiday period is ‘at Easter’.",
-          "‘In Easter’ is wrong.",
-          "‘By Easter’ means before Easter."
+          "‘In’ is for months, years and seasons.",
+          "‘By’ means before that day."
         ],
-        "explain": "Holiday periods take ‘at’: at Easter, at Christmas. The bigger the time period, the bigger the word: at → on → in."
+        "explain": "A specific named day takes ‘on’: on New Year’s Day, on Christmas Day. Holiday periods take ‘at’: at Christmas."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "They exchange presents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Christmas Day.",
         "choices": [
           "at",
@@ -769,25 +772,25 @@
         "explain": "A specific day takes ‘on’: on Christmas Day. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "Lots of birds fly south <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> autumn.",
         "choices": [
           "on",
           "at",
-          "by",
+          "to",
           "in"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘On autumn’ is wrong.",
           "‘At autumn’ is wrong.",
-          "‘By autumn’ means before autumn.",
+          "‘To autumn’ is wrong.",
           ""
         ],
         "explain": "Seasons take ‘in’: in autumn. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "The pizza will be ready <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> fifteen minutes.",
         "choices": [
           "in",
@@ -805,7 +808,7 @@
         "explain": "‘In’ + a period = after that time from now."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "We have a break <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> eleven.",
         "choices": [
           "in",
@@ -823,7 +826,7 @@
         "explain": "Clock time: at eleven. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "Gaudí was born <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the 19th century.",
         "choices": [
           "on",
@@ -841,7 +844,7 @@
         "explain": "Centuries take ‘in’. The bigger the time period, the bigger the word: at → on → in."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "Which sentence is correct?",
         "choices": [
           "See you on Friday at six.",
@@ -859,7 +862,7 @@
         "explain": "on + day, at + clock time. Check each time expression separately."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "Which sentence is correct?",
         "choices": [
           "I was born on May, in a Sunday.",
@@ -877,7 +880,7 @@
         "explain": "in + month, on + day. Check each time expression separately."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "I go swimming <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> every Wednesday.",
         "choices": [
           "on",
@@ -895,19 +898,19 @@
         "explain": "No preposition before ‘every’. Words like next, last, this and every replace the preposition."
       },
       {
-        "use": "Choose the answer",
+        "use": "Prepositions of time",
         "text": "The shops close <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> midnight on Saturdays.",
         "choices": [
           "in",
           "on",
-          "by the",
+          "at the",
           "at"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘In midnight’ is wrong.",
           "‘On midnight’ is wrong.",
-          "‘By the midnight’ is wrong.",
+          "‘At the midnight’ is wrong: no article.",
           ""
         ],
         "explain": "Points of the day: at midnight, at noon. The bigger the time period, the bigger the word: at → on → in."
@@ -1084,17 +1087,23 @@
       },
       {
         "tokens": [
-          "I",
-          "play",
-          "tennis",
-          "in",
+          "The",
+          "song",
+          "was",
+          "a",
+          "hit",
+          "on",
           "the",
-          "weekend."
+          "1990s."
         ],
-        "errorIndex": 3,
-        "correction": "at",
-        "type": "In for weekend",
-        "message": "British English: ‘at the weekend’ (American: ‘on the weekend’)."
+        "errorIndex": 5,
+        "correction": "in",
+        "type": "On for decade",
+        "message": "Decades take ‘in’: ‘in the 1990s’.",
+        "errorSpan": [
+          5,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1219,31 +1228,31 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Breakfast is served {{blank}} 8 a.m.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
         "display": "at",
-        "explain": "An exact clock time always takes the preposition ‘at’.",
+        "explain": "An exact clock time takes the preposition ‘at’.",
         "wrongNote": "Clock time → at."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "The match is {{blank}} Saturday.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
         "display": "on",
-        "explain": "Days of the week always take the preposition ‘on’.",
+        "explain": "Days of the week take the preposition ‘on’.",
         "wrongNote": "Day → on."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "We go camping {{blank}} August.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -1254,13 +1263,14 @@
       {
         "type": "fill",
         "use": "Fill the gap",
-        "sentText": "I’ll finish it {{blank}}.",
-        "hint": "tomorrow / on tomorrow",
+        "sentText": "I’ll finish it {{blank}} morning.",
+        "hint": "(time word)",
         "answers": [
-          "tomorrow"
+          "tomorrow",
+          "this"
         ],
         "display": "tomorrow",
-        "explain": "No preposition before tomorrow, next, last or every.",
+        "explain": "No preposition before tomorrow or this: ‘tomorrow morning’, ‘this morning’.",
         "wrongNote": "Just ‘tomorrow’."
       },
       {

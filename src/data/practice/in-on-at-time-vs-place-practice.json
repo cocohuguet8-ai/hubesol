@@ -17,7 +17,7 @@
         "use": "Time",
         "before": "The meeting starts",
         "after": "four o’clock.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -28,7 +28,7 @@
         "use": "Place",
         "before": "I’ll wait for you",
         "after": "the main entrance.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -39,7 +39,7 @@
         "use": "Time",
         "before": "We’ve got an English exam",
         "after": "Monday.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -50,7 +50,7 @@
         "use": "Place",
         "before": "I left my keys",
         "after": "the kitchen table.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -61,7 +61,7 @@
         "use": "Time",
         "before": "My brother was born",
         "after": "2008.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -72,7 +72,7 @@
         "use": "Place",
         "before": "My brother lives",
         "after": "Manchester now.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -83,7 +83,7 @@
         "use": "Time",
         "before": "I love walking on the beach",
         "after": "the evening.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -94,7 +94,7 @@
         "use": "Time",
         "before": "I can’t sleep",
         "after": "night because of the noise.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -105,7 +105,7 @@
         "use": "Place",
         "before": "She’s",
         "after": "home today — she’s ill.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -116,7 +116,7 @@
         "use": "Place",
         "before": "He’s been",
         "after": "bed all day with a fever.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -126,8 +126,8 @@
       {
         "use": "Time",
         "before": "The shops are very busy",
-        "after": "Christmas.",
-        "hint": "at / on",
+        "after": "Christmas time.",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -138,7 +138,7 @@
         "use": "Time",
         "before": "We open presents",
         "after": "Christmas morning.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -149,7 +149,7 @@
         "use": "Place",
         "before": "I always listen to music",
         "after": "the bus.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -160,7 +160,7 @@
         "use": "Place",
         "before": "Put the milk back",
         "after": "the fridge.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -171,7 +171,7 @@
         "use": "Time",
         "before": "It’s usually hot",
         "after": "July.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -182,7 +182,7 @@
         "use": "Place",
         "before": "We live",
         "after": "the first floor.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -192,19 +192,19 @@
       {
         "use": "Both",
         "before": "We had dinner",
-        "after": "a nice restaurant on Saturday.",
-        "hint": "at / in",
+        "after": "Pepe’s on Saturday.",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
         "display": "at",
-        "explain": "Place: a specific venue for an activity takes ‘at’."
+        "explain": "Place: a specific venue (a restaurant, a shop, a person’s place) takes ‘at’: at Pepe’s."
       },
       {
         "use": "Both",
         "before": "She was born in Lleida",
         "after": "2 February.",
-        "hint": "on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -215,7 +215,7 @@
         "use": "Both",
         "before": "See you at the gym",
         "after": "seven.",
-        "hint": "at / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
@@ -226,7 +226,7 @@
         "use": "Both",
         "before": "I lived in Rome",
         "after": "the summer of 2022.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -471,7 +471,7 @@
         "right": "at"
       },
       {
-        "left": "___ the table",
+        "left": "___ the shelf",
         "right": "on"
       },
       {
@@ -479,7 +479,7 @@
         "right": "in"
       },
       {
-        "left": "___ the station",
+        "left": "___ the bus stop",
         "right": "at"
       },
       {
@@ -515,11 +515,11 @@
         "right": "in"
       },
       {
-        "left": "___ Christmas",
+        "left": "___ the same time",
         "right": "at"
       },
       {
-        "left": "___ the wall",
+        "left": "___ the ceiling",
         "right": "on"
       },
       {
@@ -844,21 +844,21 @@
       },
       {
         "use": "Order",
-        "text": "Which word order is most natural?",
+        "text": "Which sentence is correct?",
         "choices": [
           "We played football in the park on Sunday.",
-          "We played football on Sunday in the park.",
-          "On Sunday in the park we football played.",
-          "We in the park played football on Sunday."
+          "We played football on the park in Sunday.",
+          "We played football at the park in Sunday.",
+          "We played football in the park in Sunday."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Possible, but place before time is more usual.",
-          "The verb and object are in the wrong order.",
-          "Adverbials don’t go between subject and verb."
+          "A park is an area, so ‘in the park’; and a day takes ‘on’, not ‘in’.",
+          "A day takes ‘on’: ‘on Sunday’, not ‘in Sunday’.",
+          "A day takes ‘on’: ‘on Sunday’, not ‘in Sunday’."
         ],
-        "explain": "Usual order: place before time."
+        "explain": "Area → in the park; day → on Sunday."
       },
       {
         "use": "Exception",
@@ -1167,13 +1167,13 @@
           "We",
           "go",
           "skiing",
-          "on",
+          "in",
           "Easter."
         ],
         "errorIndex": 3,
         "correction": "at",
         "type": "Holiday",
-        "message": "British English: ‘at Easter’ (the holiday period)."
+        "message": "A holiday period takes ‘at’: ‘at Easter’."
       },
       {
         "tokens": [
@@ -1213,19 +1213,19 @@
         "type": "fill",
         "use": "Time",
         "sentText": "The shop opens {{blank}} nine.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "at"
         ],
         "display": "at",
-        "explain": "Time: an exact clock time always takes the preposition ‘at’.",
+        "explain": "Time: an exact clock time takes the preposition ‘at’.",
         "wrongNote": "Clock time → at."
       },
       {
         "type": "fill",
         "use": "Place",
         "sentText": "The shop is {{blank}} the city centre.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "in"
         ],
@@ -1237,19 +1237,19 @@
         "type": "fill",
         "use": "Time",
         "sentText": "It closes {{blank}} Sundays.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
         "display": "on",
-        "explain": "Time: days of the week always take the preposition ‘on’.",
+        "explain": "Time: days of the week take the preposition ‘on’.",
         "wrongNote": "Day → on."
       },
       {
         "type": "fill",
         "use": "Place",
         "sentText": "The prices are {{blank}} the door.",
-        "hint": "at / on / in",
+        "hint": "(preposition)",
         "answers": [
           "on"
         ],
@@ -1328,14 +1328,14 @@
         "text": "{{blank}} the corner of the room (place)",
         "choices": [
           "on",
-          "at",
+          "to",
           "into",
           "in"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘On the corner’ is for streets.",
-          "‘At the corner’ is possible but ‘in’ is best for rooms.",
+          "‘To’ shows direction, not position.",
           "‘Into’ shows movement.",
           ""
         ],
@@ -1363,7 +1363,7 @@
       {
         "type": "which",
         "use": "Which",
-        "text": "{{blank}} the airport (place)",
+        "text": "{{blank}} the bus stop (place)",
         "choices": [
           "on",
           "in",
@@ -1372,12 +1372,12 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘On the airport’ is wrong.",
-          "‘In the airport’ means inside the building.",
+          "‘On the bus stop’ would mean standing on top of it.",
+          "A bus stop is a point where people wait, not an enclosed place.",
           "",
           "‘Into’ shows movement."
         ],
-        "explain": "A point / place of activity → at."
+        "explain": "A point where people wait → at."
       },
       {
         "type": "mc",
@@ -1422,14 +1422,14 @@
         "use": "Both",
         "text": "We’ll meet {{blank}} the station {{blank}} six.",
         "choices": [
-          "in / at",
+          "to / at",
           "at / in",
           "on / at",
           "at / at"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘In the station’ means inside it, but the meeting point is ‘at’.",
+          "‘To’ shows movement; here you’re saying where you will be.",
           "‘In six’ means after six units.",
           "‘On the station’ is wrong.",
           ""

@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "you hurry, you’ll miss the train.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "Unless"
         ],
@@ -28,7 +28,7 @@
         "use": "Fill the gap",
         "before": "I’ll walk to school",
         "after": "it rains.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "unless"
         ],
@@ -39,7 +39,7 @@
         "use": "Fill the gap",
         "before": "Don’t call me",
         "after": "it’s really urgent.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "unless"
         ],
@@ -50,7 +50,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "we leave now, we won’t get seats.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "Unless"
         ],
@@ -61,7 +61,7 @@
         "use": "Fill the gap",
         "before": "You won’t pass",
         "after": "you study harder.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "unless"
         ],
@@ -72,7 +72,7 @@
         "use": "Fill the gap",
         "before": "The dog won’t eat",
         "after": "you put meat in its bowl.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "unless"
         ],
@@ -83,81 +83,113 @@
         "use": "Fill the gap",
         "before": "You can borrow my bike",
         "after": "you bring it back today.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
-          "as long as"
+          "as long as",
+          "provided",
+          "providing",
+          "so long as",
+          "provided that",
+          "providing that"
         ],
         "display": "as long as",
-        "explain": "Only if you bring it back: ‘as long as’ sets a condition."
+        "explain": "Only if you bring it back: ‘as long as’ sets a condition. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
         "before": "I don’t mind what we eat",
         "after": "it’s hot.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
-          "as long as"
+          "as long as",
+          "provided",
+          "providing",
+          "so long as",
+          "provided that",
+          "providing that"
         ],
         "display": "as long as",
-        "explain": "Any food is fine, only if it’s hot: ‘as long as’."
+        "explain": "Any food is fine, only if it’s hot: ‘as long as’. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
         "before": "You can stay up late",
         "after": "you’re quiet.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
-          "as long as"
+          "as long as",
+          "provided",
+          "providing",
+          "so long as",
+          "provided that",
+          "providing that"
         ],
         "display": "as long as",
-        "explain": "Permission with a condition: ‘as long as’ = only if."
+        "explain": "Permission with a condition: ‘as long as’ = only if. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
         "before": "",
         "after": "you practise every day, you’ll improve.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
-          "As long as"
+          "As long as",
+          "Provided",
+          "Providing",
+          "So long as",
+          "Provided that",
+          "Providing that"
         ],
         "display": "As long as",
-        "explain": "Daily practice is the condition: ‘as long as’."
+        "explain": "Daily practice is the condition: ‘as long as’. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
         "before": "We’ll play the final",
         "after": "it doesn’t rain.",
-        "hint": "provided / unless",
+        "hint": "linker",
         "answers": [
+          "as long as",
           "provided",
-          "providing"
+          "providing",
+          "so long as",
+          "provided that",
+          "providing that"
         ],
-        "display": "provided",
-        "explain": "Only if it doesn’t rain: ‘provided’ is a formal ‘as long as’."
+        "display": "as long as",
+        "explain": "Only if it doesn’t rain: ‘provided’ is a formal ‘as long as’. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
         "before": "You can join the club",
         "after": "you pay the fee.",
-        "hint": "provided / unless",
+        "hint": "linker",
         "answers": [
+          "as long as",
           "provided",
-          "providing"
+          "providing",
+          "so long as",
+          "provided that",
+          "providing that"
         ],
-        "display": "provided",
-        "explain": "A formal condition: ‘provided (that)’ = only if."
+        "display": "as long as",
+        "explain": "A formal condition: ‘provided (that)’ = only if. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
         "before": "",
         "after": "the price is right, we’ll buy the flat.",
-        "hint": "provided / unless",
+        "hint": "linker",
         "answers": [
+          "As long as",
           "Provided",
-          "Providing"
+          "Providing",
+          "So long as",
+          "Provided that",
+          "Providing that"
         ],
-        "display": "Provided",
-        "explain": "The price is the condition: ‘provided’."
+        "display": "As long as",
+        "explain": "The price is the condition: ‘provided’. (‘as long as’, ‘provided’, ‘providing’ and ‘so long as’ all work.)"
       },
       {
         "use": "Fill the gap",
@@ -235,7 +267,7 @@
         "use": "Fill the gap",
         "before": "I can’t help you",
         "after": "you tell me the truth.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "unless"
         ],
@@ -767,43 +799,43 @@
         "right": "Unless the bus comes, we’ll walk."
       },
       {
-        "left": "Only if you’re careful, you can borrow it.",
+        "left": "You can borrow it, but only if you’re careful.",
         "right": "You can borrow it as long as you’re careful."
       },
       {
-        "left": "Only if you’re home by ten, you can go.",
+        "left": "You can go, but only if you’re home by ten.",
         "right": "You can go as long as you’re home by ten."
       },
       {
-        "left": "Only if it’s sunny, we’ll go to the beach.",
+        "left": "We’ll go to the beach, but only if it’s sunny.",
         "right": "We’ll go to the beach as long as it’s sunny."
       },
       {
-        "left": "Only if you pay, you can join.",
+        "left": "You can join, but only if you pay.",
         "right": "You can join as long as you pay."
       },
       {
-        "left": "Only if you help me, I’ll help you.",
+        "left": "I’ll help you, but only if you help me.",
         "right": "I’ll help you as long as you help me."
       },
       {
-        "left": "Only if the price is right, we’ll buy it.",
+        "left": "We’ll buy it, but only if the price is right.",
         "right": "We’ll buy it as long as the price is right."
       },
       {
-        "left": "Only if you practise, you’ll improve.",
+        "left": "You’ll improve, but only if you practise.",
         "right": "You’ll improve as long as you practise."
       },
       {
-        "left": "Only if you’re quiet, you can stay.",
+        "left": "You can stay, but only if you’re quiet.",
         "right": "You can stay as long as you’re quiet."
       },
       {
-        "left": "Only if it’s hot, I’ll eat it.",
+        "left": "I’ll eat it, but only if it’s hot.",
         "right": "I’ll eat it as long as it’s hot."
       },
       {
-        "left": "Only if you tell the truth, I’ll forgive you.",
+        "left": "I’ll forgive you, but only if you tell the truth.",
         "right": "I’ll forgive you as long as you tell the truth."
       }
     ]
@@ -821,14 +853,14 @@
           "Unless",
           "As long as",
           "Provided",
-          "If"
+          "Because"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘As long as you hurry, you’ll miss it’ makes no sense: hurrying wouldn’t make you miss it.",
           "‘Provided you hurry’ means only if you hurry — the opposite.",
-          "‘If you hurry, you’ll miss the bus’ is illogical."
+          "‘Because’ gives a reason, not a condition: the sentence needs ‘unless’."
         ],
         "explain": "If you don’t hurry, you’ll miss it: ‘unless’ means ‘if not’."
       },
@@ -947,14 +979,14 @@
           "unless",
           "as long as",
           "provided",
-          "if"
+          "so"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘As long as you come’ fits a yes-sentence; with ‘won’t’ it says the opposite.",
           "‘Provided you come’ with ‘won’t go’ makes no sense.",
-          "‘If you come with me, I won’t go’ is illogical."
+          "‘So’ doesn’t introduce a condition."
         ],
         "explain": "I won’t go if you don’t come: ‘unless’."
       },
@@ -1091,14 +1123,14 @@
           "get",
           "got",
           "’ll get",
-          "would got"
+          "have got"
         ],
         "correct": 2,
         "wrongReasons": [
           "The main clause is about the future, so it needs ‘will’.",
           "‘Got’ is past.",
           "",
-          "After ‘would’ use the base verb, and this isn’t imaginary."
+          "‘Have got’ is present perfect: the main clause needs ‘will get’."
         ],
         "explain": "The main clause works like a first conditional: will + base verb."
       },
@@ -1438,18 +1470,19 @@
       },
       {
         "tokens": [
-          "Unless",
-          "the",
-          "baby",
-          "crys,",
-          "let",
-          "her",
-          "sleep."
+          "You",
+          "can",
+          "stay",
+          "as",
+          "long",
+          "that",
+          "you’re",
+          "quiet."
         ],
-        "errorIndex": 3,
-        "correction": "cries,",
-        "type": "Spelling",
-        "message": "Consonant + -y → -ies: cry → cries."
+        "errorIndex": 5,
+        "correction": "as",
+        "type": "Wrong word",
+        "message": "The fixed phrase is ‘as long as’, not ‘as long that’."
       },
       {
         "tokens": [
@@ -1572,7 +1605,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "{{blank}} you water them, the flowers will die.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
           "Unless"
         ],
@@ -1584,12 +1617,17 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "You can play {{blank}} you finish your homework first.",
-        "hint": "unless / as long as",
+        "hint": "linker",
         "answers": [
-          "as long as"
+          "as long as",
+          "provided",
+          "providing",
+          "so long as",
+          "provided that",
+          "providing that"
         ],
         "display": "as long as",
-        "explain": "Only if you finish: ‘as long as’.",
+        "explain": "Only if you finish: ‘as long as’. (‘provided’, ‘providing’ and ‘so long as’ also work.)",
         "wrongNote": "‘Only if’ → ‘as long as’."
       },
       {

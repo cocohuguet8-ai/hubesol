@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "My phone ___ stolen on the train. (informal)",
-      "options": ["getting", "was got", "gets", "got"],
+      "options": [
+        "getting",
+        "was got",
+        "gets",
+        "got"
+      ],
       "answer": 3,
       "explanations": [
         "'Getting stolen' can't stand alone here.",
@@ -16,18 +21,28 @@
     },
     {
       "question": "They ___ married last summer.",
-      "options": ["get", "were got", "got", "gotten"],
+      "options": [
+        "get",
+        "were got",
+        "got",
+        "getting"
+      ],
       "answer": 2,
       "explanations": [
         "'Get married' is present; 'last summer' needs the past.",
         "'Were got married' is wrong.",
         "Correct! 'Get married' is a set phrase: 'got married'.",
-        "'Gotten married' isn't standard British usage here."
+        "'Getting married' needs 'are/were': 'They were getting married'."
       ]
     },
     {
       "question": "Did you ___ paid this month?",
-      "options": ["get", "got", "were", "been"],
+      "options": [
+        "get",
+        "got",
+        "were",
+        "been"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Questions use 'do' + base 'get': 'Did you get paid?'",
@@ -38,7 +53,12 @@
     },
     {
       "question": "He ___ hurt playing rugby.",
-      "options": ["was got", "got", "getting", "gets"],
+      "options": [
+        "was got",
+        "got",
+        "getting",
+        "gets"
+      ],
       "answer": 1,
       "explanations": [
         "'Was got hurt' mixes be and get.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "I didn't ___ invited to the party.",
-      "options": ["got", "get", "was", "been"],
+      "options": [
+        "got",
+        "get",
+        "was",
+        "been"
+      ],
       "answer": 1,
       "explanations": [
         "After 'didn't', use 'get', not 'got'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "Hurry up and ___ dressed!",
-      "options": ["getting", "got", "be got", "get"],
+      "options": [
+        "getting",
+        "got",
+        "be got",
+        "get"
+      ],
       "answer": 3,
       "explanations": [
         "'Getting dressed' isn't an imperative here.",
@@ -87,7 +117,12 @@
     },
     {
       "question": "Careful, or you'll ___ lost in the old town.",
-      "options": ["got", "be got", "get", "getting"],
+      "options": [
+        "got",
+        "be got",
+        "get",
+        "getting"
+      ],
       "answer": 2,
       "explanations": [
         "After 'will', use the base 'get', not 'got'.",
@@ -132,11 +167,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "He ___ fired last month. (informal passive)",
-      "hint": "Use the get passive. Type one word.",
-      "answers": ["got"],
+      "hint": "Type one word.",
+      "answers": [
+        "got"
+      ],
       "explanation": "Get passive: got + past participle.",
       "common": [
-        {"answer": "was", "why": "'Was fired' is the be passive. The informal get passive is 'got fired'."}
+        {
+          "answer": "was",
+          "why": "'Was fired' is the be passive. The informal get passive is 'got fired'."
+        }
       ]
     },
     {
@@ -144,7 +184,10 @@
       "kind": "Correct the mistake",
       "question": "Was he get hurt?",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Did he get hurt"],
+      "answers": [
+        "Did he get hurt",
+        "Was he hurt"
+      ],
       "explanation": "'Get' needs 'do' in questions: Did he get hurt?"
     },
     {
@@ -152,7 +195,10 @@
       "kind": "Correct the mistake",
       "question": "It was got broken.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["It got broken", "It was broken"],
+      "answers": [
+        "It got broken",
+        "It was broken"
+      ],
       "explanation": "Don't mix be and get: 'got broken' or 'was broken'."
     }
   ]

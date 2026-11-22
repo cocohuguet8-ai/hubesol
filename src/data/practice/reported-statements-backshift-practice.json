@@ -147,10 +147,11 @@
         "after": ".",
         "hint": "(sleep)",
         "answers": [
-          "had been sleeping"
+          "had been sleeping",
+          "was sleeping"
         ],
         "display": "had been sleeping",
-        "explain": "Past continuous → past perfect continuous: had been sleeping."
+        "explain": "Past continuous → past perfect continuous: had been sleeping (‘was sleeping’ is also used in speech)."
       },
       {
         "use": "Will",
@@ -181,7 +182,7 @@
         "use": "Can",
         "before": "“I can swim.” → My sister said she",
         "after": "swim.",
-        "hint": "can / could",
+        "hint": "(modal)",
         "answers": [
           "could"
         ],
@@ -192,7 +193,7 @@
         "use": "May",
         "before": "“I may be late.” → He said he",
         "after": "be late.",
-        "hint": "may / might",
+        "hint": "(modal)",
         "answers": [
           "might"
         ],
@@ -203,7 +204,7 @@
         "use": "Must",
         "before": "“I must leave early.” → She said she",
         "after": "leave early.",
-        "hint": "must / had to",
+        "hint": "(modal)",
         "answers": [
           "had to"
         ],
@@ -214,7 +215,7 @@
         "use": "No change",
         "before": "“You should rest.” → The doctor said I",
         "after": "rest.",
-        "hint": "should / shall",
+        "hint": "(modal)",
         "answers": [
           "should"
         ],
@@ -225,7 +226,7 @@
         "use": "No change",
         "before": "“I had already eaten.” → He said he",
         "after": "already eaten.",
-        "hint": "had / has",
+        "hint": "(modal)",
         "answers": [
           "had"
         ],
@@ -236,7 +237,7 @@
         "use": "Going to",
         "before": "“I’m going to call her.” → He said he",
         "after": "call her.",
-        "hint": "was going to",
+        "hint": "(going to)",
         "answers": [
           "was going to"
         ],
@@ -560,7 +561,7 @@
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. After said / told, move one step back: present → past, past → past perfect, will → would.",
+    "subtitle": "15 seconds per question. After said / told, move one step back: present → past, past → past perfect, will → would. In these exercises the statements are reported later, so the tense moves one step back.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
@@ -642,14 +643,14 @@
         "choices": [
           "has broken",
           "had broken",
-          "broke",
+          "had break",
           "was breaking"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Has broken’ isn’t backshifted.",
           "",
-          "‘Broke’ is possible in speech, but the backshift is ‘had broken’.",
+          "After ‘had’ you need the past participle: ‘had broken’.",
           "‘Was breaking’ changes the meaning."
         ],
         "explain": "Present perfect → past perfect: had broken. The time moves one step back into the past."
@@ -732,14 +733,14 @@
         "choices": [
           "must to",
           "has to",
-          "musted",
+          "musts",
           "had to"
         ],
         "correct": 3,
         "wrongReasons": [
           "No ‘to’ after ‘must’.",
           "‘Has to’ isn’t backshifted.",
-          "‘Musted’ doesn’t exist.",
+          "Modals don’t take -s.",
           ""
         ],
         "explain": "‘Must’ (obligation) → ‘had to’ (‘must’ can also stay). Obligation in the past is expressed with ‘had to’."
@@ -838,14 +839,14 @@
         "use": "Past continuous",
         "text": "“I was reading.” → She said she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> reading.",
         "choices": [
-          "was",
+          "were",
           "has been",
           "had been",
           "is"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Was’ is common in speech, but the full backshift is ‘had been’.",
+          "‘She’ takes ‘was’, not ‘were’, and the full backshift is ‘had been’.",
           "‘Has been’ is present perfect.",
           "",
           "‘Is’ is present."
@@ -876,14 +877,14 @@
         "choices": [
           "have won",
           "had won",
-          "won",
+          "had win",
           "were winning"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Have won’ isn’t backshifted.",
           "",
-          "‘Won’ is acceptable in speech, but the backshift is ‘had won’.",
+          "After ‘had’ you need the past participle: ‘had won’.",
           "‘Were winning’ changes the meaning."
         ],
         "explain": "Present perfect → past perfect. ‘Told’ + person works like ‘said’ for backshift."
@@ -928,7 +929,7 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences. In these exercises the statements are reported later, so the tense moves one step back.",
     "items": [
       {
         "tokens": [
@@ -1286,7 +1287,7 @@
         "type": "fill",
         "use": "Can",
         "sentText": "“I can’t swim.” → She said she {{blank}} swim.",
-        "hint": "can / could",
+        "hint": "(modal)",
         "answers": [
           "couldn’t",
           "couldn't",
@@ -1462,14 +1463,14 @@
         "choices": [
           "has to",
           "must to",
-          "musted",
+          "musts",
           "had to"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Has to’ isn’t backshifted.",
           "No ‘to’ after ‘must’.",
-          "‘Musted’ doesn’t exist.",
+          "Modals don’t take -s.",
           ""
         ],
         "explain": "‘Must’ often becomes ‘had to’."

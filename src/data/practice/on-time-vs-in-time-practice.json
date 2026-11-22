@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "The train left exactly",
         "after": "time — not a minute late.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "on"
         ],
@@ -28,18 +28,19 @@
         "use": "Fill the gap",
         "before": "Please be",
         "after": "time for the exam. It starts at nine.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
-          "on"
+          "on",
+          "in"
         ],
         "display": "on",
-        "explain": "Punctual for a planned time: on time."
+        "explain": "Punctual for a planned time: on time. (‘In time’ also works if you mean early enough.)"
       },
       {
         "use": "Fill the gap",
         "before": "Our teacher is always",
         "after": "time for class.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "on"
         ],
@@ -50,7 +51,7 @@
         "use": "Fill the gap",
         "before": "Surprisingly, the flight landed",
         "after": "time.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "on"
         ],
@@ -61,7 +62,7 @@
         "use": "Fill the gap",
         "before": "We got to the cinema",
         "after": "time to buy popcorn.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -72,18 +73,19 @@
         "use": "Fill the gap",
         "before": "I got home just",
         "after": "time for dinner.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
-          "in"
+          "in",
+          "on"
         ],
         "display": "in",
-        "explain": "Early enough for something: in time for."
+        "explain": "Early enough for something: in time for. (‘just on time’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "The firefighters arrived",
         "after": "time to save the cat.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -94,7 +96,7 @@
         "use": "Fill the gap",
         "before": "Hurry, or we won’t be there",
         "after": "time to see the start!",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -105,7 +107,7 @@
         "use": "Fill the gap",
         "before": "We caught the bus just",
         "after": "time — the doors were closing.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -116,7 +118,7 @@
         "use": "Fill the gap",
         "before": "The toilets are",
         "after": "the end of the corridor.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "at"
         ],
@@ -127,7 +129,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "the end of the film, everybody cried.",
-        "hint": "At / In",
+        "hint": "preposition",
         "answers": [
           "At"
         ],
@@ -138,7 +140,7 @@
         "use": "Fill the gap",
         "before": "We have a test",
         "after": "the end of every unit.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "at"
         ],
@@ -149,7 +151,7 @@
         "use": "Fill the gap",
         "before": "My birthday is",
         "after": "the end of June.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "at"
         ],
@@ -160,7 +162,7 @@
         "use": "Fill the gap",
         "before": "We argued for hours, but",
         "after": "the end we agreed.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -171,7 +173,7 @@
         "use": "Fill the gap",
         "before": "I looked at lots of phones and",
         "after": "the end I bought the cheapest one.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -182,7 +184,7 @@
         "use": "Fill the gap",
         "before": "It rained all week, so",
         "after": "the end the match was cancelled.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -193,7 +195,7 @@
         "use": "Fill the gap",
         "before": "She was nervous, but",
         "after": "the end the interview went well.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -204,7 +206,7 @@
         "use": "Fill the gap",
         "before": "At the end",
         "after": "the day, I was exhausted.",
-        "hint": "of / —",
+        "hint": "word",
         "answers": [
           "of"
         ],
@@ -215,7 +217,7 @@
         "use": "Fill the gap",
         "before": "We arrived in time",
         "after": "the wedding.",
-        "hint": "for / to",
+        "hint": "word",
         "answers": [
           "for"
         ],
@@ -226,7 +228,7 @@
         "use": "Fill the gap",
         "before": "He arrived in time",
         "after": "say goodbye.",
-        "hint": "for / to",
+        "hint": "word",
         "answers": [
           "to"
         ],
@@ -715,14 +717,14 @@
         "use": "Choose the answer",
         "text": "I got home just <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for the start of the match.",
         "choices": [
-          "on time",
+          "by time",
           "in time",
           "at time",
           "in the time"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘On time for the start’ is less natural: the idea is early enough.",
+          "‘By time’ is wrong.",
           "",
           "‘At time’ is wrong.",
           "‘In the time’ is wrong."
@@ -753,14 +755,14 @@
         "choices": [
           "In the end",
           "On the end",
-          "By the end",
+          "To the end",
           "At the end"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘In the end of’ is wrong.",
           "‘On the end’ is wrong.",
-          "‘By the end’ means not later than.",
+          "‘To the end of’ is wrong here.",
           ""
         ],
         "explain": "Final point of an event: at the end of."
@@ -805,14 +807,14 @@
         "use": "Choose the answer",
         "text": "We reached the gate <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> — they were closing it!",
         "choices": [
-          "just on time",
+          "just by time",
           "just at the end",
           "just in the end",
           "just in time"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Just on time’ is less natural for the last moment.",
+          "‘Just by time’ is wrong: the fixed phrase is ‘just in time’.",
           "‘Just at the end’ changes the meaning.",
           "‘Just in the end’ is wrong.",
           ""
@@ -1021,38 +1023,34 @@
       },
       {
         "tokens": [
+          "Our",
+          "flight",
+          "left",
+          "in",
+          "time,",
+          "exactly",
+          "at",
+          "six."
+        ],
+        "errorIndex": 3,
+        "correction": "on",
+        "type": "In time for punctual",
+        "message": "Punctual, exactly at the planned time: ‘on time’."
+      },
+      {
+        "tokens": [
           "Please",
-          "be",
+          "arrive",
           "in",
           "time",
-          "for",
-          "the",
-          "meeting",
           "at",
-          "nine."
+          "ten",
+          "sharp."
         ],
         "errorIndex": 2,
         "correction": "on",
         "type": "In time for punctual",
-        "message": "Punctual for a scheduled time: ‘on time’."
-      },
-      {
-        "tokens": [
-          "Our",
-          "teacher",
-          "is",
-          "never",
-          "late",
-          "—",
-          "she’s",
-          "always",
-          "in",
-          "time."
-        ],
-        "errorIndex": 8,
-        "correction": "on",
-        "type": "In time for punctual",
-        "message": "Punctual: ‘on time’."
+        "message": "Punctual, at ten sharp: ‘on time’."
       },
       {
         "tokens": [
@@ -1278,17 +1276,16 @@
           "was",
           "boring,",
           "but",
-          "by",
-          "the",
+          "in",
           "end",
           "I",
           "liked",
           "it."
         ],
-        "errorIndex": 5,
-        "correction": "in",
-        "type": "By the end",
-        "message": "Finally: ‘in the end’."
+        "errorIndex": 6,
+        "correction": "the end",
+        "type": "Missing the",
+        "message": "Finally: ‘in the end’, with ‘the’."
       },
       {
         "tokens": [
@@ -1326,17 +1323,19 @@
       },
       {
         "tokens": [
-          "In",
+          "At",
           "the",
-          "ende,",
-          "everything",
-          "was",
-          "fine."
+          "end",
+          "the",
+          "film,",
+          "they",
+          "get",
+          "married."
         ],
-        "errorIndex": 2,
-        "correction": "end,",
-        "type": "Spelling",
-        "message": "Spelling: ‘end’."
+        "errorIndex": 3,
+        "correction": "of the",
+        "type": "Missing of",
+        "message": "‘At the end’ + of + noun: ‘at the end of the film’."
       }
     ]
   },
@@ -1362,7 +1361,7 @@
         "type": "fill",
         "use": "On time",
         "sentText": "The plane took off {{blank}} time.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "on"
         ],
@@ -1374,7 +1373,7 @@
         "type": "fill",
         "use": "In time",
         "sentText": "We got there {{blank}} time to see the first goal.",
-        "hint": "on / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -1386,7 +1385,7 @@
         "type": "fill",
         "use": "At the end",
         "sentText": "The café is {{blank}} the end of the street.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "at"
         ],
@@ -1398,7 +1397,7 @@
         "type": "fill",
         "use": "In the end",
         "sentText": "We waited for an hour, but {{blank}} the end she didn’t come.",
-        "hint": "at / in",
+        "hint": "preposition",
         "answers": [
           "in"
         ],
@@ -1562,14 +1561,14 @@
         "text": "Hurry or we won’t be {{blank}} for the bus.",
         "choices": [
           "in time",
-          "on time",
+          "at time",
           "in the end",
           "at the end"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘On time for the bus’ is less natural: the idea is early enough.",
+          "‘At time’ is wrong.",
           "‘In the end’ is finally.",
           "‘At the end’ is a final point."
         ],

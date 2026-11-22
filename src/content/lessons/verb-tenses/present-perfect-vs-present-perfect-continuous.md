@@ -104,4 +104,4 @@ Numbers and quantities need the simple form.
 
 **3. State verbs in the continuous.** ✗ *~~She’s been knowing him since 2015.~~* → ✓ **She’s known him since 2015.**
 
-**Pro tip:** numbers and results → simple; how long and the activity itself → continuous; state verbs → always simple.
+**Pro tip:** numbers and results → simple; how long and the activity itself → continuous; state verbs → the simple form, not the continuous.

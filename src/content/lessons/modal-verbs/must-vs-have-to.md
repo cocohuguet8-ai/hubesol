@@ -9,7 +9,7 @@ answerLead: "'Must' and 'have to' both mean obligation. Choose by where the obli
 answerPoints:
   - "Must — from the speaker: a personal need or a rule you're stating (You must be quiet)."
   - "Have to — from outside: laws, rules, jobs, circumstances (I have to work late)."
-answerNote: "For the past, always use 'had to'. And remember: 'mustn't' = forbidden, 'don't have to' = not necessary."
+answerNote: "For the past, use 'had to'. And remember: 'mustn't' = forbidden, 'don't have to' = not necessary."
 quiz: "must-vs-have-to-quiz-1"
 faq:
   - q: "What's the core difference between 'must' and 'have to'?"

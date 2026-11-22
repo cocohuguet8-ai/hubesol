@@ -21,7 +21,7 @@
         "use": "Fill the gap",
         "before": "I",
         "after": "buy a present for my sister’s birthday.",
-        "hint": "need to / needn’t",
+        "hint": "verb phrase",
         "answers": [
           "need to"
         ],
@@ -32,7 +32,7 @@
         "use": "Fill the gap",
         "before": "My brother",
         "after": "get a haircut — it’s too long.",
-        "hint": "need to / needs to",
+        "hint": "verb phrase",
         "answers": [
           "needs to"
         ],
@@ -43,7 +43,7 @@
         "use": "Fill the gap",
         "before": "The kitchen",
         "after": "be cleaned before the guests arrive.",
-        "hint": "need to / needs to",
+        "hint": "verb phrase",
         "answers": [
           "needs to"
         ],
@@ -54,7 +54,7 @@
         "use": "Fill the gap",
         "before": "Do you",
         "after": "any help with your bags?",
-        "hint": "need / need to",
+        "hint": "verb",
         "answers": [
           "need"
         ],
@@ -65,7 +65,7 @@
         "use": "Fill the gap",
         "before": "I",
         "after": "a new pair of trainers.",
-        "hint": "need / need to",
+        "hint": "verb",
         "answers": [
           "need"
         ],
@@ -76,57 +76,73 @@
         "use": "Fill the gap",
         "before": "You",
         "after": "worry — everything will be fine.",
-        "hint": "needn’t / mustn’t",
+        "hint": "modal",
         "answers": [
           "needn’t",
           "needn't",
           "neednt",
-          "need not"
-        ],
-        "display": "needn’t",
-        "explain": "Not necessary: needn’t + base verb."
-      },
-      {
-        "use": "Fill the gap",
-        "before": "We",
-        "after": "hurry. The film doesn’t start until nine.",
-        "hint": "needn’t / mustn’t",
-        "answers": [
-          "needn’t",
-          "needn't",
-          "neednt",
-          "need not"
-        ],
-        "display": "needn’t",
-        "explain": "There’s time, so it isn’t necessary: needn’t."
-      },
-      {
-        "use": "Fill the gap",
-        "before": "You",
-        "after": "bring food. We’ve got plenty.",
-        "hint": "don’t need to / mustn’t",
-        "answers": [
+          "need not",
           "don’t need to",
           "don't need to",
           "dont need to",
           "do not need to"
         ],
+        "display": "needn’t",
+        "explain": "Not necessary: needn’t + base verb. (‘don’t need to’ also works.)"
+      },
+      {
+        "use": "Fill the gap",
+        "before": "We",
+        "after": "hurry. The film doesn’t start until nine.",
+        "hint": "modal",
+        "answers": [
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not",
+          "don’t need to",
+          "don't need to",
+          "dont need to",
+          "do not need to"
+        ],
+        "display": "needn’t",
+        "explain": "There’s time, so it isn’t necessary: needn’t. (‘don’t need to’ also works.)"
+      },
+      {
+        "use": "Fill the gap",
+        "before": "You",
+        "after": "bring food. We’ve got plenty.",
+        "hint": "phrase",
+        "answers": [
+          "don’t need to",
+          "don't need to",
+          "dont need to",
+          "do not need to",
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not"
+        ],
         "display": "don’t need to",
-        "explain": "Not necessary: don’t need to + base verb."
+        "explain": "Not necessary: don’t need to + base verb. (‘needn’t’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "She",
         "after": "study tonight — the exam was cancelled.",
-        "hint": "don’t / doesn’t need to",
+        "hint": "phrase",
         "answers": [
           "doesn’t need to",
           "doesn't need to",
           "doesnt need to",
-          "does not need to"
+          "does not need to",
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not"
         ],
         "display": "doesn’t need to",
-        "explain": "Third person negative: doesn’t need to."
+        "explain": "Third person negative: doesn’t need to. (‘needn’t’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -143,7 +159,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "I need to show my passport?",
-        "hint": "do / need",
+        "hint": "auxiliary",
         "answers": [
           "Do"
         ],
@@ -154,7 +170,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "your dad need any help in the garden?",
-        "hint": "do / does",
+        "hint": "auxiliary",
         "answers": [
           "Does"
         ],
@@ -165,7 +181,7 @@
         "use": "Fill the gap",
         "before": "We",
         "after": "queue — there was nobody there.",
-        "hint": "didn’t need to / needn’t have",
+        "hint": "past form",
         "answers": [
           "didn’t need to",
           "didn't need to",
@@ -179,7 +195,7 @@
         "use": "Fill the gap",
         "before": "I",
         "after": "take an umbrella because it was sunny.",
-        "hint": "didn’t need to / needn’t have",
+        "hint": "past form",
         "answers": [
           "didn’t need to",
           "didn't need to",
@@ -193,7 +209,7 @@
         "use": "Fill the gap",
         "before": "I",
         "after": "cooked so much — only three people came.",
-        "hint": "didn’t need to / needn’t have",
+        "hint": "past form",
         "answers": [
           "needn’t have",
           "needn't have",
@@ -231,38 +247,47 @@
         "after": ". They’re really dirty.",
         "hint": "(clean)",
         "answers": [
-          "cleaning"
+          "cleaning",
+          "to be cleaned"
         ],
         "display": "cleaning",
-        "explain": "‘Need + -ing’ has a passive meaning: need to be cleaned."
+        "explain": "‘Need + -ing’ has a passive meaning: need to be cleaned. (‘needs to be cleaned’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "You",
         "after": "tell her — it’s a secret!",
-        "hint": "needn’t / mustn’t",
+        "hint": "modal",
         "answers": [
           "mustn’t",
           "mustn't",
           "mustnt",
-          "must not"
+          "must not",
+          "shouldn’t",
+          "shouldn't",
+          "can’t",
+          "can't"
         ],
         "display": "mustn’t",
-        "explain": "Forbidden, not just unnecessary: mustn’t."
+        "explain": "Forbidden, not just unnecessary: mustn’t. (‘shouldn’t’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "“Do we need to book?” “No, we",
         "after": ".”",
-        "hint": "don’t / needn’t",
+        "hint": "short answer",
         "answers": [
           "don’t",
           "don't",
           "dont",
-          "do not"
+          "do not",
+          "needn’t",
+          "needn't",
+          "neednt",
+          "need not"
         ],
         "display": "don’t",
-        "explain": "Short answer to a ‘do … need’ question: No, we don’t."
+        "explain": "Short answer to a ‘do … need’ question: No, we don’t. (‘No, we needn’t’ also works.)"
       }
     ]
   },
@@ -599,7 +624,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Needn’t’ as a modal never takes ‘to’.",
+          "‘Needn’t’ as a modal doesn’t take ‘to’.",
           "",
           "‘Mustn’t’ means bringing one is forbidden.",
           "‘Don’t need’ needs ‘to’ before a verb: ‘don’t need to bring’."
@@ -1201,14 +1226,17 @@
       },
       {
         "tokens": [
-          "You",
-          "neednt",
-          "hurry."
+          "I",
+          "didn’t",
+          "need",
+          "to",
+          "went",
+          "there."
         ],
-        "errorIndex": 1,
-        "correction": "needn’t",
-        "type": "Spelling",
-        "message": "Spelling: ‘needn’t’ with an apostrophe."
+        "errorIndex": 4,
+        "correction": "go",
+        "type": "Verb after to",
+        "message": "After ‘to’ use the base verb: ‘need to go’."
       }
     ]
   },
@@ -1234,7 +1262,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "My phone {{blank}} be charged.",
-        "hint": "need to / needs to",
+        "hint": "verb phrase",
         "answers": [
           "needs to"
         ],
@@ -1246,22 +1274,26 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "You {{blank}} stay. I can finish on my own.",
-        "hint": "needn’t / mustn’t",
+        "hint": "verb phrase",
         "answers": [
           "needn’t",
           "needn't",
           "neednt",
-          "need not"
+          "need not",
+          "don’t need to",
+          "don't need to",
+          "dont need to",
+          "do not need to"
         ],
         "display": "needn’t",
-        "explain": "Not necessary: needn’t + base verb.",
+        "explain": "Not necessary: needn’t + base verb. (‘don’t need to’ also works.)",
         "wrongNote": "Optional → ‘needn’t’."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I {{blank}} studied so hard — the test was easy.",
-        "hint": "didn’t need to / needn’t have",
+        "hint": "verb phrase",
         "answers": [
           "needn’t have",
           "needn't have",

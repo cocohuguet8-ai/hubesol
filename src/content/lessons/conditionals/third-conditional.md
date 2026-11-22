@@ -57,7 +57,7 @@ In the third conditional, *'d* appears in both clauses with different meanings.
 | If-clause | **had** | If **I'd known** … (= had known) |
 | Main clause | **would** | … **I'd have helped**. (= would have helped) |
 
-In speech, *would have* often sounds like **"would've"** /ˈwʊdəv/. Never write ~~would of~~.
+In speech, *would have* often sounds like **"would've"** /ˈwʊdəv/. Don’t write ~~would of~~.
 
 ## When to use the third conditional
 
@@ -116,4 +116,4 @@ More in [Irregular Verbs](/grammar/verb-tenses/irregular-verbs/).
 
 **4. Writing *would of*.** It's only the sound. *~~would of helped~~* → **would have helped.**
 
-**Pro tip:** the third conditional always has three "past" verbs in a row in the result — **would + have + past participle**. Count them.
+**Pro tip:** the result of the third conditional has three pieces in a row — **would + have + past participle**. Count them.

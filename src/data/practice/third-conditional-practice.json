@@ -42,7 +42,9 @@
           "would have caught",
           "’d have caught",
           "'d have caught",
-          "d have caught"
+          "d have caught",
+          "could have caught",
+          "might have caught"
         ],
         "display": "would have caught",
         "explain": "The past result: would have + past participle. Catch → caught."
@@ -70,7 +72,9 @@
           "would have helped",
           "’d have helped",
           "'d have helped",
-          "d have helped"
+          "d have helped",
+          "could have helped",
+          "might have helped"
         ],
         "display": "would have helped",
         "explain": "Would have + past participle: ‘would have helped’."
@@ -98,7 +102,9 @@
           "would have given",
           "’d have given",
           "'d have given",
-          "d have given"
+          "d have given",
+          "could have given",
+          "might have given"
         ],
         "display": "would have given",
         "explain": "Irregular participle: give → given, after ‘would have’."
@@ -182,7 +188,9 @@
           "would have got",
           "’d have got",
           "'d have got",
-          "d have got"
+          "d have got",
+          "could have got",
+          "might have got"
         ],
         "display": "would have got",
         "explain": "Would have + past participle: get → got."
@@ -196,7 +204,9 @@
           "would have hit",
           "’d have hit",
           "'d have hit",
-          "d have hit"
+          "d have hit",
+          "could have hit",
+          "might have hit"
         ],
         "display": "would have hit",
         "explain": "‘Hit’ has the same past participle: would have hit."
@@ -246,7 +256,8 @@
         "after": "the jacket.",
         "hint": "(can / buy)",
         "answers": [
-          "could have bought"
+          "could have bought",
+          "would have bought"
         ],
         "display": "could have bought",
         "explain": "A past ability: could have + past participle."
@@ -285,7 +296,9 @@
           "would have stopped",
           "’d have stopped",
           "'d have stopped",
-          "d have stopped"
+          "d have stopped",
+          "could have stopped",
+          "might have stopped"
         ],
         "display": "would have stopped",
         "explain": "Regular participle with a double consonant: stopped."
@@ -959,7 +972,7 @@
         "wrongReasons": [
           "",
           "‘Left’ is past simple; a third conditional needs the past perfect.",
-          "Never use ‘would have’ in the if-clause.",
+          "Don’t use ‘would have’ in the if-clause.",
           "‘Have left’ is present perfect, not past perfect."
         ],
         "explain": "Third conditional: if + had + past participle, ‘had left’."
@@ -1092,7 +1105,7 @@
       },
       {
         "use": "Regret",
-        "text": "I feel sick. If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much cake, I’d feel fine.",
+        "text": "I felt sick all night. If I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much cake, I’d have felt fine.",
         "choices": [
           "didn’t eat",
           "wouldn’t eat",
@@ -1158,7 +1171,7 @@
           "‘Might forgive’ is about the future.",
           "",
           "After ‘might’ use ‘have’ + past participle.",
-          "Modals never take ‘has’."
+          "Modals don’t take ‘has’."
         ],
         "explain": "Possible past result: might have + forgiven."
       },
@@ -1173,7 +1186,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Would of’ is just the sound of ‘would’ve’ — never write it.",
+          "‘Would of’ is just the sound of ‘would’ve’ — don’t write it.",
           "After ‘would’ve’ use the participle ‘known’.",
           "‘Knew’ is past simple; use the participle.",
           ""
@@ -1193,7 +1206,7 @@
         "wrongReasons": [
           "",
           "The first ’d is in the if-clause, where ‘would’ is not used.",
-          "‘Did’ is never contracted to ’d here.",
+          "‘Did’ isn’t contracted to ’d here.",
           "‘Could’ can’t be contracted to ’d."
         ],
         "explain": "In the if-clause ’d = had; in the result ’d = would."
@@ -1988,7 +2001,7 @@
         "wrongReasons": [
           "After ‘might’ we need ‘have’ + participle for the past.",
           "After a modal use ‘have’, not ‘had’.",
-          "Modals never take ‘has’.",
+          "Modals don’t take ‘has’.",
           ""
         ],
         "explain": "Possible past result: might have + participle."
@@ -2084,7 +2097,7 @@
         ],
         "errorIndex": 5,
         "correction": "have",
-        "message": "Write ‘would have’, never ‘would of’."
+        "message": "Write ‘would have’, not ‘would of’."
       }
     ]
   }

@@ -17,7 +17,7 @@
         "use": "General plural",
         "before": "",
         "after": "Dogs need a lot of exercise.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -29,7 +29,7 @@
         "use": "General plural",
         "before": "I’m afraid of",
         "after": "spiders.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -41,7 +41,7 @@
         "use": "General uncountable",
         "before": "",
         "after": "Water boils at 100 degrees.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -53,7 +53,7 @@
         "use": "General uncountable",
         "before": "She hates",
         "after": "violence in films.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -65,7 +65,7 @@
         "use": "Specific",
         "before": "",
         "after": "water in this bottle is warm.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -77,7 +77,7 @@
         "use": "Specific",
         "before": "",
         "after": "dogs next door bark all night.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -89,7 +89,7 @@
         "use": "Meal",
         "before": "We usually have",
         "after": "dinner at nine.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -101,7 +101,7 @@
         "use": "Meal",
         "before": "What did you have for",
         "after": "breakfast?",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -113,7 +113,7 @@
         "use": "Sport",
         "before": "My sister plays",
         "after": "volleyball.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -125,7 +125,7 @@
         "use": "Game",
         "before": "Do you want to play",
         "after": "chess?",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -137,7 +137,7 @@
         "use": "Language",
         "before": "Can you speak",
         "after": "Catalan?",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -149,7 +149,7 @@
         "use": "Subject",
         "before": "I have",
         "after": "maths on Mondays.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -161,7 +161,7 @@
         "use": "Transport",
         "before": "We went to Madrid by",
         "after": "train.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -173,7 +173,7 @@
         "use": "Time",
         "before": "My birthday is in",
         "after": "April.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -185,19 +185,21 @@
         "use": "Time",
         "before": "We go skiing in",
         "after": "winter.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
-          "-"
+          "-",
+          "the",
+          "The"
         ],
         "display": "—",
-        "explain": "Seasons: usually zero article."
+        "explain": "Seasons: usually zero article. (‘in the winter’ also works.)"
       },
       {
         "use": "Place purpose",
         "before": "The kids are at",
         "after": "school until five.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -209,7 +211,7 @@
         "use": "Place purpose",
         "before": "I’m tired. I’m going to",
         "after": "bed.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -221,7 +223,7 @@
         "use": "Place purpose",
         "before": "What time do you finish",
         "after": "work?",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -233,19 +235,19 @@
         "use": "Place purpose",
         "before": "Let’s go",
         "after": "home.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
         ],
         "display": "—",
-        "explain": "‘Go home’: never ‘to the home’."
+        "explain": "‘Go home’: not ‘to the home’."
       },
       {
         "use": "Building visit",
         "before": "Dad went to",
         "after": "school to talk to my teacher.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -544,16 +546,12 @@
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> teenagers often sleep late at weekends.",
         "choices": [
           "—",
-          "The",
-          "A",
-          "An"
+          "The"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘The teenagers’ means specific ones.",
-          "‘A’ doesn’t go with plurals.",
-          "‘An’ doesn’t go with plurals."
+          "‘The teenagers’ means specific ones."
         ],
         "explain": "Teenagers in general: zero article."
       },
@@ -561,17 +559,13 @@
         "use": "General uncountable",
         "text": "I think <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> music helps me study.",
         "choices": [
-          "the",
           "—",
-          "a",
-          "an"
+          "the"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "‘The music’ means specific music.",
           "",
-          "‘Music’ is uncountable here.",
-          "‘Music’ is uncountable here."
+          "‘The music’ means specific music."
         ],
         "explain": "Music in general: zero article."
       },
@@ -580,16 +574,12 @@
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> music at the party was too loud.",
         "choices": [
           "—",
-          "A",
-          "The",
-          "An"
+          "The"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "‘At the party’ makes it specific.",
-          "‘Music’ is uncountable.",
-          "",
-          "‘Music’ is uncountable."
+          ""
         ],
         "explain": "Specific music: the."
       },
@@ -597,17 +587,13 @@
         "use": "Meal",
         "text": "Let’s meet after <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lunch.",
         "choices": [
-          "the",
-          "a",
-          "an",
-          "—"
+          "—",
+          "the"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "Meals take no article.",
-          "Normal meals take no article.",
-          "‘An’ doesn’t fit.",
-          ""
+          "",
+          "Meals take no article."
         ],
         "explain": "Meals: zero article."
       },
@@ -617,15 +603,13 @@
         "choices": [
           "the",
           "—",
-          "a",
-          "my the"
+          "a"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘By’ + transport: no article.",
           "",
-          "‘By a bike’ is wrong.",
-          "‘My the’ is not English."
+          "‘By a bike’ is wrong."
         ],
         "explain": "By + transport: zero article."
       },
@@ -633,15 +617,11 @@
         "use": "Sport",
         "text": "Do you like watching <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> rugby?",
         "choices": [
-          "the",
-          "a",
           "—",
-          "an"
+          "the"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Sports take no article.",
-          "Sports take no article.",
           "",
           "Sports take no article."
         ],
@@ -653,14 +633,12 @@
         "choices": [
           "—",
           "a",
-          "an",
           "the"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "Instruments usually take ‘the’.",
           "‘A trumpet’ is an object, not the skill.",
-          "‘Trumpet’ starts with a consonant sound.",
           ""
         ],
         "explain": "Instruments: the trumpet."
@@ -669,17 +647,13 @@
         "use": "Language",
         "text": "In Andorra people speak <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Catalan.",
         "choices": [
-          "—",
           "the",
-          "a",
-          "an"
+          "—"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "Languages take no article.",
-          "Languages take no article.",
-          "Languages take no article."
+          ""
         ],
         "explain": "Languages: zero article."
       },
@@ -689,15 +663,13 @@
         "choices": [
           "the",
           "a",
-          "—",
-          "an"
+          "—"
         ],
         "correct": 2,
         "wrongReasons": [
           "In British English, a patient is ‘in hospital’.",
           "‘In a hospital’ is less natural for a patient in British English.",
-          "",
-          "‘An’ doesn’t fit."
+          ""
         ],
         "explain": "In hospital (as a patient): zero article."
       },
@@ -705,17 +677,13 @@
         "use": "Building visit",
         "text": "I went to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> hospital to visit my grandpa.",
         "choices": [
-          "—",
-          "a",
-          "an",
-          "the"
+          "the",
+          "—"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "Visiting the building: ‘the hospital’.",
-          "He’s visiting, not a patient.",
-          "‘An’ doesn’t fit.",
-          ""
+          "",
+          "Visiting the building: ‘the hospital’."
         ],
         "explain": "Visiting the building: the hospital."
       },
@@ -741,17 +709,13 @@
         "use": "Time",
         "text": "Shops are closed on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Sundays.",
         "choices": [
-          "the",
           "—",
-          "a",
-          "an"
+          "the"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Days take no article.",
           "",
-          "‘A Sundays’ is wrong.",
-          "‘An’ doesn’t fit."
+          "Days take no article."
         ],
         "explain": "Days: zero article."
       },
@@ -760,14 +724,10 @@
         "text": "We met in <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 2019.",
         "choices": [
           "the",
-          "a",
-          "an",
           "—"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
-          "Years take no article.",
-          "Years take no article.",
           "Years take no article.",
           ""
         ],
@@ -777,17 +737,13 @@
         "use": "Unique",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> moon goes round the earth.",
         "choices": [
-          "The",
           "—",
-          "A",
-          "An"
+          "The"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "Unique things take ‘the’.",
-          "There’s only one moon.",
-          "There’s only one moon."
+          ""
         ],
         "explain": "Unique: the moon."
       },
@@ -796,16 +752,12 @@
         "text": "She’s really good at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> chemistry.",
         "choices": [
           "the",
-          "—",
-          "a",
-          "an"
+          "—"
         ],
         "correct": 1,
         "wrongReasons": [
           "Subjects take no article.",
-          "",
-          "Subjects take no article.",
-          "Subjects take no article."
+          ""
         ],
         "explain": "Subjects: zero article."
       },
@@ -813,17 +765,13 @@
         "use": "General uncountable",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> time is money.",
         "choices": [
-          "The",
-          "A",
           "—",
-          "An"
+          "The"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Time in general: no article.",
-          "‘A time’ means one occasion.",
           "",
-          "‘An’ doesn’t fit."
+          "Time in general: no article."
         ],
         "explain": "Abstract uncountable in general: zero article."
       },
@@ -849,17 +797,15 @@
         "use": "Which",
         "text": "Which is correct?",
         "choices": [
-          "The children love the games.",
+          "Children love the games in general.",
           "Children love games.",
-          "A children love games.",
-          "Children love the games in general."
+          "The children love the games."
         ],
         "correct": 1,
         "wrongReasons": [
-          "This means specific children and games.",
+          "‘In general’ + ‘the’ contradicts itself.",
           "",
-          "‘A’ doesn’t go with plurals.",
-          "‘In general’ + ‘the’ contradicts itself."
+          "This means specific children and games."
         ],
         "explain": "General plurals: zero article."
       },
@@ -885,17 +831,13 @@
         "use": "Meal",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner we had last night was delicious.",
         "choices": [
-          "—",
-          "A",
-          "An",
-          "The"
+          "The",
+          "—"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘We had last night’ makes it specific.",
-          "This isn’t the general meal.",
-          "‘An’ doesn’t fit.",
-          ""
+          "",
+          "‘We had last night’ makes it specific."
         ],
         "explain": "A specific meal: the dinner."
       }
@@ -1272,7 +1214,7 @@
         "type": "fill",
         "use": "General plural",
         "sentText": "{{blank}} Bees make honey.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -1285,7 +1227,7 @@
         "type": "fill",
         "use": "Transport",
         "sentText": "They travelled to Paris by {{blank}} plane.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -1298,7 +1240,7 @@
         "type": "fill",
         "use": "Specific",
         "sentText": "{{blank}} bread in this bakery is amazing.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -1311,7 +1253,7 @@
         "type": "fill",
         "use": "Place purpose",
         "sentText": "My sister is at {{blank}} university in Lleida.",
-        "hint": "the / a / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -1442,16 +1384,12 @@
         "text": "{{blank}} chocolate is my weakness.",
         "choices": [
           "The",
-          "A",
-          "—",
-          "An"
+          "—"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "Chocolate in general: no ‘the’.",
-          "Uncountable: no ‘a’.",
-          "",
-          "Uncountable: no ‘an’."
+          ""
         ],
         "explain": "General uncountable: zero article."
       },
@@ -1461,16 +1399,12 @@
         "text": "Is your dad still at {{blank}} work?",
         "choices": [
           "—",
-          "the",
-          "a",
-          "an"
+          "the"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘At work’: zero article.",
-          "‘At a work’ is wrong.",
-          "‘An’ doesn’t fit."
+          "‘At work’: zero article."
         ],
         "explain": "At work: zero article."
       },
@@ -1480,15 +1414,11 @@
         "text": "{{blank}} students in my class are very friendly.",
         "choices": [
           "—",
-          "A",
-          "An",
           "The"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
           "‘In my class’ makes them specific.",
-          "‘A’ doesn’t go with plurals.",
-          "‘An’ doesn’t go with plurals.",
           ""
         ],
         "explain": "Specific: the students."
@@ -1498,17 +1428,13 @@
         "use": "Time",
         "text": "It often rains in {{blank}} autumn.",
         "choices": [
-          "the",
           "—",
-          "a",
-          "an"
+          "a"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Seasons usually take no article.",
           "",
-          "‘An autumn’ is unusual here.",
-          "Seasons usually take no article."
+          "‘An autumn’ is unusual here."
         ],
         "explain": "Seasons: zero article (‘the’ is also possible but less common)."
       },

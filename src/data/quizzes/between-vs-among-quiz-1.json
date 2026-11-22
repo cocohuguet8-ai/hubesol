@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "The shop is ___ the bank and the café.",
-      "options": ["between", "among", "in", "along"],
+      "options": [
+        "between",
+        "among",
+        "in",
+        "along"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Two separate places take 'between'.",
@@ -16,18 +21,28 @@
     },
     {
       "question": "The cottage was hidden ___ the trees.",
-      "options": ["on", "between", "in", "among"],
+      "options": [
+        "on",
+        "between",
+        "at",
+        "among"
+      ],
       "answer": 3,
       "explanations": [
         "'On the trees' changes the meaning.",
         "'Between' would suggest two specific trees.",
-        "'In the trees' is possible but 'among' fits 'hidden' best.",
+        "'At the trees' doesn't fit 'hidden'.",
         "Correct! A mass/group (trees) takes 'among'."
       ]
     },
     {
       "question": "This song is very popular ___ teenagers.",
-      "options": ["with each", "between", "among", "in"],
+      "options": [
+        "with each",
+        "between",
+        "among",
+        "in"
+      ],
       "answer": 2,
       "explanations": [
         "'With each' is not idiomatic here.",
@@ -37,19 +52,29 @@
       ]
     },
     {
-      "question": "We shared the prize money ___ the four of us.",
-      "options": ["among", "between", "in", "along"],
+      "question": "The prize money was shared ___ the winner and her partner.",
+      "options": [
+        "among",
+        "between",
+        "in",
+        "along"
+      ],
       "answer": 1,
       "explanations": [
-        "'Among' is possible but 'between' fits distinct individuals.",
+        "'Among' suggests a group; here there are two named people, so 'between'.",
         "Correct! Named, separate people take 'between': 'between the four of us'.",
-        "'In the four of us' is not correct.",
-        "'Along the four of us' is not correct."
+        "'In the winner and her partner' is not correct.",
+        "'Along' means following a line."
       ]
     },
     {
       "question": "There's a treaty ___ the five nations.",
-      "options": ["across", "among", "in", "between"],
+      "options": [
+        "across",
+        "among",
+        "in",
+        "between"
+      ],
       "answer": 3,
       "explanations": [
         "'Across the five nations' means spread over them.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "She felt completely at home ___ friends.",
-      "options": ["among", "between", "in", "with each"],
+      "options": [
+        "among",
+        "between",
+        "in",
+        "with each"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A group takes 'among': 'among friends'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "___ you and me, I don't trust him.",
-      "options": ["In", "Among", "Between", "For"],
+      "options": [
+        "In",
+        "Among",
+        "Between",
+        "For"
+      ],
       "answer": 2,
       "explanations": [
         "'In you and me' is not correct.",
@@ -132,11 +167,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "The bank is ___ the post office and the library.",
-      "hint": "Type between or among.",
-      "answers": ["between"],
+      "hint": "Type one word.",
+      "answers": [
+        "between"
+      ],
       "explanation": "Two separate places, so 'between'.",
       "common": [
-        {"answer": "among", "why": "'Among' is for a group or mass. Here there are two separate places, so 'between'."}
+        {
+          "answer": "among",
+          "why": "'Among' is for a group or mass. Here there are two separate places, so 'between'."
+        }
       ]
     },
     {
@@ -144,19 +184,22 @@
       "kind": "Correct the mistake",
       "question": "She was sitting among her two friends.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["She was sitting between her two friends"],
+      "answers": [
+        "She was sitting between her two friends"
+      ],
       "explanation": "Two separate people, so 'between'."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "We divided the sweets ___ the six children.",
-      "hint": "Type between or among.",
-      "answers": ["among"],
+      "hint": "Type one word.",
+      "answers": [
+        "among",
+        "between"
+      ],
       "explanation": "A group seen as a whole, so 'among'.",
-      "common": [
-        {"answer": "between", "why": "'Between' is for two or for separate named items. A group of six children is 'among'."}
-      ]
+      "common": []
     }
   ]
 }

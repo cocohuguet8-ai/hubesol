@@ -19,18 +19,19 @@
     "subtitle": "Type can, can’t, could, couldn’t or the correct form of be able to. Look at the time and the form you need. Twenty original sentences.",
     "questions": [
       {
-        "use": "Present ability",
+        "use": "Ability",
         "before": "My little brother",
         "after": "count to a hundred.",
         "hint": "can / could",
         "answers": [
-          "can"
+          "can",
+          "is able to"
         ],
         "display": "can",
         "explain": "Present ability: ‘can’ + base verb, with no -s for ‘he’."
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "before": "I’m sorry, I",
         "after": "come to your party on Saturday.",
         "hint": "can / can’t",
@@ -44,7 +45,7 @@
         "explain": "A negative present possibility: can’t + base verb."
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "before": "",
         "after": "you play any musical instruments?",
         "hint": "can / could",
@@ -55,7 +56,7 @@
         "explain": "A question about present ability: Can + subject + base verb."
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "before": "Penguins",
         "after": "fly, but they swim very well.",
         "hint": "can / can’t",
@@ -69,29 +70,31 @@
         "explain": "A general truth about an ability they don’t have: can’t."
       },
       {
-        "use": "Possibility",
+        "use": "Ability",
         "before": "You",
         "after": "see the mountains from our balcony.",
         "hint": "can / could",
         "answers": [
-          "can"
+          "can",
+          "could"
         ],
         "display": "can",
         "explain": "A present possibility: ‘can see’."
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "before": "I",
         "after": "read before I started school.",
         "hint": "can / could",
         "answers": [
-          "could"
+          "could",
+          "was able to"
         ],
         "display": "could",
         "explain": "General ability in the past: could + base verb."
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "before": "My grandpa",
         "after": "swim when he was a boy.",
         "hint": "could / couldn’t",
@@ -99,35 +102,40 @@
           "couldn’t",
           "couldn't",
           "couldnt",
-          "could not"
+          "could not",
+          "wasn’t able to",
+          "wasn't able to",
+          "was not able to"
         ],
         "display": "couldn’t",
         "explain": "Negative past ability: couldn’t + base verb."
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "before": "When she was three, she",
         "after": "already ride a bike.",
         "hint": "can / could",
         "answers": [
-          "could"
+          "could",
+          "was able to"
         ],
         "display": "could",
         "explain": "‘When she was three’ shows the past: could."
       },
       {
-        "use": "Senses",
+        "use": "Ability",
         "before": "We",
         "after": "hear the fireworks from our house last night.",
         "hint": "can / could",
         "answers": [
-          "could"
+          "could",
+          "were able to"
         ],
         "display": "could",
         "explain": "Past senses (hear) are very common with ‘could’."
       },
       {
-        "use": "Senses",
+        "use": "Ability",
         "before": "I",
         "after": "understand what the teacher said — it was too noisy.",
         "hint": "could / couldn’t",
@@ -135,16 +143,19 @@
           "couldn’t",
           "couldn't",
           "couldnt",
-          "could not"
+          "could not",
+          "wasn’t able to",
+          "wasn't able to",
+          "was not able to"
         ],
         "display": "couldn’t",
         "explain": "A past problem with understanding: couldn’t + understand."
       },
       {
-        "use": "Future",
+        "use": "Ability",
         "before": "I’ll",
         "after": "drive when I’m eighteen.",
-        "hint": "be able to",
+        "hint": "(can)",
         "answers": [
           "be able to"
         ],
@@ -152,10 +163,10 @@
         "explain": "‘Can’ has no future form: will + be able to."
       },
       {
-        "use": "Future",
+        "use": "Ability",
         "before": "Will you",
         "after": "help me tomorrow?",
-        "hint": "be able to",
+        "hint": "(can)",
         "answers": [
           "be able to"
         ],
@@ -163,10 +174,10 @@
         "explain": "A future question: Will you be able to…?"
       },
       {
-        "use": "Perfect",
+        "use": "Ability",
         "before": "I haven’t",
         "after": "sleep well this week.",
-        "hint": "be able to",
+        "hint": "(can)",
         "answers": [
           "been able to"
         ],
@@ -174,10 +185,10 @@
         "explain": "Present perfect needs ‘been able to’: haven’t been able to."
       },
       {
-        "use": "After want",
+        "use": "Ability",
         "before": "I’d love to",
         "after": "speak Japanese.",
-        "hint": "be able to",
+        "hint": "(can)",
         "answers": [
           "be able to"
         ],
@@ -185,10 +196,10 @@
         "explain": "After ‘would love to’ we need the infinitive: to be able to."
       },
       {
-        "use": "After a modal",
+        "use": "Ability",
         "before": "You might",
         "after": "find it online.",
-        "hint": "be able to",
+        "hint": "(can)",
         "answers": [
           "be able to"
         ],
@@ -196,29 +207,31 @@
         "explain": "After another modal (might) use ‘be able to’, not ‘can’."
       },
       {
-        "use": "One success",
+        "use": "Ability",
         "before": "The test was hard, but I",
         "after": "answer every question.",
-        "hint": "was / were able to",
+        "hint": "(past)",
         "answers": [
-          "was able to"
+          "was able to",
+          "managed to"
         ],
         "display": "was able to",
         "explain": "One specific past success: was able to, not ‘could’."
       },
       {
-        "use": "One success",
+        "use": "Ability",
         "before": "After an hour, the firefighters",
         "after": "put out the fire.",
-        "hint": "was / were able to",
+        "hint": "(past)",
         "answers": [
-          "were able to"
+          "were able to",
+          "managed to"
         ],
         "display": "were able to",
         "explain": "One successful action in the past with a plural subject: were able to."
       },
       {
-        "use": "Negative past",
+        "use": "Ability",
         "before": "I",
         "after": "open the jar, so I asked my dad.",
         "hint": "could / couldn’t",
@@ -226,13 +239,16 @@
           "couldn’t",
           "couldn't",
           "couldnt",
-          "could not"
+          "could not",
+          "wasn’t able to",
+          "wasn't able to",
+          "was not able to"
         ],
         "display": "couldn’t",
         "explain": "In the negative, ‘couldn’t’ works for one past situation."
       },
       {
-        "use": "Short answer",
+        "use": "Ability",
         "before": "“Can your sister speak French?” “Yes, she",
         "after": ".”",
         "hint": "can / could",
@@ -243,7 +259,7 @@
         "explain": "Short answer for ‘can’: Yes, she can."
       },
       {
-        "use": "Short answer",
+        "use": "Ability",
         "before": "“Could you walk when you were one?” “No, I",
         "after": ".”",
         "hint": "could / couldn’t",
@@ -263,7 +279,7 @@
     "subtitle": "Tap the words to build each sentence — 20 examples with can, could and be able to.",
     "sentences": [
       {
-        "use": "Present ability",
+        "use": "Ability",
         "tokens": [
           "My",
           "sister",
@@ -273,7 +289,7 @@
         ]
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "tokens": [
           "I",
           "can’t",
@@ -283,7 +299,7 @@
         ]
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "tokens": [
           "Can",
           "you",
@@ -293,7 +309,7 @@
         ]
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "tokens": [
           "Cats",
           "can",
@@ -304,7 +320,7 @@
         ]
       },
       {
-        "use": "Possibility",
+        "use": "Ability",
         "tokens": [
           "You",
           "can",
@@ -314,7 +330,7 @@
         ]
       },
       {
-        "use": "Possibility",
+        "use": "Ability",
         "tokens": [
           "It",
           "can",
@@ -337,7 +353,7 @@
         ]
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "tokens": [
           "I",
           "could",
@@ -360,7 +376,7 @@
         ]
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "tokens": [
           "She",
           "couldn’t",
@@ -383,7 +399,7 @@
         ]
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "tokens": [
           "Could",
           "you",
@@ -393,7 +409,7 @@
         ]
       },
       {
-        "use": "Senses",
+        "use": "Ability",
         "tokens": [
           "We",
           "could",
@@ -406,7 +422,7 @@
         ]
       },
       {
-        "use": "Senses",
+        "use": "Ability",
         "tokens": [
           "I",
           "couldn’t",
@@ -416,7 +432,7 @@
         ]
       },
       {
-        "use": "Future",
+        "use": "Ability",
         "tokens": [
           "I’ll",
           "be",
@@ -439,7 +455,7 @@
         ]
       },
       {
-        "use": "Future",
+        "use": "Ability",
         "tokens": [
           "Will",
           "you",
@@ -450,7 +466,7 @@
         ]
       },
       {
-        "use": "Perfect",
+        "use": "Ability",
         "tokens": [
           "I",
           "haven’t",
@@ -462,7 +478,7 @@
         ]
       },
       {
-        "use": "Perfect",
+        "use": "Ability",
         "tokens": [
           "Have",
           "you",
@@ -474,7 +490,7 @@
         ]
       },
       {
-        "use": "After want",
+        "use": "Ability",
         "tokens": [
           "I",
           "want",
@@ -486,7 +502,7 @@
         ]
       },
       {
-        "use": "After a modal",
+        "use": "Ability",
         "tokens": [
           "You",
           "might",
@@ -497,7 +513,7 @@
         ]
       },
       {
-        "use": "One success",
+        "use": "Ability",
         "tokens": [
           "We",
           "were",
@@ -509,7 +525,7 @@
         ]
       },
       {
-        "use": "One success",
+        "use": "Ability",
         "tokens": [
           "She",
           "managed",
@@ -521,7 +537,7 @@
         ]
       },
       {
-        "use": "Negative past",
+        "use": "Ability",
         "tokens": [
           "I",
           "couldn’t",
@@ -629,7 +645,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Present ability",
+        "use": "Ability",
         "text": "My cousin <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> speak four languages.",
         "choices": [
           "can",
@@ -647,7 +663,7 @@
         "explain": "Present ability: can + base verb, the same form for every subject."
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you play chess?",
         "choices": [
           "Do you can",
@@ -665,7 +681,7 @@
         "explain": "Questions with modals: Can + subject + base verb."
       },
       {
-        "use": "Present ability",
+        "use": "Ability",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ski, but I’d love to learn.",
         "choices": [
           "don’t can",
@@ -683,7 +699,7 @@
         "explain": "Negative present ability: can’t + base verb."
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "text": "When I was six, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> swim.",
         "choices": [
           "can",
@@ -701,7 +717,7 @@
         "explain": "General past ability: could + base verb."
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "text": "My grandmother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> use a computer until last year.",
         "choices": [
           "can’t",
@@ -719,7 +735,7 @@
         "explain": "Negative past ability: couldn’t + base verb."
       },
       {
-        "use": "Senses",
+        "use": "Ability",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> smell the bread from the street.",
         "choices": [
           "can to",
@@ -737,7 +753,7 @@
         "explain": "Past senses: could + smell / hear / see."
       },
       {
-        "use": "Future",
+        "use": "Ability",
         "text": "I’ll <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> visit you next summer.",
         "choices": [
           "can",
@@ -755,7 +771,7 @@
         "explain": "Future ability: will + be able to."
       },
       {
-        "use": "Perfect",
+        "use": "Ability",
         "text": "She hasn’t <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> find a job yet.",
         "choices": [
           "been able to",
@@ -773,7 +789,7 @@
         "explain": "Present perfect: has / hasn’t been able to."
       },
       {
-        "use": "After want",
+        "use": "Ability",
         "text": "I want <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> play the piano well.",
         "choices": [
           "can",
@@ -791,7 +807,7 @@
         "explain": "After want / hope / would like: to be able to."
       },
       {
-        "use": "After a modal",
+        "use": "Ability",
         "text": "You might <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> get a cheaper ticket online.",
         "choices": [
           "can",
@@ -809,7 +825,7 @@
         "explain": "After another modal use ‘be able to’."
       },
       {
-        "use": "One success",
+        "use": "Ability",
         "text": "It was difficult, but we <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> reach the top of the mountain.",
         "choices": [
           "were able to",
@@ -827,7 +843,7 @@
         "explain": "One past success: was / were able to (or managed to)."
       },
       {
-        "use": "One success",
+        "use": "Ability",
         "text": "The thief <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> escape through the window.",
         "choices": [
           "could",
@@ -845,7 +861,7 @@
         "explain": "One successful action: managed to + base verb."
       },
       {
-        "use": "Negative past",
+        "use": "Ability",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> find my keys this morning.",
         "choices": [
           "can’t",
@@ -863,7 +879,7 @@
         "explain": "Negative for one past situation: couldn’t is fine."
       },
       {
-        "use": "Possibility",
+        "use": "Ability",
         "text": "It <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> rain a lot in Galicia.",
         "choices": [
           "can",
@@ -881,7 +897,7 @@
         "explain": "General possibility: can + base verb."
       },
       {
-        "use": "Short answer",
+        "use": "Ability",
         "text": "“Can you hear me?” “Yes, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.”",
         "choices": [
           "do",
@@ -899,7 +915,7 @@
         "explain": "Short answer: Yes, I can."
       },
       {
-        "use": "Short answer",
+        "use": "Ability",
         "text": "“Could your dad speak English when he was young?” “No, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.”",
         "choices": [
           "didn’t",
@@ -917,7 +933,7 @@
         "explain": "Short answer: No, he couldn’t."
       },
       {
-        "use": "Two modals",
+        "use": "Ability",
         "text": "Which sentence is correct?",
         "choices": [
           "We will be able to meet tomorrow.",
@@ -935,7 +951,7 @@
         "explain": "Future: will be able to + base verb."
       },
       {
-        "use": "Third person",
+        "use": "Ability",
         "text": "Which sentence is correct?",
         "choices": [
           "She cans dance really well.",
@@ -953,7 +969,7 @@
         "explain": "Modal + base verb, no -s anywhere."
       },
       {
-        "use": "Perfect",
+        "use": "Ability",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you been able to talk to the teacher?",
         "choices": [
           "Can",
@@ -971,7 +987,7 @@
         "explain": "Present perfect question: Have you been able to…?"
       },
       {
-        "use": "Past ability",
+        "use": "Ability",
         "text": "Before the operation, he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> walk without a stick.",
         "choices": [
           "can’t",
@@ -996,18 +1012,21 @@
     "items": [
       {
         "tokens": [
-          "My",
-          "sister",
-          "is",
+          "He",
           "can",
-          "play",
-          "the",
-          "violin."
+          "to",
+          "drive",
+          "a",
+          "bus."
         ],
-        "errorIndex": 3,
-        "correction": "able to",
-        "type": "Be + can",
-        "message": "‘Is can’ is impossible: ‘she is able to play’ (or simply ‘she can play’)."
+        "errorIndex": 2,
+        "correction": "drive",
+        "type": "To after a modal",
+        "message": "Don’t add ‘to’ after ‘can’: ‘He can drive a bus’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1312,7 +1331,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Present ability",
+        "use": "Ability",
         "sentText": "My dog {{blank}} open the fridge!",
         "hint": "can / could",
         "answers": [
@@ -1324,7 +1343,7 @@
       },
       {
         "type": "fill",
-        "use": "Past ability",
+        "use": "Ability",
         "sentText": "I {{blank}} whistle when I was four.",
         "hint": "can / could",
         "answers": [
@@ -1336,7 +1355,7 @@
       },
       {
         "type": "fill",
-        "use": "Future",
+        "use": "Ability",
         "sentText": "Will you {{blank}} come on Friday?",
         "hint": "be able to",
         "answers": [
@@ -1348,7 +1367,7 @@
       },
       {
         "type": "fill",
-        "use": "Perfect",
+        "use": "Ability",
         "sentText": "I’ve never {{blank}} do a cartwheel.",
         "hint": "be able to",
         "answers": [
@@ -1360,7 +1379,7 @@
       },
       {
         "type": "order",
-        "use": "Present ability",
+        "use": "Ability",
         "tokens": [
           "Can",
           "you",
@@ -1370,7 +1389,7 @@
       },
       {
         "type": "order",
-        "use": "Past ability",
+        "use": "Ability",
         "tokens": [
           "I",
           "couldn’t",
@@ -1390,7 +1409,7 @@
       },
       {
         "type": "order",
-        "use": "Future",
+        "use": "Ability",
         "tokens": [
           "We’ll",
           "be",
@@ -1402,7 +1421,7 @@
       },
       {
         "type": "order",
-        "use": "One success",
+        "use": "Ability",
         "tokens": [
           "They",
           "were",
@@ -1413,7 +1432,7 @@
       },
       {
         "type": "ableto",
-        "use": "One success",
+        "use": "Ability",
         "text": "The road was blocked, but we {{blank}} get home by another route.",
         "choices": [
           "could",
@@ -1432,7 +1451,7 @@
       },
       {
         "type": "ableto",
-        "use": "General ability",
+        "use": "Ability",
         "text": "When I was a child, I {{blank}} climb trees really well.",
         "choices": [
           "was able",
@@ -1451,7 +1470,7 @@
       },
       {
         "type": "ableto",
-        "use": "Future",
+        "use": "Ability",
         "text": "Next year I {{blank}} vote.",
         "choices": [
           "will be able to",
@@ -1470,7 +1489,7 @@
       },
       {
         "type": "ableto",
-        "use": "Negative past",
+        "use": "Ability",
         "text": "I tried, but I {{blank}} lift the box.",
         "choices": [
           "can’t",
@@ -1489,7 +1508,7 @@
       },
       {
         "type": "mc",
-        "use": "Third person",
+        "use": "Ability",
         "text": "My brother {{blank}} juggle with five balls.",
         "choices": [
           "cans",
@@ -1508,7 +1527,7 @@
       },
       {
         "type": "mc",
-        "use": "Question",
+        "use": "Ability",
         "text": "{{blank}} you see the board from there?",
         "choices": [
           "Can",
@@ -1527,7 +1546,7 @@
       },
       {
         "type": "mc",
-        "use": "After a modal",
+        "use": "Ability",
         "text": "You should {{blank}} do this exercise easily.",
         "choices": [
           "can",
@@ -1546,7 +1565,7 @@
       },
       {
         "type": "mc",
-        "use": "Senses",
+        "use": "Ability",
         "text": "I {{blank}} hear anything because of the wind.",
         "choices": [
           "can’t to",

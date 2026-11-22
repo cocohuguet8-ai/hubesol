@@ -19,7 +19,7 @@
         "use": "Fill the gap",
         "before": "The bakery is",
         "after": "the chemist’s and the bank.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -30,7 +30,7 @@
         "use": "Fill the gap",
         "before": "Sit",
         "after": "Marta and Joan, please.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -41,18 +41,18 @@
         "use": "Fill the gap",
         "before": "The museum is open between ten",
         "after": "six.",
-        "hint": "and / to / or",
+        "hint": "(connector)",
         "answers": [
           "and"
         ],
         "display": "and",
-        "explain": "‘Between’ always goes with ‘and’, not ‘to’ or ‘or’."
+        "explain": "‘Between’ goes with ‘and’, not ‘to’ or ‘or’."
       },
       {
         "use": "Fill the gap",
         "before": "It costs",
         "after": "€20 and €30.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -63,7 +63,7 @@
         "use": "Fill the gap",
         "before": "What’s the difference",
         "after": "‘say’ and ‘tell’?",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -74,7 +74,7 @@
         "use": "Fill the gap",
         "before": "I can’t decide",
         "after": "pizza and pasta.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -85,7 +85,7 @@
         "use": "Fill the gap",
         "before": "Andorra is a small country",
         "after": "France and Spain.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -96,7 +96,7 @@
         "use": "Fill the gap",
         "before": "Don’t tell anyone — this is",
         "after": "you and me.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -107,7 +107,7 @@
         "use": "Fill the gap",
         "before": "The little house was hidden",
         "after": "the trees.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -118,7 +118,7 @@
         "use": "Fill the gap",
         "before": "I found my passport",
         "after": "my old papers.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -129,7 +129,7 @@
         "use": "Fill the gap",
         "before": "She was",
         "after": "the best players in the team.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -140,7 +140,7 @@
         "use": "Fill the gap",
         "before": "This video game is very popular",
         "after": "teenagers.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -151,7 +151,7 @@
         "use": "Fill the gap",
         "before": "There was a lot of excitement",
         "after": "the fans.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -162,18 +162,19 @@
         "use": "Fill the gap",
         "before": "We shared the cake",
         "after": "the six children.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
-          "among"
+          "among",
+          "between"
         ],
         "display": "among",
-        "explain": "Sharing in a group: among (between is also common)."
+        "explain": "Sharing among a group: ‘among the six children’ (‘between’ is also used when the items are separate)."
       },
       {
         "use": "Fill the gap",
         "before": "There’s a small garden",
         "after": "the two buildings.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -184,7 +185,7 @@
         "use": "Fill the gap",
         "before": "The secret stays between you and",
         "after": ".",
-        "hint": "me / I",
+        "hint": "(pronoun)",
         "answers": [
           "me"
         ],
@@ -195,7 +196,7 @@
         "use": "Fill the gap",
         "before": "Is there a doctor among",
         "after": "?",
-        "hint": "us / we",
+        "hint": "(pronoun)",
         "answers": [
           "us"
         ],
@@ -206,7 +207,7 @@
         "use": "Fill the gap",
         "before": "The train runs",
         "after": "Girona and Figueres.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -217,7 +218,7 @@
         "use": "Fill the gap",
         "before": "He felt lost",
         "after": "so many strangers.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -228,7 +229,7 @@
         "use": "Fill the gap",
         "before": "Please don’t eat",
         "after": "meals.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -607,7 +608,7 @@
           "",
           "‘Between … until’ is wrong."
         ],
-        "explain": "‘Between’ always pairs with ‘and’."
+        "explain": "‘Between’ pairs with ‘and’."
       },
       {
         "use": "Choose the answer",
@@ -721,14 +722,14 @@
         "use": "Choose the answer",
         "text": "The village is hidden <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the mountains.",
         "choices": [
-          "between",
+          "beside",
           "onto",
           "by",
           "among"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Possible for two mountains; for a mass of mountains use ‘among’.",
+          "‘Beside’ means next to one thing, not inside a mass.",
           "‘Onto’ shows movement.",
           "‘By’ means next to.",
           ""
@@ -1205,16 +1206,21 @@
       {
         "tokens": [
           "She",
-          "was",
-          "hiding",
-          "amoung",
-          "the",
-          "bushes."
+          "felt",
+          "alone",
+          "between",
+          "hundreds",
+          "of",
+          "people."
         ],
         "errorIndex": 3,
         "correction": "among",
-        "type": "Spelling",
-        "message": "Spelling: ‘among’."
+        "type": "Between for group",
+        "message": "A crowd of people: ‘among hundreds of people’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       }
     ]
   },
@@ -1240,7 +1246,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "The cinema is {{blank}} the park and the museum.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "between"
         ],
@@ -1252,7 +1258,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "The cat was sleeping {{blank}} the flowers.",
-        "hint": "between / among",
+        "hint": "(preposition)",
         "answers": [
           "among"
         ],
@@ -1264,19 +1270,19 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Choose between the red {{blank}} the green one.",
-        "hint": "and / or",
+        "hint": "(connector)",
         "answers": [
           "and"
         ],
         "display": "and",
-        "explain": "‘Between’ always goes with ‘and’, never ‘or’.",
+        "explain": "‘Between’ goes with ‘and’, not ‘or’.",
         "wrongNote": "between … and."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Sit between Laia and {{blank}}.",
-        "hint": "me / I",
+        "hint": "(pronoun)",
         "answers": [
           "me"
         ],

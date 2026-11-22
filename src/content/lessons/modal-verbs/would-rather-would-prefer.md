@@ -10,7 +10,7 @@ answerPoints:
   - "would rather + base verb — I'd rather stay in tonight."
   - "would prefer + to-infinitive/noun — I'd prefer to stay in / I'd prefer coffee."
   - "about others: would rather + past simple — I'd rather you didn't."
-answerNote: "Compare with 'than' (rather … than + base verb) or 'rather than' (prefer … rather than). 'Would rather' never takes 'to'."
+answerNote: "Compare with 'than' (rather … than + base verb) or 'rather than' (prefer … rather than). 'Would rather' doesn't take 'to'."
 quiz: "would-rather-would-prefer-quiz-1"
 faq:
   - q: "What follows 'would rather'?"
@@ -100,7 +100,7 @@ With *would prefer* + person, use **object + to**: I'd prefer **you to stay**.
 
 | | Meaning | Example |
 |---|---|---|
-| **prefer** | general preference | I **prefer** tea **to** coffee. (always) |
+| **prefer** | general preference | I **prefer** tea **to** coffee. (in general) |
 | **would prefer** | specific moment | **I'd prefer** tea now, please. |
 
 ## Common mistakes

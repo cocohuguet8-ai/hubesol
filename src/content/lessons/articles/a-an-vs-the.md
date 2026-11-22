@@ -76,7 +76,7 @@ The first time, the listener doesn't know them. After that, they do — so *a* b
 | It's **a** planet. | **The** sun is a star. |
 | He's **a** student in my class. | He's **the** best student. |
 
-> ⚠️ Typical error: ~~He's a tallest boy.~~ → Superlatives always take *the*.
+> ⚠️ Typical error: ~~He's a tallest boy.~~ → Superlatives normally take *the*.
 
 ## Describing vs identifying
 

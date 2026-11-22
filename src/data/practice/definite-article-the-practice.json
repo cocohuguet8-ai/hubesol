@@ -14,10 +14,10 @@
     "subtitle": "Type the, or — (dash) when no article is needed. Twenty original sentences.",
     "questions": [
       {
-        "use": "Second mention",
+        "use": "Fill the gap",
         "before": "I bought a cake and a pie.",
         "after": "cake was delicious.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -26,10 +26,10 @@
         "explain": "Second mention: we already know which cake, so ‘the’."
       },
       {
-        "use": "Second mention",
+        "use": "Fill the gap",
         "before": "We met a girl and her dog.",
         "after": "dog was very friendly.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -38,10 +38,10 @@
         "explain": "Second mention of ‘dog’: ‘the dog’."
       },
       {
-        "use": "Specific",
+        "use": "Fill the gap",
         "before": "Can you close",
         "after": "window, please? It’s cold.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -49,10 +49,10 @@
         "explain": "We both know which window: ‘the window’."
       },
       {
-        "use": "Specific",
+        "use": "Fill the gap",
         "before": "Did you enjoy",
         "after": "film last night?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -60,10 +60,10 @@
         "explain": "A specific film we both know: ‘the film’."
       },
       {
-        "use": "Unique",
+        "use": "Fill the gap",
         "before": "",
         "after": "sun rises in the east.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -72,10 +72,10 @@
         "explain": "There’s only one sun: ‘the sun’."
       },
       {
-        "use": "Unique",
+        "use": "Fill the gap",
         "before": "I found the recipe on",
         "after": "internet.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -83,10 +83,10 @@
         "explain": "There’s only one internet: ‘the internet’."
       },
       {
-        "use": "Superlative",
+        "use": "Fill the gap",
         "before": "This is",
         "after": "best pizza in town.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -94,10 +94,10 @@
         "explain": "Superlatives take ‘the’: ‘the best’."
       },
       {
-        "use": "Superlative",
+        "use": "Fill the gap",
         "before": "Everest is",
         "after": "highest mountain in the world.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -105,10 +105,10 @@
         "explain": "Superlative: ‘the highest’."
       },
       {
-        "use": "Ordinal",
+        "use": "Fill the gap",
         "before": "It’s",
         "after": "first time I’ve flown.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -116,21 +116,23 @@
         "explain": "Ordinals take ‘the’: ‘the first time’."
       },
       {
-        "use": "Instrument",
+        "use": "Fill the gap",
         "before": "My brother plays",
         "after": "drums.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
-          "the"
+          "the",
+          "—",
+          "-"
         ],
         "display": "the",
-        "explain": "Musical instruments: ‘play the drums’."
+        "explain": "Musical instruments: ‘play the drums’. (‘plays drums’ is also common in casual speech.)"
       },
       {
-        "use": "Place in town",
+        "use": "Fill the gap",
         "before": "I need to go to",
-        "after": "bank.",
-        "hint": "the / —",
+        "after": "bank to ask about my account.",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -138,10 +140,10 @@
         "explain": "Places in town we use: ‘the bank’."
       },
       {
-        "use": "Defined by phrase",
+        "use": "Fill the gap",
         "before": "",
         "after": "woman in the blue dress is my aunt.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -150,10 +152,10 @@
         "explain": "‘In the blue dress’ tells us which woman: ‘the’."
       },
       {
-        "use": "General",
+        "use": "Fill the gap",
         "before": "I don’t like",
-        "after": "horror films.",
-        "hint": "the / —",
+        "after": "horror films. (in general)",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -162,10 +164,10 @@
         "explain": "Films in general (plural): no ‘the’."
       },
       {
-        "use": "General",
+        "use": "Fill the gap",
         "before": "",
-        "after": "Cats sleep a lot.",
-        "hint": "the / —",
+        "after": "Cats sleep a lot. (in general)",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -174,10 +176,10 @@
         "explain": "Cats in general: no ‘the’."
       },
       {
-        "use": "General",
+        "use": "Fill the gap",
         "before": "She loves",
-        "after": "music.",
-        "hint": "the / —",
+        "after": "music. (in general)",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -186,10 +188,10 @@
         "explain": "Music in general (uncountable): no ‘the’."
       },
       {
-        "use": "Sport",
+        "use": "Fill the gap",
         "before": "We play",
         "after": "basketball on Fridays.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -198,10 +200,10 @@
         "explain": "Sports take no article: ‘play basketball’."
       },
       {
-        "use": "Meal",
+        "use": "Fill the gap",
         "before": "What time do you have",
         "after": "lunch?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -210,10 +212,10 @@
         "explain": "Meals take no article: ‘have lunch’."
       },
       {
-        "use": "Language",
+        "use": "Fill the gap",
         "before": "He speaks",
         "after": "Japanese very well.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -222,10 +224,10 @@
         "explain": "Languages take no article: ‘speak Japanese’."
       },
       {
-        "use": "Subject",
+        "use": "Fill the gap",
         "before": "My favourite subject is",
         "after": "history.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -234,10 +236,10 @@
         "explain": "School subjects take no article."
       },
       {
-        "use": "Specific",
+        "use": "Fill the gap",
         "before": "",
         "after": "coffee in this café is amazing.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "The",
           "the"
@@ -534,12 +536,12 @@
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. Do we know which one? → the. In general, sports, meals, languages → no article.",
+    "subtitle": "15 seconds per question. Choose the right article, or no article.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Specific",
+        "use": "Choose the answer",
         "text": "Can you turn off <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> TV? I’m trying to sleep.",
         "choices": [
           "the",
@@ -557,7 +559,7 @@
         "explain": "We both know which TV: the TV."
       },
       {
-        "use": "Unique",
+        "use": "Choose the answer",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> moon looks huge tonight.",
         "choices": [
           "A",
@@ -575,7 +577,7 @@
         "explain": "Only one exists: the moon."
       },
       {
-        "use": "Superlative",
+        "use": "Choose the answer",
         "text": "That’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> funniest joke I’ve ever heard!",
         "choices": [
           "a",
@@ -593,7 +595,7 @@
         "explain": "Superlative: the funniest."
       },
       {
-        "use": "Ordinal",
+        "use": "Choose the answer",
         "text": "This is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> third time he’s been late this week!",
         "choices": [
           "a",
@@ -611,25 +613,23 @@
         "explain": "Ordinals: the first, the second, the third."
       },
       {
-        "use": "Instrument",
+        "use": "Choose the answer",
         "text": "Can you play <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> guitar?",
         "choices": [
           "a",
           "the",
-          "—",
           "an"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Play a guitar’ is unusual for the skill.",
           "",
-          "Instruments usually take ‘the’.",
           "‘Guitar’ starts with a consonant sound."
         ],
         "explain": "Instruments: play the guitar."
       },
       {
-        "use": "Sport",
+        "use": "Choose the answer",
         "text": "They play <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tennis every weekend.",
         "choices": [
           "the",
@@ -647,7 +647,7 @@
         "explain": "Sports: play tennis."
       },
       {
-        "use": "General",
+        "use": "Choose the answer",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> elephants are very intelligent animals.",
         "choices": [
           "The",
@@ -665,7 +665,7 @@
         "explain": "Elephants in general: no article."
       },
       {
-        "use": "General",
+        "use": "Choose the answer",
         "text": "I think <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> health is more important than money.",
         "choices": [
           "—",
@@ -683,7 +683,7 @@
         "explain": "Uncountable in general: no article."
       },
       {
-        "use": "Defined by phrase",
+        "use": "Choose the answer",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> people next door are really noisy.",
         "choices": [
           "—",
@@ -701,7 +701,7 @@
         "explain": "‘Next door’ tells us which people: the."
       },
       {
-        "use": "Second mention",
+        "use": "Choose the answer",
         "text": "I ordered a soup and a salad. <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> soup was cold.",
         "choices": [
           "A",
@@ -719,7 +719,7 @@
         "explain": "Second mention: the soup."
       },
       {
-        "use": "Meal",
+        "use": "Choose the answer",
         "text": "We had <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> dinner at a Thai restaurant.",
         "choices": [
           "—",
@@ -737,8 +737,8 @@
         "explain": "Meals: have dinner."
       },
       {
-        "use": "Place in town",
-        "text": "I’m going to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> post office to send a parcel.",
+        "use": "Choose the answer",
+        "text": "I’m going to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> post office in our street to send a parcel.",
         "choices": [
           "a",
           "the",
@@ -755,7 +755,7 @@
         "explain": "Places in town: the post office."
       },
       {
-        "use": "Language",
+        "use": "Choose the answer",
         "text": "Do you speak <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Italian?",
         "choices": [
           "the",
@@ -773,7 +773,7 @@
         "explain": "Languages: speak Italian."
       },
       {
-        "use": "Unique",
+        "use": "Choose the answer",
         "text": "Global warming is a danger to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> planet.",
         "choices": [
           "the",
@@ -791,7 +791,7 @@
         "explain": "Our planet, the one we know: the planet."
       },
       {
-        "use": "Superlative",
+        "use": "Choose the answer",
         "text": "Who is <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> oldest person in your family?",
         "choices": [
           "an",
@@ -809,7 +809,7 @@
         "explain": "Superlative: the oldest."
       },
       {
-        "use": "Subject",
+        "use": "Choose the answer",
         "text": "I’m not very good at <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> physics.",
         "choices": [
           "the",
@@ -827,43 +827,39 @@
         "explain": "Subjects: physics, maths, history."
       },
       {
-        "use": "Which",
+        "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
           "I play the piano.",
-          "I play piano the.",
-          "I play a piano every day.",
-          "I play the football."
+          "I play the football.",
+          "I play the chess."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong word order.",
-          "‘A piano’ isn’t used for the skill.",
-          "Sports take no article."
+          "Sports take no article.",
+          "Games take no article: ‘play chess’."
         ],
         "explain": "Instruments take ‘the’; sports don’t."
       },
       {
-        "use": "Which",
+        "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
-          "The life is beautiful.",
-          "Life is beautiful.",
           "A life is beautiful.",
-          "An life is beautiful."
+          "Life is beautiful.",
+          "The life is beautiful."
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘The life’ = a specific life.",
-          "",
           "‘A life’ = one life.",
-          "‘An’ is wrong with ‘life’."
+          "",
+          "‘The life’ = a specific life."
         ],
         "explain": "In general: no article."
       },
       {
-        "use": "Specific",
+        "use": "Choose the answer",
         "text": "Where did you put <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> keys? I can’t find them.",
         "choices": [
           "a",
@@ -881,7 +877,7 @@
         "explain": "Specific, known keys: the keys."
       },
       {
-        "use": "General",
+        "use": "Choose the answer",
         "text": "My little brother is afraid of <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> spiders.",
         "choices": [
           "the",
@@ -1030,14 +1026,19 @@
       {
         "tokens": [
           "I",
-          "love",
+          "think",
           "the",
-          "chocolate."
+          "happiness",
+          "is",
+          "more",
+          "important",
+          "than",
+          "money."
         ],
         "errorIndex": 2,
-        "correction": "chocolate.",
+        "correction": "happiness",
         "type": "The for general",
-        "message": "Chocolate in general: no ‘the’ — ‘I love chocolate’.",
+        "message": "Happiness in general: no ‘the’.",
         "errorSpan": [
           2,
           3
@@ -1062,19 +1063,21 @@
       },
       {
         "tokens": [
-          "I’m",
+          "Many",
+          "people",
+          "are",
           "scared",
           "of",
           "the",
           "snakes."
         ],
-        "errorIndex": 3,
+        "errorIndex": 5,
         "correction": "snakes.",
         "type": "The for general",
-        "message": "Snakes in general: no ‘the’ — ‘I’m scared of snakes’.",
+        "message": "Snakes in general: no ‘the’.",
         "errorSpan": [
-          3,
-          4
+          5,
+          6
         ]
       },
       {
@@ -1099,16 +1102,16 @@
         "tokens": [
           "My",
           "dad",
-          "watches",
+          "plays",
           "the",
           "golf",
-          "on",
-          "TV."
+          "every",
+          "Sunday."
         ],
         "errorIndex": 3,
         "correction": "golf",
         "type": "The for sport",
-        "message": "Sports take no article: ‘watches golf’.",
+        "message": "Sports take no article: ‘plays golf’.",
         "errorSpan": [
           3,
           4
@@ -1213,14 +1216,15 @@
           "a",
           "bank",
           "to",
-          "get",
-          "some",
-          "money."
+          "ask",
+          "about",
+          "my",
+          "account."
         ],
         "errorIndex": 5,
         "correction": "the",
         "type": "A for place in town",
-        "message": "Places in town we use: ‘the bank’."
+        "message": "The bank where I have my account: ‘the bank’."
       },
       {
         "tokens": [
@@ -1261,9 +1265,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "Unique",
+        "use": "Fill the gap",
         "sentText": "Who was the first person on {{blank}} moon?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -1273,9 +1277,9 @@
       },
       {
         "type": "fill",
-        "use": "Superlative",
+        "use": "Fill the gap",
         "sentText": "This is {{blank}} coldest day of the year.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "the"
         ],
@@ -1285,9 +1289,9 @@
       },
       {
         "type": "fill",
-        "use": "Sport",
+        "use": "Fill the gap",
         "sentText": "Do you like playing {{blank}} volleyball?",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
           "—",
           "-"
@@ -1298,19 +1302,21 @@
       },
       {
         "type": "fill",
-        "use": "Instrument",
+        "use": "Fill the gap",
         "sentText": "My cousin plays {{blank}} cello.",
-        "hint": "the / —",
+        "hint": "article or none",
         "answers": [
-          "the"
+          "the",
+          "—",
+          "-"
         ],
         "display": "the",
-        "explain": "Instruments take ‘the’: ‘the cello’.",
+        "explain": "Instruments take ‘the’: ‘the cello’. (‘plays cello’ is also common in casual speech.)",
         "wrongNote": "Instrument → the."
       },
       {
         "type": "order",
-        "use": "Unique",
+        "use": "Put in order",
         "tokens": [
           "The",
           "sky",
@@ -1320,7 +1326,7 @@
       },
       {
         "type": "order",
-        "use": "Superlative",
+        "use": "Put in order",
         "tokens": [
           "He",
           "is",
@@ -1330,7 +1336,7 @@
       },
       {
         "type": "order",
-        "use": "Instrument",
+        "use": "Put in order",
         "tokens": [
           "We",
           "play",
@@ -1340,7 +1346,7 @@
       },
       {
         "type": "order",
-        "use": "General",
+        "use": "Put in order",
         "tokens": [
           "I",
           "like",
@@ -1425,7 +1431,7 @@
       },
       {
         "type": "mc",
-        "use": "Specific",
+        "use": "Choose the answer",
         "text": "Have you fed {{blank}} cat?",
         "choices": [
           "a",
@@ -1444,8 +1450,8 @@
       },
       {
         "type": "mc",
-        "use": "General",
-        "text": "{{blank}} vegetables are good for you.",
+        "use": "Choose the answer",
+        "text": "In general, {{blank}} vegetables are good for you.",
         "choices": [
           "—",
           "The",
@@ -1463,7 +1469,7 @@
       },
       {
         "type": "mc",
-        "use": "Meal",
+        "use": "Choose the answer",
         "text": "Let’s have {{blank}} lunch in the park.",
         "choices": [
           "the",
@@ -1482,7 +1488,7 @@
       },
       {
         "type": "mc",
-        "use": "Superlative",
+        "use": "Choose the answer",
         "text": "It’s {{blank}} most beautiful beach in Spain.",
         "choices": [
           "a",
@@ -1501,23 +1507,23 @@
       },
       {
         "type": "error",
-        "use": "A for unique",
+        "use": "Find the mistake",
         "tokens": [
           "We",
           "looked",
           "at",
           "a",
-          "stars",
+          "moon",
           "all",
           "night."
         ],
         "errorIndex": 3,
         "correction": "the",
-        "message": "The stars in our sky: ‘the stars’."
+        "message": "The moon we all know: ‘the moon’."
       },
       {
         "type": "error",
-        "use": "The for sport",
+        "use": "Find the mistake",
         "tokens": [
           "They",
           "play",
@@ -1536,7 +1542,7 @@
       },
       {
         "type": "error",
-        "use": "A for superlative",
+        "use": "Find the mistake",
         "tokens": [
           "She’s",
           "a",
@@ -1551,7 +1557,7 @@
       },
       {
         "type": "error",
-        "use": "The for language",
+        "use": "Find the mistake",
         "tokens": [
           "Can",
           "you",

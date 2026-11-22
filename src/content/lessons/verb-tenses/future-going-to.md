@@ -41,7 +41,7 @@ draft: false
 | Negative | subject + am/is/are + not + going to + base verb | They **aren’t going to come**. |
 | Question | Am/Is/Are + subject + going to + base verb? | **Are** you **going to study**? |
 
-Use **am** with *I*, **is** with *he, she, it*, and **are** with *you, we, they*. The verb *be* is never left out. In a question with a question word, *am/is/are* comes next: *What **are** you **going to do**?*
+Use **am** with *I*, **is** with *he, she, it*, and **are** with *you, we, they*. Don’t leave out the verb *be*. In a question with a question word, *am/is/are* comes next: *What **are** you **going to do**?*
 
 **Short answers:** *Are you going to come? — Yes, I am. / No, I’m not.*
 

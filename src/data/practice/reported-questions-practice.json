@@ -11,13 +11,13 @@
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type the missing part of the reported question: if / whether, the question word, or the verb in statement order with backshift. Twenty original sentences.",
+    "subtitle": "Type the missing part of the reported question: if / whether, the question word, or the verb in statement order. Shift the tense back after a past reporting verb. Twenty original sentences.",
     "questions": [
       {
         "use": "Fill the gap",
         "before": "“Are you tired?” → She asked",
         "after": "I was tired.",
-        "hint": "if / that",
+        "hint": "Type one word.",
         "answers": [
           "if",
           "whether"
@@ -40,7 +40,7 @@
         "use": "Fill the gap",
         "before": "“Can you help me?” → She asked if I",
         "after": "help her.",
-        "hint": "can / could",
+        "hint": "Type one word.",
         "answers": [
           "could"
         ],
@@ -119,10 +119,11 @@
         "after": ".",
         "hint": "(leave)",
         "answers": [
-          "had left"
+          "had left",
+          "left"
         ],
         "display": "had left",
-        "explain": "Past simple moves back to past perfect: had left."
+        "explain": "Past simple moves back to past perfect: had left. (‘why I left’ is also common.)"
       },
       {
         "use": "Fill the gap",
@@ -161,9 +162,10 @@
         "use": "Fill the gap",
         "before": "“",
         "after": "broke the window?” → She asked who had broken the window.",
-        "hint": "who / what",
+        "hint": "Type one word.",
         "answers": [
-          "Who"
+          "Who",
+          "who"
         ],
         "display": "Who",
         "explain": "‘Who’ is the subject here, so the order stays the same."
@@ -174,16 +176,17 @@
         "after": ".",
         "hint": "(happen)",
         "answers": [
-          "had happened"
+          "had happened",
+          "happened"
         ],
         "display": "had happened",
-        "explain": "‘What’ is the subject: no inversion; past simple → past perfect."
+        "explain": "‘What’ is the subject: no inversion; past simple → past perfect. (‘what happened’ is also common.)"
       },
       {
         "use": "Fill the gap",
         "before": "She",
         "after": "me where I had bought my jacket.",
-        "hint": "asked / said",
+        "hint": "Type one word.",
         "answers": [
           "asked"
         ],
@@ -194,23 +197,25 @@
         "use": "Fill the gap",
         "before": "He wanted to",
         "after": "if the shop was open.",
-        "hint": "know / ask",
+        "hint": "Type one word.",
         "answers": [
-          "know"
+          "know",
+          "ask"
         ],
         "display": "know",
-        "explain": "Another reporting phrase for questions: wanted to know."
+        "explain": "Another reporting phrase for questions: wanted to know. (‘wanted to ask’ also works.)"
       },
       {
         "use": "Fill the gap",
         "before": "I",
         "after": "why she hadn’t called.",
-        "hint": "wondered / asked to",
+        "hint": "Type one word.",
         "answers": [
-          "wondered"
+          "wondered",
+          "asked"
         ],
         "display": "wondered",
-        "explain": "‘Wonder’ can report a question you ask yourself."
+        "explain": "‘Wonder’ can report a question you ask yourself. (‘asked’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -227,12 +232,13 @@
         "use": "Fill the gap",
         "before": "“Do you want tea or coffee?” → He asked",
         "after": "I wanted tea or coffee.",
-        "hint": "whether / that",
+        "hint": "Type one word.",
         "answers": [
-          "whether"
+          "whether",
+          "if"
         ],
         "display": "whether",
-        "explain": "‘Whether’ is common with a choice: tea or coffee."
+        "explain": "‘Whether’ is common with a choice: tea or coffee. (‘if’ also works.)"
       }
     ]
   },
@@ -651,17 +657,15 @@
         "use": "Choose the answer",
         "text": "“Where is the museum?” → A tourist asked me where the museum <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "is",
-          "was it",
           "was",
-          "did be"
+          "was it",
+          "is"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "After ‘asked’, backshift: ‘was’.",
-          "‘Was it’ is question order.",
           "",
-          "‘Did be’ is impossible."
+          "‘Was it’ is question order.",
+          "After ‘asked’, backshift: ‘was’."
         ],
         "explain": "Statement order: the museum was."
       },
@@ -670,14 +674,12 @@
         "text": "“Who ate my sandwich?” → He asked who <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his sandwich.",
         "choices": [
           "did eat",
-          "ate did",
           "has eaten",
           "had eaten"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "‘Did’ disappears.",
-          "Wrong order.",
           "Present perfect isn’t backshifted.",
           ""
         ],
@@ -687,17 +689,15 @@
         "use": "Choose the answer",
         "text": "Which word introduces a reported yes/no question?",
         "choices": [
-          "if",
-          "that",
           "what",
-          "so"
+          "that",
+          "if"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "‘That’ introduces statements.",
           "‘What’ is for wh- questions.",
-          "‘So’ shows a result."
+          "‘That’ introduces statements.",
+          ""
         ],
         "explain": "Yes/No questions: if or whether."
       },
@@ -742,16 +742,12 @@
         "text": "“Can you lend me a pen?” → He asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lend him a pen.",
         "choices": [
           "could",
-          "can",
-          "would can",
-          "could to"
+          "can"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Can’ isn’t backshifted.",
-          "Two modals can’t go together.",
-          "No ‘to’ after ‘could’."
+          "‘Can’ isn’t backshifted."
         ],
         "explain": "‘Can’ → ‘could’."
       },
@@ -779,14 +775,12 @@
         "choices": [
           "know",
           "knowing",
-          "to knew",
           "to know"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "‘Want’ needs ‘to’.",
           "‘Wanted knowing’ is wrong.",
-          "After ‘to’ use the base verb.",
           ""
         ],
         "explain": "Wanted to know + wh- clause."
@@ -795,17 +789,15 @@
         "use": "Choose the answer",
         "text": "“Where have you been?” → Dad asked where I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "had been",
-          "have been",
           "had I been",
-          "was been"
+          "have been",
+          "had been"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "After ‘asked’ the present perfect moves back to the past perfect.",
           "Question order is wrong in a reported question.",
-          "‘Was been’ is not a correct form."
+          "After ‘asked’ the present perfect moves back to the past perfect.",
+          ""
         ],
         "explain": "Present perfect → past perfect, in statement order: where I had been."
       },
@@ -831,17 +823,15 @@
         "use": "Choose the answer",
         "text": "“How much does it cost?” → She asked how much it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "does cost",
-          "did cost",
           "cost",
-          "costs did"
+          "did cost",
+          "does cost"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "‘Does’ disappears.",
-          "‘Did’ disappears.",
           "",
-          "Wrong order."
+          "‘Did’ disappears.",
+          "‘Does’ disappears."
         ],
         "explain": "Statement order + backshift: it cost (past of cost)."
       },
@@ -867,17 +857,15 @@
         "use": "Choose the answer",
         "text": "“Have you ever been to London?” → She asked if I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to London.",
         "choices": [
-          "have ever been",
-          "had ever been",
           "had ever went",
-          "was ever"
+          "had ever been",
+          "have ever been"
         ],
         "correct": 1,
         "wrongReasons": [
-          "No backshift.",
-          "",
           "‘Went’ is not the participle.",
-          "‘Was ever’ is wrong."
+          "",
+          "No backshift."
         ],
         "explain": "Present perfect → past perfect."
       },
@@ -886,14 +874,12 @@
         "text": "“Which bus goes to the beach?” → He asked which bus <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the beach.",
         "choices": [
           "did go",
-          "goes did",
           "went",
           "does go"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "‘Did’ disappears.",
-          "Wrong order.",
           "",
           "‘Does’ disappears."
         ],
@@ -921,21 +907,21 @@
   },
   "errorCorrection": {
     "title": "Find the mistake",
-    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). Twenty original sentences.",
+    "subtitle": "Each sentence has exactly one mistake. Tap the word you think is wrong (if a word is missing, tap the word right after the gap). In these sentences the reporting verb is past, so the tense moves back. Twenty original sentences.",
     "items": [
       {
         "tokens": [
           "He",
           "asked",
-          "when",
+          "where",
           "I",
           "did",
-          "arrive."
+          "live."
         ],
         "errorIndex": 4,
-        "correction": "had arrived.",
+        "correction": "lived.",
         "type": "Do in reported question",
-        "message": "No ‘did’ and backshift: ‘when I had arrived’.",
+        "message": "No ‘did’ and the verb moves back: ‘where I lived’.",
         "errorSpan": [
           4,
           5
@@ -1109,6 +1095,11 @@
       },
       {
         "tokens": [
+          "“Where",
+          "do",
+          "you",
+          "live?”",
+          "→",
           "She",
           "told",
           "me",
@@ -1116,7 +1107,7 @@
           "I",
           "lived."
         ],
-        "errorIndex": 1,
+        "errorIndex": 6,
         "correction": "asked",
         "type": "Said or asked",
         "message": "It was a question: ‘She asked me where I lived’."
@@ -1222,15 +1213,18 @@
         "tokens": [
           "She",
           "asked",
-          "wether",
+          "whether",
           "I",
-          "was",
           "coming."
         ],
-        "errorIndex": 2,
-        "correction": "whether",
-        "type": "Spelling",
-        "message": "Spelling: ‘whether’."
+        "errorIndex": 4,
+        "correction": "was coming.",
+        "type": "Missing verb",
+        "message": "Reported question: ‘whether I was coming’.",
+        "errorSpan": [
+          4,
+          4
+        ]
       }
     ]
   },
@@ -1254,9 +1248,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "Yes/No",
+        "use": "Fill the gap",
         "sentText": "“Are you coming?” → She asked {{blank}} I was coming.",
-        "hint": "if / that",
+        "hint": "Type one word.",
         "answers": [
           "if",
           "whether"
@@ -1267,7 +1261,7 @@
       },
       {
         "type": "fill",
-        "use": "Wh-",
+        "use": "Fill the gap",
         "sentText": "“Where are you going?” → He asked where I {{blank}}.",
         "hint": "go",
         "answers": [
@@ -1279,21 +1273,22 @@
       },
       {
         "type": "fill",
-        "use": "Wh-",
+        "use": "Fill the gap",
         "sentText": "“What did you buy?” → She asked what I {{blank}}.",
         "hint": "buy",
         "answers": [
-          "had bought"
+          "had bought",
+          "bought"
         ],
         "display": "had bought",
-        "explain": "No ‘did’; past simple moves back to past perfect.",
+        "explain": "No ‘did’; past simple moves back to past perfect. (‘what I bought’ is also common.)",
         "wrongNote": "Past simple → had + participle."
       },
       {
         "type": "fill",
-        "use": "Can",
+        "use": "Fill the gap",
         "sentText": "“Can you drive?” → He asked if I {{blank}} drive.",
-        "hint": "can / could",
+        "hint": "Type one word.",
         "answers": [
           "could"
         ],
@@ -1391,14 +1386,14 @@
         "text": "“Who called?” → She asked who had called. The word order…",
         "choices": [
           "doesn’t change, because ‘who’ is the subject",
-          "changes to who called had",
+          "puts ‘had’ before ‘who’",
           "needs ‘did’",
           "needs ‘if’"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong order.",
+          "‘Had’ stays after ‘who’: ‘who had called’.",
           "‘Did’ disappears in reported questions.",
           "‘If’ is for yes/no questions."
         ],
@@ -1410,16 +1405,16 @@
         "text": "“Is it far?” → He asked {{blank}} far.",
         "choices": [
           "was it",
-          "it was if",
+          "if was it",
           "if it was",
-          "that was it"
+          "that it was"
         ],
         "correct": 2,
         "wrongReasons": [
           "Question order is wrong.",
-          "Wrong order.",
+          "After ‘if’ the subject comes first: ‘if it was’.",
           "",
-          "‘That’ is for statements."
+          "‘That’ is for statements; a yes/no question needs ‘if’."
         ],
         "explain": "Yes/No: if + subject + verb."
       },
@@ -1431,14 +1426,14 @@
           "did leave",
           "does leave",
           "left",
-          "leaves did"
+          "leave"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Did’ disappears.",
           "‘Does’ disappears and no backshift.",
           "",
-          "Wrong order."
+          "After ‘asked’ the verb moves back: ‘left’."
         ],
         "explain": "Statement order + backshift: the bus left."
       },
@@ -1501,7 +1496,7 @@
       },
       {
         "type": "error",
-        "use": "Do in reported question",
+        "use": "Find the mistake",
         "tokens": [
           "She",
           "asked",
@@ -1520,7 +1515,7 @@
       },
       {
         "type": "error",
-        "use": "If or that",
+        "use": "Find the mistake",
         "tokens": [
           "He",
           "asked",
@@ -1535,7 +1530,7 @@
       },
       {
         "type": "error",
-        "use": "Backshift",
+        "use": "Find the mistake",
         "tokens": [
           "She",
           "asked",

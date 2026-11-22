@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "\"Sit down.\" → The teacher told us ___ down.",
-      "options": ["sit", "to sit", "sitting", "that sit"],
+      "options": [
+        "sit",
+        "to sit",
+        "sitting",
+        "that sit"
+      ],
       "answer": 1,
       "explanations": [
         "'Sit' is missing 'to'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "\"Please help me.\" → She asked me ___ her.",
-      "options": ["that help", "help", "helping", "to help"],
+      "options": [
+        "that help",
+        "help",
+        "helping",
+        "to help"
+      ],
       "answer": 3,
       "explanations": [
         "'That help' isn't used for requests.",
@@ -27,18 +37,28 @@
     },
     {
       "question": "\"Don't touch the stove.\" → He told me ___ the stove.",
-      "options": ["don't touch", "to not touch", "not to touch", "not touch"],
+      "options": [
+        "don't touch",
+        "to not touching",
+        "not to touch",
+        "not touch"
+      ],
       "answer": 2,
       "explanations": [
         "'Don't touch' keeps the direct imperative.",
-        "'To not touch' is not the standard order.",
+        "After 'to' use the base verb: 'not to touch'.",
         "Correct! Negatives put 'not' before 'to': 'told me not to touch'.",
         "'Not touch' is missing 'to'."
       ]
     },
     {
       "question": "\"Remember to lock the door.\" → She reminded me ___ the door.",
-      "options": ["to lock", "lock", "locking", "that lock"],
+      "options": [
+        "to lock",
+        "lock",
+        "locking",
+        "that lock"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Remind + object + to-infinitive': 'reminded me to lock the door'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Choose the correct version of: 'He told to wait.'",
-      "options": ["He told me to wait.", "He told to wait me.", "He told wait.", "The sentence is already correct."],
+      "options": [
+        "He told me to wait.",
+        "He told to wait me.",
+        "He told wait.",
+        "The sentence is already correct."
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Tell' needs an object: 'He told me to wait'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "\"Could you close the door, please?\" → She asked him ___ the door.",
-      "options": ["closed", "close", "closing", "to close"],
+      "options": [
+        "closed",
+        "close",
+        "closing",
+        "to close"
+      ],
       "answer": 3,
       "explanations": [
         "'Closed' is wrong after 'ask + object'.",
@@ -71,18 +101,28 @@
     },
     {
       "question": "\"Don't be late.\" → He warned us ___ late.",
-      "options": ["don't be", "to not be", "not to be", "not being"],
+      "options": [
+        "don't be",
+        "to not being",
+        "not to be",
+        "not being"
+      ],
       "answer": 2,
       "explanations": [
         "'Don't be' keeps the direct imperative.",
-        "'To not be' is not the standard order.",
+        "After 'to' use the base verb: 'not to be'.",
         "Correct! 'Warn + object + not to': 'warned us not to be late'.",
         "'Not being' is wrong here."
       ]
     },
     {
       "question": "\"Take these pills twice a day.\" → The doctor advised her ___ the pills twice a day.",
-      "options": ["take", "to take", "taking", "that take"],
+      "options": [
+        "take",
+        "to take",
+        "taking",
+        "that take"
+      ],
       "answer": 1,
       "explanations": [
         "'Take' is missing 'to'.",
@@ -93,7 +133,12 @@
     },
     {
       "question": "Which sentence reports a command correctly?",
-      "options": ["She said me to leave.", "She told me leave.", "She told me to leave.", "She told to me leave."],
+      "options": [
+        "She said me to leave.",
+        "She told me leave.",
+        "She told me to leave.",
+        "She told to me leave."
+      ],
       "answer": 2,
       "explanations": [
         "'Say' isn't used with 'me to' for commands; use 'tell'.",
@@ -104,11 +149,16 @@
     },
     {
       "question": "\"Please don't tell anyone.\" → He asked me ___ anyone.",
-      "options": ["not telling", "to not tell", "don't tell", "not to tell"],
+      "options": [
+        "not telling",
+        "to don't tell",
+        "don't tell",
+        "not to tell"
+      ],
       "answer": 3,
       "explanations": [
         "'Not telling' is wrong here.",
-        "'To not tell' is not the standard order.",
+        "'Don't' disappears in reported speech: 'not to tell'.",
         "'Don't tell' keeps the direct imperative.",
         "Correct! Negative request: 'asked me not to tell anyone'."
       ]
@@ -118,10 +168,15 @@
       "kind": "Complete the sentence",
       "question": "\"Open the window,\" the teacher said to us. → The teacher told us ___ the window.",
       "hint": "Type the missing words.",
-      "answers": ["to open"],
+      "answers": [
+        "to open"
+      ],
       "explanation": "Command: tell + person + to-infinitive.",
       "common": [
-        {"answer": "open", "why": "In a reported command we need 'to' before the verb: to open."}
+        {
+          "answer": "open",
+          "why": "In a reported command we need 'to' before the verb: to open."
+        }
       ]
     },
     {
@@ -129,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "He told me don't go.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["He told me not to go"],
+      "answers": [
+        "He told me not to go"
+      ],
       "explanation": "Negative reported command: tell + person + not to + verb."
     },
     {
@@ -137,7 +194,9 @@
       "kind": "Complete the sentence",
       "question": "\"Please wait,\" she said to me. → She asked me ___.",
       "hint": "Type the missing words.",
-      "answers": ["to wait"],
+      "answers": [
+        "to wait"
+      ],
       "explanation": "Request: ask + person + to-infinitive."
     }
   ]

@@ -14,7 +14,7 @@
     "subtitle": "Type the get passive: the right form of get + past participle. Twenty original sentences.",
     "questions": [
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "My phone",
         "after": "on the metro yesterday.",
         "hint": "(steal)",
@@ -25,7 +25,7 @@
         "explain": "Informal past passive with bad luck: got + stolen."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "Our flight",
         "after": "because of the storm.",
         "hint": "(cancel)",
@@ -36,7 +36,7 @@
         "explain": "An unexpected event in the past: got + cancelled."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "Two players",
         "after": "in the first half.",
         "hint": "(injure)",
@@ -47,7 +47,7 @@
         "explain": "A bad event, informal: got + injured."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "He",
         "after": "cheating in the exam.",
         "hint": "(catch)",
@@ -58,7 +58,7 @@
         "explain": "Bad luck for him: got + caught (irregular participle)."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "I",
         "after": "to Marta’s birthday party!",
         "hint": "(invite)",
@@ -69,7 +69,7 @@
         "explain": "A change or event that happened to me: got invited."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "We",
         "after": "in the old town of Girona.",
         "hint": "(lose)",
@@ -80,7 +80,7 @@
         "explain": "Fixed expression: get lost → got lost."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "My dad",
         "after": "last month.",
         "hint": "(promote)",
@@ -91,7 +91,7 @@
         "explain": "A change at work, informal: got promoted."
       },
       {
-        "use": "Past",
+        "use": "Fill the gap",
         "before": "They",
         "after": "in a small church in the mountains.",
         "hint": "(marry)",
@@ -102,7 +102,7 @@
         "explain": "Fixed expression: get married → got married."
       },
       {
-        "use": "Present",
+        "use": "Fill the gap",
         "before": "She",
         "after": "at the end of every month.",
         "hint": "(pay)",
@@ -113,7 +113,7 @@
         "explain": "A routine in the present: gets + paid, with -s for ‘she’."
       },
       {
-        "use": "Present",
+        "use": "Fill the gap",
         "before": "My little brother always",
         "after": "off by the teacher.",
         "hint": "(tell)",
@@ -124,18 +124,21 @@
         "explain": "A repeated event: gets + told."
       },
       {
-        "use": "Continuous",
+        "use": "Fill the gap",
         "before": "My cousin and her boyfriend",
         "after": "in June.",
         "hint": "(marry)",
         "answers": [
-          "are getting married"
+          "are getting married",
+          "will get married",
+          "are going to get married",
+          "’re getting married"
         ],
         "display": "are getting married",
-        "explain": "A future arrangement: are getting married."
+        "explain": "A future arrangement: are getting married. (‘will get married’ and ‘are going to get married’ also work.)"
       },
       {
-        "use": "Future",
+        "use": "Fill the gap",
         "before": "Be careful with that knife — you’ll",
         "after": ".",
         "hint": "(hurt)",
@@ -146,7 +149,7 @@
         "explain": "A warning: will get + hurt."
       },
       {
-        "use": "Future",
+        "use": "Fill the gap",
         "before": "If you don’t hurry, you’ll",
         "after": "behind.",
         "hint": "(leave)",
@@ -157,7 +160,7 @@
         "explain": "A possible bad result: get + left."
       },
       {
-        "use": "Negative",
+        "use": "Fill the gap",
         "before": "Luckily, nobody",
         "after": "in the accident.",
         "hint": "(hurt)",
@@ -168,7 +171,7 @@
         "explain": "‘Nobody’ already makes it negative: got hurt."
       },
       {
-        "use": "Negative",
+        "use": "Fill the gap",
         "before": "I",
         "after": "invited to the wedding.",
         "hint": "(not get)",
@@ -182,7 +185,7 @@
         "explain": "Negative with ‘get’ uses didn’t + get (base form)."
       },
       {
-        "use": "Negative",
+        "use": "Fill the gap",
         "before": "Interns often",
         "after": "paid.",
         "hint": "(not get)",
@@ -196,10 +199,10 @@
         "explain": "Present negative: don’t + get + paid."
       },
       {
-        "use": "Question",
+        "use": "Fill the gap",
         "before": "",
         "after": "you get hurt when you fell?",
-        "hint": "did / were",
+        "hint": "Type one word.",
         "answers": [
           "Did"
         ],
@@ -207,10 +210,10 @@
         "explain": "Questions with the get passive use ‘did’, not ‘were’."
       },
       {
-        "use": "Question",
+        "use": "Fill the gap",
         "before": "",
         "after": "your sister get paid for babysitting?",
-        "hint": "does / is",
+        "hint": "Type one word.",
         "answers": [
           "Does"
         ],
@@ -218,7 +221,7 @@
         "explain": "Present question: Does + subject + get + participle?"
       },
       {
-        "use": "Participle",
+        "use": "Fill the gap",
         "before": "He got",
         "after": "for driving too fast.",
         "hint": "(arrest)",
@@ -229,7 +232,7 @@
         "explain": "After ‘got’ use the past participle: arrested."
       },
       {
-        "use": "Participle",
+        "use": "Fill the gap",
         "before": "Hurry up and get",
         "after": "! We’re late.",
         "hint": "(dress)",
@@ -544,7 +547,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Past",
+        "use": "Choose the answer",
         "text": "My bag <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> while I was in the café.",
         "choices": [
           "got stolen",
@@ -562,133 +565,119 @@
         "explain": "Informal past passive with bad luck: got + stolen."
       },
       {
-        "use": "Future",
+        "use": "Choose the answer",
         "text": "Don’t climb on the roof — you’ll <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "get hurting",
-          "get hurt",
           "got hurt",
-          "be got hurt"
+          "get hurt",
+          "get hurting"
         ],
         "correct": 1,
         "wrongReasons": [
-          "After ‘get’ use the past participle, not the -ing form.",
-          "",
           "After ‘will’ use the base form ‘get’, not ‘got’.",
-          "‘Be got’ mixes two passives."
+          "",
+          "After ‘get’ use the past participle, not the -ing form."
         ],
         "explain": "A warning about a possible accident: will get + hurt."
       },
       {
-        "use": "Question",
+        "use": "Choose the answer",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you get invited to the wedding?",
         "choices": [
           "Were",
           "Was",
-          "Did",
-          "Have"
+          "Did"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Were you get’ mixes ‘be’ with ‘get’: questions with ‘get’ use ‘did’.",
           "‘Was you get’ is wrong for the same reason.",
-          "",
-          "‘Have you get’ is wrong; it would be ‘Have you got invited’."
+          ""
         ],
         "explain": "The get passive forms past questions with ‘did’ + get."
       },
       {
-        "use": "Negative",
+        "use": "Choose the answer",
         "text": "Unfortunately, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> chosen for the team.",
         "choices": [
-          "wasn’t got",
+          "didn’t get",
           "didn’t got",
-          "not got",
-          "didn’t get"
+          "wasn’t got"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘Wasn’t got’ mixes two passives.",
+          "",
           "After ‘didn’t’ use the base form ‘get’.",
-          "‘Not got’ is missing the auxiliary.",
-          ""
+          "‘Wasn’t got’ mixes two passives."
         ],
         "explain": "Negative get passive in the past: didn’t get + participle."
       },
       {
-        "use": "Present",
+        "use": "Choose the answer",
         "text": "My brother <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> every two weeks.",
         "choices": [
           "get paid",
           "gets paid",
-          "gets pay",
-          "is get paid"
+          "gets pay"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘My brother’ is he, so ‘get’ needs -s.",
           "",
-          "After ‘gets’ use the participle ‘paid’.",
-          "‘Is get’ is wrong."
+          "After ‘gets’ use the participle ‘paid’."
         ],
         "explain": "Present routine: gets + paid."
       },
       {
-        "use": "Continuous",
+        "use": "Choose the answer",
         "text": "My parents <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in August. It’s their second wedding!",
         "choices": [
-          "are getting marry",
-          "get married",
           "are getting married",
-          "are get married"
+          "is getting married",
+          "are getting marry"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "After ‘getting’ use the participle ‘married’.",
-          "A future arrangement is better with the continuous.",
           "",
-          "‘Are get’ is wrong."
+          "‘My parents’ is plural: ‘are’.",
+          "After ‘getting’ use the participle ‘married’."
         ],
         "explain": "Future arrangement: are getting married."
       },
       {
-        "use": "Expression",
+        "use": "Choose the answer",
         "text": "We took the wrong road and <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "got lose",
           "were losing",
-          "got losing",
           "got lost"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "After ‘got’ use the participle ‘lost’.",
           "‘Were losing’ means something different.",
-          "‘Got losing’ is wrong.",
           ""
         ],
         "explain": "Fixed expression: get lost."
       },
       {
-        "use": "Expression",
+        "use": "Choose the answer",
         "text": "Hurry up and get <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>. We leave in five minutes!",
         "choices": [
-          "dressed",
-          "dress",
           "dressing",
-          "to dress"
+          "dress",
+          "dressed"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "After ‘get’ use the participle.",
           "After ‘get’ use the participle, not -ing.",
-          "‘Get to dress’ has a different meaning."
+          "After ‘get’ use the participle.",
+          ""
         ],
         "explain": "Fixed expression: get dressed."
       },
       {
-        "use": "Register",
+        "use": "Choose the answer",
         "text": "Which sentence is best for a formal report?",
         "choices": [
           "The minister got elected in 2019.",
@@ -706,7 +695,7 @@
         "explain": "Formal writing uses the ‘be’ passive, not ‘get’."
       },
       {
-        "use": "Register",
+        "use": "Choose the answer",
         "text": "Which sentence sounds most natural when chatting with a friend?",
         "choices": [
           "My phone was broken by an unknown person.",
@@ -724,25 +713,23 @@
         "explain": "In conversation, ‘got’ + participle is natural."
       },
       {
-        "use": "Participle",
+        "use": "Choose the answer",
         "text": "He got <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for being late every day.",
         "choices": [
           "fired",
           "fire",
-          "firing",
-          "fires"
+          "firing"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "After ‘got’ use the participle.",
-          "After ‘got’ use the participle, not -ing.",
-          "‘Fires’ is present."
+          "After ‘got’ use the participle, not -ing."
         ],
         "explain": "Get fired = lose your job."
       },
       {
-        "use": "Participle",
+        "use": "Choose the answer",
         "text": "I always get <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by mosquitoes in summer.",
         "choices": [
           "bit",
@@ -760,7 +747,7 @@
         "explain": "Irregular participle: bite → bitten."
       },
       {
-        "use": "Negative",
+        "use": "Choose the answer",
         "text": "Luckily, nobody <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the fire.",
         "choices": [
           "didn’t get hurt",
@@ -778,25 +765,23 @@
         "explain": "‘Nobody’ is already negative: nobody got hurt."
       },
       {
-        "use": "Question",
+        "use": "Choose the answer",
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> your sister get paid for the job?",
         "choices": [
-          "Does",
-          "Is",
           "Do",
-          "Has"
+          "Is",
+          "Does"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "‘Is your sister get’ is wrong.",
           "‘Your sister’ is she: ‘does’.",
-          "‘Has your sister get’ is wrong."
+          "‘Is your sister get’ is wrong.",
+          ""
         ],
         "explain": "Present question with ‘get’: Does + subject + get…?"
       },
       {
-        "use": "Get or be",
+        "use": "Choose the answer",
         "text": "Which sentence describes a state, not an event?",
         "choices": [
           "The door got locked by accident.",
@@ -814,25 +799,23 @@
         "explain": "For states, use ‘be’; ‘get’ is for events and changes."
       },
       {
-        "use": "Expression",
+        "use": "Choose the answer",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in a traffic jam for two hours.",
         "choices": [
-          "got stick",
-          "were sticking",
           "got stuck",
-          "got sticking"
+          "were sticking",
+          "got stick"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "The participle of ‘stick’ is ‘stuck’.",
-          "‘Were sticking’ is active.",
           "",
-          "‘Got sticking’ is wrong."
+          "‘Were sticking’ is active.",
+          "The participle of ‘stick’ is ‘stuck’."
         ],
         "explain": "Fixed expression: get stuck."
       },
       {
-        "use": "Past",
+        "use": "Choose the answer",
         "text": "The thief <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by a security camera.",
         "choices": [
           "got filmed",
@@ -850,43 +833,39 @@
         "explain": "Get passive: got + filmed."
       },
       {
-        "use": "Future",
+        "use": "Choose the answer",
         "text": "If you park there, your car will <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "get tow",
-          "get towed",
           "got towed",
-          "be got towed"
+          "get towed",
+          "get tow"
         ],
         "correct": 1,
         "wrongReasons": [
-          "After ‘get’ use the participle.",
-          "",
           "After ‘will’ use ‘get’, not ‘got’.",
-          "‘Be got’ is wrong."
+          "",
+          "After ‘get’ use the participle."
         ],
         "explain": "Future bad result: will get towed."
       },
       {
-        "use": "Expression",
+        "use": "Choose the answer",
         "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> after ten years of marriage.",
         "choices": [
           "got divorce",
           "were divorcing",
-          "got divorced",
-          "got divorcing"
+          "got divorced"
         ],
         "correct": 2,
         "wrongReasons": [
           "After ‘got’ use the participle.",
           "‘Were divorcing’ is a process, not the event.",
-          "",
-          "‘Got divorcing’ is wrong."
+          ""
         ],
         "explain": "Fixed expression: get divorced."
       },
       {
-        "use": "Present perfect",
+        "use": "Choose the answer",
         "text": "Great news! Laia’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the final.",
         "choices": [
           "got select",
@@ -1161,15 +1140,17 @@
       },
       {
         "tokens": [
-          "Our",
-          "flight",
+          "The",
+          "windows",
           "got",
-          "canceld."
+          "broke",
+          "last",
+          "night."
         ],
         "errorIndex": 3,
-        "correction": "cancelled.",
-        "type": "Spelling",
-        "message": "Spelling: ‘cancelled’."
+        "correction": "broken",
+        "type": "Wrong participle",
+        "message": "Participle of ‘break’: ‘broken’."
       }
     ]
   },
@@ -1193,7 +1174,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Past",
+        "use": "Fill the gap",
         "sentText": "My glasses {{blank}} at football.",
         "hint": "break",
         "answers": [
@@ -1205,7 +1186,7 @@
       },
       {
         "type": "fill",
-        "use": "Future",
+        "use": "Fill the gap",
         "sentText": "Don’t touch that dog. You’ll {{blank}}.",
         "hint": "bite",
         "answers": [
@@ -1217,9 +1198,9 @@
       },
       {
         "type": "fill",
-        "use": "Question",
+        "use": "Fill the gap",
         "sentText": "{{blank}} you get chosen for the play?",
-        "hint": "did / were",
+        "hint": "Type one word.",
         "answers": [
           "Did"
         ],
@@ -1229,7 +1210,7 @@
       },
       {
         "type": "fill",
-        "use": "Present",
+        "use": "Fill the gap",
         "sentText": "He {{blank}} on the first of every month.",
         "hint": "pay",
         "answers": [
@@ -1394,21 +1375,21 @@
       {
         "type": "mc",
         "use": "Continuous",
-        "text": "Shh! The baby is getting {{blank}}.",
+        "text": "My sister is getting {{blank}} next month.",
         "choices": [
-          "change",
-          "changing",
-          "to change",
-          "changed"
+          "marry",
+          "marrying",
+          "to marry",
+          "married"
         ],
         "correct": 3,
         "wrongReasons": [
           "After ‘getting’ use the participle.",
-          "‘Getting changing’ is wrong.",
-          "‘Getting to change’ means something else.",
+          "‘Getting marrying’ is wrong.",
+          "‘Getting to marry’ is wrong.",
           ""
         ],
-        "explain": "Get changed = put on different clothes."
+        "explain": "Get + participle: is getting married."
       },
       {
         "type": "mc",
@@ -1431,7 +1412,7 @@
       },
       {
         "type": "error",
-        "use": "Base verb",
+        "use": "Find the mistake",
         "tokens": [
           "She",
           "got",
@@ -1445,7 +1426,7 @@
       },
       {
         "type": "error",
-        "use": "Wrong question",
+        "use": "Find the mistake",
         "tokens": [
           "Were",
           "they",
@@ -1460,7 +1441,7 @@
       },
       {
         "type": "error",
-        "use": "Will got",
+        "use": "Find the mistake",
         "tokens": [
           "You’ll",
           "got",

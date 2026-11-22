@@ -9,7 +9,7 @@ answerLead: "Both are present tenses, but they see time differently. Use:"
 answerPoints:
   - "Present simple for habits and facts — I work in Girona."
   - "Present continuous for right now or temporary — I'm working from home today."
-  - "Present simple with stative verbs — I want a coffee (never 'I'm wanting')."
+  - "Present simple with stative verbs — I want a coffee (not 'I'm wanting')."
 answerNote: "Signal words help: every day / usually → present simple; now / at the moment / today → present continuous."
 quiz: "present-simple-vs-present-continuous-quiz-1"
 faq:

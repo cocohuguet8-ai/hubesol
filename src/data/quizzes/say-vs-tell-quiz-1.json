@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "She ___ me the good news.",
-      "options": ["said", "telled", "said to", "told"],
+      "options": [
+        "said",
+        "telled",
+        "said to",
+        "told"
+      ],
       "answer": 3,
       "explanations": [
         "'Said me' is wrong — a person after the verb needs 'tell'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "He ___ that he was tired.",
-      "options": ["told", "said", "tells", "say"],
+      "options": [
+        "told",
+        "said",
+        "tells",
+        "say"
+      ],
       "answer": 1,
       "explanations": [
         "'Told that' needs a person: 'told me that'.",
@@ -27,67 +37,84 @@
     },
     {
       "question": "Please ___ the truth.",
-      "options": ["say", "say to", "tell", "tell to"],
+      "options": [
+        "tell to",
+        "say",
+        "tell"
+      ],
       "answer": 2,
       "explanations": [
+        "'Tell to' isn't used: the person comes straight after 'tell'.",
         "'Say the truth' is wrong — it's a fixed phrase with 'tell'.",
-        "'Say to the truth' makes no sense.",
-        "Correct! The fixed phrase is 'tell the truth'.",
-        "'Tell to' is never correct."
+        "Correct! The fixed phrase is 'tell the truth'."
       ]
     },
     {
       "question": "Did you ___ hello to your parents?",
-      "options": ["say", "tell", "told", "say to"],
-      "answer": 0,
+      "options": [
+        "tell",
+        "told",
+        "say"
+      ],
+      "answer": 2,
       "explanations": [
-        "Correct! The fixed phrase is 'say hello (to someone)'.",
         "'Tell hello' is wrong — the fixed phrase uses 'say'.",
         "'Told' is the past; the question needs the base form 'say'.",
-        "'Say to hello' has the words in the wrong order."
+        "Correct! The fixed phrase is 'say hello (to someone)'."
       ]
     },
     {
       "question": "Choose the correct version of: 'He said me to wait.'",
       "options": [
-        "He say me to wait.",
-        "He said to me to wait.",
-        "He told me to wait.",
-        "The sentence is already correct."
+        "He told to me to wait.",
+        "The sentence is already correct.",
+        "He told me to wait."
       ],
       "answer": 2,
       "explanations": [
-        "'Say me' is grammatically wrong.",
-        "'Said to me to wait' is not natural for a command.",
-        "Correct! A person after the verb + a command takes 'tell': 'He told me to wait'.",
-        "'Said me' is incorrect."
+        "'Told to me' is wrong — no 'to' after 'tell'.",
+        "'Said me' is incorrect: a person straight after the verb needs 'tell'.",
+        "Correct! A person after the verb + a command takes 'tell': 'He told me to wait'."
       ]
     },
     {
       "question": "Children love it when you ___ them a story.",
-      "options": ["say", "tell to", "say to", "tell"],
+      "options": [
+        "say",
+        "tell to",
+        "say to",
+        "tell"
+      ],
       "answer": 3,
       "explanations": [
         "'Say them a story' is wrong.",
-        "'Tell to' is never correct.",
+        "'Tell to' isn't used.",
         "'Say to them a story' is not natural.",
         "Correct! 'Tell + person + a story': 'tell them a story'."
       ]
     },
     {
       "question": "She didn't ___ a word all evening.",
-      "options": ["tell", "say", "told", "said to"],
-      "answer": 1,
+      "options": [
+        "tell",
+        "told",
+        "say"
+      ],
+      "answer": 2,
       "explanations": [
         "'Tell a word' is wrong — the fixed phrase uses 'say'.",
-        "Correct! The fixed phrase is 'say a word': 'She didn't say a word'.",
         "'Told' is the past; after 'didn't' use the base form.",
-        "'Said to a word' makes no sense."
+        "Correct! The fixed phrase is 'say a word': 'She didn't say a word'."
       ]
     },
     {
       "question": "Can you ___ me the time, please?",
-      "options": ["tell", "say", "say to", "told"],
+      "options": [
+        "tell",
+        "say",
+        "say to",
+        "told"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Tell the time' + person: 'tell me the time'.",
@@ -98,12 +125,15 @@
     },
     {
       "question": "He ___ goodbye and left.",
-      "options": ["told", "said", "told me", "tell"],
+      "options": [
+        "told",
+        "said",
+        "tell"
+      ],
       "answer": 1,
       "explanations": [
         "'Told goodbye' is wrong — the fixed phrase uses 'say'.",
         "Correct! The fixed phrase is 'say goodbye': 'He said goodbye and left'.",
-        "'Told me goodbye' is not the natural phrase.",
         "'Tell' is the base form; the past is 'said' here."
       ]
     },
@@ -112,14 +142,12 @@
       "options": [
         "She told to me she was happy.",
         "She said me she was happy.",
-        "She said me that she was happy.",
         "She told me she was happy."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanations": [
         "'Told to me' is wrong — no 'to' after 'tell'.",
         "'Said me' is wrong — no person straight after 'say'.",
-        "'Said me' is wrong.",
         "Correct! 'Tell + person': 'She told me she was happy'."
       ]
     },
@@ -127,11 +155,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "She ___ me the answer.",
-      "hint": "Type said or told.",
-      "answers": ["told"],
+      "hint": "Type one word.",
+      "answers": [
+        "told"
+      ],
       "explanation": "'Tell' needs a person straight after it: told me.",
       "common": [
-        {"answer": "said", "why": "'Say' can't be followed directly by a person. Use 'told me'."}
+        {
+          "answer": "said",
+          "why": "'Say' can't be followed directly by a person. Use 'told me'."
+        }
       ]
     },
     {
@@ -139,18 +172,25 @@
       "kind": "Correct the mistake",
       "question": "Please say the truth.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Please tell the truth"],
+      "answers": [
+        "Please tell the truth"
+      ],
       "explanation": "The fixed phrase is 'tell the truth'."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "He ___ hello to everyone and sat down.",
-      "hint": "Type said or told.",
-      "answers": ["said"],
+      "hint": "Type one word.",
+      "answers": [
+        "said"
+      ],
       "explanation": "Fixed phrase: say hello.",
       "common": [
-        {"answer": "told", "why": "The fixed phrase is 'say hello'."}
+        {
+          "answer": "told",
+          "why": "The fixed phrase is 'say hello'."
+        }
       ]
     }
   ]

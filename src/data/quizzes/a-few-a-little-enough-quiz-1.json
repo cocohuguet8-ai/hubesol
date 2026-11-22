@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Add ___ salt to the soup.",
-      "options": ["many", "a few", "few", "a little"],
+      "options": [
+        "many",
+        "a few",
+        "few",
+        "a little"
+      ],
       "answer": 3,
       "explanations": [
         "'Many' is for countable plurals.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I have ___ friends I can rely on.",
-      "options": ["a few", "a little", "little", "much"],
+      "options": [
+        "a few",
+        "a little",
+        "little",
+        "much"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Friends' is countable: 'a few friends'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "___ people came, so the room felt empty. (negative)",
-      "options": ["A few", "Few", "A little", "Much"],
+      "options": [
+        "A few",
+        "Few",
+        "A little",
+        "Much"
+      ],
       "answer": 1,
       "explanations": [
         "'A few' is positive — it wouldn't fit 'empty'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "There's ___ hope of finding it now. (negative)",
-      "options": ["few", "a little", "little", "a few"],
+      "options": [
+        "few",
+        "a little",
+        "little",
+        "a few"
+      ],
       "answer": 2,
       "explanations": [
         "'Few' is for countable nouns.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Are there ___ chairs for everyone?",
-      "options": ["a little", "enough", "much", "little"],
+      "options": [
+        "a little",
+        "enough",
+        "much",
+        "little"
+      ],
       "answer": 1,
       "explanations": [
         "'A little' is for uncountable nouns.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "We don't have ___ money for a holiday.",
-      "options": ["enough", "a few", "many", "few"],
+      "options": [
+        "enough",
+        "a few",
+        "many",
+        "few"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Enough' works with uncountable 'money': 'enough money'.",
@@ -71,18 +101,28 @@
     },
     {
       "question": "He's not ___ to drive yet.",
-      "options": ["few old", "enough old", "a little old", "old enough"],
+      "options": [
+        "old for enough",
+        "enough old",
+        "older enough",
+        "old enough"
+      ],
       "answer": 3,
       "explanations": [
-        "'Few old' is not correct.",
+        "'Enough' follows the adjective directly: 'old enough'.",
         "'Enough old' is the wrong order.",
-        "'A little old' changes the meaning.",
+        "'Enough' goes with the plain adjective: 'old enough'.",
         "Correct! 'Enough' goes after an adjective: 'old enough'."
       ]
     },
     {
       "question": "Would you like ___ more coffee?",
-      "options": ["many", "a few", "a little", "few"],
+      "options": [
+        "many",
+        "a few",
+        "a little",
+        "few"
+      ],
       "answer": 2,
       "explanations": [
         "'Many' is for countable plurals.",
@@ -127,11 +167,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "There isn't much time, but we have ___ minutes to talk.",
-      "hint": "Type a few or a little.",
-      "answers": ["a few"],
+      "hint": "Type two words.",
+      "answers": [
+        "a few"
+      ],
       "explanation": "'Minutes' is countable and plural, so 'a few'.",
       "common": [
-        {"answer": "a little", "why": "'A little' is for uncountable nouns. 'Minutes' is countable, so 'a few'."}
+        {
+          "answer": "a little",
+          "why": "'A little' is for uncountable nouns. 'Minutes' is countable, so 'a few'."
+        }
       ]
     },
     {
@@ -139,7 +184,10 @@
       "kind": "Correct the mistake",
       "question": "I need a few water.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I need a little water", "I need some water"],
+      "answers": [
+        "I need a little water",
+        "I need some water"
+      ],
       "explanation": "'Water' is uncountable, so 'a little' (or 'some'), not 'a few'."
     },
     {
@@ -147,7 +195,9 @@
       "kind": "Complete the sentence",
       "question": "I don't have money enough for a taxi. → I don't have ___ money for a taxi.",
       "hint": "Type one word.",
-      "answers": ["enough"],
+      "answers": [
+        "enough"
+      ],
       "explanation": "'Enough' goes before the noun: enough money."
     }
   ]

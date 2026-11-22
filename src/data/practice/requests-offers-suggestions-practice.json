@@ -19,40 +19,49 @@
     "subtitle": "Type the missing word: a modal (can, could, would, shall, will), let’s, or the right verb form. Twenty original sentences.",
     "questions": [
       {
-        "use": "Request",
+        "use": "Modal or phrase",
         "before": "",
         "after": "you pass me the salt, please?",
-        "hint": "could / shall",
+        "hint": "modal verb",
         "answers": [
-          "Could"
+          "Could",
+          "Can",
+          "Would",
+          "Will"
         ],
         "display": "Could",
-        "explain": "A polite request for someone to do something: Could you…?"
+        "explain": "A polite request for someone to do something: Could you…? (Can, Would and Will also work.)"
       },
       {
-        "use": "Request",
+        "use": "Modal or phrase",
         "before": "",
         "after": "you help me with this box?",
-        "hint": "can / shall",
+        "hint": "modal verb",
         "answers": [
-          "Can"
+          "Can",
+          "Could",
+          "Would",
+          "Will"
         ],
         "display": "Can",
-        "explain": "An informal request to a friend: Can you…?"
+        "explain": "An informal request to a friend: Can you…? (Could, Would and Will also work.)"
       },
       {
-        "use": "Request",
+        "use": "Modal or phrase",
         "before": "",
         "after": "you open the door for me, please?",
-        "hint": "would / shall",
+        "hint": "modal verb",
         "answers": [
-          "Would"
+          "Would",
+          "Could",
+          "Can",
+          "Will"
         ],
         "display": "Would",
-        "explain": "A polite request: Would you + base verb."
+        "explain": "A polite request: Would you + base verb. (Could, Can and Will also work.)"
       },
       {
-        "use": "Request",
+        "use": "Modal or phrase",
         "before": "Would you mind",
         "after": "the window?",
         "hint": "(close)",
@@ -63,7 +72,7 @@
         "explain": "‘Would you mind’ is followed by the -ing form: closing."
       },
       {
-        "use": "Request",
+        "use": "Modal or phrase",
         "before": "Would you mind",
         "after": "during the film?",
         "hint": "(not talk)",
@@ -74,56 +83,68 @@
         "explain": "Negative after ‘mind’: not + -ing, ‘not talking’."
       },
       {
-        "use": "Request",
+        "use": "Modal or phrase",
         "before": "",
         "after": "you be quiet, please? I’m trying to work.",
-        "hint": "will / shall",
+        "hint": "modal verb",
         "answers": [
-          "Will"
+          "Will",
+          "Could",
+          "Can",
+          "Would"
         ],
         "display": "Will",
-        "explain": "‘Will you…?’ is a direct, slightly stronger request."
+        "explain": "‘Will you…?’ is a direct, slightly stronger request. (Could, Can and Would also work.)"
       },
       {
-        "use": "Offer",
+        "use": "Modal or phrase",
         "before": "",
         "after": "I carry your shopping?",
-        "hint": "shall / will",
+        "hint": "modal verb",
         "answers": [
-          "Shall"
+          "Shall",
+          "Can",
+          "Could",
+          "May"
         ],
         "display": "Shall",
-        "explain": "An offer: Shall I…? asks if the person wants your help."
+        "explain": "An offer: Shall I…? asks if the person wants your help. (Can I…? also works.)"
       },
       {
-        "use": "Offer",
+        "use": "Modal or phrase",
         "before": "That looks heavy —",
         "after": "help you.",
-        "hint": "I’ll / I",
+        "hint": "made now",
         "answers": [
           "I’ll",
           "I'll",
-          "Ill"
+          "Ill",
+          "I can",
+          "I will",
+          "I could"
         ],
         "display": "I’ll",
-        "explain": "A spontaneous offer made now: I’ll + base verb."
+        "explain": "A spontaneous offer made now: I’ll + base verb. (‘I can help you’ also works.)"
       },
       {
-        "use": "Offer",
+        "use": "Modal or phrase",
         "before": "",
         "after": "I get you anything from the shop?",
-        "hint": "can / shall",
+        "hint": "modal verb",
         "answers": [
-          "Can"
+          "Can",
+          "Shall",
+          "Could",
+          "May"
         ],
         "display": "Can",
-        "explain": "‘Can I…?’ also works for offers."
+        "explain": "‘Can I…?’ also works for offers. (Shall I…? also works.)"
       },
       {
-        "use": "Offer",
+        "use": "Modal or phrase",
         "before": "Would you like",
         "after": "cup of tea?",
-        "hint": "a / to",
+        "hint": "article",
         "answers": [
           "a"
         ],
@@ -131,10 +152,10 @@
         "explain": "‘Would you like’ + noun: a cup of tea."
       },
       {
-        "use": "Offer",
+        "use": "Modal or phrase",
         "before": "Would you like",
         "after": "come to my party?",
-        "hint": "a / to",
+        "hint": "linking word",
         "answers": [
           "to"
         ],
@@ -142,21 +163,24 @@
         "explain": "‘Would you like’ + to + base verb for an invitation."
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "",
         "after": "we go to the beach this afternoon?",
-        "hint": "shall / will",
+        "hint": "modal verb",
         "answers": [
-          "Shall"
+          "Shall",
+          "Should",
+          "Could",
+          "Can"
         ],
         "display": "Shall",
-        "explain": "A suggestion for both of us: Shall we…?"
+        "explain": "A suggestion for both of us: Shall we…? (Should we…? and Could we…? also work.)"
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "",
         "after": "watch a film tonight.",
-        "hint": "let’s / shall",
+        "hint": "suggestion word",
         "answers": [
           "Let’s",
           "Let's",
@@ -166,7 +190,7 @@
         "explain": "‘Let’s’ + base verb (no ‘to’) makes a suggestion."
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "Why don’t we",
         "after": "the bus? It’s quicker.",
         "hint": "(take)",
@@ -177,7 +201,7 @@
         "explain": "‘Why don’t we’ + base verb: take."
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "How about",
         "after": "for a walk?",
         "hint": "(go)",
@@ -188,7 +212,7 @@
         "explain": "‘How about’ is followed by -ing: going."
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "What about",
         "after": "pizza for dinner?",
         "hint": "(have)",
@@ -199,32 +223,37 @@
         "explain": "‘What about’ + -ing: having."
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "We",
         "after": "meet at the café at six.",
-        "hint": "could / shall",
+        "hint": "modal verb",
         "answers": [
-          "could"
+          "could",
+          "can",
+          "should",
+          "might",
+          "shall"
         ],
         "display": "could",
-        "explain": "‘We could…’ is a gentle suggestion."
+        "explain": "‘We could…’ is a gentle suggestion. (‘can’, ‘should’ and ‘might’ also work.)"
       },
       {
-        "use": "Answer",
+        "use": "Modal or phrase",
         "before": "“Shall I open the window?” “Yes,",
         "after": ".”",
-        "hint": "please / thanks",
+        "hint": "polite word",
         "answers": [
-          "please"
+          "please",
+          "do"
         ],
         "display": "please",
-        "explain": "Accept an offer politely: Yes, please."
+        "explain": "Accept an offer politely: ‘Yes, please’ (or ‘Yes, do’)."
       },
       {
-        "use": "Answer",
+        "use": "Modal or phrase",
         "before": "“Would you mind waiting?” “No, not at",
         "after": ".”",
-        "hint": "all",
+        "hint": "fixed phrase",
         "answers": [
           "all"
         ],
@@ -232,7 +261,7 @@
         "explain": "To agree to ‘Would you mind…?’ answer ‘No, not at all’."
       },
       {
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "before": "Let’s not",
         "after": "in all day.",
         "hint": "(stay)",
@@ -255,8 +284,7 @@
           "you",
           "close",
           "the",
-          "door,",
-          "please?"
+          "door?"
         ]
       },
       {
@@ -265,8 +293,7 @@
           "Can",
           "you",
           "help",
-          "me,",
-          "please?"
+          "me?"
         ]
       },
       {
@@ -770,14 +797,14 @@
         "use": "Choose the answer",
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> go to the museum if it rains.",
         "choices": [
-          "shall",
+          "why don’t",
           "let’s",
           "would like",
           "could"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘We shall go’ sounds like a decision, not a gentle idea.",
+          "‘Why don’t’ doesn’t follow ‘we’: ‘Why don’t we go?’.",
           "‘We let’s’ is impossible.",
           "‘We would like go’ needs ‘to’ and is a wish.",
           ""
@@ -1085,16 +1112,15 @@
       {
         "tokens": [
           "Shall",
-          "you",
-          "pass",
-          "me",
-          "the",
-          "sugar?"
+          "I",
+          "carries",
+          "your",
+          "bag?"
         ],
-        "errorIndex": 0,
-        "correction": "Could",
-        "type": "Shall you",
-        "message": "‘Shall’ isn’t used with ‘you’ for requests: ‘Could you…?’."
+        "errorIndex": 2,
+        "correction": "carry",
+        "type": "Form after modal",
+        "message": "After ‘shall’ use the base verb: ‘Shall I carry…?’."
       },
       {
         "tokens": [
@@ -1153,12 +1179,17 @@
           "I",
           "help?”",
           "“Yes,",
-          "thank.”"
+          "I",
+          "shall.”"
         ],
         "errorIndex": 4,
         "correction": "please.”",
         "type": "Answer to offer",
-        "message": "Accept an offer with ‘Yes, please’."
+        "message": "Accept an offer with ‘Yes, please’, not ‘Yes, I shall’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1222,43 +1253,49 @@
     "items": [
       {
         "type": "fill",
-        "use": "Request",
+        "use": "Modal or phrase",
         "sentText": "{{blank}} you turn off the light, please?",
-        "hint": "could / shall",
+        "hint": "modal verb",
         "answers": [
-          "Could"
+          "Could",
+          "Can",
+          "Would",
+          "Will"
         ],
         "display": "Could",
-        "explain": "A polite request asks someone else to act: Could you + base verb.",
+        "explain": "A polite request asks someone else to act: Could you + base verb. (Can, Would and Will also work.)",
         "wrongNote": "Request → ‘Could you…?’."
       },
       {
         "type": "fill",
-        "use": "Offer",
+        "use": "Modal or phrase",
         "sentText": "{{blank}} I bring some drinks?",
-        "hint": "shall / would",
+        "hint": "modal verb",
         "answers": [
-          "Shall"
+          "Shall",
+          "Can",
+          "Could",
+          "May"
         ],
         "display": "Shall",
-        "explain": "An offer says you will do it for them: Shall I + base verb?",
+        "explain": "An offer says you will do it for them: Shall I + base verb? (Can I…? also works.)",
         "wrongNote": "Offer → ‘Shall I…?’."
       },
       {
         "type": "fill",
-        "use": "Suggestion",
+        "use": "Modal or phrase",
         "sentText": "How about {{blank}} tennis on Sunday?",
         "hint": "play",
         "answers": [
           "playing"
         ],
         "display": "playing",
-        "explain": "A suggestion with ‘How about’ is always followed by the -ing form.",
+        "explain": "A suggestion with ‘How about’ is followed by the -ing form.",
         "wrongNote": "After ‘how about’ use -ing."
       },
       {
         "type": "fill",
-        "use": "Request",
+        "use": "Modal or phrase",
         "sentText": "Would you mind {{blank}} me?",
         "hint": "help",
         "answers": [

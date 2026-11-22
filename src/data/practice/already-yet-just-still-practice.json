@@ -22,7 +22,7 @@
         "kind": "statement",
         "before": "She’s only five, but she’s",
         "after": "learned to read.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "already"
         ],
@@ -34,31 +34,33 @@
         "kind": "question",
         "before": "Have you finished your homework",
         "after": "?",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "yet"
+          "yet",
+          "already"
         ],
         "display": "yet",
-        "explain": "A question about up to now — yet goes at the end."
+        "explain": "A question about up to now — yet goes at the end. (‘already’ also works, with surprise.)"
       },
       {
         "use": "Fill the gap",
         "kind": "statement",
         "before": "Sorry, she’s not here. She’s",
         "after": "left — about two minutes ago.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "just"
+          "just",
+          "already"
         ],
         "display": "just",
-        "explain": "A very short time ago — use just."
+        "explain": "A very short time ago — use just. (‘already’ also works.)"
       },
       {
         "use": "Fill the gap",
         "kind": "statement",
         "before": "It’s 11 pm and he",
         "after": "hasn’t finished his homework.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "still"
         ],
@@ -70,7 +72,7 @@
         "kind": "statement",
         "before": "I haven’t seen that film",
         "after": ".",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "yet"
         ],
@@ -82,7 +84,7 @@
         "kind": "question",
         "before": "Is it nine o’clock",
         "after": "? I thought it was only eight!",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "already"
         ],
@@ -94,19 +96,20 @@
         "kind": "statement",
         "before": "A: Where’s Tom? B: He’s",
         "after": "gone out. He left a minute ago.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "just"
+          "just",
+          "already"
         ],
         "display": "just",
-        "explain": "A very short time ago — use just."
+        "explain": "A very short time ago — use just. (‘already’ also works.)"
       },
       {
         "use": "Fill the gap",
         "kind": "statement",
         "before": "I’ve been waiting for an hour and the bus",
         "after": "hasn’t come.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "still"
         ],
@@ -118,7 +121,7 @@
         "kind": "statement",
         "before": "A: Are you ready? B: Not",
         "after": ". Five more minutes!",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "yet"
         ],
@@ -130,7 +133,7 @@
         "kind": "statement",
         "before": "A: Shall we watch this film? B: No, I’ve",
         "after": "seen it twice.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "already"
         ],
@@ -142,7 +145,7 @@
         "kind": "statement",
         "before": "It’s midnight, and she’s",
         "after": "working in the kitchen.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "still"
         ],
@@ -154,19 +157,20 @@
         "kind": "statement",
         "before": "I’ve",
         "after": "finished — I put my plate down a minute ago.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "just"
+          "just",
+          "already"
         ],
         "display": "just",
-        "explain": "A very short time ago — use just."
+        "explain": "A very short time ago — use just. (‘already’ also works.)"
       },
       {
         "use": "Fill the gap",
         "kind": "statement",
         "before": "We haven’t decided where to go on holiday",
         "after": ".",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "yet"
         ],
@@ -178,7 +182,7 @@
         "kind": "statement",
         "before": "Wow, you’ve",
         "after": "finished the whole book? That was quick!",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "already"
         ],
@@ -190,7 +194,7 @@
         "kind": "statement",
         "before": "I",
         "after": "haven’t decided what to wear for the party.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "still"
         ],
@@ -202,7 +206,7 @@
         "kind": "statement",
         "before": "Listen! I’ve",
         "after": "had a great idea!",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "just"
         ],
@@ -214,7 +218,7 @@
         "kind": "statement",
         "before": "I haven’t done my homework",
         "after": "— I’ll do it after dinner.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "yet"
         ],
@@ -226,7 +230,7 @@
         "kind": "statement",
         "before": "Can you pay me back? — I’ve",
         "after": "paid you! Yesterday.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "already"
         ],
@@ -238,7 +242,7 @@
         "kind": "question",
         "before": "Do you",
         "after": "live in the same house?",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "still"
         ],
@@ -250,12 +254,13 @@
         "kind": "statement",
         "before": "Shh! The film has",
         "after": "started — it began a few seconds ago.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "just"
+          "just",
+          "already"
         ],
         "display": "just",
-        "explain": "A very short time ago — use just."
+        "explain": "A very short time ago — use just. (‘already’ also works.)"
       }
     ]
   },
@@ -478,7 +483,7 @@
   },
   "matching": {
     "title": "Match the meaning to the adverb",
-    "subtitle": "Tap a meaning or situation, then tap the adverb it needs. Already is sooner than expected; yet is up to now in negatives and questions; just is a very short time ago; still is something that continues.",
+    "subtitle": "Tap a meaning or situation, then tap the adverb it needs.",
     "leftLabel": "Meaning",
     "rightLabel": "Adverb",
     "rightLabelSub": "",
@@ -568,7 +573,7 @@
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. British English. Ask yourself: sooner than expected, up to now, a very short time ago, or still going on?",
+    "subtitle": "15 seconds per question. British English.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
@@ -594,17 +599,15 @@
         "use": "Choose the answer",
         "text": "Have you finished your homework <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>?",
         "choices": [
-          "still",
-          "yet",
           "just",
-          "already"
+          "yet",
+          "still"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong word: ‘still’ shows something continuing — here it has not happened up to now.",
-          "",
           "Wrong word: ‘just’ is for positive sentences about a very recent action — here something has not happened up to now.",
-          "Wrong word: ‘already’ is for positive sentences — this one is negative, so use yet."
+          "",
+          "Wrong word: ‘still’ shows something continuing — here it has not happened up to now."
         ],
         "explain": "Not done up to now (negative or question, at the end) — yet."
       },
@@ -612,14 +615,12 @@
         "use": "Choose the answer",
         "text": "Sorry, she’s not here. She’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> left — about two minutes ago.",
         "choices": [
-          "already",
           "still",
           "just",
           "yet"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong word: ‘already’ means sooner than expected — here it happened a very short time ago.",
           "Wrong word: ‘still’ shows something continuing — here it happened a moment ago.",
           "",
           "Wrong word: ‘yet’ is for negatives and questions — this sentence is positive."
@@ -684,14 +685,12 @@
         "use": "Choose the answer",
         "text": "A: Where’s Tom? B: He’s <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> gone out. He left a minute ago.",
         "choices": [
-          "already",
           "still",
           "yet",
           "just"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
-          "Wrong word: ‘already’ means sooner than expected — here it happened a very short time ago.",
           "Wrong word: ‘still’ shows something continuing — here it happened a moment ago.",
           "Wrong word: ‘yet’ is for negatives and questions — this sentence is positive.",
           ""
@@ -774,17 +773,15 @@
         "use": "Choose the answer",
         "text": "I’ve <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> finished — I put my plate down a minute ago.",
         "choices": [
-          "already",
-          "just",
+          "still",
           "yet",
-          "still"
+          "just"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
-          "Wrong word: ‘already’ means sooner than expected — here it happened a very short time ago.",
-          "",
+          "Wrong word: ‘still’ shows something continuing — here it happened a moment ago.",
           "Wrong word: ‘yet’ is for negatives and questions — this sentence is positive.",
-          "Wrong word: ‘still’ shows something continuing — here it happened a moment ago."
+          ""
         ],
         "explain": "A very short time ago — just."
       },
@@ -918,17 +915,15 @@
         "use": "Choose the answer",
         "text": "Shh! The film has <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> started — it began a few seconds ago.",
         "choices": [
-          "already",
-          "yet",
+          "just",
           "still",
-          "just"
+          "yet"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong word: ‘already’ means sooner than expected — here it happened a very short time ago.",
-          "Wrong word: ‘yet’ is for negatives and questions — this sentence is positive.",
+          "",
           "Wrong word: ‘still’ shows something continuing — here it happened a moment ago.",
-          ""
+          "Wrong word: ‘yet’ is for negatives and questions — this sentence is positive."
         ],
         "explain": "A very short time ago — just."
       }
@@ -966,20 +961,17 @@
       },
       {
         "tokens": [
-          "He",
-          "left",
-          "a",
-          "minute",
-          "ago",
-          "—",
-          "he’s",
+          "Sorry,",
+          "I’ve",
           "yet",
-          "gone."
+          "spilled",
+          "your",
+          "coffee!"
         ],
-        "errorIndex": 7,
+        "errorIndex": 2,
         "correction": "just",
         "type": "Wrong adverb",
-        "message": "‘A minute ago’ is a very short time ago — use just."
+        "message": "A very recent action — use just."
       },
       {
         "tokens": [
@@ -1001,17 +993,16 @@
       },
       {
         "tokens": [
-          "Have",
-          "you",
-          "finished",
-          "your",
-          "homework",
-          "still?"
+          "I",
+          "haven’t",
+          "eaten",
+          "lunch",
+          "already."
         ],
-        "errorIndex": 5,
-        "correction": "yet?",
+        "errorIndex": 4,
+        "correction": "yet.",
         "type": "Wrong adverb",
-        "message": "In a question about up to now use yet, at the end."
+        "message": "In a negative sentence use yet, at the end."
       },
       {
         "tokens": [
@@ -1062,24 +1053,17 @@
       },
       {
         "tokens": [
-          "She’s",
+          "Sorry,",
+          "I’ve",
           "still",
-          "left",
-          "the",
-          "building",
-          "—",
-          "I",
-          "saw",
-          "her",
-          "go",
-          "a",
-          "minute",
-          "ago."
+          "broken",
+          "your",
+          "glass!"
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "just",
         "type": "Wrong adverb",
-        "message": "‘A minute ago’ is a very short time ago — use just."
+        "message": "A very recent action — use just."
       },
       {
         "tokens": [
@@ -1176,36 +1160,30 @@
       },
       {
         "tokens": [
-          "Shh!",
-          "The",
-          "film",
-          "has",
+          "Listen!",
+          "I’ve",
           "yet",
-          "started",
-          "—",
-          "it",
-          "began",
+          "heard",
           "a",
-          "moment",
-          "ago."
+          "strange",
+          "noise!"
         ],
-        "errorIndex": 4,
+        "errorIndex": 2,
         "correction": "just",
         "type": "Wrong adverb",
-        "message": "‘A moment ago’ is a very short time ago — use just."
+        "message": "A very recent action — use just."
       },
       {
         "tokens": [
-          "Has",
-          "the",
-          "post",
-          "come",
-          "still?"
+          "They",
+          "haven’t",
+          "arrived",
+          "already."
         ],
-        "errorIndex": 4,
-        "correction": "yet?",
+        "errorIndex": 3,
+        "correction": "yet.",
         "type": "Wrong adverb",
-        "message": "In a question about up to now use yet, at the end."
+        "message": "In a negative sentence use yet, at the end."
       },
       {
         "tokens": [
@@ -1244,24 +1222,17 @@
       },
       {
         "tokens": [
+          "Oops!",
           "I’ve",
           "yet",
-          "finished",
-          "my",
-          "coffee,",
-          "thanks",
-          "—",
-          "I",
-          "drank",
-          "it",
-          "a",
-          "minute",
-          "ago."
+          "dropped",
+          "your",
+          "phone!"
         ],
-        "errorIndex": 1,
+        "errorIndex": 2,
         "correction": "just",
         "type": "Wrong adverb",
-        "message": "‘A minute ago’ is a very short time ago — use just."
+        "message": "A very recent action — use just."
       }
     ]
   },
@@ -1287,7 +1258,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "She’s only six, but she’s {{blank}} read three novels.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "already"
         ],
@@ -1298,29 +1269,31 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Have you booked the tickets {{blank}}?",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "yet"
+          "yet",
+          "already"
         ],
         "display": "yet",
-        "explain": "A question about up to now — yet goes at the end."
+        "explain": "A question about up to now — yet goes at the end. (‘already’ also works, with surprise.)"
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Sorry, he’s {{blank}} gone out — he left a minute ago.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
-          "just"
+          "just",
+          "already"
         ],
         "display": "just",
-        "explain": "A very short time ago — use just."
+        "explain": "A very short time ago — use just. (‘already’ also works.)"
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I’ve waited for an hour and he {{blank}} hasn’t called.",
-        "hint": "(already / yet / just / still)",
+        "hint": "Type one word.",
         "answers": [
           "still"
         ],
@@ -1329,7 +1302,7 @@
       },
       {
         "type": "order",
-        "use": "Already",
+        "use": "Put in order",
         "tokens": [
           "I’ve",
           "already",
@@ -1340,7 +1313,7 @@
       },
       {
         "type": "order",
-        "use": "Yet — question",
+        "use": "Put in order",
         "tokens": [
           "Has",
           "she",
@@ -1350,7 +1323,7 @@
       },
       {
         "type": "order",
-        "use": "Still",
+        "use": "Put in order",
         "tokens": [
           "We",
           "still",
@@ -1362,7 +1335,7 @@
       },
       {
         "type": "order",
-        "use": "Just",
+        "use": "Put in order",
         "tokens": [
           "He’s",
           "just",
@@ -1494,14 +1467,12 @@
         "use": "Choose the answer",
         "text": "A: Is Maria here? B: She’s {{blank}} gone out — about a minute ago.",
         "choices": [
-          "already",
           "yet",
           "just",
           "still"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
-          "Wrong word: ‘already’ means sooner than expected — here it happened a very short time ago.",
           "Wrong word: ‘yet’ is for negatives and questions — this sentence is positive.",
           "",
           "Wrong word: ‘still’ shows something continuing — here it happened a moment ago."
@@ -1529,7 +1500,7 @@
       },
       {
         "type": "error",
-        "use": "Wrong adverb",
+        "use": "Find the mistake",
         "tokens": [
           "She’s",
           "yet",
@@ -1544,7 +1515,7 @@
       },
       {
         "type": "error",
-        "use": "Wrong adverb",
+        "use": "Find the mistake",
         "tokens": [
           "I",
           "haven’t",
@@ -1559,7 +1530,7 @@
       },
       {
         "type": "error",
-        "use": "Wrong adverb",
+        "use": "Find the mistake",
         "tokens": [
           "Does",
           "he",
@@ -1573,7 +1544,7 @@
       },
       {
         "type": "error",
-        "use": "Wrong adverb",
+        "use": "Find the mistake",
         "tokens": [
           "The",
           "shop",

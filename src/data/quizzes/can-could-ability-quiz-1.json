@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "My sister ___ speak four languages.",
-      "options": ["cans", "can", "can to", "is can"],
+      "options": [
+        "cans",
+        "can",
+        "can to",
+        "is can"
+      ],
       "answer": 1,
       "explanations": [
         "Modals never add -s: not 'cans'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "When I was young, I ___ climb trees easily.",
-      "options": ["can", "was able", "could", "can to"],
+      "options": [
+        "can",
+        "was able",
+        "could",
+        "can to"
+      ],
       "answer": 2,
       "explanations": [
         "'Can' is present; this is about the past.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "___ you pass me the salt, please?",
-      "options": ["Are able", "Cans", "Do can", "Could"],
+      "options": [
+        "Are able",
+        "Cans",
+        "Do can",
+        "Could"
+      ],
       "answer": 3,
       "explanations": [
         "'Are able' would need 'to' and is unusual for a request.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "I'd love ___ play the guitar.",
-      "options": ["to be able to", "can", "to can", "could"],
+      "options": [
+        "to be able to",
+        "can",
+        "to can",
+        "could"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Use 'be able to' after another verb: 'I'd love to be able to play'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "The exam was hard, but I ___ finish in time.",
-      "options": ["could", "could to", "can", "was able to"],
+      "options": [
+        "could",
+        "could to",
+        "can",
+        "was able to"
+      ],
       "answer": 3,
       "explanations": [
         "For one specific past success, 'could' is not used.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "She ___ drive; she failed her test twice.",
-      "options": ["couldn't to", "can't", "can not to", "isn't can"],
+      "options": [
+        "couldn't to",
+        "can't",
+        "can not to",
+        "isn't can"
+      ],
       "answer": 1,
       "explanations": [
         "Never add 'to' after a modal.",
@@ -70,12 +100,17 @@
       ]
     },
     {
-      "question": "I ___ reach you all morning — your phone was off.",
-      "options": ["haven't been able to", "couldn't", "can't", "wasn't able"],
+      "question": "I ___ reach you since this morning — your phone was off.",
+      "options": [
+        "haven't been able to",
+        "couldn't",
+        "can't",
+        "wasn't able"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A perfect meaning needs 'be able to': 'I haven't been able to reach you'.",
-        "'Couldn't' is possible but the perfect form fits 'all morning' up to now better.",
+        "'Couldn't' is past simple; 'since this morning' links to now, so use the present perfect: 'haven't been able to'.",
         "'Can't' is present, but this refers to a period up to now.",
         "'Wasn't able' needs 'to': 'wasn't able to'."
       ]
@@ -98,7 +133,12 @@
     },
     {
       "question": "We ___ get tickets at the last minute — we were lucky!",
-      "options": ["could", "can", "managed to", "could to"],
+      "options": [
+        "could",
+        "can",
+        "managed to",
+        "could to"
+      ],
       "answer": 2,
       "explanations": [
         "'Could' isn't used for one specific past success.",
@@ -128,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "When I was five, I ___ swim. (ability)",
       "hint": "Type one word.",
-      "answers": ["could"],
+      "answers": [
+        "could"
+      ],
       "explanation": "'Could' = general ability in the past.",
       "common": [
-        {"answer": "can", "why": "The sentence is about when you were five, so past: could."}
+        {
+          "answer": "can",
+          "why": "The sentence is about when you were five, so past: could."
+        }
       ]
     },
     {
@@ -139,7 +184,9 @@
       "kind": "Correct the mistake",
       "question": "She cans drive a bus.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["She can drive a bus"],
+      "answers": [
+        "She can drive a bus"
+      ],
       "explanation": "'Can' never takes -s."
     },
     {
@@ -147,10 +194,16 @@
       "kind": "Fill in the gap",
       "question": "I tried hard and finally ___ to open the door. (one success)",
       "hint": "Type two words.",
-      "answers": ["was able", "managed"],
+      "answers": [
+        "was able",
+        "managed"
+      ],
       "explanation": "For one specific success in the past use 'was able to' or 'managed to', not 'could'.",
       "common": [
-        {"answer": "could", "why": "'Could' is for general past ability. One specific success needs 'was able to'."}
+        {
+          "answer": "could",
+          "why": "'Could' is for general past ability. One specific success needs 'was able to'."
+        }
       ]
     }
   ]

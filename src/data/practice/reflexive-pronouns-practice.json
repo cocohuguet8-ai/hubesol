@@ -44,7 +44,7 @@
           "himself"
         ],
         "display": "himself",
-        "explain": "Subject ‘he’: ‘himself’ (never ‘hisself’)."
+        "explain": "Subject ‘he’: ‘himself’ (not ‘hisself’)."
       },
       {
         "use": "Same person",
@@ -52,10 +52,12 @@
         "after": ".",
         "hint": "it → ?",
         "answers": [
-          "itself"
+          "itself",
+          "himself",
+          "herself"
         ],
         "display": "itself",
-        "explain": "Animal / thing: ‘itself’."
+        "explain": "Animal / thing: ‘itself’. (‘himself/herself’ also work for a pet.)"
       },
       {
         "use": "Same person",
@@ -107,10 +109,11 @@
         "after": "!",
         "hint": "I → ?",
         "answers": [
-          "myself"
+          "myself",
+          "by myself"
         ],
         "display": "myself",
-        "explain": "Emphasis: nobody helped me."
+        "explain": "Emphasis: nobody helped me. (‘by myself’ also works.)"
       },
       {
         "use": "Emphasis",
@@ -129,10 +132,11 @@
         "after": ".",
         "hint": "we → ?",
         "answers": [
-          "ourselves"
+          "ourselves",
+          "by ourselves"
         ],
         "display": "ourselves",
-        "explain": "Emphasis: we did it, not a painter."
+        "explain": "Emphasis: we did it, not a painter. (‘by ourselves’ also works.)"
       },
       {
         "use": "By + reflexive",
@@ -206,10 +210,12 @@
         "after": "at the vet.",
         "hint": "it → ?",
         "answers": [
-          "itself"
+          "itself",
+          "himself",
+          "herself"
         ],
         "display": "itself",
-        "explain": "‘Behave itself’ for an animal."
+        "explain": "‘Behave itself’ for an animal. (‘himself/herself’ also work for a pet.)"
       },
       {
         "use": "Talk to",
@@ -460,11 +466,11 @@
         "right": "themselves"
       },
       {
-        "left": "My dad shaved… (special effort!)",
+        "left": "My dad built it…",
         "right": "himself"
       },
       {
-        "left": "The cat washed…",
+        "left": "The lights switched…on",
         "right": "itself"
       },
       {
@@ -625,7 +631,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "There’s food in the kitchen. Help <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>!",
+        "text": "There’s food in the kitchen, everyone. Help <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>!",
         "choices": [
           "you",
           "yourself",
@@ -681,15 +687,15 @@
         "use": "Choose the answer",
         "text": "Every morning I wake up, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and have breakfast.",
         "choices": [
-          "dress myself",
-          "get myself dressed",
+          "dress me",
+          "get me dressed",
           "dressed me",
           "get dressed"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Normally we don’t use a reflexive with ‘dress’.",
-          "Not natural for a daily routine.",
+          "‘Dress me’ is wrong: after ‘wake up’ we say ‘get dressed’.",
+          "‘Get me dressed’ means someone else dresses you.",
           "Not English.",
           ""
         ],
@@ -940,18 +946,15 @@
       {
         "tokens": [
           "The",
-          "dog",
-          "hurt",
+          "machine",
+          "switched",
           "himself",
-          "—",
-          "it’s",
-          "a",
-          "puppy."
+          "off."
         ],
         "errorIndex": 3,
         "correction": "itself",
         "type": "Wrong form",
-        "message": "For an animal we call ‘it’: ‘itself’."
+        "message": "For a machine we say ‘it’: ‘itself’."
       },
       {
         "tokens": [
@@ -1428,14 +1431,14 @@
         "use": "Choose the answer",
         "text": "I usually {{blank}} at 7 a.m.",
         "choices": [
-          "get myself up",
+          "getting up",
           "get up",
           "get me up",
           "up myself"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Daily routine: no reflexive.",
+          "After ‘usually’ use the simple form: ‘I usually get up’.",
           "",
           "Not English.",
           "Not English."

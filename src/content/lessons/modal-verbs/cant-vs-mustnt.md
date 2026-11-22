@@ -9,7 +9,7 @@ answerLead: "'Can't' and 'mustn't' are easy to confuse. They mean different thin
 answerPoints:
   - "Can't — impossible, or unable (I can't lift it; that can't be true)."
   - "Mustn't — forbidden; a rule telling you not to (You mustn't run by the pool)."
-answerNote: "For deductions ('it's impossible that…'), use 'can't', never 'mustn't': He can't have finished already."
+answerNote: "For deductions ('it's impossible that…'), use 'can't' (not 'mustn't'): He can't have finished already."
 quiz: "cant-vs-mustnt-quiz-1"
 faq:
   - q: "What is the difference between 'can't' and 'mustn't'?"

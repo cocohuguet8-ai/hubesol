@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "We waited at the bus stop",
         "after": "half an hour.",
-        "hint": "for / during / while",
+        "hint": "time word",
         "answers": [
           "for"
         ],
@@ -28,7 +28,7 @@
         "use": "Fill the gap",
         "before": "My grandparents lived in France",
         "after": "twenty years.",
-        "hint": "for / during / while",
+        "hint": "time word",
         "answers": [
           "for"
         ],
@@ -39,7 +39,7 @@
         "use": "Fill the gap",
         "before": "I’ve had this bike",
         "after": "three years.",
-        "hint": "for / during",
+        "hint": "time word",
         "answers": [
           "for"
         ],
@@ -50,7 +50,7 @@
         "use": "Fill the gap",
         "before": "She slept",
         "after": "ten hours after the trip.",
-        "hint": "for / during",
+        "hint": "time word",
         "answers": [
           "for"
         ],
@@ -61,7 +61,7 @@
         "use": "Fill the gap",
         "before": "My phone rang",
         "after": "the maths exam.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -72,7 +72,7 @@
         "use": "Fill the gap",
         "before": "It snowed a lot",
         "after": "the night.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -83,7 +83,7 @@
         "use": "Fill the gap",
         "before": "Please don’t talk",
         "after": "the film.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -94,7 +94,7 @@
         "use": "Fill the gap",
         "before": "Many shops close",
         "after": "August.",
-        "hint": "during / for",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -105,7 +105,7 @@
         "use": "Fill the gap",
         "before": "I met my best friend",
         "after": "the summer holidays.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -116,9 +116,10 @@
         "use": "Fill the gap",
         "before": "I fell asleep",
         "after": "I was watching TV.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
-          "while"
+          "while",
+          "whilst"
         ],
         "display": "while",
         "explain": "A subject + verb follows (I was watching): while."
@@ -127,9 +128,10 @@
         "use": "Fill the gap",
         "before": "",
         "after": "Mum was cooking, Dad set the table.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
-          "While"
+          "While",
+          "Whilst"
         ],
         "display": "While",
         "explain": "Two actions at the same time with a clause: while."
@@ -138,9 +140,10 @@
         "use": "Fill the gap",
         "before": "She listens to music",
         "after": "she studies.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
-          "while"
+          "while",
+          "whilst"
         ],
         "display": "while",
         "explain": "Subject + verb (she studies): while."
@@ -149,9 +152,10 @@
         "use": "Fill the gap",
         "before": "Somebody stole my bag",
         "after": "I was in the shop.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
-          "while"
+          "while",
+          "whilst"
         ],
         "display": "while",
         "explain": "Subject + verb (I was): while."
@@ -160,9 +164,10 @@
         "use": "Fill the gap",
         "before": "",
         "after": "walking home, I saw a fox.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
-          "While"
+          "While",
+          "Whilst"
         ],
         "display": "While",
         "explain": "‘While’ + -ing when the subject is the same."
@@ -171,7 +176,7 @@
         "use": "Fill the gap",
         "before": "I slept",
         "after": "two hours during the flight.",
-        "hint": "for / during",
+        "hint": "time word",
         "answers": [
           "for"
         ],
@@ -182,7 +187,7 @@
         "use": "Fill the gap",
         "before": "I slept for two hours",
         "after": "the flight.",
-        "hint": "for / during",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -193,7 +198,7 @@
         "use": "Fill the gap",
         "before": "We stayed in the hotel",
         "after": "a week.",
-        "hint": "for / during",
+        "hint": "time word",
         "answers": [
           "for"
         ],
@@ -204,7 +209,7 @@
         "use": "Fill the gap",
         "before": "Did anything interesting happen",
         "after": "your trip?",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -215,9 +220,10 @@
         "use": "Fill the gap",
         "before": "Don’t use your phone",
         "after": "you’re driving.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
-          "while"
+          "while",
+          "whilst"
         ],
         "display": "while",
         "explain": "Subject + verb (you’re driving): while."
@@ -226,7 +232,7 @@
         "use": "Fill the gap",
         "before": "Nobody spoke",
         "after": "the meeting.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -750,14 +756,14 @@
         "text": "The museum is closed <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the holidays.",
         "choices": [
           "while",
-          "for",
+          "at",
           "since",
           "during"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘While the holidays’ is wrong.",
-          "‘For the holidays’ means the purpose.",
+          "‘At the holidays’ is wrong here: the closing lasts through the holidays, so use ‘during’.",
           "‘Since the holidays’ changes the meaning.",
           ""
         ],
@@ -1273,16 +1279,19 @@
       },
       {
         "tokens": [
+          "While",
           "I",
-          "slept",
-          "durring",
-          "the",
-          "journey."
+          "walking",
+          "home,",
+          "I",
+          "saw",
+          "a",
+          "fox."
         ],
         "errorIndex": 2,
-        "correction": "during",
-        "type": "Spelling",
-        "message": "Spelling: ‘during’."
+        "correction": "was walking",
+        "type": "Missing be",
+        "message": "After ‘while’ + subject use a full verb: ‘While I was walking home…’."
       }
     ]
   },
@@ -1308,19 +1317,19 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I ran {{blank}} forty minutes this morning.",
-        "hint": "for / during / while",
+        "hint": "time word",
         "answers": [
           "for"
         ],
         "display": "for",
-        "explain": "A length of time (how long?) always takes ‘for’.",
+        "explain": "A length of time (how long?) takes ‘for’.",
         "wrongNote": "Duration → for."
       },
       {
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "The lights went out {{blank}} the storm.",
-        "hint": "for / during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],
@@ -1332,9 +1341,10 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I hurt my knee {{blank}} I was playing football.",
-        "hint": "for / during / while",
+        "hint": "time word",
         "answers": [
-          "while"
+          "while",
+          "whilst"
         ],
         "display": "while",
         "explain": "A subject and a verb come next, so use ‘while’.",
@@ -1344,7 +1354,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Please switch off your phones {{blank}} the performance.",
-        "hint": "during / while",
+        "hint": "time word",
         "answers": [
           "during"
         ],

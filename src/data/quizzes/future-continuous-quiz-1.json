@@ -5,21 +5,31 @@
   "items": [
     {
       "question": "This time tomorrow, I ___ to Rome.",
-      "options": ["'ll fly", "'ll be flying", "fly", "am flying"],
+      "options": [
+        "'ll flying",
+        "'ll be flying",
+        "fly",
+        "be flying"
+      ],
       "answer": 1,
       "explanations": [
-        "'Will fly' is a single future action; here we describe being in the middle of the flight.",
+        "After 'will' you need 'be': 'will be flying'.",
         "Correct! An action in progress at a future moment takes the future continuous: 'will be flying'.",
         "'Fly' is present simple (a habit or timetable), not this future moment.",
-        "'Am flying' is a present arrangement, but 'this time tomorrow' needs the future continuous."
+        "'Be flying' needs 'will' before it: 'will be flying'."
       ]
     },
     {
       "question": "At 8pm, we ___ dinner.",
-      "options": ["'ll have", "have", "'ll be having", "had"],
+      "options": [
+        "'ll having",
+        "have",
+        "'ll be having",
+        "had"
+      ],
       "answer": 2,
       "explanations": [
-        "'Will have' is a single action; the point is the meal in progress at 8pm.",
+        "After 'will' you need 'be': 'will be having'.",
         "'Have' is present simple, not this future moment.",
         "Correct! An action in progress at a future time takes the future continuous: 'will be having'.",
         "'Had' is past simple, but this is about the future."
@@ -27,7 +37,12 @@
     },
     {
       "question": "___ you ___ the car tonight?",
-      "options": ["Will / be using", "Do / use", "Will / using", "Are / use"],
+      "options": [
+        "Will / be using",
+        "Do / use",
+        "Will / using",
+        "Are / use"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A polite enquiry about plans uses the future continuous: 'Will you be using…?'.",
@@ -38,21 +53,31 @@
     },
     {
       "question": "She ___ working late tomorrow.",
-      "options": ["will", "won't", "is", "will be"],
+      "options": [
+        "will",
+        "won't",
+        "be",
+        "will be"
+      ],
       "answer": 3,
       "explanations": [
         "'Will working' is missing 'be'. Use 'will be working'.",
         "'Won't' is negative and changes the meaning.",
-        "'Is working' is a present arrangement; 'tomorrow' with in-progress meaning takes 'will be'.",
+        "'Be working' needs 'will' before it: 'will be working'.",
         "Correct! The future continuous is will be + -ing: 'will be working'."
       ]
     },
     {
       "question": "Don't call at nine — I ___ then.",
-      "options": ["'ll study", "studied", "study", "'ll be studying"],
+      "options": [
+        "'ll be study",
+        "studied",
+        "study",
+        "'ll be studying"
+      ],
       "answer": 3,
       "explanations": [
-        "'Will study' is a single action; here we mean being in the middle of studying at nine.",
+        "After 'will be' use the -ing form: 'will be studying'.",
         "'Studied' is past simple, but this is about the future.",
         "'Study' is present simple, not this future moment.",
         "Correct! An action in progress at a future time takes the future continuous: 'will be studying'."
@@ -60,7 +85,12 @@
     },
     {
       "question": "By then, I ___ the answer.",
-      "options": ["'ll be knowing", "know", "'ll know", "knew"],
+      "options": [
+        "'ll be knowing",
+        "know",
+        "'ll know",
+        "knew"
+      ],
       "answer": 2,
       "explanations": [
         "'Know' is a stative verb and isn't used in the continuous.",
@@ -71,24 +101,34 @@
     },
     {
       "question": "They ___ coming to the meeting.",
-      "options": ["don't be", "won't be", "aren't be", "not will"],
+      "options": [
+        "don't be",
+        "won't be",
+        "aren't be",
+        "won't being"
+      ],
       "answer": 1,
       "explanations": [
         "'Don't be coming' isn't correct English.",
         "Correct! Future continuous negative = won't be + -ing: 'won't be coming'.",
         "'Aren't be' is not a valid form.",
-        "'Not will' has the wrong word order. Use 'won't be'."
+        "After 'won't' use 'be', not 'being': 'won't be coming'."
       ]
     },
     {
       "question": "I ___ Sara tomorrow anyway, so I'll pass on the message.",
-      "options": ["'ll be seeing", "see", "saw", "am seeing"],
+      "options": [
+        "'ll be seeing",
+        "will be see",
+        "saw",
+        "will seeing"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! For something expected to happen as part of the future, the future continuous is natural: 'I'll be seeing Sara'.",
-        "'See' is present simple (a habit), not this future event.",
+        "After 'will be' use the -ing form: 'will be seeing'.",
         "'Saw' is past simple, but this is about tomorrow.",
-        "'Am seeing' is a fixed arrangement; the future continuous fits the 'anyway' meaning better here."
+        "After 'will' you need 'be': 'will be seeing'."
       ]
     },
     {
@@ -109,12 +149,17 @@
     },
     {
       "question": "What ___ you ___ this time next week?",
-      "options": ["will / doing", "do / do", "are / doing", "will / be doing"],
+      "options": [
+        "will / doing",
+        "do / do",
+        "do / be doing",
+        "will / be doing"
+      ],
       "answer": 3,
       "explanations": [
         "After 'will you' you need 'be': 'will you be doing'.",
         "'Do you do' asks about a habit, not next week.",
-        "'Are you doing' is a present arrangement, but 'this time next week' needs the future continuous.",
+        "'Do you be doing' mixes structures. Use 'will you be doing'.",
         "Correct! Asking about an action in progress at a future time uses the future continuous: 'will you be doing'."
       ]
     },
@@ -123,10 +168,16 @@
       "kind": "Fill in the gap",
       "question": "This time tomorrow, I ___ on a beach. (lie)",
       "hint": "Type three words.",
-      "answers": ["will be lying", "'ll be lying"],
+      "answers": [
+        "will be lying",
+        "'ll be lying"
+      ],
       "explanation": "Future continuous: will be + -ing.",
       "common": [
-        {"answer": "will lie", "why": "The action will be in progress at that moment: will be lying."}
+        {
+          "answer": "will lie",
+          "why": "That is possible English, but this exercise asks for the future continuous: will be lying."
+        }
       ]
     },
     {
@@ -134,7 +185,10 @@
       "kind": "Correct the mistake",
       "question": "I will working at nine tomorrow.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I will be working at nine tomorrow", "I'll be working at nine tomorrow"],
+      "answers": [
+        "I will be working at nine tomorrow",
+        "I'll be working at nine tomorrow"
+      ],
       "explanation": "Future continuous needs 'be' before the -ing form."
     },
     {
@@ -142,7 +196,10 @@
       "kind": "Correct the mistake",
       "question": "I'll be knowing the answer soon.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I'll know the answer soon", "I will know the answer soon"],
+      "answers": [
+        "I'll know the answer soon",
+        "I will know the answer soon"
+      ],
       "explanation": "'Know' is a stative verb, so no continuous."
     }
   ]

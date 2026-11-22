@@ -60,7 +60,7 @@ The speaker feels it is necessary — a personal rule or strong advice.
 - Passengers **must** wear a seatbelt.
 - All visitors **must** sign in at reception.
 
-> ⚠️ Typical error: ~~She musts wear a uniform.~~ → Modals never take *-s*: *She must wear…*
+> ⚠️ Typical error: ~~She musts wear a uniform.~~ → Modals don’t take *-s*: *She must wear…*
 
 ## When to use *have to*
 

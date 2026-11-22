@@ -19,10 +19,12 @@
         "after": "friends in this town.",
         "hint": "much / many",
         "answers": [
-          "many"
+          "many",
+          "a lot of",
+          "lots of"
         ],
         "display": "many",
-        "explain": "‘Friends’ is plural countable: ‘many’."
+        "explain": "‘Friends’ is plural countable: ‘many’. (‘a lot of’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -30,10 +32,12 @@
         "after": "people at the concert?",
         "hint": "much / many",
         "answers": [
-          "many"
+          "many",
+          "a lot of",
+          "lots of"
         ],
         "display": "many",
-        "explain": "‘People’ is plural countable: ‘many’."
+        "explain": "‘People’ is plural countable: ‘many’. (‘a lot of’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -41,10 +45,12 @@
         "after": "time.",
         "hint": "much / many",
         "answers": [
-          "much"
+          "much",
+          "a lot of",
+          "lots of"
         ],
         "display": "much",
-        "explain": "‘Time’ is uncountable: ‘much’."
+        "explain": "‘Time’ is uncountable: ‘much’. (‘a lot of’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -52,10 +58,12 @@
         "after": "traffic today?",
         "hint": "much / many",
         "answers": [
-          "much"
+          "much",
+          "a lot of",
+          "lots of"
         ],
         "display": "much",
-        "explain": "‘Traffic’ is uncountable: ‘much’."
+        "explain": "‘Traffic’ is uncountable: ‘much’. (‘a lot of’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -105,19 +113,20 @@
         "use": "Fill the gap",
         "before": "She has",
         "after": "books in her room.",
-        "hint": "a lot (of)",
+        "hint": "(quantifier)",
         "answers": [
           "a lot of",
-          "lots of"
+          "lots of",
+          "many"
         ],
         "display": "a lot of",
-        "explain": "Positive sentence: ‘a lot of books’."
+        "explain": "Positive sentence: ‘a lot of books’. (‘many’ is also possible, but more formal.)"
       },
       {
         "use": "Fill the gap",
         "before": "We had",
         "after": "fun at the party.",
-        "hint": "a lot (of)",
+        "hint": "(quantifier)",
         "answers": [
           "a lot of",
           "lots of"
@@ -129,19 +138,20 @@
         "use": "Fill the gap",
         "before": "There were",
         "after": "cars on the road.",
-        "hint": "a lot (of)",
+        "hint": "(quantifier)",
         "answers": [
           "a lot of",
-          "lots of"
+          "lots of",
+          "many"
         ],
         "display": "a lot of",
-        "explain": "Positive + countable: ‘a lot of cars’."
+        "explain": "Positive + countable: ‘a lot of cars’. (‘many’ is also possible, but more formal.)"
       },
       {
         "use": "Fill the gap",
         "before": "I like this song",
         "after": ".",
-        "hint": "a lot (of)",
+        "hint": "(quantifier)",
         "answers": [
           "a lot"
         ],
@@ -152,7 +162,7 @@
         "use": "Fill the gap",
         "before": "He travels",
         "after": "for work.",
-        "hint": "a lot (of)",
+        "hint": "(quantifier)",
         "answers": [
           "a lot"
         ],
@@ -209,10 +219,11 @@
         "after": ".",
         "hint": "much / many",
         "answers": [
-          "much"
+          "much",
+          "a lot"
         ],
         "display": "much",
-        "explain": "Money is uncountable, so ‘not much’."
+        "explain": "Money is uncountable, so ‘not much’. (‘Not a lot’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -220,10 +231,11 @@
         "after": ".",
         "hint": "much / many",
         "answers": [
-          "many"
+          "many",
+          "a lot"
         ],
         "display": "many",
-        "explain": "Photos are countable, so ‘not many’."
+        "explain": "Photos are countable, so ‘not many’. (‘Not a lot’ also works.)"
       },
       {
         "use": "Fill the gap",
@@ -231,10 +243,12 @@
         "after": "milk left.",
         "hint": "much / many",
         "answers": [
-          "much"
+          "much",
+          "a lot of",
+          "lots of"
         ],
         "display": "much",
-        "explain": "‘Milk’ is uncountable: ‘much’."
+        "explain": "‘Milk’ is uncountable: ‘much’. (‘a lot of’ also works.)"
       }
     ],
     "formLabel": "word"
@@ -617,15 +631,15 @@
         "choices": [
           "much",
           "many",
-          "lot",
-          "a lot"
+          "more",
+          "many of"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Mistakes’ is countable: not ‘much’.",
           "",
-          "‘Too lot’ isn’t English.",
-          "‘Too a lot’ isn’t English."
+          "‘Too more’ is a common mistake: say ‘too many’.",
+          "‘Too many of mistakes’ is wrong: no ‘of’ before the noun."
         ],
         "explain": "Countable: too many."
       },
@@ -634,16 +648,16 @@
         "text": "You spend too <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> time on your phone.",
         "choices": [
           "many",
-          "lot",
+          "more",
           "much",
-          "a lot of"
+          "much of"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Time’ is uncountable: not ‘many’.",
-          "‘Too lot’ isn’t English.",
+          "‘Too more’ is a common mistake: say ‘too much’.",
           "",
-          "‘Too a lot of’ isn’t English."
+          "‘Too much of time’ is wrong: no ‘of’ before the noun."
         ],
         "explain": "Uncountable: too much."
       },
@@ -653,14 +667,14 @@
         "choices": [
           "many",
           "a lot",
-          "cost",
+          "money",
           "much"
         ],
         "correct": 3,
         "wrongReasons": [
           "Price: ‘how much’.",
           "‘How a lot’ isn’t English.",
-          "‘How cost’ isn’t English.",
+          "‘How money’ is a common mistake: for price, ask ‘how much’.",
           ""
         ],
         "explain": "Price: how much."
@@ -707,14 +721,14 @@
         "choices": [
           "many",
           "a lot of",
-          "lot",
+          "lots",
           "much"
         ],
         "correct": 3,
         "wrongReasons": [
           "Fixed phrase: ‘thank you so much’.",
           "‘A lot of’ needs a noun.",
-          "‘So lot’ isn’t English.",
+          "‘So lots’ isn’t used here: the fixed phrase is ‘thank you so much’.",
           ""
         ],
         "explain": "Fixed phrase: thank you so much."
@@ -780,14 +794,14 @@
           "much",
           "many",
           "a lot",
-          "lots"
+          "many of"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Homework’ is uncountable.",
           "‘How a lot’ isn’t English.",
-          "‘How lots’ isn’t English."
+          "‘How many of homework’ is wrong: homework is uncountable."
         ],
         "explain": "Uncountable: how much."
       },
@@ -816,14 +830,14 @@
           "much",
           "a lot",
           "many",
-          "lot"
+          "much of"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘People’ is countable.",
           "‘So a lot’ isn’t English.",
           "",
-          "‘So lot’ isn’t English."
+          "‘So much of people’ is wrong: people is countable."
         ],
         "explain": "Countable: so many."
       },
@@ -886,15 +900,15 @@
         "text": "I ate too <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> biscuits and now I feel sick.",
         "choices": [
           "much",
-          "lot",
-          "a lot",
+          "much of",
+          "few",
           "many"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Biscuits’ is countable.",
-          "Not English.",
-          "Not English.",
+          "‘Much of’ doesn’t go before a plural noun.",
+          "‘Few’ means ‘not enough’: it doesn’t fit feeling sick.",
           ""
         ],
         "explain": "Countable: too many."
@@ -1077,7 +1091,7 @@
         "errorIndex": 2,
         "correction": "lots",
         "type": "Lot",
-        "message": "‘Lots of’ or ‘a lot of’ — never ‘lot of’."
+        "message": "‘Lots of’ or ‘a lot of’ — not ‘lot of’."
       },
       {
         "tokens": [
@@ -1230,7 +1244,9 @@
         "sentText": "There isn’t {{blank}} bread left.",
         "hint": "much / many",
         "answers": [
-          "much"
+          "much",
+          "a lot of",
+          "lots of"
         ],
         "display": "much",
         "explain": "‘Bread’ is uncountable: ‘much’.",
@@ -1240,7 +1256,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I enjoyed the film {{blank}}.",
-        "hint": "a lot (of)",
+        "hint": "(quantifier)",
         "answers": [
           "a lot"
         ],

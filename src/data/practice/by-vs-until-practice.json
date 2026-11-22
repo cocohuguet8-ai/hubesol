@@ -17,7 +17,7 @@
         "use": "Fill the gap",
         "before": "Please send me your homework",
         "after": "Friday.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -28,7 +28,7 @@
         "use": "Fill the gap",
         "before": "The new bridge will be finished",
         "after": "the end of the year.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -39,7 +39,7 @@
         "use": "Fill the gap",
         "before": "You must be back home",
         "after": "eleven o’clock.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -50,7 +50,7 @@
         "use": "Fill the gap",
         "before": "The parcel should arrive",
         "after": "Tuesday.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -61,7 +61,7 @@
         "use": "Fill the gap",
         "before": "I need to decide",
         "after": "tomorrow morning.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -72,7 +72,7 @@
         "use": "Fill the gap",
         "before": "Can you pay the rent",
         "after": "the 5th?",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -83,9 +83,10 @@
         "use": "Fill the gap",
         "before": "I’ll wait for you",
         "after": "six o’clock.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Waiting continues up to six: until."
@@ -94,9 +95,10 @@
         "use": "Fill the gap",
         "before": "The library is open",
         "after": "9 p.m.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Being open continues up to 9: until."
@@ -105,9 +107,10 @@
         "use": "Fill the gap",
         "before": "We stayed at the beach",
         "after": "sunset.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Staying continues up to sunset: until."
@@ -116,9 +119,10 @@
         "use": "Fill the gap",
         "before": "He worked in the bakery",
         "after": "he retired.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Working continued up to that moment: until."
@@ -127,9 +131,10 @@
         "use": "Fill the gap",
         "before": "Let’s play",
         "after": "it gets dark.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Playing continues up to darkness: until."
@@ -138,9 +143,10 @@
         "use": "Fill the gap",
         "before": "I didn’t get up",
         "after": "eleven.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Not … until = it didn’t happen before eleven."
@@ -149,9 +155,10 @@
         "use": "Fill the gap",
         "before": "The shop doesn’t open",
         "after": "ten.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Negative + until: it opens only at ten."
@@ -160,7 +167,7 @@
         "use": "Fill the gap",
         "before": "",
         "after": "the time we arrived, everyone had gone.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "By"
         ],
@@ -171,7 +178,7 @@
         "use": "Fill the gap",
         "before": "I’ll be ready by the",
         "after": "you get here.",
-        "hint": "time",
+        "hint": "(noun)",
         "answers": [
           "time"
         ],
@@ -180,14 +187,14 @@
       },
       {
         "use": "Fill the gap",
-        "before": "Wait here until I",
+        "before": "Wait here until my dad",
         "after": "back.",
         "hint": "(come)",
         "answers": [
-          "come"
+          "comes"
         ],
-        "display": "come",
-        "explain": "After ‘until’ use the present simple for the future, not ‘will’."
+        "display": "comes",
+        "explain": "After ‘until’ use the present simple (not ‘will’): ‘my dad’ is he, so comes."
       },
       {
         "use": "Fill the gap",
@@ -204,7 +211,7 @@
         "use": "Fill the gap",
         "before": "By next summer, I’ll",
         "after": "finished my degree.",
-        "hint": "have",
+        "hint": "(auxiliary)",
         "answers": [
           "have"
         ],
@@ -215,9 +222,10 @@
         "use": "Fill the gap",
         "before": "I’m on holiday",
         "after": "next Monday.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Being on holiday continues up to Monday: until."
@@ -226,7 +234,7 @@
         "use": "Fill the gap",
         "before": "We danced",
         "after": "two in the morning.",
-        "hint": "till / by",
+        "hint": "(preposition)",
         "answers": [
           "till",
           "until"
@@ -508,7 +516,7 @@
         "right": "by"
       },
       {
-        "left": "The shop is open ___ eight.",
+        "left": "The shop stays open ___ eight.",
         "right": "until"
       },
       {
@@ -564,7 +572,7 @@
         "right": "by"
       },
       {
-        "left": "I’m away ___ Sunday.",
+        "left": "I’m away ___ Sunday, then I’m back.",
         "right": "until"
       },
       {
@@ -855,7 +863,7 @@
       },
       {
         "use": "Choose the answer",
-        "text": "I promise I’ll be home <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> midnight.",
+        "text": "I promise I’ll be home <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> midnight. (I won’t be later than that.)",
         "choices": [
           "until",
           "since",
@@ -893,14 +901,14 @@
         "use": "Choose the answer",
         "text": "By next year, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my driving test.",
         "choices": [
-          "will pass until",
+          "have passed",
           "will have passed",
           "pass",
           "am passing"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Will pass until’ is wrong.",
+          "‘Have passed’ is present perfect: for a future deadline you need ‘will have passed’.",
           "",
           "The present simple doesn’t fit.",
           "The continuous doesn’t fit."
@@ -1026,7 +1034,7 @@
         "tokens": [
           "The",
           "shop",
-          "is",
+          "stays",
           "open",
           "by",
           "9",
@@ -1035,7 +1043,7 @@
         "errorIndex": 4,
         "correction": "until",
         "type": "By for duration",
-        "message": "Being open continues: ‘until 9 p.m.’."
+        "message": "Staying open continues up to a time: ‘until 9 p.m.’."
       },
       {
         "tokens": [
@@ -1253,15 +1261,17 @@
       },
       {
         "tokens": [
-          "We",
-          "danced",
-          "untill",
-          "two."
+          "Wait",
+          "here",
+          "by",
+          "the",
+          "bell",
+          "rings."
         ],
         "errorIndex": 2,
         "correction": "until",
-        "type": "Spelling",
-        "message": "Spelling: ‘until’ (one l)."
+        "type": "By for duration",
+        "message": "Waiting continues up to a moment: ‘until the bell rings’."
       }
     ]
   },
@@ -1287,7 +1297,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "You have to finish the test {{blank}} eleven.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "by"
         ],
@@ -1299,9 +1309,10 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "You can stay here {{blank}} eleven.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Staying continues up to eleven and then stops: until.",
@@ -1311,9 +1322,10 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "He didn’t call me {{blank}} the next day.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
-          "until"
+          "until",
+          "till"
         ],
         "display": "until",
         "explain": "Not … until = the call came only the next day.",
@@ -1323,7 +1335,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "{{blank}} the time she woke up, we had left.",
-        "hint": "by / until",
+        "hint": "(preposition)",
         "answers": [
           "By"
         ],
