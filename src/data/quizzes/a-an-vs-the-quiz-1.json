@@ -162,48 +162,6 @@
         "Correct! Known/specific → the; new/non-specific → a/an.",
         "Unique things take 'the' (the sun), not a/an."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I'm looking for ___ job. Any job is fine.",
-      "hint": "Type one word.",
-      "answers": [
-        "a"
-      ],
-      "explanation": "Any job, not a specific one: 'a job'.",
-      "common": [
-        {
-          "answer": "the",
-          "why": "'The' points to one specific job both of us know. Here any job is fine."
-        }
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "Neil Armstrong walked on a moon in 1969.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": [
-        "Neil Armstrong walked on the moon in 1969"
-      ],
-      "explanation": "There is one Moon we all know, so we say 'the moon'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I live in a small house. ___ house is very old.",
-      "hint": "Type one word.",
-      "answers": [
-        "The"
-      ],
-      "explanation": "Second mention: now it is specific, so 'the house'.",
-      "common": [
-        {
-          "answer": "a",
-          "why": "On the second mention the noun is already known, so not 'a'."
-        }
-      ]
     }
   ]
 }

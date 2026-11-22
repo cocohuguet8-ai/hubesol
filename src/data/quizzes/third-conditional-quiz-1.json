@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "If I ___ harder, I would have passed the exam.",
-      "options": ["studied", "had studied", "study", "would study"],
+      "options": [
+        "studied",
+        "had studied",
+        "study",
+        "would study"
+      ],
       "answer": 1,
       "explanations": [
         "'Studied' (past simple) is the second conditional; the third needs the past perfect.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "If you had asked, I ___ you.",
-      "options": ["would help", "helped", "would have helped", "will help"],
+      "options": [
+        "would help",
+        "helped",
+        "would have helped",
+        "will help"
+      ],
       "answer": 2,
       "explanations": [
         "'Would help' is the second conditional; the third needs 'would have + participle'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "If they had left earlier, they ___ the flight.",
-      "options": ["wouldn't have missed", "wouldn't miss", "didn't miss", "won't miss"],
+      "options": [
+        "wouldn't have missed",
+        "wouldn't miss",
+        "didn't miss",
+        "won't miss"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! The imagined past result uses 'wouldn't have missed'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "If she ___ the message, she'd have come.",
-      "options": ["saw", "would see", "sees", "had seen"],
+      "options": [
+        "saw",
+        "would see",
+        "sees",
+        "had seen"
+      ],
       "answer": 3,
       "explanations": [
         "'Saw' (past simple) is the second conditional; the third needs the past perfect.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "If I had known, I ___ you.",
-      "options": ["would told", "would have telled", "would have told", "will tell"],
+      "options": [
+        "would told",
+        "would have telled",
+        "would have told",
+        "will tell"
+      ],
       "answer": 2,
       "explanations": [
         "'Would told' is missing 'have'.",
@@ -76,7 +101,12 @@
     },
     {
       "question": "If we had trained harder, we ___ the match.",
-      "options": ["could have won", "would win", "win", "will win"],
+      "options": [
+        "could have won",
+        "would win",
+        "win",
+        "will win"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Could have' can replace 'would have': 'we could have won'.",
@@ -87,7 +117,12 @@
     },
     {
       "question": "If I ___ to bed earlier, I would have felt better this morning.",
-      "options": ["went", "had gone", "go", "would go"],
+      "options": [
+        "went",
+        "had gone",
+        "go",
+        "would go"
+      ],
       "answer": 1,
       "explanations": [
         "'Went' (past simple) is the second conditional; the third needs the past perfect.",
@@ -114,40 +149,18 @@
     },
     {
       "question": "If I ___ more time, I would have finished the essay.",
-      "options": ["had", "would have", "have had", "had had"],
+      "options": [
+        "had",
+        "would have",
+        "have had",
+        "had had"
+      ],
       "answer": 3,
       "explanations": [
         "A single 'had' is the auxiliary; you also need the participle of 'have'.",
         "The if-clause doesn't use 'would have' here.",
         "'Have had' is present perfect, but this imagines the past.",
         "Correct! 'Had had' = auxiliary 'had' + participle 'had': 'If I had had more time'."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "If we had left earlier, we ___ the train. (not miss)",
-      "hint": "Use would + have + participle.",
-      "answers": ["would not have missed"],
-      "explanation": "Third conditional result: would not have + past participle."
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "If I would have studied, I'd have passed.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["If I had studied, I'd have passed", "If I had studied, I would have passed"],
-      "explanation": "We use 'had', not 'would have', in the if-clause."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "If she had known, she would have ___ to the party. (go)",
-      "hint": "Type the past participle.",
-      "answers": ["gone"],
-      "explanation": "The past participle of 'go' is 'gone'.",
-      "common": [
-        {"answer": "went", "why": "After 'would have' we need the past participle: gone."}
       ]
     }
   ]

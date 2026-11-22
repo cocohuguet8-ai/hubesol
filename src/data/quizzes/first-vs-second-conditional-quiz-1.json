@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "It's very likely: If I ___ time tonight, I'll call you.",
-      "options": ["had", "have", "will have", "would have"],
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
       "answer": 1,
       "explanations": [
         "'Had' is the second conditional, for imaginary situations.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "It's just a dream: If I ___ a castle, I'd invite everyone.",
-      "options": ["owned", "own", "will own", "have owned"],
+      "options": [
+        "owned",
+        "own",
+        "will own",
+        "have owned"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! An imaginary situation takes the second conditional: 'If I owned a castle'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "If it rains tomorrow, we ___ the match.",
-      "options": ["cancel", "would cancel", "will cancel", "cancelled"],
+      "options": [
+        "cancel",
+        "would cancel",
+        "will cancel",
+        "cancelled"
+      ],
       "answer": 2,
       "explanations": [
         "'Cancel' (present) is for the if-clause, not the result.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "If I ___ you, I'd take the job.",
-      "options": ["am", "had been", "will be", "were"],
+      "options": [
+        "am",
+        "had been",
+        "will be",
+        "were"
+      ],
       "answer": 3,
       "explanations": [
         "'Am' is present simple, but this is imaginary advice.",
@@ -65,7 +85,12 @@
     },
     {
       "question": "If she studies hard, she ___ the exam.",
-      "options": ["passes", "passed", "would pass", "will pass"],
+      "options": [
+        "passes",
+        "passed",
+        "would pass",
+        "will pass"
+      ],
       "answer": 3,
       "explanations": [
         "'Passes' (present) is for the if-clause, not the result.",
@@ -92,7 +117,12 @@
     },
     {
       "question": "If you ___ me tomorrow, I'll send the file.",
-      "options": ["will email", "emailed", "email", "would email"],
+      "options": [
+        "will email",
+        "emailed",
+        "email",
+        "would email"
+      ],
       "answer": 2,
       "explanations": [
         "The if-clause doesn't use 'will' here.",
@@ -103,7 +133,12 @@
     },
     {
       "question": "It's very unlikely: If I ___ the president, I would change the law.",
-      "options": ["am", "were", "will be", "have been"],
+      "options": [
+        "am",
+        "were",
+        "will be",
+        "have been"
+      ],
       "answer": 1,
       "explanations": [
         "'Am' is present simple, but this is an unlikely, imaginary situation.",
@@ -126,36 +161,6 @@
         "This mixes present + would; both halves must match.",
         "Correct! The imaginary version is the second conditional: 'If I had money, I'd travel'.",
         "The if-clause doesn't use 'would have' here."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "If I ___ a million euros, I would buy a castle. (win)",
-      "hint": "It's just a dream. Use the past simple.",
-      "answers": ["won"],
-      "explanation": "An imaginary situation: if + past simple, would + verb.",
-      "common": [
-        {"answer": "win", "why": "For an imaginary situation we use the past simple in the if-clause: won."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "If I had time tonight, I'll help you. (You think you will have time.)",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["If I have time tonight, I'll help you", "If I have time tonight, I will help you"],
-      "explanation": "A likely situation needs the first conditional: if + present simple, will."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "If I ___ you, I'd apologise.",
-      "hint": "Type one word.",
-      "answers": ["were"],
-      "explanation": "In the second conditional we use 'were' for all subjects.",
-      "common": [
-        {"answer": "was", "why": "In standard English we say 'If I were you'."}
       ]
     }
   ]

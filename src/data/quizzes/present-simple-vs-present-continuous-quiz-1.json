@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "She usually ___ to work, but today she ___ the bus.",
-      "options": ["is driving / takes", "is driving / is taking", "drives / takes", "drives / is taking"],
+      "options": [
+        "is driving / takes",
+        "is driving / is taking",
+        "drives / takes",
+        "drives / is taking"
+      ],
       "answer": 3,
       "explanations": [
         "'Usually' signals a habit (present simple), and 'today' signals a one-off now (present continuous) — this option has them the wrong way round.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "Listen! Someone ___ upstairs.",
-      "options": ["sings", "is singing", "sing", "sang"],
+      "options": [
+        "sings",
+        "is singing",
+        "sing",
+        "sang"
+      ],
       "answer": 1,
       "explanations": [
         "'Sings' is a habit or general fact, but 'Listen!' points to something happening right now.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Water ___ at 100 degrees.",
-      "options": ["is boiling", "boil", "boils", "boiled"],
+      "options": [
+        "is boiling",
+        "boil",
+        "boils",
+        "boiled"
+      ],
       "answer": 2,
       "explanations": [
         "'Is boiling' describes water boiling right now. A scientific fact takes the present simple.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Don't disturb her — she ___ for an exam this week.",
-      "options": ["is studying", "studies", "study", "studied"],
+      "options": [
+        "is studying",
+        "studies",
+        "study",
+        "studied"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A temporary situation around now ('this week') takes the present continuous: 'is studying'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "I ___ what you mean. Can you explain again?",
-      "options": ["'m not understanding", "understanding", "am not understand", "don't understand"],
+      "options": [
+        "'m not understanding",
+        "understanding",
+        "am not understand",
+        "don't understand"
+      ],
       "answer": 3,
       "explanations": [
         "'Understand' is a stative verb, so it isn't used in the continuous, even in the negative.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "We ___ dinner at eight every evening.",
-      "options": ["are having", "has", "have", "having"],
+      "options": [
+        "are having",
+        "has",
+        "have",
+        "having"
+      ],
       "answer": 2,
       "explanations": [
         "'Every evening' is a habit, so use the present simple, not the continuous.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Look! The bus ___.",
-      "options": ["is coming", "comes", "come", "came"],
+      "options": [
+        "is coming",
+        "comes",
+        "come",
+        "came"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Look!' signals something happening at this moment: 'is coming'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "He ___ in Berlin this month for a training course.",
-      "options": ["stays", "is staying", "stay", "stayed"],
+      "options": [
+        "stays",
+        "is staying",
+        "stay",
+        "stayed"
+      ],
       "answer": 1,
       "explanations": [
         "'Stays' suggests a permanent home, but 'this month for a course' is temporary.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "The train to Madrid ___ at 6 o'clock every morning.",
-      "options": ["is leaving", "leaves", "leave", "left"],
+      "options": [
+        "is leaving",
+        "leaves",
+        "leave",
+        "left"
+      ],
       "answer": 1,
       "explanations": [
         "'Is leaving' describes now or one arrangement, but a fixed timetable takes the present simple.",
         "Correct! Timetables use the present simple: 'The train leaves at 6 every morning.'",
         "'Leave' doesn't agree with 'the train'. Use 'leaves'.",
         "'Left' is past simple, but this is a repeated daily timetable."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "Listen! Someone ___ upstairs. (sing)",
-      "hint": "Type two words.",
-      "answers": ["is singing", "'s singing"],
-      "explanation": "Happening now: present continuous.",
-      "common": [
-        {"answer": "sings", "why": "'Listen!' points to now: is singing."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I'm playing tennis every Sunday.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I play tennis every Sunday"],
-      "explanation": "A habit uses the present simple."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "Water ___ at 100 degrees. (boil)",
-      "hint": "Type one word.",
-      "answers": ["boils"],
-      "explanation": "A general fact: present simple.",
-      "common": [
-        {"answer": "is boiling", "why": "General facts take the present simple."}
       ]
     }
   ]

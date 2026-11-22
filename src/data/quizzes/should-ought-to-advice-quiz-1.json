@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "You look tired. You ___ get some rest.",
-      "options": ["must to", "should to", "shoulds", "should"],
+      "options": [
+        "must to",
+        "should to",
+        "shoulds",
+        "should"
+      ],
       "answer": 3,
       "explanations": [
         "'Must' isn't followed by 'to'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "It's raining hard. You ___ take an umbrella.",
-      "options": ["shouldn't", "should have", "should", "ought"],
+      "options": [
+        "shouldn't",
+        "should have",
+        "should",
+        "ought"
+      ],
       "answer": 2,
       "explanations": [
         "'Shouldn't take' would advise against it.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "You ___ apologise to her; it would be the polite thing.",
-      "options": ["ought to", "ought", "should to", "oughts to"],
+      "options": [
+        "ought to",
+        "ought",
+        "should to",
+        "oughts to"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Ought to' keeps 'to': 'You ought to apologise'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "We ___ hurry, or we'll miss the last train.",
-      "options": ["should have", "'d better", "ought", "shouldn't"],
+      "options": [
+        "should have",
+        "'d better",
+        "ought",
+        "shouldn't"
+      ],
       "answer": 1,
       "explanations": [
         "'Should have hurried' is past; this is a present warning.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "I feel sick. — You ___ eaten so much cake.",
-      "options": ["don't have to", "shouldn't", "shouldn't have", "ought"],
+      "options": [
+        "don't have to",
+        "shouldn't",
+        "shouldn't have",
+        "ought"
+      ],
       "answer": 2,
       "explanations": [
         "'Don't have to eat' means it isn't necessary.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "You ___ worry so much; everything will be fine.",
-      "options": ["should", "shouldn't", "ought to", "had better"],
+      "options": [
+        "should",
+        "shouldn't",
+        "ought to",
+        "had better"
+      ],
       "answer": 1,
       "explanations": [
         "'Should worry' advises worrying.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "He failed the test. He ___ harder.",
-      "options": ["should study", "had better study", "ought study", "should have studied"],
+      "options": [
+        "should study",
+        "had better study",
+        "ought study",
+        "should have studied"
+      ],
       "answer": 3,
       "explanations": [
         "'Should study' is present/future advice.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "This milk smells bad. You ___ drink it.",
-      "options": ["should", "ought to", "'d better not", "should have"],
+      "options": [
+        "should",
+        "ought to",
+        "'d better not",
+        "should have"
+      ],
       "answer": 2,
       "explanations": [
         "'Should drink' advises drinking it.",
@@ -121,36 +161,6 @@
         "This is general advice.",
         "This is a present warning.",
         "Correct! 'Should have told' is advice/regret about the past."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "You look ill. You ___ see a doctor.",
-      "hint": "Type one or two words.",
-      "answers": ["should", "ought to", "’d better", "'d better", "had better"],
-      "explanation": "Advice: should + base verb.",
-      "common": [
-        {"answer": "must", "why": "'Must' is too strong for simple advice."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "You should to rest more.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["You should rest more"],
-      "explanation": "No 'to' after 'should'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "You didn't call her. You ___ have called her. (past advice)",
-      "hint": "Type one or two words.",
-      "answers": ["should", "ought to"],
-      "explanation": "Past advice: should have + participle.",
-      "common": [
-        {"answer": "must", "why": "'Must have' is a guess, not advice."}
       ]
     }
   ]

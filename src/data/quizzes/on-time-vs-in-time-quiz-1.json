@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "The 9:00 train left exactly ___ .",
-      "options": ["on time", "in time", "at time", "in the time"],
+      "options": [
+        "on time",
+        "in time",
+        "at time",
+        "in the time"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Punctual = 'on time'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "We ran to the platform and got there just ___ to catch it.",
-      "options": ["by time", "on time", "at time", "in time"],
+      "options": [
+        "by time",
+        "on time",
+        "at time",
+        "in time"
+      ],
       "answer": 3,
       "explanations": [
         "'By time' is not correct.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Our teacher is never late. She always arrives ___ .",
-      "options": ["in time", "on time", "at time", "in the time"],
+      "options": [
+        "in time",
+        "on time",
+        "at time",
+        "in the time"
+      ],
       "answer": 1,
       "explanations": [
         "'In time' means early enough, a slightly different idea.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "There's a big surprise ___ of the film.",
-      "options": ["at end", "in the end", "at the end", "on the end"],
+      "options": [
+        "at end",
+        "in the end",
+        "at the end",
+        "on the end"
+      ],
       "answer": 2,
       "explanations": [
         "'At end' is missing 'the'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "We looked at many houses and ___ we bought the first one.",
-      "options": ["on the end", "at the end", "in the end", "at end"],
+      "options": [
+        "on the end",
+        "at the end",
+        "in the end",
+        "at end"
+      ],
       "answer": 2,
       "explanations": [
         "'On the end' is not correct.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "I arrived ___ to say goodbye before she left.",
-      "options": ["in time", "on time", "at time", "in the end"],
+      "options": [
+        "in time",
+        "on time",
+        "at time",
+        "in the end"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Early enough, before it was too late = 'in time'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "The bus is never ___ ; it's always five minutes late.",
-      "options": ["in time", "on time", "at time", "in the time"],
+      "options": [
+        "in time",
+        "on time",
+        "at time",
+        "in the time"
+      ],
       "answer": 1,
       "explanations": [
         "'In time' means early enough, a different idea.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "___ of the street, turn left.",
-      "options": ["At end", "In the end", "On the end", "At the end"],
+      "options": [
+        "At end",
+        "In the end",
+        "On the end",
+        "At the end"
+      ],
       "answer": 3,
       "explanations": [
         "'At end' is missing 'the'.",
@@ -121,36 +161,6 @@
         "That's 'on time' (punctual).",
         "That's 'in the end' (finally).",
         "That's 'at the end' (the finishing point)."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "The film started ___, exactly at eight.",
-      "hint": "Type two words.",
-      "answers": ["on time"],
-      "explanation": "'On time' means punctual, at the scheduled time.",
-      "common": [
-        {"answer": "in time", "why": "'In time' means early enough. Here the film started exactly at the planned time, so 'on time'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "We arrived on time to catch the last bus.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["We arrived in time to catch the last bus"],
-      "explanation": "'In time' means early enough, before it is too late."
-    },
-    {
-      "type": "write",
-      "kind": "Complete the sentence",
-      "question": "After a long discussion, we finally decided to stay. → ___ the end, we decided to stay.",
-      "hint": "Type one word.",
-      "answers": ["In"],
-      "explanation": "'In the end' means finally.",
-      "common": [
-        {"answer": "at", "why": "'At the end' needs 'of'. For 'finally' we say 'in the end'."}
       ]
     }
   ]

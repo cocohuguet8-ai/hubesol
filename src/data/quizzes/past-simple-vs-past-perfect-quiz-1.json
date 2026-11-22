@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "By the time I got to the station, the train ___.",
-      "options": ["left", "was leaving", "had left", "leaves"],
+      "options": [
+        "left",
+        "was leaving",
+        "had left",
+        "leaves"
+      ],
       "answer": 2,
       "explanations": [
         "'Left' doesn't show that it went before you arrived.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "She ___ the door and ___ in.",
-      "options": ["opened / went", "had opened / had gone", "was opening / went", "opens / goes"],
+      "options": [
+        "opened / went",
+        "had opened / had gone",
+        "was opening / went",
+        "opens / goes"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A simple sequence of events takes the past simple: 'opened / went'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "He was hungry because he ___ breakfast.",
-      "options": ["hasn't eaten", "doesn't eat", "wasn't eating", "hadn't eaten"],
+      "options": [
+        "hasn't eaten",
+        "doesn't eat",
+        "wasn't eating",
+        "hadn't eaten"
+      ],
       "answer": 3,
       "explanations": [
         "'Hasn't eaten' is present perfect, but this is a story in the past.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "By the time we arrived, the party ___.",
-      "options": ["finished", "had finished", "finishes", "was finishing"],
+      "options": [
+        "finished",
+        "had finished",
+        "finishes",
+        "was finishing"
+      ],
       "answer": 1,
       "explanations": [
         "'Finished' suggests it ended as you arrived, but 'by the time' points to an earlier action.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "I locked the door, then I ___ for work.",
-      "options": ["had left", "left", "was leaving", "leave"],
+      "options": [
+        "had left",
+        "left",
+        "was leaving",
+        "leave"
+      ],
       "answer": 1,
       "explanations": [
         "'Had left' is unnecessary: 'then' already shows a simple sequence.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "They had ___ dinner before we arrived.",
-      "options": ["eaten", "ate", "eated", "eating"],
+      "options": [
+        "eaten",
+        "ate",
+        "eated",
+        "eating"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! After 'had' use the participle: 'eaten' (eat → ate → eaten).",
@@ -71,7 +101,12 @@
     },
     {
       "question": "'When I called, she had gone out' means she went out ___.",
-      "options": ["after my call", "during my call", "before my call", "because of my call"],
+      "options": [
+        "after my call",
+        "during my call",
+        "before my call",
+        "because of my call"
+      ],
       "answer": 2,
       "explanations": [
         "The past perfect ('had gone') shows the earlier action, so it was before the call.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "I recognised him at once, but until then I ___ him.",
-      "options": ["met", "were meeting", "never met", "had never met"],
+      "options": [
+        "met",
+        "were meeting",
+        "never met",
+        "had never met"
+      ],
       "answer": 3,
       "explanations": [
         "'Met' doesn't show that the meeting was an earlier experience.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "First I ___ up, then I ___ to work.",
-      "options": ["got / went", "had got / had gone", "was getting / went", "get / go"],
+      "options": [
+        "got / went",
+        "had got / had gone",
+        "was getting / went",
+        "get / go"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A simple sequence takes the past simple: 'got / went'.",
@@ -117,33 +162,6 @@
         "'Was getting' describes an action in progress, not a completed step.",
         "'Get / go' are present forms, but this happened in the past."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "By the time we arrived, the film ___. (start)",
-      "hint": "Type two words.",
-      "answers": ["had started", "’d started", "'d started", "had already started", "’d already started", "'d already started"],
-      "explanation": "The earlier action: past perfect.",
-      "common": [
-        {"answer": "started", "why": "It started before we arrived: had started."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She had opened the door and had walked in.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["She opened the door and walked in"],
-      "explanation": "A simple sequence uses the past simple."
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "They had ate before we arrived.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["They had eaten before we arrived"],
-      "explanation": "Participle of 'eat' is 'eaten'."
     }
   ]
 }

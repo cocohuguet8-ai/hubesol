@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "___ you help me with this box, please? (polite request)",
-      "options": ["Shall", "Could", "Let's", "May"],
+      "options": [
+        "Shall",
+        "Could",
+        "Let's",
+        "May"
+      ],
       "answer": 1,
       "explanations": [
         "'Shall you' is not used for requests.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "___ I carry that bag for you? (offer)",
-      "options": ["Why don't", "Would", "Let's", "Shall"],
+      "options": [
+        "Why don't",
+        "Would",
+        "Let's",
+        "Shall"
+      ],
       "answer": 3,
       "explanations": [
         "'Why don't' needs 'we' and a base verb.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "___ go to the beach this weekend. (suggestion)",
-      "options": ["Let's", "Shall I", "Could you", "Would you"],
+      "options": [
+        "Let's",
+        "Shall I",
+        "Could you",
+        "Would you"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Let's go' suggests doing it together.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "___ meeting at seven instead? (suggestion)",
-      "options": ["Shall I", "Why don't", "How about", "Let's to"],
+      "options": [
+        "Shall I",
+        "Why don't",
+        "How about",
+        "Let's to"
+      ],
       "answer": 2,
       "explanations": [
         "'Shall I' offers to do it alone.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "___ we share a taxi? (suggestion)",
-      "options": ["How about", "Shall I", "Why don't", "Would you"],
+      "options": [
+        "How about",
+        "Shall I",
+        "Why don't",
+        "Would you"
+      ],
       "answer": 2,
       "explanations": [
         "'How about' takes -ing, not 'we share'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "___ you mind opening the window? (very polite request)",
-      "options": ["Shall", "Would", "Let's", "Why don't"],
+      "options": [
+        "Shall",
+        "Would",
+        "Let's",
+        "Why don't"
+      ],
       "answer": 1,
       "explanations": [
         "'Shall you' isn't used.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "I'm tired. — ___ I make you a coffee? (offer)",
-      "options": ["Shall", "Would", "Let's", "How about"],
+      "options": [
+        "Shall",
+        "Would",
+        "Let's",
+        "How about"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Shall I make…?' offers to do it.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "Choose the correct version of: 'Let's to start now.'",
-      "options": ["Let's start now.", "Let's to start now.", "Let's starting now.", "Let us to start now."],
+      "options": [
+        "Let's start now.",
+        "Let's to start now.",
+        "Let's starting now.",
+        "Let us to start now."
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Let's' + base verb: 'Let's start now'.",
@@ -121,36 +161,6 @@
         "'Could you…?' asks the other person (request).",
         "Correct! 'Shall I…?' offers that you do it.",
         "'Let's…' suggests doing it together."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "___ I carry your bag? (an offer)",
-      "hint": "Type one word.",
-      "answers": ["Shall", "Can", "Could", "May"],
-      "explanation": "Offers: Shall I / Can I.",
-      "common": [
-        {"answer": "Shall we", "why": "An offer uses 'I', not 'we'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "How about go to the cinema?",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["How about going to the cinema"],
-      "explanation": "'How about' is followed by -ing."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "___ we go for a walk? (a suggestion)",
-      "hint": "Type one word.",
-      "answers": ["Shall", "Should", "Could", "Can"],
-      "explanation": "Suggestions together: Shall we…? (Should we / Could we also work.)",
-      "common": [
-        {"answer": "Would", "why": "'Would we…?' is not a suggestion."}
       ]
     }
   ]

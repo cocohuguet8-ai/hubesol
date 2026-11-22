@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I'd like ___ apple, please.",
-      "options": ["a", "—", "the", "an"],
+      "options": [
+        "a",
+        "—",
+        "the",
+        "an"
+      ],
       "answer": 3,
       "explanations": [
         "'Apple' starts with a vowel sound, so use 'an'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "She studies at ___ university.",
-      "options": ["an", "a", "the", "—"],
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'University' starts with a 'you' sound, not a vowel sound.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "We waited for ___ hour.",
-      "options": ["an", "a", "the", "—"],
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'An hour' — silent h means a vowel sound.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "He's ___ honest man.",
-      "options": ["a", "the", "an", "—"],
+      "options": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "The 'h' in 'honest' is silent → vowel sound.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "That's ___ useful idea.",
-      "options": ["an", "—", "the", "a"],
+      "options": [
+        "an",
+        "—",
+        "the",
+        "a"
+      ],
       "answer": 3,
       "explanations": [
         "'Useful' starts with a 'you' sound, not a vowel sound.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "My uncle is ___ MP.",
-      "options": ["an", "a", "the", "—"],
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'An MP' — the letter M sounds like 'em'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "They live in ___ European city.",
-      "options": ["an", "the", "a", "—"],
+      "options": [
+        "an",
+        "the",
+        "a",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'European' starts with a 'you' sound, not a vowel sound.",
@@ -98,7 +133,12 @@
     },
     {
       "question": "There's ___ umbrella by the door.",
-      "options": ["a", "an", "the", "—"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'Umbrella' starts with an 'uh' vowel sound.",
@@ -109,43 +149,18 @@
     },
     {
       "question": "Which pair is correct?",
-      "options": ["an university, a hour", "a hour, an university", "an hour, a university", "a hour, a university"],
+      "options": [
+        "an university, a hour",
+        "a hour, an university",
+        "an hour, a university",
+        "a hour, a university"
+      ],
       "answer": 2,
       "explanations": [
         "Both are wrong here.",
         "Both are reversed here.",
         "Correct! 'An hour' (silent h) and 'a university' ('you' sound).",
         "'A hour' is wrong — 'hour' has a silent h."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "She waited for ___ hour.",
-      "hint": "Type a or an.",
-      "answers": ["an"],
-      "explanation": "'Hour' starts with a vowel sound (the h is silent), so 'an'.",
-      "common": [
-        {"answer": "a", "why": "The h in 'hour' is silent, so the word starts with a vowel sound: 'an'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "He is a honest man.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["He is an honest man", "He is an honest man.", "He’s an honest man", "He's an honest man", "He’s an honest man."],
-      "explanation": "'Honest' starts with a vowel sound (silent h), so 'an'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "She works for ___ NGO in Peru.",
-      "hint": "Type a or an. (NGO is said 'en-jee-oh'.)",
-      "answers": ["an"],
-      "explanation": "'NGO' starts with the vowel sound 'en', so 'an'.",
-      "common": [
-        {"answer": "a", "why": "We follow the sound, not the spelling: 'en' is a vowel sound."}
       ]
     }
   ]

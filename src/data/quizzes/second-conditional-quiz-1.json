@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "If I ___ the lottery, I'd travel the world.",
-      "options": ["win", "will win", "won", "would win"],
+      "options": [
+        "win",
+        "will win",
+        "won",
+        "would win"
+      ],
       "answer": 2,
       "explanations": [
         "'Win' (present simple) is for the first conditional, a real future.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "If I had more time, I ___ learn the piano.",
-      "options": ["will", "would", "would have", "can"],
+      "options": [
+        "will",
+        "would",
+        "would have",
+        "can"
+      ],
       "answer": 1,
       "explanations": [
         "'Will' belongs to the first conditional (a real future).",
@@ -27,7 +37,12 @@
     },
     {
       "question": "If I ___ rich, I'd buy an island.",
-      "options": ["would be", "will be", "am", "were"],
+      "options": [
+        "would be",
+        "will be",
+        "am",
+        "were"
+      ],
       "answer": 3,
       "explanations": [
         "The if-clause doesn't use 'would'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "If I ___ you, I'd apologise.",
-      "options": ["were", "was", "am", "would be"],
+      "options": [
+        "were",
+        "was",
+        "am",
+        "would be"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! The advice form is 'If I were you'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "If she lived closer, she ___ visit more often.",
-      "options": ["would", "will", "would have", "can"],
+      "options": [
+        "would",
+        "will",
+        "would have",
+        "can"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! The imaginary result uses 'would': 'she would visit'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "If we ___ a bigger house, we'd have a garden.",
-      "options": ["have", "would have", "will have", "had"],
+      "options": [
+        "have",
+        "would have",
+        "will have",
+        "had"
+      ],
       "answer": 3,
       "explanations": [
         "'Have' (present) is for real situations; this is imaginary.",
@@ -87,7 +117,12 @@
     },
     {
       "question": "If I had wings, I ___ fly everywhere.",
-      "options": ["will", "would have", "could", "can"],
+      "options": [
+        "will",
+        "would have",
+        "could",
+        "can"
+      ],
       "answer": 2,
       "explanations": [
         "'Will' belongs to the first conditional.",
@@ -114,43 +149,18 @@
     },
     {
       "question": "It's very unlikely, but if I ___ president, I'd change the law.",
-      "options": ["were", "am", "will be", "would be"],
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "would be"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! An unlikely situation takes 'were' for all subjects: 'if I were president'.",
         "'Am' is present simple, but this is an unlikely, imaginary situation.",
         "The if-clause doesn't use 'will' here.",
         "The if-clause doesn't use 'would' here."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "If I ___ a car, I would drive to work. (have)",
-      "hint": "Use the past simple.",
-      "answers": ["had"],
-      "explanation": "Second conditional: if + past simple, would + verb.",
-      "common": [
-        {"answer": "have", "why": "For an unreal situation the if-clause uses the past simple: had."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "If I would win, I'd be happy.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["If I won, I'd be happy", "If I won, I would be happy"],
-      "explanation": "We don't use 'would' in the if-clause."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "What ___ you do if you won the lottery?",
-      "hint": "Type one word.",
-      "answers": ["would"],
-      "explanation": "Second conditional result clause: would + verb.",
-      "common": [
-        {"answer": "will", "why": "'Will' is for real, likely situations. 'If you won' is imaginary, so 'would'."}
       ]
     }
   ]

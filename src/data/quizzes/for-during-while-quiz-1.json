@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "We waited ___ two hours.",
-      "options": ["since", "during", "while", "for"],
+      "options": [
+        "since",
+        "during",
+        "while",
+        "for"
+      ],
       "answer": 3,
       "explanations": [
         "'Since' marks a starting point, not a length.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "My phone rang ___ the meeting.",
-      "options": ["during", "for", "while", "since"],
+      "options": [
+        "during",
+        "for",
+        "while",
+        "since"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'During' + a noun (event): 'during the meeting'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "___ I was cooking, the doorbell rang.",
-      "options": ["For", "During", "While", "Since"],
+      "options": [
+        "For",
+        "During",
+        "While",
+        "Since"
+      ],
       "answer": 2,
       "explanations": [
         "'For' answers 'how long'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "It snowed ___ the night.",
-      "options": ["for", "during", "while", "at"],
+      "options": [
+        "for",
+        "during",
+        "while",
+        "at"
+      ],
       "answer": 1,
       "explanations": [
         "'For the night' would mean the whole night as a length, less natural here.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "She's been studying English ___ five years.",
-      "options": ["since", "during", "while", "for"],
+      "options": [
+        "since",
+        "during",
+        "while",
+        "for"
+      ],
       "answer": 3,
       "explanations": [
         "'Since' would need a start point (since 2019).",
@@ -60,7 +85,12 @@
     },
     {
       "question": "I fell asleep ___ the film.",
-      "options": ["during", "for", "while", "by"],
+      "options": [
+        "during",
+        "for",
+        "while",
+        "by"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'During the film' — a period noun.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "___ waiting for the bus, I listened to a podcast.",
-      "options": ["During", "While", "For", "Since"],
+      "options": [
+        "During",
+        "While",
+        "For",
+        "Since"
+      ],
       "answer": 1,
       "explanations": [
         "'During waiting' is not natural.",
@@ -114,43 +149,18 @@
     },
     {
       "question": "Which word is followed by a subject + verb?",
-      "options": ["during", "while", "for", "at"],
+      "options": [
+        "during",
+        "while",
+        "for",
+        "at"
+      ],
       "answer": 1,
       "explanations": [
         "'During' is followed by a noun.",
         "Correct! 'While' is followed by a clause (subject + verb).",
         "'For' is followed by a length of time.",
         "'At' is followed by a time or place noun."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I slept ___ eight hours last night.",
-      "hint": "Type one word.",
-      "answers": ["for"],
-      "explanation": "A length of time, so 'for'.",
-      "common": [
-        {"answer": "during", "why": "'During' goes with a noun like 'the night'. A length of time takes 'for'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I fell asleep while the film.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I fell asleep during the film", "I fell asleep while the film was on"],
-      "explanation": "'While' needs a clause. Before a noun we use 'during'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "___ we were having dinner, the lights went out.",
-      "hint": "Type one word.",
-      "answers": ["While", "Whilst"],
-      "explanation": "'While' + subject + verb: two things at the same time.",
-      "common": [
-        {"answer": "during", "why": "'During' needs a noun. 'We were having dinner' is a clause, so 'while'."}
       ]
     }
   ]

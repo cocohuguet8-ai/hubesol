@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Please send the report ___ Friday.",
-      "options": ["until", "by", "for", "during"],
+      "options": [
+        "until",
+        "by",
+        "for",
+        "during"
+      ],
       "answer": 1,
       "explanations": [
         "'Until Friday' would mean keep sending it up to Friday.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "The shop stays open ___ 9 p.m.",
-      "options": ["during", "by", "for", "until"],
+      "options": [
+        "during",
+        "by",
+        "for",
+        "until"
+      ],
       "answer": 3,
       "explanations": [
         "'During 9' is not correct.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I'll wait here ___ you get back.",
-      "options": ["for", "by", "until", "during"],
+      "options": [
+        "for",
+        "by",
+        "until",
+        "during"
+      ],
       "answer": 2,
       "explanations": [
         "'For you get back' is not correct.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "We need to leave ___ 8 or we'll miss the train.",
-      "options": ["by", "until", "for", "during"],
+      "options": [
+        "by",
+        "until",
+        "for",
+        "during"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A deadline for leaving takes 'by': 'by 8'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "___ we arrived, the party had already finished.",
-      "options": ["By the time", "By", "Until", "For"],
+      "options": [
+        "By the time",
+        "By",
+        "Until",
+        "For"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A clause needs 'by the time': 'By the time we arrived'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "He worked at the company ___ 2020, then moved abroad.",
-      "options": ["for", "by", "until", "since"],
+      "options": [
+        "for",
+        "by",
+        "until",
+        "since"
+      ],
       "answer": 2,
       "explanations": [
         "'For 2020' is not correct.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Can you finish this ___ the end of the day?",
-      "options": ["during", "until", "for", "by"],
+      "options": [
+        "during",
+        "until",
+        "for",
+        "by"
+      ],
       "answer": 3,
       "explanations": [
         "'During the end' is not correct.",
@@ -114,43 +149,18 @@
     },
     {
       "question": "Which word means 'continuously up to a point'?",
-      "options": ["until", "by", "by the time", "for"],
+      "options": [
+        "until",
+        "by",
+        "by the time",
+        "for"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Until' = a situation continuing up to a point.",
         "'By' is a deadline for a single action.",
         "'By the time' introduces a clause.",
         "'For' answers 'how long'."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "The museum stays open ___ 6 p.m. and then it closes.",
-      "hint": "Type by or until.",
-      "answers": ["until"],
-      "explanation": "The museum stays open continuously up to 6 p.m., so 'until'.",
-      "common": [
-        {"answer": "by", "why": "'By' is for a deadline. Here the situation continues up to 6 p.m., so 'until'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "Please finish the homework until Monday.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["Please finish the homework by Monday"],
-      "explanation": "A deadline needs 'by': Monday at the latest."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "___ the time we arrived, the film had started.",
-      "hint": "Type by or until.",
-      "answers": ["By"],
-      "explanation": "'By the time' + clause introduces the moment when something was already true.",
-      "common": [
-        {"answer": "until", "why": "'By the time' is the fixed phrase here."}
       ]
     }
   ]

@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Which noun is UNCOUNTABLE?",
-      "options": ["apple", "book", "chair", "information"],
+      "options": [
+        "apple",
+        "book",
+        "chair",
+        "information"
+      ],
       "answer": 3,
       "explanations": [
         "'Apple' is countable (an apple).",
@@ -16,7 +21,12 @@
     },
     {
       "question": "There is ___ water on the floor.",
-      "options": ["some", "a", "an", "two"],
+      "options": [
+        "some",
+        "a",
+        "an",
+        "two"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Uncountable nouns take 'some': 'some water'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "She gave me some good ___ .",
-      "options": ["advices", "advice", "an advice", "advice's"],
+      "options": [
+        "advices",
+        "advice",
+        "an advice",
+        "advice's"
+      ],
       "answer": 1,
       "explanations": [
         "'Advices' isn't a word.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "We bought some new ___ for the flat.",
-      "options": ["a furniture", "furnitures", "furniture", "many furniture"],
+      "options": [
+        "a furniture",
+        "furnitures",
+        "furniture",
+        "many furniture"
+      ],
       "answer": 2,
       "explanations": [
         "'A furniture' is wrong; say 'a piece of furniture'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "In a café you order: 'I'd like ___, please.' (two cups of coffee)",
-      "options": ["two coffees", "two coffee", "a coffees", "two cups coffee"],
+      "options": [
+        "two coffees",
+        "two coffee",
+        "a coffees",
+        "two cups coffee"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! When it means cups, 'coffee' becomes countable: 'two coffees'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "How ___ money do you have?",
-      "options": ["a lot", "many", "much", "few"],
+      "options": [
+        "a lot",
+        "many",
+        "much",
+        "few"
+      ],
       "answer": 2,
       "explanations": [
         "'How a lot' is not correct.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Choose the unit to count 'bread'.",
-      "options": ["a bread", "a slice of bread", "two breads", "a piece bread"],
+      "options": [
+        "a bread",
+        "a slice of bread",
+        "two breads",
+        "a piece bread"
+      ],
       "answer": 1,
       "explanations": [
         "'A bread' is not standard.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "There ___ some good news today.",
-      "options": ["have", "are", "have been", "is"],
+      "options": [
+        "have",
+        "are",
+        "have been",
+        "is"
+      ],
       "answer": 3,
       "explanations": [
         "'Have' doesn't fit 'there ___ some news'.",
@@ -121,36 +161,6 @@
         "Countable nouns can take 'the' (the car).",
         "Correct! If a number fits directly in front, it's countable.",
         "'Much' goes with uncountable nouns."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "Can I have ___ advice, please?",
-      "hint": "Type a, an or some.",
-      "answers": ["some"],
-      "explanation": "'Advice' is uncountable, so we use 'some', not a/an.",
-      "common": [
-        {"answer": "an", "why": "'Advice' is uncountable, so it can't take a/an."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She gave me some advices.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["She gave me some advice", "She gave me a piece of advice"],
-      "explanation": "'Advice' is uncountable, so it has no plural. You can say 'some advice' or 'a piece of advice'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "How ___ people came to the party?",
-      "hint": "Type much or many.",
-      "answers": ["many"],
-      "explanation": "'People' is a plural countable noun, so 'how many'.",
-      "common": [
-        {"answer": "much", "why": "'People' is countable, so we say 'how many'."}
       ]
     }
   ]

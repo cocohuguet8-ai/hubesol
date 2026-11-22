@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "I ___ play the piano when I was a child.",
-      "options": ["used to", "am used to", "get used to", "used to playing"],
+      "options": [
+        "used to",
+        "am used to",
+        "get used to",
+        "used to playing"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A past habit takes 'used to + base verb': 'used to play'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "She works nights, so she ___ sleeping during the day.",
-      "options": ["used", "used to", "use to", "is used to"],
+      "options": [
+        "used",
+        "used to",
+        "use to",
+        "is used to"
+      ],
       "answer": 3,
       "explanations": [
         "'Used sleeping' is not correct.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Don't worry — you'll ___ the new software soon.",
-      "options": ["used to", "get used to", "be use to", "get used"],
+      "options": [
+        "used to",
+        "get used to",
+        "be use to",
+        "get used"
+      ],
       "answer": 1,
       "explanations": [
         "'Used to' is a past habit.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "There ___ a cinema here, but it closed years ago.",
-      "options": ["gets used to be", "is used to be", "used to be", "used to being"],
+      "options": [
+        "gets used to be",
+        "is used to be",
+        "used to be",
+        "used to being"
+      ],
       "answer": 2,
       "explanations": [
         "'Gets used to be' is not correct.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "I'm not ___ this cold weather yet.",
-      "options": ["used to", "use to", "used", "using to"],
+      "options": [
+        "used to",
+        "use to",
+        "used",
+        "using to"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Be used to + noun': 'I'm not used to this cold weather'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "It took a while, but he ___ living alone.",
-      "options": ["used to", "got used to", "was use to", "get used"],
+      "options": [
+        "used to",
+        "got used to",
+        "was use to",
+        "get used"
+      ],
       "answer": 1,
       "explanations": [
         "'Used to living' isn't correct for this meaning.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "We ___ go camping every summer.",
-      "options": ["used to going", "are used to", "get used to", "used to"],
+      "options": [
+        "used to going",
+        "are used to",
+        "get used to",
+        "used to"
+      ],
       "answer": 3,
       "explanations": [
         "'Used to going' is wrong for a past habit.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "After a month, I ___ the long commute.",
-      "options": ["am use to", "used to", "got used to", "used to commuting"],
+      "options": [
+        "am use to",
+        "used to",
+        "got used to",
+        "used to commuting"
+      ],
       "answer": 2,
       "explanations": [
         "'Am use to' is not correct.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "Which structure describes a FINISHED past habit?",
-      "options": ["be used to + -ing", "used to + base verb", "get used to + -ing", "be used to + noun"],
+      "options": [
+        "be used to + -ing",
+        "used to + base verb",
+        "get used to + -ing",
+        "be used to + noun"
+      ],
       "answer": 1,
       "explanations": [
         "'Be used to + -ing' means accustomed.",
@@ -117,33 +162,6 @@
         "'Get used to + -ing' means becoming accustomed.",
         "'Be used to + noun' means accustomed to something."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "She works nights, so she ___ sleeping during the day.",
-      "hint": "Type three words.",
-      "answers": ["is used to", "'s used to"],
-      "explanation": "'Be used to' + -ing = accustomed.",
-      "common": [
-        {"answer": "used to", "why": "'Used to' is a past habit, followed by the base verb."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I'm used to work here.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I'm used to working here", "I am used to working here"],
-      "explanation": "'Be used to' is followed by -ing."
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I used to smoking.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I used to smoke"],
-      "explanation": "'Used to' is followed by the base verb."
     }
   ]
 }

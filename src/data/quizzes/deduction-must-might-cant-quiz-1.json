@@ -162,53 +162,6 @@
         "Permission = can/may.",
         "Preference = would rather/prefer."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "She's been awake for 30 hours. She ___ be exhausted. (almost sure)",
-      "hint": "Type one word.",
-      "answers": [
-        "must"
-      ],
-      "explanation": "'Must' = almost certain it's true.",
-      "common": [
-        {
-          "answer": "might",
-          "why": "'Might' is only possible. You're almost sure, so 'must'."
-        }
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "That mustn't be the right address.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": [
-        "That can't be the right address",
-        "That can’t be the right address",
-        "That can't be the right address.",
-        "That can’t be the right address."
-      ],
-      "explanation": "The negative of a deduction 'must' is 'can't'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I don't know where he is. He ___ be at the gym. (possible, not sure)",
-      "hint": "Type one word.",
-      "answers": [
-        "might",
-        "may",
-        "could"
-      ],
-      "explanation": "Possible but uncertain: might, may or could.",
-      "common": [
-        {
-          "answer": "must",
-          "why": "'Must' means you're almost sure. You said you don't know."
-        }
-      ]
     }
   ]
 }

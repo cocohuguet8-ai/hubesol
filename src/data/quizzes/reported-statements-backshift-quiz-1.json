@@ -162,48 +162,6 @@
         "'I am tired' backshifts to 'he was tired'.",
         "'I will help' backshifts to 'she would help'."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "\"I am very tired,\" Tom said. → Tom said he ___ very tired.",
-      "hint": "Move the tense one step back.",
-      "answers": [
-        "was"
-      ],
-      "explanation": "Present simple backshifts to past simple: am → was.",
-      "common": [
-        {
-          "answer": "is",
-          "why": "After a past reporting verb the tense moves back: 'was'."
-        }
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "She said she has finished the report.",
-      "hint": "Type the whole corrected sentence. Move the tense one step back.",
-      "answers": [
-        "She said she had finished the report"
-      ],
-      "explanation": "Present perfect backshifts to past perfect: has finished → had finished."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "\"I can drive,\" he said. → He said he ___ drive.",
-      "hint": "Move the tense one step back.",
-      "answers": [
-        "could"
-      ],
-      "explanation": "'Can' backshifts to 'could'.",
-      "common": [
-        {
-          "answer": "can",
-          "why": "After a past reporting verb 'can' becomes 'could'."
-        }
-      ]
     }
   ]
 }

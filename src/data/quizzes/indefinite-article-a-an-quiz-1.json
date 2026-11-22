@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "My mother is ___ doctor.",
-      "options": ["—", "the", "a", "an"],
+      "options": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
       "answer": 2,
       "explanations": [
         "Jobs need an article in English.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "I need ___ new phone; mine is broken.",
-      "options": ["a", "the", "an", "—"],
+      "options": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! First mention, one of many: 'a new phone'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Can you give me ___ information about the course?",
-      "options": ["an", "some", "a", "one"],
+      "options": [
+        "an",
+        "some",
+        "a",
+        "one"
+      ],
       "answer": 1,
       "explanations": [
         "'Information' is uncountable; you can't use 'an'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "We go to the gym twice ___ week.",
-      "options": ["in", "the", "an", "a"],
+      "options": [
+        "in",
+        "the",
+        "an",
+        "a"
+      ],
       "answer": 3,
       "explanations": [
         "'In week' is not correct English.",
@@ -65,7 +85,12 @@
     },
     {
       "question": "What ___ beautiful day!",
-      "options": ["a", "the", "an", "—"],
+      "options": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Exclamations with a singular countable noun use 'a': 'What a beautiful day!'",
@@ -76,7 +101,12 @@
     },
     {
       "question": "He works as ___ engineer.",
-      "options": ["a", "an", "the", "—"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'Engineer' has a vowel sound, so 'an', not 'a'.",
@@ -103,7 +133,12 @@
     },
     {
       "question": "There's ___ message for you on the desk.",
-      "options": ["an", "a", "the", "—"],
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'Message' starts with a consonant sound → 'a'.",
@@ -126,36 +161,6 @@
         "Plurals in general take no article.",
         "Uncountables don't take a/an.",
         "A specific, known noun takes 'the'."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "My sister is ___ nurse.",
-      "hint": "Type a or an.",
-      "answers": ["a"],
-      "explanation": "Jobs take a/an. 'Nurse' starts with a consonant sound, so 'a'.",
-      "common": [
-        {"answer": "an", "why": "'Nurse' starts with a consonant sound (n), so 'a', not 'an'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "Can you give me an advice?",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["Can you give me some advice?", "Can you give me a piece of advice?", "Can you give me advice?", "Can you give me a bit of advice?", "Can you give me any advice?"],
-      "explanation": "'Advice' is uncountable, so it can't take a/an. Use 'some', 'a piece of' or nothing."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "What ___ lovely day!",
-      "hint": "Type a or an.",
-      "answers": ["a"],
-      "explanation": "In exclamations with a singular noun we say 'What a…!'.",
-      "common": [
-        {"answer": "an", "why": "'Lovely' starts with a consonant sound (l), so 'a'."}
       ]
     }
   ]

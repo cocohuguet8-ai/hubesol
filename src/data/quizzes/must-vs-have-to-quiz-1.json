@@ -162,49 +162,6 @@
         "'Must bring' is an obligation.",
         "'Have to bring' is an obligation."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "I really ___ exercise more. It's my own decision.",
-      "hint": "Type one word.",
-      "answers": [
-        "must"
-      ],
-      "explanation": "Obligation that comes from the speaker: must.",
-      "common": [
-        {
-          "answer": "have to",
-          "why": "'Have to' is for outside rules. This is your own feeling."
-        }
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I must work late yesterday.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": [
-        "I had to work late yesterday"
-      ],
-      "explanation": "'Must' has no past. Use 'had to'."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "You ___ come if you're busy. It's optional.",
-      "hint": "Type three words.",
-      "answers": [
-        "don't have to",
-        "do not have to"
-      ],
-      "explanation": "Not necessary = don't have to.",
-      "common": [
-        {
-          "answer": "mustn't",
-          "why": "'Mustn't' means forbidden, not optional."
-        }
-      ]
     }
   ]
 }

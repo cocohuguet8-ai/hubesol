@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "It's the law: you ___ wear a seatbelt.",
-      "options": ["haven't to", "mustn't", "don't have to", "must"],
+      "options": [
+        "haven't to",
+        "mustn't",
+        "don't have to",
+        "must"
+      ],
       "answer": 3,
       "explanations": [
         "'Haven't to' is not correct English.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "This is a hospital — you ___ smoke here.",
-      "options": ["don't have to", "mustn't", "haven't to", "must"],
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't to",
+        "must"
+      ],
       "answer": 1,
       "explanations": [
         "'Don't have to' means it's optional, not forbidden.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Great news — the entry is free, so you ___ pay.",
-      "options": ["don't have to", "mustn't", "must", "have to"],
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "have to"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! No necessity takes 'don't have to': 'You don't have to pay'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "My boss says I ___ work this Saturday.",
-      "options": ["mustn't", "must to", "have to", "am must"],
+      "options": [
+        "mustn't",
+        "must to",
+        "have to",
+        "am must"
+      ],
       "answer": 2,
       "explanations": [
         "'Mustn't' would forbid working.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "Yesterday I ___ leave early to catch a train.",
-      "options": ["must", "must to", "have to", "had to"],
+      "options": [
+        "must",
+        "must to",
+        "have to",
+        "had to"
+      ],
       "answer": 3,
       "explanations": [
         "'Must' has no past form.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "She ___ finish the report; it's due at noon.",
-      "options": ["must to", "have to", "has to", "haves to"],
+      "options": [
+        "must to",
+        "have to",
+        "has to",
+        "haves to"
+      ],
       "answer": 2,
       "explanations": [
         "Don't add 'to' after 'must'.",
@@ -103,7 +133,12 @@
     },
     {
       "question": "___ I wear a tie, or is it optional?",
-      "options": ["Have I to", "Must to I", "Do I have to", "Am I have to"],
+      "options": [
+        "Have I to",
+        "Must to I",
+        "Do I have to",
+        "Am I have to"
+      ],
       "answer": 2,
       "explanations": [
         "'Have I to' is old-fashioned and rare.",
@@ -114,43 +149,18 @@
     },
     {
       "question": "The children ___ shout in the library. It's a rule.",
-      "options": ["don't have to", "mustn't", "must", "haven't to"],
+      "options": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "haven't to"
+      ],
       "answer": 1,
       "explanations": [
         "'Don't have to shout' would mean shouting is optional.",
         "Correct! A rule forbidding it takes 'mustn't': 'They mustn't shout'.",
         "'Must shout' is an obligation to shout.",
         "'Haven't to' is not correct English."
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "Yesterday I ___ work late. (obligation, past)",
-      "hint": "Type two words.",
-      "answers": ["had to"],
-      "explanation": "The past of 'must' and 'have to' is 'had to'.",
-      "common": [
-        {"answer": "must", "why": "'Must' has no past form. Use 'had to'."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "You mustn't pay. It's free.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["You don't have to pay. It's free", "You don't have to pay, it's free"],
-      "explanation": "Not necessary = 'don't have to'. 'Mustn't' means forbidden."
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "Passengers ___ show their passports. It's the law.",
-      "hint": "Type two words.",
-      "answers": ["have to", "must"],
-      "explanation": "Obligation: have to (external) or must.",
-      "common": [
-        {"answer": "mustn't", "why": "'Mustn't' means forbidden, the opposite of the law here."}
       ]
     }
   ]

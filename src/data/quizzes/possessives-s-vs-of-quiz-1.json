@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "This is ___ car.",
-      "options": ["my brothers", "the car of my brother", "my brother's", "my brother"],
+      "options": [
+        "my brothers",
+        "the car of my brother",
+        "my brother's",
+        "my brother"
+      ],
       "answer": 2,
       "explanations": [
         "'My brothers' has no apostrophe: it's possessive.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "Please close ___ .",
-      "options": ["the car's door", "the door of the car", "the door car", "the car of door"],
+      "options": [
+        "the car's door",
+        "the door of the car",
+        "the door car",
+        "the car of door"
+      ],
       "answer": 1,
       "explanations": [
         "'The car's door' is understandable, but for a part of a thing 'the door of the car' (or 'the car door') is the usual form.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "Have you seen ___ news?",
-      "options": ["todays", "the news of today", "today of", "today's"],
+      "options": [
+        "todays",
+        "the news of today",
+        "today of",
+        "today's"
+      ],
       "answer": 3,
       "explanations": [
         "'Todays' is missing the apostrophe.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "The ___ toys are all over the floor. (more than one child)",
-      "options": ["children's", "childrens'", "childrens", "child's"],
+      "options": [
+        "children's",
+        "childrens'",
+        "childrens",
+        "child's"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! 'Children' is an irregular plural: 'the children's toys'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "That's the ___ changing room. (the players, plural)",
-      "options": ["player's", "players'", "players", "players's"],
+      "options": [
+        "player's",
+        "players'",
+        "players",
+        "players's"
+      ],
       "answer": 1,
       "explanations": [
         "'Player's' is singular.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "We can't see ___ from here.",
-      "options": ["the top's mountain", "the mountain's top", "the top of the mountain", "the mountain of top"],
+      "options": [
+        "the top's mountain",
+        "the mountain's top",
+        "the top of the mountain",
+        "the mountain of top"
+      ],
       "answer": 2,
       "explanations": [
         "'The top's mountain' reverses the order.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "It's ___ office. (the boss, singular)",
-      "options": ["the bosses", "the boss of", "the bosses'", "the boss's"],
+      "options": [
+        "the bosses",
+        "the boss of",
+        "the bosses'",
+        "the boss's"
+      ],
       "answer": 3,
       "explanations": [
         "'The bosses' is plural without an apostrophe.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "After ___ rest, she felt better. (one week)",
-      "options": ["a weeks", "a weeks'", "a week", "a week's"],
+      "options": [
+        "a weeks",
+        "a weeks'",
+        "a week",
+        "a week's"
+      ],
       "answer": 3,
       "explanations": [
         "'A weeks' is missing the apostrophe.",
@@ -122,33 +162,6 @@
         "Abstract nouns usually take 'of'.",
         "Correct! People, animals and groups take 's."
       ]
-    },
-    {
-      "type": "write",
-      "kind": "Fill in the gap",
-      "question": "This is my ___ car.",
-      "hint": "(brother)",
-      "answers": ["brother's", "brother’s"],
-      "explanation": "For a person we use 's: my brother's car.",
-      "common": [
-        {"answer": "brothers", "why": "We need the apostrophe: my brother's car."}
-      ]
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "The girls's team won the match.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["The girls' team won the match"],
-      "explanation": "A plural noun ending in -s takes only an apostrophe: the girls' team."
-    },
-    {
-      "type": "write",
-      "kind": "Correct the mistake",
-      "question": "I broke the table's leg.",
-      "hint": "Type the whole corrected sentence.",
-      "answers": ["I broke the leg of the table", "I broke the table leg"],
-      "explanation": "For a thing we use 'of': the leg of the table."
     }
   ]
 }
