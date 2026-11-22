@@ -18,7 +18,7 @@
     "subtitle": "Type the whole verb phrase — the past simple or the past perfect, whichever the order of events calls for. Twenty original sentences.",
     "questions": [
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "By the time we got to the cinema, the film",
         "after": ".",
@@ -27,13 +27,16 @@
           "had started",
           "'d started",
           "d started",
-          "’d started"
+          "’d started",
+          "had already started",
+          "’d already started",
+          "'d already started"
         ],
         "display": "had started",
         "explain": "The film started first — the earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "When I",
         "after": "home, my brother had already cooked dinner.",
@@ -45,7 +48,7 @@
         "explain": "Getting home is the later action — use the past simple."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "She passed the exam because she",
         "after": "hard.",
@@ -60,7 +63,7 @@
         "explain": "Studying came before the exam — the earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "When the police",
         "after": "the thief had already escaped.",
@@ -72,7 +75,7 @@
         "explain": "The police arriving is the later action — use the past simple."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "I was late because my alarm",
         "after": ".",
@@ -86,7 +89,7 @@
         "explain": "The alarm failing came first — the earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "By the time she",
         "after": "the station, the train had left.",
@@ -98,7 +101,7 @@
         "explain": "Reaching the station is the later action — use the past simple."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "When I woke up, the sun",
         "after": ".",
@@ -113,7 +116,7 @@
         "explain": "The sun rose first — the earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "Everyone had left when we",
         "after": "to the party.",
@@ -125,7 +128,7 @@
         "explain": "Getting to the party is the later action — use the past simple."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "They were tired because they",
         "after": "all night.",
@@ -138,13 +141,19 @@
           "had traveled",
           "'d traveled",
           "d traveled",
-          "’d traveled"
+          "’d traveled",
+          "had been travelling",
+          "’d been travelling",
+          "'d been travelling",
+          "had been traveling",
+          "’d been traveling",
+          "'d been traveling"
         ],
         "display": "had travelled",
-        "explain": "Travelling came before they felt tired — the earlier action takes the past perfect."
+        "explain": "Travelling came before they felt tired — the earlier action takes the past perfect (‘had been travelling’ also works)."
       },
       {
-        "use": "Sequence",
+        "use": "Past events",
         "kind": "statement",
         "before": "I woke up,",
         "after": "dressed and left the house.",
@@ -156,7 +165,7 @@
         "explain": "A sequence of main events — the past simple is enough."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "He didn’t know the answer because he",
         "after": "the lesson.",
@@ -171,7 +180,7 @@
         "explain": "Missing the lesson came first — the earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "When Tom",
         "after": "the kitchen, the cake had already burned.",
@@ -187,7 +196,7 @@
         "kind": "question",
         "before": "",
         "after": "you finished your homework before the teacher arrived?",
-        "hint": "(Had / Did)",
+        "hint": "(auxiliary)",
         "answers": [
           "Had",
           "had"
@@ -196,7 +205,7 @@
         "explain": "The question is about the earlier action — it takes ‘had’ + past participle."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "We missed the bus because it",
         "after": "five minutes earlier.",
@@ -211,7 +220,7 @@
         "explain": "The bus left first — the earlier action takes the past perfect."
       },
       {
-        "use": "Sequence",
+        "use": "Past events",
         "kind": "statement",
         "before": "She opened the door,",
         "after": "in and sat down.",
@@ -223,7 +232,7 @@
         "explain": "A sequence of main events — the past simple is enough."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "I recognised him because I",
         "after": "him before.",
@@ -238,7 +247,7 @@
         "explain": "Meeting him came first — the earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "When we",
         "after": "in at the hotel, they had given our room to someone else.",
@@ -250,7 +259,7 @@
         "explain": "Checking in is the later action — use the past simple."
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "kind": "statement",
         "before": "The floor was wet because someone",
         "after": "a glass of water.",
@@ -273,7 +282,7 @@
         "kind": "question",
         "before": "Where",
         "after": "you lived before you moved to Girona?",
-        "hint": "(did / had)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -281,7 +290,7 @@
         "explain": "‘Lived’ is a past participle — the question takes ‘had’."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "kind": "statement",
         "before": "The film had already started when we",
         "after": "down.",
@@ -299,7 +308,7 @@
     "subtitle": "Tap the words below to build each sentence in the right order. Twenty original sentences, mixing both tenses.",
     "sentences": [
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "When",
           "I",
@@ -322,7 +331,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "She",
           "passed",
@@ -349,7 +358,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "By",
           "the",
@@ -378,7 +387,7 @@
         ]
       },
       {
-        "use": "Sequence",
+        "use": "Past events",
         "tokens": [
           "I",
           "woke",
@@ -390,7 +399,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "He",
           "didn’t",
@@ -404,7 +413,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "The",
           "train",
@@ -442,7 +451,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "They",
           "were",
@@ -469,7 +478,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "When",
           "I",
@@ -483,7 +492,7 @@
         ]
       },
       {
-        "use": "Sequence",
+        "use": "Past events",
         "tokens": [
           "She",
           "opened",
@@ -495,7 +504,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "Everyone",
           "had",
@@ -518,7 +527,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "I",
           "was",
@@ -556,7 +565,7 @@
         ]
       },
       {
-        "use": "Sequence",
+        "use": "Past events",
         "tokens": [
           "After",
           "she",
@@ -579,7 +588,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "We",
           "missed",
@@ -606,7 +615,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "The",
           "floor",
@@ -635,7 +644,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "When",
           "the",
@@ -648,7 +657,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "He",
           "recognised",
@@ -688,7 +697,7 @@
         ]
       },
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "I",
           "didn’t",
@@ -733,7 +742,7 @@
         "right": "Past Simple"
       },
       {
-        "left": "already, before another past time",
+        "left": "the cooking was finished before we got home",
         "right": "Past Perfect"
       },
       {
@@ -789,7 +798,7 @@
         "right": "Past Simple"
       },
       {
-        "left": "the film had started when we arrived",
+        "left": "the film (it started before we arrived)",
         "right": "Past Perfect"
       },
       {
@@ -797,7 +806,7 @@
         "right": "Past Simple"
       },
       {
-        "left": "everyone had left by then",
+        "left": "everyone (they left before we got there)",
         "right": "Past Perfect"
       },
       {
@@ -813,7 +822,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Earlier action",
+        "use": "Past events",
         "text": "By the time we got to the cinema, the film <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "had started",
@@ -831,43 +840,43 @@
         "explain": "The earlier action — past perfect."
       },
       {
-        "use": "Earlier action",
-        "text": "When I woke up, the sun <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already risen.",
+        "use": "Past events",
+        "text": "When I woke up, the sun <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already.",
         "choices": [
-          "has",
-          "had",
-          "was",
-          "did"
+          "rose",
+          "had risen",
+          "has risen",
+          "was rising"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
+          "‘Rose’ makes it simultaneous with waking up, but ‘already’ shows it came earlier.",
           "",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’."
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was rising’ is an action in progress, but this one was finished."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
-        "use": "Earlier action",
-        "text": "I called her at nine, but she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already gone to bed.",
+        "use": "Past events",
+        "text": "I called her at nine, but by then she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to bed.",
         "choices": [
-          "has",
-          "was",
-          "had",
-          "did"
+          "has gone",
+          "went",
+          "had gone",
+          "was going"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Went’ would make going to bed a later or simultaneous event; it happened before nine.",
           "",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’."
+          "‘Was going’ is an action in progress; she was already in bed."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "text": "When the police <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>, the thief had already escaped.",
         "choices": [
           "have arrived",
@@ -885,292 +894,292 @@
         "explain": "The later action — past simple."
       },
       {
-        "use": "Later action",
+        "use": "Past events",
         "text": "By the time I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the station, the train had left.",
         "choices": [
-          "have got",
           "got",
+          "have got",
           "had got",
           "was getting"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong tense: the present perfect does not fit a past story.",
           "",
+          "Wrong tense: the present perfect does not fit a past story.",
           "Wrong tense: getting to the station is the later action — use the past simple.",
           "Wrong tense: getting to the station is a completed event — use the past simple."
         ],
         "explain": "The later action — past simple."
       },
       {
-        "use": "Earlier action",
-        "text": "We missed the film because it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already started.",
+        "use": "Past events",
+        "text": "We missed the film because it <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by the time we arrived.",
         "choices": [
-          "has",
-          "was",
-          "had",
-          "did"
+          "started",
+          "had started",
+          "has started",
+          "was starting"
+        ],
+        "correct": 1,
+        "wrongReasons": [
+          "‘Started’ doesn’t show that it began before we arrived.",
+          "",
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was starting’ is an action in progress; it had finished starting."
+        ],
+        "explain": "The earlier action takes the past perfect."
+      },
+      {
+        "use": "Past events",
+        "text": "When we arrived, they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already.",
+        "choices": [
+          "have eaten",
+          "ate",
+          "had eaten",
+          "were eating"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Ate’ with ‘already’ doesn’t show the earlier action clearly.",
           "",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’."
+          "‘Were eating’ means they were still eating; ‘already’ says they had finished."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
-        "use": "Earlier action",
-        "text": "When we arrived, they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already eaten.",
-        "choices": [
-          "have",
-          "were",
-          "did",
-          "had"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Wrong tense: ‘have’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘were’ does not make the past perfect — use ‘had’ + past participle.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          ""
-        ],
-        "explain": "The earlier action — past perfect (had + past participle)."
-      },
-      {
-        "use": "Sequence",
+        "use": "Past events",
         "text": "I woke up, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a shower and went to work.",
         "choices": [
-          "took",
+          "have taken",
           "had taken",
           "was taking",
-          "have taken"
-        ],
-        "correct": 0,
-        "wrongReasons": [
-          "",
-          "Wrong tense: this is a simple sequence — the past simple is enough.",
-          "Wrong tense: this is a completed step in a sequence — use the past simple.",
-          "Wrong tense: the present perfect does not fit a past story."
-        ],
-        "explain": "A simple sequence — past simple."
-      },
-      {
-        "use": "Earlier action",
-        "text": "Everyone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already left when we got to the party.",
-        "choices": [
-          "was",
-          "has",
-          "had",
-          "did"
-        ],
-        "correct": 2,
-        "wrongReasons": [
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’."
-        ],
-        "explain": "The earlier action — past perfect (had + past participle)."
-      },
-      {
-        "use": "Sequence",
-        "text": "She opened the door, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in and sat down.",
-        "choices": [
-          "has walked",
-          "had walked",
-          "was walking",
-          "walked"
+          "took"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong tense: the present perfect does not fit a past story.",
           "Wrong tense: this is a simple sequence — the past simple is enough.",
-          "Wrong tense: walking in is a completed step in a sequence — use the past simple.",
+          "Wrong tense: this is a completed step in a sequence — use the past simple.",
           ""
         ],
         "explain": "A simple sequence — past simple."
       },
       {
-        "use": "Earlier action",
-        "text": "I was shocked because I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> never seen snow before.",
+        "use": "Past events",
+        "text": "By the time we got to the party, everyone <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "had",
-          "was",
-          "did",
-          "have"
+          "had left",
+          "left",
+          "has left",
+          "was leaving"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          "Wrong tense: ‘have’ gives the present perfect — in a past story use ‘had’."
+          "‘Left’ after ‘by the time’ doesn’t show the earlier action.",
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was leaving’ means they were in the middle of leaving."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
-        "use": "Later action",
-        "text": "When Tom <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kitchen, the cake had already burned.",
+        "use": "Past events",
+        "text": "She opened the door, <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in and sat down.",
         "choices": [
-          "has entered",
-          "entered",
-          "had entered",
-          "was entering"
+          "has walked",
+          "walked",
+          "was walking",
+          "had walked"
         ],
         "correct": 1,
         "wrongReasons": [
           "Wrong tense: the present perfect does not fit a past story.",
           "",
+          "Wrong tense: walking in is a completed step in a sequence — use the past simple.",
+          "Wrong tense: this is a simple sequence — the past simple is enough."
+        ],
+        "explain": "A simple sequence — past simple."
+      },
+      {
+        "use": "Past events",
+        "text": "I was shocked because I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> snow before.",
+        "choices": [
+          "wasn’t seeing",
+          "haven’t seen",
+          "hadn’t seen",
+          "didn’t saw"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "‘Wasn’t seeing’ is an action in progress, not an earlier experience.",
+          "The present perfect doesn’t fit a story in the past.",
+          "",
+          "After ‘didn’t’ use the base verb (see), not ‘saw’."
+        ],
+        "explain": "An earlier experience up to a past moment takes the past perfect."
+      },
+      {
+        "use": "Past events",
+        "text": "When Tom <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the kitchen, the cake had already burned.",
+        "choices": [
+          "has entered",
+          "was entering",
+          "had entered",
+          "entered"
+        ],
+        "correct": 3,
+        "wrongReasons": [
+          "Wrong tense: the present perfect does not fit a past story.",
+          "Wrong tense: entering is a completed event — use the past simple.",
           "Wrong tense: entering is the later action — use the past simple.",
-          "Wrong tense: entering is a completed event — use the past simple."
+          ""
         ],
         "explain": "The later action — past simple."
       },
       {
-        "use": "Earlier action",
-        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> never been to London before she moved there.",
+        "use": "Past events",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> London before she moved there.",
         "choices": [
-          "has",
-          "was",
-          "did",
-          "had"
-        ],
-        "correct": 3,
-        "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          ""
-        ],
-        "explain": "The earlier action — past perfect (had + past participle)."
-      },
-      {
-        "use": "Earlier action",
-        "text": "We got to the cinema late. The film <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already started.",
-        "choices": [
-          "had",
-          "has",
-          "did",
-          "was"
+          "had never visited",
+          "has never visited",
+          "was never visiting",
+          "didn’t never visit"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle."
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was never visiting’ is not an experience up to a past moment.",
+          "‘Didn’t never’ is a double negative."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "An experience up to a past moment takes the past perfect."
       },
       {
-        "use": "Earlier action",
-        "text": "By the time the ambulance came, the man <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already died.",
+        "use": "Past events",
+        "text": "We got to the cinema late. The film <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by then.",
         "choices": [
-          "has",
-          "had",
-          "did",
-          "was"
+          "started",
+          "had started",
+          "has started",
+          "was starting"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
+          "‘Started’ doesn’t show it began before we arrived.",
           "",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle."
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was starting’ is an action in progress, not a finished earlier action."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
-        "use": "Sequence",
+        "use": "Past events",
+        "text": "By the time the ambulance came, the man <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
+        "choices": [
+          "has died",
+          "died",
+          "had died",
+          "was dying"
+        ],
+        "correct": 2,
+        "wrongReasons": [
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Died’ after ‘by the time’ doesn’t show the earlier action.",
+          "",
+          "‘Was dying’ is an action in progress; it had finished."
+        ],
+        "explain": "The earlier action takes the past perfect."
+      },
+      {
+        "use": "Past events",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> him a message and went to bed.",
         "choices": [
           "have sent",
           "had sent",
-          "sent",
-          "was sending"
+          "was sending",
+          "sent"
         ],
-        "correct": 2,
+        "correct": 3,
         "wrongReasons": [
           "Wrong tense: the present perfect does not fit a past story.",
           "Wrong tense: this is a simple sequence — the past simple is enough.",
-          "",
-          "Wrong tense: sending is a completed step in a sequence — use the past simple."
+          "Wrong tense: sending is a completed step in a sequence — use the past simple.",
+          ""
         ],
         "explain": "A simple sequence — past simple."
       },
       {
-        "use": "Earlier action",
-        "text": "When we checked in, they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already given our room to someone else.",
+        "use": "Past events",
+        "text": "By the time we checked in, they <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> our room to someone else.",
         "choices": [
-          "had",
-          "have",
-          "did",
-          "were"
+          "had given",
+          "gave",
+          "have given",
+          "were giving"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: ‘have’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          "Wrong form: ‘were’ does not make the past perfect — use ‘had’ + past participle."
+          "‘Gave’ after ‘by the time’ doesn’t show the earlier action.",
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Were giving’ is an action in progress; it was finished."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
-        "use": "Earlier action",
-        "text": "The shop <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> already closed when I got there.",
+        "use": "Past events",
+        "text": "The shop <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> by the time I got there.",
         "choices": [
-          "has",
-          "had",
-          "did",
-          "was"
+          "closed",
+          "had closed",
+          "has closed",
+          "was closing"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
+          "‘Closed’ after ‘by the time’ doesn’t show the earlier action.",
           "",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle."
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was closing’ is an action in progress; it was finished."
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       },
       {
         "use": "Question",
-        "text": "Where <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> you lived before you moved to Girona?",
+        "text": "Where <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> before you moved to Girona?",
         "choices": [
-          "did",
-          "were",
-          "had",
-          "have"
+          "were you lived",
+          "did you lived",
+          "had you lived",
+          "you had lived"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Wrong auxiliary: ‘did’ is followed by the base verb (live), not ‘lived’.",
-          "Wrong auxiliary: ‘were’ cannot be followed by ‘lived’ here — use ‘had’.",
+          "‘Were you lived’ is not a possible form.",
+          "After ‘did’ use the base verb: ‘did you live’.",
           "",
-          "Wrong tense: the present perfect does not fit a story about the past."
+          "In a question the auxiliary comes before the subject."
         ],
-        "explain": "A past perfect question — had."
+        "explain": "A question about the earlier situation: Had + subject + past participle?"
       },
       {
-        "use": "Earlier action",
-        "text": "He told me he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> lost his wallet.",
+        "use": "Past events",
+        "text": "I couldn’t pay because by then I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my wallet.",
         "choices": [
-          "has",
-          "was",
-          "did",
-          "had"
+          "was losing",
+          "lost",
+          "have lost",
+          "had lost"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’.",
+          "‘Was losing’ is an action in progress, not a finished earlier action.",
+          "‘Lost’ after ‘by then’ doesn’t show the earlier action.",
+          "The present perfect doesn’t fit a story in the past.",
           ""
         ],
-        "explain": "The earlier action — past perfect (had + past participle)."
+        "explain": "The earlier action takes the past perfect."
       }
     ]
   },
@@ -1372,23 +1381,22 @@
       },
       {
         "tokens": [
-          "He",
-          "told",
-          "me",
-          "he",
+          "When",
+          "she",
+          "opened",
+          "the",
+          "fridge,",
+          "someone",
           "has",
-          "lost",
-          "his",
-          "wallet."
+          "eaten",
+          "all",
+          "the",
+          "cake."
         ],
-        "errorIndex": 4,
-        "correction": "had lost",
+        "errorIndex": 5,
+        "correction": "had",
         "type": "Wrong tense",
-        "message": "In a past story the earlier action takes the past perfect.",
-        "errorSpan": [
-          4,
-          5
-        ]
+        "message": "In a past story the earlier action takes ‘had’, not ‘has’."
       },
       {
         "tokens": [
@@ -1490,22 +1498,18 @@
       {
         "tokens": [
           "Where",
-          "did",
+          "had",
           "you",
-          "lived",
+          "live",
           "before",
           "you",
           "moved",
           "here?"
         ],
-        "errorIndex": 1,
-        "correction": "had you lived",
-        "type": "Wrong tense",
-        "message": "A question about the earlier situation takes ‘had you lived’.",
-        "errorSpan": [
-          1,
-          3
-        ]
+        "errorIndex": 3,
+        "correction": "lived",
+        "type": "Wrong participle",
+        "message": "After ‘had you’ use the past participle: ‘had you lived’."
       },
       {
         "tokens": [
@@ -1563,7 +1567,7 @@
     "items": [
       {
         "type": "fill",
-        "use": "Earlier action",
+        "use": "Past events",
         "sentText": "By the time I got home, my brother {{blank}} dinner.",
         "hint": "cook",
         "answers": [
@@ -1577,7 +1581,7 @@
       },
       {
         "type": "fill",
-        "use": "Sequence",
+        "use": "Past events",
         "sentText": "I {{blank}} the door and walked in.",
         "hint": "open",
         "answers": [
@@ -1588,9 +1592,9 @@
       },
       {
         "type": "fill",
-        "use": "Earlier action",
+        "use": "Past events",
         "sentText": "She {{blank}} never been to London before.",
-        "hint": "(had / has)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -1599,9 +1603,9 @@
       },
       {
         "type": "fill",
-        "use": "Earlier action",
+        "use": "Past events",
         "sentText": "When we arrived, the film {{blank}} already started.",
-        "hint": "(had / has)",
+        "hint": "(auxiliary)",
         "answers": [
           "had"
         ],
@@ -1610,7 +1614,7 @@
       },
       {
         "type": "order",
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "The",
           "film",
@@ -1634,7 +1638,7 @@
       },
       {
         "type": "order",
-        "use": "Sequence",
+        "use": "Past events",
         "tokens": [
           "I",
           "woke",
@@ -1658,7 +1662,7 @@
       },
       {
         "type": "order",
-        "use": "Earlier action",
+        "use": "Past events",
         "tokens": [
           "She",
           "hadn’t",
@@ -1760,26 +1764,26 @@
       },
       {
         "type": "mc",
-        "use": "Earlier action",
-        "text": "When I got to the station, the train {{blank}} already left.",
+        "use": "Past events",
+        "text": "By the time I got to the station, the train {{blank}}.",
         "choices": [
-          "has",
-          "was",
-          "had",
-          "did"
+          "had left",
+          "left",
+          "has left",
+          "was leaving"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Wrong tense: ‘has’ gives the present perfect — in a past story use ‘had’.",
-          "Wrong form: ‘was’ does not make the past perfect — use ‘had’ + past participle.",
           "",
-          "Wrong form: ‘did’ cannot be followed by a past participle — use ‘had’."
+          "‘Left’ after ‘by the time’ doesn’t show the earlier action.",
+          "The present perfect doesn’t fit a story in the past.",
+          "‘Was leaving’ means it was in the middle of leaving."
         ],
         "explain": "The earlier action takes the past perfect."
       },
       {
         "type": "mc",
-        "use": "Sequence",
+        "use": "Past events",
         "text": "She opened the door, {{blank}} in and sat down.",
         "choices": [
           "has walked",
@@ -1817,7 +1821,7 @@
       },
       {
         "type": "mc",
-        "use": "Later action",
+        "use": "Past events",
         "text": "When the police {{blank}}, the thief had already escaped.",
         "choices": [
           "had arrived",
@@ -1875,23 +1879,26 @@
         "type": "error",
         "use": "Wrong tense",
         "tokens": [
-          "She",
+          "He",
+          "grabbed",
+          "his",
+          "keys,",
           "had",
-          "opened",
+          "run",
+          "to",
           "the",
-          "door",
+          "car",
           "and",
-          "had",
-          "walked",
-          "in."
+          "drove",
+          "off."
         ],
-        "errorIndex": 6,
-        "correction": "walked",
-        "message": "A simple sequence takes the past simple.",
+        "errorIndex": 4,
         "errorSpan": [
-          6,
-          7
-        ]
+          4,
+          5
+        ],
+        "correction": "ran",
+        "message": "A simple sequence takes the past simple: ‘ran’."
       },
       {
         "type": "error",
