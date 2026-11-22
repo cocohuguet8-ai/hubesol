@@ -4,7 +4,7 @@ description: "When to use the article a/an and when the number one — with an i
 level: "A2"
 hub: "Articles"
 hubSlug: "articles"
-answerBox: "’A/an’ and ‘one’ both point to a single thing, but they do different jobs. Use ‘a/an’ when the exact number doesn’t matter — you’re just naming something (I need a pen; She’s a teacher). Use ‘one’ as a number when the number matters — one, not two (I have one brother, not two; Just one coffee, please). ‘One’ can also replace a noun you don’t want to repeat (the red one) — as a pronoun it never comes before a noun."
+answerBox: "’A/an’ and ‘one’ both point to a single thing, but they do different jobs. Use ‘a/an’ when the exact number doesn’t matter — you’re just naming something (I need a pen; She’s a teacher). Use ‘one’ as a number when the number matters — one, not two (I have one brother, not two; Just one coffee, please). ‘One’ can also replace a noun you don’t want to repeat (the red one) — as a pronoun it doesn’t come before a noun."
 answerLead: "Both mean ‘a single thing’, but the focus is different:"
 answerPoints:
   - "a/an — naming something; the number is not important (Can I have a coffee?)."
@@ -23,9 +23,9 @@ faq:
   - q: "Can I use ‘one’ before a job?"
     a: "No — jobs take a/an: She’s a doctor (not ‘She’s one doctor’)."
   - q: "Is ‘a’ ever wrong where ‘one’ is needed?"
-    a: "Sometimes. ‘I have a brother and a sister’ is fine, but to stress ‘only one’, say ‘I have one brother.’ In fixed phrases it is always wrong: ‘one day’, not ‘a day’, for a future time."
+    a: "Sometimes. ‘I have a brother and a sister’ is fine, but to stress ‘only one’, say ‘I have one brother.’ In fixed phrases ‘a’ doesn’t work: say ‘one day’, not ‘a day’, for an unspecified future time."
   - q: "Can ‘one’ replace a noun?"
-    a: "Yes. ‘One’ can stand instead of a noun already mentioned: ‘I like the blue jacket, but I’ll take the red one.’ It never comes before a noun in this use."
+    a: "Yes. ‘One’ can stand instead of a noun already mentioned: ‘I like the blue jacket, but I’ll take the red one.’ It doesn’t come before a noun in this use."
 teacherObjectives:
   - "Can use a/an to name a singular noun where number is unimportant (CEFR A2)."
   - "Can use ‘one’ as a number when it matters, and as a pronoun to replace a noun."
@@ -63,7 +63,7 @@ More in [A vs An](/grammar/articles/a-vs-an/).
 
 ### 1. Jobs
 
-In English, jobs always need *a/an*.
+In English, a singular job word normally needs *a/an*.
 
 - She’s **a** nurse. / He’s **an** architect.
 
@@ -73,6 +73,8 @@ In English, jobs always need *a/an*.
 
 - Can I have **a** glass of water?
 - It was **a** lovely day.
+- What **a** beautiful garden! — It was such **an** awful day.
+- We have English twice **a** week.
 
 ## When to use one
 
@@ -82,12 +84,14 @@ Often with *only*, *just* or a contrast like *not two*.
 
 - I have **one** brother and two sisters.
 - Just **one** slice, thanks.
+- Can I have **one** more go? — Three minus **one** is two.
 
 ### 2. One as a pronoun
 
-*One* replaces a singular noun so that you don’t repeat it. It never comes straight before that noun.
+*One* replaces a singular noun so that you don’t repeat it. It doesn’t come straight before that noun.
 
 - Which jacket do you want? — The blue **one**. (= the blue jacket)
+- This pizza is cold. I’ll order another **one**. — Is this the **one** you wanted?
 
 > ⚠️ Typical error: ✗ ~~I’ll take the small a.~~ → ✓ **I’ll take the small one.** (*A/an* always needs a noun after it.)
 
@@ -95,6 +99,8 @@ Often with *only*, *just* or a contrast like *not two*.
 
 - **One** day I’ll travel the world.
 - He’s **one of** my closest friends.
+- Please come in **one** at a time. — The students left **one** by one.
+- I’ll be ready in **one** or two minutes. — It’s **one** o’clock.
 
 ## One and ones
 

@@ -4,7 +4,7 @@
   "level": "A2",
   "items": [
     {
-      "question": "My neighbour is ___ vet in town.",
+      "question": "My neighbour is ___ vet. She works with horses.",
       "options": [
         "one",
         "the",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "question": "Two pizzas? — No, just ___ pizza, please.",
+      "question": "Two pizzas? — No, just ___ pizza, not two.",
       "options": [
         "a",
         "one",
@@ -68,19 +68,19 @@
       ]
     },
     {
-      "question": "There are two jackets. I’ll take the black ___ .",
+      "question": "There are two jackets: a black one and a grey one. I’ll take the black ___ .",
       "options": [
         "one",
         "a",
         "an",
-        "it"
+        "ones"
       ],
       "answer": 0,
       "explanations": [
         "Correct! ‘One’ replaces the noun: ‘the black one’ = ‘the black jacket’.",
         "‘A’ needs a noun after it. It can’t replace ‘jacket’.",
         "‘An’ needs a noun after it. It can’t replace ‘jacket’.",
-        "‘It’ can’t follow an adjective: ‘the black it’ is wrong."
+        "‘Ones’ is plural, but I am taking just one jacket."
       ]
     },
     {
@@ -112,7 +112,7 @@
         "‘A candidate’ just names the noun and doesn’t stress ‘only one’.",
         "Correct! ‘Only’ + contrast with ‘everyone else’ makes the number matter: ‘one candidate’.",
         "‘An’ is for vowel sounds, and ‘candidate’ starts with a consonant sound.",
-        "‘The one student’ points to someone specific. It isn’t about the number."
+        "‘The one candidate’ points to someone specific. It isn’t about the number."
       ]
     },
     {
@@ -184,9 +184,7 @@
       "kind": "Correct the mistake",
       "question": "My aunt is one vet.",
       "hint": "Type the whole corrected sentence.",
-      "answers": [
-        "My aunt is a vet"
-      ],
+      "answers": ["My aunt is a vet", "My aunt is a vet.", "My aunt’s a vet", "My aunt's a vet"],
       "explanation": "Jobs take a/an, not ‘one’."
     },
     {
