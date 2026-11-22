@@ -94,7 +94,7 @@
         "use": "Fill the gap",
         "before": "Were they",
         "after": "win the final, the city would celebrate for a week.",
-        "hint": "to",
+        "hint": "(one small word)",
         "answers": [
           "to"
         ],
@@ -116,12 +116,13 @@
         "use": "Fill the gap",
         "before": "Were I",
         "after": ", I would buy a house in the mountains.",
-        "hint": "(rich)",
+        "hint": "(adjective)",
         "answers": [
+          "rich",
           "richer"
         ],
         "display": "richer",
-        "explain": "Were + subject + adjective. Comparative: rich → richer."
+        "explain": "Were + subject + adjective: ‘Were I rich’ or ‘Were I richer’ both work."
       },
       {
         "use": "Fill the gap",
@@ -182,7 +183,7 @@
         "use": "Fill the gap",
         "before": "Had we",
         "after": "checked the tickets, we’d have gone to the wrong airport.",
-        "hint": "not",
+        "hint": "(negative word)",
         "answers": [
           "not"
         ],
@@ -193,18 +194,18 @@
         "use": "Fill the gap",
         "before": "Were it",
         "after": "for the rain, we would play outside.",
-        "hint": "not",
+        "hint": "(negative word)",
         "answers": [
           "not"
         ],
         "display": "not",
-        "explain": "Were it not for… — ‘not’ goes after ‘it’, never ‘Weren’t it’."
+        "explain": "Were it not for… — ‘not’ goes after ‘it’, not ‘Weren’t it’."
       },
       {
         "use": "Fill the gap",
         "before": "Should you",
         "after": "receive the parcel by Friday, please call us.",
-        "hint": "not",
+        "hint": "(negative word)",
         "answers": [
           "not"
         ],
@@ -217,7 +218,11 @@
         "after": "hello.",
         "hint": "(say)",
         "answers": [
-          "would have said"
+          "would have said",
+          "’d have said",
+          "'d have said",
+          "would’ve said",
+          "would've said"
         ],
         "display": "would have said",
         "explain": "The result clause stays the same as a third conditional: would have said."
@@ -231,7 +236,11 @@
           "would apologise",
           "’d apologise",
           "'d apologise",
-          "d apologise"
+          "d apologise",
+          "would apologize",
+          "’d apologize",
+          "'d apologize",
+          "d apologize"
         ],
         "display": "would apologise",
         "explain": "The result of an inverted second conditional: would + base verb."
@@ -243,7 +252,7 @@
     "subtitle": "Tap the words to build each formal sentence — 20 examples with should, were and had. The inverted clause starts with the auxiliary.",
     "sentences": [
       {
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "you",
@@ -264,7 +273,7 @@
         ]
       },
       {
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "the",
@@ -289,7 +298,7 @@
         ]
       },
       {
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "it",
@@ -314,7 +323,7 @@
         ]
       },
       {
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "you",
@@ -335,7 +344,7 @@
         ]
       },
       {
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "the",
@@ -356,7 +365,7 @@
         ]
       },
       {
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "you",
@@ -379,7 +388,7 @@
         ]
       },
       {
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "I",
@@ -400,7 +409,7 @@
         ]
       },
       {
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "she",
@@ -421,7 +430,7 @@
         ]
       },
       {
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "they",
@@ -444,7 +453,7 @@
         ]
       },
       {
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "it",
@@ -469,7 +478,7 @@
         ]
       },
       {
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "he",
@@ -494,7 +503,7 @@
         ]
       },
       {
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "I",
@@ -517,7 +526,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "I",
@@ -540,7 +549,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "we",
@@ -565,7 +574,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "she",
@@ -588,7 +597,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "they",
@@ -611,7 +620,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "I",
@@ -638,7 +647,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "it",
@@ -665,7 +674,7 @@
         ]
       },
       {
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "you",
@@ -690,7 +699,7 @@
         ]
       },
       {
-        "use": "Mixed",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "I",
@@ -829,7 +838,7 @@
         "wrongReasons": [
           "",
           "‘If I known’ is wrong: with ‘if’ you need ‘had’ after the subject.",
-          "‘Did’ can never start an inverted conditional.",
+          "‘Did’ can’t start an inverted conditional.",
           "‘Were I known’ is passive and changes the meaning."
         ],
         "explain": "Third conditional inversion: Had + subject + past participle."
@@ -863,7 +872,7 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Inverted second conditionals always use ‘were’, never ‘was’.",
+          "Use ‘were’, not ‘was’, in an inverted second conditional.",
           "‘Had I in your shoes’ has no participle and makes no sense.",
           "",
           "‘Should I in your shoes’ needs a verb."
@@ -936,7 +945,7 @@
         "correct": 3,
         "wrongReasons": [
           "Negative inversion isn’t contracted: ‘Had we not…’.",
-          "Never keep ‘if’ with inversion.",
+          "Drop ‘if’ when you invert.",
           "‘Did’ cannot invert.",
           ""
         ],
@@ -971,8 +980,8 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "Inverted negatives are never contracted.",
-          "Never keep ‘if’ with inversion.",
+          "Inverted negatives aren’t contracted.",
+          "Drop ‘if’ when you invert.",
           "",
           "‘Not’ goes after the subject: Should you not…"
         ],
@@ -1062,9 +1071,9 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Did’ never inverts in conditionals.",
+          "‘Did’ doesn’t invert in conditionals.",
           "‘Would’ goes in the result, not the condition.",
-          "‘Will’ never starts a condition."
+          "‘Will’ doesn’t start a condition."
         ],
         "explain": "Only should, were and had invert in conditionals."
       },
@@ -1241,24 +1250,18 @@
       },
       {
         "tokens": [
-          "Did",
+          "Had",
           "I",
-          "know",
-          "the",
-          "answer,",
+          "known,",
           "I",
           "would",
-          "tell",
+          "told",
           "you."
         ],
-        "errorIndex": 0,
-        "correction": "Were I to know",
-        "type": "Wrong auxiliary",
-        "message": "‘Did’ can’t invert. Use ‘Were I to know…’ or ‘If I knew…’.",
-        "errorSpan": [
-          0,
-          2
-        ]
+        "errorIndex": 5,
+        "correction": "have told",
+        "type": "Result",
+        "message": "The result of a past condition is ‘would have’ + participle: ‘would have told’."
       },
       {
         "tokens": [
@@ -1289,7 +1292,7 @@
         "errorIndex": 0,
         "correction": "Were",
         "type": "Wrong auxiliary",
-        "message": "Inverted second conditionals always use ‘were’."
+        "message": "Inverted second conditionals use ‘were’."
       },
       {
         "tokens": [
@@ -1507,16 +1510,20 @@
         "tokens": [
           "Should",
           "you",
-          "recieve",
-          "this",
-          "message,",
-          "please",
-          "reply."
+          "to",
+          "need",
+          "help,",
+          "ask",
+          "us."
         ],
         "errorIndex": 2,
-        "correction": "receive",
-        "type": "Spelling",
-        "message": "Spelling: ‘receive’ — e before i after c."
+        "correction": "need",
+        "type": "Extra word",
+        "message": "After ‘should’ use the base verb without ‘to’: ‘Should you need help…’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       }
     ]
   },
@@ -1578,7 +1585,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Had she {{blank}} called, I would have forgotten.",
-        "hint": "not",
+        "hint": "(negative word)",
         "answers": [
           "not"
         ],
@@ -1588,7 +1595,7 @@
       },
       {
         "type": "order",
-        "use": "Had",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "I",
@@ -1612,7 +1619,7 @@
       },
       {
         "type": "order",
-        "use": "Should",
+        "use": "Inverted conditional",
         "tokens": [
           "Should",
           "you",
@@ -1632,7 +1639,7 @@
       },
       {
         "type": "order",
-        "use": "Were",
+        "use": "Inverted conditional",
         "tokens": [
           "Were",
           "I",
@@ -1654,7 +1661,7 @@
       },
       {
         "type": "order",
-        "use": "Negative",
+        "use": "Inverted conditional",
         "tokens": [
           "Had",
           "we",
@@ -1788,7 +1795,7 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "Never keep ‘if’ with inversion.",
+          "Drop ‘if’ when you invert.",
           "No ‘will’ after ‘should’.",
           "No -s after ‘should’."
         ],
@@ -1828,7 +1835,7 @@
           "No contracted negatives in inversion.",
           "",
           "‘Not’ goes after the subject.",
-          "Never keep ‘if’."
+          "Drop ‘if’ when you invert."
         ],
         "explain": "Were it not for… = Without…"
       },
