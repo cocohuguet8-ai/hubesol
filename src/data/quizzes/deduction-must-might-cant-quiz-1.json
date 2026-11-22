@@ -5,18 +5,28 @@
   "items": [
     {
       "question": "The lights are on and I can hear music. Someone ___ be home.",
-      "options": ["can't", "must", "mustn't", "should"],
+      "options": [
+        "can't",
+        "must",
+        "mustn't",
+        "must to"
+      ],
       "answer": 1,
       "explanations": [
         "'Can't be home' contradicts the evidence.",
         "Correct! Strong evidence = 'must be home'.",
         "'Mustn't' is a prohibition, not a deduction.",
-        "'Should be home' is weaker than the evidence suggests."
+        "'Must' isn't followed by 'to'."
       ]
     },
     {
       "question": "He's not answering. He ___ be asleep, but I'm not sure.",
-      "options": ["might", "must", "can't", "mustn't"],
+      "options": [
+        "might",
+        "must",
+        "can't",
+        "mustn't"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! An uncertain guess takes 'might be'.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "That ___ be Sara — she's abroad this week.",
-      "options": ["might", "must", "can't", "mustn't"],
+      "options": [
+        "might",
+        "must",
+        "can't",
+        "mustn't"
+      ],
       "answer": 2,
       "explanations": [
         "'Might be' is too uncertain given the evidence.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "She's been working all night. She ___ be exhausted.",
-      "options": ["may not", "can't", "mustn't", "must"],
+      "options": [
+        "may not",
+        "can't",
+        "mustn't",
+        "must"
+      ],
       "answer": 3,
       "explanations": [
         "'May not be' is too uncertain here.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "I'm not certain, but the keys ___ be in the car.",
-      "options": ["can't", "must", "could", "mustn't"],
+      "options": [
+        "can't",
+        "must",
+        "could",
+        "mustn't"
+      ],
       "answer": 2,
       "explanations": [
         "'Can't be' means it's impossible.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "He earns very little, so he ___ be rich.",
-      "options": ["can't", "must", "might", "should"],
+      "options": [
+        "can't",
+        "must",
+        "might",
+        "should"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! The evidence says it's impossible: 'can't be rich'.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "Choose the correct form: 'She ___ tired.'",
-      "options": ["must to be", "must be", "must being", "must been"],
+      "options": [
+        "must to be",
+        "must be",
+        "must being",
+        "must been"
+      ],
       "answer": 1,
       "explanations": [
         "'Must to be' wrongly adds 'to'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "Which modal means you're almost sure something is FALSE?",
-      "options": ["could", "must", "might", "can't"],
+      "options": [
+        "could",
+        "must",
+        "might",
+        "can't"
+      ],
       "answer": 3,
       "explanations": [
         "'Could' = it's possible.",
@@ -102,7 +142,7 @@
       "answer": 2,
       "explanations": [
         "'Doesn't must' is not correct English.",
-        "'Mustn't' is never used for deductions, and 'to' is wrong.",
+        "'Mustn't' isn't used for deductions, and 'to' is wrong.",
         "Correct! A negative deduction takes 'can't be'.",
         "'Mustn't' can't be used for a deduction."
       ]
@@ -128,10 +168,15 @@
       "kind": "Fill in the gap",
       "question": "She's been awake for 30 hours. She ___ be exhausted. (almost sure)",
       "hint": "Type one word.",
-      "answers": ["must"],
+      "answers": [
+        "must"
+      ],
       "explanation": "'Must' = almost certain it's true.",
       "common": [
-        {"answer": "might", "why": "'Might' is only possible. You're almost sure, so 'must'."}
+        {
+          "answer": "might",
+          "why": "'Might' is only possible. You're almost sure, so 'must'."
+        }
       ]
     },
     {
@@ -139,7 +184,12 @@
       "kind": "Correct the mistake",
       "question": "That mustn't be the right address.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["That can't be the right address"],
+      "answers": [
+        "That can't be the right address",
+        "That can’t be the right address",
+        "That can't be the right address.",
+        "That can’t be the right address."
+      ],
       "explanation": "The negative of a deduction 'must' is 'can't'."
     },
     {
@@ -147,10 +197,17 @@
       "kind": "Fill in the gap",
       "question": "I don't know where he is. He ___ be at the gym. (possible, not sure)",
       "hint": "Type one word.",
-      "answers": ["might", "may", "could"],
+      "answers": [
+        "might",
+        "may",
+        "could"
+      ],
       "explanation": "Possible but uncertain: might, may or could.",
       "common": [
-        {"answer": "must", "why": "'Must' means you're almost sure. You said you don't know."}
+        {
+          "answer": "must",
+          "why": "'Must' means you're almost sure. You said you don't know."
+        }
       ]
     }
   ]
