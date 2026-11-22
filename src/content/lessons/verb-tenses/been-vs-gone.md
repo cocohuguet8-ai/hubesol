@@ -9,7 +9,7 @@ answerLead: "Both come from 'go', but they tell you where the person is now:"
 answerPoints:
   - "have been (to) = went and returned (I've been to the shops — I'm back)."
   - "have gone (to) = went and is still there (He's gone to work — he's out)."
-answerNote: "'Been' can also mean 'visited in your life' (I've been to Japan). 'Gone' always means the person is still away."
+answerNote: "'Been' can also mean 'visited in your life' (I've been to Japan). In this sense 'gone' means the person is still away."
 quiz: "been-vs-gone-quiz-1"
 faq:
   - q: "What's the difference between 'has been' and 'has gone'?"
