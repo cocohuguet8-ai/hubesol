@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "Oh, the phone's ringing. — I ___ it.",
-      "options": ["'ll get", "'m going to get", "get", "got"],
+      "options": [
+        "'ll get",
+        "'m going to get",
+        "get",
+        "got"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A decision made as you speak takes will: 'I'll get it.'",
@@ -16,7 +21,12 @@
     },
     {
       "question": "We ___ paint the house next month — we've already bought the paint.",
-      "options": ["will", "painted", "paint", "are going to"],
+      "options": [
+        "will",
+        "painted",
+        "paint",
+        "are going to"
+      ],
       "answer": 3,
       "explanations": [
         "'Will' suggests deciding now, but the plan (and the paint) came before.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "I think Spain ___ the match — they're the better team.",
-      "options": ["are winning", "win", "will win", "won"],
+      "options": [
+        "are winning",
+        "win",
+        "will win",
+        "won"
+      ],
       "answer": 2,
       "explanations": [
         "'Are winning' is happening now, not a prediction about the result.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "Careful! You ___ drop those plates!",
-      "options": ["will", "are going to", "drop", "dropped"],
+      "options": [
+        "will",
+        "are going to",
+        "drop",
+        "dropped"
+      ],
       "answer": 1,
       "explanations": [
         "'Will' is a general prediction, but here you can see it about to happen — use going to.",
@@ -49,18 +69,28 @@
     },
     {
       "question": "Don't worry, I ___ tell anyone your secret.",
-      "options": ["didn't", "am not going to", "don't", "won't"],
+      "options": [
+        "didn't",
+        "not",
+        "don't",
+        "won't"
+      ],
       "answer": 3,
       "explanations": [
         "'Didn't' is past simple, but the promise is about the future.",
-        "'Am not going to' states a plan, but a reassurance/promise normally uses won't.",
+        "'I not tell' is wrong: use the contraction 'won't' for a promise.",
         "'Don't' is present simple, not a promise about the future.",
         "Correct! A promise takes will (here the negative won't): 'I won't tell anyone.'"
       ]
     },
     {
       "question": "A: It's cold in here. B: ___ close the window.",
-      "options": ["I'm going to", "I'll", "I close", "I closed"],
+      "options": [
+        "I'm going to",
+        "I'll",
+        "I close",
+        "I closed"
+      ],
       "answer": 1,
       "explanations": [
         "'I'm going to' suggests a plan made earlier, but this is an on-the-spot reaction.",
@@ -71,7 +101,12 @@
     },
     {
       "question": "She ___ study law — she's already enrolled at university.",
-      "options": ["will", "studies", "is going to", "studied"],
+      "options": [
+        "will",
+        "studies",
+        "is going to",
+        "studied"
+      ],
       "answer": 2,
       "explanations": [
         "'Will' suggests deciding now, but she already enrolled, so the plan is set.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "Look at the sky — it ___ snow soon.",
-      "options": ["is going to", "will", "snows", "snowed"],
+      "options": [
+        "is going to",
+        "will",
+        "snows",
+        "snowed"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! A prediction from present evidence takes going to: 'it's going to snow'.",
@@ -93,7 +133,12 @@
     },
     {
       "question": "Choose the sentence with the same meaning as: 'I've already decided to sell my car.'",
-      "options": ["I'll sell my car.", "I sell my car.", "I'm going to sell my car.", "I sold my car."],
+      "options": [
+        "I'll sell my car.",
+        "I sell my car.",
+        "I'm going to sell my car.",
+        "I sold my car."
+      ],
       "answer": 2,
       "explanations": [
         "'I'll sell' suggests deciding at this moment, but you've already decided.",
@@ -104,24 +149,33 @@
     },
     {
       "question": "This bag looks really heavy. — ___ I carry it for you?",
-      "options": ["Shall", "Will", "Am", "Going"],
+      "options": [
+        "Shall",
+        "Will",
+        "Do"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! An offer with 'I' uses 'Shall I…?': 'Shall I carry it for you?'.",
         "'Will I carry' isn't used to offer help; use 'Shall I?'.",
-        "'Am I carry' isn't correct English.",
-        "'Going I carry' isn't a valid structure. Use 'Shall I…?'."
+        "'Do I carry' is not used for offers: use 'Shall I…?'."
       ]
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "The phone's ringing. — I ___ it. (get)",
-      "hint": "Type two words.",
-      "answers": ["will get", "'ll get"],
+      "hint": "Type the future form.",
+      "answers": [
+        "will get",
+        "'ll get"
+      ],
       "explanation": "Instant decision: will.",
       "common": [
-        {"answer": "am going to get", "why": "Decisions made as you speak take 'will'."}
+        {
+          "answer": "am going to get",
+          "why": "Decisions made as you speak take 'will'."
+        }
       ]
     },
     {
@@ -140,7 +194,10 @@
       "kind": "Correct the mistake",
       "question": "It rains tomorrow.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["It will rain tomorrow", "It's going to rain tomorrow"],
+      "answers": [
+        "It will rain tomorrow",
+        "It's going to rain tomorrow"
+      ],
       "explanation": "Predictions use will or going to."
     }
   ]
