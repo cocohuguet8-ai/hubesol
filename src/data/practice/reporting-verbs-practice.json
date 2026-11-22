@@ -16,7 +16,7 @@
     "subtitle": "Type the verb form that follows the reporting verb: to + infinitive, -ing, or the missing preposition. Twenty original sentences.",
     "questions": [
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "before": "“I’ll carry your bag.” → He offered",
         "after": "my bag.",
         "hint": "(carry)",
@@ -27,7 +27,7 @@
         "explain": "‘Offer’ is followed by to + infinitive."
       },
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "before": "“I promise I’ll call you.” → She promised",
         "after": "me.",
         "hint": "(call)",
@@ -38,18 +38,19 @@
         "explain": "‘Promise’ is followed by to + infinitive."
       },
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "before": "“No, I won’t apologise.” → He refused",
         "after": ".",
         "hint": "(apologise)",
         "answers": [
-          "to apologise"
+          "to apologise",
+          "to apologize"
         ],
         "display": "to apologise",
         "explain": "‘Refuse’ is followed by to + infinitive."
       },
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "before": "“OK, I’ll help.” → My brother agreed",
         "after": ".",
         "hint": "(help)",
@@ -60,7 +61,7 @@
         "explain": "‘Agree’ is followed by to + infinitive."
       },
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "before": "“Be quiet or I’ll call the police!” → He threatened",
         "after": "the police.",
         "hint": "(call)",
@@ -71,7 +72,7 @@
         "explain": "‘Threaten’ is followed by to + infinitive."
       },
       {
-        "use": "Person + to",
+        "use": "Reporting verb",
         "before": "“You should see a doctor.” → She advised me",
         "after": "a doctor.",
         "hint": "(see)",
@@ -82,7 +83,7 @@
         "explain": "‘Advise’ + person + to + infinitive."
       },
       {
-        "use": "Person + to",
+        "use": "Reporting verb",
         "before": "“Go on, enter the competition!” → My teacher encouraged me",
         "after": "the competition.",
         "hint": "(enter)",
@@ -93,7 +94,7 @@
         "explain": "‘Encourage’ + person + to + infinitive."
       },
       {
-        "use": "Person + to",
+        "use": "Reporting verb",
         "before": "“Don’t forget to lock the door.” → Dad reminded me",
         "after": "the door.",
         "hint": "(lock)",
@@ -104,7 +105,7 @@
         "explain": "‘Remind’ + person + to + infinitive."
       },
       {
-        "use": "Person + to",
+        "use": "Reporting verb",
         "before": "“Don’t swim there.” → The lifeguard warned us",
         "after": "there.",
         "hint": "(not swim)",
@@ -115,29 +116,32 @@
         "explain": "‘Warn’ + person + not to + infinitive."
       },
       {
-        "use": "-ing",
+        "use": "Reporting verb",
         "before": "“Yes, I ate the last biscuit.” → He admitted",
         "after": "the last biscuit.",
         "hint": "(eat)",
         "answers": [
-          "eating"
+          "eating",
+          "having eaten",
+          "to eating"
         ],
         "display": "eating",
-        "explain": "‘Admit’ is followed by -ing."
+        "explain": "‘Admit’ is followed by -ing. (‘admitted to eating’ also works.)"
       },
       {
-        "use": "-ing",
+        "use": "Reporting verb",
         "before": "“I didn’t break the window!” → She denied",
         "after": "the window.",
         "hint": "(break)",
         "answers": [
-          "breaking"
+          "breaking",
+          "having broken"
         ],
         "display": "breaking",
         "explain": "‘Deny’ is followed by -ing."
       },
       {
-        "use": "-ing",
+        "use": "Reporting verb",
         "before": "“Let’s go to the cinema.” → Pau suggested",
         "after": "to the cinema.",
         "hint": "(go)",
@@ -148,7 +152,7 @@
         "explain": "‘Suggest’ is followed by -ing (or that…)."
       },
       {
-        "use": "-ing",
+        "use": "Reporting verb",
         "before": "“You should try the paella.” → The waiter recommended",
         "after": "the paella.",
         "hint": "(try)",
@@ -159,7 +163,7 @@
         "explain": "‘Recommend’ is followed by -ing."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "before": "“Sorry I’m late.” → She apologised",
         "after": "being late.",
         "hint": "for / of",
@@ -170,7 +174,7 @@
         "explain": "‘Apologise’ takes ‘for’ + -ing."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "before": "“I’ll pay — I insist!” → He insisted",
         "after": "paying.",
         "hint": "on / to",
@@ -181,7 +185,7 @@
         "explain": "‘Insist’ takes ‘on’ + -ing."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "before": "“You cheated!” → They accused him",
         "after": "cheating.",
         "hint": "of / for",
@@ -192,18 +196,19 @@
         "explain": "‘Accuse’ + person + of + -ing."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "before": "“Well done on winning!” → Everyone congratulated her",
         "after": "winning.",
         "hint": "on / for",
         "answers": [
-          "on"
+          "on",
+          "for"
         ],
         "display": "on",
-        "explain": "‘Congratulate’ + person + on + -ing."
+        "explain": "‘Congratulate’ + person + on + -ing. (‘congratulate someone for’ is also used.)"
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "before": "“Thanks for helping me.” → She thanked me",
         "after": "helping her.",
         "hint": "for / of",
@@ -214,18 +219,19 @@
         "explain": "‘Thank’ + person + for + -ing."
       },
       {
-        "use": "After preposition",
+        "use": "Reporting verb",
         "before": "“It’s your fault we lost!” → He blamed me for",
         "after": "the match.",
         "hint": "(lose)",
         "answers": [
-          "losing"
+          "losing",
+          "having lost"
         ],
         "display": "losing",
         "explain": "After a preposition use -ing: for losing."
       },
       {
-        "use": "That clause",
+        "use": "Reporting verb",
         "before": "“The train was delayed.” → She explained",
         "after": "the train had been delayed.",
         "hint": "that / to",
@@ -472,7 +478,7 @@
         "right": "agreed"
       },
       {
-        "left": "“You should rest.”",
+        "left": "“My advice is: see a doctor.”",
         "right": "advised"
       },
       {
@@ -544,7 +550,7 @@
     "showHintVerb": false,
     "questions": [
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "text": "“I’ll do the washing-up.” → He offered <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the washing-up.",
         "choices": [
           "to do",
@@ -562,7 +568,7 @@
         "explain": "‘Offer’ + to + infinitive: offered to do."
       },
       {
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "text": "“I won’t tell you!” → She refused <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me.",
         "choices": [
           "telling",
@@ -580,7 +586,7 @@
         "explain": "‘Refuse’ + to + infinitive: refused to tell."
       },
       {
-        "use": "Person + to",
+        "use": "Reporting verb",
         "text": "“You should talk to the teacher.” → Mum advised <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to the teacher.",
         "choices": [
           "to talk me",
@@ -598,7 +604,7 @@
         "explain": "‘Advise’ + person + to + infinitive."
       },
       {
-        "use": "-ing",
+        "use": "Reporting verb",
         "text": "“Yes, I lied.” → He admitted <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "to lie",
@@ -616,7 +622,7 @@
         "explain": "‘Admit’ + -ing (or that…)."
       },
       {
-        "use": "-ing",
+        "use": "Reporting verb",
         "text": "“I didn’t take your phone!” → She denied <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my phone.",
         "choices": [
           "to take",
@@ -634,7 +640,7 @@
         "explain": "‘Deny’ + -ing."
       },
       {
-        "use": "Suggest",
+        "use": "Reporting verb",
         "text": "“Let’s eat out tonight.” → Laia suggested <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> out.",
         "choices": [
           "to eat",
@@ -652,7 +658,7 @@
         "explain": "‘Suggest’ + -ing, or suggest that + clause."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "text": "“Sorry I forgot.” → He apologised <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> forgetting.",
         "choices": [
           "of",
@@ -670,7 +676,7 @@
         "explain": "‘Apologise for’ + -ing."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "text": "“You broke it!” → She accused me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> breaking it.",
         "choices": [
           "of",
@@ -688,17 +694,17 @@
         "explain": "‘Accuse’ + person + of + -ing."
       },
       {
-        "use": "Preposition",
+        "use": "Reporting verb",
         "text": "“Congratulations on your new job!” → They congratulated him <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> his new job.",
         "choices": [
-          "for",
+          "to",
           "of",
           "on",
           "about"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Congratulate for’ is a common mistake.",
+          "‘Congratulate to’ is wrong.",
           "‘Congratulate of’ is wrong.",
           "",
           "‘Congratulate about’ is wrong."
@@ -706,7 +712,7 @@
         "explain": "‘Congratulate’ + person + on."
       },
       {
-        "use": "After preposition",
+        "use": "Reporting verb",
         "text": "He insisted on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for dinner.",
         "choices": [
           "to pay",
@@ -716,7 +722,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "After a preposition we never use a to-infinitive.",
+          "After a preposition we don’t use a to-infinitive.",
           "After a preposition use -ing.",
           "‘Paid’ is past.",
           ""
@@ -724,7 +730,7 @@
         "explain": "Preposition + -ing: insisted on paying."
       },
       {
-        "use": "Person or not",
+        "use": "Reporting verb",
         "text": "Which sentence is correct?",
         "choices": [
           "She offered to help me.",
@@ -742,7 +748,7 @@
         "explain": "‘Offer’ + to + infinitive (+ object after)."
       },
       {
-        "use": "Person or not",
+        "use": "Reporting verb",
         "text": "Which sentence is correct?",
         "choices": [
           "He persuaded to stay me.",
@@ -760,7 +766,7 @@
         "explain": "‘Persuade’ + person + to + infinitive."
       },
       {
-        "use": "Function",
+        "use": "Reporting verb",
         "text": "“If you don’t stop, I’ll call your parents!” → He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to call my parents.",
         "choices": [
           "promised",
@@ -778,7 +784,7 @@
         "explain": "A warning with a bad consequence: threaten."
       },
       {
-        "use": "Function",
+        "use": "Reporting verb",
         "text": "“Why don’t you try the new café?” → She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> trying the new café.",
         "choices": [
           "suggested",
@@ -796,7 +802,7 @@
         "explain": "An idea for someone: suggest + -ing."
       },
       {
-        "use": "Function",
+        "use": "Reporting verb",
         "text": "“It wasn’t me who ate it!” → He <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> eating it.",
         "choices": [
           "admitted",
@@ -814,7 +820,7 @@
         "explain": "Say something isn’t true: deny."
       },
       {
-        "use": "Remind",
+        "use": "Reporting verb",
         "text": "“Remember to take your umbrella.” → She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me to take my umbrella.",
         "choices": [
           "remembered",
@@ -832,7 +838,7 @@
         "explain": "‘Remind’ + person + to."
       },
       {
-        "use": "That clause",
+        "use": "Reporting verb",
         "text": "“The shop is closed on Sundays.” → He explained <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the shop was closed on Sundays.",
         "choices": [
           "that",
@@ -850,7 +856,7 @@
         "explain": "‘Explain’ + (to + person) + that + clause."
       },
       {
-        "use": "Blame",
+        "use": "Reporting verb",
         "text": "“You made us late!” → She blamed me <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> making us late.",
         "choices": [
           "of",
@@ -868,7 +874,7 @@
         "explain": "‘Blame’ + person + for + -ing."
       },
       {
-        "use": "Thank",
+        "use": "Reporting verb",
         "text": "“Thanks for the lift.” → He thanked her <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the lift.",
         "choices": [
           "of",
@@ -886,7 +892,7 @@
         "explain": "‘Thank’ + person + for."
       },
       {
-        "use": "Agree",
+        "use": "Reporting verb",
         "text": "“Fine, I’ll lend you my car.” → My dad agreed <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> me his car.",
         "choices": [
           "lending",
@@ -1016,7 +1022,7 @@
           "We",
           "congratulated",
           "her",
-          "for",
+          "of",
           "winning."
         ],
         "errorIndex": 3,
@@ -1171,14 +1177,17 @@
       {
         "tokens": [
           "They",
-          "threatend",
-          "to",
-          "leave."
+          "threatened",
+          "leaving."
         ],
-        "errorIndex": 1,
-        "correction": "threatened",
-        "type": "Spelling",
-        "message": "Spelling: ‘threatened’."
+        "errorIndex": 2,
+        "correction": "to leave.",
+        "type": "Wrong pattern",
+        "message": "‘Threaten’ + to + infinitive: ‘threatened to leave’.",
+        "errorSpan": [
+          2,
+          2
+        ]
       }
     ]
   },
@@ -1202,19 +1211,19 @@
     "items": [
       {
         "type": "fill",
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "sentText": "“I’ll drive you home.” → She offered {{blank}} me home.",
         "hint": "drive",
         "answers": [
           "to drive"
         ],
         "display": "to drive",
-        "explain": "‘Offer’ is always followed by to + infinitive.",
+        "explain": "‘Offer’ is followed by to + infinitive.",
         "wrongNote": "Offer → to + verb."
       },
       {
         "type": "fill",
-        "use": "-ing",
+        "use": "Reporting verb",
         "sentText": "“OK, it was me.” → He admitted {{blank}} the glass.",
         "hint": "break",
         "answers": [
@@ -1226,19 +1235,19 @@
       },
       {
         "type": "fill",
-        "use": "Preposition",
+        "use": "Reporting verb",
         "sentText": "“Sorry for shouting.” → She apologised {{blank}} shouting.",
         "hint": "for / of",
         "answers": [
           "for"
         ],
         "display": "for",
-        "explain": "‘Apologise’ always takes ‘for’ before the -ing form.",
+        "explain": "‘Apologise’ takes ‘for’ before the -ing form.",
         "wrongNote": "Apologise → for."
       },
       {
         "type": "fill",
-        "use": "Person + to",
+        "use": "Reporting verb",
         "sentText": "“You should apply.” → My teacher encouraged me {{blank}}.",
         "hint": "apply",
         "answers": [
@@ -1371,18 +1380,18 @@
       },
       {
         "type": "mc",
-        "use": "to-infinitive",
+        "use": "Reporting verb",
         "text": "“I promise I won’t be late.” → She promised {{blank}} late.",
         "choices": [
           "not being",
-          "to not been",
+          "to being",
           "not to be",
           "don’t be"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Promise’ takes to + infinitive.",
-          "‘To not been’ is wrong.",
+          "‘To being’ is wrong after ‘promise’.",
           "",
           "‘Don’t’ disappears."
         ],
@@ -1390,7 +1399,7 @@
       },
       {
         "type": "mc",
-        "use": "Suggest",
+        "use": "Reporting verb",
         "text": "“Let’s take the bus.” → He suggested {{blank}} the bus.",
         "choices": [
           "taking",
@@ -1409,18 +1418,18 @@
       },
       {
         "type": "mc",
-        "use": "Preposition",
+        "use": "Reporting verb",
         "text": "They complained {{blank}} the noise.",
         "choices": [
           "for",
-          "of",
+          "to",
           "on",
           "about"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Complain for’ is wrong.",
-          "‘Complain of’ is for illness.",
+          "‘Complain to’ needs a person: complain to someone.",
           "‘Complain on’ is wrong.",
           ""
         ],
@@ -1428,7 +1437,7 @@
       },
       {
         "type": "mc",
-        "use": "Explain",
+        "use": "Reporting verb",
         "text": "She explained {{blank}} the meeting had been cancelled.",
         "choices": [
           "me that",
