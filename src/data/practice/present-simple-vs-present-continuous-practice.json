@@ -95,7 +95,7 @@
         "kind": "question",
         "before": "What",
         "after": "you doing at the moment?",
-        "hint": "(do / are)",
+        "hint": "(auxiliary)",
         "answers": [
           "are"
         ],
@@ -107,7 +107,7 @@
         "kind": "question",
         "before": "How often",
         "after": "you go to the gym?",
-        "hint": "(do / are)",
+        "hint": "(auxiliary)",
         "answers": [
           "do"
         ],
@@ -151,10 +151,11 @@
           "is working",
           "'s working",
           "s working",
-          "’s working"
+          "’s working",
+          "works"
         ],
         "display": "is working",
-        "explain": "‘This summer’ is a temporary job — use the present continuous."
+        "explain": "‘This summer’ is temporary: ‘is working’ (‘works’ is also possible for a regular summer job)."
       },
       {
         "use": "Stative verb",
@@ -200,7 +201,7 @@
         "kind": "question",
         "before": "Where",
         "after": "your brother live?",
-        "hint": "(does / is)",
+        "hint": "(auxiliary)",
         "answers": [
           "does"
         ],
@@ -266,7 +267,7 @@
         "kind": "question",
         "before": "Why",
         "after": "you laughing?",
-        "hint": "(do / are)",
+        "hint": "(auxiliary)",
         "answers": [
           "are"
         ],
@@ -688,7 +689,7 @@
         "right": "Present Simple"
       },
       {
-        "left": "currently",
+        "left": "Hurry up!",
         "right": "Present Continuous"
       }
     ]
@@ -782,7 +783,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong form: ‘love’ is a stative verb, so it is not used in the continuous.",
+          "‘Love’ is normally a stative verb, so the continuous is not used in careful English.",
           "",
           "Subject-verb agreement: with ‘I’ use ‘love’, not ‘loves’.",
           "Wrong tense: ‘it’s my favourite’ is about now, not the past."
@@ -1006,8 +1007,8 @@
         "explain": "‘Every day’ is a regular pattern — present simple."
       },
       {
-        "use": "Temporary",
-        "text": "My class <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a book about Barcelona this term.",
+        "use": "Now",
+        "text": "My class <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a book about Barcelona right now.",
         "choices": [
           "reads",
           "is reading",
@@ -1016,9 +1017,9 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong tense: ‘this term’ shows a temporary activity — use the present continuous.",
+          "Wrong tense: ‘right now’ shows an action in progress — use the present continuous.",
           "",
-          "Wrong form: ‘my class’ is singular, and this term’s activity is in progress.",
+          "Wrong form: ‘my class’ is singular, and right now’s activity is in progress.",
           "Subject-verb agreement: ‘my class’ is singular — use ‘is’, not ‘are’."
         ],
         "explain": "‘This term’ — a temporary activity: present continuous."
