@@ -962,14 +962,14 @@
         "choices": [
           "will have earned",
           "earn",
-          "will earning",
+          "will have earn",
           "earned"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Wrong tense: a completed future action needs will have + past participle, not the present simple.",
-          "Wrong form: the future perfect is will have + past participle.",
+          "After ‘will have’ use the past participle: ‘earned’.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
         "explain": "An action completed before a future point — use will have + past participle."
@@ -1015,14 +1015,14 @@
         "text": "By the time we get there, the shop <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "will have closed",
-          "closes",
+          "will closed",
           "will have close",
           "closed"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Wrong tense: a completed future action needs will have + past participle, not the present simple.",
+          "‘Will closed’ is missing ‘have’: ‘will have closed’.",
           "Wrong form: the future perfect is will have + past participle.",
           "Wrong tense: the sentence is about the future, not the past."
         ],
@@ -1231,19 +1231,15 @@
           "ten",
           "I",
           "will",
-          "be",
+          "have",
           "finishing",
           "the",
           "report."
         ],
         "errorIndex": 5,
-        "correction": "have finished",
-        "type": "Future continuous",
-        "message": "Completed, not in progress: use will have + past participle.",
-        "errorSpan": [
-          4,
-          5
-        ]
+        "correction": "finished",
+        "type": "Wrong participle",
+        "message": "After ‘will have’ use the past participle: ‘finished’."
       },
       {
         "tokens": [
@@ -1364,12 +1360,16 @@
           "there,",
           "the",
           "shop",
-          "closes."
+          "closed."
         ],
         "errorIndex": 8,
         "correction": "will have closed.",
-        "type": "Present simple",
-        "message": "A completed future action: use will have + past participle."
+        "type": "Past simple",
+        "message": "A completed future action needs will have + past participle: ‘will have closed’.",
+        "errorSpan": [
+          8,
+          8
+        ]
       },
       {
         "tokens": [
@@ -1432,10 +1432,14 @@
           "ten",
           "years."
         ],
-        "errorIndex": 7,
+        "errorIndex": 6,
         "correction": "lived",
         "type": "Wrong participle",
-        "message": "After ‘will have’ use the past participle."
+        "message": "After ‘will have’ use the past participle.",
+        "errorSpan": [
+          6,
+          6
+        ]
       },
       {
         "tokens": [
@@ -1463,20 +1467,16 @@
           "Sunday",
           "we",
           "will",
-          "be",
-          "selling",
+          "had",
+          "sold",
           "all",
           "the",
           "tickets."
         ],
-        "errorIndex": 5,
-        "correction": "have sold",
-        "type": "Future continuous",
-        "message": "Completed, not in progress: use will have + past participle.",
-        "errorSpan": [
-          4,
-          5
-        ]
+        "errorIndex": 4,
+        "correction": "have",
+        "type": "Wrong auxiliary",
+        "message": "After ‘will’ use ‘have’, not ‘had’: ‘will have sold’."
       },
       {
         "tokens": [
