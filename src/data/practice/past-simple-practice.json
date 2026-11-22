@@ -1047,18 +1047,17 @@
       },
       {
         "tokens": [
-          "My",
-          "sister",
-          "buyed",
-          "a",
-          "new",
-          "bag",
-          "yesterday."
+          "Did",
+          "she",
+          "bought",
+          "the",
+          "tickets",
+          "yesterday?"
         ],
         "errorIndex": 2,
-        "correction": "bought",
-        "type": "Wrong irregular form",
-        "message": "‘Buy’ is irregular: buy → bought, not ‘buyed’."
+        "correction": "buy",
+        "type": "Double marking",
+        "message": "‘Did’ already shows the past — the verb after it goes back to its base form: ‘buy’, not ‘bought’."
       },
       {
         "tokens": [
@@ -1076,32 +1075,33 @@
       },
       {
         "tokens": [
-          "After",
-          "dinner,",
-          "he",
-          "thinked",
-          "about",
+          "She",
+          "were",
+          "tired",
+          "after",
           "the",
-          "problem."
+          "long",
+          "flight."
         ],
-        "errorIndex": 3,
-        "correction": "thought",
-        "type": "Wrong irregular form",
-        "message": "‘Think’ is irregular: think → thought, not ‘thinked’."
+        "errorIndex": 1,
+        "correction": "was",
+        "type": "Past of be",
+        "message": "With ‘she’ the past of ‘be’ is ‘was’, not ‘were’."
       },
       {
         "tokens": [
-          "Everyone",
-          "bringed",
-          "something",
-          "to",
-          "the",
-          "party."
+          "They",
+          "stoped",
+          "at",
+          "a",
+          "café",
+          "for",
+          "lunch."
         ],
         "errorIndex": 1,
-        "correction": "brought",
-        "type": "Wrong irregular form",
-        "message": "‘Bring’ is irregular: bring → brought, not ‘bringed’."
+        "correction": "stopped",
+        "type": "Spelling",
+        "message": "Short verb (consonant–vowel–consonant): double the consonant — stopped."
       },
       {
         "tokens": [
@@ -1188,16 +1188,18 @@
       },
       {
         "tokens": [
-          "Last",
-          "night,",
-          "we",
-          "cook",
-          "pasta."
+          "Did",
+          "they",
+          "enjoyed",
+          "the",
+          "concert",
+          "last",
+          "night?"
         ],
-        "errorIndex": 3,
-        "correction": "cooked",
-        "type": "Wrong tense",
-        "message": "‘Last night’ is a finished time — ‘cooked’, not ‘cook’."
+        "errorIndex": 2,
+        "correction": "enjoy",
+        "type": "Double marking",
+        "message": "‘Did’ already shows the past — the verb after it goes back to its base form: ‘enjoy’, not ‘enjoyed’."
       },
       {
         "tokens": [
@@ -1215,32 +1217,32 @@
       },
       {
         "tokens": [
-          "Two",
-          "days",
-          "ago,",
-          "he",
-          "calls",
-          "his",
-          "brother."
+          "My",
+          "parents",
+          "was",
+          "at",
+          "home",
+          "all",
+          "evening."
         ],
-        "errorIndex": 4,
-        "correction": "called",
-        "type": "Wrong tense",
-        "message": "‘Ago’ marks a finished time — ‘called’, not ‘calls’."
+        "errorIndex": 2,
+        "correction": "were",
+        "type": "Past of be",
+        "message": "With ‘my parents’ (they) the past of ‘be’ is ‘were’, not ‘was’."
       },
       {
         "tokens": [
           "Last",
-          "summer,",
+          "summer",
           "I",
-          "visit",
-          "my",
-          "cousins."
+          "swimmed",
+          "every",
+          "day."
         ],
         "errorIndex": 3,
-        "correction": "visited",
-        "type": "Wrong tense",
-        "message": "‘Last summer’ is a finished time — ‘visited’, not ‘visit’."
+        "correction": "swam",
+        "type": "Wrong irregular form",
+        "message": "‘Swim’ is irregular: swim → swam, not ‘swimmed’."
       },
       {
         "tokens": [
@@ -1285,18 +1287,16 @@
       },
       {
         "tokens": [
-          "Last",
-          "week",
-          "he",
-          "doesn’t",
-          "come",
-          "to",
-          "school."
+          "We",
+          "plaied",
+          "football",
+          "all",
+          "afternoon."
         ],
-        "errorIndex": 3,
-        "correction": "didn’t",
-        "type": "Wrong negative",
-        "message": "‘Last week’ is finished — the negative is ‘didn’t’, not ‘doesn’t’."
+        "errorIndex": 1,
+        "correction": "played",
+        "type": "Spelling",
+        "message": "Vowel + y: just add -ed — play → played (no change to the y)."
       },
       {
         "tokens": [
