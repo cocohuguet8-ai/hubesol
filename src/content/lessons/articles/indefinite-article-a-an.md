@@ -10,7 +10,7 @@ answerPoints:
   - "One of many, or first mention — I need a pen; A man called earlier."
   - "Jobs and roles — He's a teacher; She works as an engineer."
   - "Meaning 'one' — a kilo, a week, an hour."
-answerNote: "Never use a/an with plurals or uncountables: not 'a shoes', not 'an advice'. Choose a or an by sound."
+answerNote: "Don't use a/an with plural nouns or with uncountables like advice: not 'a shoes', not 'an advice'. Choose a or an by sound."
 quiz: "indefinite-article-a-an-quiz-1"
 faq:
   - q: "When do I use a/an?"
@@ -105,6 +105,7 @@ When you say what someone’s job is, use *a/an* with the singular job word. (Pl
 ### 2. Uncountable nouns
 
 - ~~a water~~, ~~an information~~, ~~an advice~~ → **some water**, **some information**, **a piece of advice**
+- Some drinks can be countable when we mean a portion: **a coffee** (= a cup of coffee).
 
 > ⚠️ Typical error: ~~Can you give me an advice?~~ → *Can you give me some advice?*
 

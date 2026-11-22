@@ -33,12 +33,12 @@
           "an"
         ],
         "display": "an",
-        "explain": "Singular countable + vowel sound: ‘an umbrella’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Singular countable + vowel sound: ‘an umbrella’."
       },
       {
         "use": "Uncountable",
-        "before": "Can I have",
-        "after": "water, please?",
+        "before": "There is",
+        "after": "water on the floor.",
         "hint": "a / an / some",
         "answers": [
           "some"
@@ -55,7 +55,7 @@
           "some"
         ],
         "display": "some",
-        "explain": "‘Information’ is uncountable: no ‘an’, no plural. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Information’ is uncountable: no ‘an’, no plural."
       },
       {
         "use": "Uncountable",
@@ -77,7 +77,7 @@
           "books"
         ],
         "display": "books",
-        "explain": "After ‘three’ we need the plural: ‘books’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "After ‘three’ we need the plural: ‘books’."
       },
       {
         "use": "Plural",
@@ -88,7 +88,7 @@
           "foxes"
         ],
         "display": "foxes",
-        "explain": "Nouns ending in -x add -es: ‘foxes’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Nouns ending in -x add -es: ‘foxes’."
       },
       {
         "use": "Plural",
@@ -99,29 +99,30 @@
           "people"
         ],
         "display": "people",
-        "explain": "The plural of ‘person’ is ‘people’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "The plural of ‘person’ is ‘people’."
       },
       {
         "use": "No plural",
-        "before": "We bought some new",
+        "before": "We bought a bed, a table and a sofa: all new",
         "after": "for the flat.",
-        "hint": "furniture",
+        "hint": "furniture / furnitures",
         "answers": [
           "furniture"
         ],
         "display": "furniture",
-        "explain": "‘Furniture’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Furniture’ is uncountable: no -s."
       },
       {
         "use": "No plural",
         "before": "I have a lot of",
         "after": "tonight.",
-        "hint": "homework",
+        "hint": "homework / homeworks",
         "answers": [
-          "homework"
+          "homework",
+          "work"
         ],
         "display": "homework",
-        "explain": "‘Homework’ is uncountable: never ‘homeworks’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Homework’ is uncountable: never ‘homeworks’ (‘a lot of work’ is also fine)."
       },
       {
         "use": "Singular verb",
@@ -132,7 +133,7 @@
           "is"
         ],
         "display": "is",
-        "explain": "‘News’ is uncountable and takes a singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘News’ is uncountable and takes a singular verb."
       },
       {
         "use": "Singular verb",
@@ -154,7 +155,7 @@
           "is"
         ],
         "display": "is",
-        "explain": "‘Weather’ is uncountable: ‘is’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Weather’ is uncountable: ‘is’."
       },
       {
         "use": "Plural verb",
@@ -165,7 +166,7 @@
           "are"
         ],
         "display": "are",
-        "explain": "‘Children’ is a plural countable noun: ‘are’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Children’ is a plural countable noun: ‘are’."
       },
       {
         "use": "Many / much",
@@ -176,7 +177,7 @@
           "many"
         ],
         "display": "many",
-        "explain": "‘Brothers’ is plural countable: ‘how many’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Brothers’ is plural countable: ‘how many’."
       },
       {
         "use": "Many / much",
@@ -187,7 +188,7 @@
           "much"
         ],
         "display": "much",
-        "explain": "‘Money’ is uncountable: ‘how much’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Money’ is uncountable: ‘how much’."
       },
       {
         "use": "Many / much",
@@ -198,7 +199,7 @@
           "much"
         ],
         "display": "much",
-        "explain": "‘Milk’ is uncountable: ‘much’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Milk’ is uncountable: ‘much’."
       },
       {
         "use": "Many / much",
@@ -209,30 +210,34 @@
           "many"
         ],
         "display": "many",
-        "explain": "‘Eggs’ is plural countable: ‘many’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Eggs’ is plural countable: ‘many’."
       },
       {
         "use": "Unit word",
         "before": "Would you like a",
         "after": "of cake?",
-        "hint": "piece / slice",
+        "hint": "a unit word",
         "answers": [
           "piece",
-          "slice"
+          "slice",
+          "bit"
         ],
         "display": "piece",
-        "explain": "Use a unit word to count uncountables: ‘a piece of cake’ (‘a slice of cake’ also works)."
+        "explain": "Use a unit word to count uncountables: ‘a piece of cake’ (‘a slice of cake’ or ‘a bit of cake’ also work)."
       },
       {
         "use": "Unit word",
         "before": "I’ll have a",
         "after": "of tea, please.",
-        "hint": "cup / glass",
+        "hint": "a container",
         "answers": [
-          "cup"
+          "cup",
+          "mug",
+          "glass",
+          "pot"
         ],
         "display": "cup",
-        "explain": "We usually drink tea from a cup: ‘a cup of tea’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "We name the container: ‘a cup of tea’ (‘a mug’, ‘a glass’ or ‘a pot of tea’ also work)."
       }
     ],
     "formLabel": "word"
@@ -545,7 +550,7 @@
           "‘Many’ goes with plural countable nouns.",
           "‘Advice’ is uncountable, so it can’t take ‘a’."
         ],
-        "explain": "Uncountable: some advice. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: some advice."
       },
       {
         "use": "No plural",
@@ -554,16 +559,16 @@
           "homeworks",
           "homework",
           "a homework",
-          "homework’s"
+          "an homework"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Homework’ has no plural form.",
           "",
           "Uncountables don’t take ‘a’.",
-          "The apostrophe shows possession, not a plural."
+          "Uncountables don’t take ‘an’ either."
         ],
-        "explain": "‘Homework’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Homework’ is uncountable: no -s."
       },
       {
         "use": "Singular verb",
@@ -572,16 +577,16 @@
           "are",
           "were",
           "is",
-          "have"
+          "have been"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Information’ is uncountable: singular verb.",
           "‘Were’ is plural (or past).",
           "",
-          "‘Have’ doesn’t fit the meaning."
+          "‘Information’ takes a singular verb: not ‘have been’."
         ],
-        "explain": "Uncountable + singular verb: is. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable + singular verb: is."
       },
       {
         "use": "Many / much",
@@ -589,17 +594,17 @@
         "choices": [
           "many",
           "few",
-          "a",
+          "a lot of",
           "much"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Time’ (= amount) is uncountable: not ‘many’.",
           "‘Few’ goes with plural countables.",
-          "‘How a’ isn’t English.",
+          "‘How a lot of’ isn’t English: we say ‘how much’.",
           ""
         ],
-        "explain": "Uncountable: how much. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: how much."
       },
       {
         "use": "Many / much",
@@ -617,7 +622,7 @@
           "‘Little’ goes with uncountables.",
           "‘How a lot’ isn’t English."
         ],
-        "explain": "Plural countable: how many. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Plural countable: how many."
       },
       {
         "use": "Plural",
@@ -635,25 +640,25 @@
           "",
           "‘Womens’ is not a word."
         ],
-        "explain": "Irregular plural: women. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Irregular plural: women."
       },
       {
         "use": "Unit word",
         "text": "Could I have a <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of bread?",
         "choices": [
           "bread",
-          "some",
-          "many",
+          "part",
+          "bar",
           "slice"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘A bread of bread’ is wrong.",
-          "‘A some of’ is wrong.",
-          "‘A many of’ is wrong.",
+          "‘A bread of bread’ repeats the noun: we need a unit word.",
+          "‘A part of bread’ isn’t the usual unit: we say ‘a slice of bread’.",
+          "‘Bar’ is for chocolate or soap, not bread.",
           ""
         ],
-        "explain": "Unit word: a slice of bread. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Unit word: a slice of bread."
       },
       {
         "use": "Uncountable",
@@ -662,16 +667,16 @@
           "furniture",
           "furnitures",
           "a furniture",
-          "furniture’s"
+          "some furnitures"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Furniture’ has no plural.",
           "Uncountables don’t take ‘a’.",
-          "The apostrophe isn’t a plural."
+          "‘Furniture’ has no plural, even after ‘some’."
         ],
-        "explain": "‘Furniture’ is uncountable. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Furniture’ is uncountable."
       },
       {
         "use": "Singular verb",
@@ -689,25 +694,25 @@
           "",
           "Wrong tense and number."
         ],
-        "explain": "Mathematics is singular. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Mathematics is singular."
       },
       {
         "use": "Both",
         "text": "I’ve been to Italy three <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "time",
-          "timing",
+          "timings",
           "a time",
           "times"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Time’ meaning ‘occasion’ is countable: plural after ‘three’.",
-          "‘Timing’ is a different word.",
+          "‘Timings’ means schedules, not occasions.",
           "We need the plural.",
           ""
         ],
-        "explain": "Occasion = countable: three times. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Occasion = countable: three times."
       },
       {
         "use": "Both",
@@ -715,17 +720,17 @@
         "choices": [
           "coffees",
           "coffee",
-          "coffee’s",
-          "coffeeses"
+          "coffies",
+          "coffee’s"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "In a café, ‘coffee’ = a cup, so it’s countable.",
-          "The apostrophe isn’t a plural.",
-          "Not a word."
+          "In a café, ‘coffee’ = a cup, so it’s countable: two coffees.",
+          "‘Coffee’ + -s is spelled ‘coffees’, not ‘coffies’.",
+          "The apostrophe isn’t a plural."
         ],
-        "explain": "Two cups: two coffees. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Two cups: two coffees."
       },
       {
         "use": "Many / much",
@@ -743,7 +748,7 @@
           "Uncountables don’t take ‘a’.",
           "‘Few’ goes with countables."
         ],
-        "explain": "Uncountable: not much traffic. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: not much traffic."
       },
       {
         "use": "Uncountable",
@@ -751,17 +756,17 @@
         "choices": [
           "hairs",
           "a hair",
-          "hair’s",
-          "hair"
+          "hair",
+          "some hairs"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "Hair on your head is uncountable.",
           "Uncountable: no ‘a’.",
-          "Not a plural.",
-          ""
+          "",
+          "Hair on your head is uncountable: no plural."
         ],
-        "explain": "Head hair: uncountable. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Head hair: uncountable."
       },
       {
         "use": "Singular countable",
@@ -779,7 +784,7 @@
           "‘Much’ goes with uncountables.",
           "A singular countable noun needs an article."
         ],
-        "explain": "Singular countable: a job. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Singular countable: a job."
       },
       {
         "use": "Uncountable",
@@ -797,7 +802,7 @@
           "‘Many’ goes with countables.",
           "No ‘an’ with uncountables."
         ],
-        "explain": "Uncountable: work. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: work."
       },
       {
         "use": "Unit word",
@@ -815,7 +820,7 @@
           "",
           "Milk doesn’t come in pieces."
         ],
-        "explain": "Two bottles of milk. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Two bottles of milk."
       },
       {
         "use": "Which",
@@ -823,17 +828,17 @@
         "choices": [
           "The news is surprising.",
           "The news are surprising.",
-          "The new is surprising.",
+          "Some news are surprising.",
           "A news is surprising."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘News’ takes a singular verb.",
-          "‘The new’ is a different word.",
+          "‘News’ takes a singular verb, even after ‘some’.",
           "‘News’ doesn’t take ‘a’."
         ],
-        "explain": "‘News’ = uncountable + singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘News’ = uncountable + singular verb."
       },
       {
         "use": "Which",
@@ -851,7 +856,7 @@
           "No plural for ‘luggage’.",
           "No plural and not ‘many’."
         ],
-        "explain": "Uncountable: how much luggage. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: how much luggage."
       },
       {
         "use": "Plural",
@@ -860,16 +865,16 @@
           "glass",
           "a glass",
           "glasses",
-          "glasss"
+          "a glasses"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Glass’ (material) is different from ‘glasses’ (spectacles).",
           "‘A glass’ is for drinking.",
           "",
-          "Not a word."
+          "‘A’ can’t go with a plural."
         ],
-        "explain": "Spectacles: glasses (always plural). Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Spectacles: glasses (always plural)."
       },
       {
         "use": "Uncountable",
@@ -887,7 +892,7 @@
           "‘Many’ goes with countables.",
           ""
         ],
-        "explain": "Uncountable: some help. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: some help."
       }
     ]
   },
@@ -907,7 +912,7 @@
         "errorIndex": 5,
         "correction": "advice.",
         "type": "Plural uncountable",
-        "message": "‘Advice’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Advice’ is uncountable: no -s."
       },
       {
         "tokens": [
@@ -923,7 +928,7 @@
         "errorIndex": 3,
         "correction": "furniture",
         "type": "Plural uncountable",
-        "message": "‘Furniture’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Furniture’ is uncountable: no -s."
       },
       {
         "tokens": [
@@ -937,7 +942,7 @@
         "errorIndex": 5,
         "correction": "homework.",
         "type": "Plural uncountable",
-        "message": "‘Homework’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Homework’ is uncountable: no -s."
       },
       {
         "tokens": [
@@ -951,7 +956,7 @@
         "errorIndex": 5,
         "correction": "information?",
         "type": "Plural uncountable",
-        "message": "‘Information’ is uncountable: no -s. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Information’ is uncountable: no -s."
       },
       {
         "tokens": [
@@ -979,7 +984,7 @@
         "errorIndex": 3,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Bread’ is uncountable: ‘some bread’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Bread’ is uncountable: ‘some bread’ (or ‘a loaf of bread’)."
       },
       {
         "tokens": [
@@ -1006,7 +1011,7 @@
         "errorIndex": 2,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘Information’ is uncountable: ‘some information’."
+        "message": "‘News’ is uncountable: ‘some good news’ (or ‘a piece of good news’)."
       },
       {
         "tokens": [
@@ -1020,7 +1025,7 @@
         "errorIndex": 2,
         "correction": "is",
         "type": "Plural verb",
-        "message": "‘News’ takes a singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Information’ is uncountable: ‘some information’ (or ‘a piece of information’)."
       },
       {
         "tokens": [
@@ -1047,7 +1052,7 @@
         "errorIndex": 2,
         "correction": "is",
         "type": "Plural verb",
-        "message": "‘Money’ is uncountable: singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Money’ is uncountable: singular verb."
       },
       {
         "tokens": [
@@ -1062,7 +1067,7 @@
         "errorIndex": 2,
         "correction": "many",
         "type": "Much + countable",
-        "message": "‘Chairs’ is plural countable: ‘many’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Chairs’ is plural countable: ‘many’."
       },
       {
         "tokens": [
@@ -1089,7 +1094,7 @@
         "errorIndex": 3,
         "correction": "much",
         "type": "Many + uncountable",
-        "message": "‘Water’ is uncountable: ‘much’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Water’ is uncountable: ‘much’."
       },
       {
         "tokens": [
@@ -1102,7 +1107,7 @@
         "errorIndex": 2,
         "correction": "much",
         "type": "Many + uncountable",
-        "message": "‘Time’ is uncountable here: ‘much’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Time’ is uncountable here: ‘much’."
       },
       {
         "tokens": [
@@ -1127,20 +1132,24 @@
         "errorIndex": 1,
         "correction": "children",
         "type": "Wrong plural",
-        "message": "Irregular plural: ‘children’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "Irregular plural: ‘children’."
       },
       {
         "tokens": [
           "There",
           "are",
           "four",
-          "persons",
+          "womens",
           "waiting."
         ],
         "errorIndex": 3,
-        "correction": "people",
+        "correction": "women",
         "type": "Wrong plural",
-        "message": "Normal plural of ‘person’: ‘people’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "Irregular plural: ‘woman’ → ‘women’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1155,21 +1164,25 @@
         "errorIndex": 3,
         "correction": "dogs",
         "type": "Singular after number",
-        "message": "After ‘two’ use the plural: ‘dogs’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "After ‘two’ use the plural: ‘dogs’."
       },
       {
         "tokens": [
-          "I",
-          "drank",
-          "a",
+          "He",
+          "bought",
+          "two",
           "bottle",
           "of",
-          "tea."
+          "milk."
         ],
         "errorIndex": 3,
-        "correction": "cup",
-        "type": "Unit word",
-        "message": "We normally say ‘a cup of tea’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "correction": "bottles",
+        "type": "Singular after number",
+        "message": "After ‘two’ the unit word is plural: ‘two bottles of milk’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       }
     ]
   },
@@ -1212,7 +1225,7 @@
           "many"
         ],
         "display": "many",
-        "explain": "‘Eggs’ is plural countable: ‘how many’. Ask: can I put a number in front? Yes → countable; no → uncountable.",
+        "explain": "‘Eggs’ is plural countable: ‘how many’.",
         "wrongNote": "Countable → many."
       },
       {
@@ -1224,7 +1237,7 @@
           "is"
         ],
         "display": "is",
-        "explain": "‘News’ is uncountable: singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable.",
+        "explain": "‘News’ is uncountable: singular verb.",
         "wrongNote": "Uncountable → singular verb."
       },
       {
@@ -1236,7 +1249,7 @@
           "mice"
         ],
         "display": "mice",
-        "explain": "Irregular plural of ‘mouse’: ‘mice’. Ask: can I put a number in front? Yes → countable; no → uncountable.",
+        "explain": "Irregular plural of ‘mouse’: ‘mice’.",
         "wrongNote": "Irregular plural."
       },
       {
@@ -1299,7 +1312,7 @@
           "‘Bag’ is countable.",
           "‘Ticket’ is countable."
         ],
-        "explain": "‘Luggage’ has no plural. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "‘Luggage’ has no plural."
       },
       {
         "type": "type",
@@ -1318,7 +1331,7 @@
           "‘Gold’ (metal) is uncountable.",
           ""
         ],
-        "explain": "You can count coins: two coins. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "You can count coins: two coins."
       },
       {
         "type": "type",
@@ -1337,26 +1350,26 @@
           "Both are uncountable.",
           "Both are countable."
         ],
-        "explain": "A job (countable) / work (uncountable). Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "A job (countable) / work (uncountable)."
       },
       {
         "type": "type",
         "use": "Type",
-        "text": "Why ‘two coffees’ is correct?",
+        "text": "Why is ‘two coffees’ correct?",
         "choices": [
           "coffee is always countable",
-          "it’s a mistake",
+          "it is a mistake",
           "it means two cups",
-          "it means two kinds of milk"
+          "it is always plural"
         ],
         "correct": 2,
         "wrongReasons": [
           "Coffee as a drink in general is uncountable.",
           "It’s correct in a café.",
           "",
-          "It has nothing to do with milk."
+          "‘Coffee’ is only plural when we count cups."
         ],
-        "explain": "In a café, ‘a coffee’ = a cup of coffee. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "In a café, ‘a coffee’ = a cup of coffee."
       },
       {
         "type": "mc",
@@ -1375,7 +1388,7 @@
           "",
           "No ‘an’ with uncountables."
         ],
-        "explain": "Uncountable: some cheese. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Uncountable: some cheese."
       },
       {
         "type": "mc",
@@ -1394,7 +1407,7 @@
           "No ‘a’ with plurals.",
           "‘Little’ goes with uncountables."
         ],
-        "explain": "Plural countable: many photos. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Plural countable: many photos."
       },
       {
         "type": "mc",
@@ -1413,7 +1426,7 @@
           "‘Have’ doesn’t fit.",
           ""
         ],
-        "explain": "Physics is singular. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "explain": "Physics is singular."
       },
       {
         "type": "mc",
@@ -1427,7 +1440,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Three chocolates’ means individual sweets — different meaning.",
+          "‘Three chocolates of chocolate’ makes no sense: we need a unit word.",
           "",
           "After ‘three’ use the plural.",
           "‘Much’ doesn’t fit here."
@@ -1445,7 +1458,7 @@
         ],
         "errorIndex": 3,
         "correction": "information.",
-        "message": "‘Information’ has no plural. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Information’ has no plural."
       },
       {
         "type": "error",
@@ -1459,7 +1472,8 @@
         ],
         "errorIndex": 3,
         "correction": "some",
-        "message": "‘Advice’ is uncountable. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Advice’ is uncountable.",
+        "explain": "‘Advice’ is uncountable: ‘some advice’ (or ‘a piece of advice’)."
       },
       {
         "type": "error",
@@ -1473,7 +1487,7 @@
         ],
         "errorIndex": 3,
         "correction": "many",
-        "message": "‘Cars’ is countable: ‘many’. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Cars’ is countable: ‘many’."
       },
       {
         "type": "error",
@@ -1486,7 +1500,7 @@
         ],
         "errorIndex": 2,
         "correction": "is",
-        "message": "‘Hair’ is uncountable: singular verb. Ask: can I put a number in front? Yes → countable; no → uncountable."
+        "message": "‘Hair’ is uncountable: singular verb."
       }
     ],
     "formLabel": "word"

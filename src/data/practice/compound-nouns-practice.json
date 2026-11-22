@@ -19,21 +19,22 @@
         "after": ".",
         "hint": "bus ___",
         "answers": [
-          "stop"
+          "stop",
+          "station"
         ],
         "display": "stop",
-        "explain": "A place where the bus stops: ‘bus stop’. The main word goes last, and the first noun is usually singular."
+        "explain": "A place where buses stop: ‘bus stop’ (‘bus station’ is also possible)."
       },
       {
         "use": "Noun + noun",
-        "before": "I need to buy a new tooth",
-        "after": ".",
+        "before": "Use a soft tooth",
+        "after": "if your gums hurt.",
         "hint": "tooth___",
         "answers": [
           "brush"
         ],
         "display": "brush",
-        "explain": "A brush for your teeth: ‘toothbrush’. The main word goes last, and the first noun is usually singular."
+        "explain": "A brush for your teeth: ‘toothbrush’."
       },
       {
         "use": "Noun + noun",
@@ -44,7 +45,7 @@
           "card"
         ],
         "display": "card",
-        "explain": "A card for credit: ‘credit card’. The main word goes last, and the first noun is usually singular."
+        "explain": "A card for credit: ‘credit card’."
       },
       {
         "use": "Noun + noun",
@@ -55,18 +56,18 @@
           "office"
         ],
         "display": "office",
-        "explain": "‘Post office’: where you send letters. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Post office’: where you send letters."
       },
       {
         "use": "Noun + noun",
         "before": "We put the dirty clothes in the washing",
-        "after": ".",
+        "after": "and press start.",
         "hint": "washing ___",
         "answers": [
           "machine"
         ],
         "display": "machine",
-        "explain": "A machine for washing: ‘washing machine’. The main word goes last, and the first noun is usually singular."
+        "explain": "A machine for washing: ‘washing machine’."
       },
       {
         "use": "Noun + noun",
@@ -74,43 +75,44 @@
         "after": "because it’s very bright.",
         "hint": "___glasses",
         "answers": [
-          "sunglasses"
+          "sunglasses",
+          "sun glasses"
         ],
         "display": "sunglasses",
-        "explain": "Glasses for the sun: ‘sunglasses’. The main word goes last, and the first noun is usually singular."
+        "explain": "Glasses for the sun: ‘sunglasses’ (one word; ‘sun glasses’ is also accepted)."
       },
       {
         "use": "Noun + noun",
-        "before": "My",
-        "after": "is on the first floor.",
+        "before": "I sleep in my",
+        "after": "— it has a bed and a wardrobe.",
         "hint": "___room",
         "answers": [
           "bedroom"
         ],
         "display": "bedroom",
-        "explain": "A room with a bed: ‘bedroom’. The main word goes last, and the first noun is usually singular."
+        "explain": "A room with a bed: ‘bedroom’."
       },
       {
         "use": "Noun + noun",
-        "before": "Do you have a",
-        "after": "pool in your town?",
+        "before": "A pool for swimming is a",
+        "after": "pool.",
         "hint": "___ pool",
         "answers": [
           "swimming"
         ],
         "display": "swimming",
-        "explain": "‘Swimming pool’: verb-ing + noun. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Swimming pool’: verb-ing + noun."
       },
       {
         "use": "Noun + noun",
-        "before": "We had dinner in the",
+        "before": "A room for eating meals is the",
         "after": "room.",
         "hint": "___ room",
         "answers": [
           "dining"
         ],
         "display": "dining",
-        "explain": "‘Dining room’: a room for eating. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Dining room’: a room for eating."
       },
       {
         "use": "Main word last",
@@ -121,7 +123,7 @@
           "cup"
         ],
         "display": "cup",
-        "explain": "The main word is last: it’s a cup. The main word goes last, and the first noun is usually singular."
+        "explain": "The main word is last: it’s a cup."
       },
       {
         "use": "Main word last",
@@ -132,7 +134,7 @@
           "shoe"
         ],
         "display": "shoe",
-        "explain": "First noun singular: ‘shoe shop’. The main word goes last, and the first noun is usually singular."
+        "explain": "First noun singular: ‘shoe shop’."
       },
       {
         "use": "Main word last",
@@ -143,12 +145,12 @@
           "race"
         ],
         "display": "race",
-        "explain": "It’s a race: ‘race’ goes last. The main word goes last, and the first noun is usually singular."
+        "explain": "It’s a race: ‘race’ goes last."
       },
       {
         "use": "Singular first",
-        "before": "It’s a ten-",
-        "after": "walk to the station.",
+        "before": "The station is ten minutes away. It’s a ten-",
+        "after": "walk.",
         "hint": "ten-___",
         "answers": [
           "minute"
@@ -165,40 +167,41 @@
           "old"
         ],
         "display": "old",
-        "explain": "‘Five-year-old’: ‘year’ is singular. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Five-year-old’: ‘year’ is singular."
       },
       {
         "use": "Singular first",
-        "before": "I bought it in a",
+        "before": "A shop that sells books is a",
         "after": "shop.",
         "hint": "___shop",
         "answers": [
           "book"
         ],
         "display": "book",
-        "explain": "‘Bookshop’: first noun singular. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Bookshop’: first noun singular."
       },
       {
         "use": "Exception",
-        "before": "There’s a new",
-        "after": "centre near my house.",
+        "before": "A centre for sports is a",
+        "after": "centre.",
         "hint": "___ centre",
         "answers": [
           "sports"
         ],
         "display": "sports",
-        "explain": "Exception: ‘sports centre’ keeps the -s. The main word goes last, and the first noun is usually singular."
+        "explain": "Exception: ‘sports centre’ keeps the -s."
       },
       {
         "use": "Exception",
-        "before": "I work in a",
+        "before": "She sells jeans and T-shirts in a",
         "after": "shop.",
         "hint": "___ shop",
         "answers": [
-          "clothes"
+          "clothes",
+          "clothing"
         ],
         "display": "clothes",
-        "explain": "‘Clothes’ has no singular form: ‘clothes shop’. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Clothes shop’ keeps the -s because ‘clothes’ has no singular; ‘clothing shop’ is also possible."
       },
       {
         "use": "Plural",
@@ -206,14 +209,15 @@
         "after": "on this street.",
         "hint": "bus ___",
         "answers": [
-          "stops"
+          "stops",
+          "stations"
         ],
         "display": "stops",
-        "explain": "Make the last word plural: ‘bus stops’. The main word goes last, and the first noun is usually singular."
+        "explain": "Make the last word plural: ‘bus stops’ (or ‘bus stations’)."
       },
       {
         "use": "Plural",
-        "before": "My",
+        "before": "I played football this morning, so my",
         "after": "boots are muddy.",
         "hint": "___ boots",
         "answers": [
@@ -231,7 +235,7 @@
           "law"
         ],
         "display": "law",
-        "explain": "‘Mother-in-law’ is written with hyphens. The main word goes last, and the first noun is usually singular."
+        "explain": "‘Mother-in-law’ is written with hyphens."
       }
     ],
     "formLabel": "noun"
@@ -494,8 +498,8 @@
         "right": "ball"
       },
       {
-        "left": "hair",
-        "right": "cut"
+        "left": "finger",
+        "right": "nail"
       },
       {
         "left": "traffic",
@@ -507,15 +511,15 @@
       },
       {
         "left": "door",
-        "right": "bell"
+        "right": "handle"
       },
       {
         "left": "head",
-        "right": "ache"
+        "right": "phones"
       },
       {
-        "left": "passport",
-        "right": "control"
+        "left": "ear",
+        "right": "ring"
       },
       {
         "left": "book",
@@ -553,7 +557,7 @@
           "We don’t use ’s for this kind of thing.",
           "‘Brush of hair’ isn’t natural."
         ],
-        "explain": "Main word last: hairbrush. The main word goes last, and the first noun is usually singular."
+        "explain": "Main word last: hairbrush."
       },
       {
         "use": "Main word last",
@@ -571,7 +575,7 @@
           "No ’s for compound nouns.",
           "First noun singular."
         ],
-        "explain": "Train station. The main word goes last, and the first noun is usually singular."
+        "explain": "Train station."
       },
       {
         "use": "Singular first",
@@ -589,7 +593,7 @@
           "",
           "No ’s."
         ],
-        "explain": "Car factory. The main word goes last, and the first noun is usually singular."
+        "explain": "Car factory."
       },
       {
         "use": "Singular first",
@@ -607,7 +611,7 @@
           "Different word.",
           ""
         ],
-        "explain": "A three-hour journey. The main word goes last, and the first noun is usually singular."
+        "explain": "A three-hour journey."
       },
       {
         "use": "Singular first",
@@ -616,16 +620,16 @@
           "six-years-old",
           "six-year-old",
           "six-year-olds",
-          "old-six-year"
+          "six-year’s-old"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Year’ stays singular in the compound.",
           "",
-          "Plural only if we mean several daughters.",
-          "Wrong order."
+          "Plural only if we mean several children; here it is one daughter.",
+          "No apostrophe: ‘year’ stays singular and doesn’t take ’s."
         ],
-        "explain": "A six-year-old daughter. The main word goes last, and the first noun is usually singular."
+        "explain": "A six-year-old daughter."
       },
       {
         "use": "Plural",
@@ -643,25 +647,25 @@
           "",
           "After ‘three’ we need the plural."
         ],
-        "explain": "Bus stops. The main word goes last, and the first noun is usually singular."
+        "explain": "Bus stops."
       },
       {
         "use": "Plural",
         "text": "How many <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> do you have at home?",
         "choices": [
-          "teethbrushes",
-          "teethbrush",
-          "toothsbrush",
+          "teeth brushes",
+          "toothbrush",
+          "toothbrushs",
           "toothbrushes"
         ],
         "correct": 3,
         "wrongReasons": [
-          "The first word stays singular.",
-          "Not English.",
-          "Not English.",
+          "The first part stays singular: ‘tooth’, not ‘teeth’.",
+          "After ‘How many’ we need a plural.",
+          "Words ending in -sh add -es: ‘toothbrushes’.",
           ""
         ],
-        "explain": "Toothbrushes. The main word goes last, and the first noun is usually singular."
+        "explain": "Toothbrushes."
       },
       {
         "use": "Exception",
@@ -670,16 +674,16 @@
           "clothes shop",
           "clothe shop",
           "shop clothes",
-          "clothing’s shop"
+          "shop of clothes"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Clothe’ isn’t a noun.",
-          "Wrong order.",
-          "Not English."
+          "‘Clothe’ is a verb, not a noun.",
+          "Wrong order: the main word (shop) goes last.",
+          "No ‘of’: the first noun works like an adjective, so ‘clothes shop’."
         ],
-        "explain": "Clothes shop (exception). The main word goes last, and the first noun is usually singular."
+        "explain": "Clothes shop (exception)."
       },
       {
         "use": "Compound vs of",
@@ -693,11 +697,11 @@
         "correct": 2,
         "wrongReasons": [
           "A ‘tea cup’ is an empty cup for tea.",
-          "Not English.",
+          "‘Cup tea’ has the wrong order.",
           "",
-          "Not English."
+          "No ’s: ‘a cup of tea’ names what is inside."
         ],
-        "explain": "Contents: a cup of tea. The main word goes last, and the first noun is usually singular."
+        "explain": "Contents: a cup of tea."
       },
       {
         "use": "Compound vs of",
@@ -705,17 +709,17 @@
         "choices": [
           "cup of coffee",
           "cup coffee",
-          "coffee of cup",
+          "coffee’s cup",
           "coffee cup"
         ],
         "correct": 3,
         "wrongReasons": [
           "You can’t break the coffee in it — you break the cup.",
-          "Not English.",
-          "Not English.",
+          "‘Cup coffee’ has the wrong order.",
+          "No ’s: ‘coffee cup’ is a compound noun.",
           ""
         ],
-        "explain": "The object: a coffee cup. The main word goes last, and the first noun is usually singular."
+        "explain": "The object: a coffee cup."
       },
       {
         "use": "Compound vs ’s",
@@ -723,17 +727,17 @@
         "choices": [
           "front door",
           "door’s front",
-          "front’s door",
+          "front doors",
           "door front"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Not English.",
-          "Not English.",
-          "Wrong order."
+          "No ’s: ‘front door’ is a compound noun.",
+          "‘The … is red’ is singular, so the compound can’t be plural.",
+          "Wrong order: the main word (door) goes last."
         ],
-        "explain": "Front door. The main word goes last, and the first noun is usually singular."
+        "explain": "Front door."
       },
       {
         "use": "Verb-ing + noun",
@@ -742,52 +746,52 @@
           "machine washing",
           "washing machine",
           "washed machine",
-          "wash’s machine"
+          "wash machine"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Wrong order.",
+          "Wrong order: the main word (machine) goes last.",
           "",
-          "Wrong form.",
-          "Not English."
+          "‘Washed’ is a past participle; we use the -ing form here.",
+          "We say ‘washing machine’, with the -ing form."
         ],
-        "explain": "Washing machine. The main word goes last, and the first noun is usually singular."
+        "explain": "Washing machine."
       },
       {
         "use": "Verb-ing + noun",
         "text": "Is there a <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the hotel?",
         "choices": [
           "pool swimming",
-          "swim pools",
-          "swimmer pool",
+          "swim pool",
+          "swimming pools",
           "swimming pool"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong order.",
-          "Wrong form.",
-          "Not English.",
+          "Wrong order: the main word (pool) goes last.",
+          "We say ‘swimming pool’, with the -ing form.",
+          "After ‘a’ we need a singular noun.",
           ""
         ],
-        "explain": "Swimming pool. The main word goes last, and the first noun is usually singular."
+        "explain": "Swimming pool."
       },
       {
         "use": "Hyphen",
         "text": "My brother’s wife is my <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "sister-in-law",
-          "sister in law’s",
-          "law sister",
+          "sister-in-law’s",
+          "sister-in-laws",
           "sister of law"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Not English.",
-          "Wrong order.",
-          "Not English."
+          "‘Sister-in-law’s’ is possessive (it belongs to her); here we need the person.",
+          "‘My ___’ is one person, so no plural -s.",
+          "In English we say ‘sister-in-law’, not ‘sister of law’."
         ],
-        "explain": "Sister-in-law. The main word goes last, and the first noun is usually singular."
+        "explain": "Sister-in-law."
       },
       {
         "use": "Hyphen plural",
@@ -796,16 +800,16 @@
           "sister-in-laws",
           "sisters-in-law",
           "sisters-in-laws",
-          "sister-ins-law"
+          "sister-in-law"
         ],
         "correct": 1,
         "wrongReasons": [
-          "The main word (sister) is first here.",
+          "The main word (sister) takes the plural, not the end.",
           "",
           "Only ‘sister’ is plural.",
-          "Not English."
+          "‘Both’ needs a plural."
         ],
-        "explain": "Sisters-in-law. The main word goes last, and the first noun is usually singular."
+        "explain": "Sisters-in-law."
       },
       {
         "use": "Meaning",
@@ -823,7 +827,7 @@
           "",
           "Not a place."
         ],
-        "explain": "Race horse = a horse for racing. The main word goes last, and the first noun is usually singular."
+        "explain": "Race horse = a horse for racing."
       },
       {
         "use": "Meaning",
@@ -841,43 +845,43 @@
           "Not a farm.",
           "Not a person."
         ],
-        "explain": "Horse race = a race with horses. The main word goes last, and the first noun is usually singular."
+        "explain": "Horse race = a race with horses."
       },
       {
         "use": "Which",
         "text": "Which is correct?",
         "choices": [
-          "a booksshop",
+          "a books shop",
           "a bookshop",
           "a shop book",
-          "a books’ shop"
+          "a shop of books"
         ],
         "correct": 1,
         "wrongReasons": [
-          "First noun singular.",
+          "The first noun stays singular: ‘book’, not ‘books’.",
           "",
-          "Wrong order.",
-          "No apostrophe."
+          "Wrong order: the main word (shop) goes last.",
+          "No ‘of’: the first noun works like an adjective, so ‘a bookshop’."
         ],
-        "explain": "Bookshop. The main word goes last, and the first noun is usually singular."
+        "explain": "Bookshop."
       },
       {
         "use": "Which",
         "text": "Which is correct?",
         "choices": [
           "a ten-minutes break",
-          "a ten minutes’ break of",
+          "a ten-minute’s break",
           "a ten-minute break",
           "a break ten-minute"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Singular in compounds. The main word goes last, and the first noun is usually singular.",
-          "Not English.",
+          "Singular in compounds.",
+          "No ’s after a hyphenated number + noun.",
           "",
-          "Wrong order."
+          "Wrong order: the main word (break) goes last."
         ],
-        "explain": "Ten-minute break. The main word goes last, and the first noun is usually singular."
+        "explain": "Ten-minute break."
       },
       {
         "use": "Exception",
@@ -895,7 +899,7 @@
           "Not the usual job title.",
           ""
         ],
-        "explain": "Sales manager. The main word goes last, and the first noun is usually singular."
+        "explain": "Sales manager."
       }
     ]
   },
@@ -916,7 +920,7 @@
         "errorIndex": 5,
         "correction": "shoe",
         "type": "Plural first",
-        "message": "First noun singular: ‘shoe shop’. The main word goes last, and the first noun is usually singular."
+        "message": "First noun singular: ‘shoe shop’."
       },
       {
         "tokens": [
@@ -939,12 +943,17 @@
           "need",
           "a",
           "new",
-          "teethbrush."
+          "teeth",
+          "brush."
         ],
         "errorIndex": 4,
         "correction": "toothbrush.",
         "type": "Plural first",
-        "message": "‘Toothbrush’: singular first part. The main word goes last, and the first noun is usually singular."
+        "message": "‘Teeth brush’ should be ‘toothbrush’: the first part is singular and the word is written as one.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -969,7 +978,7 @@
         "errorIndex": 3,
         "correction": "two-year-old",
         "type": "Plural first",
-        "message": "‘Two-year-old’: singular. The main word goes last, and the first noun is usually singular."
+        "message": "‘Two-year-old’: singular."
       },
       {
         "tokens": [
@@ -983,7 +992,7 @@
         "errorIndex": 4,
         "correction": "three-star",
         "type": "Plural first",
-        "message": "‘Three-star hotel’: singular. The main word goes last, and the first noun is usually singular."
+        "message": "‘Three-star hotel’: singular."
       },
       {
         "tokens": [
@@ -999,20 +1008,25 @@
         "errorIndex": 4,
         "correction": "stops",
         "type": "Plural wrong word",
-        "message": "Plural on the last word: ‘bus stops’. The main word goes last, and the first noun is usually singular."
+        "message": "Plural on the last word: ‘bus stops’."
       },
       {
         "tokens": [
           "We",
           "need",
+          "two",
           "new",
           "tennis",
           "ball."
         ],
-        "errorIndex": 4,
+        "errorIndex": 5,
         "correction": "balls.",
         "type": "Plural wrong word",
-        "message": "Plural on the last word: ‘tennis balls’."
+        "message": "Plural on the last word: ‘tennis balls’.",
+        "errorSpan": [
+          5,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1026,7 +1040,7 @@
         "errorIndex": 4,
         "correction": "door",
         "type": "’s with things",
-        "message": "Compound noun: ‘the door key’. The main word goes last, and the first noun is usually singular."
+        "message": "Compound noun: ‘the door key’."
       },
       {
         "tokens": [
@@ -1039,7 +1053,7 @@
         "errorIndex": 3,
         "correction": "alarm",
         "type": "Wrong compound",
-        "message": "‘Alarm clock’. The main word goes last, and the first noun is usually singular."
+        "message": "‘Alarm clock’."
       },
       {
         "tokens": [
@@ -1052,22 +1066,26 @@
         "errorIndex": 3,
         "correction": "kitchen",
         "type": "’s with things",
-        "message": "Compound noun: ‘the kitchen light’. The main word goes last, and the first noun is usually singular."
+        "message": "Compound noun: ‘the kitchen light’."
       },
       {
         "tokens": [
-          "I",
-          "left",
-          "it",
-          "on",
+          "Wait",
+          "for",
+          "me",
+          "at",
           "the",
-          "car’s",
-          "seat."
+          "train’s",
+          "station."
         ],
         "errorIndex": 5,
-        "correction": "car",
+        "correction": "train",
         "type": "’s with things",
-        "message": "Compound noun: ‘the car seat’. The main word goes last, and the first noun is usually singular."
+        "message": "Compound noun: ‘the train station’.",
+        "errorSpan": [
+          5,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1082,7 +1100,7 @@
         "errorIndex": 5,
         "correction": "car",
         "type": "Plural first",
-        "message": "First noun singular: ‘car park’. The main word goes last, and the first noun is usually singular."
+        "message": "First noun singular: ‘car park’."
       },
       {
         "tokens": [
@@ -1116,7 +1134,7 @@
         "errorIndex": 4,
         "correction": "clothes",
         "type": "Exception",
-        "message": "‘Clothes shop’ — ‘clothe’ isn’t a noun. The main word goes last, and the first noun is usually singular."
+        "message": "‘Clothes shop’ — ‘clothe’ isn’t a noun."
       },
       {
         "tokens": [
@@ -1130,7 +1148,7 @@
         "errorIndex": 4,
         "correction": "sports",
         "type": "Exception",
-        "message": "‘Sports centre’ keeps the -s. The main word goes last, and the first noun is usually singular."
+        "message": "‘Sports centre’ keeps the -s."
       },
       {
         "tokens": [
@@ -1159,7 +1177,7 @@
         "errorIndex": 6,
         "correction": "washing",
         "type": "Wrong compound",
-        "message": "‘Washing machine’. The main word goes last, and the first noun is usually singular."
+        "message": "‘Washing machine’."
       },
       {
         "tokens": [
@@ -1173,7 +1191,7 @@
         "errorIndex": 4,
         "correction": "swimming",
         "type": "Wrong compound",
-        "message": "‘Swimming pool’. The main word goes last, and the first noun is usually singular."
+        "message": "‘Swimming pool’."
       },
       {
         "tokens": [
@@ -1188,7 +1206,7 @@
         "errorIndex": 5,
         "correction": "dining",
         "type": "Wrong compound",
-        "message": "‘Dining room’. The main word goes last, and the first noun is usually singular."
+        "message": "‘Dining room’."
       }
     ]
   },
@@ -1219,13 +1237,13 @@
           "station"
         ],
         "display": "station",
-        "explain": "‘Train station’. The main word goes last, and the first noun is usually singular.",
+        "explain": "‘Train station’.",
         "wrongNote": "Main word last."
       },
       {
         "type": "fill",
         "use": "Singular first",
-        "sentText": "It’s a two- {{blank}} film.",
+        "sentText": "The film lasts two hours: it’s a two- {{blank}} film.",
         "hint": "two-___",
         "answers": [
           "hour"
@@ -1237,25 +1255,25 @@
       {
         "type": "fill",
         "use": "Plural",
-        "sentText": "We need more coffee {{blank}}.",
+        "sentText": "We have only one coffee cup, so we need more coffee {{blank}}.",
         "hint": "coffee ___",
         "answers": [
           "cups"
         ],
         "display": "cups",
-        "explain": "Plural on the last word. The main word goes last, and the first noun is usually singular.",
+        "explain": "Plural on the last word.",
         "wrongNote": "Plural on main word."
       },
       {
         "type": "fill",
         "use": "Verb-ing + noun",
-        "sentText": "The {{blank}} machine is noisy.",
+        "sentText": "We put our dirty clothes in the {{blank}} machine. It’s very noisy.",
         "hint": "___ machine",
         "answers": [
           "washing"
         ],
         "display": "washing",
-        "explain": "‘Washing machine’. The main word goes last, and the first noun is usually singular.",
+        "explain": "‘Washing machine’.",
         "wrongNote": "Verb-ing + noun."
       },
       {
@@ -1317,7 +1335,7 @@
           "Only one word is the main one.",
           "The last word is the main one."
         ],
-        "explain": "It’s a ball. The main word goes last, and the first noun is usually singular."
+        "explain": "It’s a ball."
       },
       {
         "type": "main",
@@ -1336,7 +1354,7 @@
           "Not a chair.",
           ""
         ],
-        "explain": "It’s a table. The main word goes last, and the first noun is usually singular."
+        "explain": "It’s a table."
       },
       {
         "type": "main",
@@ -1355,7 +1373,7 @@
           "‘In’ never changes.",
           "Only one changes."
         ],
-        "explain": "Mothers-in-law. The main word goes last, and the first noun is usually singular."
+        "explain": "Mothers-in-law."
       },
       {
         "type": "main",
@@ -1374,7 +1392,7 @@
           "",
           "Not a factory."
         ],
-        "explain": "It’s a shop. The main word goes last, and the first noun is usually singular."
+        "explain": "It’s a shop."
       },
       {
         "type": "mc",
@@ -1382,18 +1400,18 @@
         "text": "Where do you keep the plates? — In the {{blank}}.",
         "choices": [
           "cupboard kitchen",
-          "kitchen’s cupboard of",
+          "kitchen’s cupboard",
           "kitchen cupboard",
           "kitchens cupboard"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong order.",
-          "Not English.",
+          "No ’s: ‘kitchen cupboard’ is a compound noun.",
           "",
           "First noun singular."
         ],
-        "explain": "Kitchen cupboard. The main word goes last, and the first noun is usually singular."
+        "explain": "Kitchen cupboard."
       },
       {
         "type": "mc",
@@ -1403,16 +1421,16 @@
           "two-bedroom",
           "two-bedrooms",
           "two-bedroom’s",
-          "bedroom-two"
+          "two beds"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "Singular in compounds.",
           "No apostrophe.",
-          "Wrong order."
+          "The flat has bedrooms, and before a noun the number stays singular: ‘two-bedroom’."
         ],
-        "explain": "Two-bedroom flat. The main word goes last, and the first noun is usually singular."
+        "explain": "Two-bedroom flat."
       },
       {
         "type": "mc",
@@ -1421,17 +1439,17 @@
         "choices": [
           "water glass",
           "glass water",
-          "water’s glass",
+          "glasses of water",
           "glass of water"
         ],
         "correct": 3,
         "wrongReasons": [
           "A ‘water glass’ is the empty glass.",
-          "Not English.",
-          "Not English.",
+          "‘Glass water’ has the wrong order.",
+          "After ‘a’ we need a singular noun.",
           ""
         ],
-        "explain": "Contents: a glass of water. The main word goes last, and the first noun is usually singular."
+        "explain": "Contents: a glass of water."
       },
       {
         "type": "mc",
@@ -1450,7 +1468,7 @@
           "Only the last word is plural.",
           "No apostrophe."
         ],
-        "explain": "Paper bags. The main word goes last, and the first noun is usually singular."
+        "explain": "Paper bags."
       },
       {
         "type": "error",
@@ -1465,7 +1483,7 @@
         ],
         "errorIndex": 4,
         "correction": "toy",
-        "message": "First noun singular: ‘toy shop’. The main word goes last, and the first noun is usually singular."
+        "message": "First noun singular: ‘toy shop’."
       },
       {
         "type": "error",
@@ -1479,7 +1497,7 @@
         ],
         "errorIndex": 3,
         "correction": "ten-euro",
-        "message": "‘Ten-euro note’. The main word goes last, and the first noun is usually singular."
+        "message": "‘Ten-euro note’."
       },
       {
         "type": "error",
@@ -1493,20 +1511,25 @@
         ],
         "errorIndex": 1,
         "correction": "swimming",
-        "message": "‘Swimming pool’. The main word goes last, and the first noun is usually singular."
+        "message": "‘Swimming pool’."
       },
       {
         "type": "error",
         "use": "’s with things",
         "tokens": [
-          "Close",
+          "Where",
+          "is",
           "the",
-          "car’s",
-          "window."
+          "bus’s",
+          "stop?"
         ],
-        "errorIndex": 2,
-        "correction": "car",
-        "message": "‘The car window’. The main word goes last, and the first noun is usually singular."
+        "errorIndex": 3,
+        "correction": "bus",
+        "message": "Compound noun: ‘the bus stop’.",
+        "errorSpan": [
+          3,
+          3
+        ]
       }
     ],
     "formLabel": "noun"

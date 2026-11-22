@@ -27,13 +27,13 @@
     },
     {
       "question": "Can you give me ___ information about the course?",
-      "options": ["an", "some", "a", "the"],
+      "options": ["an", "some", "a", "one"],
       "answer": 1,
       "explanations": [
         "'Information' is uncountable; you can't use 'an'.",
-        "Correct! Use 'some' with an uncountable noun: 'some information'.",
+        "Correct! Uncountable nouns take 'some': 'some information'.",
         "'Information' is uncountable; you can't use 'a'.",
-        "'The information' is possible if specific, but 'some' fits general info better."
+        "'One information' is wrong; say 'a piece of information'."
       ]
     },
     {
@@ -49,13 +49,18 @@
     },
     {
       "question": "Which is correct?",
-      "options": ["I bought a new shoes.", "I bought an new shoes.", "I bought new shoes.", "I bought a news shoes."],
+      "options": [
+        "I bought a new shoes.",
+        "I bought an new shoes.",
+        "I bought new shoes.",
+        "I bought one new shoes."
+      ],
       "answer": 2,
       "explanations": [
         "'A' can't go with a plural noun.",
         "'An' can't go with a plural noun either.",
-        "Correct! Plurals take no a/an: 'I bought new shoes'.",
-        "This is not correct English."
+        "Correct! A plural noun takes no a/an: 'new shoes'.",
+        "'One' can't go with a plural noun."
       ]
     },
     {
@@ -139,7 +144,7 @@
       "kind": "Correct the mistake",
       "question": "Can you give me an advice?",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["Can you give me some advice?", "Can you give me a piece of advice?", "Can you give me advice?"],
+      "answers": ["Can you give me some advice?", "Can you give me a piece of advice?", "Can you give me advice?", "Can you give me a bit of advice?", "Can you give me any advice?"],
       "explanation": "'Advice' is uncountable, so it can't take a/an. Use 'some', 'a piece of' or nothing."
     },
     {

@@ -15,12 +15,12 @@
       ]
     },
     {
-      "question": "Can I have ___ water, please?",
+      "question": "There is ___ water on the floor.",
       "options": ["some", "a", "an", "two"],
       "answer": 0,
       "explanations": [
         "Correct! Uncountable nouns take 'some': 'some water'.",
-        "'A water' is not standard (water is uncountable).",
+        "'A water' is not possible here: water on the floor is a mass, not a portion.",
         "'An water' is wrong.",
         "You can't put a number directly before 'water'."
       ]
@@ -38,24 +38,24 @@
     },
     {
       "question": "We bought some new ___ for the flat.",
-      "options": ["a furniture", "furnitures", "furniture", "furnitur"],
+      "options": ["a furniture", "furnitures", "furniture", "many furniture"],
       "answer": 2,
       "explanations": [
         "'A furniture' is wrong; say 'a piece of furniture'.",
-        "'Furnitures' isn't a word.",
+        "'Furniture' has no plural.",
         "Correct! 'Furniture' is uncountable: 'some new furniture'.",
-        "'Furnitur' is a misspelling."
+        "'Many' goes with plural countable nouns."
       ]
     },
     {
-      "question": "I'd like ___ coffee. (two cups)",
-      "options": ["two coffees", "two coffee", "a two coffee", "two coffees'"],
+      "question": "In a café you order: 'I'd like ___, please.' (two cups of coffee)",
+      "options": ["two coffees", "two coffee", "a coffees", "two cups coffee"],
       "answer": 0,
       "explanations": [
         "Correct! When it means cups, 'coffee' becomes countable: 'two coffees'.",
-        "'Two coffee' is missing the plural.",
-        "'A two coffee' is not correct.",
-        "'Coffees'' is a possessive, not a plural."
+        "After 'two' we need the plural: 'two coffees'.",
+        "'A' can't go with a plural.",
+        "We need 'of': 'two cups of coffee'."
       ]
     },
     {
@@ -82,12 +82,12 @@
     },
     {
       "question": "There ___ some good news today.",
-      "options": ["have", "are", "were being", "is"],
+      "options": ["have", "are", "have been", "is"],
       "answer": 3,
       "explanations": [
         "'Have' doesn't fit 'there ___ some news'.",
         "'Are' treats news as plural, but it's uncountable.",
-        "'Were being' is not correct here.",
+        "'News' is singular, so 'have' is wrong.",
         "Correct! 'News' is uncountable and singular: 'There is some good news'."
       ]
     },
@@ -145,12 +145,12 @@
     {
       "type": "write",
       "kind": "Fill in the gap",
-      "question": "How ___ money do you have?",
+      "question": "How ___ people came to the party?",
       "hint": "Type much or many.",
-      "answers": ["much"],
-      "explanation": "'Money' is uncountable, so 'how much'.",
+      "answers": ["many"],
+      "explanation": "'People' is a plural countable noun, so 'how many'.",
       "common": [
-        {"answer": "many", "why": "'Money' is uncountable, so we say 'how much'."}
+        {"answer": "much", "why": "'People' is countable, so we say 'how many'."}
       ]
     }
   ]
