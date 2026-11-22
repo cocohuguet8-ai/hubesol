@@ -51,7 +51,9 @@
           "would visit",
           "’d visit",
           "'d visit",
-          "d visit"
+          "d visit",
+          "could visit",
+          "might visit"
         ],
         "display": "would visit",
         "explain": "She doesn’t live close now: second conditional, would + base verb."
@@ -65,7 +67,9 @@
           "would have visited",
           "’d have visited",
           "'d have visited",
-          "d have visited"
+          "d have visited",
+          "could have visited",
+          "might have visited"
         ],
         "display": "would have visited",
         "explain": "‘Then’ points to the past: would have + past participle."
@@ -105,7 +109,9 @@
           "would tell",
           "’d tell",
           "'d tell",
-          "d tell"
+          "d tell",
+          "could tell",
+          "might tell"
         ],
         "display": "would tell",
         "explain": "I don’t know it now: second conditional, would + tell."
@@ -119,7 +125,9 @@
           "would have told",
           "’d have told",
           "'d have told",
-          "d have told"
+          "d have told",
+          "could have told",
+          "might have told"
         ],
         "display": "would have told",
         "explain": "A past situation: would have + told."
@@ -1073,16 +1081,16 @@
       },
       {
         "use": "Mismatch",
-        "text": "Which sentence is correct?",
+        "text": "Which sentence is correct? (You don’t live by the sea now.)",
         "choices": [
-          "If I had lived by the sea, I’d swim every day now.",
+          "If I live by the sea, I’d swim every day.",
           "If I lived by the sea, I’d swim every day.",
           "If I lived by the sea, I’d have swum every day.",
           "If I would live by the sea, I’d swim every day."
         ],
         "correct": 1,
         "wrongReasons": [
-          "A present habit (every day now) needs the past simple in the if-clause.",
+          "The result ‘I’d swim’ needs the past simple in the if-clause: ‘If I lived…’.",
           "",
           "‘Would have swum’ is past; ‘lived’ here is about now.",
           "No ‘would’ in the if-clause."
@@ -1093,14 +1101,14 @@
         "use": "Third",
         "text": "If you had told me earlier, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the tickets.",
         "choices": [
-          "could buy",
+          "could have buy",
           "can buy",
           "could bought",
           "could have bought"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Could buy’ is about now or later; ‘had told’ is past.",
+          "After ‘could have’ use the past participle: ‘could have bought’.",
           "‘Can’ is present real.",
           "After ‘could’ use ‘have’ + participle.",
           ""
@@ -1112,14 +1120,14 @@
         "text": "If he <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> so much, he’d have more money.",
         "choices": [
           "didn’t spend",
-          "hadn’t spent",
+          "didn’t spent",
           "doesn’t spend",
           "wouldn’t spend"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Hadn’t spent’ is past; ‘he’d have more money’ is now.",
+          "After ‘didn’t’ use the base verb: ‘didn’t spend’.",
           "‘Doesn’t’ is present real.",
           "No ‘would’ in the if-clause."
         ],
@@ -1163,7 +1171,7 @@
       },
       {
         "use": "Third",
-        "text": "If the alarm had rung, I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late.",
+        "text": "If the alarm had rung (I was late this morning), I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> late.",
         "choices": [
           "wouldn’t have been",
           "wouldn’t be",
@@ -1288,13 +1296,13 @@
           "yesterday,",
           "I",
           "would",
-          "tell",
+          "told",
           "him."
         ],
         "errorIndex": 8,
         "correction": "have told",
-        "type": "Mismatch",
-        "message": "A past condition needs a past result: ‘would have told’."
+        "type": "Missing have",
+        "message": "A past result needs ‘would have’ + participle: ‘would have told’."
       },
       {
         "tokens": [
@@ -1446,16 +1454,16 @@
           "If",
           "it",
           "snowed",
-          "yesterday,",
+          "tomorrow,",
           "the",
           "school",
-          "would",
+          "will",
           "close."
         ],
-        "errorIndex": 3,
-        "correction": "tomorrow,",
-        "type": "Time clue",
-        "message": "Second conditional (snowed + would close) fits the future: ‘tomorrow’."
+        "errorIndex": 6,
+        "correction": "would",
+        "type": "Wrong result",
+        "message": "‘Snowed’ (unlikely future) needs ‘would’ in the result: ‘would close’."
       },
       {
         "tokens": [
@@ -1518,18 +1526,19 @@
         "tokens": [
           "If",
           "I",
-          "was",
+          "had",
+          "been",
           "you,",
           "I’d",
           "have",
-          "called",
+          "call",
           "him",
           "yesterday."
         ],
-        "errorIndex": 2,
-        "correction": "had been",
-        "type": "Were",
-        "message": "About the past: ‘If I had been you…’."
+        "errorIndex": 7,
+        "correction": "called",
+        "type": "Past participle",
+        "message": "After ‘I’d have’ use the past participle: ‘called’."
       },
       {
         "tokens": [
@@ -1582,7 +1591,7 @@
         "errorIndex": 5,
         "correction": "have",
         "type": "Would of",
-        "message": "Write ‘would have’, never ‘would of’."
+        "message": "Write ‘would have’, not ‘would of’."
       },
       {
         "tokens": [
@@ -1659,7 +1668,9 @@
           "would grow",
           "’d grow",
           "'d grow",
-          "d grow"
+          "d grow",
+          "could grow",
+          "might grow"
         ],
         "display": "would grow",
         "explain": "Imaginary present: would + base verb.",
@@ -1674,7 +1685,9 @@
           "would have grown",
           "’d have grown",
           "'d have grown",
-          "d have grown"
+          "d have grown",
+          "could have grown",
+          "might have grown"
         ],
         "display": "would have grown",
         "explain": "Imaginary past: would have + grown.",
@@ -1825,7 +1838,7 @@
           "",
           "This is second conditional: imaginary present or future.",
           "This is first conditional: a real future.",
-          "This is zero conditional: always true."
+          "This is zero conditional: a general truth."
         ],
         "explain": "’d asked + ’d have said = third conditional (past)."
       },
