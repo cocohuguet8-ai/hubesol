@@ -22,7 +22,7 @@
         "kind": "statement",
         "before": "We",
         "after": "live by the sea when I was a child.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "used to"
         ],
@@ -34,7 +34,7 @@
         "kind": "statement",
         "before": "I",
         "after": "working nights — I’ve done it for years.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "am used to",
           "’m used to",
@@ -49,7 +49,7 @@
         "kind": "statement",
         "before": "It was strange at first, but I soon",
         "after": "driving on the left.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "got used to"
         ],
@@ -61,7 +61,7 @@
         "kind": "statement",
         "before": "She",
         "after": "have long hair, but now it’s short.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "used to"
         ],
@@ -85,7 +85,7 @@
         "kind": "statement",
         "before": "Don’t worry — you’ll",
         "after": "the cold soon.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "get used to"
         ],
@@ -97,7 +97,7 @@
         "kind": "statement",
         "before": "I’m not",
         "after": "this weather.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "used to"
         ],
@@ -109,9 +109,10 @@
         "kind": "statement",
         "before": "They",
         "after": "play tennis every Sunday, but they stopped.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
-          "used to"
+          "used to",
+          "would"
         ],
         "display": "used to",
         "explain": "Used to + base verb: a finished past habit or state."
@@ -133,7 +134,7 @@
         "kind": "statement",
         "before": "In the end, she",
         "after": "living alone.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "got used to"
         ],
@@ -145,7 +146,7 @@
         "kind": "statement",
         "before": "We",
         "after": "have a dog, but he died last year.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "used to"
         ],
@@ -169,7 +170,7 @@
         "kind": "statement",
         "before": "You’ll",
         "after": "working from home very quickly.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "get used to"
         ],
@@ -181,9 +182,10 @@
         "kind": "statement",
         "before": "I",
         "after": "smoke, but I stopped five years ago.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
-          "used to"
+          "used to",
+          "would"
         ],
         "display": "used to",
         "explain": "Used to + base verb: a finished past habit or state."
@@ -193,7 +195,7 @@
         "kind": "statement",
         "before": "My grandmother is",
         "after": "using a smartphone.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "not used to"
         ],
@@ -205,7 +207,7 @@
         "kind": "statement",
         "before": "Last spring, after a few weeks, we",
         "after": "the new schedule.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "got used to"
         ],
@@ -229,9 +231,10 @@
         "kind": "statement",
         "before": "When I was young, we",
         "after": "go to the beach every summer.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
-          "used to"
+          "used to",
+          "would"
         ],
         "display": "used to",
         "explain": "Used to + base verb: a finished past habit or state."
@@ -253,7 +256,7 @@
         "kind": "statement",
         "before": "It’s hard to",
         "after": "the new job, but I’m trying.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "get used to"
         ],
@@ -1275,21 +1278,20 @@
       },
       {
         "tokens": [
-          "I",
-          "am",
+          "She",
+          "didn’t",
           "used",
           "to",
-          "to",
-          "working",
-          "late."
+          "like",
+          "coffee."
         ],
-        "errorIndex": 4,
-        "correction": "to",
-        "type": "Repeated word",
-        "message": "‘To’ appears twice — use it once.",
+        "errorIndex": 2,
+        "correction": "use",
+        "type": "Didn’t + use to",
+        "message": "After ‘didn’t’ the form is ‘use to’ (no -d): ‘She didn’t use to like coffee’.",
         "errorSpan": [
-          3,
-          4
+          2,
+          2
         ]
       },
       {
@@ -1330,7 +1332,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "We {{blank}} live by the sea when I was a child.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "used to"
         ],
@@ -1352,7 +1354,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "Don’t worry — you’ll {{blank}} the cold soon.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "get used to"
         ],
@@ -1363,7 +1365,7 @@
         "type": "fill",
         "use": "Fill the gap",
         "sentText": "I’m not {{blank}} this weather.",
-        "hint": "used to / be used to / get used to",
+        "hint": "(structure)",
         "answers": [
           "used to"
         ],
