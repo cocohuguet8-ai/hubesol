@@ -573,7 +573,7 @@
           "After ‘if’ the subject comes first: ‘if I was’.",
           "‘That’ is for statements; a yes/no question needs ‘if’ or ‘whether’."
         ],
-        "explain": "Yes/No question: asked + if + subject + verb. Remember: statement order and backshift after ‘asked’."
+        "explain": "Yes/No question: asked + if + subject + verb."
       },
       {
         "use": "Choose the answer",
@@ -609,7 +609,7 @@
           "",
           "Question order and no backshift."
         ],
-        "explain": "Statement order + backshift: I was reading. Remember: statement order and backshift after ‘asked’."
+        "explain": "Statement order + backshift: I was reading."
       },
       {
         "use": "Choose the answer",
@@ -627,7 +627,7 @@
           "‘That’ is for statements.",
           ""
         ],
-        "explain": "No ‘do’; if + subject + past simple. Remember: statement order and backshift after ‘asked’."
+        "explain": "No ‘do’; if + subject + past simple."
       },
       {
         "use": "Choose the answer",
@@ -645,7 +645,7 @@
           "Emphatic and wrong.",
           "Question order is wrong."
         ],
-        "explain": "Past simple → past perfect, statement order. Remember: statement order and backshift after ‘asked’."
+        "explain": "Past simple → past perfect, statement order."
       },
       {
         "use": "Choose the answer",
@@ -663,7 +663,7 @@
           "",
           "‘Did be’ is impossible."
         ],
-        "explain": "Statement order: the museum was. Remember: statement order and backshift after ‘asked’."
+        "explain": "Statement order: the museum was."
       },
       {
         "use": "Choose the answer",
@@ -699,7 +699,7 @@
           "‘What’ is for wh- questions.",
           "‘So’ shows a result."
         ],
-        "explain": "Yes/No questions: if or whether. Remember: statement order and backshift after ‘asked’."
+        "explain": "Yes/No questions: if or whether."
       },
       {
         "use": "Choose the answer",
@@ -717,7 +717,7 @@
           "",
           "‘Which I wanted pasta’ is wrong."
         ],
-        "explain": "‘Whether’ is common with a choice of two. Remember: statement order and backshift after ‘asked’."
+        "explain": "‘Whether’ is common with a choice of two."
       },
       {
         "use": "Choose the answer",
@@ -735,7 +735,7 @@
           "Changes the meaning.",
           ""
         ],
-        "explain": "‘Will’ → ‘would’. Remember: statement order and backshift after ‘asked’."
+        "explain": "‘Will’ → ‘would’."
       },
       {
         "use": "Choose the answer",
@@ -753,7 +753,7 @@
           "Two modals can’t go together.",
           "No ‘to’ after ‘could’."
         ],
-        "explain": "‘Can’ → ‘could’. Remember: statement order and backshift after ‘asked’."
+        "explain": "‘Can’ → ‘could’."
       },
       {
         "use": "Choose the answer",
@@ -771,7 +771,7 @@
           "‘Told me if’ is wrong for questions.",
           "No ‘to’ after ‘asked’ before a person."
         ],
-        "explain": "Report questions with ‘ask’ + person. Remember: statement order and backshift after ‘asked’."
+        "explain": "Report questions with ‘ask’ + person."
       },
       {
         "use": "Choose the answer",
@@ -789,7 +789,7 @@
           "After ‘to’ use the base verb.",
           ""
         ],
-        "explain": "Wanted to know + wh- clause. Remember: statement order and backshift after ‘asked’."
+        "explain": "Wanted to know + wh- clause."
       },
       {
         "use": "Choose the answer",
@@ -825,7 +825,7 @@
           "Only if it was his own phone.",
           "Changes the meaning."
         ],
-        "explain": "‘Your’ → ‘my’ when the question was to me. Remember: statement order and backshift after ‘asked’."
+        "explain": "‘Your’ → ‘my’ when the question was to me."
       },
       {
         "use": "Choose the answer",
@@ -843,7 +843,7 @@
           "",
           "Wrong order."
         ],
-        "explain": "Statement order + backshift: it cost (past of cost). Remember: statement order and backshift after ‘asked’."
+        "explain": "Statement order + backshift: it cost (past of cost)."
       },
       {
         "use": "Choose the answer",
@@ -861,7 +861,7 @@
           "Question order.",
           "Wrong structure."
         ],
-        "explain": "Statement order + backshift: I was crying. Remember: statement order and backshift after ‘asked’."
+        "explain": "Statement order + backshift: I was crying."
       },
       {
         "use": "Choose the answer",
@@ -879,7 +879,7 @@
           "‘Went’ is not the participle.",
           "‘Was ever’ is wrong."
         ],
-        "explain": "Present perfect → past perfect. Remember: statement order and backshift after ‘asked’."
+        "explain": "Present perfect → past perfect."
       },
       {
         "use": "Choose the answer",
@@ -897,7 +897,7 @@
           "",
           "‘Does’ disappears."
         ],
-        "explain": "‘Which bus’ is the subject: which bus went. Remember: statement order and backshift after ‘asked’."
+        "explain": "‘Which bus’ is the subject: which bus went."
       },
       {
         "use": "Choose the answer",
@@ -915,7 +915,7 @@
           "‘Said me’ is wrong.",
           ""
         ],
-        "explain": "Ask + person (no ‘to’) + wh- + statement order. Remember: statement order and backshift after ‘asked’."
+        "explain": "Ask + person (no ‘to’) + wh- + statement order."
       }
     ]
   },
@@ -953,7 +953,7 @@
         "errorIndex": 4,
         "correction": "wanted.",
         "type": "Do in reported question",
-        "message": "No ‘did’: ‘He asked what I wanted’. Remember: statement order and backshift after ‘asked’.",
+        "message": "No ‘did’: ‘He asked what I wanted’.",
         "errorSpan": [
           4,
           5
@@ -989,7 +989,7 @@
         "errorIndex": 5,
         "correction": "lived.",
         "type": "Backshift",
-        "message": "After ‘asked’: ‘where I lived’. Remember: statement order and backshift after ‘asked’."
+        "message": "After ‘asked’: ‘where I lived’."
       },
       {
         "tokens": [
@@ -1003,7 +1003,7 @@
         "errorIndex": 4,
         "correction": "was",
         "type": "Backshift",
-        "message": "After ‘asked’: ‘if I was hungry’. Remember: statement order and backshift after ‘asked’."
+        "message": "After ‘asked’: ‘if I was hungry’."
       },
       {
         "tokens": [
@@ -1017,7 +1017,7 @@
         "errorIndex": 4,
         "correction": "would",
         "type": "Backshift",
-        "message": "‘Will’ → ‘would’. Remember: statement order and backshift after ‘asked’."
+        "message": "‘Will’ → ‘would’."
       },
       {
         "tokens": [
@@ -1031,7 +1031,7 @@
         "errorIndex": 4,
         "correction": "could",
         "type": "Backshift",
-        "message": "‘Can’ → ‘could’. Remember: statement order and backshift after ‘asked’."
+        "message": "‘Can’ → ‘could’."
       },
       {
         "tokens": [
@@ -1076,7 +1076,7 @@
         "errorIndex": 4,
         "correction": "if",
         "type": "If or that",
-        "message": "Yes/No question: ‘if I liked jazz’. Remember: statement order and backshift after ‘asked’."
+        "message": "Yes/No question: ‘if I liked jazz’."
       },
       {
         "tokens": [
@@ -1105,7 +1105,7 @@
         "errorIndex": 1,
         "correction": "asked",
         "type": "Said or asked",
-        "message": "Questions use ‘ask’: ‘He asked me if…’. Remember: statement order and backshift after ‘asked’."
+        "message": "Questions use ‘ask’: ‘He asked me if…’."
       },
       {
         "tokens": [
@@ -1139,7 +1139,7 @@
         "errorIndex": 10,
         "correction": "my",
         "type": "Pronoun",
-        "message": "She asked me, so ‘my book’. Remember: statement order and backshift after ‘asked’."
+        "message": "She asked me, so ‘my book’."
       },
       {
         "tokens": [
@@ -1173,7 +1173,7 @@
         "errorIndex": 5,
         "correction": "seen",
         "type": "Past participle",
-        "message": "Participle: ‘had seen’. Remember: statement order and backshift after ‘asked’."
+        "message": "Participle: ‘had seen’."
       },
       {
         "tokens": [
@@ -1188,7 +1188,7 @@
         "errorIndex": 4,
         "correction": "broken",
         "type": "Past participle",
-        "message": "Participle: ‘had broken’. Remember: statement order and backshift after ‘asked’."
+        "message": "Participle: ‘had broken’."
       },
       {
         "tokens": [
@@ -1202,7 +1202,7 @@
         "errorIndex": 2,
         "correction": "to know",
         "type": "Want to know",
-        "message": "‘Want’ needs ‘to’: ‘wanted to know’. Remember: statement order and backshift after ‘asked’."
+        "message": "‘Want’ needs ‘to’: ‘wanted to know’."
       },
       {
         "tokens": [
@@ -1216,7 +1216,7 @@
         "errorIndex": 5,
         "correction": "doing.",
         "type": "Continuous",
-        "message": "Past continuous: ‘was doing’. Remember: statement order and backshift after ‘asked’."
+        "message": "Past continuous: ‘was doing’."
       },
       {
         "tokens": [
@@ -1230,7 +1230,7 @@
         "errorIndex": 2,
         "correction": "whether",
         "type": "Spelling",
-        "message": "Spelling: ‘whether’. Remember: statement order and backshift after ‘asked’."
+        "message": "Spelling: ‘whether’."
       }
     ]
   },
