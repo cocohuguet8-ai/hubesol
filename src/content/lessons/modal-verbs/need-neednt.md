@@ -121,4 +121,4 @@ In British English, *need + -ing* can mean "needs to be done".
 
 **4. Wrong past form.** *~~I needn't have went~~* → **I needn't have gone.**
 
-**Pro tip:** if you're not sure, use *don't need to* — it's always correct and the most common form.
+**Pro tip:** if you're not sure, use *don't need to* — it’s the safest and most common form for the present and future.
