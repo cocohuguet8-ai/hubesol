@@ -22,8 +22,7 @@
         "hint": "Marta",
         "answers": [
           "Marta’s",
-          "Marta's",
-          "Martas"
+          "Marta's"
         ],
         "display": "Marta’s",
         "explain": "Singular person: add ’s → ‘Marta’s’."
@@ -35,8 +34,7 @@
         "hint": "brother",
         "answers": [
           "brother’s",
-          "brother's",
-          "brothers"
+          "brother's"
         ],
         "display": "brother’s",
         "explain": "Singular noun + ’s: ‘brother’s’."
@@ -48,8 +46,7 @@
         "hint": "dog",
         "answers": [
           "dog’s",
-          "dog's",
-          "dogs"
+          "dog's"
         ],
         "display": "dog’s",
         "explain": "Animals take ’s: ‘the dog’s bowl’."
@@ -61,8 +58,7 @@
         "hint": "parents",
         "answers": [
           "parents’",
-          "parents'",
-          "parents"
+          "parents'"
         ],
         "display": "parents’",
         "explain": "Plural ending in -s: just add ’ → ‘parents’’."
@@ -74,8 +70,7 @@
         "hint": "students",
         "answers": [
           "students’",
-          "students'",
-          "students"
+          "students'"
         ],
         "display": "students’",
         "explain": "Plural ending in -s: ‘students’’."
@@ -87,8 +82,7 @@
         "hint": "girls",
         "answers": [
           "girls’",
-          "girls'",
-          "girls"
+          "girls'"
         ],
         "display": "girls’",
         "explain": "Plural ending in -s: ‘girls’’."
@@ -100,8 +94,7 @@
         "hint": "children",
         "answers": [
           "children’s",
-          "children's",
-          "childrens"
+          "children's"
         ],
         "display": "children’s",
         "explain": "Irregular plural (no -s): add ’s → ‘children’s’."
@@ -113,8 +106,7 @@
         "hint": "women",
         "answers": [
           "women’s",
-          "women's",
-          "womens"
+          "women's"
         ],
         "display": "women’s",
         "explain": "Irregular plural: ‘women’s’."
@@ -126,8 +118,7 @@
         "hint": "people",
         "answers": [
           "people’s",
-          "people's",
-          "peoples"
+          "people's"
         ],
         "display": "people’s",
         "explain": "Irregular plural: ‘people’s’."
@@ -139,8 +130,7 @@
         "hint": "today",
         "answers": [
           "today’s",
-          "today's",
-          "todays"
+          "today's"
         ],
         "display": "today’s",
         "explain": "Time expressions take ’s: ‘today’s news’."
@@ -153,10 +143,8 @@
         "answers": [
           "Next week’s",
           "Next week's",
-          "Next weeks",
           "next week’s",
-          "next week's",
-          "next weeks"
+          "next week's"
         ],
         "display": "Next week’s",
         "explain": "Time expression: ‘next week’s meeting’."
@@ -223,8 +211,7 @@
         "hint": "doctor",
         "answers": [
           "doctor’s",
-          "doctor's",
-          "doctors"
+          "doctor's"
         ],
         "display": "doctor’s",
         "explain": "‘At the doctor’s’ = at the doctor’s surgery."
@@ -236,8 +223,7 @@
         "hint": "Joan",
         "answers": [
           "Joan’s",
-          "Joan's",
-          "Joans"
+          "Joan's"
         ],
         "display": "Joan’s",
         "explain": "‘At Joan’s’ = at Joan’s house."
@@ -249,8 +235,7 @@
         "hint": "Nil",
         "answers": [
           "Nil’s",
-          "Nil's",
-          "Nils"
+          "Nil's"
         ],
         "display": "Nil’s",
         "explain": "Shared ownership: ’s only on the last name."
@@ -263,10 +248,8 @@
         "answers": [
           "James’s",
           "James's",
-          "Jamess",
           "James’",
-          "James'",
-          "James"
+          "James'"
         ],
         "display": "James’s",
         "explain": "Names ending in -s: ‘James’s’ or ‘James’’."
@@ -603,17 +586,17 @@
         "use": "Plural + ’",
         "text": "The <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> room is upstairs.",
         "choices": [
-          "boys's",
-          "boys'",
-          "boy's'",
-          "boyses"
+          "boys’s",
+          "boys’",
+          "boy",
+          "boy’s"
         ],
         "correct": 1,
         "wrongReasons": [
           "Plural in -s: only add ’.",
           "",
-          "Not English.",
-          "Not a word."
+          "We need possession.",
+          "‘Boy’s’ is one boy, but the room is shared by more than one."
         ],
         "explain": "Plural in -s + ’: the boys’ room (more than one boy)."
       },
@@ -621,17 +604,17 @@
         "use": "Irregular plural",
         "text": "Where is the <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> section in this shop?",
         "choices": [
-          "childrens'",
-          "childrens",
-          "children's",
-          "child's'"
+          "childrens’",
+          "children",
+          "children’s",
+          "child’s"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Children’ has no -s: add ’s.",
-          "We need the apostrophe.",
+          "We need possession.",
           "",
-          "Not English."
+          "‘Child’s’ is one child."
         ],
         "explain": "Irregular plural + ’s: children’s."
       },
@@ -639,16 +622,16 @@
         "use": "Of",
         "text": "I can’t remember <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "the hotel's name of",
-          "the name hotel's",
-          "the hotel of name",
+          "the name hotel",
+          "the name from the hotel",
+          "the hotel’s of name",
           "the name of the hotel"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Wrong order.",
-          "Not English.",
-          "Wrong meaning.",
+          "‘Of the’ is missing.",
+          "Use ‘of’ with things, not ‘from’.",
+          "Don’t combine ’s and ‘of’.",
           ""
         ],
         "explain": "Thing: the name of the hotel."
@@ -657,17 +640,17 @@
         "use": "Of",
         "text": "Put the plates on <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "the shelf's top of",
           "the top of the shelf",
-          "the top shelf's",
-          "the of top shelf"
+          "the top shelf",
+          "the top of shelf",
+          "the shelf’s top"
         ],
-        "correct": 1,
+        "correct": 0,
         "wrongReasons": [
-          "Not English.",
           "",
-          "Changes the meaning.",
-          "Not English."
+          "‘The top shelf’ means the highest shelf, not the top surface.",
+          "‘The’ is missing before ‘shelf’.",
+          "Things usually take ‘of’, not ’s."
         ],
         "explain": "Part of a thing: the top of the shelf."
       },
@@ -676,16 +659,16 @@
         "text": "Have you done <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> homework?",
         "choices": [
           "tonights",
-          "the tonight of",
-          "tonight's",
-          "tonights'"
+          "tonight’s",
+          "the tonight",
+          "tonight"
         ],
-        "correct": 2,
+        "correct": 1,
         "wrongReasons": [
           "We need the apostrophe.",
-          "Not English.",
           "",
-          "Singular: ’s, not s’."
+          "‘The’ doesn’t go before ‘tonight’ here.",
+          "We need possession: ’s."
         ],
         "explain": "Time: tonight’s homework."
       },
@@ -694,16 +677,16 @@
         "text": "I bought some bread at the <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "baker",
-          "bakers's",
-          "of baker",
-          "baker's"
+          "bakers",
+          "baker’s",
+          "bakery"
         ],
-        "correct": 3,
+        "correct": 2,
         "wrongReasons": [
           "‘At the baker’ is a person, not a shop.",
-          "Not English.",
-          "Not English.",
-          ""
+          "We need the apostrophe: baker’s = the baker’s shop.",
+          "",
+          "‘Bakery’ would need ‘the bakery’ without ’s."
         ],
         "explain": "Shop: at the baker’s."
       },
@@ -711,17 +694,17 @@
         "use": "Plural + ’",
         "text": "My <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> names are Pol and Biel.",
         "choices": [
-          "cousins'",
+          "cousins's",
           "cousin's",
           "cousins",
-          "cousins's"
+          "cousins'"
         ],
-        "correct": 0,
+        "correct": 3,
         "wrongReasons": [
-          "",
+          "Not English.",
           "Two cousins: plural, so not ‘cousin’s’.",
           "We need the apostrophe.",
-          "Not English."
+          ""
         ],
         "explain": "Plural in -s + ’: cousins’."
       },
@@ -729,17 +712,17 @@
         "use": "Shared",
         "text": "Anna and <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wedding is in June. (they’re getting married)",
         "choices": [
-          "Marc",
+          "Marc’s",
           "Marcs",
-          "Marc's",
-          "of Marc"
+          "the Marc",
+          "Marc"
         ],
-        "correct": 2,
+        "correct": 0,
         "wrongReasons": [
-          "Shared: ’s on the last name.",
-          "Not English.",
           "",
-          "Not English."
+          "We need an apostrophe.",
+          "Names don’t take ‘the’.",
+          "Shared: ’s on the last name, so Marc needs ’s."
         ],
         "explain": "Shared: Anna and Marc’s wedding."
       },
@@ -748,16 +731,16 @@
         "text": "<span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> birthdays are in May. (one each)",
         "choices": [
           "Anna and Marc",
-          "Annas and Marcs",
+          "Anna's and Marc's",
           "Anna's and Marc",
-          "Anna's and Marc's"
+          "Annas and Marcs"
         ],
-        "correct": 3,
+        "correct": 1,
         "wrongReasons": [
           "We need possession.",
-          "We need apostrophes.",
+          "",
           "With separate things, both names take ’s.",
-          ""
+          "We need apostrophes."
         ],
         "explain": "Separate: both take ’s."
       },
@@ -765,16 +748,16 @@
         "use": "Long phrase",
         "text": "That’s the house <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "of the woman I told you about",
-          "the woman's I told you about",
           "woman's",
+          "the woman's I told you about",
+          "of the woman I told you about",
           "of woman"
         ],
-        "correct": 0,
+        "correct": 2,
         "wrongReasons": [
-          "",
-          "A long phrase is clearer with ‘of’.",
           "Not English.",
+          "A long phrase is clearer with ‘of’.",
+          "",
           "We need ‘the’."
         ],
         "explain": "Long phrase: of."
@@ -783,17 +766,17 @@
         "use": "Name in -s",
         "text": "I love <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> new song.",
         "choices": [
-          "Charle's",
-          "Charles's",
+          "Charle’s",
           "Charles",
-          "Charless"
+          "the Charles’s",
+          "Charles’s"
         ],
-        "correct": 1,
+        "correct": 3,
         "wrongReasons": [
           "The name is ‘Charles’.",
-          "",
           "We need possession.",
-          "Not English."
+          "Names don’t take ‘the’.",
+          ""
         ],
         "explain": "Name in -s: Charles’s (or Charles’)."
       },
@@ -801,17 +784,17 @@
         "use": "Not possession",
         "text": "In ‘She’s my teacher’, ’s means…",
         "choices": [
-          "has",
+          "is",
           "possession",
           "us",
-          "is"
+          "has"
         ],
-        "correct": 3,
+        "correct": 0,
         "wrongReasons": [
-          "‘She has my teacher’ makes no sense.",
+          "",
           "There’s no owner here.",
           "Not this.",
-          ""
+          "‘She has my teacher’ makes no sense."
         ],
         "explain": "’s here = is."
       },
@@ -819,15 +802,15 @@
         "use": "Not possession",
         "text": "In ‘He’s got a dog’, ’s means…",
         "choices": [
-          "has",
           "is",
+          "has",
           "possession",
           "was"
         ],
-        "correct": 0,
+        "correct": 1,
         "wrongReasons": [
-          "",
           "‘He is got’ is wrong.",
+          "",
           "There’s no owner noun.",
           "Not this."
         ],
@@ -837,17 +820,17 @@
         "use": "Compound",
         "text": "Wait for me at the <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "bus's stop",
-          "bus stop",
+          "bus’s stop",
           "stop of the bus",
+          "bus stop",
           "buses stop"
         ],
-        "correct": 1,
+        "correct": 2,
         "wrongReasons": [
           "Things don’t usually take ’s.",
+          "Not natural: use noun + noun.",
           "",
-          "Not natural.",
-          "Not English."
+          "‘Buses’ is plural: the stop is for buses, so ‘bus stop’."
         ],
         "explain": "Noun + noun: bus stop."
       },
@@ -856,16 +839,16 @@
         "text": "The <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> ears are very big.",
         "choices": [
           "elephant",
-          "elephants's",
-          "elephant's",
-          "of elephant"
+          "elephants",
+          "of elephant",
+          "elephant’s"
         ],
-        "correct": 2,
+        "correct": 3,
         "wrongReasons": [
           "We need possession.",
-          "Not English.",
-          "",
-          "Wrong order."
+          "We need possession and the singular.",
+          "Use ’s for animals.",
+          ""
         ],
         "explain": "Animal + ’s."
       },
@@ -891,17 +874,17 @@
         "use": "Which",
         "text": "Which is most natural?",
         "choices": [
-          "the film's end of",
+          "the film end",
           "the end of the film",
-          "the end's film",
-          "the of film end"
+          "the end from the film",
+          "the end of film"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Not English.",
+          "Use ‘of’ to link ‘end’ and ‘film’.",
           "",
-          "Wrong meaning.",
-          "Not English."
+          "Use ‘of’, not ‘from’.",
+          "‘The’ is missing before ‘film’."
         ],
         "explain": "Thing: the end of the film."
       },
@@ -927,16 +910,16 @@
         "use": "Irregular plural",
         "text": "The <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> changing room is on the left.",
         "choices": [
-          "mens'",
+          "mens",
+          "man’s",
           "mans",
-          "man's'",
-          "men's"
+          "men’s"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Men’ has no -s: add ’s.",
-          "Not English.",
-          "Not English.",
+          "‘Man’s’ is singular.",
+          "We need the apostrophe.",
           ""
         ],
         "explain": "Irregular plural: men’s."
@@ -1068,28 +1051,39 @@
       {
         "tokens": [
           "The",
-          "chair’s",
-          "leg",
+          "window",
+          "of",
+          "Pau",
           "is",
-          "broken."
+          "open."
         ],
-        "errorIndex": 1,
-        "correction": "chair",
-        "type": "’s with things",
-        "message": "For things, use noun + noun or ‘of’: ‘the chair leg’ / ‘the leg of the chair’."
+        "errorIndex": 0,
+        "correction": "Pau’s window",
+        "type": "’s with people",
+        "message": "For a person, use ’s: ‘Pau’s window’.",
+        "errorSpan": [
+          0,
+          3
+        ]
       },
       {
         "tokens": [
-          "Please",
-          "close",
-          "the",
-          "car’s",
-          "door."
+          "The",
+          "phone",
+          "of",
+          "my",
+          "mum",
+          "is",
+          "new."
         ],
-        "errorIndex": 3,
-        "correction": "car",
-        "type": "’s with things",
-        "message": "For things, use noun + noun: ‘the car door’."
+        "errorIndex": 0,
+        "correction": "My mum’s phone",
+        "type": "’s with people",
+        "message": "For a person, use ’s: ‘my mum’s phone’.",
+        "errorSpan": [
+          0,
+          4
+        ]
       },
       {
         "tokens": [
@@ -1119,16 +1113,17 @@
       },
       {
         "tokens": [
-          "I’m",
-          "going",
-          "to",
-          "the",
-          "chemist."
+          "We",
+          "had",
+          "lunch",
+          "at",
+          "my",
+          "aunt."
         ],
-        "errorIndex": 4,
-        "correction": "chemist’s.",
-        "type": "Shop",
-        "message": "Shop: ‘the chemist’s’."
+        "errorIndex": 5,
+        "correction": "aunt’s.",
+        "type": "Shop / house",
+        "message": "At someone’s house: ‘at my aunt’s’."
       },
       {
         "tokens": [
@@ -1188,13 +1183,13 @@
       {
         "tokens": [
           "That’s",
-          "Jame’s",
+          "James",
           "book."
         ],
         "errorIndex": 1,
         "correction": "James’s",
         "type": "Name in -s",
-        "message": "The name is ‘James’: ‘James’s’ / ‘James’’."
+        "message": "Add ’s to the name: ‘James’s book’ (or ‘James’ book’)."
       },
       {
         "tokens": [
@@ -1237,8 +1232,7 @@
         "hint": "mum",
         "answers": [
           "mum’s",
-          "mum's",
-          "mums"
+          "mum's"
         ],
         "display": "mum’s",
         "explain": "Singular person + ’s.",
@@ -1251,8 +1245,7 @@
         "hint": "players",
         "answers": [
           "players’",
-          "players'",
-          "players"
+          "players'"
         ],
         "display": "players’",
         "explain": "Plural in -s + ’.",
@@ -1277,8 +1270,7 @@
         "hint": "people",
         "answers": [
           "people’s",
-          "people's",
-          "peoples"
+          "people's"
         ],
         "display": "people’s",
         "explain": "Irregular plural + ’s.",
@@ -1332,35 +1324,35 @@
         "use": "Form",
         "text": "the toys / the baby →",
         "choices": [
-          "the toys of the baby's",
-          "the baby's toys",
+          "the toys of the baby",
+          "the baby’s toys",
           "the babys toys",
-          "the toys' baby"
+          "the babies toys"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Not English.",
+          "For a person we use ’s.",
           "",
           "We need the apostrophe.",
-          "Wrong meaning."
+          "‘Babies’ is plural."
         ],
         "explain": "Person/baby → ’s."
       },
       {
         "type": "form",
         "use": "Form",
-        "text": "the roof / the house →",
+        "text": "the roof / the house → (use ‘of’)",
         "choices": [
-          "the house's roof of",
-          "the roofs house",
+          "the roof the house",
+          "the roof of house",
           "the house of the roof",
           "the roof of the house"
         ],
         "correct": 3,
         "wrongReasons": [
-          "Not English.",
-          "Not English.",
-          "Wrong meaning.",
+          "‘Of’ is missing.",
+          "‘The’ is missing before ‘house’.",
+          "The order is reversed.",
           ""
         ],
         "explain": "Thing → of (or ‘the house roof’)."
@@ -1389,17 +1381,17 @@
         "use": "Form",
         "text": "the news / today →",
         "choices": [
-          "the news of today's",
+          "the news of today",
           "todays news",
-          "today's news",
+          "today’s news",
           "the today news"
         ],
         "correct": 2,
         "wrongReasons": [
-          "Not English.",
+          "For time we use ’s.",
           "We need the apostrophe.",
           "",
-          "Not English."
+          "Not natural."
         ],
         "explain": "Time → ’s."
       },
