@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "The film starts ___ 8 o'clock.",
-      "options": ["on", "at", "in", "—"],
+      "options": [
+        "on",
+        "at",
+        "in",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'On' is for days and dates.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "We have a meeting ___ Monday.",
-      "options": ["in", "at", "on", "—"],
+      "options": [
+        "in",
+        "at",
+        "on",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'In' is for longer periods.",
@@ -27,7 +37,12 @@
     },
     {
       "question": "It often snows ___ January.",
-      "options": ["in", "on", "at", "—"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Months take 'in': 'in January'.",
@@ -38,7 +53,12 @@
     },
     {
       "question": "I'll see you ___ tomorrow.",
-      "options": ["in", "on", "at", "—"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
       "answer": 3,
       "explanations": [
         "Don't use 'in' before 'tomorrow'.",
@@ -49,7 +69,12 @@
     },
     {
       "question": "She was born ___ 2001.",
-      "options": ["in", "on", "at", "—"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Years take 'in': 'in 2001'.",
@@ -60,7 +85,12 @@
     },
     {
       "question": "I don't like driving ___ night.",
-      "options": ["in", "at", "on", "—"],
+      "options": [
+        "in",
+        "at",
+        "on",
+        "—"
+      ],
       "answer": 1,
       "explanations": [
         "'In night' is wrong (but 'in the morning' is correct).",
@@ -71,7 +101,12 @@
     },
     {
       "question": "We usually go out ___ the evening.",
-      "options": ["—", "at", "on", "in"],
+      "options": [
+        "—",
+        "at",
+        "on",
+        "in"
+      ],
       "answer": 3,
       "explanations": [
         "'The evening' needs 'in'.",
@@ -82,7 +117,12 @@
     },
     {
       "question": "Her birthday is ___ 14 February.",
-      "options": ["at", "in", "on", "—"],
+      "options": [
+        "at",
+        "in",
+        "on",
+        "—"
+      ],
       "answer": 2,
       "explanations": [
         "'At' is for clock times.",
@@ -109,7 +149,12 @@
     },
     {
       "question": "Which preposition goes with a clock time?",
-      "options": ["no preposition", "on", "in", "at"],
+      "options": [
+        "no preposition",
+        "on",
+        "in",
+        "at"
+      ],
       "answer": 3,
       "explanations": [
         "Clock times do take a preposition — 'at'.",
@@ -122,11 +167,16 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "We go to the beach ___ summer.",
-      "hint": "Type at, on or in.",
-      "answers": ["in"],
+      "hint": "Type one word.",
+      "answers": [
+        "in"
+      ],
       "explanation": "Seasons take 'in': in summer.",
       "common": [
-        {"answer": "on", "why": "'On' is for days and dates. Seasons take 'in'."}
+        {
+          "answer": "on",
+          "why": "'On' is for days and dates. Seasons take 'in'."
+        }
       ]
     },
     {
@@ -134,18 +184,25 @@
       "kind": "Correct the mistake",
       "question": "I'll see you on tomorrow.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I'll see you tomorrow"],
+      "answers": [
+        "I'll see you tomorrow"
+      ],
       "explanation": "'Tomorrow' takes no preposition."
     },
     {
       "type": "write",
       "kind": "Fill in the gap",
       "question": "My exam is ___ 5 May.",
-      "hint": "Type at, on or in.",
-      "answers": ["on"],
+      "hint": "Type one word.",
+      "answers": [
+        "on"
+      ],
       "explanation": "Dates take 'on': on 5 May.",
       "common": [
-        {"answer": "in", "why": "Months alone take 'in', but a full date takes 'on'."}
+        {
+          "answer": "in",
+          "why": "Months alone take 'in', but a full date takes 'on'."
+        }
       ]
     }
   ]
