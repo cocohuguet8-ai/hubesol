@@ -213,7 +213,7 @@ const uid = 'mt';
         const leftWord = selectedLeft.word;
         selectedLeft = null;
         feedback.className = 'practice-feedback show ok';
-        feedback.innerHTML = '<b>Correct.</b> “' + leftWord + '” → “' + item.word + '”.';
+        feedback.innerHTML = '<b>Correct.</b> “' + leftWord + '” → “' + item.word.replace(/[.!?]$/, '') + '”.';
       } else {
         el.classList.add('wrongflash');
         feedback.className = 'practice-feedback show bad';
