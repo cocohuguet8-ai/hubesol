@@ -1073,16 +1073,16 @@
         "text": "If you finish early, you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> go home.",
         "choices": [
           "can",
-          "will can",
-          "could have",
-          "must to"
+          "went",
+          "had gone",
+          "would"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Will can’ is impossible: two modals can’t go together. Use ‘can’ or ‘will be able to’.",
-          "‘Could have’ is for the past.",
-          "‘Must’ is followed by the base verb, without ‘to’."
+          "‘Went’ is past simple: the result needs a modal or will + base verb here.",
+          "‘Had gone’ is for the third conditional, not a real future condition.",
+          "‘Would’ belongs to the second conditional."
         ],
         "explain": "The result can use a modal: can + base verb."
       },
@@ -1786,16 +1786,16 @@
         "use": "Choose the answer",
         "text": "If you feel ill, you {{blank}} see a doctor.",
         "choices": [
-          "will should",
+          "would",
           "should",
-          "should to",
+          "saw",
           "ought"
         ],
         "correct": 1,
         "wrongReasons": [
-          "Two modals can’t go together: no ‘will should’.",
+          "‘Would’ belongs to the second conditional; here the advice needs ‘should’.",
           "",
-          "‘Should’ is followed by the base verb, not ‘to’.",
+          "‘Saw’ is past simple: the result needs a modal like ‘should’.",
           "‘Ought’ needs ‘to’: ‘ought to see’."
         ],
         "explain": "Advice in the result clause: should + base verb."
@@ -1807,14 +1807,14 @@
         "choices": [
           "’s going",
           "going to",
-          "will going to",
+          "’s go to",
           "’s going to"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Be going to’ needs ‘to’: ‘he’s going to lose’.",
           "It needs ‘be’: ‘he’s going to’.",
-          "Never mix ‘will’ and ‘going to’.",
+          "‘Be going to’ needs the -ing form: ‘going to’, not ‘go to’.",
           ""
         ],
         "explain": "‘Be going to’ can replace will in the result clause."
@@ -1843,17 +1843,17 @@
         "use": "Choose the answer",
         "text": "If we hurry, we {{blank}} get there before it closes.",
         "choices": [
-          "might to",
-          "will might",
+          "would have",
+          "would",
           "might",
-          "must to"
+          "had to"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Might’ is followed by the base verb, no ‘to’.",
-          "Two modals can’t go together.",
+          "‘Would have’ belongs to the third conditional.",
+          "‘Would’ belongs to the second conditional.",
           "",
-          "‘Must’ is followed by the base verb, without ‘to’."
+          "‘Had to’ is past: it doesn’t fit a real future condition."
         ],
         "explain": "‘Might’ + base verb shows a possible, less certain result."
       },
