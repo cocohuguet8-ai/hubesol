@@ -5,7 +5,12 @@
   "items": [
     {
       "question": "\"Where do you live?\" → She asked where ___.",
-      "options": ["do I live", "I lived", "did I live", "I live"],
+      "options": [
+        "do I live",
+        "I lived",
+        "did I live",
+        "I live"
+      ],
       "answer": 1,
       "explanations": [
         "Reported questions drop the auxiliary 'do'.",
@@ -16,7 +21,12 @@
     },
     {
       "question": "\"Are you ready?\" → He asked ___ ready.",
-      "options": ["am I", "was I", "if was I", "if I was"],
+      "options": [
+        "am I",
+        "was I",
+        "if was I",
+        "if I was"
+      ],
       "answer": 3,
       "explanations": [
         "'Am I' isn't backshifted and keeps question order.",
@@ -27,18 +37,26 @@
     },
     {
       "question": "\"What is your name?\" → She asked what ___.",
-      "options": ["my name was", "is my name", "was my name", "did my name"],
+      "options": [
+        "my name was",
+        "is my name",
+        "was my name"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Statement order + backshift: 'She asked what my name was'.",
         "'Is' should backshift and follow statement order.",
-        "'Was my name' keeps question word order.",
-        "'Did my name' makes no sense."
+        "'Was my name' keeps question word order."
       ]
     },
     {
       "question": "\"Do you like coffee?\" → He asked ___ coffee.",
-      "options": ["did I like", "do I like", "if I liked", "if did I like"],
+      "options": [
+        "did I like",
+        "do I like",
+        "if I liked",
+        "if did I like"
+      ],
       "answer": 2,
       "explanations": [
         "'Did I like' keeps question order.",
@@ -49,7 +67,12 @@
     },
     {
       "question": "\"Why did she leave?\" → They asked why ___.",
-      "options": ["did she leave", "she left?", "she had left", "she leaves"],
+      "options": [
+        "did she leave",
+        "she left?",
+        "she had left",
+        "she leaves"
+      ],
       "answer": 2,
       "explanations": [
         "'Did she leave' keeps question order.",
@@ -60,7 +83,12 @@
     },
     {
       "question": "\"Can you swim?\" → She asked ___ swim.",
-      "options": ["could I", "can I", "if can I", "if I could"],
+      "options": [
+        "could I",
+        "can I",
+        "if can I",
+        "if I could"
+      ],
       "answer": 3,
       "explanations": [
         "'Could I' keeps question order (subject after modal).",
@@ -71,7 +99,12 @@
     },
     {
       "question": "\"What are you doing?\" → He asked what ___.",
-      "options": ["I was doing", "are you doing", "was I doing", "am I doing"],
+      "options": [
+        "I was doing",
+        "are you doing",
+        "was I doing",
+        "am I doing"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Statement order + backshift: 'He asked what I was doing'.",
@@ -98,7 +131,12 @@
     },
     {
       "question": "\"Have you seen my keys?\" → He asked ___ his keys.",
-      "options": ["if I had seen", "have I seen", "did I see", "if have I seen"],
+      "options": [
+        "if I had seen",
+        "have I seen",
+        "did I see",
+        "if have I seen"
+      ],
       "answer": 0,
       "explanations": [
         "Correct! Yes/no + backshift: 'He asked if I had seen his keys'.",
@@ -127,12 +165,20 @@
       "type": "write",
       "kind": "Fill in the gap",
       "question": "\"Where does she work?\" → He asked where she ___. (work)",
-      "hint": "Use the past simple.",
-      "answers": ["worked"],
+      "hint": "Type one word.",
+      "answers": [
+        "worked"
+      ],
       "explanation": "Reported questions backshift: does work → worked.",
       "common": [
-        {"answer": "works", "why": "After a past reporting verb the tense moves back: 'worked'."},
-        {"answer": "did work", "why": "Reported questions don't use do/does/did: 'worked'."}
+        {
+          "answer": "works",
+          "why": "After a past reporting verb the tense moves back: 'worked'."
+        },
+        {
+          "answer": "did work",
+          "why": "Reported questions don't use do/does/did: 'worked'."
+        }
       ]
     },
     {
@@ -140,7 +186,9 @@
       "kind": "Correct the mistake",
       "question": "He asked what was my name.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["He asked what my name was"],
+      "answers": [
+        "He asked what my name was"
+      ],
       "explanation": "Reported questions use statement word order: what my name was."
     },
     {
@@ -148,7 +196,10 @@
       "kind": "Complete the sentence",
       "question": "\"Are you hungry?\" she asked me. → She asked me ___ I was hungry.",
       "hint": "Type one word.",
-      "answers": ["if", "whether"],
+      "answers": [
+        "if",
+        "whether"
+      ],
       "explanation": "Yes/no questions are reported with 'if' or 'whether'."
     }
   ]
