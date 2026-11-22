@@ -9,7 +9,7 @@ answerLead: "Both mean 'in the middle of', but they see the group differently:"
 answerPoints:
   - "between — two things, or several seen as separate items (between A and B; between the three of us)."
   - "among — part of a group or mass seen as a whole (among the crowd; among friends)."
-answerNote: "'Between' can be used for more than two when the items are separate and distinct. 'Among' is always followed by a plural or group noun."
+answerNote: "'Between' can be used for more than two when the items are separate and distinct. 'Among' is usually followed by a plural or group noun (among the trees, among us)."
 quiz: "between-vs-among-quiz-1"
 faq:
   - q: "What's the difference between 'between' and 'among'?"
