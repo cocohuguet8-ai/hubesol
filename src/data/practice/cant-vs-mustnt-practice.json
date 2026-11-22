@@ -21,7 +21,7 @@
         "use": "Rule",
         "before": "You",
         "after": "park in front of the fire station.",
-        "hint": "can’t / mustn’t",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
@@ -39,7 +39,7 @@
         "use": "Warning",
         "before": "You",
         "after": "touch the iron — it’s really hot!",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "mustn’t",
           "mustn't",
@@ -53,21 +53,25 @@
         "use": "Warning",
         "before": "Children",
         "after": "play with matches.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "mustn’t",
           "mustn't",
           "mustnt",
-          "must not"
+          "must not",
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
         ],
         "display": "mustn’t",
-        "explain": "A strong prohibition because it’s dangerous: mustn’t."
+        "explain": "A strong prohibition because it’s dangerous: mustn’t (here ‘can’t’ and ‘mustn’t’ are both possible)."
       },
       {
         "use": "Ability",
         "before": "I",
         "after": "swim, so I always stay in the shallow end.",
-        "hint": "can’t / mustn’t",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
@@ -81,7 +85,7 @@
         "use": "Ability",
         "before": "My grandpa",
         "after": "hear very well any more.",
-        "hint": "can’t / mustn’t",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
@@ -89,13 +93,13 @@
           "cannot"
         ],
         "display": "can’t",
-        "explain": "A physical impossibility: can’t, never mustn’t."
+        "explain": "A physical impossibility: can’t, not mustn’t."
       },
       {
         "use": "Ability",
         "before": "I",
         "after": "open this jar. Can you help me?",
-        "hint": "can’t / mustn’t",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
@@ -109,35 +113,43 @@
         "use": "Rule",
         "before": "In Spain you",
         "after": "drive until you’re eighteen.",
-        "hint": "can’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
           "cant",
-          "cannot"
+          "cannot",
+          "mustn’t",
+          "mustn't",
+          "mustnt",
+          "must not"
         ],
         "display": "can’t",
-        "explain": "Reporting a law: can’t = it isn’t permitted."
+        "explain": "Reporting a law: can’t = it isn’t permitted (here ‘can’t’ and ‘mustn’t’ are both possible)."
       },
       {
         "use": "Rule",
         "before": "We",
         "after": "use our phones in class.",
-        "hint": "can’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
           "cant",
-          "cannot"
+          "cannot",
+          "mustn’t",
+          "mustn't",
+          "mustnt",
+          "must not"
         ],
         "display": "can’t",
-        "explain": "Reporting a school rule: can’t."
+        "explain": "Reporting a school rule: can’t (here ‘can’t’ and ‘mustn’t’ are both possible)."
       },
       {
         "use": "Speaker",
         "before": "I",
         "after": "forget my keys again!",
-        "hint": "mustn’t / can’t",
+        "hint": "(modal)",
         "answers": [
           "mustn’t",
           "mustn't",
@@ -151,26 +163,35 @@
         "use": "Speaker",
         "before": "We",
         "after": "tell anyone about the surprise.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "mustn’t",
           "mustn't",
           "mustnt",
-          "must not"
+          "must not",
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
         ],
         "display": "mustn’t",
-        "explain": "A strong agreement between speakers: mustn’t."
+        "explain": "A strong agreement between speakers: mustn’t (here ‘can’t’ and ‘mustn’t’ are both possible)."
       },
       {
         "use": "Not necessary",
         "before": "You",
         "after": "pay — the museum is free on Sundays.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "don’t have to",
           "don't have to",
           "dont have to",
-          "do not have to"
+          "do not have to",
+          "needn’t",
+          "needn't",
+          "need not",
+          "don’t need to",
+          "don't need to"
         ],
         "display": "don’t have to",
         "explain": "Not necessary: don’t have to. ‘Mustn’t’ would forbid paying."
@@ -179,12 +200,17 @@
         "use": "Not necessary",
         "before": "It’s Saturday, so I",
         "after": "wear my uniform.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "don’t have to",
           "don't have to",
           "dont have to",
-          "do not have to"
+          "do not have to",
+          "needn’t",
+          "needn't",
+          "need not",
+          "don’t need to",
+          "don't need to"
         ],
         "display": "don’t have to",
         "explain": "No obligation: don’t have to."
@@ -193,12 +219,17 @@
         "use": "Not necessary",
         "before": "You",
         "after": "bring anything to the party.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "don’t have to",
           "don't have to",
           "dont have to",
-          "do not have to"
+          "do not have to",
+          "needn’t",
+          "needn't",
+          "need not",
+          "don’t need to",
+          "don't need to"
         ],
         "display": "don’t have to",
         "explain": "Optional: don’t have to."
@@ -207,12 +238,17 @@
         "use": "Not necessary",
         "before": "She",
         "after": "work tomorrow — it’s a holiday.",
-        "hint": "don’t / doesn’t have to",
+        "hint": "(modal)",
         "answers": [
           "doesn’t have to",
           "doesn't have to",
           "doesnt have to",
-          "does not have to"
+          "does not have to",
+          "needn’t",
+          "needn't",
+          "need not",
+          "doesn’t need to",
+          "doesn't need to"
         ],
         "display": "doesn’t have to",
         "explain": "Third person: doesn’t have to."
@@ -221,7 +257,7 @@
         "use": "Deduction",
         "before": "That",
         "after": "be Marc — he’s on holiday in Italy.",
-        "hint": "can’t / mustn’t",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
@@ -235,12 +271,14 @@
         "use": "Past",
         "before": "When I was little, I",
         "after": "watch TV after nine.",
-        "hint": "couldn’t / mustn’t",
+        "hint": "(past)",
         "answers": [
           "couldn’t",
           "couldn't",
           "couldnt",
-          "could not"
+          "could not",
+          "wasn’t allowed to",
+          "wasn't allowed to"
         ],
         "display": "couldn’t",
         "explain": "‘Mustn’t’ has no past: couldn’t."
@@ -249,7 +287,7 @@
         "use": "Past",
         "before": "We",
         "after": "allowed to use calculators in the test.",
-        "hint": "weren’t / mustn’t",
+        "hint": "(past)",
         "answers": [
           "weren’t",
           "weren't",
@@ -285,15 +323,19 @@
         "use": "Warning",
         "before": "You",
         "after": "lean out of the train window.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "mustn’t",
           "mustn't",
           "mustnt",
-          "must not"
+          "must not",
+          "can’t",
+          "can't",
+          "cant",
+          "cannot"
         ],
         "display": "mustn’t",
-        "explain": "A safety warning: mustn’t."
+        "explain": "A safety warning: mustn’t (here ‘can’t’ and ‘mustn’t’ are both possible)."
       }
     ]
   },
@@ -682,14 +724,14 @@
         "use": "Speaker",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> forget to send that email. It’s really important.",
         "choices": [
-          "can’t",
+          "needn’t",
           "mustn’t",
           "don’t have to",
           "couldn’t"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Can’t forget’ means it’s impossible to forget.",
+          "‘Needn’t forget’ means forgetting is not a problem — the opposite.",
           "",
           "‘Don’t have to forget’ makes no sense.",
           "‘Couldn’t’ is past."
@@ -707,7 +749,7 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Mustn’t’ isn’t used for logical deduction in this way.",
+          "‘Mustn’t’ is not the usual choice for a logical deduction: use ‘can’t’.",
           "‘Doesn’t have to’ is about necessity.",
           "",
           "‘Needn’t’ is about necessity."
@@ -959,7 +1001,7 @@
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Mustn’t’ isn’t used for deduction.",
+          "‘Mustn’t’ is not the usual choice for a deduction: use ‘can’t’.",
           "‘Doesn’t have to’ is about necessity.",
           "No ‘to’ after a modal.",
           ""
@@ -1188,7 +1230,8 @@
       {
         "tokens": [
           "That",
-          "mustn’t",
+          "can’t",
+          "to",
           "be",
           "Pau",
           "—",
@@ -1196,10 +1239,14 @@
           "in",
           "Paris."
         ],
-        "errorIndex": 1,
-        "correction": "can’t",
-        "type": "Mustn’t for deduction",
-        "message": "Deduction (sure it isn’t true): ‘That can’t be Pau’."
+        "errorIndex": 2,
+        "correction": "be",
+        "type": "No to after can’t",
+        "message": "No ‘to’ after ‘can’t’: ‘That can’t be Pau’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1232,14 +1279,19 @@
       {
         "tokens": [
           "She",
-          "mustn’ts",
-          "tell",
-          "anyone."
+          "doesn’t",
+          "has",
+          "to",
+          "pay."
         ],
-        "errorIndex": 1,
-        "correction": "mustn’t",
-        "type": "-s on a modal",
-        "message": "Modals never take -s."
+        "errorIndex": 2,
+        "correction": "have",
+        "type": "After doesn’t",
+        "message": "After ‘doesn’t’ use ‘have’: ‘She doesn’t have to pay’.",
+        "errorSpan": [
+          2,
+          2
+        ]
       },
       {
         "tokens": [
@@ -1257,16 +1309,22 @@
       },
       {
         "tokens": [
-          "You",
-          "musn’t",
-          "lie",
+          "He",
+          "hasn’t",
           "to",
-          "me."
+          "pay",
+          "—",
+          "it’s",
+          "free."
         ],
         "errorIndex": 1,
-        "correction": "mustn’t",
-        "type": "Spelling",
-        "message": "Spelling: ‘mustn’t’ (with t)."
+        "correction": "doesn’t have",
+        "type": "Wrong negative",
+        "message": "Not necessary: ‘He doesn’t have to pay’.",
+        "errorSpan": [
+          1,
+          1
+        ]
       }
     ]
   },
@@ -1292,7 +1350,7 @@
         "type": "fill",
         "use": "Warning",
         "sentText": "You {{blank}} play with the scissors!",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "mustn’t",
           "mustn't",
@@ -1307,7 +1365,7 @@
         "type": "fill",
         "use": "Ability",
         "sentText": "I {{blank}} whistle. I’ve tried for years!",
-        "hint": "can’t / mustn’t",
+        "hint": "(modal)",
         "answers": [
           "can’t",
           "can't",
@@ -1315,14 +1373,14 @@
           "cannot"
         ],
         "display": "can’t",
-        "explain": "No ability: can’t, never mustn’t.",
+        "explain": "No ability: can’t, not mustn’t.",
         "wrongNote": "Ability → ‘can’t’."
       },
       {
         "type": "fill",
         "use": "Not necessary",
         "sentText": "You {{blank}} wait for me. Go ahead.",
-        "hint": "mustn’t / don’t have to",
+        "hint": "(modal)",
         "answers": [
           "don’t have to",
           "don't have to",
@@ -1337,12 +1395,14 @@
         "type": "fill",
         "use": "Past",
         "sentText": "We {{blank}} leave until the bell rang.",
-        "hint": "couldn’t / mustn’t",
+        "hint": "(past)",
         "answers": [
           "couldn’t",
           "couldn't",
           "couldnt",
-          "could not"
+          "could not",
+          "weren’t allowed to",
+          "weren't allowed to"
         ],
         "display": "couldn’t",
         "explain": "Past prohibition: couldn’t.",
