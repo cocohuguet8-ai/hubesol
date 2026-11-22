@@ -231,7 +231,7 @@ const uid = 'wo';
     function genericOrderHint(builtWords, correctWords) {
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      if (i === 0) return "Try starting with “" + tileLabel(correctWords[0], true) + "” — then think about what comes next.";
+      if (i === 0) return "Think about which word begins the sentence, then what comes next.";
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
