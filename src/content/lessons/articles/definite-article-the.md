@@ -75,6 +75,8 @@ The first time: *a/an*. After that: *the*.
 
 - I play **the** piano. — She's learning **the** violin.
 
+In casual speech, people also say *I play guitar* or *I play drums* with no article. Both are natural.
+
 ### 6. Places in town we usually use
 
 - I'm going to **the** cinema / **the** bank / **the** supermarket.
