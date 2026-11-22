@@ -16,13 +16,13 @@
     },
     {
       "question": "Her eyes were red because she ___.",
-      "options": ["had been crying", "cried", "cries", "was crying"],
+      "options": ["had been crying", "cried", "cries", "has been crying"],
       "answer": 0,
       "explanations": [
         "Correct! A past activity explaining a past result takes the past perfect continuous: 'had been crying'.",
         "'Cried' doesn't clearly link the earlier activity to the later red eyes.",
         "'Cries' is present simple, but this was in the past.",
-        "'Was crying' is possible, but the past perfect continuous better shows the activity had happened before her eyes were red."
+        "'Has been crying' links to now, but the red eyes were in the past."
       ]
     },
     {
@@ -71,24 +71,24 @@
     },
     {
       "question": "The players were exhausted — they ___ for ninety minutes.",
-      "options": ["had been playing", "had played", "played", "play"],
+      "options": ["had been playing", "had been play", "played", "play"],
       "answer": 0,
       "explanations": [
         "Correct! Duration explaining their exhaustion takes the past perfect continuous: 'had been playing'.",
-        "'Had played' focuses on completion, but 'for ninety minutes' stresses duration.",
+        "'Had been play' is missing the -ing: after 'had been' use 'playing'.",
         "'Played' (past simple) doesn't show the duration leading to their tiredness.",
         "'Play' is present simple, but this was in the past."
       ]
     },
     {
       "question": "We ___ waiting long when the bus finally came.",
-      "options": ["hadn't", "hadn't been", "didn't", "weren't"],
+      "options": ["hadn't", "hadn't been", "haven't been", "didn't"],
       "answer": 1,
       "explanations": [
         "'Hadn't waiting' is missing 'been'.",
         "Correct! Negative past perfect continuous = hadn't been + -ing: 'hadn't been waiting'.",
-        "'Didn't' is past simple, not this form.",
-        "'Weren't waiting' is past continuous, not the duration up to that point."
+        "'Haven't been waiting' links to now, but the bus already came.",
+        "'Didn't waiting' is not possible: 'didn't' needs the base verb ('didn't wait')."
       ]
     },
     {
@@ -109,13 +109,13 @@
     },
     {
       "question": "How long ___ you ___ when the taxi finally came?",
-      "options": ["had / been waiting", "did / wait", "have / waited", "were / waiting"],
+      "options": ["had / been waiting", "had / wait", "did / been waiting", "have / been waiting"],
       "answer": 0,
       "explanations": [
         "Correct! Asking about duration up to a past point uses 'had you been + -ing': 'had you been waiting'.",
-        "'Did you wait' asks about a completed time, not the duration up to that moment.",
-        "'Have you waited' is present perfect, but this is set in the past.",
-        "'Were you waiting' is past continuous, not the completed duration up to the taxi's arrival."
+        "'Had you wait' is missing the -ing: 'had you been waiting'.",
+        "'Did you been waiting' is not possible: 'been' needs 'had', 'has' or 'have'.",
+        "'Have you been waiting' is present perfect continuous, but this is set in the past."
       ]
     },
     {
@@ -123,18 +123,16 @@
       "kind": "Fill in the gap",
       "question": "When he arrived, I ___ for an hour. (wait)",
       "hint": "Type three words.",
-      "answers": ["had been waiting"],
+      "answers": ["had been waiting", "’d been waiting", "'d been waiting", "had waited", "’d waited", "'d waited"],
       "explanation": "Past perfect continuous: had been + -ing.",
-      "common": [
-        {"answer": "had waited", "why": "Duration up to a past moment: had been waiting."}
-      ]
+      "common": []
     },
     {
       "type": "write",
       "kind": "Correct the mistake",
       "question": "I had waiting for ages.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["I had been waiting for ages"],
+      "answers": ["I had been waiting for ages", "I’d been waiting for ages", "I'd been waiting for ages"],
       "explanation": "Add 'been'."
     },
     {
@@ -142,7 +140,7 @@
       "kind": "Correct the mistake",
       "question": "By then I had been finishing the essay.",
       "hint": "Type the whole corrected sentence.",
-      "answers": ["By then I had finished the essay"],
+      "answers": ["By then I had finished the essay", "By then I’d finished the essay", "By then I'd finished the essay"],
       "explanation": "A completed action uses the past perfect simple."
     }
   ]

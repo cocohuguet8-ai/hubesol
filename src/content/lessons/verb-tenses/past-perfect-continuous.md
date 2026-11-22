@@ -63,7 +63,7 @@ draft: false
 The activity started earlier and was still going on (or had just stopped) at a point in the past. Use *for* or *since*.
 
 - When he arrived, **I had been waiting** for an hour.
-- By 2010, **she had been living** abroad since 2005.
+- **She had been living** abroad for five years when she came home.
 
 ### 2. A past activity that explains a later past result
 

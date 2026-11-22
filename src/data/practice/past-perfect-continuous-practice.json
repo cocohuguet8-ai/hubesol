@@ -26,7 +26,11 @@
           "had been waiting",
           "'d been waiting",
           "d been waiting",
-          "’d been waiting"
+          "’d been waiting",
+          "had waited",
+          "'d waited",
+          "d waited",
+          "’d waited"
         ],
         "display": "had been waiting",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -41,7 +45,11 @@
           "had been crying",
           "'d been crying",
           "d been crying",
-          "’d been crying"
+          "’d been crying",
+          "had cried",
+          "'d cried",
+          "d cried",
+          "’d cried"
         ],
         "display": "had been crying",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -56,7 +64,11 @@
           "had been working",
           "'d been working",
           "d been working",
-          "’d been working"
+          "’d been working",
+          "had worked",
+          "'d worked",
+          "d worked",
+          "’d worked"
         ],
         "display": "had been working",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -71,7 +83,11 @@
           "had been training",
           "'d been training",
           "d been training",
-          "’d been training"
+          "’d been training",
+          "had trained",
+          "'d trained",
+          "d trained",
+          "’d trained"
         ],
         "display": "had been training",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -86,7 +102,11 @@
           "had been running",
           "'d been running",
           "d been running",
-          "’d been running"
+          "’d been running",
+          "had run",
+          "'d run",
+          "d run",
+          "’d run"
         ],
         "display": "had been running",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -98,7 +118,8 @@
         "after": "long?",
         "hint": "wait",
         "answers": [
-          "been waiting"
+          "been waiting",
+          "waited"
         ],
         "display": "been waiting",
         "explain": "A question about duration before a past point — had + subject + been + -ing."
@@ -106,8 +127,8 @@
       {
         "use": "Duration",
         "kind": "statement",
-        "before": "By 2010, she",
-        "after": "abroad since 2005.",
+        "before": "She",
+        "after": "abroad for five years when she came home.",
         "hint": "live",
         "answers": [
           "had been living",
@@ -120,21 +141,24 @@
           "’d lived"
         ],
         "display": "had been living",
-        "explain": "Duration before a past point — use had been + -ing (often with for or since)."
+        "explain": "Duration before a past point — use had been + -ing (often with for or since). ‘Had lived’ is also possible, but the continuous stresses how long."
       },
       {
         "use": "Negative",
         "kind": "statement",
         "before": "They",
-        "after": "when the alarm rang — they were wide awake.",
+        "after": "for long when the alarm rang, so they were still tired.",
         "hint": "not sleep",
         "answers": [
           "had not been sleeping",
           "hadn't been sleeping",
-          "hadn’t been sleeping"
+          "hadn’t been sleeping",
+          "had not slept",
+          "hadn't slept",
+          "hadn’t slept"
         ],
         "display": "had not been sleeping",
-        "explain": "A negative: hadn’t been + -ing for an activity that was not going on before that point."
+        "explain": "A negative: hadn’t been + -ing for an activity that was not going on before that point (‘hadn’t slept’ is also possible)."
       },
       {
         "use": "Result",
@@ -146,7 +170,11 @@
           "had been raining",
           "'d been raining",
           "d been raining",
-          "’d been raining"
+          "’d been raining",
+          "had rained",
+          "'d rained",
+          "d rained",
+          "’d rained"
         ],
         "display": "had been raining",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -161,7 +189,11 @@
           "had been studying",
           "'d been studying",
           "d been studying",
-          "’d been studying"
+          "’d been studying",
+          "had studied",
+          "'d studied",
+          "d studied",
+          "’d studied"
         ],
         "display": "had been studying",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -191,7 +223,11 @@
           "had been cooking",
           "'d been cooking",
           "d been cooking",
-          "’d been cooking"
+          "’d been cooking",
+          "had cooked",
+          "'d cooked",
+          "d cooked",
+          "’d cooked"
         ],
         "display": "had been cooking",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -203,7 +239,8 @@
         "after": "before the bus came?",
         "hint": "wait",
         "answers": [
-          "been waiting"
+          "been waiting",
+          "waited"
         ],
         "display": "been waiting",
         "explain": "A question about duration before a past point — had + subject + been + -ing."
@@ -232,7 +269,10 @@
         "answers": [
           "had not been waiting",
           "hadn't been waiting",
-          "hadn’t been waiting"
+          "hadn’t been waiting",
+          "had not waited",
+          "hadn't waited",
+          "hadn’t waited"
         ],
         "display": "had not been waiting",
         "explain": "A negative: hadn’t been + -ing for an activity that was not going on before that point."
@@ -247,7 +287,11 @@
           "had been walking",
           "'d been walking",
           "d been walking",
-          "’d been walking"
+          "’d been walking",
+          "had walked",
+          "'d walked",
+          "d walked",
+          "’d walked"
         ],
         "display": "had been walking",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -262,7 +306,14 @@
           "had been burning",
           "'d been burning",
           "d been burning",
-          "’d been burning"
+          "’d been burning",
+          "had burnt",
+          "'d burnt",
+          "d burnt",
+          "’d burnt",
+          "had burned",
+          "’d burned",
+          "'d burned"
         ],
         "display": "had been burning",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -277,7 +328,11 @@
           "had been playing",
           "'d been playing",
           "d been playing",
-          "’d been playing"
+          "’d been playing",
+          "had played",
+          "'d played",
+          "d played",
+          "’d played"
         ],
         "display": "had been playing",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -307,7 +362,11 @@
           "had been watching",
           "'d been watching",
           "d been watching",
-          "’d been watching"
+          "’d been watching",
+          "had watched",
+          "'d watched",
+          "d watched",
+          "’d watched"
         ],
         "display": "had been watching",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -430,15 +489,34 @@
       {
         "use": "Duration",
         "tokens": [
-          "By",
-          "2010",
-          "she",
+          "She",
           "had",
           "been",
           "living",
           "abroad",
-          "since",
-          "2005."
+          "for",
+          "five",
+          "years",
+          "when",
+          "she",
+          "came",
+          "home."
+        ],
+        "alts": [
+          [
+            "when",
+            "she",
+            "came",
+            "home",
+            "she",
+            "had",
+            "been",
+            "living",
+            "abroad",
+            "for",
+            "five",
+            "years."
+          ]
         ]
       },
       {
@@ -761,7 +839,7 @@
         "right": "Completed earlier action"
       },
       {
-        "left": "By 2010 she had been living abroad since 2005",
+        "left": "She had been living abroad for five years when she came home",
         "right": "Duration before a past point"
       },
       {
@@ -946,7 +1024,7 @@
       },
       {
         "use": "Duration",
-        "text": "By 2010, she <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> abroad since 2005.",
+        "text": "She <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> abroad for five years when she came home.",
         "choices": [
           "has been living",
           "was living",
@@ -964,7 +1042,7 @@
       },
       {
         "use": "Negative",
-        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> when the alarm rang — they were wide awake.",
+        "text": "They <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for long when the alarm rang, so they were still tired.",
         "choices": [
           "hadn’t been sleeping",
           "haven’t been sleeping",
@@ -1430,39 +1508,39 @@
       },
       {
         "tokens": [
-          "By",
-          "2010",
-          "she",
+          "She",
           "had",
           "been",
           "live",
           "abroad",
-          "since",
-          "2005."
+          "for",
+          "five",
+          "years."
         ],
-        "errorIndex": 5,
+        "errorIndex": 3,
         "correction": "living",
         "type": "Wrong form",
         "message": "After ‘had been’ use the -ing form."
       },
       {
         "tokens": [
-          "They",
+          "She",
           "had",
           "been",
-          "walking",
-          "walking",
+          "owning",
+          "a",
+          "flat",
           "for",
-          "hours."
+          "years."
         ],
-        "errorIndex": 4,
-        "correction": "walking",
-        "type": "Repeated word",
-        "message": "‘Walking’ appears twice — use it once.",
+        "errorIndex": 3,
         "errorSpan": [
-          3,
-          4
-        ]
+          1,
+          3
+        ],
+        "correction": "had owned",
+        "type": "State verb",
+        "message": "‘Own’ is a state verb: use had + past participle, ‘had owned’."
       },
       {
         "tokens": [
@@ -1584,7 +1662,11 @@
           "had been waiting",
           "'d been waiting",
           "d been waiting",
-          "’d been waiting"
+          "’d been waiting",
+          "had waited",
+          "'d waited",
+          "d waited",
+          "’d waited"
         ],
         "display": "had been waiting",
         "explain": "Duration before a past point — use had been + -ing (often with for or since)."
@@ -1598,7 +1680,11 @@
           "had been crying",
           "'d been crying",
           "d been crying",
-          "’d been crying"
+          "’d been crying",
+          "had cried",
+          "'d cried",
+          "d cried",
+          "’d cried"
         ],
         "display": "had been crying",
         "explain": "A past activity that explains a later past result — use had been + -ing."
@@ -1609,7 +1695,8 @@
         "sentText": "Had you {{blank}} long?",
         "hint": "wait",
         "answers": [
-          "been waiting"
+          "been waiting",
+          "waited"
         ],
         "display": "been waiting",
         "explain": "A question about duration before a past point — had + subject + been + -ing."
@@ -1617,12 +1704,15 @@
       {
         "type": "fill",
         "use": "Negative",
-        "sentText": "They {{blank}} when the alarm rang.",
+        "sentText": "They {{blank}} for long when the alarm rang.",
         "hint": "not sleep",
         "answers": [
           "had not been sleeping",
           "hadn't been sleeping",
-          "hadn’t been sleeping"
+          "hadn’t been sleeping",
+          "had not slept",
+          "hadn't slept",
+          "hadn’t slept"
         ],
         "display": "had not been sleeping",
         "explain": "A negative: hadn’t been + -ing for an activity that was not going on before that point."
@@ -1703,10 +1793,10 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "After ‘had been’ use the -ing form.",
+          "‘Had been wait’ is a common mistake: the verb after ‘had been’ takes -ing.",
           "",
-          "After ‘had been’ use the -ing form.",
-          "After ‘had been’ use the -ing form."
+          "‘Had been waited’ would be passive; for the continuous we add -ing.",
+          "‘Had been waits’ isn’t possible: the verb takes -ing."
         ],
         "explain": "The form is had been + verb-ing.",
         "hintVerb": ""
