@@ -231,7 +231,7 @@ const uid = 'wo';
     function genericOrderHint(builtWords, correctWords) {
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      if (i === 0) return "Try starting with “" + tileLabel(correctWords[0], true) + "” — then think about what comes next.";
+      if (i === 0) return "Check how the sentence begins — then think about what comes next.";
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
@@ -262,14 +262,17 @@ const uid = 'wo';
         if (correctWords.slice(cIdx + 1, cIdx + 3).some((w) => w.toLowerCase() === 'been') && correctWords.some((w, k) => k > cIdx && /ing$/.test(w))) {
           return "“" + aux + "” goes between its subject and “been” + -ing.";
         }
-        if (/^(would|could|might|should|will|can|must)/i.test(aux)) {
-          let mIdx = cIdx + 1;
-          if (/^not$/i.test(correctWords[mIdx] || '')) mIdx++;
-          if ((correctWords[mIdx] || '').toLowerCase() !== 'have') {
-            return "“" + aux + "” goes between its subject and the base verb: “" + correctWords.slice(cIdx, mIdx + 1).join(' ') + "”.";
-          }
+        let fIdx = cIdx + 1;
+        if (/^not$/i.test(correctWords[fIdx] || '')) fIdx++;
+        const nextW = (correctWords[fIdx] || '').toLowerCase();
+        if (/^(would|could|might|should|will|can|must|shall|may|won[’']t|shan[’']t)/i.test(aux)) {
+          if (nextW === 'have') return "“" + aux + "” goes between its subject and “have” + the past participle.";
+          return "“" + aux + "” goes between its subject and the base verb: “" + correctWords.slice(cIdx, fIdx + 1).join(' ') + "”.";
         }
-        return "“" + aux + "” goes between its subject and the past participle.";
+        if (/ing$/.test(nextW)) return "“" + aux + "” goes between its subject and the -ing verb.";
+        if (nextW === 'been') return "“" + aux + "” goes between its subject and “been”.";
+        if (/^(have|has|had|haven[’']t|hasn[’']t|hadn[’']t)$/i.test(aux)) return "“" + aux + "” goes between its subject and the past participle.";
+        return "“" + aux + "” comes after its subject, before the rest of the verb.";
       }
       if (cIdx === 0 && /ing$/.test(correctWords[2] || '')) {
         return "A question follows this order: “" + aux + "” + subject + -ing verb + the rest.";
