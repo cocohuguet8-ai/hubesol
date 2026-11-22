@@ -21,7 +21,7 @@ Deixa una taula amb cada pregunta, totes les respostes acceptades i la confirmac
 
 - Res d'exercicis de producció lliure (decisió de la Coco, 03/10/2026).
 - Patró «good»: Past Simple i Past Continuous (`claude/proces-per-llico.md`, `docs/HUBESOL_Checklist_pre-entrega_v1.md`, `docs/HUBESOL_Guia_alumne-exigent_v1.md`).
-- Abans de fusionar: `npm run lint && npm run build && npm run e2e` i `python3 claude/skills/audit_semantic.py .` en verd. Fer merge = publicar.
+- Abans de fusionar: `npm run lint && npm run build && npm run e2e` i `python3 claude/skills/audit_semantic.py .` en verd, **i el comentari «APROVAT» de Learner Review a la PR** (vegeu «Els 6 passos»). Fer merge = publicar.
 - Si un tipus d'error apareix en una lliçó, mira si hi és a totes les altres i arregla'l a totes de cop.
 
 ## Decisions de la Coco (22/11/2026), també obligatòries
@@ -37,3 +37,12 @@ Deixa una taula amb cada pregunta, totes les respostes acceptades i la confirmac
 - **Anglès britànic (Cambridge) com a forma principal;** les formes americanes s'accepten com a alternativa (learnt/learned, towards/toward…).
 - **Present perfect simple amb durada** és correcte i s'accepta («I've lived here for years»).
 - **Will / going to:** una elecció feta en el moment de parlar (restaurant, menú) admet les dues formes. Per a ofertes, promeses i reaccions immediates només «will».
+
+## Els 6 passos (obligatoris, 22/11/2026)
+
+0. **Autoavaluació (primer filtre, mai aprovació).** Abans d'obrir la PR, passa `HUBESOL_Checklist_pre-entrega` i les 8 regles, i enganxa a la PR l'evidència de cada punt, no uns vistos. Com a mínim: 3 respostes alternatives correctes provades (amb resultat), 3 respostes deliberadament incorrectes (amb el feedback exacte), la llista de totes les pistes i distractors revisats, i un grep de «..», «?.», « ’» i frases duplicades.
+1. **Construir** seguint la plantilla de Past Simple (mida de les seccions; feedback = regla + per què aquella opció és incorrecta + forma correcta; pistes que no donen la resposta). Per a cada pregunta, escriu TOTES les respostes correctes abans de decidir què s'accepta. Claude no escriu «OK», no tanca issues [LR] i no declara una lliçó acabada.
+2. **Revisió independent abans de publicar.** Claude no fa el merge. Deixa la lliçó a la previsualització de Cloudflare de la PR i demana el retest: comentari a la PR i, si existeix, l'etiqueta `lr-needs-retest` (avui no existeix: dir-ho al cos de la PR). Learner Review fa el retest com a alumne.
+3. **Porta de qualitat.** Cap merge sense un comentari de Learner Review a la PR que digui «APROVAT», amb mitjana ≥ 9,0 i cap criteri per sota de 8. Si no, es torna al pas 1 amb les troballes.
+4. **Tancament.** Les issues [LR] només es tanquen després d'un RETEST OK de Learner Review. Claude pot etiquetar o comentar «arreglat, pendent de retest», però no tancar-les.
+5. **Lots petits.** Màxim 3 lliçons per PR. No s'obren lliçons noves fins que les anteriors hagin passat la porta.
