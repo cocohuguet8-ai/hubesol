@@ -19,7 +19,7 @@ faq:
   - q: "Can I use 'since' with a clause?"
     a: "Yes: since I was a child, since we met. It marks the starting point."
   - q: "Is 'for' ever dropped?"
-    a: "Sometimes in casual speech ('I've been here two hours'), but including 'for' is always correct."
+    a: "Sometimes in casual speech ('I've been here two hours'), but including 'for' is the safe choice."
 teacherObjectives:
   - "Can choose 'since' (starting point) or 'for' (duration) correctly (CEFR B1)."
   - "Can use both with the present perfect for continuing situations."
