@@ -4,24 +4,24 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 
 | ID | Activitat | Pregunta | Respostes acceptades | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| G1 | Fill in the gaps | I’d ___ stay at home tonight. I’m tired. | rather | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G1 | Fill in the gaps | I’d ___ stay at home tonight. I’m tired. | rather | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G2 | Fill in the gaps | I’d rather ___ a film than go to the party. | watch | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G3 | Fill in the gaps | We’d rather walk ___ take the bus. | than | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G3 | Fill in the gaps | We’d rather walk ___ take the bus. | than | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G4 | Fill in the gaps | She’d rather ___ talk about the exam. | not | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G5 | Fill in the gaps |  ___ you rather have pizza or pasta? | Would | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G5 | Fill in the gaps |  ___ you rather have pizza or pasta? | Would | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G6 | Fill in the gaps | He’d rather ___ football than study. | play | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G7 | Fill in the gaps | I’d ___ to sit near the window, please. | prefer | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G8 | Fill in the gaps | I’d prefer ___ go by train. | to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G9 | Fill in the gaps | Would you prefer ___ eat now or later? | to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G10 | Fill in the gaps | I’d prefer ___ answer that question. | not to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G11 | Fill in the gaps | “Tea or coffee?” “I’d ___ tea, thanks.” | prefer | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G12 | Fill in the gaps | I’d prefer to cook rather ___ order a takeaway. | than | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G7 | Fill in the gaps | I’d ___ to sit near the window, please. | prefer | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G8 | Fill in the gaps | I’d prefer ___ go by train. | to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G9 | Fill in the gaps | Would you prefer ___ eat now or later? | to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G10 | Fill in the gaps | I’d prefer ___ answer that question. | not to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G11 | Fill in the gaps | “Tea or coffee?” “I’d ___ tea, thanks.” | prefer | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G12 | Fill in the gaps | I’d prefer to cook rather ___ order a takeaway. | than | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G13 | Fill in the gaps | I’d rather you ___ here with me. | stayed | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G14 | Fill in the gaps | Mum would rather we ___ go out tonight. | didn’t / didn't / didnt / did not | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G15 | Fill in the gaps | I’d rather you ___ tell anyone about this. | didn’t / didn't / didnt / did not | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G16 | Fill in the gaps | I’d prefer you ___ call me before you come. | to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G17 | Fill in the gaps | I ___ summer to winter. | prefer | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G18 | Fill in the gaps | She prefers cats ___ dogs. | to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G14 | Fill in the gaps | Mum would rather we ___ go out tonight. | didn’t / didn't / didnt / did not | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G15 | Fill in the gaps | I’d rather you ___ tell anyone about this. | didn’t / didn't / didnt / did not | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G16 | Fill in the gaps | I’d prefer you ___ call me before you come. | to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G17 | Fill in the gaps | I ___ summer to winter. | prefer | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G18 | Fill in the gaps | She prefers cats ___ dogs. | to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G19 | Fill in the gaps | I’d rather ___ a quiet night in. | have | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G20 | Fill in the gaps | They’d prefer ___ in a hotel. | to stay | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | W1 | Put it in order | (ordena les fitxes) | I’d rather stay at home. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -103,7 +103,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E17 | Find the mistake | Do you rather have pizza? | Would you rather have pizza? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | She prefer tea to coffee. | She prefers tea to coffee. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E19 | Find the mistake | I’d prefer to walk rather that take the bus. | I’d prefer to walk rather than take the bus. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | I’d rathe stay here. | I’d rather stay here. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E20 | Find the mistake | I’d rather staying here. | I’d rather stay here. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | I’d rather ___ to the beach than the pool. | go | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | I’d prefer ___ stay in a hostel. | to | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L3 | Level check | He’d rather lose ___ cheat. | than | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -134,6 +134,3 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | Choose the correct version of: 'I'd rather to have a coffee.' | I'd rather have a coffee. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the correct version of: 'I'd rather you don't tell anyone.' | I'd rather you didn't tell anyone. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | What follows 'would prefer'? | a to-infinitive or a noun. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | I'd rather ___ at home tonight. (stay) | stay | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | I'd prefer go by train. | I'd prefer to go by train / I would prefer to go by train | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | I'd rather you ___ smoke here. (not) | didn't | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |

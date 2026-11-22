@@ -1522,17 +1522,28 @@
       },
       {
         "tokens": [
-          "If",
+          "I’m",
+          "never",
+          "going",
+          "to",
+          "be",
+          "rich,",
+          "but",
+          "if",
           "I",
-          "tryed",
-          "harder,",
-          "I’d",
-          "win."
+          "won",
+          "the",
+          "lottery,",
+          "I",
+          "will",
+          "buy",
+          "a",
+          "boat."
         ],
-        "errorIndex": 2,
-        "correction": "tried",
-        "type": "Spelling",
-        "message": "Consonant + -y → -ied: try → tried."
+        "errorIndex": 13,
+        "correction": "would",
+        "type": "Wrong modal",
+        "message": "An unreal situation (‘if I won’) takes ‘would’: ‘I would buy’."
       }
     ]
   },

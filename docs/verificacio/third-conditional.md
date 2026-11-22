@@ -5,25 +5,25 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | ID | Activitat | Pregunta | Respostes acceptades | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | G1 | Fill in the gaps | If I ___ harder, I would have passed. | had studied / ’d studied / 'd studied / d studied | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G2 | Fill in the gaps | If we had left earlier, we ___ the bus. | would have caught / ’d have caught / 'd have caught / d have caught / could have caught / might have caught | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G2 | Fill in the gaps | If we had left earlier, we ___ the bus. | would have caught / ’d have caught / 'd have caught / d have caught / could have caught / might have caught | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G3 | Fill in the gaps | If she ___ about the party, she would have come. | had known / ’d known / 'd known / d known | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G4 | Fill in the gaps | If you had asked me, I ___ you. | would have helped / ’d have helped / 'd have helped / d have helped / could have helped / might have helped | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G4 | Fill in the gaps | If you had asked me, I ___ you. | would have helped / ’d have helped / 'd have helped / d have helped / could have helped / might have helped | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G5 | Fill in the gaps | If they ___ a map, they wouldn’t have got lost. | had taken / ’d taken / 'd taken / d taken | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G6 | Fill in the gaps | If the referee had seen the foul, he ___ a penalty. | would have given / ’d have given / 'd have given / d have given / could have given / might have given | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G6 | Fill in the gaps | If the referee had seen the foul, he ___ a penalty. | would have given / ’d have given / 'd have given / d have given / could have given / might have given | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G7 | Fill in the gaps | If it ___ , we would have played outside. | hadn’t rained / hadn't rained / hadnt rained / had not rained | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G8 | Fill in the gaps | If I had set my alarm, I ___ late. | wouldn’t have been / wouldn't have been / wouldnt have been / would not have been | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G9 | Fill in the gaps | If he ___ so much, he wouldn’t have felt sick. | hadn’t eaten / hadn't eaten / hadnt eaten / had not eaten | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G10 | Fill in the gaps | We ___ the film if the bus had come. | wouldn’t have missed / wouldn't have missed / wouldnt have missed / would not have missed | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G11 | Fill in the gaps | If I ___ my phone, I could have called you. | hadn’t forgotten / hadn't forgotten / hadnt forgotten / had not forgotten | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G12 | Fill in the gaps | If we had booked earlier, we ___ better seats. | would have got / ’d have got / 'd have got / d have got / could have got / might have got | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G13 | Fill in the gaps | If the driver hadn’t braked, he ___ the dog. | would have hit / ’d have hit / 'd have hit / d have hit / could have hit / might have hit | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G12 | Fill in the gaps | If we had booked earlier, we ___ better seats. | would have got / ’d have got / 'd have got / d have got / could have got / might have got | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G13 | Fill in the gaps | If the driver hadn’t braked, he ___ the dog. | would have hit / ’d have hit / 'd have hit / d have hit / could have hit / might have hit | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G14 | Fill in the gaps | If you ___ , you would have understood. | had listened / ’d listened / 'd listened / d listened | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G15 | Fill in the gaps | What would you have done if you ___ your passport? | had lost / ’d lost / 'd lost / d lost | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G16 | Fill in the gaps | If you had won the prize, what ___ ? | would you have bought | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G17 | Fill in the gaps | If I had had more money, I ___ the jacket. | could have bought / would have bought | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G17 | Fill in the gaps | If I had had more money, I ___ the jacket. | could have bought / would have bought | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G18 | Fill in the gaps | If you had told her the truth, she ___ you. | might have forgiven | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G19 | Fill in the gaps | If Pol ___ to bed earlier, he wouldn’t have been so tired. | had gone / ’d gone / 'd gone / d gone | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G20 | Fill in the gaps | If we had seen the sign, we ___ . | would have stopped / ’d have stopped / 'd have stopped / d have stopped / could have stopped / might have stopped | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G20 | Fill in the gaps | If we had seen the sign, we ___ . | would have stopped / ’d have stopped / 'd have stopped / d have stopped / could have stopped / might have stopped | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | W1 | Put it in order | (ordena les fitxes) | If I had known, I would have helped. // I would have helped if I had known. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
 | W2 | Put it in order | (ordena les fitxes) | If we had left earlier, we would have arrived on time. // we would have arrived on time if we had left earlier. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
 | W3 | Put it in order | (ordena les fitxes) | She would have come if you had invited her. // if you had invited her, she would have come. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -103,7 +103,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E17 | Find the mistake | If I had set my alarm, I won’t have been late. | If I had set my alarm, I wouldn’t have been late. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | If I had had time, I can have visited you. | If I had had time, I could have visited you. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E19 | Find the mistake | What would you had done if you’d missed the bus? | What would you have done if you’d missed the bus? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | If we had seen the sign, we would have stoped. | If we had seen the sign, we would have stopped. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E20 | Find the mistake | If we had seen the sign, we would have stop. | If we had seen the sign, we would have stopped. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | If I ___ up earlier, I’d have had breakfast. | had woken / ’d woken / 'd woken / d woken | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | If you had come, you ___ it. | would have enjoyed / ’d have enjoyed / 'd have enjoyed / d have enjoyed | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L3 | Level check | If we ___ lost, we’d have arrived first. | hadn’t got / hadn't got / hadnt got / had not got | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -134,6 +134,3 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | If I ___ to bed earlier, I would have felt better this morning. | had gone | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the sentence with the same meaning as: 'I didn't know, so I didn't call you.' | If I had known, I would have called you. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | If I ___ more time, I would have finished the essay. | had had | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | If we had left earlier, we ___ the train. (not miss) | would not have missed | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | If I would have studied, I'd have passed. | If I had studied, I'd have passed / If I had studied, I would have passed | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | If she had known, she would have ___ to the party. (go) | gone | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |

@@ -5,14 +5,14 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | ID | Activitat | Pregunta | Respostes acceptades | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | G1 | Fill in the gaps | If I ___ more free time, I’d learn the guitar. | had | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G2 | Fill in the gaps | If we lived by the sea, we ___ every day. | would swim / ’d swim / 'd swim / d swim / could swim / might swim | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G2 | Fill in the gaps | If we lived by the sea, we ___ every day. | would swim / ’d swim / 'd swim / d swim / could swim / might swim | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G3 | Fill in the gaps | If my brother ___ the answer, he’d tell us. | knew | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G4 | Fill in the gaps | If she ___ Japanese, she’d work in Tokyo. | spoke | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G5 | Fill in the gaps | If I had a car, I ___ you to the airport. | would drive / ’d drive / 'd drive / d drive / could drive / might drive | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G5 | Fill in the gaps | If I had a car, I ___ you to the airport. | would drive / ’d drive / 'd drive / d drive / could drive / might drive | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G6 | Fill in the gaps | If I ___ the lottery, I’d buy a farm. | won | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G7 | Fill in the gaps | If a famous singer ___ to our school, everyone would scream. | came | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G8 | Fill in the gaps | What would you do if you ___ a wallet in the street? | found | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G9 | Fill in the gaps | If I ___ you, I’d talk to the teacher. | were / was | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G9 | Fill in the gaps | If I ___ you, I’d talk to the teacher. | were / was | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G10 | Fill in the gaps | If the weather ___ better, we’d go for a walk. | were / was | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G11 | Fill in the gaps | If I ___ so much homework, I’d come out. | didn’t have / didn't have / didnt have / did not have | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G12 | Fill in the gaps | If he were more careful, he ___ his keys. | wouldn’t lose / wouldn't lose / wouldnt lose / would not lose | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -102,7 +102,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E16 | Find the mistake | If we didn’t have exams, we won’t study so much. | If we didn’t have exams, we wouldn’t study so much. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E17 | Find the mistake | If you could fly, where do you go? | If you could fly, where would you go? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | If she didn’t lived so far, we’d visit her. | If she didn’t live so far, we’d visit her. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E19 | Find the mistake | If I studyed more, I’d get better marks. | If I studied more, I’d get better marks. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E19 | Find the mistake | I don’t have a car, but if I had one, I will drive to work. | I don’t have a car, but if I had one, I would drive to work. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E20 | Find the mistake | If I spoke English well, I can work in London. | If I spoke English well, I could work in London. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | If I ___ in the country, I’d have a horse. | lived | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | If she had a bike, she ___ to school. | would cycle / ’d cycle / 'd cycle / d cycle | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -134,6 +134,3 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | If I had wings, I ___ fly everywhere. | could | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the sentence with the same meaning as: 'I don't have money, so I can't travel.' | If I had money, I'd travel. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | It's very unlikely, but if I ___ president, I'd change the law. | were | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | If I ___ a car, I would drive to work. (have) | had | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | If I would win, I'd be happy. | If I won, I'd be happy / If I won, I would be happy | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | What ___ you do if you won the lottery? | would | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |

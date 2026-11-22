@@ -1185,15 +1185,18 @@
       },
       {
         "tokens": [
-          "They",
-          "were",
-          "payed",
-          "€50."
+          "My",
+          "sister",
+          "was",
+          "send",
+          "a",
+          "letter",
+          "yesterday."
         ],
-        "errorIndex": 2,
-        "correction": "paid",
-        "type": "Spelling",
-        "message": "Participle of ‘pay’: ‘paid’."
+        "errorIndex": 3,
+        "correction": "sent",
+        "type": "Wrong participle",
+        "message": "Passive: ‘was’ + past participle — ‘was sent a letter’."
       }
     ]
   },

@@ -5,9 +5,9 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | ID | Activitat | Pregunta | Respostes acceptades | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | G1 | Fill in the gaps | If it ___ tomorrow, we’ll take umbrellas. | rains | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G2 | Fill in the gaps | If you call me tonight, I ___ . | will answer / ’ll answer / 'll answer / ll answer / can answer / may answer / might answer | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G2 | Fill in the gaps | If you call me tonight, I ___ . | will answer / ’ll answer / 'll answer / ll answer / can answer / may answer / might answer | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G3 | Fill in the gaps | If Pau ___ his driving test, his dad will lend him the car. | passes | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G4 | Fill in the gaps | We ___ the start if we don’t leave now. | will miss / ’ll miss / 'll miss / ll miss / might miss | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G4 | Fill in the gaps | We ___ the start if we don’t leave now. | will miss / ’ll miss / 'll miss / ll miss / might miss | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G5 | Fill in the gaps | If the shop ___ still open, I’ll get some milk. | is | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G6 | Fill in the gaps | If I ___ a million euros, I’d buy a castle. | had | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G7 | Fill in the gaps | If cats could talk, they ___ all day. | would complain / ’d complain / 'd complain / d complain | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -18,8 +18,8 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | G12 | Fill in the gaps | If he ___ older, he could drive. | were / was | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G13 | Fill in the gaps | If I ___ Jordi at football, I’ll give him his jacket. | see | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G14 | Fill in the gaps | If I ___ a UFO, I’d film it. | saw | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G15 | Fill in the gaps | If the bus is late, I ___ . | will walk / ’ll walk / 'll walk / ll walk / might walk | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G16 | Fill in the gaps | If the bus were free, more people ___ it. | would use / ’d use / 'd use / d use | ✎ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G15 | Fill in the gaps | If the bus is late, I ___ . | will walk / ’ll walk / 'll walk / ll walk / might walk | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G16 | Fill in the gaps | If the bus were free, more people ___ it. | would use / ’d use / 'd use / d use | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G17 | Fill in the gaps | What would you do if you ___ be invisible? | could | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G18 | Fill in the gaps | What will you do if you ___ a place at university? | don’t get / don't get / dont get / do not get | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G19 | Fill in the gaps | If I ___ the answer, I’d tell you — but I don’t. | knew | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -90,7 +90,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E4 | Find the mistake | If she studied, she’ll pass. | If she studies, she’ll pass. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E5 | Find the mistake | If it will be sunny, we’ll go out. | If it is sunny, we’ll go out. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E6 | Find the mistake | If I would know, I’d tell you. | If I knew, I’d tell you. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E7 | Find the mistake | If I am you, I’d rest. | If I were you, I’d rest. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✎ |
+| E7 | Find the mistake | If I am you, I’d rest. | If I were you, I’d rest. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E8 | Find the mistake | If I were you, I will apologise. | If I were you, I would apologise. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E9 | Find the mistake | If I am a bird, I’d fly. | If I were a bird, I’d fly. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E10 | Find the mistake | If you come, you’ll met my cousin. | If you come, you’ll meet my cousin. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
@@ -103,7 +103,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E17 | Find the mistake | If you don’t hurry, you wouldn’t catch it. | If you don’t hurry, you won’t catch it. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | If you won the lottery, what will you buy? | If you won the lottery, what would you buy? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E19 | Find the mistake | If it rains, what would we do tomorrow? | If it rains, what will we do tomorrow? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | If I tryed harder, I’d win. | If I tried harder, I’d win. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E20 | Find the mistake | I’m never going to be rich, but if I won the lottery, I will buy a boat. | I’m never going to be rich, but if I won the lottery, I would buy a boat. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | If you ___ to my party, you’ll meet my friends. | come | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | If I ___ a pet tiger, everyone would be scared. | had | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L3 | Level check | If it snows, the school ___. | will close | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -134,6 +134,3 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | If you ___ me tomorrow, I'll send the file. | email | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | It's very unlikely: If I ___ the president, I would change the law. | were | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | Choose the imaginary (unreal) version of: 'If I have money, I'll travel.' | If I had money, I'd travel. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | If I ___ a million euros, I would buy a castle. (win) | won | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | If I had time tonight, I'll help you. (You think you will have time.) | If I have time tonight, I'll help you / If I have time tonight, I will help you | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | If I ___ you, I'd apologise. | were | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |

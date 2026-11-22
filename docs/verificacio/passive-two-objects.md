@@ -10,16 +10,16 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | G4 | Fill in the gaps | The guide showed us the castle. → We ___ the castle. | were shown | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G5 | Fill in the gaps | They paid the workers €100. → The workers ___ €100. | were paid | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G6 | Fill in the gaps | Someone told me a secret. → I ___ a secret. | was told | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G7 | Fill in the gaps | They gave him a medal. → ___ was given a medal. | He | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G8 | Fill in the gaps | They told us the news. → ___ were told the news. | We | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G9 | Fill in the gaps | They lent them a car. → ___ were lent a car. | They | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G10 | Fill in the gaps | My aunt gave me a watch. → A watch was given ___ me. | to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G11 | Fill in the gaps | They sent her a letter. → A letter was sent ___ her. | to | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G12 | Fill in the gaps | Mum made me a cake. → A cake was made ___ me. | for | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G13 | Fill in the gaps | Dad bought her a bike. → A bike was bought ___ her. | for | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G7 | Fill in the gaps | They gave him a medal. → ___ was given a medal. | He | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G8 | Fill in the gaps | They told us the news. → ___ were told the news. | We | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G9 | Fill in the gaps | They lent them a car. → ___ were lent a car. | They | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G10 | Fill in the gaps | My aunt gave me a watch. → A watch was given ___ me. | to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G11 | Fill in the gaps | They sent her a letter. → A letter was sent ___ her. | to | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G12 | Fill in the gaps | Mum made me a cake. → A cake was made ___ me. | for | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G13 | Fill in the gaps | Dad bought her a bike. → A bike was bought ___ her. | for | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G14 | Fill in the gaps | They showed the visitors the photos. → The photos ___ to the visitors. | were shown | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
-| G15 | Fill in the gaps | Two emails ___ sent to me this morning. | were | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
-| G16 | Fill in the gaps | I ___ sent two emails this morning. | was | ✓ | ✓ | ✓ | ✎ | — | — | ✓ | — |
+| G15 | Fill in the gaps | Two emails ___ sent to me this morning. | were | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
+| G16 | Fill in the gaps | I ___ sent two emails this morning. | was | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G17 | Fill in the gaps | She ___ a place at university. | has been offered | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G18 | Fill in the gaps | You ___ your room by the receptionist. | will be shown | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
 | G19 | Fill in the gaps | We ___ by a new teacher this term. | are being taught | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — |
@@ -103,7 +103,7 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | E17 | Find the mistake | She has offered a place at university. | She has been offered a place at university. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E18 | Find the mistake | Marc sent a strange email by someone. | Marc was sent a strange email by someone. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | E19 | Find the mistake | Yesterday I am given a prize. | Yesterday I was given a prize. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | They were payed €50. | They were paid €50. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
+| E20 | Find the mistake | My sister was send a letter yesterday. | My sister was sent a letter yesterday. | ✎ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
 | L1 | Level check | They gave her a prize. → She ___ a prize. | was given | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L2 | Level check | They told me the truth. → ___ was told the truth. | I | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | L3 | Level check | The photos were sent ___ all the parents. | to | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -134,6 +134,3 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | Choose the correct version of: 'A prize was given the winner.' | A prize was given to the winner. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Which passive is usually more natural in English? | The one starting with the person (She was sent an email). | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | Which verb does NOT normally take two objects? | arrive | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Q11 | Quiz | The teacher showed the students a video. → The students ___ a video. | were shown | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q12 | Quiz | I was given me a book. | I was given a book | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| Q13 | Quiz | They sent her a parcel. → A parcel ___ her. | was sent to | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
