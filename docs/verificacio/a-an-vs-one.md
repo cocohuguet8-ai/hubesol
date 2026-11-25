@@ -137,3 +137,33 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | I’d like ___ tea, not two. | one | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | My aunt is one vet. | My aunt is a vet / My aunt is a vet. / My aunt’s a vet / My aunt's a vet | ✎ | ✓ | ✓ | ✓ | ✎ | ✓ | ✓ | ✎ |
 | Q13 | Quiz | ___ day she’ll write a book. (= at some time in the future; fixed phrase) | One / One day / One day she will write a book / One day she'll write a book / One day she’ll write a book / One day shell write a book | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Match | 12 | Only ___ of the windows is broken. | one | ítem reescrit |
+| Beat the clock | 1 | My mother is ____________ doctor. | a | opcions: an · a · one · the |
+| Beat the clock | 2 | He is ____________ electrician. | an | opcions: a · one · the · an |
+| Beat the clock | 3 | She wants to be ____________ pilot. | a | opcions: an · one · the · a |
+| Beat the clock | 4 | Tom is ____________ architect. | an | opcions: a · one · an · the |
+| Beat the clock | 5 | Is that ____________ ambulance or a police car? | an | opcions: a · one · the · an |
+| Beat the clock | 6 | This is ____________ interesting book. | an | opcions: a · one · an · the |
+| Beat the clock | 7 | That’s ____________ great idea. | a | opcions: an · one · the · a |
+| Beat the clock | 8 | It was ____________ lovely day. | a | opcions: an · one · the · a |
+| Beat the clock | 9 | What ____________ odd thing to say! | an | opcions: a · one · an · the |
+| Beat the clock | 10 | I bought ____________ unique gift for her. | a | opcions: a · an · one · the |
+| Beat the clock | 11 | Only ____________ bus goes to my village. | one | opcions: a · one · an · the |
+| Beat the clock | 12 | I want ____________ coffee, not two. | one | opcions: a · one · an · the |
+| Beat the clock | 13 | The shop has only ____________ table, not four. | one | opcions: one · a · an · the |
+| Beat the clock | 14 | ____________ day we will meet again. | One | opcions: One · A · An · The |
+| Beat the clock | 15 | She is ____________ of my cousins. | one | opcions: a · one · an · the |
+| Beat the clock | 16 | Only ____________ of the keys works. | one | opcions: a · an · one · the |
+| Beat the clock | 17 | I like the red jacket, but I prefer the green ____________ on the chair. | one | opcions: a · one · an · the |
+| Beat the clock | 18 | Which pen is yours? The black ____________ on the desk. | one | opcions: one · a · an · the |
+| Beat the clock | 19 | There are two cakes left. I’ll take the chocolate ____________. | one | opcions: one · a · an · the |
+| Beat the clock | 20 | Here are two hats. I like the grey ____________ best. | one | opcions: a · an · one · the |
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 60 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

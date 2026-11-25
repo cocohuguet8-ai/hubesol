@@ -642,14 +642,14 @@
           "must",
           "have to",
           "had to",
-          "musted"
+          "will have to"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Must’ has no past form, so it can’t describe last night.",
           "‘Have to’ is present; ‘last night’ is past.",
           "",
-          "‘Musted’ doesn’t exist."
+          "‘Will have to’ is future. ‘Last night’ is past, so we need ‘had to’."
         ],
         "explain": "Past obligation: had to + base verb for every subject."
       },
@@ -840,14 +840,14 @@
           "had to",
           "must",
           "have to",
-          "musted"
+          "having to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Have must’ is impossible.",
           "‘Have have to’ is wrong: use the participle ‘had’.",
-          "‘Musted’ doesn’t exist."
+          "‘I’ve’ needs a past participle. For a past obligation we use ‘had to’."
         ],
         "explain": "Present perfect: have had to."
       },

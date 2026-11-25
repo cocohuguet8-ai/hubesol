@@ -656,14 +656,14 @@
           "must",
           "had to",
           "have to",
-          "musted"
+          "will have to"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Must’ has no past form.",
           "",
           "‘Have to’ is present.",
-          "‘Musted’ doesn’t exist."
+          "‘Will have to’ is future. ‘Yesterday’ is past, so we need ‘had to’."
         ],
         "explain": "‘Must’ has no past form, so both kinds of obligation become ‘had to’ in the past."
       },
@@ -854,14 +854,14 @@
           "must",
           "have to",
           "had to",
-          "musted"
+          "will have to"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘Must’ has no past.",
           "‘Have to’ is present.",
           "",
-          "‘Musted’ doesn’t exist."
+          "‘Will have to’ is future. ‘When I was little’ is past, so we need ‘had to’."
         ],
         "explain": "A rule from your childhood is in the past, and ‘must’ has no past: had to."
       },

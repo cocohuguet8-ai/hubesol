@@ -543,14 +543,14 @@
         "use": "Choose the answer",
         "text": "Marc fell off his bike and hurt <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "hisself",
+          "his",
           "himself",
           "him",
           "herself"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Hisself’ is not a word.",
+          "‘His’ is a possessive. After ‘hurt’ we need a reflexive pronoun: ‘himself’.",
           "",
           "‘Him’ would be another man.",
           "‘Herself’ is for a woman."
@@ -561,17 +561,17 @@
         "use": "Choose the answer",
         "text": "The girls took photos of <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
-          "theirselves",
+          "their",
           "them",
           "themselves",
-          "themself"
+          "herself"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Theirselves’ is not a word.",
+          "‘Their’ is a possessive and needs a noun after it. Here we need ‘themselves’.",
           "‘Them’ would be other people.",
           "",
-          "‘Themself’ isn’t the plural form here."
+          "‘Herself’ is singular, but ‘the girls’ is plural: ‘themselves’."
         ],
         "explain": "They → themselves."
       },
@@ -672,14 +672,14 @@
           "it",
           "its",
           "itself",
-          "itselves"
+          "themselves"
         ],
         "correct": 2,
         "wrongReasons": [
           "‘By it’ has a different meaning.",
           "‘Its’ is possessive.",
           "",
-          "Not a word."
+          "'Themselves' is plural, but 'the door' is singular: 'itself'."
         ],
         "explain": "Thing: by itself."
       },
@@ -742,14 +742,14 @@
         "text": "Joan and Maria love <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>. They’re married.",
         "choices": [
           "themselves",
-          "theirselves",
+          "theirs",
           "itself",
           "each other"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Themselves’ means each one loves himself/herself.",
-          "Not a word.",
+          "'Theirs' means 'belonging to them'. For 'each loves the other' we use 'each other'.",
           "Not for people.",
           ""
         ],
@@ -814,15 +814,15 @@
         "text": "Which is correct?",
         "choices": [
           "They did it themselves.",
-          "They did it theirselves.",
-          "They did it themself.",
+          "They did it theirs.",
+          "They did it himself.",
           "They did it them."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Not a word.",
-          "Singular-looking form.",
+          "'Theirs' means 'belonging to them'. After 'did it' we need 'themselves'.",
+          "'Himself' is singular, but 'they' is plural: 'themselves'.",
           "Wrong pronoun."
         ],
         "explain": "They → themselves."
@@ -868,14 +868,14 @@
         "text": "Grandpa sometimes talks to <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "him",
-          "hisself",
+          "his",
           "he",
           "himself"
         ],
         "correct": 3,
         "wrongReasons": [
           "‘Him’ would be another man.",
-          "Not a word.",
+          "'His' is a possessive. After 'talks to' we need a reflexive pronoun: 'himself'.",
           "Subject pronoun after a preposition is wrong.",
           ""
         ],

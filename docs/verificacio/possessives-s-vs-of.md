@@ -137,3 +137,13 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | This is my ___ car. | brother's / brother’s | ✓ | ✓ | ✓ | ✓ | ✎ | ✓ | ✓ | — |
 | Q12 | Quiz | The girls's team won the match. | The girls' team won the match | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I broke the table's leg. | I broke the leg of the table / I broke the table leg | ✓ | ✓ | ✓ | ✓ | ✎ | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 3 | Where is the ____________ section in this shop? | children’s | opcions: child · children · children’s · child’s |
+| Beat the clock | 20 | The ____________ changing room is on the left. | men’s | opcions: men · man’s · mans · men’s |
+| Quiz | 4 | The ___ toys are all over the floor. (more than one child) | children's | opcions: children's · children · child's |

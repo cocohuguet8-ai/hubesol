@@ -605,14 +605,14 @@
           "should",
           "should to",
           "ought",
-          "shoulds"
+          "must to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Should’ is never followed by ‘to’ — the base verb comes straight after it.",
           "‘Ought’ needs ‘to’: ‘ought to see’.",
-          "Modal verbs never take -s, whatever the subject."
+          "'Must' is followed by the bare infinitive, with no 'to'. For advice, use 'should'."
         ],
         "explain": "Advice: should + base verb. It’s the most common way to say what’s best."
       },
@@ -623,14 +623,14 @@
           "ought",
           "ought to",
           "should to",
-          "oughts to"
+          "must to"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Ought’ needs ‘to’: ‘ought to wear’.",
           "",
           "‘Should’ never takes ‘to’.",
-          "Modals never take -s."
+          "'Must' is followed by the bare infinitive, with no 'to'. For advice, 'ought to' keeps its 'to'."
         ],
         "explain": "‘Ought to’ + base verb means the same as ‘should’, a little more strongly."
       },
@@ -731,14 +731,14 @@
           "should",
           "must to",
           "ought",
-          "shoulds"
+          "should to"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "‘Must’ never takes ‘to’, and it means obligation.",
           "‘Ought’ needs ‘to’.",
-          "Modals never take -s."
+          "After 'should' we use the bare infinitive: no 'to'."
         ],
         "explain": "‘Should’ can mean ‘I expect this will happen’."
       },
@@ -891,14 +891,14 @@
         "text": "Which sentence is correct?",
         "choices": [
           "He should practise every day.",
-          "He shoulds practise every day.",
+          "He should practising every day.",
           "He should practises every day.",
           "He should to practise every day."
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "Modals never take -s.",
+          "After 'should' we use the bare infinitive 'practise', not the -ing form.",
           "After ‘should’ use the base verb.",
           "No ‘to’ after ‘should’."
         ],
@@ -911,14 +911,14 @@
           "You ought apologise.",
           "You ought to apologise.",
           "You ought to apologising.",
-          "You oughts to apologise."
+          "You ought to apologises."
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Ought’ needs ‘to’.",
           "",
           "After ‘to’ use the base verb.",
-          "Modals never take -s."
+          "After 'ought to' we use the bare infinitive: 'apologise', with no -s."
         ],
         "explain": "Ought + to + base verb."
       },
@@ -1136,7 +1136,7 @@
         "errorIndex": 2,
         "correction": "were",
         "type": "If I were you",
-        "message": "The advice phrase is ‘If I were you’."
+        "message": "In advice with ‘If I…’ we use ‘were’, not ‘was’: ‘If I were you, I’d rest.’"
       },
       {
         "tokens": [

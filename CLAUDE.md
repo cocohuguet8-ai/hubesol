@@ -37,3 +37,9 @@ Deixa una taula amb cada pregunta, totes les respostes acceptades i la confirmac
 - **Anglès britànic (Cambridge) com a forma principal;** les formes americanes s'accepten com a alternativa (learnt/learned, towards/toward…).
 - **Present perfect simple amb durada** és correcte i s'accepta («I've lived here for years»).
 - **Will / going to:** una elecció feta en el moment de parlar (restaurant, menú) admet les dues formes. Per a ofertes, promeses i reaccions immediates només «will».
+- **Opcions incorrectes = paraules reals (decisió 25/11/2026, #543):** cap distractor pot ser una paraula inventada (goed, buyed, shoulds, furnitures, theirselves…). Si no hi ha un error real d'alumne amb paraules reals, es treu l'opció o es canvia la frase. Els quizzes poden tenir 3 opcions.
+- **Respostes vàlides alternatives als quizzes (#454, #455):** un ítem pot tenir `alsoCorrect: [índexs]` perquè Quiz.astro accepti més d'una opció com a correcta; el feedback d'aquella opció comença amb «Also correct!».
+- **Etiquetes `use` (#290):** cap etiqueta que doni la resposta (Duration, Result, State verb, Completed, Missing ‘been’, Job, Per…) a Fill the gap, Beat the clock, Put it in order ni Level check; si cal context, va dins la frase.
+- **Matching (#450):** si dues continuacions encaixen amb una mateixa frase, es reescriu perquè només n'hi hagi una (regla 8).
+- **If I was you (#357):** és error; la forma correcta és «If I were you».
+- **Find the mistake:** res de «’s» amb cosa (door’s key…) com a error; errors clars (plural del primer nom, ordre invertit).

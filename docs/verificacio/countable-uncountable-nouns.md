@@ -137,3 +137,17 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | Can I have ___ advice, please? | some | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | She gave me some advices. | She gave me some advice / She gave me a piece of advice | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | How ___ people came to the party? | many | ✎ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 2 | We have a lot of ____________ to do this weekend. | homework | opcions: some homework · homework · a homework · an homework |
+| Beat the clock | 6 | There are five ____________ in the photo. | women | opcions: woman · a woman · women · the women |
+| Beat the clock | 8 | Our hotel room had beautiful old ____________. | furniture | opcions: furniture · many furniture · a furniture · few furniture |
+| Beat the clock | 11 | Two ____________, please — with milk. | coffees | opcions: coffees · coffee · a coffee · coffee’s |
+| Beat the clock | 18 | Which sentence is correct? | How much luggage have you got? | opcions: How many luggage have you got? · How much luggage have you got? · How much a luggage have you got? · How much luggage you have got? |
+| Quiz | 4 | We bought some new ___ for the flat. | furniture | opcions: a furniture · furniture · many furniture |
+| Quiz | 9 | Choose the correct version of: 'I need to buy two furnitures.' | I need to buy two pieces of furniture. | opcions: The sentence is already correct. · I need to buy two furniture. · I need to buy two pieces of furniture. |

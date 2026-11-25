@@ -137,3 +137,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | By the time we arrived, the film ___. (start) | had started / ’d started / 'd started / had already started / ’d already started / 'd already started | ✎ | ✓ | ✎ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | She had opened the door and had walked in. | She opened the door and walked in | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | They had ate before we arrived. | They had eaten before we arrived | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Quiz | 6 | They had ___ dinner before we arrived. | eaten | opcions: eaten · ate · eats · eating |

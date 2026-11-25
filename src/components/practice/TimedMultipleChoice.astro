@@ -287,6 +287,10 @@ const uid = 'tm';
         qDiv.querySelectorAll('.blank').forEach((b) => {
           const strong = document.createElement('strong');
           strong.textContent = a.q.choices[a.q.correct];
+          // Contractions like ’ll attach to the word before the gap: no space.
+          if (/^[’']/.test(strong.textContent) && b.previousSibling && b.previousSibling.nodeType === 3) {
+            b.previousSibling.textContent = b.previousSibling.textContent.replace(/\s+$/, '');
+          }
           b.replaceWith(strong);
         });
         row.appendChild(qDiv);

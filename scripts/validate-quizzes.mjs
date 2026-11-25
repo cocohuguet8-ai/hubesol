@@ -80,6 +80,7 @@ for (const file of files) {
     if (!Array.isArray(it.options) || it.options.length < 3) { err(f, `${w}: calen almenys 3 opcions`); continue; }
     if (new Set(it.options.map(norm)).size !== it.options.length) err(f, `${w}: opcions repetides`);
     if (!Number.isInteger(it.answer) || it.answer < 0 || it.answer >= it.options.length) { err(f, `${w}: answer fora de rang`); continue; }
+    if (it.alsoCorrect !== undefined && !(Array.isArray(it.alsoCorrect) && it.alsoCorrect.every((k) => Number.isInteger(k) && k >= 0 && k < it.options.length && k !== it.answer))) err(f, `${w}: alsoCorrect ha de ser una llista d'índexs d'opcions diferents de answer`);
     if (!Array.isArray(it.explanations) || it.explanations.length !== it.options.length) err(f, `${w}: explanations ha de tenir ${it.options.length} elements`);
     else it.explanations.forEach((e, j) => { if (!str(e)) err(f, `${w}: falta explicació per a l'opció ${j + 1}`); });
     if (REWRITE_PROMPT.test(it.question)) err(f, `${w}: enunciat "${it.question.slice(0, 40)}…" demana escriure però es respon clicant — reformula'l ("Choose the correct version of: …") o fes-ne un ítem type=write`);

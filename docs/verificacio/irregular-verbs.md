@@ -137,3 +137,35 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | I have ___ my homework. (do) | done | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | She goed to Italy last year. | She went to Italy last year | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | He ___ me a nice present yesterday. (buy) | bought | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 1 | I ____________ to the cinema yesterday. | went | opcions: went · gone · going · go |
+| Beat the clock | 2 | She has already ____________ her lunch. | eaten | opcions: ate · eaten · eating · eat |
+| Beat the clock | 4 | He has ____________ his phone again. | lost | opcions: loses · lose · losing · lost |
+| Beat the clock | 5 | They ____________ a new car last month. | bought | opcions: buying · bought · buy · buys |
+| Beat the clock | 6 | Have you ____________ the news? | heard | opcions: hearing · hear · heard · hears |
+| Beat the clock | 8 | I have ____________ my homework. | done | opcions: done · did · doing · do |
+| Beat the clock | 9 | He ____________ the window by accident yesterday. | broke | opcions: broken · break · broke · breaking |
+| Beat the clock | 10 | She has ____________ English for ten years. | taught | opcions: teaching · teaches · teach · taught |
+| Beat the clock | 12 | The children have ____________ all the juice. | drunk | opcions: drank · drunk · drinking · drink |
+| Beat the clock | 14 | I have ____________ her name. | forgotten | opcions: forgotten · forgot · forgetting · forget |
+| Beat the clock | 15 | He ____________ to Madrid last summer. | flew | opcions: flown · flew · flying · fly |
+| Beat the clock | 16 | We have ____________ the answer at last. | found | opcions: find · finding · found · finds |
+| Beat the clock | 17 | She ____________ a taxi to the airport. | took | opcions: took · taken · taking · take |
+| Beat the clock | 18 | Have you ever ____________ a horse? | ridden | opcions: rode · ridden · riding · ride |
+| Beat the clock | 19 | They ____________ the match 3–1 yesterday. | won | opcions: winning · win · won · wins |
+| Beat the clock | 20 | He has ____________ me a lovely present. | given | opcions: gave · give · giving · given |
+| Quiz | 1 | The past simple of 'buy' is ___. | bought | opcions: buying · bought · brought · buys |
+| Quiz | 2 | I have ___ my homework. | done | opcions: did · doing · done · does |
+| Quiz | 3 | She ___ to Italy last year. | went | opcions: go · going · gone · went |
+| Quiz | 4 | Have you ever ___ sushi? | eaten | opcions: eaten · ate · eating · eat |
+| Quiz | 5 | They ___ the match yesterday. | won | opcions: wins · has won · won · win |
+| Quiz | 6 | He has ___ his keys again. | lost | opcions: lost · losing · loosed · loses |
+| Quiz | 7 | The past participle of 'write' is ___. | written | opcions: wrote · written · writing · writes |
+| Quiz | 8 | We ___ a great time at the party. | had | opcions: having · have · has · had |
+| Quiz | 10 | She ___ her leg while she was skiing. | broke | opcions: break · broke · broken · breaks |

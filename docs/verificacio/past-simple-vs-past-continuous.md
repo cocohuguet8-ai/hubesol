@@ -137,3 +137,13 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | I ___ when the lights went out. (read) | was reading | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I walked home when it started to rain. (background action) | I was walking home when it started to rain | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | The phone rang and I ___ it quickly. (answer) | answered | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Match | 6 | while I was cooking | Past Continuous | ítem reescrit |
+| Match | 8 | while the baby was sleeping | Past Continuous | ítem reescrit |
+| Match | 14 | as the sun was rising | Past Continuous | ítem reescrit |

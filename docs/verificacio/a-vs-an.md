@@ -137,3 +137,32 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | She waited for ___ hour. | an | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | He is a honest man. | He is an honest man / He is an honest man. / He’s an honest man / He's an honest man / He’s an honest man. | ✎ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | She works for ___ NGO in Peru. | an | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 1 | I put ____________ ice cube in my drink. | an | opcions: an · a · the · — |
+| Beat the clock | 2 | My dad drives ____________ taxi. | a | opcions: an · a · the · — |
+| Beat the clock | 3 | My sister studies at ____________ university in London. | a | opcions: an · the · a · — |
+| Beat the clock | 4 | The train was ____________ hour late. | an | opcions: a · the · — · an |
+| Beat the clock | 5 | They bought ____________ house by the sea. | a | opcions: an · a · the · — |
+| Beat the clock | 6 | She’s got ____________ amazing voice. | an | opcions: a · the · an · — |
+| Beat the clock | 7 | It was ____________ big elephant. | a | opcions: an · the · — · a |
+| Beat the clock | 8 | Do you wear ____________ uniform at your school? | a | opcions: a · an · the · — |
+| Beat the clock | 9 | He gave me ____________ honest answer. | an | opcions: a · the · an · — |
+| Beat the clock | 10 | Lisbon is ____________ European capital. | a | opcions: an · the · — · a |
+| Beat the clock | 11 | She’s got ____________ MBA from a US university. | an | opcions: an · a · the · — |
+| Beat the clock | 12 | They saw ____________ UFO over the lake. | a | opcions: an · a · the · — |
+| Beat the clock | 13 | My grandma lives on ____________ island. | an | opcions: a · the · — · an |
+| Beat the clock | 14 | It was ____________ horrible day. | a | opcions: a · an · the · — |
+| Beat the clock | 15 | This is ____________ one-way street. | a | opcions: an · a · the · — |
+| Beat the clock | 16 | I’ve got ____________ idea! | an | opcions: a · the · an · — |
+| Beat the clock | 17 | Which is correct? | an hour | opcions: an hour · a hour · an house · a honest |
+| Beat the clock | 18 | Which is correct? | a university | opcions: an university · a university · an uniform · a umbrella |
+| Beat the clock | 19 | She’s ____________ doctor at the hospital. | a | opcions: an · the · a · — |
+| Beat the clock | 20 | He’s ____________ engineer. | an | opcions: a · the · — · an |
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 60 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

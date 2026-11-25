@@ -604,14 +604,14 @@
         "use": "Irregular plural",
         "text": "Where is the <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> section in this shop?",
         "choices": [
-          "childrens’",
+          "child",
           "children",
           "children’s",
           "child’s"
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘Children’ has no -s: add ’s.",
+          "‘Child’ is singular. A section for children is the ‘children’s’ section.",
           "We need possession.",
           "",
           "‘Child’s’ is one child."
@@ -910,14 +910,14 @@
         "use": "Irregular plural",
         "text": "The <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> changing room is on the left.",
         "choices": [
-          "mens",
+          "men",
           "man’s",
           "mans",
           "men’s"
         ],
         "correct": 3,
         "wrongReasons": [
-          "‘Men’ has no -s: add ’s.",
+          "‘Men’ is plural but doesn’t show possession. Add ’s: ‘men’s’.",
           "‘Man’s’ is singular.",
           "We need the apostrophe.",
           ""

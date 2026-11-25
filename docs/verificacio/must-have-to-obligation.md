@@ -137,3 +137,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | Yesterday I ___ work late. (obligation, past) | had to | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | You mustn't pay. It's free. | You don't have to pay. It's free / You don't have to pay, it's free | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | Passengers ___ show their passports. It's the law. | have to / must | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 3 | Last night we ____________ walk home because there were no buses. | had to | opcions: must · have to · had to · will have to |
+| Beat the clock | 14 | I’ve ____________ redo my project twice! | had to | opcions: had to · must · have to · having to |
