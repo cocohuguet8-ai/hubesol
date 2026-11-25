@@ -231,7 +231,13 @@ const uid = 'wo';
     function genericOrderHint(builtWords, correctWords) {
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      if (i === 0) return "Check how the sentence begins — then think about what comes next.";
+      if (i === 0) {
+        const c = correctWords.findIndex((w) => /,$/.test(w));
+        if (c > 0 && c < correctWords.length - 1) {
+          return "Build this sentence clause by clause: first “" + correctWords.slice(0, c + 1).join(' ') + "”, then “" + correctWords.slice(c + 1).join(' ') + "”.";
+        }
+        return "Check how the sentence begins — then think about what comes next.";
+      }
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
@@ -241,8 +247,15 @@ const uid = 'wo';
       const words = orderAux.words;
       const label = orderAux.label;
       if (!words.length) return genericOrderHint(builtWords, correctWords);
-      const bIdx = builtWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
-      const cIdx = correctWords.findIndex((w) => words.indexOf(w.toLowerCase()) !== -1);
+      // “had/have/has” followed by a determiner is the main verb (possession), not an auxiliary: “If we had a car”.
+      const isAuxAt = (arr, k) => {
+        const lw = arr[k].toLowerCase();
+        if (words.indexOf(lw) === -1) return false;
+        if (/^(had|have|has)$/.test(lw) && /^(a|an|the|my|your|his|her|our|their|some|any|no)$/i.test(arr[k + 1] || '')) return false;
+        return true;
+      };
+      const bIdx = builtWords.findIndex((w, k) => isAuxAt(builtWords, k));
+      const cIdx = correctWords.findIndex((w, k) => isAuxAt(correctWords, k));
       if (cIdx === -1) return genericOrderHint(builtWords, correctWords);
 
       // Always name the auxiliary that is actually in this sentence (never a fixed
