@@ -231,8 +231,17 @@ const uid = 'wo';
     function genericOrderHint(builtWords, correctWords) {
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      if (i === 0) return "Check how the sentence begins — then think about what comes next.";
-      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
+      const want = correctWords[i] || '';
+      const got = builtWords[i] || '';
+      const wantQ = "“" + want.replace(/[.,?!]+$/, '') + "”";
+      const gotQ = "“" + got.replace(/[.,?!]+$/, '') + "”";
+      if (i === 0) {
+        if (/^(i|you|he|she|it|we|they)$/i.test(want)) {
+          return "This sentence starts with the subject " + wantQ + (got ? ", not " + gotQ : "") + ". In a statement, the subject comes before the verb.";
+        }
+        return "Here the sentence starts with " + wantQ + (got ? ", not " + gotQ : "") + ".";
+      }
+      return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”), but then " + wantQ + " comes next" + (got ? ", not " + gotQ : "") + ".";
     }
 
     const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
