@@ -556,14 +556,14 @@
         "use": "No plural",
         "text": "We have a lot of <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to do this weekend.",
         "choices": [
-          "homeworks",
+          "some homework",
           "homework",
           "a homework",
           "an homework"
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Homework’ has no plural form.",
+          "‘A lot of’ is already the quantifier here, so we can’t add ‘some’. Use plain ‘homework’.",
           "",
           "Uncountables don’t take ‘a’.",
           "Uncountables don’t take ‘an’ either."
@@ -629,16 +629,16 @@
         "text": "There are five <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the photo.",
         "choices": [
           "woman",
-          "womans",
+          "a woman",
           "women",
-          "womens"
+          "the women"
         ],
         "correct": 2,
         "wrongReasons": [
           "After ‘five’ we need the plural.",
-          "‘Woman’ has an irregular plural.",
+          "We can’t use ‘a’ after ‘five’. The plural of ‘woman’ is ‘women’.",
           "",
-          "‘Womens’ is not a word."
+          "We can’t put ‘the’ right after ‘five’: ‘five women’."
         ],
         "explain": "Irregular plural: women."
       },
@@ -665,16 +665,16 @@
         "text": "Our hotel room had beautiful old <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "furniture",
-          "furnitures",
+          "many furniture",
           "a furniture",
-          "some furnitures"
+          "few furniture"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Furniture’ has no plural.",
+          "‘Many’ is for countable nouns, and ‘furniture’ is uncountable.",
           "Uncountables don’t take ‘a’.",
-          "‘Furniture’ has no plural, even after ‘some’."
+          "‘Few’ is for countable plurals. ‘Furniture’ is uncountable: it has no plural and no ‘few’."
         ],
         "explain": "‘Furniture’ is uncountable."
       },
@@ -720,14 +720,14 @@
         "choices": [
           "coffees",
           "coffee",
-          "coffies",
+          "a coffee",
           "coffee’s"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
           "In a café, ‘coffee’ = a cup, so it’s countable: two coffees.",
-          "‘Coffee’ + -s is spelled ‘coffees’, not ‘coffies’.",
+          "‘A’ can’t go with ‘two’. Two cups of coffee: ‘two coffees’.",
           "The apostrophe isn’t a plural."
         ],
         "explain": "Two cups: two coffees."
@@ -846,15 +846,15 @@
         "choices": [
           "How many luggage have you got?",
           "How much luggage have you got?",
-          "How much luggages have you got?",
-          "How many luggages have you got?"
+          "How much a luggage have you got?",
+          "How much luggage you have got?"
         ],
         "correct": 1,
         "wrongReasons": [
           "‘Luggage’ is uncountable: not ‘many’.",
           "",
-          "No plural for ‘luggage’.",
-          "No plural and not ‘many’."
+          "‘Luggage’ is uncountable, so it doesn’t take ‘a’: ‘How much luggage…?’.",
+          "In a question the auxiliary goes before the subject: ‘have you got’."
         ],
         "explain": "Uncountable: how much luggage."
       },

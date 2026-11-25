@@ -137,3 +137,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | There isn't much time, but we have ___ minutes to talk. | a few | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I need a few water. | I need a little water / I need some water | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I don't have money enough for a taxi. → I don't have ___ money for a taxi. | enough | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Quiz | 9 | Choose the correct version of: 'I have a few informations for you.' | I have a little information for you. | opcions: The sentence is already correct. · I have a few information for you. · I have many information for you. · I have a little information for you. |

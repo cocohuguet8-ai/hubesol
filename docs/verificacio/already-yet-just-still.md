@@ -137,3 +137,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | Have you finished your homework ___? (up to now) | yet | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I haven't still finished the report. | I still haven't finished the report | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | Don't worry, I've ___ called her. (a moment ago) | just | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Match | 2 | a question about something you expect soon | yet | ítem reescrit |
+| Match | 18 | asking whether the bus has left so far | yet | ítem reescrit |

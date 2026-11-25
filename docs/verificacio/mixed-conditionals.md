@@ -137,3 +137,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | If she had taken the job, she ___ in Paris now. (live) | would be living / would live / ’d be living / 'd be living / ’d live / 'd live / might be living / might live / could be living / could live | ✎ | ✓ | ✎ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | If I had saved money, I would have been rich now. | If I had saved money, I would be rich now / If I had saved money, I'd be rich now / I would be rich now if I had saved money / I'd be rich now if I had saved money | ✎ | ✓ | ✎ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | If I ___ more organised, I wouldn't have forgotten my passport. | were / was | ✎ | ✓ | ✎ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Quiz | 6 | If we ___ more careful with money when we were younger, we’d own a house by now. | had been / were | opcions: were · had been · are · would be |
+| Quiz | 8 | I’m always tired these days. If I ___ so tired, I would have enjoyed the party. | weren't / hadn't been | opcions: weren't · hadn't been · am not · wouldn't be |

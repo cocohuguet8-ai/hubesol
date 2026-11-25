@@ -137,3 +137,32 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | They visited ___ Alps last winter. | the | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | She studies at University of Oxford. | She studies at the University of Oxford | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | She lives in the France. | She lives in France | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 1 | My best friend moved to ____________ Canada. | — | opcions: — · the |
+| Beat the clock | 2 | She’s studying in ____________ United Kingdom. | the | opcions: the · — |
+| Beat the clock | 3 | ____________ Maldives are famous for their beaches. | The | opcions: — · The |
+| Beat the clock | 4 | Brazil is the biggest country in ____________ South America. | — | opcions: — · the |
+| Beat the clock | 5 | ____________ Indian Ocean is warm. | The | opcions: — · The |
+| Beat the clock | 6 | Budapest is on ____________ Danube. | the | opcions: the · — |
+| Beat the clock | 7 | We went sailing on ____________ Lake Garda. | — | opcions: the · — |
+| Beat the clock | 8 | ____________ Andes run through seven countries. | The | opcions: — · The |
+| Beat the clock | 9 | ____________ Mount Fuji is the highest mountain in Japan. | — | opcions: The · — |
+| Beat the clock | 10 | We’re going to ____________ Canary Islands in May. | the | opcions: the · — |
+| Beat the clock | 11 | Have you ever been to ____________ Crete? | — | opcions: — · the |
+| Beat the clock | 12 | The shop is on ____________ Baker Street. | — | opcions: — · the |
+| Beat the clock | 13 | Have you visited ____________ Guggenheim in Bilbao? | the | opcions: — · the |
+| Beat the clock | 14 | We saw ____________ Statue of Liberty. | the | opcions: — · the |
+| Beat the clock | 15 | He studies at ____________ Oxford University. | — | opcions: the · — |
+| Beat the clock | 16 | I bought these jeans at ____________ Harrods. | — | opcions: — · the |
+| Beat the clock | 17 | Which is correct? | I live near the Mediterranean. | opcions: I live near the Mediterranean. · I live near Mediterranean. · I live near the Mediterranean Lake. |
+| Beat the clock | 18 | Which is correct? | We visited Lake Tahoe. | opcions: We visited Lake Tahoe. · We visited the Lake Tahoe. |
+| Beat the clock | 19 | ____________ Barcelona is famous for its architecture. | — | opcions: The · — |
+| Beat the clock | 20 | He was born in ____________ Czech Republic. | the | opcions: the · — |
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 60 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

@@ -761,7 +761,7 @@ const uid = 'lc';
         const reason = it.wrongReasons[chosenIndex] || '';
         feedback.innerHTML = '<b>Not quite.</b> ' + reason + ' The answer was <b>' + it.choices[it.correct] + '</b>.';
       }
-      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (it.text || it.sentText || '').replace('{{blank}}', String(it.choices[it.correct]).split('→').pop().trim()) });
+      results.push({ category: it.type, correct: isCorrect, yours: it.choices[chosenIndex], detail: (() => { const fill = String(it.choices[it.correct]).split('→').pop().trim(); const t = it.text || it.sentText || ''; return /^[’']/.test(fill) ? t.replace(/\s*\{\{blank\}\}/, fill) : t.replace('{{blank}}', fill); })() });
       scoreText.textContent = 'Score: ' + totalScore();
       appendNext();
     }

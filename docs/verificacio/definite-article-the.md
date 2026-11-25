@@ -137,3 +137,10 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | ___ Nile is the longest river in Africa. | The | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | Sun is a star. | The sun is a star | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | Nobody in the class is better than her. → She is ___ best student in the class. | the | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 24 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

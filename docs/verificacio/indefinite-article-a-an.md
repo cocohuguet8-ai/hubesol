@@ -148,3 +148,11 @@ Reescrita des de zero el 2026-11-22 (Claude), 5è intent. «✓» = comprovada i
 | Q8 | Quiz | Which sentence is correct? | She gave me some advice. (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
 | Q9 | Quiz | We waited for about ___ hour. | an (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
 | Q10 | Quiz | Which is the correct way to say it? | He’s my cousin. (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 18 | Which sentence is correct? | I have some homework. | opcions: I have a homework. · I have many homework. · I have some homework. · I have one homework. |

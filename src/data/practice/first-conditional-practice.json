@@ -818,7 +818,7 @@
       },
       {
         "left": "If you don’t wear a coat,",
-        "right": "you’ll get cold."
+        "right": "you’ll catch a cold."
       },
       {
         "left": "If I see Marta,",
@@ -834,7 +834,7 @@
       },
       {
         "left": "If you eat all that chocolate,",
-        "right": "you’ll feel sick."
+        "right": "you’ll get a stomachache."
       },
       {
         "left": "If my team wins the final,",
@@ -846,7 +846,7 @@
       },
       {
         "left": "If you go to bed late,",
-        "right": "you’ll be tired tomorrow."
+        "right": "you’ll oversleep tomorrow."
       },
       {
         "left": "If she misses the train,",
@@ -1545,19 +1545,19 @@
       },
       {
         "tokens": [
-          "What",
-          "do",
-          "you",
-          "do",
-          "if",
+          "If",
           "it",
-          "rains",
-          "tomorrow?"
+          "snows,",
+          "we",
+          "would",
+          "stay",
+          "at",
+          "home."
         ],
-        "errorIndex": 1,
+        "errorIndex": 4,
         "correction": "will",
-        "type": "Question",
-        "message": "A question about one future situation needs will: ‘What will you do…?’."
+        "type": "Would instead of will",
+        "message": "A real future situation needs will, not would: ‘we’ll stay at home’."
       },
       {
         "tokens": [

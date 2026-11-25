@@ -134,3 +134,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | Choose the correct version of: 'A prize was given the winner.' | A prize was given to the winner. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Which passive is usually more natural in English? | The one starting with the person (She was sent an email). | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | Which verb does NOT normally take two objects? | arrive | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 14 | We were ____________ the answers before the test. | told | opcions: told · tells · tell · telling |
+| Quiz | 4 | 'Someone has told us the news.' → (person first) | We have been told the news. | opcions: The news has been told us. · We have been told the news. · We have been telling the news. · Us have been told the news. |

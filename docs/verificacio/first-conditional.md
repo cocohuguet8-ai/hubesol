@@ -137,3 +137,14 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | If you ___ the bus, you'll be late. (miss) | miss | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | If it will rain, we'll cancel the trip. | If it rains, we'll cancel the trip / If it rains, we will cancel the trip / We'll cancel the trip if it rains / We will cancel the trip if it rains | ✎ | ✓ | ✓ | ✓ | ✎ | ✓ | ✓ | — |
 | Q13 | Quiz | If I have time, I call you. | If I have time, I'll call you / If I have time, I will call you / If I have time, I can call you / If I have time, I might call you / I'll call you if I have time / I will call you if I have time | ✎ | ✓ | ✓ | ✓ | ✎ | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Match | 5 | If you don’t wear a coat, | you’ll catch a cold. | ítem reescrit |
+| Match | 9 | If you eat all that chocolate, | you’ll get a stomachache. | ítem reescrit |
+| Match | 12 | If you go to bed late, | you’ll oversleep tomorrow. | ítem reescrit |
+| Find the mistake | 17 | If it snows, we would stay at home. | will | ítem reescrit |

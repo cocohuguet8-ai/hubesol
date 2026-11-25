@@ -137,3 +137,32 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | When he arrived, I ___ for an hour. (wait) | had been waiting / ’d been waiting / 'd been waiting / had waited / ’d waited / 'd waited | ✎ | ✎ | ✓ | ✎ | ✎ | ✓ | ✓ | — |
 | Q12 | Quiz | I had waiting for ages. | I had been waiting for ages / I’d been waiting for ages / I'd been waiting for ages | ✎ | ✎ | ✓ | ✎ | ✎ | ✓ | ✓ | — |
 | Q13 | Quiz | By then I had been finishing the essay. | By then I had finished the essay / By then I’d finished the essay / By then I'd finished the essay | ✎ | ✎ | ✓ | ✎ | ✎ | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 1 | When he arrived, I ____________ for an hour. | had been waiting | opcions: had been waiting · was waiting · have been waiting · waited |
+| Beat the clock | 2 | Her eyes were red because she ____________. | had been crying | opcions: has been crying · had been crying · had cry · will have been crying |
+| Beat the clock | 3 | By 6pm, I ____________ for eight hours. | had been working | opcions: worked · was working · had been working · had work |
+| Beat the clock | 4 | The players were exhausted — they ____________ all morning. | had been training | opcions: have been training · will have been training · had train · had been training |
+| Beat the clock | 5 | She was out of breath because she ____________. | had been running | opcions: has been running · had been running · had been run · will have been running |
+| Beat the clock | 6 | ____________ you been waiting long when the bus came? | Had | opcions: Did · Have · Had · Has |
+| Beat the clock | 7 | She ____________ abroad for five years when she came home. | had been living | opcions: has been living · was living · lived · had been living |
+| Beat the clock | 8 | They ____________ for long when the alarm rang, so they were still tired. | hadn’t been sleeping | opcions: hadn’t been sleeping · haven’t been sleeping · won’t have been sleeping · hadn’t sleep |
+| Beat the clock | 9 | The ground was wet because it ____________ all night. | had been raining | opcions: has been raining · will have been raining · had been raining · had been rain |
+| Beat the clock | 10 | He ____________ English for two years before he moved to London. | had been studying | opcions: has been studying · will have been studying · had studying · had been studying |
+| Beat the clock | 11 | My hands were dirty — I ____________ in the garden. | had been digging | opcions: had been digging · have been digging · will have been digging · had digging |
+| Beat the clock | 12 | When she called, we ____________ dinner for an hour. | had been cooking | opcions: have been cooking · had been cooking · will have been cooking · had cooking |
+| Beat the clock | 13 | How long ____________ they been waiting before the bus came? | had | opcions: did · have · has · had |
+| Beat the clock | 14 | I was tired because I ____________ since five. | had been driving | opcions: had been driving · have been driving · will have been driving · had driving |
+| Beat the clock | 15 | We ____________ him for years before we met his family. | had known | opcions: had been knowing · had known · have known · have been knowing |
+| Beat the clock | 16 | By then I ____________ the essay, so I went to bed. | had finished | opcions: had been finishing · was finishing · had finished · finished |
+| Beat the clock | 17 | The kitchen smelled of smoke — someone ____________ something. | had been burning | opcions: had been burning · has been burning · will have been burning · had burn |
+| Beat the clock | 18 | He ____________ the guitar for years before he joined the band. | had been playing | opcions: has been playing · had been playing · will have been playing · had playing |
+| Beat the clock | 19 | We ____________ since lunch when the storm hit. | had been hiking | opcions: have been hiking · will have been hiking · had been hiking · had hike |
+| Beat the clock | 20 | The kids were sleepy because they ____________ films all night. | had been watching | opcions: have been watching · will have been watching · had watching · had been watching |
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 60 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

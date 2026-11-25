@@ -137,3 +137,15 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | It's only a ten-___ walk from here. | minute | ✎ | ✓ | ✓ | ✎ | — | ✓ | ✓ | — |
 | Q12 | Quiz | She works in a shoes shop. | She works in a shoe shop | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | She has two ___. | mothers-in-law | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 7 | How many ____________ do you have at home? | toothbrushes | opcions: teeth brushes · toothbrush · tooth brush · toothbrushes |
+| Find the mistake | 9 | I left my bag in the room hotel. | hotel room. | ítem reescrit |
+| Find the mistake | 11 | Where is the tickets office? | ticket | ítem reescrit |
+| Find the mistake | 12 | My brother plays for a team football. | football team. | ítem reescrit |
+| Find the mistake | 14 | Switch on the lamp desk. | desk lamp. | ítem reescrit |

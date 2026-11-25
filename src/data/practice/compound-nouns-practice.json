@@ -655,14 +655,14 @@
         "choices": [
           "teeth brushes",
           "toothbrush",
-          "toothbrushs",
+          "tooth brush",
           "toothbrushes"
         ],
         "correct": 3,
         "wrongReasons": [
           "The first part stays singular: ‘tooth’, not ‘teeth’.",
           "After ‘How many’ we need a plural.",
-          "Words ending in -sh add -es: ‘toothbrushes’.",
+          "We write it as one word, and here we need the plural: ‘toothbrushes’.",
           ""
         ],
         "explain": "Toothbrushes."
@@ -1031,16 +1031,22 @@
       {
         "tokens": [
           "I",
-          "can’t",
-          "find",
+          "left",
+          "my",
+          "bag",
+          "in",
           "the",
-          "door’s",
-          "key."
+          "room",
+          "hotel."
         ],
-        "errorIndex": 4,
-        "correction": "door",
-        "type": "’s with things",
-        "message": "Compound noun: ‘the door key’."
+        "errorIndex": 6,
+        "correction": "hotel room.",
+        "type": "Word order",
+        "message": "The first noun tells us the type: ‘the hotel room’.",
+        "errorSpan": [
+          6,
+          7
+        ]
       },
       {
         "tokens": [
@@ -1057,34 +1063,34 @@
       },
       {
         "tokens": [
-          "Turn",
-          "off",
+          "Where",
+          "is",
           "the",
-          "kitchen’s",
-          "light."
+          "tickets",
+          "office?"
         ],
         "errorIndex": 3,
-        "correction": "kitchen",
-        "type": "’s with things",
-        "message": "Compound noun: ‘the kitchen light’."
+        "correction": "ticket",
+        "type": "Plural first",
+        "message": "First noun singular: ‘the ticket office’."
       },
       {
         "tokens": [
-          "Wait",
+          "My",
+          "brother",
+          "plays",
           "for",
-          "me",
-          "at",
-          "the",
-          "train’s",
-          "station."
+          "a",
+          "team",
+          "football."
         ],
         "errorIndex": 5,
-        "correction": "train",
-        "type": "’s with things",
-        "message": "Compound noun: ‘the train station’.",
+        "correction": "football team.",
+        "type": "Word order",
+        "message": "The first noun tells us the type: ‘a football team’.",
         "errorSpan": [
           5,
-          5
+          6
         ]
       },
       {
@@ -1104,22 +1110,19 @@
       },
       {
         "tokens": [
-          "Can",
-          "I",
-          "have",
-          "a",
-          "tea",
-          "cup?",
-          "I’m",
-          "thirsty."
+          "Switch",
+          "on",
+          "the",
+          "lamp",
+          "desk."
         ],
-        "errorIndex": 4,
-        "correction": "cup of tea?",
-        "type": "Cup of",
-        "message": "You want tea to drink: ‘a cup of tea’ (a ‘tea cup’ is the empty cup).",
+        "errorIndex": 3,
+        "correction": "desk lamp.",
+        "type": "Word order",
+        "message": "The first noun tells us the type: ‘the desk lamp’.",
         "errorSpan": [
-          4,
-          5
+          3,
+          4
         ]
       },
       {

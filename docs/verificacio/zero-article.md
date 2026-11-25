@@ -137,3 +137,34 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | The money can't buy happiness. | Money can't buy happiness | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | We go to the bed at eleven. | We go to bed at eleven | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I usually go to work ___ car. | by | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Match | 9 | at ___ night | — | ítem reescrit |
+| Beat the clock | 1 | ____________ teenagers often sleep late at weekends. | — | opcions: — · The |
+| Beat the clock | 2 | I think ____________ music helps me study. | — | opcions: — · the |
+| Beat the clock | 3 | ____________ music at the party was too loud. | The | opcions: — · The |
+| Beat the clock | 4 | Let’s meet after ____________ lunch. | — | opcions: — · the |
+| Beat the clock | 5 | I usually go to school by ____________ bike. | — | opcions: the · — · a |
+| Beat the clock | 6 | Do you like watching ____________ rugby? | — | opcions: — · the |
+| Beat the clock | 7 | He’s learning ____________ trumpet. | the | opcions: — · a · the |
+| Beat the clock | 8 | In Andorra people speak ____________ Catalan. | — | opcions: the · — |
+| Beat the clock | 9 | My grandpa is in ____________ hospital with a broken leg. | — | opcions: the · a · — |
+| Beat the clock | 10 | I went to ____________ hospital to visit my grandpa. | the | opcions: the · — |
+| Beat the clock | 11 | It’s late — I’m going ____________ home. | — | opcions: — · to the · the · to |
+| Beat the clock | 12 | Shops are closed on ____________ Sundays. | — | opcions: — · the |
+| Beat the clock | 13 | We met in ____________ 2019. | — | opcions: the · — |
+| Beat the clock | 14 | ____________ moon goes round the earth. | The | opcions: — · The |
+| Beat the clock | 15 | She’s really good at ____________ chemistry. | — | opcions: the · — |
+| Beat the clock | 16 | ____________ time is money. | — | opcions: — · The |
+| Beat the clock | 17 | Which is correct? | I go to bed at eleven. | opcions: I go to bed at eleven. · I go to the bed at eleven. · I go to a bed at eleven. · I go bed at eleven. |
+| Beat the clock | 18 | Which is correct? | Children love games. | opcions: Children love the games in general. · Children love games. · The children love the games. |
+| Beat the clock | 19 | Have you read ____________ books I lent you? | the | opcions: — · a · the · some |
+| Beat the clock | 20 | ____________ dinner we had last night was delicious. | The | opcions: The · — |
+| Quiz | 9 | Which sentence talks about music IN GENERAL? | I love music. | opcions: I love the music. · I love music. · I love a music. |
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 60 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

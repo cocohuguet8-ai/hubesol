@@ -137,3 +137,19 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | You look ill. You ___ see a doctor. | should / ought to / ’d better / 'd better / had better | ✎ | ✓ | ✎ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | You should to rest more. | You should rest more | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | You didn't call her. You ___ have called her. (past advice) | should / ought to | ✎ | ✓ | ✎ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 1 | You ____________ see a doctor about that cough. | should | opcions: should · should to · ought · must to |
+| Beat the clock | 2 | You ____________ wear a helmet on your bike. | ought to | opcions: ought · ought to · should to · must to |
+| Beat the clock | 8 | The parcel ____________ arrive tomorrow — they sent it yesterday. | should | opcions: should · must to · ought · should to |
+| Beat the clock | 17 | Which sentence is correct? | He should practise every day. | opcions: He should practise every day. · He should practising every day. · He should practises every day. · He should to practise every day. |
+| Beat the clock | 18 | Which sentence is correct? | You ought to apologise. | opcions: You ought apologise. · You ought to apologise. · You ought to apologising. · You ought to apologises. |
+| Find the mistake | 13 | If I was you, I’d rest. | were | ítem reescrit |
+| Quiz | 1 | You look tired. You ___ get some rest. | should | opcions: must to · should to · should |
+| Quiz | 3 | You ___ apologise to her; it would be the polite thing. | ought to | opcions: ought to · ought · should to |
+| Quiz | 8 | Choose the correct version of: 'You should to see a dentist.' | You should see a dentist. | opcions: You should see a dentist. · You should sees a dentist. · You should seeing a dentist. · The sentence is already correct. |

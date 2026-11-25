@@ -255,7 +255,7 @@
     "subtitle": "Tap the words to build each sentence — 20 examples with the (and without it).",
     "sentences": [
       {
-        "use": "Specific",
+        "use": "Put it in order",
         "tokens": [
           "Close",
           "the",
@@ -264,7 +264,7 @@
         ]
       },
       {
-        "use": "Specific",
+        "use": "Put it in order",
         "tokens": [
           "Pass",
           "the",
@@ -273,7 +273,7 @@
         ]
       },
       {
-        "use": "Unique",
+        "use": "Put it in order",
         "tokens": [
           "The",
           "sun",
@@ -282,7 +282,7 @@
         ]
       },
       {
-        "use": "Unique",
+        "use": "Put it in order",
         "tokens": [
           "Look",
           "at",
@@ -291,7 +291,7 @@
         ]
       },
       {
-        "use": "Superlative",
+        "use": "Put it in order",
         "tokens": [
           "She",
           "is",
@@ -301,7 +301,7 @@
         ]
       },
       {
-        "use": "Superlative",
+        "use": "Put it in order",
         "tokens": [
           "It",
           "is",
@@ -311,7 +311,7 @@
         ]
       },
       {
-        "use": "Ordinal",
+        "use": "Put it in order",
         "tokens": [
           "He",
           "was",
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "use": "Instrument",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "play",
@@ -330,7 +330,7 @@
         ]
       },
       {
-        "use": "Instrument",
+        "use": "Put it in order",
         "tokens": [
           "She",
           "plays",
@@ -339,7 +339,7 @@
         ]
       },
       {
-        "use": "Place in town",
+        "use": "Put it in order",
         "tokens": [
           "We",
           "went",
@@ -349,7 +349,7 @@
         ]
       },
       {
-        "use": "Place in town",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "am",
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "use": "Second mention",
+        "use": "Put it in order",
         "tokens": [
           "The",
           "dog",
@@ -368,7 +368,7 @@
         ]
       },
       {
-        "use": "Defined by phrase",
+        "use": "Put it in order",
         "tokens": [
           "The",
           "man",
@@ -381,7 +381,7 @@
         ]
       },
       {
-        "use": "Specific",
+        "use": "Put it in order",
         "tokens": [
           "How",
           "was",
@@ -390,7 +390,7 @@
         ]
       },
       {
-        "use": "General",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "love",
@@ -398,7 +398,7 @@
         ]
       },
       {
-        "use": "General",
+        "use": "Put it in order",
         "tokens": [
           "Dogs",
           "are",
@@ -406,7 +406,7 @@
         ]
       },
       {
-        "use": "Sport",
+        "use": "Put it in order",
         "tokens": [
           "We",
           "play",
@@ -414,7 +414,7 @@
         ]
       },
       {
-        "use": "Meal",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "have",
@@ -424,7 +424,7 @@
         ]
       },
       {
-        "use": "Language",
+        "use": "Put it in order",
         "tokens": [
           "She",
           "speaks",
@@ -432,7 +432,7 @@
         ]
       },
       {
-        "use": "Unique",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "read",
@@ -1355,7 +1355,7 @@
       },
       {
         "type": "use",
-        "use": "Use",
+        "use": "Choose the answer",
         "text": "In ‘I saw a dog. The dog was big.’, why ‘the’?",
         "choices": [
           "superlative",
@@ -1374,7 +1374,7 @@
       },
       {
         "type": "use",
-        "use": "Use",
+        "use": "Choose the answer",
         "text": "Why ‘the’ in ‘the sun’?",
         "choices": [
           "second mention",
@@ -1393,7 +1393,7 @@
       },
       {
         "type": "use",
-        "use": "Use",
+        "use": "Choose the answer",
         "text": "Why no article in ‘I love music’?",
         "choices": [
           "music in general",
@@ -1412,7 +1412,7 @@
       },
       {
         "type": "use",
-        "use": "Use",
+        "use": "Choose the answer",
         "text": "Why no article in ‘We play rugby’?",
         "choices": [
           "it’s unique",

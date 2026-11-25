@@ -134,3 +134,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | If I ___ to bed earlier, I would have felt better this morning. | had gone | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the sentence with the same meaning as: 'I didn't know, so I didn't call you.' | If I had known, I would have called you. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | If I ___ more time, I would have finished the essay. | had had | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 6 | If he had trained, he would have ____________ the race. | won | opcions: win · winning · won · wins |
+| Quiz | 5 | If I had known, I ___ you. | would have told | opcions: would told · would have telling · would have told · will tell |

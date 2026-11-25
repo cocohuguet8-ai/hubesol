@@ -137,3 +137,19 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | She ___ her keys on the bus yesterday. (leave) | left | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | Did you went to the party? | Did you go to the party? / Did you go to the party / Did you go to that party | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I didn’t saw him. | I didn't see him / I did not see him / I didnt see him | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 2 | She ____________ her arm skiing last winter. | broke | opcions: breaks · has broken · break · broke |
+| Beat the clock | 3 | We ____________ dinner together two days ago. | had | opcions: have · have had · had · having |
+| Beat the clock | 7 | He opened the letter and ____________ the news at once. | read | opcions: reads · has read · read · reading |
+| Beat the clock | 9 | As a teenager, I ____________ in the sea every morning. | swam | opcions: swim · swam · swimming · have swum |
+| Beat the clock | 10 | My grandparents ____________ in a small village in the 1970s. | grew up | opcions: grew up · grow up · growing up · have grown up |
+| Beat the clock | 20 | Yesterday he ____________ to fix the bike himself. | tried | opcions: trying · tried · tries · has tried |
+| Quiz | 2 | She ___ to Paris in 2019. | went | opcions: go · goes · has gone · went |
+| Quiz | 6 | He ___ a new car last month. | bought | opcions: buy · buys · has bought · bought |
+| Quiz | 7 | Last night I ___ for my exam until midnight. | studied | opcions: studying · studies · studied · have studied |

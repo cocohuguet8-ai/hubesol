@@ -8,14 +8,12 @@
       "options": [
         "must to",
         "should to",
-        "shoulds",
         "should"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanations": [
         "'Must' isn't followed by 'to'.",
         "'Should' isn't followed by 'to'.",
-        "Modals never add -s.",
         "Correct! Advice takes 'should' + base verb: 'You should get some rest'."
       ]
     },
@@ -40,15 +38,13 @@
       "options": [
         "ought to",
         "ought",
-        "should to",
-        "oughts to"
+        "should to"
       ],
       "answer": 0,
       "explanations": [
         "Correct! 'Ought to' keeps 'to': 'You ought to apologise'.",
         "'Ought' needs 'to': 'ought to apologise'.",
-        "'Should' isn't followed by 'to'.",
-        "Modals never add -s."
+        "'Should' isn't followed by 'to'."
       ]
     },
     {
@@ -119,14 +115,14 @@
       "question": "Choose the correct version of: 'You should to see a dentist.'",
       "options": [
         "You should see a dentist.",
-        "You shoulds see a dentist.",
+        "You should sees a dentist.",
         "You should seeing a dentist.",
         "The sentence is already correct."
       ],
       "answer": 0,
       "explanations": [
         "Correct! 'Should' takes the base verb: 'You should see a dentist'.",
-        "Modals never add -s.",
+        "After 'should' we use the bare infinitive: 'see', with no -s.",
         "Use the base verb, not '-ing', after a modal.",
         "'Should to' wrongly adds 'to'."
       ]

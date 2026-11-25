@@ -137,3 +137,36 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | I'm looking for ___ job. Any job is fine. | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | Neil Armstrong walked on a moon in 1969. | Neil Armstrong walked on the moon in 1969 | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I live in a small house. ___ house is very old. | The | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Match | 1 | He’s got ___ sister and two brothers. | a | ítem reescrit |
+| Match | 6 | What ___ nice day! | a | ítem reescrit |
+| Match | 17 | I’m ___ student. | a | ítem reescrit |
+| Match | 18 | Please pass me ___ salt. | the | ítem reescrit |
+| Beat the clock | 1 | Last week I read ____________ book about sharks. | a | opcions: a · the · an · — |
+| Beat the clock | 2 | I read a book about sharks. ____________ book was fascinating. | The | opcions: A · The · An · — |
+| Beat the clock | 3 | Excuse me, is there ____________ toilet in this building? | a | opcions: the · an · a · — |
+| Beat the clock | 4 | Excuse me, where’s ____________ toilet in your flat? | the | opcions: a · an · — · the |
+| Beat the clock | 5 | Who is ____________ president of your club? | the | opcions: a · the · an · — |
+| Beat the clock | 6 | My friend Tom is ____________ member of the club. | a | opcions: the · an · a · — |
+| Beat the clock | 7 | It’s ____________ most expensive restaurant in town. | the | opcions: a · an · — · the |
+| Beat the clock | 8 | ____________ earth is the third planet from the sun. | The | opcions: The · An · A · — |
+| Beat the clock | 9 | Her husband is ____________ electrician. | an | opcions: the · a · an · — |
+| Beat the clock | 10 | ____________ girl with long hair is my cousin. | The | opcions: A · An · — · The |
+| Beat the clock | 11 | My cousin is ____________ girl with long hair. | a | opcions: a · the · an · — |
+| Beat the clock | 12 | Can you turn on ____________ light? It’s dark. | the | opcions: a · the · an · — |
+| Beat the clock | 13 | We saw ____________ owl in the forest. | an | opcions: the · a · — · an |
+| Beat the clock | 14 | He’s learning to play ____________ saxophone. | the | opcions: the · a · an · — |
+| Beat the clock | 15 | The tickets cost ten euros ____________ person. | a | opcions: the · a · an · — |
+| Beat the clock | 16 | What’s ____________ name of your teacher? | the | opcions: a · an · the · — |
+| Beat the clock | 17 | Which is correct? | I have a sister. The sister lives in Rome. | opcions: I have a sister. The sister lives in Rome. · I have the sister. A sister lives in Rome. · I have a sister. A sister lives in Rome. · I have sister. The sister lives in Rome. |
+| Beat the clock | 18 | Which is correct? | She’s the best singer in the band. | opcions: She’s a best singer in the band. · She’s the best singer in the band. · She’s best singer in the band. · She’s an best singer in the band. |
+| Beat the clock | 19 | I’m hungry. I want ____________ sandwich. | a | opcions: the · an · a · — |
+| Beat the clock | 20 | Who ate ____________ sandwich I left in the fridge? | the | opcions: a · an · — · the |
+
+Etiquetes `use` que donaven la resposta substituïdes per etiquetes neutres en 60 ítems (Fill the gap / Choose the answer / Put it in order / Find the mistake).

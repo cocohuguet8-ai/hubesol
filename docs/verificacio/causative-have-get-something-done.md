@@ -137,3 +137,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | I had my car ___ yesterday. (repair) | repaired | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I had repaired my car yesterday. (A mechanic did it.) | I had my car repaired yesterday | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | A hairdresser cut my hair yesterday. → I ___ my hair cut yesterday. | had / got | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 15 | She had her dress ____________ by a famous designer. | made | opcions: make · made · making · makes |
+| Beat the clock | 20 | Have you had your hair ____________? It looks great! | cut | opcions: cuts · cutting · to cut · cut |

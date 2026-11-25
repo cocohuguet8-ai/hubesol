@@ -137,3 +137,17 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | She taught ___ to play the guitar. | herself | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I feel myself tired today. | I feel tired today | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I don't need help. I'll do it by ___. | myself | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 2 | Marc fell off his bike and hurt ____________. | himself | opcions: his · himself · him · herself |
+| Beat the clock | 3 | The girls took photos of ____________. | themselves | opcions: their · them · themselves · herself |
+| Beat the clock | 9 | The door closed by ____________. | itself | opcions: it · its · itself · themselves |
+| Beat the clock | 13 | Joan and Maria love ____________. They’re married. | each other | opcions: themselves · theirs · itself · each other |
+| Beat the clock | 17 | Which is correct? | They did it themselves. | opcions: They did it themselves. · They did it theirs. · They did it himself. · They did it them. |
+| Beat the clock | 20 | Grandpa sometimes talks to ____________. | himself | opcions: him · his · he · himself |
+| Quiz | 2 | The children really enjoyed ___ at the party. | themselves | opcions: theirs · their · them · themselves |

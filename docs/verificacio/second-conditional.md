@@ -134,3 +134,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | If I had wings, I ___ fly everywhere. | could | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the sentence with the same meaning as: 'I don't have money, so I can't travel.' | If I had money, I'd travel. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | It's very unlikely, but if I ___ president, I'd change the law. | were | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+
+## Canvis del 2026-11-25 (Claude)
+
+Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R2 (feedback específic de la frase), R5 (opcions incorrectes = paraules reals) i R8 (una sola resposta/error possible) en els canvis de contingut; la resta d'ítems no s'han tocat i mantenen la verificació del 22/11.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 3 | If she ____________ the answer, she’d tell us. | knew | opcions: knows · would know · knew · known |
+| Beat the clock | 4 | If I ____________ the lottery, I’d give money to charity. | won | opcions: win · would win · winning · won |
