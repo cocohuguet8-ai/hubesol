@@ -152,8 +152,8 @@ const uid = 'lc';
 
     // ---- diagnoseFill: tense-keyed, ported verbatim per approved level-check prototype ----
     function diagnoseFillPastSimple(rawText, it) {
-      const u = normalize(rawText);
-      const c = normalize(it.display);
+      const u = normalize(rawText).replace(/'/g, "’");
+      const c = normalize(it.display).replace(/'/g, "’");
       if (!u) return "You left it blank — even a guess helps you learn the pattern.";
       const uWords = u.split(' ').filter(Boolean);
       const cWords = c.split(' ').filter(Boolean);
