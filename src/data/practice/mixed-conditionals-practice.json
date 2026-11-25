@@ -1346,38 +1346,38 @@
         "tokens": [
           "If",
           "she",
-          "had",
+          "has",
           "saved",
           "money,",
           "she",
           "would",
-          "had",
+          "have",
           "a",
           "car",
           "now."
         ],
-        "errorIndex": 7,
-        "correction": "have",
-        "type": "Present result",
-        "message": "Present result: after ‘would’ use the base verb, ‘would have a car’."
+        "errorIndex": 2,
+        "correction": "had",
+        "type": "Has or had",
+        "message": "Past perfect for the past condition: ‘If she had saved money…’."
       },
       {
         "tokens": [
           "If",
           "we",
           "had",
-          "left",
+          "leave",
           "earlier,",
           "we",
           "would",
-          "been",
+          "be",
           "home",
           "now."
         ],
-        "errorIndex": 7,
-        "correction": "be",
-        "type": "Present result",
-        "message": "Present result: ‘we would be home now’ — after ‘would’ use ‘be’."
+        "errorIndex": 3,
+        "correction": "left",
+        "type": "Past participle",
+        "message": "Participle of ‘leave’: left."
       },
       {
         "tokens": [
@@ -1707,7 +1707,7 @@
         ],
         "correction": "would be",
         "type": "Present result",
-        "message": "‘Now’ is present: ‘she would be happy now’."
+        "message": "‘Now’ is present, so the result is ‘she would be happy now’."
       }
     ]
   },
