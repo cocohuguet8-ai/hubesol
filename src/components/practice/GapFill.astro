@@ -118,8 +118,8 @@ const uid = 'gf';
 
     // ---- past-simple diagnose() — ported verbatim from gap-fill-past-simple.html ----
     function diagnosePastSimple(rawText, q) {
-      const u = normalize(rawText);
-      const c = normalize(q.display);
+      const u = normalize(rawText).replace(/'/g, "’");
+      const c = normalize(q.display).replace(/'/g, "’");
       if (!u) return "You left it blank — even a guess helps you learn the pattern.";
       const uWords = u.split(' ').filter(Boolean);
       const cWords = c.split(' ').filter(Boolean);
