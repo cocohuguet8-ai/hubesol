@@ -249,6 +249,12 @@ const uid = 'wo';
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
+    // A sentence-specific hint (orderHint) replaces the generic fallback messages.
+    function pickOrderFeedback(diag, hint) {
+      if (hint && /^(Check how the sentence begins|The first .* right|Check the order of the words after)/.test(diag)) return hint;
+      return diag;
+    }
+
     const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
 
     function diagnoseOrder(builtWords, correctWords) {
@@ -338,7 +344,7 @@ const uid = 'wo';
         score++;
       } else {
         feedback.classList.add('show', 'bad');
-        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, q.tokens)
+        feedback.innerHTML = '<b>Not quite.</b> ' + pickOrderFeedback(diagnoseOrder(builtWords, q.tokens), q.orderHint)
           + ' The correct sentence is: “' + q.tokens.join(' ') + '”';
       }
 
