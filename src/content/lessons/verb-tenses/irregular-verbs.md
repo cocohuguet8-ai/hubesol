@@ -142,7 +142,7 @@ Memorising is easier when you group verbs that behave the same way.
 
 ## Common mistakes
 
-**1. Adding -ed to irregular verbs.** The most common error. Irregular verbs never take *-ed*. ✗ *~~goed, buyed, thinked~~* → ✓ **went, bought, thought.**
+**1. Adding -ed to irregular verbs.** The most common error. Irregular verbs don’t form the past with *-ed*. ✗ *~~goed, buyed, thinked~~* → ✓ **went, bought, thought.**
 
 **2. Past simple after have/has.** After *have/has*, use the participle. ✗ *~~I have went.~~* → ✓ **I have gone**, and ✗ *~~I have ate.~~* → ✓ **I have eaten.**
 

@@ -134,3 +134,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q8 | Quiz | Choose the correct version of: 'I'd rather to have a coffee.' | I'd rather have a coffee. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q9 | Quiz | Choose the correct version of: 'I'd rather you don't tell anyone.' | I'd rather you didn't tell anyone. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Q10 | Quiz | What follows 'would prefer'? | a to-infinitive or a noun. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Level check | 2 | I’d prefer ___ stay in a hostel. | to | «always needs to» → explicació sobre aquesta frase |

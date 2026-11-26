@@ -167,7 +167,7 @@
         "use": "Time expression",
         "kind": "statement",
         "before": "My sister always",
-        "after": "a coffee at nine.",
+        "after": "a coffee at nine these days.",
         "hint": "have",
         "answers": [
           "has"
@@ -952,7 +952,7 @@
       },
       {
         "use": "Time expression",
-        "text": "My sister always <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a coffee at nine.",
+        "text": "My sister always <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> a coffee at nine these days.",
         "choices": [
           "is having",
           "had",
@@ -961,10 +961,10 @@
         ],
         "correct": 2,
         "wrongReasons": [
-          "‘is having’ is the present continuous, but ‘always’ needs the present simple.",
-          "‘had’ is the past simple, but ‘always’ needs the present simple.",
+          "‘is having’ is the present continuous: ‘always’ + a routine points to the present simple.",
+          "‘had’ is the past simple, but ‘these days’ points to the present.",
           "",
-          "‘has had’ is the present perfect, but ‘always’ needs the present simple."
+          "‘has had’ is the present perfect: a daily routine takes the present simple."
         ],
         "explain": "‘always’ points to the present simple."
       },

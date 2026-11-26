@@ -143,3 +143,12 @@ Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R
 |---|---|---|---|---|
 | Beat the clock | 3 | If she ____________ the answer, she’d tell us. | knew | opcions: knows · would know · knew · known |
 | Beat the clock | 4 | If I ____________ the lottery, I’d give money to charity. | won | opcions: win · would win · winning · won |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 1 | If I ___ more money, I’d buy a new bike. | had | «Never use would in the if-clause» → feedback específic |
+| Level check | 10 | ___ I were you, I wouldn’t tell anyone. | If | «always starts with» → «is» |
