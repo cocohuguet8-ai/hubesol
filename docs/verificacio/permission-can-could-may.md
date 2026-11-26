@@ -137,3 +137,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | 'Could I borrow your pen?' — 'Yes, you ___.' | can / may | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | Can I to go home? | Can I go home | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | ___ I come in, please? (very formal) | May | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 10 | We ___ allowed to wear make-up at school. | aren’t | «always needs be» → «here allowed is passive» |

@@ -169,3 +169,11 @@ Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R
 | Quiz | 7 | The past participle of 'write' is ___. | written | opcions: wrote · written · writing · writes |
 | Quiz | 8 | We ___ a great time at the party. | had | opcions: having · have · has · had |
 | Quiz | 10 | She ___ her leg while she was skiing. | broke | opcions: break · broke · broken · breaks |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Lliçó | — | Error comú 1 | Irregular verbs don’t form the past with -ed | «never take -ed» → formulació sense absolut (coherent amb el Quick answer) |

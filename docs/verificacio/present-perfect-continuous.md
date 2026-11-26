@@ -137,3 +137,11 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | My feet hurt because I ___ in new shoes all day. (walk) | have been walking / 've been walking / ve been walking / ’ve been walking | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I have working all day. | I have been working all day / I've been working all day / Ive been working all day / I’ve been working all day | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I’ve been writing two essays this week. | I've written two essays this week / Ive written two essays this week / I’ve written two essays this week / I have written two essays this week | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Beat the clock | 3 | This house ___ to my family since 1950. | has belonged | «never the continuous» → «not the continuous» per a un verb d’estat |

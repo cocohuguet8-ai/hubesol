@@ -137,3 +137,12 @@ Revisada el 2026-11-22 (Claude). Una fila per pregunta: respostes acceptades i r
 | Q11 | Quiz | I ___ her yesterday. (see) | saw | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q12 | Quiz | I work now. | I'm working now / I am working now | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | Q13 | Quiz | I lived here for years. (still living here) | I've lived here for years / I have lived here for years | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Fill the gap | 11 | My sister always ___ a coffee at nine these days. (have) | has | afegit «these days»: «had» (hàbit passat) ja no encaixa |
+| Beat the clock | 11 | My sister always ___ a coffee at nine these days. | has | mateix ítem; feedback sense «always needs» |

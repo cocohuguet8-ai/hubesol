@@ -148,3 +148,11 @@ Només els ítems modificats en aquesta passada. Revisats contra les 8 regles: R
 | Match | 9 | If you eat all that chocolate, | you’ll get a stomachache. | ítem reescrit |
 | Match | 12 | If you go to bed late, | you’ll oversleep tomorrow. | ítem reescrit |
 | Find the mistake | 17 | If it snows, we would stay at home. | will | ítem reescrit |
+
+## Canvis del 2026-11-26 (Claude)
+
+Regla 3 (coherència): regles absolutes («always», «never») amb excepcions reformulades. Revisats contra les 8 regles només els ítems modificats; la resta mantenen la verificació anterior.
+
+| Activitat | # | Pregunta | Resposta acceptada | Canvi |
+|---|---|---|---|---|
+| Level check | 10 | If he’s late again, he ___ lose his job. | ’s going to | feedback de «will going to» específic, sense «never» |
