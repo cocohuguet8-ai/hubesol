@@ -1300,17 +1300,17 @@
       },
       {
         "tokens": [
-          "Yesterday",
-          "it",
-          "doesn’t",
-          "rain",
-          "at",
-          "all."
+          "The",
+          "shops",
+          "wasn’t",
+          "open",
+          "on",
+          "Sunday."
         ],
         "errorIndex": 2,
-        "correction": "didn’t",
-        "type": "Wrong negative",
-        "message": "‘Yesterday’ is finished — the negative is ‘didn’t’, not ‘doesn’t’."
+        "correction": "weren’t",
+        "type": "Past of be",
+        "message": "With a plural subject (‘the shops’) the past of ‘be’ is ‘weren’t’, not ‘wasn’t’."
       }
     ]
   },
@@ -1654,19 +1654,20 @@
       },
       {
         "type": "error",
-        "use": "Wrong tense",
+        "use": "Wrong irregular form",
         "tokens": [
           "Last",
           "week,",
-          "he",
-          "starts",
+          "she",
+          "teached",
+          "us",
           "a",
           "new",
-          "job."
+          "song."
         ],
         "errorIndex": 3,
-        "correction": "started",
-        "message": "“Last week” is a finished time — this needs past simple, not present simple."
+        "correction": "taught",
+        "message": "“Teach” is irregular: teach → taught, not teached."
       }
     ]
   }
