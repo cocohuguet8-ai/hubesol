@@ -146,3 +146,6 @@ Revisat per lectura de les dades font (regles 1–8 de CLAUDE.md + 1d del skill)
 
 ## Issues [LR] revisats
 - #538 etiquetes neutres ✓ · #539 subtítol Gap-fill ✓ · #540 orderHint específic ✓ · #541 duplicats reescrits ✓ · #542 FTM amb 10 tipus d’error ✓ · #543 cap forma inexistent com a distractor/error ✓ · #554/#555/#566 no reapareixen.
+
+## Actualització 26/11 (23:25)
+Eliminades totes les construccions inexistents (did/didn’t + passat, «wasn’t remember»): Quiz 9, Beat the clock (hear, meet, have), Level check 15 i 19, Find the mistake 2 i 17 (ara «Short answer»). Tot són formes angleses reals amb error clar.

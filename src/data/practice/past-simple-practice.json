@@ -199,7 +199,7 @@
           "didn’t finish"
         ],
         "display": "didn’t finish",
-        "explain": "‘Didn’t’ + base verb — not ‘didn’t finished’."
+        "explain": "‘Didn’t’ + base verb: finish, not finished."
       },
       {
         "use": "Fill the gap",
@@ -886,17 +886,17 @@
         "use": "Choose the answer",
         "text": "I <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> the news at all yesterday.",
         "choices": [
-          "didn’t heard",
-          "didn’t hear",
           "don’t hear",
-          "haven’t heard"
+          "didn’t hear",
+          "haven’t heard",
+          "won’t hear"
         ],
         "correct": 1,
         "wrongReasons": [
-          "After ‘didn’t’ the verb goes back to its base form: ‘hear’, not ‘heard’.",
-          "",
           "Wrong tense: ‘yesterday’ is finished, so not the present ‘don’t hear’.",
-          "Wrong tense: the present perfect can’t go with ‘yesterday’."
+          "",
+          "The present perfect can’t go with ‘yesterday’.",
+          "‘Won’t hear’ is future, but ‘yesterday’ is past."
         ],
         "explain": "Negatives use didn’t + base verb: didn’t hear."
       },
@@ -907,14 +907,14 @@
           "don’t meet",
           "haven’t met",
           "didn’t meet",
-          "didn’t met"
+          "won’t meet"
         ],
         "correct": 2,
         "wrongReasons": [
           "Wrong tense: ‘last week’ is finished, so not the present ‘don’t meet’.",
-          "Wrong tense: the present perfect can’t go with ‘last week’.",
+          "The present perfect can’t go with ‘last week’.",
           "",
-          "After ‘didn’t’ the verb goes back to its base form: ‘meet’, not ‘met’."
+          "‘Won’t meet’ is future, but ‘last week’ is past."
         ],
         "explain": "Negatives use didn’t + base verb: didn’t meet."
       },
@@ -923,16 +923,16 @@
         "text": "We <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> enough time to finish the test yesterday.",
         "choices": [
           "didn’t have",
-          "didn’t had",
           "don’t have",
-          "haven’t had"
+          "haven’t had",
+          "won’t have"
         ],
         "correct": 0,
         "wrongReasons": [
           "",
-          "After ‘didn’t’ the verb goes back to its base form: ‘have’, not ‘had’.",
           "Wrong tense: ‘yesterday’ is finished, so not the present ‘don’t have’.",
-          "Wrong tense: the present perfect can’t go with ‘yesterday’."
+          "The present perfect can’t go with ‘yesterday’.",
+          "‘Won’t have’ is future, but ‘yesterday’ is past."
         ],
         "explain": "Negatives use didn’t + base verb: didn’t have."
       },
@@ -1068,16 +1068,18 @@
       {
         "tokens": [
           "Did",
-          "she",
-          "liked",
-          "her",
-          "birthday",
-          "present?"
+          "you",
+          "enjoy",
+          "the",
+          "trip?",
+          "Yes,",
+          "I",
+          "do."
         ],
-        "errorIndex": 2,
-        "correction": "like",
-        "type": "Past form after did",
-        "message": "‘Did’ already carries the past, so the verb goes back to its base form: ‘like’, not ‘liked’."
+        "errorIndex": 7,
+        "correction": "did.",
+        "type": "Short answer",
+        "message": "The question uses ‘Did’, so the short answer uses ‘did’ too: Yes, I did."
       },
       {
         "tokens": [
@@ -1289,18 +1291,19 @@
       },
       {
         "tokens": [
-          "She",
-          "didn’t",
-          "went",
-          "to",
-          "work",
-          "on",
-          "Monday."
+          "Did",
+          "the",
+          "bus",
+          "come",
+          "late?",
+          "No,",
+          "it",
+          "doesn’t."
         ],
-        "errorIndex": 2,
-        "correction": "go",
-        "type": "Past form after didn’t",
-        "message": "‘Didn’t’ already carries the past, so the verb goes back to its base form: ‘go’, not ‘went’."
+        "errorIndex": 7,
+        "correction": "didn’t.",
+        "type": "Short answer",
+        "message": "The question uses ‘Did’, so the short answer uses ‘didn’t’: No, it didn’t."
       },
       {
         "tokens": [
@@ -1612,15 +1615,15 @@
         "text": "He {{blank}} the email before yesterday’s deadline.",
         "choices": [
           "doesn’t send",
-          "didn’t sent",
           "hasn’t sent",
+          "won’t send",
           "didn’t send"
         ],
         "correct": 3,
         "wrongReasons": [
           "Wrong tense: ‘yesterday’ is finished, so not the present ‘doesn’t send’.",
-          "After ‘didn’t’ the verb goes back to its base form: ‘send’, not ‘sent’.",
           "The present perfect can’t go with ‘yesterday’s deadline’.",
+          "‘Won’t send’ is future, but the deadline was yesterday.",
           ""
         ],
         "explain": "Negatives use didn’t + base verb: didn’t send."
@@ -1681,15 +1684,18 @@
         "type": "error",
         "use": "Find the mistake",
         "tokens": [
-          "I",
-          "didn’t",
-          "bought",
-          "any",
-          "milk."
+          "Did",
+          "Ben",
+          "win",
+          "the",
+          "race?",
+          "Yes,",
+          "he",
+          "does."
         ],
-        "errorIndex": 2,
-        "correction": "buy",
-        "message": "After “didn’t”, the verb goes back to its base form — “buy”, not “bought”."
+        "errorIndex": 7,
+        "correction": "did.",
+        "message": "The question uses ‘Did’, so the short answer uses ‘did’ too: Yes, he did."
       },
       {
         "type": "error",
