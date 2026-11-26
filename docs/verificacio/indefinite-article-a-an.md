@@ -16,6 +16,20 @@ Reescrita des de zero el 2026-11-22 (Claude), 5è intent. «✓» = comprovada i
 - **Pack PDF** regenerat des de la lliçó nova; `build_pack.py` accepta ítems de 3 opcions.
 - **Provat:** `npm run lint`, `npm run build` (0 errors) i `e2e` copiat a `articles` (64 comprovacions, 0 fallades; l'e2e normal només cobreix verb-tenses), amb mòbil a 390 px sense desbordament ni targetes <44 px.
 
+## Passada del 26/11/2026 (retest de Learner Review a la PR #536)
+
+Learner Review va donar 7,8 i NO APROVAT. En lloc de tocar només els punts que va citar, he repassat tota la lliçó amb les 8 regles i he buscat la mateixa classe d'errors a tot el fitxer:
+
+- **Doble punt (R7):** el missatge del Word order citava la fitxa amb la seva puntuació («not “school.”.»). El component ara cita les paraules sense puntuació final (WordOrder i LevelCheck). Ja no queda cap «..», «?.» ni « ’» als fitxers de la lliçó.
+- **Raó gramatical al Word order (R2):** cada frase del Word order i del Level check porta ara un camp `reason` que diu per què l'article va allà (davant de l'adjectiu, davant de la feina, «per», exclamació…).
+- **Repeticions (R3/R6):** les 20 frases del Word order s'han tornat a escriure perquè cap no coincideixi amb el Gap-fill (abans n'hi havia 8 de calcades: nurse, architect, bank, friend of mine, wait a minute, twice a week, good news…). També he canviat Matching, Beat the clock, Find the mistake i Level check on una frase o un nom es repetia entre seccions (eyes, ice cream, an hour, old friend, university, elephants, pilot, engineer, amazing goal, strange…).
+- **Find the mistake (R8):** s'ha reequilibrat. Passa de 6 de 8 «a/an segons el so» a les posicions 8–15 a 3 de 8, amb errors de feina sense article, singular sense article, plural amb «a», incomptable amb «a», «per» i exclamació sense article. Un sol error i una sola correcció per frase.
+- **Find the mistake 18:** el feedback deia «‘a fox’» per a «dog»; ara diu «‘a dog’».
+- **Quiz Q8:** el feedback de «She gave me a advice.» ara explica els dos errors (incomptable, i que fins i tot comptable seria «an»).
+- **Pack PDF** regenerat.
+
+**Verificació feta (no independent):** lint, build (114 pàgines), `audit_semantic.py` (0 troballes) i `audit_good.py` (només avisos de camps extra `reason`, que no afecten el render). Script de repeticions: cap frase idèntica entre seccions i cap parell nom+article repetit amb la mateixa estructura. Script de puntuació: 0 hits. **No s'ha pogut executar `npm run e2e`** en aquest entorn (no es pot baixar el navegador de Playwright): depèn del check «e2e» de la PR. La prova amb alumne real és el retest de Learner Review.
+
 | ID | Activitat | Pregunta | Respostes acceptades | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | G1 | Fill in the gaps | Last night I had ___ strange dream. | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -24,7 +38,7 @@ Reescrita des de zero el 2026-11-22 (Claude), 5è intent. «✓» = comprovada i
 | G4 | Fill in the gaps | My sister is ___ nurse at a hospital in Girona. | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G5 | Fill in the gaps | What ___ amazing goal! | an | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G6 | Fill in the gaps | I play tennis twice ___ week. | a / per | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| G7 | Fill in the gaps | She has ___ green eyes. | — / - | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+| G7 | Fill in the gaps | They sell ___ fresh vegetables at that stall. | — / - / some | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G8 | Fill in the gaps | When he grows up, he wants to be ___ architect. | an | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G9 | Fill in the gaps | Is there ___ bank near here? | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G10 | Fill in the gaps | The car was going at 100 kilometres ___ hour. | an / per | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
@@ -38,113 +52,113 @@ Reescrita des de zero el 2026-11-22 (Claude), 5è intent. «✓» = comprovada i
 | G18 | Fill in the gaps | Do you want ___ milk in your tea? | — / - / some / any | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G19 | Fill in the gaps | My uncle works as ___ chef in Barcelona. | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
 | G20 | Fill in the gaps | Look! There’s ___ rainbow in the sky! | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| W1 | Put it in order | I saw a fox in the garden. | I saw a fox in the garden. // in the garden, I saw a fox. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W2 | Put it in order | There is an old church near my town. | There is an old church near my town. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W3 | Put it in order | My sister is a nurse. | My sister is a nurse. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W4 | Put it in order | He wants to be an architect. | He wants to be an architect. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W5 | Put it in order | She works as a teacher in a small school. | She works as a teacher in a small school. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W6 | Put it in order | I play tennis twice a week. | I play tennis twice a week. // twice a week, I play tennis. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W7 | Put it in order | The car was going fifty kilometres an hour. | The car was going fifty kilometres an hour. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W8 | Put it in order | What a great idea! | What a great idea! | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W9 | Put it in order | What an amazing view! | What an amazing view! | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W10 | Put it in order | Wait a minute, please. | Wait a minute, please. // please wait a minute. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W11 | Put it in order | Is there a bank near here? | Is there a bank near here? | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W12 | Put it in order | I have got a younger brother. | I have got a younger brother. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W13 | Put it in order | She is a friend of mine. | She is a friend of mine. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W14 | Put it in order | We bought a new car last month. | We bought a new car last month. // last month, we bought a new car. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W15 | Put it in order | Can I have a coffee, please? | Can I have a coffee, please? | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W16 | Put it in order | It takes an hour to get there. | It takes an hour to get there. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W17 | Put it in order | I need some advice about my homework. | I need some advice about my homework. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W18 | Put it in order | They live in a big house with an orange door. | They live in a big house with an orange door. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W19 | Put it in order | She gave me some good news. | She gave me some good news. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| W20 | Put it in order | She eats an apple every day. | She eats an apple every day. // every day, she eats an apple. | ✓ | — | ✓ | ✓ | — | ✓ | ✓ | — |
-| M1 | Matching | My mum is a dentist. | Job or role | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M2 | Matching | I saw a fox in the garden. | New or non-specific thing | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M3 | Matching | I go to the gym three times a week. | Per (every) | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M4 | Matching | What a lovely surprise! | Exclamation | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M5 | Matching | He’s an electrician. | Job or role | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M6 | Matching | There’s a new shop on my street. | New or non-specific thing | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M7 | Matching | Bananas are one euro a kilo. | Per (every) | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M8 | Matching | What an ugly dog! | Exclamation | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M9 | Matching | I want to be a vet. | Job or role | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M10 | Matching | We met a strange man at the station. | New or non-specific thing | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M11 | Matching | He drives at 50 miles an hour. | Per (every) | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M12 | Matching | What a mess! | Exclamation | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M13 | Matching | My brother is a firefighter. | Job or role | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M14 | Matching | Is there a pharmacy near here? | New or non-specific thing | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M15 | Matching | I brush my teeth twice a day. | Per (every) | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M16 | Matching | What an amazing goal! | Exclamation | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M17 | Matching | She works as an engineer. | Job or role | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M18 | Matching | I need a pen to sign this. | New or non-specific thing | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M19 | Matching | The tickets cost ten euros a person. | Per (every) | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| M20 | Matching | What a great idea! | Exclamation | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| T1 | Beat the clock | Yesterday I met ________ interesting woman on the train. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T2 | Beat the clock | My brother is ________ police officer. | a (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T3 | Beat the clock | She works as ________ engineer for a big company. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T4 | Beat the clock | I bought ________ apples at the market. | — (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T5 | Beat the clock | Can you give me ________ advice, please? | some (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T6 | Beat the clock | I see my grandparents once ________ month. | a (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T7 | Beat the clock | What ________ terrible film! | a (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T8 | Beat the clock | What ________ lovely weather! | — (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T9 | Beat the clock | There’s ________ message for you on the desk. | a (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T10 | Beat the clock | I’m looking for ________ umbrella; mine is broken. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T11 | Beat the clock | Shakespeare was ________ English writer. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T12 | Beat the clock | We need ________ furniture for the new flat. | some (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T13 | Beat the clock | He’s ________ old friend of mine. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T14 | Beat the clock | The speed limit here is thirty miles ________ hour. | an (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T15 | Beat the clock | Is your sister ________ student? | a (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T16 | Beat the clock | They are ________ doctors. | — (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T17 | Beat the clock | Which sentence is correct? | She’s an actress. (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T18 | Beat the clock | Which sentence is correct? | I have some homework. (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T19 | Beat the clock | We had ________ honest conversation about it. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| T20 | Beat the clock | She wants to study at ________ university in Scotland. | a (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| E1 | Find the mistake | My mother is an teacher. | error: «an» → My mother is a teacher. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E2 | Find the mistake | She is nurse at the city hospital. | error: «nurse» → She is a nurse at the city hospital. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E3 | Find the mistake | It takes a hour to get there. | error: «a» → It takes an hour to get there. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E4 | Find the mistake | She studies at an university in Madrid. | error: «an» → She studies at a university in Madrid. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E5 | Find the mistake | Have you got a umbrella? | error: «a» → Have you got an umbrella? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E6 | Find the mistake | He is a honest man. | error: «a» → He is an honest man. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E7 | Find the mistake | What a amazing view! | error: «a» → What an amazing view! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E8 | Find the mistake | Can you give me an advice? | error: «an» → Can you give me some advice? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E9 | Find the mistake | I need a information about the course. | error: «a» → I need some information about the course. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E10 | Find the mistake | He gave us a good news. | error: «a» → He gave us some good news. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E11 | Find the mistake | Our teacher gave us a homework. | error: «a» → Our teacher gave us some homework. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E12 | Find the mistake | He has a blue eyes. | error: «a blue» → He has blue eyes. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E13 | Find the mistake | I bought a new shoes yesterday. | error: «a new» → I bought new shoes yesterday. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E14 | Find the mistake | I go swimming twice the week. | error: «the» → I go swimming twice a week. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E15 | Find the mistake | Apples cost two euros the kilo. | error: «the» → Apples cost two euros a kilo. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E16 | Find the mistake | What lovely surprise for my birthday! | error: «lovely» → What a lovely surprise for my birthday! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E17 | Find the mistake | She’s a my friend. | error: «a my» → She’s my friend. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E18 | Find the mistake | I saw fox in the garden. | error: «fox» → I saw a fox in the garden. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E19 | Find the mistake | He wants to be vet when he grows up. | error: «vet» → He wants to be a vet when he grows up. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| E20 | Find the mistake | We saw a elephant at the zoo. | error: «a» → We saw an elephant at the zoo. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| L1 | Level check (fill) | My aunt is ___ lawyer in Barcelona. | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| L2 | Level check (fill) | She earns twenty euros ___ hour. | an / per | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| L3 | Level check (fill) | Could you give me ___ help with this exercise? | — / - / some | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| L4 | Level check (fill) | I found ___ old photo in a box. | an | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
-| L5 | Level check (order) | He is a dentist. | He is a dentist. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
-| L6 | Level check (order) | I run once a week. | I run once a week. // once a week, I run. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
-| L7 | Level check (order) | What a nice day! | What a nice day! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
-| L8 | Level check (order) | I saw an owl. | I saw an owl. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
-| L9 | Level check (use) | In ‘She’s a dentist’, why ‘a’? | Job or role | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L10 | Level check (use) | In ‘three times a day’, what does ‘a’ mean? | Per (every) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L11 | Level check (use) | Why is there no a/an in ‘She has green eyes’? | ‘Eyes’ is plural. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L12 | Level check (use) | Why ‘an’ in ‘What an awful noise!’? | ‘Awful’ starts with a vowel sound. | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L13 | Level check (mc) | We saw ___ elephants at the safari park. | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L14 | Level check (mc) | What ___ interesting idea! | an | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L15 | Level check (mc) | They gave me ___ useful information. | some | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L16 | Level check (mc) | He wants to be ___ actor. | an | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
-| L17 | Level check (error) | My cousin is pilot. | error: «pilot.» → a pilot. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| L18 | Level check (error) | I need a help. | error: «a» → some | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| L19 | Level check (error) | I send her a message three times day. | error: «day.» → a day. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| L20 | Level check (error) | My parents are a teachers. | error: «a teachers.» → teachers. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | ✓ |
-| Q1 | Quiz | My neighbour is ___ pilot. | a (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q2 | Quiz | I need ___ new phone; mine is broken. | a (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q3 | Quiz | Could you give me ___ information about the course? | some (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q4 | Quiz | We have English lessons twice ___ week. | a (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q5 | Quiz | She has ___ green eyes. | — (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q6 | Quiz | What ___ beautiful day! | a (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q7 | Quiz | He works as ___ electrician. | an (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q8 | Quiz | Which sentence is correct? | She gave me some advice. (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q9 | Quiz | We waited for about ___ hour. | an (4 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
-| Q10 | Quiz | Which is the correct way to say it? | He’s my cousin. (3 opcions) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| WO1 | Put it in order | A boy was waiting outside the shop. | A boy was waiting outside the shop. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO2 | Put it in order | There is an empty seat next to me. | There is an empty seat next to me. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO3 | Put it in order | Her father is a taxi driver. | Her father is a taxi driver. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO4 | Put it in order | Tom became an astronaut last year. | Tom became an astronaut last year. / last year, Tom became an astronaut. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO5 | Put it in order | My grandmother has a small garden. | My grandmother has a small garden. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO6 | Put it in order | Eggs cost three euros a dozen. | Eggs cost three euros a dozen. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO7 | Put it in order | She feeds the cat once a day. | She feeds the cat once a day. / once a day, she feeds the cat. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO8 | Put it in order | What a great idea! | What a great idea! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO9 | Put it in order | What an enormous pizza! | What an enormous pizza! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO10 | Put it in order | Can you lend me a pencil? | Can you lend me a pencil? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO11 | Put it in order | Is there a post office near here? | Is there a post office near here? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO12 | Put it in order | We have got a spare room. | We have got a spare room. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO13 | Put it in order | Ana is a colleague of mine. | Ana is a colleague of mine. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO14 | Put it in order | We bought a new car last month. | We bought a new car last month. / last month, we bought a new car. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO15 | Put it in order | Can I have a coffee, please? | Can I have a coffee, please? | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO16 | Put it in order | We stayed in an elegant hotel near the beach. | We stayed in an elegant hotel near the beach. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO17 | Put it in order | I need some water and a sandwich. | I need some water and a sandwich. / I need a sandwich and some water. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO18 | Put it in order | They live in a big house with an orange door. | They live in a big house with an orange door. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO19 | Put it in order | We need some sugar for the cake. | We need some sugar for the cake. / for the cake, we need some sugar. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| WO20 | Put it in order | She eats an apple every day. | She eats an apple every day. / every day, she eats an apple. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| M1 | Why a / an? | My mum is a dentist. | Job or role | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M2 | Why a / an? | I saw a fox near the river. | New or non-specific thing | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M3 | Why a / an? | I go to the gym three times a week. | Per (every) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M4 | Why a / an? | What a lovely surprise! | Exclamation | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M5 | Why a / an? | He’s an accountant. | Job or role | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M6 | Why a / an? | There’s a new shop on my street. | New or non-specific thing | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M7 | Why a / an? | Bananas are one euro a kilo. | Per (every) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M8 | Why a / an? | What an expensive coat! | Exclamation | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M9 | Why a / an? | Her husband is a pharmacist. | Job or role | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M10 | Why a / an? | We met a tourist at the station. | New or non-specific thing | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M11 | Why a / an? | Taxis here cost two euros a kilometre. | Per (every) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M12 | Why a / an? | What a mess! | Exclamation | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M13 | Why a / an? | My brother is a firefighter. | Job or role | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M14 | Why a / an? | Excuse me, I’m looking for a pharmacy. | New or non-specific thing | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M15 | Why a / an? | I brush my teeth twice a day. | Per (every) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M16 | Why a / an? | What an unusual hat! | Exclamation | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M17 | Why a / an? | Mr Lopez is a carpenter. | Job or role | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M18 | Why a / an? | I need a pen to sign this. | New or non-specific thing | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M19 | Why a / an? | The tickets cost ten euros a person. | Per (every) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| M20 | Why a / an? | What a silly mistake! | Exclamation | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| T1 | Beat the clock | Last week we visited ______ interesting museum in Paris. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T2 | Beat the clock | My brother is ______ police officer. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T3 | Beat the clock | She works as ______ engineer for a big company. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T4 | Beat the clock | I bought ______ apples at the market. | — | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T5 | Beat the clock | Can you give me ______ advice, please? | some | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T6 | Beat the clock | I see my grandparents once ______ month. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T7 | Beat the clock | What ______ terrible film! | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T8 | Beat the clock | What ______ lovely weather! | — | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T9 | Beat the clock | There’s ______ message for you on the desk. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T10 | Beat the clock | I’m looking for ______ umbrella; mine is broken. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T11 | Beat the clock | Shakespeare was ______ English writer. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T12 | Beat the clock | We need ______ furniture for the new flat. | some | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T13 | Beat the clock | He’s ______ old friend of mine. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T14 | Beat the clock | The speed limit here is thirty miles ______ hour. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T15 | Beat the clock | Is your sister ______ student? | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T16 | Beat the clock | They are ______ doctors. | — | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T17 | Beat the clock | Which sentence is correct? | She’s an actress. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T18 | Beat the clock | Which sentence is correct? | I have some homework. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T19 | Beat the clock | We had ______ honest conversation about it. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| T20 | Beat the clock | She wants to study at ______ university in Scotland. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| F1 | Find the mistake | My mother is an teacher. | clic a «an» → a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F2 | Find the mistake | My dad is plumber in our town. | clic a «plumber» → a plumber | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F3 | Find the mistake | My lesson finishes in a hour. | clic a «a» → an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F4 | Find the mistake | She carried a heavy luggage up the stairs. | clic a «a» → heavy | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F5 | Find the mistake | Would you like a ice cream? | clic a «a» → an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F6 | Find the mistake | She’s a my friend. | clic a «a» → my | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F7 | Find the mistake | We bought sofa last week. | clic a «sofa» → a sofa | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F8 | Find the mistake | We live in flat near the park. | clic a «flat» → a flat | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F9 | Find the mistake | I go swimming twice the week. | clic a «the» → a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F10 | Find the mistake | I wear an uniform to work. | clic a «an» → a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F11 | Find the mistake | I bought a new trainers yesterday. | clic a «a» → new | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F12 | Find the mistake | What a exciting match! | clic a «a» → an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F13 | Find the mistake | I have a homework to finish tonight. | clic a «a» → some | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F14 | Find the mistake | He is a honest man. | clic a «a» → an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F15 | Find the mistake | He wants to be vet when he grows up. | clic a «vet» → a vet | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F16 | Find the mistake | What fantastic party last night! | clic a «fantastic» → a fantastic | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F17 | Find the mistake | We’ve got dog called Max. | clic a «dog» → a dog | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F18 | Find the mistake | We saw a elephant at the zoo. | clic a «a» → an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F19 | Find the mistake | She lives in an European city. | clic a «an» → a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| F20 | Find the mistake | Her husband is waiter in a café. | clic a «waiter» → a waiter | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| L1 | Level check | My aunt is ___ lawyer in Barcelona. | a | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+| L2 | Level check | She earns twenty euros ___ hour. | an / per | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+| L3 | Level check | Could you give me ___ help with this exercise? | — / - / some | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+| L4 | Level check | I found ___ old photo in a box. | an | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | — |
+| L5 | Level check | Lucy is a good singer. | Lucy is a good singer. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| L6 | Level check | We go skiing once a year. | We go skiing once a year. / once a year, we go skiing. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| L7 | Level check | What a nice day! | What a nice day! | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| L8 | Level check | I saw an owl. | I saw an owl. | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | — |
+| L9 | Level check | In ‘She’s a baker’, why ‘a’? | Job or role | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L10 | Level check | In ‘three times a day’, what does ‘a’ mean? | Per (every) | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L11 | Level check | Why is there no a/an in ‘They sell shoes here’? | ‘Eyes’ is plural. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L12 | Level check | Why ‘an’ in ‘What an awful noise!’? | ‘Awful’ starts with a vowel sound. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L13 | Level check | She keeps ___ rabbits on the farm. | — | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L14 | Level check | What ___ interesting story! | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L15 | Level check | They gave me ___ useful information. | some | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L16 | Level check | He wants to be ___ artist. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| L17 | Level check | Her mother is scientist. | clic a «scientist.» → a scientist. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| L18 | Level check | I have a money in my bag. | clic a «a» → some | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| L19 | Level check | Petrol costs two euros litre. | clic a «litre.» → a litre. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| L20 | Level check | My parents are a teachers. | clic a «a» → teachers. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| Q1 | Quiz | My neighbour is ___ pilot. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q2 | Quiz | I need ___ new phone; mine is broken. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q3 | Quiz | Could you give me ___ information about the course? | some | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q4 | Quiz | We have English lessons twice ___ week. | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q5 | Quiz | The twins have ___ brown eyes. | — | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q6 | Quiz | What ___ beautiful day! | a | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q7 | Quiz | He works as ___ electrician. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q8 | Quiz | Which sentence is correct? | She gave me some advice. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q9 | Quiz | We waited for about ___ hour. | an | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |
+| Q10 | Quiz | Which is the correct way to say it? | He’s my cousin. | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | — |

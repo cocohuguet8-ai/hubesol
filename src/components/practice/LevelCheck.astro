@@ -362,11 +362,14 @@ const uid = 'lc';
         // Generic fallback for sentences with no auxiliary token to anchor on:
     // never mention an auxiliary or print "undefined".
     function genericOrderHint(builtWords, correctWords) {
+      // Quote the words without their closing punctuation, so the message never ends in “school.”.
+      const clean = (w) => String(w).replace(/[.,!?;:]+$/, '');
       let i = 0;
       while (i < correctWords.length && builtWords[i] === correctWords[i]) i++;
-      const want = correctWords[i];
-      const got = builtWords[i];
-      const place = i === 0 ? "This sentence begins with “" + want + "”" : "After “" + correctWords.slice(0, i).join(' ') + "”, the next word is “" + want + "”";
+      const want = correctWords[i] === undefined ? null : clean(correctWords[i]);
+      const got = builtWords[i] === undefined ? null : clean(builtWords[i]);
+      if (want === null) return "Your sentence has extra words at the end.";
+      const place = i === 0 ? "This sentence begins with “" + want + "”" : "After “" + correctWords.slice(0, i).map(clean).join(' ') + "”, the next word is “" + want + "”";
       return place + (got ? ", not “" + got + "”." : ".");
     }
 
@@ -704,7 +707,7 @@ const uid = 'lc';
         feedback.innerHTML = '<b>Correct.</b> That’s the right word order.';
       } else {
         feedback.className = 'practice-feedback show bad';
-        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: “' + it.tokens.join(' ') + '”';
+        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + (it.reason ? ' ' + it.reason : '') + ' The correct sentence is: “' + it.tokens.join(' ') + '”';
       }
       const endPunct = (it.tokens[it.tokens.length - 1].match(/[.?!]+$/) || [''])[0];
       const yoursSentence = builtWords.map((w) => w.replace(/[.?!]+$/, '')).join(' ');

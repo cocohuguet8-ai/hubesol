@@ -85,15 +85,16 @@
       },
       {
         "use": "Fill the gap",
-        "before": "She has",
-        "after": "green eyes.",
+        "before": "They sell",
+        "after": "fresh vegetables at that stall.",
         "hint": "Type one word.",
         "answers": [
           "—",
-          "-"
+          "-",
+          "some"
         ],
         "display": "—",
-        "explain": "‘Eyes’ is plural, so there is no a/an: ‘green eyes’."
+        "explain": "‘Vegetables’ is plural, so there is no a/an: ‘fresh vegetables’ (or ‘some fresh vegetables’)."
       },
       {
         "use": "Fill the gap",
@@ -257,13 +258,14 @@
         "use": "Put it in order",
         "tokens": [
           "A",
-          "cat",
+          "boy",
           "was",
-          "sleeping",
-          "on",
+          "waiting",
+          "outside",
           "the",
-          "sofa."
-        ]
+          "shop."
+        ],
+        "reason": "‘A’ goes right before its noun: ‘a boy’."
       },
       {
         "use": "Put it in order",
@@ -276,74 +278,90 @@
           "next",
           "to",
           "me."
-        ]
+        ],
+        "reason": "The article goes before the adjective: ‘an empty seat’, not ‘empty an seat’."
+      },
+      {
+        "use": "Put it in order",
+        "tokens": [
+          "Her",
+          "father",
+          "is",
+          "a",
+          "taxi",
+          "driver."
+        ],
+        "reason": "With a job, a/an goes after ‘is’ and before the job: ‘is a taxi driver’."
+      },
+      {
+        "use": "Put it in order",
+        "tokens": [
+          "Tom",
+          "became",
+          "an",
+          "astronaut",
+          "last",
+          "year."
+        ],
+        "alts": [
+          [
+            "last",
+            "year,",
+            "Tom",
+            "became",
+            "an",
+            "astronaut."
+          ]
+        ],
+        "reason": "A/an goes before the job: ‘became an astronaut’."
       },
       {
         "use": "Put it in order",
         "tokens": [
           "My",
-          "sister",
-          "is",
+          "grandmother",
+          "has",
           "a",
-          "nurse."
-        ]
+          "small",
+          "garden."
+        ],
+        "reason": "The article goes before the adjective: ‘a small garden’."
       },
       {
         "use": "Put it in order",
         "tokens": [
-          "He",
-          "wants",
-          "to",
-          "be",
-          "an",
-          "architect."
-        ]
+          "Eggs",
+          "cost",
+          "three",
+          "euros",
+          "a",
+          "dozen."
+        ],
+        "reason": "After a price, ‘a’ means ‘per’: ‘three euros a dozen’."
       },
       {
         "use": "Put it in order",
         "tokens": [
           "She",
-          "works",
-          "as",
+          "feeds",
+          "the",
+          "cat",
+          "once",
           "a",
-          "teacher",
-          "in",
-          "a",
-          "small",
-          "school."
-        ]
-      },
-      {
-        "use": "Put it in order",
-        "tokens": [
-          "I",
-          "play",
-          "tennis",
-          "twice",
-          "a",
-          "week."
+          "day."
         ],
         "alts": [
           [
-            "twice",
+            "once",
             "a",
-            "week,",
-            "I",
-            "play",
-            "tennis."
+            "day,",
+            "she",
+            "feeds",
+            "the",
+            "cat."
           ]
-        ]
-      },
-      {
-        "use": "Put it in order",
-        "tokens": [
-          "The",
-          "bus",
-          "leaves",
-          "twice",
-          "an",
-          "hour."
-        ]
+        ],
+        "reason": "In a ‘per’ expression, ‘a’ goes before the time word: ‘once a day’."
       },
       {
         "use": "Put it in order",
@@ -352,33 +370,30 @@
           "a",
           "great",
           "idea!"
-        ]
+        ],
+        "reason": "In an exclamation, ‘what’ comes first, then a/an, then the adjective: ‘What a great idea!’"
       },
       {
         "use": "Put it in order",
         "tokens": [
           "What",
           "an",
-          "amazing",
-          "view!"
-        ]
+          "enormous",
+          "pizza!"
+        ],
+        "reason": "In an exclamation, ‘what’ comes first, then a/an, then the adjective: ‘What an enormous pizza!’"
       },
       {
         "use": "Put it in order",
         "tokens": [
-          "Wait",
+          "Can",
+          "you",
+          "lend",
+          "me",
           "a",
-          "minute,",
-          "please."
+          "pencil?"
         ],
-        "alts": [
-          [
-            "please",
-            "wait",
-            "a",
-            "minute."
-          ]
-        ]
+        "reason": "A/an goes right before the noun: ‘a pencil’."
       },
       {
         "use": "Put it in order",
@@ -386,10 +401,12 @@
           "Is",
           "there",
           "a",
-          "bank",
+          "post",
+          "office",
           "near",
           "here?"
-        ]
+        ],
+        "reason": "In the question ‘Is there…?’, a/an goes before the noun: ‘a post office’."
       },
       {
         "use": "Put it in order",
@@ -400,18 +417,20 @@
           "a",
           "spare",
           "room."
-        ]
+        ],
+        "reason": "The article goes before the adjective: ‘a spare room’."
       },
       {
         "use": "Put it in order",
         "tokens": [
-          "She",
+          "Ana",
           "is",
           "a",
-          "friend",
+          "colleague",
           "of",
           "mine."
-        ]
+        ],
+        "reason": "A/an goes before the noun and ‘of mine’ comes after it: ‘a colleague of mine’."
       },
       {
         "use": "Put it in order",
@@ -434,7 +453,8 @@
             "new",
             "car."
           ]
-        ]
+        ],
+        "reason": "The article goes before the adjective: ‘a new car’."
       },
       {
         "use": "Put it in order",
@@ -445,19 +465,23 @@
           "a",
           "coffee,",
           "please?"
-        ]
+        ],
+        "reason": "A/an goes right before the noun: ‘a coffee’."
       },
       {
         "use": "Put it in order",
         "tokens": [
-          "It",
-          "takes",
+          "We",
+          "stayed",
+          "in",
           "an",
-          "hour",
-          "to",
-          "get",
-          "there."
-        ]
+          "elegant",
+          "hotel",
+          "near",
+          "the",
+          "beach."
+        ],
+        "reason": "‘An’ goes before the adjective, because ‘elegant’ starts with a vowel sound: ‘an elegant hotel’."
       },
       {
         "use": "Put it in order",
@@ -465,11 +489,23 @@
           "I",
           "need",
           "some",
-          "advice",
-          "about",
-          "my",
-          "homework."
-        ]
+          "water",
+          "and",
+          "a",
+          "sandwich."
+        ],
+        "alts": [
+          [
+            "I",
+            "need",
+            "a",
+            "sandwich",
+            "and",
+            "some",
+            "water."
+          ]
+        ],
+        "reason": "‘Water’ is uncountable, so it takes ‘some’; ‘sandwich’ is countable, so it takes ‘a’."
       },
       {
         "use": "Put it in order",
@@ -484,18 +520,32 @@
           "an",
           "orange",
           "door."
-        ]
+        ],
+        "reason": "Each noun has its own article before its adjective: ‘a big house’, ‘an orange door’."
       },
       {
         "use": "Put it in order",
         "tokens": [
-          "She",
-          "gave",
-          "me",
+          "We",
+          "need",
           "some",
-          "good",
-          "news."
-        ]
+          "sugar",
+          "for",
+          "the",
+          "cake."
+        ],
+        "alts": [
+          [
+            "for",
+            "the",
+            "cake,",
+            "we",
+            "need",
+            "some",
+            "sugar."
+          ]
+        ],
+        "reason": "‘Sugar’ is uncountable, so it takes ‘some’, not a/an: ‘some sugar’."
       },
       {
         "use": "Put it in order",
@@ -516,7 +566,8 @@
             "an",
             "apple."
           ]
-        ]
+        ],
+        "reason": "‘An’ goes right before ‘apple’, which starts with a vowel sound."
       }
     ]
   },
@@ -533,7 +584,7 @@
         "right": "Job or role"
       },
       {
-        "left": "I saw a fox in the garden.",
+        "left": "I saw a fox near the river.",
         "right": "New or non-specific thing"
       },
       {
@@ -545,7 +596,7 @@
         "right": "Exclamation"
       },
       {
-        "left": "He’s an electrician.",
+        "left": "He’s an accountant.",
         "right": "Job or role"
       },
       {
@@ -557,19 +608,19 @@
         "right": "Per (every)"
       },
       {
-        "left": "What an ugly dog!",
+        "left": "What an expensive coat!",
         "right": "Exclamation"
       },
       {
-        "left": "I want to be a vet.",
+        "left": "Her husband is a pharmacist.",
         "right": "Job or role"
       },
       {
-        "left": "We met a strange man at the station.",
+        "left": "We met a tourist at the station.",
         "right": "New or non-specific thing"
       },
       {
-        "left": "He drives at 50 miles an hour.",
+        "left": "Taxis here cost two euros a kilometre.",
         "right": "Per (every)"
       },
       {
@@ -581,7 +632,7 @@
         "right": "Job or role"
       },
       {
-        "left": "Is there a pharmacy near here?",
+        "left": "Excuse me, I’m looking for a pharmacy.",
         "right": "New or non-specific thing"
       },
       {
@@ -589,11 +640,11 @@
         "right": "Per (every)"
       },
       {
-        "left": "What an amazing goal!",
+        "left": "What an unusual hat!",
         "right": "Exclamation"
       },
       {
-        "left": "She works as an engineer.",
+        "left": "Mr Lopez is a carpenter.",
         "right": "Job or role"
       },
       {
@@ -605,7 +656,7 @@
         "right": "Per (every)"
       },
       {
-        "left": "What a great idea!",
+        "left": "What a silly mistake!",
         "right": "Exclamation"
       }
     ]
@@ -618,7 +669,7 @@
     "questions": [
       {
         "use": "Choose the answer",
-        "text": "Yesterday I met <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> interesting woman on the train.",
+        "text": "Last week we visited <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> interesting museum in Paris.",
         "choices": [
           "an",
           "a",
@@ -628,9 +679,9 @@
         "wrongReasons": [
           "",
           "‘Interesting’ starts with a vowel sound (/ɪ/), so ‘a’ doesn’t fit.",
-          "‘Woman’ is singular and countable, so it needs a/an."
+          "‘Museum’ is singular and countable, so it needs a/an."
         ],
-        "explain": "A new person, and ‘interesting’ starts with a vowel sound: an interesting woman."
+        "explain": "A new place, and ‘interesting’ starts with a vowel sound: an interesting museum."
       },
       {
         "use": "Choose the answer",
@@ -977,18 +1028,18 @@
       },
       {
         "tokens": [
-          "She",
+          "My",
+          "dad",
           "is",
-          "nurse",
-          "at",
-          "the",
-          "city",
-          "hospital."
+          "plumber",
+          "in",
+          "our",
+          "town."
         ],
-        "errorIndex": 2,
-        "correction": "a nurse",
+        "errorIndex": 3,
+        "correction": "a plumber",
         "type": "Missing article",
-        "message": "A job is a singular countable noun, so it needs a/an: ‘She is a nurse’."
+        "message": "A job is a singular countable noun, so it needs a/an: ‘My dad is a plumber’."
       },
       {
         "tokens": [
@@ -1007,17 +1058,22 @@
       {
         "tokens": [
           "She",
-          "studies",
-          "at",
-          "an",
-          "university",
-          "in",
-          "Madrid."
+          "carried",
+          "a",
+          "heavy",
+          "luggage",
+          "up",
+          "the",
+          "stairs."
         ],
-        "errorIndex": 3,
-        "correction": "a",
-        "type": "Wrong a / an",
-        "message": "‘University’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a university’."
+        "errorIndex": 2,
+        "correction": "heavy",
+        "type": "A + uncountable",
+        "message": "‘Luggage’ is uncountable, so it can’t take a/an: say ‘heavy luggage’ or ‘a heavy bag’.",
+        "errorSpan": [
+          2,
+          3
+        ]
       },
       {
         "tokens": [
@@ -1032,160 +1088,6 @@
         "correction": "an",
         "type": "Wrong a / an",
         "message": "‘Ice’ starts with a vowel sound (/aɪ/), so we say ‘an ice cream’."
-      },
-      {
-        "tokens": [
-          "He",
-          "is",
-          "a",
-          "honest",
-          "man."
-        ],
-        "errorIndex": 2,
-        "correction": "an",
-        "type": "Wrong a / an",
-        "message": "‘Honest’ starts with a silent h, so it begins with a vowel sound: ‘an honest man’."
-      },
-      {
-        "tokens": [
-          "What",
-          "a",
-          "amazing",
-          "view!"
-        ],
-        "errorIndex": 1,
-        "correction": "an",
-        "type": "Wrong a / an",
-        "message": "‘Amazing’ starts with a vowel sound, so the exclamation is ‘What an amazing view!’."
-      },
-      {
-        "tokens": [
-          "Can",
-          "you",
-          "give",
-          "me",
-          "an",
-          "advice?"
-        ],
-        "errorIndex": 4,
-        "correction": "some",
-        "type": "A + uncountable",
-        "message": "‘Advice’ is uncountable, so it can’t take a/an: say ‘some advice’ or ‘a piece of advice’."
-      },
-      {
-        "tokens": [
-          "She",
-          "lives",
-          "in",
-          "an",
-          "European",
-          "city."
-        ],
-        "errorIndex": 3,
-        "correction": "a",
-        "type": "Wrong a / an",
-        "message": "‘European’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a European city’."
-      },
-      {
-        "tokens": [
-          "I",
-          "wear",
-          "an",
-          "uniform",
-          "to",
-          "work."
-        ],
-        "errorIndex": 2,
-        "correction": "a",
-        "type": "Wrong a / an",
-        "message": "‘Uniform’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a uniform’."
-      },
-      {
-        "tokens": [
-          "She",
-          "has",
-          "an",
-          "new",
-          "bike."
-        ],
-        "errorIndex": 2,
-        "correction": "a",
-        "type": "Wrong a / an",
-        "message": "‘New’ starts with a consonant sound, so we say ‘a new bike’."
-      },
-      {
-        "tokens": [
-          "He",
-          "has",
-          "a",
-          "blue",
-          "eyes."
-        ],
-        "errorIndex": 2,
-        "correction": "blue",
-        "type": "A + plural",
-        "message": "‘Eyes’ is plural, so there is no ‘a’ before ‘blue eyes’.",
-        "errorSpan": [
-          2,
-          3
-        ]
-      },
-      {
-        "tokens": [
-          "He",
-          "is",
-          "a",
-          "heir",
-          "to",
-          "the",
-          "throne."
-        ],
-        "errorIndex": 2,
-        "correction": "an",
-        "type": "Wrong a / an",
-        "message": "‘Heir’ has a silent h, so it starts with a vowel sound: ‘an heir’."
-      },
-      {
-        "tokens": [
-          "I",
-          "go",
-          "swimming",
-          "twice",
-          "the",
-          "week."
-        ],
-        "errorIndex": 4,
-        "correction": "a",
-        "type": "Per",
-        "message": "To say ‘per’ (every) we use ‘a’, not ‘the’: ‘twice a week’."
-      },
-      {
-        "tokens": [
-          "I’d",
-          "like",
-          "a",
-          "ice",
-          "cream,",
-          "please."
-        ],
-        "errorIndex": 2,
-        "correction": "an",
-        "type": "Wrong a / an",
-        "message": "‘Ice cream’ starts with a vowel sound, so we say ‘an ice cream’."
-      },
-      {
-        "tokens": [
-          "What",
-          "lovely",
-          "surprise",
-          "for",
-          "my",
-          "birthday!"
-        ],
-        "errorIndex": 1,
-        "correction": "a lovely",
-        "type": "Missing article",
-        "message": "After ‘what’, a singular countable noun needs a/an: ‘What a lovely surprise!’."
       },
       {
         "tokens": [
@@ -1205,16 +1107,117 @@
       },
       {
         "tokens": [
-          "We’ve",
-          "got",
-          "dog",
-          "called",
-          "Max."
+          "We",
+          "bought",
+          "sofa",
+          "last",
+          "week."
         ],
         "errorIndex": 2,
-        "correction": "a dog",
+        "correction": "a sofa",
         "type": "Missing article",
-        "message": "‘Dog’ is singular and countable, so it needs a/an when we mention it for the first time: ‘a fox’."
+        "message": "‘Sofa’ is singular and countable, so it needs a/an: ‘We bought a sofa’."
+      },
+      {
+        "tokens": [
+          "We",
+          "live",
+          "in",
+          "flat",
+          "near",
+          "the",
+          "park."
+        ],
+        "errorIndex": 3,
+        "correction": "a flat",
+        "type": "Missing article",
+        "message": "‘Flat’ is singular and countable, so it needs a/an: ‘We live in a flat’."
+      },
+      {
+        "tokens": [
+          "I",
+          "go",
+          "swimming",
+          "twice",
+          "the",
+          "week."
+        ],
+        "errorIndex": 4,
+        "correction": "a",
+        "type": "Per",
+        "message": "To say ‘per’ (every) we use ‘a’, not ‘the’: ‘twice a week’."
+      },
+      {
+        "tokens": [
+          "I",
+          "wear",
+          "an",
+          "uniform",
+          "to",
+          "work."
+        ],
+        "errorIndex": 2,
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘Uniform’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a uniform’."
+      },
+      {
+        "tokens": [
+          "I",
+          "bought",
+          "a",
+          "new",
+          "trainers",
+          "yesterday."
+        ],
+        "errorIndex": 2,
+        "correction": "new",
+        "type": "A + plural",
+        "message": "‘Trainers’ is plural, so there is no ‘a’ before ‘new trainers’.",
+        "errorSpan": [
+          2,
+          3
+        ]
+      },
+      {
+        "tokens": [
+          "What",
+          "a",
+          "exciting",
+          "match!"
+        ],
+        "errorIndex": 1,
+        "correction": "an",
+        "type": "Wrong a / an",
+        "message": "‘Exciting’ starts with a vowel sound, so the exclamation is ‘What an exciting match!’"
+      },
+      {
+        "tokens": [
+          "I",
+          "have",
+          "a",
+          "homework",
+          "to",
+          "finish",
+          "tonight."
+        ],
+        "errorIndex": 2,
+        "correction": "some",
+        "type": "A + uncountable",
+        "message": "‘Homework’ is uncountable, so it can’t take ‘a’: say ‘some homework’."
+      },
+      {
+        "tokens": [
+          "He",
+          "is",
+          "a",
+          "honest",
+          "man."
+        ],
+        "errorIndex": 2,
+        "correction": "an",
+        "type": "Wrong a / an",
+        "message": "‘Honest’ starts with a silent h, so it begins with a vowel sound: ‘an honest man’."
       },
       {
         "tokens": [
@@ -1235,6 +1238,32 @@
       },
       {
         "tokens": [
+          "What",
+          "fantastic",
+          "party",
+          "last",
+          "night!"
+        ],
+        "errorIndex": 1,
+        "correction": "a fantastic",
+        "type": "Missing article",
+        "message": "After ‘what’, a singular countable noun needs a/an: ‘What a fantastic party’."
+      },
+      {
+        "tokens": [
+          "We’ve",
+          "got",
+          "dog",
+          "called",
+          "Max."
+        ],
+        "errorIndex": 2,
+        "correction": "a dog",
+        "type": "Missing article",
+        "message": "‘Dog’ is singular and countable, so it needs a/an when we mention it for the first time: ‘a dog’."
+      },
+      {
+        "tokens": [
           "We",
           "saw",
           "a",
@@ -1247,6 +1276,35 @@
         "correction": "an",
         "type": "Wrong a / an",
         "message": "‘Elephant’ starts with a vowel sound (/e/), so we say ‘an elephant’."
+      },
+      {
+        "tokens": [
+          "She",
+          "lives",
+          "in",
+          "an",
+          "European",
+          "city."
+        ],
+        "errorIndex": 3,
+        "correction": "a",
+        "type": "Wrong a / an",
+        "message": "‘European’ starts with /j/ (like ‘you’), a consonant sound, so we say ‘a European city’."
+      },
+      {
+        "tokens": [
+          "Her",
+          "husband",
+          "is",
+          "waiter",
+          "in",
+          "a",
+          "café."
+        ],
+        "errorIndex": 3,
+        "correction": "a waiter",
+        "type": "Missing article",
+        "message": "A job is a singular countable noun, so it needs a/an: ‘a waiter’."
       }
     ]
   },
@@ -1324,31 +1382,36 @@
         "type": "order",
         "use": "Put it in order",
         "tokens": [
-          "He",
+          "Lucy",
           "is",
           "a",
-          "dentist."
-        ]
+          "good",
+          "singer."
+        ],
+        "reason": "With a job, a/an goes after ‘is’ and before the adjective: ‘a good singer’."
       },
       {
         "type": "order",
         "use": "Put it in order",
         "tokens": [
-          "I",
-          "run",
+          "We",
+          "go",
+          "skiing",
           "once",
           "a",
-          "week."
+          "year."
         ],
         "alts": [
           [
             "once",
             "a",
-            "week,",
-            "I",
-            "run."
+            "year,",
+            "we",
+            "go",
+            "skiing."
           ]
-        ]
+        ],
+        "reason": "In a ‘per’ expression, ‘a’ goes before the time word: ‘once a year’."
       },
       {
         "type": "order",
@@ -1358,7 +1421,8 @@
           "a",
           "nice",
           "day!"
-        ]
+        ],
+        "reason": "In an exclamation, ‘what’ comes first, then a/an, then the adjective: ‘What a nice day!’"
       },
       {
         "type": "order",
@@ -1368,12 +1432,13 @@
           "saw",
           "an",
           "owl."
-        ]
+        ],
+        "reason": "‘An’ goes right before ‘owl’, which starts with a vowel sound."
       },
       {
         "type": "use",
         "use": "Which rule?",
-        "text": "In ‘She’s a dentist’, why ‘a’?",
+        "text": "In ‘She’s a baker’, why ‘a’?",
         "choices": [
           "Per (every)",
           "Job or role",
@@ -1382,7 +1447,7 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Dentist’ isn’t a unit of time, speed or price, so ‘a’ doesn’t mean ‘per’.",
+          "‘Baker’ isn’t a unit of time, speed or price, so ‘a’ doesn’t mean ‘per’.",
           "",
           "There’s no ‘what’, so it isn’t an exclamation.",
           "We are saying what her job is, not introducing a new thing."
@@ -1411,7 +1476,7 @@
       {
         "type": "use",
         "use": "Which rule?",
-        "text": "Why is there no a/an in ‘She has green eyes’?",
+        "text": "Why is there no a/an in ‘They sell shoes here’?",
         "choices": [
           "‘Eyes’ is plural.",
           "‘Eyes’ is uncountable.",
@@ -1421,8 +1486,8 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Eyes’ can be counted (one eye, two eyes), so it isn’t uncountable.",
-          "‘Eyes’ isn’t a job.",
+          "‘Shoes’ can be counted (one shoe, two shoes), so it isn’t uncountable.",
+          "‘Shoes’ isn’t a job.",
           "There’s no ‘what’, so it isn’t an exclamation."
         ],
         "explain": "Plural nouns take no a/an."
@@ -1449,7 +1514,7 @@
       {
         "type": "mc",
         "use": "Choose the answer",
-        "text": "We saw {{blank}} elephants at the safari park.",
+        "text": "She keeps {{blank}} rabbits on the farm.",
         "choices": [
           "—",
           "an",
@@ -1459,16 +1524,16 @@
         "correct": 0,
         "wrongReasons": [
           "",
-          "‘Elephants’ is plural, so ‘an’ can’t go before it.",
-          "‘Elephants’ is plural, so ‘a’ can’t go before it.",
-          "‘One’ goes with a singular noun: ‘one elephant’."
+          "‘Rabbits’ is plural, so ‘an’ can’t go before it.",
+          "‘Rabbits’ is plural, so ‘a’ can’t go before it.",
+          "‘One’ goes with a singular noun: ‘one rabbit’."
         ],
         "explain": "A plural noun takes no a/an."
       },
       {
         "type": "mc",
         "use": "Choose the answer",
-        "text": "What {{blank}} interesting idea!",
+        "text": "What {{blank}} interesting story!",
         "choices": [
           "a",
           "the",
@@ -1482,7 +1547,7 @@
           "",
           "A singular countable noun after ‘what’ needs a/an."
         ],
-        "explain": "‘Interesting’ starts with a vowel sound: What an interesting idea!"
+        "explain": "‘Interesting’ starts with a vowel sound: What an interesting story!"
       },
       {
         "type": "mc",
@@ -1506,7 +1571,7 @@
       {
         "type": "mc",
         "use": "Choose the answer",
-        "text": "He wants to be {{blank}} actor.",
+        "text": "He wants to be {{blank}} artist.",
         "choices": [
           "a",
           "an",
@@ -1514,54 +1579,54 @@
         ],
         "correct": 1,
         "wrongReasons": [
-          "‘Actor’ starts with a vowel sound (/æ/), so we need ‘an’.",
+          "‘Artist’ starts with a vowel sound (/ɑː/), so we need ‘an’.",
           "",
           "A singular job needs a/an."
         ],
-        "explain": "A job takes a/an, and ‘actor’ starts with a vowel sound: an actor."
+        "explain": "A job takes a/an, and ‘artist’ starts with a vowel sound: an artist."
       },
       {
         "type": "error",
         "use": "The mistake",
         "tokens": [
-          "My",
-          "cousin",
+          "Her",
+          "mother",
           "is",
-          "pilot."
+          "scientist."
         ],
         "errorIndex": 3,
-        "correction": "a pilot.",
-        "message": "A job is a singular countable noun, so it needs a/an: ‘a pilot’."
+        "correction": "a scientist.",
+        "message": "A job is a singular countable noun, so it needs a/an: ‘a scientist’."
       },
       {
         "type": "error",
         "use": "The mistake",
         "tokens": [
           "I",
-          "need",
+          "have",
           "a",
-          "help."
+          "money",
+          "in",
+          "my",
+          "bag."
         ],
         "errorIndex": 2,
         "correction": "some",
-        "message": "‘Help’ is uncountable, so it can’t take ‘a’: say ‘some help’."
+        "message": "‘Money’ is uncountable, so it can’t take ‘a’: say ‘some money’."
       },
       {
         "type": "error",
         "use": "The mistake",
         "tokens": [
-          "I",
-          "send",
-          "her",
-          "a",
-          "message",
-          "three",
-          "times",
-          "day."
+          "Petrol",
+          "costs",
+          "two",
+          "euros",
+          "litre."
         ],
-        "errorIndex": 7,
-        "correction": "a day.",
-        "message": "‘A’ means ‘per’ here, so we need it: ‘three times a day’."
+        "errorIndex": 4,
+        "correction": "a litre.",
+        "message": "‘A’ means ‘per’ here, so we need it: ‘two euros a litre’."
       },
       {
         "type": "error",
