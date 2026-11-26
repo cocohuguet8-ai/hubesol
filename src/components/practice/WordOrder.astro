@@ -238,7 +238,7 @@ const uid = 'wo';
         if (k !== -1) {
           const comma = correctWords.findIndex((w, j) => j >= k && /,$/.test(w));
           const end = k === 0 && comma !== -1 ? comma + 1 : correctWords.length;
-          const clause = correctWords.slice(k, end).map(clean).join(' ').toLowerCase();
+          const clause = correctWords.slice(k, end).map(clean).join(' ');
           const rest = (k === 0 ? correctWords.slice(end) : correctWords.slice(0, k)).map(clean).join(' ');
           if (clause && rest) {
             return "This sentence has two parts: the condition “" + clause + "” and the result “" + rest + "”. Keep the words of each part together; if the condition comes first, a comma follows it.";
