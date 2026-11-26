@@ -145,7 +145,7 @@ const uid = 'gf';
         else if (uWords.indexOf('did') === -1 && uWords.indexOf("didn’t") === -1) negIssues.push("Don’t forget <b>didn’t</b> before the verb.");
         const negLast = uWords[uWords.length - 1] || '';
         const cNegLast = cWords[cWords.length - 1] || '';
-        if (negLast !== cNegLast) {
+        if (negLast !== cNegLast && !/base (form|verb)/i.test(String(q.explain || ''))) {
           negIssues.push("After “didn’t”, the verb goes back to its base form — check the verb itself.");
         }
         if (negIssues.length === 0) return "Check the negative form — it should be “" + q.display + "”.";
