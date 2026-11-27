@@ -281,7 +281,8 @@ const uid = 'wo';
         const nextW = (correctWords[fIdx] || '').toLowerCase();
         if (/^(would|could|might|should|will|can|must|shall|may|won[’']t|shan[’']t)/i.test(aux)) {
           if (nextW === 'have') return "“" + aux + "” goes between its subject and “have” + the past participle.";
-          return "“" + aux + "” goes between its subject and the base verb: “" + correctWords.slice(cIdx, fIdx + 1).join(' ') + "”.";
+          const part = correctWords.slice(cIdx, fIdx + 1).join(' ');
+          return "“" + aux + "” goes between its subject and the base verb: “" + part + (/[.?!]$/.test(part) ? "”" : "”.");
         }
         if (/ing$/.test(nextW)) return "“" + aux + "” goes between its subject and the -ing verb.";
         if (nextW === 'been') return "“" + aux + "” goes between its subject and “been”.";
