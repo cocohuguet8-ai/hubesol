@@ -329,22 +329,22 @@
           "lost",
           "his",
           "wallet",
-          "at",
+          "in",
           "the",
-          "station."
+          "park."
         ],
         "alts": [
           [
-            "at",
+            "in",
             "the",
-            "station,",
+            "park,",
             "he",
             "lost",
             "his",
             "wallet."
           ]
         ],
-        "orderHint": "The subject “He” comes first, then the verb “lost”, then the object “his wallet”. The place “at the station” goes at the end, or at the start with a comma."
+        "orderHint": "The subject “He” comes first, then the verb “lost”, then the object “his wallet”. The place “in the park” goes at the end, or at the start with a comma."
       },
       {
         "use": "Put it in order",
@@ -371,15 +371,15 @@
       {
         "use": "Put it in order",
         "tokens": [
-          "He",
-          "opened",
+          "Tom",
+          "pushed",
           "the",
-          "door",
+          "gate",
           "and",
           "walked",
           "inside."
         ],
-        "orderHint": "The sentence has two actions in order: “He opened the door” first, then “walked inside”, joined by “and”."
+        "orderHint": "The sentence has two actions in order: “Tom pushed the gate” first, then “walked inside”, joined by “and”."
       },
       {
         "use": "Put it in order",
@@ -1053,17 +1053,17 @@
       {
         "tokens": [
           "Last",
-          "night",
+          "weekend",
           "I",
           "go",
           "to",
-          "bed",
-          "early."
+          "the",
+          "beach."
         ],
         "errorIndex": 3,
         "correction": "went",
-        "type": "Present after a finished time",
-        "message": "‘Last night’ is finished, so the verb needs the past form: ‘went’."
+        "type": "Base form instead of past",
+        "message": "‘Last weekend’ is finished, so the verb needs the past form: ‘went’."
       },
       {
         "tokens": [
@@ -1101,14 +1101,14 @@
           "She",
           "done",
           "her",
-          "homework",
-          "before",
-          "dinner."
+          "exercises",
+          "after",
+          "lunch."
         ],
         "errorIndex": 1,
         "correction": "did",
-        "type": "Past participle used as past simple",
-        "message": "‘Done’ is the past participle. The past simple of ‘do’ is ‘did’: She did her homework."
+        "type": "Participle instead of past simple",
+        "message": "‘Done’ is the past participle. The past simple of ‘do’ is ‘did’: She did her exercises."
       },
       {
         "tokens": [
@@ -1121,22 +1121,8 @@
         ],
         "errorIndex": 0,
         "correction": "Did",
-        "type": "Present auxiliary in a past question",
+        "type": "Present auxiliary in a question",
         "message": "‘Last Sunday’ is finished, so the question needs ‘Did’, not ‘Do’."
-      },
-      {
-        "tokens": [
-          "They",
-          "planed",
-          "their",
-          "holiday",
-          "months",
-          "ago."
-        ],
-        "errorIndex": 1,
-        "correction": "planned",
-        "type": "Spelling of the -ed form",
-        "message": "‘Plan’ is a short verb (consonant–vowel–consonant), so the n doubles: planned. ‘Planed’ is a different verb."
       },
       {
         "tokens": [
@@ -1145,28 +1131,31 @@
           "a",
           "new",
           "jacket",
-          "in",
-          "town",
+          "at",
+          "the",
+          "shop",
+          "for",
+          "£30",
           "yesterday."
         ],
         "errorIndex": 1,
         "correction": "bought",
         "type": "Two similar verbs",
-        "message": "To pay for something you ‘buy’ it: buy → bought. ‘Brought’ is the past of ‘bring’ (carry something with you)."
+        "message": "She paid £30 for the jacket, so the verb is ‘buy’ → ‘bought’. ‘Brought’ is the past of ‘bring’ (carry something with you)."
       },
       {
         "tokens": [
           "We",
           "met",
           "Sara",
-          "two",
-          "days",
+          "a",
+          "week",
           "before."
         ],
         "errorIndex": 5,
         "correction": "ago.",
-        "type": "Time marker",
-        "message": "‘Ago’ counts back from now and comes after the period: two days ago."
+        "type": "Time expression",
+        "message": "‘Ago’ counts back from now and comes after the period: a week ago."
       },
       {
         "tokens": [
@@ -1179,7 +1168,7 @@
         ],
         "errorIndex": 2,
         "correction": "didn’t",
-        "type": "Wrong negative",
+        "type": "Present auxiliary in a negative",
         "message": "‘Yesterday’ is finished, so the negative is ‘didn’t’, not ‘doesn’t’."
       },
       {
@@ -1204,15 +1193,16 @@
         "tokens": [
           "We",
           "seen",
-          "that",
-          "film",
-          "last",
-          "night."
+          "your",
+          "brother",
+          "at",
+          "the",
+          "market."
         ],
         "errorIndex": 1,
         "correction": "saw",
-        "type": "Past participle used as past simple",
-        "message": "‘Seen’ is the past participle. The past simple of ‘see’ is ‘saw’: We saw that film."
+        "type": "Participle instead of past simple",
+        "message": "‘Seen’ is the past participle. The past simple of ‘see’ is ‘saw’: We saw your brother."
       },
       {
         "tokens": [
@@ -1225,23 +1215,8 @@
         ],
         "errorIndex": 4,
         "correction": "in",
-        "type": "Time marker",
+        "type": "Time expression",
         "message": "With a year we use ‘in’: in 2021."
-      },
-      {
-        "tokens": [
-          "Last",
-          "week",
-          "he",
-          "doesn’t",
-          "come",
-          "to",
-          "school."
-        ],
-        "errorIndex": 3,
-        "correction": "didn’t",
-        "type": "Wrong negative",
-        "message": "‘Last week’ is finished — the negative is ‘didn’t’, not ‘doesn’t’."
       },
       {
         "tokens": [
@@ -1259,11 +1234,11 @@
       },
       {
         "tokens": [
-          "When",
-          "I",
-          "was",
-          "a",
-          "child,",
+          "At",
+          "the",
+          "age",
+          "of",
+          "ten,",
           "I",
           "am",
           "afraid",
@@ -1273,80 +1248,113 @@
         "errorIndex": 6,
         "correction": "was",
         "type": "Tense in a past state",
-        "message": "‘When I was a child’ puts the whole sentence in the past, so ‘am’ must be ‘was’."
+        "message": "‘At the age of ten’ is in the past, so ‘am’ must be ‘was’."
       },
       {
         "tokens": [
-          "Last",
-          "Sunday,",
-          "he",
+          "He",
           "calls",
           "his",
-          "brother."
+          "brother",
+          "an",
+          "hour",
+          "ago."
         ],
-        "errorIndex": 3,
+        "errorIndex": 1,
         "correction": "called",
-        "type": "Present after a finished time",
-        "message": "‘Last Sunday’ is finished, so the verb needs the past form: ‘called’."
+        "type": "Present simple instead of past",
+        "message": "‘Ago’ marks a finished time, so the verb needs the past form: ‘called’."
       },
       {
         "tokens": [
-          "Did",
+          "Was",
           "the",
-          "bus",
-          "come",
-          "late?",
+          "test",
+          "difficult?",
           "No,",
           "it",
-          "doesn’t."
+          "didn’t."
         ],
-        "errorIndex": 7,
-        "correction": "didn’t.",
+        "errorIndex": 6,
+        "correction": "wasn’t.",
         "type": "Short answer",
-        "message": "The question uses ‘Did’, so the short answer uses ‘didn’t’: No, it didn’t."
+        "message": "The question uses ‘was’, so the short answer uses ‘wasn’t’: No, it wasn’t."
       },
       {
         "tokens": [
-          "Does",
-          "she",
-          "travel",
-          "alone",
-          "last",
-          "summer?"
-        ],
-        "errorIndex": 0,
-        "correction": "Did",
-        "type": "Present auxiliary in a past question",
-        "message": "‘Last summer’ is finished, so the question needs ‘Did’, not ‘Does’."
-      },
-      {
-        "tokens": [
-          "The",
-          "rabbit",
-          "hoped",
-          "across",
-          "the",
-          "road."
-        ],
-        "errorIndex": 2,
-        "correction": "hopped",
-        "type": "Spelling of the -ed form",
-        "message": "‘Hop’ is a short verb (consonant–vowel–consonant), so the p doubles: hopped. ‘Hoped’ comes from ‘hope’."
-      },
-      {
-        "tokens": [
-          "Yesterday",
+          "Why",
+          "does",
           "he",
+          "leave",
+          "early",
+          "yesterday?"
+        ],
+        "errorIndex": 1,
+        "correction": "did",
+        "type": "Present auxiliary in a question",
+        "message": "‘Yesterday’ is finished, so the question needs ‘did’, not ‘does’."
+      },
+      {
+        "tokens": [
+          "We",
           "bought",
-          "his",
-          "sandwich",
-          "from",
-          "home."
+          "tickets,",
+          "but",
+          "we",
+          "don’t",
+          "see",
+          "the",
+          "film."
+        ],
+        "errorIndex": 5,
+        "correction": "didn’t",
+        "type": "Present auxiliary in a negative",
+        "message": "‘Bought’ puts the story in the past, so the negative is ‘didn’t’, not ‘don’t’."
+      },
+      {
+        "tokens": [
+          "My",
+          "mother",
+          "is",
+          "born",
+          "in",
+          "Lleida."
         ],
         "errorIndex": 2,
-        "correction": "brought",
-        "type": "Two similar verbs",
-        "message": "He carried the sandwich with him, so we need ‘bring’ → brought. ‘Bought’ is the past of ‘buy’."
+        "correction": "was",
+        "type": "be born",
+        "message": "‘Born’ describes something that happened in the past, so we say ‘was born’: My mother was born in Lleida."
+      },
+      {
+        "tokens": [
+          "In",
+          "his",
+          "twenties,",
+          "my",
+          "uncle",
+          "plays",
+          "in",
+          "a",
+          "band."
+        ],
+        "errorIndex": 5,
+        "correction": "played",
+        "type": "Tense in a past state",
+        "message": "‘In his twenties’ is a finished period, so the verb needs the past form: ‘played’."
+      },
+      {
+        "tokens": [
+          "My",
+          "cousins",
+          "visit",
+          "us",
+          "in",
+          "2022."
+        ],
+        "errorIndex": 2,
+        "correction": "visited",
+        "type": "Base form instead of past",
+        "message": "‘In 2022’ is finished, so the verb needs the past form: ‘visited’."
       }
     ]
   },
@@ -1667,51 +1675,52 @@
         "type": "error",
         "use": "Find the mistake",
         "tokens": [
-          "Do",
-          "they",
-          "stay",
+          "The",
+          "children",
+          "gone",
+          "to",
+          "bed",
           "at",
-          "a",
-          "hotel",
-          "last",
-          "summer?"
+          "nine."
         ],
-        "errorIndex": 0,
-        "correction": "Did",
-        "message": "‘Last summer’ is finished, so the question needs ‘Did’, not ‘Do’."
+        "errorIndex": 2,
+        "correction": "went",
+        "message": "‘Gone’ is the past participle. The past simple of ‘go’ is ‘went’: The children went to bed."
       },
       {
         "type": "error",
         "use": "Find the mistake",
         "tokens": [
-          "Did",
-          "Ben",
-          "win",
-          "the",
-          "race?",
-          "Yes,",
-          "he",
-          "does."
+          "My",
+          "dad",
+          "doesn’t",
+          "call",
+          "me",
+          "when",
+          "I",
+          "was",
+          "ill."
         ],
-        "errorIndex": 7,
-        "correction": "did.",
-        "message": "The question uses ‘Did’, so the short answer uses ‘did’ too: Yes, he did."
+        "errorIndex": 2,
+        "correction": "didn’t",
+        "message": "‘When I was ill’ is finished, so the negative is ‘didn’t’, not ‘doesn’t’."
       },
       {
         "type": "error",
         "use": "Find the mistake",
         "tokens": [
-          "Last",
-          "week,",
-          "he",
-          "starts",
-          "a",
-          "new",
-          "job."
+          "Our",
+          "neighbours",
+          "are",
+          "on",
+          "holiday",
+          "two",
+          "weeks",
+          "ago."
         ],
-        "errorIndex": 3,
-        "correction": "started",
-        "message": "“Last week” is a finished time — this needs past simple, not present simple."
+        "errorIndex": 2,
+        "correction": "were",
+        "message": "‘Two weeks ago’ is finished, so ‘are’ must be the past form ‘were’."
       }
     ]
   }

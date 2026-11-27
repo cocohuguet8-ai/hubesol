@@ -1,21 +1,23 @@
 # past-simple — verificació ítem per ítem
 
-Revisat per lectura de les dades font (regles 1–8 de CLAUDE.md + 1d del skill). **No s’ha pogut fer l’autotest al navegador** (`npm run e2e`: Playwright no té Chromium en aquest entorn). Cada línia = ítem revisat un per un.
+Revisat per lectura de les dades font (CLAUDE.md 1–8 + skill 1a–1d) i amb `node scripts/e2e.mjs past-simple` (Chrome local: 65 checks, 0 fallades). **Cada distractor no s’ha clicat un per un al preview**: ho ha de cobrir el retest.
+
+Comprovacions: llista de paraules (pyspellchecker) sobre totes les opcions i errors de Find the mistake: cap forma inexistent; cap error ortogràfic com a opció; 1 sola confusió de paraula real (bought/brought, amb «for £30»); llista de frames sense repeticions entre seccions; cap KWT al quiz (cap KWT natural de nivell A2 per a Past Simple).
 
 ## Quiz (10)
 
-| # | Resposta | Alternatives acceptades | Distractors (paraules reals, error propi) | Regles 1–8 |
-|---|---|---|---|---|
-| 1 | watched | cap altra natural | 3 amb feedback propi | ✓ |
-| 2 | went | cap altra natural | 3 amb feedback propi | ✓ |
-| 3 | didn’t see | cap altra natural | 3 amb feedback propi | ✓ |
-| 4 | Did you hear | cap altra natural | 3 amb feedback propi | ✓ |
-| 5 | saw | cap altra natural | 3 amb feedback propi | ✓ |
-| 6 | bought | cap altra natural | 3 amb feedback propi | ✓ |
-| 7 | studied | cap altra natural | 3 amb feedback propi | ✓ |
-| 8 | lived | cap altra natural | 3 amb feedback propi | ✓ |
-| 9 | Dan didn’t remember to lock the door. | cap altra natural | 3 amb feedback propi | ✓ |
-| 10 | answered | cap altra natural | 3 amb feedback propi | ✓ |
+| # | Resposta | Alternatives | Regles |
+|---|---|---|---|
+| 1 | watched | cap altra natural | ✓ |
+| 2 | went | cap altra natural | ✓ |
+| 3 | didn’t see | cap altra natural | ✓ |
+| 4 | Did you hear | cap altra natural | ✓ |
+| 5 | saw | cap altra natural | ✓ |
+| 6 | bought | cap altra natural | ✓ |
+| 7 | studied | cap altra natural | ✓ |
+| 8 | lived | cap altra natural | ✓ |
+| 9 | I saw her two years ago. | cap altra natural | ✓ |
+| 10 | answered | cap altra natural | ✓ |
 
 ## Fill in the gaps (20)
 
@@ -44,14 +46,14 @@ Revisat per lectura de les dades font (regles 1–8 de CLAUDE.md + 1d del skill)
 
 ## Put it in order (20)
 
-| # | Frase | Ordres acceptats | Feedback específic (orderHint) |
+| # | Frase | Ordres | Feedback específic |
 |---|---|---|---|
 | 1 | I watched a documentary on Friday. | 2 | ✓ |
 | 2 | She sent me a postcard from Lisbon. | 2 | ✓ |
 | 3 | We visited my grandparents last weekend. | 2 | ✓ |
-| 4 | He lost his wallet at the station. | 2 | ✓ |
+| 4 | He lost his wallet in the park. | 2 | ✓ |
 | 5 | They sold their house last year. | 2 | ✓ |
-| 6 | He opened the door and walked inside. | 1 | ✓ |
+| 6 | Tom pushed the gate and walked inside. | 1 | ✓ |
 | 7 | She finished dinner and washed the dishes. | 1 | ✓ |
 | 8 | I woke up early and made breakfast. | 1 | ✓ |
 | 9 | We went skiing every winter. | 2 | ✓ |
@@ -67,7 +69,7 @@ Revisat per lectura de les dades font (regles 1–8 de CLAUDE.md + 1d del skill)
 | 19 | Where did you buy that jacket? | 1 | ✓ |
 | 20 | Did he forget his keys again? | 1 | ✓ |
 
-## Matching (20 parells): cada verb base té un sol passat; creuaments provats ✓
+## Matching: 20 parells 1 a 1; creuaments revisats ✓
 
 ## Beat the clock (20)
 
@@ -96,28 +98,28 @@ Revisat per lectura de les dades font (regles 1–8 de CLAUDE.md + 1d del skill)
 
 ## Find the mistake (20)
 
-| # | Frase | Error | Correcció única | Regles |
+| # | Frase | Error | Correcció única | Tipus |
 |---|---|---|---|---|
-| 1 | Last night I go to bed early. | Present after a finished time | went | ✓ |
-| 2 | Did she liked her birthday present? | Past form after did | like | ✓ |
-| 3 | Yesterday we was late for the bus. | Past of be | were | ✓ |
-| 4 | She done her homework before dinner. | Past participle used as past simple | did | ✓ |
-| 5 | Do you play tennis last Sunday? | Present auxiliary in a past question | Did | ✓ |
-| 6 | They planed their holiday months ago. | Spelling of the -ed form | planned | ✓ |
-| 7 | She brought a new jacket in town yesterday. | Two similar verbs | bought | ✓ |
-| 8 | We met Sara two days before. | Time marker | ago. | ✓ |
-| 9 | Yesterday it doesn’t rain at all. | Wrong negative | didn’t | ✓ |
-| 10 | We paid the bill, leave a tip and went home. | Tense in a sequence | left | ✓ |
-| 11 | We seen that film last night. | Past participle used as past simple | saw | ✓ |
-| 12 | My sister got married at 2021. | Time marker | in | ✓ |
-| 13 | Last week he doesn’t come to school. | Wrong negative | didn’t | ✓ |
-| 14 | Were the pizza good last night? | Past of be | Was | ✓ |
-| 15 | When I was a child, I am afraid of dogs. | Tense in a past state | was | ✓ |
-| 16 | Last Sunday, he calls his brother. | Present after a finished time | called | ✓ |
-| 17 | She didn’t went to work on Monday. | Past form after didn’t | go | ✓ |
-| 18 | Does she travel alone last summer? | Present auxiliary in a past question | Did | ✓ |
-| 19 | The rabbit hoped across the road. | Spelling of the -ed form | hopped | ✓ |
-| 20 | Yesterday he bought his sandwich from home. | Two similar verbs | brought | ✓ |
+| 1 | Last weekend I go to the beach. | go | went | Base form instead of past |
+| 2 | Did you enjoy the trip? Yes, I do. | do. | did. | Short answer |
+| 3 | Yesterday we was late for the bus. | was | were | Past of be |
+| 4 | She done her exercises after lunch. | done | did | Participle instead of past simple |
+| 5 | Do you play tennis last Sunday? | Do | Did | Present auxiliary in a question |
+| 6 | She brought a new jacket at the shop for £30 yesterday. | brought | bought | Two similar verbs |
+| 7 | We met Sara a week before. | before. | ago. | Time expression |
+| 8 | Yesterday it doesn’t rain at all. | doesn’t | didn’t | Present auxiliary in a negative |
+| 9 | We paid the bill, leave a tip and went home. | leave | left | Tense in a sequence |
+| 10 | We seen your brother at the market. | seen | saw | Participle instead of past simple |
+| 11 | My sister got married at 2021. | at | in | Time expression |
+| 12 | Were the pizza good last night? | Were | Was | Past of be |
+| 13 | At the age of ten, I am afraid of dogs. | am | was | Tense in a past state |
+| 14 | He calls his brother an hour ago. | calls | called | Present simple instead of past |
+| 15 | Was the test difficult? No, it didn’t. | didn’t. | wasn’t. | Short answer |
+| 16 | Why does he leave early yesterday? | does | did | Present auxiliary in a question |
+| 17 | We bought tickets, but we don’t see the film. | don’t | didn’t | Present auxiliary in a negative |
+| 18 | My mother is born in Lleida. | is | was | be born |
+| 19 | In his twenties, my uncle plays in a band. | plays | played | Tense in a past state |
+| 20 | My cousins visit us in 2022. | visit | visited | Base form instead of past |
 
 ## Level check (20)
 
@@ -140,12 +142,9 @@ Revisat per lectura de les dades font (regles 1–8 de CLAUDE.md + 1d del skill)
 | 15 | mc | He {{blank}} the email before yesterday’s deadline. | ✓ |
 | 16 | mc | When she was little, she {{blank}} scared of the dark. | ✓ |
 | 17 | error | The shops was closed on Sunday afternoon. | ✓ |
-| 18 | error | Do they stay at a hotel last summer? | ✓ |
-| 19 | error | I didn’t bought any milk. | ✓ |
-| 20 | error | Last week, he starts a new job. | ✓ |
+| 18 | error | The children gone to bed at nine. | ✓ |
+| 19 | error | My dad doesn’t call me when I was ill. | ✓ |
+| 20 | error | Our neighbours are on holiday two weeks ago. | ✓ |
 
-## Issues [LR] revisats
-- #538 etiquetes neutres ✓ · #539 subtítol Gap-fill ✓ · #540 orderHint específic ✓ · #541 duplicats reescrits ✓ · #542 FTM amb 10 tipus d’error ✓ · #543 cap forma inexistent com a distractor/error ✓ · #554/#555/#566 no reapareixen.
-
-## Actualització 26/11 (23:25)
-Eliminades totes les construccions inexistents (did/didn’t + passat, «wasn’t remember»): Quiz 9, Beat the clock (hear, meet, have), Level check 15 i 19, Find the mistake 2 i 17 (ara «Short answer»). Tot són formes angleses reals amb error clar.
+## Issues [LR] (checklist)
+- #538 etiquetes neutres ✓ · #539 subtítol Gap-fill ✓ · #540 orderHint ✓ · #541 repeticions reescrites ✓ · #542 FTM amb 12 tipus, frames únics ✓ · #543 cap forma inexistent ✓ · #554 #555 #566 no reapareixen ✓
