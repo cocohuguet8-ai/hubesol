@@ -148,3 +148,22 @@ Comprovacions: llista de paraules (pyspellchecker) sobre totes les opcions i err
 
 ## Issues [LR] (checklist)
 - #538 etiquetes neutres ✓ · #539 subtítol Gap-fill ✓ · #540 orderHint ✓ · #541 repeticions reescrites ✓ · #542 FTM amb 12 tipus, frames únics ✓ · #543 cap forma inexistent ✓ · #554 #555 #566 no reapareixen ✓
+
+## v4 (27/11/2026) — retest #572, commit 4d430bd
+
+Revisat ítem per ítem només el que ha canviat; la resta, sense canvis respecte a v3.
+
+| Ítem | Canvi | Respostes acceptades / comprovació |
+|---|---|---|
+| Beat the clock Q18 (#573) | Opcions: planned / planning / plan / have planned. «planed» eliminat. | Només «planned». «Planning» és una paraula real (error -ing). |
+| Beat the clock Q19 | «Three summers ago…» (abans «Last summer», igual que Q18). | Només «drove». |
+| Beat the clock Q15 | «Did you enjoy the show on Saturday night?» (abans «the concert last night», com Quiz Q4). | Només «Did you enjoy». |
+| Beat the clock Q4, 7, 8, 12, 14, 16, 17, 20 | Feedback reescrit per opció (abans repetit). | Cada text parla de la seva frase. |
+| Gap-fill 3, 18 | «in March» i «on Sunday» (frames repetits amb Quiz Q6 i Q4). | Mateixes respostes. |
+| Put it in order 14–16 | Frases amb final propi (until noon / sign the report / after the concert), `orderHint` propi; alternativa amb el temps al començament a l’ítem 16. | Totes dues ordenacions acceptades a l’ítem 16. |
+| Find the mistake 7, 10, 13, 15, 16, 17, 19, 20 (#575, #578) | Frases noves: weekday preposition, been/went, didn’t + adjectiu, be present en estat passat, seqüència, Did + adjectiu, were amb I, born sense was. | Una sola correcció per frase. Cap és correcta en cap context (vegeu `-frames.md`). |
+| Level check 19 (#575) | «We got to the cinema late, so we miss the start of the film.» | Correcció: missed. |
+| Common mistakes 2 (#579) | «✗ goed, buyed, thinked → ✓ went, bought, thought». | `nonword-gate.py`: sense troballes. |
+| Put it in order / Level check order (#540, #542) | `pickOrderFeedback()` retorna sempre `orderHint`. | `feedback-uniqueness.py`: sense troballes. |
+
+Scripts: `nonword-gate.py`, `frames-check.py`, `feedback-uniqueness.py` → tots tres exit 0. `npm run lint`, `npm run build` i `audit_semantic.py` en verd.

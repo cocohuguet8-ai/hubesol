@@ -370,7 +370,7 @@ const uid = 'lc';
 
     // A sentence-specific hint (orderHint) replaces the generic fallback messages.
     function pickOrderFeedback(diag, hint) {
-      if (hint && /^(Check how the sentence begins|The first .* right|Check the order of the words after)/.test(diag)) return hint;
+      if (hint) return hint;
       return diag;
     }
 
