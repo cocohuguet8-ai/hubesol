@@ -527,7 +527,7 @@ const uid = 'gf';
       } else {
         let specific = diagnose(raw, q);
         // The generic "Check ... — it should be X" line only repeats the correct form: drop it.
-        if (specific && /^Check [^"]*— it should be "[^"]*"\.?$/.test(specific)) specific = '';
+        if (specific && /^Check [^"“”]*— it should be ["“”][^"“”]*["“”]\.?$/.test(specific)) specific = '';
         const form = String(q.display).toLowerCase();
         // Only counts if the exact correct form is quoted ('get' — not "gets" or "together").
         const esc = form.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
