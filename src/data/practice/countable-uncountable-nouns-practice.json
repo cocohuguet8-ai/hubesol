@@ -11,13 +11,13 @@
   },
   "gapFill": {
     "title": "Fill in the gaps",
-    "subtitle": "Type the missing word: a, an, some, many, much, is, are, or the correct form of the noun. Twenty original sentences.",
+    "subtitle": "Type one word in each gap. Twenty original sentences.",
     "questions": [
       {
-        "use": "Singular countable",
+        "use": "Fill the gap",
         "before": "I bought",
         "after": "new lamp for my room.",
-        "hint": "a / an / some",
+        "hint": "Type one word.",
         "answers": [
           "a"
         ],
@@ -25,10 +25,10 @@
         "explain": "‘Lamp’ is countable and singular, so it needs ‘a’."
       },
       {
-        "use": "Singular countable",
+        "use": "Fill the gap",
         "before": "She’s got",
         "after": "umbrella in her bag.",
-        "hint": "a / an / some",
+        "hint": "Type one word.",
         "answers": [
           "an"
         ],
@@ -36,10 +36,10 @@
         "explain": "Singular countable + vowel sound: ‘an umbrella’."
       },
       {
-        "use": "Uncountable",
+        "use": "Fill the gap",
         "before": "There is",
         "after": "water on the floor.",
-        "hint": "a / an / some",
+        "hint": "Type one word.",
         "answers": [
           "some"
         ],
@@ -47,10 +47,10 @@
         "explain": "‘Water’ is uncountable: ‘some water’, never ‘a water’ for the substance."
       },
       {
-        "use": "Uncountable",
+        "use": "Fill the gap",
         "before": "We need",
         "after": "information about the course.",
-        "hint": "a / an / some",
+        "hint": "Type one word.",
         "answers": [
           "some"
         ],
@@ -58,10 +58,10 @@
         "explain": "‘Information’ is uncountable: no ‘an’, no plural."
       },
       {
-        "use": "Uncountable",
+        "use": "Fill the gap",
         "before": "My teacher gave me",
         "after": "good advice.",
-        "hint": "a / an / some",
+        "hint": "Type one word.",
         "answers": [
           "some"
         ],
@@ -69,10 +69,10 @@
         "explain": "‘Advice’ is uncountable: ‘some advice’ or ‘a piece of advice’."
       },
       {
-        "use": "Plural",
+        "use": "Fill the gap",
         "before": "There are three",
         "after": "on the table.",
-        "hint": "book",
+        "hint": "(book)",
         "answers": [
           "books"
         ],
@@ -80,10 +80,10 @@
         "explain": "After ‘three’ we need the plural: ‘books’."
       },
       {
-        "use": "Plural",
+        "use": "Fill the gap",
         "before": "I saw two",
         "after": "in the garden.",
-        "hint": "fox",
+        "hint": "(fox)",
         "answers": [
           "foxes"
         ],
@@ -91,10 +91,10 @@
         "explain": "Nouns ending in -x add -es: ‘foxes’."
       },
       {
-        "use": "Plural",
+        "use": "Fill the gap",
         "before": "Many",
         "after": "came to the party.",
-        "hint": "person",
+        "hint": "(person)",
         "answers": [
           "people"
         ],
@@ -102,10 +102,10 @@
         "explain": "The plural of ‘person’ is ‘people’."
       },
       {
-        "use": "No plural",
+        "use": "Fill the gap",
         "before": "We bought a bed, a table and a sofa: all new",
         "after": "for the flat.",
-        "hint": "furniture / furnitures",
+        "hint": "Type one word.",
         "answers": [
           "furniture"
         ],
@@ -113,10 +113,10 @@
         "explain": "‘Furniture’ is uncountable: no -s."
       },
       {
-        "use": "No plural",
+        "use": "Fill the gap",
         "before": "I have a lot of",
         "after": "tonight.",
-        "hint": "homework / homeworks",
+        "hint": "Type one word.",
         "answers": [
           "homework",
           "work"
@@ -125,10 +125,10 @@
         "explain": "‘Homework’ is uncountable: never ‘homeworks’ (‘a lot of work’ is also fine)."
       },
       {
-        "use": "Singular verb",
+        "use": "Fill the gap",
         "before": "The news",
         "after": "really good today.",
-        "hint": "is / are",
+        "hint": "Type one word.",
         "answers": [
           "is"
         ],
@@ -136,10 +136,10 @@
         "explain": "‘News’ is uncountable and takes a singular verb."
       },
       {
-        "use": "Singular verb",
+        "use": "Fill the gap",
         "before": "Your hair",
         "after": "beautiful.",
-        "hint": "is / are",
+        "hint": "Type one word.",
         "answers": [
           "is"
         ],
@@ -147,10 +147,10 @@
         "explain": "‘Hair’ (on your head) is uncountable: singular verb."
       },
       {
-        "use": "Singular verb",
+        "use": "Fill the gap",
         "before": "The weather",
         "after": "terrible this week.",
-        "hint": "is / are",
+        "hint": "Type one word.",
         "answers": [
           "is"
         ],
@@ -158,10 +158,10 @@
         "explain": "‘Weather’ is uncountable: ‘is’."
       },
       {
-        "use": "Plural verb",
+        "use": "Fill the gap",
         "before": "The children",
         "after": "in the garden.",
-        "hint": "is / are",
+        "hint": "Type one word.",
         "answers": [
           "are"
         ],
@@ -169,10 +169,10 @@
         "explain": "‘Children’ is a plural countable noun: ‘are’."
       },
       {
-        "use": "Many / much",
+        "use": "Fill the gap",
         "before": "How",
         "after": "brothers have you got?",
-        "hint": "many / much",
+        "hint": "Type one word.",
         "answers": [
           "many"
         ],
@@ -180,10 +180,10 @@
         "explain": "‘Brothers’ is plural countable: ‘how many’."
       },
       {
-        "use": "Many / much",
+        "use": "Fill the gap",
         "before": "How",
         "after": "money do you need?",
-        "hint": "many / much",
+        "hint": "Type one word.",
         "answers": [
           "much"
         ],
@@ -191,10 +191,10 @@
         "explain": "‘Money’ is uncountable: ‘how much’."
       },
       {
-        "use": "Many / much",
+        "use": "Fill the gap",
         "before": "There isn’t",
         "after": "milk in the fridge.",
-        "hint": "many / much",
+        "hint": "Type one word.",
         "answers": [
           "much"
         ],
@@ -202,10 +202,10 @@
         "explain": "‘Milk’ is uncountable: ‘much’."
       },
       {
-        "use": "Many / much",
+        "use": "Fill the gap",
         "before": "There aren’t",
         "after": "eggs left.",
-        "hint": "many / much",
+        "hint": "Type one word.",
         "answers": [
           "many"
         ],
@@ -213,10 +213,10 @@
         "explain": "‘Eggs’ is plural countable: ‘many’."
       },
       {
-        "use": "Unit word",
+        "use": "Fill the gap",
         "before": "Would you like a",
         "after": "of cake?",
-        "hint": "a unit word",
+        "hint": "Type one word.",
         "answers": [
           "piece",
           "slice",
@@ -226,10 +226,10 @@
         "explain": "Use a unit word to count uncountables: ‘a piece of cake’ (‘a slice of cake’ or ‘a bit of cake’ also work)."
       },
       {
-        "use": "Unit word",
+        "use": "Fill the gap",
         "before": "I’ll have a",
         "after": "of tea, please.",
-        "hint": "a container",
+        "hint": "Type one word.",
         "answers": [
           "cup",
           "mug",
@@ -247,7 +247,7 @@
     "subtitle": "Tap the words to build each sentence — 20 examples with countable and uncountable nouns.",
     "sentences": [
       {
-        "use": "Singular countable",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "have",
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "use": "Plural",
+        "use": "Put it in order",
         "tokens": [
           "She",
           "has",
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "use": "Plural",
+        "use": "Put it in order",
         "tokens": [
           "Many",
           "people",
@@ -274,7 +274,7 @@
         ]
       },
       {
-        "use": "Uncountable",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "need",
@@ -283,7 +283,7 @@
         ]
       },
       {
-        "use": "Uncountable",
+        "use": "Put it in order",
         "tokens": [
           "Can",
           "I",
@@ -293,7 +293,7 @@
         ]
       },
       {
-        "use": "Uncountable",
+        "use": "Put it in order",
         "tokens": [
           "He",
           "gave",
@@ -303,7 +303,7 @@
         ]
       },
       {
-        "use": "No plural",
+        "use": "Put it in order",
         "tokens": [
           "We",
           "bought",
@@ -312,7 +312,7 @@
         ]
       },
       {
-        "use": "Singular verb",
+        "use": "Put it in order",
         "tokens": [
           "The",
           "news",
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "use": "Singular verb",
+        "use": "Put it in order",
         "tokens": [
           "My",
           "hair",
@@ -330,7 +330,7 @@
         ]
       },
       {
-        "use": "Singular verb",
+        "use": "Put it in order",
         "tokens": [
           "Money",
           "is",
@@ -338,7 +338,7 @@
         ]
       },
       {
-        "use": "Many / much",
+        "use": "Put it in order",
         "tokens": [
           "How",
           "many",
@@ -348,7 +348,7 @@
         ]
       },
       {
-        "use": "Many / much",
+        "use": "Put it in order",
         "tokens": [
           "How",
           "much",
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "use": "Many / much",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "don’t",
@@ -369,7 +369,7 @@
         ]
       },
       {
-        "use": "Many / much",
+        "use": "Put it in order",
         "tokens": [
           "There",
           "aren’t",
@@ -378,7 +378,7 @@
         ]
       },
       {
-        "use": "Unit word",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "ate",
@@ -389,7 +389,7 @@
         ]
       },
       {
-        "use": "Unit word",
+        "use": "Put it in order",
         "tokens": [
           "She",
           "drank",
@@ -400,7 +400,7 @@
         ]
       },
       {
-        "use": "Unit word",
+        "use": "Put it in order",
         "tokens": [
           "It’s",
           "a",
@@ -410,7 +410,7 @@
         ]
       },
       {
-        "use": "Both",
+        "use": "Put it in order",
         "tokens": [
           "I’d",
           "like",
@@ -419,7 +419,7 @@
         ]
       },
       {
-        "use": "Both",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "don’t",
@@ -428,7 +428,7 @@
         ]
       },
       {
-        "use": "Plural verb",
+        "use": "Put it in order",
         "tokens": [
           "The",
           "children",
@@ -530,12 +530,12 @@
   },
   "timedMC": {
     "title": "Beat the clock",
-    "subtitle": "15 seconds per question. Can you count it? → a/an, plural, many. Can’t count it? → no plural, much, some.",
+    "subtitle": "15 seconds per question. Choose the correct answer.",
     "timeLimit": 15,
     "showHintVerb": false,
     "questions": [
       {
-        "use": "Uncountable",
+        "use": "Choose the answer",
         "text": "I need <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> advice about my exams.",
         "choices": [
           "some",
@@ -553,7 +553,7 @@
         "explain": "Uncountable: some advice."
       },
       {
-        "use": "No plural",
+        "use": "Choose the answer",
         "text": "We have a lot of <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to do this weekend.",
         "choices": [
           "some homework",
@@ -571,7 +571,7 @@
         "explain": "‘Homework’ is uncountable: no -s."
       },
       {
-        "use": "Singular verb",
+        "use": "Choose the answer",
         "text": "The information on the website <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> wrong.",
         "choices": [
           "are",
@@ -589,7 +589,7 @@
         "explain": "Uncountable + singular verb: is."
       },
       {
-        "use": "Many / much",
+        "use": "Choose the answer",
         "text": "How <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> time do we have?",
         "choices": [
           "many",
@@ -607,7 +607,7 @@
         "explain": "Uncountable: how much."
       },
       {
-        "use": "Many / much",
+        "use": "Choose the answer",
         "text": "How <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> students are in your class?",
         "choices": [
           "much",
@@ -625,7 +625,7 @@
         "explain": "Plural countable: how many."
       },
       {
-        "use": "Plural",
+        "use": "Choose the answer",
         "text": "There are five <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> in the photo.",
         "choices": [
           "woman",
@@ -643,7 +643,7 @@
         "explain": "Irregular plural: women."
       },
       {
-        "use": "Unit word",
+        "use": "Choose the answer",
         "text": "Could I have a <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of bread?",
         "choices": [
           "bread",
@@ -661,7 +661,7 @@
         "explain": "Unit word: a slice of bread."
       },
       {
-        "use": "Uncountable",
+        "use": "Choose the answer",
         "text": "Our hotel room had beautiful old <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "furniture",
@@ -679,7 +679,7 @@
         "explain": "‘Furniture’ is uncountable."
       },
       {
-        "use": "Singular verb",
+        "use": "Choose the answer",
         "text": "Mathematics <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> my favourite subject.",
         "choices": [
           "are",
@@ -697,7 +697,7 @@
         "explain": "Mathematics is singular."
       },
       {
-        "use": "Both",
+        "use": "Choose the answer",
         "text": "I’ve been to Italy three <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "time",
@@ -715,7 +715,7 @@
         "explain": "Occasion = countable: three times."
       },
       {
-        "use": "Both",
+        "use": "Choose the answer",
         "text": "Two <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>, please — with milk.",
         "choices": [
           "coffees",
@@ -733,7 +733,7 @@
         "explain": "Two cups: two coffees."
       },
       {
-        "use": "Many / much",
+        "use": "Choose the answer",
         "text": "There isn’t <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> traffic on Sundays.",
         "choices": [
           "many",
@@ -751,7 +751,7 @@
         "explain": "Uncountable: not much traffic."
       },
       {
-        "use": "Uncountable",
+        "use": "Choose the answer",
         "text": "She has long, dark <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.",
         "choices": [
           "hairs",
@@ -769,7 +769,7 @@
         "explain": "Head hair: uncountable."
       },
       {
-        "use": "Singular countable",
+        "use": "Choose the answer",
         "text": "I’m looking for <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> job.",
         "choices": [
           "a",
@@ -787,7 +787,7 @@
         "explain": "Singular countable: a job."
       },
       {
-        "use": "Uncountable",
+        "use": "Choose the answer",
         "text": "I’m looking for <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> work.",
         "choices": [
           "a",
@@ -805,7 +805,7 @@
         "explain": "Uncountable: work."
       },
       {
-        "use": "Unit word",
+        "use": "Choose the answer",
         "text": "He bought two <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of milk.",
         "choices": [
           "milks",
@@ -823,7 +823,7 @@
         "explain": "Two bottles of milk."
       },
       {
-        "use": "Which",
+        "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
           "The news is surprising.",
@@ -841,7 +841,7 @@
         "explain": "‘News’ = uncountable + singular verb."
       },
       {
-        "use": "Which",
+        "use": "Choose the answer",
         "text": "Which sentence is correct?",
         "choices": [
           "How many luggage have you got?",
@@ -859,7 +859,7 @@
         "explain": "Uncountable: how much luggage."
       },
       {
-        "use": "Plural",
+        "use": "Choose the answer",
         "text": "I need new <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> — mine are broken.",
         "choices": [
           "glass",
@@ -877,7 +877,7 @@
         "explain": "Spectacles: glasses (always plural)."
       },
       {
-        "use": "Uncountable",
+        "use": "Choose the answer",
         "text": "Let me give you <span class=\"blank\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> help with that.",
         "choices": [
           "a",
@@ -1206,9 +1206,9 @@
     "items": [
       {
         "type": "fill",
-        "use": "Uncountable",
+        "use": "Fill the gap",
         "sentText": "I need {{blank}} help with my project.",
-        "hint": "a / some",
+        "hint": "Type one word.",
         "answers": [
           "some"
         ],
@@ -1218,9 +1218,9 @@
       },
       {
         "type": "fill",
-        "use": "Many / much",
+        "use": "Fill the gap",
         "sentText": "How {{blank}} eggs do we need?",
-        "hint": "many / much",
+        "hint": "Type one word.",
         "answers": [
           "many"
         ],
@@ -1230,9 +1230,9 @@
       },
       {
         "type": "fill",
-        "use": "Singular verb",
+        "use": "Fill the gap",
         "sentText": "The news {{blank}} on TV now.",
-        "hint": "is / are",
+        "hint": "Type one word.",
         "answers": [
           "is"
         ],
@@ -1242,9 +1242,9 @@
       },
       {
         "type": "fill",
-        "use": "Plural",
+        "use": "Fill the gap",
         "sentText": "I saw three {{blank}} in the barn.",
-        "hint": "mouse",
+        "hint": "(mouse)",
         "answers": [
           "mice"
         ],
@@ -1254,7 +1254,7 @@
       },
       {
         "type": "order",
-        "use": "Uncountable",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "need",
@@ -1264,7 +1264,7 @@
       },
       {
         "type": "order",
-        "use": "Many / much",
+        "use": "Put it in order",
         "tokens": [
           "How",
           "much",
@@ -1275,7 +1275,7 @@
       },
       {
         "type": "order",
-        "use": "Unit word",
+        "use": "Put it in order",
         "tokens": [
           "I",
           "want",
@@ -1287,7 +1287,7 @@
       },
       {
         "type": "order",
-        "use": "Plural",
+        "use": "Put it in order",
         "tokens": [
           "There",
           "are",
@@ -1373,7 +1373,7 @@
       },
       {
         "type": "mc",
-        "use": "Uncountable",
+        "use": "Choose the answer",
         "text": "There’s {{blank}} cheese in the fridge.",
         "choices": [
           "a",
@@ -1392,7 +1392,7 @@
       },
       {
         "type": "mc",
-        "use": "Many / much",
+        "use": "Choose the answer",
         "text": "We didn’t take {{blank}} photos.",
         "choices": [
           "many",
@@ -1411,7 +1411,7 @@
       },
       {
         "type": "mc",
-        "use": "Singular verb",
+        "use": "Choose the answer",
         "text": "Physics {{blank}} difficult for me.",
         "choices": [
           "are",
@@ -1430,7 +1430,7 @@
       },
       {
         "type": "mc",
-        "use": "Unit word",
+        "use": "Choose the answer",
         "text": "He ate three {{blank}} of chocolate.",
         "choices": [
           "chocolates",
@@ -1449,7 +1449,7 @@
       },
       {
         "type": "error",
-        "use": "Plural uncountable",
+        "use": "Spot the mistake",
         "tokens": [
           "I",
           "need",
@@ -1462,7 +1462,7 @@
       },
       {
         "type": "error",
-        "use": "A + uncountable",
+        "use": "Spot the mistake",
         "tokens": [
           "She",
           "gave",
@@ -1477,7 +1477,7 @@
       },
       {
         "type": "error",
-        "use": "Much + countable",
+        "use": "Spot the mistake",
         "tokens": [
           "There",
           "are",
@@ -1491,7 +1491,7 @@
       },
       {
         "type": "error",
-        "use": "Plural verb",
+        "use": "Spot the mistake",
         "tokens": [
           "My",
           "hair",
