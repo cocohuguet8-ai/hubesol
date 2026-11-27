@@ -85,7 +85,7 @@ Both types are often negative, because we imagine the opposite of reality.
 
 ## *Could* and *might*
 
-### Ability or possibility
+Use *could* for ability and *might* for possibility in the result clause.
 
 - If I'd learnt to drive, I **could take** you home now.
 - If you weren't so shy, you **might have made** more friends at camp.
