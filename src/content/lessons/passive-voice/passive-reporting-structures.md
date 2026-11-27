@@ -52,6 +52,7 @@ The easiest pattern: the second clause stays the same.
 - **It is believed that** the thief escaped by car.
 - **It was reported that** two people were injured.
 - **It is expected that** prices will rise.
+- **It is rumoured that** the singer is going to retire. (*rumour* = a story that may not be true)
 
 > ⚠️ Typical error: ~~Is said that the castle is haunted.~~ → English needs a subject: *It is said that…*
 
@@ -111,6 +112,6 @@ With *there*, use **there + passive + to be**:
 
 **3. Mixing the patterns.** *~~It is said to be that…~~* / *~~He is said that he is…~~* → choose one: **It is said that he is…** or **He is said to be…**
 
-**4. *Say* with a person object.** *~~He is said me…~~* — reporting passives don't take a person object.
+**4. *Say* with a person object.** *~~He is said me that he is rich.~~* — reporting passives don’t take a person object → **It is said that he is rich.** / **He is said to be rich.**
 
 **Pro tip:** if the second action happened **before** the reporting, you need **to have + participle**.
