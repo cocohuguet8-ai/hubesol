@@ -927,29 +927,33 @@
           "Is",
           "there",
           "a",
-          "books",
-          "shop",
+          "station",
+          "bus",
           "near",
           "here?"
         ],
         "errorIndex": 3,
-        "correction": "book",
-        "type": "Plural first",
-        "message": "First noun singular: ‘book shop / bookshop’."
+        "correction": "bus station",
+        "type": "Word order",
+        "message": "The first noun tells us the type: ‘a bus station’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "tokens": [
+          "Can",
           "I",
-          "need",
+          "have",
           "a",
-          "new",
-          "teeth",
-          "brush."
+          "glass",
+          "water?"
         ],
         "errorIndex": 4,
-        "correction": "toothbrush.",
-        "type": "Plural first",
-        "message": "‘Teeth brush’ should be ‘toothbrush’: the first part is singular and the word is written as one.",
+        "correction": "glass of water?",
+        "type": "Compound vs of",
+        "message": "For the contents we use ‘of’: ‘a glass of water’.",
         "errorSpan": [
           4,
           5
@@ -969,30 +973,34 @@
       },
       {
         "tokens": [
-          "She",
-          "has",
-          "a",
-          "two-years-old",
-          "cat."
+          "Two",
+          "passer-bys",
+          "saw",
+          "the",
+          "accident."
         ],
-        "errorIndex": 3,
-        "correction": "two-year-old",
-        "type": "Plural first",
-        "message": "‘Two-year-old’: singular."
+        "errorIndex": 1,
+        "correction": "passers-by",
+        "type": "Hyphen plural",
+        "message": "Plural on the main word: ‘passers-by’."
       },
       {
         "tokens": [
-          "We",
-          "stayed",
-          "in",
-          "a",
-          "three-stars",
-          "hotel."
+          "She",
+          "works",
+          "at",
+          "the",
+          "office",
+          "post."
         ],
         "errorIndex": 4,
-        "correction": "three-star",
-        "type": "Plural first",
-        "message": "‘Three-star hotel’: singular."
+        "correction": "post office.",
+        "type": "Word order",
+        "message": "The first noun tells us the type: ‘the post office’.",
+        "errorSpan": [
+          4,
+          5
+        ]
       },
       {
         "tokens": [
@@ -1063,16 +1071,17 @@
       },
       {
         "tokens": [
-          "Where",
-          "is",
-          "the",
-          "tickets",
-          "office?"
+          "She",
+          "sent",
+          "me",
+          "a",
+          "birth",
+          "card."
         ],
-        "errorIndex": 3,
-        "correction": "ticket",
-        "type": "Plural first",
-        "message": "First noun singular: ‘the ticket office’."
+        "errorIndex": 4,
+        "correction": "birthday",
+        "type": "Wrong compound",
+        "message": "‘Birthday card’."
       },
       {
         "tokens": [
@@ -1095,18 +1104,17 @@
       },
       {
         "tokens": [
-          "Leave",
-          "your",
-          "car",
-          "in",
+          "Let’s",
+          "meet",
+          "at",
           "the",
-          "cars",
-          "park."
+          "shop",
+          "centre."
         ],
-        "errorIndex": 5,
-        "correction": "car",
-        "type": "Plural first",
-        "message": "First noun singular: ‘car park’."
+        "errorIndex": 4,
+        "correction": "shopping",
+        "type": "Wrong compound",
+        "message": "‘Shopping centre’."
       },
       {
         "tokens": [
@@ -1490,17 +1498,21 @@
       },
       {
         "type": "error",
-        "use": "Plural first",
+        "use": "Word order",
         "tokens": [
-          "I",
-          "found",
-          "a",
-          "ten-euros",
-          "note."
+          "She",
+          "opened",
+          "the",
+          "door",
+          "front."
         ],
         "errorIndex": 3,
-        "correction": "ten-euro",
-        "message": "‘Ten-euro note’."
+        "correction": "front door.",
+        "message": "The first noun tells us the type: ‘the front door’.",
+        "errorSpan": [
+          3,
+          4
+        ]
       },
       {
         "type": "error",
