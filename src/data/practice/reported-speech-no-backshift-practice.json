@@ -1502,21 +1502,21 @@
       {
         "type": "rule",
         "use": "Rule",
-        "text": "She said she lived in Rome — but she moved last month. Is backshift…",
+        "text": "Last year she said, “I live in Rome.” Since then she has moved to Milan. When you report it now, backshift (“she lived in Rome”) is…",
         "choices": [
           "impossible",
-          "wrong",
+          "optional",
           "necessary",
           "only for questions"
         ],
         "correct": 2,
         "wrongReasons": [
           "It’s not impossible: it’s needed.",
-          "It’s correct.",
+          "It’s only optional if the situation is still true, and here it isn’t.",
           "",
           "It applies to statements too."
         ],
-        "explain": "No longer true → backshift is necessary."
+        "explain": "No longer true → backshift is necessary: she lived in Rome."
       },
       {
         "type": "mc",
