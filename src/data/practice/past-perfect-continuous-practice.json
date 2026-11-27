@@ -1579,23 +1579,22 @@
       },
       {
         "tokens": [
-          "By",
-          "Friday",
-          "she",
+          "The",
+          "roads",
+          "were",
+          "icy",
+          "because",
+          "it",
           "had",
           "been",
-          "completing",
-          "the",
-          "course."
+          "snow",
+          "all",
+          "night."
         ],
-        "errorIndex": 5,
-        "correction": "completed",
-        "type": "Completed action",
-        "message": "A completed earlier action: use the past perfect (had + past participle).",
-        "errorSpan": [
-          4,
-          5
-        ]
+        "errorIndex": 8,
+        "correction": "snowing",
+        "type": "Wrong form",
+        "message": "After ‘had been’ use the -ing form."
       },
       {
         "tokens": [
