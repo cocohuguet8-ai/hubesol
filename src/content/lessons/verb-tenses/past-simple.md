@@ -130,7 +130,7 @@ The ending is said in three ways. Only /ɪd/ adds a syllable.
 
 **1. Keeping the past form after did/didn't.** The most frequent past-simple error. After *did* or *didn't*, the main verb goes back to its base form, because *did* already shows the past. *~~Did you went?~~* → **Did you go?** and *~~I didn't saw it~~* → **I didn't see it.**
 
-**2. Inventing regular forms for irregular verbs.** The *-ed* rule does not apply to irregular verbs, and many of the most common English verbs are irregular. *~~goed, buyed, thinked~~* → **went, bought, thought.**
+**2. Inventing regular forms for irregular verbs.** The *-ed* rule does not apply to irregular verbs, and many of the most common English verbs are irregular. ✗ *~~goed, buyed, thinked~~* → ✓ **went, bought, thought.**
 
 **3. Using the past simple instead of the present perfect (and vice versa).** If you say *when* (a finished time), use the past simple. For an experience with no time, or a result that matters now, use the present perfect. *~~I have called him yesterday~~* → **I called him yesterday.**
 
