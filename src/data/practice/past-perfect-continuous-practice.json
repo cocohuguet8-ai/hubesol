@@ -1365,20 +1365,19 @@
       },
       {
         "tokens": [
-          "The",
-          "ground",
-          "was",
-          "wet",
-          "because",
-          "it",
-          "had",
+          "Did",
+          "you",
           "been",
-          "rain."
+          "waiting",
+          "long",
+          "when",
+          "I",
+          "arrived?"
         ],
-        "errorIndex": 8,
-        "correction": "raining.",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 0,
+        "correction": "Had",
+        "type": "Wrong auxiliary",
+        "message": "A question about duration before a past point starts with ‘Had’, not ‘Did’: Had + you + been + -ing?"
       },
       {
         "tokens": [
@@ -1423,52 +1422,56 @@
           "He",
           "had",
           "been",
-          "study",
+          "studying",
           "English",
-          "for",
+          "since",
           "two",
           "years."
         ],
-        "errorIndex": 3,
-        "correction": "studying",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 5,
+        "correction": "for",
+        "type": "for / since",
+        "message": "‘Two years’ is a length of time, so use ‘for’. ‘Since’ needs a starting point, like ‘since 2020’."
       },
       {
         "tokens": [
-          "My",
-          "hands",
-          "were",
-          "dirty",
-          "—",
-          "I",
+          "We",
           "had",
           "been",
-          "work",
-          "in",
-          "the",
-          "garden."
+          "not",
+          "working",
+          "for",
+          "long."
         ],
-        "errorIndex": 8,
-        "correction": "working",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 3,
+        "errorSpan": [
+          1,
+          3
+        ],
+        "correction": "hadn’t been",
+        "type": "Negative form",
+        "message": "The negative goes after ‘had’: hadn’t been working (or had not been working)."
       },
       {
         "tokens": [
-          "Had",
-          "you",
-          "been",
-          "wait",
+          "How",
           "long",
-          "when",
-          "I",
-          "arrived?"
+          "they",
+          "had",
+          "been",
+          "waiting",
+          "for",
+          "the",
+          "bus?"
         ],
-        "errorIndex": 3,
-        "correction": "waiting",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 2,
+        "errorSpan": [
+          2,
+          3
+        ],
+        "correction": "had they",
+        "type": "Question order",
+        "message": "In a question, ‘had’ goes before the subject: How long had they been waiting?"
       },
       {
         "tokens": [
@@ -1489,39 +1492,51 @@
       },
       {
         "tokens": [
-          "The",
-          "kids",
-          "were",
-          "sleepy",
-          "because",
-          "they",
-          "had",
-          "been",
-          "watched",
-          "films",
-          "all",
-          "night."
-        ],
-        "errorIndex": 8,
-        "correction": "watching",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
-      },
-      {
-        "tokens": [
           "She",
           "had",
           "been",
-          "live",
+          "living",
           "abroad",
           "for",
           "five",
+          "years",
+          "when",
+          "she",
+          "will",
+          "come",
+          "home."
+        ],
+        "errorIndex": 10,
+        "errorSpan": [
+          10,
+          11
+        ],
+        "correction": "came",
+        "type": "Wrong tense",
+        "message": "The other past action is in the past simple: ‘when she came home’, not ‘will come’."
+      },
+      {
+        "tokens": [
+          "The",
+          "old",
+          "house",
+          "had",
+          "been",
+          "belonging",
+          "to",
+          "her",
+          "family",
+          "for",
           "years."
         ],
-        "errorIndex": 3,
-        "correction": "living",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 5,
+        "errorSpan": [
+          3,
+          5
+        ],
+        "correction": "had belonged",
+        "type": "State verb",
+        "message": "‘Belong’ is a state verb: use had + past participle, ‘had belonged’."
       },
       {
         "tokens": [
@@ -1563,19 +1578,20 @@
       },
       {
         "tokens": [
-          "He",
-          "had",
+          "She",
           "been",
-          "play",
-          "the",
-          "guitar",
+          "waiting",
           "for",
-          "years."
+          "an",
+          "hour",
+          "when",
+          "he",
+          "arrived."
         ],
-        "errorIndex": 3,
-        "correction": "playing",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 1,
+        "correction": "had been",
+        "type": "Missing ‘had’",
+        "message": "The past perfect continuous needs ‘had’ before ‘been’: had been waiting."
       },
       {
         "tokens": [
@@ -1621,18 +1637,21 @@
       },
       {
         "tokens": [
-          "She",
+          "We",
           "had",
           "been",
-          "waited",
+          "hiking",
           "for",
-          "an",
-          "hour."
+          "lunch",
+          "when",
+          "the",
+          "storm",
+          "hit."
         ],
-        "errorIndex": 3,
-        "correction": "waiting",
-        "type": "Wrong form",
-        "message": "After ‘had been’ use the -ing form."
+        "errorIndex": 4,
+        "correction": "since",
+        "type": "for / since",
+        "message": "‘Lunch’ is a starting point, not a length of time, so use ‘since’."
       }
     ]
   },
