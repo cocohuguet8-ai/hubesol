@@ -943,17 +943,13 @@
           "need",
           "a",
           "new",
-          "teeth",
-          "brush."
+          "shoes",
+          "rack."
         ],
         "errorIndex": 4,
-        "correction": "toothbrush.",
+        "correction": "shoe",
         "type": "Plural first",
-        "message": "‘Teeth brush’ should be ‘toothbrush’: the first part is singular and the word is written as one.",
-        "errorSpan": [
-          4,
-          5
-        ]
+        "message": "First noun singular: ‘shoe rack’."
       },
       {
         "tokens": [
