@@ -368,6 +368,12 @@ const uid = 'lc';
       return "The first " + (i === 1 ? "word is" : i + " words are") + " right (“" + correctWords.slice(0, i).join(' ') + "”). Check what comes next.";
     }
 
+    // A sentence-specific hint (orderHint) replaces the generic fallback messages.
+    function pickOrderFeedback(diag, hint) {
+      if (hint) return hint;
+      return diag;
+    }
+
     const WH_WORDS = ['what', 'when', 'where', 'why', 'who', 'whom', 'whose', 'which', 'how'];
 
     function diagnoseOrder(builtWords, correctWords) {
@@ -702,7 +708,7 @@ const uid = 'lc';
         feedback.innerHTML = '<b>Correct.</b> That’s the right word order.';
       } else {
         feedback.className = 'practice-feedback show bad';
-        feedback.innerHTML = '<b>Not quite.</b> ' + diagnoseOrder(builtWords, it.tokens) + ' The correct sentence is: “' + it.tokens.join(' ') + '”';
+        feedback.innerHTML = '<b>Not quite.</b> ' + pickOrderFeedback(diagnoseOrder(builtWords, it.tokens), it.orderHint) + ' The correct sentence is: “' + it.tokens.join(' ') + '”';
       }
       const endPunct = (it.tokens[it.tokens.length - 1].match(/[.?!]+$/) || [''])[0];
       const yoursSentence = builtWords.map((w) => w.replace(/[.?!]+$/, '')).join(' ');
