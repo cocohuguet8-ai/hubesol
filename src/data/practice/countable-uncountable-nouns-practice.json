@@ -459,7 +459,7 @@
         "right": "countable"
       },
       {
-        "left": "fruit (in general)",
+        "left": "rice",
         "right": "uncountable"
       },
       {
@@ -487,7 +487,7 @@
         "right": "uncountable"
       },
       {
-        "left": "tip",
+        "left": "pen",
         "right": "countable"
       },
       {
@@ -495,7 +495,7 @@
         "right": "uncountable"
       },
       {
-        "left": "exercise (in a book)",
+        "left": "book",
         "right": "countable"
       },
       {
@@ -519,7 +519,7 @@
         "right": "uncountable"
       },
       {
-        "left": "report",
+        "left": "bottle",
         "right": "countable"
       },
       {
@@ -902,61 +902,60 @@
     "items": [
       {
         "tokens": [
-          "She",
-          "gave",
-          "me",
-          "some",
-          "useful",
-          "advices."
+          "Her",
+          "advice",
+          "were",
+          "really",
+          "useful."
         ],
-        "errorIndex": 5,
-        "correction": "advice.",
-        "type": "Plural uncountable",
-        "message": "‘Advice’ is uncountable: no -s."
+        "errorIndex": 2,
+        "correction": "was",
+        "type": "Plural verb",
+        "message": "‘Advice’ is uncountable, so it takes a singular verb: ‘Her advice was really useful.’"
       },
       {
         "tokens": [
-          "We",
-          "bought",
-          "new",
-          "furnitures",
-          "for",
-          "the",
-          "living",
-          "room."
+          "How",
+          "many",
+          "furniture",
+          "do",
+          "we",
+          "need?"
         ],
-        "errorIndex": 3,
-        "correction": "furniture",
-        "type": "Plural uncountable",
-        "message": "‘Furniture’ is uncountable: no -s."
+        "errorIndex": 1,
+        "correction": "much",
+        "type": "Many + uncountable",
+        "message": "‘Furniture’ is uncountable: ‘How much furniture…?’"
       },
       {
         "tokens": [
-          "I",
-          "have",
+          "I’ve",
+          "got",
           "a",
-          "lot",
-          "of",
-          "homeworks."
+          "homework",
+          "to",
+          "finish",
+          "tonight."
         ],
-        "errorIndex": 5,
-        "correction": "homework.",
-        "type": "Plural uncountable",
-        "message": "‘Homework’ is uncountable: no -s."
+        "errorIndex": 2,
+        "correction": "some",
+        "type": "A + uncountable",
+        "message": "‘Homework’ is uncountable: ‘some homework’, not ‘a homework’."
       },
       {
         "tokens": [
-          "Can",
-          "you",
-          "give",
-          "me",
-          "more",
-          "informations?"
+          "The",
+          "information",
+          "on",
+          "the",
+          "website",
+          "are",
+          "wrong."
         ],
         "errorIndex": 5,
-        "correction": "information?",
-        "type": "Plural uncountable",
-        "message": "‘Information’ is uncountable: no -s."
+        "correction": "is",
+        "type": "Plural verb",
+        "message": "‘Information’ is uncountable, so it takes a singular verb: ‘The information … is wrong.’"
       },
       {
         "tokens": [
@@ -1011,7 +1010,7 @@
         "errorIndex": 2,
         "correction": "some",
         "type": "A + uncountable",
-        "message": "‘News’ is uncountable: ‘some good news’ (or ‘a piece of good news’)."
+        "message": "‘Information’ is uncountable: ‘some information’ (or ‘a piece of information’)."
       },
       {
         "tokens": [
@@ -1025,7 +1024,7 @@
         "errorIndex": 2,
         "correction": "is",
         "type": "Plural verb",
-        "message": "‘Information’ is uncountable: ‘some information’ (or ‘a piece of information’)."
+        "message": "‘News’ is uncountable, so it takes a singular verb: ‘The news is on at nine.’"
       },
       {
         "tokens": [
@@ -1124,28 +1123,28 @@
       {
         "tokens": [
           "Two",
-          "childs",
+          "child",
           "are",
           "playing",
           "outside."
         ],
         "errorIndex": 1,
         "correction": "children",
-        "type": "Wrong plural",
-        "message": "Irregular plural: ‘children’."
+        "type": "Singular after number",
+        "message": "After ‘two’ use the plural: ‘children’."
       },
       {
         "tokens": [
           "There",
           "are",
           "four",
-          "womens",
+          "woman",
           "waiting."
         ],
         "errorIndex": 3,
         "correction": "women",
-        "type": "Wrong plural",
-        "message": "Irregular plural: ‘woman’ → ‘women’.",
+        "type": "Singular after number",
+        "message": "After ‘four’ use the plural: ‘women’.",
         "errorSpan": [
           3,
           3
@@ -1449,16 +1448,17 @@
       },
       {
         "type": "error",
-        "use": "Plural uncountable",
+        "use": "Plural verb",
         "tokens": [
-          "I",
-          "need",
-          "some",
-          "informations."
+          "This",
+          "information",
+          "are",
+          "very",
+          "useful."
         ],
-        "errorIndex": 3,
-        "correction": "information.",
-        "message": "‘Information’ has no plural."
+        "errorIndex": 2,
+        "correction": "is",
+        "message": "‘Information’ is uncountable, so it takes ‘is’."
       },
       {
         "type": "error",
